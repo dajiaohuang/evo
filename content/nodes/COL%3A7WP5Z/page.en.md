@@ -1,5 +1,5 @@
-## Names used in the historical records {#s-f7914dc562}
-The pinned COL26.8 entry is Psilopogon corvinus (7WP5Z). AVONET v7's 2020 BirdLife row 9682 and eBird's 2021 row 8649 use that name and Avibase ID AVIBASE-2A5A8428. BirdTree row 8604 instead uses Megalaima corvina, matched as 1BL to 1BT; COL's older-combination record 7VSVR points to the accepted entry. These crosswalks locate the historical rows, but do not show that each source used the same species boundary.
+## A name fixed to COL26.8 {#s-f7914dc562}
+Catalogue of Life release COL26.8 records Psilopogon corvinus (Temminck, 1831) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## What the measured birds contribute {#s-d9b9fc2228}
 Four birds contribute to the morphology row—two females and two males—and all four have complete measurement sets. Their means are 29.4 mm for nostril-to-tip beak length, 13.3 mm for beak width, 32.8 mm for tarsus, and 121.8 mm for unflattened wing. The hand-wing index is 18.3: Kipp's distance divided by wing length, multiplied by 100. It is a comparative wing proportion, not flight speed. Inference=NO does not guarantee the same sample count for every field, and beak width alone does not test fruit handling or pecking performance.

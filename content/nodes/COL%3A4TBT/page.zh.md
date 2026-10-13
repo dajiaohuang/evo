@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-149b53dc6e}
+## 记录分类与直接上级关系 {#s-149b53dc6e}
+COL26.8 将 Hapaloptila 记录为属；其直接上级记录为 Bucconidae。
+
 本批 Hapaloptila 的 AVONET 路线只有一条测量物种记录：Hapaloptila castanea。固定 COL26.8 将其归入本属；生物学记录仍保留 AVONET 的历史名称与取样范围。
 
 ## 记录之间有什么差别 {#s-a57b0c93ad}

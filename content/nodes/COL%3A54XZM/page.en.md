@@ -8,5 +8,5 @@ The paper mapped separated northern and southern populations in Central Sulawesi
 The two sampled populations differed in body size while sharing several diagnostic traits. The authors caution through their mapped limits that the southern extent and neighboring boundaries were not fully known.
 
 ## Evidence limits {#s-bc9c1f6cda}
-Distribution and population contrasts are bounded to the authors’ survey localities; the paper does not establish present-day range limits. This page is.
+Distribution and population contrasts are bounded to the authors’ survey localities; the paper does not establish present-day range limits.
 

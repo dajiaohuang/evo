@@ -1,18 +1,50 @@
-## 这个名称对应哪些化石记录 {#s-7db108375e}
-Neuquensaurus australis 在固定 PBDB 恐龙及其鸟类分支工作名录中为接受种，数据库父级为 Neuquensaurus。本页导读 6 条可用种级出现记录，涉及 5 个采集记录和 5 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。其中 3 条保留旧鉴定名称或名称组合与数据库接受名的对应，原字符串另存，不把重组名当作新的独立发现。
+## 这组记录包含什么 {#s-7db108375e}
+Neuquensaurus australis 在 PBDB 快照中对应分类条目 txn:64314。这份存档导读包含 6 条选取的出现记录，关联 5 个不同的 PBDB 采集记录编号和 5 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 从具名采集地和地层开始 {#s-222d93b2c3}
-采集记录 Sierra Roca, Río Neuquen（Neuquén），地区代码 AR，地层名称 Bajo de la Carpa；数据库年代范围 85.7–83.6 Ma，早端地质时段 Santonian。采集记录 Cinco Saltos, Angostura Colorada（Río Negro），地区代码 AR，地层名称 Anacleto；数据库年代范围 83.6–72.2 Ma，早端地质时段 Early Campanian、晚端时段 Middle Campanian。采集记录 Neuquensaurus site, Cinco Saltos（Río Negro），地区代码 AR，地层名称 Anacleto；数据库年代范围 83.6–72.2 Ma，早端地质时段 Early Campanian、晚端时段 Middle Campanian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+## 具名地点与采集记录 {#s-222d93b2c3}
+存档导读包含 6 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 这些记录的年代边界 {#s-c47de61090}
-本页所选出现记录的年代外包区间为 85.7–66 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
+- 出现记录 occ:508085；PBDB 采集记录 col:51569。 地点字段 cnm=Sierra Roca, Río Neuquen；地点分区字段 cc2=AR，stp=Neuquén。 记录年代界：eag 85.7 Ma; lag 83.6 Ma；PBDB 年代区间字段 oei=Santonian。 地层字段 sfm=Bajo de la Carpa。 记录署名 Lydekker 1893；PBDB 引文编号 ref:36798。
 
-## 保存环境与生活环境分开阅读 {#s-dc09e4d264}
-Sierra Roca, Río Neuquen 的采集环境标签为 陆相沉积环境，类型未定（terrestrial indet.）；集合保存方式标签为 实体化石（body）。Cinco Saltos, Angostura Colorada 的采集环境标签为 河流沉积环境，类型未定（fluvial indet.）；集合保存方式标签为 实体化石（body）。Neuquensaurus site, Cinco Saltos 的采集环境标签为 泛滥平原沉积环境，来源带引号（"floodplain"）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+formation assignment questionable, may be Anacleto Fm.; Río Colorado Subgroup
 
-## 沿采集记录追到文献 {#s-c0e56d2c19}
-Sierra Roca, Río Neuquen 的数据库引文署名为 Lydekker（1893），编号 ref:36798。Cinco Saltos, Angostura Colorada 的数据库引文署名为 Huene（1929），编号 ref:59060。Neuquensaurus site, Cinco Saltos 的数据库引文署名为 Salgado and Calvo（1999），编号 ref:85645。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+"Sierra Roca", above R bank of Río Neuquén shortly before its confluence with the Río Limay, between 2 and 4 km before the railway bridge that crosses this river, very close to Neuquén city.
 
-## 资料边界 {#s-9bfb356d7c}
-本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 3538 项恐龙及其鸟类分支工作名录中，当前名称一致、父链可追到已记录 Dinosauria 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+- 出现记录 occ:565611；PBDB 采集记录 col:59147。 地点字段 cnm=Bermúdez, Drable-Palmitas；地点分区字段 cc2=UY，stp=Soriano。 记录年代界：eag 72.2 Ma; lag 66 Ma；PBDB 年代区间字段 oei=Maastrichtian。 地层字段 sfm=Asencio。 记录署名 Huene 1929；PBDB 引文编号 ref:16890。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+"upper Senonian"
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+SE of Palmitas railway station, 10 km from Drable railway station, 80 km from Mercedes & 220 km from Montevideo. Between upper run of the Arroyo Maciel and its northern tributary, Arroyo La Lancha, in open fields. 10 km W of José E. Rodó. Powell (2003): near village of Bermúdez, among arroyos La Lancha and Maceil, 35 km from Palmitas station. On lands of José Gallo. Mones (1997): includes arroyo Corralito
+
+- 出现记录 occ:508092；PBDB 采集记录 col:51573。 地点字段 cnm=Cinco Saltos, Angostura Colorada；地点分区字段 cc2=AR，stp=Río Negro，cny=General Roca。 记录年代界：eag 83.6 Ma; lag 72.2 Ma；PBDB 年代区间字段 oei=Early Campanian，oli=Middle Campanian。 地层字段 sfm=Anacleto。 记录署名 Huene 1929；PBDB 引文编号 ref:59060。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Gallina and Otero (2015) argue that the type specimen of Laplatasaurus araukanicus comes from top of the Anacleto Formation, which corresponds to the dinosaur-bearing "bed d" of Wichmann (1922)
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Some distance from the L bank of the canal passing W of city of Cinco Saltos, located 3 km W of the city, next to the INDUPA (Patagonic Industries) quarry [Note that in images these locations appear to be east of the city, MTC]
+
+## 出现记录的年代界 {#s-c47de61090}
+在这组 PBDB 记录中，最大记录 eag=85.7 Ma，见 occ:508085；最小记录 lag=66 Ma，见 occ:565611。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-dc09e4d264}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:508085：PBDB 原鉴定字段 idn=Titanosaurus australis n. sp.；PBDB 分类名称字段 tna=Neuquensaurus australis；材料说明字段 ocm=MLP.Ly.2/3/4/5/6；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=-68.233330，lat=-38.950001；古坐标／模型字段 pm1=gplates，pln=-42.97，pla=-40.22。
+- occ:565611：PBDB 原鉴定字段 idn=Titanosaurus australis；PBDB 分类名称字段 tna=Neuquensaurus australis；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=-57.493492，lat=-33.874874；古坐标／模型字段 pm1=gplates，pln=-42.73，pla=-36.01。
+- occ:508092：PBDB 原鉴定字段 idn=Titanosaurus australis；PBDB 分类名称字段 tna=Neuquensaurus australis；材料说明字段 ocm=MLP.Cs 1173, series 1-4；丰度字段 abv=4，abu=specimens；PBDB 地点坐标字段 lng=-68.035698，lat=-38.837898；古坐标／模型字段 pm1=gplates，pln=-49.49，pla=-39.92。
+
+## 各记录所附的引文 {#s-c0e56d2c19}
+存档导读把这些记录关联到 5 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:508085：记录署名 Lydekker 1893；PBDB 引文编号 ref:36798。
+- occ:565611：记录署名 Huene 1929；PBDB 引文编号 ref:16890。
+- occ:508092：记录署名 Huene 1929；PBDB 引文编号 ref:59060。
+
+## 这些记录能说明什么 {#s-9bfb356d7c}
+此页导读的是 2026-10-02 快照中的 6 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

@@ -1,29 +1,29 @@
-## The name and this data account {#s-8715df2ab0}
-Phoenicurus auroreus is accepted in COL26.8 within Muscicapidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 9 measured individuals, 8 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-8715df2ab0}
+The AVONET v7 row for Phoenicurus auroreus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 8.2 mm. The row records 9 measured individuals, 8 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-e27ea8dde4}
-Recorded mean beak measurements are 8.2 mm from the anterior nostril edge to the tip, 3.2 mm in width and 3.4 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-e27ea8dde4}
+AVONET records culmen length (bill tip to skull base) 14 mm; beak length (nostril front edge to tip) 8.2 mm; beak width at the nostril front edge 3.2 mm; beak depth at the nostril front edge 3.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-8b2cabc334}
-Mean unflattened wing length from the carpal joint to the longest primary is 72.5 mm; mean tarsus length is 22.2 mm. Compiled mean mass is 16.2 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-8b2cabc334}
+AVONET records unflattened wing length 72.5 mm; tarsus length 22.2 mm; distance from first secondary tip to longest primary tip 14.8 mm; length to first secondary tip 57.5 mm; hand-wing index 20.5; tail length 65.9 mm; species-average body mass 16.2 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-ccc10b69a1}
-The dataset assigns habitat Forest, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-ccc10b69a1}
+AVONET classifies Phoenicurus auroreus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-3d2b1598d6}
-The migration field classifies this record as migratory. Historical breeding and resident maps span latitude endpoints 27.62° to 57.44°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-3d2b1598d6}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints 27.62° to 57.44°. The mapped range area is 4822744.76 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-c4a4342460}
-Phoenicurus auroreus is accepted in pinned COL26.8 within Muscicapidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-c4a4342460}
+EltonTraits 1.0 has a same-name, same-family record for Phoenicurus auroreus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-8d5d8df513}
-The archive’s nonzero food weights are invertebrates 60%; seeds, nuts and spores included in this category 30%; other plant material (the source category also includes fungi) 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-8d5d8df513}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 60%; seeds or nuts 30%; other plant material 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-904f40ee5d}
-Foraging-stratum weights flagged as species-level in the archive are ground 50%; understory, edges or shrubs below 2 m 50%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-904f40ee5d}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 50%; in the understory 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-0fe7eb0060}
-The used groups carry labels Ref_10, Ref_11. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-0fe7eb0060}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.10.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.11.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-601fc45d56}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

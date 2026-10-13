@@ -1,19 +1,76 @@
 ## 这个名称对应哪些化石记录 {#s-f398e7f080}
 Proscelidodon patrius 在固定 PBDB 哺乳类化石工作名录中为接受种，数据库父级为 Proscelidodon。本页导读 10 条可用种级出现记录，涉及 10 个采集记录和 9 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-967c492e9d}
-采集记录 Inchasi（Linares），地区代码 BO；数据库年代范围 3.8–3 Ma，早端地质时段 Chapadmalalan。采集记录 Maimará (lower section)（Jujuy），地区代码 AR，地层名称 Maimará；数据库年代范围 7.246–5.333 Ma，早端地质时段 Messinian。采集记录 Farola Monte Hermoso FI Facies（Buenos Aires），地区代码 AR，地层名称 Monte Hermoso；数据库年代范围 5–3.8 Ma，早端地质时段 Montehermosan。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Proscelidodon patrius 在 PBDB 快照中对应分类条目 txn:97908。这份存档导读包含 10 条选取的出现记录，关联 10 个不同的 PBDB 采集记录编号和 9 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-2732231633}
-本页所选出现记录的年代外包区间为 7.246–3 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Maimará (lower section) 的出现记录 occ:1180399（7.246–5.333 Ma）；晚端可追到 Inchasi 的出现记录 occ:659455（3.8–3 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-967c492e9d}
+存档导读包含 10 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 保存环境与生活环境分开阅读 {#s-53406884e9}
-Inchasi 的采集环境标签为 河流沉积环境，类型未定（fluvial indet.）；集合保存方式标签为 实体化石（body）。Maimará (lower section) 的采集环境标签为 河流沉积环境，类型未定（fluvial indet.）；集合保存方式标签为 实体化石（body）。Farola Monte Hermoso FI Facies 的采集环境标签为 河流沉积环境，类型未定（fluvial indet.）；集合保存方式标签为 实体化石、trace（body,trace）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:1180399；PBDB 采集记录 col:152079。 地点字段 cnm=Maimará (lower section)；地点分区字段 cc2=AR，stp=Jujuy。 记录年代界：eag 7.246 Ma; lag 5.333 Ma；PBDB 年代区间字段 oei=Messinian。 地层字段 sfm=Maimará。 记录署名 Pujos et al. 2012；PBDB 引文编号 ref:48766。
 
-## 沿采集记录追到文献 {#s-237b5118a9}
-Inchasi 的数据库引文署名为 MacFadden et al.（1993），编号 ref:23837。Maimará (lower section) 的数据库引文署名为 Pujos et al.（2012），编号 ref:48766。Farola Monte Hermoso FI Facies 的数据库引文署名为 Tomassini et al.（2013），编号 ref:48790。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Abello et al. 2015: Recently, new 206Pb/238U zircon ages obtained from several volcanic ashes from the Humahuaca Basin, indicate that the sediments of the Maimará Formation were deposited since at least 5.92+/-0.12 Ma to 4.18+/-0.11 Ma (Pingel et al., 2013), i.e. late Miocene-early Pliocene.
+
+Bonini et al 2017:  This fossiliferous horizon is located between two basal massive tuffs correlated with 10HUM02 and 10HUM21 of Pingel et al. (2013, fig. 2B), dated at ~5.06 and ~5.9 Ma, respectively. Considering the stratigraphic provenance of JUY-P 49 and the correlation between the associated tuffs of the section at Quebrada de Maimará with those dated by Pingel et al. (2013, fig. 3A-C; see Figs. 2.1–2.2), we infer that the age of JUY-P 49 would be near the late Miocene–early Pliocene boundary.
+
+Traditionally, the Maimará Formation was assigned to the Huayquerian age (late Miocene; see Reguero & Candela, 2011 and bibliography herein) but this assignment was not based on precise biostratigraphic analysis and/or geochronological data. Recently, new 206Pb/238U zircon ages obtained from several volcanic ashes from the Humahuaca Basin, indicate that the sediments of the Maimará Formation were deposited since at least 5.92+/-0.12 Ma to 4.18+/-0.11 Ma (Pingel et al., 2013), i.e. late Miocene-early Pliocene.
+
+Lower section of the Maimara Formation (Upper Miocene) from a stratigraphic level between Ma-1 and Ma-2, below the PM4 (Galli et al. 2016), with an estimated age
+of between c. 6.6 and c. 6.4 Ma (Candela et al. 2023)
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Pujos et al 2012: The Maimará locality at  the Quebrada de Humahuaca. This locality is situated in the Eastern Cordillera, about 35km south of Humahuaca and about 2800m.a.s.l.
+
+Bonini et al 2017: Maimará Formation (late Miocene–early Pliocene), outcropping at the west of National Route 9 and Maimará town (23°37'27''S, 65°24'48''W), Quebrada de Maimará, Jujuy Province, Argentina.
+Note that the most fossiliferous levels at Quebrada de Maimará, where we recently collected the first vertebrates with precise stratigraphic provenance for this formation (Pujos et al., 2012; Candela et al., 2013; Abello et al., 2015), are located between the most basal tuffs of the section that outcrops west of Maimará town.
+
+- 出现记录 occ:659455；PBDB 采集记录 col:71112。 地点字段 cnm=Inchasi；地点分区字段 cc2=BO，stp=Linares，cny=Potosi。 记录年代界：eag 3.8 Ma; lag 3 Ma；PBDB 年代区间字段 oei=Chapadmalalan。 记录署名 MacFadden et al. 1993；PBDB 引文编号 ref:23837。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Boscaini et al 2018: Its fossiliferous beds have been dated to between 4.0 and 3.3 Myr (late Early Pliocene; MacFadden et al., 1993; Anaya & MacFadden, 1995).The Inchasi locality is Chapadmalalan in age (Cione & Tonni, 1996).
+
+"a 120 m thick [composite] section" and "numerous fossiliferous horizons" (nine shown on a figure) were found in all five measured sections, spanning approximately the 35 - 110 m interval
+the entire section is estimated to span 0.61 m.y. and correlate with the Cochiti through Mammoth subchrons of the Gilbert and Gauss chrons based on paleomagnetic stratigraphy
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+"8.5 km to the northeast of Puna and 50 km to the southeast of the city of Potosi"
+the five measured sections are in an area roughly 3 km on each side
+
+- 出现记录 occ:1180447；PBDB 采集记录 col:152081。 地点字段 cnm=Farola Monte Hermoso FI Facies；地点分区字段 cc2=AR，stp=Buenos Aires。 记录年代界：eag 5 Ma; lag 3.8 Ma；PBDB 年代区间字段 oei=Montehermosan。 地层字段 sfm=Monte Hermoso。 记录署名 Tomassini et al. 2013；PBDB 引文编号 ref:48790。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+The overbank deposits display a wide lateral extension in the
+abrasion platform and the lower part of the cliff; and include the Fl
+and Fm facies. These levels are equivalent to the “Hermosense
+típico” of Vignati (1925) and Bonaparte (1960), the “Unidad A” of
+Fidalgo et al. (1975), and “Unidad Litoestratigráfica I” of Fidalgo and
+Tonni (1982)
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+The fossiliferous site Farola Monte Hermoso (S 38°58´01´´, W 61°41´43´´) is located on the Atlantic coast, at the south-west of the Buenos Aires Province (Pampean Region, Argentina), approximately
+53 km of Bahía Blanca city and 12 km of Pehuén co Beach. The deposits are represented by NWeSE coastal cliffs exposed along three km, with variable heights that reach 15 m maximum.
+
+## 出现记录的年代界 {#s-2732231633}
+在这组 PBDB 记录中，最大记录 eag=7.246 Ma，见 occ:1180399；最小记录 lag=3 Ma，见 occ:659455。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-53406884e9}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1180399：PBDB 分类名称字段 tna=Proscelidodon patrius；材料说明字段 ocm=JUY-P-47；PBDB 地点坐标字段 lng=-65.412224，lat=-23.624166；古坐标／模型字段 pm1=gplates，pln=-64.27，pla=-23.39。
+- occ:659455：PBDB 分类名称字段 tna=Proscelidodon patrius；PBDB 地点坐标字段 lng=-65.468330，lat=-19.720833；古坐标／模型字段 pm1=gplates，pln=-64.57，pla=-19.52。
+- occ:1180447：PBDB 分类名称字段 tna=Proscelidodon patrius；PBDB 地点坐标字段 lng=-61.695278，lat=-38.966946；古坐标／模型字段 pm1=gplates，pln=-60.8，pla=-38.78。
+
+## 各记录所附的引文 {#s-237b5118a9}
+存档导读把这些记录关联到 9 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1180399：记录署名 Pujos et al. 2012；PBDB 引文编号 ref:48766。
+- occ:659455：记录署名 MacFadden et al. 1993；PBDB 引文编号 ref:23837。
+- occ:1180447：记录署名 Tomassini et al. 2013；PBDB 引文编号 ref:48790。
 
 ## 资料边界 {#s-6c85c4374a}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 13958 项哺乳类化石工作名录中，当前名称一致、父链可追到已记录 Mammalia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 10 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

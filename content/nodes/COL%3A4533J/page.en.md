@@ -1,5 +1,5 @@
-## Find rows through older Basileuterus combinations {#s-5327841e25}
-Pinned COL26.8 organizes this page at Myiothlypis signata (4533J). BirdLife 2020 row 6319 and eBird 2021 row 6602 share the name and Avibase ID AVIBASE-BBD736B2, with type 1BL to 1eBird; BirdTree row 6578 gives Basileuterus signatus, with type 1BL to 1BT. Catalogue synonym 5WD93, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-5327841e25}
+Catalogue of Life release COL26.8 records Myiothlypis signata (Berlepsch & Stolzmann, 1906) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-6e92ecf1cf}
 Morphology comprises 51 birds: 11 female, 10 male and 30 unsexed; 24 complete sets. Nostril-to-tip beak length 7.2 mm, tarsus 23.6 mm, unflattened wing 58.5 mm, tail 59.4 mm and hand-wing index 13.7 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

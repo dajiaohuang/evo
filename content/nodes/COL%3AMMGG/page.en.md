@@ -1,29 +1,29 @@
-## The name and this data account {#s-06b9c7059b}
-In the pinned Catalogue of Life release COL26.8, Bostrychia carunculata is accepted in Threskiornithidae. AVONET v7 records it under the HBW–BirdLife 2020 name. The dataset includes 5 measured individuals; 4 have a complete morphological set. The usable sample size can still differ by trait.
+## Row-reported mean and sample coverage {#s-06b9c7059b}
+The AVONET v7 row for Bostrychia carunculata (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 102.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-e0a8c8a3e3}
-Mean beak length, measured from the anterior edge of the nostril to the tip, is 102.8 mm. At that edge, mean width is 15.6 mm and mean depth is 21.3 mm. These are separate measurements at standardized landmarks, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-e0a8c8a3e3}
+AVONET records culmen length (bill tip to skull base) 125.8 mm; beak length (nostril front edge to tip) 102.8 mm; beak width at the nostril front edge 15.6 mm; beak depth at the nostril front edge 21.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-2213e09c0a}
-Mean unflattened wing length, from the carpal joint to the longest primary feather, is 363.8 mm; mean tarsus length is 65.5 mm. A separate compilation reports mean mass of 1500 g (source category Updated_literature). That species-average mass is not evidence that every bird in the morphology sample was weighed.
+## Wing and body measures use separate sources {#s-2213e09c0a}
+AVONET records unflattened wing length 363.8 mm; tarsus length 65.5 mm; distance from first secondary tip to longest primary tip 110.3 mm; length to first secondary tip 251.4 mm; hand-wing index 30.5; tail length 157 mm; species-average body mass 1500 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-dafb34f65c}
-The dataset’s comparison categories are habitat “Wetland,” trophic niche “Invertivore,” and lifestyle “Terrestrial.” They are dominant categories for comparing species, not claims that this bird uses only one habitat or one kind of food.
+## Recorded habitat and feeding categories {#s-dafb34f65c}
+AVONET classifies Bostrychia carunculata as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-0f4adff22b}
-AVONET classifies migration as sedentary. The historical breeding and resident maps run from latitude 4.83° to 16.42°. These bounds do not describe non-breeding movements and are neither a current location nor a global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-0f4adff22b}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 4.83° to 16.42°. The mapped range area is 539792.68 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-c70484bb9f}
-COL26.8 accepts Bostrychia carunculata in Threskiornithidae. The same-name, same-family EltonTraits 1.0 entry provides source information for 2 ecological field groups. Its taxonomy follows earlier bird classification or MSW3 for mammals; the name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-c70484bb9f}
+EltonTraits 1.0 has a same-name, same-family record for Bostrychia carunculata covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-ae4d398e6e}
-Recorded positive food-category weights are invertebrates 90%; unspecified vertebrates 10%. Source code B indicates reasonable source confidence with potentially uncertain relative proportions. The percentages standardize verbal descriptions rather than measure diet composition, and a zero does not show that an item is never eaten. Categories such as Nect, Seed and PlantO have broader source definitions than their everyday names; they do not imply feeding exclusively on nectar, seeds or plants.
+## Relative weights across food categories {#s-ae4d398e6e}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 90%; vertebrates not further identified 10%. Its dominant five-category label is Invertebrate. Code B marks a reasonably reliable source, though relative proportions may be uncertain. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-f3207cc83e}
-The archive marks these species-level foraging-stratum weights: ground 100%. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. The source defines surface-water, understory, mid/high, canopy and aerial categories separately. They are not elevation bands and cannot establish flight height or habitat area.
+## Foraging positions are not a time budget {#s-f3207cc83e}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-b62e219db6}
-Source labels for the field groups used here are Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. The source record keeps each original string with its file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-b62e219db6}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-3b8cd67ee2}
 The AVONET v7 values here are historical summaries. Morphological values are species averages for the listed samples, not field-identification criteria or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so the morphology sample count does not apply to it. Habitat, food and migration are broad categories; mapped latitude covers historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name link this record to older data, but do not show that species concepts remain equivalent after later splits or lumps. Other sources are needed for reproduction, present-day populations and conservation status.

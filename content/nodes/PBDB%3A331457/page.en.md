@@ -1,20 +1,53 @@
 ## Which fossil records this name represents {#s-7ad35c5706}
 Equus capensis is accepted in the fixed PBDB mammalia working roster, with database parent Equus. This guide uses 23 eligible species-level occurrence records from 23 collections and 21 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-1d37f4c57b}
-Collection Kathu Pan, region code ZA; database age bracket 1.8–0.774 Ma, early interval Calabrian. Collection Duinefontein 2, region code ZA; database age bracket 2.58–0.0117 Ma, early interval Pleistocene. Collection Plovers Lake, region code ZA; database age bracket 1.8–0.774 Ma, early interval Calabrian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Equus capensis is listed in the PBDB snapshot under taxon txn:331457. This archived guide contains 23 selected occurrence rows, linked to 23 distinct PBDB collection IDs and 21 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9cb7c4d3e1}
-Selected occurrences have an outer age envelope of 5.333–0 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Sterkfontein - Member 4, occurrence occ:224504 (5.333–0.774 Ma); one supplying the younger bound is Boomplas Cave, occurrence occ:220912 (2.58–0 Ma). These are collection-age bounds, not endpoints of species survival.
-Some selected records have a bracket ending at 0 Ma. Here, zero is the boundary of a broad database age bracket, not evidence of present survival or an exact death or extinction date.
+## Named localities and collection records {#s-1d37f4c57b}
+The archived guide contains 23 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-4a1c013bb2}
-Kathu Pan has collection-environment label spring. Duinefontein 2 has collection-environment label eolian indet.; collection preservation-mode label body. Plovers Lake has collection-environment label karst indet.. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:224504; PBDB collection col:21791. Locality cnm=Sterkfontein - Member 4; place fields cc2=ZA. Recorded age bounds: eag 5.333 Ma; lag 0.774 Ma; PBDB interval fields oei=Pliocene, oli=Calabrian. Stratigraphic fields sfm=Sterkfontein. Recorded attribution Partridge 1978; PBDB reference ref:4867.
 
-## Follow collection records back to references {#s-18575e5336}
-Kathu Pan carries database reference attribution Klein (1979), identifier ref:5214. Duinefontein 2 carries database reference attribution Klein (1976), identifier ref:5252. Plovers Lake carries database reference attribution Thackeray and Watson (1994), identifier ref:5261. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: absolute, ETE age comment: based on two samples of bovid teeth radiometric intage_min
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+underground cave deposit - surface area is ~1125m2, surface = 1480m in elevation, caves - 1450m elevation, includes Type site, Extension Site, West Pit and Silberberg Grotto
+
+- Occurrence occ:220912; PBDB collection col:21948. Locality cnm=Boomplas Cave; place fields cc2=ZA. Recorded age bounds: eag 2.58 Ma; lag 0 Ma; PBDB interval fields oei=Pleistocene, oli=Holocene. Recorded attribution Klein 1978; PBDB reference ref:5246.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: absolute, ETE age comment: 2416 C14 dates on charcoal radiometric intage_max, radiometric intage_min
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+in Cango River Valley
+
+- Occurrence occ:214064; PBDB collection col:21923. Locality cnm=Kathu Pan; place fields cc2=ZA. Recorded age bounds: eag 1.8 Ma; lag 0.774 Ma; PBDB interval fields oei=Calabrian. Recorded attribution Klein 1979; PBDB reference ref:5214.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: absolute, ETE age comment: One C14 date at 32000 years on charcoal; age basedon artifacts and fauna radiometric intage_max, radiometric intage_min
+
+## Age bounds on the recorded occurrences {#s-9cb7c4d3e1}
+Across these selected PBDB rows, the largest recorded eag=5.333 Ma in occ:224504; the smallest recorded lag=0 Ma in occ:220912. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-4a1c013bb2}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:224504: PBDB taxon-name field tna=Equus capensis; abundance fields abv=18, abu=specimens; PBDB locality-coordinate fields lng=27.733299, lat=-26.016701; paleocoordinate/model fields pm1=gplates, pln=27.57, pla=-26.86.
+- occ:220912: PBDB taxon-name field tna=Equus capensis; abundance fields abv=5, abu=individuals; PBDB locality-coordinate fields lng=22.183300, lat=-33.533298; paleocoordinate/model fields pm1=gplates, pln=22.09, pla=-33.8.
+- occ:214064: PBDB taxon-name field tna=Equus capensis; PBDB locality-coordinate fields lng=23.008301, lat=-27.663900; paleocoordinate/model fields pm1=gplates, pln=22.94, pla=-27.93.
+
+## References attached to each record {#s-18575e5336}
+The archived guide links the rows to 21 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:224504: Recorded attribution Partridge 1978; PBDB reference ref:4867.
+- occ:220912: Recorded attribution Klein 1978; PBDB reference ref:5246.
+- occ:214064: Recorded attribution Klein 1979; PBDB reference ref:5214.
 
 ## Evidence limits {#s-59f5d64fec}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 23 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

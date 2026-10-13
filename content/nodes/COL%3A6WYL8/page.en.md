@@ -1,15 +1,15 @@
-## A ground-dwelling plant eater {#s-555b834379}
-The ReptTraits entry describes Saara asmussi as a ground-dwelling, plant-eating agamid that is active by day. It gives a reported maximum snout–vent length of 269 mm and labels the species egg-laying. These values come from a row using the workbook’s 2023 Reptile Database name framework, not a complete account of every population.
+## COL26.8 name and the ReptTraits row {#s-555b834379}
+COL26.8 records Saara asmussi as an accepted species. The ReptTraits v1-2 row gives its Family field as Agamidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A 269 mm length without the tail {#s-33acd247da}
-The row reports a maximum snout–vent length of 269 mm. This measure runs from the snout to the vent and excludes the tail. It is a compiled reported maximum, not a typical adult size or an absolute growth limit for the species.
+## Length values in the archived records {#s-33acd247da}
+The row reports a maximum SVL of 269 mm. ReptTraits attributes this field to Meiri 2018.
 
-## On the ground and feeding on plants {#s-337de445c7}
-The cited fields describe activity on the ground during the day and classify the diet as herbivorous. That category points to plant food but does not identify particular plants. These are broad labels rather than a complete habitat map or a fixed daily timetable; behavior can vary among populations, seasons, and life stages.
+## Habitat use and activity labels {#s-337de445c7}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as plant-eating (Herbivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## A mean clutch figure of 12.5 {#s-5e1d999b20}
-The workbook describes Saara asmussi as egg-laying and reports a consolidated clutch or litter mean of 12.5. That summary may be a midpoint between published means—or between reported extremes when means are unavailable—rather than the average of individual nests. The fraction is a statistical summary, not half an egg, and it does not mean every clutch has the same size or that reproduction is identical across populations.
+## Reproductive fields in ReptTraits {#s-5e1d999b20}
+The compiled mean for offspring per litter or eggs per clutch is 12.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## What these records cannot establish {#s-20a1abca53}
-The one-row summary compresses differences in sex, age, locality, and population, and the workbook’s 2023 name framework may differ from later concepts. A reported maximum is not the species’ absolute size limit, and a clutch mean cannot predict every nest. These fields do not establish body mass, juvenile size, venom, conservation status, current distribution, or population trends. Source labels show the workbook’s citation chain; they do not mean every underlying study has been independently reassessed here.
+## Reading this compiled trait record {#s-20a1abca53}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

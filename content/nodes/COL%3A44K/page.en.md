@@ -25,13 +25,13 @@ The emperor penguin page also summarizes BirdLife International’s assessment a
 ## Different research questions in three Pygoscelis species {#s-9461c86b3f}
 The Pygoscelis route connects three distinct cases: a ten-season nest-survival study at the Windmill Islands, a mixed-method global colony assessment for chinstrap penguins, and one unusually warm winter diet study at Bird Island for gentoo penguins. Their places, periods and methods differ, so these papers do not form a uniform comparison or an order-wide population and ecology synthesis.
 
-## Local data reading route {#s-0ce9dc262a}
+## Recorded classification and member material {#s-0ce9dc262a}
 This batch’s Sphenisciformes route includes 18 measured species records. Start with Aptenodytes forsteri, Aptenodytes patagonicus, Eudyptes chrysocome, Eudyptes chrysolophus, Eudyptes moseleyi. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-13eaae006e}
 Compiled mean mass endpoints in this batch are Eudyptula minor at 1107.82 g and Aptenodytes forsteri at 33569.33 g. Represented habitat categories include Marine; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-10bf48f0f0}
+## Amniote Life-history archive member records {#s-10bf48f0f0}
 This batch’s Sphenisciformes route includes 18 historical life-history accounts; start with Aptenodytes forsteri, Aptenodytes patagonicus, Eudyptes chrysocome, Eudyptes chrysolophus, Eudyptes moseleyi. More frequently represented fields include adult body mass (18 entries), offspring per litter or eggs per clutch (18 entries), oviposition to hatching (18 entries), age at flight capability (leaving the nest in some source material) (18 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-203087c4ad}

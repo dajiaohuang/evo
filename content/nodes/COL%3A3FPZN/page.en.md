@@ -1,5 +1,5 @@
-## Tracing the historical Zoothera name {#s-c3972a27eb}
-Pinned COL26.8 organizes this page at Geokichla princei (3FPZN). AVONET v7 BirdLife 2020 row 8562 and eBird 2021 row 4323 share the name and Avibase ID AVIBASE-CB1E8753; BirdTree row 4305 gives Zoothera princei, with match type 1BL to 1BT. Read COL older-combination record 7GGR8 points to this accepted ID. These links locate data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-c3972a27eb}
+Catalogue of Life release COL26.8 records Geokichla princei (Sharpe, 1874) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured birds and beak/wing values {#s-78dd6fbd34}
 Morphology covers 4 birds: 2 female, 2 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 12.5 mm, tarsus 33.5 mm, unflattened wing 106.5 mm and hand-wing index 24.4 are summaries in this historical row. Inference=NO does not establish equal counts across fields; complete-set birds do not supply every field’s denominator. The index is Kipp’s distance/wing length ×100, not flight speed, migration distance or a range-wide performance test.

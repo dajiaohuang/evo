@@ -1,5 +1,5 @@
-## What one ecological field can tell us {#s-7e1c8542c8}
-Rhinolophus siamensis is accepted in pinned COL26.8 within Rhinolophidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Activity flags in the compilation {#s-7e1c8542c8}
+The one-field EltonTraits 1.0 record for *Rhinolophus siamensis* contains the activity flags. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. The archive leaves diet, foraging fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Rhinolophus siamensis*.
 
 ## Activity periods can occur together {#s-e7c5acb5d6}
 The archive marks feeding activity during night as 1. Several fields can be 1 together; they are not proportions adding to a daily time budget or schedules shared by every day, season and site. Activity certainty is ABC and can still use ecologically similar congeneric material; genus/family typical activity values do not fill gaps here.
@@ -7,7 +7,6 @@ The archive marks feeding activity during night as 1. Several fields can be 1 to
 ## Trace each field group to its source labels {#s-2dddfa7156}
 The used groups carry labels Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
-## Evidence limits {#s-6023f3db05}
-This page interprets one supported ecological field group; it does not fill the remaining diet, activity or stratum fields. This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
-This page withholds diet (source code D1); foraging stratum (source code B) because of interpolation, certainty or source-link limits. Specific reasons and original values remain in the source archive; they do not fill definite ecological conclusions.
+## Scope of the one-field record {#s-6023f3db05}
+This one-field record supports only the selected group; omitted fields remain unspecified, not zero.
 

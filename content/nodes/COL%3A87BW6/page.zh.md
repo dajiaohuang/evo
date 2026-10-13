@@ -1,4 +1,6 @@
-## 目录中的位置 {#s-2173060955}
+## 记录分类与直接上级关系 {#s-2173060955}
+COL26.8 将 Gekkota 记录为亚目；其直接上级记录为 Squamata Oppel, 1811。
+
 Gekkota 在固定 COL26.8 中记录为接受分类单元，阶元为亚目，父级为 Squamata。本页沿用这一目录位置。
 
 ## 从已有样本页面开始 {#s-41d47b5d3d}
@@ -16,7 +18,7 @@ Gekkota 的本批路线包含 154 条历史生活史导读，可从 Nephrurus la
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
-## 从有性状记录的物种开始 {#s-4853ca8c45}
+## 记录分类与成员材料 {#s-4853ca8c45}
 Gekkota 的本批 ReptTraits 阅读路径包含 1625 条同名同科、有逐性状出处的物种资料，可从 Aeluroscalabotes felinus、Afroedura africana、Afroedura amatolica、Afroedura bogerti、Afroedura broadleyi 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-3bdc1991b7}
@@ -28,8 +30,8 @@ Gekkota 的本批 ReptTraits 阅读路径包含 1625 条同名同科、有逐性
 ## 部分后代条目的引用缺口 {#s-cfd863dfd4}
 这条 ReptTraits 阅读路径中有 5 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-bd59f6b639}
-Gekkota 的本批 ReptTraits 阅读路径包含 342 条同名同科、有逐性状出处的物种资料，可从 [Afroedura donveae](Gekkonidae/Afroedura/Afroedura_donveae/page.zh.md)、[Afroedura haackei](Gekkonidae/Afroedura/Afroedura_haackei/page.zh.md)、[Afroedura multiporis](Gekkonidae/Afroedura/Afroedura_multiporis/page.zh.md)、[Afroedura otjihipa](Gekkonidae/Afroedura/Afroedura_otjihipa/page.zh.md)、[Afroedura praedicta](Gekkonidae/Afroedura/Afroedura_praedicta/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-bd59f6b639}
+Gekkota 的本批 ReptTraits 阅读路径包含 342 条同名同科、有逐性状出处的物种资料，可从 Afroedura donveae、Afroedura haackei、Afroedura multiporis、Afroedura otjihipa、Afroedura praedicta 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-9f08b87036}
 本批已有尺寸记录中，Sphaerodactylus parthenopion 的已报道最大吻肛长（SVL）为 18 mm，Gigarcanum delcourti 为 370 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

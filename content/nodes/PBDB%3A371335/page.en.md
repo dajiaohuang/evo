@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-6a6ba0d2c2}
-Porphyrio kukwiedei is accepted in the fixed PBDB dinosaur working roster, with database parent Porphyrio. This guide uses 6 eligible species-level occurrence records from 6 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-6a6ba0d2c2}
+Porphyrio kukwiedei is listed in the PBDB snapshot under taxon txn:371335. This archived guide contains 6 selected occurrence rows, linked to 6 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-bee78274e4}
-Collection Pindai Cave, Nepoui Peninsula, region code NC; database age bracket 0.0117–0 Ma, early interval Holocene. Collection Gilles cave, upper layer, region code NC; database age bracket 0.0117–0 Ma, early interval Holocene. Collection Kanumera, New Caledonia, region code NC; database age bracket 0.0117–0 Ma, early interval Holocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-bee78274e4}
+The archived guide contains 6 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-a91995207d}
-Selected occurrences have an outer age envelope of 0.0117–0 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1404772; PBDB collection col:13221. Locality cnm=Pindai Cave, Nepoui Peninsula; place fields cc2=NC. Recorded age bounds: eag 0.0117 Ma; lag 0 Ma; PBDB interval fields oei=Holocene. Recorded attribution Balouet and Olson 1989; PBDB reference ref:65887.
 
-## Read preservation setting separately from living habitat {#s-7aeb1d0e55}
-Pindai Cave, Nepoui Peninsula has collection-environment label cave; collection preservation-mode label body,original carbon. Gilles cave, upper layer has collection-environment label cave; collection preservation-mode label body,coprolite. Kanumera, New Caledonia has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Bone accumulations were found at two sites near lateral exits now filled by unstratified sediment. Bones occurred from the surface to depths of about 1.5 m, where excavation was discontinued. Charcoal obtained at a depth of about 50 cm, in direct association with bones of Sylviornis and other extinct birds, gave a radiocarbon age of 1750 ± 70 years BP (Gif. 6341 [CNRS laboratory at Gif sur Yvette, France], Balouet, 1984a).
 
-## Follow collection records back to references {#s-b8de12302d}
-Pindai Cave, Nepoui Peninsula carries database reference attribution Balouet and Olson (1989), identifier ref:65887. Gilles cave, upper layer carries database reference attribution Balouet and Olson (1989), identifier ref:65887. Kanumera, New Caledonia carries database reference attribution Balouet and Olson (1989), identifier ref:65887. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+West coast of the Island of Grande Terre. Caves located 400 m from the sea.
 
-## Evidence limits {#s-edef0b38b9}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1404796; PBDB collection col:193985. Locality cnm=Gilles cave, upper layer; place fields cc2=NC. Recorded age bounds: eag 0.0117 Ma; lag 0 Ma; PBDB interval fields oei=Holocene. Recorded attribution Balouet and Olson 1989; PBDB reference ref:65887.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+In the upper level, bones of rats were abundant and occurred to a depth of 1.3 m. These rodents are commensals of man and the deposits containing them must be assumed to postdate human occupation of the island.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Situated about 5 km WSW of Boulouparis, on the west coast of the mainland
+
+- Occurrence occ:1404803; PBDB collection col:23115. Locality cnm=Kanumera, New Caledonia; place fields cc2=NC. Recorded age bounds: eag 0.0117 Ma; lag 0 Ma; PBDB interval fields oei=Holocene. Recorded attribution Balouet and Olson 1989; PBDB reference ref:65887.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Age is 3750 plus or minus 210 years. This date is presumably from Carbon 14 dating of charcoal as with 13221, the other collection associated with Ref. 4393.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Kanumera Bay is on the south west side of Ille des Pines, exact locality "Kanumera" is not stated in the text.
+
+## Age bounds on the recorded occurrences {#s-a91995207d}
+Across these selected PBDB rows, the largest recorded eag=0.0117 Ma in occ:1404772; the smallest recorded lag=0 Ma in occ:1404772. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-7aeb1d0e55}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1404772: PBDB original-identification field idn=Porphyrio kukwiedei n. sp.; PBDB taxon-name field tna=Porphyrio kukwiedei; abundance fields abv=15, abu=specimens; PBDB locality-coordinate fields lng=164.956665, lat=-21.336666; paleocoordinate/model fields pm1=gplates.
+- occ:1404796: PBDB taxon-name field tna=Porphyrio kukwiedei; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=166.005005, lat=-21.875000; paleocoordinate/model fields pm1=gplates.
+- occ:1404803: PBDB taxon-name field tna=Porphyrio kukwiedei; abundance fields abv=12, abu=specimens; PBDB locality-coordinate fields lng=167.433334, lat=-22.666668; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-b8de12302d}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1404772: Recorded attribution Balouet and Olson 1989; PBDB reference ref:65887.
+- occ:1404796: Recorded attribution Balouet and Olson 1989; PBDB reference ref:65887.
+- occ:1404803: Recorded attribution Balouet and Olson 1989; PBDB reference ref:65887.
+
+## What these records can show {#s-edef0b38b9}
+This is a guide to 6 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

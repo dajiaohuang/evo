@@ -48,3 +48,25 @@ records:
         - referenceId: long-2025-amniote-tracks
           locator: pp. 1193–1200; Figures 1–4; trackmaker assessment and revised timescale
       evidenceLevel: literature-synthesized
+  atlas-profile:
+    scientificName: Sauropsida
+    rank: class
+    name:
+      en: Sauropsida
+      zh: Sauropsida
+    sections:
+      - topic: fossil-range
+        title:
+          en: Clawed tracks support a contested minimum
+          zh: 具爪足迹支持一个有争议的最低年代
+        text:
+          en:
+            page: en
+            section: track-evidence
+            part: body
+          zh:
+            page: zh
+            section: track-evidence
+            part: body
+        claimIds:
+          - claim:taxon:sauropsida:root-range

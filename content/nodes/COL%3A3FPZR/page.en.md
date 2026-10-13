@@ -1,5 +1,5 @@
-## Tracing the historical Zoothera name {#s-9d1f411ba8}
-Pinned COL26.8 organizes this page at Geokichla spiloptera (3FPZR). AVONET v7 BirdLife 2020 row 8565 and eBird 2021 row 4326 share the name and Avibase ID AVIBASE-098F2468; BirdTree row 4308 gives Zoothera spiloptera, with match type 1BL to 1BT. Read COL older-combination record 5D7PH points to this accepted ID. These links locate data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-9d1f411ba8}
+Catalogue of Life release COL26.8 records Geokichla spiloptera (Blyth, 1847) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured birds and beak/wing values {#s-1b211bdc8a}
 Morphology covers 5 birds: 2 female, 3 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 14.8 mm, tarsus 33.7 mm, unflattened wing 96.6 mm and hand-wing index 20.4 are summaries in this historical row. Inference=NO does not establish equal counts across fields; complete-set birds do not supply every field’s denominator. The index is Kipp’s distance/wing length ×100, not flight speed, migration distance or a range-wide performance test.

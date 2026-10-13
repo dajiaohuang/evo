@@ -1,5 +1,5 @@
-## Find rows through older Thryothorus combinations {#s-d662918ee0}
-Pinned COL26.8 organizes this page at Cantorchilus thoracicus (QPN5). BirdLife 2020 row 8451 and eBird 2021 row 1666 share the name and Avibase ID AVIBASE-535B0642, with type 1BL to 1eBird; BirdTree row 1659 gives Thryothorus thoracicus, with type 1BL to 1BT. Catalogue synonym 56N86, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-d662918ee0}
+Catalogue of Life release COL26.8 records Cantorchilus thoracicus (Salvin, 1865) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-52b627cb48}
 Morphology comprises 15 birds: 5 female, 9 male and 1 unsexed; 4 complete sets. Nostril-to-tip beak length 11.5 mm, tarsus 20.5 mm, unflattened wing 58.1 mm, tail 40.6 mm and hand-wing index 10.6 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

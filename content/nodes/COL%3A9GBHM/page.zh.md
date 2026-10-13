@@ -1,5 +1,5 @@
-## 沿旧属名区分种与亚种目标 {#s-03d1a0ec14}
-本页按 COL26.8 的 Sporophila funerea（9GBHM）组织。BirdLife 2020 第 8211 行与 eBird 2021 第 9845 行同名，Avibase ID 为 AVIBASE-64EDEAE0，类型 1BL to 1eBird；BirdTree 第 9786 行记 Oryzoborus funereus，类型 1BL to 1BT。目录异名 74ZGL 指向 Sporophila funerea funerea (P. L. Sclater, 1860)（B7N4X，subspecies），该亚种 parentId=9GBHM。这是本页物种下的指名亚种目标，不是逐字旧名直接指向本页接受种；历史行是否覆盖当前整个物种仍未解决。名称关系提供定位，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-03d1a0ec14}
+《Catalogue of Life》COL26.8（2026-08-20）将 Sporophila funerea (P. L. Sclater, 1860) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-3fa6a54e4d}
 形态共 33 只鸟：雌 15、雄 15、性别未定 3；完整测量 4 只。鼻孔前缘至喙尖 9.3 mm、跗蹠 17.4 mm、未压平翼长 55 mm、尾长 48.7 mm、手翼指数 15.4 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或特定食物的处理能力。

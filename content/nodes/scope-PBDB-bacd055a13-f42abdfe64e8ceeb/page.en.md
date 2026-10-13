@@ -1,5 +1,5 @@
-## What the material shows {#s-32b570a510}
-Holotype NUFV 405 preserves about 65% of one skeleton. Its weight-bearing limbs occur with traits used to infer freshwater swimming, a combination relevant to hypotheses about pinnipedimorph transitions.
+## A weight-bearing skeleton with swimming-related traits {#s-32b570a510}
+Holotype NUFV 405 preserves about 65% of one skeleton. Its weight-bearing limbs occur with traits used to infer freshwater swimming, a combination relevant to hypotheses about pinnipedimorph transitions but not proof of a direct ancestor.
 
 ## Feeding {#s-8fb98f28cc}
 Dentition supports a carnivorous diet; prey are not directly preserved.
@@ -25,6 +25,6 @@ Its limbs could bear weight and also show proportions used to infer swimming.
 ## Preserved features {#s-25da390a03}
 A long tail and freshwater depositional context contribute to the semiaquatic interpretation.
 
-## How to read the evidence {#s-d9d492309d}
-The associated skeleton supports an anatomical mosaic. Semiaquatic locomotion, pinnipedimorph placement and a freshwater transition are interpretations, not an ancestor sequence.
+## An anatomical mosaic, not an ancestor sequence {#s-d9d492309d}
+The associated skeleton supports an anatomical mosaic. Semiaquatic locomotion, pinnipedimorph placement and a freshwater transition remain interpretations, not a direct-ancestor sequence or observed behavior.
 

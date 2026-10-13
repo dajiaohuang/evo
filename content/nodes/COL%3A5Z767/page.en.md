@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-4b7892e1ee}
-Pinned COL26.8 organizes this page at Cinnyris chalcomelas (5Z767). BirdLife 2020 row 5948 and eBird 2021 row 2320 share the name and Avibase ID AVIBASE-9CDA630C, with type 1BL to 1eBird; BirdTree row 2313 gives Nectarinia chalcomelas, with type 1BL to 1BT. The read shards did not yield this exact older combination; a one-to-one crosswalk is not presented as a confirmed COL synonym. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-4b7892e1ee}
+Catalogue of Life release COL26.8 records Cinnyris chalcomelas Reichenow, 1905 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-b97a4651cd}
 Morphology covers 4 birds: 2 female, 2 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 13.7 mm, tarsus 15.9 mm, unflattened wing 58.2 mm, tail 41 mm and hand-wing index 14.1 are historical row means. Inference=NO does not establish 4 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

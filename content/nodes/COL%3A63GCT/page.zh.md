@@ -1,4 +1,6 @@
-## 测量记录与阅读起点 {#s-404ac16597}
+## 记录分类与直接上级关系 {#s-404ac16597}
+COL26.8 将 Nonnula 记录为属；其直接上级记录为 Bucconidae。
+
 AVONET v7 为六条 Nonnula 物种记录提供测量数据。可从 Nonnula amaurocephala、Nonnula brunnea、Nonnula frontalis、Nonnula rubecula 和 Nonnula ruficapilla 开始阅读。导航按固定 COL26.8 组织，生物学数值保留来源中的历史名称和采样范围。
 
 ## 记录之间有什么差别 {#s-a83783da4c}

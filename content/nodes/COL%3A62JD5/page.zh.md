@@ -4,7 +4,9 @@
 ## 按材料、刺激和记录方式比较 {#s-1db1a01825}
 先读 [Alligator mississippiensis](../Alligator/Alligator_mississippiensis/page.zh.md) 的颌部触觉与测量下限，再到 [Crocodylus niloticus](../../Crocodylidae/Crocodylus/Crocodylus_niloticus/page.zh.md) 比较体表分布及胚胎时序，最后读 [Caiman crocodilus](Caiman_crocodilus/page.zh.md) 的颌部多类刺激记录。每步先确认研究年份、幼体／胚胎、部位及子样本；局部神经电活动不等于野外偏好，盐液未检出响应也不证明动物没有盐度感觉。沿用现有咬力、移动与生活史路径时，另核对年龄、单位和方法，不把感觉阈值换算为捕食成功率。
 
-## 从有性状记录的物种开始 {#s-b49365237e}
+## 记录分类与直接上级关系 {#s-b49365237e}
+COL26.8 将 Caiman 记录为属；其直接上级记录为 Alligatoridae。
+
 Caiman 的本批 ReptTraits 阅读路径包含 3 条同名同科、有逐性状出处的物种资料，可从 Caiman crocodilus、Caiman latirostris、Caiman yacare 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 不同类群需要不同尺度 {#s-42d1d56936}

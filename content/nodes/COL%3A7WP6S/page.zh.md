@@ -1,5 +1,5 @@
-## 旧属名如何查回历史行 {#s-84c8750800}
-固定 COL26.8 以 Psilopogon zeylanicus（7WP6S）组织本页。AVONET v7 BirdLife 2020 第 9707 行与 eBird 2021 第 8674 行同名，Avibase ID 为 AVIBASE-15471F21；BirdTree 第 8629 行记作 Megalaima zeylanica，匹配类型为 1BL to 1BT。已读 COL 旧组合 7VSWH 指向本页接受 ID。这些关联用于定位历史资料，不把所有年代物种边界视为完全相同。
+## COL26.8 中的名称身份 {#s-84c8750800}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon zeylanicus (J. F. Gmelin, 1788) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与喙翼均值 {#s-0533eb2fa6}
 形态共测 5 只：雌 2、雄 3、性别未定 0，其中 4 只具完整测量。鼻孔前缘至喙尖均值 25.5 mm，喙宽 12.2 mm，跗蹠 28.5 mm，未压平翼长 108.8 mm，手翼指数 18。Inference=NO 不表示每项字段都测了同样数量；完整测量鸟数与总样本分开。指数定义为 Kipp 距离／翼长 ×100，不是飞行速度，喙宽也不是吞果或啄食能力实验。

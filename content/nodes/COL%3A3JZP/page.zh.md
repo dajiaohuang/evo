@@ -1,4 +1,6 @@
-## 从测量记录开始 {#s-95c1153ed0}
+## 记录分类与直接上级关系 {#s-95c1153ed0}
+COL26.8 将 Celeus 记录为属；其直接上级记录为 Picinae。
+
 本批有 7 条 Celeus 物种测量记录。可先读 Celeus castaneus、C. elegans、C. flavus、C. loricatus 或 C. lugubris。COL26.8 提供导航层级，数值仍对应 AVONET v7 的历史名称与采样范围。
 
 ## 样本物种之间的差异 {#s-9410b9b4e7}

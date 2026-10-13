@@ -1,5 +1,5 @@
-## Same-name links retain different family names {#s-9ba2550c18}
-Pinned COL26.8 organizes this page at Agapornis personatus (65MFM). BirdLife 2020 row 10203, eBird 2021 row 258 and BirdTree row 260 share the name; the eBird Avibase ID is AVIBASE-4396F4F1, with types 1BL to 1eBird and 1BL to 1BT respectively. Source family Psittacidae and catalogue Psittaculidae remain separate; a family allocation change is not rewritten as a name mismatch. The accepted name is present in the read ag shard. Same-name one-to-one links do not prove identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-9ba2550c18}
+Catalogue of Life release COL26.8 records Agapornis personatus Reichenow, 1887 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-7f0d844a51}
 Morphology comprises 5 birds: 1 female, 1 male and 3 unsexed; 4 complete sets. Nostril-to-tip beak length 17.3 mm, tarsus 14.7 mm, unflattened wing 95.2 mm, tail 43.6 mm and hand-wing index 41.3 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

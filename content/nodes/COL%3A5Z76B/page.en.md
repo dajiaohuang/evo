@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-ad4622cc6f}
-Pinned COL26.8 organizes this page at Cinnyris chloropygius (5Z76B). BirdLife 2020 row 5950 and eBird 2021 row 2322 share the name and Avibase ID AVIBASE-D2B15B3F, with type 1BL to 1eBird; BirdTree row 2315 gives Nectarinia chloropygia, with type 1BL to 1BT. Read older-combination record 462MZ points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-ad4622cc6f}
+Catalogue of Life release COL26.8 records Cinnyris chloropygius (Jardine, 1842) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-60508051f7}
 Morphology covers 12 birds: 2 female, 9 male and 1 unsexed; 11 birds have complete measurement sets. Nostril-to-tip beak length 15.2 mm, tarsus 14.7 mm, unflattened wing 47.5 mm, tail 31.8 mm and hand-wing index 14.6 are historical row means. Inference=NO does not establish 12 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

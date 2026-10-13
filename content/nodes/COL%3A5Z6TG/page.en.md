@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-d3a3cf51d9}
-Pinned COL26.8 organizes this page at Cinnyris coquerellii (5Z6TG). BirdLife 2020 row 5954 and eBird 2021 row 2326 share the name and Avibase ID AVIBASE-A3D7FDD3, with type 1BL to 1eBird; BirdTree row 2319 gives Nectarinia coquerellii, with type 1BL to 1BT. Read older-combination record 462N5 points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-d3a3cf51d9}
+Catalogue of Life release COL26.8 records Cinnyris coquerellii (Hartlaub, 1860) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-3da7c36dfe}
 Morphology covers 4 birds: 2 female, 2 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 13.9 mm, tarsus 14.8 mm, unflattened wing 48 mm, tail 33.2 mm and hand-wing index 14.8 are historical row means. Inference=NO does not establish 4 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

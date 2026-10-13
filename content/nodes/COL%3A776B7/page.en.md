@@ -1,5 +1,5 @@
-## Three EltonTraits field groups {#s-cb0cb887b6}
-Petromyscus monticularis is accepted in pinned COL26.8 within Nesomyidae. Its same-name, same-family EltonTraits 1.0 record provides three ecological field groups with source information. The archive follows earlier bird taxonomy or MSW3 for mammals; matching names do not resolve modern splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-cb0cb887b6}
+The EltonTraits 1.0 record for *Petromyscus monticularis* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 50%, seeds, nuts and spores 30%, other plant material, including fungi 20% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Petromyscus monticularis*.
 
 ## Relative weights across food categories {#s-3ae0818994}
 The nonzero weights are invertebrates 50%; seeds, nuts and spores 30%; and other plant material, a source category that also includes fungi, 20%. Code ABC combines high, reasonable and partial confidence; some estimates may borrow from an ecologically similar congener. They are not necessarily direct observations of this species. EltonTraits standardizes verbal descriptions, not measured diet composition; zero does not prove a food is never eaten. Broad labels such as Nect, Seed and PlantO do not imply exclusive foods.
@@ -13,11 +13,13 @@ The archive marks nighttime feeding activity as 1. Activity fields can be record
 ## Keep the field-specific source labels {#s-c45a6feb4b}
 The ecological groups carry Ref_1 and metadata:Nowak1999 labels. Diet, stratum and activity may draw on different sources; the same Ref number in bird and mammal tables does not identify the same work. The archive retains original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; labels provide traceability rather than independent observations.
 
-## Limits of the historical ecological record {#s-19a055adf8}
-EltonTraits 1.0 is a historical same-name, same-family guide, not a complete species monograph. Matching names and classification do not establish equivalence to COL26.8. Food and avian-stratum percentages are standardized relative weights from literature descriptions, not direct measures of stomach contents, intake, energy or observation time; avian A/B codes retain source and proportional uncertainty. Mammalian ABC diet or activity may refer to a congener judged ecologically similar, so not every field is a direct observation of this species. Genus or family typical values, non-species-level avian strata and split records needing review do not establish definite claims. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation require other evidence.
+## How to interpret these historical records {#s-19a055adf8}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## PanTHERIA’s historical name entry {#s-94df40dc76}
-Petromyscus monticularis is accepted in pinned COL26.8 within Nesomyidae. PanTHERIA 1.0 associates it with an MSW05 entry in the August 2008 table; biological data gathering for that release ended in June 2004. This name association does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass in the historical table {#s-94df40dc76}
+The August 2008 PanTHERIA row for *Petromyscus monticularis* records adult body mass 20.72 g. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Petromyscus monticularis*.
 
 ## A consolidated adult-mass value {#s-5ae6a4c3a1}
 The historical adult body-mass summary is 20.72 g. The source adjusts for sex before calculating medians; mass can include adult or age-unspecified animals but excludes pregnant females. This is a compiled summary, not a specimen measurement or species-wide range.

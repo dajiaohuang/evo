@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-5216b16290}
-Anosteira is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 7 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Anosteira {#s-5216b16290}
+Anosteira is listed at rank genus in the PBDB classification route, with Carettochelyidae as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-dcf7d64c48}
 Start with Anosteira shuvalovi, Anosteira crowcreekensis, Anosteira ornata, Anosteira manchuriana, Anosteira pulchra and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 45 selected occurrences from 45 collections; example stratum names are Baynshire, Wasatch, Bridger, Uinta. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-5625bb9920}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-5625bb9920}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Anosteira shuvalovi’s collection record, not a continuous history for Anosteira.
 

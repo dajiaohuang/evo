@@ -1,5 +1,5 @@
-## Food, foraging stratum and activity in historical records {#s-cc6a2172d8}
-Cryptochloris zyli is accepted in pinned COL26.8 within Chrysochloridae. The EltonTraits 1.0 record linked here shares its name and family and reports food weights, a foraging-stratum category and activity. Its source follows earlier bird or MSW3 mammal taxonomy, so the name match does not resolve modern splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-cc6a2172d8}
+The EltonTraits 1.0 record for *Cryptochloris zyli* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 40%, ectothermic vertebrates 60% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Cryptochloris zyli*.
 
 ## Relative weights of food categories {#s-979f528a21}
 The recorded nonzero food weights are reptiles and amphibians 60%, and invertebrates 40%. Code ABC pools high, reasonable and partial confidence; some estimates can borrow from an ecologically similar congener. ABC cannot be rewritten as direct observations of this species. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
@@ -13,11 +13,13 @@ The EltonTraits activity field marks night feeding as 1. Several periods can be 
 ## Trace each field group to its source labels {#s-6f8ba06606}
 The EltonTraits fields shown here carry Ref_1 and metadata:Nowak1999 labels. Diet, stratum and activity may draw on different material, and matching reference numbers in bird and mammal tables do not identify the same source. The labels locate catalogued references; the underlying books and papers have not been independently reviewed here and do not add observations by themselves.
 
-## Limits of the ecological record {#s-fd6e0bfa19}
-These EltonTraits 1.0 fields are a historical same-name, same-family association, not a complete species account or proof that the source’s species concept equals COL26.8. Food weights standardize literature descriptions; they are not direct measurements of diet. ABC diet and activity codes can include estimates borrowed from a congener judged ecologically similar, so they do not establish direct observation of every field in this species. The G assignment is categorical, and activity codes are not time budgets. Underlying books and papers have not been independently reviewed here. Individual, seasonal and local variation, current range, population and conservation require other sources.
+## How to interpret these historical records {#s-fd6e0bfa19}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## Name and historical material {#s-429032a639}
-Cryptochloris zyli is accepted in pinned COL26.8 within Chrysochloridae. This page uses the PanTHERIA 1.0 MSW05 entry from the August 2008 table, whose biological data gathering ended in June 2004. The name association does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult head–body length in the historical table {#s-429032a639}
+The August 2008 PanTHERIA row for *Cryptochloris zyli* records adult head–body length 84.85 mm. Adult head–body length is a sex-adjusted median. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Cryptochloris zyli*.
 
 ## How body size was consolidated {#s-d254ac0944}
 Historical consolidated values are adult head–body length 84.85 mm. These fields use adjustment for sex followed by medians. Head–body length excludes the tail. Values are not direct measurements of one specimen or a species-wide size range.

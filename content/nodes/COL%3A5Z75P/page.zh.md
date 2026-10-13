@@ -1,5 +1,5 @@
-## 从旧 Nectarinia 名称定位资料 {#s-5484f1b7ee}
-本页按 COL26.8 的 Cinnyris nectarinioides（5Z75P）组织。BirdLife 2020 第 5977 行与 eBird 2021 第 2349 行同名，Avibase ID 为 AVIBASE-7C822074，匹配为 1BL to 1eBird；BirdTree 第 2342 行记 Nectarinia nectarinioides，匹配为 1BL to 1BT。已读旧组合 462NZ 指向本页接受 ID。旧名用于查原资料，不证明所有时期的物种范围相同。
+## COL26.8 中的名称身份 {#s-5484f1b7ee}
+《Catalogue of Life》COL26.8（2026-08-20）将 Cinnyris nectarinioides Richmond, 1897 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 喙长、翼与尾的样本范围 {#s-075171fe91}
 形态共 6 只鸟：雌 2、雄 4、性别未定 0，4 只具完整测量。鼻孔前缘至喙尖 12.3 mm、跗蹠 14.8 mm、未压平翼长 52.5 mm、尾长 51.1 mm、手翼指数 13.8 是历史行汇总均值。Inference=NO 不代表每项字段都有 6 只独立记录；完整测量数不替代逐字段分母。喙长不能单独证明特定花种适配、舌结构或授粉效果；手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度。

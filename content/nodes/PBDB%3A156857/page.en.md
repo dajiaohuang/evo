@@ -40,18 +40,55 @@ Start by tracing how the three fossils contribute different model inputs, then r
 ## Which fossil records this name represents {#s-72a354cca5}
 The fixed PBDB roster accepts Pterodaustro guinazui under Pterodaustro. This extract includes two eligible species-level occurrence rows, two collections and two reference identifiers. These are database counts at separate levels, not counts of specimens or animals.
 
+PBDB occurrence record excerpt:
+Pterodaustro guinazui is listed in the PBDB snapshot under taxon txn:156857. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## Begin with named collections and strata {#s-dba33706b8}
 One row names Loma del Pterodaustro in region AR, stratum Lagarcito, with a bracket of 113.2–100.5 Ma and an early interval of Albian. The other is Hualtarán, Quebrada Larga (San Luis), also in AR, in La Cruz; its bracket is 121.4–113.2 Ma with Aptian as the early interval. The source locality and stratum names remain as recorded. These selected sites do not describe the species’ complete range or prove absence elsewhere.
+
+PBDB occurrence record excerpt:
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:220153; PBDB collection col:22710. Locality cnm=Loma del Pterodaustro; place fields cc2=AR. Recorded age bounds: eag 113.2 Ma; lag 100.5 Ma; PBDB interval fields oei=Albian. Stratigraphic fields sfm=Lagarcito. Recorded attribution Fox 1997; PBDB reference ref:5800.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: time_unit, ETE age comment: . radiometric intage_min
+
+- Occurrence occ:796321; PBDB collection col:86514. Locality cnm=Hualtarán, Quebrada Larga; place fields cc2=AR, stp=San Luis, cny=Belgrano. Recorded age bounds: eag 121.4 Ma; lag 113.2 Ma; PBDB interval fields oei=Aptian. Stratigraphic fields sfm=La Cruz. Recorded attribution Bonaparte and Sánchez 1975; PBDB reference ref:29145.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+pre-dates the Albian Lagarcitos Fm. & listed as Aptian by Codorniu & Gasparini (2007); fossils in upper third of La Cruz Fm.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Hualtarán, Quebrada Larga, approx. 1.5 km W of Puesto Agüero
 
 ## Age bounds of these records {#s-6e4f906d6a}
 Taken together, the selected occurrences span an outer bracket of 121.4–100.5 Ma. The envelope joins the oldest early bound and youngest late bound; it does not indicate continuous presence or measure origin, extinction or lifespan. Each collection retains its own broad age range, without narrowing to an individual specimen date or revising the source interpretation.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=121.4 Ma in occ:796321; the smallest recorded lag=100.5 Ma in occ:220153. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## Read preservation setting separately from living habitat {#s-f974e1274a}
 Both Loma del Pterodaustro and Hualtarán, Quebrada Larga carry the collection-environment label alluvial fan and the preservation-mode label body. These describe collection settings and assemblages in the database. They do not establish diet or habitat and do not mean every fossil preserves the same features; unfilled source fields remain unfilled.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:220153: PBDB original-identification field idn=Pterodaustro guinazui n. gen. n. sp.; PBDB taxon-name field tna=Pterodaustro guinazui; PBDB locality-coordinate fields lng=-66.993797, lat=-32.501301; paleocoordinate/model fields pm1=gplates, pln=-27.47, pla=-29.06.
+- occ:796321: PBDB original-identification field idn=Puntanipterus globosus n. gen. n. sp.; PBDB taxon-name field tna=Pterodaustro guinazui; material note ocm=PVL 3869 (holotype), tibiotarsus and fibula; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-66.966667, lat=-32.466671; paleocoordinate/model fields pm1=gplates, pln=-25.06, pla=-28.96.
 
 ## Follow collection records back to references {#s-e58186b614}
 The Loma del Pterodaustro row cites Fox (1997), ref:5800; Hualtarán, Quebrada Larga cites Bonaparte and Sánchez (1975), ref:29145. These are abbreviated database attributions, not full author lists or necessarily the original species descriptions. Collection IDs and complete source rows remain in the archive; this page does not claim an independent rereview of the papers or fossils.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:220153: Recorded attribution Fox 1997; PBDB reference ref:5800.
+- occ:796321: Recorded attribution Bonaparte and Sánchez 1975; PBDB reference ref:29145.
+
 ## Evidence limits {#s-4046e225c1}
 This profile brings together selected PBDB occurrences, a 2021 hatchling-flight model, a 2008 growth analysis and a 2023 jaw-histology study. The eleven MIC-V55 sections all come from one specimen. Tooth attachment and replacement, feeding, sexual maturity and early flight are interpreted from limited remains or models rather than directly observed; the flight estimates depend on stated assumptions. This is an evidence guide, not a complete monograph, so its collection counts and age envelope retain the limits of the database sample.
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

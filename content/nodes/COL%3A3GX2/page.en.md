@@ -1,4 +1,6 @@
-## Find seven records through older Thryothorus combinations {#s-cf576222bb}
+## Recorded classification and direct parent {#s-cf576222bb}
+COL26.8 records Cantorchilus N. I. Mann, Barker, J. A. Graves, K. A. Dingess-Mann & P. J. B. Slater, 2006 at genus rank, with Troglodytidae as its direct parent.
+
 This entry organizes seven historical guides under COL26.8 Cantorchilus (3GX2) and Troglodytidae (626S2). Seven BirdLife/eBird names and their respective Avibase IDs match in one-to-one links. BirdTree gives seven older Thryothorus combinations, each with an exact catalogue synonym pointing to the accepted species. Name correspondence does not establish identical species boundaries across versions. The genus record has ten immediate children; seven pages do not complete genus content, natural history.
 
 ## Thirty-eight total birds and four complete sets {#s-63f114bcfe}
@@ -10,10 +12,10 @@ All seven are Insessorial, defined as much time perching on raised substrates wi
 ## Compare complete sets before habitat codes {#s-19c2272a3a}
 Begin with 38 total/four complete at nigricapillus and three/three at guarayanus; the largest total is not the largest complete count. Read five complete sets at leucotis and four at semibadius, both Forest/density 2. Compare Forest/density 1 at longirostris/nigricapillus with three Shrubland/density 2 records. Follow older Thryothorus names back to catalogue synonyms and crosswalks, reading morphology separately from compiled mass.
 
-Group 1: [Cantorchilus longirostris](Cantorchilus_longirostris/page.en.md), [Cantorchilus leucotis](Cantorchilus_leucotis/page.en.md), [Cantorchilus semibadius](Cantorchilus_semibadius/page.en.md), [Cantorchilus superciliaris](Cantorchilus_superciliaris/page.en.md)
+Group 1: Cantorchilus longirostris, Cantorchilus leucotis, Cantorchilus semibadius, Cantorchilus superciliaris
 
-Group 2: [Cantorchilus nigricapillus](Cantorchilus_nigricapillus/page.en.md), [Cantorchilus thoracicus](Cantorchilus_thoracicus/page.en.md), [Cantorchilus guarayanus](Cantorchilus_guarayanus/page.en.md)
+Group 2: Cantorchilus nigricapillus, Cantorchilus thoracicus, Cantorchilus guarayanus
 
-## Evidence limits {#s-7d91053574}
+## Limits attached to these records {#s-7d91053574}
 Seven selected historical rows and synonyms for their older Thryothorus combinations support limited guides without completing content for ten catalogue children. Total birds, three to five complete sets and Dunning compiled mass remain separate. Categories do not supply measured diet, precise foraging strata, duetting, breeding, current maps.
 

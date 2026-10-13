@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-da2df5f82e}
+## 记录分类与直接上级关系 {#s-da2df5f82e}
+COL26.8 将 Phaethontidae 记录为科；其直接上级记录为 Phaethontiformes。
+
 本批 Phaethontidae 的 AVONET 路线包含 3 条测量物种记录：Phaethon aethereus、P. lepturus 和 P. rubricauda。固定 COL26.8 提供科级导航；AVONET 保留各物种的 HBW–BirdLife 历史名称与样本范围。
 
 ## 记录之间有什么差别 {#s-e57156f57b}

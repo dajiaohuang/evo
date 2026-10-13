@@ -1,19 +1,50 @@
 ## Which fossil records this name represents {#s-1122fb54df}
 Glirulus ekremi is accepted in the fixed PBDB mammalia working roster, with database parent Glirulus. This guide uses 3 eligible species-level occurrence records from 3 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-573de32341}
-Collection Sibnica (original Petronijevic 1953-54 locality) (Serbia), region code RS; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Collection Sibnica 1 (Serbia), region code RS; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Collection Sibnica 2 (Serbia), region code RS; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Glirulus ekremi is listed in the PBDB snapshot under taxon txn:131773. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9282a3bb8a}
-Selected occurrences have an outer age envelope of 20.45–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Sibnica (original Petronijevic 1953-54 locality), occurrence occ:1432059 (20.45–15.98 Ma); one supplying the younger bound is Sibnica (original Petronijevic 1953-54 locality), occurrence occ:1432059 (20.45–15.98 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-573de32341}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-09b822226f}
-Sibnica (original Petronijevic 1953-54 locality) has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. Sibnica 1 has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. Sibnica 2 has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1432059; PBDB collection col:39714. Locality cnm=Sibnica (original Petronijevic 1953-54 locality); place fields cc2=RS, stp=Serbia. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Recorded attribution Kneżević et al. 2016; PBDB reference ref:67944.
 
-## Follow collection records back to references {#s-68dd10cfae}
-Sibnica (original Petronijevic 1953-54 locality) carries database reference attribution Kneżević et al. (2016), identifier ref:67944. Sibnica 1 carries database reference attribution Kneżević et al. (2016), identifier ref:67944. Sibnica 2 carries database reference attribution Kneżević et al. (2016), identifier ref:67944. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Originally thought to be probably lower Sarmatian, but other Sibnica localities are estimated as MN4 on basis of mammal occurrences so this locality is likely to be also.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Serbia, Sibnica, in the SW of Rekovac; the fossils were found in the left tributary of Sibnica's brook, about 150 m above the place they meet. IMPORTANT NOTE: This locality was eroded by the river and no longer exists. See other numbered Sibnica localities for more recently found occurrences (1997-2011).
+
+- Occurrence occ:1432088; PBDB collection col:199780. Locality cnm=Sibnica 1; place fields cc2=RS, stp=Serbia. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Recorded attribution Kneżević et al. 2016; PBDB reference ref:67944.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Serbia, Sibnica, in the SW of Rekovac; the fossils were found in the left tributary of Sibnica's brook, about 150 m above the place they meet. Very close to the original (now lost) Sibnica locality.
+
+- Occurrence occ:1432118; PBDB collection col:199781. Locality cnm=Sibnica 2; place fields cc2=RS, stp=Serbia. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Recorded attribution Kneżević et al. 2016; PBDB reference ref:67944.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Serbia, Sibnica, in the SW of Rekovac; the fossils were found in the left tributary of Sibnica's brook, about 150 m above the place they meet. Very close to the original (now lost) Sibnica locality.
+
+## Age bounds on the recorded occurrences {#s-9282a3bb8a}
+Across these selected PBDB rows, the largest recorded eag=20.45 Ma in occ:1432059; the smallest recorded lag=15.98 Ma in occ:1432059. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-09b822226f}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1432059: PBDB taxon-name field tna=Glirulus ekremi; PBDB locality-coordinate fields lng=21.222500, lat=43.305279; paleocoordinate/model fields pm1=gplates, pln=23.2, pla=38.34.
+- occ:1432088: PBDB taxon-name field tna=Glirulus ekremi; PBDB locality-coordinate fields lng=21.222500, lat=43.305279; paleocoordinate/model fields pm1=gplates, pln=23.2, pla=38.34.
+- occ:1432118: PBDB taxon-name field tna=Glirulus ekremi; PBDB locality-coordinate fields lng=21.222500, lat=43.305279; paleocoordinate/model fields pm1=gplates, pln=23.2, pla=38.34.
+
+## References attached to each record {#s-68dd10cfae}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1432059: Recorded attribution Kneżević et al. 2016; PBDB reference ref:67944.
+- occ:1432088: Recorded attribution Kneżević et al. 2016; PBDB reference ref:67944.
+- occ:1432118: Recorded attribution Kneżević et al. 2016; PBDB reference ref:67944.
 
 ## Evidence limits {#s-3866c980c6}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

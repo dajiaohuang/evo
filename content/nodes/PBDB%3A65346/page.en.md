@@ -1,18 +1,51 @@
-## Which fossil records this name represents {#s-6882a76a50}
-Erectopus superbus is accepted in the fixed PBDB dinosaur working roster, with database parent Erectopus. This guide uses 4 eligible species-level occurrence records from 4 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 4 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-6882a76a50}
+Erectopus superbus is listed in the PBDB snapshot under taxon txn:65346. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-41b70dd1c2}
-Collection Bois de la Penthière, Louppy-le-Château (Lorraine), region code FR, stratum name La Penthiève Beds; database age bracket 113.2–110.1 Ma, early interval Early Albian. Collection Grandpré, Ardennes (Champagne-Ardenne), region code FR; database age bracket 113.2–110.1 Ma, early interval Early Albian. Collection Bar-le-Duc (Champagne-Ardenne), region code FR; database age bracket 113.2–100.5 Ma, early interval Albian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-41b70dd1c2}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-d82aefcf3f}
-Selected occurrences have an outer age envelope of 125.77–100.5 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:679801; PBDB collection col:73351. Locality cnm=Serra da Arrabida, level 10b.; place fields cc2=PT. Recorded age bounds: eag 125.77 Ma; lag 121.4 Ma; PBDB interval fields oei=Early Barremian. Stratigraphic fields sfm=Papo Seco, sls=Serra da Arrabida, slb=10b, slo=bottom to top. Recorded attribution Rey 1972; PBDB reference ref:18719.
 
-## Read preservation setting separately from living habitat {#s-da8aa51864}
-Bois de la Penthière, Louppy-le-Château has collection-environment label marine indet.; collection preservation-mode label body. Grandpré, Ardennes has collection-environment label marine indet.; collection preservation-mode label body. Bar-le-Duc has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+2.50m
+originally the "Grès à Dinosauriens"
 
-## Follow collection records back to references {#s-e6dc96d63a}
-Bois de la Penthière, Louppy-le-Château carries database reference attribution Sauvage (1882), identifier ref:19140. Grandpré, Ardennes carries database reference attribution Sauvage (1882), identifier ref:19140. Bar-le-Duc carries database reference attribution Gaudry (1890), identifier ref:46182. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Serie at North of Cap Espichel.
 
-## Evidence limits {#s-de0129fcb0}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:534795; PBDB collection col:55336. Locality cnm=Bar-le-Duc; place fields cc2=FR, stp=Champagne-Ardenne, cny=Meuse. Recorded age bounds: eag 113.2 Ma; lag 100.5 Ma; PBDB interval fields oei=Albian. Recorded attribution Gaudry 1890; PBDB reference ref:46182.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Gault"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Bar-le-Duc, Dept. Meuse
+
+- Occurrence occ:528246; PBDB collection col:53950. Locality cnm=Bois de la Penthière, Louppy-le-Château; place fields cc2=FR, stp=Lorraine, cny=Meuse. Recorded age bounds: eag 113.2 Ma; lag 110.1 Ma; PBDB interval fields oei=Early Albian. Stratigraphic fields sfm=La Penthiève Beds. Recorded attribution Sauvage 1882; PBDB reference ref:19140.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Albian with Ammonites milletianus and mammillaris"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Bois de la Penthière, near Louppy-le-Château, Meuse dept., Gault
+
+## Age bounds on the recorded occurrences {#s-d82aefcf3f}
+Across these selected PBDB rows, the largest recorded eag=125.77 Ma in occ:679801; the smallest recorded lag=100.5 Ma in occ:534795. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-da8aa51864}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:679801: PBDB original-identification field idn=Megalosaurus superbus; PBDB taxon-name field tna=Erectopus superbus; PBDB locality-coordinate fields lng=-9.216667, lat=38.400002; paleocoordinate/model fields pm1=gplates, pln=14.96, pla=28.79.
+- occ:534795: PBDB original-identification field idn=Megalosaurus superbus; PBDB taxon-name field tna=Erectopus superbus; material note ocm=phalanges, tooth; abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=5.166700, lat=48.783298; paleocoordinate/model fields pm1=gplates, pln=26.1, pla=44.12.
+- occ:528246: PBDB original-identification field idn=Megalosaurus superbus n. sp.; PBDB taxon-name field tna=Erectopus superbus; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=5.066700, lat=48.866699; paleocoordinate/model fields pm1=gplates, pln=28.1, pla=43.02.
+
+## References attached to each record {#s-e6dc96d63a}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:679801: Recorded attribution Rey 1972; PBDB reference ref:18719.
+- occ:534795: Recorded attribution Gaudry 1890; PBDB reference ref:46182.
+- occ:528246: Recorded attribution Sauvage 1882; PBDB reference ref:19140.
+
+## What these records can show {#s-de0129fcb0}
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

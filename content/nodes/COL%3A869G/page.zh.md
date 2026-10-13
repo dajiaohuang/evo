@@ -1,4 +1,6 @@
-## 沿食物、取食位置和活动时段对读 {#s-6aeb42c229}
+## 记录分类与直接上级关系 {#s-6aeb42c229}
+COL26.8 将 Veniliornis 记录为属；其直接上级记录为 Picinae。
+
 Veniliornis 的本批路线包含 6 个历史条目，可从 Veniliornis mixtus、Veniliornis spilogaster、Veniliornis sanguineus、Veniliornis kirkii、Veniliornis cassini 开始。其中 6 条可读食物类别权重，6 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
 
 ## 沿食物、取食位置和活动时段对读 {#s-8f9d62a6ac}

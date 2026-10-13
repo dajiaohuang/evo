@@ -1,19 +1,38 @@
 ## Which fossil records this name represents {#s-5500f86f9d}
 Nitosaurus jacksonorum is accepted in the fixed PBDB other-synapsida working roster, with database parent Nitosaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-7240f67aec}
-Collection El Cobre Canyon (Cutler Formation) (New Mexico), region code US, stratum name Cutler; database age bracket 303.7–298.9 Ma, early interval Virgilian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Nitosaurus jacksonorum is listed in the PBDB snapshot under taxon txn:123522. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-0b49dbd8f6}
-Selected occurrences have an outer age envelope of 303.7–298.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is El Cobre Canyon (Cutler Formation), occurrence occ:788207 (303.7–298.9 Ma); one supplying the younger bound is El Cobre Canyon (Cutler Formation), occurrence occ:788207 (303.7–298.9 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-7240f67aec}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-a2098687dc}
-El Cobre Canyon (Cutler Formation) has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:788207; PBDB collection col:34761. Locality cnm=El Cobre Canyon (Cutler Formation); place fields cc2=US, stp=New Mexico, cny=Rio Arriba. Recorded age bounds: eag 303.7 Ma; lag 298.9 Ma; PBDB interval fields oei=Virgilian. Stratigraphic fields sfm=Cutler. Recorded attribution Romer 1937; PBDB reference ref:43845.
 
-## Follow collection records back to references {#s-829d74277f}
-El Cobre Canyon (Cutler Formation) carries database reference attribution Romer (1937), identifier ref:43845. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Based on the biostratigraphic information provided by two floral taxa, Alethopteris serlii and Neuropteris scheuchzeri, Fracasso (1980) argued for an Upper Pennsylvanian Missourian assignment, but Berman et al. (1997), while acknowledging a Late Pennsylvanian age, suggested that the beds of the canyon floor are latest Virgilian in age.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+El Cabre locality in Case 1907; "El Cobre" locality in AMNH Collections data.
+"There is in the Cope Collection a considerable quantity of material from New Mexico, El Cabre and Arroyo de Agua, names that do not appear on the maps." (Case 1907)
+El Cobre Canyon is located approximately 8 km northwest of the village of Abiquiu, Rio Arriba County, New Mexico (Berman, 1993). Lat Long is for center of canyon.
+
+## Age bounds on the recorded occurrences {#s-0b49dbd8f6}
+Across these selected PBDB rows, the largest recorded eag=303.7 Ma in occ:788207; the smallest recorded lag=298.9 Ma in occ:788207. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-a2098687dc}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:788207: PBDB original-identification field idn=Nitosaurus jacksonorum n. gen. n. sp.; PBDB taxon-name field tna=Nitosaurus jacksonorum; material note ocm=AMNH 4782; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-106.345558, lat=36.305557; paleocoordinate/model fields pm1=gplates, pln=-34.62, pla=3.06.
+
+## References attached to each record {#s-829d74277f}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:788207: Recorded attribution Romer 1937; PBDB reference ref:43845.
 
 ## Evidence limits {#s-1aeaa56e3d}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

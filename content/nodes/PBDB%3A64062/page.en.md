@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-9664e45589}
-Condorraptor currumili is accepted in the fixed PBDB dinosaur working roster, with database parent Condorraptor. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-9664e45589}
+Condorraptor currumili is listed in the PBDB snapshot under taxon txn:64062. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-3a81819302}
-Collection Las Chacritas, Cerro Cóndor (Chubut), region code AR, stratum name Cañadón Asfalto; database age bracket 180.4–168.6 Ma, early interval Late Toarcian and late interval Early Bajocian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-3a81819302}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-a36c82f8a1}
-Selected occurrences have an outer age envelope of 180.4–168.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:468455; PBDB collection col:46550. Locality cnm=Las Chacritas, Cerro Cóndor; place fields cc2=AR, stp=Chubut. Recorded age bounds: eag 180.4 Ma; lag 168.6 Ma; PBDB interval fields oei=Late Toarcian, oli=Early Bajocian. Stratigraphic fields sfm=Cañadón Asfalto. Recorded attribution Rauhut 2005; PBDB reference ref:12418.
 
-## Read preservation setting separately from living habitat {#s-0fbc635fa7}
-Las Chacritas, Cerro Cóndor has collection-environment label lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Lower section" of the formation
 
-## Follow collection records back to references {#s-32c995a81d}
-Las Chacritas, Cerro Cóndor carries database reference attribution Rauhut (2005), identifier ref:12418. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Las Chacritas, on land belonging to Hipólito Currumil, 2.3 km W of Cerro Cóndor
 
-## Evidence limits {#s-5221c7c844}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-a36c82f8a1}
+Across these selected PBDB rows, the largest recorded eag=180.4 Ma in occ:468455; the smallest recorded lag=168.6 Ma in occ:468455. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-0fbc635fa7}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:468455: PBDB original-identification field idn=Condorraptor currumili n. gen. n. sp.; PBDB taxon-name field tna=Condorraptor currumili; material note ocm=MPEF-PV 1672; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-69.192970, lat=-43.419846; paleocoordinate/model fields pm1=gplates, pln=-17.38, pla=-43.63.
+
+## References attached to each record {#s-32c995a81d}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:468455: Recorded attribution Rauhut 2005; PBDB reference ref:12418.
+
+## What these records can show {#s-5221c7c844}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,4 @@
-export type AppRoute = 'home' | 'catalog' | 'registry' | 'stories' | 'explore' | 'research' | 'info' | 'taxa' | 'events' | 'compare' | 'lab'
+export type AppRoute = 'home' | 'catalog' | 'registry' | 'pbdb' | 'stories' | 'explore' | 'research' | 'info' | 'taxa' | 'events' | 'compare' | 'lab'
 
 export interface RouteState {
   route: AppRoute
@@ -6,7 +6,7 @@ export interface RouteState {
 }
 
 const ROUTES = new Set<AppRoute>([
-  'home', 'catalog', 'registry', 'stories', 'explore', 'research', 'info', 'taxa', 'events', 'compare', 'lab',
+  'home', 'catalog', 'registry', 'pbdb', 'stories', 'explore', 'research', 'info', 'taxa', 'events', 'compare', 'lab',
 ])
 
 export function parseRouteHash(hash: string): RouteState {

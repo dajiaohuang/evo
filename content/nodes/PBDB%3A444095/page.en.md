@@ -1,19 +1,37 @@
 ## Which fossil records this name represents {#s-a5f574f8c2}
 Miohyaenotherium bessarabicum is accepted in the fixed PBDB mammalia working roster, with database parent Miohyaenotherium. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-8e6a77296f}
-Collection Udabno I, region code GE; database age bracket 8.725–7.9 Ma, early interval MN 11. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Miohyaenotherium bessarabicum is listed in the PBDB snapshot under taxon txn:444095. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-048b0a86d2}
-Selected occurrences have an outer age envelope of 8.725–7.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Udabno I, occurrence occ:699769 (8.725–7.9 Ma); one supplying the younger bound is Udabno I, occurrence occ:699769 (8.725–7.9 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-8e6a77296f}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-841be8abf8}
-Udabno I has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:699769; PBDB collection col:75087. Locality cnm=Udabno I; place fields cc2=GE. Recorded age bounds: eag 8.725 Ma; lag 7.9 Ma; PBDB interval fields oei=MN 11. Recorded attribution Gabunia et al. 2001; PBDB reference ref:25370.
 
-## Follow collection records back to references {#s-487eda19fc}
-Udabno I carries database reference attribution Gabunia et al. (2001), identifier ref:25370. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper Sarmatian
+"c. 110 m below the basis of the 'Shiraqi' complex...  Upper Sarmatian or Lower Meotis, which corresponds with the Lower Turolian (MN 11)" (Gabunia et al. 2001)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Eastern Georgia, village of Udabno, water divide of the Kura and Iora Rivers, Dabsidag Mountain, ravine near the former David Garidzhi monastery near a sheep breeding state farm
+
+## Age bounds on the recorded occurrences {#s-048b0a86d2}
+Across these selected PBDB rows, the largest recorded eag=8.725 Ma in occ:699769; the smallest recorded lag=7.9 Ma in occ:699769. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-841be8abf8}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:699769: PBDB taxon-name field tna=Miohyaenotherium bessarabicum; PBDB locality-coordinate fields lng=45.386665, lat=41.492222; paleocoordinate/model fields pm1=gplates, pln=45.4, pla=39.83.
+
+## References attached to each record {#s-487eda19fc}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:699769: Recorded attribution Gabunia et al. 2001; PBDB reference ref:25370.
 
 ## Evidence limits {#s-f191af7139}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

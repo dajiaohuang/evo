@@ -1,6 +1,6 @@
-## A molecular branch among living primates {#s-cfde3f550e}
-In a 367-species living-primate supermatrix, Catarrhini is recovered as a supported higher-level branch. That result describes relationships within the sampled sequence data and the model used to analyse them.
+## Catarrhini in a living-primate supermatrix {#s-cfde3f550e}
+A supermatrix covering 367 living-primate species recovers Catarrhini as a supported higher-level branch. This is a result about relationships in the sampled sequence data under the study’s analytical model. It does not by itself establish fossil membership or a fossil age for the branch.
 
-## Keep the tree separate from the fossils {#s-d1e15cbdee}
-The study’s internal topology and historical-biogeography estimates are properties of that molecular analysis. They are not direct fossil observations, and the page does not turn them into a fossil range or a universal account of ancestral geography.
+## Molecular topology is not fossil evidence {#s-d1e15cbdee}
+The study’s internal topology and historical-biogeography estimates are results of that molecular analysis. They are not direct observations of fossils and do not establish one universal ancestral geography. The range record withholds a numerical start because the living-primate supermatrix supplies no range-fit fossil date.
 

@@ -107,13 +107,20 @@ records:
       morphology:
         status: partially-supported
         claims:
-          - text: The authors report that P. tanjaka and P. neglecta share the diagnostic state of having the nostril contact the rostral scale, separating the pair from other members of the species group considered. This character does not distinguish P. tanjaka from P. neglecta.
+          - text:
+              page: en
+              section: tanjaka-diagnostic-character
+              part: body
             sourceIds:
               - miralles2021
             locator: Morphological comparisons, p. 34; diagnosis reference to Köhler et al. (2019)
             placeTimeScope: Diagnostic character as reported in the 2021 revision; this is a limited character statement rather than a complete diagnosis.
             lifeStatus: Morphological character; the claim does not assert variation across all ages or populations.
             originalLanguage: en
+            textZh:
+              page: zh
+              section: tanjaka-diagnostic-character
+              part: body
         gaps:
           - The article identifies one diagnostic character and does not establish the full range of morphological variation for P. tanjaka.
       lifeHistory:
@@ -123,37 +130,58 @@ records:
       ecology:
         status: partially-supported
         claims:
-          - text: The revision reports P. tanjaka and P. neglecta as sympatric at Bemaraha; the two were recovered as distinct mitochondrial lineages and shared no nuclear haplotypes in the study's markers. This documents co-occurrence in the sampled locality, not a complete ecological relationship or range-wide pattern.
+          - text:
+              page: en
+              section: bemaraha-cooccurrence
+              part: body
             sourceIds:
               - miralles2021
             locator: Integrative species delimitation, sympatry in Bemaraha, pp. 35-36
             placeTimeScope: Specimens and locality records from Bemaraha analyzed in the 2021 study.
             lifeStatus: Wild collected specimens; no captive behavior is inferred.
             originalLanguage: en
+            textZh:
+              page: zh
+              section: bemaraha-cooccurrence
+              part: body
         gaps:
           - The study does not provide a systematic ecological account or establish the full habitat range and interactions of P. tanjaka.
       evolution:
         status: partially-supported
         claims:
-          - text: In the study's mitochondrial and nuclear analyses, P. tanjaka formed a distinct lineage from sympatric P. neglecta, and the authors placed the two as sister species in their phylogenetic hypothesis. They note that relationships in this group need confirmation through more comprehensive phylogenomic study.
+          - text:
+              page: en
+              section: sampled-sister-hypothesis
+              part: body
             sourceIds:
               - miralles2021
             locator: Abstract; multilocus phylogenetic relationships, pp. 33-34; sympatry in Bemaraha, pp. 35-36
             placeTimeScope: Phylogenetic hypothesis based on the paper's sampled loci and specimens; the authors identify the need for further phylogenomic study.
             lifeStatus: Wild sampled specimens; no broader evolutionary rate or population inference is made.
             originalLanguage: en
+            textZh:
+              page: zh
+              section: sampled-sister-hypothesis
+              part: body
         gaps:
           - No later phylogenomic confirmation or comparative evolutionary synthesis was assessed.
       distribution:
         status: partially-supported
         claims:
-          - text: The authors describe P. tanjaka as known only from the karstic Tsingy de Bemaraha in central-west Madagascar in the study's taxonomic background.
+          - text:
+              page: en
+              section: recorded-locality
+              part: body
             sourceIds:
               - miralles2021
             locator: Introduction, p. 28; sympatry in Bemaraha, pp. 35-36
             placeTimeScope: Distribution statement in the 2021 paper; it is not a current exhaustive occurrence inventory.
             lifeStatus: Wild locality records considered in the revision.
             originalLanguage: en
+            textZh:
+              page: zh
+              section: recorded-locality
+              part: body
         gaps:
           - No current exhaustive range survey, boundary assessment or native-versus-introduced analysis was conducted.
       fossil:

@@ -1,5 +1,5 @@
-## Two EltonTraits field groups {#s-2dbbbfe812}
-Solomys salamonis is accepted in pinned COL26.8 within Muridae. Two ecological field groups come from its same-name, same-family EltonTraits 1.0 record. The archive follows earlier bird taxonomy or MSW3 for mammals, so the name correspondence does not settle modern splits or synonymy.
+## Diet weights and foraging stratum in the compilation {#s-2dbbbfe812}
+The EltonTraits 1.0 record for *Solomys salamonis* contains the diet weights, foraging stratum. The selected diet fields give literature-standardized relative weights of fruit 50%, nectar 50% (confidence code ABC). The foraging-stratum field assigns the arboreal category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The archive leaves activity fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Solomys salamonis*.
 
 ## Fruit and plant exudates share the reported weights {#s-4eac95ad5b}
 The nonzero diet weights are fruit 50% and nectar, pollen, and plant exudates 50%. EltonTraits standardizes verbal descriptions rather than measures diet composition. ABC pools high, reasonable, and partial confidence; some estimates may borrow from a congener judged ecologically similar, so they are not necessarily direct observations of this species. Zero weight does not prove an item is never eaten. Broad labels such as Nect, Seed, and PlantO do not imply exclusive foods.
@@ -10,11 +10,13 @@ The mammalian foraging stratum is Ar, arboreal; code A records compiler confiden
 ## Keep source labels with their fields {#s-4ee6a928e4}
 The retained groups carry Ref_1 and metadata:Nowak1999 labels. Diet, stratum, and activity may draw on different sources, and the same Ref number in bird and mammal tables does not identify one publication. The archive preserves original strings by file, row, field group, and reference table. Underlying works have not been individually read, so labels add no independent observations.
 
-## Limits of these historical records {#s-56186185ca}
-EltonTraits is a historical same-name, same-family guide, not a complete monograph; its historical concepts are not automatically equivalent to COL26.8. Food and avian-stratum percentages are literature-derived relative weights, not direct measurements of stomach contents, intake, energy, or observation time. Avian A/B codes retain source and proportional uncertainty. Mammalian ABC diet or activity fields may rely on a similar congener; genus/family typical values, non-species-level avian strata, and split records needing review do not establish this species’ traits. Underlying sources have not been reread. Individual, seasonal, and local variation and current range, population, and conservation need other evidence. Activity periods coded D2 are withheld because of interpolation, certainty, or source-link limits; their archived values do not support a definite activity claim.
+## How to interpret these historical records {#s-56186185ca}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## The historical name in PanTHERIA {#s-b9d2a5c4ea}
-Solomys salamonis is accepted in pinned COL26.8 within Muridae. The PanTHERIA 1.0 comparison uses its MSW05 entry from the August 2008 table; biological data gathering ended in June 2004. This name match does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult head–body length in the historical table {#s-b9d2a5c4ea}
+The August 2008 PanTHERIA row for *Solomys salamonis* records adult head–body length 270 mm. Adult head–body length is a sex-adjusted median. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Solomys salamonis*.
 
 ## One adult length summary {#s-aa5275f4f1}
 The historical summary reports adult head–body length of 270 mm. PanTHERIA adjusts for sex and uses a median; head–body length excludes the tail. The value is a compilation summary, not one specimen’s measurement or a species-wide range.

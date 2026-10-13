@@ -1,8 +1,8 @@
-## Organize fossil records by source classification {#s-0ce5ac2b83}
-The PBDB classification path records Rhynchocephalia at the order rank. This route links to occurrence guides for 32 listed species. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. The route lists only its non-extant fossil species records; it does not imply that the entire group is extinct.
+## Rhynchocephalia in the PBDB classification {#s-0ce5ac2b83}
+The PBDB classification path records Rhynchocephalia at order rank and this route links occurrence guides for 32 listed fossil species. The parent path organizes database entries, not a phylogenetic scheme. This fossil-record route does not establish that the whole group is extinct; a separate source-bound study section treats the sampled radiation through living Sphenodon.
 
-## Compare collections, strata and age brackets {#s-5c8d041bd0}
-Start with Colobops noviportensis, Oenosaurus muehlheimensis, Tika giacchinoi, Navajosphenodon sani and Sphenofontis velserae, then compare the named collections and original reference links on each page. Across the species in this guide, there are 51 selected occurrences from 48 collections; example stratum names are New Haven, Mörnsheim, Candeleros, Kayenta. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Selected records across named collections {#s-5c8d041bd0}
+Start with Colobops noviportensis, Oenosaurus muehlheimensis, Tika giacchinoi, Navajosphenodon sani and Sphenofontis velserae, then compare the collection and source attached to each page. The selected species guide contains 51 occurrences from 48 collections; recorded stratum names include New Haven, Mörnsheim, Candeleros and Kayenta. Check each collection’s age bracket and identification qualification before comparing sites. Occurrence and collection counts do not measure ancient population size.
 
 ## Evidence limits {#s-5390cf0738}
 This route introduces occurrence records for species covered here; it is not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.

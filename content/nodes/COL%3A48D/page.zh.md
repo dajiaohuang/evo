@@ -4,7 +4,7 @@
 ## 按材料、树模型和实验层次阅读 {#s-842c4b5c79}
 本入口直接呈现四种研究物种：[Crypturellus cinnamomeus](Tinamidae/Crypturellus/Crypturellus_cinnamomeus/page.zh.md)、[Eudromia elegans](Tinamidae/Eudromia/Eudromia_elegans/page.zh.md)、[Nothoprocta perdicaria](Tinamidae/Nothoprocta/Nothoprocta_perdicaria/page.zh.md) 和 [Tinamus guttatus](Tinamidae/Tinamus/Tinamus_guttatus/page.zh.md)。可先区分新组装、沿用和参考映射的基因组，再比较物种树与基因树。若要跨支系看功能实验，可读 [Rhea americana](../Rheiformes/Rheidae/Rhea/Rhea_americana/page.zh.md) 和 [Eudromia elegans](Tinamidae/Eudromia/Eudromia_elegans/page.zh.md) 的鸡胚报告实验；单个候选区域不能验证所有加速区域。形态、生活史与化石记录各有自己的样本和单位；这条路线既不是全面取样，也不是完整的后代目录。
 
-## 本地数据阅读路径 {#s-cdbfed01d7}
+## 记录分类与成员材料 {#s-cdbfed01d7}
 本批 Tinamiformes 路线有 40 条带测量的物种记录，可从 Crypturellus atrocapillus、Crypturellus bartletti、Crypturellus berlepschi、Crypturellus boucardi 和 Crypturellus brevirostris 开始。分类层级沿用固定版本 COL26.8，生物学数值则保留 AVONET v7 的历史名称与取样范围。
 
 ## 记录之间有什么差别 {#s-5d9310fda1}
@@ -30,8 +30,8 @@
 
 新增基因组内容依据 Sackton 等人（2019）的已发表主文、四幅图说和图 1 图像像素；Cloutier 等人（2019）中已查看的取样、标记提取、物种树方法、选定结果与讨论段落；以及 10 份 NCBI WGS 主记录。两篇配套论文共享材料，不能当作独立种群重复。其他图像像素、补充材料、原始序列和分析代码未独立检查或重跑，配套论文也未逐段通读全文。候选调控区加速、开放染色质与单个区域的鸡胚报告实验属于不同证据层次，不能视为已在所有物种中完成的功能验证。完整生物学仍未完成。
 
-## 从有限生态资料开始 {#s-1c12b834e7}
-本批有 4 个有限生态资料页：[Crypturellus kerriae](Tinamidae/Crypturellus/Crypturellus_kerriae/page.zh.md)、[Crypturellus ptaritepui](Tinamidae/Crypturellus/Crypturellus_ptaritepui/page.zh.md)、[Eudromia formosa](Tinamidae/Eudromia/Eudromia_formosa/page.zh.md) 和 [Nothoprocta taczanowskii](Tinamidae/Nothoprocta/Nothoprocta_taczanowskii/page.zh.md)。源条目沿固定 COL26.8 分类导航；这里的 4 条是本批已写资料数，不是接受种总数。
+## 记录分类与成员材料 {#s-1c12b834e7}
+本批有 4 个有限生态资料页：Crypturellus kerriae、Crypturellus ptaritepui、Eudromia formosa 和 Nothoprocta taczanowskii。源条目沿固定 COL26.8 分类导航；这里的 4 条是本批已写资料数，不是接受种总数。
 
 ## 哪些内容可读，哪些仍未解读 {#s-6feb882efd}
 栖地、取食生态位、主导活动方式和迁移类别各见于 4 页。阅读时应对照原字段定义，并区分类别、历史地图与个体观察。标签相同不代表每个后代都采用相同生活方式。本批的喙、翼、跗蹠、尾和体重字段尚未解读，不能用来比较整个类群的体型。

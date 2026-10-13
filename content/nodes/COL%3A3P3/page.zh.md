@@ -1,4 +1,4 @@
-## 本地数据阅读路径 {#s-961c437b32}
+## 记录分类与成员材料 {#s-961c437b32}
 Nyctibiiformes 的本批阅读路径包含 6 条有测量来源的物种记录，可从 Nyctibius aethereus、Nyctibius grandis、Nyctibius griseus、Nyctibius jamaicensis、Nyctibius leucopterus 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-13fb5491b6}

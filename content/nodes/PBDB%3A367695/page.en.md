@@ -1,18 +1,37 @@
-## Which fossil records this name represents {#s-607a03c7fa}
-Anas theodori is accepted in the fixed PBDB dinosaur working roster, with database parent Anas. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-607a03c7fa}
+Anas theodori is listed in the PBDB snapshot under taxon txn:367695. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-8556f0bc96}
-Collection Marais de l'Ermitage, region code RE; database age bracket 0.0117–0 Ma, early interval Holocene. Collection Mare aux Songes swamp (Sauzier collection), region code MU; database age bracket 0.0117–0 Ma, early interval Holocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-8556f0bc96}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-e4dd2c9df3}
-Selected occurrences have an outer age envelope of 0.0117–0 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1404964; PBDB collection col:193996. Locality cnm=Marais de l'Ermitage; place fields cc2=RE. Recorded age bounds: eag 0.0117 Ma; lag 0 Ma; PBDB interval fields oei=Holocene. Recorded attribution Mourer-Chauviré et al. 1999; PBDB reference ref:65892.
 
-## Read preservation setting separately from living habitat {#s-64d3bd6a6b}
-Marais de l'Ermitage has collection-environment label mire/swamp; collection preservation-mode label body. Mare aux Songes swamp (Sauzier collection) has collection-environment label mire/swamp; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The filling of the swamp consists of about 80 cm of organic soil with very few fossils. This overlies a layer 30 to 40 cm deep made up of countless bones and shell fragments of the large, extinct land-tortoise Cylindraspis borbonica Bour, mixed with volcanic rocks and blocks of coral. Several bones of Cylindraspis borbonica dated at 915 +/- 120 BP (after calibration 883-1273 AD); a bone of C. borbonica from the base of the sediment dated at 1755 +/- 40 BP (after calibration 186-391 AD); and a pig bone, introduced by humans, dated at 365 +/- 35 BY (after calibration 1458-1633 AD). The three dates obtained for the Marais de l'Ermitage indicate that the remains of tortoises, birds, and bats accumulated over a period of at least 1400 years, from about  300 AD to about 1700 AD.
 
-## Follow collection records back to references {#s-ce3030f4e7}
-Marais de l'Ermitage carries database reference attribution Mourer-Chauviré et al. (1999), identifier ref:65892. Mare aux Songes swamp (Sauzier collection) carries database reference attribution Newton and Gadow (1893), identifier ref:65901. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+This swamp is situated a little further to the south of the above-mentioned sites, along the N1 road, between Saint-Gilles and La Saline-les-Bains, at the locality of l'Ermitage-les-Bains. The first fossil bones were discovered in 1989-1990, during earthworks for the construction of the Jardin d'Eden. Excavations have been carried out in this same swamp, to the south of the Jardin d'Eden, under the responsibility of the Museum d'Histoire Naturelle de La Reunion, since 1992, and are still conducted every year. The area excavated so far is about 80 m2.
 
-## Evidence limits {#s-4d5c95bca2}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1405172; PBDB collection col:194025. Locality cnm=Mare aux Songes swamp (Sauzier collection); place fields cc2=MU. Recorded age bounds: eag 0.0117 Ma; lag 0 Ma; PBDB interval fields oei=Holocene. Recorded attribution Newton and Gadow 1893; PBDB reference ref:65901.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Plaisance Sugar Estate, 5 km from Mahébourg, and less than 1 km from Blue Bay
+
+## Age bounds on the recorded occurrences {#s-e4dd2c9df3}
+Across these selected PBDB rows, the largest recorded eag=0.0117 Ma in occ:1404964; the smallest recorded lag=0 Ma in occ:1404964. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-64d3bd6a6b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1404964: PBDB taxon-name field tna=Anas theodori; PBDB locality-coordinate fields lng=55.230000, lat=-21.077000; paleocoordinate/model fields pm1=gplates.
+- occ:1405172: PBDB original-identification field idn=Anas theodori n. sp.; PBDB taxon-name field tna=Anas theodori; PBDB locality-coordinate fields lng=57.700001, lat=-20.440001; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-ce3030f4e7}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1404964: Recorded attribution Mourer-Chauviré et al. 1999; PBDB reference ref:65892.
+- occ:1405172: Recorded attribution Newton and Gadow 1893; PBDB reference ref:65901.
+
+## What these records can show {#s-4d5c95bca2}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

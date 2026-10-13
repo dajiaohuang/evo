@@ -1,4 +1,6 @@
-## Species records with cited traits {#s-f70b9bb83b}
+## Recorded classification and direct parent {#s-f70b9bb83b}
+COL26.8 records Pelomedusa at genus rank, with Pelomedusidae as its direct parent.
+
 This catalogue links one species records for Pelomedusa with matching names, family placement and trait-level citations. Start with Pelomedusa subrufa. Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
 
 ## Compare like measurements {#s-69fa66c70d}
@@ -15,7 +17,7 @@ The life-history route covers historical entries with matching names and family 
 Some fields in 1 species accounts have citation labels that cannot be linked to those fields with enough certainty. Those values are not presented here as established traits; their labels remain with the species entries. The count refers to accounts, not complete trait coverage.
 
 ## Species records with cited traits {#s-27ba6881a3}
-This catalogue links 9 species records for Pelomedusa with matching names, family placement and trait-level citations. Start with [Pelomedusa barbata](Pelomedusa_barbata/page.en.md), [Pelomedusa galeata](Pelomedusa_galeata/page.en.md), [Pelomedusa gehafie](Pelomedusa_gehafie/page.en.md), [Pelomedusa kobe](Pelomedusa_kobe/page.en.md), [Pelomedusa neumanni](Pelomedusa_neumanni/page.en.md). Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
+This catalogue links 9 species records for Pelomedusa with matching names, family placement and trait-level citations. Start with Pelomedusa barbata, Pelomedusa galeata, Pelomedusa gehafie, Pelomedusa kobe, Pelomedusa neumanni. Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
 
 ## Compare like measurements {#s-124673e2e1}
 Among the size records listed here, Pelomedusa schweinfurthi has a reported maximum straight carapace length (SCL) of 157 mm and Pelomedusa galeata 325 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Check each field’s source when comparing activity, feeding and reproduction.

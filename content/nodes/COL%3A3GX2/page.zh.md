@@ -1,4 +1,6 @@
-## 沿 Thryothorus 旧组合找七条记录 {#s-4a913e87ed}
+## 记录分类与直接上级关系 {#s-4a913e87ed}
+COL26.8 将 Cantorchilus N. I. Mann, Barker, J. A. Graves, K. A. Dingess-Mann & P. J. B. Slater, 2006 记录为属；其直接上级记录为 Troglodytidae。
+
 本入口按 COL26.8 Cantorchilus（3GX2）与 Troglodytidae（626S2）组织七条历史导读。七条 BirdLife／eBird 同名且各自 Avibase ID 相同，类型均为一对一；BirdTree 记七个 Thryothorus 旧组合，每个均读到逐字目录异名指向本页接受种。名称对应不证明跨版本物种范围相同。目录属记录十个直接子项，本批七页不作为全属完整内容、完整自然史。
 
 ## 三十八只总数与四套完整测量 {#s-5027902a58}
@@ -10,9 +12,9 @@ nigricapillus 总数38（雌15、雄17、未定6），完整4；semibadius 总�
 ## 先比较完整测量，再查栖地代码 {#s-ed02afeb0b}
 从 nigricapillus 的38只总数／4套完整与 guarayanus 的3只／3套完整开始，避免把最大总数当作最大完整数。再读 leucotis 的5套完整与 semibadius 的4套，两者 Forest／密度2相同；对读 longirostris／nigricapillus 的 Forest／密度1和三条 Shrubland／密度2。沿旧 Thryothorus 名称回查目录异名与名称表，形态和独立文献体重分开。
 
-第1组：[Cantorchilus longirostris](Cantorchilus_longirostris/page.zh.md)、[Cantorchilus leucotis](Cantorchilus_leucotis/page.zh.md)、[Cantorchilus semibadius](Cantorchilus_semibadius/page.zh.md)、[Cantorchilus superciliaris](Cantorchilus_superciliaris/page.zh.md)
+第1组：Cantorchilus longirostris、Cantorchilus leucotis、Cantorchilus semibadius、Cantorchilus superciliaris
 
-第2组：[Cantorchilus nigricapillus](Cantorchilus_nigricapillus/page.zh.md)、[Cantorchilus thoracicus](Cantorchilus_thoracicus/page.zh.md)、[Cantorchilus guarayanus](Cantorchilus_guarayanus/page.zh.md)
+第2组：Cantorchilus nigricapillus、Cantorchilus thoracicus、Cantorchilus guarayanus
 
 ## 证据边界 {#s-407ac841c5}
 七条所选历史行与各自旧 Thryothorus 组合异名支持有限导读，不计十个目录直接子项的完整内容。总鸟数、三至五套完整测量和 Dunning 文献体重独立；类别不提供实测食谱、准确觅食层位、对唱、繁殖、当前地图。

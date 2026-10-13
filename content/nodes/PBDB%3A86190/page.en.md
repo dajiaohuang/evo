@@ -1,19 +1,48 @@
 ## Which fossil records this name represents {#s-73dfa7f05e}
 Moeritherium lyonsi is accepted in the fixed PBDB mammalia working roster, with database parent Moeritherium. This guide uses 17 eligible species-level occurrence records from 17 collections and 5 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-7b0ad932e7}
-Collection Gebel Rascal (Dor-et-Talha), region code LY; database age bracket 41.03–33.9 Ma, early interval Bartonian and late interval Late Eocene. Collection NNW of Birket Qarun (Fayum), region code EG, stratum name Jebel Qatrani; database age bracket 37.71–27.3 Ma, early interval Late Eocene and late interval Early Oligocene. Collection Gebel Achdar (Fayum), region code EG, stratum name Qasr el-Sagha; database age bracket 37.71–33.9 Ma, early interval Priabonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Moeritherium lyonsi is listed in the PBDB snapshot under taxon txn:86190. This archived guide contains 17 selected occurrence rows, linked to 17 distinct PBDB collection IDs and 5 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-6f0e79dd19}
-Selected occurrences have an outer age envelope of 41.03–27.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Gebel Rascal (Dor-et-Talha), occurrence occ:481321 (41.03–33.9 Ma); one supplying the younger bound is NNW of Birket Qarun, occurrence occ:613735 (37.71–27.3 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-7b0ad932e7}
+The archived guide contains 17 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-330c75910b}
-Gebel Rascal (Dor-et-Talha) has collection-environment label marine indet.; collection preservation-mode label body. NNW of Birket Qarun has collection-environment label fluvial indet.; collection preservation-mode label body. Gebel Achdar has collection-environment label marginal marine indet.; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:481321; PBDB collection col:48077. Locality cnm=Gebel Rascal (Dor-et-Talha); place fields cc2=LY. Recorded age bounds: eag 41.03 Ma; lag 33.9 Ma; PBDB interval fields oei=Bartonian, oli=Late Eocene. Recorded attribution Hoffstetter 1961; PBDB reference ref:12869.
 
-## Follow collection records back to references {#s-036caba139}
-Gebel Rascal (Dor-et-Talha) carries database reference attribution Hoffstetter (1961), identifier ref:12869. NNW of Birket Qarun carries database reference attribution Andrews (1906), identifier ref:11955. Gebel Achdar carries database reference attribution Blanckenhorn (1903), identifier ref:26770. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Fossils occur in two layers within a 50 m section exposed at Dor-et-Talha cliffs. Pterosphenus and squalidid remains are from lower layer, all other taxa are from upper layer.
+
+- Occurrence occ:613735; PBDB collection col:65960. Locality cnm=NNW of Birket Qarun; place fields cc2=EG, stp=Fayum. Recorded age bounds: eag 37.71 Ma; lag 27.3 Ma; PBDB interval fields oei=Late Eocene, oli=Early Oligocene. Stratigraphic fields sfm=Jebel Qatrani. Recorded attribution Andrews 1906; PBDB reference ref:11955.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Upper Fossil Wood Zone
+The Jebel Qatrani Formation in Fayum Province is aged Late Eocene to Early Oligocene, although Crocodylus articeps and Crocodylus megarhinus are generally considered to be Rupelian / Early Oligocene (Adams 2016; El-Degwi et al. 2025)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+general area estimated, neither precise coordinates, nor precise geographic information is given by Andrews (1906)
+
+- Occurrence occ:693593; PBDB collection col:74737. Locality cnm=Gebel Achdar; place fields cc2=EG, stp=Fayum. Recorded age bounds: eag 37.71 Ma; lag 33.9 Ma; PBDB interval fields oei=Priabonian. Stratigraphic fields sfm=Qasr el-Sagha. Recorded attribution Blanckenhorn 1903; PBDB reference ref:26770.
+
+## Age bounds on the recorded occurrences {#s-6f0e79dd19}
+Across these selected PBDB rows, the largest recorded eag=41.03 Ma in occ:481321; the smallest recorded lag=27.3 Ma in occ:613735. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-330c75910b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:481321: PBDB taxon-name field tna=Moeritherium lyonsi; PBDB locality-coordinate fields lng=18.500000, lat=25.750000; paleocoordinate/model fields pm1=gplates, pln=20.63, pla=15.78.
+- occ:613735: PBDB taxon-name field tna=Moeritherium lyonsi; PBDB locality-coordinate fields lng=30.575405, lat=29.641937; paleocoordinate/model fields pm1=gplates, pln=31.91, pla=20.75.
+- occ:693593: PBDB taxon-name field tna=Moeritherium lyonsi; PBDB locality-coordinate fields lng=30.740000, lat=29.664000; paleocoordinate/model fields pm1=gplates, pln=32.22, pla=19.33.
+
+## References attached to each record {#s-036caba139}
+The archived guide links the rows to 5 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:481321: Recorded attribution Hoffstetter 1961; PBDB reference ref:12869.
+- occ:613735: Recorded attribution Andrews 1906; PBDB reference ref:11955.
+- occ:693593: Recorded attribution Blanckenhorn 1903; PBDB reference ref:26770.
 
 ## Evidence limits {#s-be67e94bcd}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 17 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## Choose comparison pages by life-history fields {#s-99db22320f}
+## Recorded classification and direct parent {#s-99db22320f}
+COL26.8 records Hemicentetes at genus rank, with Tenrecinae as its direct parent.
+
 This batch’s Hemicentetes route includes 2 historical life-history accounts; start with Hemicentetes nigriceps, Hemicentetes semispinosus. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), conception or fertilization to birth (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-4970f67fb9}

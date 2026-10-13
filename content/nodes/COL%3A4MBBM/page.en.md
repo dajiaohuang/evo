@@ -5,5 +5,5 @@ A 2024 bachelor's thesis compared local habitat use by the Black Sumatran Langur
 This is a local study in forest near an industrial area. It does not establish home ranges, competition or abundance trends across Sumatra, and this page does not infer the mechanism of long-term coexistence.
 
 ## Evidence limits {#s-e0238925f6}
-The main ecological evidence is a local study in a 2024 bachelor's thesis, not a species-wide survey. This page. This page is.
+The main ecological evidence is a local study in a 2024 bachelor's thesis, not a species-wide survey.
 

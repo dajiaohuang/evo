@@ -1,4 +1,4 @@
-## Overview {#s-74780cba04}
+## Study sites in two northern Vietnam forests {#s-74780cba04}
 This page follows the COL26.8 accepted name Rhinopithecus avunculus. The English common name comes from the locally exact-matched MDD v2.5 record; the Chinese rendering is editorial. The selected sources cover feeding and short-term ranging at Khau Ca, and a 2017–2018 habitat survey in Quan Ba forest, northern Vietnam.
 
 ## Research observations {#s-020766eda2}

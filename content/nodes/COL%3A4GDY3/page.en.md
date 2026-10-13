@@ -1,44 +1,44 @@
-## Identity and AVONET sample {#s-aa0c370890}
-COL26.8 accepts *Phimosus infuscatus* in Threskiornithidae. The measurements and ecological categories here come from AVONET v7 under its HBW–BirdLife 2020 name. Six birds were measured, four with a complete morphological set; sample sizes can differ among traits.
+## Row-reported mean and sample coverage {#s-aa0c370890}
+The AVONET v7 row for Phimosus infuscatus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 100.4 mm. The row records 6 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak measurements at fixed landmarks {#s-924d8e896b}
-Mean beak length from the anterior edge of the nostril to the tip is 100.4 mm; width and depth at that edge are 10.2 mm and 14.7 mm. These standardized measurements describe the compiled sample, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-924d8e896b}
+AVONET records culmen length (bill tip to skull base) 115.2 mm; beak length (nostril front edge to tip) 100.4 mm; beak width at the nostril front edge 10.2 mm; beak depth at the nostril front edge 14.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and separately sourced mass {#s-24537e6996}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 265.3 mm. Mean tarsus length—the measured leg segment above the foot—is 58.1 mm. A separate species-average source labelled Dunning reports mass of 559 g; this is not the mass of each morphological specimen.
+## Wing and body measures use separate sources {#s-24537e6996}
+AVONET records unflattened wing length 265.3 mm; tarsus length 58.1 mm; distance from first secondary tip to longest primary tip 92.4 mm; length to first secondary tip 175.1 mm; hand-wing index 34.5; tail length 109.3 mm; species-average body mass 559 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Broad habitat and feeding categories {#s-2b54f24176}
-AVONET places the record in Wetland habitat, an Aquatic predator trophic niche and a Terrestrial lifestyle. These dominant categories are standardized for comparisons and do not imply exclusive habitat or food use.
+## Recorded habitat and feeding categories {#s-2b54f24176}
+AVONET classifies Phimosus infuscatus as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and the historical map span {#s-a03e8740be}
-The migration field classifies this record as partially migratory. Historical breeding and resident maps extend from −36.89° to 11.36° latitude. That span omits a complete account of non-breeding movements and is neither a current location nor a full occupancy estimate; map and morphology data were compiled separately.
+## The migration label has a limited scope {#s-a03e8740be}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -36.89° to 11.36°. The mapped range area is 6585514.18 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## A three-field life-history entry {#s-abf34412ee}
-Pinned COL26.8 places *Phimosus infuscatus* in Threskiornithidae. The 2015 life-history archive contributes three focal fields, each supported by a cited same-name, same-family species-level sparse-table row. These rows contain selected fields, not a complete record, and historical taxonomic inheritance may remain in the summaries.
+## Scope of the historical life-history entry {#s-abf34412ee}
+The August 2015 database has a same-name, same-family record for Phimosus infuscatus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass is a compilation summary {#s-9cc5b94dfe}
-The archive reports adult body mass of 559 g. Its adult category may combine males, females and adults of unspecified sex, so it does not give an individual-mass range. No birth or hatching mass is included.
+## Compiled adult-mass values {#s-9cc5b94dfe}
+The August 2015 compilation reports adult body mass 559 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## One clutch summary; durations are absent {#s-cd4b187af3}
-The available reproduction field is 3.75 offspring or eggs per litter or clutch. It combines different source counts, so the fractional summary is not a fraction of an animal in one event. This account has no source-backed reproduction or developmental durations to report.
+## Reproductive fields describe different events {#s-cd4b187af3}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.75. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A maximum record is not a lifespan norm {#s-d55f43958b}
-The archive’s maximum_longevity_y field is 20 years, the largest record found under its method. It is not a typical lifespan, mean wild lifespan, survival ceiling for every individual or a current record shown to be repeatable.
+## A maximum record is not typical lifespan {#s-d55f43958b}
+The compilation lists 20 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## Citation labels and retained rows {#s-f8534abec6}
-Same-name source labels include Dunning, 1992; de Magalhaes and Costa, 2009; Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009; and Jetz, Sekercioglu, and Bohning-Gaese, 2008. The batch retains raw row numbers, values, labels and the summary table’s full reference explanations. Labels may refer to papers, books or databases; row counts are not measured birds, and repeated citations are not independent replication.
+## Sources and field limits {#s-f8534abec6}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## EltonTraits and historical taxonomy {#s-e01b7a52ee}
-EltonTraits 1.0 supplies a same-name, same-family record with two sourced ecological groups. It follows earlier bird taxonomy or MSW3 (the third edition of *Mammal Species of the World*). This name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-e01b7a52ee}
+EltonTraits 1.0 has a same-name, same-family record for Phimosus infuscatus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Food-category weights from descriptions {#s-360f515395}
-The recorded weights are invertebrates 80%, seeds/nuts/spores 10%, and other plant material 10% (the source category also includes fungi). Code A marks high compiler confidence in the source and diet information. The weights standardize verbal descriptions rather than measure diet composition; a zero does not prove a food is never eaten. Nect, Seed and PlantO are broader source categories than their everyday names.
+## Relative weights across food categories {#s-360f515395}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; seeds or nuts 10%; other plant material 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Feeding positions are not a daily schedule {#s-43bc48d797}
-Species-level foraging weights are 80% on or just below the water surface and 20% on the ground. They estimate relative use of feeding positions, not nest sites, total habitat or whole-day activity. Surface-water, understory, mid/high, canopy and aerial categories have distinct source definitions; they are not elevation bands or measures of flight height or habitat area.
+## Foraging positions are not a time budget {#s-43bc48d797}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 80%; on the ground 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Follow Ref_1 to its source tables {#s-7c7a68c1e1}
-The selected groups carry Ref_1, but diet, stratum and activity may draw on different material; Ref_1 in a bird table need not identify the same source as Ref_1 in a mammal table. The batch preserves original strings by file, row, field group and reference table. Underlying books and papers were not individually read here; source labels are not additional observations.
+## Sources and field limits {#s-7c7a68c1e1}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits of the historical records {#s-2b0dd3baac}
 This is a guide to historical AVONET v7 data. Morphological values are sample averages, not diagnoses or individual-variation ranges. Mass comes from separate sources, so the morphology sample count cannot be assigned to it. Habitat, diet and migration are coarse categories; geography covers historical breeding and resident ranges. Historical crosswalks and the matching catalogue name support an association, not equivalence after later splits or lumps. Reproduction, current populations and conservation require other sources.

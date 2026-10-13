@@ -1,44 +1,44 @@
-## AVONET measurements under a historical name {#s-53e33430b9}
-COL26.8 accepts *Nipponia nippon* in Threskiornithidae. AVONET v7 reports this species under its HBW–BirdLife 2020 name. The source lists five measured individuals, four with a complete morphological set; sample sizes can still differ by trait.
+## Row-reported mean and sample coverage {#s-53e33430b9}
+The AVONET v7 row for Nipponia nippon (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 145.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-108a14ce9c}
-Recorded mean beak measurements are 145.8 mm from the anterior nostril edge to the tip, 18.4 mm in width and 22.1 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-108a14ce9c}
+AVONET records culmen length (bill tip to skull base) 169.2 mm; beak length (nostril front edge to tip) 145.8 mm; beak width at the nostril front edge 18.4 mm; beak depth at the nostril front edge 22.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-705df8d308}
-Mean unflattened wing length from the carpal joint to the longest primary is 392.6 mm; mean tarsus length is 78 mm. Compiled mean mass is 1900 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-705df8d308}
+AVONET records unflattened wing length 392.6 mm; tarsus length 78 mm; distance from first secondary tip to longest primary tip 142.8 mm; length to first secondary tip 251.9 mm; hand-wing index 36.2; tail length 145.4 mm; species-average body mass 1900 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-a2a0c23718}
-The dataset assigns habitat Wetland, trophic niche Aquatic predator and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-a2a0c23718}
+AVONET classifies Nipponia nippon as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-15a17ad097}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 33.14° to 33.44°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-15a17ad097}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 33.14° to 33.44°. The mapped range area is 1119.51 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Three fields in a historical life-history compilation {#s-e0eb3fc953}
-COL26.8 accepts *Nipponia nippon* in Threskiornithidae. A historical life-history record supplies three focal fields, each linked to cited species-level sparse-table rows with the same name and family. These matches support the association, but compiled values may still inherit data across historical taxonomic boundaries.
+## Scope of the historical life-history entry {#s-e0eb3fc953}
+The August 2015 database has a same-name, same-family record for Nipponia nippon. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-de37c4024c}
-Historical summary values are adult body mass 1900 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-de37c4024c}
+The August 2015 compilation reports adult body mass 1900 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-5bb25c581a}
-Available compilation fields are offspring per litter or eggs per clutch 3 offspring/eggs. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Missing reproductive and developmental durations are not supplied here.
+## Reproductive fields describe different events {#s-5bb25c581a}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-1a4df907a1}
-The maximum_longevity_y field is 25.8 years, the largest record in the collected material under the source method. It is not typical or mean wild lifespan, a survival ceiling for every individual, or evidence that the record remains current or repeatable.
+## A maximum record is not typical lifespan {#s-1a4df907a1}
+The compilation lists 25.8 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-eae16463e9}
-Same-name sparse rows carry source labels including Dunning, 1992; de Magalhaes and Costa, 2009; Wasser, D.E. and P.W. Sherman, 2010; and Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009. Associated source details retain field-specific row numbers, values, labels and full reference explanations. A label may identify a primary paper, book or another database. Row counts are not measured-individual counts, and repeated citations do not constitute independent experimental replication.
+## Sources and field limits {#s-eae16463e9}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Food and foraging-position records {#s-2bdf7e66d8}
-COL26.8 accepts *Nipponia nippon* in Threskiornithidae. EltonTraits 1.0 also includes a same-name, same-family record with two ecological field groups. Its bird taxonomy is historical; the name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-2bdf7e66d8}
+EltonTraits 1.0 has a same-name, same-family record for Nipponia nippon covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-fa4b79c808}
-The nonzero food-category weights are fish 70%, invertebrates 20%, and reptiles and amphibians 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions; they are not measured diet composition, and a zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply an exclusive diet of nectar, seeds or plants.
+## Relative weights across food categories {#s-fa4b79c808}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; reptiles and amphibians 10%; fish 70%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-9f970178d6}
-The species-level foraging-stratum weights are 80% at or just below the water surface and 20% on the ground. They estimate relative use of feeding positions, not nest sites, all habitat or a whole-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-9f970178d6}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 80%; on the ground 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-cbcd2084cc}
-The two field groups carry the source label Ref_1. Diet, foraging stratum and activity may come from different material, and the same reference number in bird and mammal bibliographies does not necessarily identify the same work. The linked source details preserve the original citation strings. The underlying books and papers have not been individually read, and a source label is not an additional independent observation.
+## Sources and field limits {#s-cbcd2084cc}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-221b7e504d}
 AVONET morphology values are sample averages, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources; the five measured birds must not be assumed to be the mass sample. Habitat, diet and migration are broad categories, and the geographic summary covers historical breeding and resident ranges only. Historical crosswalks and a matching catalogue name support association but do not prove that species concepts remained equivalent through later splits or lumps. Other sources are needed for reproduction, current populations and conservation status.

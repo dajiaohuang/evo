@@ -1,26 +1,26 @@
-## The name and this data account {#s-2932de92d7}
-AVONET v7 lists *Picumnus rufiventris* under the HBW–BirdLife 2020 name. The sample contains 7 measured individuals, 4 in a complete morphological set; trait means may use different sample sizes.
+## Row-reported mean and sample coverage {#s-2932de92d7}
+The AVONET v7 row for Picumnus rufiventris (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 13.1 mm. The row records 7 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-5aafc40d8f}
-Mean beak length is 13.1 mm from the anterior nostril edge to the tip; width at that point averages 4.4 mm and depth 5.3 mm. These standardized measurements are not identification thresholds.
+## Beak measurements at defined landmarks {#s-5aafc40d8f}
+AVONET records culmen length (bill tip to skull base) 15.6 mm; beak length (nostril front edge to tip) 13.1 mm; beak width at the nostril front edge 4.4 mm; beak depth at the nostril front edge 5.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-ed25491bd3}
-Mean unflattened wing length (carpal joint to longest primary) is 59.7 mm; mean tarsus is 16.2 mm. AVONET separately lists mean mass of 21 g in the Dunning category; it is not a weight for every measured individual.
+## Wing and body measures use separate sources {#s-ed25491bd3}
+AVONET records unflattened wing length 59.7 mm; tarsus length 16.2 mm; distance from first secondary tip to longest primary tip 9.2 mm; length to first secondary tip 50.5 mm; hand-wing index 15.3; tail length 30.6 mm; species-average body mass 21 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-d7a3575661}
-AVONET codes habitat Forest, trophic niche Invertivore and lifestyle Insessorial (perching-associated). These broad categories do not imply exclusive habitat or food use.
+## Recorded habitat and feeding categories {#s-d7a3575661}
+AVONET classifies Picumnus rufiventris as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-2e737d3d54}
-The migration field is sedentary. Historical breeding and resident maps span −16.96° to 1.11° latitude; they do not describe all non-breeding movement or current occupancy.
+## The migration label has a limited scope {#s-2e737d3d54}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -16.96° to 1.11°. The mapped range area is 1172719.04 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-aa0c52ce98}
-EltonTraits 1.0 contains a historical entry matching this name and family. Its species-level foraging group is used here; the diet group is withheld under code C because of uncertainty/interpolation, unresolved source labels or unusable category values.
+## Scope of the historical trait entry {#s-aa0c52ce98}
+EltonTraits 1.0 has a same-name, same-family record for Picumnus rufiventris covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-23b3bfeab8}
-Reported species-level foraging weights are understory, edges or shrubs below 2 m 50%, and trees or high bushes from 2 m to below the canopy 50%. These describe feeding positions, not nesting, all habitat or daily time use; strata are not elevations or flight heights.
+## Foraging positions are not a time budget {#s-23b3bfeab8}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 50%; in mid-height or high vegetation 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-e30fae900e}
-The selected foraging group cites Ref_7, identified as *Handbook of the Birds of the World*, volume 7. This label traces the source but is not an additional observation. The book has not been individually reviewed here.
+## Sources and field limits {#s-e30fae900e}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-6843eeb9c0}
 AVONET measurements are historical sample-based species averages; mass is separately compiled. Habitat and movement are broad codes, and the latitude endpoints describe historical breeding/resident maps. EltonTraits supports the species-level foraging group here but withholds diet under code C for uncertainty/interpolation, unresolved source labels or unusable category values. Its foraging weights are standardized literature summaries, not direct measurements. The historical name match does not prove present taxonomic equivalence; current range, population and conservation require separate sources.

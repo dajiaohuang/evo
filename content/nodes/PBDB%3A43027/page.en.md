@@ -7,8 +7,8 @@ Start with Sthenodectes incisivum, Metatelmatherium ultimum, Metatelmatherium cr
 ## Evidence limits {#s-968f10c203}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## atlas-profile / overview {#s-3847ae78fd}
-Brontotheriidae ranged widely in form during the Eocene. Members share cranial and molar features, including a shortened face and distinctive upper molars, yet early forms were small while later species could reach rhinoceros size. Some species had frontonasal appendages and others did not. The family-level pattern helps identify brontotheres; it should not be mistaken for a description of every species.
+## Short faces and molars mark a varied Eocene family {#s-3847ae78fd}
+Brontotheriidae varied widely in form during the Eocene. Members share cranial and upper-molar features, including a shortened face, but early forms were small while some later species reached rhinoceros size. Frontonasal appendages occur in some species, so the family pattern is not a portrait of every member.
 
 ## atlas-profile / ecology / diet {#s-e0cb945af5}
 Brontotheres were herbivores; leaf browsing is supported by the sampled teeth.
@@ -37,9 +37,9 @@ Upper molars are bunoselenodont, with a W-shaped outer ridge (ectoloph).
 ## atlas-profile / traits {#s-9965988d34}
 Frontonasal appendages occur in some species, not across the family.
 
-## atlas-profile / evidenceSummary {#s-1c4b9344b7}
-Mihlbachler’s monograph supplies the taxonomy, morphology and distribution summarized here. Size and frontonasal appendages vary among species, while dispersal direction and deeper relationships are reconstructions rather than shared diagnostic observations.
+## A monograph documents variation within the family {#s-1c4b9344b7}
+Mihlbachler's monograph supplies the taxonomy, morphology and distribution summarized here. Size and frontonasal appendages vary among species; dispersal direction and deeper relationships are reconstructions, not shared diagnostic observations.
 
-## atlas-profile / readerLimitations {#s-dc036950a3}
-The monograph shows substantial variation across species: early forms were smaller, later forms could reach rhinoceros size, and frontonasal appendages occur only in some. Dental browsing evidence and terrestrial Eocene localities do not imply one habitat or gait for the whole family.
+## Species differences limit family-wide claims {#s-dc036950a3}
+The monograph records smaller early forms, later rhinoceros-sized taxa and appendages present only in some species. Dental browsing signals and terrestrial Eocene localities do not establish one habitat or gait for the whole family.
 

@@ -1,18 +1,42 @@
-## Which fossil records this name represents {#s-4e96ef48c8}
-Barapasaurus tagorei is accepted in the fixed PBDB dinosaur working roster, with database parent Barapasaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-4e96ef48c8}
+Barapasaurus tagorei is listed in the PBDB snapshot under taxon txn:55547. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-fc85e06475}
-Collection Pochampalli (ISI) (Maharashtra), region code IN, stratum name Kota; database age bracket 199.5–184.2 Ma, early interval Sinemurian and late interval Pliensbachian. Collection north of Krishnapur (Andhra Pradesh), region code IN, stratum name Kota; database age bracket 199.5–184.2 Ma, early interval Sinemurian and late interval Pliensbachian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-fc85e06475}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-d4f99891e4}
-Selected occurrences have an outer age envelope of 199.5–184.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:372542; PBDB collection col:35268. Locality cnm=Pochampalli (ISI); place fields cc2=IN, stp=Maharashtra, cny=Gadchiroli. Recorded age bounds: eag 199.5 Ma; lag 184.2 Ma; PBDB interval fields oei=Sinemurian, oli=Pliensbachian. Stratigraphic fields sfm=Kota. Recorded attribution Jain et al. 1975; PBDB reference ref:9479.
 
-## Read preservation setting separately from living habitat {#s-379f771bc1}
-Pochampalli (ISI) has collection-environment label terrestrial indet.; collection preservation-mode label body. north of Krishnapur has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"limestone member"
 
-## Follow collection records back to references {#s-3eec76b4d4}
-Pochampalli (ISI) carries database reference attribution Jain et al. (1975), identifier ref:9479. north of Krishnapur carries database reference attribution Bandyopadhyay et al. (2010), identifier ref:32704. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+"On the basis of fishes, the Kota Formation has long been considered to be of Liassic age (King 1881; Robinson 1970). However, several workers noticed the similarity of Kota fishes with the European Toarcian fishes (Schaeffer and Patterson 1984). Patterson and Owen (1991) suggested that the major marine transgression during the Toarcian might have been instrumental for the invasion of the European Liassic fishes in the circumtethyean continents including parts of Indian subcontinent. Recovery of Darwinula, an early Middle Jurassic ostracod, led Govindan (1975) to suggest a Middle Jurassic age for the Kota Formation. Analysing the faunas of the underlying Dharmaram Formation and of the lower and upper units of the Kota Formation and comparing them with faunas from coeval horizons, Bandyopadhyay and Roychowdhury (1996) and Bandyopadhyay and Sengupta (2006) suggested that the Lower Kota Formation has an age ranging from Sinemurian to Pliensbachian, while the age of the upper Kota is Toarcian and may even be extended to Middle Jurassic (?Aalenian)." (Bandyopadhyay et al. 2010)
 
-## Evidence limits {#s-ee04cc8868}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Pochampalli (Posampalli), about 18 km E of Sironcha, Maharastra, Gadchiroli district, Pranhita-Godavari valley, India
+
+- Occurrence occ:877911; PBDB collection col:97447. Locality cnm=north of Krishnapur; place fields cc2=IN, stp=Andhra Pradesh, cny=Adilabad. Recorded age bounds: eag 199.5 Ma; lag 184.2 Ma; PBDB interval fields oei=Sinemurian, oli=Pliensbachian. Stratigraphic fields sfm=Kota. Recorded attribution Bandyopadhyay et al. 2010; PBDB reference ref:32704.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"On the basis of fishes, the Kota Formation has long been considered to be of Liassic age (King 1881; Robinson 1970). However, several workers noticed the similarity of Kota fishes with the European Toarcian fishes (Schaeffer and Patterson 1984). Patterson and Owen (1991) suggested that the major marine transgression during the Toarcian might have been instrumental for the invasion of the European Liassic fishes in the circumtethyean continents including parts of Indian subcontinent. Recovery of Darwinula, an early Middle Jurassic ostracod, led Govindan (1975) to suggest a Middle Jurassic age for the Kota Formation. Analysing the faunas of the underlying Dharmaram Formation and of the lower and upper units of the Kota Formation and comparing them with faunas from coeval horizons, Bandyopadhyay and Roychowdhury (1996) and Bandyopadhyay and Sengupta (2006) suggested that the Lower Kota Formation has an age ranging from Sinemurian to Pliensbachian, while the age of the upper Kota is Toarcian and may even be extended to Middle Jurassic (?Aalenian)." (Bandyopadhyay et al. 2010: Palaeontology 53: 533-569)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+north of village of Krishnapur, Adilabad district
+
+## Age bounds on the recorded occurrences {#s-d4f99891e4}
+Across these selected PBDB rows, the largest recorded eag=199.5 Ma in occ:372542; the smallest recorded lag=184.2 Ma in occ:372542. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-379f771bc1}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:372542: PBDB original-identification field idn=Barapasaurus tagorei n. gen. n. sp.; PBDB taxon-name field tna=Barapasaurus tagorei; material note ocm=300+ bones; "Material A" and "Material C"; abundance fields abv=6, abu=individuals; PBDB locality-coordinate fields lng=79.966667, lat=18.850000; paleocoordinate/model fields pm1=gplates, pln=46.86, pla=-25.65.
+- occ:877911: PBDB taxon-name field tna=Barapasaurus tagorei; material note ocm=ISI R65-67, 77, 93, 103, 104, 107; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=79.521667, lat=19.222221; paleocoordinate/model fields pm1=gplates, pln=47.01, pla=-25.11.
+
+## References attached to each record {#s-3eec76b4d4}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:372542: Recorded attribution Jain et al. 1975; PBDB reference ref:9479.
+- occ:877911: Recorded attribution Bandyopadhyay et al. 2010; PBDB reference ref:32704.
+
+## What these records can show {#s-ee04cc8868}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-ef9c3e6d21}
+## 记录分类与直接上级关系 {#s-ef9c3e6d21}
+COL26.8 将 Rhinogekko 记录为属；其直接上级记录为 Gekkonidae。
+
 Rhinogekko 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 Rhinogekko femoralis、Rhinogekko misonnei 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-f37da40d20}

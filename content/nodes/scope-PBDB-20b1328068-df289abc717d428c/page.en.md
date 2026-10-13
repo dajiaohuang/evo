@@ -1,5 +1,5 @@
-## atlas-profile / overview {#s-1635c9fe4f}
-Nearly complete holotype ROM 55351A from Wyoming's early Eocene Fossil Butte Member preserves elongated wings, claws on all five hand digits and a relatively small cochlea—the spiral part of the inner ear—compared with sampled echolocating bats. Wing anatomy supports powered flight; cochlear size is a proxy used to test specialized echolocation, not a direct record of calls. The source matrix placed *Onychonycteris finneyi* near the bat stem, but flight performance and the absence of echolocation are not directly observed. Its 52.5–50.3 Ma interval is a locality context, not a global bat origin or a flight–echolocation transition duration.
+## ROM 55351A: wings, hand claws and cochlea {#s-1635c9fe4f}
+Holotype ROM 55351A preserves elongated wings, five hand claws and a relatively small cochlea; matrix placement, flight and echolocation remain interpretations.
 
 ## atlas-profile / ecology / diet {#s-19d0eed7d8}
 Insect-eating is inferred from the teeth; prey is not preserved.
@@ -25,6 +25,6 @@ Claws on all five digits of the hand
 ## atlas-profile / traits {#s-1c06042fd8}
 Relatively small cochlea compared with the sampled echolocating bats
 
-## atlas-profile / evidenceSummary {#s-7a8ae3481b}
-ROM 55351A records elongated wings, hand claws and cochlear anatomy. The source matrix places the bat near the bat stem, while flight, diet and echolocation are inferred from anatomy; 52.5–50.3 Ma is a bounded locality interval, not a global range.
+## What ROM 55351A shows—and what it cannot {#s-7a8ae3481b}
+ROM 55351A documents wing and cochlear anatomy; flight, diet and echolocation are inferred, and 52.5–50.3 Ma is locality context, not a global bat origin.
 

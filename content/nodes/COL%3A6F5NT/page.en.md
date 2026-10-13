@@ -1,5 +1,5 @@
-## PanTHERIA’s historical name entry {#s-10261098e0}
-Eliurus myoxinus is accepted in pinned COL26.8 within Nesomyidae. PanTHERIA 1.0 associates it with an MSW05 entry in the August 2008 table; biological data gathering for that release ended in June 2004. The name association does not resolve later taxonomic changes.
+## Adult body mass and adult head–body length in the historical table {#s-10261098e0}
+The August 2008 PanTHERIA row for *Eliurus myoxinus* records adult body mass 69.76 g; adult head–body length 127.5 mm. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Eliurus myoxinus*.
 
 ## Consolidated mass and head–body length {#s-cc819e8fe8}
 Historical summaries are adult body mass 69.76 g and adult head–body length 127.5 mm. The source adjusts for sex before calculating medians. Mass can include adult or age-unspecified animals but excludes pregnant females; head–body length excludes the tail. Forearm length, when reported, is measured from elbow to wrist. These are compiled values, not specimen measurements or species-wide ranges.
@@ -13,8 +13,8 @@ The entry classifies activity as nocturnal only, feeding as omnivorous, and reco
 ## Historical map area and latitude {#s-96025ac3a7}
 The historical map area is 92,064.6 km², with latitude endpoints of −25.47° and −12.58°. Individual home range and species distribution are different scales: the first concerns routine activity, the second a historical map. The mapped area does not imply occupation throughout, and endpoints are not a locality list. These values do not provide current distribution or population estimates.
 
-## Three EltonTraits field groups {#s-8e5bf65f47}
-Eliurus myoxinus is accepted in pinned COL26.8 within Nesomyidae. Its same-name, same-family EltonTraits 1.0 entry provides three ecological field groups with source information. That archive follows earlier bird taxonomy or MSW3 for mammals; matching names do not resolve modern splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-8e5bf65f47}
+The EltonTraits 1.0 record for *Eliurus myoxinus* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of fruit 40%, seeds, nuts and spores 60% (confidence code ABC). The foraging-stratum field assigns the scansorial category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Eliurus myoxinus*.
 
 ## Relative weights of reported foods {#s-c3659dda4f}
 The nonzero food weights are seeds, nuts and spores 60% and fruit 40%. Code ABC combines high, reasonable and partial confidence; estimates may borrow from an ecologically similar congener, so they are not necessarily direct observations of this species. EltonTraits standardizes verbal descriptions rather than measuring diet composition; zero does not prove a food is never eaten. Broad categories such as Nect, Seed and PlantO do not imply exclusive foods.
@@ -28,8 +28,8 @@ The archive marks nighttime feeding activity as 1. Activity fields can be record
 ## Keep the source labels with each field group {#s-d030139b6e}
 The retained groups carry Ref_1 and metadata:Nowak1999 labels. Diet, stratum and activity may draw on different material; the same Ref number in bird and mammal tables does not identify the same source. The archive preserves original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; labels support traceability rather than add independent observations.
 
-## Limits of the PanTHERIA and EltonTraits entries {#s-3bf5bcfe03}
-PanTHERIA 1.0 WR05/2008 is a historical compilation. Continuous traits are generally medians, sometimes after GLM adjustment for sex, definitions or methods; *_EXT extrapolations do not fill missing values here. Input conditions may be wild, captive, provisioned or unspecified, and source types vary by variable. Values are not individual ranges, censuses or diagnoses. MSW93/MSW05 same-name correspondence and a COL name-and-family match associate records but do not establish equivalence after later splits or lumps. Current distribution, survival and conservation need other evidence.
+## How to interpret these historical records {#s-3bf5bcfe03}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-EltonTraits 1.0 is a historical same-name, same-family guide, not a complete species monograph; its concepts are not automatically equivalent to COL26.8. Food and avian-stratum percentages are standardized relative weights from literature descriptions, not direct measures of stomach contents, intake, energy or observation time; avian A/B codes retain source and proportional uncertainty. Mammalian ABC diet or activity may refer to an ecologically similar congener, so fields are not necessarily direct observations of this species. Genus or family typical values, non-species-level avian strata and split records needing review do not establish definite claims. Underlying works have not been individually reread. Individual, seasonal and local variation, current range, population and conservation require other evidence.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
 

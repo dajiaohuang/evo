@@ -10,7 +10,9 @@ Cole 等（2022）把 27 个现生与近期灭绝谱系基因组、47 个化石�
 ## 沿六个属比较不同证据 {#s-ba2216e9f2}
 [Spheniscus](Spheniscus/page.zh.md)、[Pygoscelis](Pygoscelis/page.zh.md)、[Eudyptes](Eudyptes/page.zh.md) 先带出四个近缘种的差异、地区谱系及冠企鹅名称层级；再读 [Eudyptula](Eudyptula/page.zh.md)、[Megadyptes](Megadyptes/page.zh.md)、[Aptenodytes](Aptenodytes/page.zh.md)，区分小企鹅、灭绝古基因组和大型潜水企鹅的证据。现有属／种页保留形态、食物、繁殖和地方观察，基因组研究补充历史问题，不把所有来源压成相同生态结论。
 
-## 本地数据阅读路径 {#s-e91e0dc94f}
+## 记录分类与直接上级关系 {#s-e91e0dc94f}
+COL26.8 将 Spheniscidae Bonaparte, 1831 记录为科；其直接上级记录为 Sphenisciformes。
+
 Spheniscidae 的本批阅读路径包含 18 条有测量来源的物种记录，可从 Aptenodytes forsteri、Aptenodytes patagonicus、Eudyptes chrysocome、Eudyptes chrysolophus、Eudyptes moseleyi 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-22973ee473}

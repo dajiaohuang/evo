@@ -1,5 +1,5 @@
-## Name and historical material {#s-3babaac9d9}
-Gazella bennettii is accepted in pinned COL26.8 within Bovidae. This page uses its PanTHERIA 1.0 MSW05 entry from the August 2008 table; biological data gathering ended in June 2004. The name association does not resolve later taxonomic changes.
+## Adult body mass, adult head–body length and litter size in the historical table {#s-3babaac9d9}
+The August 2008 PanTHERIA row for *Procapra picticaudata* records adult body mass 23197.67 g; adult head–body length 980 mm; litter-size summary 1 offspring. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. A fractional litter-size value is a compiled summary, not a literal fractional litter. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Procapra picticaudata*.
 
 ## How body size was consolidated {#s-baa8cdf545}
 The historical consolidated values are adult body mass 23197.67 g and adult head–body length 980 mm. The source adjusted for sex and then calculated medians. Mass may include adults or animals of unspecified age but excludes pregnant females; head–body length excludes the tail. Forearm length is measured from elbow to wrist. These values are not measurements of one specimen or a species-wide size range.
@@ -10,8 +10,8 @@ The available historical reproductive field is offspring per litter, 1. Gestatio
 ## Home range and mapped distribution {#s-1a608d2097}
 The area derived from historical range maps is 1936510.55 km²; mapped latitude endpoints are 28.25° to 39.03°. Individual home range and species distribution describe different scales. Map area does not imply occupation throughout, and latitude endpoints are not a locality list. These values do not provide current distribution or population estimates.
 
-## The 2015 life-history entry and this name {#s-9ab48e4528}
-The 2015 life-history archive has a same-name historical entry read through 4 focal fields. Each is supported by cited species-level sparse-table rows matching name and family. Summaries can retain historical taxonomic inheritance; matching row names do not remove it.
+## Body mass and life-history values in the compilation {#s-9ab48e4528}
+The August 2015 Amniote Database entry for *Procapra picticaudata* reports adult body mass 23197.67 g; offspring per litter or eggs per clutch 1; conception or fertilization to birth 175.03 d; longest lifespan record in the compilation 5.6 y. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. Gestation is the source-defined interval from conception or fertilization to birth. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Maximum longevity is the longest record found, not a mean or typical lifespan. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Procapra picticaudata*.
 
 ## Different stages in the mass fields {#s-23d789724b}
 The historical summary is adult body mass 23197.67 g. It can combine males, females and adults of unspecified sex and does not give a range of individual masses. Birth or hatching mass is not added to this account.
@@ -25,8 +25,8 @@ The archive’s maximum_longevity_y value is 5.6 years, the largest record found
 ## How to trace these values to sources {#s-64ecf8a7b4}
 Same-name sparse rows carry labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; Leslie, D.M., 2010a; and Weigl, R., 2005. The batch archive retains field-specific raw row numbers, values and labels, plus full reference explanations from the final table. A label may refer to a primary paper, book or database. Row counts are not measured-individual counts, and repeated citations are not independent replication.
 
-## Read this historical record through food and foraging position {#s-19da2b59fe}
-In pinned COL26.8, Gazella bennettii is accepted within Bovidae. This section reads its same-name, same-family EltonTraits 1.0 record through 3 ecological field groups. The source follows earlier bird or MSW3 mammal taxonomy; matching names do not resolve modern splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-19da2b59fe}
+The EltonTraits 1.0 record for *Procapra picticaudata* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of other plant material, including fungi 100% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark twilight and daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Procapra picticaudata*.
 
 ## Relative weights of food categories {#s-3562d28f75}
 The archive’s nonzero food weight is other plant material, 100%; the source category also includes fungi. Code ABC pools high, reasonable and partial confidence, and estimates may draw on an ecologically similar congener; they are not necessarily direct observations of this species. Percentages standardize verbal descriptions rather than measure diet composition, and zero does not prove a food is never eaten. Nect, Seed and PlantO are broader than their everyday names.
@@ -40,6 +40,10 @@ The archive marks feeding activity during twilight and daytime as 1. Several per
 ## Trace each field group to its source labels {#s-84501bc9c6}
 The selected groups carry labels Ref_1 and metadata:Nowak1999. Diet, stratum and activity may use different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, and source labels are not independent observations.
 
-## Evidence limits {#s-ea55f6b23e}
-The 2015 life-history archive reports medians or means of the two middle values, except maximum longevity, which is the largest record. These are not individual measurements, variation ranges, mean wild lifespan or population surveys. Historical species and subspecies may share or inherit data; matching names, families and sparse rows do not prove equivalence to COL26.8 or remove inherited components. Wild/captive conditions are not uniformly confirmed, and underlying publications were not individually reviewed. The EltonTraits route describes historical same-name, same-family foraging, not a complete monograph or proof of current concept equivalence. Food and avian-stratum percentages are standardized literature estimates, not direct measurements; avian A/B and mammalian ABC codes retain uncertainty, and ABC fields may use congeneric material. Genus/family typical values, non-species-level avian strata and split records needing review do not support definite conclusions. Diet is withheld (source code D1) because of interpolation, certainty or source-link limits; reasons and original values remain in the archive. Current range, population, conservation, behavior and missing fields need other sources.
+## How to interpret these historical records {#s-ea55f6b23e}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
+
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
+
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
 

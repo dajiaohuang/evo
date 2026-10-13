@@ -1,4 +1,6 @@
-## Read six older Pomatorhinus combinations {#s-97555dbf88}
+## Recorded classification and direct parent {#s-97555dbf88}
+COL26.8 records Erythrogenys E. C. S. Baker, 1930 at genus rank, with Timaliidae as its direct parent.
+
 Six historical guides follow COL26.8 Erythrogenys (NRMM4) in Timaliidae (H9M). All six eBird names and respective Avibase IDs match; six older Pomatorhinus BirdTree combinations have exact catalogue synonyms pointing to accepted species. Name relationships do not prove concept identity. Seven immediate catalogue children and six guides do not complete genus content.
 
 ## Separate absent sexed females from four unsexed birds {#s-98e5cdc9b5}
@@ -7,11 +9,11 @@ gravivox has six birds, zero female, two male and four unsexed, five complete; t
 ## Distinguish dense and semi-open shrubland {#s-1d5c5fa7d3}
 All six rows retain Terrestrial/Shrubland/migration 1/Invertivore/Carnivore. swinhoei/gravivox/mcclellandi have density 2, hypoleucos/erythrogenys/erythrocnemis density 1. The ground-activity definition includes wading categories without establishing species observations. Shrubland does not replace density, and food thresholds supply no measured species proportions, common prey or capture actions. Breeding, exact strata, current maps and movement routes remain unsupported.
 
-## Begin with gravivox, then four equal compiled masses {#s-4826492aad}
+## AVONET member records {#s-4826492aad}
 Begin with zero female/four unsexed gravivox and eight/seven complete erythrogenys, then five/three complete swinhoei versus five/four complete records. Read the four 58.15 g mass sources independently, then compare two densities within shrubland.
 
-[Erythrogenys swinhoei](Erythrogenys_swinhoei/page.en.md), [Erythrogenys gravivox](Erythrogenys_gravivox/page.en.md), [Erythrogenys mcclellandi](Erythrogenys_mcclellandi/page.en.md), [Erythrogenys hypoleucos](Erythrogenys_hypoleucos/page.en.md), [Erythrogenys erythrogenys](Erythrogenys_erythrogenys/page.en.md), [Erythrogenys erythrocnemis](Erythrogenys_erythrocnemis/page.en.md)
+Erythrogenys swinhoei, Erythrogenys gravivox, Erythrogenys mcclellandi, Erythrogenys hypoleucos, Erythrogenys erythrogenys, Erythrogenys erythrocnemis
 
-## Evidence limits {#s-c7b5afc938}
+## Limits attached to these records {#s-c7b5afc938}
 Six historical guides do not complete seven immediate catalogue children. Older Pomatorhinus names, unsexed birds, complete sets, four equal compiled masses and different shrubland densities retain separate limits. Measured diet, current maps, complete natural history remain unsupported.
 

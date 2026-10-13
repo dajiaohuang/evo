@@ -1,5 +1,5 @@
-## Find rows through older Phalacrocorax combinations {#s-1003cfe26f}
-Pinned COL26.8 organizes this page at Leucocarbo onslowi (6PTKC). BirdLife 2020 row 10932 and eBird 2021 row 5560 share the name and Avibase ID AVIBASE-6EE1B0CE, with type 1BL to 1eBird; BirdTree row 5533 gives Phalacrocorax onslowi, with type 1BL to 1BT. Catalogue synonym 4FQQW, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-1003cfe26f}
+Catalogue of Life release COL26.8 records Leucocarbo onslowi (H. O. Forbes, 1893) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## The scope of one measured bird {#s-bcba69a7d5}
 Morphology comprises 1 bird: 0 female, 0 male and 1 unsexed; 1 complete set. Nostril-to-tip beak length 41.5 mm, tarsus 64.1 mm, unflattened wing 259 mm, tail 103 mm and hand-wing index 35.8 are historical row means. This bird is unsexed; sex comparison and population variation remain unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

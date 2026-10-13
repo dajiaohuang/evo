@@ -1,32 +1,30 @@
-## A pinned name and two datasets {#s-8d592dc29c}
-The pinned Catalogue of Life release COL26.8 accepts Tarentola boettgeri in the gecko family Phyllodactylidae. The ReptTraits v1-2 record supplies the size, activity and reproductive traits below, using the workbook’s Reptile Database 2023 names and sources for each trait. One row brings together reports that may differ in place or population, so it is a summary of cited material rather than a description guaranteed for every gecko.
+## COL26.8 name and the ReptTraits row {#s-8d592dc29c}
+COL26.8 records Tarentola boettgeri as an accepted species. The ReptTraits v1-2 row gives its Family field as Phyllodactylidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Length is measured without the tail {#s-2c52261305}
-The largest reported snout–vent length is 60 mm. This measurement runs from the snout to the vent and excludes the tail. It is the maximum found in the cited records, not a growth limit or a typical adult size. A maximum for one sex cannot by itself show how much males and females differ across a population, especially when reports may come from separate places or studies.
+## Length values in the archived records {#s-2c52261305}
+The row reports a maximum SVL of 60 mm. ReptTraits attributes this field to Meiri 2018.
 
-## The record labels its setting and active time {#s-c4f3501e78}
-The record describes the microhabitat as saxicolous, meaning associated with rocky surfaces, and classifies activity as nocturnal. These labels give a broad picture rather than a full habitat map or an hour-by-hour schedule. The workbook can combine settings such as trees and ground where sources report both. A feeding label such as carnivorous would not identify particular prey; the recorded categories also need not cover every season or life stage.
+## Habitat use and activity labels {#s-c4f3501e78}
+The microhabitat field classifies the recorded position as rock-dwelling (Saxicolous). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Reproductive labels are summaries {#s-c2579a901b}
-The source labels this species oviparous and records temperature-dependent sex determination (TSD). Its consolidated figures are 1.5 offspring or eggs per litter or clutch and 4.5 litters or clutches per year. These are database summaries: clutch figures can be midpoints of reported means, or of reported extremes when means are missing. A fractional summary is not a count from one nest. The workbook’s low and high fields describe the ends of reported means, not necessarily the smallest and largest clutches ever observed. The labels do not establish embryo nutrition or show that every population shares these traits.
+## Reproductive fields in ReptTraits {#s-c2579a901b}
+The compiled mean for offspring per litter or eggs per clutch is 1.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The row reports 4.5 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records TSD. ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## A separate historical life-history record {#s-d03fd1a9bf}
-The August 2015 life-history archive also contains a record under this name. This page uses five fields supported by cited species-level rows that match the name and family. Those rows make the comparison traceable, but the archive may carry information inherited from older species or subspecies groupings. A matching name does not prove that the historical record maps exactly to the COL26.8 taxon.
+## A 2015 life-history row for this name {#s-d03fd1a9bf}
+COL26.8 records Tarentola boettgeri as an accepted species. The August 2015 life-history table has a species-name and family match (Phyllodactylidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## The two mass values refer to different ages {#s-888d445dfa}
-The historical summary gives adult body mass as 4.57 g and mass at birth or hatching as 0.36 g. The adult figure may combine males, females and adults whose sex was not recorded; the smaller figure refers to a different life stage. They are separate compiled summaries, not measurements following the same animals as they grew or a range covering individuals across the species.
+## Length values in the archived records {#s-888d445dfa}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated; mass at birth or hatching: one direct source citation, with no median count stated. The archive reports adult body mass as 4.57 g. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011. The combined birth-or-hatching mass field is 0.36 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
-## The clutch and timing entries {#s-acd4c9d3fb}
-The archive reports one offspring or egg per litter or clutch and 86.5 days from egg laying to hatching. Here, “clutch” can refer to eggs, while “litter” refers to live-born young; the combined field should not be read as evidence for one reproductive mode. The timing value covers only laying to hatching, not a complete or repeated reproductive cycle.
+## Reproductive events in the life-history table {#s-acd4c9d3fb}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 7 recorded source-table values; oviposition to hatching: median of 8 recorded source-table values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 1; it is not a count from one event. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011; Reptile Incubation book; IUCN, 2011. The incubation field is 86.5 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## The longevity figure is a maximum record {#s-0b06889f90}
-The archive lists a maximum longevity of 2.4 years, the largest record in its collected material under the source method. It does not estimate usual lifespan or average survival in the wild, and it is not a limit that every individual reaches or a current record independently confirmed here.
+## Longest lifespan in the archive {#s-0b06889f90}
+The archive's longest-lifespan record is 2.4 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is Carey, J.R. and D.S. Judge, 2002.
 
-## Where the historical citations lead {#s-56e0f9343c}
-The same-name rows cite, among other sources, Meiri, Brown and Sibly (2011), the Reptile Incubation book, IUCN (2011) and BC Reptiles/Wilson (2003). The archive preserves row numbers and citations by field. A citation label may point to a paper, book or another database; neither the number of rows nor repeated labels gives the number of animals measured or independent experiments.
+## The August 2015 life-history table {#s-56e0f9343c}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-66f82eb76f}
-The ReptTraits figures summarize one row per species under the workbook’s 2023 name framework, even though individual traits have their own source citations. Such a row compresses variation by sex, age, place and population. The 60 mm maximum is not an absolute biological limit, and the reproductive figures are not fixed counts for each nest. This account does not update conservation, venom, distribution or population trends; blank fields remain unknown here. The project preserves the citation chain but has not independently reviewed every cited work.
-
-The 2015 archive reports medians (or the mean of the two middle values), except for maximum longevity, which uses the largest record found. These summaries are not one animal’s direct measurements, population ranges, average wild lifespans or current surveys. Historical species and subspecies entries may share or inherit data. Matching name, family and same-name source rows support this comparison but do not prove equivalence with COL26.8 or remove all inherited values. Conditions are not consistently identified as wild or captive, and the underlying publications have not been reviewed one by one. Other sources are needed for diet, behavior, current range and conservation.
+## Separate histories in the two archives {#s-66f82eb76f}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

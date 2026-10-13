@@ -1,19 +1,59 @@
 ## Which fossil records this name represents {#s-e3150184ab}
 Eumyarion medius is accepted in the fixed PBDB mammalia working roster, with database parent Eumyarion. This guide uses 13 eligible species-level occurrence records from 13 collections and 8 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-be07001a44}
-Collection Châteauredon (Alpes-de-Haute-Provence), region code FR, stratum name Châteauredon; database age bracket 20.45–13.82 Ma, early interval Burdigalian and late interval Langhian. Collection Gallenbach 2b (Bayern), region code DE; database age bracket 13.82–12.75 Ma, early interval MN 6. Collection Laimering 2 (Bayern), region code DE; database age bracket 13.82–12.75 Ma, early interval MN 6. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Eumyarion medius is listed in the PBDB snapshot under taxon txn:118991. This archived guide contains 13 selected occurrence rows, linked to 13 distinct PBDB collection IDs and 8 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-6e5e5a385b}
-Selected occurrences have an outer age envelope of 20.45–11.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Châteauredon, occurrence occ:389397 (20.45–13.82 Ma); one supplying the younger bound is Laimering 4b, occurrence occ:490885 (12.75–11.1 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-be07001a44}
+The archived guide contains 13 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-511b1a0a3a}
-Châteauredon has collection-environment label lacustrine indet.; collection preservation-mode label body. Gallenbach 2b has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. Laimering 2 has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:389397; PBDB collection col:37239. Locality cnm=Châteauredon; place fields cc2=FR, stp=Alpes-de-Haute-Provence. Recorded age bounds: eag 20.45 Ma; lag 13.82 Ma; PBDB interval fields oei=Burdigalian, oli=Langhian. Stratigraphic fields sfm=Châteauredon. Recorded attribution Lalaï 1986; PBDB reference ref:10008.
 
-## Follow collection records back to references {#s-28cb2c544e}
-Châteauredon carries database reference attribution Lalaï (1986), identifier ref:10008. Gallenbach 2b carries database reference attribution Bollinger (1994), identifier ref:11712. Laimering 2 carries database reference attribution Bollinger (1994), identifier ref:11712. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+fossil level in lower part of a 20-30 cm thick lignitic layer between marine layers. Late Burdigalian, N7/NN4.
+
+Bialkowski et al. 2006: The Tertiary series unconformably lays over the Early Creta- ceous substratum (marls and limestones alternations, marly sediments). They are composed of lagoonal to marine facies with some intercalations of continental deposits (Fig. 2a). The Châteauredon 1 micromammal site (CR1) has been discovered in a lignitic interval interbedded within grey marls and lacustrine carbonates (Lalaï, 1986). This site is placed on the composite section at 360 m by field correlation. Laterally and a few hundred of meters away from this site, some marine deposits contain benthic foraminifera that give an Aquitanian/Early Langhian age (Anglada in Lalaï, 1986). This micro-mammal fossil site is attributed to MN4 (Aguilar et al., 1999, 1996), a micromammal zone that covers the late Burdigalian/ Early Langhian interval. The occurrence of Avicennia pollen in this dark layer (Châteauneuf et al., in press; Jimenez- Moreno, 2005), gives an age range similar to that deduced from the micomammal fauna (Bessedik et Cabrera, 1985).  The Châteauredon 1 site (MN4) corresponds to a mammal zone whose stratigraphic attribution is largely variable. According to the authors its extension varies between 16.5 to 17.5 Ma (Kempf et al., 1997) and 15.8 to 16.6 Ma (Agusti et al., 2001). The beginning of the zone is placed at 17.6 Ma by Aguilar and collaborators (2003).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coordinates are X = 911.27 and Y = 198.26. Located a few hundred meters NE of village of Châteauredon, on the right flank of the l'Hubac ravine.
+
+- Occurrence occ:490885; PBDB collection col:49516. Locality cnm=Laimering 4b; place fields cc2=DE, stp=Bayern. Recorded age bounds: eag 12.75 Ma; lag 11.1 Ma; PBDB interval fields oei=MN 7 + 8. Recorded attribution Bollinger 1994; PBDB reference ref:11712.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+MN7-8?; Oberen Süßwasser-Molasse (Upper Freshwater Molasse);
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Laimering, East of Augsburg, Bavaria
+
+- Occurrence occ:462222; PBDB collection col:45603. Locality cnm=Gallenbach 2b; place fields cc2=DE, stp=Bayern. Recorded age bounds: eag 13.82 Ma; lag 12.75 Ma; PBDB interval fields oei=MN 6. Stratigraphic fields sls=Doppelmergel, slb=upper part. Recorded attribution Bollinger 1994; PBDB reference ref:11712.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+MN6; mittlere Serie der Oberen Süßwasser-Molasse (middle series of Upper Freshwater Molasse);Bollinger 1994: "MN6 not certain, can be called 'primitive MN6'"
+Above the "Brockhorizont", a layer generated by the Ries-impact
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Bavaria, East of Augsburg, near Gallenbach, sand pit near the street B300 between Aichach and Dasing, (Blatt 7532 Aichach, r 44 31 800, h 53 63 050)
+
+## Age bounds on the recorded occurrences {#s-6e5e5a385b}
+Across these selected PBDB rows, the largest recorded eag=20.45 Ma in occ:389397; the smallest recorded lag=11.1 Ma in occ:490885. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-511b1a0a3a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:389397: PBDB taxon-name field tna=Eumyarion medius; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=6.216700, lat=44.016701; paleocoordinate/model fields pm1=gplates, pln=8.42, pla=40.92.
+- occ:490885: PBDB taxon-name field tna=Eumyarion medius; PBDB locality-coordinate fields lng=11.083056, lat=48.383057; paleocoordinate/model fields pm1=gplates, pln=12.64, pla=46.14.
+- occ:462222: PBDB taxon-name field tna=Eumyarion medius; PBDB locality-coordinate fields lng=11.099722, lat=48.416668; paleocoordinate/model fields pm1=gplates, pln=12.79, pla=45.97.
+
+## References attached to each record {#s-28cb2c544e}
+The archived guide links the rows to 8 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:389397: Recorded attribution Lalaï 1986; PBDB reference ref:10008.
+- occ:490885: Recorded attribution Bollinger 1994; PBDB reference ref:11712.
+- occ:462222: Recorded attribution Bollinger 1994; PBDB reference ref:11712.
 
 ## Evidence limits {#s-39eb81d398}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 13 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

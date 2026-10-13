@@ -1,5 +1,5 @@
-## Locate names using source spellings {#s-872d26576e}
-Pinned COL26.8 organizes this page at Turdoides leucopygia (59PK5). BirdLife 2020 row 4945 and eBird 2021 row 10767 share the name and Avibase ID AVIBASE-735E491F, with type 1BL to 1eBird. BirdTree row 10698 gives Turdoides leucopygia, with type 1BL to 1BT. The table and catalogue accepted name match exactly without establishing identical species boundaries across dates. Source family Leiotrichidae and catalogue ancestor Leiothrichidae retain their original spellings.
+## A name fixed to COL26.8 {#s-872d26576e}
+Catalogue of Life release COL26.8 records Turdoides leucopygia (Rüppell, 1837) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-1cabab032b}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 14.9 mm, tarsus 34.2 mm, unflattened wing 114.9 mm, tail 110 mm and hand-wing index 10.2 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

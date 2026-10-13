@@ -1,4 +1,6 @@
-## Historical PanTHERIA entries along this branch {#s-8a6a3b690e}
+## Recorded classification and direct parent {#s-8a6a3b690e}
+COL26.8 records Maxomys at genus rank, with Murinae as its direct parent.
+
 The PanTHERIA route for Maxomys in this batch has three usable accounts: Maxomys rajah, M. surifer, and M. whiteheadi. Each keeps its original MSW05 name, variable-specific conditions, and missing fields. The page’s navigation follows COL26.8; the older table rows do not define the current accepted-species denominator.
 
 ## Two adult-mass endpoints {#s-2f09f1347d}
@@ -18,7 +20,7 @@ A second life-history route also covers only this batch’s same-name, same-fami
 The ecology route includes only this batch’s unique same-name, same-family historical entries with at least two usable field groups. It is not a catalogue of every descendant, and the food categories, estimated weights, or activity flags of individual records cannot be assigned to Maxomys as a whole. Literature-description conversion, older taxonomy, and possible congeneric borrowing in ABC fields need to be assessed on each species page. These records do not replace species monographs.
 
 ## PanTHERIA accounts in the second route {#s-1548a27e31}
-The other PanTHERIA route represented here has six usable accounts. It points readers to [Maxomys alticola](Maxomys_alticola/page.en.md), [Maxomys baeodon](Maxomys_baeodon/page.en.md), [Maxomys bartelsii](Maxomys_bartelsii/page.en.md), [Maxomys inas](Maxomys_inas/page.en.md), and [Maxomys ochraceiventer](Maxomys_ochraceiventer/page.en.md). Names and field gaps remain as recorded in MSW05; COL26.8 supplies the navigation framework rather than a denominator for this older dataset.
+The other PanTHERIA route represented here has six usable accounts. It points readers to Maxomys alticola, Maxomys baeodon, Maxomys bartelsii, Maxomys inas, and Maxomys ochraceiventer. Names and field gaps remain as recorded in MSW05; COL26.8 supplies the navigation framework rather than a denominator for this older dataset.
 
 ## Mass values in the second route {#s-e0c10c3ac7}
 Among the consolidated adult-mass values available in this batch, Maxomys bartelsii is 88.46 g and M. panglima is 158.96 g. They are endpoints of historical medians adjusted for sex, not extremes across individual animals. A size contrast by itself does not establish one lifestyle for all descendants.

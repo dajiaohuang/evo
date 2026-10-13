@@ -107,13 +107,20 @@ records:
       morphology:
         status: partially-supported
         claims:
-          - text: In the sampled adult and subadult comparisons, measured body-size values overlapped among lineages and the authors found that no single reported ratio was unambiguously diagnostic for each species. They caution that the ratios have limited value for reliable field identification.
+          - text:
+              page: en
+              section: revision-morphology
+              part: body
             sourceIds:
               - miralles2021
             locator: Morphological comparisons, pp. 34-35
             placeTimeScope: Morphological comparison in the 2021 study, using its sampled adult and subadult specimens; it is not a complete species-wide diagnosis.
             lifeStatus: Adult and subadult specimens; juvenile morphology and unmeasured variation are not inferred.
             originalLanguage: en
+            textZh:
+              page: zh
+              section: revision-morphology
+              part: body
         gaps:
           - The study reports overlapping measurements and limited sampling; it does not provide a complete account of morphology or variation across the accepted species concept.
       lifeHistory:
@@ -127,25 +134,39 @@ records:
       evolution:
         status: partially-supported
         claims:
-          - text: The authors recovered multiple distinct P. bastardi lineages from their mitochondrial and nuclear analyses and report syntopic occurrences without genetic admixture or morphological intermediates as evidence supporting reproductive isolation among sampled lineages. The lineage-level result does not imply that all historically assigned P. bastardi populations belong to the currently accepted species concept.
+          - text:
+              page: en
+              section: revision-lineages
+              part: body
             sourceIds:
               - miralles2021
             locator: Abstract; Integrative species delimitation, pp. 35-37
             placeTimeScope: Multilocus analyses and sampled sympatric localities in Madagascar reported in 2021; interpretation is limited to sampled lineages and markers.
             lifeStatus: Wild collected specimens; no broader population-wide inference is made.
             originalLanguage: en
+            textZh:
+              page: zh
+              section: revision-lineages
+              part: body
         gaps:
           - The authors note that denser phylogenomic study is needed; evolutionary history outside the sampled complex and accepted concept remains unassessed.
       distribution:
         status: partially-supported
         claims:
-          - text: After designating a lectotype, the authors restrict P. bastardi sensu stricto to the extreme south-east of Madagascar. This is the range conclusion of the 2021 revision and is not presented as a current exhaustive range inventory.
+          - text:
+              page: en
+              section: revision-range
+              part: body
             sourceIds:
               - miralles2021
             locator: Abstract; lectotype designation and discussion of P. bastardi, pp. 38-43
             placeTimeScope: Madagascar records examined for the 2021 taxonomic revision; no post-publication range survey is represented.
             lifeStatus: Wild locality records reviewed by the authors.
             originalLanguage: en
+            textZh:
+              page: zh
+              section: revision-range
+              part: body
         gaps:
           - No current, exhaustive occurrence-data or range-boundary assessment was conducted.
       fossil:

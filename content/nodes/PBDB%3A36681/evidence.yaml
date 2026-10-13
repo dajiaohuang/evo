@@ -120,7 +120,10 @@ records:
     - subjectId: taxon:basilosaurus
       claimKind: scientific
       claimType: fossil-range
-      statement: The atlas bounds Basilosaurus only with the sampled Basilosaurus isis material from the Birket Qarun Formation, including named hind-limb specimen UM 93231 within a broad approximately 37.7–35 Ma formation envelope; this is not a global genus range.
+      statement:
+        page: en
+        section: hind-limb-specimen
+        part: body
       confidence: medium
       confidenceRationale: The primary paper directly describes the Egyptian specimens. Medium confidence reflects a formation-level composite rather than a direct date on UM 93231.
       referenceLinks:
@@ -132,7 +135,9 @@ records:
   claim-rationales.zh:
     - 一手论文直接描述埃及标本；中等置信度反映这是组级组合区间，而非 UM 93231 的直接测年。
   claim-statements.zh:
-    - 图谱仅以 Birket Qarun 组取样的 Basilosaurus isis 材料约束该属，其中包括处于约 3770 万—3500 万年前宽泛组级区间的具名后肢标本 UM 93231；这不是全球属级范围。
+    - page: zh
+      section: hind-limb-specimen
+      part: body
   ranges:
     - entityId: basilosaurus
       rangeKind: global-composite

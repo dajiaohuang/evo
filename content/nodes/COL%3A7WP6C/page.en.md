@@ -1,5 +1,5 @@
-## Tracing the historical genus name {#s-bf8930f836}
-COL26.8 accepts Psilopogon javensis under ID 7WP6C. AVONET's BirdLife 2020 row 9693 and eBird 2021 row 8660 use that name and Avibase ID AVIBASE-3FAAF1EF. BirdTree row 8615 instead lists Megalaima javensis, with match type 1BL to 1BT; the older-combination COL record 7VSW2 points back to accepted ID 7WP6C. These links locate records across name lists but do not show that the historical and current species concepts are identical.
+## A name fixed to COL26.8 {#s-bf8930f836}
+Catalogue of Life release COL26.8 records Psilopogon javensis (Horsfield, 1821) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and beak/wing averages {#s-300493ab6c}
 The AVONET sample has five birds (two female, three male, none unsexed); four have complete measurement sets. Recorded means are 28.7 mm from nostril to bill tip, 13.9 mm beak width, 29.7 mm tarsus and 109.4 mm unflattened wing. The hand-wing index is 18.6. Inference=NO does not mean every field has the same sample count. The index is Kipp's distance divided by wing length, ×100—not flight speed—and beak width is not a test of feeding performance.

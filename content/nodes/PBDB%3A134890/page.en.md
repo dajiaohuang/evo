@@ -25,18 +25,49 @@ The 2007 model paper records its jaw fragment as DGM 1476-M, then referred to T.
 ## Which fossil records this name represents {#s-c50847f1e2}
 The 2026-10-02 PBDB snapshot records Thalassodromeus sethi as the accepted name under Thalassodromeus. The selected guide contains 1 species-level occurrence record, linked to 1 collection and 1 source-reference identifier. These are database units, not counts of fossils or individual animals.
 
+PBDB occurrence record excerpt:
+Thalassodromeus sethi is listed in the PBDB snapshot under taxon txn:134890. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## Begin with named collections and strata {#s-1439833fd1}
 Collection Santana do Cariri (general) (Ceará), region code BR, stratum name Romualdo; database age bracket 119.57–113.2 Ma, early interval Late Aptian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+
+PBDB occurrence record excerpt:
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:784441; PBDB collection col:67712. Locality cnm=Santana do Cariri (general); place fields cc2=BR, stp=Ceará. Recorded age bounds: eag 119.57 Ma; lag 113.2 Ma; PBDB interval fields oei=Late Aptian. Stratigraphic fields sfm=Romualdo. Recorded attribution Kellner and Campos 2002; PBDB reference ref:28368.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Santana Formation suggested to be early Albian in age by Heimhofer & Hochuli (2010) on the basis of palynomorphs
+From Melo et al. 2020: In summary, this integrated study of foraminifera, ostracodes and other microfossil data from the Romualdo Formation indicates that the local Alagoas Stage (Ostracoda Zone RT-011) can now be constrained to the Aptian. Arai and Assine 2020 also support that the Romualdo Formation and Santana Group is entirely Aptian in age.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Near Santana do Cariri, Ceara State"; exact site(s) not recorded (mostly private collectors), but all materials believed to come from outcrops close to this city
 
 ## Age bounds of these records {#s-7182054f1f}
 Selected occurrences have an outer age envelope of 119.57–113.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket; broad intervals do not specify a precise specimen age.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=119.57 Ma in occ:784441; the smallest recorded lag=113.2 Ma in occ:784441. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## Read preservation setting separately from living habitat {#s-ebf7d14754}
 Santana do Cariri (general) has collection-environment label lagoonal/restricted shallow subtidal; collection preservation-mode label body,concretion. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:784441: PBDB original-identification field idn=Thalassodromeus sethi n. gen. n. sp.; PBDB taxon-name field tna=Thalassodromeus sethi; material note ocm=DGM 1476-R, skull; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-39.733334, lat=-7.183333; paleocoordinate/model fields pm1=gplates, pln=2.55, pla=-5.04.
 
 ## Follow collection records back to references {#s-da0cf13d6b}
 The Santana do Cariri database citation is Kellner and Campos (2002), ref:28368. The cited literature also includes the two-author naming paper, the four-author 2007 skimming-model paper and the three-author 2018 redescription. These works address the holotype, model material, feeding hypotheses and later taxonomy in distinct contexts.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:784441: Recorded attribution Kellner and Campos 2002; PBDB reference ref:28368.
+
 ## Evidence limits {#s-9492017a9c}
 Crest functions and feeding modes remain hypotheses rather than observed behavior. The 2007 skimming model used a jaw fragment then referred to T. sethi, and its conclusions depend on modeled jaw geometry, immersion and flight-cost assumptions; the 2018 study later assigned that referred material to a different species. The holotype, model fragment and cast therefore remain distinct pieces of evidence. These limits do not establish an alternative diet or a definitive crest function.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

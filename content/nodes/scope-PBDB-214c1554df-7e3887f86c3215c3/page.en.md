@@ -1,5 +1,5 @@
-## Overview {#s-6cd91b73f2}
-Aegicetus gehennae is anchored by the associated holotype CGM 60584 from the lower Gehannam Formation at Wadi Al Hitan. Its long posterior trunk, unfused sacral vertebrae, lack of a weight-bearing sacroiliac joint and reduced limbs inform a model of increasingly tail-driven swimming; no tail fluke is securely preserved.
+## CGM 60584: trunk and sacral anatomy {#s-6cd91b73f2}
+CGM 60584 preserves an elongate posterior trunk, unfused sacrum and reduced limbs used to model tail-driven swimming; no fluke is securely preserved.
 
 ## Diet {#s-9402bb7dc3}
 Marine predation is inferred from cetacean teeth; prey is not preserved.
@@ -25,9 +25,9 @@ Unfused sacrals without a weight-bearing sacroiliac joint
 ## Preserved features {#s-206e701127}
 Reduced limbs; a tail fluke is not securely preserved
 
-## Evidence and scope {#s-1d69733212}
-CGM 60584 documents the locomotor anatomy used in the study’s model. The displayed 37.71 Ma point sits amid competing stratigraphic interpretations; it is not an exact specimen date, a first or last appearance, or observed swimming performance.
+## Anatomy and the contested 37.71 Ma display point {#s-1d69733212}
+CGM 60584 supplies locomotor anatomy, while 37.71 Ma falls amid competing stratigraphic interpretations; neither date nor performance is exact observation.
 
-## Limits of this account {#s-82768f5b55}
+## What the specimen and age do not establish {#s-82768f5b55}
 The 37.71 Ma point is a display value amid competing stratigraphic interpretations, not an exact date for CGM 60584 or a genus endpoint. Predation and tail-driven swimming are anatomical hypotheses; prey, performance and a tail fluke are not directly documented.
 

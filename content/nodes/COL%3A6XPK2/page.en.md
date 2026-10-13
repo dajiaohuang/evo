@@ -1,5 +1,5 @@
-## Separate matching names from family spelling {#s-c2e9dcae74}
-Pinned COL26.8 organizes this page at Sarothrura affinis (6XPK2). BirdLife 2020 row 2720, eBird 2021 row 9380 and BirdTree row 9325 share the name, with Avibase ID AVIBASE-D4A066EA; link types are 1BL to 1eBird and 1BL to 1BT. Matching names locate historical sources without establishing identical species boundaries across versions. The source has Family1=Rallidae; the recorded COL ancestry places this page in Sarothruridae. Retain the original family spelling without inferring relationships from its difference.
+## A name fixed to COL26.8 {#s-c2e9dcae74}
+Catalogue of Life release COL26.8 records Sarothrura affinis (A. Smith, 1828) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-3828664300}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 5.3 mm, tarsus 16.8 mm, unflattened wing 67.2 mm, tail 37.2 mm and hand-wing index 13.9 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

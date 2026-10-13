@@ -1,5 +1,5 @@
-## 沿旧 Schistocichla／Myrmeciza 组合查历史行 {#s-83384a83cc}
-本页按 COL26.8 的 Myrmelastes saturatus（R8G3X）组织。BirdLife 2020 第 7795 行与 eBird 2021 第 6635 行同名，Avibase ID 为 AVIBASE-F30598FA，类型 1BL to 1eBird；BirdTree 第 6610 行记 Schistocichla saturata，类型 1BL to 1BT。本次读到目录异名 4V99C，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-83384a83cc}
+《Catalogue of Life》COL26.8（2026-08-20）将 Myrmelastes saturatus (Salvin, 1885) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-68e44d8ec5}
 形态共 6 只鸟：雌 3、雄 3、性别未定 0；完整测量 3 只。鼻孔前缘至喙尖 11.2 mm、跗蹠 25 mm、未压平翼长 64.3 mm、尾长 59.9 mm、手翼指数 9 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

@@ -1,4 +1,4 @@
-## Overview {#s-8a1a39145e}
+## From an illustration to a neotype proposal {#s-8a1a39145e}
 Hershkovitz originally described this taxon from a 1945 illustration by Cruz Lima; the animals were said to come from the upper Purus, but the specimen was lost and its precise provenance was unknown. Sampaio et al. (2015) redescribed its morphology and proposed species status and a neotype using morphology, mitochondrial evidence and pelage.
 
 ## Research observations {#s-05bc7e604d}

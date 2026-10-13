@@ -1,20 +1,61 @@
 ## Which fossil records this name represents {#s-37fe9bec8b}
 Dongusuchus efremovi is accepted in the fixed PBDB other-archosauria working roster, with database parent Dongusuchus. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-11b0adfe37}
-Collection Donguz I, PIN 952 (Orenburg), region code RU, stratum name Donguz; database age bracket 243.43–241.464 Ma, early interval Illyrian. Collection Starokoltaevo III (Locality 10) (Bashkortostan), region code RU, stratum name Donguz; database age bracket 243.43–241.464 Ma, early interval Illyrian. Collection Perovka, PIN 2430 (Locality 35) (Orenburg), region code RU, stratum name Donguz; database age bracket 247–241.464 Ma, early interval Anisian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Dongusuchus efremovi is listed in the PBDB snapshot under taxon txn:169958. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-1e7165c2d4}
-Selected occurrences have an outer age envelope of 247–241.464 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Perovka, PIN 2430 (Locality 35), occurrence occ:1383183 (247–241.464 Ma); one supplying the younger bound is Donguz I, PIN 952, occurrence occ:877774 (243.43–241.464 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-11b0adfe37}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-570072ff47}
-Donguz I, PIN 952 has collection-environment label fluvial-deltaic indet.; collection preservation-mode label body,concretion. Starokoltaevo III (Locality 10) has collection-environment label deltaic indet.; collection preservation-mode label body. Perovka, PIN 2430 (Locality 35) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:877774; PBDB collection col:28850. Locality cnm=Donguz I, PIN 952; place fields cc2=RU, stp=Orenburg, cny=Sol'-Iletsk. Recorded age bounds: eag 243.43 Ma; lag 241.464 Ma; PBDB interval fields oei=Illyrian. Stratigraphic fields sfm=Donguz. Recorded attribution Gower and Sennikov 2000; PBDB reference ref:29101.
 
-## Follow collection records back to references {#s-dcde93dc31}
-Donguz I, PIN 952 carries database reference attribution Gower and Sennikov (2000), identifier ref:29101. Starokoltaevo III (Locality 10) carries database reference attribution Tverdokhlebov et al. (2003), identifier ref:28844. Perovka, PIN 2430 (Locality 35) carries database reference attribution Tverdokhlebov et al. (2003), identifier ref:28844. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Outcrop is ~10 meters high. The author does not explicitly state which layer Lystrosuarus klimovi is from in the english text, but bed 3 is marked in Fig. 24. Detailed lithological descriptions are provided for each bed in the russian text.  Equivalent to the South African "Cynognathus Zone, corresponding to the Upper Buntsandstein of Germany, or to the Scythian." The Cynognathus Zone has recently been split into three time equivalent assemblages, therefore a Scythian age may not be correct. PJW: Kammerer puts this as Illyrian.
+
+Additional note: Tverdokhlebov et al. (2003) assign the locality to the Middle Triassic (Anisian) Donguz Svita. Original stratigraphic data are modified accordingly (TL).
+
+The Donguz Svita is the "characteristic" tetrapod assemblage for the Perovkan Land Vertebrate Faunachron of Lucas, considered to be of Anisian age (see Lucas 2010)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"on the right bank of the Dongus river, (a left tributary of the Ural river) in the region of its upper part, 1 km downstream of the large Perovsky settlement, Sol-Iletzk district, Chkalov region...the Perovsky settlement is located about 30 km E of the Mayatchnaya station, Tashkent railway, and 45-50 km SE of the Chkalov town." (Efremov, 1940).
+"Orenburg Region, 1 km NW of Perovka village, right bank of the Donguz River (drainage basin of left bank of the Ural River)" (Tverdokhlebov et al., 2003).
+
+Schoch & Milner (2000) refer to this site as "Donguz XII" but this appears to be an error
+
+Important notes: Original collection name >>Dongus River (Vetluga Horizon)<< ist altered according to official PIN locality name in Tverdokhlebov et al. (2003). This is important since there are some further localities upon the Donguz River which are within stratigraphic levels considerably different from that of the present collection.
+State/Province name >>Chkalov Region<< is replaced by the name now used for the former Chkalov Oblast. Polar coordinates (originally 53°N 55°E, based on city of Sol'-Iletsk) are rendered more precisely and now are based upon village of Perovka (TL).
+
+- Occurrence occ:879452; PBDB collection col:97415. Locality cnm=Starokoltaevo III (Locality 10); place fields cc2=RU, stp=Bashkortostan. Recorded age bounds: eag 243.43 Ma; lag 241.464 Ma; PBDB interval fields oei=Illyrian. Stratigraphic fields sfm=Donguz. Recorded attribution Tverdokhlebov et al. 2003; PBDB reference ref:28844.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The Donguz Svita/Gorizont is the "characteristic" tetrapod assemblage for the Perovkan Land Vertebrate Faunachron of Lucas, considered to be of Anisian age (see Lucas 2010). By contrast, Fröbisch (2009) suggested that the lower part of the Donguz Svita/Gorizont (to which this locality would belong) is referable to the Nonesian LVF, is of early Anisian age, and can be correlated which subzone B of the Cynognathus AZ of South Africa. PJW: Kammerer makes this as Illyrian.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Bashkortostan. 7.5 km NE of Oktyabrsky town, 2 km west Starokoltaevo village, right bank of the Bolshoy Yushatir River (Sakmara drainage basin)"
+
+- Occurrence occ:1383183; PBDB collection col:189562. Locality cnm=Perovka, PIN 2430 (Locality 35); place fields cc2=RU, stp=Orenburg. Recorded age bounds: eag 247 Ma; lag 241.464 Ma; PBDB interval fields oei=Anisian. Stratigraphic fields sfm=Donguz. Recorded attribution Tverdokhlebov et al. 2003; PBDB reference ref:28844.
+
+## Age bounds on the recorded occurrences {#s-1e7165c2d4}
+Across these selected PBDB rows, the largest recorded eag=247 Ma in occ:1383183; the smallest recorded lag=241.464 Ma in occ:877774. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-570072ff47}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:877774: PBDB original-identification field idn=Dongusuchus efremovi n. gen. n. sp.; PBDB taxon-name field tna=Dongusuchus efremovi; material note ocm=PIN 952/15-1, femur (holotype). PIN 952/84-1, epipodials; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=55.308334, lat=51.358334; paleocoordinate/model fields pm1=gplates, pln=60.32, pla=40.91.
+- occ:879452: PBDB taxon-name field tna=Dongusuchus efremovi; material note ocm=PIN 2866/37 (formerly SGU 104/3880), anterior cervical vertebra; possibly from Starokoltaevo II (see notes); abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=53.500000, lat=52.533333; paleocoordinate/model fields pm1=gplates, pln=58.25, pla=41.34.
+- occ:1383183: PBDB taxon-name field tna=Dongusuchus efremovi; PBDB locality-coordinate fields lng=55.184166, lat=51.461388; paleocoordinate/model fields pm1=gplates, pln=60.16, pla=40.95.
+
+## References attached to each record {#s-dcde93dc31}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:877774: Recorded attribution Gower and Sennikov 2000; PBDB reference ref:29101.
+- occ:879452: Recorded attribution Tverdokhlebov et al. 2003; PBDB reference ref:28844.
+- occ:1383183: Recorded attribution Tverdokhlebov et al. 2003; PBDB reference ref:28844.
 
 ## Evidence limits {#s-3c1134bd2b}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 179-item other-archosauria working roster, retain the current same name and a complete parent chain to the recorded Archosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
 This batch covers only the other-archosauria partition of the fixed PBDB Amniota working list, using external OIDs to exclude entries assigned to Dinosauria, Pterosauria and Crocodylomorpha partitions. The partition organizes dated database records; other phylogenetic schemes may place taxa differently, and membership is not an expert adjudication.
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

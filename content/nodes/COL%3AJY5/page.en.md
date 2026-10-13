@@ -1,4 +1,6 @@
-## One PanTHERIA account in this route {#s-9bc8e89652}
+## Recorded classification and direct parent {#s-9bc8e89652}
+COL26.8 records Mystromyinae at subfamily rank, with Nesomyidae as its direct parent.
+
 The local PanTHERIA route for Mystromyinae has one usable data account: Mystromys albicaudatus. The account retains its historical MSW05 name, variable-specific conditions and missing fields. Navigation follows pinned COL26.8; the historical row is not the current accepted-species denominator.
 
 ## One adult-mass value at both endpoints {#s-9143881dc0}

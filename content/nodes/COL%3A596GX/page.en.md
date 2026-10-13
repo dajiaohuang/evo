@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-105fb619cc}
-Pinned COL26.8 organizes this page at Trochalopteron austeni (596GX). BirdLife 2020 row 4919 and eBird 2021 row 10685 share the name and Avibase ID AVIBASE-93675AD5, with match type 1BL to 1eBird; BirdTree row 10618 gives Garrulax austeni, with type 1BL to 1BT. Read COL older-combination record 3FBQG points to this accepted ID. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-105fb619cc}
+Catalogue of Life release COL26.8 records Trochalopteron austeni Godwin-Austen, 1870 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-f8a4f30996}
 The morphology row covers 5 birds: 1 female, 1 male and 3 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 10.2 mm, tarsus 35.7 mm, unflattened wing 90.6 mm, tail 111.6 mm and hand-wing index 5.5 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

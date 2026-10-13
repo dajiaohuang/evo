@@ -1,18 +1,18 @@
-## Name and this data account {#s-13daeea0ce}
-Pinned COL26.8 accepts Pelomedusa schweinfurthi in Pelomedusidae. This profile uses its ReptTraits v1-2 entry and the Reptile Database 2023 name framework; the single row is a compact source record, not a population-wide description.
+## COL26.8 name and the ReptTraits row {#s-13daeea0ce}
+COL26.8 records Pelomedusa schweinfurthi as an accepted species. The ReptTraits v1-2 row gives its Family field as Pelomedusidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-86b6eea6c7}
-The entry records a maximum straight carapace length (SCL) of 157 mm. SCL measures the shell in a straight line, excluding head, neck and tail. This compiled maximum is not a typical size or an absolute limit.
+## Length values in the archived records {#s-86b6eea6c7}
+The row reports a maximum straight carapace length (SCL) of 157 mm. ReptTraits attributes this field to Petzold et al. 2014.
 
-## Where and how it is active {#s-a8b9907da5}
-The recorded microhabitat is aquatic. This category identifies a broad setting, not the full habitat or a fixed schedule; it cannot show differences among populations, seasons, or life stages.
+## Habitat use and activity labels {#s-a8b9907da5}
+The microhabitat field classifies the recorded position as Aquatic. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Petzold et al. 2014.
 
-## How to read reproductive records {#s-9e6314b867}
-ReptTraits records the reproductive mode as oviparous. That label does not describe embryo nutrition. Other reproductive counts and dimensions are not interpreted in this profile.
+## Reproductive fields in ReptTraits {#s-9e6314b867}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-f5f5d61acd}
-This short account uses limited ReptTraits v1-2 material; it is not a full morphology or ecology treatment. The one-row summary compresses variation and follows a 2023 taxonomic framework, so matching names do not guarantee equivalence to later concepts. A recorded maximum is not a species-wide ceiling, and estimated mass is not a direct measurement. Unreported fields remain gaps. Conservation, venom, current range and population trends are outside this profile. Source labels preserve the workbook's citation chain but do not imply an independent review of every underlying study.
+## Reading this compiled trait record {#s-f5f5d61acd}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-90f2b17750}
-Three traits have field-specific source labels here. The profile does not establish values for female or male length, total length, clutch size or frequency, egg dimensions, diet, activity time, foraging mode, or sex determination. Related-species values and blank fields are not substitutes.
+## Reading this compiled trait record {#s-90f2b17750}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

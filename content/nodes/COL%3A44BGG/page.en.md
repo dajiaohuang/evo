@@ -1,12 +1,12 @@
-## Name and data behind this account {#s-f48465b5cd}
-Pinned COL26.8 lists Montivipera bulgardaghica in Viperidae. Its ReptTraits v1-2 entry follows the Reptile Database 2023 name framework. This record contains a sourced length field; it does not describe a uniform condition across all populations.
+## COL26.8 name and the ReptTraits row {#s-f48465b5cd}
+COL26.8 records Montivipera bulgardaghica as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What does the reported length measure? {#s-c84fc11f50}
-The reported maximum total length (TL) is 750 mm. Total length includes the tail; snout-to-vent length (SVL) ends at the vent. This compiled maximum describes reported material, not a theoretical growth limit or typical individual size.
+## Length values in the archived records {#s-c84fc11f50}
+The row reports maximum total length (TL) of 750 mm. ReptTraits attributes this field to Feldman & Meiri 2013.
 
-## Evidence limits {#s-b657797b3a}
-Only one sourced trait is summarized here, so this is not a complete account of the species' morphology or ecology. The ReptTraits v1-2 record follows the Reptile Database 2023 framework; one row can conceal differences among sexes, ages, localities and populations, and the historical name may not match later taxonomic concepts. The reported maximum is not a biological upper limit. Length-based mass estimates are not measured weights, and juvenile-length fields are omitted because their headers and definitions vary. This page provides no current information on conservation status, venom, distribution or population trends. Source labels trace the workbook's citation chain but do not independently establish every cited paper's findings.
+## Reading this compiled trait record {#s-b657797b3a}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Which traits lack a source-linked value here? {#s-110147952e}
-The record has a source-linked maximum total length, but no source-linked value here for maximum snout-to-vent length (SVL; turtles use straight carapace length, SCL), maximum female or male length, mean litter or clutch size, smallest or largest clutch size, litters or clutches per year, egg length or width, microhabitat, diet, active time, foraging mode, reproductive mode, or sex-determination mechanism (genetic sex determination, GSD, or temperature-dependent sex determination, TSD). Blank fields and records for related species do not establish values for this species.
+## Reading this compiled trait record {#s-110147952e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-806bd81b80}
+## 记录分类与直接上级关系 {#s-806bd81b80}
+COL26.8 将 Bostrychia 记录为属；其直接上级记录为 Threskiornithidae。
+
 本批 Bostrychia 的 AVONET 路线包含 2 条有测量来源的物种记录：Bostrychia carunculata 与 Bostrychia hagedash。它们按固定 COL26.8 归入本属；AVONET 仍保留 HBW–BirdLife 历史名称和取样范围。本页不是完整后代名册。
 
 ## 记录之间有什么差别 {#s-46d04116ab}
@@ -13,8 +15,8 @@ EltonTraits 路线包括 4 条历史条目：B. hagedash、B. carunculata、B. o
 ## 证据边界 {#s-a43108954c}
 本属路线只覆盖本批已写的资料：2 条 AVONET 测量记录、1 条生活史记录、4 条 EltonTraits 记录和 3 条仅生态记录，彼此存在重叠。它既不是完整后代名册，也不是属级生物学综合。体重值是物种均值，尚未解读的形态字段不能支持类群体型比较。生活史汇总可能继承较早分类资料；EltonTraits 权重转换自文献描述；AVONET 地图和类别也各有其历史范围。同名不能证明当前物种概念等同。当前分布、种群变化、保护状况和缺失生物学仍需其他来源。
 
-## 从有限生态资料开始 {#s-ba0b5b0f99}
-本批另有 3 个后代的有限 AVONET 生态页面：[Bostrychia bocagei](Bostrychia_bocagei/page.zh.md)、[Bostrychia olivacea](Bostrychia_olivacea/page.zh.md) 和 [Bostrychia rara](Bostrychia_rara/page.zh.md)。这些条目支持部分类别与地理摘要，不是完整物种记录。
+## 记录分类与成员材料 {#s-ba0b5b0f99}
+本批另有 3 个后代的有限 AVONET 生态页面：Bostrychia bocagei、Bostrychia olivacea 和 Bostrychia rara。这些条目支持部分类别与地理摘要，不是完整物种记录。
 
 ## 哪些内容可读，哪些仍未解读 {#s-64f265267d}
 这 3 条仅含生态资料的记录，各有 3 页提供栖地、食性生态位、主要生活方式和迁移字段。本批未解读喙、翼、跗蹠、尾和体重等形态字段，因此这些页面不支持属级体型比较。

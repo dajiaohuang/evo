@@ -1,5 +1,5 @@
-## 沿旧 Basileuterus 组合查历史行 {#s-ee3894b8ee}
-本页按 COL26.8 的 Myiothlypis leucoblephara（4533D）组织。BirdLife 2020 第 6312 行与 eBird 2021 第 6595 行同名，Avibase ID 为 AVIBASE-D65E2A9D，类型 1BL to 1eBird；BirdTree 第 6571 行记 Basileuterus leucoblepharus，类型 1BL to 1BT。本次读到目录异名 68CWS，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-ee3894b8ee}
+《Catalogue of Life》COL26.8（2026-08-20）将 Myiothlypis leucoblephara (Vieillot, 1817) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-901fe246fc}
 形态共 9 只鸟：雌 3、雄 5、性别未定 1；完整测量 4 只。鼻孔前缘至喙尖 8.3 mm、跗蹠 23.7 mm、未压平翼长 64.4 mm、尾长 57.2 mm、手翼指数 15.9 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

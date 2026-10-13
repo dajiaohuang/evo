@@ -7,7 +7,7 @@ Start with Macroplata tenuiceps, Yuzhoupliosaurus chengjiangensis, Maresaurus co
 ## Evidence limits {#s-a03ce0bc53}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## Research overview {#s-5c6b639f48}
+## Rhaeticosaurus and the uncertain older candidate {#s-5c6b639f48}
 Plesiosauria is represented here by diagnostic Rhaetian body-fossil anatomy in Rhaeticosaurus. Older Bobosaurus appears as an uncertain candidate, so it does not extend the group’s plotted range.
 
 ## atlas-profile / ecology / diet {#s-de0aa3ee7c}
@@ -37,10 +37,10 @@ Neck and skull proportions vary widely across the group
 ## What this evidence can establish {#s-91e42fff0e}
 Rhaeticosaurus supplies articulated diagnostic anatomy and histology. Bobosaurus is older but less securely placed, and swimming performance comes from models rather than direct observation.
 
-## Anatomy across a sampled group {#s-badefc6e2f}
-The four flippers are interpreted as hydrofoil-like paddles for underwater swimming. Water-channel tests examine that interpretation using model flippers.
+## Flippers and body proportions in the sample {#s-badefc6e2f}
+Researchers interpret four flippers as hydrofoil-like paddles and test that idea with water-channel models using prescribed movements; the experiment does not observe a plesiosaur swimming.
 
-The studied fossil anatomy shows a compact trunk. Neck and skull proportions differ among the compared forms.
+The compared fossils also show a compact trunk, while neck and skull proportions differ among forms.
 
 ## Marine life and modelled swimming {#s-06a7a438c6}
 The cited fossils come from marine settings. Four-flipper underwater motion is a modelled swimming method: the experiment prescribed flipper movement in a water channel rather than observing an animal swim.

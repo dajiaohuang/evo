@@ -1,19 +1,62 @@
 ## Which fossil records this name represents {#s-e0931da540}
 Carnilestes palaeoasiaticus is accepted in the fixed PBDB mammalia working roster, with database parent Carnilestes. This guide uses 4 eligible species-level occurrence records from 4 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-6928ab2163}
-Collection 100 m NW of Nanxiong Normal School (Guangdong), region code CN, stratum name Shanghu; database age bracket 66–61.66 Ma, early interval Early Paleocene. Collection Datang (Guangdong), region code CN, stratum name Shanghu; database age bracket 66–61.66 Ma, early interval Early Paleocene. Collection 800 NE of Liren, NE of Zhuji Commune (Guangdong), region code CN, stratum name Shanghu; database age bracket 66–61.66 Ma, early interval Early Paleocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Carnilestes palaeoasiaticus is listed in the PBDB snapshot under taxon txn:246098. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-b088ab700d}
-Selected occurrences have an outer age envelope of 66–61.66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is 100 m NW of Nanxiong Normal School, occurrence occ:1071371 (66–61.66 Ma); one supplying the younger bound is 100 m NW of Nanxiong Normal School, occurrence occ:1071371 (66–61.66 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-6928ab2163}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-7f4e6689f6}
-100 m NW of Nanxiong Normal School has collection-environment label terrestrial indet.; collection preservation-mode label body. Datang has collection-environment label terrestrial indet.; collection preservation-mode label body. 800 NE of Liren, NE of Zhuji Commune has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1071371; PBDB collection col:132957. Locality cnm=100 m NW of Nanxiong Normal School; place fields cc2=CN, stp=Guangdong, cny=Nanxiong. Recorded age bounds: eag 66 Ma; lag 61.66 Ma; PBDB interval fields oei=Early Paleocene. Stratigraphic fields sfm=Shanghu. Recorded attribution Wang and Zhai 1995; PBDB reference ref:42817.
 
-## Follow collection records back to references {#s-150f29ad7b}
-100 m NW of Nanxiong Normal School carries database reference attribution Wang and Zhai (1995), identifier ref:42817. Datang carries database reference attribution Wang and Zhai (1995), identifier ref:42817. 800 NE of Liren, NE of Zhuji Commune carries database reference attribution Wang and Zhai (1995), identifier ref:42817. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Wang and Zhai (1995) list the age as early (?) - middle Paleocene, but an early Paleocene age is supported by the more recent paper of Clyde et al. (2010).
+
+Lower part of the Shanghu Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+A small hill approximately 100 m northwest of the Nanxiong Normal School, approximately 3 km southwest of Nanxiong County seat, in northern Guangdong (Kwangtung) Province
+
+- Occurrence occ:1071372; PBDB collection col:132958. Locality cnm=Datang; place fields cc2=CN, stp=Guangdong, cny=Nanxiong. Recorded age bounds: eag 66 Ma; lag 61.66 Ma; PBDB interval fields oei=Early Paleocene. Stratigraphic fields sfm=Shanghu. Recorded attribution Wang and Zhai 1995; PBDB reference ref:42817.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Wang and Zhai (1995) list the age as early (?) - middle Paleocene, but an early Paleocene age is supported by the more recent paper of Clyde et al. (2010).
+
+100 m (surface measurement, representing just a few meters of thickness of strata) above the basal nodular layer of the Shanghu Formation.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Datang section in the northeastern part of the Nanxiong Basin
+
+- Occurrence occ:1071373; PBDB collection col:132959. Locality cnm=800 NE of Liren, NE of Zhuji Commune; place fields cc2=CN, stp=Guangdong, cny=Nanxiong. Recorded age bounds: eag 66 Ma; lag 61.66 Ma; PBDB interval fields oei=Early Paleocene. Stratigraphic fields sfm=Shanghu. Recorded attribution Wang and Zhai 1995; PBDB reference ref:42817.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Wang and Zhai (1995) list the age as early (?) - middle Paleocene, but an early Paleocene age is supported by the more recent paper of Clyde et al. (2010).
+
+Upper part of the Shanghu Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Locality No. 74009, from between two isolated houses, 800 m northeast of Liren, northeast of Zhuji (Commune)
+
+## Age bounds on the recorded occurrences {#s-b088ab700d}
+Across these selected PBDB rows, the largest recorded eag=66 Ma in occ:1071371; the smallest recorded lag=61.66 Ma in occ:1071371. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-7f4e6689f6}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1071371: PBDB original-identification field idn=Carnilestes palaeoasiaticus n. gen. n. sp.; PBDB taxon-name field tna=Carnilestes palaeoasiaticus; material note ocm=IVPP V10488 - holotype (incomplete skull and right ramus with nearly complete upper left and lower right dentition); PBDB locality-coordinate fields lng=114.300003, lat=25.116667; paleocoordinate/model fields pm1=gplates, pln=114.17, pla=23.32.
+- occ:1071372: PBDB taxon-name field tna=Carnilestes palaeoasiaticus; material note ocm=IVPP V10489 (complete skull); PBDB locality-coordinate fields lng=114.503609, lat=25.289722; paleocoordinate/model fields pm1=gplates, pln=114.26, pla=23.57.
+- occ:1071373: PBDB taxon-name field tna=Carnilestes palaeoasiaticus; material note ocm=IVPP V10490 (incomplete, articulated skull and mandible with isolated limb bones); PBDB locality-coordinate fields lng=114.336670, lat=25.206944; paleocoordinate/model fields pm1=gplates, pln=114.16, pla=23.42.
+
+## References attached to each record {#s-150f29ad7b}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1071371: Recorded attribution Wang and Zhai 1995; PBDB reference ref:42817.
+- occ:1071372: Recorded attribution Wang and Zhai 1995; PBDB reference ref:42817.
+- occ:1071373: Recorded attribution Wang and Zhai 1995; PBDB reference ref:42817.
 
 ## Evidence limits {#s-e0ca4cef00}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

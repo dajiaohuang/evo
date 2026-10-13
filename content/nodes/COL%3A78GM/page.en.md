@@ -4,13 +4,15 @@ The 2019 genome comparison includes Rhea americana and R. pennata. Their differi
 ## Read by material, tree model and experimental level {#s-c425ddde14}
 Study species directly represented at this entry are [Rhea americana](Rhea_americana/page.en.md), [Rhea pennata](Rhea_pennata/page.en.md). First distinguish added, reused and reference-mapped genomes, then compare species trees with gene trees. For a cross-lineage functional comparison, turn to the chicken reporter assays on [Rhea americana](Rhea_americana/page.en.md) and [Eudromia elegans](../../../Tinamiformes/Tinamidae/Eudromia/Eudromia_elegans/page.en.md); one candidate region cannot validate every accelerated element. Return to existing morphology, life history or fossil occurrences with their own units and samples. This route is neither exhaustive group sampling nor a complete descendant catalogue.
 
-## Local data reading route {#s-e0dd7f61f8}
+## Recorded classification and direct parent {#s-e0dd7f61f8}
+COL26.8 records Rhea at genus rank, with Rheidae as its direct parent.
+
 This batch’s Rhea route includes 1 measured species records. Start with Rhea americana. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-fb1d90c8ef}
 Compiled mean mass endpoints in this batch are Rhea americana at 23000 g and Rhea americana at 23000 g. Represented habitat categories include Grassland; trophic niches include Omnivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-f113103c53}
+## Amniote Life-history archive member records {#s-f113103c53}
 This batch’s Rhea route includes 2 historical life-history accounts; start with Rhea americana, Rhea pennata. More frequently represented fields include adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), oviposition to hatching (2 entries), female maturity field (defined by the source as age at first conception) (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-f6929e8ffe}

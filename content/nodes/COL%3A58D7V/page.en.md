@@ -1,29 +1,29 @@
-## The name and this data account {#s-a0a0508a6d}
-In the pinned Catalogue of Life release COL26.8, Tricholaema leucomelas is accepted in Lybiidae. AVONET v7 records it under the HBW–BirdLife 2020 name. The dataset includes 4 measured individuals; 4 have a complete morphological set. The usable sample size can still differ by trait.
+## Row-reported mean and sample coverage {#s-a0a0508a6d}
+The AVONET v7 row for Tricholaema leucomelas (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 13.6 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-59baa4661f}
-Mean beak length, measured from the anterior edge of the nostril to the tip, is 13.6 mm. At that edge, mean width is 8.7 mm and mean depth is 10.5 mm. These are separate measurements at standardized landmarks, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-59baa4661f}
+AVONET records culmen length (bill tip to skull base) 19 mm; beak length (nostril front edge to tip) 13.6 mm; beak width at the nostril front edge 8.7 mm; beak depth at the nostril front edge 10.5 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-9b91891051}
-Mean unflattened wing length, from the carpal joint to the longest primary feather, is 79 mm; mean tarsus length is 20.6 mm. A separate compilation reports mean mass of 32.2 g (source category Dunning). That species-average mass is not evidence that every bird in the morphology sample was weighed.
+## Wing and body measures use separate sources {#s-9b91891051}
+AVONET records unflattened wing length 79 mm; tarsus length 20.6 mm; distance from first secondary tip to longest primary tip 12.8 mm; length to first secondary tip 66.2 mm; hand-wing index 16.2; tail length 44 mm; species-average body mass 32.2 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-8089dab8db}
-The dataset’s comparison categories are habitat “Shrubland,” trophic niche “Omnivore,” and lifestyle “Insessorial.” They are dominant categories for comparing species, not claims that this bird uses only one habitat or one kind of food.
+## Recorded habitat and feeding categories {#s-8089dab8db}
+AVONET classifies Tricholaema leucomelas as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-2176d86526}
-AVONET classifies migration as sedentary. The historical breeding and resident maps run from latitude -34.84° to -9.86°. These bounds do not describe non-breeding movements and are neither a current location nor a global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-2176d86526}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -34.84° to -9.86°. The mapped range area is 3123368.53 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-8f726891ee}
-COL26.8 accepts Tricholaema leucomelas in Lybiidae. The historical life-history archive includes a same-name entry; this page compares 4 focal fields, each supported by cited species-level sparse-table rows matching the name and family. The summaries may retain older taxonomic inheritance, which a matching row name alone cannot rule out.
+## Scope of the historical life-history entry {#s-8f726891ee}
+The August 2015 database has a same-name, same-family record for Tricholaema leucomelas. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-b4ac2de87a}
-The historical summary lists adult body mass as 31.18 g. Adult values may combine males, females and adults of unspecified sex, so this is not a species-wide range of individual masses.
+## Compiled adult-mass values {#s-b4ac2de87a}
+The August 2015 compilation reports adult body mass 31.175 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-fdb8706d89}
-The historical compilation reports offspring per litter or eggs per clutch 2.75 offspring/eggs; oviposition to hatching 14.5 d; age at flight capability (leaving the nest in some source material) 35 d. Here, d means days. The litter/clutch field merges offspring or egg counts; a fractional summary is not a fraction of an individual in one event. Each timing field refers to its own event; the values do not form one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-fdb8706d89}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.75; oviposition-to-hatching interval 14.5 days; age at flight capability (some records mark nest departure) 35 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-e81e50a78a}
-Cited sparse rows under the same name carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Bennett, 1986; Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009, among others. Field-level provenance retains the raw row number, value and source label; the reference table provides the full citation explanations. A label may point to a primary paper, a book or another database. Citation-row counts do not count measured individuals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-e81e50a78a}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-f271749dc5}
 The AVONET v7 values here are historical summaries. Morphological values are species averages for the listed samples, not field-identification criteria or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so the morphology sample count does not apply to it. Habitat, food and migration are broad categories; mapped latitude covers historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name link this record to older data, but do not show that species concepts remain equivalent after later splits or lumps. Other sources are needed for reproduction, present-day populations and conservation status.

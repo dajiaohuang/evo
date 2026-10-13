@@ -1,4 +1,6 @@
-## Eleven species entries anchor this route {#s-cdb8077034}
+## Recorded classification and direct parent {#s-cdb8077034}
+COL26.8 records Tropiocolotes at genus rank, with Gekkonidae as its direct parent.
+
 The ReptTraits route assembled here contains 11 species entries placed under Tropiocolotes by the pinned COL26.8 ancestry; each retains citations for its individual traits and the workbook’s 2023 naming framework. Five starting points are Tropiocolotes algericus, T. bisharicus, T. hormozganensis, T. nattereri and T. naybandensis. The route is a selection of sourced records, not a count of every accepted species in the genus.
 
 ## Two length records are not a genus range {#s-2f6ddf5ebb}
@@ -8,7 +10,7 @@ Among the entries, Tropiocolotes somalicus has a reported maximum snout–vent l
 The separate 2015 life-history archive contributes records for Tropiocolotes nattereri and T. steudneri. Both have entries for adult body mass, offspring or eggs per litter/clutch, time from oviposition to hatching, and the archive’s longest-lifespan field. These counts describe this route’s coverage only. Before comparing numbers, check what event each field measures, its unit and the historical source attached to it.
 
 ## Three more entries have a citation-scope caution {#s-8852f90957}
-Three additional pages—[Tropiocolotes chirioi](Tropiocolotes_chirioi/page.en.md), [T. confusus](Tropiocolotes_confusus/page.en.md) and [T. yomtovi](Tropiocolotes_yomtovi/page.en.md)—use a limited ReptTraits route. Some source-citation scopes need review, so those pages withhold affected fields from definite trait descriptions. They are separate from the 11-entry route and do not complete the genus catalogue.
+Three additional pages—Tropiocolotes chirioi, T. confusus and T. yomtovi—use a limited ReptTraits route. Some source-citation scopes need review, so those pages withhold affected fields from definite trait descriptions. They are separate from the 11-entry route and do not complete the genus catalogue.
 
 ## Compare only traits that both records support {#s-e3e04f9c5c}
 Each species page should be read for the fields it actually documents. Compare size, activity, diet or reproduction only where both entries have supporting sources; a missing value is not supplied from a relative. Measurements also need to match: straight carapace length (SCL) in turtles and snout–vent length (SVL) in other reptiles are not interchangeable.

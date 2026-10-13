@@ -1,5 +1,5 @@
-## Find rows through older Carduelis/Serinus combinations {#s-6bbc5d4582}
-Pinned COL26.8 organizes this page at Spinus dominicensis (4Z65P). BirdLife 2020 row 4155 and eBird 2021 row 9788 share the name and Avibase ID AVIBASE-326347A8, with type 1BL to 1eBird; BirdTree row 9729 gives Carduelis dominicensis, with type 1BL to 1BT. Read catalogue synonym 5WZFD points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-6bbc5d4582}
+Catalogue of Life release COL26.8 records Spinus dominicensis (H. Bryant, 1867) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-716d4f837b}
 Morphology comprises 2 birds: 1 female, 1 male and 0 unsexed; 2 complete sets. Nostril-to-tip beak length 7.6 mm, tarsus 14.2 mm, unflattened wing 66.5 mm, tail 40.5 mm and hand-wing index 29.5 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

@@ -1,5 +1,5 @@
-## Locate names using source spellings {#s-1204fa380a}
-Pinned COL26.8 organizes this page at Turdoides plebejus (59PKB). BirdLife 2020 row 4947 and eBird 2021 row 10769 share the name and Avibase ID AVIBASE-6EBDD2D5, with type 1BL to 1eBird. BirdTree row 10700 gives Turdoides plebejus, with type 1BL to 1BT. The table and catalogue accepted name match exactly without establishing identical species boundaries across dates. Source family Leiotrichidae and catalogue ancestor Leiothrichidae retain their original spellings.
+## A name fixed to COL26.8 {#s-1204fa380a}
+Catalogue of Life release COL26.8 records Turdoides plebejus (Cretzschmar, 1828) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-bf53626ac3}
 Morphology comprises 8 birds: 4 female, 4 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 12.9 mm, tarsus 33.1 mm, unflattened wing 105.9 mm, tail 101.8 mm and hand-wing index 10.4 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

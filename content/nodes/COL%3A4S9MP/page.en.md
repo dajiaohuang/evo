@@ -1,4 +1,4 @@
-## Overview {#s-7d979e1ff1}
+## Checklist and publication years differ {#s-7d979e1ff1}
 This page follows the COL26.8 accepted name Rhinopithecus strykeri. The English common name comes from the locally exact-matched MDD v2.5 record; the Chinese rendering is editorial. COL26.8 gives the authorship year as 2010, while the exact-matched MDD v2.5 record gives 2011. The original description appeared online in 2010 and in a 2011 journal issue, so the page preserves the pinned checklist year and records the publication-date difference.
 
 ## Classification {#s-278025d339}

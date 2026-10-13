@@ -1,18 +1,47 @@
-## Which fossil records this name represents {#s-79f2b2857e}
-Lithoptila abdounensis is accepted in the fixed PBDB dinosaur working roster, with database parent Lithoptila. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-79f2b2857e}
+Lithoptila abdounensis is listed in the PBDB snapshot under taxon txn:140424. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-21549dc195}
-Collection Grand Daoui, Lithoptila type specimen, region code MA, stratum name Couche II; database age bracket 59.24–56 Ma, early interval Thanetian. Collection Sidi Daoui, intercalaire C1/C2, region code MA; database age bracket 56–48.07 Ma, early interval Ypresian. Collection Ouled Abdoun, recette IV, couche 2a, region code MA, stratum name Couche II; database age bracket 61.66–56 Ma, early interval Selandian and late interval Thanetian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-21549dc195}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-90ea5ca145}
-Selected occurrences have an outer age envelope of 61.66–48.07 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:794876; PBDB collection col:86295. Locality cnm=Grand Daoui, Lithoptila type specimen; place fields cc2=MA. Recorded age bounds: eag 59.24 Ma; lag 56 Ma; PBDB interval fields oei=Thanetian. Stratigraphic fields sfm=Couche II. Recorded attribution Bourdon et al. 2005; PBDB reference ref:29076.
 
-## Read preservation setting separately from living habitat {#s-a77c335224}
-Grand Daoui, Lithoptila type specimen has collection-environment label coastal indet.; collection preservation-mode label body. Sidi Daoui, intercalaire C1/C2 has collection-environment label carbonate indet.; collection preservation-mode label body. Ouled Abdoun, recette IV, couche 2a has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+assigned to Bed IIa on the basis of associated selachians
 
-## Follow collection records back to references {#s-b3928c5982}
-Grand Daoui, Lithoptila type specimen carries database reference attribution Bourdon et al. (2005), identifier ref:29076. Sidi Daoui, intercalaire C1/C2 carries database reference attribution Bourdon et al. (2008), identifier ref:74374. Ouled Abdoun, recette IV, couche 2a carries database reference attribution Bourdon et al. (2008), identifier ref:74374. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+exact locality known, but from the Grand Daoui area, which is shown on a map as immediately southwest of Oued Zem (basis of coordinate)
 
-## Evidence limits {#s-e0a7cbfc2e}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1535994; PBDB collection col:214840. Locality cnm=Sidi Daoui, intercalaire C1/C2; place fields cc2=MA. Recorded age bounds: eag 56 Ma; lag 48.07 Ma; PBDB interval fields oei=Ypresian. Recorded attribution Bourdon et al. 2008; PBDB reference ref:74374.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Earliest Ypresian on the basis of carbon isotope correlations (Yans et al., 2014)
+
+- Occurrence occ:1535995; PBDB collection col:214848. Locality cnm=Ouled Abdoun, recette IV, couche 2a; place fields cc2=MA. Recorded age bounds: eag 61.66 Ma; lag 56 Ma; PBDB interval fields oei=Selandian, oli=Thanetian. Stratigraphic fields sfm=Couche II. Recorded attribution Bourdon et al. 2008; PBDB reference ref:74374.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Selandian-early Thanetian on the basis of carbon isotope correlations (Yans et al., 2014)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+South of André Delpit
+
+## Age bounds on the recorded occurrences {#s-90ea5ca145}
+Across these selected PBDB rows, the largest recorded eag=61.66 Ma in occ:1535995; the smallest recorded lag=48.07 Ma in occ:1535994. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-a77c335224}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:794876: PBDB original-identification field idn=Lithoptila abdounensis n. gen. n. sp.; PBDB taxon-name field tna=Lithoptila abdounensis; PBDB locality-coordinate fields lng=-6.566667, lat=32.866669; paleocoordinate/model fields pm1=gplates, pln=0.63, pla=22.03.
+- occ:1535994: PBDB taxon-name field tna=Lithoptila abdounensis; PBDB locality-coordinate fields lng=-6.630000, lat=32.845001; paleocoordinate/model fields pm1=gplates, pln=0, pla=23.21.
+- occ:1535995: PBDB taxon-name field tna=Lithoptila abdounensis; PBDB locality-coordinate fields lng=-6.825000, lat=32.810001; paleocoordinate/model fields pm1=gplates, pln=0.47, pla=21.83.
+
+## References attached to each record {#s-b3928c5982}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:794876: Recorded attribution Bourdon et al. 2005; PBDB reference ref:29076.
+- occ:1535994: Recorded attribution Bourdon et al. 2008; PBDB reference ref:74374.
+- occ:1535995: Recorded attribution Bourdon et al. 2008; PBDB reference ref:74374.
+
+## What these records can show {#s-e0a7cbfc2e}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

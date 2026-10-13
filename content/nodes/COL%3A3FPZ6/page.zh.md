@@ -1,5 +1,5 @@
-## 沿旧 Zoothera 名称查历史资料 {#s-e79bc029ec}
-本页按 COL26.8 的 Geokichla camaronensis（3FPZ6）组织。AVONET v7 BirdLife 2020 第 8546 行与 eBird 2021 第 4307 行同名，Avibase ID 为 AVIBASE-DB5CE93A；BirdTree 第 4288 行记作 Zoothera camaronensis，匹配类型为 1BL to 1BT。已读 COL 异名 5D7ND 写作 Zoothera cameronensis 并指向本页 ID；来源表却是 camaronensis，保留拼写差异，不静默改名或宣布逐字异名已核实。这些来源关联用于查资料，不证明所有时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-e79bc029ec}
+《Catalogue of Life》COL26.8（2026-08-20）将 Geokichla camaronensis Sharpe, 1905 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量鸟数与喙翼数值 {#s-3f05cf0448}
 形态共测 6 只：雌 1、雄 4、性别未定 1；4 只具完整测量。鼻孔前缘至喙尖 11.2 mm、跗蹠 27.9 mm、未压平翼长 97.3 mm、手翼指数 25.2 是该历史行的汇总数值。Inference=NO 不代表所有字段都测了相同数量；完整测量鸟数不替代每项字段分母。手翼指数定义为 Kipp 距离／翼长 ×100，不是飞行速度、迁移距离或本种全域的能力测验。

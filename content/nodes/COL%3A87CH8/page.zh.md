@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-39f7a4d90a}
+## 记录分类与直接上级关系 {#s-39f7a4d90a}
+COL26.8 将 Epictinae 记录为亚科；其直接上级记录为 Leptotyphlopidae。
+
 Epictinae 的本批 ReptTraits 阅读路径包含 11 条同名同科、有逐性状出处的物种资料，可从 Epictia albipuncta、Habrophallos collaris、Rena dulcis、Rena humilis、Siagonodon septemstriatus 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-fd873b7a5f}
@@ -10,8 +12,8 @@ Epictinae 的本批 ReptTraits 阅读路径包含 11 条同名同科、有逐性
 ## 部分后代条目的引用缺口 {#s-0b908802bd}
 这条 ReptTraits 阅读路径中有 1 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-0fef1101d7}
-Epictinae 的本批 ReptTraits 阅读路径包含 78 条同名同科、有逐性状出处的物种资料，可从 [Epictia albifrons](Epictia/Epictia_albifrons/page.zh.md)、[Epictia alfredschmidti](Epictia/Epictia_alfredschmidti/page.zh.md)、[Epictia amazonica](Epictia/Epictia_amazonica/page.zh.md)、[Epictia antoniogarciai](Epictia/Epictia_antoniogarciai/page.zh.md)、[Epictia ater](Epictia/Epictia_ater/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-0fef1101d7}
+Epictinae 的本批 ReptTraits 阅读路径包含 78 条同名同科、有逐性状出处的物种资料，可从 Epictia albifrons、Epictia alfredschmidti、Epictia amazonica、Epictia antoniogarciai、Epictia ater 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-83a2ef75b1}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

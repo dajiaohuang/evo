@@ -1,32 +1,32 @@
-## The name and this data account {#s-e76bec8a07}
-COL26.8 accepts *Calonectris edwardsii* in Procellariidae. AVONET v7 uses the HBW–BirdLife 2020 name and records 4 measured individuals, all with complete sets of morphological measurements. Usable sample sizes can still differ by trait.
+## Row-reported mean and sample coverage {#s-e76bec8a07}
+The AVONET v7 row for Calonectris edwardsii (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 34 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-5de53d8f4c}
-The recorded beak means are 34 mm from the front edge of the nostril to the tip, 8.2 mm wide and 10.9 mm deep at the nostril edge. These are separate dimensions at defined landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-5de53d8f4c}
+AVONET records culmen length (bill tip to skull base) 42.8 mm; beak length (nostril front edge to tip) 34 mm; beak width at the nostril front edge 8.2 mm; beak depth at the nostril front edge 10.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-edfb1d7a5f}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 309 mm; mean tarsus length is 44.4 mm. The compiled mean mass is 534.99 g, from source category Dunning. It comes from separate species-average information, so these morphology records do not show that each bird was weighed.
+## Wing and body measures use separate sources {#s-edfb1d7a5f}
+AVONET records unflattened wing length 309 mm; tarsus length 44.4 mm; distance from first secondary tip to longest primary tip 192.8 mm; length to first secondary tip 116.2 mm; hand-wing index 62.4; tail length 118.2 mm; species-average body mass 534.99 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-9f315b5d21}
-The dataset's dominant categories are Marine for habitat, Aquatic predator for trophic niche and Aerial for lifestyle. They support comparisons across species; they do not mean the bird uses only marine habitat or eats only aquatic prey.
+## Recorded habitat and feeding categories {#s-9f315b5d21}
+AVONET classifies Calonectris edwardsii as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aerial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-f4759c5dac}
-The migration field classifies the record as migratory. Historical breeding and resident maps span latitudes -43.48° to 28.93°. They do not provide a full account of non-breeding movements or show current positions or global occupancy. Geographic and morphological data come from separate compilation steps.
+## The migration label has a limited scope {#s-f4759c5dac}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints -43.48° to 28.93°. The mapped range area is 14809214.03 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-4f71266b74}
-COL26.8 accepts *Calonectris edwardsii* in Procellariidae. The 2015 life-history archive contains an older record with the same name and family. Seven fields are included because cited species-level sparse-table rows support them, although the summaries may still inherit older taxonomic data.
+## Scope of the historical life-history entry {#s-4f71266b74}
+The August 2015 database has a same-name, same-family record for Calonectris edwardsii. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-d184f7311a}
-The historical summaries are 775.23 g for adult body mass and 67.5 g at birth or hatching. Adult mass can combine males, females and adults of unspecified sex; the other value describes an earlier life stage. These are not a longitudinal series for the same individuals or a range of individual masses across the species.
+## Compiled adult-mass values {#s-d184f7311a}
+The August 2015 compilation reports adult body mass 775.225 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-47ecb6be12}
-The compilation reports 3049.84 d to female maturity (defined by the source as age at first conception), 1 offspring or egg per litter/clutch, 54 d from oviposition to hatching, and 91.5 d to flight capability (some sources describe leaving the nest); d means days. The litter/clutch field combines offspring and egg counts. Each timing value describes a separate event, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-47ecb6be12}
+The August 2015 compilation reports female age at first conception (source definition) 3049.8375 days; median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 54 days; age at flight capability (some records mark nest departure) 91.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-6a093886d9}
-The archive's maximum_longevity_y field is 24.83 years, the largest record found under the source method. It is not a typical or mean wild lifespan, a survival limit for every individual or a current record that can be repeatedly attained.
+## A maximum record is not typical lifespan {#s-6a093886d9}
+The compilation lists 24.83333333 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-f2aa524c61}
-The same-name rows cite Dunning (1992); Szekely, Lislevand, and Figuerola (2007); Bennett (1986); Serrano-Meneses and Szekely (2006); and other works. The archive preserves raw row numbers, values and field-specific labels alongside each reference's full explanation. A label can refer to a paper, book or another database. Row counts are not measured individuals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-f2aa524c61}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-7b2e37aab4}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources; the morphology sample count does not apply to mass. Habitat, diet and migration are broad categories, while the map covers historical breeding and resident ranges. Historical crosswalks and a matching catalogue name support the association but do not prove that species concepts stayed equivalent through later splits or lumps. Reproduction, current populations and conservation status need other sources.

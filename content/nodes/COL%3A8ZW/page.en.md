@@ -1,10 +1,12 @@
-## Start with the historical entries {#s-7cec9a3a1d}
+## Recorded classification and direct parent {#s-7cec9a3a1d}
+COL26.8 records Dasyuridae at family rank, with Dasyuromorphia as its direct parent.
+
 The local PanTHERIA route for Dasyuridae includes 38 usable data accounts. Start with Dasycercus cristicauda, Dasykaluta rosamondae, Dasyurus albopunctatus, Dasyurus geoffroii, Dasyurus hallucatus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-bb2abe573d}
 Among available consolidated adult-mass values in this batch, Planigale ingrami records 6.27 g and Dasyurus maculatus records 3284.15 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-2dd8adb963}
+## Amniote Life-history archive member records {#s-2dd8adb963}
 This batch’s Dasyuridae route includes 49 historical life-history accounts; start with Antechinomys laniger, Antechinus adustus, Antechinus agilis, Antechinus bellus, Antechinus flavipes. More frequently represented fields include offspring per litter or eggs per clutch (49 entries), adult body mass (48 entries), longest lifespan record in the compilation (47 entries), age of dependence on food other than maternal milk (44 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-19b8a8acd2}
@@ -13,18 +15,18 @@ This batch’s Dasyuridae route includes 60 historical entries; start with Dasyc
 ## Compare food, feeding positions and activity periods {#s-7afaa6710d}
 This batch’s Dasyuridae route includes one historical entry; start with Sminthopsis bindi. Food-category weights are available in 0, foraging strata in 1, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-edffb35356}
+## Limits attached to these records {#s-edffb35356}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
-This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
+This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-ded3e3a2d6}
-The local PanTHERIA route for Dasyuridae includes 8 usable data accounts. Start with [Ningaui yvonnae](Sminthopsinae/Ningaui/Ningaui_yvonnae/page.en.md), [Planigale novaeguineae](Sminthopsinae/Planigale/Planigale_novaeguineae/page.en.md), [Sminthopsis aitkeni](Sminthopsinae/Sminthopsis/Sminthopsis_aitkeni/page.en.md), [Sminthopsis butleri](Sminthopsinae/Sminthopsis/Sminthopsis_butleri/page.en.md), [Sminthopsis gilberti](Sminthopsinae/Sminthopsis/Sminthopsis_gilberti/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-ded3e3a2d6}
+The local PanTHERIA route for Dasyuridae includes 8 usable data accounts. Start with Ningaui yvonnae, Planigale novaeguineae, Sminthopsis aitkeni, Sminthopsis butleri, Sminthopsis gilberti. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-599dc8b750}
 Among available consolidated adult-mass values in this batch, Ningaui yvonnae records 9.3 g and Sminthopsis granulipes records 25 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-09ffd2e45b}
+## PanTHERIA material route {#s-09ffd2e45b}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 

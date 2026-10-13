@@ -1,15 +1,15 @@
-## A species-level record {#s-44c5c3b53f}
-COL26.8 places *Trimeresurus gracilis* in Viperidae. A ReptTraits v1-2 species row records a reported maximum total length of 479 mm, terrestrial microhabitat, nocturnal activity, a carnivorous diet and ambush foraging. Each trait retains its own cited source, and the row brings those reports together rather than describing one population in every respect.
+## COL26.8 name and the ReptTraits row {#s-44c5c3b53f}
+COL26.8 records Trimeresurus gracilis as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What the length measures {#s-2e84837637}
-The reported maximum total length (TL) is 479 mm. Total length includes the tail; snout–vent length (SVL) measures from the snout to the vent. A compiled maximum describes the largest value in the cited records, not a growth limit or the size of a typical individual. Values for different sexes may come from different places or studies, so they do not by themselves measure sexual dimorphism within a population.
+## Length values in the archived records {#s-2e84837637}
+The row reports maximum total length (TL) of 479 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Activity and feeding records {#s-3c0cc57b27}
-The row labels its microhabitat Terrestrial, its diet Carnivorous, its active time Nocturnal and its foraging mode AMB (ambush). These are broad categories: they do not name prey, describe every habitat used or set an unchanging daily schedule. Different positions can be recorded together, and activity or diet may vary among places, seasons and life stages.
+## Habitat use and activity labels {#s-3c0cc57b27}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records AMB (ambush or sit-and-wait foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## Reproduction in the dataset {#s-ed82f74b22}
-The reproductive-mode label is viviparous, and the consolidated mean is 12 offspring per litter. The dataset may calculate this summary from the midpoint of reported means, or from reported endpoints when means are unavailable; it is not necessarily an average of observed litter counts. A fractional summary is a calculation, not a fraction of an offspring. The listed low and high values mark reported means, not guaranteed smallest and largest litters. These labels do not establish fetal nutrition or show that reproduction is uniform across populations.
+## Reproductive fields in ReptTraits {#s-ed82f74b22}
+The compiled mean for offspring per litter or eggs per clutch is 12. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to De Magalhaes and Costa 2009, Feldman et al. 2015. The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## How far the records reach {#s-b1011e0878}
-The ReptTraits row uses a Reptile Database 2023 name framework, while the classification above follows COL26.8; a shared name does not prove that historical and current taxon concepts are identical. The row combines reports that may differ by sex, age, locality and population. Maximum length and mean litter size are summaries of cited records, not limits or fixed values for every individual. Mass values in the dataset may be estimated from length equations, and differing juvenile-length definitions are not used here as measurements. This profile makes no updated claim about venom, conservation, current distribution or population trends; those fields are outside its cited evidence.
+## Reading this compiled trait record {#s-b1011e0878}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

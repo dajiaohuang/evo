@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-dc48223a37}
+## 记录分类与直接上级关系 {#s-dc48223a37}
+COL26.8 将 Sporopipes 记录为属；其直接上级记录为 Ploceidae。
+
 Sporopipes 的本批阅读路径包含 2 条有测量来源的物种记录，可从 Sporopipes frontalis、Sporopipes squamifrons 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-938a35303b}

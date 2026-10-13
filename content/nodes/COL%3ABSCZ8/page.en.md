@@ -1,5 +1,5 @@
-## Overview {#s-98a536229c}
-This page follows the COL26.8 accepted name Oedipomidas geoffroyi; field papers generally use Saguinus geoffroyi, and that combination is retained in the citations. The English name comes from research titles and the Chinese rendering is editorial. Selected sources cover a multi-site survey in Panama, canopy observations at two forest sites and a transect study in one urban nature reserve.
+## Field studies across eastern Panama {#s-98a536229c}
+The accepted name used here is Oedipomidas geoffroyi; the field papers use Saguinus geoffroyi. Studies in eastern Panama range from multi-site surveys to canopy observations and a transect at urban Cerro Ancón. They report higher densities at some sites where human access was strictly limited, canopy spacing at two forest sites and local group counts at Cerro Ancón. The observations use separate locations and methods; they do not isolate protection as a cause or provide a national population census.
 
 ## Research observations {#s-864836d87f}
 A three-month field study in Panama compared presence and relative abundance across sites. The authors reported broad occurrence in eastern Panama but substantial local variation; densities were higher at sites where human access was strictly limited than at less protected sites. This was not a national population census and does not by itself quantify the causal effect of protection.

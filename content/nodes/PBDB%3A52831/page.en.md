@@ -1,18 +1,49 @@
-## Which fossil records this name represents {#s-0c04bb3307}
-Psittacosaurus mongoliensis is accepted in the fixed PBDB dinosaur working roster, with database parent Psittacosaurus. This guide uses 12 eligible species-level occurrence records from 11 collections and 8 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-0c04bb3307}
+Psittacosaurus mongoliensis is listed in the PBDB snapshot under taxon txn:52831. This archived guide contains 12 selected occurrence rows, linked to 11 distinct PBDB collection IDs and 8 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-01a67f6014}
-Collection Delunshan, IVPP site 64047 (Xinjiang), region code CN; database age bracket 137.05–100.5 Ma, early interval Valanginian and late interval Albian. Collection Red Mesa, Artsa Bogdo (AMNH Loc. 11494) (Ovorkhangai), region code MN, stratum name Öösh; database age bracket 143.1–100.5 Ma, early interval Early Cretaceous. Collection Red Mesa, Artsa Bogdo (AMNH Loc. 11492) (Ovorkhangai), region code MN, stratum name Öösh; database age bracket 143.1–100.5 Ma, early interval Early Cretaceous. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-01a67f6014}
+The archived guide contains 12 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-deedbbe56e}
-Selected occurrences have an outer age envelope of 143.1–100.5 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:487449; PBDB collection col:48936. Locality cnm=Red Mesa, Artsa Bogdo (AMNH Loc. 11494); place fields cc2=MN, stp=Ovorkhangai. Recorded age bounds: eag 143.1 Ma; lag 100.5 Ma; PBDB interval fields oei=Early Cretaceous. Stratigraphic fields sfm=Öösh. Recorded attribution Osborn 1923; PBDB reference ref:9632.
 
-## Read preservation setting separately from living habitat {#s-2781bf17bf}
-Delunshan, IVPP site 64047 has collection-environment label terrestrial indet.; collection preservation-mode label body. Red Mesa, Artsa Bogdo (AMNH Loc. 11494) has collection-environment label terrestrial indet.; collection preservation-mode label body. Red Mesa, Artsa Bogdo (AMNH Loc. 11492) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+originally Ondai Sair Fm., now the "cannonball beds" of the Öösh Fm.
 
-## Follow collection records back to references {#s-029179f3ca}
-Delunshan, IVPP site 64047 carries database reference attribution Cheng (1982), identifier ref:64010. Red Mesa, Artsa Bogdo (AMNH Loc. 11494) carries database reference attribution Osborn (1923), identifier ref:9632. Red Mesa, Artsa Bogdo (AMNH Loc. 11492) carries database reference attribution Andrews (1932), identifier ref:13060. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Artsa Bogdo, Oshih Basin (Ashile)
 
-## Evidence limits {#s-93f5f21a49}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:300498; PBDB collection col:28919. Locality cnm=Delunshan, IVPP site 64047; place fields cc2=CN, stp=Xinjiang. Recorded age bounds: eag 137.05 Ma; lag 100.5 Ma; PBDB interval fields oei=Valanginian, oli=Albian. Recorded attribution Cheng 1982; PBDB reference ref:64010.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Delunshan (Dlunshan, Delun Mountain), Dsungar (Junggar) basin, near Wuerho
+
+- Occurrence occ:487452; PBDB collection col:48937. Locality cnm=Red Mesa, Artsa Bogdo (AMNH Loc. 11492); place fields cc2=MN, stp=Ovorkhangai. Recorded age bounds: eag 143.1 Ma; lag 100.5 Ma; PBDB interval fields oei=Early Cretaceous. Stratigraphic fields sfm=Öösh. Recorded attribution Andrews 1932; PBDB reference ref:13060.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+originally Ondai Sair Fm.; also called Oshih Fm. = Tevsh Fm.; assigned to the Khukhtekskaya (Hüteeg Svita)
+
+"Although the age remains somewhat uncertain, correlated exposures that appear to be of the same age have been dated at around 130 Ma (Samiolov et al., 1988; Watabe and Suzuki, 2000; Rougier et al., 2001; Prieto-Marquez et al., 2012)" (Conrad and Daza 2015).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Artsa Bogdo, Oshih Basin (Ashile)
+
+## Age bounds on the recorded occurrences {#s-deedbbe56e}
+Across these selected PBDB rows, the largest recorded eag=143.1 Ma in occ:487449; the smallest recorded lag=100.5 Ma in occ:300498. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-2781bf17bf}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:487449: PBDB original-identification field idn=Psittacosaurus mongoliensis n. gen. n. sp.; PBDB taxon-name field tna=Psittacosaurus mongoliensis; abundance fields abv=3, abu=individuals; PBDB locality-coordinate fields lng=102.733299, lat=44.241501; paleocoordinate/model fields pm1=gplates, pln=112.9, pla=40.47.
+- occ:300498: PBDB taxon-name field tna=Psittacosaurus mongoliensis; material note ocm=IVPP 64047-3; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=85.666664, lat=46.099998; paleocoordinate/model fields pm1=gplates, pln=98.21, pla=39.18.
+- occ:487452: PBDB taxon-name field tna=Psittacosaurus mongoliensis; material note ocm=baby skulls (AMNH 6535, 6536); abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=102.733299, lat=44.241501; paleocoordinate/model fields pm1=gplates, pln=112.9, pla=40.47.
+
+## References attached to each record {#s-029179f3ca}
+The archived guide links the rows to 8 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:487449: Recorded attribution Osborn 1923; PBDB reference ref:9632.
+- occ:300498: Recorded attribution Cheng 1982; PBDB reference ref:64010.
+- occ:487452: Recorded attribution Andrews 1932; PBDB reference ref:13060.
+
+## What these records can show {#s-93f5f21a49}
+This is a guide to 12 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

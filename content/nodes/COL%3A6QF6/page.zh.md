@@ -1,4 +1,6 @@
-## 从唯一的测量物种页开始 {#s-94a2b92299}
+## 记录分类与直接上级关系 {#s-94a2b92299}
+COL26.8 将 Pilherodius 记录为属；其直接上级记录为 Ardeidae。
+
 Pilherodius 本路线包含 1 条有测量资料的物种记录：Pilherodius pileatus。目录沿用固定的 COL26.8 层级；生物学数值保留 AVONET v7 名称与取样限制。
 
 ## 单独阅读这条记录 {#s-ce3ebb07a5}

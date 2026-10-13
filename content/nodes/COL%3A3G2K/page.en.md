@@ -1,22 +1,24 @@
-## Start with sourced trait records {#s-f27f3c2be1}
+## Recorded classification and direct parent {#s-f27f3c2be1}
+COL26.8 records Calumma at genus rank, with Chamaeleonidae as its direct parent.
+
 This batch’s ReptTraits route for Calumma includes 24 same-name, same-family entries with trait-specific citations. Start with Calumma amber, Calumma ambreense, Calumma boettgeri, Calumma brevicorne, Calumma capuroni. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-578409a708}
 Among size records in this batch, Calumma fallax has a reported maximum snout–vent length (SVL) of 48.8 mm and Calumma parsonii 300 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Choose comparison pages by life-history fields {#s-8832dc7bf6}
+## Amniote Life-history archive member records {#s-8832dc7bf6}
 This batch’s Calumma route includes 1 historical life-history accounts; start with Calumma parsonii. More frequently represented fields include offspring per litter or eggs per clutch (1 entries), oviposition to hatching (1 entries), longest lifespan record in the compilation (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
-## Start with sourced trait records {#s-3b2b5ff21f}
-This batch’s ReptTraits route for Calumma includes 10 same-name, same-family entries with trait-specific citations. Start with [Calumma andringitraense](Calumma_andringitraense/page.en.md), [Calumma crypticum](Calumma_crypticum/page.en.md), [Calumma guillaumeti](Calumma_guillaumeti/page.en.md), [Calumma hafahafa](Calumma_hafahafa/page.en.md), [Calumma linotum](Calumma_linotum/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-3b2b5ff21f}
+This batch’s ReptTraits route for Calumma includes 10 same-name, same-family entries with trait-specific citations. Start with Calumma andringitraense, Calumma crypticum, Calumma guillaumeti, Calumma hafahafa, Calumma linotum. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-f8a402e616}
 Among size records in this batch, Calumma guillaumeti has a reported maximum snout–vent length (SVL) of 58 mm and Calumma tsycorne 124 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Limits of these trait data {#s-d3d2b7a89d}
+## ReptTraits material route {#s-d3d2b7a89d}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 
-## Evidence limits {#s-7961721722}
+## Limits attached to these records {#s-7961721722}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history.
 

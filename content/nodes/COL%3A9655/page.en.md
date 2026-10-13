@@ -1,15 +1,15 @@
-## Name and this data account {#s-bb0652c2ca}
-COL26.8 accepts Achalinus spinalis in Xenodermidae. Its ReptTraits v1-2 entry follows the Reptile Database 2023 name framework and retains citations for the recorded traits. The species row summarizes compiled records rather than a condition established for every population.
+## COL26.8 name and the ReptTraits row {#s-bb0652c2ca}
+COL26.8 records Achalinus spinalis as an accepted species. The ReptTraits v1-2 row gives its Family field as Xenodermidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-3cfd67218a}
-The reported maximum total length (TL), including the tail, is 412 mm. Snout–vent length (SVL) ends at the vent and is a different measurement. This compiled maximum describes source records, not typical size or an absolute growth limit. Values for different sexes may come from separate places or studies and do not establish size differences within a population.
+## Length values in the archived records {#s-3cfd67218a}
+The row reports maximum total length (TL) of 412 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-cb1cf4c9bb}
-The entry records fossorial (burrowing or underground) microhabitat, a carnivorous diet, nocturnal activity, and active foraging. These broad categories do not identify prey or describe every habitat and activity period. The compiled row does not establish whether the same patterns hold across populations, seasons, or life stages.
+## Habitat use and activity labels {#s-cb1cf4c9bb}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## How to read reproductive records {#s-9406cf1ce8}
-The source labels reproductive mode as oviparous and reports a consolidated mean of 5 offspring or eggs per litter or clutch. These summaries may be midpoints of reported means, or of reported extremes when means are unavailable; they are not necessarily averages of observed clutches. The dataset defines lowest and highest values as endpoints of reported means, not as the smallest and largest actual clutches. This category does not establish embryo nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-9406cf1ce8}
+The compiled mean for offspring per litter or eggs per clutch is 5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Ernst et al. 1998. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-82b9ef5e93}
-ReptTraits v1-2 preserves the 2023 taxonomic framework and individual trait sources, but a single species row compresses differences in sex, age, locality, and population. A shared name or family does not guarantee that later taxonomic concepts match. The reported maximum summarizes source records rather than every individual or an absolute limit. Some dataset mass values are estimates from length equations; juvenile-length fields also use differing labels and definitions. Neither is treated here as a direct species measurement. This entry does not establish conservation status, venom properties, current distribution, or population trends.
+## Reading this compiled trait record {#s-82b9ef5e93}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

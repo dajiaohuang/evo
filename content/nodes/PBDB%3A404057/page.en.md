@@ -1,19 +1,37 @@
 ## Which fossil records this name represents {#s-d9a3a89dd3}
 Mesenosaurus efremovi is accepted in the fixed PBDB other-synapsida working roster, with database parent Mesenosaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-167137b383}
-Collection Richards Spur (Oklahoma), region code US; database age bracket 290.1–283.3 Ma, early interval Artinskian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Mesenosaurus efremovi is listed in the PBDB snapshot under taxon txn:404057. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-091fffba18}
-Selected occurrences have an outer age envelope of 290.1–283.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Richards Spur, occurrence occ:853659 (290.1–283.3 Ma); one supplying the younger bound is Richards Spur, occurrence occ:853659 (290.1–283.3 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-167137b383}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-645e05237c}
-Richards Spur has collection-environment label fissure fill; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:853659; PBDB collection col:67862. Locality cnm=Richards Spur; place fields cc2=US, stp=Oklahoma, cny=Comanche. Recorded age bounds: eag 290.1 Ma; lag 283.3 Ma; PBDB interval fields oei=Artinskian. Recorded attribution Maho et al. 2019; PBDB reference ref:71510.
 
-## Follow collection records back to references {#s-bb6ab8aec3}
-Richards Spur carries database reference attribution Maho et al. (2019), identifier ref:71510. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The deposits occur within karstic deposits formed within bedding planes that were partially dissolved by meteoric dissolution of the Ordovician Arbuckle Limestone. Although long correlated with the Arroyo Formation (Clear Fork Group) of Texas (see Sullivan and Reisz, 1999 p. 1265, for discussion), radioisotopic dating of speleothems by Woodhead et al. (2010) and MacDougall et al. (2017) have provided an older estimate to around 289–286 Ma.
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"situated just west of the Anadarko-Lawton highway (U.S. routes 62 and 281), 10 1/2 miles south of Apache, about 1 1/2 miles south of the junction of this route and highway 277 (from Chickasha). It is about 6 miles north of Fort Sill, in sec. 31, T. 4 N. R. 11 W., Indian Meridian and Baseline, in Comanche County, Oklahoma" (Gregory et al., 1956 p. 2). Coordinates given in Hannibal & May (2020) as "34°46' 31.33" N and 98°24' 22.00"W, which is about 5 miles (8 km) west of the center of the city of Elgin."
+
+## Age bounds on the recorded occurrences {#s-091fffba18}
+Across these selected PBDB rows, the largest recorded eag=290.1 Ma in occ:853659; the smallest recorded lag=283.3 Ma in occ:853659. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-645e05237c}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:853659: PBDB original-identification field idn=Mesenosaurus efremovi n. sp.; PBDB taxon-name field tna=Mesenosaurus efremovi; material note ocm=OMNH 73208, 73209, 73500; "large undescribed mycterosaurine"; abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=-98.405998, lat=34.775501; paleocoordinate/model fields pm1=gplates, pln=-29.29, pla=-0.39.
+
+## References attached to each record {#s-bb6ab8aec3}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:853659: Recorded attribution Maho et al. 2019; PBDB reference ref:71510.
 
 ## Evidence limits {#s-30cc48be01}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,11 +1,13 @@
-## 从有性状记录的物种开始 {#s-e1f6826e20}
+## 记录分类与直接上级关系 {#s-e1f6826e20}
+COL26.8 将 Hoplocercidae 记录为科；其直接上级记录为 Iguania。
+
 Hoplocercidae 的本批 ReptTraits 阅读路径包含 17 条同名同科、有逐性状出处的物种资料，可从 Enyalioides altotambo、Enyalioides anisolepis、Enyalioides annularis、Enyalioides azulae、Enyalioides cofanorum 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-d2198fb3ae}
 本批已有尺寸记录中，Enyalioides azulae 的已报道最大吻肛长（SVL）为 96 mm，Enyalioides laticeps 为 157 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。
 
-## 从有性状记录的物种开始 {#s-dbc193aca2}
-Hoplocercidae 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 [Enyalioides binzayedi](Enyalioides/Enyalioides_binzayedi/page.zh.md)、[Enyalioides oshaughnessyi](Enyalioides/Enyalioides_oshaughnessyi/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-dbc193aca2}
+Hoplocercidae 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 Enyalioides binzayedi、Enyalioides oshaughnessyi 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-2d0e1b22b1}
 本批已有尺寸记录中，Enyalioides binzayedi 的已报道最大吻肛长（SVL）为 122 mm，Enyalioides oshaughnessyi 为 192 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

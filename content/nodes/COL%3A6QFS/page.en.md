@@ -7,7 +7,9 @@ Start with the holotype/additional-male distinction in [Piliocolobus lulindicus]
 ## Overview {#s-13c4f3922d}
 This reading path now links pages for all 17 species IDs in the fixed COL26.8 Piliocolobus roster. Begin with the western lineage pages on Taï feeding, the Niger Delta survey and the historical record-based inference for Miss Waldron's red colobus; then compare the Kisangani rapid assessment, flooded-forest camera traps at Lac Télé, the sparse Semliki records and the single-group Salonga diet study. Finish with the site-bounded surveys and fragmented-forest work already linked for East African taxa. Two pages preserve taxonomic crosswalk differences; the lulindicus entry is a source-insufficient taxonomy note, while waldronae summarizes historical inference rather than verified present occurrence. Do not combine local samples into a current genus-wide range or status.
 
-## Choose comparison pages by life-history fields {#s-864fc5f7b1}
+## Recorded classification and direct parent {#s-864fc5f7b1}
+COL26.8 records Piliocolobus Rochebrune, 1877 at genus rank, with Colobini Jerdon, 1867 as its direct parent.
+
 This batch’s Piliocolobus route includes 9 historical life-history accounts; start with Piliocolobus badius, Piliocolobus foai, Piliocolobus gordonorum, Piliocolobus kirkii, Piliocolobus pennantii. More frequently represented fields include adult body mass (9 entries), female maturity field (defined by the source as age at first conception) (9 entries), offspring per litter or eggs per clutch (9 entries), conception or fertilization to birth (9 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-c17e664024}

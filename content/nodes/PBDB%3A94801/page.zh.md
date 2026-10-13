@@ -1,19 +1,52 @@
 ## 这个名称对应哪些化石记录 {#s-b9175f385a}
 Galerix uenayae 在固定 PBDB 哺乳类化石工作名录中为接受种，数据库父级为 Galerix。本页导读 3 条可用种级出现记录，涉及 3 个采集记录和 3 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-536ff267ed}
-采集记录 Keseköy（Ankara），地区代码 TR；数据库年代范围 20–16.9 Ma，早端地质时段 MN 3。采集记录 Sabuncubeli（Manisa），地区代码 TR，地层名称 Soma；数据库年代范围 20–16.9 Ma，早端地质时段 MN 3。采集记录 Gördes（Manisa），地区代码 TR；数据库年代范围 23.04–15.98 Ma，早端地质时段 Early Miocene。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Galerix uenayae 在 PBDB 快照中对应分类条目 txn:94801。这份存档导读包含 3 条选取的出现记录，关联 3 个不同的 PBDB 采集记录编号和 3 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-674a649f25}
-本页所选出现记录的年代外包区间为 23.04–15.98 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Gördes 的出现记录 occ:1487934（23.04–15.98 Ma）；晚端可追到 Gördes 的出现记录 occ:1487934（23.04–15.98 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-536ff267ed}
+存档导读包含 3 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
 
-## 保存环境与生活环境分开阅读 {#s-4143d5c654}
-Keseköy 的采集环境标签为 湖泊沉积环境，类型未定（lacustrine indet.）；集合保存方式标签为 实体化石（body）。Sabuncubeli 的采集环境标签为 陆相沉积环境，类型未定（terrestrial indet.）；集合保存方式标签为 实体化石（body）。Gördes 的采集环境标签为 湖泊沉积环境，类型未定（lacustrine indet.）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:641958；PBDB 采集记录 col:64373。 地点字段 cnm=Keseköy；地点分区字段 cc2=TR，stp=Ankara。 记录年代界：eag 20 Ma; lag 16.9 Ma；PBDB 年代区间字段 oei=MN 3。 记录署名 van den Hoek Ostende 1992；PBDB 引文编号 ref:19944。
 
-## 沿采集记录追到文献 {#s-3618d1add1}
-Keseköy 的数据库引文署名为 van den Hoek Ostende（1992），编号 ref:19944。Sabuncubeli 的数据库引文署名为 de Bruijn et al.（2006），编号 ref:19973。Gördes 的数据库引文署名为 Pelaez-Campomanes et al.（2019），编号 ref:71263。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+attributed to the local zone D, being correlated to MN 3
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+"This locality is a coal quarry near the town of Kizilcahamam." - Cernansky et al (2017)
+
+- 出现记录 occ:642531；PBDB 采集记录 col:69303。 地点字段 cnm=Sabuncubeli；地点分区字段 cc2=TR，stp=Manisa。 记录年代界：eag 20 Ma; lag 16.9 Ma；PBDB 年代区间字段 oei=MN 3。 地层字段 sfm=Soma。 记录署名 de Bruijn et al. 2006；PBDB 引文编号 ref:19973。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+lower part of MN 3 (local zone C/D)
+The whole fauna was collected from the uppermost mud rock interval of the Soma Formation while the macromammals were collected from the 50-cm thick fine-grained, sub-mature conglomerate lenses and from the marly upper part (Mayda, 2010).
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+"The fauna has been collected from the lower part of the Soma Formation, outcropped near the road between Izmir and Manisa [Manisa used as landmark in map above]." - Cernansky et al (2017)
+Located 15km northeast of Izmir
+
+- 出现记录 occ:1487934；PBDB 采集记录 col:207048。 地点字段 cnm=Gördes；地点分区字段 cc2=TR，stp=Manisa。 记录年代界：eag 23.04 Ma; lag 15.98 Ma；PBDB 年代区间字段 oei=Early Miocene。 记录署名 Pelaez-Campomanes et al. 2019；PBDB 引文编号 ref:71263。
+
+## 出现记录的年代界 {#s-674a649f25}
+在这组 PBDB 记录中，最大记录 eag=23.04 Ma，见 occ:1487934；最小记录 lag=15.98 Ma，见 occ:1487934。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-4143d5c654}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:641958：PBDB 原鉴定字段 idn=Galerix uenayae n. sp.；PBDB 分类名称字段 tna=Galerix uenayae；PBDB 地点坐标字段 lng=32.653332，lat=40.470554；古坐标／模型字段 pm1=gplates，pln=33.49，pla=36.7。
+- occ:642531：PBDB 分类名称字段 tna=Galerix uenayae；PBDB 地点坐标字段 lng=27.415833，lat=38.621113；古坐标／模型字段 pm1=gplates，pln=28.49，pla=34.89。
+- occ:1487934：PBDB 分类名称字段 tna=Galerix uenayae；PBDB 地点坐标字段 lng=28.283333，lat=38.933334；古坐标／模型字段 pm1=gplates，pln=29.43，pla=34.77。
+
+## 各记录所附的引文 {#s-3618d1add1}
+存档导读把这些记录关联到 3 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:641958：记录署名 van den Hoek Ostende 1992；PBDB 引文编号 ref:19944。
+- occ:642531：记录署名 de Bruijn et al. 2006；PBDB 引文编号 ref:19973。
+- occ:1487934：记录署名 Pelaez-Campomanes et al. 2019；PBDB 引文编号 ref:71263。
 
 ## 资料边界 {#s-53fdf25c6a}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 13958 项哺乳类化石工作名录中，当前名称一致、父链可追到已记录 Mammalia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 3 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

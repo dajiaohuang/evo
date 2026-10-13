@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-97377e02b7}
-Pinned COL26.8 organizes this page as Pternistis icterorhynchus (6WKXK). AVONET v7 BirdLife 2020 row 2518 and eBird 2021 agree in name, with Avibase ID AVIBASE-3EAF578D; BirdTree gives Francolinus icterorhynchus, with match type 1BL to 1BT. Read COL older-combination record 6JLFF points to accepted ID 6WKXK. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-97377e02b7}
+Catalogue of Life release COL26.8 records Pternistis icterorhynchus (Heuglin, 1863) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-dcbfafcb11}
 Morphology covers 4 birds (2 female, 2 male); 4 have complete measurement sets. Mean nostril-to-tip beak length is 17.2 mm, tarsus 49.3 mm, unflattened wing 167.8 mm and hand-wing index 21.9. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

@@ -1,18 +1,52 @@
-## Which fossil records this name represents {#s-db1f10037c}
-Rebbachisaurus garasbae is accepted in the fixed PBDB dinosaur working roster, with database parent Rebbachisaurus. This guide uses 4 eligible species-level occurrence records from 4 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-db1f10037c}
+Rebbachisaurus garasbae is listed in the PBDB snapshot under taxon txn:65368. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-63523d83a2}
-Collection Er Remlia, Gara es Sbaa [Gara Sbaa Fm.] (Drâa-Tafilalet), region code MA, stratum name Gara Sbaa; database age bracket 100.5–93.9 Ma, early interval Early Cenomanian. Collection Jbel Sgat, Ighrem Sgat (Béni Mellal-Khénifra), region code MA; database age bracket 106.3–93.9 Ma, early interval Late Albian and late interval Early Cenomanian. Collection Tafilalt region (NMC/CMN) (Drâa-Tafilalet), region code MA; database age bracket 106.3–93.9 Ma, early interval Late Albian and late interval Early Cenomanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-63523d83a2}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-5d58335112}
-Selected occurrences have an outer age envelope of 106.3–93.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:464985; PBDB collection col:45943. Locality cnm=Jbel Sgat, Ighrem Sgat; place fields cc2=MA, stp=Béni Mellal-Khénifra, cny=Azilal. Recorded age bounds: eag 106.3 Ma; lag 93.9 Ma; PBDB interval fields oei=Late Albian, oli=Early Cenomanian. Recorded attribution Monbaron 1978; PBDB reference ref:12241.
 
-## Read preservation setting separately from living habitat {#s-2f93e673da}
-Er Remlia, Gara es Sbaa [Gara Sbaa Fm.] has collection-environment label deltaic indet.; collection preservation-mode label body,trace. Jbel Sgat, Ighrem Sgat has collection-environment label terrestrial indet.; collection preservation-mode label body. Tafilalt region (NMC/CMN) has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+orig. "Continental Intercalaire"; 110-120 m below lower basalt level
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
 
-## Follow collection records back to references {#s-21f0d648b9}
-Er Remlia, Gara es Sbaa [Gara Sbaa Fm.] carries database reference attribution Sereno et al. (1996), identifier ref:7098. Jbel Sgat, Ighrem Sgat carries database reference attribution Monbaron (1978), identifier ref:12241. Tafilalt region (NMC/CMN) carries database reference attribution Russell (1996), identifier ref:13037. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Jbel Sgat, at Ighrem Sgat, Azilal, Taguelft syncline
 
-## Evidence limits {#s-dc29f158b4}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:262167; PBDB collection col:25325. Locality cnm=Er Remlia, Gara es Sbaa [Gara Sbaa Fm.]; place fields cc2=MA, stp=Drâa-Tafilalet, cny=Errachidia. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian. Stratigraphic fields sfm=Gara Sbaa. Recorded attribution Sereno et al. 1996; PBDB reference ref:7098.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Kem Kem beds have distinct upper and lower units in this region, with fossils found in both parts. The formation lies conformably below the Cenomanian-Turonian limestone. The "fossiliferous zone" ocuupies about 90 meters of section overlapping both members.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near Gara es Sbaa, about 50 km NE of Hassi Zguilma and 60 km SW of Ouzina and Taouz, Kem Kem region, Morocco; E of oasis of Er Remlia
+
+- Occurrence occ:519822; PBDB collection col:52887. Locality cnm=Tafilalt region (NMC/CMN); place fields cc2=MA, stp=Drâa-Tafilalet, cny=Errachidia. Recorded age bounds: eag 106.3 Ma; lag 93.9 Ma; PBDB interval fields oei=Late Albian, oli=Early Cenomanian. Recorded attribution Russell 1996; PBDB reference ref:13037.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Ifezoune or Auofous formation
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+area of Tafilalt, N and S of Taouz, includes several marked fossil sites but none are specified in text, nor are any tied to specific occurrences.
+
+## Age bounds on the recorded occurrences {#s-5d58335112}
+Across these selected PBDB rows, the largest recorded eag=106.3 Ma in occ:464985; the smallest recorded lag=93.9 Ma in occ:262167. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-2f93e673da}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:464985: PBDB taxon-name field tna=Rebbachisaurus garasbae; material note ocm=humerus; "provisionally attributed"; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-6.235523, lat=32.212112; paleocoordinate/model fields pm1=gplates, pln=6.65, pla=28.04.
+- occ:262167: PBDB taxon-name field tna=Rebbachisaurus garasbae; PBDB locality-coordinate fields lng=-4.836939, lat=30.505667; paleocoordinate/model fields pm1=gplates, pln=6.52, pla=25.22.
+- occ:519822: PBDB taxon-name field tna=Rebbachisaurus garasbae; material note ocm=NMC 41808-812, 41872, 50844; NOTE: Wilson & Allain 2015 exclude NMC 41808-41812 and 41872 from R. garasbae but do not provide an alternative identification (e.g. Sauropoda indet.) so they have not been reidentified here.; abundance fields abv=7, abu=specimens; PBDB locality-coordinate fields lng=-3.983300, lat=30.900000; paleocoordinate/model fields pm1=gplates, pln=7.98, pla=26.04.
+
+## References attached to each record {#s-21f0d648b9}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:464985: Recorded attribution Monbaron 1978; PBDB reference ref:12241.
+- occ:262167: Recorded attribution Sereno et al. 1996; PBDB reference ref:7098.
+- occ:519822: Recorded attribution Russell 1996; PBDB reference ref:13037.
+
+## What these records can show {#s-dc29f158b4}
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

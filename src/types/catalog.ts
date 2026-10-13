@@ -39,6 +39,15 @@ export interface TaxonProfileReaderSource {
   doi?: string
   locator?: string
   version?: string
+  publishedAt?: string
+  accessedAt?: string
+  license?: string
+  licenseVersion?: string
+  licenseUrl?: string
+  licenseAppliesTo?: string
+  rights?: string
+  rightsHolder?: string
+  attribution?: string
   sourceFileSha256?: string
 }
 

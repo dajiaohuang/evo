@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:homo
       claimKind: scientific
       claimType: fossil-range
-      statement: Homo is bounded here by the approximately 1.85–1.77 Ma Dmanisi sample, including associated adult skull D4500/D2600 from layer B1y; this documents one population sample and does not collapse all early Homo taxa into one lineage or define the genus’s global range.
+      statement:
+        page: en
+        section: dmanisi-skull-sample
+        part: body
       confidence: high
       confidenceRationale: The associated skull and stratigraphic sample are direct. The study’s broader single-lineage interpretation remains a taxonomic hypothesis.
       referenceLinks:
@@ -27,7 +30,10 @@ records:
     - subjectId: taxon:homo
       claimKind: scientific
       claimType: fossil-range
-      statement: Homo is displayed at 1.85–1.77 Ma only as the dated Dmanisi assemblage only, not the origin, complete range or living continuation of Homo. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      statement:
+        page: en
+        section: dmanisi-skull-five
+        part: body
       confidence: medium
       confidenceRationale: Homo uses Lordkipanidze, D.; Ponce de León, M.S.; Margvelashvili, A.; Rak, Y.; Rightmire, G.P.; Vekua, A.; Zollikofer, C.P.E. (2013) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Dmanisi Homo skull assemblage, Georgia; broader endpoints remain unclaimed.
       referenceLinks:
@@ -45,8 +51,12 @@ records:
     - 关联头骨与地层样本属于直接证据；研究更广泛的单谱系解释仍是分类假说。
     - Homo 采用 Lordkipanidze, D.; Ponce de León, M.S.; Margvelashvili, A.; Rak, Y.; Rightmire, G.P.; Vekua, A.; Zollikofer, C.P.E.（2013）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Dmanisi Homo skull assemblage, Georgia；更宽泛端点保持未声明。
   claim-statements.zh:
-    - 此处 Homo 由约 185 万—177 万年前的德马尼西样本约束，其中包括 B1y 层关联成年头骨 D4500/D2600；它记录一个种群样本，不会把所有早期 Homo 类群合并为单一谱系，也不定义该属全球范围。
-    - Homo 仅以 1.85–1.77 Ma 展示为仅限有测年约束的德马尼西组合，而非 Homo 的起源、完整范围或现生延续。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - page: zh
+      section: dmanisi-skull-sample
+      part: body
+    - page: zh
+      section: dmanisi-skull-five
+      part: body
   ranges:
     - entityId: homo
       rangeKind: taxon-range

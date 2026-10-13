@@ -1,5 +1,5 @@
-## 分别沿两表旧名定位 {#s-886a9377b1}
-本页按COL26.8 Chalcites megarhynchus（CNJV7）、Cuculidae（8S7）组织。BirdLife 2020第2093行使用本页名；eBird 2021第1994行记Chrysococcyx megarhynchus，BirdTree第1983行记Rhamphomantis megarhynchus，类型分别1BL to 1eBird／1BL to 1BT。eBird两侧Avibase ID同为AVIBASE-14B0CB57。对应逐字异名分别为CNKSY／4S2PW，各指向CNJV7。两表旧名不同，不能只写一个组合代表两表。名称提供定位，不证明历史与当前整个物种范围完全相同。
+## COL26.8 中的名称身份 {#s-886a9377b1}
+《Catalogue of Life》COL26.8（2026-08-20）将 Chalcites megarhynchus (G. R. Gray, 1858) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-3a8fb57fda}
 形态共 1 只鸟：雌 0、雄 1、性别未定 0；完整测量 1 只。鼻孔前缘至喙尖 18.5 mm、跗蹠 15.4 mm、未压平翼长 97 mm、尾长 73 mm、手翼指数 29 是历史行均值。完整数与总数相等，仍不提供个体变异范围。这里只有一只雄鸟，不能建立雌雄差别或群体变异分布。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；指数不是飞行速度，翼长也不是实测飞行能力。

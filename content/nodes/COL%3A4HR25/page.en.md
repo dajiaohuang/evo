@@ -1,17 +1,17 @@
-## The name and this data account {#s-b672bf1299}
-AVONET v7 lists *Picumnus albosquamatus* under the HBW–BirdLife 2020 name. The sample contains 12 measured individuals, 4 in a complete morphological set; means for individual traits may use different sample sizes.
+## Row-reported mean and sample coverage {#s-b672bf1299}
+The AVONET v7 row for Picumnus albosquamatus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 11 mm. The row records 12 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-861640b96a}
-Mean beak length is 11 mm from the anterior nostril edge to the tip. At that landmark, mean width is 3.8 mm and depth 4.9 mm. These standardized measurements are not identification thresholds.
+## Beak measurements at defined landmarks {#s-861640b96a}
+AVONET records culmen length (bill tip to skull base) 13.2 mm; beak length (nostril front edge to tip) 11 mm; beak width at the nostril front edge 3.8 mm; beak depth at the nostril front edge 4.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-5eb4245aaa}
-Mean unflattened wing length (carpal joint to longest primary) is 53 mm; mean tarsus length is 12.2 mm. AVONET lists a separate mean mass of 11.9 g in the Dunning category; the mass is not assigned to every measured bird.
+## Wing and body measures use separate sources {#s-5eb4245aaa}
+AVONET records unflattened wing length 53 mm; tarsus length 12.2 mm; distance from first secondary tip to longest primary tip 6.6 mm; length to first secondary tip 46.4 mm; hand-wing index 12.5; tail length 32.5 mm; species-average body mass 11.9 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-325c8522e4}
-AVONET codes habitat Forest, trophic niche Invertivore and lifestyle Insessorial (perching-associated). These are broad comparison labels and do not imply exclusive habitat or food use.
+## Recorded habitat and feeding categories {#s-325c8522e4}
+AVONET classifies Picumnus albosquamatus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-5ac0c9f851}
-The migration field is sedentary. Historical breeding and resident maps span −23.8° to −7.75° latitude. They do not describe all non-breeding movement or current global occupancy.
+## The migration label has a limited scope {#s-5ac0c9f851}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -23.8° to -7.75°. The mapped range area is 2007279.99 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
 ## Evidence limits {#s-b57497ca5c}
 This page summarizes historical AVONET v7 values. Morphological measurements are sample-based species averages, while mass comes from a separate source. Habitat and migration are broad codes, and the latitude endpoints describe historical breeding/resident geography only. The historical name crosswalk links the record but does not prove taxonomic concept equivalence after later changes. Reproduction, current range, population and conservation status require other sources.

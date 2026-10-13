@@ -1,14 +1,14 @@
-## The 2015 life-history entry and this name {#s-6cd6d071a5}
-Aerodramus germani is accepted in pinned COL26.8 within Apodidae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-6cd6d071a5}
+The August 2015 database has a same-name, same-family record for Aerodramus germani. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-48831a6daf}
-Historical summary values are adult body mass 11.23 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-48831a6daf}
+The August 2015 compilation reports adult body mass 11.225 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-87033f7265}
-Available compilation fields are offspring per litter or eggs per clutch 2 offspring/eggs; oviposition to hatching 23 d; age at flight capability (leaving the nest in some source material) 43 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-87033f7265}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2; oviposition-to-hatching interval 23 days; age at flight capability (some records mark nest departure) 43 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-e4fdff7813}
-Same-name sparse rows carry source labels including Dunning, 1992; Bennett, 1986; Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-e4fdff7813}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Life-history evidence limits {#s-0071dcb4b6}
 This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;

@@ -1,19 +1,57 @@
 ## Which fossil records this name represents {#s-54f759d9ec}
 Giraffa jumae is accepted in the fixed PBDB mammalia working roster, with database parent Giraffa. This guide uses 25 eligible species-level occurrence records from 25 collections and 12 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-f584cfbf9f}
-Collection East Turkana - Area 102 - Lower Burgi, region code KE, stratum name Koobi Fora; database age bracket 2.58–1.8 Ma, early interval Gelasian. Collection Hadar - SH General, region code ET, stratum name Hadar; database age bracket 3.6–2.58 Ma, early interval Piacenzian. Collection Hadar - DD General, region code ET, stratum name Hadar; database age bracket 3.6–2.58 Ma, early interval Piacenzian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Giraffa jumae is listed in the PBDB snapshot under taxon txn:133599. This archived guide contains 25 selected occurrence rows, linked to 25 distinct PBDB collection IDs and 12 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-57441eba93}
-Selected occurrences have an outer age envelope of 5.333–0.774 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Kanapoi, occurrence occ:217863 (5.333–3.6 Ma); one supplying the younger bound is Olduvai - PDK, occurrence occ:214296 (1.8–0.774 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-f584cfbf9f}
+The archived guide contains 25 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-ad275434c9}
-East Turkana - Area 102 - Lower Burgi has collection-environment label fluvial-deltaic indet.. Hadar - SH General has collection-environment label fluvial-lacustrine indet.. Hadar - DD General has collection-environment label wet floodplain. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:217863; PBDB collection col:22234. Locality cnm=Kanapoi; place fields cc2=KE. Recorded age bounds: eag 5.333 Ma; lag 3.6 Ma; PBDB interval fields oei=Zanclean. Stratigraphic fields sfm=Kanapoi. Recorded attribution Geraads and Bobe 2020; PBDB reference ref:81321.
 
-## Follow collection records back to references {#s-78f69e981b}
-East Turkana - Area 102 - Lower Burgi carries database reference attribution Harris (1991), identifier ref:10320. Hadar - SH General carries database reference attribution Johanson and Taieb (1976), identifier ref:4847. Hadar - DD General carries database reference attribution Johanson et al. (1976), identifier ref:4782. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: absolute, ETE age comment: "Max age=4.17+/-.03 my,lower pumiceous tuff;Min age=3.26+/-.04 my,Kalokwanya basalt" radiometric intage_max, radiometric intage_min
+The fossil fauna of Kanapoi was dated between 4.19 Ma and 4.11 Ma (Feibel, 2003; McDougall and Brown, 2008),
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"61.2 km W,14.5 km S of Teleki's Volcano at S end of L. Rudolf, in dry wash tributary of the Kakuryo."
+
+- Occurrence occ:214296; PBDB collection col:21971. Locality cnm=Olduvai - PDK; place fields cc2=TZ. Recorded age bounds: eag 1.8 Ma; lag 0.774 Ma; PBDB interval fields oei=Calabrian. Stratigraphic fields sfm=Olduvai, slb=IV. Recorded attribution Gentry and Gentry 1978; PBDB reference ref:4945.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: absolute, ETE age comment: Bed IV radiometric intage_max, radiometric intage_min
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+South side of gorge, sparse faunal remains, Acheullian tools.
+
+- Occurrence occ:212499; PBDB collection col:21460. Locality cnm=East Turkana - Area 102 - Lower Burgi; place fields cc2=KE. Recorded age bounds: eag 2.58 Ma; lag 1.8 Ma; PBDB interval fields oei=Gelasian. Stratigraphic fields sfm=Koobi Fora. Recorded attribution Harris 1991; PBDB reference ref:10320.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: absolute, ETE age comment: Burgi and Lokalalei Tuffs radiometric intage_min
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+9518.75km2 estimate from map, Koobi Fora Ridge, seconds changed by one to allow separation on map
+
+## Age bounds on the recorded occurrences {#s-57441eba93}
+Across these selected PBDB rows, the largest recorded eag=5.333 Ma in occ:217863; the smallest recorded lag=0.774 Ma in occ:214296. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-ad275434c9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:217863: PBDB taxon-name field tna=Giraffa jumae; material note ocm=ETE occurrence; species: mak - species name from unique name; PBDB locality-coordinate fields lng=36.066700, lat=2.316700; paleocoordinate/model fields pm1=gplates, pln=35.96, pla=1.14.
+- occ:214296: PBDB taxon-name field tna=Giraffa jumae; PBDB locality-coordinate fields lng=35.287498, lat=-2.958300; paleocoordinate/model fields pm1=gplates, pln=35.26, pla=-3.25.
+- occ:212499: PBDB taxon-name field tna=Giraffa jumae; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=36.250000, lat=3.942000; paleocoordinate/model fields pm1=gplates, pln=36.2, pla=3.35.
+
+## References attached to each record {#s-78f69e981b}
+The archived guide links the rows to 12 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:217863: Recorded attribution Geraads and Bobe 2020; PBDB reference ref:81321.
+- occ:214296: Recorded attribution Gentry and Gentry 1978; PBDB reference ref:4945.
+- occ:212499: Recorded attribution Harris 1991; PBDB reference ref:10320.
 
 ## Evidence limits {#s-d66e994d10}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 25 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

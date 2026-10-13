@@ -11,5 +11,5 @@ Among 62 observations where group composition could be determined, 45 recorded a
 The source compares Likweli with Colobus satanas using morphology, genetics and calls, and reports a separation of more than 1,200 km between their known localities. This is a comparison within the species description, not a complete systematic review of the genus. The Chinese common name is editorial; Likweli is retained as the paper’s recommended name.
 
 ## Evidence limits {#s-71f1f20527}
-This is a guide to a 2026 species description and field observations within its known range, not a long-term population trend or full occupancy assessment. Observation counts, group sizes and habitat records are limited by survey coverage; the paper’s preliminary conservation assessment is not presented as a current official category.. This page is.
+This is a guide to a 2026 species description and field observations within its known range, not a long-term population trend or full occupancy assessment. Observation counts, group sizes and habitat records are limited by survey coverage; the paper’s preliminary conservation assessment is not presented as a current official category.
 

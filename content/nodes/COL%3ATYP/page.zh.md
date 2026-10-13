@@ -1,4 +1,6 @@
-## PanTHERIA 记录 {#s-343ef5feb9}
+## 记录分类与直接上级关系 {#s-343ef5feb9}
+COL26.8 将 Ammospermophilus 记录为属；其直接上级记录为 Marmotini。
+
 本批次有四条可用记录：Ammospermophilus harrisii、A. interpres、A. leucurus 和 A. nelsoni。页面保留历史 MSW05 名称、野外条件和缺项；固定版本 COL26.8 用于导航，不表示这些记录构成当前物种分母。
 
 ## 成体体重端点 {#s-6aa9154972}
@@ -14,13 +16,13 @@
 每条路径都只反映达到相应字段和历史名称规则的批次记录，并非所有后代类群。中位数是汇总值，各字段可能具有不同条件。生态视图不意味着食物类型、权重或活动是整个类群共有的性状。历史分类、最大记录值以及 ABC 可能借用同属种资料，均受各自来源限制；当前分类概念、分布和保护状况需要其他证据。
 
 ## 一条重点 PanTHERIA 记录 {#s-546c684b86}
-这一路径有一条可用记录：[Ammospermophilus insularis](Ammospermophilus_insularis/page.zh.md)，保留 MSW05 名称、条件和缺项。历史行数不是当前接受物种数。
+这一路径有一条可用记录：Ammospermophilus insularis，保留 MSW05 名称、条件和缺项。历史行数不是当前接受物种数。
 
 ## PanTHERIA 范围 {#s-2c9f433771}
 此视图包括至少有一个重点字段、名称/科级匹配且具有历史一对一对应关系的批次记录。它不覆盖所有后代；端点为汇总值，各字段条件不一。此处没有确定当前分类概念、分布或保护状况。
 
 ## 生活史页面 {#s-320b3b0549}
-四条已编写记录为 [A. harrisii](Ammospermophilus_harrisii/page.zh.md)、[A. nelsoni](Ammospermophilus_nelsoni/page.zh.md)、[A. interpres](Ammospermophilus_interpres/page.zh.md) 和 [A. leucurus](Ammospermophilus_leucurus/page.zh.md)。此批次数量不是全部接受物种总数。
+四条已编写记录为 A. harrisii、A. nelsoni、A. interpres 和 A. leucurus。此批次数量不是全部接受物种总数。
 
 ## 时间字段与最大值记录 {#s-1e189a312a}
 三条记录列有妊娠期，两条列出雌性首次繁殖年龄，两条列出最大寿命。首次繁殖不同于首次出生或性成熟；最大寿命不同于平均寿命。条件不一，缺项需要其他来源。

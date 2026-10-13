@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:whippomorpha
       claimKind: scientific
       claimType: fossil-range
-      statement: The 55–0 Ma Whippomorpha route uses a rounded early Eocene navigation ceiling and combines the approximately 48.6 Ma Indohyus raoellid sample with living whale–hippo retroposon topology; neither source dates the Whippomorpha crown, and the span is not a direct lineage duration.
+      statement:
+        page: en
+        section: evidence-bridge
+        part: body
       confidence: low
       confidenceRationale: The fossil source supplies bounded morphology, isotopes and a sister-placement test near 48.6 Ma; the molecular source supplies extant topology only. The 55 Ma ceiling preserves nested early-cetacean navigation but is not promoted to a measured crown age.
       referenceLinks:
@@ -32,7 +35,9 @@ records:
   claim-rationales.zh:
     - 化石研究提供约 4,860 万年前的有界形态、同位素与姐妹群位置检验，分子研究只提供现生拓扑。5,500 万年上限用于保留嵌套的早期鲸类导航，不能被提升为实测冠群年代。
   claim-statements.zh:
-    - 鲸河马类 5,500 万年至今的路线采用取整后的始新世早期导航上限，并组合约 4,860 万年前 Indohyus 劳氏兽样本与现生鲸—河马逆转座子拓扑；两项研究都未测定鲸河马类冠群年代，该范围也不是一条谱系的直接延续时长。
+    - page: zh
+      section: evidence-bridge
+      part: body
   ranges:
     - entityId: whippomorpha
       rangeKind: global-composite

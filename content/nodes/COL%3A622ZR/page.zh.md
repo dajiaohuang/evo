@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-94f3a0a905}
+## 记录分类与直接上级关系 {#s-94f3a0a905}
+COL26.8 将 Lemuroidea Gray, 1821 记录为总科；其直接上级记录为 Lemuriformes Gray, 1821。
+
 Lemuroidea 的本地 PanTHERIA 路径包括 11 条可用数据导读，可从 Eulemur coronatus、Eulemur macaco、Eulemur rubriventer、Hapalemur aureus、Indri indri 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-9fe802d7f6}
@@ -14,7 +16,7 @@ Lemuroidea 的本批路线包含 37 个历史条目，可从 Eulemur sanfordi、
 这里比较的是经过筛选的历史记录，并非所有接受后代的普查。生活史比较只纳入至少有三个焦点字段、历史名称和科级位置相符的条目，并通过 MSW93／MSW05 同名一对一表关联；这种对应不能证明其物种概念与 COL26.8 当前接受的分类完全相同。除最高寿命外，多数数值是文献报告的等权汇总；最高寿命是最长记录，不是典型寿命。生态比较只纳入至少有两组可用字段的条目，食物权重和活动类别遵循汇编编码，ABC 字段还可能含同属材料。两种比较都不能确定当前分布或保护状况。
 
 ## 沿生活史资料阅读 {#s-ebad5599fc}
-Lemuroidea 本批有 5 个历史生活史资料页，可从 [Eulemur rubriventer](Lemuridae/Eulemur/Eulemur_rubriventer/page.zh.md)、[Eulemur macaco](Lemuridae/Eulemur/Eulemur_macaco/page.zh.md)、[Eulemur coronatus](Lemuridae/Eulemur/Eulemur_coronatus/page.zh.md)、[Hapalemur aureus](Lemuridae/Hapalemur/Hapalemur_aureus/page.zh.md)、[Lemur catta](Lemuridae/Lemur/Lemur_catta/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Lemuroidea 本批有 5 个历史生活史资料页，可从 Eulemur rubriventer、Eulemur macaco、Eulemur coronatus、Hapalemur aureus、Lemur catta 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-78cc50cfb5}
 本批妊娠资料见 4 页，雌性首次繁殖年龄见 3 页，最高寿命记录见 2 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

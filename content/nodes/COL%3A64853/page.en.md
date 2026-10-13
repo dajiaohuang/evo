@@ -1,4 +1,6 @@
-## Species records with cited traits {#s-b7910e6e84}
+## Recorded classification and direct parent {#s-b7910e6e84}
+COL26.8 records Trionyx at genus rank, with Trionychidae as its direct parent.
+
 This catalogue links one species records for Trionyx with matching names, family placement and trait-level citations. Start with Trionyx triunguis. Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
 
 ## Compare like measurements {#s-8e6d168219}

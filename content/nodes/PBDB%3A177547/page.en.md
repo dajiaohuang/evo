@@ -1,19 +1,36 @@
 ## Which fossil records this name represents {#s-1fc345c39d}
 Wadiasaurus indicus is accepted in the fixed PBDB other-synapsida working roster, with database parent Wadiasaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-02d39829dc}
-Collection 2 km ESE Yerrapalli (Andhra Pradesh), region code IN, stratum name Yerrapalli; database age bracket 247–241.464 Ma, early interval Anisian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Wadiasaurus indicus is listed in the PBDB snapshot under taxon txn:177547. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-eae7aaa6ee}
-Selected occurrences have an outer age envelope of 247–241.464 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is 2 km ESE Yerrapalli, occurrence occ:920917 (247–241.464 Ma); one supplying the younger bound is 2 km ESE Yerrapalli, occurrence occ:920917 (247–241.464 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-02d39829dc}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-5f9dbd56a4}
-2 km ESE Yerrapalli has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:920917; PBDB collection col:105239. Locality cnm=2 km ESE Yerrapalli; place fields cc2=IN, stp=Andhra Pradesh. Recorded age bounds: eag 247 Ma; lag 241.464 Ma; PBDB interval fields oei=Anisian. Stratigraphic fields sfm=Yerrapalli. Recorded attribution Chowdhury 1970; PBDB reference ref:35197.
 
-## Follow collection records back to references {#s-b973e95fc7}
-2 km ESE Yerrapalli carries database reference attribution Chowdhury (1970), identifier ref:35197. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Vertebrate biostratigraphy (e.g. Bandyopadhyay & Sengupta 1999. J. Afr. Earth Sciences 29:233-241) has been used to argue for a middle/late Anisian age for the Yerrapalli, on the basis of similarities to the fauna of the Manda Beds of Tanzania
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Two kilometres ESE of village of Yerrapalli, Pranhita-Godavari valley"; coordinates based on other Yerrapalli localities
+
+## Age bounds on the recorded occurrences {#s-eae7aaa6ee}
+Across these selected PBDB rows, the largest recorded eag=247 Ma in occ:920917; the smallest recorded lag=241.464 Ma in occ:920917. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5f9dbd56a4}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:920917: PBDB original-identification field idn=Wadiasaurus indicus n. gen. n. sp.; PBDB taxon-name field tna=Wadiasaurus indicus; material note ocm=ISI R38, skull (holotype). Paratypes: ISI R38/1: lower jaw; ISI R40 and ISI R41: part of left and right quadrate respectively; ISI R173/1: parietal crest; ISI R175/83: part of occipital plate; ISI R175/122: right squamosal. Referred specimens: ISI R38 (2-5); ISI R39/1; ISI R41 (1-301); ISI Rl71; ISI R172; ISI R172 (1-15); ISI R173; ISI R173/(2-5); ISI R174; ISI R174/1; ISI R175/(1-417), abundant postcranial material; PBDB locality-coordinate fields lng=79.699997, lat=18.833332; paleocoordinate/model fields pm1=gplates, pln=39.34, pla=-42.74.
+
+## References attached to each record {#s-b973e95fc7}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:920917: Recorded attribution Chowdhury 1970; PBDB reference ref:35197.
 
 ## Evidence limits {#s-e51e34d7ce}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

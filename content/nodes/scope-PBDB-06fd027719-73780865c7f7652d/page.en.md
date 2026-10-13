@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-bf2efc4ec0}
-Eritherium is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 1 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Eritherium in the PBDB source path {#s-bf2efc4ec0}
+PBDB records *Eritherium* at genus rank in this route. The fixed working roster has occurrence guides for one species, *Eritherium azzouzorum*. Recorded database parents organize these records; they are not a unique phylogenetic scheme or a measure of evolutionary importance. This batch lists non-extant fossil-species records only and does not establish that the entire group is extinct.
 
-## Compare collections, strata and age brackets {#s-14f307c682}
-Start with Eritherium azzouzorum and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 1 selected occurrence from 1 collection; example stratum names are Couche II. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Compare named collections before ages {#s-14f307c682}
+Start with *Eritherium azzouzorum* and compare its named collection and original reference links. This guide contains 1 selected occurrence from 1 collection; *Couche II* is an example stratum name. Check each collection’s own age bracket and identification qualifications before comparing localities. Occurrence, collection and species counts do not estimate ancient population size.
 
-## Evidence limits {#s-4ba5bf30e7}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What this occurrence guide does and does not cover {#s-4ba5bf30e7}
+This route covers the selected species occurrence guides authored in this batch; it is not a complete descendant catalogue or shared ecological summary.
 

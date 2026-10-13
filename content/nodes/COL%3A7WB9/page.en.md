@@ -1,4 +1,6 @@
-## Begin with the three measured records {#s-c3386489fc}
+## Recorded classification and direct parent {#s-c3386489fc}
+COL26.8 records Threskiornis at genus rank, with Threskiornithidae as its direct parent.
+
 This Threskiornis route contains 3 measured species records: Threskiornis aethiopicus, Threskiornis bernieri and Threskiornis spinicollis. Navigation follows pinned COL26.8; biological data retain AVONET v7 names and sampling scope.
 
 ## Recorded mass means and categories {#s-96604cb7c2}
@@ -13,8 +15,8 @@ Four historical EltonTraits 1.0 entries are listed: Threskiornis aethiopicus, T.
 ## Limits across the batch routes {#s-05f7091298}
 This group page combines a batch of 3 measured AVONET records, 4 August 2015 life-history accounts and 4 EltonTraits entries; none is a complete descendant catalogue. Mass endpoints compare compiled species means, not individual minima and maxima. Life-history summaries retain median or maximum-record methods and possible taxonomic inheritance; a group route does not imply shared reproduction. EltonTraits weights are literature-derived and semiquantitative, not direct measurements. Historical taxonomy and possible congeneric borrowing in ABC fields remain limits. See the linked species pages for record-specific sampling, interpretation and source boundaries.
 
-## Start with the limited ecology account {#s-89fa9d3abf}
-This batch has 1 limited ecology page under Threskiornis: [Threskiornis melanocephalus](Threskiornis_melanocephalus/page.en.md). The route follows pinned COL26.8; the count covers authored pages in this batch, not every accepted species.
+## Recorded classification and member material {#s-89fa9d3abf}
+This batch has 1 limited ecology page under Threskiornis: Threskiornis melanocephalus. The route follows pinned COL26.8; the count covers authored pages in this batch, not every accepted species.
 
 ## What is readable and what remains uninterpreted {#s-c5ebe70d50}
 One entry has a readable habitat category, 1 a feeding-niche category, 1 a primary-lifestyle category and 1 a migration category. Read the source definitions and keep categories, historical maps and individual observations distinct; shared labels do not establish a lifestyle for every descendant. Beak, wing, tarsus, tail and mass fields remain uninterpreted here, so this route does not establish a group body-size comparison.

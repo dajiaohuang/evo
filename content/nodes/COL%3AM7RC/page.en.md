@@ -1,29 +1,29 @@
-## Sample and measurement context {#s-cf9a924847}
-COL26.8 accepts Blythipicus rubiginosus in Picidae. AVONET v7 reports it under the HBW–BirdLife name used in 2020: five birds were measured, and four had complete morphological sets. A particular trait mean can use fewer than five.
+## Row-reported mean and sample coverage {#s-cf9a924847}
+The AVONET v7 row for Blythipicus rubiginosus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 26 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions at standard landmarks {#s-e2540b08b3}
-Mean length from the front edge of the nostril to the tip is 26 mm; width and depth at that edge average 7.5 and 8 mm. They are distinct dimensions measured at standard points, not identification thresholds.
+## Beak measurements at defined landmarks {#s-e2540b08b3}
+AVONET records culmen length (bill tip to skull base) 32.8 mm; beak length (nostril front edge to tip) 26 mm; beak width at the nostril front edge 7.5 mm; beak depth at the nostril front edge 8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass records {#s-8d9c87b9f6}
-The unflattened wing, from the carpal joint to the longest primary, averages 119.4 mm; the tarsus averages 21.2 mm. A separate compilation gives mean mass as 81.91 g, with source category Dunning. That record does not show that the measured birds were weighed.
+## Wing and body measures use separate sources {#s-8d9c87b9f6}
+AVONET records unflattened wing length 119.4 mm; tarsus length 21.2 mm; distance from first secondary tip to longest primary tip 16.4 mm; length to first secondary tip 102.9 mm; hand-wing index 13.7; tail length 63.6 mm; species-average body mass 81.91 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Forest, prey and perching categories {#s-f1e77dc877}
-AVONET places the record in the Forest habitat class, gives it an Invertivore trophic niche and labels its lifestyle Insessorial (primarily perched above ground). These are broad comparison classes, not claims of exclusive forest use or an invertebrate-only diet.
+## Recorded habitat and feeding categories {#s-f1e77dc877}
+AVONET classifies Blythipicus rubiginosus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and historical map limits {#s-8666859664}
-The migration field labels the record sedentary. Historical breeding and resident maps extend from 5.98° south to 12.63° north. They do not cover a full non-breeding itinerary or present occupancy, and were compiled separately from the morphology data.
+## The migration label has a limited scope {#s-8666859664}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -5.98° to 12.63°. The mapped range area is 1344203.74 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## A separate historical ecology source {#s-e03f402115}
-EltonTraits 1.0 contains a same-name, same-family entry for Blythipicus rubiginosus under an earlier taxonomy. This page reads its diet and foraging-position fields with their source labels. The name match does not settle later splits or synonym questions.
+## Scope of the historical trait entry {#s-e03f402115}
+EltonTraits 1.0 has a same-name, same-family record for Blythipicus rubiginosus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Food-weight estimate {#s-2ef2394cb6}
-Invertebrates make up all of the nonzero diet weight (100%). Code A signals high compiler confidence in the source and diet entry, while the percentage remains a standardized reading of descriptions rather than measured intake. A zero elsewhere would not prove a food is never taken; broad categories should not be read as exclusive diets.
+## Relative weights across food categories {#s-2ef2394cb6}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Feeding positions in the vegetation {#s-61e7ed1eef}
-The species-level foraging entry assigns 80% to understory, edges or shrubs below 2 m and 20% to trees or tall bushes from 2 m up to the canopy. These are relative feeding-position weights, not nest locations, all habitat use or a daily time budget. The source's water-surface, understory, mid/high, canopy and aerial classes are not elevation bands and cannot yield flight height or habitat area.
+## Foraging positions are not a time budget {#s-61e7ed1eef}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 80%; in mid-height or high vegetation 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Provenance of the selected fields {#s-616838f325}
-Both selected groups cite Ref_7, the Handbook of the Birds of the World, volume 7. Other records can draw diet, strata and activity from different materials, and the same number in bird and mammal reference tables need not mean the same work. The archive preserves citation strings with file, row, field group and table. The underlying Handbook was not independently reread here.
+## Sources and field limits {#s-616838f325}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits on interpretation {#s-d069427712}
 AVONET measurements are species means from historical samples, not diagnostic limits or individual ranges. Mass has separate provenance and does not share the morphology denominator. Habitat, trophic niche and migration are broad classes; the map covers historical breeding and resident ranges only. The name crosswalk links this record to the current catalogue entry but cannot establish unchanged species concepts through later splits or lumps. Reproduction, current range, populations and conservation require other evidence.

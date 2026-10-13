@@ -1,5 +1,5 @@
-## Names used in the historical records {#s-10bfe23df1}
-The pinned COL26.8 entry is Psilopogon mystacophanos (7WP6J). AVONET v7's BirdLife 2020 row 9698 and eBird's 2021 row 8665 use that name and Avibase ID AVIBASE-85DECE79. BirdTree row 8620 instead uses Megalaima mystacophanos, matched as 1BL to 1BT; the read COL older-combination record 7VSW6 points to the accepted entry. These crosswalks locate historical rows but do not prove that all sources used the same species boundary.
+## A name fixed to COL26.8 {#s-10bfe23df1}
+Catalogue of Life release COL26.8 records Psilopogon mystacophanos (Temminck, 1824) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## What the measured birds contribute {#s-405ae7eef6}
 Six birds enter the morphology record: two females, three males and one of unrecorded sex; four have complete measurement sets. Means are 30 mm for nostril-to-tip beak length, 14.9 mm for beak width, 25.2 mm for tarsus and 95.2 mm for unflattened wing. The hand-wing index is 15.8, calculated as Kipp's distance divided by wing length and multiplied by 100. It is a wing proportion, not flight speed. Inference=NO does not give every field the same sample count, and beak width alone does not test fruit handling or pecking performance.

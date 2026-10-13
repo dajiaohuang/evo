@@ -1,22 +1,24 @@
-## Start with sourced trait records {#s-eb009e4b7a}
+## Recorded classification and direct parent {#s-eb009e4b7a}
+COL26.8 records Crotaphopeltis at genus rank, with Colubrinae as its direct parent.
+
 This batch’s ReptTraits route for Crotaphopeltis includes 2 same-name, same-family entries with trait-specific citations. Start with Crotaphopeltis hotamboeia, Crotaphopeltis tornieri. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-c3fd7cdcbd}
 Only Crotaphopeltis hotamboeia has a usable record in this batch’s shared length column: reported maximum snout–vent length (SVL) 400 mm. One compiled species record does not establish a cross-species size range, individual average or group size limit. Other descendants retain missing or unresolved size support.
 
-## Choose comparison pages by life-history fields {#s-ffeacdf977}
+## Amniote Life-history archive member records {#s-ffeacdf977}
 This batch’s Crotaphopeltis route includes 2 historical life-history accounts; start with Crotaphopeltis hotamboeia, Crotaphopeltis tornieri. More frequently represented fields include adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), oviposition to hatching (2 entries), longest lifespan record in the compilation (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
-## Evidence limits {#s-576e32b477}
+## Limits attached to these records {#s-576e32b477}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history.
 
-## Start with sourced trait records {#s-7c6b8946a4}
-This batch’s ReptTraits route for Crotaphopeltis includes 4 same-name, same-family entries with trait-specific citations. Start with [Crotaphopeltis barotseensis](Crotaphopeltis_barotseensis/page.en.md), [Crotaphopeltis braestrupi](Crotaphopeltis_braestrupi/page.en.md), [Crotaphopeltis degeni](Crotaphopeltis_degeni/page.en.md), [Crotaphopeltis hippocrepis](Crotaphopeltis_hippocrepis/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-7c6b8946a4}
+This batch’s ReptTraits route for Crotaphopeltis includes 4 same-name, same-family entries with trait-specific citations. Start with Crotaphopeltis barotseensis, Crotaphopeltis braestrupi, Crotaphopeltis degeni, Crotaphopeltis hippocrepis. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
-## Choose comparisons by available fields {#s-c8a171b63e}
+## ReptTraits member records {#s-c8a171b63e}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Limits of these trait data {#s-15570743f0}
+## ReptTraits material route {#s-15570743f0}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

@@ -1,4 +1,6 @@
-## Read seven historical rows through older Puffinus combinations {#s-5911d87291}
+## Recorded classification and direct parent {#s-5911d87291}
+COL26.8 records Ardenna Reichenbach, 1853 at genus rank, with Procellariidae as its direct parent.
+
 This entry organizes seven historical guides under COL26.8 Ardenna (D5KD6) and Procellariidae (627CQ). BirdLife/eBird names and respective Avibase IDs match in one-to-one links; BirdTree uses older Puffinus combinations, each with an exact catalogue synonym. grisea/pacifica have older endings griseus/pacificus; correspondence does not establish identical species boundaries across versions. The genus record has seven immediate children. Equal counts alone do not turn seven limited historical guides into complete natural history.
 
 ## Separate four complete sets from independently compiled mass {#s-996d8269d8}
@@ -10,10 +12,10 @@ All seven have Marine/open-environment 3/migration 3/Aquatic predator/Carnivore.
 ## Compare lifestyles before complete counts and older endings {#s-971c4fe05e}
 Compare gravis/carneipes, bulleri and the four Generalist records first, retaining lifestyle differences within a shared food niche. Return to four total/four complete at bulleri and five total/four complete elsewhere, then read Dunning mass separately. Trace grisea/griseus and pacifica/pacificus endings in the Puffinus table without inventing routes from map summaries or hand-wing index.
 
-Group 1: [Ardenna creatopus](Ardenna_creatopus/page.en.md), [Ardenna gravis](Ardenna_gravis/page.en.md), [Ardenna tenuirostris](Ardenna_tenuirostris/page.en.md), [Ardenna grisea](Ardenna_grisea/page.en.md)
+Group 1: Ardenna creatopus, Ardenna gravis, Ardenna tenuirostris, Ardenna grisea
 
-Group 2: [Ardenna bulleri](Ardenna_bulleri/page.en.md), [Ardenna pacifica](Ardenna_pacifica/page.en.md), [Ardenna carneipes](Ardenna_carneipes/page.en.md)
+Group 2: Ardenna bulleri, Ardenna pacifica, Ardenna carneipes
 
-## Evidence limits {#s-0bf91ba721}
+## Limits attached to these records {#s-0bf91ba721}
 Seven historical rows and exact Puffinus synonyms support these records; the seven catalogue children and seven pages do not prove complete natural history. Morphology birds, four complete sets and independently compiled mass remain separate. Marine food, three lifestyles, open environment and migration 3 supply no measured diet, dive depth, flight performance, routes, breeding or current maps.
 

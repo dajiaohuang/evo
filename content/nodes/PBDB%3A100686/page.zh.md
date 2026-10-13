@@ -1,19 +1,39 @@
 ## 这个名称对应哪些化石记录 {#s-018376ef7e}
 Diatomys shantungensis 在固定 PBDB 哺乳类化石工作名录中为接受种，数据库父级为 Diatomys。本页导读 1 条可用种级出现记录，涉及 1 个采集记录和 1 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-cb4804191e}
-采集记录 Shanwang Bed sw2, Linchu district, Shantung province（Shandong），地区代码 CN，地层名称 Shanwang；数据库年代范围 20.45–15.98 Ma，早端地质时段 Burdigalian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Diatomys shantungensis 在 PBDB 快照中对应分类条目 txn:100686。这份存档导读包含 1 条选取的出现记录，关联 1 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-157ba444e7}
-本页所选出现记录的年代外包区间为 20.45–15.98 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Shanwang Bed sw2, Linchu district, Shantung province 的出现记录 occ:442249（20.45–15.98 Ma）；晚端可追到 Shanwang Bed sw2, Linchu district, Shantung province 的出现记录 occ:442249（20.45–15.98 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-cb4804191e}
+存档导读包含 1 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
 
-## 保存环境与生活环境分开阅读 {#s-b99c1844cd}
-Shanwang Bed sw2, Linchu district, Shantung province 的采集环境标签为 湖泊沉积环境，类型未定（lacustrine indet.）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:442249；PBDB 采集记录 col:41810。 地点字段 cnm=Shanwang Bed sw2, Linchu district, Shantung province；地点分区字段 cc2=CN，stp=Shandong。 记录年代界：eag 20.45 Ma; lag 15.98 Ma；PBDB 年代区间字段 oei=Burdigalian。 地层字段 sfm=Shanwang，sls=2，slb=2，slo=bottom to top。 记录署名 Yan et al. 1983；PBDB 引文编号 ref:11442。
 
-## 沿采集记录追到文献 {#s-9ae9c4fa9f}
-Shanwang Bed sw2, Linchu district, Shantung province 的数据库引文署名为 Yan et al.（1983），编号 ref:11442。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+MN6, Aragonian, Middle Miocene. There are six layers, which are grouped into 3 members. These members contain 3 fossil-bearing beds. SW2 is the richest level and is 20-30m thick.
+
+He et al. 2011: Samples SW2007 and SW01 from the basalt just below the fossil-bearing diatomaceous sediments of the Shanwang Formation yield near plateau age of 17–18 Ma. Sample SW8-13 from a lava flow in the Yaoshan Formation yields an age of 17.3 ± 1.4 Ma (Fig. 6b). These age determinations suggest that, the age of the Shanwang biota is ca. 17 Ma, which is late Burdigalian Age of the Early Miocene in the widely-used Geologic Time Scale 2004 (Gradstein et al., 2004). The age of 17 Ma presented in this study of the Shanwang biota supports previous interpretations that this mammal fauna can be correlated with MN4 in the middle Orleanian of the European Land Mammal Age (Steininger et al., 1996; Steininger, 1999; Agustí et al., 2001), the late Hemingfordian of the North American Land Mammal Age (Woodburne and Swisher, 1995; Alroy, 2000), and the Santacrucian of the South American Land Mammal Ages (Flynn and Swisher, 1995).
+
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Co-ordinates based the town of Linqu in Shandong Province. Linqu is 20km West of the site.
+
+## 出现记录的年代界 {#s-157ba444e7}
+在这组 PBDB 记录中，最大记录 eag=20.45 Ma，见 occ:442249；最小记录 lag=15.98 Ma，见 occ:442249。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-b99c1844cd}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:442249：PBDB 分类名称字段 tna=Diatomys shantungensis；PBDB 地点坐标字段 lng=118.539719，lat=36.515556；古坐标／模型字段 pm1=gplates，pln=115.91，pla=35.39。
+
+## 各记录所附的引文 {#s-9ae9c4fa9f}
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:442249：记录署名 Yan et al. 1983；PBDB 引文编号 ref:11442。
 
 ## 资料边界 {#s-9a6633f5ff}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 13958 项哺乳类化石工作名录中，当前名称一致、父链可追到已记录 Mammalia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 1 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

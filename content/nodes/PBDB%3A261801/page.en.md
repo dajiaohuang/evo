@@ -1,19 +1,36 @@
 ## Which fossil records this name represents {#s-46b6682f4f}
 Pliolestes tripotamicus is accepted in the fixed PBDB mammalia working roster, with database parent Pliolestes. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-02fc67465c}
-Collection Rio Quequén Salado (Buenos Aires), region code AR; database age bracket 5–3.8 Ma, early interval Montehermosan. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Pliolestes tripotamicus is listed in the PBDB snapshot under taxon txn:261801. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-313a182bf7}
-Selected occurrences have an outer age envelope of 5–3.8 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Rio Quequén Salado, occurrence occ:1110012 (5–3.8 Ma); one supplying the younger bound is Rio Quequén Salado, occurrence occ:1110012 (5–3.8 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-02fc67465c}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-5f39363e21}
-Rio Quequén Salado has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1110012; PBDB collection col:140635. Locality cnm=Rio Quequén Salado; place fields cc2=AR, stp=Buenos Aires. Recorded age bounds: eag 5 Ma; lag 3.8 Ma; PBDB interval fields oei=Montehermosan. Recorded attribution Pascual and Herrera 1973; PBDB reference ref:45565.
 
-## Follow collection records back to references {#s-c3feab7013}
-Rio Quequén Salado carries database reference attribution Pascual and Herrera (1973), identifier ref:45565. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Irenense" de Kraglievich (1934, p.116), Edad Montehermosense, Plioceno superior? (ver Pascual et.al., 1965, p. 178).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Río Quequén salado, margen derecha, Paso del Médano, poco aguas abajo del hallazgo del tipo, Provincia de Buenos Aires, Argentina.
+
+## Age bounds on the recorded occurrences {#s-313a182bf7}
+Across these selected PBDB rows, the largest recorded eag=5 Ma in occ:1110012; the smallest recorded lag=3.8 Ma in occ:1110012. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5f39363e21}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1110012: PBDB taxon-name field tna=Pliolestes tripotamicus; PBDB locality-coordinate fields lng=-60.509998, lat=-38.930000; paleocoordinate/model fields pm1=gplates, pln=-59.62, pla=-38.75.
+
+## References attached to each record {#s-c3feab7013}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1110012: Recorded attribution Pascual and Herrera 1973; PBDB reference ref:45565.
 
 ## Evidence limits {#s-75d473cf5f}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

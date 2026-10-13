@@ -22,18 +22,48 @@
 ## 这个名称对应哪些化石记录 {#s-2ec1f318de}
 Bakonydraco galaczi 在固定 PBDB 翼龙工作名录中为接受种，数据库父级为 Bakonydraco。本页导读 1 条可用种级出现记录，涉及 1 个采集记录和 1 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
+PBDB 出现记录补充:
+Bakonydraco galaczi 在 PBDB 快照中对应分类条目 txn:156755。这份存档导读包含 1 条选取的出现记录，关联 1 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## 从具名采集地和地层开始 {#s-6ec360c59b}
 采集记录 Iharkút mine, Bakony mountains (Unit 1)（Veszprém），地区代码 HU，地层名称 Csehbánya；数据库年代范围 85.7–83.6 Ma，早端地质时段 Santonian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+
+PBDB 出现记录补充:
+存档导读包含 1 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:832347；PBDB 采集记录 col:48722。 地点字段 cnm=Iharkút mine, Bakony mountains (Unit 1)；地点分区字段 cc2=HU，stp=Veszprém。 记录年代界：eag 85.7 Ma; lag 83.6 Ma；PBDB 年代区间字段 oei=Santonian。 地层字段 sfm=Csehbánya。 记录署名 Osi et al. 2005；PBDB 引文编号 ref:31045。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+two bone-bearing beds within section, approx. 0.5 m apart
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+NE side of an open-pit bauxite mine, Iharkút,Veszprém County, Bakony Mtns., Transdanubian Range, western Hungary. An open-pit bauxite mine in the location of the former village of Iharkút in the Bakony Mountains, Veszprém county, western Hungary (Rabi et al. 2012). Note that not all of the fossils are from the same spot in the mine, but all are from the same stratigraphic level. Includes all the Unit 1 sites, e.g. SZ-6 (S part of the open pit).
 
 ## 这些记录的年代边界 {#s-af956dc662}
 本页所选出现记录的年代外包区间为 85.7–83.6 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=85.7 Ma，见 occ:832347；最小记录 lag=83.6 Ma，见 occ:832347。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 保存环境与生活环境分开阅读 {#s-40176084e6}
 Iharkút mine, Bakony mountains (Unit 1) 的采集环境标签为 crevasse splay；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:832347：PBDB 原鉴定字段 idn=Bakonydraco galaczi n. gen. n. sp.；PBDB 分类名称字段 tna=Bakonydraco galaczi；材料说明字段 ocm=MTM Gyn/3 (holotype), nearly complete mandible. MTM Gyn/4, 21 dentary symphyseal fragments; MTM V 2010.80.1 (frag. premaxilla), 2010.74.1–74.22 (dentary symphyseal frags.)；丰度字段 abv=45，abu=specimens；PBDB 地点坐标字段 lng=17.600000，lat=47.216702；古坐标／模型字段 pm1=gplates，pln=28.84，pla=30.99。
 
 ## 沿采集记录追到文献 {#s-33601964af}
 Iharkút 的数据库行保留 Osi et al.（2005）、ref:31045。本页另绑定 Ősi、Weishampel、Jianu 三位作者的原始描述，以及 Ősi、Buffetaut、Prondvai 的 2011 年新增材料论文作者稿。共享引文、旧馆藏号对应与具体阅读范围分开记录；原始采集、鉴定与引文 ID 保留，后续分类修订尚未核齐。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:832347：记录署名 Osi et al. 2005；PBDB 引文编号 ref:31045。
+
 ## 资料边界 {#s-cc5bb6e2c0}
 2005 年描述和 2011 年新增材料论文记录了本页讨论的上下颌、标本号和分离颅后骨，但没有把这些骨骼连接成一具骨架。翼展来自比较估计，可能食物仍是功能假说；没有直接取食证据，也没有保存完整角质喙鞘。所选数据库记录代表一个有年代和地点的样本，不是完整分布，也不是对单个个体的直接定年。后续分类研究、喙鞘确切外形和动物的许多生活细节仍未确定。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 1 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

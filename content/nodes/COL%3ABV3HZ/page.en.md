@@ -8,5 +8,5 @@ Yang et al. (2026) report nighttime spotlight surveys across southwestern and so
 The recent field survey provides direct species-level occurrence and local population evidence for Guangxi, China; it covers four counties and does not replace surveys across the full range. The page places historical lineage work beside a modern local survey without combining them into a range-wide count, trend, or conservation assessment for all regions.
 
 ## Evidence limits {#s-120319246d}
-The 2025 field records are limited to four counties in Guangxi, China; 98 individuals are not a total for the species, and the survey did not cover Laos or Vietnam. Historical museum DNA addresses lineage and taxonomy, not present-day distribution or abundance. The MDD EN category is a version-specific assessment field and was not independently assessed here. The Chinese name is editorial. This page is.
+The 2025 field records are limited to four counties in Guangxi, China; 98 individuals are not a total for the species, and the survey did not cover Laos or Vietnam. Historical museum DNA addresses lineage and taxonomy, not present-day distribution or abundance. The MDD EN category is a version-specific assessment field and was not independently assessed here. The Chinese name is editorial.
 

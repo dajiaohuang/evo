@@ -1,19 +1,38 @@
 ## Which fossil records this name represents {#s-0d27e0f873}
 Neohipparion trampasense is accepted in the fixed PBDB mammalia working roster, with database parent Neohipparion. This guide uses 24 eligible species-level occurrence records from 24 collections and 8 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-71bf3bada7}
-Collection East Kat Quarry (Nebraska), region code US, stratum name Ash Hollow; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Collection Gallup Gulch Quarry (Nebraska), region code US, stratum name Ash Hollow; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Collection Hans Johnson Quarry (Nebraska), region code US, stratum name Ash Hollow; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Neohipparion trampasense is listed in the PBDB snapshot under taxon txn:47015. This archived guide contains 24 selected occurrence rows, linked to 24 distinct PBDB collection IDs and 8 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-7ba827fd75}
-Selected occurrences have an outer age envelope of 23.04–3.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Coffrin Creek, occurrence occ:187729 (23.04–5.333 Ma); one supplying the younger bound is Nichols Mine Stream Matrix Horizon, occurrence occ:188022 (11.63–3.6 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-71bf3bada7}
+The archived guide contains 24 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-65f498a483}
-East Kat Quarry has collection-environment label terrestrial indet.; collection preservation-mode label body. Gallup Gulch Quarry has collection-environment label terrestrial indet.; collection preservation-mode label body. Hans Johnson Quarry has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:187729; PBDB collection col:18521. Locality cnm=Coffrin Creek; place fields cc2=US, stp=Florida, cny=Alachua. Recorded age bounds: eag 23.04 Ma; lag 5.333 Ma; PBDB interval fields oei=Miocene. Recorded attribution Hulbert 1988; PBDB reference ref:1951.
 
-## Follow collection records back to references {#s-f0fdf0b59c}
-East Kat Quarry carries database reference attribution Hulbert (1987), identifier ref:3850. Gallup Gulch Quarry carries database reference attribution Hulbert (1989), identifier ref:1952. Hans Johnson Quarry carries database reference attribution Hulbert (1987), identifier ref:3850. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:188022; PBDB collection col:18568. Locality cnm=Nichols Mine Stream Matrix Horizon; place fields cc2=US, stp=Florida, cny=Polk. Recorded age bounds: eag 11.63 Ma; lag 3.6 Ma; PBDB interval fields oei=Tortonian, oli=Zanclean. Stratigraphic fields sfm=Peace River. Recorded attribution Hulbert 1988; PBDB reference ref:1951.
+
+- Occurrence occ:184995; PBDB collection col:18135. Locality cnm=East Kat Quarry; place fields cc2=US, stp=Nebraska, cny=Cherry. Recorded age bounds: eag 12.5 Ma; lag 9.4 Ma; PBDB interval fields oei=Clarendonian. Stratigraphic fields sfm=Ash Hollow, sls=ValAH, slb=6, slo=bottom to top. Recorded attribution Hulbert 1987; PBDB reference ref:3850.
+
+## Age bounds on the recorded occurrences {#s-7ba827fd75}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:187729; the smallest recorded lag=3.6 Ma in occ:188022. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-65f498a483}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:187729: PBDB taxon-name field tna=Neohipparion trampasense; PBDB locality-coordinate fields lng=-82.099998, lat=29.799999; paleocoordinate/model fields pm1=gplates, pln=-76.49, pla=31.8.
+- occ:188022: PBDB taxon-name field tna=Neohipparion trampasense; PBDB locality-coordinate fields lng=-81.800003, lat=27.900000; paleocoordinate/model fields pm1=gplates, pln=-78.79, pla=29.15.
+- occ:184995: PBDB taxon-name field tna=Neohipparion trampasense; PBDB locality-coordinate fields lng=-100.800003, lat=42.799999; paleocoordinate/model fields pm1=gplates, pln=-95.57, pla=45.5.
+
+## References attached to each record {#s-f0fdf0b59c}
+The archived guide links the rows to 8 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:187729: Recorded attribution Hulbert 1988; PBDB reference ref:1951.
+- occ:188022: Recorded attribution Hulbert 1988; PBDB reference ref:1951.
+- occ:184995: Recorded attribution Hulbert 1987; PBDB reference ref:3850.
 
 ## Evidence limits {#s-861957d491}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 24 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-bb00ce012b}
+## 记录分类与直接上级关系 {#s-bb00ce012b}
+COL26.8 将 Eudocimus 记录为属；其直接上级记录为 Threskiornithidae。
+
 本批 Eudocimus 的 AVONET 路线包含两条有测量来源的物种记录：Eudocimus albus 与 Eudocimus ruber。固定 COL26.8 将它们归在本属下，AVONET 则保留其 HBW–BirdLife 历史名称与取样范围。
 
 ## 记录之间有什么差别 {#s-05d0025810}

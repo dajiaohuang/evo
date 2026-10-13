@@ -1,7 +1,9 @@
 ## Overview {#s-5451f22f01}
 Read the fork-marked lemur profiles by research question, not as a phylogeny or complete checklist. Begin with the geographic-variation and nomenclatural revision by Groves and Tattersall (1991): older use of the broad name *P. furcifer* does not necessarily map to one modern species. Then compare the 66-site acoustic survey at Montagne d’Ambre with the northeastern non-detection survey. Next read the single-night acoustic estimate and playback study for the pale fork-marked lemur at Kirindy, and finish by comparing forest transects with cacao-shade plantation records for the Sambirano fork-marked lemur. Each step concerns different sites, methods and evidence; they are not combined into a genus-wide range or shared ecological conclusion.
 
-## Choose comparison pages by life-history fields {#s-5c7712131d}
+## Recorded classification and direct parent {#s-5c7712131d}
+COL26.8 records Phaner Gray, 1870 at genus rank, with Cheirogaleidae Gray, 1873 as its direct parent.
+
 This batch’s Phaner route includes 4 historical life-history accounts; start with Phaner electromontis, Phaner furcifer, Phaner pallescens, Phaner parienti. More frequently represented fields include adult body mass (4 entries), offspring per litter or eggs per clutch (4 entries), conception or fertilization to birth (4 entries), longest lifespan record in the compilation (4 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-a82ddb98a1}

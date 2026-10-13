@@ -1,12 +1,12 @@
-## Name and source record {#s-5930cf9965}
-COL26.8 lists Trachemys decussata as accepted in Emydidae. The ReptTraits v1-2 record uses the workbook’s Reptile Database 2023 name framework and cites sources by trait. It condenses information to one row per species, so this row does not describe a uniform condition across all populations.
+## COL26.8 name and the ReptTraits row {#s-5930cf9965}
+COL26.8 records Trachemys decussata as an accepted species. The ReptTraits v1-2 row gives its Family field as Emydidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## How to interpret the reproduction fields {#s-ef0a8261b7}
-The source records reproductive mode as oviparous; the consolidated mean of offspring or eggs per litter/clutch is 5; litters or clutches per year: 2. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish embryonic nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-ef0a8261b7}
+The compiled mean for offspring per litter or eggs per clutch is 5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Iverson et al. 1993. The row reports 2 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## What the sources establish {#s-1ff206921e}
-The cited fields offer only a limited view of morphology and ecology, not a complete account of either. This summary follows the same-name ReptTraits v1-2 entry, including its Reptile Database 2023 name framework and trait-specific sources. A single row compresses differences in sex, age, locality, and populations. Matching names and family do not establish equivalence with later taxonomic concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels show the source chain; their presence does not confirm that each original work was separately consulted for this summary.
+## Reading this compiled trait record {#s-1ff206921e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## What the available fields do not show {#s-6fa68dd9c6}
-This record includes 3 traits with field-specific source labels. The following fields lack a usable source-linked value: Maximum length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum female length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum male length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum total length ("TL", mm); Smallest clutch size; Largest clutch size; Egg length (mm); Egg width (mm); Microhabitat; Diet; Active time; Foraging mode; Sex-determining mechanism (GSD or TSD). Blank entries and relatives cannot supply species-level facts for these fields.
+## Reading this compiled trait record {#s-6fa68dd9c6}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,19 +1,36 @@
 ## Which fossil records this name represents {#s-22036b9649}
 Pandemonium hibernalis is accepted in the fixed PBDB mammalia working roster, with database parent Pandemonium. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-0205495435}
-Collection Schowalter Locality, Wintering Hills (Alberta), region code CA, stratum name Scollard; database age bracket 66–63.4 Ma, early interval Puercan. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Pandemonium hibernalis is listed in the PBDB snapshot under taxon txn:331769. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-d9366c13c7}
-Selected occurrences have an outer age envelope of 66–63.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Schowalter Locality, Wintering Hills, occurrence occ:1304598 (66–63.4 Ma); one supplying the younger bound is Schowalter Locality, Wintering Hills, occurrence occ:1304598 (66–63.4 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-0205495435}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-6ab2a5a9fc}
-Schowalter Locality, Wintering Hills has collection-environment label "channel"; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1304598; PBDB collection col:174625. Locality cnm=Schowalter Locality, Wintering Hills; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 66 Ma; lag 63.4 Ma; PBDB interval fields oei=Puercan. Stratigraphic fields sfm=Scollard. Recorded attribution Fox et al. 2014; PBDB reference ref:57016.
 
-## Follow collection records back to references {#s-1264d9ba33}
-Schowalter Locality, Wintering Hills carries database reference attribution Fox et al. (2014), identifier ref:57016. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+?Pu2; upper part of Scollard Formation; magnetic polarity chron 29N and the stratigraphic range of the angiosperm palynomorph Wodehousia fimbriata
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+9 km southeast of the village of East Coulee, in S1/2S33, T26, R 18, W4, Wheatland, Co., Alberta (NTS Map Sheet 082p/08, UTM Zone 12 U, 398475mE, 5679550mN, 1010 m above sea level)
+
+## Age bounds on the recorded occurrences {#s-d9366c13c7}
+Across these selected PBDB rows, the largest recorded eag=66 Ma in occ:1304598; the smallest recorded lag=63.4 Ma in occ:1304598. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-6ab2a5a9fc}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1304598: PBDB original-identification field idn=Pandemonium hibernalis n. sp.; PBDB taxon-name field tna=Pandemonium hibernalis; material note ocm=UALVP 55528 - type (right m1-3); referred material: UALVP 55529 (isolated left m3); PBDB locality-coordinate fields lng=-111.230278, lat=51.988335; paleocoordinate/model fields pm1=gplates, pln=-68.65, pla=62.69.
+
+## References attached to each record {#s-1264d9ba33}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1304598: Recorded attribution Fox et al. 2014; PBDB reference ref:57016.
 
 ## Evidence limits {#s-afb8664e13}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

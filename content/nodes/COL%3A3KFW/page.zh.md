@@ -4,3 +4,6 @@ COL26.8 属级 ID 3KFW 连接接受种 C. bancanus 页面（SDLD）。可先读 
 ## 资料适用范围 {#s-bec09c40f9}
 本路径连接一个接受种页面及两项分类范围、地点和方法各异的研究；它不是完整的 Cephalopachus 名录、属级生态综合或分布评估。属级身份固定为 COL26.8 ID 3KFW。本批未新增 dossier。
 
+## 名录分类记录 {#col26-8-identity}
+在固定的 COL26.8 名录中，Cephalopachus Swainson, 1835 被记录为接受属。
+

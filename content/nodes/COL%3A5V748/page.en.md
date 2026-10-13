@@ -1,18 +1,18 @@
-## Name and this data account {#s-936b26df67}
-Anomalepis colombia is accepted in pinned COL26.8 within Anomalepididae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-936b26df67}
+COL26.8 records Anomalepis colombia as an accepted species. The ReptTraits v1-2 row gives its Family field as Anomalepididae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-21125aa80e}
-Recorded dimensions are reported maximum total length (TL) 170 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-21125aa80e}
+The row reports maximum total length (TL) of 170 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-92aa338357}
-In the entry, microhabitat is Fossorial. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-92aa338357}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## How to read reproductive records {#s-37960e459a}
-The reproductive-mode field uses the original label oviparous. These source labels do not establish fetal nutrition or uniformity across all populations. Uninterpreted clutch/litter numbers remain gaps.
+## Reproductive fields in ReptTraits {#s-37960e459a}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-68d2a4036e}
-The entry summarizes limited trait material rather than a complete account of morphology or ecology. It follows the same-name ReptTraits v1-2 record, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-68d2a4036e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-21fad0e87e}
-Three traits in the entry have field-specific source labels. The record gives no supported value and source combination for maximum SVL (mm; SCL for turtles), maximum female SVL (mm; SCL for turtles), maximum male SVL (mm; SCL for turtles), mean litter size or clutch size, smallest clutch size, largest clutch size, litters or clutches per year, egg length (mm), egg width (mm), diet, active time, foraging mode, or sex-determining mechanism (GSD or TSD). Relatives and blank entries do not fill these species-specific gaps.
+## Reading this compiled trait record {#s-21fad0e87e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

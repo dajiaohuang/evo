@@ -1,4 +1,6 @@
-## Local PanTHERIA accounts {#s-56f8a3d448}
+## Recorded classification and direct parent {#s-56f8a3d448}
+COL26.8 records Tupaiidae at family rank, with Scandentia as its direct parent.
+
 Four usable accounts in this batch are Tupaia longipes, T. minor, T. montana and T. tana. Pages preserve historical MSW05 names, field conditions and gaps. Pinned COL26.8 guides navigation; historical row counts are not current species totals.
 
 ## Adult-mass endpoints {#s-5b74c0ca5e}
@@ -14,7 +16,7 @@ Seventeen entries include Anathana ellioti, Dendrogale melanura, D. murina, Tupa
 The PanTHERIA, life-history and ecology views cover only entries meeting their batch-specific evidence and name-matching thresholds, not every descendant. Endpoints are historical summaries, field conditions differ, and route counts are not current species denominators. Food, weights and activity do not establish shared family traits. Historical inheritance and source definitions remain in force; current concepts, distribution and conservation need other evidence.
 
 ## Other PanTHERIA accounts {#s-4047684403}
-Eight usable pages include [Dendrogale melanura](Dendrogale/Dendrogale_melanura/page.en.md), [D. murina](Dendrogale/Dendrogale_murina/page.en.md), [Anathana ellioti](Anathana/Anathana_ellioti/page.en.md), [Tupaia dorsalis](Tupaia/Tupaia_dorsalis/page.en.md) and [T. gracilis](Tupaia/Tupaia_gracilis/page.en.md). Each retains MSW05 names, variable conditions and missingness.
+Eight usable pages include Dendrogale melanura, D. murina, Anathana ellioti, Tupaia dorsalis and T. gracilis. Each retains MSW05 names, variable conditions and missingness.
 
 ## Additional mass endpoints {#s-231bc4e182}
 Available sex-adjusted median endpoints are Dendrogale murina at 49.99 g and Tupaia nicobarica at 170.25 g. They are compiled summaries, not individual extremes or shared-descendant traits.
@@ -23,7 +25,7 @@ Available sex-adjusted median endpoints are Dendrogale murina at 49.99 g and Tup
 This view includes batch entries with at least one focal field, same-name/family matching and one-to-one historical correspondence. It does not cover every descendant; endpoints are summaries and conditions differ. Current concepts, range and conservation require other evidence.
 
 ## Three life-history pages {#s-ea8a875170}
-The batch has three accounts: [Tupaia montana](Tupaia/Tupaia_montana/page.en.md), [T. minor](Tupaia/Tupaia_minor/page.en.md) and [T. tana](Tupaia/Tupaia_tana/page.en.md). These links cover authored same-name pages here, not the full group.
+The batch has three accounts: Tupaia montana, T. minor and T. tana. These links cover authored same-name pages here, not the full group.
 
 ## Timing fields and records {#s-6c7e15a404}
 Gestation appears in one account; female age at first reproduction and maximum lifespan appear in none. First reproduction is not first birth or maturity, and maximum lifespan is not average lifespan. Source conditions vary; missing traits need other evidence.

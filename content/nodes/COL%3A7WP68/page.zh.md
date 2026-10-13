@@ -1,5 +1,5 @@
-## 旧属名如何查回历史行 {#s-854cbe57a3}
-固定 COL26.8 以 Psilopogon haemacephalus（7WP68）组织本页。AVONET v7 BirdLife 2020 第 9690 行与 eBird 2021 第 8657 行同名，Avibase ID 为 AVIBASE-2B7AC50E；BirdTree 第 8612 行记作 Megalaima haemacephala，匹配类型为 1BL to 1BT。已读 COL 旧组合 7VSVX 指向本页接受 ID。这些关联用于定位历史资料，不把所有年代物种边界视为完全相同。
+## COL26.8 中的名称身份 {#s-854cbe57a3}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon haemacephalus (P. L. S. Müller, 1776) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与喙翼均值 {#s-cbe924e9f8}
 形态测量共涉及 11 只：雌 4、雄 5、性别未定 2，其中 8 只有完整测量组。鼻孔前缘至喙尖均值 14.8 mm，喙宽 9.3 mm，跗蹠 19.2 mm，未压平翼长 80.6 mm，手翼指数 25.1。来源将该行标为 Inference=NO，但此标记不等于每项字段具有相同样本量；完整测量鸟数与总样本数仍须区分。指数定义为 Kipp 距离除以翼长再乘 100，不是飞行速度；喙宽也不是吞果或啄食能力实验。

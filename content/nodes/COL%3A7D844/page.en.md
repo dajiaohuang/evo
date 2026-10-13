@@ -1,29 +1,29 @@
-## The name and this data account {#s-a98195211b}
-Trogon personatus is accepted in COL26.8 within Trogonidae. AVONET v7 reports measurements under its HBW–BirdLife 2020 name. The source lists 23 measured individuals, 5 with a complete morphological set; usable sample sizes can differ among traits.
+## Row-reported mean and sample coverage {#s-a98195211b}
+The AVONET v7 row for Trogon personatus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 11.7 mm. The row records 23 measured individuals, 5 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-0ec68ab44e}
-Mean beak measurements are 11.7 mm from the anterior edge of the nostril to the tip, 8.5 mm wide and 8.9 mm deep at that edge. These are separate measurements at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-0ec68ab44e}
+AVONET records culmen length (bill tip to skull base) 18.9 mm; beak length (nostril front edge to tip) 11.7 mm; beak width at the nostril front edge 8.5 mm; beak depth at the nostril front edge 8.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-8e55ac0f49}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 125.7 mm; mean tarsus length is 14.3 mm. The compiled mean mass is 63.39 g, with source category Dunning. Mass comes from separate species-average information, so these morphology records do not show that every bird was weighed.
+## Wing and body measures use separate sources {#s-8e55ac0f49}
+AVONET records unflattened wing length 125.7 mm; tarsus length 14.3 mm; distance from first secondary tip to longest primary tip 46.9 mm; length to first secondary tip 78.3 mm; hand-wing index 37.5; tail length 157.8 mm; species-average body mass 63.39 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-afb2d79616}
-The dataset lists Forest as the habitat, Omnivore as the trophic niche and Insessorial as the lifestyle. These are dominant categories for cross-species comparison, not claims of exclusive use of one habitat or food.
+## Recorded habitat and feeding categories {#s-afb2d79616}
+AVONET classifies Trogon personatus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-5fc76b37be}
-The migration field classifies the record as sedentary. Historical breeding and resident maps have latitude endpoints of -20.4° and 11.16°. They do not show every non-breeding movement or provide a current position or global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-5fc76b37be}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -20.4° to 11.16°. The mapped range area is 745904.62 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-1860ab4116}
-This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; matching names do not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-1860ab4116}
+EltonTraits 1.0 has a same-name, same-family record for Trogon personatus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-2d000c1a3c}
-The archive's nonzero food weights are invertebrates 50% and fruit 50%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions; they do not measure diet composition, and a zero does not prove that an item is never eaten. Nect, Seed and PlantO are broader categories than their everyday names.
+## Relative weights across food categories {#s-2d000c1a3c}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; fruit 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-f4ec895949}
-Species-level foraging-stratum weights are 70% for trees or high bushes from 2 m upward but below the canopy, and 30% in or just above the canopy. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have distinct source definitions; they are not elevation ranges and cannot establish flight heights or habitat area.
+## Foraging positions are not a time budget {#s-f4ec895949}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 70%; in the canopy 30%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-d0875f1144}
-The selected field groups carry source label Ref_6. Diet, strata and activity can draw on different materials; the same Ref number in bird and mammal reference tables does not necessarily identify the same source. The batch archive retains original strings by file, row, field group and reference table. Underlying books and papers have not been read individually; source labels are not independent observations.
+## Sources and field limits {#s-d0875f1144}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.6.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.6.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-c2456683c3}
 This page brings together historical AVONET v7 measurements and range categories with EltonTraits 1.0 foraging records. AVONET morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so morphology sample counts cannot be applied to it. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name support the association but do not prove equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

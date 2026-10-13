@@ -1,5 +1,5 @@
-## Find rows through older Puffinus combinations {#s-2d79a4bdda}
-COL26.8 accepts *Ardenna pacifica* (D5KCT). BirdLife 2020 row 10088 and eBird 2021 row 934 share the name and Avibase ID AVIBASE-E94A7272; their crosswalk type is 1BL to 1eBird. BirdTree row 936 instead lists *Puffinus pacificus* (1BL to 1BT). The catalogue synonym S3BHW points to the accepted ID. These name changes help trace older sources but do not show that species boundaries stayed the same.
+## A name fixed to COL26.8 {#s-2d79a4bdda}
+Catalogue of Life release COL26.8 records Ardenna pacifica (J. F. Gmelin, 1789) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-32fd96814b}
 The morphology record covers 5 birds: 2 females, 2 males and 1 of unrecorded sex; 4 have complete measurement sets. Historical row means are 30.7 mm for beak length from nostril to tip, 46.9 mm for tarsus, 296.8 mm for unflattened wing, 130.4 mm for tail and 61.4 for hand-wing index. Since only 4 sets are complete, not every bird contributes to every field. Inference=NO does not replace each measurement's sample denominator. The hand-wing index is Kipp's distance divided by wing length ×100, not flight speed; beak length alone gives neither bite force nor prey-handling ability.

@@ -1,5 +1,5 @@
-## Find rows through older Dendroica combinations {#s-9f586d304c}
-Pinned COL26.8 organizes this page at Setophaga nigrescens (4X3BX). BirdLife 2020 row 6347 and eBird 2021 row 9604 share the name and Avibase ID AVIBASE-6B7A93C5, with type 1BL to 1eBird; BirdTree row 9543 gives Dendroica nigrescens, with type 1BL to 1BT. Read catalogue synonym 6CJF4 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-9f586d304c}
+Catalogue of Life release COL26.8 records Setophaga nigrescens (J. K. Townsend, 1837) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-edbfa1bd68}
 Morphology comprises 10 birds: 5 female, 5 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 6.9 mm, tarsus 18.2 mm, unflattened wing 63.2 mm, tail 49 mm and hand-wing index 23.4 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

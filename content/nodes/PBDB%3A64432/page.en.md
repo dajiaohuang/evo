@@ -1,19 +1,33 @@
 ## Which fossil records this name represents {#s-6fa651468e}
 Mixocetus elysius is accepted in the fixed PBDB mammalia working roster, with database parent Mixocetus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-b0d5ad9b73}
-Collection Lincoln Heights (California), region code US, stratum name Modelo; database age bracket 11.63–7.246 Ma, early interval Tortonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Mixocetus elysius is listed in the PBDB snapshot under taxon txn:64432. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-476e5c3756}
-Selected occurrences have an outer age envelope of 11.63–7.246 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Lincoln Heights, occurrence occ:148358 (11.63–7.246 Ma); one supplying the younger bound is Lincoln Heights, occurrence occ:148358 (11.63–7.246 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-b0d5ad9b73}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-7233beb0f9}
-Lincoln Heights has collection-environment label coastal indet.; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:148358; PBDB collection col:13098. Locality cnm=Lincoln Heights; place fields cc2=US, stp=California, cny=Los Angeles. Recorded age bounds: eag 11.63 Ma; lag 7.246 Ma; PBDB interval fields oei=Tortonian. Stratigraphic fields sfm=Modelo. Recorded attribution Kellogg 1934; PBDB reference ref:10152.
 
-## Follow collection records back to references {#s-b3cd2601c6}
-Lincoln Heights carries database reference attribution Kellogg (1934), identifier ref:10152. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+It is not crystal clear from Kelogg (1934) what age this fossil is from. He states that the Elysian Park sandstone "is to be correlated with the  Monterey Formation [...] above the top of the Valvulineria californica  zone". There is no discussion of the Elysian Park sandstone in the geological literature, but Bussino & Barnes, 1984 give it an age of 10-11 Mya.
+
+## Age bounds on the recorded occurrences {#s-476e5c3756}
+Across these selected PBDB rows, the largest recorded eag=11.63 Ma in occ:148358; the smallest recorded lag=7.246 Ma in occ:148358. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-7233beb0f9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:148358: PBDB original-identification field idn=Mixocetus elysius n. gen. n. sp.; PBDB taxon-name field tna=Mixocetus elysius; PBDB locality-coordinate fields lng=-118.199448, lat=34.083611; paleocoordinate/model fields pm1=gplates, pln=-114.35, pla=35.74.
+
+## References attached to each record {#s-b3cd2601c6}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:148358: Recorded attribution Kellogg 1934; PBDB reference ref:10152.
 
 ## Evidence limits {#s-9a4c024800}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## 沿三种属名定位历史资料 {#s-ad58c5fcc6}
+## 记录分类与直接上级关系 {#s-ad58c5fcc6}
+COL26.8 将 Locustella 记录为属；其直接上级记录为 Locustellidae。
+
 本批七条导读按 COL26.8 Locustella（5G59）与 Locustellidae（C5V）组织。四条 BirdTree 旧 Bradypterus 组合均有逐字目录异名；caudata／tacsanowskia 的旧词尾为 caudatus／tacsanowskius。ochotensis／pryeri／certhiola 的 BirdTree 同名，但 eBird 使用 Helopsaltes；虽各 Avibase ID与 BirdLife相同，所读 hel 分片未确认逐字名称。另四条 eBird同名，均保留一对一类型。目录属24个直接子项，原4测量与3生活史路线各保留，本批七页不计全属完整内容。
 
 ## 两只完整与三只总数分开 {#s-0f955e1129}
@@ -7,14 +9,14 @@ seebohmi 两只雌雄各一，完整两只；caudata 三只雌一雄二，完整
 ## 四种栖地和三种迁移代码 {#s-a0ec2e910c}
 栖地四Shrubland、一Forest caudata、一Wetland pryeri、一Grassland seebohmi；密度两1、三2、两3。ochotensis 的 Shrubland／密度3与 luteoventris 的 Shrubland／密度1不能被同一栖地词合并。五Generalist表示无单一主导活动方式；pryeri／certhiola 两Insessorial表示较多栖停，不给准确高度。七Invertivore／Carnivore分别使用60%／70%定义阈值，不是实测食谱；四迁移3、luteoventris／caudata两迁移2、seebohmi一迁移1。长距离、部分迁移与留居按原定义，不补路线、季节日期或代码原因，也不把湿地解释成实测游泳或潜水。
 
-## 从两套完整与名称表差别开始 {#s-8b4178777b}
+## AVONET成员记录 {#s-8b4178777b}
 先读 caudata／seebohmi：两套完整相同，但总鸟数三／二、栖地Forest／Grassland、迁移2／1不同。再对读 ochotensis／luteoventris 的 Shrubland密度3／1。沿 ochotensis／pryeri／certhiola 查 eBird Helopsaltes，沿另四种查 BirdTree Bradypterus，保留未确认的逐字目录对应。原四测量与三生活史入口继续单列，数值和概念不自动合并。
 
-第1组：[Locustella luteoventris](Locustella_luteoventris/page.zh.md)、[Locustella ochotensis](Locustella_ochotensis/page.zh.md)、[Locustella caudata](Locustella_caudata/page.zh.md)、[Locustella pryeri](Locustella_pryeri/page.zh.md)
+第1组：Locustella luteoventris、Locustella ochotensis、Locustella caudata、Locustella pryeri
 
-第2组：[Locustella seebohmi](Locustella_seebohmi/page.zh.md)、[Locustella tacsanowskia](Locustella_tacsanowskia/page.zh.md)、[Locustella certhiola](Locustella_certhiola/page.zh.md)
+第2组：Locustella seebohmi、Locustella tacsanowskia、Locustella certhiola
 
-## 本地数据阅读路径 {#s-6dc14d5f15}
+## 记录分类与成员材料 {#s-6dc14d5f15}
 Locustella 的本批阅读路径包含 4 条有测量来源的物种记录，可从 Locustella fluviatilis、Locustella lanceolata、Locustella luscinioides、Locustella naevia 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-b8463fd848}
@@ -25,6 +27,6 @@ Locustella 的本批路线包含 3 条历史生活史导读，可从 Locustella 
 
 ## 证据边界 {#s-8d322d5972}
 本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
 另增七条历史导读；四 Bradypterus异名与三 Helopsaltes未确认名称分开，形态与Dunning体重分开，不计24目录子项完整内容、当前地图。
 

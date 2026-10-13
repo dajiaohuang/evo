@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-bb39282245}
+## 记录分类与直接上级关系 {#s-bb39282245}
+COL26.8 将 Sasia 记录为属；其直接上级记录为 Picumninae。
+
 本批 Sasia 阅读路径包含两条有测量来源的物种记录：*Sasia abnormis* 与 *Sasia ochracea*。AVONET v7 数值保留 HBW–BirdLife 历史名称和采样范围，目录层级则按固定 COL26.8 组织。
 
 ## 记录之间有什么差别 {#s-5af18b63d6}

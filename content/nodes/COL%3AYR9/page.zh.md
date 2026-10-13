@@ -1,4 +1,6 @@
-## 一条 PanTHERIA 记录 {#s-58e92781a8}
+## 记录分类与直接上级关系 {#s-58e92781a8}
+COL26.8 将 Aplodontia 记录为属；其直接上级记录为 Aplodontiidae。
+
 本地 PanTHERIA 路径包括一条可用数据记录：Aplodontia rufa。记录保留历史 MSW05 名称、变量条件和缺失数据。固定版本 COL26.8 用于导航；历史行不代表当前接受物种分母。
 
 ## 两端点均为同一个成体体重值 {#s-e5454e636a}

@@ -1,21 +1,23 @@
-## 24 catalogue species with distinct evidence scopes {#s-ca46d48e0e}
+## Recorded classification and direct parent {#s-ca46d48e0e}
+COL26.8 records Pternistis Wagler, 1832 at genus rank, with Phasianidae as its direct parent.
+
 The pinned COL26.8 Pternistis queue has 24 accepted species; this page routes through historical sources for all 24. Twenty-one rows have non-inferred morphology and one-to-one older-genus links. castaneicollis has non-inferred morphology but shares an older BirdTree concept with atrifrons; atrifrons has inferred traits and split-derived mass, and harwoodi has an inferred tail. These are data guides, with natural history and conservation status still incomplete.
 
 ## Single birds, one sex and larger samples {#s-debdcf2c66}
-[Pternistis swierstrai](Pternistis_swierstrai/page.en.md) has one male morphology bird; [Pternistis nobilis](Pternistis_nobilis/page.en.md) only two females; [Pternistis camerunensis](Pternistis_camerunensis/page.en.md) four females and [Pternistis hartlaubi](Pternistis_hartlaubi/page.en.md) five males. [Pternistis castaneicollis](Pternistis_castaneicollis/page.en.md) has 13 measured birds but only three birds with complete measurement sets. Count, sex composition and the count with complete measurement sets impose separate limits, so a larger total does not give every field the same denominator.
+Pternistis swierstrai has one male morphology bird; Pternistis nobilis only two females; Pternistis camerunensis four females and Pternistis hartlaubi five males. Pternistis castaneicollis has 13 measured birds but only three birds with complete measurement sets. Count, sex composition and the count with complete measurement sets impose separate limits, so a larger total does not give every field the same denominator.
 
 ## Ground feeding leaves habitat differences {#s-8b633f9764}
-All 24 rows are Terrestrial and sedentary code 1, but habitats include forest, shrubland, woodland and grassland, with dense, semi-open and open density codes. Forest/dense in [Pternistis griseostriatus](Pternistis_griseostriatus/page.en.md) and forest/semi-open in [Pternistis jacksoni](Pternistis_jacksoni/page.en.md) show that the habitat name alone does not determine density. [Pternistis nobilis](Pternistis_nobilis/page.en.md) is Granivore, [Pternistis hildebrandti](Pternistis_hildebrandti/page.en.md) Herbivore terrestrial and [Pternistis clappertoni](Pternistis_clappertoni/page.en.md) Omnivore; ground activity does not establish identical food use.
+All 24 rows are Terrestrial and sedentary code 1, but habitats include forest, shrubland, woodland and grassland, with dense, semi-open and open density codes. Forest/dense in Pternistis griseostriatus and forest/semi-open in Pternistis jacksoni show that the habitat name alone does not determine density. Pternistis nobilis is Granivore, Pternistis hildebrandti Herbivore terrestrial and Pternistis clappertoni Omnivore; ground activity does not establish identical food use.
 
-## Choose species pages by source boundaries {#s-cc84dc741e}
+## AVONET member records {#s-cc84dc741e}
 Read samples and sources before comparing records. Start with the shared older atrifrons/castaneicollis concept and harwoodi tail inference; their values cannot simply be pooled with non-inferred rows. These five groups are navigation choices, not new taxonomy or complete ecological groupings:
 
-- 1: [Pternistis jacksoni](Pternistis_jacksoni/page.en.md), [Pternistis adspersus](Pternistis_adspersus/page.en.md), [Pternistis hartlaubi](Pternistis_hartlaubi/page.en.md), [Pternistis bicalcaratus](Pternistis_bicalcaratus/page.en.md), [Pternistis clappertoni](Pternistis_clappertoni/page.en.md)
-- 2: [Pternistis griseostriatus](Pternistis_griseostriatus/page.en.md), [Pternistis hildebrandti](Pternistis_hildebrandti/page.en.md), [Pternistis swierstrai](Pternistis_swierstrai/page.en.md), [Pternistis erckelii](Pternistis_erckelii/page.en.md), [Pternistis swainsonii](Pternistis_swainsonii/page.en.md)
-- 3: [Pternistis ahantensis](Pternistis_ahantensis/page.en.md), [Pternistis squamatus](Pternistis_squamatus/page.en.md), [Pternistis camerunensis](Pternistis_camerunensis/page.en.md), [Pternistis ochropectus](Pternistis_ochropectus/page.en.md), [Pternistis afer](Pternistis_afer/page.en.md)
-- 4: [Pternistis leucoscepus](Pternistis_leucoscepus/page.en.md), [Pternistis capensis](Pternistis_capensis/page.en.md), [Pternistis rufopictus](Pternistis_rufopictus/page.en.md), [Pternistis icterorhynchus](Pternistis_icterorhynchus/page.en.md), [Pternistis natalensis](Pternistis_natalensis/page.en.md)
-- 5: [Pternistis nobilis](Pternistis_nobilis/page.en.md), [Pternistis atrifrons](Pternistis_atrifrons/page.en.md), [Pternistis castaneicollis](Pternistis_castaneicollis/page.en.md), [Pternistis harwoodi](Pternistis_harwoodi/page.en.md)
+- 1: Pternistis jacksoni, Pternistis adspersus, Pternistis hartlaubi, Pternistis bicalcaratus, Pternistis clappertoni
+- 2: Pternistis griseostriatus, Pternistis hildebrandti, Pternistis swierstrai, Pternistis erckelii, Pternistis swainsonii
+- 3: Pternistis ahantensis, Pternistis squamatus, Pternistis camerunensis, Pternistis ochropectus, Pternistis afer
+- 4: Pternistis leucoscepus, Pternistis capensis, Pternistis rufopictus, Pternistis icterorhynchus, Pternistis natalensis
+- 5: Pternistis nobilis, Pternistis atrifrons, Pternistis castaneicollis, Pternistis harwoodi
 
-## Evidence limits {#s-a6750051fa}
+## Limits attached to these records {#s-a6750051fa}
 This is a historical AVONET v7 guide using read fields, two name crosswalks, relevant Metadata definitions and local COL name shards. Morphology and mass denominators remain separate, and historical categories are not guaranteed to equal catalogue concepts. The whole workbook, individual raw measurements, Dunning’s book and a new full methods-paper reading were not read. Breeding, plumage identification, population movements, current range and conservation status still need independent sources;
 

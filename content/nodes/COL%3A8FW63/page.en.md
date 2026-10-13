@@ -1,18 +1,20 @@
-## Start with sourced trait records {#s-359095d9d5}
+## Recorded classification and direct parent {#s-359095d9d5}
+COL26.8 records Cachryx at genus rank, with Iguanidae as its direct parent.
+
 This batch’s ReptTraits route for Cachryx includes one same-name, same-family entry with trait-specific citations. Start with Cachryx defensor. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-5d71b2a209}
 Only Cachryx defensor has a usable record in this batch’s shared length column: reported maximum snout–vent length (SVL) 155 mm. One compiled species record does not establish a cross-species size range, individual average or group size limit. Other descendants retain missing or unresolved size support.
 
-## Evidence limits {#s-ba0582279f}
+## Limits attached to these records {#s-ba0582279f}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 
-## Start with sourced trait records {#s-89b8a8d7d8}
-This batch’s ReptTraits route for Cachryx includes one same-name, same-family entry with trait-specific citations. Start with [Cachryx alfredschmidti](Cachryx_alfredschmidti/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-89b8a8d7d8}
+This batch’s ReptTraits route for Cachryx includes one same-name, same-family entry with trait-specific citations. Start with Cachryx alfredschmidti. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
-## Choose comparisons by available fields {#s-6f571f170a}
+## ReptTraits member records {#s-6f571f170a}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Limits of these trait data {#s-ac15c9ecd6}
+## ReptTraits material route {#s-ac15c9ecd6}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

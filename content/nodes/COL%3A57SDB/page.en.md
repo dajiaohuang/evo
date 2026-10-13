@@ -1,13 +1,13 @@
-## Ecological evidence {#s-86796ed0fe}
+## Seasonal feeding in one Encheng group {#s-86796ed0fe}
 In a ten-month study at Encheng Nature Reserve in Guangxi, one wild group ate 101 plant species, cliff minerals and at least one insect species. During food-scarce periods, fruit and young-leaf consumption declined as availability fell, while mature leaves and seeds served as alternatives. These observations come from one group at a fragmented karst site.
 
-## Ecological evidence {#s-7d98e3a95b}
+## Regional diet signals in fecal samples {#s-7d98e3a95b}
 Dietary metabarcoding of 27 fresh fecal samples from four wild populations at the Mayanghe and Dashahe reserves in Guizhou, collected in March 2022, identified 134 plant families and 336 genera across the two sites. The authors reported regional differences in composition. The same-season sample does not describe year-round diet or the full range.
 
-## Ecological evidence {#s-49c586f8fb}
+## Home-range estimates by grid-cell method {#s-49c586f8fb}
 At Kuankuoshui in Guizhou, one group in high-altitude habitat was followed from April 2008 to March 2009. The grid-cell estimator gave an annual home range of 50.7 hectares, with seasonal estimates of 37.7 hectares in winter–spring and 27.7 hectares in summer–autumn. The paper gives conflicting annual minimum-convex-polygon values, so only the grid-cell estimates are reported here.
 
-## Evolutionary evidence {#s-38cff60300}
+## Mitochondrial trees and species relationships {#s-38cff60300}
 A mitochondrial control-region study sequenced a 395-base-pair fragment from 178 François' langurs and identified 29 haplotypes. Its mitochondrial trees recovered the sampled species as polyphyletic relative to two closely related langurs. The authors noted that one maternally inherited marker was insufficient to settle the relationships and called for nuclear loci. This is the study's result, not a revision of the COL26.8 accepted taxonomy.
 
 ## The 2015 life-history entry and this name {#s-405248f4ba}

@@ -4,7 +4,9 @@ Alligatoridae 的比较入口把美洲短吻鳄的 2012 年触觉记录与眼镜
 ## 按材料、刺激和记录方式比较 {#s-ba3a0e52e3}
 先读 [Alligator mississippiensis](Alligator/Alligator_mississippiensis/page.zh.md) 的颌部触觉与测量下限，再到 [Crocodylus niloticus](../Crocodylidae/Crocodylus/Crocodylus_niloticus/page.zh.md) 比较体表分布及胚胎时序，最后读 [Caiman crocodilus](Caiman/Caiman_crocodilus/page.zh.md) 的颌部多类刺激记录。每步先确认研究年份、幼体／胚胎、部位及子样本；局部神经电活动不等于野外偏好，盐液未检出响应也不证明动物没有盐度感觉。沿用现有咬力、移动与生活史路径时，另核对年龄、单位和方法，不把感觉阈值换算为捕食成功率。
 
-## 从有性状记录的物种开始 {#s-4e0d7b9ad6}
+## 记录分类与直接上级关系 {#s-4e0d7b9ad6}
+COL26.8 将 Alligatoridae 记录为科；其直接上级记录为 Crocodylia。
+
 Alligatoridae 的本批 ReptTraits 阅读路径包含 8 条同名同科、有逐性状出处的物种资料，可从 Alligator mississippiensis、Alligator sinensis、Caiman crocodilus、Caiman latirostris、Caiman yacare 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 不同类群需要不同尺度 {#s-4bd703ff17}

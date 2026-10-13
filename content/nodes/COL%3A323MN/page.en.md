@@ -1,26 +1,26 @@
-## The name and this data account {#s-63d939fd38}
-Crypturellus erythropus is accepted in COL26.8 within Tinamidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-63d939fd38}
+The AVONET v7 row for Crypturellus erythropus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 10.7 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-83e91088f7}
-Recorded mean beak measurements are 10.7 mm from the anterior nostril edge to the tip, 4.9 mm in width and 4.4 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-83e91088f7}
+AVONET records culmen length (bill tip to skull base) 29 mm; beak length (nostril front edge to tip) 10.7 mm; beak width at the nostril front edge 4.9 mm; beak depth at the nostril front edge 4.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-ac90340ecb}
-Mean unflattened wing length from the carpal joint to the longest primary is 158.2 mm; mean tarsus length is 47 mm. Compiled mean mass is 485 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-ac90340ecb}
+AVONET records unflattened wing length 158.2 mm; tarsus length 47 mm; distance from first secondary tip to longest primary tip 48.1 mm; length to first secondary tip 110.6 mm; hand-wing index 30.1; tail length 48.4 mm; species-average body mass 485 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-160217737d}
-The dataset assigns habitat Shrubland, trophic niche Omnivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-160217737d}
+AVONET classifies Crypturellus erythropus as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-7d050af8ff}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -1.46° to 11.65°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-7d050af8ff}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -1.46° to 11.65°. The mapped range area is 1242529.51 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-ae301922b0}
-Crypturellus erythropus is accepted in pinned COL26.8 within Tinamidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-ae301922b0}
+EltonTraits 1.0 has a same-name, same-family record for Crypturellus erythropus covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-f377c696c5}
-Foraging-stratum weights flagged as species-level in the archive are ground 100%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-f377c696c5}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-84fd77bd29}
-The used groups carry labels Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-84fd77bd29}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-9519d81b41}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

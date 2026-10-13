@@ -1,7 +1,9 @@
 ## 概览 {#s-df852bd5be}
 这条阅读路径连接 18 个选定的 COL26.8 物种页，地点涵盖加纳、科特迪瓦、尼日利亚、贝宁、喀麦隆、加蓬、赤道几内亚、卢旺达、刚果共和国、刚果民主共和国、肯尼亚和乌干达。先读 Taï 对 C. campbelli 与 C. petaurista 的比较，再看 Bia、Okomu 和加蓬三地的取食记录，随后读 Nyungwe 的 C. denti 与 C. hamlyni 研究。贝宁生境模型、尼日尔河三角洲占域调查、Kafa 活动扫描分别回答不同的局地问题。最后读膨鼻长尾猴的警戒叫声实验，以及沃尔夫长尾猴有限的 Lomako/Lomami 记录。这些是选定研究，不是完整属级综述，也不是一套可直接合并的数据。
 
-## 按生活史字段选择对读页面 {#s-867991e6f4}
+## 记录分类与直接上级关系 {#s-867991e6f4}
+COL26.8 将 Cercopithecus Linnaeus, 1758 记录为属；其直接上级记录为 Cercopithecini。
+
 Cercopithecus 的本批路线包含 17 条历史生活史导读，可从 Cercopithecus ascanius、Cercopithecus campbelli、Cercopithecus cephus、Cercopithecus denti、Cercopithecus diana 开始。较多条目具有的字段包括 成年体重（17 条）、每窝幼体数或卵数（17 条）、汇编中最长寿命记录（17 条）、出生或孵化时体重（16 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-2656d6c209}
@@ -12,7 +14,7 @@ Cercopithecus 的本批路线包含 18 个历史条目，可从 Cercopithecus sc
 本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
-## 从已有历史条目开始 {#s-e5fd2fd131}
+## 记录分类与成员材料 {#s-e5fd2fd131}
 Cercopithecus 的本地 PanTHERIA 路径包括 8 条可用数据导读，可从 Cercopithecus ascanius、Cercopithecus cephus、Cercopithecus erythrogaster、Cercopithecus erythrotis、Cercopithecus neglectus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-8abf659caf}
@@ -21,14 +23,14 @@ Cercopithecus 的本地 PanTHERIA 路径包括 8 条可用数据导读，可从 
 ## 这组历史数据的边界 {#s-8d7b7d82d2}
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
-## 从已有历史条目开始 {#s-e27beecfd4}
-Cercopithecus 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 [Cercopithecus sclateri](Cercopithecus_sclateri/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-e27beecfd4}
+Cercopithecus 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Cercopithecus sclateri 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-6eff4bcda8}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-dff1ebcfe3}
-Cercopithecus 本批有 6 个历史生活史资料页，可从 [Cercopithecus nictitans](Cercopithecus_nictitans/page.zh.md)、[Cercopithecus erythrotis](Cercopithecus_erythrotis/page.zh.md)、[Cercopithecus cephus](Cercopithecus_cephus/page.zh.md)、[Cercopithecus pogonias](Cercopithecus_pogonias/page.zh.md)、[Cercopithecus ascanius](Cercopithecus_ascanius/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Cercopithecus 本批有 6 个历史生活史资料页，可从 Cercopithecus nictitans、Cercopithecus erythrotis、Cercopithecus cephus、Cercopithecus pogonias、Cercopithecus ascanius 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-090507be04}
 本批妊娠资料见 5 页，雌性首次繁殖年龄见 4 页，最高寿命记录见 0 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

@@ -1,5 +1,6 @@
 import { useId } from 'react'
 import { orderReadingSections, paragraphParts, readingSectionTitle, type NodeReadingSection } from '../../utils/nodeReading.mjs'
+import { ReaderInlineText } from './ReaderInlineText'
 import './NodeReadingSections.css'
 
 export interface NodeReadingSource {
@@ -7,9 +8,15 @@ export interface NodeReadingSource {
   title: string | { en?: string; zh?: string }
   url?: string
   scope?: string | { en?: string; zh?: string }
+  locator?: string
   version?: string
+  publishedAt?: string
+  accessedAt?: string
   license?: string
+  licenseVersion?: string
   licenseUrl?: string
+  licenseAppliesTo?: string
+  rights?: string
   rightsHolder?: string
   attribution?: string
 }
@@ -32,7 +39,7 @@ export function NodeReadingSections({ sections, sources, language }: {
       <h3>{readingSectionTitle(section, language)}</h3>
       {fallback && <p className="node-reading__language" role="note">{zh ? '以下保留现有原语言内容。' : 'The available source-language account is retained below.'}</p>}
       <div lang={fallback ? section.originalLanguage ?? (section.text.en ? 'en' : 'zh') : language}>
-        {paragraphParts(text).map((paragraph, index) => <p key={index}>{paragraph}</p>)}
+        {paragraphParts(text).map((paragraph, index) => <p key={index}><ReaderInlineText text={paragraph} /></p>)}
       </div>
       {!!section.context?.length && <aside className="node-reading__context" lang={section.contextLanguage ?? 'en'}>{section.context.map((context, index) => <p key={index}>{context}</p>)}</aside>}
       {!!section.sourceIds.length && <details className="node-reading__citation">
@@ -41,7 +48,16 @@ export function NodeReadingSections({ sections, sources, language }: {
           const source = sourceById.get(id)
           if (!source) return <p key={id}>{zh ? '该段的来源信息暂不可用。' : 'Source details for this passage are unavailable.'}</p>
           return <div key={id}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{sourceText(source.title)} ↗</a> : <strong>{sourceText(source.title)}</strong>}
-            {section.locator && <p>{section.locator}</p>}{source.scope && <p>{sourceText(source.scope)}</p>}
+            {section.locator && <p><strong>{zh ? '段落定位：' : 'Passage locator: '}</strong>{section.locator}</p>}
+            {source.locator && <p><strong>{zh ? '来源定位：' : 'Source locator: '}</strong>{source.locator}</p>}
+            {source.scope && <p><strong>{zh ? '范围：' : 'Scope: '}</strong>{sourceText(source.scope)}</p>}
+            {source.version && <p><strong>{zh ? '版本：' : 'Version: '}</strong>{source.version}</p>}
+            {source.publishedAt && <p><strong>{zh ? '发布日期：' : 'Published: '}</strong>{source.publishedAt}</p>}
+            {source.accessedAt && <p><strong>{zh ? '访问日期：' : 'Accessed: '}</strong>{source.accessedAt}</p>}
+            {(source.license || source.licenseVersion || source.licenseAppliesTo) && <p><strong>{zh ? '许可：' : 'License: '}</strong>{source.licenseUrl ? <a href={source.licenseUrl} target="_blank" rel="noreferrer">{source.license}</a> : source.license}{source.licenseVersion ? ` ${source.licenseVersion}` : ''}{source.licenseAppliesTo ? ` · ${source.licenseAppliesTo}` : ''}</p>}
+            {source.rights && <p><strong>{zh ? '权利说明：' : 'Rights: '}</strong>{source.rights}</p>}
+            {source.rightsHolder && <p><strong>{zh ? '权利人：' : 'Rights holder: '}</strong>{source.rightsHolder}</p>}
+            {source.attribution && <p><strong>{zh ? '署名：' : 'Attribution: '}</strong>{source.attribution}</p>}
           </div>
         })}
         {!!section.limitations?.length && <ul lang="en">{section.limitations.map((limit, index) => <li key={index}>{limit}</li>)}</ul>}

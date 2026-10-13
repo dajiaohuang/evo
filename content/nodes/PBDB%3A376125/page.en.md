@@ -20,7 +20,7 @@ The authors infer that the thin symphysis, spread rami and small muscle-attachme
 Adding the species to the original matrix left it in an unresolved relationship with Tapejarinae and Thalassodrominae. After modifying symphyseal proportions and adding jaw width, the strict consensus of five most parsimonious trees placed it as an early-diverging tapejarine. The authors also corrected serrated-tooth miscoding in toothless taxa. This distinction is retained without independently checking the supplementary matrix or rerunning analyses; inconsistent proportion-character numbering in the text is not adjudicated here.
 
 ## Compare later classification with Caupedactylus {#s-7a8b1b6129}
-The 2025 review retains the species as valid, distinguishes it from Tupandactylus by retroarticular length and the symphysis’s dorsal step, and summarizes a sister relationship with [Caupedactylus ybaka](../../Caupedactylus/Caupedactylus_ybaka/page.en.md). Its non-tapejarid tapejariform scheme differs from the 2016 paper and the fixed directory’s Tapejarinae placement. The review rejects subadult status as a sufficient explanation for the missing step. Later cited matrices were not independently read in full here.
+The 2025 review retains the species as valid, distinguishes it from Tupandactylus by retroarticular length and the symphysis’s dorsal step, and summarizes a sister relationship with Caupedactylus ybaka. Its non-tapejarid tapejariform scheme differs from the 2016 paper and the fixed directory’s Tapejarinae placement. The review rejects subadult status as a sufficient explanation for the missing step. Later cited matrices were not independently read in full here.
 
 ## Quarry-area provenance without precise coordinates {#s-8a07ecf459}
 The original study reports donation of a specimen found near Nova Olinda’s quarries, without new fieldwork or precise coordinates. It assigns the material to the Crato Formation; the 2025 review notes matrix type and coloration typical of the Nova Olinda Member while keeping the exact locality unknown. The database’s 119.57–113.2 Ma bracket remains a record boundary. Depositional waters, living habitat and geographic origin are distinct questions.
@@ -28,18 +28,48 @@ The original study reports donation of a specimen found near Nova Olinda’s qua
 ## Which fossil records this name represents {#s-a71191260b}
 PBDB lists Aymberedactylus cearensis under the genus Aymberedactylus. The selected occurrence record links this species to one collection and one reference. Record, collection and reference counts describe different database units; they are not counts of fossils or animals.
 
+PBDB occurrence record excerpt:
+Aymberedactylus cearensis is listed in the PBDB snapshot under taxon txn:376125. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## Begin with named collections and strata {#s-1fdd478380}
 Collection Nova Olinda quarries (Ceara), region code BR, stratum name Crato; database age bracket 119.57–113.2 Ma, early interval Late Aptian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+
+PBDB occurrence record excerpt:
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:1384099; PBDB collection col:77891. Locality cnm=Nova Olinda quarries; place fields cc2=BR, stp=Ceara. Recorded age bounds: eag 119.57 Ma; lag 113.2 Ma; PBDB interval fields oei=Late Aptian. Stratigraphic fields sfm=Crato. Recorded attribution Pegas et al. 2016; PBDB reference ref:63770.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+in the lower 20m of the section
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+from the stone quarries south of Nova Olinda
 
 ## Age bounds of these records {#s-ceb90e3262}
 Selected occurrences have an outer age envelope of 119.57–113.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=119.57 Ma in occ:1384099; the smallest recorded lag=113.2 Ma in occ:1384099. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## Read preservation setting separately from living habitat {#s-232ecd7774}
 Nova Olinda quarries has collection-environment label lacustrine - large; collection preservation-mode label body,replaced with pyrite,replaced with limonite. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1384099: PBDB original-identification field idn=Aymberedactylus cearensis n. gen. n. sp.; PBDB taxon-name field tna=Aymberedactylus cearensis; material note ocm=MN 7596-V - holotype (lower mandible); abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-39.700001, lat=-7.125000; paleocoordinate/model fields pm1=gplates, pln=2.59, pla=-4.99.
 
 ## Follow collection records back to references {#s-15c5520699}
 The occurrence record abbreviates its citation as Pegas et al. (2016), ref:63770. The original description is the source for the holotype anatomy and the 2025 review for the reported absence of referred specimens; the short database attribution is an index to the occurrence citation, not a substitute for those separate studies.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1384099: Recorded attribution Pegas et al. 2016; PBDB reference ref:63770.
+
 ## Evidence limits {#s-5a191ae4a0}
 MN 7596-V is one known specimen and preserves only part of the jaws; the 2025 review lists no referred specimens. Subadult status, possible horny covering, jaw mechanics and an approximately 2 m wingspan are interpretations from incomplete bones or comparison. The broad depositional setting and database age bracket do not establish a preferred habitat or a precise specimen age. A complete body, growth series and direct dietary evidence are not available in this account.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

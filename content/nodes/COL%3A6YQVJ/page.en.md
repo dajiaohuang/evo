@@ -1,12 +1,12 @@
-## Name and this data account {#s-66ea6b8133}
-Sinomicrurus sauteri is accepted in pinned COL26.8 within Elapidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-66ea6b8133}
+COL26.8 records Sinomicrurus sauteri as an accepted species. The ReptTraits v1-2 row gives its Family field as Elapidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-bc1e6e2547}
-Recorded dimensions are reported maximum total length (TL) 650 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-bc1e6e2547}
+The row reports maximum total length (TL) of 650 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-f6febfd9e0}
-In the entry, microhabitat is Fossorial; diet is Carnivorous; foraging mode is ACT. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-f6febfd9e0}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Christian et al. 2007.
 
-## Evidence limits {#s-afb95b5751}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-afb95b5751}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

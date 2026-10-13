@@ -1,28 +1,27 @@
-## Name and this data account {#s-8ad83b8ba9}
-Hydrophis schistosus is accepted in pinned COL26.8 within Elapidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-8ad83b8ba9}
+COL26.8 records Hydrophis schistosus as an accepted species. The ReptTraits v1-2 row gives its Family field as Elapidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-fc842040b0}
-Recorded dimensions are reported maximum total length (TL) 1200 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-fc842040b0}
+The row reports maximum total length (TL) of 1200 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-3dc72109bb}
-In the entry, microhabitat is Marine. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-3dc72109bb}
+The microhabitat field classifies the recorded position as Marine. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to O'Shea 1996.
 
-## How to read reproductive records {#s-4e5ada5086}
-the reproductive-mode field uses the original label viviparous; sex determination is recorded as GSD (ZW/ZZ); consolidated mean offspring or eggs per litter/clutch 7.75. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-4e5ada5086}
+The compiled mean for offspring per litter or eggs per clutch is 7.75. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to De Magalhaes and Costa 2009, Feldman et al. 2015. The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to O'Shea 2011. The sex-determining-mechanism field records GSD (ZW/ZZ). ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## The 2015 life-history entry and this name {#s-898bf51ff6}
-Hydrophis schistosus is accepted in pinned COL26.8 within Elapidae. This page compares the same-name historical life-history entry using 3 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## A 2015 life-history row for this name {#s-898bf51ff6}
+COL26.8 records Hydrophis schistosus as an accepted species. The August 2015 life-history table has a species-name and family match (Elapidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-8714c1c8ac}
-Historical summary values are adult body mass 1294 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Length values in the archived records {#s-8714c1c8ac}
+Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 1294 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
-## Reproduction and developmental timing {#s-d83c07f465}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 639.03 d; offspring per litter or eggs per clutch 7.75 offspring/eggs; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive events in the life-history table {#s-d83c07f465}
+Field-specific archive notes: female maturity field (defined by the source as age at first conception): a mean of cited source values; offspring per litter or eggs per clutch: median of 16 recorded source-table values. These counts refer to archived table inputs, not individual animals. The female maturity field is 639.03 d; the archive defines it as age at first conception. The 2015 archive's field citation is IUCN, 2011. The offspring-per-litter or eggs-per-clutch summary is 7.75; it is not a count from one event. The 2015 archive's field citation is IUCN, 2011; Greer, A.E, 1997.
 
-## How to trace these values to sources {#s-48bdff21e0}
-Same-name sparse rows carry source labels including Boback and Guyer, 2003; IUCN, 2011; Greer, A.E, 1997. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## The August 2015 life-history table {#s-48bdff21e0}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-5a4fa57e7f}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
-This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
+## Separate histories in the two archives {#s-5a4fa57e7f}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

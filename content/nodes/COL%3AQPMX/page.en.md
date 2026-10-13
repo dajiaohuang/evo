@@ -1,5 +1,5 @@
-## Find rows through older Thryothorus combinations {#s-fe50386bd6}
-Pinned COL26.8 organizes this page at Cantorchilus leucotis (QPMX). BirdLife 2020 row 8445 and eBird 2021 row 1659 share the name and Avibase ID AVIBASE-DF6E7F1C, with type 1BL to 1eBird; BirdTree row 1653 gives Thryothorus leucotis, with type 1BL to 1BT. Catalogue synonym 56N7N, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-fe50386bd6}
+Catalogue of Life release COL26.8 records Cantorchilus leucotis (Lafresnaye, 1845) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-2032d4e95f}
 Morphology comprises 15 birds: 4 female, 7 male and 4 unsexed; 5 complete sets. Nostril-to-tip beak length 12.4 mm, tarsus 22 mm, unflattened wing 62.1 mm, tail 48.1 mm and hand-wing index 12.2 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

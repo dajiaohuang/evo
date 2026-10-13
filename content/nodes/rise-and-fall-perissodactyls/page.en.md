@@ -1,7 +1,7 @@
-## How odd-toed ungulate diversity changed {#s-5d8fd709b5}
-Across 56 million years, fossil records show changing perissodactyl diversity and only a few living branches.
+## Perissodactyls across a changing 56-million-year record {#s-5d8fd709b5}
+From PETM-era first samples to a few living branches, the fossil record tracks changing perissodactyl diversity; it does not reveal the exact origin or a single cause for later turnover.
 
-## First sampled fossils near the PETM {#s-43fbd2c40e}
+## Earliest sampled fossils appear near the PETM {#s-43fbd2c40e}
 The earliest sampled perissodactyl fossils occur during the Paleocene–Eocene Thermal Maximum (PETM) on northern landmasses. They do not reveal the exact place or time when the group originated.
 
 ## Different browsing records in the Eocene {#s-04809e8e2e}

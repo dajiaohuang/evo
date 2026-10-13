@@ -1,4 +1,4 @@
-## atlas-profile / overview {#s-bce24f3d40}
+## A subadult holotype extends the sampled record {#s-bce24f3d40}
 A small-bodied Late Triassic plesiosaurian represented by holotype LWL-MFN P 64047; its articulated anatomy and phylogenetic analysis extend the sampled plesiosaurian record into the Rhaetian without making the specimen a direct ancestor.
 
 ## atlas-profile / ecology / diet {#s-f1c36c9096}
@@ -25,8 +25,8 @@ Ventrally concave V-shaped neurocentral sutures in anterior and middle cervical 
 ## atlas-profile / traits {#s-dd23ad187d}
 Foreshortened zeugopodials and highly vascularized humeral and femoral bone tissue
 
-## atlas-profile / evidenceSummary {#s-aaa0527ff2}
-Wintrich et al. describe holotype LWL-MFN P 64047 from a defined bed in the Exter Formation at Bonenburg, 21 m below the Triassic–Jurassic boundary. Figures and supplementary sections document the skeleton and histology; basal pliosaurid placement, fast growth and physiological implications remain topology- and interpretation-dependent.
+## Holotype, horizon and histology evidence {#s-aaa0527ff2}
+The Exter Formation holotype documents anatomy and histology; basal placement and physiological implications remain analysis-dependent.
 
 ## One skeleton gives a bounded portrait {#s-ef26b69f97}
 Rhaeticosaurus mertensi is known from the subadult holotype LWL-MFN P 64047, a partly articulated skeleton from a Rhaetian bed in Germany's Exter Formation. It preserves the back of the skull, lower jaw, spine, shoulder and hip girdles, and left limbs. The published total-length estimate is 237 cm; it describes this individual, not a size range for the genus. The specimen extends the sampled plesiosaur record into the Rhaetian, but it is not identified as an ancestor of later plesiosaurs.

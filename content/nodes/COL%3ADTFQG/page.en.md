@@ -1,5 +1,5 @@
-## sampling window {#s-67d724a017}
-Estrada-Grossmann and colleagues studied food boluses regurgitated by cormorants at one wild colony on Peru’s Grande Pescadores Island. They collected a pre-spill sample in November 2018, then sampled from August through November 2022, seven to eleven months after the January oil spill. Because they did not identify or track individual birds, the two samples describe the colony at different times rather than change in the same birds.
+## A name fixed to COL26.8 {#s-67d724a017}
+Catalogue of Life release COL26.8 records Leucocarbo bougainvilliorum (R. P. Lesson, 1837) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## prey composition {#s-bf4f75595c}
 Across the samples, the researchers identified five fish species. Peruvian anchoveta (Engraulis ringens) was the predominant prey in both periods. Its numerical share was 99.736% before and 99.168% after the spill; its occurrence share was 98.165% and 99.881%, respectively. The article gives conflicting post-spill totals: Methods and Results report 998 boluses, while Table 1 lists N = 837. The percentages above follow Table 1 as printed; they have not been recalculated.

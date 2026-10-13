@@ -1,5 +1,5 @@
-## 从 Rallina 旧组合定位当前页面 {#s-8d0aa29baf}
-本页按 COL26.8 Rallicula forbesi（4RB98）及 Sarothruridae（CPHSJ）组织。BirdLife 2020 第 2696 行使用本页种名，原科名 Rallidae；eBird 2021 第 9076 行与 BirdTree 第 9022 行都记 Rallina forbesi。关联类型分别为 1BL to 1eBird、1BL to 1BT；eBird 两侧 Avibase ID 同为 AVIBASE-5AD47186。逐字目录异名 4RB9G 指向接受种 4RB98。旧属名和旧科名保留为来源记录，名称关联不证明历史与当前物种范围完全相同。
+## COL26.8 中的名称身份 {#s-8d0aa29baf}
+《Catalogue of Life》COL26.8（2026-08-20）将 Rallicula forbesi Sharpe, 1887 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-73ec563fb6}
 形态共 6 只鸟：雌 2、雄 4、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 15.8 mm、跗蹠 38.3 mm、未压平翼长 106.7 mm、尾长 56.8 mm、手翼指数 6 是历史行均值。总数大于完整数，不称每只鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；低指数不能据此判定不能飞，翼长也不是实测飞行能力。

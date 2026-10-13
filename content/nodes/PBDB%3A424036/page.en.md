@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-d7ec15c325}
 Samaydelphis chacaltanae is accepted in the fixed PBDB mammalia working roster, with database parent Samaydelphis. This guide uses 4 eligible species-level occurrence records from 4 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-cc9e2ce101}
-Collection Cerro Colorado O25 (Ica), region code PE, stratum name Pisco; database age bracket 11.63–7.246 Ma, early interval Tortonian. Collection Cerro la Bruja, south, Tortonian (Ica), region code PE, stratum name Pisco; database age bracket 11.63–7.246 Ma, early interval Tortonian. Collection Correviento (Ica), region code PE, stratum name Pisco; database age bracket 11.63–7.246 Ma, early interval Tortonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Samaydelphis chacaltanae is listed in the PBDB snapshot under taxon txn:424036. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-dd6e52e55a}
-Selected occurrences have an outer age envelope of 11.63–7.246 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Cerro Colorado O25, occurrence occ:1516725 (11.63–7.246 Ma); one supplying the younger bound is Cerro Colorado O25, occurrence occ:1516725 (11.63–7.246 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-cc9e2ce101}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-b4eb3ebd3e}
-Cerro Colorado O25 has collection-environment label marine indet.; collection preservation-mode label body,concretion. Cerro la Bruja, south, Tortonian has collection-environment label marine indet.; collection preservation-mode label body,original phosphate. Correviento has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1516725; PBDB collection col:211785. Locality cnm=Cerro Colorado O25; place fields cc2=PE, stp=Ica. Recorded age bounds: eag 11.63 Ma; lag 7.246 Ma; PBDB interval fields oei=Tortonian. Stratigraphic fields sfm=Pisco. Recorded attribution Lambert et al. 2021; PBDB reference ref:73186.
 
-## Follow collection records back to references {#s-e459cbf406}
-Cerro Colorado O25 carries database reference attribution Lambert et al. (2021), identifier ref:73186. Cerro la Bruja, south, Tortonian carries database reference attribution Lambert et al. (2021), identifier ref:73186. Correviento carries database reference attribution Lambert et al. (2021), identifier ref:73186. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Pisco Formation, P1 allomember (‘Cerro Colorado lower allomember’ in Di Celma et al. 2016), at 55.3 m above the contact with the underlying Chilcatay Formation (Fig. 2). This specimen is c. 25 m above a radiometrically dated volcanic ash layer (CC-T1, 9.1±0.04 Ma), c. 20 m above the first occurrence (FO) of Koizumia tatsunokuchiensis (9.0 Ma), c. 3 m above the last occurrence (LO) of P1 allomember. Lithodesmium reynoldsii (8.9 Ma), and c. 10 m below the LO of Denticulopsis praekatayamae (8.5 Ma). As such, diatom biostratigraphy and calculated 40Ar/39Ar ages converge to indicate an interval of deposition for the specimen-bearing strata between 8.9 and 8.5 Ma (Tortonian, early late Miocene).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+The specimens are indicated with the field number O25 in the fossil map published by Bianucci et al. [17].
+
+- Occurrence occ:1516726; PBDB collection col:211786. Locality cnm=Cerro la Bruja, south, Tortonian; place fields cc2=PE, stp=Ica, cny=Ocucaje. Recorded age bounds: eag 11.63 Ma; lag 7.246 Ma; PBDB interval fields oei=Tortonian. Stratigraphic fields sfm=Pisco. Recorded attribution Lambert et al. 2021; PBDB reference ref:73186.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+P1 allomember
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Ica Department, Cerro La Bruja, c. 14°32’08.13”S, 75°39’39.45”W
+
+- Occurrence occ:1516727; PBDB collection col:211787. Locality cnm=Correviento; place fields cc2=PE, stp=Ica. Recorded age bounds: eag 11.63 Ma; lag 7.246 Ma; PBDB interval fields oei=Tortonian. Stratigraphic fields sfm=Pisco. Recorded attribution Lambert et al. 2021; PBDB reference ref:73186.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+P1 or P2 allomember
+
+## Age bounds on the recorded occurrences {#s-dd6e52e55a}
+Across these selected PBDB rows, the largest recorded eag=11.63 Ma in occ:1516725; the smallest recorded lag=7.246 Ma in occ:1516725. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-b4eb3ebd3e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1516725: PBDB original-identification field idn=Samaydelphis chacaltanae n. gen. n. sp.; PBDB taxon-name field tna=Samaydelphis chacaltanae; PBDB locality-coordinate fields lng=-75.901947, lat=-14.331667; paleocoordinate/model fields pm1=gplates, pln=-73.66, pla=-13.73.
+- occ:1516726: PBDB taxon-name field tna=Samaydelphis chacaltanae; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-75.660835, lat=-14.535556; paleocoordinate/model fields pm1=gplates, pln=-73.42, pla=-13.94.
+- occ:1516727: PBDB taxon-name field tna=Samaydelphis chacaltanae; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-75.748055, lat=-14.446667; paleocoordinate/model fields pm1=gplates, pln=-73.51, pla=-13.85.
+
+## References attached to each record {#s-e459cbf406}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1516725: Recorded attribution Lambert et al. 2021; PBDB reference ref:73186.
+- occ:1516726: Recorded attribution Lambert et al. 2021; PBDB reference ref:73186.
+- occ:1516727: Recorded attribution Lambert et al. 2021; PBDB reference ref:73186.
 
 ## Evidence limits {#s-f3d2e33fbf}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

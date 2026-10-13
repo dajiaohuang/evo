@@ -1,4 +1,4 @@
-## Ecological evidence {#s-443d89484f}
+## Three groups across two cerrado types {#s-443d89484f}
 de Miranda and de Faria observed three free-ranging black-tufted-ear marmoset groups in Brazil’s Federal District: one in cerradão and two in dense cerrado. Weekly observations ran from March to December 1996 across the end of the rainy season, dry season and start of the next rainy season; group sizes ranged from 4 to 11. Scan records included individuals’ vertical and horizontal positions, and twin births were observed in two RECOR groups. These observations describe a few sites and a bounded period, not a species-wide population estimate or year-round reproductive rule.
 
 ## Evidence limits {#s-1cbd0de38a}

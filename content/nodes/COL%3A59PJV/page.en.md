@@ -1,5 +1,5 @@
-## Locate names using source spellings {#s-88647c6ec5}
-Pinned COL26.8 organizes this page at Turdoides hartlaubii (59PJV). BirdLife 2020 row 4940 and eBird 2021 row 10762 share the name and Avibase ID AVIBASE-CD65BECB, with type 1BL to 1eBird. BirdTree row 10693 gives Turdoides hartlaubii, with type 1BL to 1BT. The table and catalogue accepted name match exactly without establishing identical species boundaries across dates. Source family Leiotrichidae and catalogue ancestor Leiothrichidae retain their original spellings.
+## A name fixed to COL26.8 {#s-88647c6ec5}
+Catalogue of Life release COL26.8 records Turdoides hartlaubii (Barboza du Bocage, 1868) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-afbe9e576d}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 13.4 mm, tarsus 34.7 mm, unflattened wing 111.5 mm, tail 113.2 mm and hand-wing index 10.3 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

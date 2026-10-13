@@ -1,5 +1,5 @@
-## Find rows through older Schizoeaca／Oreophylax combinations {#s-f5a33f39fe}
-Pinned COL26.8 organizes this page at Asthenes palpebralis (DD9G6). BirdLife 2020 row 4205 and eBird 2021 row 1050 share the name and Avibase ID AVIBASE-48C5FC42, with type 1BL to 1eBird; BirdTree row 1051 gives Schizoeaca palpebralis, with type 1BL to 1BT. Read catalogue synonym 79X6D points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-f5a33f39fe}
+Catalogue of Life release COL26.8 records Asthenes palpebralis (Cabanis, 1873) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-e16ef1d280}
 Morphology comprises 6 birds: 1 female, 5 male and 0 unsexed; 2 complete sets. Nostril-to-tip beak length 9.5 mm, tarsus 24.1 mm, unflattened wing 57.9 mm, tail 114 mm and hand-wing index 11.4 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

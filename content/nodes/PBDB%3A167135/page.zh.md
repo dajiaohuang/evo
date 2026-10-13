@@ -34,18 +34,70 @@ FSAC-KK 34 是一段颈椎后端，2010 年系统描述将它列为未定种的 
 ## 三条所选记录，三个采集地 {#s-8f5d2a2130}
 固定 Paleobiology Database（PBDB）翼龙名录接受 Alanqa saharica，数据库父级为 Alanqa。本页使用三条可用种级出现记录，关联三个采集地和一个数据库引文编号。出现、采集和引文计数不同，不是化石或动物个体数。
 
+PBDB 出现记录补充:
+Alanqa saharica 在 PBDB 快照中对应分类条目 txn:167135。这份存档导读包含 3 条选取的出现记录，关联 3 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## Drâa-Tafilalet 的三个具名地点 {#s-ee7515a49e}
 三条采集记录分别是 Hamada du Guir pterosaurs (BSPG)、Boumerade, Lake Maider 和 Aferdou N'Chaft，地点均记在摩洛哥 Drâa-Tafilalet，地区代码 MA。三条记录的数据库年代范围都是 100.5–93.9 Ma，较老端归入 Early Cenomanian。数据库地点名称帮助识别所选记录，但不构成本种的完整分布图。
+
+PBDB 出现记录补充:
+存档导读包含 3 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:819572；PBDB 采集记录 col:90076。 地点字段 cnm=Hamada du Guir pterosaurs (BSPG)；地点分区字段 cc2=MA，stp=Drâa-Tafilalet，cny=Errachidia。 记录年代界：eag 100.5 Ma; lag 93.9 Ma；PBDB 年代区间字段 oei=Early Cenomanian。 记录署名 Ibrahim et al. 2010；PBDB 引文编号 ref:32662。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Based on the nearby town Taouz. Specimens were collected privately so locality information is unavailable. Ibrahim et al. (2010) suggest that this material might be collected from their Aferdou N'Chaft locality.
+
+- 出现记录 occ:867574；PBDB 采集记录 col:96222。 地点字段 cnm=Boumerade, Lake Maider；地点分区字段 cc2=MA，stp=Drâa-Tafilalet，cny=Errachidia。 记录年代界：eag 100.5 Ma; lag 93.9 Ma；PBDB 年代区间字段 oei=Early Cenomanian。 记录署名 Ibrahim et al. 2010；PBDB 引文编号 ref:32662。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Fossils were collected from an "approximately 2m thick horizon"; age of the Kem Kem is poorly constrained, but a Cenomanian age is supported by vertebrate biostratigraphy
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Boumerade locality is near Lake Maider; longitude coordinates are given in the text as east, but this appears to be an error
+
+- 出现记录 occ:867575；PBDB 采集记录 col:96223。 地点字段 cnm=Aferdou N'Chaft；地点分区字段 cc2=MA，stp=Drâa-Tafilalet，cny=Errachidia。 记录年代界：eag 100.5 Ma; lag 93.9 Ma；PBDB 年代区间字段 oei=Early Cenomanian。 记录署名 Ibrahim et al. 2010；PBDB 引文编号 ref:32662。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Fossils were collected from an "approximately 2m thick horizon"; age of the Kem Kem is poorly constrained, but a Cenomanian age is supported by vertebrate biostratigraphy
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+near the village of Begaa and 10 km north-east of Taouz; longitude coordinates are given in the text as east, but this appears to be an error
 
 ## 所选记录的年代外界 {#s-10009e4228}
 所选记录合并后的数据库年代范围为 100.5–93.9 Ma（Ma 为百万年前）。这是各记录较老与较年轻边界的外界，不代表整段时间都有化石，也不能直接给出物种起源、灭绝或寿命。每个采集地仍有自己的宽年代区间。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=100.5 Ma，见 occ:819572；最小记录 lag=93.9 Ma，见 occ:819572。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 采集标签不等于生活方式 {#s-7e7b6f3d41}
 三个采集地在数据库中都标为“fluvial indet.”环境与“body”保存方式。这些字段描述沉积环境和集合级保存类别，不是 Alanqa 的生活栖地或食性记录，也未必概括每件标本。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:819572：PBDB 分类名称字段 tna=Alanqa saharica；材料说明字段 ocm=BSP 1996 I 36, lower jaw fragment；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=-3.983333，lat=30.900000；古坐标／模型字段 pm1=gplates，pln=7.44，pla=25.28。
+- occ:867574：PBDB 分类名称字段 tna=Alanqa saharica；材料说明字段 ocm=FSAC-KK 31, partial mandibular symphysis；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=-4.715278，lat=30.546944；古坐标／模型字段 pm1=gplates，pln=6.65，pla=25.22。
+- occ:867575：PBDB 原鉴定字段 idn=Alanqa saharica n. gen. n. sp.；PBDB 分类名称字段 tna=Alanqa saharica；材料说明字段 ocm=FSAC-KK 26 (holotype), mandibular symphysis. FSAC-KK 27, partial rostrum；丰度字段 abv=2，abu=specimens；PBDB 地点坐标字段 lng=-3.870278，lat=30.897499；古坐标／模型字段 pm1=gplates，pln=7.54，pla=25.24。
 
 ## 采集记录与解剖解释对应不同文献 {#s-7692a05dda}
 三条采集记录都附有 Ibrahim et al.（2010），引文编号 32662。解剖讨论还涉及 2010 年物种描述、2020 年吻部改释和 2023 年颌骨归属综述；这些文献分别讨论不同标本和解释。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:819572：记录署名 Ibrahim et al. 2010；PBDB 引文编号 ref:32662。
+- occ:867574：记录署名 Ibrahim et al. 2010；PBDB 引文编号 ref:32662。
+- occ:867575：记录署名 Ibrahim et al. 2010；PBDB 引文编号 ref:32662。
+
 ## 资料边界 {#s-2c6f8d2029}
 本页概述 2010、2020 和 2023 年研究的部分内容，不是完整专论，也不涵盖所有标本、图像、补充材料或后续分析。来源对正模究竟是上颌还是下颌、某项早期系统发育分析如何处理它、以及 Xericeps 正模的产层均有分歧。2023 年的颌骨解释仍属暂定，Alanqa 与 Xericeps 的关系或异名假说也未解决。数据库记录用于整理所选出现信息，不能裁定这些解剖与分类问题。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 3 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

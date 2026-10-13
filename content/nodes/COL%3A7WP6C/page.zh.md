@@ -1,5 +1,5 @@
-## 旧属名如何查回历史行 {#s-643d737c08}
-固定版本 COL26.8 以接受名 Psilopogon javensis（ID 7WP6C）编目。AVONET 的 BirdLife 2020 第 9693 行和 eBird 2021 第 8660 行使用该名称及 Avibase ID AVIBASE-3FAAF1EF。BirdTree 第 8615 行则写作 Megalaima javensis，匹配类型为 1BL to 1BT；COL 旧组合记录 7VSW2 指回接受 ID 7WP6C。这些对应关系便于跨名称表定位资料，但不证明不同时期的物种概念相同。
+## COL26.8 中的名称身份 {#s-643d737c08}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon javensis (Horsfield, 1821) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与喙翼均值 {#s-fbd498c208}
 AVONET 形态样本为 5 只（雌 2、雄 3、未定 0），其中 4 只具完整测量组。记录均值为鼻孔至喙尖 28.7 mm、喙宽 13.9 mm、跗蹠 29.7 mm、未压平翼长 109.4 mm；手翼指数为 18.6。Inference=NO 不代表每个字段的样本数都相同。该指数按 Kipp 距离除以翼长再乘 100 计算，并非飞行速度；喙宽也不是取食能力实验。

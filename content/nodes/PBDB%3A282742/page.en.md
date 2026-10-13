@@ -1,19 +1,36 @@
 ## Which fossil records this name represents {#s-78b1496d3b}
 Agkistrognathus campbelli is accepted in the fixed PBDB other-reptilia working roster, with database parent Agkistrognathus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-06ee6ff363}
-Collection Wapiti Lake, Locality D (British Columbia), region code CA, stratum name Sulphur Mountain; database age bracket 250.8–248.6 Ma, early interval Smithian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Agkistrognathus campbelli is listed in the PBDB snapshot under taxon txn:282742. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-51277ae429}
-Selected occurrences have an outer age envelope of 250.8–248.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Wapiti Lake, Locality D, occurrence occ:1181756 (250.8–248.6 Ma); one supplying the younger bound is Wapiti Lake, Locality D, occurrence occ:1181756 (250.8–248.6 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-06ee6ff363}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-38675e0687}
-Wapiti Lake, Locality D has collection-environment label marine indet.; collection preservation-mode label body,mold/impression. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1181756; PBDB collection col:105083. Locality cnm=Wapiti Lake, Locality D; place fields cc2=CA, stp=British Columbia. Recorded age bounds: eag 250.8 Ma; lag 248.6 Ma; PBDB interval fields oei=Smithian. Stratigraphic fields sfm=Sulphur Mountain. Recorded attribution Nicholls and Brinkman 1993; PBDB reference ref:48982.
 
-## Follow collection records back to references {#s-8fcf112611}
-Wapiti Lake, Locality D carries database reference attribution Nicholls and Brinkman (1993), identifier ref:48982. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"the Lower Triassic Vega-Phroso Siltstone Member of the Sulphur Mountain Formation (Lower–Middle Triassic)" (Cuthbertson et al. 2013, p. 832)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"south-east of Wapiti Lake in east-central British Columbia" "east-central British Columbia from the south end of a cirque designated as D locality (54˚ 31' 10"N, 120˚ 43'19"W)" (Cuthbertson et al. 2013, p. 832) "The specimens were collected along Ganoid Ridge, south east of Wapiti Lake in eastern British Columbia... [at] "B" cirque near Wapiti Lake, British Columbia, 54˚31'10"N, 120˚43'19"W "
+
+## Age bounds on the recorded occurrences {#s-51277ae429}
+Across these selected PBDB rows, the largest recorded eag=250.8 Ma in occ:1181756; the smallest recorded lag=248.6 Ma in occ:1181756. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-38675e0687}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1181756: PBDB original-identification field idn=Agkistrognathus campbelli n. gen. n. sp.; PBDB taxon-name field tna=Agkistrognathus campbelli; material note ocm=Holotype: TMP 89.127.6. Incomplete and disarticulated skull and mandibles. Elements present include premaxilla, maxilla, vomer, both dentaries, angular, splenial(?), and unidentified elements; TMP 89.127.19. Fragment of dentary; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-120.721947, lat=54.519444; paleocoordinate/model fields pm1=gplates, pln=-32.1, pla=39.25.
+
+## References attached to each record {#s-8fcf112611}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1181756: Recorded attribution Nicholls and Brinkman 1993; PBDB reference ref:48982.
 
 ## Evidence limits {#s-83980142c3}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 429-item other-reptilia working roster, retain the current same name and a complete parent chain to the recorded Reptilia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

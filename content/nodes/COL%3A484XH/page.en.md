@@ -1,44 +1,44 @@
-## Identity and sample boundary {#s-7ca4c3190d}
-COL26.8 accepts *Nyctanassa violacea* in Ardeidae. These measurements and ecological fields come from AVONET v7 under the HBW–BirdLife 2020 name: five birds were measured, four with a complete morphological set. Usable sample sizes can still differ by trait.
+## Row-reported mean and sample coverage {#s-7ca4c3190d}
+The AVONET v7 row for Nyctanassa violacea (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 55.4 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions at defined landmarks {#s-863d81d68c}
-Mean beak length from the nostril’s front edge to the tip is 55.4 mm; width and depth at that edge are 15.4 mm and 21.1 mm. These are separate standardized measurements of the compiled sample, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-863d81d68c}
+AVONET records culmen length (bill tip to skull base) 76.5 mm; beak length (nostril front edge to tip) 55.4 mm; beak width at the nostril front edge 15.4 mm; beak depth at the nostril front edge 21.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and a separate mass source {#s-9d98b22e7d}
-Mean unflattened wing length, from carpal joint to longest primary, is 283.8 mm. Mean tarsus length (the measured lower-leg segment above the foot) is 98.5 mm. A separate species-average source labelled Dunning gives mass as 681.67 g; it does not show that all morphological specimens were weighed.
+## Wing and body measures use separate sources {#s-9d98b22e7d}
+AVONET records unflattened wing length 283.8 mm; tarsus length 98.5 mm; distance from first secondary tip to longest primary tip 99.1 mm; length to first secondary tip 187.4 mm; hand-wing index 34.6; tail length 113.8 mm; species-average body mass 681.67 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Broad ecological categories {#s-09911b7f0a}
-AVONET classifies habitat as Coastal, trophic niche as Aquatic predator, and lifestyle as Terrestrial. These dominant categories support cross-species comparison; they do not imply exclusive habitat use or a diet limited to one prey type.
+## Recorded habitat and feeding categories {#s-09911b7f0a}
+AVONET classifies Nyctanassa violacea as habitat Coastal (intertidal and nearby coastal habitats); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Historical movement and range fields {#s-431c1bdb5f}
-The migration field says partially migratory. Historical breeding and resident maps span latitude endpoints −30.98° to 45.87°. These omit a complete account of non-breeding movements and are neither a current location nor a full occupancy estimate; geography and morphology were compiled separately.
+## Mapped range is not a locality list {#s-431c1bdb5f}
+Historical breeding and resident maps span latitude endpoints -30.98° to 45.87°. The mapped range area is 4196603.05 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## A second, historical life-history compilation {#s-a9c67575ff}
-Pinned COL26.8 places *Nyctanassa violacea* in Ardeidae. A separate comparison draws on four focal fields in the 2015 life-history archive, each supported by cited same-name, same-family species-level sparse-table rows (rows containing selected fields, not complete records). Historical taxonomic inheritance may remain in the summaries.
+## Scope of the historical life-history entry {#s-a9c67575ff}
+The August 2015 database has a same-name, same-family record for Nyctanassa violacea. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass is a summary field {#s-8f18357d58}
-The historical archive reports adult body mass of 682.5 g. Its adult category may combine males, females and adults of unspecified sex, so it is not an individual-mass range. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-8f18357d58}
+The August 2015 compilation reports adult body mass 682.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction fields describe different events {#s-0b139467d6}
-The archive reports 3.52 offspring or eggs per litter or clutch and 23 d from laying to hatching; d means days. The litter/clutch field combines different source counts, so a fractional summary is not a fractional animal in one event. Clutch size and incubation time describe different parts of reproduction, not a single interchangeable cycle.
+## Reproductive fields describe different events {#s-0b139467d6}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.52; oviposition-to-hatching interval 23 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A maximum record is not a typical lifespan {#s-9d533c814d}
-The archive’s maximum_longevity_y field is 6.3 years, the largest record found under its method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every bird, or a current record shown to be repeatable.
+## A maximum record is not typical lifespan {#s-9d533c814d}
+The compilation lists 6.3 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## Citation labels are not sample counts {#s-af9a245dcc}
-Same-name rows cite Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Bennett, 1986; and Wasser, D.E. and P.W. Sherman, 2010, among others. The batch retains raw row numbers, values, labels and the summary table’s full reference explanations. A label may refer to a paper, book or database; rows are not measured birds, and repeated citations are not independent replication.
+## Sources and field limits {#s-af9a245dcc}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Foraging data from another historical framework {#s-e393473ca6}
-EltonTraits 1.0 contributes a historical same-name, same-family record and two sourced foraging field groups. Its taxonomy follows earlier bird classifications or MSW3 (the third edition of *Mammal Species of the World*); name matching does not settle modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-e393473ca6}
+EltonTraits 1.0 has a same-name, same-family record for Nyctanassa violacea covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights assigned to food categories {#s-5bca7900ee}
-Nonzero food weights are fish 60%, unspecified vertebrates 30% and invertebrates 10%. Code A indicates high compiler confidence in the source and diet information. These standardized readings of verbal descriptions are not measured diet composition; zero does not prove a food is never eaten. Nect, Seed and PlantO are broader source categories than their everyday names.
+## Relative weights across food categories {#s-5bca7900ee}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; fish 60%; vertebrates not further identified 30%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Feeding positions are not daily activity budgets {#s-1369808ea1}
-Species-level foraging-stratum weights are 50% on or just below the water surface and 50% on the ground. They estimate feeding-position use, not nest sites, all habitat or whole-day time. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevations or measures of flight height or habitat area.
+## Foraging positions are not a time budget {#s-1369808ea1}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 50%; on the ground 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Field labels and their underlying sources {#s-c3fddefc73}
-The selected groups carry Ref_1, but diet, stratum and activity can draw on different material; Ref_1 in a bird table need not be the same source as Ref_1 in a mammal table. The batch preserves original strings by file, row, field group and reference table. Underlying books and papers were not individually read here, and labels are not new observations.
+## Sources and field limits {#s-c3fddefc73}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-8cddb07444}
 This page interprets historical AVONET v7 data. Morphology values are sample averages, not diagnostic thresholds or individual-variation ranges; mass has a separate literature or weighing source, so its sample size is not the morphology count. Habitat, diet and migration are coarse categories, and geography covers historical breeding and resident ranges. Historical crosswalks and a matching catalogue name support the association, not equivalence of species concepts after splits or lumps. Reproduction, current populations and conservation need other sources.

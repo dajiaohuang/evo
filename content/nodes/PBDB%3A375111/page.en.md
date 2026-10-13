@@ -1,19 +1,47 @@
 ## Which fossil records this name represents {#s-676c1ac91d}
 Xinpusaurus suni is accepted in the fixed PBDB other-reptilia working roster, with database parent Xinpusaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-4b34e7f0c5}
-Collection Guanling, Lower Xiaowa Formation fossil lagerstätte (Guizhou), region code CN, stratum name Xiaowa; database age bracket 233.6–227.3 Ma, early interval Tuvalian. Collection Xinpu Thalattosaur Locality (Guizhou), region code CN, stratum name Xiaowa; database age bracket 237–227.3 Ma, early interval Carnian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Xinpusaurus suni is listed in the PBDB snapshot under taxon txn:375111. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-5e35af610c}
-Selected occurrences have an outer age envelope of 237–227.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Xinpu Thalattosaur Locality, occurrence occ:892976 (237–227.3 Ma); one supplying the younger bound is Guanling, Lower Xiaowa Formation fossil lagerstätte, occurrence occ:788487 (233.6–227.3 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-4b34e7f0c5}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-eb0b035b9c}
-Guanling, Lower Xiaowa Formation fossil lagerstätte has collection-environment label deep-water indet.; collection preservation-mode label body. Xinpu Thalattosaur Locality has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:788487; PBDB collection col:85166. Locality cnm=Guanling, Lower Xiaowa Formation fossil lagerstätte; place fields cc2=CN, stp=Guizhou. Recorded age bounds: eag 233.6 Ma; lag 227.3 Ma; PBDB interval fields oei=Tuvalian. Stratigraphic fields sfm=Xiaowa. Recorded attribution Wang et al. 2008; PBDB reference ref:28658.
 
-## Follow collection records back to references {#s-8c57858859}
-Guanling, Lower Xiaowa Formation fossil lagerstätte carries database reference attribution Wang et al. (2008), identifier ref:28658. Xinpu Thalattosaur Locality carries database reference attribution Liu and Rieppel (2001), identifier ref:34061. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+12 m thick, previously known as Wayao Member of Falang Formation or as Wayao Formation
+JA: originally entered as Carnian; the Metapolygnathus polygnatiformis and M. nodosus zones are both Tuvalian according to Lucas et al. 2012
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Guanling County, between Xinpu and Yongning
+
+- Occurrence occ:892976; PBDB collection col:97906. Locality cnm=Xinpu Thalattosaur Locality; place fields cc2=CN, stp=Guizhou, cny=Guanlin. Recorded age bounds: eag 237 Ma; lag 227.3 Ma; PBDB interval fields oei=Carnian. Stratigraphic fields sfm=Xiaowa. Recorded attribution Liu and Rieppel 2001; PBDB reference ref:34061.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Originally reported as from the Wayao Member of the Falang Formation. However, Cheng et al. (2006) stated that the lower Carnian Xiaowa Formation previously the also known as the Wayao Formation, the Wayo Member of the Falang Formation, and the lower Falang Formation.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Xinpu, Guanlin County, Anshun area, Guizhou Province, southern China
+
+## Age bounds on the recorded occurrences {#s-5e35af610c}
+Across these selected PBDB rows, the largest recorded eag=237 Ma in occ:892976; the smallest recorded lag=227.3 Ma in occ:788487. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-eb0b035b9c}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:788487: PBDB taxon-name field tna=Xinpusaurus suni; PBDB locality-coordinate fields lng=105.416664, lat=25.900000; paleocoordinate/model fields pm1=gplates, pln=113.18, pla=11.56.
+- occ:892976: PBDB taxon-name field tna=Xinpusaurus suni; material note ocm=IVPP V 11860; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=105.616669, lat=25.883333; paleocoordinate/model fields pm1=gplates, pln=111.02, pla=2.06.
+
+## References attached to each record {#s-8c57858859}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:788487: Recorded attribution Wang et al. 2008; PBDB reference ref:28658.
+- occ:892976: Recorded attribution Liu and Rieppel 2001; PBDB reference ref:34061.
 
 ## Evidence limits {#s-38dca816c3}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 429-item other-reptilia working roster, retain the current same name and a complete parent chain to the recorded Reptilia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

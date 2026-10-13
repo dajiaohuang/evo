@@ -10,47 +10,47 @@ For 2025, the report recorded 16 chicks fledged in the wild, 46 captive-bred bir
 ## Lead poisoning among recorded deaths {#s-506a95e923}
 Of the 22 wild deaths recorded in 2025, nine were confirmed as lead poisoning and nine awaited final necropsy results. From 1992 through 2025, the program counted 161 confirmed lead-poisoning deaths in the wild: 50% of deaths with known causes and 28% of all wild deaths. These are historical totals, not a forecast.
 
-## The AVONET measurement sample {#s-eb315e5462}
-COL26.8 accepts Gymnogyps californianus within Cathartidae. AVONET v7 lists measurements under the HBW–BirdLife 2020 name for four birds, each with a complete morphological set. Usable sample sizes may still vary by trait.
+## Row-reported mean and sample coverage {#s-eb315e5462}
+The AVONET v7 row for Gymnogyps californianus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 65.3 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Bill dimensions {#s-bafa455cda}
-Mean bill length, measured from the anterior edge of the nostril to the tip, is 65.3 mm. Mean width and depth at that edge are 33.2 mm and 39 mm. These are standardized measurements, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-bafa455cda}
+AVONET records culmen length (bill tip to skull base) 96.5 mm; beak length (nostril front edge to tip) 65.3 mm; beak width at the nostril front edge 33.2 mm; beak depth at the nostril front edge 39 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-b8e35e37b2}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 788 mm; mean tarsus length is 115.8 mm. The compiled mean mass is 8,442.74 g (source category Dunning). Mass comes from separate species-average information, not from weighing every bird in the morphology sample.
+## Wing and body measures use separate sources {#s-b8e35e37b2}
+AVONET records unflattened wing length 788 mm; tarsus length 115.8 mm; distance from first secondary tip to longest primary tip 323.5 mm; length to first secondary tip 464.5 mm; hand-wing index 41.1; tail length 350.8 mm; species-average body mass 8442.74 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Broad habitat and diet categories {#s-85133378a9}
-The dataset assigns Shrubland as habitat, Scavenger as trophic niche and Terrestrial as lifestyle. These dominant categories support comparisons among species; they do not mean the condor uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-85133378a9}
+AVONET classifies Gymnogyps californianus as habitat Shrubland (low, bush-dominated vegetation); trophic niche Scavenger (source threshold at least 60% from carrion, offal or refuse); trophic level Scavenger; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration field and historical latitude endpoints {#s-522630dba8}
-The migration field classifies the record as sedentary. Historical breeding and resident maps span latitudes 30.72° to 37.44°. They do not fully describe non-breeding movements or provide a current position or global occupancy estimate. Geographic and morphological summaries come from different compilation steps.
+## Mapped range is not a locality list {#s-522630dba8}
+Historical breeding and resident maps span latitude endpoints 30.72° to 37.44°. The mapped range area is 101747.84 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## A historical life-history entry {#s-6678c1dba9}
-A separate section compares the same-name Gymnogyps californianus entry in a historical life-history archive. It uses seven focal fields supported by cited species-level sparse-table rows with matching name and family. The summary may still inherit historical taxonomic data; matching names do not remove that possibility.
+## Scope of the historical life-history entry {#s-6678c1dba9}
+The August 2015 database has a same-name, same-family record for Gymnogyps californianus. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Mass at different life stages {#s-028e49766d}
-The historical summary gives adult mass as 8,800 g and mass at birth or hatching as 185.3 g. Adult values may combine males, females and adults of unspecified sex; the other value describes a different life stage. They are not repeated measurements of the same individuals or a species-wide range.
+## Compiled adult-mass values {#s-028e49766d}
+The August 2015 compilation reports adult body mass 8800 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproductive timing fields {#s-cd283eb79d}
-The archive reports female maturity, defined as age at first conception, at 2,185.4 days; one offspring or egg per litter or clutch; 56.25 days from oviposition to hatching; and 192.5 days to flight capability, which some sources define as leaving the nest. The source uses d for days. The litter/clutch field combines offspring and egg counts; a fractional summary is not a fractional individual. The timing fields refer to different events.
+## Reproductive fields describe different events {#s-cd283eb79d}
+The August 2015 compilation reports female age at first conception (source definition) 2185.404 days; median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 56.25 days; age at flight capability (some records mark nest departure) 192.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## The archive’s maximum-longevity value {#s-4dd2f53fd8}
-The archive’s maximum_longevity_y field is 45 years, the largest longevity record found under the source method. It is not a typical or mean wild lifespan, a survival ceiling for every bird, or a record shown to be currently repeatable.
+## A maximum record is not typical lifespan {#s-4dd2f53fd8}
+The compilation lists 45 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## What the historical references identify {#s-76bdffebed}
-Same-name rows carry labels including Dunning, 1992; Szekely, Lislevand and Figuerola, 2007; de Magalhaes and Costa, 2009; and Bennett, 1986. The archive keeps raw row numbers, values and labels by field, with the final table’s reference explanations. A label can identify a paper, book or another database. Row counts are not measured-bird counts, and repeated citations are not independent replication.
+## Sources and field limits {#s-76bdffebed}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## An EltonTraits 1.0 record {#s-bb6ddea3ac}
-A second ecological comparison uses the same-name, same-family Gymnogyps californianus record in EltonTraits 1.0 and its two source-described ecological field groups. The source follows earlier bird or MSW3 mammal taxonomy. A name match does not resolve later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-bb6ddea3ac}
+EltonTraits 1.0 has a same-name, same-family record for Gymnogyps californianus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Food-category weights {#s-0d0b7caa3b}
-The archive assigns a nonzero food weight of 100% to scavenged food and related discarded material. Source code A indicates high compiler confidence in the source and diet information. The percentages standardize verbal descriptions rather than measure diet composition; a zero does not prove an item is never eaten. Nect, Seed and PlantO are broader categories than their everyday names and do not imply an exclusive diet.
+## Relative weights across food categories {#s-0d0b7caa3b}
+EltonTraits 1.0 assigns relative diet weights of carrion or refuse 100%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Recorded foraging stratum {#s-35fd223c1f}
-The archive’s species-level foraging-stratum value is 100% for ground. It estimates relative use of feeding positions, not nest sites, all habitat or a whole-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-35fd223c1f}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Reference labels and their limits {#s-f7a9663a21}
-The used groups carry the label Ref_2. Diet, stratum and activity fields can come from different material; the same Ref number in bird and mammal tables does not identify the same source. This batch retains the original strings by file, row, field group and reference table. The underlying books and papers have not been individually read, so labels are not additional independent observations.
+## Sources and field limits {#s-f7a9663a21}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## catalogue-profile / limitations {#s-63e9f35e04}
 The 2025 recovery-program count is a dated management total, not a formal extinction-risk assessment or population-viability analysis. It follows the report’s definitions; the wild total includes managed, released and free-flying birds, and the fledgling count includes remote nests inferred from parental behavior.

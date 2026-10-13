@@ -1,4 +1,4 @@
-## 本地数据阅读路径 {#s-e414c0801d}
+## 记录分类与成员材料 {#s-e414c0801d}
 Mesitornithiformes 的本批阅读路径包含 3 条有测量来源的物种记录，可从 Mesitornis unicolor、Mesitornis variegatus、Monias benschi 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-cf2b55c4f0}

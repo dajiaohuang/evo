@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-e452de8a8c}
+## 记录分类与直接上级关系 {#s-e452de8a8c}
+COL26.8 将 Antilocapridae 记录为科；其直接上级记录为 Artiodactyla Owen, 1848。
+
 Antilocapridae 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Antilocapra americana 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-7daf743818}
@@ -14,7 +16,7 @@ Antilocapridae 的本批路线包含 1 个历史条目，可从 Antilocapra amer
 本页链接的历史资料对象均为 Antilocapra americana：PanTHERIA 资料 1 条、生活史资料 1 条、EltonTraits 记录 1 条。成年体重是经性别调整的历史中位数；Ernest 汇编中的最高寿命字段是最长记录，不是通常寿命。EltonTraits 将食物权重、觅食层位和活动时段编码为类别，并非摄食量或全天活动时间的直接测量。所选记录不能确定当前分布或保护状况，历史名称匹配也不能证明与当前物种概念完全等同。
 
 ## 沿生活史资料阅读 {#s-31f523cbc5}
-Antilocapridae 本批有 1 个历史生活史资料页，可从 [Antilocapra americana](Antilocapra/Antilocapra_americana/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Antilocapridae 本批有 1 个历史生活史资料页，可从 Antilocapra americana 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-f581cadca8}
 本批妊娠资料见 1 页，雌性首次繁殖年龄见 1 页，最高寿命记录见 1 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

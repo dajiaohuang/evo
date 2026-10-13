@@ -1,44 +1,44 @@
-## Name and AVONET sample {#s-78f37262c2}
-COL26.8 accepts Platalea flavipes within Threskiornithidae. AVONET v7 reports this name under HBW–BirdLife 2020. Four individuals were measured and all 4 had a complete morphological set; usable samples may still differ by trait.
+## Row-reported mean and sample coverage {#s-78f37262c2}
+The AVONET v7 row for Platalea flavipes (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 162.2 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions {#s-0aae2d2a26}
-Mean beak length is 162.2 mm from the front edge of the nostril to the tip; width is 25.5 mm and depth 17.6 mm at that edge. These are separate measurements at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-0aae2d2a26}
+AVONET records culmen length (bill tip to skull base) 197.8 mm; beak length (nostril front edge to tip) 162.2 mm; beak width at the nostril front edge 25.5 mm; beak depth at the nostril front edge 17.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-56941fc27e}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 370 mm; mean tarsus length is 123.3 mm. AVONET’s compiled mean mass is 1741.26 g, sourced to Dunning. This mass comes from separate species-average information.
+## Wing and body measures use separate sources {#s-56941fc27e}
+AVONET records unflattened wing length 370 mm; tarsus length 123.3 mm; distance from first secondary tip to longest primary tip 140.8 mm; length to first secondary tip 229.2 mm; hand-wing index 38; tail length 144.5 mm; species-average body mass 1741.26 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Broad habitat and ecology categories {#s-92a674127a}
-AVONET assigns Wetland habitat, an Aquatic predator trophic niche and a Terrestrial primary lifestyle. These are broad comparison categories, not a complete description of habitat or diet.
+## Recorded habitat and feeding categories {#s-92a674127a}
+AVONET classifies Platalea flavipes as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and mapped range {#s-7008bec8ca}
-The migration category is partially migratory. Historical breeding and resident maps span latitude −39.14° to −22.13°. They do not describe all non-breeding movement, current position or occupancy throughout the mapped span. Geography and morphology come from separate compilation steps.
+## Mapped range is not a locality list {#s-7008bec8ca}
+Historical breeding and resident maps span latitude endpoints -39.14° to -22.13°. The mapped range area is 1812783.46 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## The August 2015 life-history entry {#s-421a9b5ee0}
-The August 2015 archive provides 3 focal fields in cited same-name, same-family, species-level rows. This supports a historical association, but summaries may retain inherited taxonomy; the name alone does not establish equivalence to COL26.8.
+## Scope of the historical life-history entry {#s-421a9b5ee0}
+The August 2015 database has a same-name, same-family record for Platalea flavipes. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass in the life-history archive {#s-d0f33e05c8}
-The archive reports adult body mass of 1842.5 g. Adult records can combine males, females and adults of unspecified sex; this value is not a range of individual masses. No birth or hatching mass is included here.
+## Compiled adult-mass values {#s-d0f33e05c8}
+The August 2015 compilation reports adult body mass 1842.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## The recorded clutch summary {#s-bcb3c8de52}
-The archive reports 3.03 offspring or eggs per litter or clutch. The field combines offspring and egg counts; its fractional summary is not a fraction of an individual. Missing reproductive and developmental durations are not supplied here.
+## Reproductive fields describe different events {#s-bcb3c8de52}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.025. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A maximum record, not typical lifespan {#s-efa1e40b46}
-The archive’s maximum_longevity_y value is 28.6 years, selected as the largest record found under its method. It is not a typical or mean wild lifespan, an individual survival ceiling or a current record known to be repeatedly attainable.
+## A maximum record is not typical lifespan {#s-efa1e40b46}
+The compilation lists 28.6 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## Tracing the life-history values {#s-8b5a95649c}
-Same-name rows cite Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; and Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009. The archive retains field-level row numbers, values and full reference explanations. Row counts are not specimen counts, and repeated citations are not independent replication.
+## Sources and field limits {#s-8b5a95649c}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## A second historical ecology source {#s-e377be42b9}
-EltonTraits 1.0 contains a same-name, same-family Platalea flavipes entry with diet and foraging-stratum groups. Its earlier taxonomy does not settle later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-e377be42b9}
+EltonTraits 1.0 has a same-name, same-family record for Platalea flavipes covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Standardized diet weights {#s-657954336b}
-The archive assigns 70% to invertebrates, 20% to fish and 10% to other plant material (the source category also includes fungi). Code A indicates high compiler confidence in the source and diet information. The weights translate written descriptions, not measured diet shares; zero would not prove a food is never eaten. Nect, Seed and PlantO cover broad source categories.
+## Relative weights across food categories {#s-657954336b}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 70%; fish 20%; other plant material 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging at the water surface {#s-10d67d6bfd}
-The species-level foraging entry assigns 100% to on or just below the water surface. This is a relative feeding-position weight, not a nest site, full habitat account or time budget. Water, understory, mid/high, canopy and aerial classes have separate definitions; they are not elevation bands or flight heights.
+## Foraging positions are not a time budget {#s-10d67d6bfd}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## The source label {#s-94eeac7c79}
-The diet and foraging groups cite Ref_1. The archive preserves the source string with its file, row, field group and reference-table location. It is a source trail, not an extra observation; the underlying work has not been individually reviewed here.
+## Sources and field limits {#s-94eeac7c79}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits across these historical sources {#s-580561e71f}
 This page combines AVONET v7, the August 2015 life-history archive and EltonTraits 1.0; it is not a complete species account. AVONET values are sample means, mass has separate provenance, ecology fields are broad and maps are historical. The life-history archive reports compiled summaries rather than individual measurements and may retain taxonomic inheritance. Source conditions are not consistently known, and underlying papers were not individually reviewed. EltonTraits weights come from literature descriptions, not direct measurements. Same-name, same-family association does not establish equivalence to COL26.8. Missing life-history fields, current range, population and conservation require other sources.

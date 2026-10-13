@@ -1,17 +1,17 @@
-## The 2015 life-history entry and this name {#s-cc72f4f9d2}
-COL26.8 accepts Puffinus baroli within Procellariidae. The 2015 life-history archive also has a same-name, same-family entry; 5 selected fields have matching species-level source rows. Older records can include values inherited across historical species or subspecies, so matching names do not establish identical species concepts.
+## Scope of the historical life-history entry {#s-cc72f4f9d2}
+The August 2015 database has a same-name, same-family record for Puffinus baroli. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-98c80ec9a7}
-The historical compilation reports adult body mass 194 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. The selected record provides no birth- or hatching-mass value.
+## Compiled adult-mass values {#s-98c80ec9a7}
+The August 2015 compilation reports adult body mass 194 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-b12f5f2710}
-The historical compilation reports offspring per litter or eggs per clutch 1 offspring/eggs; oviposition to hatching 51 d; age at flight capability (leaving the nest in some source material) 72 d; d means days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-b12f5f2710}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 51 days; age at flight capability (some records mark nest departure) 72 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-1894a2f2fc}
-The largest lifespan record in the archive is 19 years. It is a maximum in the collected historical material, not a typical lifespan, a wild-population average, or a limit every individual can reach.
+## A maximum record is not typical lifespan {#s-1894a2f2fc}
+The compilation lists 19 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-5e01e786a7}
-The source labels include Dunning, 1992; Bennett, 1986; Dyke and Kaiser, 2010; Wasser, D.E. and P.W. Sherman, 2010. Each value can be traced to its raw row, field-specific label, and the archive’s reference notes. A label may refer to a paper, book, or another database; row counts do not count measured animals, and repeated citations do not represent independent replication.
+## Sources and field limits {#s-5e01e786a7}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Life-history evidence limits {#s-d36b793a93}
 The 2015 life-history archive gathers historical same-name entries. Except for longevity, values summarize the compilation’s median or the mean of the two middle values; longevity is the largest record found. These summaries are not direct measurements of one animal, individual ranges, wild-lifespan averages or current population surveys. The compilation can carry values across historical species and subspecies, and matching names or families do not establish equivalence to COL26.8. Wild or captive conditions are not consistently identified. These records do not supply diet, behaviour, current range, conservation information or missing life-history fields.

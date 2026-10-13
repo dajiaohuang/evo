@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-9c85a602b2}
-Pinned COL26.8 organizes this page at Trochalopteron melanostigma (596H9). BirdLife 2020 row 4927 and eBird 2021 row 10693 share the name and Avibase ID AVIBASE-B0EA6012, with match type 1BL to 1eBird; BirdTree row 10626 gives Garrulax melanostigma, with type 1BL to 1BT. Read COL older-combination record NZY2Y points to this accepted ID. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-9c85a602b2}
+Catalogue of Life release COL26.8 records Trochalopteron melanostigma (Blyth, 1855) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-07c72f6802}
 The morphology row covers 5 birds: 3 female, 2 male and 0 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 12.6 mm, tarsus 36.8 mm, unflattened wing 97.8 mm, tail 112.2 mm and hand-wing index 7 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

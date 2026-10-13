@@ -1,5 +1,5 @@
-## Find rows through older Collocalia combinations {#s-fdba449f43}
-Pinned COL26.8 organizes this page at Aerodramus sawtelli (8HTGC). BirdLife 2020 row 521 and eBird 2021 row 211 share the name and Avibase ID AVIBASE-C6C43CDC, with type 1BL to 1eBird; BirdTree row 215 gives Collocalia sawtelli, with type 1BL to 1BT. Read catalogue synonym 8KCGX points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates. Historical Order1=Caprimulgiformes remains distinct from Apodiformes in this COL path.
+## A name fixed to COL26.8 {#s-fdba449f43}
+Catalogue of Life release COL26.8 records Aerodramus sawtelli (Holyoak, 1974) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## The scope of one measured bird {#s-c10c9179b9}
 Morphology comprises 1 bird: 0 female, 1 male and 0 unsexed; 1 complete set. Nostril-to-tip beak length 2.5 mm, tarsus 8.5 mm, unflattened wing 116 mm, tail 54 mm and hand-wing index 67.3 are historical row means. One bird cannot establish sex differences or a population distribution. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

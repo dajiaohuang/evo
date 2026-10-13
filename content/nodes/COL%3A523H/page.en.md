@@ -1,4 +1,6 @@
-## Choose comparison pages by life-history fields {#s-3adda7d634}
+## Recorded classification and direct parent {#s-3adda7d634}
+COL26.8 records Hylochoerus at genus rank, with Suidae as its direct parent.
+
 This batch’s Hylochoerus route includes 1 historical life-history accounts; start with Hylochoerus meinertzhageni. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-e38c7be116}

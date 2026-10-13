@@ -1,4 +1,4 @@
-## 从有性状记录的物种开始 {#s-b1f7088abc}
+## 记录分类与成员材料 {#s-b1f7088abc}
 Chelydroidea 的本批 ReptTraits 阅读路径包含 26 条同名同科、有逐性状出处的物种资料，可从 Chelydra acutirostris、Chelydra rossignonii、Chelydra serpentina、Claudius angustatus、Dermatemys mawii 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-83a3def6ec}
@@ -16,8 +16,8 @@ Chelydroidea 的本批路线包含 20 条历史生活史导读，可从 Chelydra
 ## 部分后代条目的引用缺口 {#s-25e76201d1}
 这条 ReptTraits 阅读路径中有 3 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-506e35d463}
-Chelydroidea 的本批 ReptTraits 阅读路径包含 11 条同名同科、有逐性状出处的物种资料，可从 [Kinosternon abaxillare](Kinosternidae/Kinosternon/Kinosternon_abaxillare/page.zh.md)、[Kinosternon acutum](Kinosternidae/Kinosternon/Kinosternon_acutum/page.zh.md)、[Kinosternon chimalhuaca](Kinosternidae/Kinosternon/Kinosternon_chimalhuaca/page.zh.md)、[Kinosternon cora](Kinosternidae/Kinosternon/Kinosternon_cora/page.zh.md)、[Kinosternon dunni](Kinosternidae/Kinosternon/Kinosternon_dunni/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-506e35d463}
+Chelydroidea 的本批 ReptTraits 阅读路径包含 11 条同名同科、有逐性状出处的物种资料，可从 Kinosternon abaxillare、Kinosternon acutum、Kinosternon chimalhuaca、Kinosternon cora、Kinosternon dunni 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-7372266f68}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

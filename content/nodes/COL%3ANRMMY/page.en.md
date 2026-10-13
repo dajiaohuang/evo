@@ -1,5 +1,5 @@
-## Locate records through older Pomatorhinus names {#s-33172db2f5}
-Pinned COL26.8 organizes this page at Erythrogenys erythrocnemis (NRMMY) in Timaliidae (H9M). BirdLife 2020 row 8332 and eBird 2021 row 3768 share the name; both eBird sides share Avibase ID AVIBASE-6D1FD3C6, with type 1BL to 1eBird. BirdTree row 3752 gives Pomatorhinus erythrocnemis, type 1BL to 1BT; exact catalogue synonym 4LQWP points to accepted species NRMMY. Name links locate records without proving identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-33172db2f5}
+Catalogue of Life release COL26.8 records Erythrogenys erythrocnemis (Gould, 1863) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-fbacf28dee}
 Morphology comprises 5 birds: 1 female, 4 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 24.2 mm, tarsus 36.4 mm, unflattened wing 97.8 mm, tail 95.4 mm and hand-wing index 7.4 are historical row means. Totals exceed complete sets; not every bird has all fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

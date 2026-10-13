@@ -1,44 +1,44 @@
-## AVONET sample and taxonomic label {#s-d0f68e7e82}
-COL26.8 accepts Botaurus stellaris in Ardeidae. AVONET v7 reports measurements under its HBW–BirdLife 2020 name: 10 individuals were measured, and 4 had a complete morphological set. The usable sample size can differ by trait.
+## Row-reported mean and sample coverage {#s-d0f68e7e82}
+The AVONET v7 row for Botaurus stellaris (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 54.9 mm. The row records 10 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions at stated landmarks {#s-ddb1e6a7b6}
-Mean beak length from the anterior edge of the nostril to the tip is 54.9 mm; width is 11 mm and depth at that same landmark is 16.1 mm. These are separate measurements at standardized landmarks, not identification thresholds.
+## Beak measurements at defined landmarks {#s-ddb1e6a7b6}
+AVONET records culmen length (bill tip to skull base) 77.3 mm; beak length (nostril front edge to tip) 54.9 mm; beak width at the nostril front edge 11 mm; beak depth at the nostril front edge 16.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and compiled mass {#s-0f2d6185f1}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 323.8 mm; mean tarsus length is 94.3 mm. The compiled mean mass is 1319.45 g, in source category Dunning. Mass is a separate species-average record, so the measurement sample does not imply that every individual was weighed.
+## Wing and body measures use separate sources {#s-0f2d6185f1}
+AVONET records unflattened wing length 323.8 mm; tarsus length 94.3 mm; distance from first secondary tip to longest primary tip 101.2 mm; length to first secondary tip 223.8 mm; hand-wing index 31.2; tail length 98.3 mm; species-average body mass 1319.45 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Three broad ecology categories {#s-7b3dd3a487}
-AVONET classifies habitat as Wetland, trophic niche as Aquatic predator and primary lifestyle as Terrestrial. These are broad categories for comparison across species, not claims of exclusive habitat or food use.
+## Recorded habitat and feeding categories {#s-7b3dd3a487}
+AVONET classifies Botaurus stellaris as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and mapped latitude {#s-01b09af4b5}
-The migration field classifies the record as partially migratory. Historical breeding and resident maps span latitude endpoints -31.12° to 64.85°. These endpoints are not a current-location or global-occupancy estimate and do not describe all non-breeding movements. The geography and morphology come from separate compilation steps.
+## Mapped range is not a locality list {#s-01b09af4b5}
+Historical breeding and resident maps span latitude endpoints -31.12° to 64.85°. The mapped range area is 18110303.08 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## Six fields in a 2015 life-history compilation {#s-3558ba7d45}
-The 2015 life-history archive has a historical Botaurus stellaris entry with six focal fields supported by cited species-level rows of the same name and family. The summaries can still inherit information across historical taxonomic groupings; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-3558ba7d45}
+The August 2015 database has a same-name, same-family record for Botaurus stellaris. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult body mass {#s-412d7e5b8b}
-The compilation reports an adult body-mass summary of 1277.75 g. Its adult records may combine males, females and adults of unspecified sex, so the value is not a range of individual masses. This entry does not report birth or hatching mass.
+## Compiled adult-mass values {#s-412d7e5b8b}
+The August 2015 compilation reports adult body mass 1277.75 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Maturity, clutch and developmental timing {#s-4a4f2cbbae}
-The female-maturity field is 546.73 d; the source defines it as age at first conception. The combined offspring-per-litter or eggs-per-clutch field is 5. Oviposition-to-hatching time is 25.5 d, and age at flight capability is 52.5 d (some source records define this as leaving the nest); d means days. The count combines offspring and egg records, while the timing fields describe different events and cannot be treated as one reproductive interval.
+## Reproductive fields describe different events {#s-4a4f2cbbae}
+The August 2015 compilation reports female age at first conception (source definition) 546.734 days; median or interpolated-median number of offspring or eggs per litter/clutch 5; oviposition-to-hatching interval 25.5 days; age at flight capability (some records mark nest departure) 52.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## Maximum longevity is not typical lifespan {#s-ab4acbd761}
-The archive reports maximum_longevity_y as 11.33 years, the largest record found under its method. This is not typical lifespan, mean lifespan in the wild, a limit for every individual or a current record known to be repeatable.
+## A maximum record is not typical lifespan {#s-ab4acbd761}
+The compilation lists 11.33333333 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## Citation labels and source rows {#s-aa314555a3}
-The same-name source rows include labels such as Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; and Bennett, 1986. The archive retains each field’s raw row, value and label alongside the reference explanations. A label can point to a paper, book or database; row counts are not counts of measured individuals, and repeated citations are not independent experiments.
+## Sources and field limits {#s-aa314555a3}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## EltonTraits diet and foraging fields {#s-1e9b9443a7}
-EltonTraits 1.0 links a historical record for Botaurus stellaris under the same name and family, with two field groups for diet and foraging position. The historical classification does not settle later splits or synonymies.
+## Scope of the historical trait entry {#s-1e9b9443a7}
+EltonTraits 1.0 has a same-name, same-family record for Botaurus stellaris covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-9406627060}
-EltonTraits assigns relative food weights of 60% to fish, 30% to reptiles and amphibians, and 10% to invertebrates. Code A indicates high compiler confidence in the source and diet information. These weights standardize verbal descriptions; they are not direct measurements of diet, and a zero category would not prove that a food is never eaten.
+## Relative weights across food categories {#s-9406627060}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; reptiles and amphibians 30%; fish 60%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-c576cf3c41}
-The species-level foraging entry assigns 50% of its weight to the water surface or just below it and 50% to the ground. These weights estimate relative use of feeding positions, not nest sites, complete habitat use or a whole-day time budget. They do not provide water depth, flight height or habitat area.
+## Foraging positions are not a time budget {#s-c576cf3c41}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 50%; on the ground 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-3fe41f949d}
-Both EltonTraits field groups carry the Ref_1 label. It links the diet and foraging summaries to their recorded source trail; the label is not a separate observation, and the underlying work was not individually read for this page.
+## Sources and field limits {#s-3fe41f949d}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-ccdd98f288}
 AVONET measurements are species averages for the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separate cited literature or weighing records, so the morphological sample count does not apply to it. Ecology fields are broad categories, and maps cover historical breeding and resident ranges. The name links and historical crosswalks associate records but do not prove equivalent species concepts after later splits or lumps.

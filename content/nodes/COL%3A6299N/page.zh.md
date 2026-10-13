@@ -1,5 +1,7 @@
-## 四种的阅读入口 {#s-36dcb02c9f}
-从 [Ammospiza caudacuta](Ammospiza_caudacuta/page.zh.md)、[Ammospiza nelsoni](Ammospiza_nelsoni/page.zh.md)、[Ammospiza maritima](Ammospiza_maritima/page.zh.md)、[Ammospiza leconteii](Ammospiza_leconteii/page.zh.md) 比较四条历史记录。固定 COL26.8 将四种放在 Ammospiza，原工作簿 BirdLife 与 eBird 使用同名，BirdTree 表仍使用 Ammodramus 组合；本页同时保留这两层名称，来源表内一对一不意味着各年代物种概念已完整核对。
+## 记录分类与直接上级关系 {#s-36dcb02c9f}
+COL26.8 将 Ammospiza Oberholser, 1905 记录为属；其直接上级记录为 Passerellidae。
+
+从 Ammospiza caudacuta、Ammospiza nelsoni、Ammospiza maritima、Ammospiza leconteii 比较四条历史记录。固定 COL26.8 将四种放在 Ammospiza，原工作簿 BirdLife 与 eBird 使用同名，BirdTree 表仍使用 Ammodramus 组合；本页同时保留这两层名称，来源表内一对一不意味着各年代物种概念已完整核对。
 
 ## 不同尺寸，同样有限的样本 {#s-21179d4699}
 四行的形态样本分别为 caudacuta 10、nelsoni 11、maritima 9、leconteii 6 只。鼻孔前缘至喙尖均值依次为 9、8.7、11.1、7.1 mm，未压平翼长为 56.8、56.4、60.6、53 mm。可以比较这些已测样本的物种均值，不能把两端当作属内所有个体的大小边界。Dunning 体重汇编分别为 19.19、15.11、22.16、13 g，来源分母与形态测量分开。

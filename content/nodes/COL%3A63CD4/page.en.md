@@ -1,18 +1,20 @@
-## Start with sourced trait records {#s-8b91ff0974}
+## Recorded classification and direct parent {#s-8b91ff0974}
+COL26.8 records Myron at genus rank, with Homalopsidae as its direct parent.
+
 This batch’s ReptTraits route for Myron includes one same-name, same-family entry with trait-specific citations. Start with Myron richardsonii. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-dacf658612}
 Only Myron richardsonii has a usable record in this batch’s shared length column: reported maximum snout–vent length (SVL) 310 mm. One compiled species record does not establish a cross-species size range, individual average or group size limit. Other descendants retain missing or unresolved size support.
 
-## Evidence limits {#s-913307cf3a}
+## Limits attached to these records {#s-913307cf3a}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 
-## Start with sourced trait records {#s-65d287c132}
-This batch’s ReptTraits route for Myron includes 2 same-name, same-family entries with trait-specific citations. Start with [Myron karnsi](Myron_karnsi/page.en.md), [Myron resetari](Myron_resetari/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-65d287c132}
+This batch’s ReptTraits route for Myron includes 2 same-name, same-family entries with trait-specific citations. Start with Myron karnsi, Myron resetari. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
-## Choose comparisons by available fields {#s-f8f0ad7e53}
+## ReptTraits member records {#s-f8f0ad7e53}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Limits of these trait data {#s-f3d8992745}
+## ReptTraits material route {#s-f3d8992745}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

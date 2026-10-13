@@ -1,10 +1,12 @@
-## Start with the historical entries {#s-0d3fb053d9}
+## Recorded classification and direct parent {#s-0d3fb053d9}
+COL26.8 records Sciuridae at family rank, with Sciuromorpha as its direct parent.
+
 The local PanTHERIA route for Sciuridae includes 51 usable data accounts. Start with Callosciurus adamsi, Callosciurus baluensis, Callosciurus caniceps, Callosciurus nigrovittatus, Callosciurus notatus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-7188da4d8a}
 Among available consolidated adult-mass values in this batch, Myosciurus pumilio records 16.44 g and Ratufa bicolor records 1609.08 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-0a048a26b9}
+## Amniote Life-history archive member records {#s-0a048a26b9}
 This batch’s Sciuridae route includes 66 historical life-history accounts; start with Ammospermophilus harrisii, Ammospermophilus interpres, Ammospermophilus leucurus, Ammospermophilus nelsoni, Callosciurus adamsi. More frequently represented fields include offspring per litter or eggs per clutch (66 entries), adult body mass (64 entries), longest lifespan record in the compilation (62 entries), conception or fertilization to birth (41 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-6d34aa1ab0}
@@ -13,27 +15,27 @@ This batch’s Sciuridae route includes 145 historical entries; start with Ratuf
 ## Compare food, feeding positions and activity periods {#s-f4f898e645}
 This batch’s Sciuridae route includes 3 historical entries; start with Spermophilus pallidicauda, Spermophilus ralli, Spermophilus brevicauda. Food-category weights are available in 0, foraging strata in 3, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-693225063c}
+## Limits attached to these records {#s-693225063c}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
-This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
+This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-dd330358ad}
-The local PanTHERIA route for Sciuridae includes 40 usable data accounts. Start with [Callosciurus melanogaster](Callosciurinae/Callosciurus/Callosciurus_melanogaster/page.en.md), [Atlantoxerus getulus](Xerinae/Xerini/Atlantoxerus/Atlantoxerus_getulus/page.en.md), [Eupetaurus cinereus](Sciurinae/Pteromyini/Eupetaurus/Eupetaurus_cinereus/page.en.md), [Exilisciurus concinnus](Callosciurinae/Exilisciurus/Exilisciurus_concinnus/page.en.md), [Dremomys everetti](Callosciurinae/Dremomys/Dremomys_everetti/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-dd330358ad}
+The local PanTHERIA route for Sciuridae includes 40 usable data accounts. Start with Callosciurus melanogaster, Atlantoxerus getulus, Eupetaurus cinereus, Exilisciurus concinnus, Dremomys everetti. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-4b5d576440}
 Among available consolidated adult-mass values in this batch, Exilisciurus concinnus records 27.72 g and Petaurista philippensis records 1675.83 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-fc726b97fd}
+## PanTHERIA material route {#s-fc726b97fd}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Follow the life-history records {#s-b8233f5e4c}
-This batch offers 45 historical life-history accounts under Sciuridae. Start with [Ammospermophilus harrisii](Xerinae/Marmotini/Ammospermophilus/Ammospermophilus_harrisii/page.en.md), [Ammospermophilus nelsoni](Xerinae/Marmotini/Ammospermophilus/Ammospermophilus_nelsoni/page.en.md), [Ammospermophilus interpres](Xerinae/Marmotini/Ammospermophilus/Ammospermophilus_interpres/page.en.md), [Ammospermophilus leucurus](Xerinae/Marmotini/Ammospermophilus/Ammospermophilus_leucurus/page.en.md), [Callosciurus caniceps](Callosciurinae/Callosciurus/Callosciurus_caniceps/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-b8233f5e4c}
+This batch offers 45 historical life-history accounts under Sciuridae. Start with Ammospermophilus harrisii, Ammospermophilus nelsoni, Ammospermophilus interpres, Ammospermophilus leucurus, Callosciurus caniceps. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-b8b9bbcb9d}
 Gestation is recorded in 20 accounts, female age at first reproduction in 12 accounts, and maximum lifespan in 11 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-a2f2ed369d}
+## Ernest life-history archive material route {#s-a2f2ed369d}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

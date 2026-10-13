@@ -1,19 +1,45 @@
 ## Which fossil records this name represents {#s-b4be8edf51}
 Metapterodon kaiseri is accepted in the fixed PBDB mammalia working roster, with database parent Metapterodon. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-d150651278}
-Collection Rusinga Island, region code KE; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Collection Elisabethfeld (Karas), region code NA, stratum name Elisabeth Bay; database age bracket 23.04–15.98 Ma, early interval Early Miocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Metapterodon kaiseri is listed in the PBDB snapshot under taxon txn:97201. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-dcdc8e7444}
-Selected occurrences have an outer age envelope of 23.04–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Elisabethfeld, occurrence occ:1149230 (23.04–15.98 Ma); one supplying the younger bound is Rusinga Island, occurrence occ:1149004 (20.45–15.98 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-d150651278}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-5a9af6138d}
-Rusinga Island has collection-environment label terrestrial indet.; collection preservation-mode label body. Elisabethfeld has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1149004; PBDB collection col:21725. Locality cnm=Rusinga Island; place fields cc2=KE. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Recorded attribution Savage 1965; PBDB reference ref:47344.
 
-## Follow collection records back to references {#s-68d7cc4839}
-Rusinga Island carries database reference attribution Savage (1965), identifier ref:47344. Elisabethfeld carries database reference attribution Savage (1965), identifier ref:47344. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: time_unit, ETE age comment: 0. New total-fusion K-Ar ages indicate that all of the fossiliferous formations that make up the lower part of the Early Miocene Kisingiri sequence in western Kenya at Rusinga Island, Mfwangano Island, and Karungu were deposited during an interval of less than 0.5 million years at c. 17.8 Ma ago.
+
+- Occurrence occ:1149230; PBDB collection col:146601. Locality cnm=Elisabethfeld; place fields cc2=NA, stp=Karas, cny=Luderitz. Recorded age bounds: eag 23.04 Ma; lag 15.98 Ma; PBDB interval fields oei=Early Miocene. Stratigraphic fields sfm=Elisabeth Bay. Recorded attribution Savage 1965; PBDB reference ref:47344.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The fossiliferous beds were assigned to the Elisabeth Bay Formation by Greenman (1966, unpubl. MSc thesis) but this unit, as originally defined, is penetrated by a major unconformity comprising a hiatus of about 15 Ma (Pickford & Senut, 1999, p. 61 & 76). The name Elisabeth Bay Formation here refers only to the lower, fluvial part of the series which is of Lower Miocene age (Pickford & Senut, 1999, p. 76).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+38 km south of Luderitz (Savage, 1965)
+"deflation basin some 6 metres below the surrounding countryside" (Pickford & Senut, 1999, Mem. Geol. Surv. Nam. 18, p. 76)
+coordinate is from Pickford & Senut (1999, p. 76)
+
+## Age bounds on the recorded occurrences {#s-dcdc8e7444}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:1149230; the smallest recorded lag=15.98 Ma in occ:1149004. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5a9af6138d}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1149004: PBDB taxon-name field tna=Metapterodon kaiseri; abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=34.116699, lat=-0.400000; paleocoordinate/model fields pm1=gplates, pln=33.59, pla=-5.7.
+- occ:1149230: PBDB original-identification field idn=Metapterodon kaiseri n. gen. n. sp.; PBDB taxon-name field tna=Metapterodon kaiseri; material note ocm=holotype: left skull fragment with P<sup>3</sup> to M<sup>2</sup> ("1926 × 1 Munich"). Referred specimens: EF 7’06, right mandíble with partly erupted m/3, alveoli of m/2, and poorly preserved d/4 or m/1. EF 93’01, fragment of left mandíble with m/1 (or d/4) and alveoli of the p/4 and p/3 (incomplete). EF 90’01, anterior fragment of right mandible with canine and incomplete alveoli of the p/2, p/3 and p/4.; abundance fields abv=4, abu=specimens; PBDB locality-coordinate fields lng=15.265000, lat=-26.983055; paleocoordinate/model fields pm1=gplates, pln=13.33, pla=-31.94.
+
+## References attached to each record {#s-68d7cc4839}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1149004: Recorded attribution Savage 1965; PBDB reference ref:47344.
+- occ:1149230: Recorded attribution Savage 1965; PBDB reference ref:47344.
 
 ## Evidence limits {#s-19ec65108c}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

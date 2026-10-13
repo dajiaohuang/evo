@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-9ceb68b80c}
-Ganzhousaurus nankangensis is accepted in the fixed PBDB dinosaur working roster, with database parent Ganzhousaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-9ceb68b80c}
+Ganzhousaurus nankangensis is listed in the PBDB snapshot under taxon txn:265587. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-f194b9dfc8}
-Collection Ganzhou City (PROXY) (Jiangxi), region code CN; database age bracket 72.2–66 Ma, early interval Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-f194b9dfc8}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-88ef94d774}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1126121; PBDB collection col:97945. Locality cnm=Ganzhou City (PROXY); place fields cc2=CN, stp=Jiangxi. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Maastrichtian. Recorded attribution Wang et al. 2013; PBDB reference ref:46367.
 
-## Read preservation setting separately from living habitat {#s-0d19622385}
-Ganzhou City (PROXY) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"The red beds exposed in the Hongcheng Basin are normally correlated with the Upper Cretaceous Nanxiong Formation"
 
-## Follow collection records back to references {#s-1f6ae6b9a7}
-Ganzhou City (PROXY) carries database reference attribution Wang et al. (2013), identifier ref:46367. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"The only information concerning the provenance of the specimen provided by the collector is that the specimen was collected in the Hongcheng Basin near Ganzhou City, Jiangxi Province."
 
-## Evidence limits {#s-5926460753}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-88ef94d774}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:1126121; the smallest recorded lag=66 Ma in occ:1126121. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-0d19622385}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1126121: PBDB original-identification field idn=Ganzhousaurus nankangensis n. gen. n. sp.; PBDB taxon-name field tna=Ganzhousaurus nankangensis; material note ocm=SDM 20090302, partial semi-articulated skeleton incl. incomplete mandible, 3 articulated posterior caudal vertebrae, L partial ilium, midshaft portion of R tibia, & nearly complete articulated R pes (incl. metatarsals I-III, phalanges I-1, I-2, II-1, II-2, III-1 & IV-1, parts of phalanges II-3, III-2 & IV-2); abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=114.933334, lat=25.816668; paleocoordinate/model fields pm1=gplates, pln=113.54, pla=22.41.
+
+## References attached to each record {#s-1f6ae6b9a7}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1126121: Recorded attribution Wang et al. 2013; PBDB reference ref:46367.
+
+## What these records can show {#s-5926460753}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

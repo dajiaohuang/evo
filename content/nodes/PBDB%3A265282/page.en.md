@@ -1,19 +1,41 @@
 ## Which fossil records this name represents {#s-91718d42eb}
 Catagonus stenocephalus is accepted in the fixed PBDB mammalia working roster, with database parent Catagonus. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-ad2c975504}
-Collection Tarija-3 (Tarija), region code BO; database age bracket 1.75–0.4 Ma, early interval Ensenadan. Collection Cave of Gruta dos Mouras (Tocantins), region code BR; database age bracket 0.129–0.0117 Ma, early interval Late Pleistocene. Collection Touro Passo Stream (Rio Grande do Sul), region code BR, stratum name Touro Passo; database age bracket 0.4–0.0117 Ma, early interval Lujanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Catagonus stenocephalus is listed in the PBDB snapshot under taxon txn:265282. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9b80aa1ece}
-Selected occurrences have an outer age envelope of 1.75–0.0117 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Tarija-3, occurrence occ:1124847 (1.75–0.4 Ma); one supplying the younger bound is Cave of Gruta dos Mouras, occurrence occ:1394922 (0.129–0.0117 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-ad2c975504}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-95c46ec4f1}
-Tarija-3 has collection-environment label lacustrine - large; collection preservation-mode label body. Cave of Gruta dos Mouras has collection-environment label terrestrial indet.; collection preservation-mode label body. Touro Passo Stream has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1124847; PBDB collection col:142544. Locality cnm=Tarija-3; place fields cc2=BO, stp=Tarija. Recorded age bounds: eag 1.75 Ma; lag 0.4 Ma; PBDB interval fields oei=Ensenadan. Recorded attribution Gasparini et al. 2010; PBDB reference ref:46285.
 
-## Follow collection records back to references {#s-754276a3bd}
-Tarija-3 carries database reference attribution Gasparini et al. (2010), identifier ref:46285. Cave of Gruta dos Mouras carries database reference attribution Avilla et al. (2013), identifier ref:64968. Touro Passo Stream carries database reference attribution Gasparini et al. (2009), identifier ref:69883. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1394922; PBDB collection col:149493. Locality cnm=Cave of Gruta dos Mouras; place fields cc2=BR, stp=Tocantins. Recorded age bounds: eag 0.129 Ma; lag 0.0117 Ma; PBDB interval fields oei=Late Pleistocene. Recorded attribution Avilla et al. 2013; PBDB reference ref:64968.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Municipality of Aurora de Tocantins
+
+- Occurrence occ:1461022; PBDB collection col:203912. Locality cnm=Touro Passo Stream; place fields cc2=BR, stp=Rio Grande do Sul. Recorded age bounds: eag 0.4 Ma; lag 0.0117 Ma; PBDB interval fields oei=Lujanian. Stratigraphic fields sfm=Touro Passo. Recorded attribution Gasparini et al. 2009; PBDB reference ref:69883.
+
+## Age bounds on the recorded occurrences {#s-9b80aa1ece}
+Across these selected PBDB rows, the largest recorded eag=1.75 Ma in occ:1124847; the smallest recorded lag=0.0117 Ma in occ:1394922. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-95c46ec4f1}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1124847: PBDB taxon-name field tna=Catagonus stenocephalus; material note ocm=Specimen MNPA-V 1450; PBDB locality-coordinate fields lng=-64.766670, lat=-21.549999; paleocoordinate/model fields pm1=gplates, pln=-64.55, pla=-21.5.
+- occ:1394922: PBDB taxon-name field tna=Catagonus stenocephalus; material note ocm=UNIRIO-PM 1006; PBDB locality-coordinate fields lng=-46.407780, lat=-12.713056; paleocoordinate/model fields pm1=gplates.
+- occ:1461022: PBDB taxon-name field tna=Catagonus stenocephalus; material note ocm=MCPU-PV 029; PBDB locality-coordinate fields lng=-57.083332, lat=-29.750000; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-754276a3bd}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1124847: Recorded attribution Gasparini et al. 2010; PBDB reference ref:46285.
+- occ:1394922: Recorded attribution Avilla et al. 2013; PBDB reference ref:64968.
+- occ:1461022: Recorded attribution Gasparini et al. 2009; PBDB reference ref:69883.
 
 ## Evidence limits {#s-118c89fdd0}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

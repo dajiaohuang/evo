@@ -1,10 +1,10 @@
-## Local data reading route {#s-7c19e99253}
+## Recorded classification and member material {#s-7c19e99253}
 This batch’s Caprimulgiformes route includes 53 measured species records. Start with Caprimulgus aegyptius, Caprimulgus affinis, Caprimulgus asiaticus, Caprimulgus atripennis, Caprimulgus batesi. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-b4cf72f49d}
 Compiled mean mass endpoints in this batch are Nyctiphrynus yucatanicus at 24.5 g and Podargus papuensis at 375.73 g. Represented habitat categories include Desert, Grassland, Shrubland, Forest, Woodland; trophic niches include Invertivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-c4ec8ee9b0}
+## Amniote Life-history archive member records {#s-c4ec8ee9b0}
 This batch’s Caprimulgiformes route includes 16 historical life-history accounts; start with Antrostomus arizonae, Antrostomus carolinensis, Antrostomus noctitherus, Antrostomus vociferus, Caprimulgus europaeus. More frequently represented fields include adult body mass (16 entries), offspring per litter or eggs per clutch (16 entries), oviposition to hatching (14 entries), age at flight capability (leaving the nest in some source material) (11 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-497a98d9fa}
@@ -19,12 +19,12 @@ This route covers this batch’s historical same-name, same-family entries with 
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Start with the limited ecology records {#s-185075760a}
-This batch offers 13 limited ecology accounts under Caprimulgiformes. Start with [Caprimulgus celebensis](Caprimulgidae/Caprimulgus/Caprimulgus_celebensis/page.en.md), [Caprimulgus concretus](Caprimulgidae/Caprimulgus/Caprimulgus_concretus/page.en.md), [Caprimulgus prigoginei](Caprimulgidae/Caprimulgus/Caprimulgus_prigoginei/page.en.md), [Caprimulgus pulchellus](Caprimulgidae/Caprimulgus/Caprimulgus_pulchellus/page.en.md), [Caprimulgus solala](Caprimulgidae/Caprimulgus/Caprimulgus_solala/page.en.md). Records follow pinned COL26.8 navigation; the count covers this batch’s authored entries rather than all accepted species.
+## Recorded classification and member material {#s-185075760a}
+This batch offers 13 limited ecology accounts under Caprimulgiformes. Start with Caprimulgus celebensis, Caprimulgus concretus, Caprimulgus prigoginei, Caprimulgus pulchellus, Caprimulgus solala. Records follow pinned COL26.8 navigation; the count covers this batch’s authored entries rather than all accepted species.
 
 ## What is readable and what remains uninterpreted {#s-4736f4e035}
 Recorded category counts are 12 for habitat, 13 for feeding niche, 13 for primary lifestyle, and 12 for migration. Read the original definitions and distinguish categories, historical maps and individual observations. Shared labels do not establish a lifestyle for every descendant. Beak, wing, tarsus, tail and mass fields remain uninterpreted in this batch and do not establish a group size comparison.
 
-## Limits of these historical data {#s-55476ec2cd}
+## AVONET material route {#s-55476ec2cd}
 This entry covers this batch’s limited historical ecology records, not every accepted descendant. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
 

@@ -1,41 +1,41 @@
-## The name and this data account {#s-ab8a91c706}
-Buteo lineatus is accepted in COL26.8 within Accipitridae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-ab8a91c706}
+The AVONET v7 row for Buteo lineatus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 20.3 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-6cec53a030}
-Recorded mean beak measurements are 20.3 mm from the anterior nostril edge to the tip, 11.8 mm in width and 16.3 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-6cec53a030}
+AVONET records culmen length (bill tip to skull base) 33.1 mm; beak length (nostril front edge to tip) 20.3 mm; beak width at the nostril front edge 11.8 mm; beak depth at the nostril front edge 16.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-80621bd233}
-Mean unflattened wing length from the carpal joint to the longest primary is 319 mm; mean tarsus length is 74.1 mm. Compiled mean mass is 603.72 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-80621bd233}
+AVONET records unflattened wing length 319 mm; tarsus length 74.1 mm; distance from first secondary tip to longest primary tip 106.9 mm; length to first secondary tip 212.8 mm; hand-wing index 33.4; tail length 172.8 mm; species-average body mass 603.72 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-e7ed532f08}
-The dataset assigns habitat Woodland, trophic niche Vertivore and lifestyle Aerial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-e7ed532f08}
+AVONET classifies Buteo lineatus as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Vertivore (source threshold at least 60% from terrestrial vertebrates); trophic level Carnivore; primary lifestyle Aerial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-8dc2959c2c}
-The migration field classifies this record as migratory. Historical breeding and resident maps span latitude endpoints 24.95° to 47.85°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-8dc2959c2c}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints 24.95° to 47.85°. The mapped range area is 3542030.5 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-8c60b591cc}
-Buteo lineatus is accepted in pinned COL26.8 within Accipitridae. This page compares the same-name historical life-history entry using 7 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-8c60b591cc}
+The August 2015 database has a same-name, same-family record for Buteo lineatus. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-edf392c40d}
-Historical summary values are adult body mass 616 g; mass at birth or hatching 35 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+## Compiled adult-mass values {#s-edf392c40d}
+The August 2015 compilation reports adult body mass 616 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-fd56fed74a}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 545.97 d; offspring per litter or eggs per clutch 3.2 offspring/eggs; oviposition to hatching 33 d; age at flight capability (leaving the nest in some source material) 42 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-fd56fed74a}
+The August 2015 compilation reports female age at first conception (source definition) 545.968 days; median or interpolated-median number of offspring or eggs per litter/clutch 3.2; oviposition-to-hatching interval 33 days; age at flight capability (some records mark nest departure) 42 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-d83f1b9662}
-The archive’s maximum_longevity_y value is 22.42 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-d83f1b9662}
+The compilation lists 22.41666667 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-35028181c6}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Bennett, 1986, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-35028181c6}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## What one ecological field can tell us {#s-e8f3799ad1}
-Buteo lineatus is accepted in pinned COL26.8 within Accipitridae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-e8f3799ad1}
+EltonTraits 1.0 has a same-name, same-family record for Buteo lineatus covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-117f743cad}
-The archive’s nonzero food weights are mammals and birds 40%; reptiles and amphibians 40%; invertebrates 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-117f743cad}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; mammals and birds 40%; reptiles and amphibians 40%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Trace each field group to its source labels {#s-2a7d1999df}
-The used groups carry labels Ref_2. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-2a7d1999df}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-5f97b6f2cf}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

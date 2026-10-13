@@ -1,4 +1,4 @@
-## Overview {#s-1340d24870}
+## Recorded classification and member material {#s-1340d24870}
 COL26.8 accepted genus ID 7B5R is linked here to species page 4TQGL, Rungwecebus kipunji. The reader path follows survey evidence from the first two known population centers to separate later censuses in the Southern Highlands and Udzungwa.
 
 ## Choose a reading path by research question {#s-01b7cbe399}

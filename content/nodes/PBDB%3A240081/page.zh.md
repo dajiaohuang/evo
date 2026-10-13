@@ -1,19 +1,58 @@
 ## 这个名称对应哪些化石记录 {#s-e8e3cd5c4f}
 Paedotherium typicum 在固定 PBDB 哺乳类化石工作名录中为接受种，数据库父级为 Paedotherium。本页导读 10 条可用种级出现记录，涉及 10 个采集记录和 7 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-6756f0ad9a}
-采集记录 Diamente Department（Entre Rios），地区代码 AR，地层名称 Alvear；数据库年代范围 3.6–2.58 Ma，早端地质时段 Late Pliocene。采集记录 Cantera Díaz Nogarol（San Luis），地区代码 AR，地层名称 Río Quinto；数据库年代范围 3.8–3 Ma，早端地质时段 Chapadmalalan。采集记录 Farola Monte Hermoso FI Facies（Buenos Aires），地区代码 AR，地层名称 Monte Hermoso；数据库年代范围 5–3.8 Ma，早端地质时段 Montehermosan。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Paedotherium typicum 在 PBDB 快照中对应分类条目 txn:240081。这份存档导读包含 10 条选取的出现记录，关联 10 个不同的 PBDB 采集记录编号和 7 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-ad17f2f0ff}
-本页所选出现记录的年代外包区间为 8–0.0117 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Huayquerías del Este 的出现记录 occ:1514839（8–5 Ma）；晚端可追到 Paso Otero 的出现记录 occ:1449069（0.4–0.0117 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-6756f0ad9a}
+存档导读包含 10 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 保存环境与生活环境分开阅读 {#s-db38f27fa9}
-Diamente Department 的采集环境标签为 陆相沉积环境，类型未定（terrestrial indet.）；集合保存方式标签为 矿物充填保存（permineralized）。Cantera Díaz Nogarol 的采集环境标签为 陆相沉积环境，类型未定（terrestrial indet.）；集合保存方式标签为 实体化石（body）。Farola Monte Hermoso FI Facies 的采集环境标签为 河流沉积环境，类型未定（fluvial indet.）；集合保存方式标签为 实体化石、trace（body,trace）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:1514839；PBDB 采集记录 col:200444。 地点字段 cnm=Huayquerías del Este；地点分区字段 cc2=AR，stp=Mendoza。 记录年代界：eag 8 Ma; lag 5 Ma；PBDB 年代区间字段 oei=Huayquerian。 地层字段 sfm=Huayquerías。 记录署名 Vera and Ercoli 2018；PBDB 引文编号 ref:68167。
 
-## 沿采集记录追到文献 {#s-580735da68}
-Diamente Department 的数据库引文署名为 Candela et al.（2007），编号 ref:26701。Cantera Díaz Nogarol 的数据库引文署名为 Prado et al.（1998），编号 ref:48758。Farola Monte Hermoso FI Facies 的数据库引文署名为 Tomassini et al.（2013），编号 ref:48790。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Huayquerian SALMA (currently correlated with Tortonian-Messinian stages of Late Miocene
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Huayquerías del Este, Río Seco de la Última Aguada, San Carlos Department, Mendoza Province,
+Argentina
+
+- 出现记录 occ:1449069；PBDB 采集记录 col:202096。 地点字段 cnm=Paso Otero；地点分区字段 cc2=AR，stp=Buenos Aires，cny=Necochea。 记录年代界：eag 0.4 Ma; lag 0.0117 Ma；PBDB 年代区间字段 oei=Lujanian。 地层字段 sfm=Pampean。 记录署名 Prado and Cerdeño 1998；PBDB 引文编号 ref:69224。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Prado and Cerdeño 1998: Fidalgo (en Tonni y Laza, 1980) señala que los sedimentos denominados «pampeanos» de Quequén Grande son referibles a la Formación Pampiano (Fidalgo et al., 1973).
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Prado and Cerdeño 1998: El afloramiento fosilífero que proporcionó la fauna estudiada se encuentra en las inmediaciones de la localidad de Paso Otero, sobre las márgenes del río Quequén Grande, partido de Necochea (provincia de Buenos Aires), aproximadamente a 38° 11' 48" S y 59° 06' 56" O (fig. 1). Esta zona se encuentra en el sector nororiental del área Interserrana de la Región Pampeana.
+Los sedimentos «pampeanos» portadores de esta fauna local (fig. 2) afloran sobre la margen izquier- da del río Quequén Grande, aguas arriba del puente de Paso Otero.
+
+- 出现记录 occ:751913；PBDB 采集记录 col:79631。 地点字段 cnm=Diamente Department；地点分区字段 cc2=AR，stp=Entre Rios。 记录年代界：eag 3.6 Ma; lag 2.58 Ma；PBDB 年代区间字段 oei=Late Pliocene。 地层字段 sfm=Alvear。 记录署名 Candela et al. 2007；PBDB 引文编号 ref:26701。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Punta Gorda Group (= Alvear Formation) at Entre Ríos Province, assigned to the late Pliocene (Lower Matuyama) by previous paleomagnetic studies.
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+The upper cliff in the south margin of the large valley of La Ensenada stream
+
+## 出现记录的年代界 {#s-ad17f2f0ff}
+在这组 PBDB 记录中，最大记录 eag=8 Ma，见 occ:1514839；最小记录 lag=0.0117 Ma，见 occ:1449069。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-db38f27fa9}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1514839：PBDB 分类名称字段 tna=Paedotherium typicum；PBDB 地点坐标字段 lng=-68.458885，lat=-33.904167；古坐标／模型字段 pm1=gplates，pln=-66.7，pla=-33.54。
+- occ:1449069：PBDB 分类名称字段 tna=Paedotherium typicum；PBDB 地点坐标字段 lng=-59.115555，lat=-38.196667；古坐标／模型字段 pm1=gplates。
+- occ:751913：PBDB 分类名称字段 tna=Paedotherium typicum；材料说明字段 ocm=Isolated upper molar；PBDB 地点坐标字段 lng=-60.633331，lat=-32.666668；古坐标／模型字段 pm1=gplates，pln=-60.09，pla=-32.54。
+
+## 各记录所附的引文 {#s-580735da68}
+存档导读把这些记录关联到 7 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1514839：记录署名 Vera and Ercoli 2018；PBDB 引文编号 ref:68167。
+- occ:1449069：记录署名 Prado and Cerdeño 1998；PBDB 引文编号 ref:69224。
+- occ:751913：记录署名 Candela et al. 2007；PBDB 引文编号 ref:26701。
 
 ## 资料边界 {#s-77f8c271f8}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 13958 项哺乳类化石工作名录中，当前名称一致、父链可追到已记录 Mammalia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 10 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

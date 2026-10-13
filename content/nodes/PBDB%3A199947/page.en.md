@@ -1,18 +1,35 @@
-## Which fossil records this name represents {#s-170ed6fc5e}
-Presbyornis mongoliensis is accepted in the fixed PBDB dinosaur working roster, with database parent Presbyornis. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-170ed6fc5e}
+Presbyornis mongoliensis is listed in the PBDB snapshot under taxon txn:199947. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-b58612ef2a}
-Collection Tsagan Khushu Quarry 1 (PIN coll. 3104) [SMPE] (Southern Mongolia), region code MN, stratum name Naran Bulak; database age bracket 56–48.07 Ma, early interval Bumbanian. Collection Tsagan Hushu [Naran Bulak Fm.] [PMPE] (Omnogov), region code MN, stratum name Naran Bulak; database age bracket 59.24–56 Ma, early interval Late Paleocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-b58612ef2a}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-8c3b561bc7}
-Selected occurrences have an outer age envelope of 59.24–48.07 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:978707; PBDB collection col:37206. Locality cnm=Tsagan Khushu Quarry 1 (PIN coll. 3104) [SMPE]; place fields cc2=MN, stp=Southern Mongolia. Recorded age bounds: eag 56 Ma; lag 48.07 Ma; PBDB interval fields oei=Bumbanian. Stratigraphic fields sfm=Naran Bulak. Recorded attribution Kurochkin and Dyke 2010; PBDB reference ref:37600.
 
-## Read preservation setting separately from living habitat {#s-2d7eb7ba36}
-Tsagan Khushu Quarry 1 (PIN coll. 3104) [SMPE] has collection-environment label terrestrial indet.; collection preservation-mode label body. Tsagan Hushu [Naran Bulak Fm.] [PMPE] has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:978709; PBDB collection col:37008. Locality cnm=Tsagan Hushu [Naran Bulak Fm.] [PMPE]; place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 59.24 Ma; lag 56 Ma; PBDB interval fields oei=Late Paleocene. Stratigraphic fields sfm=Naran Bulak. Recorded attribution Kurochkin and Dyke 2010; PBDB reference ref:37600.
 
-## Follow collection records back to references {#s-5012e08ed8}
-Tsagan Khushu Quarry 1 (PIN coll. 3104) [SMPE] carries database reference attribution Kurochkin and Dyke (2010), identifier ref:37600. Tsagan Hushu [Naran Bulak Fm.] [PMPE] carries database reference attribution Kurochkin and Dyke (2010), identifier ref:37600. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Zhigden Member also spelt as Zhygden Member
+Note that the avian material (and thus possibly some of the mammalian material) is collected from a mixed assemblage of the Naran and Zhygden Members - both are Late Paleocene (Kurochkin and Dyke 2010)
 
-## Evidence limits {#s-6f5efed0ea}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Tsagan Hushu (= Tsagan Ula/Khushu/Ushu), Omnogov (southern Mongolia)
+
+## Age bounds on the recorded occurrences {#s-8c3b561bc7}
+Across these selected PBDB rows, the largest recorded eag=59.24 Ma in occ:978709; the smallest recorded lag=48.07 Ma in occ:978707. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-2d7eb7ba36}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:978707: PBDB original-identification field idn=Presbyornis mongoliensis n. sp.; PBDB taxon-name field tna=Presbyornis mongoliensis; material note ocm=PIN 3104-607 - type (distal end of left tarsometarsus) and paratypes: PIN 3104-69, 229, 601, 684 (distal ends of left tarsometatarsi) and PIN 3104-115, 716 (distal ends of right tarsometatarsi); PBDB locality-coordinate fields lng=106.183334, lat=44.616669; paleocoordinate/model fields pm1=gplates, pln=101.35, pla=42.88.
+- occ:978709: PBDB taxon-name field tna=Presbyornis mongoliensis; material note ocm=PIN 3104-24 (distal end of left tarsometatarsus) and PIN 3104-6 (distal end of right tarsometatarsus); PBDB locality-coordinate fields lng=100.383331, lat=43.474998; paleocoordinate/model fields pm1=gplates, pln=95.96, pla=40.75.
+
+## References attached to each record {#s-5012e08ed8}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:978707: Recorded attribution Kurochkin and Dyke 2010; PBDB reference ref:37600.
+- occ:978709: Recorded attribution Kurochkin and Dyke 2010; PBDB reference ref:37600.
+
+## What these records can show {#s-6f5efed0ea}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

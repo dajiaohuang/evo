@@ -491,8 +491,14 @@ records:
       morphology:
         status: partially-supported
         claims:
-          - text: The 2007 account describes several coat-color forms and external characters; it also reports variation among populations. The historical account's percentages and measurements are deliberately not propagated as current population estimates.
-            textZh: 2007 年的条目描述了多种毛色型和外部特征，也提及种群间差异。本档案不把该历史条目的比例和测量值当作当前种群估计。
+          - text:
+              page: en
+              section: s-77c274a8b0
+              part: body
+            textZh:
+              page: zh
+              section: s-694dc4ca15
+              part: body
             sourceIds:
               - adw
             locator: Physical Description, paragraphs 1-2
@@ -503,8 +509,14 @@ records:
       lifeHistory:
         status: partially-supported
         claims:
-          - text: The account reports variable mating arrangements, breeding season shifts by latitude, parental provisioning, and a den-based juvenile period; these are secondary-source summaries, not a range-wide primary-data synthesis.
-            textZh: 该条目记载交配关系存在变化、繁殖季随纬度而异、亲代会提供食物，幼体有一段洞穴生活期；这些是二手综述，尚非基于全分布区原始数据的综合分析。
+          - text:
+              page: en
+              section: s-68234fd90a
+              part: body
+            textZh:
+              page: zh
+              section: s-c9d3f49892
+              part: body
             sourceIds:
               - adw
             locator: Reproduction, paragraphs 1-3; Behavior, paragraph 1
@@ -515,8 +527,14 @@ records:
       ecology:
         status: partially-supported
         claims:
-          - text: The account lists diverse terrestrial habitats and describes an omnivorous diet, food caching, and possible seed dispersal; these statements do not quantify their frequency or establish global interaction networks.
-            textZh: 该条目列出多种陆生栖地，并描述杂食、储藏食物和可能的种子传播；这些叙述未量化发生频率，也未建立全球相互作用网络。
+          - text:
+              page: en
+              section: diet-and-food-handling
+              part: body
+            textZh:
+              page: zh
+              section: diet-and-food-handling
+              part: body
             sourceIds:
               - adw
             locator: Habitat, paragraph 1; Food Habits, paragraph 1; Ecosystem Roles, paragraph 1
@@ -527,8 +545,14 @@ records:
       evolution:
         status: partially-supported
         claims:
-          - text: A 2013 range-wide analysis of 729 mitochondrial control-region sequences reported a Holarctic lineage, three Nearctic lineages, and two Japan-restricted lineages, with several inferred to have formed in the Mid/Late Pleistocene. These are locus- and model-dependent phylogeographic results, not a genome-wide species tree.
-            textZh: 一项 2013 年的广域分析使用 729 条线粒体控制区序列，报告了一个全北界谱系、三个新北界谱系和两个日本特有谱系；研究推断其中若干谱系形成于中/晚更新世。这些结果取决于所用基因位点和模型，不是全基因组物种树。
+          - text:
+              page: en
+              section: mitochondrial-phylogeography
+              part: body
+            textZh:
+              page: zh
+              section: mitochondrial-phylogeography
+              part: body
             sourceIds:
               - kutsc2013
             locator: Abstract; Results; Discussion; Methods
@@ -539,15 +563,27 @@ records:
       distribution:
         status: partially-supported
         claims:
-          - text: The ADW account reports native occurrence through northern North America and the Palearctic and introduced populations in Australia and the Falkland Islands; it also assigns both native and introduced labels in part of the Neotropics, so that portion remains unresolved here.
-            textZh: ADW 条目记载赤狐原生分布于北美北部和古北界，澳大利亚与福克兰群岛有引入种群；该条目也给新热带区部分地区同时标注原生与引入，因此此处保留未决。
+          - text:
+              page: en
+              section: range-history
+              part: body
+            textZh:
+              page: zh
+              section: range-history
+              part: body
             sourceIds:
               - adw
             locator: Geographic Range, paragraph 1 and biogeographic-region labels
             placeTimeScope: Secondary account last updated 2007; no explicit map date or locality-level evidence attached to this summary.
             lifeStatus: wild native versus introduced populations distinguished where the source does so
-          - text: A 2013 genetic synthesis used Holarctic sample localities to analyze lineages; its sampling map and sample appendix describe research coverage, not a complete current range polygon.
-            textZh: 2013 年的遗传学综合研究使用全北界多个采样地点分析谱系；其采样地图和样本附录反映研究覆盖范围，并非当前完整分布区边界。
+          - text:
+              page: en
+              section: mitochondrial-phylogeography
+              part: body
+            textZh:
+              page: zh
+              section: mitochondrial-phylogeography
+              part: body
             sourceIds:
               - kutsc2013
             locator: Figure 1; Additional file 1; Methods
@@ -558,15 +594,27 @@ records:
       fossil:
         status: partially-supported
         claims:
-          - text: Dentognathic material from EVT3, Vallparadís Section, northeastern Iberia (about 0.6 Ma) was attributed to extant V. vulpes by comparison with V. alopecoides; the authors identify it as the earliest well-dated European occurrence, while noting the scarcity and taxonomic uncertainty of the material.
-            textZh: 伊比利亚东北部 Vallparadís 剖面 EVT3（约 0.6 Ma）的牙颌化石，经与 V. alopecoides 比较后被归入现生种 V. vulpes。作者将其视为欧洲年代测定较可靠的最早记录，同时指出材料稀少且分类判断仍有不确定性。
+          - text:
+              page: en
+              section: fossil-records
+              part: body
+            textZh:
+              page: zh
+              section: fossil-records
+              part: body
             sourceIds:
               - vallparadis2021
             locator: Abstract, paragraphs 1-2
             placeTimeScope: EVT3, Vallès-Penedès Basin, northeastern Iberian Peninsula; Middle Pleistocene, ca. 0.6 Ma.
             lifeStatus: fossil; distinct from extant range and modern populations
-          - text: Two dentaries (GRCA 76272) from Stanton's Cave were re-identified as red fox rather than gray fox; the authors call this the first Grand Canyon record and say it may be the first Arizona fossil evidence.
-            textZh: Stanton 洞穴的两件下颌骨（GRCA 76272）经重新鉴定为赤狐而非灰狐；作者称这是大峡谷的首笔记录，并指出它可能也是亚利桑那州首项该种化石证据。
+          - text:
+              page: en
+              section: fossil-records
+              part: body
+            textZh:
+              page: zh
+              section: fossil-records
+              part: body
             sourceIds:
               - stantons2025
             locator: Abstract; specimen GRCA 76272
@@ -577,15 +625,27 @@ records:
       conservation:
         status: partially-supported
         claims:
-          - text: The linked IUCN global assessment is the 2021 record by Hoffmann and Sillero-Zubiri; it must be reported with that assessment year and not represented as a 2026 reassessment.
-            textZh: 关联的 IUCN 全球评估是 Hoffmann 与 Sillero-Zubiri 于 2021 年发布的记录；引用时须保留该评估年份，不能说成 2026 年重新评估。
+          - text:
+              page: en
+              section: conservation-records
+              part: body
+            textZh:
+              page: zh
+              section: conservation-records
+              part: body
             sourceIds:
               - iucn2021
             locator: Assessment e.T23062A193903628
             placeTimeScope: Global assessment; assessment version 2021.
             lifeStatus: wild populations at global assessment scope
-          - text: The U.S. Fish and Wildlife Service lists the Sierra Nevada distinct population segment of V. v. necator as endangered; this regional subspecies/population listing cannot be generalized to all V. vulpes.
-            textZh: 美国鱼类及野生动物管理局将 V. v. necator 的内华达山脉独立种群列为濒危；这是区域亚种/种群的列名，不能推广到全部 V. vulpes。
+          - text:
+              page: en
+              section: conservation-records
+              part: body
+            textZh:
+              page: zh
+              section: conservation-records
+              part: body
             sourceIds:
               - usfws2021
             locator: Overview; ESA listing information

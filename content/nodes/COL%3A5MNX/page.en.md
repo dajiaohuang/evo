@@ -4,13 +4,15 @@ The 2022 Megadyptes analysis includes living M. a. antipodes and extinct richdal
 ## Follow material scope into comparison pages {#s-b7fcd65459}
 Begin with the study names and material in [Megadyptes antipodes](Megadyptes_antipodes/page.en.md) before comparing glacial curves. Distinguish historical research units first, then the existing morphology, food, reproduction and local studies, retaining each source’s counts, times and methods.
 
-## Local data reading route {#s-d879d82253}
+## Recorded classification and direct parent {#s-d879d82253}
+COL26.8 records Megadyptes at genus rank, with Spheniscidae Bonaparte, 1831 as its direct parent.
+
 This batch’s Megadyptes route includes 1 measured species records. Start with Megadyptes antipodes. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-e609f52dc8}
 Compiled mean mass endpoints in this batch are Megadyptes antipodes at 5326.24 g and Megadyptes antipodes at 5326.24 g. Represented habitat categories include Marine; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-fa14807899}
+## Amniote Life-history archive member records {#s-fa14807899}
 This batch’s Megadyptes route includes 1 historical life-history accounts; start with Megadyptes antipodes. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), oviposition to hatching (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-06e037a756}

@@ -11,6 +11,8 @@ The 2002 bernhardi description connects an adult skeleton of unknown sex with tw
 Start with the holotype, paratypes, color combination and single-skull measurements on [Plecturocebus bernhardi](Plecturocebus_bernhardi/page.en.md), then compare named sites with the unconfirmed extension. Return to the uncertain precise origin on [Plecturocebus stephennashi](Plecturocebus_stephennashi/page.en.md) and historical-name/revision questions on [Plecturocebus discolor](Plecturocebus_discolor/page.en.md); their material and name limits differ. Existing life-history accounts retain their own samples and units. Skeletons, potential fruit resources and calling remarks do not supply invented densities or diets.
 
 ## Overview {#s-5210fdb81e}
+COL26.8 records Plecturocebus Byrne, Rylands, Carneiro, Lynch Alfaro et al., 2016 at genus rank, with Callicebinae Pocock, 1925 as its direct parent.
+
 This guide uses the fixed COL26.8 genus ID 6SDJ. Byrne et al. (2016) combined molecular, morphological and biogeographic evidence to propose three titi-monkey genera: Plecturocebus, Callicebus and Cheracebus. Later work continues to revise species limits within the genus. The genus name is a navigation anchor, not a claim that every species treatment is settled.
 
 ## Choose a reading path by research question {#s-9aa4691ef4}

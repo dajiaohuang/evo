@@ -1,4 +1,6 @@
-## Choose comparison pages by life-history fields {#s-70c6b17870}
+## Recorded classification and direct parent {#s-70c6b17870}
+COL26.8 records Dama at genus rank, with Cervini as its direct parent.
+
 This batch’s Dama route includes 1 historical life-history account: Dama dama. In this entry, adult body mass, female age at first conception, litter or clutch size, and time from conception or fertilization to birth each appear in 1 record. These counts describe the material in this batch, not the number of accepted species in the genus. Check a field’s event, unit, and source before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-40f7b5ef91}

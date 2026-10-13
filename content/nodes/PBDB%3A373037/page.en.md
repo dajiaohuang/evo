@@ -1,19 +1,37 @@
 ## Which fossil records this name represents {#s-b5048e50ed}
 Neusticosaurus peyeri is accepted in the fixed PBDB sauropterygia working roster, with database parent Neusticosaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-6f2da3e7db}
-Collection Neusticosaurus peyeri-type locality (onte San Giorgio), region code CH, stratum name Lower Meride Limestone; database age bracket 241.464–237 Ma, early interval Ladinian. Collection Cassina, bed 34, region code CH, stratum name Cassina; database age bracket 241.464–239.48 Ma, early interval Fassanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Neusticosaurus peyeri is listed in the PBDB snapshot under taxon txn:373037. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9b92cc8dad}
-Selected occurrences have an outer age envelope of 241.464–237 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Neusticosaurus peyeri-type locality, occurrence occ:1409649 (241.464–237 Ma); one supplying the younger bound is Neusticosaurus peyeri-type locality, occurrence occ:1409649 (241.464–237 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-6f2da3e7db}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-2c282d7a3c}
-Neusticosaurus peyeri-type locality has collection-environment label carbonate indet.; collection preservation-mode label body,adpression. Cassina, bed 34 has collection-environment label basinal (carbonate); collection preservation-mode label body,adpression. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1409649; PBDB collection col:194785. Locality cnm=Neusticosaurus peyeri-type locality; place fields cc2=CH, stp=onte San Giorgio. Recorded age bounds: eag 241.464 Ma; lag 237 Ma; PBDB interval fields oei=Ladinian. Stratigraphic fields sfm=Lower Meride Limestone. Recorded attribution Sander 1989; PBDB reference ref:66200.
 
-## Follow collection records back to references {#s-e0db2f5636}
-Neusticosaurus peyeri-type locality carries database reference attribution Sander (1989), identifier ref:66200. Cassina, bed 34 carries database reference attribution Stockar and Renesto (2011), identifier ref:66590. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1415286; PBDB collection col:180493. Locality cnm=Cassina, bed 34; place fields cc2=CH. Recorded age bounds: eag 241.464 Ma; lag 239.48 Ma; PBDB interval fields oei=Fassanian. Stratigraphic fields sfm=Cassina. Recorded attribution Stockar and Renesto 2011; PBDB reference ref:66590.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+New excavation at the type locality, to investigate a surface of about 40 square meters
+
+## Age bounds on the recorded occurrences {#s-9b92cc8dad}
+Across these selected PBDB rows, the largest recorded eag=241.464 Ma in occ:1409649; the smallest recorded lag=237 Ma in occ:1409649. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-2c282d7a3c}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1409649: PBDB original-identification field idn=Neusticosaurus peyeri n. sp.; PBDB taxon-name field tna=Neusticosaurus peyeri; material note ocm=PIMUZ T 3615, PIMUZ T 3386, PIMUZ T 3389, PIMUZ T 3393, PIMUZ T 3394, PIMUZ T 3395, PIMUZ T 3396, PIMUZ T 3397, PIMUZ T 3398, PIMUZ T 3399, PIMUZ T 3403, PIMUZ T 3404, PIMUZ T 3408, PIMUZ T 3410, PIMUZ T 3411, PIMUZ T 3412, PIMUZ T 3413, PIMUZ T 3414, PIMUZ T 3420, PIMUZ T 3423, PIMUZ T 3431, PIMUZ T 3433, PIMUZ T 3441, PIMUZ T 3443, PIMUZ T 3444, PIMUZ T 3445, PIMUZ T 3446, PIMUZ T 3449, PIMUZ T 3461, PIMUZ T 3462, PIMUZ T 3463, PIMUZ T 3464, PIMUZ T 3465, PIMUZ T 3467, PIMUZ T 3469, PIMUZ T 3471, PIMUZ T 3472, PIMUZ T 3474, PIMUZ T 3475, PIMUZ T 3476, PIMUZ T 3477, PIMUZ T 3479, PIMUZ T 3482, PIMUZ T 3497, PIMUZ T 3510, PIMUZ T 3511, PIMUZ T 3523, PIMUZ T 3524, PIMUZ T 3531, PIMUZ T 3534, PIMUZ T 3537, PIMUZ T 3539, PIMUZ T 3542, PIMUZ T 3543, PIMUZ T 3546, PIMUZ T 3557, PIMUZ T 3581, PIMUZ T 3582, PIMUZ T 3583, PIMUZ T 3584, PIMUZ T 3586, PIMUZ T 3587, PIMUZ T 3588, PIMUZ T 3589, PIMUZ T 3592, PIMUZ T 3607, PIMUZ T 3609, PIMUZ T 3662, PIMUZ T 3663, PIMUZ T 3665, PIMUZ T 3688, PIMUZ T 3704, PIMUZ T 3705, PIMUZ T 3710, PIMUZ T 3712, PIMUZ T 3713, PIMUZ T 3715, PIMUZ T 3716, PIMUZ T 3722, PIMUZ T 3726, PIMUZ T 3728, PIMUZ T 3734, PIMUZ T 3744, PIMUZ T 3752, PIMUZ T 3753, PIMUZ T 3754, PIMUZ T 3755, PIMUZ T 3762, PIMUZ T 3764, PIMUZ T 3768, PIMUZ T 3770, PIMUZ T 3787, PIMUZ T 3788, PIMUZ T 3789, PIMUZ T 3799, PIMUZ T 3801, PIMUZ T 3902, PIMUZ T 3924, PIMUZ T 3932, PIMUZ T 4290, PIMUZ T 4291, PIMUZ T 4292, PIMUZ T 4294, PIMUZ T 4295, PIMUZ T 4299; abundance fields abv=105, abu=specimens; PBDB locality-coordinate fields lng=8.932000, lat=45.904999; paleocoordinate/model fields pm1=gplates, pln=33.62, pla=18.03.
+- occ:1415286: PBDB taxon-name field tna=Neusticosaurus peyeri; material note ocm=MCSN 8076, partial skeleton; PBDB locality-coordinate fields lng=8.946000, lat=45.905998; paleocoordinate/model fields pm1=gplates, pln=33.4, pla=18.11.
+
+## References attached to each record {#s-e0db2f5636}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1409649: Recorded attribution Sander 1989; PBDB reference ref:66200.
+- occ:1415286: Recorded attribution Stockar and Renesto 2011; PBDB reference ref:66590.
 
 ## Evidence limits {#s-10682e3566}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 312-item sauropterygia working roster, retain the current same name and a complete parent chain to the recorded Sauropterygia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,5 +1,5 @@
-## Meet this species through Hawaiian breeding nests {#s-2b2f0aaf7f}
-Pinned COL26.8 lists this species as Hydrobates tristrami; the 2008 paper uses the earlier combination Oceanodroma tristrami. Researchers monitored breeding nests on Laysan, Tern and East islands in the Northwestern Hawaiian Islands: Laysan in 2003–2005 and French Frigate Shoals in 2005–2008, with intermittent East Island visits confined to 2005. This is a colony study rather than a North Pacific diet or distribution survey.
+## A name fixed to COL26.8 {#s-2b2f0aaf7f}
+Catalogue of Life release COL26.8 records Hydrobates tristrami (Salvin, 1896) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Nests in burrows, vegetation and crevices {#s-716005e1ec}
 The 115 Laysan nest sites included earthen burrows, dense vegetation and rock crevices; monitored French Frigate Shoals nests were all in earthen burrows. The 42 measured Laysan burrows were 15–70 cm long, but concealed vegetation nests could be missed and thick-vine areas were left unsurveyed to reduce disturbance. Infrared-probe checks were spaced four, seven or about 21 days apart depending on site and year. Nest proportions and monitoring schedules do not characterize every island.

@@ -1,5 +1,5 @@
-## 从 Rallina 旧组合定位当前页面 {#s-c8cd1ff3e6}
-本页按 COL26.8 Rallicula rubra（4RB9B）及 Sarothruridae（CPHSJ）组织。BirdLife 2020 第 2699 行使用本页种名，原科名 Rallidae；eBird 2021 第 9079 行与 BirdTree 第 9025 行都记 Rallina rubra。关联类型分别为 1BL to 1eBird、1BL to 1BT；eBird 两侧 Avibase ID 同为 AVIBASE-0934B6E1。逐字目录异名 4RB9K 指向接受种 4RB9B。旧属名和旧科名保留为来源记录，名称关联不证明历史与当前物种范围完全相同。
+## COL26.8 中的名称身份 {#s-c8cd1ff3e6}
+《Catalogue of Life》COL26.8（2026-08-20）将 Rallicula rubra Schlegel, 1871 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-ccf33be85c}
 形态共 2 只鸟：雌 1、雄 0、性别未定 1；完整测量 2 只。鼻孔前缘至喙尖 12.9 mm、跗蹠 37.5 mm、未压平翼长 92.5 mm、尾长 59 mm、手翼指数 5.8 是历史行均值。完整数与总数相等，仍不提供个体变异范围。本行没有已定性别雄鸟，其中一只性别未定，不能称全雌样本或建立雌雄比较。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；低指数不能据此判定不能飞，翼长也不是实测飞行能力。

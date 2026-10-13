@@ -10,3 +10,6 @@ On the Medem’s titi page, read the name and type locality first, the regional 
 ## Read hand colour against specimen evidence {#s-91f97b86d8}
 [Cheracebus medemi](Cheracebus_medemi/page.en.md) explains why a 2020 museum comparison questioned identification by black hands alone. The comparison provides neither population counts nor genus-wide ecological coverage.
 
+## Recorded classification {#col26-8-identity}
+In the pinned COL26.8 catalogue, Cheracebus Byrne, Rylands, Carneiro, Lynch Alfaro et al., 2016 is recorded as an accepted genus.
+

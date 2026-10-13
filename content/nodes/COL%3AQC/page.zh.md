@@ -4,7 +4,7 @@
 ## 按材料、树模型和实验层次阅读 {#s-5b70f3aa82}
 本入口直接对应的研究物种页为 [Apteryx haastii](Apterygidae/Apteryx/Apteryx_haastii/page.zh.md)、[Apteryx mantelli](Apterygidae/Apteryx/Apteryx_mantelli/page.zh.md)、[Apteryx owenii](Apterygidae/Apteryx/Apteryx_owenii/page.zh.md)、[Apteryx rowi](Apterygidae/Apteryx/Apteryx_rowi/page.zh.md)。先辨认新增、沿用或参考映射的基因组，再比较物种树与基因树。跨支系功能对读可转到 [Rhea americana](../Rheiformes/Rheidae/Rhea/Rhea_americana/page.zh.md) 与 [Eudromia elegans](../Tinamiformes/Tinamidae/Eudromia/Eudromia_elegans/page.zh.md) 的鸡胚报告实验；单个候选区域不能替代所有加速区域的验证。最后回到已有形态、生活史或化石出现材料，保留它们各自的单位和样本；本阅读路径不是全类群取样或完整后代目录。
 
-## 本地数据阅读路径 {#s-6b7fc487cf}
+## 记录分类与成员材料 {#s-6b7fc487cf}
 Apterygiformes 的本批阅读路径包含 3 条有测量来源的物种记录，可从 Apteryx haastii、Apteryx mantelli、Apteryx owenii 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-6f930f69fb}

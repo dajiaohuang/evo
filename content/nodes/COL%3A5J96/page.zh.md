@@ -1,5 +1,7 @@
-## 从有性状记录的物种开始 {#s-67ad96726e}
-Macrocalamus 的本批 ReptTraits 阅读路径包含 7 条同名同科、有逐性状出处的物种资料，可从 [Macrocalamus chanardi](Macrocalamus_chanardi/page.zh.md)、[Macrocalamus gentingensis](Macrocalamus_gentingensis/page.zh.md)、[Macrocalamus jasoni](Macrocalamus_jasoni/page.zh.md)、[Macrocalamus lateralis](Macrocalamus_lateralis/page.zh.md)、[Macrocalamus schulzi](Macrocalamus_schulzi/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与直接上级关系 {#s-67ad96726e}
+COL26.8 将 Macrocalamus 记录为属；其直接上级记录为 Calamariinae。
+
+Macrocalamus 的本批 ReptTraits 阅读路径包含 7 条同名同科、有逐性状出处的物种资料，可从 Macrocalamus chanardi、Macrocalamus gentingensis、Macrocalamus jasoni、Macrocalamus lateralis、Macrocalamus schulzi 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-3c1c58159a}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

@@ -1,15 +1,15 @@
-## Accepted name and record {#s-9eec129858}
-COL26.8 accepts Holcosus septemlineatus in Teiidae. This ReptTraits v1-2 entry keeps the workbook’s Reptile Database 2023 name framework and trait-specific citations. A single row summarizes the compiled record for the species; it does not represent every locality or population.
+## COL26.8 name and the ReptTraits row {#s-9eec129858}
+COL26.8 records Holcosus septemlineatus as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The recorded maximum is snout to vent {#s-5f303d3ce3}
-The reported maximum snout–vent length is 135 mm. This measurement runs from snout to body opening and excludes the tail. It is a compiled maximum, not an average or absolute growth limit. The cited source fields do not give a sex-specific maximum.
+## Length values in the archived records {#s-5f303d3ce3}
+The row reports a maximum SVL of 135 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Two broad feeding and activity labels {#s-2828226eb1}
-The entry records a carnivorous diet and diurnal activity. These describe broad categories rather than the prey eaten or a precise daily schedule. The cited fields do not specify microhabitat, so this account makes no claim about where the lizard spends its time.
+## Habitat use and activity labels {#s-2828226eb1}
+The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Oviparous, with no count supplied {#s-be89ccb498}
-Reproductive mode is listed as oviparous, or egg-laying. The focal fields cited here do not provide a clutch size or annual clutch count. The mode label alone cannot establish reproductive output, embryo nutrition, or a pattern shared by all populations.
+## Reproductive fields in ReptTraits {#s-be89ccb498}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-cf1970ce95}
-This page paraphrases a same-name ReptTraits v1-2 record under the workbook’s 2023 taxonomic framework. The pinned COL26.8 name and family do not by themselves establish concept equivalence. One row cannot preserve all variation among ages, sexes, sites, and populations. The reported maximum is not a species boundary; estimated mass and ambiguously defined juvenile lengths are not used as measured results. Current range, conservation, venom, and population trends are not updated, and absent fields remain gaps.
+## Reading this compiled trait record {#s-cf1970ce95}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,18 +1,49 @@
-## Which fossil records this name represents {#s-9532947453}
-Nanotyrannus lancensis is accepted in the fixed PBDB dinosaur working roster, with database parent Nanotyrannus. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-9532947453}
+Nanotyrannus lancensis is listed in the PBDB snapshot under taxon txn:57256. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-ca4c072a7d}
-Collection Sand Creek, Carter County (CMNH 7541) (Montana), region code US, stratum name Hell Creek; database age bracket 72.2–66 Ma, early interval Maastrichtian. Collection Tooth Draw Quarry (TD), Deer's Ears Butte (South Dakota), region code US, stratum name Hell Creek; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection Stair Quarry (Wyoming), region code US, stratum name Lance; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-ca4c072a7d}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-1485ffcc77}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:528631; PBDB collection col:54002. Locality cnm=Sand Creek, Carter County (CMNH 7541); place fields cc2=US, stp=Montana, cny=Carter. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Maastrichtian. Stratigraphic fields sfm=Hell Creek. Recorded attribution Gilmore 1946; PBDB reference ref:14592.
 
-## Read preservation setting separately from living habitat {#s-c9d2a5a34e}
-Sand Creek, Carter County (CMNH 7541) has collection-environment label terrestrial indet.; collection preservation-mode label body. Tooth Draw Quarry (TD), Deer's Ears Butte has collection-environment label channel lag; collection preservation-mode label body. Stair Quarry has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+described as "Lance Formation, Hell Creek Member"
 
-## Follow collection records back to references {#s-dabcf65af4}
-Sand Creek, Carter County (CMNH 7541) carries database reference attribution Gilmore (1946), identifier ref:14592. Tooth Draw Quarry (TD), Deer's Ears Butte carries database reference attribution Stein (2021), identifier ref:80625. Stair Quarry carries database reference attribution Snyder et al. (2020), identifier ref:84885. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SE 1/4, sec 11, T4S, R61E; Sand Creek, Carter Co., MT
 
-## Evidence limits {#s-25d1debd4e}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1588480; PBDB collection col:224484. Locality cnm=Tooth Draw Quarry (TD), Deer's Ears Butte; place fields cc2=US, stp=South Dakota, cny=Butte. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Hell Creek. Recorded attribution Stein 2021; PBDB reference ref:80625.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"it was determined that the Tooth Draw Quarry (TD) is approximately, 58 meters below the suspected K-Pg boundary. This places it somewhere in the lower middle of the Hell Creek Formation, equivalent to the lower “Marmath Member” of Frye, (1969) or at the base of the informally named “JenRex Sandstone”, “East Ried Coulee Unit”, as per the lectostratatype section by Hartman et. al (2014)."
+- Single major bonebed with several subunits (Horizons A through E)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+original Tooth Draw Quarry extended/correlated with nearby exposures: Tooth Draw West (TDW) and Tooth Draw Site B (= Becca's Tooth Draw); in Deer's Ears Butte area
+- Coordinates provided in Fig. 20.
+
+- Occurrence occ:1626823; PBDB collection col:230284. Locality cnm=Stair Quarry; place fields cc2=US, stp=Wyoming, cny=Niobrara. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Lance. Recorded attribution Snyder et al. 2020; PBDB reference ref:84885.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Stair Quarry, presumably on the Hanson Ranch, Roxson, WY
+
+## Age bounds on the recorded occurrences {#s-1485ffcc77}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:528631; the smallest recorded lag=66 Ma in occ:528631. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-c9d2a5a34e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:528631: PBDB original-identification field idn=Gorgosaurus lancensis n. sp.; PBDB taxon-name field tna=Nanotyrannus lancensis; material note ocm=CMNH 7541; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-104.159698, lat=45.500801; paleocoordinate/model fields pm1=gplates, pln=-63.04, pla=55.77.
+- occ:1588480: PBDB taxon-name field tna=Nanotyrannus lancensis; abundance fields abv=422, abu=specimens; PBDB locality-coordinate fields lng=-103.188957, lat=45.000481; paleocoordinate/model fields pm1=gplates, pln=-63.03, pla=54.94.
+- occ:1626823: PBDB taxon-name field tna=Nanotyrannus lancensis; material note ocm=partial skeleton; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-104.427002, lat=43.505402; paleocoordinate/model fields pm1=gplates, pln=-65.51, pla=53.97.
+
+## References attached to each record {#s-dabcf65af4}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:528631: Recorded attribution Gilmore 1946; PBDB reference ref:14592.
+- occ:1588480: Recorded attribution Stein 2021; PBDB reference ref:80625.
+- occ:1626823: Recorded attribution Snyder et al. 2020; PBDB reference ref:84885.
+
+## What these records can show {#s-25d1debd4e}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

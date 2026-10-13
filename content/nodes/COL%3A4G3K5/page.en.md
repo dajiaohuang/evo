@@ -1,26 +1,26 @@
-## The name and this data account {#s-06acd5236d}
-Pheucticus tibialis is accepted in COL26.8 within Cardinalidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 8 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-06acd5236d}
+The AVONET v7 row for Pheucticus tibialis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 16.2 mm. The row records 8 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-819c8c2fec}
-Recorded mean beak measurements are 16.2 mm from the anterior nostril edge to the tip, 11.2 mm in width and 16.4 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-819c8c2fec}
+AVONET records culmen length (bill tip to skull base) 21.9 mm; beak length (nostril front edge to tip) 16.2 mm; beak width at the nostril front edge 11.2 mm; beak depth at the nostril front edge 16.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-a9069ca051}
-Mean unflattened wing length from the carpal joint to the longest primary is 108.7 mm; mean tarsus length is 23.6 mm. Compiled mean mass is 62.3 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-a9069ca051}
+AVONET records unflattened wing length 108.7 mm; tarsus length 23.6 mm; distance from first secondary tip to longest primary tip 25.1 mm; length to first secondary tip 83.6 mm; hand-wing index 23.1; tail length 79 mm; species-average body mass 62.3 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-8e3d391a16}
-The dataset assigns habitat Forest, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-8e3d391a16}
+AVONET classifies Pheucticus tibialis as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-9e12228798}
-The migration field classifies this record as partially migratory. Historical breeding and resident maps span latitude endpoints 8.41° to 10.83°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-9e12228798}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints 8.41° to 10.83°. The mapped range area is 19605.63 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-a41b751bb3}
-Pheucticus tibialis is accepted in pinned COL26.8 within Cardinalidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-a41b751bb3}
+EltonTraits 1.0 has a same-name, same-family record for Pheucticus tibialis covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-479a341179}
-Foraging-stratum weights flagged as species-level in the archive are trees or high bushes from 2 m upward but below the canopy 60%; understory, edges or shrubs below 2 m 20%; in or just above the canopy 20%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-479a341179}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 20%; in mid-height or high vegetation 60%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-bb727ea1c3}
-The used groups carry labels Ref_55. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-bb727ea1c3}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Perlo, B. V. 2006. Collins Field Guide to the Birds of Mexico and Central America. Harper Collins.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-c4cdcd7136}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

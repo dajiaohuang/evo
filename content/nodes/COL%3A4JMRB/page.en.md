@@ -1,44 +1,44 @@
-## The name and this data account {#s-d29b978bac}
-Platalea alba is accepted in COL26.8 within Threskiornithidae. AVONET v7 links the record to its HBW–BirdLife 2020 name and reports 4 measured individuals, all with a complete morphological set. Trait-specific sample sizes may still differ; the historical name match does not establish concept equivalence.
+## Row-reported mean and sample coverage {#s-d29b978bac}
+The AVONET v7 row for Platalea alba (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 181.8 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-c5dade0baa}
-Mean beak length is 181.8 mm from the anterior nostril edge to the tip; width and depth at that edge average 26.4 mm and 17.2 mm. These are separate measurements at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-c5dade0baa}
+AVONET records culmen length (bill tip to skull base) 204 mm; beak length (nostril front edge to tip) 181.8 mm; beak width at the nostril front edge 26.4 mm; beak depth at the nostril front edge 17.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-543368f077}
-Mean unflattened wing length is 384.2 mm, measured from the carpal joint to the longest primary; mean tarsus length is 141.2 mm. Compiled mean mass is 1,521 g, labelled Dunning. That separate mass source does not mean the four morphology records were each weighed.
+## Wing and body measures use separate sources {#s-543368f077}
+AVONET records unflattened wing length 384.2 mm; tarsus length 141.2 mm; distance from first secondary tip to longest primary tip 138.2 mm; length to first secondary tip 246 mm; hand-wing index 35.9; tail length 116 mm; species-average body mass 1521 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-e101968667}
-AVONET classifies habitat as Wetland, trophic niche as Aquatic predator and lifestyle as Terrestrial. These broad comparative labels do not imply exclusive habitat use or a complete description of food and behavior.
+## Recorded habitat and feeding categories {#s-e101968667}
+AVONET classifies Platalea alba as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-1c3088caa9}
-The migration field is partially migratory. Historical breeding and resident maps extend from latitude −34.84° to 17.97°; they do not capture all non-breeding movements or show current global occupancy. The map and morphology are separate compilation products.
+## The migration label has a limited scope {#s-1c3088caa9}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -34.84° to 17.97°. The mapped range area is 14157612.5 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-9f77e05615}
-Five focal fields are available from the 2015 same-name life-history entry. Its species-level rows are linked by name and family, but this historical compilation can retain inherited taxonomic material and does not establish equivalence to the current COL26.8 concept.
+## Scope of the historical life-history entry {#s-9f77e05615}
+The August 2015 database has a same-name, same-family record for Platalea alba. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-5d66730f6b}
-The adult body-mass summary is 1,521 g. It may combine male, female and unspecified-sex adults, so it is not an individual range. No birth or hatching mass is included here.
+## Compiled adult-mass values {#s-5d66730f6b}
+The August 2015 compilation reports adult body mass 1521 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-6ce0f627e8}
-The three other available fields are clutch or litter size (3 eggs or offspring), egg-laying to hatching (26 days), and age at flight capability (35 days). The source combines eggs and offspring in one count field; these values refer to different events, not one interchangeable measure of a reproductive cycle.
+## Reproductive fields describe different events {#s-6ce0f627e8}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3; oviposition-to-hatching interval 26 days; age at flight capability (some records mark nest departure) 35 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-6d57a8a80d}
-The archive’s maximum_longevity_y value is 17.9 years, the largest record retained under its method. It is not a typical lifespan, a mean wild lifespan or an age attained by every individual.
+## A maximum record is not typical lifespan {#s-6d57a8a80d}
+The compilation lists 17.9 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-dfcfbde765}
-The same-name rows carry labels including Dunning (1992), de Magalhaes and Costa (2009), Ricklefs (2010b) and Bennett (1986). The archive retains row-level values and source labels; row counts are not numbers of birds, and repeated citations are not independent replication.
+## Sources and field limits {#s-dfcfbde765}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-98f46f5437}
-EltonTraits 1.0 links a historical same-name, same-family record to the accepted name Platalea alba. Its earlier taxonomy does not settle modern splits or synonyms; the two selected groups are diet and foraging position.
+## Scope of the historical trait entry {#s-98f46f5437}
+EltonTraits 1.0 has a same-name, same-family record for Platalea alba covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-73dfd5cf73}
-The nonzero diet weights are split evenly: invertebrates 50% and fish 50%. Code A records high compiler confidence in the source and diet information. These proportions standardize verbal descriptions; they are not measured prey shares, and zero in another category does not prove that category is never eaten.
+## Relative weights across food categories {#s-73dfd5cf73}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; fish 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-a7780e8eef}
-The species-level foraging weights place 100% at the water surface or just below it. This estimates relative use of a feeding position, not nest location, underwater depth or whole-day time.
+## Foraging positions are not a time budget {#s-a7780e8eef}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-e348bc2cb8}
-Both selected field groups carry Ref_1, recorded as Handbook of the Birds of the World volume 1. The archive preserves the field-level link; the underlying work has not been independently checked here, and a reference label is not another observation.
+## Sources and field limits {#s-e348bc2cb8}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-ca8f42d1e0}
 AVONET v7 reports means under the historical HBW–BirdLife name: four individuals were measured, and mass comes from a separate Dunning source. The Wetland, Aquatic predator, Terrestrial and partially migratory labels are broad categories; the historical latitude map is not current occupancy. Same-name links do not prove equivalence to COL26.8.

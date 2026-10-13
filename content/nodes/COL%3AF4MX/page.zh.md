@@ -1,5 +1,5 @@
-## 沿 Caprimulgus 旧名定位 {#s-fa8d3ab89e}
-本页按COL26.8 Antrostomus badius（F4MX）、Caprimulgidae（7PQ）组织。BirdLife 2020第603行与eBird 2021第724行同名，eBird两侧Avibase ID同为AVIBASE-0D4BB435，类型1BL to 1eBird。BirdTree第725行记Caprimulgus badius，类型1BL to 1BT；逐字目录异名QSMR指向接受种F4MX。名称关系提供定位，不证明不同版本物种范围完全相同。
+## COL26.8 中的名称身份 {#s-fa8d3ab89e}
+《Catalogue of Life》COL26.8（2026-08-20）将 Antrostomus badius Bangs & Peck, 1908 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-eef04dec28}
 形态共 2 只鸟：雌 1、雄 1、性别未定 0；完整测量 2 只。鼻孔前缘至喙尖 7.9 mm、跗蹠 16.8 mm、未压平翼长 163 mm、尾长 115 mm、手翼指数 45.4 是历史行均值。完整数与总数相等，仍不提供个体变异范围。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；指数不是飞行速度，翼长也不是实测飞行能力。

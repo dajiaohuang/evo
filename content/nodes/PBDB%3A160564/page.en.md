@@ -1,19 +1,47 @@
 ## Which fossil records this name represents {#s-cecde68263}
 Nothodipoides stirtoni is accepted in the fixed PBDB mammalia working roster, with database parent Nothodipoides. This guide uses 5 eligible species-level occurrence records from 5 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-342c2cecaa}
-Collection Steer Creek (Burge Member) (Nebraska), region code US, stratum name Valentine; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Collection June Quarry (Nebraska), region code US, stratum name Valentine; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Collection Quinn Mastodon Quarry (Nebraska), region code US, stratum name Valentine; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Nothodipoides stirtoni is listed in the PBDB snapshot under taxon txn:160564. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-3b61053242}
-Selected occurrences have an outer age envelope of 16.3–9.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is East Surface Quarry, occurrence occ:2065138 (16.3–12.5 Ma); one supplying the younger bound is Steer Creek (Burge Member), occurrence occ:838476 (12.5–9.4 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-342c2cecaa}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-f0ab5de041}
-Steer Creek (Burge Member) has collection-environment label terrestrial indet.; collection preservation-mode label body. June Quarry has collection-environment label terrestrial indet.; collection preservation-mode label body. Quinn Mastodon Quarry has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:2065138; PBDB collection col:17904. Locality cnm=East Surface Quarry; place fields cc2=US, stp=Nebraska, cny=Sioux. Recorded age bounds: eag 16.3 Ma; lag 12.5 Ma; PBDB interval fields oei=Early Barstovian. Stratigraphic fields sfm=Olcott, sls=Snake, slb=5, slo=bottom to top. Recorded attribution Korth 2002; PBDB reference ref:94916.
 
-## Follow collection records back to references {#s-fadcbd4a3d}
-Steer Creek (Burge Member) carries database reference attribution Korth (2007), identifier ref:31434. June Quarry carries database reference attribution Korth (2002), identifier ref:94916. Quinn Mastodon Quarry carries database reference attribution Korth (2002), identifier ref:94916. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Lower Snake Creek Beds; Barstovian 1
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+East Sinclair Draw
+
+- Occurrence occ:838476; PBDB collection col:93076. Locality cnm=Steer Creek (Burge Member); place fields cc2=US, stp=Nebraska, cny=Cherry. Recorded age bounds: eag 12.5 Ma; lag 9.4 Ma; PBDB interval fields oei=Clarendonian. Stratigraphic fields sfm=Valentine. Recorded attribution Korth 2007; PBDB reference ref:31434.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"1/4 mile below Steer Creek, on the west side of Snake River" (coordinate based on Steer Creek)
+
+- Occurrence occ:838477; PBDB collection col:18217. Locality cnm=June Quarry; place fields cc2=US, stp=Nebraska, cny=Brown. Recorded age bounds: eag 12.5 Ma; lag 9.4 Ma; PBDB interval fields oei=Clarendonian. Stratigraphic fields sfm=Valentine, sls=ValAH, slb=4, slo=bottom to top. Recorded attribution Korth 2002; PBDB reference ref:94916.
+
+## Age bounds on the recorded occurrences {#s-3b61053242}
+Across these selected PBDB rows, the largest recorded eag=16.3 Ma in occ:2065138; the smallest recorded lag=9.4 Ma in occ:838476. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-f0ab5de041}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:2065138: PBDB taxon-name field tna=Nothodipoides stirtoni; PBDB locality-coordinate fields lng=-103.800003, lat=42.400002; paleocoordinate/model fields pm1=gplates, pln=-97.28, pla=45.82.
+- occ:838476: PBDB taxon-name field tna=Nothodipoides stirtoni; PBDB locality-coordinate fields lng=-100.849998, lat=42.716667; paleocoordinate/model fields pm1=gplates, pln=-95.63, pla=45.42.
+- occ:838477: PBDB original-identification field idn=Nothodipoides stirtoni n. sp.; PBDB taxon-name field tna=Nothodipoides stirtoni; PBDB locality-coordinate fields lng=-100.000000, lat=42.700001; paleocoordinate/model fields pm1=gplates, pln=-94.74, pla=45.36.
+
+## References attached to each record {#s-fadcbd4a3d}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:2065138: Recorded attribution Korth 2002; PBDB reference ref:94916.
+- occ:838476: Recorded attribution Korth 2007; PBDB reference ref:31434.
+- occ:838477: Recorded attribution Korth 2002; PBDB reference ref:94916.
 
 ## Evidence limits {#s-10c71ab51b}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

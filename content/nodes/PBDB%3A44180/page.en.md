@@ -1,19 +1,40 @@
 ## Which fossil records this name represents {#s-6ddb8592ad}
 Aphronorus ratatoski is accepted in the fixed PBDB mammalia working roster, with database parent Aphronorus. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-a80ffae696}
-Collection Rock Springs Uplift (UW V-77010) (Wyoming), region code US, stratum name Fort Union; database age bracket 63.4–60.9 Ma, early interval Torrejonian. Collection Rock Springs Uplift (UW V-78055) (Wyoming), region code US, stratum name Fort Union; database age bracket 63.4–60.9 Ma, early interval Torrejonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Aphronorus ratatoski is listed in the PBDB snapshot under taxon txn:44180. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-63d16b6a3f}
-Selected occurrences have an outer age envelope of 63.4–60.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Rock Springs Uplift (UW V-77010), occurrence occ:165047 (63.4–60.9 Ma); one supplying the younger bound is Rock Springs Uplift (UW V-77010), occurrence occ:165047 (63.4–60.9 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-a80ffae696}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-a9fa5c468b}
-Rock Springs Uplift (UW V-77010) has collection-environment label terrestrial indet.; collection preservation-mode label body. Rock Springs Uplift (UW V-78055) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:165047; PBDB collection col:14880. Locality cnm=Rock Springs Uplift (UW V-77010); place fields cc2=US, stp=Wyoming, cny=Sweetwater. Recorded age bounds: eag 63.4 Ma; lag 60.9 Ma; PBDB interval fields oei=Torrejonian. Stratigraphic fields sfm=Fort Union, sls=RockS, slb=87, slo=bottom to top. Recorded attribution Winterfeld 1982; PBDB reference ref:3716.
 
-## Follow collection records back to references {#s-3a8bfefc6e}
-Rock Springs Uplift (UW V-77010) carries database reference attribution Winterfeld (1982), identifier ref:3716. Rock Springs Uplift (UW V-78055) carries database reference attribution Winterfeld (1982), identifier ref:3716. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+east flank Rock Springs Uplift
+
+- Occurrence occ:165052; PBDB collection col:14882. Locality cnm=Rock Springs Uplift (UW V-78055); place fields cc2=US, stp=Wyoming, cny=Sweetwater. Recorded age bounds: eag 63.4 Ma; lag 60.9 Ma; PBDB interval fields oei=Torrejonian. Stratigraphic fields sfm=Fort Union, sls=RockS, slb=87, slo=bottom to top. Recorded attribution Winterfeld 1982; PBDB reference ref:3716.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+east flank Rock Springs Uplift
+
+## Age bounds on the recorded occurrences {#s-63d16b6a3f}
+Across these selected PBDB rows, the largest recorded eag=63.4 Ma in occ:165047; the smallest recorded lag=60.9 Ma in occ:165047. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-a9fa5c468b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:165047: PBDB original-identification field idn=Aphronorus ratatoski n. sp.; PBDB taxon-name field tna=Aphronorus ratatoski; PBDB locality-coordinate fields lng=-109.000000, lat=41.700001; paleocoordinate/model fields pm1=gplates, pln=-75.29, pla=52.
+- occ:165052: PBDB taxon-name field tna=Aphronorus ratatoski; PBDB locality-coordinate fields lng=-109.000000, lat=41.700001; paleocoordinate/model fields pm1=gplates, pln=-75.29, pla=52.
+
+## References attached to each record {#s-3a8bfefc6e}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:165047: Recorded attribution Winterfeld 1982; PBDB reference ref:3716.
+- occ:165052: Recorded attribution Winterfeld 1982; PBDB reference ref:3716.
 
 ## Evidence limits {#s-0449c44102}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

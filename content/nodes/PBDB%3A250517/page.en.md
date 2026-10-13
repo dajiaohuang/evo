@@ -1,19 +1,50 @@
 ## Which fossil records this name represents {#s-3e38fb8e1c}
 Neonatrix europaea is accepted in the fixed PBDB squamata working roster, with database parent Neonatrix. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-d8dded3abd}
-Collection Sansan (Midi-Pyrenees), region code FR; database age bracket 15.98–11.63 Ma, early interval Langhian and late interval Serravallian. Collection La Grive M (Rhône-Alpes), region code FR; database age bracket 12.75–11.1 Ma, early interval MN 7 + 8. Collection Béon 1 (Midi-Pyrenees), region code FR; database age bracket 16.9–15.98 Ma, early interval MN 4. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Neonatrix europaea is listed in the PBDB snapshot under taxon txn:250517. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-8eac69bf45}
-Selected occurrences have an outer age envelope of 16.9–11.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Béon 1, occurrence occ:1089654 (16.9–15.98 Ma); one supplying the younger bound is La Grive M, occurrence occ:1084947 (12.75–11.1 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-d8dded3abd}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-7d284501e5}
-Sansan has collection-environment label lacustrine - small; collection preservation-mode label body. La Grive M has collection-environment label fissure fill; collection preservation-mode label body. Béon 1 has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1083676; PBDB collection col:32191. Locality cnm=Sansan; place fields cc2=FR, stp=Midi-Pyrenees, cny=Gers. Recorded age bounds: eag 15.98 Ma; lag 11.63 Ma; PBDB interval fields oei=Langhian, oli=Serravallian. Recorded attribution Augé and Rage 2000; PBDB reference ref:43532.
 
-## Follow collection records back to references {#s-53d344c260}
-Sansan carries database reference attribution Augé and Rage (2000), identifier ref:43532. La Grive M carries database reference attribution Rage and Holman (1984), identifier ref:43571. Béon 1 carries database reference attribution Rage and Bailon (2005), identifier ref:43777. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SE from Auch, near Castelnau-Barbarens. Coordinates are for Sansan, about 8 km SW from Castelnau-Barbarens.
+
+- Occurrence occ:1084947; PBDB collection col:79360. Locality cnm=La Grive M; place fields cc2=FR, stp=Rhône-Alpes, cny=Isére. Recorded age bounds: eag 12.75 Ma; lag 11.1 Ma; PBDB interval fields oei=MN 7 + 8. Recorded attribution Rage and Holman 1984; PBDB reference ref:43571.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+MN 7 (Astaracian) according to Rage & Holman (1984).(TL)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+DMS coordinates are for La Grive near Saint-Alban-de-Roche, about 20 km SE of Lyon. (TL)
+
+- Occurrence occ:1089654; PBDB collection col:136919. Locality cnm=Béon 1; place fields cc2=FR, stp=Midi-Pyrenees, cny=Gers. Recorded age bounds: eag 16.9 Ma; lag 15.98 Ma; PBDB interval fields oei=MN 4. Recorded attribution Rage and Bailon 2005; PBDB reference ref:43777.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+The locality is about 2.5 km SE from the town of Montréal immediately south of the old Panblanc quarry. DMS coordinates are based on map (fig. 1) in Bulot et al. (2009, Ann. Paléont. 95(4))
+
+## Age bounds on the recorded occurrences {#s-8eac69bf45}
+Across these selected PBDB rows, the largest recorded eag=16.9 Ma in occ:1089654; the smallest recorded lag=11.1 Ma in occ:1084947. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-7d284501e5}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1083676: PBDB taxon-name field tna=Neonatrix europaea; PBDB locality-coordinate fields lng=0.612500, lat=43.529167; paleocoordinate/model fields pm1=gplates, pln=2.63, pla=41.16.
+- occ:1084947: PBDB original-identification field idn=Neonatrix europaea n. sp.; PBDB taxon-name field tna=Neonatrix europaea; material note ocm=4 vertebra (FSL 285 008 = holotype, and 009 to 001 = paratypes); PBDB locality-coordinate fields lng=5.231944, lat=45.599998; paleocoordinate/model fields pm1=gplates, pln=6.9, pla=43.48.
+- occ:1089654: PBDB taxon-name field tna=Neonatrix europaea; material note ocm=4 trunk vertebrae (Béon 2004 LT 74); abundance fields abv=4, abu=elements; PBDB locality-coordinate fields lng=0.223611, lat=43.935280; paleocoordinate/model fields pm1=gplates, pln=2.57, pla=41.22.
+
+## References attached to each record {#s-53d344c260}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1083676: Recorded attribution Augé and Rage 2000; PBDB reference ref:43532.
+- occ:1084947: Recorded attribution Rage and Holman 1984; PBDB reference ref:43571.
+- occ:1089654: Recorded attribution Rage and Bailon 2005; PBDB reference ref:43777.
 
 ## Evidence limits {#s-6b211e6ec8}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 1010-item squamata working roster, retain the current same name and a complete parent chain to the recorded Squamata storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

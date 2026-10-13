@@ -1,29 +1,29 @@
-## A four-individual sample {#s-5e7098af86}
-COL26.8 accepts Zosterops mouroniensis in Zosteropidae. The AVONET v7 entry retains the HBW–BirdLife 2020 name and contains 4 measured individuals, all with a complete morphological set. The averages below describe this sample.
+## Row-reported mean and sample coverage {#s-5e7098af86}
+The AVONET v7 row for Zosterops mouroniensis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 6.7 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions {#s-272f06b8fa}
-Mean beak length from the front edge of the nostril to the tip is 6.7 mm; width and depth at that edge average 3 mm and 2.7 mm. These are separate standardized measurements, not identification thresholds.
+## Beak measurements at defined landmarks {#s-272f06b8fa}
+AVONET records culmen length (bill tip to skull base) 13.1 mm; beak length (nostril front edge to tip) 6.7 mm; beak width at the nostril front edge 3 mm; beak depth at the nostril front edge 2.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-b1cdc87bdc}
-Unflattened wing length from the carpal joint to the longest primary averages 64.4 mm; tarsus length averages 19 mm. The compiled mean mass is 9.9 g, classed as Dunning. It is a separate species-average value, not a weight measured for each bird in the four-individual sample.
+## Wing and body measures use separate sources {#s-b1cdc87bdc}
+AVONET records unflattened wing length 64.4 mm; tarsus length 19 mm; distance from first secondary tip to longest primary tip 14.3 mm; length to first secondary tip 50.1 mm; hand-wing index 22.2; tail length 46.5 mm; species-average body mass 9.9 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat and feeding categories {#s-4d889537e7}
-The AVONET categories are Shrubland for habitat, Frugivore for trophic niche and Insessorial for primary lifestyle, meaning chiefly perching. They are broad comparison labels, not evidence that the bird uses only shrubland or eats only fruit.
+## Recorded habitat and feeding categories {#s-4d889537e7}
+AVONET classifies Zosterops mouroniensis as habitat Shrubland (low, bush-dominated vegetation); trophic niche Frugivore (source threshold at least 60% from fruit); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and historical map {#s-bb6a9056cf}
-The migration category is Sedentary. Historical breeding and resident maps span latitude endpoints −11.8° to −11.69°. This short latitude span is a map summary, not a complete account of non-breeding movements or current occupancy. The geographic and morphological records were compiled separately.
+## The migration label has a limited scope {#s-bb6a9056cf}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -11.8° to -11.69°. The mapped range area is 71.7 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Two historical feeding records {#s-e72e5383ed}
-EltonTraits 1.0 also links a same-name, same-family historical record for Zosterops mouroniensis, with diet and foraging-position groups. It uses an earlier bird classification. Linking that entry to COL26.8 helps locate it but does not resolve later splits or synonymies.
+## Scope of the historical trait entry {#s-e72e5383ed}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops mouroniensis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-04a4821661}
-The diet profile assigns 80% relative weight to fruit and 20% to invertebrates. Code B indicates reasonable confidence in the source but possible uncertainty in the proportions. These are standardized estimates from verbal descriptions, not a measured diet composition; a zero category would not prove that a food is never eaten.
+## Relative weights across food categories {#s-04a4821661}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; fruit 80%. Its dominant five-category label is FruiNect. Code B marks a reasonably reliable source, though relative proportions may be uncertain. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## The recorded foraging position {#s-b4955ab3cf}
-The species-level entry assigns 100% of its foraging-stratum weight to understory, edges or shrubs below 2 m. This is an estimate of relative feeding-position use, not a nest location, full habitat description or whole-day time budget. The source categories are not elevation bands and cannot be used to infer flight height or habitat area.
+## Foraging positions are not a time budget {#s-b4955ab3cf}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Separate source labels {#s-b0c06eacb0}
-The archive links diet to Ref_13 and foraging position to Ref_50. These separate source labels identify the trails for the two field groups; they are not additional observations or direct measurements.
+## Sources and field limits {#s-b0c06eacb0}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Sinclair, J. and O. Langrand. 1998. Birds of the Indian Ocean Islands. Struik (Cape Town).. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Scope of the historical summaries {#s-c1477af03b}
 The AVONET measurements are sample averages rather than diagnostic values or individual-variation ranges; mass comes from a separate source. Habitat and migration are broad categories, and the latitude summary describes historical breeding and resident maps. EltonTraits converts literature descriptions into relative weights, not direct measurements of intake, activity time or energy; code B also signals uncertainty in proportions. Historical names connect these sources to COL26.8 but do not establish identical species concepts or show current range, populations or conservation status.

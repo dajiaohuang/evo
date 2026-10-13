@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-bf157b5e1b}
 Litocherus lacunatus is accepted in the fixed PBDB mammalia working roster, with database parent Litocherus. This guide uses 9 eligible species-level occurrence records from 9 collections and 5 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 2 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-ea3bb1fb10}
-Collection Battle Mountain (Wyoming), region code US, stratum name Hoback; database age bracket 60.9–57.5 Ma, early interval Tiffanian. Collection Chappo Type Locality (Wyoming), region code US, stratum name Wasatch; database age bracket 60.9–57.5 Ma, early interval Tiffanian. Collection Circle Locality (Montana), region code US, stratum name Fort Union; database age bracket 60.9–57.5 Ma, early interval Tiffanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Litocherus lacunatus is listed in the PBDB snapshot under taxon txn:47728. This archived guide contains 9 selected occurrence rows, linked to 9 distinct PBDB collection IDs and 5 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-e570c8b7bd}
-Selected occurrences have an outer age envelope of 60.9–57.5 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Battle Mountain, occurrence occ:165502 (60.9–57.5 Ma); one supplying the younger bound is Battle Mountain, occurrence occ:165502 (60.9–57.5 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-ea3bb1fb10}
+The archived guide contains 9 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-520008b7fe}
-Battle Mountain has collection-environment label terrestrial indet.; collection preservation-mode label body. Chappo Type Locality has collection-environment label terrestrial indet.; collection preservation-mode label body. Circle Locality has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:165502; PBDB collection col:14926. Locality cnm=Battle Mountain; place fields cc2=US, stp=Wyoming, cny=Sublette. Recorded age bounds: eag 60.9 Ma; lag 57.5 Ma; PBDB interval fields oei=Tiffanian. Stratigraphic fields sfm=Hoback. Recorded attribution Gingerich 1983; PBDB reference ref:1652.
 
-## Follow collection records back to references {#s-9879e236a0}
-Battle Mountain carries database reference attribution Gingerich (1983), identifier ref:1652. Chappo Type Locality carries database reference attribution Gunnell (1994), identifier ref:1731. Circle Locality carries database reference attribution Alroy (2002), identifier ref:6294. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be middle Tiffanian
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Hoback Basin
+
+- Occurrence occ:165591; PBDB collection col:14936. Locality cnm=Chappo Type Locality; place fields cc2=US, stp=Wyoming, cny=Lincoln. Recorded age bounds: eag 60.9 Ma; lag 57.5 Ma; PBDB interval fields oei=Tiffanian. Stratigraphic fields sfm=Wasatch. Recorded attribution Gunnell 1994; PBDB reference ref:1731.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be middle Tiffanian
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+LaBarge Creek, 7.5 km WSW of LaBarge
+
+- Occurrence occ:165624; PBDB collection col:14937. Locality cnm=Circle Locality; place fields cc2=US, stp=Montana, cny=McCone. Recorded age bounds: eag 60.9 Ma; lag 57.5 Ma; PBDB interval fields oei=Tiffanian. Stratigraphic fields sfm=Fort Union. Recorded attribution Alroy 2002; PBDB reference ref:6294.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Glen Waller Ranch
+
+## Age bounds on the recorded occurrences {#s-e570c8b7bd}
+Across these selected PBDB rows, the largest recorded eag=60.9 Ma in occ:165502; the smallest recorded lag=57.5 Ma in occ:165502. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-520008b7fe}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:165502: PBDB taxon-name field tna=Litocherus lacunatus; PBDB locality-coordinate fields lng=-110.099998, lat=42.700001; paleocoordinate/model fields pm1=gplates, pln=-78.57, pla=51.99.
+- occ:165591: PBDB taxon-name field tna=Litocherus lacunatus; material note ocm=described by Gingerich 1983c; abundance fields abv=9, abu=specimens; PBDB locality-coordinate fields lng=-110.699997, lat=41.799999; paleocoordinate/model fields pm1=gplates, pln=-79.72, pla=51.28.
+- occ:165624: PBDB taxon-name field tna=Litocherus lacunatus; PBDB locality-coordinate fields lng=-106.099998, lat=47.799999; paleocoordinate/model fields pm1=gplates, pln=-71.05, pla=55.77.
+
+## References attached to each record {#s-9879e236a0}
+The archived guide links the rows to 5 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:165502: Recorded attribution Gingerich 1983; PBDB reference ref:1652.
+- occ:165591: Recorded attribution Gunnell 1994; PBDB reference ref:1731.
+- occ:165624: Recorded attribution Alroy 2002; PBDB reference ref:6294.
 
 ## Evidence limits {#s-0f263faf79}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 9 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

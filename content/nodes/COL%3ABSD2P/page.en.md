@@ -1,5 +1,5 @@
-## Overview {#s-5ac5d67fbe}
-This page follows the COL26.8 accepted name Oedipomidas leucopus; both selected field studies use the combination Saguinus leucopus, retained in the citations. The English name comes from research titles and the Chinese rendering is editorial. Sources cover a year of ecological observations of two groups in fragmented forest in Antioquia and a lightweight-GPS methods study of one free-ranging group.
+## Food scarcity and GPS tracking {#s-5ac5d67fbe}
+The accepted name used here is Oedipomidas leucopus; both field studies use Saguinus leucopus. In fragmented Antioquia forest, two groups totaling 16 animals were followed for about 459 hours in 2011. When fruit became scarce, dietary diversity, forest-edge use and ranging area increased. A separate GPS trial tracked two adults from one free-ranging group and produced method-dependent home-range estimates; these findings stay tied to their local studies.
 
 ## Research observations {#s-550e64989b}
 At Hacienda La Brillantina in Remedios in 2011, researchers followed two groups totaling 16 animals for about 459 hours and monitored fruit production every two weeks. The tamarins fed on more than 95 plant species; during fruit scarcity, dietary diversity increased, they used forest edges more often and ranged over larger areas. Researchers recovered seeds from at least 44 plant species in feces and estimated dispersal distances up to 500 m. These findings concern one fragmented landscape and two groups.

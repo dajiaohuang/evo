@@ -1,34 +1,33 @@
-## Name and this data account {#s-e516bec92d}
-Chersina angulata is accepted in pinned COL26.8 within Testudinidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-e516bec92d}
+COL26.8 records Chersina angulata as an accepted species. The ReptTraits v1-2 row gives its Family field as Testudinidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-7a8ad9c38a}
-Recorded dimensions are reported maximum straight carapace length (SCL) 125 mm. SCL measures the shell in a straight line, excluding head, neck and tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-7a8ad9c38a}
+The row reports a maximum straight carapace length (SCL) of 125 mm. ReptTraits attributes this field to Feldman & Meiri 2013.
 
-## Where and how it is active {#s-a3e515d04c}
-In the entry, microhabitat is Terrestrial; active timing is Cathemeral; foraging mode is ACT. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-a3e515d04c}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Stark et al. 2018. The diet field classifies the entry as plant-eating (Herbivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as active across day and night (Cathemeral); it is the dataset's timing category. ReptTraits attributes this field to Stark et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Rhodin et al. 2011.
 
-## How to read reproductive records {#s-c2745aa9cb}
-the reproductive-mode field uses the original label oviparous; consolidated mean offspring or eggs per litter/clutch 1; consolidated litters/clutches per year 1; egg length 42 mm; egg width 34 mm. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-c2745aa9cb}
+The compiled mean for offspring per litter or eggs per clutch is 1. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Werner and Griebeler 2013, Werner 2010. The row reports 1 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The recorded egg length is 42 mm. ReptTraits attributes this field to Cintra and Yamashita 1989. The recorded egg width is 34 mm. ReptTraits attributes this field to Cintra and Yamashita 1989. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The 2015 life-history entry and this name {#s-ef9cb21b49}
-Chersina angulata is accepted in pinned COL26.8 within Testudinidae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## A 2015 life-history row for this name {#s-ef9cb21b49}
+COL26.8 records Chersina angulata as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-dc76657fc1}
-Historical summary values are adult body mass 715 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Length values in the archived records {#s-dc76657fc1}
+Field-specific archive notes: adult body mass: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 715 g. The 2015 archive's field citation is Werner and Griebeler, 2013; Hofmeyr, M.D., Henen, B.T. and V.J.T. Loehr, 2005; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
-## Reproduction and developmental timing {#s-e5ca96b2a1}
-Available compilation fields are offspring per litter or eggs per clutch 1 offspring/eggs; oviposition to hatching 124.38 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive events in the life-history table {#s-e5ca96b2a1}
+Field-specific archive notes: offspring per litter or eggs per clutch: a source-level mean based on median inputs; oviposition to hatching: a source-level mean based on median inputs. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 1; it is not a count from one event. The 2015 archive's field citation is Werner and Griebeler, 2013; Hofmeyr, M.D., Henen, B.T. and V.J.T. Loehr, 2005; Reptile Incubation book. The incubation field is 124.38 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book; BC Reptiles - Wilson, 2003.
 
-## A longest record differs from usual lifespan {#s-0143c0c86f}
-The archive’s maximum_longevity_y value is 11.8 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## Longest lifespan in the archive {#s-0143c0c86f}
+The archive's longest-lifespan record is 11.8 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is Carey, J.R. and D.S. Judge, 2002.
 
-## How to trace these values to sources {#s-037cb60272}
-Same-name sparse rows carry source labels including Werner and Griebeler, 2013; Hofmeyr, M.D., Henen, B.T. and V.J.T. Loehr, 2005; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; Reptile Incubation book, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## The August 2015 life-history table {#s-037cb60272}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-edc7f050b0}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
-This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
+## Separate histories in the two archives {#s-edc7f050b0}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 
-## Fields awaiting citation-scope review {#s-2ede12576f}
-Citation scope remains unresolved for Diet. Harrington et al. (2018) studied snakes; the Rhodin et al. (2011) checklist concerns turtles. Support for the affected fields in this taxon has not been established here, so they are withheld from definite trait conclusions. Original values, categories and labels remain in the source archive; this does not establish that the values are wrong, and no replacement is inferred. Other chapters retain their own sources.
+## ReptTraits v1-2 field citations {#s-2ede12576f}
+ReptTraits v1-2 records a cited source for each reported trait; the citation beside each value belongs to that field.
 

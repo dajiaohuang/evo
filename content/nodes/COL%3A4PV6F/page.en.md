@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-885c5e01fc}
-Pinned COL26.8 organizes this page as Pternistis adspersus (4PV6F). AVONET v7 BirdLife 2020 row 2504 and eBird 2021 agree in name, with Avibase ID AVIBASE-9E356E43; BirdTree gives Francolinus adspersus, with match type 1BL to 1BT. Read COL older-combination record 6JLD3 points to accepted ID 4PV6F. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-885c5e01fc}
+Catalogue of Life release COL26.8 records Pternistis adspersus (Waterhouse, 1838) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-ecea428524}
 Morphology covers 5 birds (2 female, 3 male); 4 have complete measurement sets. Mean nostril-to-tip beak length is 15.3 mm, tarsus 48.1 mm, unflattened wing 169.2 mm and hand-wing index 19.2. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

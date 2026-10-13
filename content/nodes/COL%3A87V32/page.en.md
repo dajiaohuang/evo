@@ -1,15 +1,15 @@
-## The habitat label spans two settings {#s-a4989ffae4}
-COL26.8 places Aspidoscelis martyris in Teiidae. Its cited row combines saxicolous and terrestrial microhabitat labels with daytime, carnivorous and active-foraging categories, an 80 mm maximum, and egg-laying records. This is a set of compiled traits, not a narrative of one locality.
+## COL26.8 name and the ReptTraits row {#s-a4989ffae4}
+COL26.8 records Aspidoscelis martyris as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The 80 mm maximum is snout–vent length {#s-0a6f55a61b}
-The reported maximum is 80 mm and the female maximum 68.7 mm. Snout–vent length is measured from snout to body opening, excluding the tail. Neither value is a typical size or a population-wide maximum established by a new survey.
+## Length values in the archived records {#s-0a6f55a61b}
+The row reports a maximum SVL of 80 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 68.7 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Rock-associated and terrestrial categories {#s-64fbf13707}
-Saxicolous refers to rocky settings; the row also lists terrestrial use. It records daytime activity and active foraging, with a carnivorous diet category. These labels do not specify prey, the relative use of rocks and other land settings, or a complete schedule.
+## Habitat use and activity labels {#s-64fbf13707}
+The microhabitat field classifies the recorded position as rock-dwelling (Saxicolous)/ground-dwelling (Terrestrial) [source label: Saxicolous/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Meiri 2018.
 
-## Egg laying and a 1.25 summary {#s-efaf0262e9}
-The reproductive mode is oviparous. A consolidated clutch/litter figure of 1.25 is accompanied by reported mean endpoints of 1 and 2. The decimal is a summary across source material, not a fractional egg; the endpoints describe reported means, not every clutch’s actual limits.
+## Reproductive fields in ReptTraits {#s-efaf0262e9}
+The compiled mean for offspring per litter or eggs per clutch is 1.245. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Compiled values retain their own limits {#s-48b28d0628}
-The workbook’s name framework dates to 2023, whereas COL26.8 supplies the pinned placement. Matching names do not prove that both concepts contain identical specimens. Trait rows also compress differences in sex, age, locality and population; range and conservation are not updated here.
+## Reading this compiled trait record {#s-48b28d0628}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

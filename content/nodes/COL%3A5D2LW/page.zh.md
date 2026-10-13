@@ -1,5 +1,5 @@
-## 沿旧 Geotrygon 组合查历史行 {#s-8cd5d5d937}
-本页按 COL26.8 的 Zentrygon costaricensis（5D2LW）组织。BirdLife 2020 第 1852 行与 eBird 2021 第 11194 行同名，Avibase ID 为 AVIBASE-944159C3，类型 1BL to 1eBird；BirdTree 第 11135 行记 Geotrygon costaricensis，类型 1BL to 1BT。本次读到目录异名 3FTLZ，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-8cd5d5d937}
+《Catalogue of Life》COL26.8（2026-08-20）将 Zentrygon costaricensis (Lawrence, 1868) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-43246bee72}
 形态共 5 只鸟：雌 2、雄 3、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 9.6 mm、跗蹠 41.3 mm、未压平翼长 139.2 mm、尾长 77.8 mm、手翼指数 19.9 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

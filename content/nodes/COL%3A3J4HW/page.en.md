@@ -1,29 +1,29 @@
-## The name and this data account {#s-61e9b1576f}
-Habia cristata is accepted in COL26.8 within Cardinalidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-61e9b1576f}
+The AVONET v7 row for Habia cristata (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 13.2 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-f99abab89c}
-Recorded mean beak measurements are 13.2 mm from the anterior nostril edge to the tip, 7 mm in width and 8.8 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-f99abab89c}
+AVONET records culmen length (bill tip to skull base) 21 mm; beak length (nostril front edge to tip) 13.2 mm; beak width at the nostril front edge 7 mm; beak depth at the nostril front edge 8.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-b78c7fc6e3}
-Mean unflattened wing length from the carpal joint to the longest primary is 96.6 mm; mean tarsus length is 24.2 mm. Compiled mean mass is 46.5 g, with source category Updated_literature. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-b78c7fc6e3}
+AVONET records unflattened wing length 96.6 mm; tarsus length 24.2 mm; distance from first secondary tip to longest primary tip 15.1 mm; length to first secondary tip 81.5 mm; hand-wing index 15.6; tail length 85.2 mm; species-average body mass 46.5 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-5a3772c89f}
-The dataset assigns habitat Forest, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-5a3772c89f}
+AVONET classifies Habia cristata as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-f8c2991a2c}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 2.19° to 7.31°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-f8c2991a2c}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 2.19° to 7.31°. The mapped range area is 54054.46 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-a9aef0ef47}
-Habia cristata is accepted in pinned COL26.8 within Cardinalidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-a9aef0ef47}
+EltonTraits 1.0 has a same-name, same-family record for Habia cristata covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-c7d4b89ef1}
-The archive’s nonzero food weights are invertebrates 70%; fruit 30%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-c7d4b89ef1}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 70%; fruit 30%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-22e8f00e06}
-Foraging-stratum weights flagged as species-level in the archive are trees or high bushes from 2 m upward but below the canopy 60%; understory, edges or shrubs below 2 m 30%; ground 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-22e8f00e06}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 10%; in the understory 30%; in mid-height or high vegetation 60%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-6d547bdf2a}
-The used groups carry labels Ref_21. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-6d547bdf2a}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: The Tanagers. 1999. By Morton Isler. Smithsonian Press.; foraging: The Tanagers. 1999. By Morton Isler. Smithsonian Press.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-d67c54bf81}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

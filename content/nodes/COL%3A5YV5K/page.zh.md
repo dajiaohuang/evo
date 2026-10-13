@@ -1,5 +1,5 @@
-## 从旧 Nectarinia 名称定位资料 {#s-0119cbfee3}
-本页按 COL26.8 的 Cinnyris rufipennis（5YV5K）组织。BirdLife 2020 第 5988 行与 eBird 2021 第 2360 行同名，Avibase ID 为 AVIBASE-E3B9A841，匹配为 1BL to 1eBird；BirdTree 第 2353 行记 Nectarinia rufipennis，匹配为 1BL to 1BT。已读旧组合 462PL 指向本页接受 ID。旧名用于查原资料，不证明所有时期的物种范围相同。
+## COL26.8 中的名称身份 {#s-0119cbfee3}
+《Catalogue of Life》COL26.8（2026-08-20）将 Cinnyris rufipennis (Jensen, 1983) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 喙长、翼与尾的样本范围 {#s-756adb7d1e}
 形态共 4 只鸟：雌 2、雄 2、性别未定 0，1 只具完整测量。鼻孔前缘至喙尖 14.9 mm、跗蹠 17.4 mm、未压平翼长 54.2 mm、尾长 35 mm、手翼指数 16.3 是历史行汇总均值。Inference=NO 不代表每项字段都有 4 只独立记录；完整测量数不替代逐字段分母。只有一只具完整测量，不能称四只都具整套测量。喙长不能单独证明特定花种适配、舌结构或授粉效果；手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度。

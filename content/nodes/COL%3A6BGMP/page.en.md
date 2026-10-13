@@ -1,5 +1,5 @@
-## Find historical rows through older Serinus combinations {#s-5c021dc1d5}
-Pinned COL26.8 organizes this page at Crithagra leucoptera (6BGMP). BirdLife 2020 row 4029 and eBird 2021 row 2923 share the name and Avibase ID AVIBASE-D403BDAF, with type 1BL to 1eBird; BirdTree row 2907 gives Serinus leucopterus, with type 1BL to 1BT. Read catalogue synonym 4WV78 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-5c021dc1d5}
+Catalogue of Life release COL26.8 records Crithagra leucoptera Sharpe, 1871 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-8f51137b99}
 Morphology comprises 5 birds: 1 female, 1 male and 3 unsexed; 5 complete sets. Nostril-to-tip beak length 9.9 mm, tarsus 18.4 mm, unflattened wing 69 mm, tail 57.6 mm and hand-wing index 18.7 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

@@ -1,3 +1,3 @@
-## The dated record and its limits {#s-164e166e18}
-Ctenosauriscus GZG.V.4191 from latest Olenekian strata near 247.2 Ma anchors the 247.2–0 Ma Archosauria route; its pseudosuchian placement and stratigraphic age provide a sampled crown minimum, not a global origin or complete early-archosaur record.
+## A sampled minimum from Ctenosauriscus {#s-164e166e18}
+The Ctenosauriscus holotype GZG.V.4191 comes from the Upper Middle Buntsandstein at Bremketal near Göttingen, Germany; the source places it near 247.2 Ma. Its pseudosuchian placement and stratigraphic age support a sampled Archosauria crown minimum, not a global origin or a complete early record.
 

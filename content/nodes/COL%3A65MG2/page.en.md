@@ -1,5 +1,5 @@
-## Same-name links retain different family names {#s-afcf24e1f0}
-Pinned COL26.8 organizes this page at Agapornis taranta (65MG2). BirdLife 2020 row 10207, eBird 2021 row 262 and BirdTree row 264 share the name; the eBird Avibase ID is AVIBASE-39DAF131, with types 1BL to 1eBird and 1BL to 1BT respectively. Source family Psittacidae and catalogue Psittaculidae remain separate; a family allocation change is not rewritten as a name mismatch. The accepted name is present in the read ag shard. Same-name one-to-one links do not prove identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-afcf24e1f0}
+Catalogue of Life release COL26.8 records Agapornis taranta (Stanley, 1814) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-de0956ad93}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 16.2 mm, tarsus 13.9 mm, unflattened wing 100.4 mm, tail 50.2 mm and hand-wing index 38.6 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

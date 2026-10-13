@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-54b8fb43a8}
 Occitanomys (Rhodomys) adroveri is accepted in the fixed PBDB mammalia working roster, with database parent Occitanomys (Rhodomys). This guide uses 33 eligible species-level occurrence records from 33 collections and 13 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 29 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-c486f46a23}
-Collection Spilia 0, region code GR, stratum name Spilia; database age bracket 5.09–3.55 Ma, early interval Ruscinian. Collection Salobreña (Granada), region code ES; database age bracket 11.63–5.333 Ma, early interval Late Miocene. Collection Tortajada (Aragon), region code ES, stratum name Alfambra; database age bracket 8.725–5.09 Ma, early interval Turolian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Occitanomys (Rhodomys) adroveri is listed in the PBDB snapshot under taxon txn:108926. This archived guide contains 33 selected occurrence rows, linked to 33 distinct PBDB collection IDs and 13 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-3b137e51ad}
-Selected occurrences have an outer age envelope of 23.04–3.55 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Cucuron, occurrence occ:1442989 (23.04–5.333 Ma); one supplying the younger bound is Spilia 0, occurrence occ:331782 (5.09–3.55 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-c486f46a23}
+The archived guide contains 33 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-6a3d299809}
-Spilia 0 has collection-environment label terrestrial indet.; collection preservation-mode label body. Salobreña; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1442989; PBDB collection col:201497. Locality cnm=Cucuron; place fields cc2=FR, stp=Vaucluse, cny=Luberon. Recorded age bounds: eag 23.04 Ma; lag 5.333 Ma; PBDB interval fields oei=Miocene. Stratigraphic fields sfm=Ravin de Ratavoux. Recorded attribution Ménouret 2014; PBDB reference ref:68425.
 
-## Follow collection records back to references {#s-7f58099a93}
-Spilia 0 carries database reference attribution de Bruijn (1989), identifier ref:8408. Salobreña carries database reference attribution Aguilar et al. (1984), identifier ref:9426. Tortajada carries database reference attribution van de Weerd (1976), identifier ref:9527. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+MN 12, Tortonien, Upper Miocene
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+at the level of the stadium (that was under construction at that time) in the town of Cucuron, near Reillanne (Vaucluse). IGN map at 1/50 000, XXXII-42, x = 849,67; y = 3168,68.
+
+- Occurrence occ:331782; PBDB collection col:31931. Locality cnm=Spilia 0; place fields cc2=GR. Recorded age bounds: eag 5.09 Ma; lag 3.55 Ma; PBDB interval fields oei=Ruscinian. Stratigraphic fields sfm=Spilia, slo=bottom to top. Recorded attribution de Bruijn 1989; PBDB reference ref:8408.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+unsure of the relationship between Spilia 0 and Spilia 1-4
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+approx. 2 km E. of Melenikitsion, in Strimon Basin
+
+- Occurrence occ:370306; PBDB collection col:26752. Locality cnm=Salobreña; place fields cc2=ES, stp=Granada. Recorded age bounds: eag 11.63 Ma; lag 5.333 Ma; PBDB interval fields oei=Late Miocene. Stratigraphic fields sls=Salobreña. Recorded attribution Aguilar et al. 1984; PBDB reference ref:9426.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+a few kilometres west of the town of Motril (on which the co-ordinates are based).
+
+## Age bounds on the recorded occurrences {#s-3b137e51ad}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:1442989; the smallest recorded lag=3.55 Ma in occ:331782. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-6a3d299809}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1442989: PBDB original-identification field idn=Occitanomys adroveri; PBDB taxon-name field tna=Occitanomys (Rhodomys) adroveri; PBDB locality-coordinate fields lng=5.450000, lat=43.783333; paleocoordinate/model fields pm1=gplates, pln=7.29, pla=41.28.
+- occ:331782: PBDB original-identification field idn=Occitanomys adroveri; PBDB taxon-name field tna=Occitanomys (Rhodomys) adroveri; material note ocm=O. brailloni+C. adroveri=11 specimens; PBDB locality-coordinate fields lng=23.475000, lat=41.150002; paleocoordinate/model fields pm1=gplates, pln=23.91, pla=40.06.
+- occ:370306: PBDB original-identification field idn=Occitanomys adroveri; PBDB taxon-name field tna=Occitanomys (Rhodomys) adroveri; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-3.516667, lat=36.750000; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-7f58099a93}
+The archived guide links the rows to 13 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1442989: Recorded attribution Ménouret 2014; PBDB reference ref:68425.
+- occ:331782: Recorded attribution de Bruijn 1989; PBDB reference ref:8408.
+- occ:370306: Recorded attribution Aguilar et al. 1984; PBDB reference ref:9426.
 
 ## Evidence limits {#s-27c121e7c6}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 33 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

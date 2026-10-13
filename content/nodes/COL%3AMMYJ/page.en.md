@@ -1,44 +1,44 @@
-## The name and this data account {#s-46b50d918e}
-In the pinned Catalogue of Life release COL26.8, Botaurus lentiginosus is accepted in Ardeidae. AVONET v7 records it under the HBW–BirdLife 2020 name. The dataset includes 5 measured individuals; 4 have a complete morphological set. The usable sample size can still differ by trait.
+## Row-reported mean and sample coverage {#s-46b50d918e}
+The AVONET v7 row for Botaurus lentiginosus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 58.6 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-1a7cb08298}
-Mean beak length, measured from the anterior edge of the nostril to the tip, is 58.6 mm. At that edge, mean width is 10.7 mm and mean depth is 15.2 mm. These are separate measurements at standardized landmarks, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-1a7cb08298}
+AVONET records culmen length (bill tip to skull base) 82.4 mm; beak length (nostril front edge to tip) 58.6 mm; beak width at the nostril front edge 10.7 mm; beak depth at the nostril front edge 15.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-07ef3f5dcb}
-Mean unflattened wing length, from the carpal joint to the longest primary feather, is 270.8 mm; mean tarsus length is 89.7 mm. A separate compilation reports mean mass of 706 g (source category Dunning). That species-average mass is not evidence that every bird in the morphology sample was weighed.
+## Wing and body measures use separate sources {#s-07ef3f5dcb}
+AVONET records unflattened wing length 270.8 mm; tarsus length 89.7 mm; distance from first secondary tip to longest primary tip 84.7 mm; length to first secondary tip 180.1 mm; hand-wing index 32; tail length 88.6 mm; species-average body mass 706 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-c1059c2afb}
-The dataset’s comparison categories are habitat “Wetland,” trophic niche “Aquatic predator,” and lifestyle “Terrestrial.” They are dominant categories for comparing species, not claims that this bird uses only one habitat or one kind of food.
+## Recorded habitat and feeding categories {#s-c1059c2afb}
+AVONET classifies Botaurus lentiginosus as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-ea49f94302}
-AVONET classifies migration as migratory. The historical breeding and resident maps run from latitude 19.3° to 63.22°. These bounds do not describe non-breeding movements and are neither a current location nor a global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-ea49f94302}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints 19.3° to 63.22°. The mapped range area is 8778053.14 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-a4d3c78ac0}
-COL26.8 accepts Botaurus lentiginosus in Ardeidae. The historical life-history archive includes a same-name entry; this page compares 5 focal fields, each supported by cited species-level sparse-table rows matching the name and family. The summaries may retain older taxonomic inheritance, which a matching row name alone cannot rule out.
+## Scope of the historical life-history entry {#s-a4d3c78ac0}
+The August 2015 database has a same-name, same-family record for Botaurus lentiginosus. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-6d16b0b67f}
-The historical summary lists adult body mass as 706 g. Adult values may combine males, females and adults of unspecified sex, so this is not a species-wide range of individual masses.
+## Compiled adult-mass values {#s-6d16b0b67f}
+The August 2015 compilation reports adult body mass 706 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-f017da7273}
-The historical compilation reports female maturity field (defined by the source as age at first conception) 365 d; offspring per litter or eggs per clutch 4 offspring/eggs; oviposition to hatching 29 d. Here, d means days. The litter/clutch field merges offspring or egg counts; a fractional summary is not a fraction of an individual in one event. Each timing field refers to its own event; the values do not form one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-f017da7273}
+The August 2015 compilation reports female age at first conception (source definition) 365 days; median or interpolated-median number of offspring or eggs per litter/clutch 4; oviposition-to-hatching interval 29 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-7d2a9ce4c8}
-The archive reports maximum_longevity_y as 8.33 years, following the source method for the largest collected record. This field is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a currently repeatable record.
+## A maximum record is not typical lifespan {#s-7d2a9ce4c8}
+The compilation lists 8.333333333 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-a984af5ed0}
-Cited sparse rows under the same name carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Bennett, 1986, among others. Field-level provenance retains the raw row number, value and source label; the reference table provides the full citation explanations. A label may point to a primary paper, a book or another database. Citation-row counts do not count measured individuals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-a984af5ed0}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-97d89fb8e9}
-COL26.8 accepts Botaurus lentiginosus in Ardeidae. The same-name, same-family EltonTraits 1.0 entry provides source information for 2 ecological field groups. Its taxonomy follows earlier bird classification or MSW3 for mammals; the name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-97d89fb8e9}
+EltonTraits 1.0 has a same-name, same-family record for Botaurus lentiginosus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-c649466a53}
-Recorded positive food-category weights are fish 60%; invertebrates 20%; reptiles and amphibians 20%. Diet source code A marks high compiler confidence in the source and diet information. The percentages standardize verbal descriptions rather than measure diet composition, and a zero does not show that an item is never eaten. Categories such as Nect, Seed and PlantO have broader source definitions than their everyday names; they do not imply feeding exclusively on nectar, seeds or plants.
+## Relative weights across food categories {#s-c649466a53}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; reptiles and amphibians 20%; fish 60%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-9538034251}
-The archive marks these species-level foraging-stratum weights: on or just below the water surface 70%; ground 30%. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. The source defines surface-water, understory, mid/high, canopy and aerial categories separately. They are not elevation bands and cannot establish flight height or habitat area.
+## Foraging positions are not a time budget {#s-9538034251}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 70%; on the ground 30%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-9643813517}
-Source labels for the field groups used here are Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. The source record keeps each original string with its file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-9643813517}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-5fa0bf40ab}
 The AVONET v7 values here are historical summaries. Morphological values are species averages for the listed samples, not field-identification criteria or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so the morphology sample count does not apply to it. Habitat, food and migration are broad categories; mapped latitude covers historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name link this record to older data, but do not show that species concepts remain equivalent after later splits or lumps. Other sources are needed for reproduction, present-day populations and conservation status.

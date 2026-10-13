@@ -1,26 +1,26 @@
-## AVONET measurements under a historical name {#s-214d563e31}
-COL26.8 accepts *Nystalus maculatus* in Bucconidae. AVONET v7 reports this species under its HBW–BirdLife 2020 name. The source lists 19 measured individuals, four with a complete morphological set; sample sizes can still differ by trait.
+## Row-reported mean and sample coverage {#s-214d563e31}
+The AVONET v7 row for Nystalus maculatus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 27.7 mm. The row records 19 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-a41f0e177d}
-Recorded mean beak measurements are 27.7 mm from the anterior nostril edge to the tip, 8.3 mm in width and 11 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-a41f0e177d}
+AVONET records culmen length (bill tip to skull base) 35.9 mm; beak length (nostril front edge to tip) 27.7 mm; beak width at the nostril front edge 8.3 mm; beak depth at the nostril front edge 11 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-7b93477dc0}
-Mean unflattened wing length from the carpal joint to the longest primary is 76.8 mm; mean tarsus length is 18.3 mm. Compiled mean mass is 42 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-7b93477dc0}
+AVONET records unflattened wing length 76.8 mm; tarsus length 18.3 mm; distance from first secondary tip to longest primary tip 13.2 mm; length to first secondary tip 63.2 mm; hand-wing index 17.5; tail length 69.3 mm; species-average body mass 42 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-03b93ef88a}
-The dataset assigns habitat Forest, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-03b93ef88a}
+AVONET classifies Nystalus maculatus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-06a11f056b}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -33.49° to -0.1°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-06a11f056b}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -33.49° to -0.1°. The mapped range area is 3643937.66 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## One supported food field {#s-e1cf46b70d}
-COL26.8 accepts *Nystalus maculatus* in Bucconidae. EltonTraits 1.0 contains a same-name, same-family bird record with one usable ecological field group: diet. Its taxonomy is historical, so the shared name does not settle later splits or synonym disputes.
+## Scope of the historical trait entry {#s-e1cf46b70d}
+EltonTraits 1.0 has a same-name, same-family record for Nystalus maculatus covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-61783e7fcf}
-The nonzero food-category weights are invertebrates 90% and reptiles and amphibians 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions; they are not measured diet composition, and a zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply an exclusive diet of nectar, seeds or plants.
+## Relative weights across food categories {#s-61783e7fcf}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 90%; reptiles and amphibians 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Trace each field group to its source labels {#s-7774e6ccab}
-The diet field carries the source label Ref_7. Diet, foraging stratum and activity may draw on different material, and the same reference number in bird and mammal bibliographies does not necessarily identify the same work. The linked source details preserve the original citation strings. The underlying books and papers have not been individually read, and a source label is not an additional independent observation.
+## Sources and field limits {#s-7774e6ccab}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-032fd45d69}
 AVONET morphology values are sample averages, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources; the 19 measured birds must not be assumed to be the mass sample. Habitat, diet and migration are broad categories, and the geographic summary covers historical breeding and resident ranges only. Historical crosswalks and a matching catalogue name support association but do not prove that species concepts remained equivalent through later splits or lumps. Other sources are needed for reproduction, current populations and conservation status.

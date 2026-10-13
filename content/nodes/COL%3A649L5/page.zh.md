@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-ea7e40628b}
+## 记录分类与直接上级关系 {#s-ea7e40628b}
+COL26.8 将 Xiphocolaptes 记录为属；其直接上级记录为 Furnariidae。
+
 Xiphocolaptes 的本批阅读路径包含 4 条有测量来源的物种记录，可从 Xiphocolaptes albicollis、Xiphocolaptes falcirostris、Xiphocolaptes major、Xiphocolaptes promeropirhynchus 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-df71caea3b}

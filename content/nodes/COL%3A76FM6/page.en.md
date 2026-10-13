@@ -1,15 +1,15 @@
-## Name and this data account {#s-2ddda0913d}
-Pinned COL26.8 places Pelusios carinatus in Pelomedusidae. This brief profile follows its ReptTraits v1-2 entry and the Reptile Database 2023 name framework; one row per species summarizes a source record rather than all populations.
+## COL26.8 name and the ReptTraits row {#s-2ddda0913d}
+COL26.8 records Pelusios carinatus as an accepted species. The ReptTraits v1-2 row gives its Family field as Pelomedusidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Where and how it is active {#s-3f2e632beb}
-The entry classifies the microhabitat as aquatic. This broad label is not a complete habitat inventory or schedule and does not resolve differences among populations, seasons, or life stages.
+## Habitat use and activity labels {#s-3f2e632beb}
+The microhabitat field classifies the recorded position as Aquatic. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## How to read reproductive records {#s-b1d078fe59}
-The recorded reproductive mode is oviparous. That source label does not establish embryo nutrition. No clutch or litter count is interpreted here.
+## Reproductive fields in ReptTraits {#s-b1d078fe59}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-3e6ec610c0}
-This short profile uses limited ReptTraits v1-2 material; it is not a complete account of the species' morphology or ecology. The single-row record compresses variation and retains a 2023 name framework. Reported maxima are not absolute species limits, and estimated mass is not a direct measurement. Unreported traits remain gaps; conservation, venom, current range and population trends need other sources. The workbook labels preserve its citation chain without claiming each original study was independently reviewed.
+## Reading this compiled trait record {#s-3e6ec610c0}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-e45972ea4a}
-Two traits have field-specific source labels in this profile. The record establishes no supported values for body length, clutch size or frequency, egg dimensions, diet, activity time, foraging mode, or sex determination; related species do not fill these gaps.
+## Reading this compiled trait record {#s-e45972ea4a}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

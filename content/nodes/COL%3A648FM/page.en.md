@@ -4,13 +4,15 @@ The two 2019 papers use four tinamous: Crypturellus cinnamomeus, Eudromia elegan
 ## Read by material, tree model and experimental level {#s-41a4f50b38}
 Study species directly represented at this entry are [Tinamus guttatus](Tinamus_guttatus/page.en.md). First distinguish added, reused and reference-mapped genomes, then compare species trees with gene trees. For a cross-lineage functional comparison, turn to the chicken reporter assays on [Rhea americana](../../../Rheiformes/Rheidae/Rhea/Rhea_americana/page.en.md) and [Eudromia elegans](../Eudromia/Eudromia_elegans/page.en.md); one candidate region cannot validate every accelerated element. Return to existing morphology, life history or fossil occurrences with their own units and samples. This route is neither exhaustive group sampling nor a complete descendant catalogue.
 
-## Local data reading route {#s-406f09a9b1}
+## Recorded classification and direct parent {#s-406f09a9b1}
+COL26.8 records Tinamus at genus rank, with Tinamidae as its direct parent.
+
 This batch’s Tinamus route includes 5 measured species records. Start with Tinamus guttatus, Tinamus major, Tinamus osgoodi, Tinamus solitarius, Tinamus tao. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-de4c43ac87}
 Compiled mean mass endpoints in this batch are Tinamus guttatus at 686.18 g and Tinamus tao at 1600.1 g. Represented habitat categories include Forest; trophic niches include Omnivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-b0cb607813}
+## Amniote Life-history archive member records {#s-b0cb607813}
 This batch’s Tinamus route includes 2 historical life-history accounts; start with Tinamus major, Tinamus solitarius. More frequently represented fields include adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), oviposition to hatching (2 entries), age at flight capability (leaving the nest in some source material) (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-f0e224674d}

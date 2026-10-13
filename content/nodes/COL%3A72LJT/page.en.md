@@ -1,5 +1,5 @@
-## Retain Locustella, Bradypterus and Helopsaltes by table {#s-28dac55642}
-Pinned COL26.8 organizes this page at Locustella tacsanowskia (72LJT). BirdLife 2020 row 4998 gives Locustella tacsanowskia; eBird 2021 row 5663 gives Locustella tacsanowskia. Both Avibase IDs are AVIBASE-AD2C0444, with type 1BL to 1eBird. BirdTree row 5634 gives Bradypterus tacsanowskius, with type 1BL to 1BT. Exact Bradypterus catalogue synonym 5WRQV points to this accepted ID. Name correspondence locates historical sources without establishing identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-28dac55642}
+Catalogue of Life release COL26.8 records Locustella tacsanowskia Swinhoe, 1871 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-547e14380d}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.3 mm, tarsus 19.1 mm, unflattened wing 56.1 mm, tail 58.5 mm and hand-wing index 17.8 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

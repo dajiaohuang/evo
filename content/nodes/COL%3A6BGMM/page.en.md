@@ -1,5 +1,5 @@
-## Find historical rows through older Serinus combinations {#s-40bf4876eb}
-Pinned COL26.8 organizes this page at Crithagra hyposticta (6BGMM). BirdLife 2020 row 4027 and eBird 2021 row 2921 share the name and Avibase ID AVIBASE-C978ABCC, with type 1BL to 1eBird; BirdTree row 2905 gives Serinus hypostictus, with type 1BL to 1BT. The read shards did not yield this exact older combination; a crosswalk is not presented as a confirmed COL synonym. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-40bf4876eb}
+Catalogue of Life release COL26.8 records Crithagra hyposticta (Reichenow, 1904) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-47fee1c3ac}
 Morphology comprises 6 birds: 3 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8.7 mm, tarsus 14.3 mm, unflattened wing 64.4 mm, tail 47.5 mm and hand-wing index 22.5 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

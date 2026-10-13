@@ -1,5 +1,5 @@
-## Retain Locustella, Bradypterus and Helopsaltes by table {#s-ad424e63bb}
-Pinned COL26.8 organizes this page at Locustella caudata (72LK8). BirdLife 2020 row 4979 gives Locustella caudata; eBird 2021 row 5643 gives Locustella caudata. Both Avibase IDs are AVIBASE-A86920C2, with type 1BL to 1eBird. BirdTree row 5614 gives Bradypterus caudatus, with type 1BL to 1BT. Exact Bradypterus catalogue synonym N5DN points to this accepted ID. Name correspondence locates historical sources without establishing identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-ad424e63bb}
+Catalogue of Life release COL26.8 records Locustella caudata (Ogilvie-Grant, 1895) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-61cb230992}
 Morphology comprises 3 birds: 1 female, 2 male and 0 unsexed; 2 complete sets. Nostril-to-tip beak length 8.6 mm, tarsus 25.3 mm, unflattened wing 60.7 mm, tail 83 mm and hand-wing index 8.7 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

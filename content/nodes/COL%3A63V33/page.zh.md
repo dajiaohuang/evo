@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-5c0f9871c7}
+## 记录分类与直接上级关系 {#s-5c0f9871c7}
+COL26.8 将 Tetracerus 记录为属；其直接上级记录为 Boselaphini。
+
 PanTHERIA 的 Tetracerus 路线有 1 条可用历史记录：Tetracerus quadricornis。MSW05 名称和缺失字段仍对应这条来源记录；一条记录不能确定现代接受种数量。
 
 ## 比较体型与生活史 {#s-821f27f2dc}
@@ -14,7 +16,7 @@ EltonTraits 有 1 条历史记录，包含食物类别估计和取食层位归�
 PanTHERIA 和生活史数值来自旧分类下的历史记录，同名不能解决后来的概念变化。生活史数值是来源汇总，不是对每个个体的直接测量。EltonTraits 提供 1 条食物估计和 1 条取食层位代码，但活动时段记录为 0 条；类别依据文献描述。本页只有一条记录，不是完整物种或种群档案。
 
 ## 沿生活史资料阅读 {#s-b12eeca194}
-Ernest（2003）路线链接 1 个页面：[Tetracerus quadricornis](Tetracerus_quadricornis/page.zh.md)。这是本批可用的历史记录，不是完整属名录。
+Ernest（2003）路线链接 1 个页面：Tetracerus quadricornis。这是本批可用的历史记录，不是完整属名录。
 
 ## 先区分平均值与纪录 {#s-b9db08c104}
 妊娠时长、雌性首次繁殖年龄和最高寿命字段各见于 1 条记录。首次繁殖指可能受孕的年龄；最高寿命是来源中的最大记录，不是平均值。

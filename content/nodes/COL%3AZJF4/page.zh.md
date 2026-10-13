@@ -1,5 +1,5 @@
-## 沿旧 Serinus 组合查历史行 {#s-34af514e53}
-本页按 COL26.8 的 Crithagra rufobrunnea（ZJF4）组织。BirdLife 2020 第 4038 行与 eBird 2021 第 2932 行同名，Avibase ID 为 AVIBASE-83F51B60，类型 1BL to 1eBird；BirdTree 第 2916 行记 Serinus rufobrunneus，类型 1BL to 1BT。本次读到目录异名 4WV7P，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-34af514e53}
+《Catalogue of Life》COL26.8（2026-08-20）将 Crithagra rufobrunnea (G. R. Gray, 1862) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-06586e7a0e}
 形态共 4 只鸟：雌 2、雄 2、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 10.5 mm、跗蹠 19.9 mm、未压平翼长 77.6 mm、尾长 45.4 mm、手翼指数 23.6 是历史行均值。完整数与总数相等，仍不提供个体变异范围。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体种子的处理能力。

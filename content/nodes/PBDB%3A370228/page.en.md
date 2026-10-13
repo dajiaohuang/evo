@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-61490f54aa}
-Nectornis anatolicus is accepted in the fixed PBDB dinosaur working roster, with database parent Nectornis. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-61490f54aa}
+Nectornis anatolicus is listed in the PBDB snapshot under taxon txn:370228. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-2cd0c86127}
-Collection Bes-Konak, region code TR; database age bracket 23.04–20.45 Ma, early interval Aquitanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-2cd0c86127}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-af15815415}
-Selected occurrences have an outer age envelope of 23.04–20.45 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1401716; PBDB collection col:123307. Locality cnm=Bes-Konak; place fields cc2=TR. Recorded age bounds: eag 23.04 Ma; lag 20.45 Ma; PBDB interval fields oei=Aquitanian. Recorded attribution Paicheler et al. 1978; PBDB reference ref:65659.
 
-## Read preservation setting separately from living habitat {#s-9cac1f2a4e}
-Bes-Konak has collection-environment label lacustrine - large; collection preservation-mode label adpression. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Age given as 22.5 Ma (presumably based on dating of volcanics associated with volcano-sedimentary paleolake), which places it in the earliest Miocene.
 
-## Follow collection records back to references {#s-ba9eaa2ad5}
-Bes-Konak carries database reference attribution Paicheler et al. (1978), identifier ref:65659. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Bes-Konak basin is exposed north of Ankara
 
-## Evidence limits {#s-7e847ac9be}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-af15815415}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:1401716; the smallest recorded lag=20.45 Ma in occ:1401716. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-9cac1f2a4e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1401716: PBDB original-identification field idn=Phalacrocorax anatolicus n. sp.; PBDB taxon-name field tna=Nectornis anatolicus; PBDB locality-coordinate fields lng=32.599998, lat=40.700001; paleocoordinate/model fields pm1=gplates, pln=33.66, pla=36.19.
+
+## References attached to each record {#s-ba9eaa2ad5}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1401716: Recorded attribution Paicheler et al. 1978; PBDB reference ref:65659.
+
+## What these records can show {#s-7e847ac9be}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

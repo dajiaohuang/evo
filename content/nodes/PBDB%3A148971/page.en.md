@@ -1,18 +1,49 @@
-## Which fossil records this name represents {#s-dc7e8b239f}
-Wintonotitan wattsi is accepted in the fixed PBDB dinosaur working roster, with database parent Wintonotitan. This guide uses 7 eligible species-level occurrence records from 7 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-dc7e8b239f}
+Wintonotitan wattsi is listed in the PBDB snapshot under taxon txn:148971. This archived guide contains 7 selected occurrence rows, linked to 7 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-81c0f0ae97}
-Collection Selwyn Park Sheep Station (Queensland), region code AU, stratum name Winton; database age bracket 100.5–89.8 Ma, early interval Late Cenomanian and late interval Early Turonian. Collection Triangle Paddock, Elderslie Station (QM L313) (Queensland), region code AU, stratum name Winton; database age bracket 100.5–93.9 Ma, early interval Cenomanian. Collection Southern Plevna Downs Station, EML 010 (Queensland), region code AU, stratum name Winton; database age bracket 100.5–89.8 Ma, early interval Late Cenomanian and late interval Early Turonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-81c0f0ae97}
+The archived guide contains 7 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-8cdf22d93a}
-Selected occurrences have an outer age envelope of 100.5–89.8 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:577756; PBDB collection col:60792. Locality cnm=Selwyn Park Sheep Station; place fields cc2=AU, stp=Queensland. Recorded age bounds: eag 100.5 Ma; lag 89.8 Ma; PBDB interval fields oei=Late Cenomanian, oli=Early Turonian. Stratigraphic fields sfm=Winton. Recorded attribution Hocknull et al. 2009; PBDB reference ref:30242.
 
-## Read preservation setting separately from living habitat {#s-6baa1f150a}
-Selwyn Park Sheep Station has collection-environment label terrestrial indet.; collection preservation-mode label body. Triangle Paddock, Elderslie Station (QM L313) has collection-environment label channel lag; collection preservation-mode label body. Southern Plevna Downs Station, EML 010 has collection-environment label "floodplain"; collection preservation-mode label body,concretion. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Selwyn Park Sheep Station, south-east of Winton (southwest of Chorregon), central Queensland, Australia
 
-## Follow collection records back to references {#s-6d6fe75a80}
-Selwyn Park Sheep Station carries database reference attribution Hocknull et al. (2009), identifier ref:30242. Triangle Paddock, Elderslie Station (QM L313) carries database reference attribution Hocknull et al. (2009), identifier ref:30242. Southern Plevna Downs Station, EML 010 carries database reference attribution Beeston et al. (2024), identifier ref:88408. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:577770; PBDB collection col:60799. Locality cnm=Triangle Paddock, Elderslie Station (QM L313); place fields cc2=AU, stp=Queensland. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Cenomanian. Stratigraphic fields sfm=Winton. Recorded attribution Hocknull et al. 2009; PBDB reference ref:30242.
 
-## Evidence limits {#s-61efd1c4e0}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Although previously listed as Albian (e.g. Hocknull et al. 2009), the site is now regarded as Cenomanian (Bryan et al. 2012), as it lies to the west of the Cork Fault (Vine and Jauncey 1964) (see Poropat et al. 2014)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+from Elderslie Station, in triangle paddock near the woolshed, 0.5 km SW of Top Horse Bore, about 4 km NNE of Elderslie homestead, 60 km NW of Winton
+
+- Occurrence occ:1562036; PBDB collection col:220530. Locality cnm=Southern Plevna Downs Station, EML 010; place fields cc2=AU, stp=Queensland. Recorded age bounds: eag 100.5 Ma; lag 89.8 Ma; PBDB interval fields oei=Late Cenomanian, oli=Early Turonian. Stratigraphic fields sfm=Winton. Recorded attribution Beeston et al. 2024; PBDB reference ref:88408.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+270–300 m from the base of the Winton Formation
+
+96-93 Ma based on detrital zircon samples from nearby localities
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+80–90 kilometres (km) west of the township of Eromanga on Plevna Downs Station
+
+## Age bounds on the recorded occurrences {#s-8cdf22d93a}
+Across these selected PBDB rows, the largest recorded eag=100.5 Ma in occ:577756; the smallest recorded lag=89.8 Ma in occ:577756. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-6baa1f150a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:577756: PBDB taxon-name field tna=Wintonotitan wattsi; material note ocm=QM F10916; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=143.566666, lat=-22.683332; paleocoordinate/model fields pm1=gplates, pln=144.47, pla=-61.77.
+- occ:577770: PBDB original-identification field idn=Wintonotitan wattsi n. gen. n. sp.; PBDB taxon-name field tna=Wintonotitan wattsi; material note ocm=QM F7292; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=142.483337, lat=-22.250000; paleocoordinate/model fields pm1=gplates, pln=137.79, pla=-62.08.
+- occ:1562036: PBDB taxon-name field tna=Wintonotitan wattsi; material note ocm=EMF106 & EMF164; PBDB locality-coordinate fields lng=142.593613, lat=-26.681667; paleocoordinate/model fields pm1=gplates, pln=141.81, pla=-65.69.
+
+## References attached to each record {#s-6d6fe75a80}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:577756: Recorded attribution Hocknull et al. 2009; PBDB reference ref:30242.
+- occ:577770: Recorded attribution Hocknull et al. 2009; PBDB reference ref:30242.
+- occ:1562036: Recorded attribution Beeston et al. 2024; PBDB reference ref:88408.
+
+## What these records can show {#s-61efd1c4e0}
+This is a guide to 7 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

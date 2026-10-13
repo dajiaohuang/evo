@@ -1,4 +1,6 @@
-## 本页所含记录 {#s-3c28c3324f}
+## 记录分类与直接上级关系 {#s-3c28c3324f}
+COL26.8 将 Steatornis 记录为属；其直接上级记录为 Steatornithidae。
+
 AVONET v7 在本页收录一个有测量来源的物种：Steatornis caripensis。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-c842de447c}

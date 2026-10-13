@@ -26,23 +26,65 @@ The authors propose low flight over water, with brief mandibular immersion after
 The 2014 study analyzes a modified morphological matrix with unordered, equally weighted characters. It recovers eighteen equally parsimonious trees and a strict consensus, placing Ikrandraco within Pteranodontoidea, outside but close to Anhangueria. That placement is the result of the study’s full character matrix; a single jaw or crest feature cannot stand in for it. The PBDB parent path below serves as a separate database classification, not as part of this phylogenetic analysis.
 
 ## Compare mandibular crests with a large comparative skull {#s-698fb3ee3c}
-Return to [Ikrandraco](../page.en.md) to distinguish the 2014 anatomical account from the 2020 nomenclatural correction, then compare cranial preservation and functional hypotheses in the [Tropeognathus comparative specimen](../../../Pteranodontia/Ornithocheiroidea/Anhangueridae/Tropeognathinae/Tropeognathus/Tropeognathus_mesembrinus/page.en.md). Their crest positions, preservation and identification contexts differ; relatedness or depositional setting does not transfer diet, size or behavior between them.
+Return to Ikrandraco to distinguish the 2014 anatomical account from the 2020 nomenclatural correction, then compare cranial preservation and functional hypotheses in the Tropeognathus comparative specimen. Their crest positions, preservation and identification contexts differ; relatedness or depositional setting does not transfer diet, size or behavior between them.
 
 ## Which fossil records this name represents {#s-8373aae624}
 The Paleobiology Database (PBDB) accepts Ikrandraco avatar under the recorded parent Ikrandraco. The selected database set contains two species-level occurrences from Lamadong and Sihedang, linked to two collections and one reference identifier. These counts describe records, not specimens or individual animals.
 
+PBDB occurrence record excerpt:
+Ikrandraco avatar is listed in the PBDB snapshot under taxon txn:340925. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## Begin with named collections and strata {#s-21e5eaba30}
 Lamadong, Jianchang and Sihedang, Lingyuan are both recorded in Liaoning, China (region code CN), in the Jiufotang unit. Each collection carries a PBDB age bracket of 121.4–113.2 Ma, with Aptian as the early interval. These two localities are selected records, not a complete map of the species’ distribution.
+
+PBDB occurrence record excerpt:
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:1328956; PBDB collection col:105772. Locality cnm=Lamadong, Jianchang; place fields cc2=CN, stp=Liaoning, cny=Jianchang. Recorded age bounds: eag 121.4 Ma; lag 113.2 Ma; PBDB interval fields oei=Aptian. Stratigraphic fields sfm=Jiufotang. Recorded attribution Wang et al. 2014; PBDB reference ref:59181.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"part of, or laterally equivalent to, the Lower Cretaaceous Yixian Formation, but more data are needed to confirm this" (Hu et al. 2011)
+
+Li et al. (2014) state that "Recent fieldwork confirmed the outcrops of fossil beds exposed in Lamadong Village mainly belong to the Jiufotang Formation (X. L. Wang, personal commun.)".
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Lamadong town, Jianchang county
+
+- Occurrence occ:1328957; PBDB collection col:135798. Locality cnm=Sihedang, Lingyuan; place fields cc2=CN, stp=Liaoning. Recorded age bounds: eag 121.4 Ma; lag 113.2 Ma; PBDB interval fields oei=Aptian. Stratigraphic fields sfm=Jiufotang. Recorded attribution Wang et al. 2014; PBDB reference ref:59181.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Sihedang beds of the third member of the Jiufotang Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near Liuligou, Sihedang Township, Lingyuan City, western Liaoning Province
 
 ## Age bounds of these records {#s-b50f8d27cc}
 The selected records share an outer database age bracket of 121.4–113.2 Ma (Ma means millions of years ago). The broad span does not indicate continuous presence through every part of that interval, directly date either specimen or establish the species’ origin or extinction.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=121.4 Ma in occ:1328956; the smallest recorded lag=113.2 Ma in occ:1328956. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## Read preservation setting separately from living habitat {#s-8aed91e896}
 PBDB labels both collections “lacustrine indet.” for environment and “body, adpression, soft parts” for preservation mode. These collection-level labels do not determine Ikrandraco’s habitat or diet and do not describe each fossil individually.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1328956: PBDB original-identification field idn=Ikrandraco avatar n. gen. n. sp.; PBDB taxon-name field tna=Ikrandraco avatar; material note ocm=IVPP V18199; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=119.690002, lat=40.654999; paleocoordinate/model fields pm1=gplates, pln=131.14, pla=39.52.
+- occ:1328957: PBDB taxon-name field tna=Ikrandraco avatar; material note ocm=IVPP V18406; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=119.495834, lat=40.912777; paleocoordinate/model fields pm1=gplates, pln=130.87, pla=39.74.
 
 ## Follow collection records back to references {#s-2e8c21b474}
 The collection records cite Wang et al. (2014), database reference ref:59181. The anatomical account and 2020 nomenclatural correction are also linked separately because one describes the fossils and the other establishes name availability.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1328956: Recorded attribution Wang et al. 2014; PBDB reference ref:59181.
+- occ:1328957: Recorded attribution Wang et al. 2014; PBDB reference ref:59181.
+
 ## Evidence limits {#s-cb40ed5821}
 The anatomical account and name correction provide selected descriptions and analyses, not a specimen-by-specimen redescription. Skimming, a horny covering, a throat pouch and air-sac function remain hypotheses. One caption gives IVPP V18046 where the account identifies the referred specimen as IVPP V18406; that numbering difference remains unresolved here. The database retains its own accepted name, collections and broad ages, separate from the anatomical interpretations.
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

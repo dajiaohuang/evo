@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-8c631857e8}
 Hydrarctos lomasiensis is accepted in the fixed PBDB mammalia working roster, with database parent Hydrarctos. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-b50df076a6}
-Collection Sacaco (SAO horizon), region code PE, stratum name Pisco; database age bracket 11.63–5.333 Ma, early interval Tortonian and late interval Messinian. Collection Sud-Sacaco West (SAS) horizon, region code PE, stratum name Pisco; database age bracket 7.246–5.333 Ma, early interval Messinian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Hydrarctos lomasiensis is listed in the PBDB snapshot under taxon txn:72015. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-a2c9fc2906}
-Selected occurrences have an outer age envelope of 11.63–5.333 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Sacaco (SAO horizon), occurrence occ:566019 (11.63–5.333 Ma); one supplying the younger bound is Sacaco (SAO horizon), occurrence occ:566019 (11.63–5.333 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-b50df076a6}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-2348c4f77b}
-Sacaco (SAO horizon) has collection-environment label paralic indet.; collection preservation-mode label body,original phosphate. Sud-Sacaco West (SAS) horizon has collection-environment label foreshore; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:566019; PBDB collection col:46083. Locality cnm=Sacaco (SAO horizon); place fields cc2=PE. Recorded age bounds: eag 11.63 Ma; lag 5.333 Ma; PBDB interval fields oei=Tortonian, oli=Messinian. Stratigraphic fields sfm=Pisco, sls=Pisco, slb=SAO, slo=no particular order. Recorded attribution Muizon 1978; PBDB reference ref:16948.
 
-## Follow collection records back to references {#s-fb5e01d6f5}
-Sacaco (SAO horizon) carries database reference attribution Muizon (1978), identifier ref:16948. Sud-Sacaco West (SAS) horizon carries database reference attribution Pilleri (1990), identifier ref:26378. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Muizon and Bellon (1986: 39394) suggest this is about 3.9 Ma: early late Pliocene according to Muizon et al 2004 (28320). Greater than 5.75 Ma (Ehret et al 2012)
+
+Bosio et al. 2020: Strontium isotope stratigraphy suggests Langhian–Serravallian age (14.8–12.4 Ma) for the P0 sequence of the Pisco Formation (see Fig. 9). Overlying P1 and P2 layers (including SAO horizon) reflects cooling from the late Serravallian–Messinian onwards. Bosio et al. 2019 use Ar dating of tephra layers within the Pisco Fm. with results suggesting P1 age between 9.5 and 8.6 Ma, and that of P2 between 8.4 and 6.7 Ma. PJW: this represents an unnamed 4th member above P2.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+coordinates estimated from map in Marocco and de Muizon (1988)
+
+- Occurrence occ:729385; PBDB collection col:13079. Locality cnm=Sud-Sacaco West (SAS) horizon; place fields cc2=PE. Recorded age bounds: eag 7.246 Ma; lag 5.333 Ma; PBDB interval fields oei=Messinian. Stratigraphic fields sfm=Pisco. Recorded attribution Pilleri 1990; PBDB reference ref:26378.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+See Muizon and de Vries (1985). Basal most Pliocene. A tuff layer from the Sacaco level, above the Sud-Sacaco level, has been dated radiometrically (K/Ar) to 3.9 Myr (de Muizon & Bellon, 1980, 1986). Ehret et al (2012) updated the age to Messinian (5.93 Sr isotopes) rather than Zanclean.
+"The Sud-Sacaco West locality is late Messinian in age, with Sr isotopes ranging from 6.15 ± 0.15 to 5.85 ± 0.15 Ma and U–Pb maximum depositional ages of 6.28 ± 0.05 Ma (MG4-25; Figs. 4D) and 6.62 ± 0.10 Ma (MG4-01; Fig. 4D)." (Ochoa et al. 2022)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Sud-Sacaco, southern coast of Peru, 550 km south of Lima, approximately km 543 of the Pan-American Highway (de Muizon, 1981).
+
+Coordinates of Sud-Sacaco from Olivier et al 2013
+
+Though originally thought to date to the Early Pliocene [74], recent work assigned Sud-Sacaco to the Late Miocene (7.1–5.9 Ma, Messinian) based on 87Sr/86Sr dating [167]. (Marx & Fordyce, 2015)
+
+## Age bounds on the recorded occurrences {#s-a2c9fc2906}
+Across these selected PBDB rows, the largest recorded eag=11.63 Ma in occ:566019; the smallest recorded lag=5.333 Ma in occ:566019. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-2348c4f77b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:566019: PBDB original-identification field idn=Hydrarctos lomasiensis n. gen. n. sp.; PBDB taxon-name field tna=Hydrarctos lomasiensis; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-74.690277, lat=-15.557222; paleocoordinate/model fields pm1=gplates, pln=-72.54, pla=-15.09.
+- occ:729385: PBDB original-identification field idn=Arctocephalus lomasiensis; PBDB taxon-name field tna=Hydrarctos lomasiensis; PBDB locality-coordinate fields lng=-74.719719, lat=-15.580833; paleocoordinate/model fields pm1=gplates, pln=-73.17, pla=-15.2.
+
+## References attached to each record {#s-fb5e01d6f5}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:566019: Recorded attribution Muizon 1978; PBDB reference ref:16948.
+- occ:729385: Recorded attribution Pilleri 1990; PBDB reference ref:26378.
 
 ## Evidence limits {#s-f77ab4d03d}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-fb9f280c8a}
-Pinned COL26.8 organizes this page at Cinnyris shelleyi (5Z6TK). BirdLife 2020 row 5989 and eBird 2021 row 2361 share the name and Avibase ID AVIBASE-68352820, with type 1BL to 1eBird; BirdTree row 2354 gives Nectarinia shelleyi, with type 1BL to 1BT. Read older-combination record 462PQ points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-fb9f280c8a}
+Catalogue of Life release COL26.8 records Cinnyris shelleyi Alexander, 1899 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-d27290847c}
 Morphology covers 9 birds: 4 female, 5 male and 0 unsexed; 8 birds have complete measurement sets. Nostril-to-tip beak length 14.4 mm, tarsus 14.9 mm, unflattened wing 58.9 mm, tail 42.3 mm and hand-wing index 17.4 are historical row means. Inference=NO does not establish 9 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

@@ -1,5 +1,5 @@
-## 沿旧 Garrulax 名称查资料 {#s-60f22a6e23}
-本页按 COL26.8 的 Trochalopteron chrysopterum（596GZ）组织。BirdLife 2020 第 4920 行与 eBird 2021 第 10686 行同名，Avibase ID 为 AVIBASE-3467E0CF，匹配为 1BL to 1eBird；BirdTree 第 10619 行记 Garrulax chrysopterus，匹配为 1BL to 1BT。本次已读 tro／ga 分片未找到这个逐字旧组合，不把名称表的一对一关系写成已核实的 COL 异名。来源科名写 Leiotrichidae，目录祖先写 Leiothrichidae；两种拼写保留。这些链接定位历史资料，不证明所有年代的分类概念相同。
+## COL26.8 中的名称身份 {#s-60f22a6e23}
+《Catalogue of Life》COL26.8（2026-08-20）将 Trochalopteron chrysopterum (Gould, 1835) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 完整测量数与喙翼均值 {#s-be014cb3ec}
 本行形态共 5 只鸟：雌 2、雄 3、性别未定 0，完整测量 4 只。鼻孔前缘至喙尖 12.5 mm、跗蹠 37.7 mm、未压平翼长 102.1 mm、尾长 114.2 mm、手翼指数 4.6 为历史行汇总数值。Inference=NO 不代表每项字段拥有相同分母，也不能从这些均值补雌雄差异或个体最小—最大值。手翼指数定义为 Kipp 距离／翼长 ×100，不是飞行速度或迁移距离。

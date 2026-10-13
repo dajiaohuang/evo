@@ -1,5 +1,5 @@
-## Find rows through older Oceanodroma／Halocyptena combinations {#s-c67074bb50}
-Pinned COL26.8 organizes this page at Hydrobates markhami (DD8T2). BirdLife 2020 row 10063 and eBird 2021 row 4921 share the name and Avibase ID AVIBASE-326E50B4, with type 1BL to 1eBird; BirdTree row 4898 gives Oceanodroma markhami, with type 1BL to 1BT. Read catalogue synonym 6SFG2 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-c67074bb50}
+Catalogue of Life release COL26.8 records Hydrobates markhami (Salvin, 1883) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-1d1a32ed90}
 Morphology comprises 5 birds: 3 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 11.1 mm, tarsus 23.2 mm, unflattened wing 170.8 mm, tail 91.4 mm and hand-wing index 61.3 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

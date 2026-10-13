@@ -1,4 +1,6 @@
-## 两条历史食性与取食记录 {#s-fc1a4b3979}
+## 记录分类与直接上级关系 {#s-fc1a4b3979}
+COL26.8 将 Lophozosterops 记录为属；其直接上级记录为 Zosteropidae。
+
 EltonTraits 1.0 在此汇总两条历史记录：Lophozosterops javanicus 与 L. pinaiae。两条记录均有食性和取食方式字段，活动记录为 0。这些是汇编字段计数，并非个体鸟数，也不能证明全属共享相同取食模式。
 
 ## 另外三条、覆盖较窄的记录 {#s-02bf354848}

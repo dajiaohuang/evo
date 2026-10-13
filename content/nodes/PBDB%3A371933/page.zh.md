@@ -1,18 +1,47 @@
-## 这个名称对应哪些化石记录 {#s-d51c5e419a}
-Pipilo naufragus 在固定 PBDB 恐龙及其鸟类分支工作名录中为接受种，数据库父级为 Pipilo。本页导读 23 条可用种级出现记录，涉及 23 个采集记录和 1 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
+## 这组记录包含什么 {#s-d51c5e419a}
+Pipilo naufragus 在 PBDB 快照中对应分类条目 txn:371933。这份存档导读包含 23 条选取的出现记录，关联 23 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 从具名采集地和地层开始 {#s-334dad8c23}
-采集记录 Finch Cave, Government Quarry，地区代码 BM；数据库年代范围 0.774–0.129 Ma，早端地质时段 Middle Pleistocene。采集记录 Tropicbird Cave，地区代码 BM；数据库年代范围 0.129–0.0117 Ma，早端地质时段 Late Pleistocene。采集记录 Admirals Cave, Level q，地区代码 BM；数据库年代范围 0.129–0.0117 Ma，早端地质时段 Late Pleistocene。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+## 具名地点与采集记录 {#s-334dad8c23}
+存档导读包含 23 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 这些记录的年代边界 {#s-613617f79d}
-本页所选出现记录的年代外包区间为 0.774–0 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
+- 出现记录 occ:1406912；PBDB 采集记录 col:194454。 地点字段 cnm=Finch Cave, Government Quarry；地点分区字段 cc2=BM。 记录年代界：eag 0.774 Ma; lag 0.129 Ma；PBDB 年代区间字段 oei=Middle Pleistocene。 记录署名 Olson and Wingate 2012；PBDB 引文编号 ref:66030。
 
-## 保存环境与生活环境分开阅读 {#s-8359f71a3d}
-Finch Cave, Government Quarry 的采集环境标签为 fissure fill；集合保存方式标签为 实体化石（body）。Tropicbird Cave 的采集环境标签为 cave；集合保存方式标签为 实体化石（body）。Admirals Cave, Level q 的采集环境标签为 cave；集合保存方式标签为 实体化石、原磷酸盐成分、original carbon（body,original phosphate,original carbon）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+The presence of some bones apparently referable to Rallus ibycus suggests that this deposit was contemporaneous with the "Crane Fauna" of Olson & Wingate (2000), no younger than glacial MIS 6, although this fauna could possibly have existed from MIS 8 through 6.
 
-## 沿采集记录追到文献 {#s-7a3600761f}
-Finch Cave, Government Quarry 的数据库引文署名为 Olson and Wingate（2012），编号 ref:66030。Tropicbird Cave 的数据库引文署名为 Olson and Wingate（2012），编号 ref:66030。Admirals Cave, Level q 的数据库引文署名为 Olson and Wingate（2012），编号 ref:66030。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+S face of S half of Government Quarry about 100 m W of Crane Crevice
 
-## 资料边界 {#s-526785c660}
-本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 3538 项恐龙及其鸟类分支工作名录中，当前名称一致、父链可追到已记录 Dinosauria 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+- 出现记录 occ:1406923；PBDB 采集记录 col:194446。 地点字段 cnm=Convolvulus Cave, SE talus；地点分区字段 cc2=BM。 记录年代界：eag 0.0117 Ma; lag 0 Ma；PBDB 年代区间字段 oei=Holocene。 记录署名 Olson and Wingate 2012；PBDB 引文编号 ref:66030。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Associated with the land shell Poecilozonites bermudensis, indicating a Holocene age
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Entrance N32°21’06.5” W64°42’45.8”; position approximately over SE talus slope N32°21’05.4” W64°42’45.0”. By GPS calculation the SE talus slope would be 40 m approximately SSE (148°) of the entrance. This cave is near the entrance to the present Grotto Bay Hotel and has also been known as Bourne’s Quarry Cave and Grotto Cave (Hearty et al., 2004: fig. 2) but the name Convolvulus Cave has been in use at least since 1873 when visited and photographed by scientists of the Challenger Expedition (Wyville Thompson, 1878: 302).
+
+- 出现记录 occ:1406913；PBDB 采集记录 col:194455。 地点字段 cnm=Tropicbird Cave；地点分区字段 cc2=BM。 记录年代界：eag 0.129 Ma; lag 0.0117 Ma；PBDB 年代区间字段 oei=Late Pleistocene。 记录署名 Olson and Wingate 2012；PBDB 引文编号 ref:66030。
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Labels with specimens indicate that this cave was also on Paynter’s Hill and Wingate’s diary entry for 23 Jun 1974 includes a map showing that it is on the north slope of the hill close adjacent to the south side of the golf course fairway.
+
+## 出现记录的年代界 {#s-613617f79d}
+在这组 PBDB 记录中，最大记录 eag=0.774 Ma，见 occ:1406912；最小记录 lag=0 Ma，见 occ:1406923。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-8359f71a3d}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1406912：PBDB 原鉴定字段 idn=Pipilo naufragus n. sp.；PBDB 分类名称字段 tna=Pipilo naufragus；PBDB 地点坐标字段 lng=-64.706001，lat=32.340801；古坐标／模型字段 pm1=gplates。
+- occ:1406923：PBDB 分类名称字段 tna=Pipilo naufragus；PBDB 地点坐标字段 lng=-64.712502，lat=32.351501；古坐标／模型字段 pm1=gplates。
+- occ:1406913：PBDB 分类名称字段 tna=Pipilo naufragus；PBDB 地点坐标字段 lng=-64.702003，lat=32.338001；古坐标／模型字段 pm1=gplates。
+
+## 各记录所附的引文 {#s-7a3600761f}
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1406912：记录署名 Olson and Wingate 2012；PBDB 引文编号 ref:66030。
+- occ:1406923：记录署名 Olson and Wingate 2012；PBDB 引文编号 ref:66030。
+- occ:1406913：记录署名 Olson and Wingate 2012；PBDB 引文编号 ref:66030。
+
+## 这些记录能说明什么 {#s-526785c660}
+此页导读的是 2026-10-02 快照中的 23 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

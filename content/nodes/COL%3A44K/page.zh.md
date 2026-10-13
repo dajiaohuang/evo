@@ -25,7 +25,7 @@ Cristofari 等分析了 2004–2012 年在东南极六个繁殖群采集的 110 
 ## 三种 Pygoscelis 的不同研究问题 {#s-3f333d34d2}
 Pygoscelis 属阅读路径连接三个不同案例：Windmill Islands 连续十个繁殖季的巢存活研究、帽带企鹅综合多方法的全球繁殖群评估，以及巴德岛一个异常偏暖冬季的巴布亚企鹅食性研究。三者地点、时段与方法不同，不能作为统一对比，也不能合并成目级种群趋势或生态综合。
 
-## 本地数据阅读路径 {#s-3e3dbe81dd}
+## 记录分类与成员材料 {#s-3e3dbe81dd}
 Sphenisciformes 的本批阅读路径包含 18 条有测量来源的物种记录，可从 Aptenodytes forsteri、Aptenodytes patagonicus、Eudyptes chrysocome、Eudyptes chrysolophus、Eudyptes moseleyi 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-db18d3e0e6}

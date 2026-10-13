@@ -13,3 +13,6 @@ COL26.8 在 *Tamarinus* 属下列出七个接受种：*T. inustus*、*T. subgris
 ## 从分类描述检查样本和图注 {#s-7db046649e}
 [Tamarinus kulina](Tamarinus_kulina/page.zh.md) 区分形态与 ddRAD 样本，并保留正模式号、图 4 标签和发表年份的原文差异；基因组抽样不提供全种种群数量。
 
+## 名录分类记录 {#col26-8-identity}
+在固定的 COL26.8 名录中，Tamarinus Trouessart, 1904 被记录为接受属。
+

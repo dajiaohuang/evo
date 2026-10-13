@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-657d7848b6}
+## 记录分类与直接上级关系 {#s-657d7848b6}
+COL26.8 将 Phoebetria 记录为属；其直接上级记录为 Diomedeidae G. R. Gray, 1840。
+
 固定 COL26.8 层级下的 Phoebetria 路径收录了 2 条有测量来源的物种记录。可先从 Phoebetria fusca、Phoebetria palpebrata 读起；生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-1bb3b90d04}

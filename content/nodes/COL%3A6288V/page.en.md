@@ -1,4 +1,6 @@
-## Choose comparison pages by life-history fields {#s-b4c83ec4ae}
+## Recorded classification and direct parent {#s-b4c83ec4ae}
+COL26.8 records Phyllonycterina at subtribe rank, with Brachyphyllini as its direct parent.
+
 This batch’s Phyllonycterina route includes 2 historical life-history accounts; start with Erophylla bombifrons, Erophylla sezekorni. More frequently represented fields include adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), conception or fertilization to birth (2 entries), age of dependence on food other than maternal milk (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-aeacbd3844}

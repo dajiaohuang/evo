@@ -1,4 +1,6 @@
-## 旧组合的五个种目标与两个亚种目标 {#s-4299490928}
+## 记录分类与直接上级关系 {#s-4299490928}
+COL26.8 将 Sporophila 记录为属；其直接上级记录为 Thraupidae。
+
 七条历史导读沿 COL26.8 Sporophila（7LMG）、Thraupidae（H87）组织，eBird七同名且各Avibase ID相同。BirdTree fringilloides记Dolospingus，其余六记Oryzoborus，funerea旧词尾funereus。五逐字异名指向本批接受种；Oryzoborus atrirostris异名74ZGK指向B77X3指名亚种、parentId=9GBHK，Oryzoborus funereus异名74ZGL指向B7N4X指名亚种、parentId=9GBHM。后两条不是直接种级异名，历史全种范围未解决。额外Oryzoborus fringilloides不是实际BirdTree表名。属41目录直接子项，七页不计完整属内容。
 
 ## 一只雄鸟与三十三只总数分开读 {#s-469da27304}
@@ -10,11 +12,11 @@ atrirostris一只雄鸟完整一套，不提供雌性或群体变异；nuttingi�
 ## 先读亚种目标，再比较采样 {#s-1b1cec3f70}
 先看atrirostris与funerea的指名亚种目标，保留当前整个物种范围未解决；对读一只雄鸟与三十三只总数完整四套，再读angolensis三十一只完整四套及Granivore／Omnivore组合。比较nuttingi三只全部完整和fringilloides六只完整五套。原21测量、5生活史、4有限生态入口各保留，不相加作接受种去重分母。
 
-第1组：[Sporophila fringilloides](Sporophila_fringilloides/page.zh.md)、[Sporophila maximiliani](Sporophila_maximiliani/page.zh.md)、[Sporophila angolensis](Sporophila_angolensis/page.zh.md)、[Sporophila atrirostris](Sporophila_atrirostris/page.zh.md)
+第1组：Sporophila fringilloides、Sporophila maximiliani、Sporophila angolensis、Sporophila atrirostris
 
-第2组：[Sporophila funerea](Sporophila_funerea/page.zh.md)、[Sporophila nuttingi](Sporophila_nuttingi/page.zh.md)、[Sporophila crassirostris](Sporophila_crassirostris/page.zh.md)
+第2组：Sporophila funerea、Sporophila nuttingi、Sporophila crassirostris
 
-## 本地数据阅读路径 {#s-6baeffe8c6}
+## 记录分类与成员材料 {#s-6baeffe8c6}
 Sporophila 的本批阅读路径包含 21 条有测量来源的物种记录，可从 Sporophila albogularis、Sporophila americana、Sporophila bouvronides、Sporophila caerulescens、Sporophila castaneiventris 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-83863feba1}
@@ -25,11 +27,11 @@ Sporophila 的本批路线包含 5 条历史生活史导读，可从 Sporophila 
 
 ## 证据边界 {#s-b9d591f1b9}
 本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
 另增七条旧名导读，五直接种目标与两个指名亚种目标分开；atrirostris与funerea历史全种范围仍未解决。单只雄鸟、较多总数与完整分母、独立体重和营养级各保留；完整41目录子项内容、当前地图未完成。
 
-## 从有限生态资料开始 {#s-e0ef898e71}
-Sporophila 本批有 4 个有限生态资料页，可从 [Sporophila ardesiaca](Sporophila_ardesiaca/page.zh.md)、[Sporophila cinnamomea](Sporophila_cinnamomea/page.zh.md)、[Sporophila nigrorufa](Sporophila_nigrorufa/page.zh.md)、[Sporophila simplex](Sporophila_simplex/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-e0ef898e71}
+Sporophila 本批有 4 个有限生态资料页，可从 Sporophila ardesiaca、Sporophila cinnamomea、Sporophila nigrorufa、Sporophila simplex 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-bb5985a0ed}
 栖地类别见 4 页，取食生态位见 4 页，主导活动方式见 4 页，迁移类别见 4 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

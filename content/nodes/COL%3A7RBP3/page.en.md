@@ -1,14 +1,14 @@
-## The 2015 life-history entry and this name {#s-0b94dfd692}
-Aulacorhynchus albivitta is accepted in pinned COL26.8 within Ramphastidae. The 2015 life-history archive has four fields under this same-name, same-family record, each supported by cited species-level rows. Its summaries may still inherit information across historical taxa; matching names do not remove that influence.
+## Scope of the historical life-history entry {#s-0b94dfd692}
+The August 2015 database has a same-name, same-family record for Aulacorhynchus albivitta. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-5e9a16acd0}
-Historical summary values are adult body mass 175.83 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-5e9a16acd0}
+The August 2015 compilation reports adult body mass 175.8333333 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-3b684bedd0}
-Available compilation fields are offspring per litter or eggs per clutch 3.25 offspring/eggs; oviposition to hatching 16 d; age at flight capability (leaving the nest in some source material) 43 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-3b684bedd0}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.25; oviposition-to-hatching interval 16 days; age at flight capability (some records mark nest departure) 43 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-3055685c77}
-Same-name sparse rows cite Dunning (1992), Szekely, Lislevand and Figuerola (2007), Boback and Guyer (2003), and Pereira, Daily and Roughgarden (2004), among others. Each field has its own source label; a label may identify a paper, book or database. Row counts are not numbers of measured individuals, and repeated citations do not represent independent experimental replication.
+## Sources and field limits {#s-3055685c77}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Life-history evidence limits {#s-788d0222da}
 The 2015 archive reports medians or averages of the two middle values, except maximum longevity, which uses the largest record found. These are compiled summaries, not one individual's measurements, ranges of individual variation, mean wild lifespans or current population surveys. Historical species and subspecies can share inherited data, so the same name, family and species-level sparse rows do not prove equivalence to COL26.8 or remove every inherited component. Wild versus captive conditions are not consistently established, and the cited publications have not been individually reviewed here. This partial life-history account does not establish diet, behavior, current range or conservation status; missing fields require other sources.

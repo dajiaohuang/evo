@@ -4,7 +4,9 @@
 ## 按材料、刺激和记录方式比较 {#s-7a18fd9599}
 先读 [Alligator mississippiensis](../../Alligatoridae/Alligator/Alligator_mississippiensis/page.zh.md) 的颌部触觉与测量下限，再到 [Crocodylus niloticus](Crocodylus_niloticus/page.zh.md) 比较体表分布及胚胎时序，最后读 [Caiman crocodilus](../../Alligatoridae/Caiman/Caiman_crocodilus/page.zh.md) 的颌部多类刺激记录。每步先确认研究年份、幼体／胚胎、部位及子样本；局部神经电活动不等于野外偏好，盐液未检出响应也不证明动物没有盐度感觉。沿用现有咬力、移动与生活史路径时，另核对年龄、单位和方法，不把感觉阈值换算为捕食成功率。
 
-## 从有性状记录的物种开始 {#s-250fe7a387}
+## 记录分类与直接上级关系 {#s-250fe7a387}
+COL26.8 将 Crocodylus 记录为属；其直接上级记录为 Crocodylidae。
+
 Crocodylus 的本批 ReptTraits 阅读路径包含 12 条同名同科、有逐性状出处的物种资料，可从 Crocodylus acutus、Crocodylus intermedius、Crocodylus johnstoni、Crocodylus mindorensis、Crocodylus moreletii 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 不同类群需要不同尺度 {#s-55e8f1188e}
@@ -20,8 +22,8 @@ Crocodylus 的本批路线包含 10 条历史生活史导读，可从 Crocodylus
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 新增感知正文使用两篇出版 HTML 中实际读过的材料、所选方法／结果／讨论与图说，不声称全篇审评。2012 年研究美洲短吻鳄与尼罗鳄，2013 年研究尼罗鳄与眼镜凯门鳄，各实验子样本、发育期与部位分开。未独立查看图像、补充视频、全部表格、原始神经数据或重跑实验；不推广到所有鳄类、化石种或野外种群。
 
-## 从有性状记录的物种开始 {#s-770a9adef6}
-Crocodylus 的本批 ReptTraits 阅读路径包含 1 条同名同科、有逐性状出处的物种资料，可从 [Crocodylus halli](Crocodylus_halli/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-770a9adef6}
+Crocodylus 的本批 ReptTraits 阅读路径包含 1 条同名同科、有逐性状出处的物种资料，可从 Crocodylus halli 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-b54e9deb79}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

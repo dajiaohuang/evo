@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-140c61d60f}
-Gryposaurus notabilis is accepted in the fixed PBDB dinosaur working roster, with database parent Gryposaurus. This guide uses 10 eligible species-level occurrence records from 10 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-140c61d60f}
+Gryposaurus notabilis is listed in the PBDB snapshot under taxon txn:63251. This archived guide contains 10 selected occurrence rows, linked to 10 distinct PBDB collection IDs and 6 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-c1682e008b}
-Collection Sandhill Creek (116 ft) (Alberta), region code CA, stratum name Dinosaur Park; database age bracket 83.6–72.2 Ma, early interval Middle Campanian and late interval Late Campanian. Collection RTMP Quarry 137 (II) (Alberta), region code CA, stratum name Dinosaur Park; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Collection RTMP Quarry 34, Steveville (Alberta), region code CA, stratum name Dinosaur Park; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-c1682e008b}
+The archived guide contains 10 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-5030b6548b}
-Selected occurrences have an outer age envelope of 83.6–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:467014; PBDB collection col:46331. Locality cnm=Sandhill Creek (116 ft); place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Middle Campanian, oli=Late Campanian. Stratigraphic fields sfm=Dinosaur Park. Recorded attribution Parks 1919; PBDB reference ref:14121.
 
-## Read preservation setting separately from living habitat {#s-774d753c22}
-Sandhill Creek (116 ft) has collection-environment label shoreface; collection preservation-mode label body,soft parts. RTMP Quarry 137 (II) has collection-environment label terrestrial indet.; collection preservation-mode label body. RTMP Quarry 34, Steveville has collection-environment label "channel"; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Belly River series", low in formation, 16 m above contact w/Oldman
 
-## Follow collection records back to references {#s-c288b4054e}
-Sandhill Creek (116 ft) carries database reference attribution Parks (1919), identifier ref:14121. RTMP Quarry 137 (II) carries database reference attribution Currie (2005), identifier ref:16964. RTMP Quarry 34, Steveville carries database reference attribution Currie and Russell (2005), identifier ref:16982. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+badlands of Red Deer River, vicinity of confluence with Sand Hill Creek, 116 feet (aneroid) above water level, 2.5 miles above Happy Jack ferry and 1 mile S of river. = UTM 12U 466384me, 5622311mN
 
-## Evidence limits {#s-30fea9277d}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:535209; PBDB collection col:55317. Locality cnm=RTMP Quarry 137 (II); place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Dinosaur Park. Recorded attribution Currie 2005; PBDB reference ref:16964.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+also described as the "pale beds" of the Belly River Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Collection is believed to be from Quarry 137, however the exact origin is not known. Not the same as Quarry 137 in Danis (1986)
+
+- Occurrence occ:564551; PBDB collection col:58946. Locality cnm=RTMP Quarry 34, Steveville; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Dinosaur Park. Recorded attribution Currie and Russell 2005; PBDB reference ref:16982.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+originally assigned to the Oldman Fm.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SE 1/4, sec 21, T21N, R12W, W 4th meridian; 3 mi below Steveville
+
+## Age bounds on the recorded occurrences {#s-5030b6548b}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:467014; the smallest recorded lag=72.2 Ma in occ:467014. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-774d753c22}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:467014: PBDB original-identification field idn=Kritosaurus incurvimanus n. sp.; PBDB taxon-name field tna=Gryposaurus notabilis; material note ocm=ROM 764 (= ROM 4514 Ct.); abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-111.476532, lat=50.751602; paleocoordinate/model fields pm1=gplates, pln=-65.65, pla=60.93.
+- occ:535209: PBDB original-identification field idn=Gryposaurus incurvimanus; PBDB taxon-name field tna=Gryposaurus notabilis; material note ocm=MSNM V345; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-111.514580, lat=50.739853; paleocoordinate/model fields pm1=gplates, pln=-65.7, pla=60.93.
+- occ:564551: PBDB taxon-name field tna=Gryposaurus notabilis; material note ocm=ROM 873 (= ROM 5859 Ct.); abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-111.605766, lat=50.794621; paleocoordinate/model fields pm1=gplates, pln=-65.76, pla=61.
+
+## References attached to each record {#s-c288b4054e}
+The archived guide links the rows to 6 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:467014: Recorded attribution Parks 1919; PBDB reference ref:14121.
+- occ:535209: Recorded attribution Currie 2005; PBDB reference ref:16964.
+- occ:564551: Recorded attribution Currie and Russell 2005; PBDB reference ref:16982.
+
+## What these records can show {#s-30fea9277d}
+This is a guide to 10 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## 本批的物种页 {#s-c34002a539}
+## 记录分类与直接上级关系 {#s-c34002a539}
+COL26.8 将 Campephilus 记录为属；其直接上级记录为 Picinae。
+
 Campephilus 路径在本批有 10 条测量物种记录。本页先列 Campephilus gayaquilensis、Campephilus guatemalensis、Campephilus imperialis、Campephilus leucopogon 和 Campephilus magellanicus。目录层级依固定 COL26.8；AVONET v7 数值保留历史名称与采样范围。
 
 ## 用于对比的例子 {#s-25e0149eae}

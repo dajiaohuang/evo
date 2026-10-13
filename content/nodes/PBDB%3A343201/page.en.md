@@ -1,19 +1,52 @@
 ## Which fossil records this name represents {#s-a30637e37c}
 Promoschorhynchus platyrhinus is accepted in the fixed PBDB other-synapsida working roster, with database parent Promoschorhynchus. This guide uses 4 eligible species-level occurrence records from 4 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-3b0724c7b4}
-Collection Wellwood (Dicynodon Assemblage Zone) (Eastern Cape), region code ZA, stratum name Balfour; database age bracket 259.857–251.902 Ma, early interval Wuchiapingian and late interval Changhsingian. Collection Wilgerbosch, New Bethesda (Eastern Cape), region code ZA; database age bracket 259.857–251.902 Ma, early interval Wuchiapingian and late interval Changhsingian. Collection Bethulie (Free State), region code ZA; database age bracket 259.857–251.902 Ma, early interval Lopingian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Promoschorhynchus platyrhinus is listed in the PBDB snapshot under taxon txn:343201. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-25c7939fc3}
-Selected occurrences have an outer age envelope of 259.857–251.902 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Wellwood (Dicynodon Assemblage Zone), occurrence occ:1304946 (259.857–251.902 Ma); one supplying the younger bound is Wellwood (Dicynodon Assemblage Zone), occurrence occ:1304946 (259.857–251.902 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-3b0724c7b4}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-5f816156c8}
-Wellwood (Dicynodon Assemblage Zone) has collection-environment label terrestrial indet.; collection preservation-mode label body. Wilgerbosch, New Bethesda has collection-environment label terrestrial indet.; collection preservation-mode label body. Bethulie has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1304946; PBDB collection col:80226. Locality cnm=Wellwood (Dicynodon Assemblage Zone); place fields cc2=ZA, stp=Eastern Cape, cny=Camdeboo. Recorded age bounds: eag 259.857 Ma; lag 251.902 Ma; PBDB interval fields oei=Wuchiapingian, oli=Changhsingian. Stratigraphic fields sfm=Balfour. Recorded attribution Kitching 1977; PBDB reference ref:27216.
 
-## Follow collection records back to references {#s-db480b99b6}
-Wellwood (Dicynodon Assemblage Zone) carries database reference attribution Kitching (1977), identifier ref:27216. Wilgerbosch, New Bethesda carries database reference attribution Brink (1954), identifier ref:59471. Bethulie carries database reference attribution Botha-Brink (2010), identifier ref:63463. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+It is said that the fossils come from the Daptocephalus zone (Gow, 1972) which is equivalent to the Dicynodon Assemblage Zone. Geographic and stratigraphic data suggest that the locality is in the Balfour Formation of the Beaufort Group (see Catuneanu et al., 2005, J. Afr. Earth Sci., 43, figs. 24, 25). The Dicynodon AZ is late Wuchiapingian to Changhsingian based on radioisotopic data (Rubidge et al. 2013, Geology)
+
+Direct Maximum date for Dicynodon Assemnlage Zone from Rubidge et al., 2013
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Locality Wellwood, Graaff Reinet"; polar coordinates are for farm Wellwood, a small area situated about 30 km NNE of Graaff-Reinet; Note: Camdeboo is the name now used for Graaff-Reinet municipality
+
+- Occurrence occ:1332760; PBDB collection col:176312. Locality cnm=Wilgerbosch, New Bethesda; place fields cc2=ZA, stp=Eastern Cape, cny=Graaff-Reinet. Recorded age bounds: eag 259.857 Ma; lag 251.902 Ma; PBDB interval fields oei=Wuchiapingian, oli=Changhsingian. Recorded attribution Brink 1954; PBDB reference ref:59471.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Direct dates for the Dicynodon Assemblage Zone from Rubidge et al., 2013
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coordinates based on the farm of Wilgerbosch, near New Bethesda
+
+- Occurrence occ:1380637; PBDB collection col:188676. Locality cnm=Bethulie; place fields cc2=ZA, stp=Free State, cny=Bethulie. Recorded age bounds: eag 259.857 Ma; lag 251.902 Ma; PBDB interval fields oei=Lopingian. Recorded attribution Botha-Brink 2010; PBDB reference ref:63463.
+
+## Age bounds on the recorded occurrences {#s-25c7939fc3}
+Across these selected PBDB rows, the largest recorded eag=259.857 Ma in occ:1304946; the smallest recorded lag=251.902 Ma in occ:1304946. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5f816156c8}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1304946: PBDB taxon-name field tna=Promoschorhynchus platyrhinus; PBDB locality-coordinate fields lng=24.573610, lat=-31.958332; paleocoordinate/model fields pm1=gplates, pln=-18.09, pla=-51.82.
+- occ:1332760: PBDB original-identification field idn=Promoschorhynchus platyrhinus n. gen. n. sp.; PBDB taxon-name field tna=Promoschorhynchus platyrhinus; material note ocm=BP/1/192, partial skull; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=24.590279, lat=-31.820000; paleocoordinate/model fields pm1=gplates, pln=-17.89, pla=-51.76.
+- occ:1380637: PBDB taxon-name field tna=Promoschorhynchus platyrhinus; PBDB locality-coordinate fields lng=25.983334, lat=-30.483334; paleocoordinate/model fields pm1=gplates, pln=-15.04, pla=-52.09.
+
+## References attached to each record {#s-db480b99b6}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1304946: Recorded attribution Kitching 1977; PBDB reference ref:27216.
+- occ:1332760: Recorded attribution Brink 1954; PBDB reference ref:59471.
+- occ:1380637: Recorded attribution Botha-Brink 2010; PBDB reference ref:63463.
 
 ## Evidence limits {#s-a30e968d44}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

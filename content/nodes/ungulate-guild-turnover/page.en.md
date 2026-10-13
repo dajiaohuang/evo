@@ -1,7 +1,7 @@
-## Changing of the herbivore guild {#s-6787f9803c}
-Follow three moments in changing herbivore communities, keeping regional succession and diet separate from evolutionary ancestry.
+## Herbivore guilds changed across regions and time {#s-6787f9803c}
+Eocene brontotheres, boundary-age mammal records, and Miocene feeding niches document different parts of herbivore history; their timing does not reduce them to one replacement event.
 
-## Brontotheres diversify through the Eocene {#s-fe471a6f82}
+## Brontotheres diversified in North America and Asia {#s-fe471a6f82}
 Eocene brontotheres ranged from small early forms to rhinoceros-sized species in North America and Asia. This was an extinct herbivore radiation, not a modern animal community recreated in the past.
 
 ## Ice growth and mammal turnover near the boundary {#s-6fc334ce14}

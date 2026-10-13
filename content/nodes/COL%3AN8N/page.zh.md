@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-4dd9e58b75}
+## 记录分类与直接上级关系 {#s-4dd9e58b75}
+COL26.8 将 Acratosaura 记录为属；其直接上级记录为 Gymnophthalmidae。
+
 Acratosaura 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 Acratosaura mentalis、Acratosaura spinosa 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-f995913f93}

@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:odontoceti
       claimKind: scientific
       claimType: topology
-      statement: Odontoceti is treated as the toothed-whale branch of sampled Neoceti, but its early fossil membership and character sequence are reconstructed from separate taxa; the branch is not a single observed lineage or an exact 34 Ma origin event.
+      statement:
+        page: en
+        section: sampled-branch
+        part: body
       confidence: medium
       confidenceRationale: The review supports the higher grouping and fossil synthesis, while the claim withholds a direct lineage and exact origination date.
       referenceLinks:
@@ -26,7 +29,10 @@ records:
     - subjectId: taxon:odontoceti
       claimKind: scientific
       claimType: fossil-range
-      statement: odontoceti is displayed at 34–0 Ma only as the review's sampled stem-to-living odontocete envelope, not an exact clade origin. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      statement:
+        page: en
+        section: sample-window
+        part: body
       confidence: medium
       confidenceRationale: odontoceti uses Uhen, M.D. (2010) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Oligocene fossil evidence through living Odontoceti synthesized by Uhen; broader endpoints remain unclaimed.
       referenceLinks:
@@ -43,8 +49,12 @@ records:
     - 综述支持高阶组合与化石综合；主张不陈述直接谱系和精确起源日期。
     - odontoceti 采用 Uhen, M.D.（2010）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Oligocene fossil evidence through living Odontoceti synthesized by Uhen；更宽泛端点保持未声明。
   claim-statements.zh:
-    - 齿鲸类被视为取样新鲸类中的齿鲸分支，但其早期化石成员与性状顺序由彼此独立的类群重建；该分支不是单一已观测谱系，也不是精确的 3400 万年前起源事件。
-    - odontoceti 仅以 34–0 Ma 展示为综述采样的干群至现生齿鲸包络，而非精确类群起源。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - page: zh
+      section: sampled-branch
+      part: body
+    - page: zh
+      section: sample-window
+      part: body
   ranges:
     - entityId: odontoceti
       rangeKind: global-composite

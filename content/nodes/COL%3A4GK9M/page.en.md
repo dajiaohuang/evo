@@ -4,47 +4,47 @@ In the 2009 North Pacific status assessment, more than 95% of black-footed albat
 ## ecology {#s-4abc879a42}
 The assessment describes black-footed albatrosses as open-ocean birds that return to land to breed. It also identifies commercial-fishery bycatch as an important human-caused source of mortality after fledging during the period reviewed. This historical summary does not give a current mortality rate.
 
-## The name and this data account {#s-c6b4aa7a0c}
-COL26.8 accepts *Phoebastria nigripes* in Diomedeidae. The AVONET v7 record uses the HBW–BirdLife 2020 name and includes 5 measured individuals, 4 with a complete set of morphological measurements. Sample sizes can vary by trait.
+## Row-reported mean and sample coverage {#s-c6b4aa7a0c}
+The AVONET v7 row for Phoebastria nigripes (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 67.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-57448a1d18}
-The recorded beak means are 67.8 mm from the front edge of the nostril to the tip, 23.8 mm wide and 30.8 mm deep at the nostril edge. These are separate dimensions at defined landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-57448a1d18}
+AVONET records culmen length (bill tip to skull base) 101.2 mm; beak length (nostril front edge to tip) 67.8 mm; beak width at the nostril front edge 23.8 mm; beak depth at the nostril front edge 30.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-85b6db447c}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 476 mm; mean tarsus length is 87.4 mm. Compiled mean mass is 3188.41 g, from source category Dunning. It comes from separate species-average information, so the morphological specimens were not necessarily weighed.
+## Wing and body measures use separate sources {#s-85b6db447c}
+AVONET records unflattened wing length 476 mm; tarsus length 87.4 mm; distance from first secondary tip to longest primary tip 313.2 mm; length to first secondary tip 171.2 mm; hand-wing index 64.7; tail length 136 mm; species-average body mass 3188.41 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-893991da04}
-The dataset's dominant categories are Marine for habitat, Aquatic predator for trophic niche and Aquatic for lifestyle. They support comparisons across species, but do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-893991da04}
+AVONET classifies Phoebastria nigripes as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aquatic. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-dfab2de202}
-The migration field classifies the record as partially migratory. Historical breeding and resident maps span latitudes -84.95° to 85.01°. They do not describe every non-breeding movement or show current position or global occupancy. Geographic and morphological data come from separate compilation steps.
+## The migration label has a limited scope {#s-dfab2de202}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -84.95° to 85.01°. The mapped range area is 84626560.97 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-a5c12b2edf}
-COL26.8 accepts *Phoebastria nigripes* in Diomedeidae. The 2015 life-history archive contains an older record with the same name and family. Seven fields are shown because cited species-level sparse-table rows support them, although their summaries may still inherit older taxonomic data.
+## Scope of the historical life-history entry {#s-a5c12b2edf}
+The August 2015 database has a same-name, same-family record for Phoebastria nigripes. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-38400d055f}
-The historical summaries are 3195 g for adult body mass and 182.5 g at birth or hatching. Adult mass may combine males, females and adults of unspecified sex; the second value describes an earlier life stage. They are not a longitudinal series for the same individuals or a range of individual masses across the species.
+## Compiled adult-mass values {#s-38400d055f}
+The August 2015 compilation reports adult body mass 3195 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-58ab972244}
-The compilation reports 3287.25 d to female maturity (defined by the source as age at first conception), 1 offspring or egg per litter/clutch, 65 d from oviposition to hatching, and 140 d to flight capability (some sources describe leaving the nest); d means days. The litter/clutch field combines offspring and egg counts. The timing values refer to distinct events, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-58ab972244}
+The August 2015 compilation reports female age at first conception (source definition) 3287.25 days; median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 65 days; age at flight capability (some records mark nest departure) 140 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-d96b254d5a}
-The archive's maximum_longevity_y field is 40.7 years, the largest record found under the source method. It is not typical or mean wild lifespan, a survival limit for every individual or a current record that can be repeatedly attained.
+## A maximum record is not typical lifespan {#s-d96b254d5a}
+The compilation lists 40.7 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-6e76a080f2}
-The same-name rows cite Dunning (1992); Szekely, Lislevand, and Figuerola (2007); de Magalhaes and Costa (2009); Bennett (1986); and other works. The archive preserves raw row numbers, values and field-specific labels together with each reference's full explanation. A label can point to a paper, book or another database. Row counts are not measured individuals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-6e76a080f2}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-4abd7a1c0e}
-EltonTraits 1.0 also contains an older *Phoebastria nigripes* record in Diomedeidae. The two selected ecological groups allow comparison with the COL26.8 entry while retaining the source's earlier bird or MSW3 mammal taxonomy. A matching name does not settle later splits or synonym disputes.
+## Scope of the historical trait entry {#s-4abd7a1c0e}
+EltonTraits 1.0 has a same-name, same-family record for Phoebastria nigripes covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-03333cdcc8}
-The nonzero food weights are fish 70%, invertebrates 20%, and scavenged food or related discarded material 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply an exclusively nectar-, seed- or plant-based diet.
+## Relative weights across food categories {#s-03333cdcc8}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; fish 70%; carrion or refuse 10%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-151170c853}
-The archive's species-level foraging-stratum weight is 100% on or just below the water surface. It estimates relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-151170c853}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-a9a04505e5}
-The selected groups carry source label Ref_1. Diet, strata and activity can come from different materials; the same Ref number in bird and mammal reference tables does not identify the same source. The archive preserves complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, so source labels do not count as new independent observations.
+## Sources and field limits {#s-a9a04505e5}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## catalogue-profile / limitations {#s-8b17692b70}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separate literature or weighing sources; the morphological sample counts do not apply to mass. Habitat, diet and migration are broad categories, and the map covers historical breeding and resident ranges. Historical crosswalks and a matching catalogue name support this association but do not prove equivalent concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

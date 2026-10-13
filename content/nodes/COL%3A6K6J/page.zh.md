@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-fb94f804f0}
+## 记录分类与直接上级关系 {#s-fb94f804f0}
+COL26.8 将 Pelagodroma 记录为属；其直接上级记录为 Oceanitidae。
+
 Pelagodroma 路线在本批有一条带测量资料的物种记录：Pelagodroma marina。可从该页查看 AVONET v7 数值及其历史名称和样本范围。本路线不代表全部接受后代名录。
 
 ## 记录之间有什么差别 {#s-a8f5bb3c7f}

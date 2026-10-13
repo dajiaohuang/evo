@@ -1,29 +1,29 @@
-## The name and this data account {#s-003030a85f}
-Sporophila nigricollis is accepted in COL26.8 within Thraupidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 113 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-003030a85f}
+The AVONET v7 row for Sporophila nigricollis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 6 mm. The row records 113 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-5e60e0719f}
-Recorded mean beak measurements are 6 mm from the anterior nostril edge to the tip, 5 mm in width and 6.5 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-5e60e0719f}
+AVONET records culmen length (bill tip to skull base) 9.1 mm; beak length (nostril front edge to tip) 6 mm; beak width at the nostril front edge 5 mm; beak depth at the nostril front edge 6.5 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-1b96b11a77}
-Mean unflattened wing length from the carpal joint to the longest primary is 52.4 mm; mean tarsus length is 13.8 mm. Compiled mean mass is 9.6 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-1b96b11a77}
+AVONET records unflattened wing length 52.4 mm; tarsus length 13.8 mm; distance from first secondary tip to longest primary tip 7.9 mm; length to first secondary tip 45.6 mm; hand-wing index 14.7; tail length 43 mm; species-average body mass 9.6 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-94fec019b1}
-The dataset assigns habitat Shrubland, trophic niche Granivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-94fec019b1}
+AVONET classifies Sporophila nigricollis as habitat Shrubland (low, bush-dominated vegetation); trophic niche Granivore (source threshold at least 60% from seeds or nuts); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-c18dd5ba80}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -26.55° to 12.53°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-c18dd5ba80}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -26.55° to 12.53°. The mapped range area is 7194514.7 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-60739c13dc}
-Sporophila nigricollis is accepted in pinned COL26.8 within Thraupidae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-60739c13dc}
+The August 2015 database has a same-name, same-family record for Sporophila nigricollis. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-2e503b7c88}
-Historical summary values are adult body mass 9.6 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-2e503b7c88}
+The August 2015 compilation reports adult body mass 9.6 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-0d1d00c86a}
-Available compilation fields are offspring per litter or eggs per clutch 2.25 offspring/eggs; oviposition to hatching 12 d; age at flight capability (leaving the nest in some source material) 10 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-0d1d00c86a}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.25; oviposition-to-hatching interval 12 days; age at flight capability (some records mark nest departure) 10 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-6de5c3a9da}
-Same-name sparse rows carry source labels including Dunning, 1992; Bennett, 1986; Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004; Jetz, Sekercioglu, and Bohning-Gaese, 2008. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-6de5c3a9da}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-16bd6972a1}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

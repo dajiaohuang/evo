@@ -1,5 +1,5 @@
-## Locate names using source spellings {#s-2be3dce310}
-Pinned COL26.8 organizes this page at Turdoides melanops (59PK9). BirdLife 2020 row 4946 and eBird 2021 row 10768 share the name and Avibase ID AVIBASE-3D55152D, with type 1BL to 1eBird. BirdTree row 10699 gives Turdoides melanops, with type 1BL to 1BT. The table and catalogue accepted name match exactly without establishing identical species boundaries across dates. Source family Leiotrichidae and catalogue ancestor Leiothrichidae retain their original spellings.
+## A name fixed to COL26.8 {#s-2be3dce310}
+Catalogue of Life release COL26.8 records Turdoides melanops (Hartlaub, 1867) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-39515a9f52}
 Morphology comprises 6 birds: 1 female, 2 male and 3 unsexed; 4 complete sets. Nostril-to-tip beak length 16.2 mm, tarsus 34.2 mm, unflattened wing 110.2 mm, tail 115.7 mm and hand-wing index 9.8 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

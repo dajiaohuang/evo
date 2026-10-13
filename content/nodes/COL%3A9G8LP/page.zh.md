@@ -1,5 +1,5 @@
-## 沿旧属名区分种与亚种目标 {#s-4188a4cca5}
-本页按 COL26.8 的 Sporophila crassirostris（9G8LP）组织。BirdLife 2020 第 8207 行与 eBird 2021 第 9841 行同名，Avibase ID 为 AVIBASE-2824A1D9，类型 1BL to 1eBird；BirdTree 第 9782 行记 Oryzoborus crassirostris，类型 1BL to 1BT。本次逐字目录异名 6SZGL 指向本页接受种。名称关系提供定位，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-4188a4cca5}
+《Catalogue of Life》COL26.8（2026-08-20）将 Sporophila crassirostris (J. F. Gmelin, 1789) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-e5572b4f3e}
 形态共 13 只鸟：雌 6、雄 5、性别未定 2；完整测量 3 只。鼻孔前缘至喙尖 10.2 mm、跗蹠 18.6 mm、未压平翼长 66.9 mm、尾长 59.6 mm、手翼指数 16.2 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或特定食物的处理能力。

@@ -1,44 +1,44 @@
-## The name and this data account {#s-eb65f977d7}
-Rhynchopsitta pachyrhyncha is accepted in COL26.8 within Psittacidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-eb65f977d7}
+The AVONET v7 row for Rhynchopsitta pachyrhyncha (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 38.5 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-7886485f44}
-Recorded mean beak measurements are 38.5 mm from the anterior nostril edge to the tip, 19.8 mm in width and 42.9 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-7886485f44}
+AVONET records culmen length (bill tip to skull base) 43.4 mm; beak length (nostril front edge to tip) 38.5 mm; beak width at the nostril front edge 19.8 mm; beak depth at the nostril front edge 42.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-5bcf11ed87}
-Mean unflattened wing length from the carpal joint to the longest primary is 269.6 mm; mean tarsus length is 19.7 mm. Compiled mean mass is 324.77 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-5bcf11ed87}
+AVONET records unflattened wing length 269.6 mm; tarsus length 19.7 mm; distance from first secondary tip to longest primary tip 128.5 mm; length to first secondary tip 143 mm; hand-wing index 47.3; tail length 178.9 mm; species-average body mass 324.77 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-1b9d66439d}
-The dataset assigns habitat Forest, trophic niche Granivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-1b9d66439d}
+AVONET classifies Rhynchopsitta pachyrhyncha as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Granivore (source threshold at least 60% from seeds or nuts); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-393d1e09d5}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 23.15° to 30.56°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-393d1e09d5}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 23.15° to 30.56°. The mapped range area is 596.01 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-20fd40b6b6}
-Rhynchopsitta pachyrhyncha is accepted in pinned COL26.8 within Psittacidae. This page compares the same-name historical life-history entry using 5 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-20fd40b6b6}
+The August 2015 database has a same-name, same-family record for Rhynchopsitta pachyrhyncha. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-84a50f3f6c}
-Historical summary values are adult body mass 337 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-84a50f3f6c}
+The August 2015 compilation reports adult body mass 337 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-452ec1ddd2}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 730 d; offspring per litter or eggs per clutch 2.93 offspring/eggs; oviposition to hatching 26 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-452ec1ddd2}
+The August 2015 compilation reports female age at first conception (source definition) 730 days; median or interpolated-median number of offspring or eggs per litter/clutch 2.925; oviposition-to-hatching interval 26 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-09455fafff}
-The archive’s maximum_longevity_y value is 33 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-09455fafff}
+The compilation lists 33 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-ed7bd1efb7}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Schuck-Paima, C., Alonsob, W.J., and E.B. Ottonia, 2008, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-ed7bd1efb7}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-688bb3ab36}
-Rhynchopsitta pachyrhyncha is accepted in pinned COL26.8 within Psittacidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-688bb3ab36}
+EltonTraits 1.0 has a same-name, same-family record for Rhynchopsitta pachyrhyncha covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-59ec38306b}
-The archive’s nonzero food weights are seeds, nuts and spores included in this category 80%; fruit 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-59ec38306b}
+EltonTraits 1.0 assigns relative diet weights of fruit 20%; seeds or nuts 80%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-a6eca6cb44}
-Foraging-stratum weights flagged as species-level in the archive are trees or high bushes from 2 m upward but below the canopy 50%; understory, edges or shrubs below 2 m 30%; in or just above the canopy 20%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-a6eca6cb44}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 30%; in mid-height or high vegetation 50%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-4ef4a724b3}
-The used groups carry labels Ref_4. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-4ef4a724b3}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-5c83373a28}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

@@ -1,4 +1,6 @@
-## 固定目录中的后代范围 {#s-caa73692ed}
+## 记录分类与直接上级关系 {#s-caa73692ed}
+COL26.8 将 Eretmochelys 记录为属；其直接上级记录为 Cheloniidae。
+
 固定版 COL26.8 将 Eretmochelys 列于 Cheloniidae 科、Chelonioidea 总科之下。严格接受后代只有 Eretmochelys imbricata（Linnaeus, 1766）这一种，该种在此版本中没有更低阶后代。1/1 只描述本次目录快照，不代表全部历史组合或化石类群。
 
 ## 从标本进入研究 {#s-8db3eaaa5f}
@@ -13,7 +15,7 @@ Eretmochelys 的本批路线包含 1 条历史生活史导读，可从 Eretmoche
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
-## 从有性状记录的物种开始 {#s-ef28aa1351}
+## 记录分类与成员材料 {#s-ef28aa1351}
 Eretmochelys 的本批 ReptTraits 阅读路径包含 1 条同名同科、有逐性状出处的物种资料，可从 Eretmochelys imbricata 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-b284015a99}

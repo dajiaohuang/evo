@@ -1,11 +1,13 @@
-## 固定属名下的有限导读 {#s-7e0c0c1cb8}
+## 记录分类与直接上级关系 {#s-7e0c0c1cb8}
+COL26.8 将 Glaucomastix 记录为属；其直接上级记录为 Teiidae。
+
 COL26.8 将 Glaucomastix 作为 Teiidae 中的一个属。本批链接三条较完整的 ReptTraits 记录：Glaucomastix abaetensis、G. littoralis 和 G. venetacauda。这是本批已撰写的页面，不是该属全部接受种的数量；资料仍保留工作簿的 2023 年名称框架。
 
 ## 两个物种的两条长度记录 {#s-538599e26b}
 所引最大吻肛长记录为：Glaucomastix abaetensis 72 毫米，G. venetacauda 87 毫米。吻肛长从吻端量到身体开口，不包括尾巴。这是两个不同物种的已报最大值，不是同一物种内的体长范围，也不是全属的最小与最大体长。
 
 ## 另有两条性状范围较窄的记录 {#s-4bb7ea879e}
-本批还有 [Glaucomastix cyanura](Glaucomastix_cyanura/page.zh.md) 和 [G. itabaianensis](Glaucomastix_itabaianensis/page.zh.md) 两个页面，各自保留较有限且有来源的性状。它们说明本批有哪些记录，却不表示资料完整，也不能据此推断该属接受后代的总数。
+本批还有 Glaucomastix cyanura 和 G. itabaianensis 两个页面，各自保留较有限且有来源的性状。它们说明本批有哪些记录，却不表示资料完整，也不能据此推断该属接受后代的总数。
 
 ## 只比较两页都支持的字段 {#s-df9d1246b5}
 每个物种页面保留各自的来源与性状范围。比较时先确认双方确实记录了同一字段，且定义一致；食性、活动或繁殖的缺项不会从近缘种补来。吻肛长也应与龟类背甲测量分开。
@@ -13,6 +15,6 @@ COL26.8 将 Glaucomastix 作为 Teiidae 中的一个属。本批链接三条较�
 ## 本导读能够说明什么 {#s-e87efe749a}
 本页按固定 COL26.8 分类路径串联五条与 Glaucomastix 相关的已撰写记录，不是完整后代名录，也不是该属多样性的全面描述。两个长度值只概括所引物种记录，不能界定属级体长范围或鉴定阈值。
 
-## Evidence limits {#s-a9fb517362}
+## 记录的适用范围 {#s-a9fb517362}
 本页依固定 COL26.8 属级分类位置导读；关联的 ReptTraits 记录仍保留工作簿中的 Reptile Database 2023 名称框架。五条已撰写记录仅代表本批覆盖范围，不是全部接受后代。同名同科不能证明历史与当前分类概念完全相同。体长值是汇编记录，不代表典型值或生长上限；比较性状时须逐页核对来源、定义和样本范围。
 

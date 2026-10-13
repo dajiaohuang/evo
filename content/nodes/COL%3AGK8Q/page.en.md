@@ -1,15 +1,15 @@
-## Name and this data account {#s-8f30e26193}
-COL26.8 lists Argyrophis fuscus in Typhlopidae. Its ReptTraits v1–2 row uses the Reptile Database 2023 name framework and preserves field sources; it is a compiled summary, not a population-wide description.
+## COL26.8 name and the ReptTraits row {#s-8f30e26193}
+COL26.8 records Argyrophis fuscus as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-6b15398bfb}
-The recorded maximum total length (TL) is 214 mm. TL includes the tail, whereas snout–vent length (SVL) ends at the vent. This maximum is not typical size or an absolute limit.
+## Length values in the archived records {#s-6b15398bfb}
+The row reports maximum total length (TL) of 214 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-e01ab9f55c}
-The row records Fossorial microhabitat, Carnivorous diet, Nocturnal activity, and ACT foraging mode. Fossorial indicates an underground or burrowing association; Carnivorous does not identify prey. The categories do not describe the full habitat or schedule.
+## Habitat use and activity labels {#s-e01ab9f55c}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## How to read reproductive records {#s-c385a63073}
-The recorded reproductive mode is oviparous (egg-laying). The label supplies no clutch size or evidence that populations are uniform.
+## Reproductive fields in ReptTraits {#s-c385a63073}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-a1bcbc5f8d}
-This page summarizes selected fields from a ReptTraits v1–2 row under the Reptile Database 2023 name framework; it is not a complete species account. A row may combine records from different sexes, ages, places, or populations, and a shared name does not establish identical later taxonomic concepts. A reported maximum is a compiled measurement, not an absolute size limit. Reproductive labels do not give clutch size; workbook averages summarize source records rather than every clutch. Estimated mass and differing juvenile-length definitions are not used here as direct observations. Conservation, venom, current distribution, and population trends are not updated. Citation labels preserve the workbook's source chain but do not mean every original study was independently reviewed here.
+## Reading this compiled trait record {#s-a1bcbc5f8d}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

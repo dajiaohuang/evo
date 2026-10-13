@@ -1,5 +1,5 @@
-## 沿旧 Turdoides 组合查历史行 {#s-790e41101f}
-本页按 COL26.8 的 Argya aylmeri（LVWCD）组织。BirdLife 2020 第 4820 行与 eBird 2021 第 950 行同名，Avibase ID 为 AVIBASE-987C8F6E，类型 1BL to 1eBird；BirdTree 第 952 行记 Turdoides aylmeri，类型 1BL to 1BT。本次读到目录异名 59PJL，指向本页接受 ID。来源科名 Leiotrichidae、目录科名 Leiothrichidae 分别保留。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-790e41101f}
+《Catalogue of Life》COL26.8（2026-08-20）将 Argya aylmeri Shelley, 1885 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-e5b914b59a}
 形态共 5 只鸟：雌 2、雄 3、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 12.5 mm、跗蹠 23.9 mm、未压平翼长 73.4 mm、尾长 114.6 mm、手翼指数 6.6 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

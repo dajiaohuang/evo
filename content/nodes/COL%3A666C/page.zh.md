@@ -1,4 +1,6 @@
-## 本批的物种页 {#s-d615fd6ca2}
+## 记录分类与直接上级关系 {#s-d615fd6ca2}
+COL26.8 将 Nystalus 记录为属；其直接上级记录为 Bucconidae。
+
 Nystalus 路径在本批含 3 条有测量来源的物种记录：Nystalus chacuru、Nystalus maculatus 和 Nystalus radiatus。目录层级依固定 COL26.8 组织，测量则保留 AVONET v7 名称和采样范围。
 
 ## 用于对比的例子 {#s-f73e721002}

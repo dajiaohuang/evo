@@ -1,4 +1,6 @@
-## 从 3 条测量物种页开始 {#s-68eff03028}
+## 记录分类与直接上级关系 {#s-68eff03028}
+COL26.8 将 Phaethon 记录为属；其直接上级记录为 Phaethontidae。
+
 Phaethon 本路线有 3 条测量物种记录：Phaethon aethereus、Phaethon lepturus 和 Phaethon rubricauda。目录沿用固定 COL26.8 层级；生物学资料保留 AVONET v7 名称与取样范围。
 
 ## 比较汇编均值与类别 {#s-734d244dcc}

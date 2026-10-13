@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-767e97d3b8}
+## 记录分类与直接上级关系 {#s-767e97d3b8}
+COL26.8 将 Mimetillus 记录为属；其直接上级记录为 Vespertilionini。
+
 Mimetillus 的 PanTHERIA 路径有 1 条可用历史记录：Mimetillus moloneyi。对应物种页保留来源采用的 MSW05 名称、各变量的材料条件和缺失值。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
 
 ## 比较体型与生活史 {#s-c139aa3d67}

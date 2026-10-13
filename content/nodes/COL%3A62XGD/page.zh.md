@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-fadf02a074}
+## 记录分类与直接上级关系 {#s-fadf02a074}
+COL26.8 将 Latastia 记录为属；其直接上级记录为 Lacertidae。
+
 Latastia 的本批 ReptTraits 阅读路径包含 3 条同名同科、有逐性状出处的物种资料，可从 Latastia doriai、Latastia johnstonii、Latastia longicaudata 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-dc979ad591}
@@ -7,8 +9,8 @@ Latastia 的本批 ReptTraits 阅读路径包含 3 条同名同科、有逐性�
 ## 证据边界 {#s-a43710923c}
 本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
 
-## 从有性状记录的物种开始 {#s-54a75f5869}
-Latastia 的本批 ReptTraits 阅读路径包含 7 条同名同科、有逐性状出处的物种资料，可从 [Latastia boscai](Latastia_boscai/page.zh.md)、[Latastia caeruleopunctata](Latastia_caeruleopunctata/page.zh.md)、[Latastia cherchii](Latastia_cherchii/page.zh.md)、[Latastia ornata](Latastia_ornata/page.zh.md)、[Latastia petersiana](Latastia_petersiana/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-54a75f5869}
+Latastia 的本批 ReptTraits 阅读路径包含 7 条同名同科、有逐性状出处的物种资料，可从 Latastia boscai、Latastia caeruleopunctata、Latastia cherchii、Latastia ornata、Latastia petersiana 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-d7a10b2096}
 本批已有尺寸记录中，Latastia taylori 的已报道最大吻肛长（SVL）为 43 mm，Latastia petersiana 为 95 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

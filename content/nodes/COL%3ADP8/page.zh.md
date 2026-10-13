@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-ce07c3a1cf}
+## 记录分类与直接上级关系 {#s-ce07c3a1cf}
+COL26.8 将 Opluridae 记录为科；其直接上级记录为 Iguania。
+
 Opluridae 的本批 ReptTraits 阅读路径包含 8 条同名同科、有逐性状出处的物种资料，可从 Chalarodon madagascariensis、Chalarodon steinkampi、Oplurus cuvieri、Oplurus cyclurus、Oplurus fierinensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-2561b72a7a}

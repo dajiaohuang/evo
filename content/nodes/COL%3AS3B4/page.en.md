@@ -1,14 +1,14 @@
-## Read this historical record through food and foraging position {#s-b8ec86b9ec}
-Celeus undatus is accepted in pinned COL26.8 within Picidae. EltonTraits 1.0 links a same-name record in the same family and supplies food and foraging-stratum fields for comparison. Its taxonomy follows an earlier bird classification; a name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-b8ec86b9ec}
+EltonTraits 1.0 has a same-name, same-family record for Celeus undatus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-fded61089c}
-The nonzero food weights are invertebrates 80% and seeds, nuts and spores 20%; the latter three are grouped within one source category. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-fded61089c}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; seeds or nuts 20%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-7be7775898}
-The species-level foraging-stratum weights are 80% in or just above the canopy and 20% in trees or high bushes from 2 m upward but below the canopy. They estimate relative use of feeding positions, not nest sites, all habitat or a whole-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-7be7775898}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 20%; in the canopy 80%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-e78260e96a}
-Both reported groups carry the source label Ref_7. Diet, strata and activity can draw on different material, and the same Ref number in bird and mammal reference tables does not identify the same source. The original source strings identify their file, row, field group and reference table. The underlying books and papers have not been individually read, so these labels are not additional independent observations.
+## Sources and field limits {#s-e78260e96a}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-b73325b20f}
 The EltonTraits 1.0 entry is a historical ecological summary, not a complete species account. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized from literature descriptions, not direct measures of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty; mammalian ABC fields can also draw on a congener considered ecologically similar by the compilers. The food and stratum fields therefore need not be direct observations of this species. Underlying books and papers have not been individually read. Individual, seasonal and local variation, current range, population and conservation still require other sources.

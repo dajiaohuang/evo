@@ -1,5 +1,5 @@
-## Separate species and subspecies targets through older genera {#s-7799e18f07}
-Pinned COL26.8 organizes this page at Sporophila maximiliani (9G8BJ). BirdLife 2020 row 8219 and eBird 2021 row 9853 share the name and Avibase ID AVIBASE-A5767214, with type 1BL to 1eBird; BirdTree row 9794 gives Oryzoborus maximiliani, with type 1BL to 1BT. Exact catalogue synonym 6SZGM points to this accepted species. Name relationships locate records without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-7799e18f07}
+Catalogue of Life release COL26.8 records Sporophila maximiliani (Cabanis, 1851) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-432959c664}
 Morphology comprises 4 birds: 1 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 12.9 mm, tarsus 17.7 mm, unflattened wing 74.8 mm, tail 67 mm and hand-wing index 14.8 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular foods.

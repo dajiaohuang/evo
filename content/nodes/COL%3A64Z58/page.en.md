@@ -1,5 +1,5 @@
-## Find rows through older Collocalia combinations {#s-ed67f989a6}
-Pinned COL26.8 organizes this page at Aerodramus unicolor (64Z58). BirdLife 2020 row 524 and eBird 2021 row 214 share the name and Avibase ID AVIBASE-F14B0031, with type 1BL to 1eBird; BirdTree row 218 gives Collocalia unicolor, with type 1BL to 1BT. Read catalogue synonym 8KQHP points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates. Historical Order1=Caprimulgiformes remains distinct from Apodiformes in this COL path.
+## A name fixed to COL26.8 {#s-ed67f989a6}
+Catalogue of Life release COL26.8 records Aerodramus unicolor (Jerdon, 1840) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-da418f239b}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 2.3 mm, tarsus 9.9 mm, unflattened wing 113.4 mm, tail 52.2 mm and hand-wing index 68 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

@@ -1,15 +1,15 @@
-## A terrestrial daytime profile with reported maxima {#s-8857482f1f}
-The pinned COL26.8 catalogue accepts Aspidoscelis parvisocius in Teiidae. ReptTraits links maximum lengths with a terrestrial, carnivorous, diurnal and actively foraging profile, plus an egg-laying mode. These categories come from trait-specific citations and are not a complete account of behavior.
+## COL26.8 name and the ReptTraits row {#s-8857482f1f}
+COL26.8 records Aspidoscelis parvisocius as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## 79 mm maximum, measured without the tail {#s-2fc929102f}
-The row gives a maximum snout–vent length of 79 mm and a female maximum of 58.9 mm. This measure ends at the body opening, excluding the tail. They are compiled maxima rather than usual sizes; their difference alone cannot establish sexual dimorphism in a population.
+## Length values in the archived records {#s-2fc929102f}
+The row reports a maximum SVL of 79 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 58.9 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Searching for food on land by day {#s-44b35c4b07}
-The source categorizes the microhabitat as terrestrial, activity as diurnal, diet as carnivorous and foraging as active. The combination describes broad tendencies in the compiled record, not prey identity, a particular place or an exact timetable.
+## Habitat use and activity labels {#s-44b35c4b07}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Meiri 2018.
 
-## A 1.78 clutch summary with reported means from 1 to 4 {#s-77f7e6d2af}
-Reproduction is labelled oviparous. The consolidated clutch/litter field is 1.78, and the cited mean values range from 1 to 4. The decimal reflects aggregation; the endpoints are reported means rather than guaranteed smallest and largest clutches.
+## Reproductive fields in ReptTraits {#s-77f7e6d2af}
+The compiled mean for offspring per litter or eggs per clutch is 1.775. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 4; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The row is not a population census {#s-de77111709}
-The trait workbook retains its 2023 name framework; COL26.8 provides this page’s pinned placement. Matching names alone do not prove taxonomic equivalence. A single row compresses sex, age, place and population differences, and this account does not update current range or conservation.
+## Reading this compiled trait record {#s-de77111709}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

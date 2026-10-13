@@ -1,11 +1,11 @@
-## 沿旧 Zoothera 名称查历史资料 {#s-bead849555}
-本页按 COL26.8 的 Geokichla mendeni（3FPZJ）组织。AVONET v7 BirdLife 2020 第 8558 行与 eBird 2021 第 4319 行同名，Avibase ID 为 AVIBASE-55A20FBF；BirdTree 第 4300 行记作 Zoothera mendeni，匹配类型为 1BL to 1BT。已读 COL 旧组合 5D7P5 指向本页接受 ID。这些来源关联用于查资料，不证明所有时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-bead849555}
+《Catalogue of Life》COL26.8（2026-08-20）将 Geokichla mendeni (Neumann, 1939) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量鸟数与喙翼数值 {#s-355033fdf3}
 形态共测 1 只：雌 0、雄 1、性别未定 0；1 只具完整测量。鼻孔前缘至喙尖 13.9 mm、跗蹠 27.9 mm、未压平翼长 111 mm、手翼指数 28.3 是该历史行的汇总数值。这里只有一只鸟，不能用它建立群体变异、雌雄差异或个体范围。手翼指数定义为 Kipp 距离／翼长 ×100，不是飞行速度、迁移距离或本种全域的能力测验。
 
 ## 体重来源不是形态鸟数 {#s-e600a096bc}
-体重 56.32 g 的 Mass.Source 为 Dunning，即原汇编文献的物种平均值，不把这 1 只形态鸟作为独立称重分母。未读原书或个体称重表，不能补雌雄、季节、地点的最小—最大值。本行与 [Geokichla erythronota](../Geokichla_erythronota/page.zh.md) 的汇编体重相同；相同数字的来源原因未核原书，不据此宣布两者个体体重分布相同。
+体重 56.32 g 的 Mass.Source 为 Dunning，即原汇编文献的物种平均值，不把这 1 只形态鸟作为独立称重分母。未读原书或个体称重表，不能补雌雄、季节、地点的最小—最大值。本行与 Geokichla erythronota 的汇编体重相同；相同数字的来源原因未核原书，不据此宣布两者个体体重分布相同。
 
 ## 食性类别与取食观察分开 {#s-0d175e9b4b}
 本行 Trophic.Niche=Invertivore，Trophic.Level=Carnivore。Invertivore 指以陆生无脊椎动物资源为主；它与另一列 Carnivore／Omnivore 的营养级定义不同，不互相覆盖。这些是汇编类别；定义阈值不是本地某季实测食物百分比。没有猎物种类、逐次取食、消化或食物可用性记录，不能补具体虫类清单或季节比例。

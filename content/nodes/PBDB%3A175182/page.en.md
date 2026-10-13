@@ -7,8 +7,8 @@ Start with Wareolestes rex, Megazostrodon rudnerae, Dinnetherium nezorum, Paceyo
 ## Evidence limits {#s-981d82c3e8}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## A 26 mm skull with a jaw-joint mosaic {#s-221219e596}
-The Lower Jurassic skull study compares Morganucodon watsoni from Wales with M. oehleri from China. In the described anatomy, contact between the squamosal and dentary bones coexists with a retained articular–quadrate jaw joint. This mosaic is not a linear sequence or evidence that one species directly gave rise to another.
+## Contact between jaw bones beside an older joint {#s-221219e596}
+In the Lower Jurassic skull comparison, Morganucodon watsoni from Wales and M. oehleri from China share a described mosaic: the squamosal contacts the dentary while the articular–quadrate joint remains. The 26 mm measurement belongs to the M. watsoni skull, not to body size across the order.
 
 ## atlas-profile / ecology / diet {#s-bbb442fd62}
 The skulls preserve distinct incisors, canines, premolars, and molars. That dental differentiation is anatomical evidence, but the study does not directly observe diet.
@@ -34,6 +34,6 @@ The teeth are differentiated into incisors, canines, premolars, and molars.
 ## atlas-profile / traits {#s-a1cb2cccd6}
 The described jaw shows squamosal–dentary contact while retaining the articular–quadrate joint.
 
-## Two Morganucodon samples in a mammaliaform analysis {#s-ebac6eaf7a}
-Kermack and colleagues document the two named Morganucodon skull samples and their anatomy. Luo and colleagues' character analysis samples Morganucodontans among mammaliaforms. These sources support bounded anatomical and taxonomic comparisons, not a complete order-wide distribution or direct-ancestor claim.
+## Named skulls and a sampled mammaliaform analysis {#s-ebac6eaf7a}
+Kermack and colleagues describe the two Morganucodon skulls and their jaw anatomy. Luo and colleagues include Morganucodontans in a mammaliaform character analysis. The skull observations and the matrix placement answer different questions; neither establishes a complete order history or a direct ancestor.
 

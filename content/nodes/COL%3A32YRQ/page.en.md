@@ -1,15 +1,15 @@
-## Name and this data account {#s-64c1189cb6}
-COL26.8 accepts Cyclotyphlops deharvengi in Typhlopidae. Its ReptTraits v1–2 record follows the Reptile Database 2023 name framework and cites individual fields; the row is a compiled summary.
+## COL26.8 name and the ReptTraits row {#s-64c1189cb6}
+COL26.8 records Cyclotyphlops deharvengi as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-135acbb04f}
-The maximum total length (TL) is recorded as 150 mm. TL includes the tail, unlike snout–vent length (SVL), which ends at the vent. This is a reported maximum, not typical size or an absolute limit.
+## Length values in the archived records {#s-135acbb04f}
+The row reports maximum total length (TL) of 150 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-0a4ccc0a58}
-The microhabitat category is Fossorial, indicating an underground or burrowing association. It does not describe the full habitat.
+## Habitat use and activity labels {#s-0a4ccc0a58}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## How to read reproductive records {#s-067625e31c}
-The record classifies reproduction as oviparous and reports a mean of 5.5 offspring or eggs per litter or clutch. This summary may be based on the midpoint of reported means, or on reported extremes when means are absent; it is not necessarily an average of observed clutches. The lowest and highest fields refer to reported means, not guaranteed clutch limits.
+## Reproductive fields in ReptTraits {#s-067625e31c}
+The compiled mean for offspring per litter or eggs per clutch is 5.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-afd412acd3}
-This page summarizes selected fields from a ReptTraits v1–2 row under the Reptile Database 2023 name framework; it is not a complete species account. A row may combine records from different sexes, ages, places, or populations, and a shared name does not establish identical later taxonomic concepts. A reported maximum is a compiled measurement, not an absolute size limit. Reproductive labels do not give clutch size; workbook averages summarize source records rather than every clutch. Estimated mass and differing juvenile-length definitions are not used here as direct observations. Conservation, venom, current distribution, and population trends are not updated. Citation labels preserve the workbook's source chain but do not mean every original study was independently reviewed here.
+## Reading this compiled trait record {#s-afd412acd3}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

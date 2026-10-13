@@ -34,18 +34,70 @@ The type’s changing jaw interpretation helps make sense of the other jaw fragm
 ## Three selected records, three collections {#s-2d89a9e2ac}
 The fixed Paleobiology Database (PBDB) pterosaur roster accepts Alanqa saharica beneath the database parent Alanqa. This guide draws on three eligible species-level occurrences from three collections, linked to one database reference identifier. Occurrences, collections and citations are different units; they do not count fossils or individual animals.
 
+PBDB occurrence record excerpt:
+Alanqa saharica is listed in the PBDB snapshot under taxon txn:167135. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## Three localities in Drâa-Tafilalet {#s-1687118070}
 The three collections are Hamada du Guir pterosaurs (BSPG), Boumerade, Lake Maider and Aferdou N'Chaft, all recorded in Drâa-Tafilalet, Morocco (region code MA). Each has the database age bracket 100.5–93.9 Ma and an Early Cenomanian older bound. Their database names and locations identify selected records, not the species’ complete range.
+
+PBDB occurrence record excerpt:
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:819572; PBDB collection col:90076. Locality cnm=Hamada du Guir pterosaurs (BSPG); place fields cc2=MA, stp=Drâa-Tafilalet, cny=Errachidia. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian. Recorded attribution Ibrahim et al. 2010; PBDB reference ref:32662.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Based on the nearby town Taouz. Specimens were collected privately so locality information is unavailable. Ibrahim et al. (2010) suggest that this material might be collected from their Aferdou N'Chaft locality.
+
+- Occurrence occ:867574; PBDB collection col:96222. Locality cnm=Boumerade, Lake Maider; place fields cc2=MA, stp=Drâa-Tafilalet, cny=Errachidia. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian. Recorded attribution Ibrahim et al. 2010; PBDB reference ref:32662.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Fossils were collected from an "approximately 2m thick horizon"; age of the Kem Kem is poorly constrained, but a Cenomanian age is supported by vertebrate biostratigraphy
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Boumerade locality is near Lake Maider; longitude coordinates are given in the text as east, but this appears to be an error
+
+- Occurrence occ:867575; PBDB collection col:96223. Locality cnm=Aferdou N'Chaft; place fields cc2=MA, stp=Drâa-Tafilalet, cny=Errachidia. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian. Recorded attribution Ibrahim et al. 2010; PBDB reference ref:32662.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Fossils were collected from an "approximately 2m thick horizon"; age of the Kem Kem is poorly constrained, but a Cenomanian age is supported by vertebrate biostratigraphy
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near the village of Begaa and 10 km north-east of Taouz; longitude coordinates are given in the text as east, but this appears to be an error
 
 ## The outer age bracket of the selected records {#s-c2f6f9d2c9}
 Across the selected records, the outer database bracket is 100.5–93.9 Ma (Ma means million years ago). It combines their older and younger bounds; it does not imply a continuous record through that interval or directly date the species’ origin, extinction or lifespan. Each collection retains its own age bracket.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=100.5 Ma in occ:819572; the smallest recorded lag=93.9 Ma in occ:819572. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## Collection labels do not describe a way of life {#s-5b3d5c72ca}
 All three collections carry the database environment label “fluvial indet.” and preservation-mode label “body.” These fields classify collection settings and assemblages. They do not establish how Alanqa lived or what it ate, and a collection-level preservation label need not describe each fossil individually.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:819572: PBDB taxon-name field tna=Alanqa saharica; material note ocm=BSP 1996 I 36, lower jaw fragment; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-3.983333, lat=30.900000; paleocoordinate/model fields pm1=gplates, pln=7.44, pla=25.28.
+- occ:867574: PBDB taxon-name field tna=Alanqa saharica; material note ocm=FSAC-KK 31, partial mandibular symphysis; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-4.715278, lat=30.546944; paleocoordinate/model fields pm1=gplates, pln=6.65, pla=25.22.
+- occ:867575: PBDB original-identification field idn=Alanqa saharica n. gen. n. sp.; PBDB taxon-name field tna=Alanqa saharica; material note ocm=FSAC-KK 26 (holotype), mandibular symphysis. FSAC-KK 27, partial rostrum; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-3.870278, lat=30.897499; paleocoordinate/model fields pm1=gplates, pln=7.54, pla=25.24.
 
 ## Citations for the records and anatomical interpretations {#s-995b10645e}
 All three database collection records cite Ibrahim et al. (2010), reference 32662. The anatomical discussions also draw on the 2010 species description, the 2020 rostrum reinterpretation and the 2023 review of jaw referrals; each addresses a different interpretation of the fossils.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:819572: Recorded attribution Ibrahim et al. 2010; PBDB reference ref:32662.
+- occ:867574: Recorded attribution Ibrahim et al. 2010; PBDB reference ref:32662.
+- occ:867575: Recorded attribution Ibrahim et al. 2010; PBDB reference ref:32662.
+
 ## Evidence limits {#s-e717f658a1}
 The account summarizes selected sections from studies published in 2010, 2020 and 2023, not a complete monograph or inspection of every specimen, image, supplement or later analysis. Those sources disagree about whether the type is an upper or lower jaw, how one earlier phylogenetic analysis treated it, and the reported horizon of the Xericeps type. The 2023 jaw interpretation is tentative, and the possible relationship or synonymy with Xericeps remains unresolved. Database records organize selected occurrences but do not settle these anatomical or taxonomic questions.
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

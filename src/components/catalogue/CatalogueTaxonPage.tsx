@@ -329,7 +329,7 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
           <p className="catalogue-provisional-note">{zh ? '此高阶分类单元由上游标记为暂定接受；它用于连接接受种层级，但不计入 2,183,133 个接受种基线。' : 'The upstream release marks this higher taxon as provisionally accepted. It connects the accepted-species hierarchy but is not counted in the 2,183,133 accepted-species baseline.'}</p>
         )}
         {nodeIntroduction && <p className="catalogue-provisional-note">{zh ? nodeIntroduction.zh : nodeIntroduction.en}</p>}
-        <CatalogueContent key={`${manifest.releaseAlias}:${node.id}`} id={node.id} rank={node.rank} manifest={manifest} zh={zh} />
+        <CatalogueContent key={`${manifest.releaseAlias}:${node.id}`} id={node.id} rank={node.rank} manifest={manifest} zh={zh} onNavigate={onNavigate} />
       </header>
 
       <section className="catalogue-taxon-grid">

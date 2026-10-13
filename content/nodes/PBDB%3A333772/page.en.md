@@ -1,19 +1,36 @@
 ## Which fossil records this name represents {#s-e2679fb86a}
 Carodnia inexpectans is accepted in the fixed PBDB mammalia working roster, with database parent Carodnia. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-079b6f77fd}
-Collection Quebrada Cabeza de Vaca (Tumbes), region code PE, stratum name Mogollón; database age bracket 56–48.07 Ma, early interval Early Eocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Carodnia inexpectans is listed in the PBDB snapshot under taxon txn:333772. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-a9e18ec0eb}
-Selected occurrences have an outer age envelope of 56–48.07 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Quebrada Cabeza de Vaca, occurrence occ:1308856 (56–48.07 Ma); one supplying the younger bound is Quebrada Cabeza de Vaca, occurrence occ:1308856 (56–48.07 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-079b6f77fd}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-440ba162a7}
-Quebrada Cabeza de Vaca has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1308856; PBDB collection col:175594. Locality cnm=Quebrada Cabeza de Vaca; place fields cc2=PE, stp=Tumbes. Recorded age bounds: eag 56 Ma; lag 48.07 Ma; PBDB interval fields oei=Early Eocene. Stratigraphic fields sfm=Mogollón. Recorded attribution Antoine et al. 2015; PBDB reference ref:57446.
 
-## Follow collection records back to references {#s-17b4d7c2d3}
-Quebrada Cabeza de Vaca carries database reference attribution Antoine et al. (2015), identifier ref:57446. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Itaboraian or Riochican SALMAs.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Quebrada Cabeza de Vaca, 5 km upstream its junction with the Quebrada Seca (4.107° S;  80.886° W), Talara Basin
+
+## Age bounds on the recorded occurrences {#s-a9e18ec0eb}
+Across these selected PBDB rows, the largest recorded eag=56 Ma in occ:1308856; the smallest recorded lag=48.07 Ma in occ:1308856. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-440ba162a7}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1308856: PBDB original-identification field idn=Carodnia inexpectans n. sp.; PBDB taxon-name field tna=Carodnia inexpectans; material note ocm=MUSM-2025, a fragmentary right dentary with m2 and m3 and the alveoli of m1; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-80.886002, lat=-4.107000; paleocoordinate/model fields pm1=gplates, pln=-64.74, pla=-4.59.
+
+## References attached to each record {#s-17b4d7c2d3}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1308856: Recorded attribution Antoine et al. 2015; PBDB reference ref:57446.
 
 ## Evidence limits {#s-beab981d0a}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

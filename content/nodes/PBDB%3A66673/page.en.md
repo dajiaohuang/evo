@@ -1,18 +1,37 @@
-## Which fossil records this name represents {#s-0f28b406e1}
-Therizinosaurus cheloniformis is accepted in the fixed PBDB dinosaur working roster, with database parent Therizinosaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-0f28b406e1}
+Therizinosaurus cheloniformis is listed in the PBDB snapshot under taxon txn:66673. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-f564bcf093}
-Collection Therizinosaurus type, Nemegt (PROXY) (Omnogov), region code MN, stratum name Nemegt; database age bracket 72.2–66 Ma, early interval Maastrichtian. Collection Khermin Tsav, Upper White Beds (PIN coll. 3142) [SMPE] (Omnogov), region code MN, stratum name Nemegt; database age bracket 72.2–66 Ma, early interval Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-f564bcf093}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-93ac0e96a3}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:809200; PBDB collection col:88554. Locality cnm=Therizinosaurus type, Nemegt (PROXY); place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Maastrichtian. Stratigraphic fields sfm=Nemegt. Recorded attribution Maleev 1954; PBDB reference ref:13917.
 
-## Read preservation setting separately from living habitat {#s-cec522740f}
-Therizinosaurus type, Nemegt (PROXY) has collection-environment label terrestrial indet.; collection preservation-mode label body. Khermin Tsav, Upper White Beds (PIN coll. 3142) [SMPE] has collection-environment label eolian indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Nemegt Valley" - Gradzinski et al. 1977 lists the species as coming from Altan Ula and northern Nemegt
 
-## Follow collection records back to references {#s-3c1376b34d}
-Therizinosaurus type, Nemegt (PROXY) carries database reference attribution Maleev (1954), identifier ref:13917. Khermin Tsav, Upper White Beds (PIN coll. 3142) [SMPE] carries database reference attribution Gradzinski et al. (1977), identifier ref:59136. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1333017; PBDB collection col:179625. Locality cnm=Khermin Tsav, Upper White Beds (PIN coll. 3142) [SMPE]; place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Maastrichtian. Stratigraphic fields sfm=Nemegt. Recorded attribution Gradzinski et al. 1977; PBDB reference ref:59136.
 
-## Evidence limits {#s-6e5d521c9e}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+From the Upper White Beds (Nemegt Formation)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Khermeen Tsav (no discrimination between sites I and II
+
+## Age bounds on the recorded occurrences {#s-93ac0e96a3}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:809200; the smallest recorded lag=66 Ma in occ:809200. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-cec522740f}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:809200: PBDB original-identification field idn=Therizinosaurus cheloniformis n. gen. n. sp.; PBDB taxon-name field tna=Therizinosaurus cheloniformis; material note ocm=PIN 551/483; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=101.275002, lat=43.491669; paleocoordinate/model fields pm1=gplates, pln=94.52, pla=36.55.
+- occ:1333017: PBDB taxon-name field tna=Therizinosaurus cheloniformis; material note ocm=IGM 100/45, hind limb; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=99.833054, lat=43.474724; paleocoordinate/model fields pm1=gplates, pln=93.27, pla=36.25.
+
+## References attached to each record {#s-3c1376b34d}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:809200: Recorded attribution Maleev 1954; PBDB reference ref:13917.
+- occ:1333017: Recorded attribution Gradzinski et al. 1977; PBDB reference ref:59136.
+
+## What these records can show {#s-6e5d521c9e}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

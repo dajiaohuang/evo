@@ -13,7 +13,9 @@ Mourthé 等（2022）补充表 S1 列出六个 Cebus 分类单元：C. albifron
 ## 概览 {#s-2cfeec3eba}
 COL26.8 在 Cebus 属下列出 15 个接受种：C. aequatorialis、C. albifrons、C. brunneus、C. capucinus、C. castaneus、C. cesarae、C. cuscinus、C. imitator、C. kaapori、C. leucocephalus、C. malitiosus、C. olivaceus、C. unicolor、C. versicolor 和 C. yuracus。MDD v2.5 将本批六个北方或秘鲁名称列在 C. albifrons 下，并将 C. brunneus 放在 C. olivaceus 的相关名称中；各页仍按固定 COL 身份展示。阅读顺序先比较三个有局地野外研究的页面：西厄瓜多尔 C. aequatorialis、秘鲁 Los Amigos 的 C. cuscinus、哥伦比亚 Selva de Florencia 的 C. versicolor；随后读 C. cesarae、C. malitiosus、C. leucocephalus 的分类史和证据缺口，以及 C. brunneus 的模式标本问题。再回到 C. albifrons、C. capucinus、C. castaneus、C. imitator、C. kaapori、C. olivaceus、C. unicolor 与 C. yuracus 的既有页面。Mourthé 等（2022）的范围图矩阵只涉及其中六个分类单元，不是本属完整分布研究。
 
-## 按生活史字段选择对读页面 {#s-7e06685a8b}
+## 记录分类与直接上级关系 {#s-7e06685a8b}
+COL26.8 将 Cebus Erxleben, 1777 记录为属；其直接上级记录为 Cebinae Bonaparte, 1831。
+
 Cebus 的本批路线包含 4 条历史生活史导读，可从 Cebus albifrons、Cebus capucinus、Cebus kaapori、Cebus olivaceus 开始。较多条目具有的字段包括 成年体重（4 条）、雌性成熟字段（源定义为首次受孕年龄）（4 条）、每窝幼体数或卵数（4 条）、受孕或受精至出生的时间（4 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-abfd7b940c}
@@ -25,7 +27,7 @@ Cebus 的本批路线包含 4 个历史条目，可从 Cebus capucinus、Cebus k
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 新增 2018 年样本追踪正文据 SciELO 出版主文中实际读过的分子取样、树方法、Cebus 结果与讨论段落、图 4 图说，以及补充表 S1 第 10、12、13 页；第 10、12 页表格布局已看图核对。其余表页未作完整逐行审评，图 4 图像、其他补充材料、GenBank 原始序列与馆藏实物未独立检查，未重跑分析。2012 年原文此次未取得，不声称重新审读。样本旧名称、序列关联、模式诊断和当前 COL 身份仍须分别保留；这些关联没有补齐独立野外生态或完整物种界线，灵长类首轮缺口继续开放。
 
-## 从已有历史条目开始 {#s-32fad50c04}
+## 记录分类与成员材料 {#s-32fad50c04}
 Cebus 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Cebus capucinus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-be84a0d514}
@@ -38,7 +40,7 @@ Cebus 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Cebus ca
 阅读 2019 年 EAZA 手册时，可先比较四个条目的毛色摘要：cesarae 较浅且背部中央偏橙；leucocephalus 较暗，腕踝与手足上面红褐；brunneus 有宽 V 形头顶毛斑；malitiosus 的浅色前部延至肩上面。再进入各物种页，区分原名称、尺寸表样本缺口与现有分类讨论。四个条目的食性、繁殖或行为都存在资料不足，不能用通用卷尾猴习性填空；尤其 brunneus 的食物列举是来源推测，malitiosus 的毛色不能转给正模头骨。这里是一条来源限定比较路径，不是四种的鉴定检索表或统一生态综述。
 
 ## 沿生活史资料阅读 {#s-3491d1cc8a}
-Cebus 本批有 1 个历史生活史资料页，可从 [Cebus capucinus](Cebus_capucinus/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Cebus 本批有 1 个历史生活史资料页，可从 Cebus capucinus 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-25b838d7c6}
 本批妊娠资料见 1 页，雌性首次繁殖年龄见 1 页，最高寿命记录见 1 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-0bb3cc66a1}
-Allodaposuchus is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 8 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Allodaposuchus {#s-0bb3cc66a1}
+Allodaposuchus is listed at rank genus in the PBDB classification route, with Allodaposuchidae as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-fb8724a878}
 Start with Allodaposuchus fontisensis, Allodaposuchus hulki, Allodaposuchus precedens, Allodaposuchus palustris, Allodaposuchus iberoarmoricanus and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 19 selected occurrences from 16 collections; example stratum names are Villalba de la Sierra, Conques, La Posa, Densuș-Ciula. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-1c9fe1606b}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-1c9fe1606b}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Allodaposuchus fontisensis’s collection record, not a continuous history for Allodaposuchus.
 

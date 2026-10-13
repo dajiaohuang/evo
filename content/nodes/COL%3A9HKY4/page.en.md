@@ -1,5 +1,5 @@
-## Historical Anas combination and the pinned name {#s-9a47ae1eea}
-This page follows pinned COL26.8 Spatula cyanoptera (9HKY4). AVONET v7 BirdLife 2020 row 397 and the eBird 2021 crosswalk use the same name and Avibase ID AVIBASE-0E599E6C; BirdTree gives Anas cyanoptera, labelled 1BL to 1BT. No synonym link for this older combination was found in the ana/sp shards read here; the old name is retained only as a historical workbook mapping. Name links do not verify every species boundary across dates.
+## A name fixed to COL26.8 {#s-9a47ae1eea}
+Catalogue of Life release COL26.8 records Spatula cyanoptera (Vieillot, 1816) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Beak, wing and compiled mass have different denominators {#s-afe2270b73}
 Morphology covers 6 birds (3 female and 3 male), with 4 complete measurements. Mean nostril-to-tip beak length is 33.8 mm, beak width at the nostrils 16 mm, unflattened wing 187.5 mm and hand-wing index 51. These are species averages; the index is defined by Kipp’s distance/wing length ×100, not flight speed. Mass 377.45 g comes separately from Dunning’s literature compilation and cannot inherit the morphology sample size. Inference=NO retains the workbook’s non-inference flag without supplying individual bounds from unread raw material.

@@ -1,5 +1,5 @@
-## atlas-profile / overview {#s-ccab8cc823}
-Holotype AM F66763 is a fragment of right lower jaw (dentary) with three molars from the Early Cretaceous Griman Creek Formation at Lightning Ridge, Australia. The teeth were compared with monotreme and tribosphenic patterns to identify *Steropodon galmani* as a monotreme. Molar form allows a limited feeding inference, but the jaw does not preserve direct food evidence, habitual habitat, movement or whole-body size. Its 110–100 Ma interval is a broad formation-level envelope, not a direct date or the full range of monotremes.
+## Three molars make a fragmentary jaw comparable {#s-ccab8cc823}
+Holotype AM F66763 is a fragment of right dentary with three molars from the Early Cretaceous Griman Creek Formation at Lightning Ridge, Australia. Comparison with monotreme and tribosphenic tooth patterns supports its identification as Steropodon galmani, while the 110–100 Ma interval remains a broad formation-level envelope rather than a direct specimen date or the full range of monotremes.
 
 ## atlas-profile / ecology / diet {#s-7f0cbfdee6}
 Molar form permits a limited feeding inference; no food is preserved.
@@ -25,6 +25,6 @@ Three preserved molars
 ## atlas-profile / traits {#s-a4b7b0839c}
 Teeth compared with monotreme and tribosphenic patterns
 
-## atlas-profile / evidenceSummary {#s-1d1582b3ed}
-AM F66763 directly records a jaw fragment and three molars. The 110–100 Ma interval is a broad formation-level context; affinity and feeding are dental interpretations, not evidence of a direct ancestor or complete monotreme body plan.
+## A jaw and three teeth within a broad age envelope {#s-1d1582b3ed}
+AM F66763 directly records a jaw fragment and three molars. Its 110–100 Ma interval is broad formation-level context; monotreme affinity and feeding are dental interpretations, not evidence for direct ancestry or a complete monotreme body plan.
 

@@ -16,7 +16,10 @@ records:
     - subjectId: taxon:primates
       claimKind: scientific
       claimType: divergence-time
-      statement: A 372-species relaxed-clock analysis estimates crown Primates at 79.2–70.0 Ma under its selected autocorrelated model and calibration strategy A, whereas another calibration strategy is younger; neither posterior interval is a fossil occurrence or exact crown-origin observation.
+      statement:
+        page: en
+        section: clock-estimate
+        part: body
       confidence: medium
       confidenceRationale: The model, calibration strategy and posterior interval are explicit in the primary study. Medium confidence reflects strategy sensitivity rather than poor execution.
       referenceLinks:
@@ -28,7 +31,9 @@ records:
   claim-rationales.zh:
     - 一手研究明确给出模型、校准策略与后验区间；中等置信度反映策略敏感性，而非研究执行不足。
   claim-statements.zh:
-    - 一项覆盖 372 个物种的松弛时钟分析，在所选自相关模型与校准策略 A 下估计冠群灵长类为 7920 万—7000 万年前，而另一校准策略更年轻；两个后验区间都不是化石出现记录或冠群起源的精确观测。
+    - page: zh
+      section: clock-estimate
+      part: body
   ranges:
     - entityId: primates
       rangeKind: global-composite

@@ -1,18 +1,47 @@
-## Which fossil records this name represents {#s-8d7e6173c9}
-Einiosaurus procurvicornis is accepted in the fixed PBDB dinosaur working roster, with database parent Einiosaurus. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-8d7e6173c9}
+Einiosaurus procurvicornis is listed in the PBDB snapshot under taxon txn:53954. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-e2599d82be}
-Collection Canyon Bonebed, MOR TM-046 (Montana), region code US, stratum name Two Medicine; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Collection Dino Ridge Quarry, MOR TM-023 (Montana), region code US, stratum name Two Medicine; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Collection MOR TM-013, Landslide Butte (Montana), region code US, stratum name Two Medicine; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-e2599d82be}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-0e98927480}
-Selected occurrences have an outer age envelope of 83.6–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:229315; PBDB collection col:22693. Locality cnm=Canyon Bonebed, MOR TM-046; place fields cc2=US, stp=Montana, cny=Glacier. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Two Medicine. Recorded attribution Sampson 1994; PBDB reference ref:14725.
 
-## Read preservation setting separately from living habitat {#s-65b41bee0b}
-Canyon Bonebed, MOR TM-046 has collection-environment label lacustrine - small; collection preservation-mode label body. Dino Ridge Quarry, MOR TM-023 has collection-environment label lacustrine - small; collection preservation-mode label body. MOR TM-013, Landslide Butte has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper part of formation; specimens from bonebed plus one downslope (MOR 492)
 
-## Follow collection records back to references {#s-17e4f43a1c}
-Canyon Bonebed, MOR TM-046 carries database reference attribution Sampson (1994), identifier ref:14725. Dino Ridge Quarry, MOR TM-023 carries database reference attribution Sampson (1995), identifier ref:8729. MOR TM-013, Landslide Butte carries database reference attribution Carrano (2006), identifier ref:17718. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Landslide Butte Field Area, ca. 42 km NW of Cut Bank; also listed as "MOR locality #456" in Rogers 1997.
 
-## Evidence limits {#s-bc23153c66}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:229317; PBDB collection col:22694. Locality cnm=Dino Ridge Quarry, MOR TM-023; place fields cc2=US, stp=Montana, cny=Glacier. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Two Medicine. Recorded attribution Sampson 1995; PBDB reference ref:8729.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: time_unit, ETE age comment: 0 radiometric intage_min; upper part of formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+in the Landslide Butte field area, ca. 2 km from Canyon Bonebed (CBB)
+
+- Occurrence occ:584123; PBDB collection col:59373. Locality cnm=MOR TM-013, Landslide Butte; place fields cc2=US, stp=Montana, cny=Glacier. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Two Medicine. Recorded attribution Carrano 2006; PBDB reference ref:17718.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+sec. 27, T37N, R8W
+
+## Age bounds on the recorded occurrences {#s-0e98927480}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:229315; the smallest recorded lag=72.2 Ma in occ:229315. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-65b41bee0b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:229315: PBDB original-identification field idn=Einiosaurus procurvicornis n. gen. n. sp.; PBDB taxon-name field tna=Einiosaurus procurvicornis; material note ocm=MOR 456; abundance fields abv=300, abu=specimens; PBDB locality-coordinate fields lng=-112.650002, lat=48.966599; paleocoordinate/model fields pm1=gplates, pln=-68.36, pla=59.37.
+- occ:229317: PBDB taxon-name field tna=Einiosaurus procurvicornis; material note ocm=MOR 373; abundance fields abv=480, abu=specimens; PBDB locality-coordinate fields lng=-112.650002, lat=48.966599; paleocoordinate/model fields pm1=gplates, pln=-68.36, pla=59.37.
+- occ:584123: PBDB taxon-name field tna=Einiosaurus procurvicornis; abundance fields abv=15, abu=specimens; PBDB locality-coordinate fields lng=-112.642403, lat=48.935501; paleocoordinate/model fields pm1=gplates, pln=-68.38, pla=59.34.
+
+## References attached to each record {#s-17e4f43a1c}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:229315: Recorded attribution Sampson 1994; PBDB reference ref:14725.
+- occ:229317: Recorded attribution Sampson 1995; PBDB reference ref:8729.
+- occ:584123: Recorded attribution Carrano 2006; PBDB reference ref:17718.
+
+## What these records can show {#s-bc23153c66}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

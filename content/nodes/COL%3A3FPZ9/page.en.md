@@ -1,5 +1,5 @@
-## Tracing the historical Zoothera name {#s-a1bb2c5452}
-Pinned COL26.8 organizes this page at Geokichla crossleyi (3FPZ9). AVONET v7 BirdLife 2020 row 8549 and eBird 2021 row 4310 share the name and Avibase ID AVIBASE-4745E8A7; BirdTree row 4291 gives Zoothera crossleyi, with match type 1BL to 1BT. Read COL older-combination record 5D7NG points to this accepted ID. These links locate data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-a1bb2c5452}
+Catalogue of Life release COL26.8 records Geokichla crossleyi (Sharpe, 1871) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured birds and beak/wing values {#s-e273032984}
 Morphology covers 5 birds: 2 female, 3 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 14.6 mm, tarsus 33.4 mm, unflattened wing 107.6 mm and hand-wing index 22.8 are summaries in this historical row. Inference=NO does not establish equal counts across fields; complete-set birds do not supply every field’s denominator. The index is Kipp’s distance/wing length ×100, not flight speed, migration distance or a range-wide performance test.

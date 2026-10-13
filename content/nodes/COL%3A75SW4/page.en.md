@@ -1,5 +1,5 @@
-## An older foraging entry {#s-01f3b2c8b6}
-Paruromys dominator is accepted in COL26.8 within Muridae. Its same-name, same-family record in EltonTraits 1.0 contains two ecological field groups and follows earlier bird taxonomy or MSW3 for mammals. The match does not resolve later splits or synonym disputes.
+## Diet weights and foraging stratum in the compilation {#s-01f3b2c8b6}
+The EltonTraits 1.0 record for *Paruromys dominator* contains the diet weights, foraging stratum. The selected diet fields give literature-standardized relative weights of fruit 100% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The archive leaves activity fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Paruromys dominator*.
 
 ## Fruit in the standardized diet record {#s-97a690972e}
 The only nonzero food weight is fruit at 100%. EltonTraits code ABC combines high, reasonable, and partial confidence; estimates may also draw on an ecologically similar congener. This percentage standardizes literature descriptions, not measured diet, and a zero elsewhere would not prove that food is never eaten. Nect, Seed, and PlantO are broad source categories.
@@ -10,8 +10,6 @@ The entry is coded G, ground, which the source definition also uses for some aqu
 ## Labels retained for the selected groups {#s-13c96a80f1}
 The diet and stratum groups carry Ref_1 and metadata:Nowak1999. Their source materials may differ, and a Ref number is specific to its reference table. The archive retains original strings by file, row, group, and table. The underlying books and papers have not been individually read; labels are not extra observations.
 
-## Scope and withheld activity field {#s-a42f178ed3}
-This guide presents a historical same-name, same-family foraging entry from EltonTraits 1.0, not a complete species monograph. The older classification does not establish equivalence with COL26.8. The 100% fruit weight is a standardized literature estimate, not a direct measurement of diet. Underlying source works have not been individually reread; individual, seasonal, and local variation and current range, population, and conservation require additional evidence.
-
-Activity periods are withheld under source code D2 because of interpolation, certainty, or source-link limits. The original values and specific reasons remain in the archive and are not used here to draw a definite activity conclusion.
+## How to read the source fields {#s-a42f178ed3}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 

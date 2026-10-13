@@ -1,5 +1,5 @@
-## 沿旧 Thryothorus 组合查历史行 {#s-f2981f0e1d}
-本页按 COL26.8 的 Cantorchilus nigricapillus（QPN2）组织。BirdLife 2020 第 8448 行与 eBird 2021 第 1663 行同名，Avibase ID 为 AVIBASE-8F45CD3F，类型 1BL to 1eBird；BirdTree 第 1656 行记 Thryothorus nigricapillus，类型 1BL to 1BT。本次读到目录异名 56N7V，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-f2981f0e1d}
+《Catalogue of Life》COL26.8（2026-08-20）将 Cantorchilus nigricapillus (P. L. Sclater, 1860) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-84574e73bc}
 形态共 38 只鸟：雌 15、雄 17、性别未定 6；完整测量 4 只。鼻孔前缘至喙尖 12.8 mm、跗蹠 24.9 mm、未压平翼长 65.8 mm、尾长 54.3 mm、手翼指数 9.8 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

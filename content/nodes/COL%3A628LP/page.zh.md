@@ -1,4 +1,4 @@
-## 从已有历史条目开始 {#s-63d0a0dc60}
+## 记录分类与成员材料 {#s-63d0a0dc60}
 Pantherinae 的本地 PanTHERIA 路径包括 4 条可用数据导读，可从 Neofelis nebulosa、Panthera leo、Panthera onca、Panthera tigris 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-0725611734}
@@ -15,7 +15,7 @@ Pantherinae 的本批路线包含 5 个历史条目，可从 Neofelis nebulosa�
 PanTHERIA 路线列有 4 条记录；较广的 2015 年生活史和 EltonTraits 路线各列出 5 个名称，另有一条较详细的生活史路线涉及 4 个名称。这些计数描述不同历史样本与字段路线，不是该亚科的完整名册。中位数和寿命记录仍受来源定义约束，历史名称关联也不能证明当前物种概念等同。
 
 ## 沿生活史资料阅读 {#s-f910122b27}
-Pantherinae 本批有 4 个历史生活史资料页，可从 [Neofelis nebulosa](Neofelis/Neofelis_nebulosa/page.zh.md)、[Panthera tigris](Panthera/Panthera_tigris/page.zh.md)、[Panthera onca](Panthera/Panthera_onca/page.zh.md)、[Panthera leo](Panthera/Panthera_leo/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Pantherinae 本批有 4 个历史生活史资料页，可从 Neofelis nebulosa、Panthera tigris、Panthera onca、Panthera leo 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-cdd5d34b71}
 本批妊娠资料见 4 页，雌性首次繁殖年龄见 4 页，最高寿命记录见 4 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

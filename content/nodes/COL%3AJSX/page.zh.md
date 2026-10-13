@@ -1,4 +1,6 @@
-## 该路径中的五条 PanTHERIA 记录 {#s-e172edca1f}
+## 记录分类与直接上级关系 {#s-e172edca1f}
+COL26.8 将 Leithiinae 记录为亚科；其直接上级记录为 Gliridae。
+
 本地 PanTHERIA 路径有 5 条可用历史记录：Eliomys quercinus、Dryomys laniger、D. nitedula、Muscardinus avellanarius 和 Selevinia betpakdalaensis。每页保留 MSW05 名称、字段条件和缺项。固定版本 COL26.8 用于导航；历史行数不是接受物种的分母。
 
 ## 两个端点的成体体重中位数 {#s-f6605efca1}

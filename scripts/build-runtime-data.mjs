@@ -11,6 +11,7 @@ import { buildCatalogueKnowledge } from './catalogue-knowledge.mjs'
 import { readCatalogueDossiers } from './catalogue-dossier-store.mjs'
 import { buildContentProjections } from './build-content-projections.mjs'
 import { occurrenceSearchScenes } from './search-occurrence-scenes.mjs'
+import { buildPbdbReaderDelivery, readPbdbReaderRecords } from './pbdb-reader.mjs'
 
 buildContentProjections({ quiet: true })
 
@@ -1103,6 +1104,11 @@ for (const packageEntry of registry.packages) {
 }
 
 const occurrenceManifestFile = writeJson('occurrences/manifest.json', occurrenceManifest, true)
+const pbdbReader = buildPbdbReaderDelivery(pagesPreview ? [] : readPbdbReaderRecords(rootDir), {
+  datasetVersion: sourceManifest.datasetVersion,
+  writeGzipJson,
+})
+const pbdbReaderManifestFile = writeJson('pbdb/reading/manifest.json', pbdbReader)
 const paleogeographyLayerIds = ['coastlines', 'platePolygons', 'plateBoundaries', 'continentalPolygons', 'continentOceanBoundaries', 'staticPolygons']
 if (paleogeographyProvenance.schemaVersion !== 3) throw new Error('Only the current paleogeography series format (schema 3) is supported')
 const publishedMapFramePaths = new Set()
@@ -1819,6 +1825,7 @@ const current = {
   wholeLifeCoverageClaim: sourceManifest.wholeLifeCoverageClaim,
   releaseBase: `${releasePrefix}/`,
   core,
+  pbdbReader: { manifest: pbdbReaderManifestFile, records: pbdbReader.records },
   packages: {
     count: packageRuntimeManifests.length,
     registry: core.packages,
@@ -1863,6 +1870,7 @@ const current = {
     ? { available: true, template: `${releasePrefix}/downloads/{packageId}-${sourceManifest.datasetVersion}.zip` }
     : { available: false },
   budgets: {
+    pbdbReaderCompressedBytes: pbdbReaderManifestFile.bytes + pbdbReader.index.bytes + pbdbReader.files.reduce((sum, file) => sum + file.bytes, 0),
     coreCompressedBytes,
     coreLimitBytes: 5 * 1024 * 1024,
     shardLimitBytes: 8 * 1024 * 1024,

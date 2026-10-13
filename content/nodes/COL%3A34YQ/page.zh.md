@@ -1,4 +1,6 @@
-## 三种有测量记录的物种 {#s-b33f8d1092}
+## 记录分类与直接上级关系 {#s-b33f8d1092}
+COL26.8 将 Athene 记录为属；其直接上级记录为 Surniinae。
+
 固定 COL26.8 中的 Athene 路径在本批包含 3 种有 AVONET v7 测量记录的物种：Athene brama、Athene cunicularia 和 Athene noctua。数值仍沿用 AVONET 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-89cc398f77}

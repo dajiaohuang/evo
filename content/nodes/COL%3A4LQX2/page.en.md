@@ -1,29 +1,29 @@
-## The name and this data account {#s-8812e95f95}
-Pomatorhinus ruficollis is accepted in COL26.8 within Timaliidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 3 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-8812e95f95}
+The AVONET v7 row for Pomatorhinus ruficollis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 15.6 mm. The row records 5 measured individuals, 3 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-9e0d636599}
-Recorded mean beak measurements are 15.6 mm from the anterior nostril edge to the tip, 3.3 mm in width and 5.4 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-9e0d636599}
+AVONET records culmen length (bill tip to skull base) 22.5 mm; beak length (nostril front edge to tip) 15.6 mm; beak width at the nostril front edge 3.3 mm; beak depth at the nostril front edge 5.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-24745e09ea}
-Mean unflattened wing length from the carpal joint to the longest primary is 78.8 mm; mean tarsus length is 28 mm. Compiled mean mass is 31.61 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-24745e09ea}
+AVONET records unflattened wing length 78.8 mm; tarsus length 28 mm; distance from first secondary tip to longest primary tip 7.7 mm; length to first secondary tip 69.8 mm; hand-wing index 10; tail length 85.4 mm; species-average body mass 31.61 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-600611543a}
-The dataset assigns habitat Forest, trophic niche Invertivore and lifestyle Generalist. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-600611543a}
+AVONET classifies Pomatorhinus ruficollis as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Generalist. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-c6562fb51c}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 16.19° to 35.12°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-c6562fb51c}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 16.19° to 35.12°. The mapped range area is 2706746.89 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-c78561f827}
-Pomatorhinus ruficollis is accepted in pinned COL26.8 within Timaliidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-c78561f827}
+EltonTraits 1.0 has a same-name, same-family record for Pomatorhinus ruficollis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-abdde3786c}
-The archive’s nonzero food weights are invertebrates 80%; fruit 10%; seeds, nuts and spores included in this category 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-abdde3786c}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; fruit 10%; seeds or nuts 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-9b203e6f63}
-Foraging-stratum weights flagged as species-level in the archive are understory, edges or shrubs below 2 m 80%; trees or high bushes from 2 m upward but below the canopy 20%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-9b203e6f63}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 80%; in mid-height or high vegetation 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-cfc23e4a02}
-The used groups carry labels Ref_12, Ref_11. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-cfc23e4a02}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.12.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.11.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-54b86df00c}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

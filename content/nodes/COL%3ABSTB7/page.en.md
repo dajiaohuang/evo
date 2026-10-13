@@ -4,3 +4,6 @@ COL26.8 genus ID BSTB7 connects two selected species routes: X. intermedius (BV3
 ## Scope of the evidence {#s-ea2d1e9061}
 This route links selected COL26.8 species pages and one genus-level taxonomic paper; it is not an exhaustive genus roster or ecological synthesis. Its field survey covers only Guangxi, China, and the other study is captive; they do not form a combined genus-wide sample. The Chinese genus name is editorial. This page is.
 
+## Recorded classification {#col26-8-identity}
+In the pinned COL26.8 catalogue, Xanthonycticebus Nekaris & Nijman, 2022 is recorded as an accepted genus.
+

@@ -1,5 +1,5 @@
-## atlas-profile / overview {#s-48ccb8ae7c}
-Neornithes is the crown group of living birds, defined by their common ancestor and all descendants. Whether particular Cretaceous fossils belong inside that boundary depends on explicit phylogenetic analyses, and one fossil cannot define the ecology of all crown birds.
+## The living-bird crown defines membership {#s-48ccb8ae7c}
+Neornithes is defined by the common ancestor of living birds and all descendants; Cretaceous membership depends on phylogenetic analysis.
 
 ## atlas-profile / ecology / diet {#s-86eebf2c55}
 There is no single crown-wide diet. The Vegavis skull supports underwater prey capture only for that fossil.
@@ -25,8 +25,8 @@ Vegavis skull anatomy combines an avian beak and crown-like neuroanatomy with a 
 ## atlas-profile / traits {#s-743b625978}
 Asteriornis preserves a different late Maastrichtian galloanseran character combination
 
-## atlas-profile / evidenceSummary {#s-908f35e759}
-A 2025 skull analysis supports placing Vegavis within crown waterfowl, but earlier studies gave it other positions. Asteriornis also moves among near-crown placements under different analyses, so the oldest highlighted crown-bird age depends on which topology is accepted.
+## Highlighted crown-bird age depends on topology {#s-908f35e759}
+Vegavis and Asteriornis shift among analyses, so the oldest highlighted crown-bird age depends on topology.
 
 ## A crown group is defined from living birds {#s-197a71e830}
 Neornithes includes the most recent common ancestor of all living birds and every descendant of that ancestor. Archaeopteryx falls outside this crown boundary. There is no single fossil feature that defines every crown bird, so Cretaceous candidates such as Vegavis and Asteriornis must be tested in explicit phylogenetic analyses rather than assigned by age or resemblance alone.

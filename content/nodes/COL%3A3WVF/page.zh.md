@@ -4,7 +4,9 @@
 ## 按材料、树模型和实验层次阅读 {#s-8dd94c4bad}
 本入口直接对应的研究物种页为 [Crypturellus cinnamomeus](Crypturellus_cinnamomeus/page.zh.md)。先辨认新增、沿用或参考映射的基因组，再比较物种树与基因树。跨支系功能对读可转到 [Rhea americana](../../../Rheiformes/Rheidae/Rhea/Rhea_americana/page.zh.md) 与 [Eudromia elegans](../Eudromia/Eudromia_elegans/page.zh.md) 的鸡胚报告实验；单个候选区域不能替代所有加速区域的验证。最后回到已有形态、生活史或化石出现材料，保留它们各自的单位和样本；本阅读路径不是全类群取样或完整后代目录。
 
-## 有测量记录的物种页 {#s-d65f25f17d}
+## 记录分类与直接上级关系 {#s-d65f25f17d}
+COL26.8 将 Crypturellus 记录为属；其直接上级记录为 Tinamidae。
+
 这里有 18 种 Crypturellus 的测量记录，包括 Crypturellus atrocapillus、Crypturellus bartletti、Crypturellus berlepschi、Crypturellus boucardi 和 Crypturellus brevirostris。目录路径按固定 COL26.8 组织，生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-a36b023dfe}
@@ -22,8 +24,8 @@ Crypturellus erythropus 是现有资料中只有一类可用生态字段的历�
 ## 证据边界 {#s-d41909c1fe}
 此入口呈现 18 种有测量资料的物种、6 条历史生活史资料、10 条至少有两类可用生态字段的记录、1 条只有取食层位的记录，以及 2 个有限生态资料页。各组纳入条件不同，并非 Crypturellus 完整名录。体重端点比较不同物种的汇编均值，不是同一物种个体的最小值与最大值。生活史汇总仍受中位数或中间值均值算法、最大寿命取最大记录以及历史分类继承等限制；属级入口不表示所有成员有相同繁殖方式或生活史。生态类别和权重依赖来源，不能写成全属共有特征。基因组说明限于 Sackton 等人（2019）的出版主文、四幅图说及图 1 图像；Cloutier 等人（2019）已读的取样、标记提取、物种树方法、所选结果和讨论段落；以及十份 NCBI WGS 主记录。配套论文共享材料，不是独立种群重复。其他图像、补充材料、原始序列和分析代码未独立检查或重跑，配套论文也未逐段全文审评。候选调控区加速、开放染色质和单段鸡胚报告实验属于不同证据层次，不等于所有物种的功能验证。现有来源不足以完整说明该属的生物学或当前状态。
 
-## 从有限生态资料开始 {#s-b785a52399}
-这里有 2 个 Crypturellus 有限生态资料页：[Crypturellus kerriae](Crypturellus_kerriae/page.zh.md) 和 [Crypturellus ptaritepui](Crypturellus_ptaritepui/page.zh.md)。计数描述现有页面，不是全部接受种的分母；导航沿固定 COL26.8 分类组织。
+## 记录分类与成员材料 {#s-b785a52399}
+这里有 2 个 Crypturellus 有限生态资料页：Crypturellus kerriae 和 Crypturellus ptaritepui。计数描述现有页面，不是全部接受种的分母；导航沿固定 COL26.8 分类组织。
 
 ## 哪些内容可读，哪些仍未解读 {#s-a8e076f6f5}
 两个有限生态资料页都记录了栖地、取食生态位、主要活动方式和迁移类别。阅读时应结合来源定义，并区分类别、历史地图和个体观察；相同标签不代表所有后代有共同生活方式。这里不解读喙、翼、跗蹠、尾和体重字段，不能据此建立属内体型比较。

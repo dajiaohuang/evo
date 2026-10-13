@@ -1,46 +1,46 @@
-## The 2015 life-history entry and this name {#s-e8cecae517}
-Rallus semiplumbeus is accepted in pinned COL26.8 within Rallidae. This page compares the same-name historical life-history entry using 3 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-e8cecae517}
+The August 2015 database has a same-name, same-family record for Rallus semiplumbeus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-a4dac2dc4a}
-Historical summary values are adult body mass 84.1 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-a4dac2dc4a}
+The August 2015 compilation reports adult body mass 84.1 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-6cd57adf2e}
-Available compilation fields are offspring per litter or eggs per clutch 8.5 offspring/eggs; oviposition to hatching 19 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-6cd57adf2e}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 8.5; oviposition-to-hatching interval 19 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-c442a6ce64}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Boback and Guyer, 2003; Bennett, 1986, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-c442a6ce64}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-2ad9481a93}
-Rallus semiplumbeus is accepted in pinned COL26.8 within Rallidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-2ad9481a93}
+EltonTraits 1.0 has a same-name, same-family record for Rallus semiplumbeus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-ff43b6eb23}
-The archive’s nonzero food weights are fish 60%; unspecified vertebrates 30%; invertebrates 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-ff43b6eb23}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; fish 60%; vertebrates not further identified 30%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-507ac009b3}
-Foraging-stratum weights flagged as species-level in the archive are on or just below the water surface 50%; ground 50%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-507ac009b3}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 50%; on the ground 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-f44a968ada}
-The used groups carry labels Ref_3. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-f44a968ada}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.3.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.3.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-c9cfe2d145}
 This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
 This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
 
-## The name in the limited ecology record {#s-a909b4efaf}
-Rallus semiplumbeus is accepted in pinned COL26.8 within Rallidae. This section associates its same-name, same-family historical AVONET v7 record. Names and two one-to-one crosswalks do not resolve species concepts after later splits or lumps.
+## A historical name within this ecology row {#s-a909b4efaf}
+The AVONET row uses historical BirdLife name Rallus semiplumbeus. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-1f7ee5cd96}
-The recorded habitat category is freshwater wetlands such as lakes, marshes or reedbeds. The recorded feeding niche centres on aquatic animals. The recorded primary lifestyle involves much time on the ground, feeding while walking, hopping or wading. The source defines these dominant feeding niches using a threshold of at least 60% of food resources. This page does not independently measure diet proportions or interpret a category as exclusive feeding. These coarse record categories do not replace food lists, behavioural observations or local microhabitat descriptions.
+## Recorded habitat and feeding categories {#s-1f7ee5cd96}
+The ecology-only AVONET row classifies Rallus semiplumbeus as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-f5bb304639}
-The recorded migration category is sedentary. This is the source’s sedentary category; regional seasonal movements are not separately listed. This entry does not supply current routes, schedules or movement distances for every population.
+## The migration label has a limited scope {#s-f5bb304639}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-7d4060621d}
-Historical breeding and resident maps have latitude endpoints of 4.27° to 5.56°. The source worksheet associates these fields with BirdLife/HBW 2019.1 maps accessed on 27 March 2020. Endpoints summarize a mapped range, not a locality list or evidence of occupancy throughout it, and exclude a complete account of non-breeding movements. They do not establish current distribution, survival or conservation status.
+## Mapped range is not a locality list {#s-7d4060621d}
+Historical breeding and resident maps span latitude endpoints 4.27° to 5.56°. The mapped range area is 728.49 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-b6808d3de4}
-Of four ecological categories in this batch, 4 have readable records. All four coarse categories are recorded, but ecological coverage remains incomplete. Read historical latitude summaries within their map scope. The source flags inference from relatives for at least some biometric fields, and mass is inferred from a related species. Morphological dimensions and mass are not interpreted here; reproduction, growth and conservation remain without complete accounts. Missing fields do not establish absence of the traits.
+## Fields outside this ecology-only view {#s-b6808d3de4}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
-## Limits of these historical data {#s-9dd706b7b9}
-This batch provides limited historical ecology and geography, not complete species monographs. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Matching names and families plus one-to-one same-name BirdLife/eBird/BirdTree crosswalks establish an association, not equivalence to current COL26.8 species concepts. Ecological fields are coarse literature-derived categories; underlying species literature was not individually read here. Original morphology can involve inference from relatives, and mass can use genus averages or models. This batch therefore withholds morphological and mass interpretation rather than treating those fields as direct measurements of this species. Historical maps cover breeding and resident ranges, without current population, occupancy or conservation assessments.
+## Limits of this historical ecology record {#s-9dd706b7b9}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 

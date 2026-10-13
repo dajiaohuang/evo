@@ -1,5 +1,5 @@
-## Retain Locustella, Bradypterus and Helopsaltes by table {#s-92cd0ae339}
-Pinned COL26.8 organizes this page at Locustella ochotensis (72LJS). BirdLife 2020 row 4993 gives Locustella ochotensis; eBird 2021 row 5658 gives Helopsaltes ochotensis. Both Avibase IDs are AVIBASE-3200EE86, with type 1BL to 1eBird. BirdTree row 5629 gives Locustella ochotensis, with type 1BL to 1BT. BirdTree matches this accepted name. The read hel shard did not confirm this exact Helopsaltes name; a crosswalk does not replace catalogue synonym evidence. Name correspondence locates historical sources without establishing identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-92cd0ae339}
+Catalogue of Life release COL26.8 records Locustella ochotensis (Middendorff, 1853) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-bbb9cadb1b}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 9.4 mm, tarsus 24.4 mm, unflattened wing 69.5 mm, tail 58.2 mm and hand-wing index 29.6 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

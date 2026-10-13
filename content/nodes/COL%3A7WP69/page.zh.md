@@ -1,5 +1,5 @@
-## 旧属名如何查回历史行 {#s-124adf91ee}
-固定 COL26.8 以 Psilopogon henricii（7WP69）组织本页。AVONET v7 BirdLife 2020 第 9691 行与 eBird 2021 第 8658 行同名，Avibase ID 为 AVIBASE-E4B545F5；BirdTree 第 8613 行记作 Megalaima henricii，匹配类型为 1BL to 1BT。已读 COL 旧组合 7VSVY 指向本页接受 ID。这些关联用于定位历史资料，不把所有年代物种边界视为完全相同。
+## COL26.8 中的名称身份 {#s-124adf91ee}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon henricii (Temminck, 1831) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与喙翼均值 {#s-835850000f}
 形态共测 6 只：雌 2、雄 3、性别未定 1，其中 4 只具完整测量。鼻孔前缘至喙尖均值 19.4 mm，喙宽 11 mm，跗蹠 21.4 mm，未压平翼长 91.8 mm，手翼指数 19.9。Inference=NO 不表示每项字段都测了同样数量；完整测量鸟数与总样本分开。指数定义为 Kipp 距离／翼长 ×100，不是飞行速度，喙宽也不是吞果或啄食能力实验。

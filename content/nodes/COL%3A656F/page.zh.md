@@ -4,7 +4,9 @@
 ## 按材料、树模型和实验层次阅读 {#s-6f22f61d55}
 本入口直接对应的研究物种页为 [Nothoprocta perdicaria](Nothoprocta_perdicaria/page.zh.md)。先辨认新增、沿用或参考映射的基因组，再比较物种树与基因树。跨支系功能对读可转到 [Rhea americana](../../../Rheiformes/Rheidae/Rhea/Rhea_americana/page.zh.md) 与 [Eudromia elegans](../Eudromia/Eudromia_elegans/page.zh.md) 的鸡胚报告实验；单个候选区域不能替代所有加速区域的验证。最后回到已有形态、生活史或化石出现材料，保留它们各自的单位和样本；本阅读路径不是全类群取样或完整后代目录。
 
-## 本地数据阅读路径 {#s-3ef8914f07}
+## 记录分类与直接上级关系 {#s-3ef8914f07}
+COL26.8 将 Nothoprocta 记录为属；其直接上级记录为 Tinamidae。
+
 Nothoprocta 的本批阅读路径包含 5 条有测量来源的物种记录，可从 Nothoprocta cinerascens、Nothoprocta curvirostris、Nothoprocta ornata、Nothoprocta pentlandii、Nothoprocta perdicaria 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-377d531f90}
@@ -22,8 +24,8 @@ Nothoprocta 的本批路线包含 3 个历史条目，可从 Nothoprocta ornata�
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 新增基因组正文据 Sackton 等人（2019）出版主文、四幅图说及图 1 图像，Cloutier 等人（2019）已读的取样、标记提取、物种树方法、所选结果和讨论段落，以及十份 NCBI WGS 主记录。配套论文共享材料，不是独立种群重复。其他图像、补充材料、原始序列和分析代码未独立检查或重跑；配套论文未作全文逐段审评。候选调控区加速、开放染色质和单段鸡胚报告实验是不同证据层次，不是所有种的功能验证。完整生物学仍未完成。
 
-## 从有限生态资料开始 {#s-8956a8d31d}
-Nothoprocta 本批有 1 个有限生态资料页，可从 [Nothoprocta taczanowskii](Nothoprocta_taczanowskii/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-8956a8d31d}
+Nothoprocta 本批有 1 个有限生态资料页，可从 Nothoprocta taczanowskii 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-9a1e95d8b9}
 栖地类别见 1 页，取食生态位见 1 页，主导活动方式见 1 页，迁移类别见 1 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

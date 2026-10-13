@@ -8,5 +8,5 @@ A later study analyzed duet recordings collected at Tangkoko National Park in Ju
 The acoustic results apply to the recorded pairs and study site, not all populations. Earlier behavior research published under T. spectrum should be mapped to this accepted name only when the studied population is identifiable.
 
 ## Evidence limits {#s-f6eb9240f2}
-This page joins a taxonomic description with a later site-specific acoustic study; neither provides a range-wide natural-history account. This page is.
+This page joins a taxonomic description with a later site-specific acoustic study; neither provides a range-wide natural-history account.
 

@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-72fd1b3bdb}
+## 记录分类与直接上级关系 {#s-72fd1b3bdb}
+COL26.8 将 Philodryas 记录为属；其直接上级记录为 Dipsadinae。
+
 Philodryas 的本批 ReptTraits 阅读路径包含 14 条同名同科、有逐性状出处的物种资料，可从 Philodryas aestiva、Philodryas agassizii、Philodryas arnaldoi、Philodryas baroni、Philodryas boliviana 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-d487e4899a}
@@ -10,8 +12,8 @@ Philodryas 的本批 ReptTraits 阅读路径包含 14 条同名同科、有逐�
 ## 部分后代条目的引用缺口 {#s-25eb89298f}
 这条 ReptTraits 阅读路径中有 1 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-4ab85db113}
-Philodryas 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 [Philodryas erlandi](Philodryas_erlandi/page.zh.md)、[Philodryas livida](Philodryas_livida/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-4ab85db113}
+Philodryas 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 Philodryas erlandi、Philodryas livida 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-6e45ca7de8}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

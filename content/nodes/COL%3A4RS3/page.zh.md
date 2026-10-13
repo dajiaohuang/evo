@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-8998bfd228}
+## 记录分类与直接上级关系 {#s-8998bfd228}
+COL26.8 将 Gymnobucco 记录为属；其直接上级记录为 Lybiidae。
+
 AVONET v7 收录了 Gymnobucco peli 和 Gymnobucco sladeni 的测量记录。目录层级按固定 COL26.8 组织，生物学数值则保留来源中的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-deb8fd60ce}

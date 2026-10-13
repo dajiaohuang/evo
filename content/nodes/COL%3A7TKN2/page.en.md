@@ -1,4 +1,4 @@
-## overview {#s-56a9574c57}
+## Domestic, feral and breed variation {#s-56a9574c57}
 MDD describes domestic horses as a domestic derivative of E. ferus and distinguishes domestic and feral occurrence. Breed formation and artificial selection produce substantial variation; one breed’s mass or lifespan cannot represent the entire taxon.
 
 ## The 2015 life-history entry and this name {#s-0379a810ad}

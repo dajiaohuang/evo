@@ -1,4 +1,4 @@
-## 本地数据阅读路径 {#s-7faa8fc8f5}
+## 记录分类与成员材料 {#s-7faa8fc8f5}
 Gaviiformes 的本批阅读路径包含 5 条有测量来源的物种记录，可从 Gavia adamsii、Gavia arctica、Gavia immer、Gavia pacifica、Gavia stellata 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-1cfe02ba7f}

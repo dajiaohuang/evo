@@ -1,19 +1,56 @@
 ## Which fossil records this name represents {#s-81cac005be}
 Tuarangisaurus keyesi is accepted in the fixed PBDB sauropterygia working roster, with database parent Tuarangisaurus. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-4dbedcfa70}
-Collection GS11359, Mangahouanga Stream (V19/f6909) (Hawke's Bay), region code NZ, stratum name Tahora; database age bracket 83.6–66 Ma, early interval Late Campanian and late interval Early Maastrichtian. Collection Mangahouanga Stream, Te Hoe River (V19/f6508A), region code NZ, stratum name Tahora; database age bracket 83.6–66 Ma, early interval Late Campanian and late interval Early Maastrichtian. Collection Puesto Ybarra (Chubut), region code AR, stratum name Lefipán; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Tuarangisaurus keyesi is listed in the PBDB snapshot under taxon txn:114181. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-281fc32426}
-Selected occurrences have an outer age envelope of 83.6–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is GS11359, Mangahouanga Stream (V19/f6909), occurrence occ:388855 (83.6–66 Ma); one supplying the younger bound is GS11359, Mangahouanga Stream (V19/f6909), occurrence occ:388855 (83.6–66 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-4dbedcfa70}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-25b02ded04}
-GS11359, Mangahouanga Stream (V19/f6909) has collection-environment label shoreface; collection preservation-mode label body,concretion. Mangahouanga Stream, Te Hoe River (V19/f6508A) has collection-environment label marginal marine indet.; collection preservation-mode label body. Puesto Ybarra has collection-environment label deltaic indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:388855; PBDB collection col:27887. Locality cnm=GS11359, Mangahouanga Stream (V19/f6909); place fields cc2=NZ, stp=Hawke's Bay. Recorded age bounds: eag 83.6 Ma; lag 66 Ma; PBDB interval fields oei=Late Campanian, oli=Early Maastrichtian. Stratigraphic fields sfm=Tahora. Recorded attribution Wiffen and Moisley 1986; PBDB reference ref:9968.
 
-## Follow collection records back to references {#s-174b90445f}
-GS11359, Mangahouanga Stream (V19/f6909) carries database reference attribution Wiffen and Moisley (1986), identifier ref:9968. Mangahouanga Stream, Te Hoe River (V19/f6508A) carries database reference attribution Otero et al. (2018), identifier ref:71990. Puesto Ybarra carries database reference attribution O’Gorman et al. (2026), identifier ref:95289. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Upper layers of formation, age of layer is early Hamurian according to Eagle (1994), about 100 m above the Piripauan-Hamurian boundary.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Mangahouanga Stream, inland Hawke's Bay, North Island, New Zealand. Fossil Record File locality number V19/f6909 (GS11359). The locality is 100 m of streambed at grid reference V19/420469-421469, or converted grid reference (V19) 2842057 6246883 (New Zealand Map Grid). Formerly N104/f0909.
+
+- Occurrence occ:1498247; PBDB collection col:208367. Locality cnm=Mangahouanga Stream, Te Hoe River (V19/f6508A); place fields cc2=NZ. Recorded age bounds: eag 83.6 Ma; lag 66 Ma; PBDB interval fields oei=Late Campanian, oli=Early Maastrichtian. Stratigraphic fields sfm=Tahora. Recorded attribution Otero et al. 2018; PBDB reference ref:71990.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper layers of formation, age of layer is Haumurian/Piripauan
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Mangahouanga Stream, Te Hoe River, inland Hawke's Bay, New Zealand. Fossil Record File locality number V19/f6508A (GS13535)
+
+- Occurrence occ:2068268; PBDB collection col:279590. Locality cnm=Puesto Ybarra; place fields cc2=AR, stp=Chubut. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Lefipán. Recorded attribution O’Gorman et al. 2026; PBDB reference ref:95289.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Lefipán Formation, Maastrichtian (Lesta and Ferello, 1972; Page et al., 1999)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Puesto Ybarra Locality, Estancia El Porvenir, middle Chubut River, northwestern Chubut Province, Patagonia, Argentina (Cabrera, 1941)
+
+## Age bounds on the recorded occurrences {#s-281fc32426}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:388855; the smallest recorded lag=66 Ma in occ:388855. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-25b02ded04}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:388855: PBDB original-identification field idn=Tuarangisaurus keyesi n. gen. n. sp.; PBDB taxon-name field tna=Tuarangisaurus keyesi; material note ocm=NZGS CD425 (skull) and CD426 (cervical vertebrae, angular, quadrate, and squamosal); abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=176.830002, lat=-38.916199; paleocoordinate/model fields pm1=gplates, pln=-157.05, pla=-54.87.
+- occ:1498247: PBDB taxon-name field tna=Tuarangisaurus keyesi; material note ocm=NZGS CD427 (incomplete juvenil skeleton); abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=176.750000, lat=-39.000000; paleocoordinate/model fields pm1=gplates, pln=-157.07, pla=-54.98.
+- occ:2068268: PBDB taxon-name field tna=Tuarangisaurus keyesi; material note ocm=MPEF-PV 12001, skull, and mandible (Figures 2–9); cervical vertebrae, two pectoral vertebrae, eight dorsal vertebrae, ribs, and a scapula representing by a natural moulds, (Figures 10–15) humerus, radius, ulna, carpus, phalanges, and gastroliths; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-69.347221, lat=-43.049442; paleocoordinate/model fields pm1=gplates, pln=-57.17, pla=-42.77.
+
+## References attached to each record {#s-174b90445f}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:388855: Recorded attribution Wiffen and Moisley 1986; PBDB reference ref:9968.
+- occ:1498247: Recorded attribution Otero et al. 2018; PBDB reference ref:71990.
+- occ:2068268: Recorded attribution O’Gorman et al. 2026; PBDB reference ref:95289.
 
 ## Evidence limits {#s-1ed003ae11}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 312-item sauropterygia working roster, retain the current same name and a complete parent chain to the recorded Sauropterygia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

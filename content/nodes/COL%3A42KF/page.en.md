@@ -1,4 +1,6 @@
-## Selected sourced accounts for Deirochelys {#s-44457212a7}
+## Recorded classification and direct parent {#s-44457212a7}
+COL26.8 records Deirochelys at genus rank, with Emydidae as its direct parent.
+
 The Deirochelys reading route contains 1 same-name, same-family records with trait-specific citations. Begin with Deirochelys reticularia. Its links follow pinned COL26.8 names while ReptTraits retains the Reptile Database 2023 framework; this is a selected route, not a complete accepted-species list.
 
 ## Comparing the available size measures {#s-31d651b962}
@@ -7,6 +9,6 @@ The size entry for Deirochelys reticularia reports a maximum straight carapace l
 ## Life-history records and their fields {#s-e1d497da89}
 The route links 1 historical life-history accounts; begin with Deirochelys reticularia. Within the archive's declared class scopes, its retained fields are adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), mass at birth or hatching (1 entries). These are counts of entries, not the full accepted-species denominator. Compare only matching events, units and source scopes; fields outside that scope remain uninterpreted.
 
-## Evidence limits {#s-b4a9a75c95}
+## Limits attached to these records {#s-b4a9a75c95}
 This guide presents selected descendant accounts with at least four source-backed focal traits, a size or reproductive value, and a match to COL name and family; it is not a complete descendant list. Reported size maxima belong to named species and are not individual averages, group ranges or identification thresholds. Turtle straight carapace length (SCL) differs from snout–vent length (SVL), so the measures are not combined. Read each field with its source and aggregation rule; historical one-row records do not resolve every taxonomic revision or population difference. Some historical life-history entries include fewer source-linked fields where a cited source applies beyond the named species. Their compilation medians and maximum-longevity records retain those source limits. A family-level route does not establish a shared reproductive mode or life history, and it provides no current conservation assessment or complete biological account. Where a source applies at class level, its field does not support a species-level trait or event interpretation. The source label remains, and no replacement value is inferred.
 

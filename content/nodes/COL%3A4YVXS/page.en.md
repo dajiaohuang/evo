@@ -1,15 +1,15 @@
-## Name and this data account {#s-cb5e8c441c}
-Sphenomorphus tritaeniatus is accepted in pinned COL26.8 within Scincidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-cb5e8c441c}
+COL26.8 records Sphenomorphus tritaeniatus as an accepted species. The ReptTraits v1-2 row gives its Family field as Scincidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-723da3f6b1}
-Recorded dimensions are reported maximum snout–vent length (SVL) 47 mm; female maximum snout–vent length (SVL) 47 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-723da3f6b1}
+The row reports a maximum SVL of 47 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 47 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Where and how it is active {#s-4f317614c8}
-In the entry, active timing is Diurnal. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-4f317614c8}
+The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Evidence limits {#s-a9633ceb8e}
-This supplemental account uses limited trait material and does not count as complete morphology or ecology. This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-a9633ceb8e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-84de9ef49e}
-This batch interprets 3 traits with field-specific source labels. Uninterpreted fields: Maximum male length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum total length ("TL", mm); Mean number of offspring per litter or number of eggs per clutch; Smallest clutch size; Largest clutch size; Number of litters or clutches produced per year; Egg length (mm); Egg width (mm); Microhabitat; Diet; Foraging mode; Reproductive mode; Sex-determining mechanism (GSD or TSD). A supported value/category and source combination is not established here for these fields; relatives and blank entries do not fill species facts.
+## Reading this compiled trait record {#s-84de9ef49e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

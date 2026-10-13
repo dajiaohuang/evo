@@ -1,11 +1,13 @@
-## 从有性状记录的物种开始 {#s-b60f0431c7}
+## 记录分类与直接上级关系 {#s-b60f0431c7}
+COL26.8 将 Bronchocela 记录为属；其直接上级记录为 Draconinae。
+
 Bronchocela 的本批 ReptTraits 阅读路径包含 11 条同名同科、有逐性状出处的物种资料，可从 Bronchocela burmana、Bronchocela cristatella、Bronchocela hayeki、Bronchocela jubata、Bronchocela marmorata 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-b1282a77f2}
 本批已有尺寸记录中，Bronchocela rayaensis 的已报道最大吻肛长（SVL）为 85.4 mm，Bronchocela jubata 为 150 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。
 
-## 从有性状记录的物种开始 {#s-b8aeb87071}
-Bronchocela 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 [Bronchocela celebensis](Bronchocela_celebensis/page.zh.md)、[Bronchocela danieli](Bronchocela_danieli/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-b8aeb87071}
+Bronchocela 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 Bronchocela celebensis、Bronchocela danieli 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-6f32c7a4f3}
 本批已有尺寸记录中，Bronchocela danieli 的已报道最大吻肛长（SVL）为 80 mm，Bronchocela celebensis 为 119.4 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

@@ -1,4 +1,6 @@
-## Read seven historical rows through older Cettia names {#s-13b0740e03}
+## Recorded classification and direct parent {#s-13b0740e03}
+COL26.8 records Horornis Hodgson, 1845 at genus rank, with Cettiidae as its direct parent.
+
 This entry organizes seven guides under COL26.8 Horornis (62V9J) and Cettiidae (7Y5), retaining source family Scotocercidae separately. BirdLife/eBird names and respective Avibase IDs match in seven one-to-one links; BirdTree uses Cettia throughout. Six exact older combinations have catalogue synonyms. The read shards give Horeites brunnescens at brunnescens, which is not substituted as a confirmed Cettia synonym. Correspondence does not establish identical species concepts across versions. The genus record has twelve immediate children; seven guides do not complete genus coverage or natural history.
 
 ## Separate two female birds from unsexed birds {#s-2f31ef9e49}
@@ -10,10 +12,10 @@ All seven have Invertivore/Carnivore and Generalist. The 60% niche and 70% level
 ## Read sex sampling before comparing migration codes {#s-7192c359b2}
 Start with two female birds at parens, then three unsexed at diphone and one at ruficapilla. Compare semi-open shrubland and partial migration at acanthizoides/brunnescens with dense shrubland and sedentary classification at diphone; fortipes shows that shared forest habitat does not require shared migration codes. Trace each older Cettia name, retain the exact-synonym gap at brunnescens and preserve the source family separately.
 
-Group 1: [Horornis acanthizoides](Horornis_acanthizoides/page.en.md), [Horornis parens](Horornis_parens/page.en.md), [Horornis seebohmi](Horornis_seebohmi/page.en.md), [Horornis fortipes](Horornis_fortipes/page.en.md)
+Group 1: Horornis acanthizoides, Horornis parens, Horornis seebohmi, Horornis fortipes
 
-Group 2: [Horornis ruficapilla](Horornis_ruficapilla/page.en.md), [Horornis diphone](Horornis_diphone/page.en.md), [Horornis brunnescens](Horornis_brunnescens/page.en.md)
+Group 2: Horornis ruficapilla, Horornis diphone, Horornis brunnescens
 
-## Evidence limits {#s-3fba608c00}
+## Limits attached to these records {#s-3fba608c00}
 Seven selected historical rows do not complete content for twelve catalogue children. Source Scotocercidae and current Cettiidae remain separate, as do six exact Cettia synonyms and the unconfirmed older combination at brunnescens. Two female birds, unsexed birds, complete sets and separate mass retain their denominators. Measured diet, migration type, routes, breeding, complete natural history remain unsupported.
 

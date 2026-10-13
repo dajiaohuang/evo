@@ -1,18 +1,44 @@
-## Which fossil records this name represents {#s-7b2f12bf5e}
-Shantungosaurus giganteus is accepted in the fixed PBDB dinosaur working roster, with database parent Shantungosaurus. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-7b2f12bf5e}
+Shantungosaurus giganteus is listed in the PBDB snapshot under taxon txn:69513. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-db3a8a7e31}
-Collection Longgujian Quarry (loc. 090414) (Shandong), region code CN, stratum name Hongtuya; database age bracket 83.6–72.2 Ma, early interval Campanian. Collection Kugou Quarry, Zhucheng (Shandong), region code CN, stratum name Hongtuya; database age bracket 83.6–72.2 Ma, early interval Campanian. Collection Zangjiazhuang quarry (loc. 090413) (Shandong), region code CN, stratum name Hongtuya; database age bracket 83.6–72.2 Ma, early interval Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-db3a8a7e31}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-0db8f50af9}
-Selected occurrences have an outer age envelope of 83.6–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:546026; PBDB collection col:57178. Locality cnm=Longgujian Quarry (loc. 090414); place fields cc2=CN, stp=Shandong, cny=Chucheng. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Campanian. Stratigraphic fields sfm=Hongtuya. Recorded attribution Hu 1973; PBDB reference ref:15491.
 
-## Read preservation setting separately from living habitat {#s-4c0804b1e9}
-Longgujian Quarry (loc. 090414) has collection-environment label terrestrial indet.; collection preservation-mode label body. Kugou Quarry, Zhucheng has collection-environment label terrestrial indet.; collection preservation-mode label body. Zangjiazhuang quarry (loc. 090413) has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+East end of Lungkuchian (Longgujian) gully between Xi-jian-dun (Hsichiantun) and Ge-gou (Kokou, Kugou) in the district of Lübiao (Lüpiao) Commune
 
-## Follow collection records back to references {#s-914292e00e}
-Longgujian Quarry (loc. 090414) carries database reference attribution Hu (1973), identifier ref:15491. Kugou Quarry, Zhucheng carries database reference attribution Zhao et al. (2007), identifier ref:30820. Zangjiazhuang quarry (loc. 090413) carries database reference attribution Zhao et al. (2011), identifier ref:55085. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:829423; PBDB collection col:91473. Locality cnm=Kugou Quarry, Zhucheng; place fields cc2=CN, stp=Shandong, cny=Zhucheng. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Campanian. Stratigraphic fields sfm=Hongtuya. Recorded attribution Zhao et al. 2007; PBDB reference ref:30820.
 
-## Evidence limits {#s-7dde5a1ace}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+bonebed(s) Kugou locality, near Zhucheng
+
+- Occurrence occ:873169; PBDB collection col:96815. Locality cnm=Zangjiazhuang quarry (loc. 090413); place fields cc2=CN, stp=Shandong, cny=Zhucheng. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Campanian. Stratigraphic fields sfm=Hongtuya. Recorded attribution Zhao et al. 2011; PBDB reference ref:55085.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"near the transition between the Xingezhuang Formation and the overlying Hongtuya Formation"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Zangjiazhuang, Zhucheng, Shandong Province, China. Approx. 5 km from Kugou site.
+
+## Age bounds on the recorded occurrences {#s-0db8f50af9}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:546026; the smallest recorded lag=72.2 Ma in occ:546026. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-4c0804b1e9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:546026: PBDB original-identification field idn=Shantungosaurus giganteus n. gen. n. sp.; PBDB taxon-name field tna=Shantungosaurus giganteus; material note ocm=GMV V.1780-1; abundance fields abv=5, abu=individuals; PBDB locality-coordinate fields lng=119.326942, lat=35.956108; paleocoordinate/model fields pm1=gplates, pln=115.72, pla=33.89.
+- occ:829423: PBDB original-identification field idn=Zhuchengosaurus maximus n. gen. n. sp.; PBDB taxon-name field tna=Shantungosaurus giganteus; PBDB locality-coordinate fields lng=119.409943, lat=35.995598; paleocoordinate/model fields pm1=gplates, pln=115.79, pla=33.94.
+- occ:873169: PBDB original-identification field idn=Huaxiaosaurus aigahtens n. gen. n. sp.; PBDB taxon-name field tna=Shantungosaurus giganteus; PBDB locality-coordinate fields lng=120.984718, lat=37.465832; paleocoordinate/model fields pm1=gplates, pln=116.84, pla=35.68.
+
+## References attached to each record {#s-914292e00e}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:546026: Recorded attribution Hu 1973; PBDB reference ref:15491.
+- occ:829423: Recorded attribution Zhao et al. 2007; PBDB reference ref:30820.
+- occ:873169: Recorded attribution Zhao et al. 2011; PBDB reference ref:55085.
+
+## What these records can show {#s-7dde5a1ace}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

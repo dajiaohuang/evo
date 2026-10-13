@@ -1,4 +1,6 @@
-## 从 4 个有测量资料的物种页开始 {#s-68c0bbfaed}
+## 记录分类与直接上级关系 {#s-68c0bbfaed}
+COL26.8 将 Botaurus 记录为属；其直接上级记录为 Ardeidae。
+
 Botaurus 本路线包含 4 条有测量资料的物种记录：Botaurus lentiginosus、Botaurus pinnatus、Botaurus poiciloptilus 和 Botaurus stellaris。目录沿用固定的 COL26.8 层级；生物学资料保留 AVONET v7 名称及其取样限制。
 
 ## 用群内范围选择比较对象 {#s-f3c0551137}

@@ -1,5 +1,5 @@
-## 2015 life-history entry {#s-1f569a31c3}
-COL26.8 accepts Spermophilus pygmaeus in Sciuridae. Five focal fields have cited support in same-name, same-family species-level rows. The archive’s summaries may retain historical taxonomy; matching names do not remove inheritance.
+## Body mass and life-history values in the compilation {#s-1f569a31c3}
+The August 2015 Amniote Database entry for *Spermophilus pygmaeus* reports adult body mass 136 g; offspring per litter or eggs per clutch 7.39; conception or fertilization to birth 26.64184 d; age of dependence on food other than maternal milk 25.17 d; longest lifespan record in the compilation 7.1 y. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. Gestation is the source-defined interval from conception or fertilization to birth. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Maximum longevity is the longest record found, not a mean or typical lifespan. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Spermophilus pygmaeus*.
 
 ## Adult mass {#s-06fad6c5e8}
 Historical adult body mass is 136 g. Adult records can combine sexes or unspecified-sex animals, not a full range of individual masses. Birth or hatching mass is not included.
@@ -13,8 +13,8 @@ maximum_longevity_y is 7.1 years, the largest record found under the source meth
 ## Sparse-row references {#s-1c12a679de}
 Source labels include Jones, K., Bielby, J., Cardillo, M. et al. (2009), de Magalhaes and Costa (2009), Ernest et al. (2003) and Hayssen (2008). The archive preserves raw rows, values and full references; row counts are not sample sizes, and repeated citations are not independent replications.
 
-## One EltonTraits record {#s-6994085eea}
-COL26.8 accepts Spermophilus pygmaeus in Sciuridae. EltonTraits 1.0 provides three ecological field groups for the same-name, same-family record under older bird or MSW3 mammal taxonomy; names do not resolve later splits or synonymy.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-6994085eea}
+The EltonTraits 1.0 record for *Spermophilus pygmaeus* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 20%, seeds, nuts and spores 40%, other plant material, including fungi 40% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Spermophilus pygmaeus*.
 
 ## Standardized diet weights {#s-c81597446a}
 Nonzero weights are seeds, nuts and spores 40%, other plant material including fungi 40%, and invertebrates 20%. ABC may include similar congener evidence. These standardize literature descriptions rather than measure diet; zero does not prove never eating, and source categories may be broader than their labels.
@@ -26,8 +26,10 @@ The entry is G, ground, whose source definition includes some aquatic foraging, 
 Daytime feeding is marked 1. Multiple activity fields can be 1 together, so they are not daily time proportions or universal schedules. ABC may include congeneric evidence; genus/family typical values did not fill gaps.
 
 ## Source labels {#s-14b31c5551}
-The field groups carry Ref_1 and metadata:Nowak1999. Diet, strata and activity may have separate sources; matching reference numbers across bird and mammal tables need not mean the same work. Original strings are retained by file, row, group and table; sources were not individually read.
+The field groups carry Ref_1 and metadata:Nowak1999. Diet, strata and activity may have separate sources; matching reference numbers across bird and mammal tables need not mean the same work. Citation labels retain file, row, field-group and reference-table context.
 
-## Life-history and EltonTraits limits {#s-17951aa37a}
-The 2015 values are medians or means of two middle records, except maximum longevity, which uses the largest. They are not individual measurements, ranges, wild means or current surveys; taxonomy may be inherited and source conditions/publications were not uniformly confirmed. EltonTraits supports one stratum field group; diet and activity are withheld under D1 because interpolation, certainty or source-link limits prevent interpretation. No other fields are inferred. Current range and conservation need other sources.
+## How to interpret these historical records {#s-17951aa37a}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
+
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 

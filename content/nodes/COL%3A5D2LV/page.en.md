@@ -1,5 +1,5 @@
-## Find rows through older Geotrygon combinations {#s-68addf1db7}
-Pinned COL26.8 organizes this page at Zentrygon chiriquensis (5D2LV). BirdLife 2020 row 1851 and eBird 2021 row 11193 share the name and Avibase ID AVIBASE-E9476773, with type 1BL to 1eBird; BirdTree row 11134 gives Geotrygon chiriquensis, with type 1BL to 1BT. Read catalogue synonym 3FTLX points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-68addf1db7}
+Catalogue of Life release COL26.8 records Zentrygon chiriquensis (P. L. Sclater, 1856) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-728cc55a32}
 Morphology comprises 4 birds: 1 female, 2 male and 1 unsexed; 4 complete sets. Nostril-to-tip beak length 9.2 mm, tarsus 42.3 mm, unflattened wing 148.2 mm, tail 80.8 mm and hand-wing index 21.4 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

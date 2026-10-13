@@ -1,18 +1,48 @@
-## Which fossil records this name represents {#s-b805e0e08e}
-Bactrosaurus johnsoni is accepted in the fixed PBDB dinosaur working roster, with database parent Bactrosaurus. This guide uses 4 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-b805e0e08e}
+Bactrosaurus johnsoni is listed in the PBDB snapshot under taxon txn:57344. This archived guide contains 4 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-675a9feb63}
-Collection SBDE Quarry 95E5, Erenhot (Nei Mongol), region code CN, stratum name Iren Dabasu; database age bracket 83.6–72.2 Ma, early interval Middle Campanian and late interval Late Campanian. Collection Johnson Quarry, Iren Dabasu (Nei Mongol), region code CN, stratum name Iren Dabasu; database age bracket 83.6–72.2 Ma, early interval Middle Campanian and late interval Late Campanian. Collection Tanankou, Hsingyaokou, Tzoyun (IVPP) (Shanxi), region code CN, stratum name Zouyun; database age bracket 100.5–66 Ma, early interval Late Cretaceous. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-675a9feb63}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-b94e25597c}
-Selected occurrences have an outer age envelope of 100.5–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:667042; PBDB collection col:71840. Locality cnm=Tanankou, Hsingyaokou, Tzoyun (IVPP); place fields cc2=CN, stp=Shanxi. Recorded age bounds: eag 100.5 Ma; lag 66 Ma; PBDB interval fields oei=Late Cretaceous. Stratigraphic fields sfm=Zouyun. Recorded attribution Young 1958; PBDB reference ref:24279.
 
-## Read preservation setting separately from living habitat {#s-27af938ace}
-SBDE Quarry 95E5, Erenhot has collection-environment label fluvial indet.; collection preservation-mode label body. Johnson Quarry, Iren Dabasu has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. Tanankou, Hsingyaokou, Tzoyun (IVPP) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+from Tanankou (Danangou), Hsingyaokou, S of Tzoyun, N Shanxi = Tanangou, Xinyaogou
 
-## Follow collection records back to references {#s-6c45bdaa37}
-SBDE Quarry 95E5, Erenhot carries database reference attribution Godefroit et al. (1998), identifier ref:10471. Johnson Quarry, Iren Dabasu carries database reference attribution Gilmore (1933), identifier ref:13061. Tanankou, Hsingyaokou, Tzoyun (IVPP) carries database reference attribution Young (1958), identifier ref:24279. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:404942; PBDB collection col:38833. Locality cnm=SBDE Quarry 95E5, Erenhot; place fields cc2=CN, stp=Nei Mongol. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Middle Campanian, oli=Late Campanian. Stratigraphic fields sfm=Iren Dabasu, sls=Iren Dabasu, slb=13, slo=bottom to top. Recorded attribution Godefroit et al. 1998; PBDB reference ref:10471.
 
-## Evidence limits {#s-2e35004a1e}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+10 cm thick bonebed, on top of 40-55 cm thick sandy sequence.
+The Iren Dabasu Formation is Middle–Late Campanian according to Xing et al. 2012
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+16 km NE of Erenhot, 7 km E of Iren Nor salt pan
+
+- Occurrence occ:487440; PBDB collection col:48933. Locality cnm=Johnson Quarry, Iren Dabasu; place fields cc2=CN, stp=Nei Mongol. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Middle Campanian, oli=Late Campanian. Stratigraphic fields sfm=Iren Dabasu. Recorded attribution Gilmore 1933; PBDB reference ref:13061.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The Iren Dabasu Formation is Middle–Late Campanian according to Xing et al. 2012
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Erhlien, Iren Dabasu, 8 miles E (S?) of Telegraph Station
+
+## Age bounds on the recorded occurrences {#s-b94e25597c}
+Across these selected PBDB rows, the largest recorded eag=100.5 Ma in occ:667042; the smallest recorded lag=66 Ma in occ:667042. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-27af938ace}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:667042: PBDB taxon-name field tna=Bactrosaurus johnsoni; material note ocm=IVPP V.967; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=112.420006, lat=40.040001; paleocoordinate/model fields pm1=gplates, pln=110.44, pla=37.27.
+- occ:404942: PBDB taxon-name field tna=Bactrosaurus johnsoni; abundance fields abv=5, abu=individuals; PBDB locality-coordinate fields lng=112.178612, lat=43.740833; paleocoordinate/model fields pm1=gplates, pln=106.55, pla=40.39.
+- occ:487440: PBDB original-identification field idn=Bactrosaurus johnsoni n. gen. n. sp.; PBDB taxon-name field tna=Bactrosaurus johnsoni; material note ocm=AMNH 6553, 6365, 6366, 6577; abundance fields abv=3, abu=individuals; PBDB locality-coordinate fields lng=112.183334, lat=43.741669; paleocoordinate/model fields pm1=gplates, pln=106.55, pla=40.39.
+
+## References attached to each record {#s-6c45bdaa37}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:667042: Recorded attribution Young 1958; PBDB reference ref:24279.
+- occ:404942: Recorded attribution Godefroit et al. 1998; PBDB reference ref:10471.
+- occ:487440: Recorded attribution Gilmore 1933; PBDB reference ref:13061.
+
+## What these records can show {#s-2e35004a1e}
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

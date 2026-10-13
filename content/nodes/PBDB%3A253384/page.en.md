@@ -1,18 +1,55 @@
 ## Which fossil records this name represents {#s-955b349ac9}
 Dinochelys whitei is accepted in the fixed PBDB pantestudines working roster, with database parent Dinochelys. This guide uses 7 eligible species-level occurrence records from 7 collections and 5 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-bae81cc811}
-Collection Delta T (AMNH-YPM) (Wyoming), region code US, stratum name Morrison; database age bracket 149.2–143.1 Ma, early interval Tithonian. Collection Quarry 9, producing layer (AMNH-YPM) (Wyoming), region code US, stratum name Morrison; database age bracket 154.8–143.1 Ma, early interval Kimmeridgian and late interval Tithonian. Collection Dinosaur National Monument Quarry (CM) (Utah), region code US, stratum name Morrison; database age bracket 149.2–145.06 Ma, early interval Early Tithonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Dinochelys whitei is listed in the PBDB snapshot under taxon txn:253384. This archived guide contains 7 selected occurrence rows, linked to 7 distinct PBDB collection IDs and 5 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-f45fa6e521}
-Selected occurrences have an outer age envelope of 154.8–143.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+## Named localities and collection records {#s-bae81cc811}
+The archived guide contains 7 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-1792dd3876}
-Delta T (AMNH-YPM) has collection-environment label terrestrial indet.; collection preservation-mode label body. Quarry 9, producing layer (AMNH-YPM) has collection-environment label terrestrial indet.; collection preservation-mode label body. Dinosaur National Monument Quarry (CM) has collection-environment label coarse channel fill; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:409418; PBDB collection col:39431. Locality cnm=Quarry 9, producing layer (AMNH-YPM); place fields cc2=US, stp=Wyoming, cny=Albany. Recorded age bounds: eag 154.8 Ma; lag 143.1 Ma; PBDB interval fields oei=Kimmeridgian, oli=Tithonian. Stratigraphic fields sfm=Morrison. Recorded attribution Prothero 1981; PBDB reference ref:10663.
 
-## Follow collection records back to references {#s-6510b080ca}
-Delta T (AMNH-YPM) carries database reference attribution Prothero (1981), identifier ref:10663. Quarry 9, producing layer (AMNH-YPM) carries database reference attribution Prothero (1981), identifier ref:10663. Dinosaur National Monument Quarry (CM) carries database reference attribution Gaffney (1979), identifier ref:718. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SW 1/4 of sec. 12, T22N, R77W, Como Bluff. Same basic site as original Quarry 9, but exact correlation unclear.
+
+- Occurrence occ:409383; PBDB collection col:39429. Locality cnm=Delta T (AMNH-YPM); place fields cc2=US, stp=Wyoming, cny=Albany. Recorded age bounds: eag 149.2 Ma; lag 143.1 Ma; PBDB interval fields oei=Tithonian. Stratigraphic fields sfm=Morrison. Recorded attribution Prothero 1981; PBDB reference ref:10663.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+near Morrison-Cloverly contact
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+about 1 mile W of Quarry 9
+
+- Occurrence occ:540445; PBDB collection col:21852. Locality cnm=Dinosaur National Monument Quarry (CM); place fields cc2=US, stp=Utah, cny=Uintah. Recorded age bounds: eag 149.2 Ma; lag 145.06 Ma; PBDB interval fields oei=Early Tithonian. Stratigraphic fields sfm=Morrison. Recorded attribution Gaffney 1979; PBDB reference ref:718.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: time_unit, ETE age comment: 0 radiometric intage_max, radiometric intage_min; lower part of formation?
+
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+The "Carnegie Quarry" (quarry exhibit wall), E of Vernal, now the main visitor center in Dinosaur National Monument. A sandstone hogback in sec. 26, T4S, R23E, Salt Lake meridian.
+
+## Age bounds on the recorded occurrences {#s-f45fa6e521}
+Across these selected PBDB rows, the largest recorded eag=154.8 Ma in occ:409418; the smallest recorded lag=143.1 Ma in occ:409383. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-1792dd3876}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:409418: PBDB taxon-name field tna=Dinochelys whitei; PBDB locality-coordinate fields lng=-106.000000, lat=41.893055; paleocoordinate/model fields pm1=gplates, pln=-40.44, pla=28.57.
+- occ:409383: PBDB taxon-name field tna=Dinochelys whitei; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-106.021599, lat=41.893101; paleocoordinate/model fields pm1=gplates, pln=-40.76, pla=29.25.
+- occ:540445: PBDB original-identification field idn=Dinochelys whitei n. gen. n. sp.; PBDB taxon-name field tna=Dinochelys whitei; material note ocm=DNM 986-991 holotype partial skeleton; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-109.300552, lat=40.441387; paleocoordinate/model fields pm1=gplates, pln=-43.88, pla=29.36.
+
+## References attached to each record {#s-6510b080ca}
+The archived guide links the rows to 5 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:409418: Recorded attribution Prothero 1981; PBDB reference ref:10663.
+- occ:409383: Recorded attribution Prothero 1981; PBDB reference ref:10663.
+- occ:540445: Recorded attribution Gaffney 1979; PBDB reference ref:718.
 
 ## Evidence limits {#s-129ba4adea}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 1150-item pantestudines working roster, retain the current same name and a complete parent chain to the recorded Pantestudines storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 7 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

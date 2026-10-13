@@ -1,5 +1,5 @@
-## 2015 archive and name {#s-d0dc336fc2}
-COL26.8 accepts Ratufa indica in Sciuridae. Four focal fields come from same-name, same-family species-level rows in the 2015 life-history archive. Historical summaries may inherit taxonomy; matching names do not remove that effect.
+## Body mass and life-history values in the compilation {#s-d0dc336fc2}
+The August 2015 Amniote Database entry for *Ratufa indica* reports adult body mass 1060 g; offspring per litter or eggs per clutch 1; conception or fertilization to birth 83.699 d; longest lifespan record in the compilation 20 y. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. Gestation is the source-defined interval from conception or fertilization to birth. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Maximum longevity is the longest record found, not a mean or typical lifespan. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Ratufa indica*.
 
 ## Adult body mass {#s-cdde38f354}
 The archive reports adult body mass 1060 g. Adult summaries can combine males, females and records of unspecified sex, so they are not a species-wide range. Birth or hatching mass is not included in this section.
@@ -13,8 +13,8 @@ maximum_longevity_y is 20 years, the largest record found under the source metho
 ## References in the sparse rows {#s-ae0dfaebb0}
 Source labels include Jones, K., Bielby, J., Cardillo, M. et al. (2009), de Magalhaes and Costa (2009), Ernest et al. (2003), and Hayssen (2008). The archive preserves field-level row numbers, values and full reference explanations; row counts are not measured individuals, and repeated citations are not independent replication.
 
-## EltonTraits name association {#s-78b2c1e5f9}
-COL26.8 accepts Ratufa indica in Sciuridae. EltonTraits 1.0 contains three ecological groups for the same name and family, using older bird or MSW3 mammal taxonomy. A name match does not resolve later splits or synonymy.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-78b2c1e5f9}
+The EltonTraits 1.0 record for *Ratufa indica* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 10%, unspecified vertebrates 10%, fruit 30%, seeds, nuts and spores 30%, other plant material, including fungi 20% (confidence code ABC). The foraging-stratum field assigns the arboreal category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Ratufa indica*.
 
 ## Standardized food weights {#s-1c17f1ff0c}
 Nonzero weights are fruit 30%; seeds, nuts and spores 30%; other plant material, including fungi in the source class, 20%; invertebrates 10%; and unspecified vertebrates 10%. ABC can include similar congeners; these are standardized descriptions, not measured diet proportions. Zero is not proof a food is never eaten, and source classes can be broader than their names.
@@ -26,13 +26,19 @@ The record assigns Ar, arboreal, with confidence code A. Metadata groups mammali
 Daytime activity is marked 1. Activity flags can be positive together, so they are not shares of a daily time budget or a universal schedule. ABC may include congeneric evidence; genus or family typical values did not fill gaps.
 
 ## Trace the ecological source labels {#s-c2c6e8d795}
-Field groups carry Ref_1 and metadata:Nowak1999. Diet, stratum and activity may come from different materials; the same Ref number in bird and mammal tables need not be the same source. The archive preserves strings by file, row, group and reference table. Underlying works were not individually read.
+Field groups carry Ref_1 and metadata:Nowak1999. Diet, stratum and activity may come from different materials; the same Ref number in bird and mammal tables need not be the same source. The archive preserves strings by file, row, group and reference table.
 
-## Historical life-history and foraging limits {#s-1526530155}
-The 2015 values are medians or means of two middle records, except maximum longevity, which is the largest found. They are not individual measurements, variation ranges, mean wild lifespan or current surveys. The compilation can inherit data across historical taxa; name/family matches do not prove COL26.8 equivalence or remove inheritance. Conditions and cited publications were not uniformly verified. EltonTraits weights standardize literature descriptions, not direct intake, and ABC may include congeneric evidence. Current ecology, range, conservation and missing traits require other sources.
+## How to interpret these historical records {#s-1526530155}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-## PanTHERIA name and date {#s-2cfea4c1ee}
-COL26.8 accepts Ratufa indica in Sciuridae. PanTHERIA 1.0 uses its MSW05 entry in the August 2008 table; biological-data collection ended in June 2004. This association does not resolve later taxonomy.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
+
+Ernest’s historical compilation generally gives equal-weight averages across listed sources, with possible reuse of the same primary source. The cited books and papers remain provenance; they do not become new direct observations here.
+
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass in the historical table {#s-2cfea4c1ee}
+The August 2008 PanTHERIA row for *Ratufa indica* records adult body mass 1060 g. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Ratufa indica*.
 
 ## PanTHERIA adult mass {#s-edd87a4f42}
 The historical adult-mass summary is 1060 g. PanTHERIA adjusts for sex and uses medians; adult or age-unspecified records may contribute, but pregnant females are excluded. It is not a single specimen measurement or full range.
@@ -52,8 +58,8 @@ This is a limited historical entry outside an earlier multi-field threshold. It 
 ## Eight focal fields not interpreted {#s-cb7ed3d198}
 Two of ten focal fields have usable positive values. The other eight are adult head–body length, forearm length, litter size, weaning age, sexual maturity, interbirth interval, social-group size and individual home-range area. Missing values are table gaps, not evidence of absent traits; relatives and extrapolations do not replace them.
 
-## Ernest table and historical name {#s-a83b719903}
-COL26.8 accepts Ratufa indica in Sciuridae. Ernest’s 2003 same-name, same-family entry follows Wilson and Reeder (1993); matching names do not settle later splits or lumps.
+## Life-history values including a maximum lifespan record {#s-a83b719903}
+The 2003 Ernest life-history compilation lists gestation 2.75 months; maximum recorded lifespan 240 months; litter size 1 offspring for its historical *Ratufa indica* row. These are compilation values; the selected record does not identify a single sample or uniformly documented wild/captive conditions. The lifespan value is a maximum record, not an average. The MSW93/MSW05 name correspondence does not establish equivalence to the pinned COL26.8 concept for *Ratufa indica*.
 
 ## Active gestation {#s-dfa3e65632}
 The compiled average is 2.75 months. This measures active fetal development and excludes delayed implantation; it summarizes sources rather than setting a timetable for every individual.
@@ -68,5 +74,5 @@ The historical maximum is 240 months. Unlike averaged traits, the table keeps th
 Of eight fields other than adult mass, three have interpreted positive historical values. Uninterpreted fields are newborn mass, age at milk independence, mass at milk independence, female age at first reproduction and litters per female per year. Their absence does not establish absent traits or justify borrowing from other tables.
 
 ## Ernest compilation method and limits {#s-c7ccb4346f}
-This is a 2003 historical compilation, not a species monograph; taxonomy follows Wilson and Reeder (1993), with a conservative association also using PanTHERIA’s MSW93/MSW05 one-to-one name table. Equivalence to COL26.8 remains unproven. Except maximum lifespan, values generally average literature inputs, including individual data, published means or range midpoints; sources are equally weighted without sample-size weighting, and repeated primary sources cannot be excluded. Summaries are not local parameters, universal timetables or conservation data. The batch interprets eight non-mass fields; original adult mass is retained without a new comparison, and cited species entries were not individually read.
+This is a 2003 historical compilation, not a species monograph; taxonomy follows Wilson and Reeder (1993), with a conservative association also using PanTHERIA’s MSW93/MSW05 one-to-one name table. Equivalence to COL26.8 remains unproven. Except maximum lifespan, values generally average literature inputs, including individual data, published means or range midpoints; sources are equally weighted without sample-size weighting, and repeated primary sources cannot be excluded. Summaries are not local parameters, universal timetables or conservation data. The batch interprets eight non-mass fields; original adult mass is retained without a new comparison
 

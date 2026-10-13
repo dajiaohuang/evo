@@ -1,26 +1,26 @@
-## The 2015 life-history entry and this name {#s-4fa081c201}
-Thraupis palmarum is accepted in pinned COL26.8 within Thraupidae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-4fa081c201}
+The August 2015 database has a same-name, same-family record for Thraupis palmarum. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-81cce2b2ce}
-Historical summary values are adult body mass 38.25 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-81cce2b2ce}
+The August 2015 compilation reports adult body mass 38.25 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-7f4dfc308d}
-Available compilation fields are offspring per litter or eggs per clutch 2 offspring/eggs; oviposition to hatching 14 d; age at flight capability (leaving the nest in some source material) 18.5 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-7f4dfc308d}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2; oviposition-to-hatching interval 14 days; age at flight capability (some records mark nest departure) 18.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-574635702a}
-Same-name sparse rows carry source labels including Dunning, 1992; Boback and Guyer, 2003; Bennett, 1986; Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-574635702a}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-cbc681ebef}
-Thraupis palmarum is accepted in pinned COL26.8 within Thraupidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-cbc681ebef}
+EltonTraits 1.0 has a same-name, same-family record for Thraupis palmarum covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-5147050997}
-The archive’s nonzero food weights are fruit 60%; seeds, nuts and spores included in this category 20%; invertebrates 10%; nectar, pollen and plant exudates 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-5147050997}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; fruit 60%; nectar 10%; seeds or nuts 20%. Its dominant five-category label is FruiNect. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-659db70602}
-Foraging-stratum weights flagged as species-level in the archive are in or just above the canopy 70%; trees or high bushes from 2 m upward but below the canopy 20%; air well above vegetation or other structures 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-659db70602}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 20%; in the canopy 70%; in the air 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-8070548c7c}
-The used groups carry labels Ref_21. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-8070548c7c}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: The Tanagers. 1999. By Morton Isler. Smithsonian Press.; foraging: The Tanagers. 1999. By Morton Isler. Smithsonian Press.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-06bf1d62a0}
 This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;

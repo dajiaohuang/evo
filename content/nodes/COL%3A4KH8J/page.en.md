@@ -1,29 +1,29 @@
-## The name and this data account {#s-96acdbf9ab}
-Ploceus hypoxanthus is accepted in COL26.8 within Ploceidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 8 measured individuals, 8 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-96acdbf9ab}
+The AVONET v7 row for Ploceus hypoxanthus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 11.9 mm. The row records 8 measured individuals, 8 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-3c44dd69b7}
-Recorded mean beak measurements are 11.9 mm from the anterior nostril edge to the tip, 8.2 mm in width and 11 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-3c44dd69b7}
+AVONET records culmen length (bill tip to skull base) 17 mm; beak length (nostril front edge to tip) 11.9 mm; beak width at the nostril front edge 8.2 mm; beak depth at the nostril front edge 11 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-441633eff2}
-Mean unflattened wing length from the carpal joint to the longest primary is 66.9 mm; mean tarsus length is 20.8 mm. Compiled mean mass is 18.6 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-441633eff2}
+AVONET records unflattened wing length 66.9 mm; tarsus length 20.8 mm; distance from first secondary tip to longest primary tip 10.7 mm; length to first secondary tip 56.2 mm; hand-wing index 15.9; tail length 49.9 mm; species-average body mass 18.6 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-f885c28cdd}
-The dataset assigns habitat Wetland, trophic niche Granivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-f885c28cdd}
+AVONET classifies Ploceus hypoxanthus as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Granivore (source threshold at least 60% from seeds or nuts); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-393afbb5db}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -6.65° to 20.86°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-393afbb5db}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -6.65° to 20.86°. The mapped range area is 861169.04 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-c1bf9e0b4f}
-Ploceus hypoxanthus is accepted in pinned COL26.8 within Ploceidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-c1bf9e0b4f}
+EltonTraits 1.0 has a same-name, same-family record for Ploceus hypoxanthus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-29411b6a91}
-The archive’s nonzero food weights are seeds, nuts and spores included in this category 90%; invertebrates 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-29411b6a91}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; seeds or nuts 90%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-bc6b4778e7}
-Foraging-stratum weights flagged as species-level in the archive are ground 50%; in or just above the canopy 20%; understory, edges or shrubs below 2 m 10%; trees or high bushes from 2 m upward but below the canopy 10%; air well above vegetation or other structures 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-bc6b4778e7}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 50%; in the understory 10%; in mid-height or high vegetation 10%; in the canopy 20%; in the air 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-4f7e07b59b}
-The used groups carry labels Ref_15, Ref_32. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-4f7e07b59b}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.15.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Fry, C. H., E. K. Urban, and S. Keith. 2004. The birds of Africa, Volume VII. Christopher Helm London.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-292e8f36a0}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

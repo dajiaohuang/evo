@@ -1,5 +1,5 @@
-## 沿 Pomatorhinus 旧名定位 {#s-7ac49baa34}
-本页按COL26.8 Erythrogenys swinhoei（NRMTV）、Timaliidae（H9M）组织。BirdLife 2020第8337行与eBird 2021第3773行同名，eBird两侧Avibase ID同为AVIBASE-E4AFAF52，类型1BL to 1eBird。BirdTree第3757行记Pomatorhinus swinhoei，类型1BL to 1BT；逐字目录异名4LQX5指向接受种NRMTV。名称关系提供定位，不证明不同版本物种范围完全相同。
+## COL26.8 中的名称身份 {#s-7ac49baa34}
+《Catalogue of Life》COL26.8（2026-08-20）将 Erythrogenys swinhoei (A. David, 1874) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-da50e28e1b}
 形态共 5 只鸟：雌 2、雄 3、性别未定 0；完整测量 3 只。鼻孔前缘至喙尖 24 mm、跗蹠 36.3 mm、未压平翼长 96.2 mm、尾长 94 mm、手翼指数 5.6 是历史行均值。总数大于完整数，不称每只鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；指数不是飞行速度，翼长也不是实测飞行能力。

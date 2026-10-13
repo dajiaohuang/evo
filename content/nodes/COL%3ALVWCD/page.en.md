@@ -1,5 +1,5 @@
-## Find rows through older Turdoides combinations {#s-e4bfff6af4}
-Pinned COL26.8 organizes this page at Argya aylmeri (LVWCD). BirdLife 2020 row 4820 and eBird 2021 row 950 share the name and Avibase ID AVIBASE-987C8F6E, with type 1BL to 1eBird; BirdTree row 952 gives Turdoides aylmeri, with type 1BL to 1BT. Read catalogue synonym 59PJL points to this accepted ID. Source family Leiotrichidae and catalogue Leiothrichidae retain their spellings. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-e4bfff6af4}
+Catalogue of Life release COL26.8 records Argya aylmeri Shelley, 1885 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-81feb72700}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 12.5 mm, tarsus 23.9 mm, unflattened wing 73.4 mm, tail 114.6 mm and hand-wing index 6.6 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

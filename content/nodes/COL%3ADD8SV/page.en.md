@@ -1,5 +1,5 @@
-## The accepted name and its historical links {#s-9ab553ad26}
-Pinned COL26.8 organizes this page at Hydrobates tethys (DD8SV). BirdLife 2020 row 10071 and eBird 2021 row 4929 share the name and Avibase ID AVIBASE-7BE70E1F, with type 1BL to 1eBird; BirdTree row 4906 gives Oceanodroma tethys, with type 1BL to 1BT. Read catalogue synonym 48C4G points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-9ab553ad26}
+Catalogue of Life release COL26.8 records Hydrobates tethys (Bonaparte, 1852) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Five sampled birds and their complete measurement sets {#s-f6acb2daef}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8.3 mm, tarsus 21.8 mm, unflattened wing 129.8 mm, tail 58.8 mm and hand-wing index 59.4 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

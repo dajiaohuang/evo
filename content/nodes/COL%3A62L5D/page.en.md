@@ -1,4 +1,6 @@
-## Species pages in this batch {#s-1017b77da7}
+## Recorded classification and direct parent {#s-1017b77da7}
+COL26.8 records Campephilus at genus rank, with Picinae as its direct parent.
+
 The Campephilus route has 10 measured species records. This page starts with Campephilus gayaquilensis, Campephilus guatemalensis, Campephilus imperialis, Campephilus leucopogon and Campephilus magellanicus. The hierarchy follows pinned COL26.8; AVONET v7 values retain historical names and sampling scope.
 
 ## Examples for comparison {#s-7b0e7ca97f}
@@ -13,7 +15,7 @@ Eight historical entries are included here; begin with Campephilus haematogaster
 ## A second ecological set {#s-d2a7ac321e}
 Three historical entries are represented: Campephilus pollens, Campephilus gayaquilensis and Campephilus leucopogon. Food-category weights occur in 1, foraging strata in 2, and mammalian activity periods in 0. The coverage is specific to this batch; it does not define traits shared across Campephilus.
 
-## Evidence limits {#s-f2651a401e}
+## Limits attached to these records {#s-f2651a401e}
 The measured examples cover this batch’s one-to-one historical crosswalks and matching catalogue name and family, not every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals. Each species page retains its own taxonomic, sampling and biological limits.
 The life-history route includes only this batch’s same-name, same-family records with at least 3 source-supported focal fields. Compilation medians, maximum-lifespan records and historical taxonomic inheritance still qualify the values. This group route does not imply a shared reproductive mode or life history, and does not complete the group’s biology or current status.
 The ecology routes group this batch’s unique same-name, same-family entries by usable field count. They do not make descendant food types, weights or activity patterns shared traits. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields remain entry-specific limits; complete monographs are not provided.

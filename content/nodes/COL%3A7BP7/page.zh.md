@@ -7,3 +7,6 @@ COL26.8 属级 ID 7BP7 现将所选 Saguinus 页面连到 S. bicolor（4TZBJ）�
 ## 把群体记录与个体数量分开读 {#s-aa1e74bdef}
 [Saguinus ursula](Saguinus_ursula/page.zh.md) 以 Gurupi 调查说明目击、群体大小与模型密度的记录数为何不同。先辨认单位和方法，再阅读局地丰度结果。
 
+## 名录分类记录 {#col26-8-identity}
+在固定的 COL26.8 名录中，Saguinus Hoffmannsegg, 1807 被记录为接受属。
+

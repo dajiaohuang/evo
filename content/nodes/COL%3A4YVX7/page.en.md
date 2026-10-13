@@ -1,15 +1,15 @@
-## A compiled view of one skink {#s-8f720a9faa}
-What can a compiled species record tell us about Sphenomorphus taiwanensis? The pinned COL26.8 catalogue places it in the skink family Scincidae. Its ReptTraits row combines a length record with notes on activity and reproduction, but draws on several trait-specific sources and the workbook’s 2023 name framework. Read these as reported summaries, not as observations of one population or a description of every population.
+## COL26.8 name and the ReptTraits row {#s-8f720a9faa}
+COL26.8 records Sphenomorphus taiwanensis as an accepted species. The ReptTraits v1-2 row gives its Family field as Scincidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The measured length stops at the vent {#s-9d17ea9c3c}
-The row gives a maximum snout–vent length of 68.7 mm and a female maximum of 53.1 mm. Snout–vent length measures from the snout to the body opening and leaves out the tail. These are compiled reported maxima, not the usual size of an animal or a ceiling on growth. The two sex-labelled values may come from different studies or places, so their difference alone does not measure size differences within a population.
+## Length values in the archived records {#s-9d17ea9c3c}
+The row reports a maximum SVL of 68.7 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 53.1 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## A rock-associated, daytime record {#s-315f27943a}
-The cited entry calls its microhabitat saxicolous, meaning associated with rocky settings, and classifies activity as diurnal. It also records active foraging: the animal is described as searching for food rather than relying only on prey passing within reach. The categories do not identify a particular prey or cover every setting and time used by the species.
+## Habitat use and activity labels {#s-315f27943a}
+The microhabitat field classifies the recorded position as rock-dwelling (Saxicolous). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Meiri 2018.
 
-## Egg laying and a compiled clutch estimate {#s-db54fb5d7c}
-The source labels the reproductive mode oviparous, or egg-laying. Its consolidated clutch estimate is 5.22 eggs, with reported clutch means spanning 4 to 8. A decimal here is a property of the summary, not a fraction of an egg in a nest: the compilation can summarize reported means or, when those are absent, reported endpoints. The endpoints therefore do not guarantee the smallest and largest clutches actually laid.
+## Reproductive fields in ReptTraits {#s-db54fb5d7c}
+The compiled mean for offspring per litter or eggs per clutch is 5.22. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 4; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 8; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## What the summary cannot establish {#s-268cb31926}
-The measurements and categories are summaries joined under the workbook’s 2023 name framework; the shared name does not by itself prove that this historical record and the pinned COL26.8 concept cover exactly the same specimens. A single row also compresses differences among sexes, ages, places and populations. It supplies no prey list, current range or conservation assessment, and the source labels preserve the citation chain rather than showing that every original study was independently rechecked here.
+## Reading this compiled trait record {#s-268cb31926}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

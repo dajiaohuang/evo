@@ -1,11 +1,13 @@
-## 从有性状记录的物种开始 {#s-d0200f46bb}
+## 记录分类与直接上级关系 {#s-d0200f46bb}
+COL26.8 将 Gymnodactylus 记录为属；其直接上级记录为 Phyllodactylidae。
+
 Gymnodactylus 的本批 ReptTraits 阅读路径包含 4 条同名同科、有逐性状出处的物种资料，可从 Gymnodactylus amarali、Gymnodactylus darwinii、Gymnodactylus geckoides、Gymnodactylus vanzolinii 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-70dc1a22e8}
 本批已有尺寸记录中，Gymnodactylus vanzolinii 的已报道最大吻肛长（SVL）为 52.3 mm，Gymnodactylus darwinii 为 59.1 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。
 
-## 从有性状记录的物种开始 {#s-9447b403f7}
-Gymnodactylus 的本批 ReptTraits 阅读路径包含 1 条同名同科、有逐性状出处的物种资料，可从 [Gymnodactylus guttulatus](Gymnodactylus_guttulatus/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-9447b403f7}
+Gymnodactylus 的本批 ReptTraits 阅读路径包含 1 条同名同科、有逐性状出处的物种资料，可从 Gymnodactylus guttulatus 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-37734c520c}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

@@ -1,5 +1,5 @@
-## Tracing the historical Zoothera name {#s-7572c1fa5e}
-Pinned COL26.8 organizes this page at Geokichla guttata (6KBJC). AVONET v7 BirdLife 2020 row 8554 and eBird 2021 row 4315 share the name and Avibase ID AVIBASE-60A39CF9; BirdTree row 4296 gives Zoothera guttata, with match type 1BL to 1BT. Read COL older-combination record 5D7NQ points to this accepted ID. These links locate data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-7572c1fa5e}
+Catalogue of Life release COL26.8 records Geokichla guttata (Vigors, 1831) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured birds and beak/wing values {#s-3ea861221a}
 Morphology covers 5 birds: 1 female, 1 male and 3 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 16.4 mm, tarsus 31.6 mm, unflattened wing 116.4 mm and hand-wing index 28.6 are summaries in this historical row. Inference=NO does not establish equal counts across fields; complete-set birds do not supply every field’s denominator. The index is Kipp’s distance/wing length ×100, not flight speed, migration distance or a range-wide performance test.

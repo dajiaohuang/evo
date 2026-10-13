@@ -1,4 +1,6 @@
-## A route to one historical species entry {#s-d2b1791c43}
+## Recorded classification and direct parent {#s-d2b1791c43}
+COL26.8 records Paulamys at genus rank, with Murinae as its direct parent.
+
 Catalogue of Life COL26.8 records Paulamys as an accepted genus. The EltonTraits 1.0 route in this batch contains one historical entry grouped under that pinned classification: Paulamys naso. It has one food field group and one foraging-stratum field group, but no mammalian activity-period field group. These are counts in this compilation, not a survey of every Paulamys record or evidence that the animals lack an activity pattern. The methods record describes semiquantitative translation and interpolation, so the fields should be read as historical compiled entries rather than direct measurements of the genus.
 
 ## What this route does not establish {#s-03dc5c4804}

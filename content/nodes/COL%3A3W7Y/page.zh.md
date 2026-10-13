@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-c185e1b32a}
+## 记录分类与直接上级关系 {#s-c185e1b32a}
+COL26.8 将 Crotalus 记录为属；其直接上级记录为 Crotalinae。
+
 Crotalus 的本批 ReptTraits 阅读路径包含 28 条同名同科、有逐性状出处的物种资料，可从 Crotalus adamanteus、Crotalus aquilus、Crotalus atrox、Crotalus basiliscus、Crotalus catalinensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-7f4fd3735d}
@@ -9,12 +11,12 @@ Crotalus 的本批路线包含 20 条历史生活史导读，可从 Crotalus ada
 
 ## 证据边界 {#s-8bbc96eab7}
 本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
-本路线包含原始筛选后写入的同名同科历史条目；部分在撤下字段范围疑点后低于原焦点字段门槛，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+本路线包含原始筛选后写入的同名同科历史条目；部分在撤下字段范围疑点后低于原焦点字段门槛，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
-## 从有性状记录的物种开始 {#s-a8231f0d47}
-Crotalus 的本批 ReptTraits 阅读路径包含 16 条同名同科、有逐性状出处的物种资料，可从 [Crotalus angelensis](Crotalus_angelensis/page.zh.md)、[Crotalus armstrongi](Crotalus_armstrongi/page.zh.md)、[Crotalus campbelli](Crotalus_campbelli/page.zh.md)、[Crotalus concolor](Crotalus_concolor/page.zh.md)、[Crotalus ericsmithi](Crotalus_ericsmithi/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-a8231f0d47}
+Crotalus 的本批 ReptTraits 阅读路径包含 16 条同名同科、有逐性状出处的物种资料，可从 Crotalus angelensis、Crotalus armstrongi、Crotalus campbelli、Crotalus concolor、Crotalus ericsmithi 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-35372cc251}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

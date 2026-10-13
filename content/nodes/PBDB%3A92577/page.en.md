@@ -1,9 +1,12 @@
-## Organize fossil records by source classification {#s-c7be885f0e}
-Altiatlasius is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 1 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## How PBDB organizes fossil occurrences {#s-c7be885f0e}
+PBDB groups the selected fossil-occurrence records for *Altiatlasius* under its recorded classification path and links them to collections, strata, age brackets, and references. This hierarchy organizes database records; it remains distinct from COL taxonomy and is not a phylogenetic hypothesis.
 
-## Compare collections, strata and age brackets {#s-4224342f4a}
-Start with Altiatlasius koulchii and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 1 selected occurrence from 1 collection; example stratum names are Jbel Guersif. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Occurrence records and their strata {#s-4224342f4a}
+The route includes *Altiatlasius koulchii* and links its occurrence record to a named collection, stratum and age bracket. Read the original reference and identification qualification with that record before using the locality or date. These database fields do not establish a genus-wide duration.
 
-## Evidence limits {#s-c734118f6c}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## How to interpret the displayed age brackets {#s-c734118f6c}
+These PBDB age brackets bound the registered occurrences shown here. They do not by themselves establish a taxon’s global first or last appearance or a clade’s origin or extinction.
+
+## An isolated-tooth sample with disputed placement {#tooth-hypodigm}
+*Altiatlasius* is represented by a small isolated-tooth hypodigm that includes holotype THR 141 from Adrar Mgorn 1. The broad sample envelope is approximately 59.2–56 Ma, within the Thanetian; tooth positions and placement among crown primates remain disputed.
 

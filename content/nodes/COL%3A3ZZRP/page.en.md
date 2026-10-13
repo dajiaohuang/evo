@@ -1,29 +1,29 @@
-## The name and this data account {#s-c300c9f8e2}
-Mesitornis variegatus is accepted in COL26.8 within Mesitornithidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 1 measured individuals, 1 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-c300c9f8e2}
+The AVONET v7 row for Mesitornis variegatus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 11.4 mm. The row records 1 measured individuals, 1 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-5dcbdd07b5}
-Recorded mean beak measurements are 11.4 mm from the anterior nostril edge to the tip, 3.6 mm in width and 4.6 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-5dcbdd07b5}
+AVONET records culmen length (bill tip to skull base) 29.2 mm; beak length (nostril front edge to tip) 11.4 mm; beak width at the nostril front edge 3.6 mm; beak depth at the nostril front edge 4.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-e5f04b37a8}
-Mean unflattened wing length from the carpal joint to the longest primary is 109 mm; mean tarsus length is 33.5 mm. Compiled mean mass is 110 g, with source category Updated_literature. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-e5f04b37a8}
+AVONET records unflattened wing length 109 mm; tarsus length 33.5 mm; distance from first secondary tip to longest primary tip 11.1 mm; length to first secondary tip 97.9 mm; hand-wing index 10.2; tail length 95 mm; species-average body mass 110 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-a42e1718dc}
-The dataset assigns habitat Woodland, trophic niche Invertivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-a42e1718dc}
+AVONET classifies Mesitornis variegatus as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-d53b99b233}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -20.71° to -12.67°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-d53b99b233}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -20.71° to -12.67°. The mapped range area is 39538.16 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-0d1e45cba5}
-Mesitornis variegatus is accepted in pinned COL26.8 within Mesitornithidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-0d1e45cba5}
+EltonTraits 1.0 has a same-name, same-family record for Mesitornis variegatus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-90f94f10be}
-The archive’s nonzero food weights are invertebrates 80%; seeds, nuts and spores included in this category 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-90f94f10be}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; seeds or nuts 20%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-2adbd9a7c4}
-Foraging-stratum weights flagged as species-level in the archive are ground 50%; understory, edges or shrubs below 2 m 50%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-2adbd9a7c4}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 50%; in the understory 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-0c3cea5ad3}
-The used groups carry labels Ref_3. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-0c3cea5ad3}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.3.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.3.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-17717a1e06}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

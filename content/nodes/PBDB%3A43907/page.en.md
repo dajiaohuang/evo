@@ -1,19 +1,47 @@
 ## Which fossil records this name represents {#s-e68f2b7b90}
 Tubulodon atopum is accepted in the fixed PBDB mammalia working roster, with database parent Tubulodon. This guide uses 5 eligible species-level occurrence records from 5 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 3 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-e64dae9be8}
-Collection Elk Creek (400 m) (Wyoming), region code US, stratum name Willwood; database age bracket 56–51.1 Ma, early interval Wasatchian. Collection MP-152 (Wyoming), region code US, stratum name Willwood; database age bracket 56–51.1 Ma, early interval Graybullian. Collection MP-86 (Wyoming), region code US, stratum name Willwood; database age bracket 56–51.1 Ma, early interval Wasatchian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Tubulodon atopum is listed in the PBDB snapshot under taxon txn:43907. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-8171455afc}
-Selected occurrences have an outer age envelope of 56–51.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Elk Creek (400 m), occurrence occ:169752 (56–51.1 Ma); one supplying the younger bound is Elk Creek (400 m), occurrence occ:169752 (56–51.1 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-e64dae9be8}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-aac66c3879}
-Elk Creek (400 m) has collection-environment label terrestrial indet.; collection preservation-mode label body. MP-152 has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. MP-86 has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:169752; PBDB collection col:15535. Locality cnm=Elk Creek (400 m); place fields cc2=US, stp=Wyoming, cny=Big Horn. Recorded age bounds: eag 56 Ma; lag 51.1 Ma; PBDB interval fields oei=Wasatchian. Stratigraphic fields sfm=Willwood, sls=ElkCr, slb=400, slo=bottom to top. Recorded attribution Alroy 2002; PBDB reference ref:6294.
 
-## Follow collection records back to references {#s-33db151f6a}
-Elk Creek (400 m) carries database reference attribution Alroy (2002), identifier ref:6294. MP-152 carries database reference attribution Alroy (2002), identifier ref:6294. MP-86 carries database reference attribution Clyde (1997), identifier ref:11717. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:171105; PBDB collection col:15701. Locality cnm=MP-152; place fields cc2=US, stp=Wyoming, cny=Park. Recorded age bounds: eag 56 Ma; lag 51.1 Ma; PBDB interval fields oei=Graybullian. Stratigraphic fields sfm=Willwood, sls=Foster Gulch - Y U Bench, slb=980, slo=bottom to top. Recorded attribution Alroy 2002; PBDB reference ref:6294.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be late Graybullian
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Gilmore Hill T52N, R98W, sect. 6
+
+- Occurrence occ:457620; PBDB collection col:15692. Locality cnm=MP-86; place fields cc2=US, stp=Wyoming, cny=Park. Recorded age bounds: eag 56 Ma; lag 51.1 Ma; PBDB interval fields oei=Wasatchian. Stratigraphic fields sfm=Willwood, sls=Foster Gulch - Y U Bench, slb=985, slo=bottom to top. Recorded attribution Clyde 1997; PBDB reference ref:11717.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+county assignment uncertain/YU Bench NW, T52N, R98W, sect. 8
+
+## Age bounds on the recorded occurrences {#s-8171455afc}
+Across these selected PBDB rows, the largest recorded eag=56 Ma in occ:169752; the smallest recorded lag=51.1 Ma in occ:169752. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-aac66c3879}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:169752: PBDB taxon-name field tna=Tubulodon atopum; PBDB locality-coordinate fields lng=-108.000000, lat=44.500000; paleocoordinate/model fields pm1=gplates, pln=-79.86, pla=52.19.
+- occ:171105: PBDB taxon-name field tna=Tubulodon atopum; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-108.681999, lat=44.507149; paleocoordinate/model fields pm1=gplates, pln=-80.61, pla=52.34.
+- occ:457620: PBDB original-identification field idn=Alocodontulum atopum; PBDB taxon-name field tna=Tubulodon atopum; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-108.670540, lat=44.497910; paleocoordinate/model fields pm1=gplates, pln=-80.6, pla=52.33.
+
+## References attached to each record {#s-33db151f6a}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:169752: Recorded attribution Alroy 2002; PBDB reference ref:6294.
+- occ:171105: Recorded attribution Alroy 2002; PBDB reference ref:6294.
+- occ:457620: Recorded attribution Clyde 1997; PBDB reference ref:11717.
 
 ## Evidence limits {#s-2c0a806ac3}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

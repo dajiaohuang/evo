@@ -1,15 +1,15 @@
-## Name and this data account {#s-5696cccd5b}
-COL26.8 lists Trimeresurus albolabris as an accepted species in Viperidae. Its ReptTraits v1-2 entry follows the Reptile Database 2023 name framework and links each trait to cited sources. The single species row summarizes the compiled record, not a uniform condition across populations.
+## COL26.8 name and the ReptTraits row {#s-5696cccd5b}
+COL26.8 records Trimeresurus albolabris as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-17bbc2d378}
-The compiled maximum total length (TL), including the tail, is 1,000 mm. Snout–vent length (SVL) stops at the vent and measures something different. A reported maximum summarizes the source material; it is not a typical size or an absolute growth limit. Values for males and females may come from separate studies or localities, so they do not by themselves establish size differences within a population.
+## Length values in the archived records {#s-17bbc2d378}
+The row reports maximum total length (TL) of 1000 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-cb13c9f995}
-The entry records both arboreal and terrestrial microhabitats, classifies the diet as carnivorous, and labels activity as nocturnal. These broad categories do not list every habitat or set a fixed schedule. “Carnivorous” does not identify prey, and the record does not show whether these patterns are the same across populations, seasons, or life stages.
+## Habitat use and activity labels {#s-cb13c9f995}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/ground-dwelling (Terrestrial) [source label: Arboreal/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018.
 
-## How to read reproductive records {#s-3a60808677}
-The entry retains the label viviparous for reproductive mode. Its clutch or litter summaries may be midpoints of reported means, or of reported extremes when means are unavailable; they are not necessarily averages of observed clutches. A fractional summary is not a count of part of a young animal. The dataset defines its lowest and highest values as endpoints of reported means, not as the smallest and largest individual clutches. These labels do not establish fetal nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-3a60808677}
+The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-7cec6f6c51}
-The ReptTraits v1-2 row uses the Reptile Database 2023 taxonomic framework and retains sources for individual traits. One row compresses variation in sex, age, locality, and population, and a shared name or family does not guarantee that later taxonomic concepts match. The reported maximum and reproductive summaries describe compiled records rather than every individual or clutch. Some dataset mass values are estimates from length equations; juvenile-length fields also have differing labels and definitions. Neither is treated here as a direct species measurement. This entry does not establish conservation status, venom properties, current distribution, or population trends.
+## Reading this compiled trait record {#s-7cec6f6c51}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

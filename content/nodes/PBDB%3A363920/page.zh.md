@@ -26,23 +26,54 @@ Xericeps curvirostris 的正模 FSAC-KK 10700 是一段齿骨联合，存于卡�
 2018 年作者确认非 tapejarid 的 azhdarchoid 归属，但把更细关系留作未决；同文已提出 Alanqa 正模可能是吻部，以及两名可能对应同种或近缘种上下颌的解释。2020 年继续提出可能异名，并要求更完整材料确认或否定。形态相似与同一地层出现不能证明是同一个体或同种；本页保留固定 PBDB 名称和父链，不合并两种记录。
 
 ## 对读颌部形态，不把沉积环境当作食谱 {#s-9888236e94}
-对读 [Alanqa saharica](../../../Azhdarchidae/Alanqa/Alanqa_saharica/page.zh.md) 的笔直颌缘与正模改释，再看 Xericeps 的上弯与腹侧沟。2018 年论文把大陆沉积背景、不同颌形与可能地面取食联系起来，但明确说碎片颌部难以确定食性，生态角色需要更完整材料。具名采集和宽年代区间仍从本页数据库记录分别阅读，不把现代发现地的沙漠或名称词源写成古代栖地。
+对读 Alanqa saharica 的笔直颌缘与正模改释，再看 Xericeps 的上弯与腹侧沟。2018 年论文把大陆沉积背景、不同颌形与可能地面取食联系起来，但明确说碎片颌部难以确定食性，生态角色需要更完整材料。具名采集和宽年代区间仍从本页数据库记录分别阅读，不把现代发现地的沙漠或名称词源写成古代栖地。
 
 ## 这个名称对应哪些化石记录 {#s-b78a760543}
 Paleobiology Database（PBDB）接受 Xericeps curvirostris，并将 Xericeps 列为记录中的父级。所选数据库条目包含一条来自 Aferdou N'Chaft 的可用种级出现记录，并链接一个引文编号。这条数据库记录补充上文讨论的颌骨材料，但不统计文献中提及的所有化石。
 
+PBDB 出现记录补充:
+Xericeps curvirostris 在 PBDB 快照中对应分类条目 txn:363920。这份存档导读包含 1 条选取的出现记录，关联 1 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## 从具名采集地和地层开始 {#s-6288a0cb7c}
 Aferdou N'Chaft 记录在摩洛哥 Drâa-Tafilalet（地区代码 MA）。PBDB 给该采集地的年代范围为 100.5–93.9 Ma，早端对应 Early Cenomanian。这是一个数据库地点，不代表本种完整分布。
+
+PBDB 出现记录补充:
+存档导读包含 1 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:1385606；PBDB 采集记录 col:96223。 地点字段 cnm=Aferdou N'Chaft；地点分区字段 cc2=MA，stp=Drâa-Tafilalet，cny=Errachidia。 记录年代界：eag 100.5 Ma; lag 93.9 Ma；PBDB 年代区间字段 oei=Early Cenomanian。 记录署名 Martill et al. 2018；PBDB 引文编号 ref:64004。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Fossils were collected from an "approximately 2m thick horizon"; age of the Kem Kem is poorly constrained, but a Cenomanian age is supported by vertebrate biostratigraphy
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+near the village of Begaa and 10 km north-east of Taouz; longitude coordinates are given in the text as east, but this appears to be an error
 
 ## 这些记录的年代边界 {#s-770dcd2b01}
 所选出现记录的数据库年代范围为 100.5–93.9 Ma（Ma 表示百万年前）。这个宽区间不是对颌骨的直接测年，也不能确定物种的起源、灭绝或寿命；它与文献对正模产层提出的 ?Albian—Cenomanian 解释分别保留。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=100.5 Ma，见 occ:1385606；最小记录 lag=93.9 Ma，见 occ:1385606。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 保存环境与生活环境分开阅读 {#s-e3b8a9ee4a}
 PBDB 将 Aferdou N'Chaft 的采集环境标为 “fluvial indet.”（河流环境，类型未定），保存方式标为 “body”（实体化石）。这些采集层级标签不能确定 Xericeps 的栖地或食性，也不能说明每件化石的保存状态。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1385606：PBDB 原鉴定字段 idn=Xericeps curvirostris n. gen. n. sp.；PBDB 分类名称字段 tna=Xericeps curvirostris；材料说明字段 ocm=FSAC-KK 10700 (holotype), dentary；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=-3.870278，lat=30.897499；古坐标／模型字段 pm1=gplates，pln=7.54，pla=25.24。
 
 ## 沿采集记录追到文献 {#s-20a3fb5298}
 Aferdou N’Chaft 的数据库采集记录引用 Martill et al.（2018），编号 ref:64004。本页选读原始描述及 2020、2023 年的后续讨论。原始描述于 2017 年在线发表，收入 2018 年卷期；本页保留这段出版沿革，并将后续颌部和产层解释分别列出。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1385606：记录署名 Martill et al. 2018；PBDB 引文编号 ref:64004。
+
 ## 资料边界 {#s-0bb47e5d83}
 本页对读的是选段，并非对所有标本、图像、补充材料、矩阵或后续研究的完整综述。来源对上下颌归属、较早分析的处理和正模产层存在分歧；这里保留这些未决问题，不提出新的标本鉴定、测量或分类判断。PBDB 记录仍按其自身计数、年代和父级路径呈现。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 1 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

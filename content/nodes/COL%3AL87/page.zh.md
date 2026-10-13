@@ -1,4 +1,6 @@
-## PanTHERIA 条目 {#s-941187c60a}
+## 记录分类与直接上级关系 {#s-941187c60a}
+COL26.8 将 Sciurini 记录为族；其直接上级记录为 Sciurinae。
+
 本批次 Sciurini 的 PanTHERIA 路径中有两条可用记录：Tamiasciurus douglasii 和 T. hudsonicus。页面保留 MSW05 名称、字段条件和缺项。固定版本 COL26.8 用于导航；记录行数不是当前物种分母。
 
 ## 成体体重端点 {#s-5651075660}
@@ -14,7 +16,7 @@
 PanTHERIA 和生活史视图只纳入达到重点字段及历史名称匹配规则的批次记录；端点是汇总值而非个体极值，来源条件各异。生活史和生态路径计数不是完整的后代类群目录。食物类型、权重和活动不能证明整个类群共享性状。历史中位数、分类继承、半定量转换以及 ABC 可能借用同属种资料，均受逐页来源限制。此处未确定现行分类概念、分布和保护状况。
 
 ## 其他 PanTHERIA 记录 {#s-5fb52b3c12}
-四条可用记录为 [Microsciurus alfari](Microsciurus/Microsciurus_alfari/page.zh.md)、[M. santanderensis](Microsciurus/Microsciurus_santanderensis/page.zh.md)、[Rheithrosciurus macrotis](Rheithrosciurus/Rheithrosciurus_macrotis/page.zh.md) 和 [Syntheosciurus brochus](Syntheosciurus/Syntheosciurus_brochus/page.zh.md)。每页保留 MSW05 名称、条件和缺项；行数不定义当前接受物种数。
+四条可用记录为 Microsciurus alfari、M. santanderensis、Rheithrosciurus macrotis 和 Syntheosciurus brochus。每页保留 MSW05 名称、条件和缺项；行数不定义当前接受物种数。
 
 ## 本批次的成体体重范围 {#s-51592b4eb2}
 可用中位数的最小和最大端点分别为 Microsciurus alfari 的 87.49 g 和 Rheithrosciurus macrotis 的 1353.27 g，均已按性别调整。这些是汇总值，不是个体极值，也不能证明后代类群共享一种生活方式。
@@ -23,7 +25,7 @@ PanTHERIA 和生活史视图只纳入达到重点字段及历史名称匹配规�
 此视图涵盖至少有一个重点字段、名称/科级匹配且具有历史一对一对应关系的批次记录，不包括所有后代。端点是历史汇总值，条件各异。请查阅物种页面和原始变量定义；此处未确定当前物种概念、分布或保护状况。
 
 ## 生活史记录 {#s-3cac89fe89}
-两条已编写的生活史页面为 [Tamiasciurus douglasii](Tamiasciurus/Tamiasciurus_douglasii/page.zh.md) 和 [T. hudsonicus](Tamiasciurus/Tamiasciurus_hudsonicus/page.zh.md)。路径遵循固定版本 COL26.8，且只统计本批次同名页面。
+两条已编写的生活史页面为 Tamiasciurus douglasii 和 T. hudsonicus。路径遵循固定版本 COL26.8，且只统计本批次同名页面。
 
 ## 时间字段与最大值记录 {#s-fda061b517}
 两条记录列有妊娠期，两条列出雌性首次繁殖年龄，一条列出最大寿命。首次繁殖不同于首次出生或性成熟；最大寿命也不等于平均寿命。来源条件可能不同，缺项需要其他证据。

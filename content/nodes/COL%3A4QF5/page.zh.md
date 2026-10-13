@@ -1,4 +1,6 @@
-## 从 2 个测量物种页开始 {#s-4b908953ec}
+## 记录分类与直接上级关系 {#s-4b908953ec}
+COL26.8 将 Gorsachius 记录为属；其直接上级记录为 Ardeidae。
+
 Gorsachius 本路线包含 2 条有测量资料的物种记录：Gorsachius goisagi 和 Gorsachius melanolophus。目录沿用固定的 COL26.8 层级，生物学数值则保留 AVONET v7 名称和取样限制。
 
 ## 比较已记录的均值与类别 {#s-e7e8d356b1}

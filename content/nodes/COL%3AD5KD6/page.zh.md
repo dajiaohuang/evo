@@ -1,4 +1,6 @@
-## 沿 Puffinus 旧组合读七条历史行 {#s-c2e8ea09d2}
+## 记录分类与直接上级关系 {#s-c2e8ea09d2}
+COL26.8 将 Ardenna Reichenbach, 1853 记录为属；其直接上级记录为 Procellariidae。
+
 本入口按 COL26.8 Ardenna（D5KD6）与 Procellariidae（627CQ）组织七条历史导读。BirdLife／eBird 同名且 Avibase ID 分别相同，类型一对一；BirdTree 均用 Puffinus 旧组合，各有逐字目录异名。grisea／pacifica 的旧词尾分别 griseus／pacificus，名称对应不证明跨版本物种范围相同。目录属记录七个直接子项；本批七页是有限历史导读，不能仅因数量相同计完整自然史。
 
 ## 四套完整测量与独立体重分开 {#s-c7cf207e48}
@@ -10,9 +12,9 @@
 ## 先比较活动类别，再看完整数与旧词尾 {#s-e110abebcc}
 先对读 gravis／carneipes、bulleri 与四条 Generalist；食物生态位相同仍保留活动类别差别。回看 bulleri 四只完整四套与其余五只完整四套，再单独读 Dunning 体重。沿 grisea／griseus、pacifica／pacificus 的词尾对应回查 Puffinus 表，不从地图摘要或手翼指数补路线。
 
-第1组：[Ardenna creatopus](Ardenna_creatopus/page.zh.md)、[Ardenna gravis](Ardenna_gravis/page.zh.md)、[Ardenna tenuirostris](Ardenna_tenuirostris/page.zh.md)、[Ardenna grisea](Ardenna_grisea/page.zh.md)
+第1组：Ardenna creatopus、Ardenna gravis、Ardenna tenuirostris、Ardenna grisea
 
-第2组：[Ardenna bulleri](Ardenna_bulleri/page.zh.md)、[Ardenna pacifica](Ardenna_pacifica/page.zh.md)、[Ardenna carneipes](Ardenna_carneipes/page.zh.md)
+第2组：Ardenna bulleri、Ardenna pacifica、Ardenna carneipes
 
 ## 证据边界 {#s-1879d53a8d}
 七条历史行与逐字 Puffinus 异名支持这些记录；七个目录子项与七页数量相同不证明完整自然史。形态鸟、完整四套、独立文献体重分别保留；海洋食物、三种活动类别、开放环境与迁移3不补实测食谱、潜水深度、飞行性能、路线、繁殖或当前地图。

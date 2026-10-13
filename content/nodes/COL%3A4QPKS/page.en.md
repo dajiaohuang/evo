@@ -10,44 +10,44 @@ Strycker et al. (2020) combined ground counts with drone and satellite imagery a
 ## Paper spelling and the pinned accepted name {#s-62f7e17557}
 The article uses the name Pygoscelis antarctica. COL26.8 accepts P. antarcticus (ID 4QPKS) and lists P. antarctica as a synonym beneath it. The page follows the fixed COL accepted name and preserves the paper’s spelling when describing its study; the checklist choice does not change the paper’s original usage.
 
-## The name and this data account {#s-ee50b0df6d}
-COL26.8 accepts Pygoscelis antarcticus within Spheniscidae. AVONET v7 records measurements under the HBW–BirdLife 2020 name: 8 individuals were measured, and 4 have a complete set of measurements. Sample sizes can still differ among traits.
+## Row-reported mean and sample coverage {#s-ee50b0df6d}
+The AVONET v7 row for Pygoscelis antarcticus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 34 mm. The row records 8 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-1d5f7d5950}
-Recorded mean beak measurements are 34 mm from the anterior nostril edge to the tip, 14.8 mm in width and 19.2 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-1d5f7d5950}
+AVONET records culmen length (bill tip to skull base) 61.8 mm; beak length (nostril front edge to tip) 34 mm; beak width at the nostril front edge 14.8 mm; beak depth at the nostril front edge 19.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-e9cc812817}
-Mean unflattened wing length from the carpal joint to the longest primary is 100.5 mm; mean tarsus length is 27 mm. Compiled mean mass is 4146.08 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-e9cc812817}
+AVONET records unflattened wing length 100.5 mm; tarsus length 27 mm; distance from first secondary tip to longest primary tip 4.8 mm; length to first secondary tip 95.7 mm; hand-wing index 4.8; tail length 138 mm; species-average body mass 4146.08 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-9481c18471}
-The dataset assigns habitat Marine, trophic niche Aquatic predator and lifestyle Aquatic. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-9481c18471}
+AVONET classifies Pygoscelis antarcticus as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aquatic. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-4372b2676b}
-The migration field classifies this record as partially migratory. Historical breeding and resident maps span latitude endpoints -68.89° to -53.97°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-4372b2676b}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -68.89° to -53.97°. The mapped range area is 12591.58 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-c3c0637bda}
-COL26.8 accepts Pygoscelis antarcticus within Spheniscidae. The 2015 life-history archive also has a same-name, same-family entry; 5 selected fields have matching species-level source rows. Older records can include values inherited across historical species or subspecies, so matching names do not establish identical species concepts.
+## Scope of the historical life-history entry {#s-c3c0637bda}
+The August 2015 database has a same-name, same-family record for Pygoscelis antarcticus. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-5cb9608b62}
-The historical compilation reports adult body mass 4104.5 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. The selected record provides no birth- or hatching-mass value.
+## Compiled adult-mass values {#s-5cb9608b62}
+The August 2015 compilation reports adult body mass 4104.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-956ca98c51}
-The historical compilation reports female maturity field (defined by the source as age at first conception) 1272.14 d; offspring per litter or eggs per clutch 2 offspring/eggs; oviposition to hatching 35 d; age at flight capability (leaving the nest in some source material) 33 d; d means days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-956ca98c51}
+The August 2015 compilation reports female age at first conception (source definition) 1272.138 days; median or interpolated-median number of offspring or eggs per litter/clutch 2; oviposition-to-hatching interval 35 days; age at flight capability (some records mark nest departure) 33 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-1e1f2aa00a}
-The source labels include Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Bennett, 1986; Serrano-Meneses and Szekely, 2006. Each value can be traced to its raw row, field-specific label, and the archive’s reference notes. A label may refer to a paper, book, or another database; row counts do not count measured animals, and repeated citations do not represent independent replication.
+## Sources and field limits {#s-1e1f2aa00a}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-ff1eddb2ae}
-COL26.8 accepts Pygoscelis antarcticus within Spheniscidae. EltonTraits 1.0 records 2 ecological field groups under an earlier bird classification or the MSW3 mammal taxonomy. The name match supports a historical comparison, but does not settle later splits or synonymies.
+## Scope of the historical trait entry {#s-ff1eddb2ae}
+EltonTraits 1.0 has a same-name, same-family record for Pygoscelis antarcticus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-5c665f66f0}
-The archive’s nonzero food weights are invertebrates 80%; fish 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-5c665f66f0}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; fish 20%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-6d797578a4}
-Foraging-stratum weights flagged as species-level in the archive are below the water surface 100%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-6d797578a4}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-0704b56fcd}
-The source labels for these fields are Ref_1. Diet, feeding position, and activity may draw on different works, so the same Ref number in bird and mammal tables does not identify the same source. The archive links each label to its file, row, field group, and reference table; these labels are not independent observations.
+## Sources and field limits {#s-0704b56fcd}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## catalogue-profile / limitations {#s-1202182994}
 AVONET v7 summarizes historical samples and species-level values. Morphology is averaged across the listed birds; it is neither an identification diagnosis nor a range of individual measurements. Body mass comes from a separate source and does not use the morphology sample count. Habitat, diet and migration are broad categories, while mapped geography covers historical breeding and resident ranges. Matching names across BirdLife, eBird, BirdTree and COL26.8 supports a crosswalk but does not settle species boundaries after splits or mergers. Reproduction, present populations and conservation require other evidence.

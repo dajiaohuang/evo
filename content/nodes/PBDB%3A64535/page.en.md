@@ -1,19 +1,38 @@
 ## Which fossil records this name represents {#s-7c39c6ed2e}
 Hemisyntrachelus cortesii is accepted in the fixed PBDB mammalia working roster, with database parent Hemisyntrachelus. This guide uses 17 eligible species-level occurrence records from 15 collections and 11 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 11 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-48417f2225}
-Collection Oricano Pisano (Tuscany), region code IT; database age bracket 5.333–2.58 Ma, early interval Pliocene. Collection Piacentino, region code IT; database age bracket 5.333–2.58 Ma, early interval Pliocene. Collection Senese Hills, region code IT; database age bracket 5.333–2.58 Ma, early interval Pliocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Hemisyntrachelus cortesii is listed in the PBDB snapshot under taxon txn:64535. This archived guide contains 17 selected occurrence rows, linked to 15 distinct PBDB collection IDs and 11 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-71502e8676}
-Selected occurrences have an outer age envelope of 23.04–2.58 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Mombercelli, occurrence occ:528203 (23.04–2.58 Ma); one supplying the younger bound is Oricano Pisano, occurrence occ:486149 (5.333–2.58 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-48417f2225}
+The archived guide contains 17 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-4438067aa7}
-Oricano Pisano has collection-environment label marine indet.; collection preservation-mode label body. Piacentino has collection-environment label marine indet.; collection preservation-mode label body,original phosphate. Senese Hills has collection-environment label marine indet.; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:528203; PBDB collection col:53930. Locality cnm=Mombercelli; place fields cc2=IT. Recorded age bounds: eag 23.04 Ma; lag 2.58 Ma; PBDB interval fields oei=Miocene, oli=Pliocene. Recorded attribution Capellini 1882; PBDB reference ref:14545.
 
-## Follow collection records back to references {#s-ff403b4a6f}
-Oricano Pisano carries database reference attribution Pilleri and Pilleri (1982), identifier ref:12981. Piacentino carries database reference attribution Pilleri and Pilleri (1982), identifier ref:12981. Senese Hills carries database reference attribution Pilleri (1987), identifier ref:13332. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:486149; PBDB collection col:48645. Locality cnm=Oricano Pisano; place fields cc2=IT, stp=Tuscany. Recorded age bounds: eag 5.333 Ma; lag 2.58 Ma; PBDB interval fields oei=Pliocene. Recorded attribution Pilleri and Pilleri 1982; PBDB reference ref:12981.
+
+- Occurrence occ:486169; PBDB collection col:48654. Locality cnm=Piacentino; place fields cc2=IT. Recorded age bounds: eag 5.333 Ma; lag 2.58 Ma; PBDB interval fields oei=Pliocene. Recorded attribution Pilleri and Pilleri 1982; PBDB reference ref:12981.
+
+## Age bounds on the recorded occurrences {#s-71502e8676}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:528203; the smallest recorded lag=2.58 Ma in occ:486149. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-4438067aa7}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:528203: PBDB original-identification field idn=Tursiops cortesii; PBDB taxon-name field tna=Hemisyntrachelus cortesii; PBDB locality-coordinate fields lng=8.294444, lat=44.817223; paleocoordinate/model fields pm1=gplates, pln=10.64, pla=41.8.
+- occ:486149: PBDB original-identification field idn=Tursiops cortesii; PBDB taxon-name field tna=Hemisyntrachelus cortesii; PBDB locality-coordinate fields lng=10.513056, lat=44.495556; paleocoordinate/model fields pm1=gplates, pln=11.23, pla=43.55.
+- occ:486169: PBDB original-identification field idn=Tursiops cortesii; PBDB taxon-name field tna=Hemisyntrachelus cortesii; PBDB locality-coordinate fields lng=9.738056, lat=44.954723; paleocoordinate/model fields pm1=gplates, pln=10.48, pla=44.02.
+
+## References attached to each record {#s-ff403b4a6f}
+The archived guide links the rows to 11 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:528203: Recorded attribution Capellini 1882; PBDB reference ref:14545.
+- occ:486149: Recorded attribution Pilleri and Pilleri 1982; PBDB reference ref:12981.
+- occ:486169: Recorded attribution Pilleri and Pilleri 1982; PBDB reference ref:12981.
 
 ## Evidence limits {#s-31d3db762d}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 17 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

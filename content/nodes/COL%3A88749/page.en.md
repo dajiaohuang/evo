@@ -1,15 +1,15 @@
-## Two reported categories {#s-f7702c9e22}
-Pinned COL26.8 accepts Epictia resetari in Leptotyphlopidae. The limited ReptTraits v1-2 row used here records two categories: fossorial microhabitat, cited to IUCN (2023), and oviparous reproduction, cited to Zimin et al. (2022). The workbook follows The Reptile Database’s 2023 names; a same-name, same-family match alone does not establish equivalence with the current taxon concept.
+## COL26.8 name and the ReptTraits row {#s-f7702c9e22}
+COL26.8 records Epictia resetari as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What “fossorial” records {#s-ab0e1056f1}
-The row marks the microhabitat “fossorial.” In this workbook, microhabitat is a category that may also be arboreal, cryptic, saxicolous, semi-aquatic or terrestrial, with combinations allowed. For this species, the label is attributed to IUCN (2023); it does not give a habitat-type list or a specific observation site.
+## Habitat use and activity labels {#s-ab0e1056f1}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## What the reproductive entry says {#s-bcb4d29056}
-The source row labels the reproductive mode “oviparous,” citing Zimin et al. (2022). The workbook distinguishes this category from viviparous and mixed reports. This entry contains no clutch counts or egg measurements, so they cannot be described from it.
+## Reproductive fields in ReptTraits {#s-bcb4d29056}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Limits of the two labels {#s-68351e9cb8}
-This entry supplies two source-labelled categories, not a full ecological or reproductive account. It does not establish body size, diet, activity schedule, range, conservation status or variation among populations. The source labels preserve the workbook’s citation chain; they do not mean every underlying study was independently reread for this page.
+## Reading this compiled trait record {#s-68351e9cb8}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Details not present in this entry {#s-a597247205}
-The row provides no supported size measurement, sex-specific length, clutch or litter count, egg dimension, diet, active-time or foraging value, or sex-determining category. These fields remain unknown for this account; neither relatives nor blank cells fill them.
+## Reading this compiled trait record {#s-a597247205}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,18 +1,44 @@
-## Which fossil records this name represents {#s-4c31b1ffdb}
-Tanius sinensis is accepted in the fixed PBDB dinosaur working roster, with database parent Tanius. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-4c31b1ffdb}
+Tanius sinensis is listed in the PBDB snapshot under taxon txn:53379. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-4c65bf270a}
-Collection Tianqiaotun (Shandong), region code CN, stratum name Jiangjunding; database age bracket 89.8–83.6 Ma, early interval Coniacian and late interval Santonian. Collection east-northeast of Chiangchunting, Laiyang (Shandong), region code CN, stratum name Jingangkou; database age bracket 83.6–72.2 Ma, early interval Campanian. Collection 0.6 mi. southwest of Chiangchingting (Shandong), region code CN, stratum name Jiangjunding; database age bracket 89.8–83.6 Ma, early interval Coniacian and late interval Santonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-4c65bf270a}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-d31b290560}
-Selected occurrences have an outer age envelope of 89.8–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:379966; PBDB collection col:35966. Locality cnm=Tianqiaotun; place fields cc2=CN, stp=Shandong, cny=Laiyang. Recorded age bounds: eag 89.8 Ma; lag 83.6 Ma; PBDB interval fields oei=Coniacian, oli=Santonian. Stratigraphic fields sfm=Jiangjunding. Recorded attribution Wiman 1929; PBDB reference ref:18021.
 
-## Read preservation setting separately from living habitat {#s-fb661bd126}
-Tianqiaotun has collection-environment label terrestrial indet.; collection preservation-mode label body. east-northeast of Chiangchunting, Laiyang has collection-environment label terrestrial indet.; collection preservation-mode label body. 0.6 mi. southwest of Chiangchingting has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+from a specific, but unnamed, level in the middle of the Wangshi formation, originally thought to be Late Cretaceous, but argued in 1995 to be Campanian on biostratigraphic grounds
 
-## Follow collection records back to references {#s-273e1604b7}
-Tianqiaotun carries database reference attribution Wiman (1929), identifier ref:18021. east-northeast of Chiangchunting, Laiyang carries database reference attribution Young (1958), identifier ref:14891. 0.6 mi. southwest of Chiangchingting carries database reference attribution Wiman (1929), identifier ref:18021. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Tianqiaotun (= T'ien Ch'iao T'un) site, 7.5 km SW of Laiyang, Laiyang district, Shandong province, China. Altitude from Laiyang. SW of Chiangchingting village (may be same as name of site).
 
-## Evidence limits {#s-f9c0a3e188}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:536240; PBDB collection col:55469. Locality cnm=east-northeast of Chiangchunting, Laiyang; place fields cc2=CN, stp=Shandong, cny=Laiyang. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Campanian. Stratigraphic fields sfm=Jingangkou. Recorded attribution Young 1958; PBDB reference ref:14891.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+valleys E and NE of Chiangchungting, 20 km S of Laiyang
+
+- Occurrence occ:590514; PBDB collection col:62360. Locality cnm=0.6 mi. southwest of Chiangchingting; place fields cc2=CN, stp=Shandong, cny=Laiyang. Recorded age bounds: eag 89.8 Ma; lag 83.6 Ma; PBDB interval fields oei=Coniacian, oli=Santonian. Stratigraphic fields sfm=Jiangjunding. Recorded attribution Wiman 1929; PBDB reference ref:18021.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SW of Laiyang, Laiyang district, Shandong province, China. 1 li (0.6 mi) SW of Chiangchingting (Chiang-Chün-Ting) village
+
+## Age bounds on the recorded occurrences {#s-d31b290560}
+Across these selected PBDB rows, the largest recorded eag=89.8 Ma in occ:379966; the smallest recorded lag=72.2 Ma in occ:536240. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-fb661bd126}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:379966: PBDB taxon-name field tna=Tanius sinensis; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=120.622902, lat=36.920399; paleocoordinate/model fields pm1=gplates, pln=121.86, pla=35.88.
+- occ:536240: PBDB taxon-name field tna=Tanius sinensis; material note ocm="probable"; abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=120.767799, lat=36.597801; paleocoordinate/model fields pm1=gplates, pln=116.9, pla=34.8.
+- occ:590514: PBDB original-identification field idn=Tanius sinensis n. gen. n. sp.; PBDB taxon-name field tna=Tanius sinensis; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=120.622902, lat=36.920399; paleocoordinate/model fields pm1=gplates, pln=121.86, pla=35.88.
+
+## References attached to each record {#s-273e1604b7}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:379966: Recorded attribution Wiman 1929; PBDB reference ref:18021.
+- occ:536240: Recorded attribution Young 1958; PBDB reference ref:14891.
+- occ:590514: Recorded attribution Wiman 1929; PBDB reference ref:18021.
+
+## What these records can show {#s-f9c0a3e188}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

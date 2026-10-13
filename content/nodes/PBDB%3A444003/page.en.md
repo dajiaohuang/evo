@@ -1,18 +1,32 @@
-## Which fossil records this name represents {#s-5a0f2470ad}
-Sierraceratops turneri is accepted in the fixed PBDB dinosaur working roster, with database parent Sierraceratops. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-5a0f2470ad}
+Sierraceratops turneri is listed in the PBDB snapshot under taxon txn:444003. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-ed8b96240b}
-Collection NMMNH L-3650, Elephant Butte (lower) (New Mexico), region code US, stratum name Hall Lake; database age bracket 83.6–66 Ma, early interval Late Campanian and late interval Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-ed8b96240b}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-b71497df2a}
-Selected occurrences have an outer age envelope of 83.6–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1328513; PBDB collection col:178745. Locality cnm=NMMNH L-3650, Elephant Butte (lower); place fields cc2=US, stp=New Mexico, cny=Sierra. Recorded age bounds: eag 83.6 Ma; lag 66 Ma; PBDB interval fields oei=Late Campanian, oli=Maastrichtian. Stratigraphic fields sfm=Hall Lake. Recorded attribution Dalman et al. 2022; PBDB reference ref:78571.
 
-## Read preservation setting separately from living habitat {#s-fa45d27ff0}
-NMMNH L-3650, Elephant Butte (lower) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Hall Lake Formation of the McRae Group, Upper Cretaceous (latest Campanian–Maastrichtian) (Lucas et al., 2019).
 
-## Follow collection records back to references {#s-7921466530}
-NMMNH L-3650, Elephant Butte (lower) carries database reference attribution Dalman et al. (2022), identifier ref:78571. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+"Most dinosaur fossils come from a narrow stratigraphic interval 23–43 m above the base of the Hall Lake Formation (Fig. 1). This includes a tyrannosaurid (cf. Tyrannosaurus sp.), and abundant ceratopsids, including the type material of Sierraceratops turneri. Amato et al., (2017, fig. 4) reported a U–Pb age of 73.2 ± 0.7 Ma on a tuff bed about 10 m above the base of the Hall Lake Formation, and this latest Campanian age suggests the Hall Lake dinosaurs in the 23–43 m thick interval above the Hall Lake base, including Sierraceratops, are likely late Campanian in age."
 
-## Evidence limits {#s-51602f847e}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+NMMNH L-3650, E of Elephant Butte reservoir
+
+## Age bounds on the recorded occurrences {#s-b71497df2a}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:1328513; the smallest recorded lag=66 Ma in occ:1328513. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-fa45d27ff0}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1328513: PBDB original-identification field idn=Sierraceratops turneri n. gen. n. sp.; PBDB taxon-name field tna=Sierraceratops turneri; material note ocm=partial skeleton, NMMNH P-76870; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-107.192223, lat=33.154167; paleocoordinate/model fields pm1=gplates, pln=-72.05, pla=43.91.
+
+## References attached to each record {#s-7921466530}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1328513: Recorded attribution Dalman et al. 2022; PBDB reference ref:78571.
+
+## What these records can show {#s-51602f847e}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

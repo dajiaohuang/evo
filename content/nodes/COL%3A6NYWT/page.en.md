@@ -1,5 +1,5 @@
-## 2015 archive: three focal fields {#s-12df747db9}
-COL26.8 accepts Lariscus obscurus in Sciuridae. The 2015 life-history archive has three focal fields in same-name species-level rows with citations. Summaries can retain inherited historical taxonomy; a matching name does not remove that influence.
+## Body mass and life-history values in the compilation {#s-12df747db9}
+The August 2015 Amniote Database entry for *Lariscus obscurus* reports adult body mass 207.8 g; offspring per litter or eggs per clutch 2; longest lifespan record in the compilation 2.908333333 y. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Maximum longevity is the longest record found, not a mean or typical lifespan. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Lariscus obscurus*.
 
 ## Adult mass {#s-e84313828e}
 The historical adult body-mass summary is 207.8 g. Adult entries can combine sexes and records with unspecified sex, so this is not the full range of individual masses. Birth or hatching mass is not included here.
@@ -13,8 +13,8 @@ The maximum_longevity_y value is 2.91 years, the largest record found under the 
 ## Sparse-row references {#s-ff6eddc64f}
 Same-name rows cite Jones, K., Bielby, J., Cardillo, M. et al. (2009), Hayssen (2008) and Weigl (2005). The archive preserves field-level rows, values, labels and full reference explanations. Row counts are not sample sizes; a label can refer to a paper, book or database, and repeated citations are not independent replication.
 
-## EltonTraits and historical taxonomy {#s-1ee267808e}
-COL26.8 accepts Lariscus obscurus in Sciuridae. EltonTraits 1.0 has three ecological field groups for a same-name, same-family record. Its older bird or MSW3 mammal taxonomy does not resolve later splits or synonyms.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-1ee267808e}
+The EltonTraits 1.0 record for *Lariscus obscurus* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of fruit 50%, seeds, nuts and spores 50% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Lariscus obscurus*.
 
 ## Two standardized food weights {#s-6a88bdd791}
 Fruit and seeds, nuts and spores each receive 50%. ABC combines high, reasonable and partial confidence and may borrow from a similar congener. These are standardized descriptions, not measured intake; zero would not prove a category is never eaten.
@@ -28,11 +28,15 @@ Daytime feeding activity is marked 1. Several activity fields may be 1 together;
 ## Ecological source labels {#s-dfc58032b5}
 The included groups carry Ref_1 and metadata:Nowak1999. Diet, stratum and activity may use different sources; equal reference numbers in bird and mammal tables need not point to the same work. The archive retains original strings by file, row, group and table. Underlying works have not been read individually.
 
-## Historical compilation limits {#s-e7d124995c}
-Life-history values are compilation medians or means of the middle two records, except maximum longevity, which is the largest found. They are not individual measurements, variation ranges, mean wild lifespans or current surveys. Historical species and subspecies may share inherited records. Name, family and same-name rows support association but do not prove equivalence to COL26.8 or remove inheritance; settings are not uniformly confirmed and publications were not individually reviewed. EltonTraits weights are coarse literature standardizations, not intake measures; ABC may include similar congeners. Current ecology, range, conservation and missing traits need other sources.
+## How to interpret these historical records {#s-e7d124995c}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-## PanTHERIA name and date {#s-21f92fb47c}
-COL26.8 accepts Lariscus obscurus in Sciuridae. PanTHERIA 1.0 uses the MSW05 name in its August 2008 table; biological-data collection ended in June 2004. The match does not resolve later taxonomy.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
+
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass and adult head–body length in the historical table {#s-21f92fb47c}
+The August 2008 PanTHERIA row for *Lariscus obscurus* records adult body mass 241.19 g; adult head–body length 187 mm. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Lariscus obscurus*.
 
 ## PanTHERIA size summaries {#s-f70cf8aea9}
 Historical summaries are adult body mass 241.19 g and head–body length 187 mm. Values are sex-adjusted medians. Mass may include adult or age-unspecified entries but excludes pregnant females; head–body length excludes the tail. They are not specimen measurements or full ranges.

@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-569f9ff35b}
-Pinned COL26.8 organizes this page as Pternistis swierstrai (4PV76). AVONET v7 BirdLife 2020 row 2527 and eBird 2021 agree in name, with Avibase ID AVIBASE-3A5FE639; BirdTree gives Francolinus swierstrai, with match type 1BL to 1BT. Read COL older-combination record 6JLGB points to accepted ID 4PV76. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-569f9ff35b}
+Catalogue of Life release COL26.8 records Pternistis swierstrai (Roberts, 1929) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-e984bac547}
 Morphology covers 1 bird (0 female, 1 male); 1 has a complete measurement set. Mean nostril-to-tip beak length is 15.9 mm, tarsus 50 mm, unflattened wing 179 mm and hand-wing index 19.6. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed. There is only one male here, so this “average” cannot establish within-species variation.

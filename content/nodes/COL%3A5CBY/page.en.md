@@ -10,12 +10,12 @@ This is a reading path, not a complete genus account. The studies differ in site
 ## Scope of the evidence {#s-98f7233e89}
 The guide draws on four site-specific studies and existing profile pages; it is not a complete genus account. Sampling periods and methods are not comparable enough to infer shared ecology or current population size. The Chinese genus name is editorial; this guide has not been. This page is.
 
-## Follow the life-history records {#s-0c621d1ec7}
-This batch offers 1 historical life-history account under Leontopithecus. Start with [Leontopithecus rosalia](Leontopithecus_rosalia/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-0c621d1ec7}
+This batch offers 1 historical life-history account under Leontopithecus. Start with Leontopithecus rosalia. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-b624b13cf5}
 Gestation is recorded in 1 account, female age at first reproduction in 1 account, and maximum lifespan in 1 account. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-03f8372589}
+## Ernest life-history archive material route {#s-03f8372589}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

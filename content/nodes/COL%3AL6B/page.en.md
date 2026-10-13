@@ -10,13 +10,15 @@ The Cat Ba genomic study adds sequences from four wild poliocephalus individuals
 ## From island samples back to the black-morph question {#s-54c781d39f}
 Read sampling, nuclear trees and preliminary adaptation interpretations in [Trachypithecus poliocephalus](Trachypithecus/Trachypithecus_poliocephalus/page.en.md), then the single reused genome and field-assignment limits in [Trachypithecus ebenus](Trachypithecus/Trachypithecus_ebenus/page.en.md). Northern-clade clustering/gene-flow tests do not settle the southern black-morph problem. Continue through each page’s existing behavioral, photographic and interview evidence while retaining the material-correspondence gap.
 
-## Start with the historical entries {#s-0856f28b43}
+## Recorded classification and direct parent {#s-0856f28b43}
+COL26.8 records Presbytini Gray, 1825 at tribe rank, with Colobinae Jerdon, 1867 as its direct parent.
+
 The local PanTHERIA route for Presbytini includes 11 usable data accounts. Start with Nasalis larvatus, Presbytis comata, Presbytis hosei, Presbytis melalophos, Presbytis potenziani. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-d6f5e1ed74}
 Among available consolidated adult-mass values in this batch, Presbytis hosei records 6277.78 g and Nasalis larvatus records 12265.65 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-7351f33430}
+## Amniote Life-history archive member records {#s-7351f33430}
 This batch’s Presbytini route includes 33 historical life-history accounts; start with Nasalis larvatus, Presbytis chrysomelas, Presbytis femoralis, Presbytis melalophos, Presbytis natunae. More frequently represented fields include adult body mass (33 entries), longest lifespan record in the compilation (32 entries), offspring per litter or eggs per clutch (27 entries), female maturity field (defined by the source as age at first conception) (22 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-5aa2b44c70}
@@ -29,18 +31,18 @@ This route includes only this batch’s unique same-name, same-family historical
 New paragraphs use the 2024 abstract; sampling, phylogeny, diversity/ROH and selection/non-synonymous-variant results; northern-phylogeny, calcium and potential saltwater discussions; and selected sampling/mapping/phylogeny/gene-flow/ROH/selection methods. The full introduction, genetic-load chapters, supplementary tables/matrices/video and original reused project were not reviewed, nor were figure pixels or raw-read/statistical reruns. All 23 authors are recorded from Crossref. Four new Cat Ba individuals and the single reused ebenus sample are counted separately; physiological mechanisms remain preliminary candidates. The ebenus name/field-concept connection remains insufficient and its first-round gap open, without a complete monograph.
 These new paragraphs use selected original sampling/resequencing and CACNA1C functional-results/methods passages, plus supplementary PDF pages 3, 18 and 19 for sampling and complete Table S16; the page-19 table image was viewed. Other supplementary chapters, video, workbook, raw reads and physical specimens were not reviewed, and statistics were not rerun. The full 21-author reference distinguishes online 2019-12-21 from issue 2020-04-01. Zoo provenance and the Laos country label for 2019B001 do not supply the missing wild locality or type/photo connection; the taxonomic gap remains open, without a complete monograph.
 
-## Start with the historical entries {#s-8277b02ae9}
-The local PanTHERIA route for Presbytini includes one usable data account. Start with [Presbytis frontata](Presbytis/Presbytis_frontata/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-8277b02ae9}
+The local PanTHERIA route for Presbytini includes one usable data account. Start with Presbytis frontata. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
-## Limits of these historical data {#s-f8fb44a014}
+## PanTHERIA material route {#s-f8fb44a014}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Follow the life-history records {#s-386ec4f6ca}
-This batch offers 8 historical life-history accounts under Presbytini. Start with [Nasalis larvatus](Nasalis/Nasalis_larvatus/page.en.md), [Presbytis comata](Presbytis/Presbytis_comata/page.en.md), [Presbytis rubicunda](Presbytis/Presbytis_rubicunda/page.en.md), [Presbytis potenziani](Presbytis/Presbytis_potenziani/page.en.md), [Presbytis melalophos](Presbytis/Presbytis_melalophos/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-386ec4f6ca}
+This batch offers 8 historical life-history accounts under Presbytini. Start with Nasalis larvatus, Presbytis comata, Presbytis rubicunda, Presbytis potenziani, Presbytis melalophos. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-b5912da498}
 Gestation is recorded in 3 accounts, female age at first reproduction in 2 accounts, and maximum lifespan in 1 account. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-ad86f3d8a2}
+## Ernest life-history archive material route {#s-ad86f3d8a2}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

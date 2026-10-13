@@ -1,7 +1,9 @@
 ## Overview {#s-8ab60ab6fb}
 This guide links seven missing COL26.8 slow-loris profiles; it is not a complete genus species list. Begin with winter and summer exudate and nectar observations of Bengal slow lorises at Trishna Sanctuary in India, then the home-range sample from two female Javan slow lorises at Mount Halimun-Salak. Next read Munds and colleagues' 2013 facial-mask taxonomy of Bornean lorises alongside the name-bearing localities and specimens; note that the authors called for genetic confirmation. Blair and colleagues' 2023 phylogeny then tests the correspondence between pelage labels and genetic groupings, which was not one-to-one in their sampled material. Finish with the historical usage of menagensis and its current page treatment, followed by the type material and one MDD-flagged uncertain image record for hilleri. Study scale, dates, samples and paper-era names differ; identities follow COL26.8, and local observations or pelage categories do not combine into a complete genus range.
 
-## Choose comparison pages by life-history fields {#s-affa8cc94c}
+## Recorded classification and direct parent {#s-affa8cc94c}
+COL26.8 records Nycticebus É. Geoffroy Saint-Hilaire, 1812 at genus rank, with Lorisinae Gray, 1821 as its direct parent.
+
 This batch’s Nycticebus route includes 2 historical life-history accounts; start with Nycticebus bengalensis, Nycticebus coucang. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), conception or fertilization to birth (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-7c8892a5d6}

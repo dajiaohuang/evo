@@ -1,18 +1,47 @@
-## Which fossil records this name represents {#s-cdf96aa900}
-Edmontonia longiceps is accepted in the fixed PBDB dinosaur working roster, with database parent Edmontonia. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-cdf96aa900}
+Edmontonia longiceps is listed in the PBDB snapshot under taxon txn:63920. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-ac55141d2a}
-Collection Clambank Hollow Quarry (Montana), region code US, stratum name Judith River; database age bracket 83.6–72.2 Ma, early interval Middle Campanian and late interval Late Campanian. Collection Twito ranch (DMNH) (South Dakota), region code US, stratum name Lance; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection 7 miles northwest of Morrin (20 ft level) [NMC] (Alberta), region code CA, stratum name Horseshoe Canyon; database age bracket 72.2–66 Ma, early interval Early Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-ac55141d2a}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-1b82cef995}
-Selected occurrences have an outer age envelope of 83.6–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:468949; PBDB collection col:14446. Locality cnm=Clambank Hollow Quarry; place fields cc2=US, stp=Montana, cny=Chouteau. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Middle Campanian, oli=Late Campanian. Stratigraphic fields sfm=Judith River. Recorded attribution Sahni 1972; PBDB reference ref:3008.
 
-## Read preservation setting separately from living habitat {#s-5f07306bbd}
-Clambank Hollow Quarry has collection-environment label fine channel fill; collection preservation-mode label body. Twito ranch (DMNH) has collection-environment label terrestrial indet.; collection preservation-mode label body. 7 miles northwest of Morrin (20 ft level) [NMC] has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+40 feet below top of formation; Judithian based on fauna
 
-## Follow collection records back to references {#s-8b21a6230e}
-Clambank Hollow Quarry carries database reference attribution Sahni (1972), identifier ref:3008. Twito ranch (DMNH) carries database reference attribution Bakker (1988), identifier ref:14876. 7 miles northwest of Morrin (20 ft level) [NMC] carries database reference attribution Sternberg (1928), identifier ref:26781. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+NW 1/4, SE 1/4, sec 31, T24N, R17E; in a small creek running parallel to an E-W dirt road N of the silos of the Halley ranch.
 
-## Evidence limits {#s-e752e1b92b}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:535320; PBDB collection col:47628. Locality cnm=Twito ranch (DMNH); place fields cc2=US, stp=South Dakota, cny=Corson. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Lance. Recorded attribution Bakker 1988; PBDB reference ref:14876.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Twito ranch, about 16 mi S of McIntosh; near SW corner of sec 25, T20N, R21E, Corson Co., SD
+
+- Occurrence occ:741099; PBDB collection col:79692. Locality cnm=7 miles northwest of Morrin (20 ft level) [NMC]; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Early Maastrichtian. Stratigraphic fields sfm=Horseshoe Canyon. Recorded attribution Sternberg 1928; PBDB reference ref:26781.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+560 ft above base of Edmonton
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+7 mi NW of Morrin, 20 ft above Red Deer River; sec 28, T31, R21, W 4th meridian
+
+## Age bounds on the recorded occurrences {#s-1b82cef995}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:468949; the smallest recorded lag=66 Ma in occ:535320. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5f07306bbd}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:468949: PBDB taxon-name field tna=Edmontonia longiceps; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-109.589699, lat=47.808201; paleocoordinate/model fields pm1=gplates, pln=-65.87, pla=57.74.
+- occ:535320: PBDB original-identification field idn=Denversaurus schlessmani n. gen. n. sp.; PBDB taxon-name field tna=Edmontonia longiceps; material note ocm=DMNH 468; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-101.480698, lat=45.668301; paleocoordinate/model fields pm1=gplates, pln=-60.64, pla=55.01.
+- occ:741099: PBDB original-identification field idn=Edmontonia longiceps n. gen. n. sp.; PBDB taxon-name field tna=Edmontonia longiceps; material note ocm=NMC 8531; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-112.911301, lat=51.688202; paleocoordinate/model fields pm1=gplates, pln=-68.31, pla=63.84.
+
+## References attached to each record {#s-8b21a6230e}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:468949: Recorded attribution Sahni 1972; PBDB reference ref:3008.
+- occ:535320: Recorded attribution Bakker 1988; PBDB reference ref:14876.
+- occ:741099: Recorded attribution Sternberg 1928; PBDB reference ref:26781.
+
+## What these records can show {#s-e752e1b92b}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## Measured records and where to start {#s-4eeaa73830}
+## Recorded classification and direct parent {#s-4eeaa73830}
+COL26.8 records Pelecanus at genus rank, with Pelecanidae as its direct parent.
+
 AVONET v7 provides measurements for eight Pelecanus species records. Start with Pelecanus conspicillatus, Pelecanus crispus, Pelecanus erythrorhynchos, Pelecanus occidentalis and Pelecanus onocrotalus. Navigation follows pinned COL26.8, while biological values retain the source's historical names and sampling scope.
 
 ## Differences between records {#s-6eccbf7e45}
@@ -10,7 +12,7 @@ Eight historical life-history accounts are available; examples include Pelecanus
 ## Seven records with ecological field groups {#s-fafc56248c}
 Seven historical entries have usable ecological field groups; examples are Pelecanus onocrotalus, Pelecanus rufescens, Pelecanus crispus, Pelecanus philippensis and Pelecanus conspicillatus. Food-category weights and foraging strata are available for all seven; mammalian activity-period data are unavailable. Check source scope and distinguish coarse weights from categorical or binary codes before comparing records. These accounts do not cover every accepted descendant or establish family-wide ecology.
 
-## Evidence limits {#s-1388049a37}
+## Limits attached to these records {#s-1388049a37}
 The measurement summaries cover records with one-to-one historical crosswalks and matching catalogue name and family, not every accepted descendant. Mass endpoints compare compiled species means; they are not individual minimum and maximum measurements. Each species page retains its taxonomic and sampling limits.
 The eight life-history accounts have at least three source-supported focal fields. Values retain limits from compilation medians, maximum-lifespan records and historical taxonomic inheritance. A genus-level route does not imply shared reproduction or life history across descendants; other sources are needed for a fuller account and current status.
 The ecological summaries cover unique historical same-name, same-family records with at least two usable field groups. They do not turn descendant food categories, estimated weights or activity patterns into traits of the whole genus. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields remain relevant to each record.

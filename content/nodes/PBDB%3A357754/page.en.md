@@ -1,19 +1,44 @@
 ## Which fossil records this name represents {#s-8ec1e00da7}
 Plesiosminthus promyarion is accepted in the fixed PBDB mammalia working roster, with database parent Plesiosminthus. This guide uses 5 eligible species-level occurrence records from 5 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-871f513af6}
-Collection Hinojosa de Jarque 2 (Aragon), region code ES; database age bracket 27.3–23.04 Ma, early interval MP 29. Collection Tavan Ovoony Deng, Taatsiin Gol Area, Valley of Lakes, Central Mongolia. Sample RHN-A/9, region code MN, stratum name Loh; database age bracket 27.3–23.04 Ma, early interval Late Oligocene. Collection Rickenbach (Canton Solothurn), region code CH; database age bracket 27.3–23.04 Ma, early interval Chattian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Plesiosminthus promyarion is listed in the PBDB snapshot under taxon txn:357754. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-886352af74}
-Selected occurrences have an outer age envelope of 27.3–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Hinojosa de Jarque 2, occurrence occ:636203 (27.3–23.04 Ma); one supplying the younger bound is Hotuliin Teeg, HTS-056/1+2, occurrence occ:1371840 (27.3–15.98 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-871f513af6}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-dbdce9fe91}
-Hinojosa de Jarque 2 has collection-environment label terrestrial indet.. Tavan Ovoony Deng, Taatsiin Gol Area, Valley of Lakes, Central Mongolia. Sample RHN-A/9 has collection-environment label terrestrial indet.; collection preservation-mode label body. Rickenbach has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:636203; PBDB collection col:68420. Locality cnm=Hinojosa de Jarque 2; place fields cc2=ES, stp=Aragon. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=MP 29. Recorded attribution Cuenca and Canudo 1994; PBDB reference ref:19701.
 
-## Follow collection records back to references {#s-18896078d9}
-Hinojosa de Jarque 2 carries database reference attribution Cuenca and Canudo (1994), identifier ref:19701. Tavan Ovoony Deng, Taatsiin Gol Area, Valley of Lakes, Central Mongolia. Sample RHN-A/9 carries database reference attribution Daxner-Höck and Wu (2003), identifier ref:60145. Rickenbach carries database reference attribution Mennecart et al. (2012), identifier ref:60953. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1371840; PBDB collection col:182134. Locality cnm=Hotuliin Teeg, HTS-056/1+2; place fields cc2=MN. Recorded age bounds: eag 27.3 Ma; lag 15.98 Ma; PBDB interval fields oei=Late Oligocene, oli=Early Miocene. Recorded attribution Daxner-Höck et al. 2014; PBDB reference ref:62824.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Biozone D sensu Höck et al. (1999)
+
+- Occurrence occ:1340409; PBDB collection col:75602. Locality cnm=Tavan Ovoony Deng, Taatsiin Gol Area, Valley of Lakes, Central Mongolia. Sample RHN-A/9; place fields cc2=MN. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Late Oligocene. Stratigraphic fields sfm=Loh. Recorded attribution Daxner-Höck and Wu 2003; PBDB reference ref:60145.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Biozone C1 sensu Höck et al. (1999)
+
+## Age bounds on the recorded occurrences {#s-886352af74}
+Across these selected PBDB rows, the largest recorded eag=27.3 Ma in occ:636203; the smallest recorded lag=15.98 Ma in occ:1371840. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-dbdce9fe91}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:636203: PBDB taxon-name field tna=Plesiosminthus promyarion; PBDB locality-coordinate fields lng=-0.783333, lat=40.683334; paleocoordinate/model fields pm1=gplates, pln=2.81, pla=36.59.
+- occ:1371840: PBDB taxon-name field tna=Plesiosminthus promyarion; material note ocm=NHMW 2013/0175/0001–0007; PBDB locality-coordinate fields lng=101.198334, lat=45.485558; paleocoordinate/model fields pm1=gplates, pln=98.12, pla=43.53.
+- occ:1340409: PBDB taxon-name field tna=Plesiosminthus promyarion; material note ocm=NHMW2001z 0065/0001/1 (Plesiosminthus sp. 2 in Höck et al. 1999); PBDB locality-coordinate fields lng=101.204720, lat=45.493610; paleocoordinate/model fields pm1=gplates, pln=97.97, pla=43.41.
+
+## References attached to each record {#s-18896078d9}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:636203: Recorded attribution Cuenca and Canudo 1994; PBDB reference ref:19701.
+- occ:1371840: Recorded attribution Daxner-Höck et al. 2014; PBDB reference ref:62824.
+- occ:1340409: Recorded attribution Daxner-Höck and Wu 2003; PBDB reference ref:60145.
 
 ## Evidence limits {#s-a571883b0f}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

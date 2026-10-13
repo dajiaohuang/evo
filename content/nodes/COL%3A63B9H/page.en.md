@@ -4,3 +4,6 @@ Read this Mico guide by evidence type and study period. First, Mourthé et al. (
 ## Scope of the evidence {#s-dcf20be8d7}
 This guide links selected Mico studies and is not a complete species checklist, range map, ecological synthesis or phylogeny. Map overlays, historical local observations, later surveys, the dated national assessment and integrative taxonomy answer different questions and should not be collapsed into one evidence type. Source-linked;.
 
+## Recorded classification {#col26-8-identity}
+In the pinned COL26.8 catalogue, Mico Lesson, 1840 is recorded as an accepted genus.
+

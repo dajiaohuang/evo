@@ -1,13 +1,15 @@
-## Start with sourced trait records {#s-177113c914}
+## Recorded classification and direct parent {#s-177113c914}
+COL26.8 records Ailuronyx at genus rank, with Gekkonidae as its direct parent.
+
 This batch’s ReptTraits route for Ailuronyx includes 3 same-name, same-family entries with trait-specific citations. Start with Ailuronyx seychellensis, Ailuronyx tachyscopaeus, Ailuronyx trachygaster. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-4798e20a77}
 Among size records in this batch, Ailuronyx tachyscopaeus has a reported maximum snout–vent length (SVL) of 85 mm and Ailuronyx trachygaster 172 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Choose comparison pages by life-history fields {#s-5d3164b5ff}
+## Amniote Life-history archive member records {#s-5d3164b5ff}
 This batch’s Ailuronyx route includes 1 historical life-history accounts; start with Ailuronyx seychellensis. More frequently represented fields include adult body mass (1 entries), offspring per litter or eggs per clutch (1 entries), oviposition to hatching (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
-## Evidence limits {#s-ed011ce8e4}
+## Limits attached to these records {#s-ed011ce8e4}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history.
 

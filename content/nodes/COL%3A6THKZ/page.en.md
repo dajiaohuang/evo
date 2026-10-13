@@ -1,41 +1,41 @@
-## The name and this data account {#s-a4b68a1881}
-Pachyptila vittata is accepted in COL26.8 within Procellariidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-a4b68a1881}
+The AVONET v7 row for Pachyptila vittata (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 29.4 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-51a0f76c0b}
-Recorded mean beak measurements are 29.4 mm from the anterior nostril edge to the tip, 20 mm in width and 14.4 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-51a0f76c0b}
+AVONET records culmen length (bill tip to skull base) 38 mm; beak length (nostril front edge to tip) 29.4 mm; beak width at the nostril front edge 20 mm; beak depth at the nostril front edge 14.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-2d1eb9b86f}
-Mean unflattened wing length from the carpal joint to the longest primary is 195.2 mm; mean tarsus length is 33.4 mm. Compiled mean mass is 196 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-2d1eb9b86f}
+AVONET records unflattened wing length 195.2 mm; tarsus length 33.4 mm; distance from first secondary tip to longest primary tip 107.5 mm; length to first secondary tip 87.8 mm; hand-wing index 55.1; tail length 94.5 mm; species-average body mass 196 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-b75307dd2a}
-The dataset assigns habitat Marine, trophic niche Aquatic predator and lifestyle Generalist. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-b75307dd2a}
+AVONET classifies Pachyptila vittata as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Generalist. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-f86ba1481f}
-The migration field classifies this record as partially migratory. Historical breeding and resident maps span latitude endpoints -60.72° to -6.91°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-f86ba1481f}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -60.72° to -6.91°. The mapped range area is 50803001.59 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-f9c1d07a1b}
-Pachyptila vittata is accepted in pinned COL26.8 within Procellariidae. The 2015 life-history archive lists four focal fields under this same-name, same-family record, each supported by cited species-level rows. Its summaries may still inherit information across historical taxa; matching names do not remove that influence.
+## Scope of the historical life-history entry {#s-f9c1d07a1b}
+The August 2015 database has a same-name, same-family record for Pachyptila vittata. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-d31a30cf4f}
-Historical summary values are adult body mass 196 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-d31a30cf4f}
+The August 2015 compilation reports adult body mass 196 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-823e24820e}
-Available compilation fields are offspring per litter or eggs per clutch 1 offspring/eggs; oviposition to hatching 56 d; age at flight capability (leaving the nest in some source material) 55 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-823e24820e}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 56 days; age at flight capability (some records mark nest departure) 55 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-a72cafdf53}
-Same-name sparse rows cite Dunning (1992), Bennett (1986), Dyke and Kaiser (2010), and Carrier and Auriemma (1992). Each field has its own source label; a label may identify a paper, book or database. Row counts are not numbers of measured individuals, and repeated citations do not represent independent experimental replication.
+## Sources and field limits {#s-a72cafdf53}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-a50157db1f}
-Pachyptila vittata is accepted in pinned COL26.8 within Procellariidae. EltonTraits 1.0 links a same-name record in the same family, with food and foraging-stratum estimates. Its bird classification is historical; the name match does not establish that historical and current taxonomies use identical species boundaries.
+## Scope of the historical trait entry {#s-a50157db1f}
+EltonTraits 1.0 has a same-name, same-family record for Pachyptila vittata covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-01f347727a}
-The archive’s nonzero food weights are invertebrates 80%; fish 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-01f347727a}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; fish 20%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-050b96cf65}
-Foraging-stratum weights flagged as species-level in the archive are on or just below the water surface 100%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-050b96cf65}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-11599f6983}
-Both field groups carry the label Ref_1. Food and stratum estimates may draw on different literature. The label locates a catalogue citation; it is not another observation, and the underlying works have not been read individually for this page.
+## Sources and field limits {#s-11599f6983}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-1874bd0179}
 AVONET v7 measurements are means from the four listed specimens, not identification diagnoses or individual ranges; the 196 g mass is a separate Dunning species average and is not based on those specimen counts. Habitat, feeding and movement are broad categories, and the latitude endpoints describe historical breeding and resident maps. The 2015 life-history archive reports compilation medians or averages of the two middle values. These summaries are not one individual's measurements or ranges of variation. Historical taxa can share inherited data, so matching names, family and species-level rows do not prove equivalence to COL26.8 or remove every inherited component. Wild versus captive conditions are not consistently established, and cited publications have not been individually reviewed here. EltonTraits estimates food as invertebrates 80% and fish 20%, with species-level foraging stratum on or just below the water surface at 100%. These percentages standardize literature descriptions rather than measure intake or time use. Code A indicates high compiler confidence in the cited source and diet information; Ref_1 locates the citation but does not independently confirm it. Historical name matches do not settle species boundaries. Current range, population, conservation and missing fields require other sources.

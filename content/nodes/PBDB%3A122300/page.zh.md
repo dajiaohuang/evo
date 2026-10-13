@@ -1,19 +1,56 @@
 ## 这个名称对应哪些化石记录 {#s-8509538ddc}
 Leptosaurus pulchellus 在固定 PBDB 喙头类化石工作名录中为接受种，数据库父级为 Leptosaurus。本页导读 5 条可用种级出现记录，涉及 5 个采集记录和 2 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-07b5084b47}
-采集记录 Stark Quarry, Schamhaupten（Bayern），地区代码 DE，地层名称 Painten；数据库年代范围 152.21–149.2 Ma，早端地质时段 Late Kimmeridgian。采集记录 Canjuers-Les Bessons quarry (micronatum biozone)（Provence-Alpes-Côte d'Azur），地区代码 FR；数据库年代范围 149.2–145.06 Ma，早端地质时段 Early Tithonian。采集记录 Painten, near Kelheim（Bayern），地区代码 DE，地层名称 Painten；数据库年代范围 152.21–149.2 Ma，早端地质时段 Late Kimmeridgian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Leptosaurus pulchellus 在 PBDB 快照中对应分类条目 txn:122300。这份存档导读包含 5 条选取的出现记录，关联 5 个不同的 PBDB 采集记录编号和 2 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-7b3ec2dac1}
-本页所选出现记录的年代外包区间为 152.21–145.06 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Stark Quarry, Schamhaupten 的出现记录 occ:753159（152.21–149.2 Ma）；晚端可追到 Canjuers-Les Bessons quarry (micronatum biozone) 的出现记录 occ:1246399（149.2–145.06 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-07b5084b47}
+存档导读包含 5 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 保存环境与生活环境分开阅读 {#s-e933f9475a}
-Stark Quarry, Schamhaupten 的采集环境标签为 潟湖或受限浅潮下沉积环境（lagoonal/restricted shallow subtidal）；集合保存方式标签为 实体化石、压印保存、软组织（body,adpression,soft parts）。Canjuers-Les Bessons quarry (micronatum biozone) 的采集环境标签为 lagoonal；集合保存方式标签为 实体化石、压印保存（body,adpression）。Painten, near Kelheim 的采集环境标签为 潟湖或受限浅潮下沉积环境（lagoonal/restricted shallow subtidal）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:753159；PBDB 采集记录 col:59175。 地点字段 cnm=Stark Quarry, Schamhaupten；地点分区字段 cc2=DE，stp=Bayern，cny=Eichstätt。 记录年代界：eag 152.21 Ma; lag 149.2 Ma；PBDB 年代区间字段 oei=Late Kimmeridgian。 地层字段 sfm=Painten。 记录署名 Renesto and Viohl 1997；PBDB 引文编号 ref:27129。
 
-## 沿采集记录追到文献 {#s-9aa877fdb6}
-Stark Quarry, Schamhaupten 的数据库引文署名为 Renesto and Viohl（1997），编号 ref:27129。Canjuers-Les Bessons quarry (micronatum biozone) 的数据库引文署名为 Fabre（1981），编号 ref:57877。Painten, near Kelheim 的数据库引文署名为 Fabre（1981），编号 ref:57877。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Malm Epsilon 2 (setatum subzone), Weissjura epsilon; listed as both Solnhofen Formation, and as Painten Fm./Schamhaupten Subformation, "Profilschicht E3". Beckeri zone, Ulmense subzone.
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Stark family quarry, 1 km WNW of Schamaupten church, E part of Eichstätt district, in the Schambachtal (Schambach valley), southern Franconian Alb
+
+- 出现记录 occ:1246399；PBDB 采集记录 col:35262。 地点字段 cnm=Canjuers-Les Bessons quarry (micronatum biozone)；地点分区字段 cc2=FR，stp=Provence-Alpes-Côte d'Azur，cny=Var。 记录年代界：eag 149.2 Ma; lag 145.06 Ma；PBDB 年代区间字段 oei=Early Tithonian。 记录署名 Fabre 1981；PBDB 引文编号 ref:57877。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+unnamed limestone bed, "Portlandian", mucronatum ammonite zone
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+limestone quarry (or quarries) near Bessons, near Aiguine, at border of the "Petit Plan" du Canjuers; owned by the Ghirardi family; NW of Draguignan
+
+- 出现记录 occ:1342006；PBDB 采集记录 col:181424。 地点字段 cnm=Painten, near Kelheim；地点分区字段 cc2=DE，stp=Bayern。 记录年代界：eag 152.21 Ma; lag 149.2 Ma；PBDB 年代区间字段 oei=Late Kimmeridgian。 地层字段 sfm=Painten。 记录署名 Fabre 1981；PBDB 引文编号 ref:57877。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Ulmense Subzone
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Near the market town of Painten in the Southern Franconian Alb of Bavaria, Germany.
+
+## 出现记录的年代界 {#s-7b3ec2dac1}
+在这组 PBDB 记录中，最大记录 eag=152.21 Ma，见 occ:753159；最小记录 lag=145.06 Ma，见 occ:1246399。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-e933f9475a}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:753159：PBDB 分类名称字段 tna=Leptosaurus pulchellus；材料说明字段 ocm=JME SCHA 40；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=11.584697，lat=48.918259；古坐标／模型字段 pm1=gplates，pln=24.22，pla=32.34。
+- occ:1246399：PBDB 分类名称字段 tna=Leptosaurus pulchellus；材料说明字段 ocm=MNHN CNJ 72, nearly complete skeleton; Private collection specimen, anterior skeleton；丰度字段 abv=2，abu=specimens；PBDB 地点坐标字段 lng=6.373150，lat=43.705021；古坐标／模型字段 pm1=gplates，pln=21.19，pla=26.39。
+- occ:1342006：PBDB 原鉴定字段 idn=Leptosaurus pulchellus n. sp.；PBDB 分类名称字段 tna=Leptosaurus pulchellus；材料说明字段 ocm=IPHG no. 1887 VI 1 (holotype), complete skeleton; No. 1887 VI 2, posterior portion of skeleton; No. 1911 I 34, partial skeleton；丰度字段 abv=3，abu=specimens；PBDB 地点坐标字段 lng=11.826369，lat=49.007839；古坐标／模型字段 pm1=gplates，pln=24.38，pla=32.46。
+
+## 各记录所附的引文 {#s-9aa877fdb6}
+存档导读把这些记录关联到 2 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:753159：记录署名 Renesto and Viohl 1997；PBDB 引文编号 ref:27129。
+- occ:1246399：记录署名 Fabre 1981；PBDB 引文编号 ref:57877。
+- occ:1342006：记录署名 Fabre 1981；PBDB 引文编号 ref:57877。
 
 ## 资料边界 {#s-ac3feb42c6}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 34 项喙头类化石工作名录中，当前名称一致、父链可追到已记录 Rhynchocephalia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 5 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

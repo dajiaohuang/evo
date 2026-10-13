@@ -1,5 +1,5 @@
-## Same-name links retain different family names {#s-b1cb085923}
-Pinned COL26.8 organizes this page at Agapornis swindernianus (65MFP). BirdLife 2020 row 10206, eBird 2021 row 261 and BirdTree row 263 share the name; the eBird Avibase ID is AVIBASE-D44EE47D, with types 1BL to 1eBird and 1BL to 1BT respectively. Source family Psittacidae and catalogue Psittaculidae remain separate; a family allocation change is not rewritten as a name mismatch. The accepted name is present in the read ag shard. Same-name one-to-one links do not prove identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-b1cb085923}
+Catalogue of Life release COL26.8 records Agapornis swindernianus (Kuhl, 1820) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-947d59184d}
 Morphology comprises 5 birds: 1 female, 4 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 13.4 mm, tarsus 11.2 mm, unflattened wing 92.6 mm, tail 35.2 mm and hand-wing index 41.3 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

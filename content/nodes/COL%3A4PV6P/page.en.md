@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-1fdebbc6a7}
-Pinned COL26.8 organizes this page as Pternistis erckelii (4PV6P). AVONET v7 BirdLife 2020 row 2513 and eBird 2021 agree in name, with Avibase ID AVIBASE-6C4A6597; BirdTree gives Francolinus erckelii, with match type 1BL to 1BT. Read COL older-combination record 6JLDM points to accepted ID 4PV6P. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-1fdebbc6a7}
+Catalogue of Life release COL26.8 records Pternistis erckelii (Rüppell, 1835) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-206abf1949}
 Morphology covers 4 birds (2 female, 2 male); 4 have complete measurement sets. Mean nostril-to-tip beak length is 17.3 mm, tarsus 57.1 mm, unflattened wing 210 mm and hand-wing index 13.8. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

@@ -1,7 +1,9 @@
 ## Overview {#s-523a8e651c}
 This reading path connects the seven Nomascus species IDs in the fixed COL26.8 primate roster: five new field-study introductions and the existing pages for the northern white-cheeked and cao vit gibbons. Compare chainsaw-noise observations at Veun Sai–Siem Pang, multifemale groups at Wuliang Mountain and seasonal ranging at Cat Tien; then read the Hainan habitat model and the southern white-cheeked gibbon survey in Truong Son. Finish with the cross-border cao vit gibbon survey and captive vocalization recordings for northern white-cheeked gibbons. The studies differ in place, year, method and sample; this page is not a genus-wide ecological synthesis or taxonomic revision.
 
-## Choose comparison pages by life-history fields {#s-52a828079b}
+## Recorded classification and direct parent {#s-52a828079b}
+COL26.8 records Nomascus Miller, 1933 at genus rank, with Hylobatidae Gray, 1871 as its direct parent.
+
 This batch’s Nomascus route includes 4 historical life-history accounts; start with Nomascus concolor, Nomascus gabriellae, Nomascus leucogenys, Nomascus siki. More frequently represented fields include adult body mass (4 entries), female maturity field (defined by the source as age at first conception) (4 entries), offspring per litter or eggs per clutch (4 entries), conception or fertilization to birth (4 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-9d31f80f84}

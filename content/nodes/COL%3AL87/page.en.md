@@ -1,4 +1,6 @@
-## PanTHERIA entries {#s-2ef27c4376}
+## Recorded classification and direct parent {#s-2ef27c4376}
+COL26.8 records Sciurini at tribe rank, with Sciurinae as its direct parent.
+
 Two usable accounts occur in this batch’s Sciurini PanTHERIA route: Tamiasciurus douglasii and T. hudsonicus. Their MSW05 names, field-specific conditions and gaps are preserved. Pinned COL26.8 guides navigation; the rows are not a current species denominator.
 
 ## Adult-mass endpoints {#s-1f06a3c84e}
@@ -14,7 +16,7 @@ Nine entries have ecological coverage, including Microsciurus alfari, M. santand
 PanTHERIA and life-history views include only batch entries meeting their focal-field and historical name-matching rules; endpoints are summaries, not individual extremes, and source conditions vary. The life-history and ecological route counts are not complete descendant catalogues. Food types, weights and activities do not establish group-wide traits. Historical medians, taxonomic inheritance, semiquantitative conversion and possible ABC congeneric borrowing retain page-specific limits. Current concepts, range and conservation are not established here.
 
 ## Other PanTHERIA accounts {#s-fd36fabc7e}
-Four usable accounts are [Microsciurus alfari](Microsciurus/Microsciurus_alfari/page.en.md), [M. santanderensis](Microsciurus/Microsciurus_santanderensis/page.en.md), [Rheithrosciurus macrotis](Rheithrosciurus/Rheithrosciurus_macrotis/page.en.md) and [Syntheosciurus brochus](Syntheosciurus/Syntheosciurus_brochus/page.en.md). Each retains its MSW05 name, conditions and gaps; row counts do not define current accepted species.
+Four usable accounts are Microsciurus alfari, M. santanderensis, Rheithrosciurus macrotis and Syntheosciurus brochus. Each retains its MSW05 name, conditions and gaps; row counts do not define current accepted species.
 
 ## Adult-mass range in this batch {#s-856da12814}
 The smallest and largest available medians are Microsciurus alfari at 87.49 g and Rheithrosciurus macrotis at 1353.27 g, adjusted for sex. They are summaries, not individual extremes or evidence of one shared descendant lifestyle.
@@ -23,7 +25,7 @@ The smallest and largest available medians are Microsciurus alfari at 87.49 g an
 This view covers batch entries with at least one focal field, matching name/family and one-to-one historical correspondence, not every descendant. Endpoints are historical summaries and conditions differ. Consult species pages and original variable definitions; current species concepts, distribution and conservation are not established.
 
 ## Life-history accounts {#s-2c15494e07}
-Two authored life-history pages are [Tamiasciurus douglasii](Tamiasciurus/Tamiasciurus_douglasii/page.en.md) and [T. hudsonicus](Tamiasciurus/Tamiasciurus_hudsonicus/page.en.md). The route follows pinned COL26.8 and counts only same-name pages in this batch.
+Two authored life-history pages are Tamiasciurus douglasii and T. hudsonicus. The route follows pinned COL26.8 and counts only same-name pages in this batch.
 
 ## Timing fields and maximum records {#s-a9d72204e5}
 Gestation appears in two accounts, female age at first reproduction in two and maximum lifespan in one. First reproduction differs from first birth and sexual maturity; maximum lifespan is not average lifespan. Source conditions may differ, and missing fields need other evidence.

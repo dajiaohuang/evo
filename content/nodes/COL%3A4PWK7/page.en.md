@@ -1,29 +1,29 @@
-## The name and this data account {#s-740ba9ecab}
-COL26.8 accepts *Pterodroma axillaris* in Procellariidae. AVONET v7 uses the HBW–BirdLife 2020 name and records 5 measured individuals, 4 with a complete set of morphological measurements. Sample sizes can vary by trait.
+## Row-reported mean and sample coverage {#s-740ba9ecab}
+The AVONET v7 row for Pterodroma axillaris (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 18 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-870d2cca08}
-The recorded beak means are 18 mm from the front edge of the nostril to the tip, 6.1 mm wide and 8.1 mm deep at the nostril edge. These are separate dimensions at defined landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-870d2cca08}
+AVONET records culmen length (bill tip to skull base) 27.4 mm; beak length (nostril front edge to tip) 18 mm; beak width at the nostril front edge 6.1 mm; beak depth at the nostril front edge 8.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-9de7980afd}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 212 mm; mean tarsus length is 30.3 mm. The compiled mean mass is 165 g, from source category Dunning. Mass comes from separate species-average information, so the morphology records do not show that every bird was weighed.
+## Wing and body measures use separate sources {#s-9de7980afd}
+AVONET records unflattened wing length 212 mm; tarsus length 30.3 mm; distance from first secondary tip to longest primary tip 136 mm; length to first secondary tip 76.5 mm; hand-wing index 64; tail length 87.2 mm; species-average body mass 165 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-ab755159e4}
-The dataset's dominant categories are Marine for habitat, Aquatic predator for trophic niche and Generalist for lifestyle. They support cross-species comparisons, but do not mean the bird uses only marine habitat or eats only aquatic prey.
+## Recorded habitat and feeding categories {#s-ab755159e4}
+AVONET classifies Pterodroma axillaris as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Generalist. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-6d58b52379}
-The migration field classifies the record as partially migratory. Historical breeding and resident maps span latitudes -62.21° to 2.76°. They do not provide a full account of non-breeding movements or show current positions or global occupancy. Geographic and morphological data come from separate compilation steps.
+## The migration label has a limited scope {#s-6d58b52379}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -62.21° to 2.76°. The mapped range area is 30397124.07 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-eb2ed5b150}
-EltonTraits 1.0 also contains an older *Pterodroma axillaris* record in Procellariidae. The two selected ecological groups allow comparison with the COL26.8 entry while retaining the source's earlier bird or MSW3 mammal taxonomy. A matching name does not settle later splits or synonym disputes.
+## Scope of the historical trait entry {#s-eb2ed5b150}
+EltonTraits 1.0 has a same-name, same-family record for Pterodroma axillaris covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-9da732ca2f}
-The nonzero food weights are invertebrates 50% and fish 50%. Source code B indicates reasonable confidence in the source but possible uncertainty in the relative proportions. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply a diet limited to nectar, seeds or plants.
+## Relative weights across food categories {#s-9da732ca2f}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; fish 50%. Its dominant five-category label is Omnivore. Code B marks a reasonably reliable source, though relative proportions may be uncertain. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-cf7486499b}
-The archive's species-level foraging-stratum weights are 80% on or just below the water surface and 20% below it. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-cf7486499b}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 20%; around the water surface 80%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-87d328a780}
-The selected groups carry source label Ref_1. Diet, strata and activity can come from different materials; the same Ref number in bird and mammal reference tables does not identify the same source. The archive preserves complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, so source labels do not count as new independent observations.
+## Sources and field limits {#s-87d328a780}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-cd1bf3bf0f}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separate literature or weighing sources; the morphology sample count does not apply to mass. Habitat, diet and migration are broad categories, and the map covers historical breeding and resident ranges. Historical crosswalks and a matching catalogue name support this association but do not prove equivalent concepts after later splits or lumps. Reproduction, current populations and conservation status need other sources.

@@ -1,12 +1,12 @@
-## Name and this data account {#s-8693391fa0}
-COL26.8 accepts Xenopeltis intermedius in Xenopeltidae. The ReptTraits v1-2 entry follows the Reptile Database 2023 name framework and retains the source for the recorded trait. Its one species-level entry summarizes that record; it does not establish a uniform condition across populations.
+## COL26.8 name and the ReptTraits row {#s-8693391fa0}
+COL26.8 records Xenopeltis intermedius as an accepted species. The ReptTraits v1-2 row gives its Family field as Xenopeltidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Where and how it is active {#s-78dd03f141}
-The entry classifies the recorded microhabitat as fossorial, meaning burrowing or underground activity. This broad label does not describe every habitat or a fixed schedule, and the available entry does not establish whether populations, seasons, or life stages share it.
+## Habitat use and activity labels {#s-78dd03f141}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## Evidence limits {#s-8ee806094d}
-This is a limited trait record, not a full account of morphology or ecology. ReptTraits v1-2 preserves its 2023 taxonomic framework and source citation, but one row per species cannot represent variation among ages, sexes, places, or populations. A shared name or family does not guarantee that later taxonomic concepts match. This entry reports no supported body-size, diet, activity-time, reproductive, or sex-determination value. Conservation status, venom, current range, and population trends are also not established here.
+## Reading this compiled trait record {#s-8ee806094d}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-fa5fd2475a}
-The only sourced trait here is fossorial microhabitat. The record does not provide a supported snout–vent or total length, sex-specific length, clutch or litter count, egg dimensions, diet, activity time, foraging mode, reproductive mode, or sex-determination mechanism. Missing values and records from relatives cannot fill these species facts.
+## Reading this compiled trait record {#s-fa5fd2475a}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

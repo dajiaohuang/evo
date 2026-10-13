@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-f3f76ba29d}
+## 记录分类与直接上级关系 {#s-f3f76ba29d}
+COL26.8 将 Natricinae 记录为亚科；其直接上级记录为 Colubridae。
+
 Natricinae 的本批 ReptTraits 阅读路径包含 121 条同名同科、有逐性状出处的物种资料，可从 Afronatrix anoscopus、Amphiesma monticola、Amphiesma stolatum、Amphiesmoides ornaticeps、Aspidura brachyorrhos 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-69ae465d0c}
@@ -10,8 +12,8 @@ Natricinae 的本批 ReptTraits 阅读路径包含 121 条同名同科、有逐�
 ## 部分后代条目的引用缺口 {#s-8686bd2037}
 这条 ReptTraits 阅读路径中有 23 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-bbf068bb56}
-Natricinae 的本批 ReptTraits 阅读路径包含 133 条同名同科、有逐性状出处的物种资料，可从 [Anoplohydrus aemulans](Anoplohydrus/Anoplohydrus_aemulans/page.zh.md)、[Aspidura desilvai](Aspidura/Aspidura_desilvai/page.zh.md)、[Aspidura ravanai](Aspidura/Aspidura_ravanai/page.zh.md)、[Fowlea asperrima](Fowlea/Fowlea_asperrima/page.zh.md)、[Fowlea melanzosta](Fowlea/Fowlea_melanzosta/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-bbf068bb56}
+Natricinae 的本批 ReptTraits 阅读路径包含 133 条同名同科、有逐性状出处的物种资料，可从 Anoplohydrus aemulans、Aspidura desilvai、Aspidura ravanai、Fowlea asperrima、Fowlea melanzosta 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-1c0198bea9}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

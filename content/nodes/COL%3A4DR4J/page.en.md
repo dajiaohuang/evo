@@ -13,3 +13,12 @@ the reproductive-mode field uses the original label oviparous; consolidated mean
 ## Evidence limits {#s-b362127ab7}
 This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
 
+## Overlapping measurements in the sampled comparisons {#revision-morphology}
+In the sampled adult and subadult comparisons, body-size values overlapped among lineages, and no single reported ratio unambiguously diagnosed every species. The authors caution that these ratios have limited value for reliable field identification.
+
+## Lineages recovered in the revision {#revision-lineages}
+Mitochondrial and nuclear analyses recovered multiple distinct P. bastardi lineages. At sampled sympatric localities in Madagascar, the authors reported no genetic admixture or morphological intermediates as evidence supporting reproductive isolation among those sampled lineages; this does not place every historically assigned P. bastardi population in the current accepted species concept.
+
+## Range assigned to P. bastardi sensu stricto {#revision-range}
+After designating a lectotype, the 2021 revision restricted P. bastardi sensu stricto to the extreme south-east of Madagascar. This is the range conclusion drawn from records reviewed in that paper, not a current exhaustive range inventory.
+

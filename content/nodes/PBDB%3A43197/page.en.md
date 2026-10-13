@@ -7,8 +7,8 @@ Start with Coelodonta thibetana, Coelodonta nihowanensis, Coelodonta tologoijens
 ## Evidence limits {#s-06378b04bc}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## atlas-profile / overview {#s-d20d6f45c5}
-Coelodonta includes species from the Tibetan Plateau and East Asia to northern Eurasia, but its ecology was not uniform. Evidence about the woolly rhinoceros C. antiquitatis should be kept separate from isotope results for other species such as C. nihowanensis.
+## Different Coelodonta species leave different ecological signals {#s-d20d6f45c5}
+Coelodonta includes species recorded from the Tibetan Plateau and East Asia to northern Eurasia, but its ecology was not uniform. Evidence about C. antiquitatis remains separate from isotope results for other species, including C. nihowanensis.
 
 ## atlas-profile / ecology / diet {#s-528ef6bb6c}
 Typical grazing in C. antiquitatis; mixed feeding in some C. nihowanensis samples
@@ -34,12 +34,12 @@ Low head posture and long nasal horn in C. antiquitatis
 ## atlas-profile / traits {#s-6179a9512f}
 High-crowned teeth associated with abrasive grazing
 
-## atlas-profile / evidenceSummary {#s-f5bdfb9ef2}
-The ecological review compares species and regions, while a directly dated 14.4 ka genome represents one late C. antiquitatis individual. Together they do not establish a continuous genus-wide history or an exact global extinction boundary.
+## One early occurrence and one directly dated individual {#s-f5bdfb9ef2}
+The ecological review compares species and regions; a separate genomic study directly dates one C. antiquitatis individual to 14.4 ka. These sources do not establish a continuous genus-wide history or an exact global extinction boundary.
 
-## Different species left different ecological signals {#s-57d5ecd51d}
-The review describes C. antiquitatis as a cold-adapted grazer, with long hair and dense underwool, a low head posture, a long nasal horn and high-crowned teeth. Isotope samples from some C. nihowanensis populations instead indicate mixed feeding. These findings vary by species and place; neither diet should be assigned to every member of the genus.
+## Cold-steppe traits belong to C. antiquitatis {#s-57d5ecd51d}
+The review describes C. antiquitatis as cold-adapted and grazing, with long hair, dense underwool, a low head posture, a long nasal horn and high-crowned teeth. Isotope samples from some C. nihowanensis populations instead indicate mixed feeding. These findings vary by species and place.
 
-## Two records do not make a continuous range {#s-ac707ed45a}
-The review identifies C. thibetana at 5.08 million years ago as the earliest known genus record. A separate genomic study directly dated one C. antiquitatis individual to 14.4 thousand years ago. These are a reviewed early occurrence and one dated late individual, not proof of uninterrupted presence between them or the genus's global last appearance.
+## Two dated records do not make a continuous range {#s-ac707ed45a}
+The review identifies C. thibetana at 5.08 million years ago (5.08 Ma) as the earliest known genus record. A separate genomic study directly dates one C. antiquitatis individual to 14.4 thousand years ago (14.4 ka). These are one reviewed early occurrence and one dated late individual, not proof of continuous presence or the genus’s global last appearance.
 

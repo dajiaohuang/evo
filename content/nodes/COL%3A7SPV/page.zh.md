@@ -1,4 +1,6 @@
 ## overview {#s-2d45894c07}
+COL26.8 将 Tapirella Palmer, 1903 记录为属；其直接上级记录为 Tapiridae Gray, 1821。
+
 本版目录在此属收录中美貘。生物学来源使用 Tapirus bairdii；该来源的短吻与食叶描述用于同一物种，不把旧属名强制替换为全科唯一分类。
 
 ## catalogue-profile / limitations {#s-f255832e66}

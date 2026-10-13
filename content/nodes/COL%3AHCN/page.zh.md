@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-e60d6bdb0a}
+## 记录分类与直接上级关系 {#s-e60d6bdb0a}
+COL26.8 将 Tragulidae 记录为科；其直接上级记录为 Artiodactyla Owen, 1848。
+
 Tragulidae 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Hyemoschus aquaticus、Moschiola meminna 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-372f2d94d4}
@@ -17,7 +19,7 @@ Tragulidae 的本批路线包含 4 个历史条目，可从 Tragulus versicolor�
 PanTHERIA 链接 2 个物种资料页，2015 年生活史路线收录 7 条记录。Ernest 2003 页面涵盖 2 条资料：两条均有妊娠和最高寿命值，首次繁殖年龄只见于其中 1 条。EltonTraits 有两组各 4 条记录：一组包含食物、觅食和活动字段，另一组只有觅食层位值。成年体重比较端点是经性别调整的历史中位数。各来源涉及不同名称和变量，不能拼成完整的 Tragulidae 记述，也不能外推为所有后代的共同特征。
 
 ## 沿生活史资料阅读 {#s-e0ecf2d3ad}
-Tragulidae 本批有 2 个历史生活史资料页，可从 [Hyemoschus aquaticus](Hyemoschus/Hyemoschus_aquaticus/page.zh.md)、[Moschiola meminna](Moschiola/Moschiola_meminna/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Tragulidae 本批有 2 个历史生活史资料页，可从 Hyemoschus aquaticus、Moschiola meminna 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-b44ef753aa}
 本批妊娠资料见 2 页，雌性首次繁殖年龄见 1 页，最高寿命记录见 2 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

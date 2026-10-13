@@ -1,4 +1,6 @@
-## 测量记录与阅读起点 {#s-3c2a9d7a95}
+## 记录分类与直接上级关系 {#s-3c2a9d7a95}
+COL26.8 将 Ardeidae 记录为科；其直接上级记录为 Pelecaniformes。
+
 现有 AVONET v7 资料中有 36 条 Ardeidae 物种测量记录。可从 Agamia agami、Ardea cinerea、Ardea cocoi、Ardea goliath 和 Ardea melanocephala 开始阅读。导航按固定 COL26.8 组织，生物学数值仍采用来源中的历史名称和采样范围。
 
 ## 记录之间有什么差别 {#s-15b387dc71}
@@ -18,8 +20,8 @@
 31 条生活史资料各至少有三个带来源支持的焦点字段；其数值仍受汇编中位数、最长寿命记录与历史分类的限制。科级阅读路径不表示所有后代有相同繁殖方式或生活史；完整理解及当前状态需要其他来源。
 生态摘要纳入唯一的历史同名同科记录，其中 44 条至少有两类可用字段，另有两条恰有一类。后代的食物类型、估计权重或活动模式不能据此说成全科特征。半定量转换、历史分类以及 ABC 字段可能借用同属资料的限制仍适用于各条记录。
 
-## 从有限生态资料开始 {#s-23e27ceab5}
-Ardeidae 有七条生态资料有限的记录，可从 [Ardea humbloti](Ardea/Ardea_humbloti/page.zh.md)、[Ardea insignis](Ardea/Ardea_insignis/page.zh.md)、[Ardeola idae](Ardeola/Ardeola_idae/page.zh.md)、[Ardeola rufiventris](Ardeola/Ardeola_rufiventris/page.zh.md) 和 [Ardeola speciosa](Ardeola/Ardeola_speciosa/page.zh.md) 开始阅读。计数仅包括此处撰写的记录，不代表全部接受物种；导航按固定 COL26.8 组织。
+## 记录分类与成员材料 {#s-23e27ceab5}
+Ardeidae 有七条生态资料有限的记录，可从 Ardea humbloti、Ardea insignis、Ardeola idae、Ardeola rufiventris 和 Ardeola speciosa 开始阅读。计数仅包括此处撰写的记录，不代表全部接受物种；导航按固定 COL26.8 组织。
 
 ## 哪些内容可读，哪些仍未解读 {#s-7dc675cb06}
 七条有限生态资料均记录了栖地、取食生态位、主导活动方式和迁移类别。阅读时应遵循原字段定义，并区分类别、历史地图和个体观察；相同标签不代表所有后代有相同生活方式。此处不解读喙、翼、跗蹠、尾和体重字段，也不能用它们比较全科体型。

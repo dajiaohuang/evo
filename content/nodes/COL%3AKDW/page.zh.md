@@ -1,4 +1,6 @@
-## 本页代表的记录 {#s-ec0a47d8d0}
+## 记录分类与直接上级关系 {#s-ec0a47d8d0}
+COL26.8 将 Surniinae 记录为亚科；其直接上级记录为 Strigidae。
+
 AVONET v7 收录 28 种 Surniinae 的测量记录，例如 Aegolius acadicus、A. funereus、A. harrisii、A. ridgwayi 和 Athene brama。目录层级按固定 COL26.8 组织，生物学数值保留来源的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-88d939c91b}
@@ -19,7 +21,7 @@ AVONET v7 在此总结 28 种有测量记录的后代，且有历史一对一分
 28 条记录构成同时有食物和觅食层位字段的子集；另 5 条仅有层位字段。两组都是历史同名、同科资料，不是完整后代名册。百分比将文献描述标准化，并不证明整个亚科共有特征；来源分类和逐条解释仍很重要。
 
 ## 证据有限的生态记录 {#s-3168d8014b}
-Surniinae 有两页生态证据有限：[Glaucidium castanopterum](Glaucidium/Glaucidium_castanopterum/page.zh.md) 和 [Glaucidium mooreorum](Glaucidium/Glaucidium_mooreorum/page.zh.md)。页面链接沿固定 COL26.8 分类排列；两页不代表全部接受种。
+Surniinae 有两页生态证据有限：Glaucidium castanopterum 和 Glaucidium mooreorum。页面链接沿固定 COL26.8 分类排列；两页不代表全部接受种。
 
 ## 哪些内容可读，哪些仍未解读 {#s-405b78b02b}
 这两页中，一页有栖地类别，两页有食性生态位、主导活动方式和迁移类别。这些是来源分类；相同标签不代表每个后代都具有相同生活方式。这两页的喙、翼、跗蹠、尾和体重字段在此未作解释，不能据此建立亚科体型比较。

@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:ursidae
       claimKind: scientific
       claimType: topology
-      statement: Ursidae is recovered as one living family branch in the extant-carnivoran supertree, but family crown dates and relationships are estimates assembled from gene trees and calibrations; extinct stem bears are not comprehensively sampled.
+      statement:
+        page: en
+        section: living-tree
+        part: body
       confidence: medium
       confidenceRationale: The primary supertree supports the living family placement and explicitly documents its input and dating method.
       referenceLinks:
@@ -27,7 +30,9 @@ records:
   claim-rationales.zh:
     - 一手超级树支持现生科位置，并明确记录其输入与定年方法。
   claim-statements.zh:
-    - 熊科在现生食肉类超级树中被恢复为一个现生科级分支，但科级冠群日期和关系是由基因树与校准组装的估计；灭绝干群熊类未被全面取样。
+    - page: zh
+      section: living-tree
+      part: body
   ranges:
     - entityId: ursidae
       rangeKind: global-composite

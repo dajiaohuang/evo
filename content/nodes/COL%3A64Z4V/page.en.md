@@ -1,5 +1,5 @@
-## Find rows through older Collocalia combinations {#s-5e0951cd8a}
-Pinned COL26.8 organizes this page at Aerodramus whiteheadi (64Z4V). BirdLife 2020 row 527 and eBird 2021 row 218 share the name and Avibase ID AVIBASE-239F660C, with type 1BL to 1eBird; BirdTree row 223 gives Collocalia whiteheadi, with type 1BL to 1BT. Read catalogue synonym 8KCH2 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates. Historical Order1=Caprimulgiformes remains distinct from Apodiformes in this COL path.
+## A name fixed to COL26.8 {#s-5e0951cd8a}
+Catalogue of Life release COL26.8 records Aerodramus whiteheadi (Ogilvie-Grant, 1895) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## The scope of one measured bird {#s-20d5254f28}
 Morphology comprises 1 bird: 0 female, 1 male and 0 unsexed; 1 complete set. Nostril-to-tip beak length 3 mm, tarsus 10.7 mm, unflattened wing 136 mm, tail 50 mm and hand-wing index 69.2 are historical row means. One bird cannot establish sex differences or a population distribution. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

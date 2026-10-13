@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-f66821d672}
-Adynomosaurus arcanus is accepted in the fixed PBDB dinosaur working roster, with database parent Adynomosaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-f66821d672}
+Adynomosaurus arcanus is listed in the PBDB snapshot under taxon txn:401260. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-93b49a31b6}
-Collection Costa de les Solanes, near Basturs village (Cataluña), region code ES, stratum name Conques; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-93b49a31b6}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-5b2e9ee970}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1487825; PBDB collection col:207033. Locality cnm=Costa de les Solanes, near Basturs village; place fields cc2=ES, stp=Cataluña, cny=Lleida. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Conques. Recorded attribution Prieto-Márquez et al. 2019; PBDB reference ref:71247.
 
-## Read preservation setting separately from living habitat {#s-1a4f08abe1}
-Costa de les Solanes, near Basturs village has collection-environment label pond; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"lower red unit" = Lower Red Garumnian
 
-## Follow collection records back to references {#s-2e45e85f67}
-Costa de les Solanes, near Basturs village carries database reference attribution Prieto-Márquez et al. (2019), identifier ref:71247. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Costa de les Solanes, closer to the Basturs Poble bonebed (BP), Conca Dellà sector; Isona, Lleida province
 
-## Evidence limits {#s-0b6e5f4870}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-5b2e9ee970}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:1487825; the smallest recorded lag=66 Ma in occ:1487825. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-1a4f08abe1}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1487825: PBDB original-identification field idn=Adynomosaurus arcanus n. gen. n. sp.; PBDB taxon-name field tna=Adynomosaurus arcanus; material note ocm=MCD 7125, L scapula; MCD 7123, partial L dentary; MCD 7131, partial cervical vertebra; MCD 7129, 3 fused sacral centra; MCD 7133, sacral centrum; MCD 7141, proximal caudal centrum; MCD 7127, middle caudal vertebra; MCD 7142, partial distal caudal vertebra; MCD 7124, L sternum; MCD 7122, partial rib; MCD 7120, distal end of L humerus; MCD 7121, proximal half of L radius; MCD 7118, fragment of R iliac preacetabular process; MCD 7138, central plate of L ilium; MCD 7139, partial R ischium; MCD 7111, L femur; MCD 7109, femoral shaft fragment; MCD 7117, partial L femur; MCD 7112, L tibia; MCD 7114, partial R tibia; MCD 7139 fragmentary L tibia; MCD 7119, proximal & distal segments of L fibula; MCD 7113, R metatarsal III; and MCD 7137 partial L metatarsal IV; abundance fields abv=34, abu=specimens; PBDB locality-coordinate fields lng=1.034722, lat=42.157223; paleocoordinate/model fields pm1=gplates, pln=10.84, pla=30.16.
+
+## References attached to each record {#s-2e45e85f67}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1487825: Recorded attribution Prieto-Márquez et al. 2019; PBDB reference ref:71247.
+
+## What these records can show {#s-0b6e5f4870}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

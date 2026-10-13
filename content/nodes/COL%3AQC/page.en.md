@@ -4,13 +4,13 @@ The 2019 comparison uses Apteryx haastii, A. mantelli, A. owenii and A. rowi. Th
 ## Read by material, tree model and experimental level {#s-5baccfa528}
 Study species directly represented at this entry are [Apteryx haastii](Apterygidae/Apteryx/Apteryx_haastii/page.en.md), [Apteryx mantelli](Apterygidae/Apteryx/Apteryx_mantelli/page.en.md), [Apteryx owenii](Apterygidae/Apteryx/Apteryx_owenii/page.en.md), [Apteryx rowi](Apterygidae/Apteryx/Apteryx_rowi/page.en.md). First distinguish added, reused and reference-mapped genomes, then compare species trees with gene trees. For a cross-lineage functional comparison, turn to the chicken reporter assays on [Rhea americana](../Rheiformes/Rheidae/Rhea/Rhea_americana/page.en.md) and [Eudromia elegans](../Tinamiformes/Tinamidae/Eudromia/Eudromia_elegans/page.en.md); one candidate region cannot validate every accelerated element. Return to existing morphology, life history or fossil occurrences with their own units and samples. This route is neither exhaustive group sampling nor a complete descendant catalogue.
 
-## Local data reading route {#s-ab2b60c4d0}
+## Recorded classification and member material {#s-ab2b60c4d0}
 This batch’s Apterygiformes route includes 3 measured species records. Start with Apteryx haastii, Apteryx mantelli, Apteryx owenii. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-ddbb5a517b}
 Compiled mean mass endpoints in this batch are Apteryx owenii at 1238.29 g and Apteryx mantelli at 2320.51 g. Represented habitat categories include Forest; trophic niches include Invertivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-27907c4018}
+## Amniote Life-history archive member records {#s-27907c4018}
 This batch’s Apterygiformes route includes 4 historical life-history accounts; start with Apteryx australis, Apteryx mantelli, Apteryx owenii, Apteryx rowi. More frequently represented fields include adult body mass (4 entries), offspring per litter or eggs per clutch (4 entries), oviposition to hatching (4 entries), longest lifespan record in the compilation (4 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-3cfa868421}

@@ -1,24 +1,26 @@
-## Start with sourced trait records {#s-90e42d4624}
+## Recorded classification and direct parent {#s-90e42d4624}
+COL26.8 records Indotyphlops at genus rank, with Typhlopidae as its direct parent.
+
 This batch’s ReptTraits route for Indotyphlops includes 3 same-name, same-family entries with trait-specific citations. Start with Indotyphlops albiceps, Indotyphlops braminus, Indotyphlops lazelli. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Different groups require different measures {#s-93d6a19685}
 The shared length column records straight carapace length in turtles and snout–vent length in other groups. They are not combined into a size ranking. On species pages, inspect measurement landmarks, activity and feeding categories, reproductive mode and clutch/litter values, selecting comparable material by source and definition.
 
-## Choose comparison pages by life-history fields {#s-6ec277cc8f}
+## Amniote Life-history archive member records {#s-6ec277cc8f}
 This batch’s Indotyphlops route includes 1 historical life-history accounts; start with Indotyphlops braminus. Fields retained within declared class scopes include adult body mass (1 entries), offspring per litter or eggs per clutch (1 entries), oviposition to hatching (1 entries). Counts describe this batch’s coverage, not the complete accepted-species denominator; read events, units and provenance before comparing values.
 
-## Evidence limits {#s-d66461ff36}
+## Limits attached to these records {#s-d66461ff36}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 
-## Start with sourced trait records {#s-44ce134a74}
-This batch’s ReptTraits route for Indotyphlops includes 17 same-name, same-family entries with trait-specific citations. Start with [Indotyphlops ahsanai](Indotyphlops_ahsanai/page.en.md), [Indotyphlops filiformis](Indotyphlops_filiformis/page.en.md), [Indotyphlops fletcheri](Indotyphlops_fletcheri/page.en.md), [Indotyphlops jerdoni](Indotyphlops_jerdoni/page.en.md), [Indotyphlops lankaensis](Indotyphlops_lankaensis/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-44ce134a74}
+This batch’s ReptTraits route for Indotyphlops includes 17 same-name, same-family entries with trait-specific citations. Start with Indotyphlops ahsanai, Indotyphlops filiformis, Indotyphlops fletcheri, Indotyphlops jerdoni, Indotyphlops lankaensis. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
-## Choose comparisons by available fields {#s-c4009f9437}
+## ReptTraits member records {#s-c4009f9437}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Limits of these trait data {#s-12da576629}
+## ReptTraits material route {#s-12da576629}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

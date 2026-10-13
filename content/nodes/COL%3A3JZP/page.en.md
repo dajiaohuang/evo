@@ -1,4 +1,6 @@
-## Start with the measured records {#s-2a4040fc17}
+## Recorded classification and direct parent {#s-2a4040fc17}
+COL26.8 records Celeus at genus rank, with Picinae as its direct parent.
+
 Seven Celeus species have measured records in this batch. Begin with Celeus castaneus, C. elegans, C. flavus, C. loricatus or C. lugubris. COL26.8 supplies the navigation hierarchy; values remain tied to AVONET v7's historical names and sampling scope.
 
 ## Differences across the sampled species {#s-81cd221be6}

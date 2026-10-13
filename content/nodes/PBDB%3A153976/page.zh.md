@@ -1,19 +1,54 @@
 ## 这个名称对应哪些化石记录 {#s-ce052f3ce0}
 Mcdonaldocnus bondesioi 在固定 PBDB 哺乳类化石工作名录中为接受种，数据库父级为 Mcdonaldocnus。本页导读 5 条可用种级出现记录，涉及 5 个采集记录和 2 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-4da4b25e67}
-采集记录 Achiri（La Paz），地区代码 BO，地层名称 Mauri；数据库年代范围 11.63–7.246 Ma，早端地质时段 Tortonian。采集记录 Quebrada de La Troya（La Rioja），地区代码 AR，地层名称 Toro Negro；数据库年代范围 7.246–3.6 Ma，早端地质时段 Messinian、晚端时段 Zanclean。采集记录 Cerro Zeballos （Chubut），地区代码 AR，地层名称 Collón Curá；数据库年代范围 11.63–7.246 Ma，早端地质时段 Tortonian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Mcdonaldocnus bondesioi 在 PBDB 快照中对应分类条目 txn:153976。这份存档导读包含 5 条选取的出现记录，关联 5 个不同的 PBDB 采集记录编号和 2 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-e132d6118a}
-本页所选出现记录的年代外包区间为 15.98–3.6 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 El Petiso 的出现记录 occ:1453393（15.98–13.82 Ma）；晚端可追到 Quebrada de La Troya 的出现记录 occ:1181671（7.246–3.6 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-4da4b25e67}
+存档导读包含 5 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 保存环境与生活环境分开阅读 {#s-a05e2e8f36}
-Achiri 的采集环境标签为 陆相沉积环境，类型未定（terrestrial indet.）；集合保存方式标签为 实体化石（body）。Quebrada de La Troya 的采集环境标签为 河流沉积环境，类型未定（fluvial indet.）；集合保存方式标签为 实体化石（body）。Cerro Zeballos  的采集环境标签为 alluvial fan；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:1453393；PBDB 采集记录 col:133676。 地点字段 cnm=El Petiso；地点分区字段 cc2=AR，stp=Chubut。 记录年代界：eag 15.98 Ma; lag 13.82 Ma；PBDB 年代区间字段 oei=Langhian。 记录署名 Gaudin et al. 2022；PBDB 引文编号 ref:81883。
 
-## 沿采集记录追到文献 {#s-95f545c914}
-Achiri 的数据库引文署名为 Gaudin et al.（2022），编号 ref:81883。Quebrada de La Troya 的数据库引文署名为 Gaudin et al.（2022），编号 ref:81883。Cerro Zeballos  的数据库引文署名为 Gaudin et al.（2022），编号 ref:81883。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Brandoni 2014:  El ejemplar MPEF-PV 3264 fue colectado en la localidad de “El Petiso” ubicada al noroeste de la Provincia de Chubut (Fig. 1) en sedimentos considerados de probable edad “Colloncurense” o “post-Colloncurense” (Mioceno Medio) (Villafañe et al., 2008; Pérez, 2010; Pérez y Vucetich, 2011) (Fig. 2).
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Brandoni 2014: Colectado en la localidad conocida como el “El Petiso”, en el noroeste de la Provincia de Chubut, en sedimentos referidos al Mioceno Medio (Villafañe et al., 2008) (Figs. 1, 2).
+
+- 出现记录 occ:1181671；PBDB 采集记录 col:152263。 地点字段 cnm=Quebrada de La Troya；地点分区字段 cc2=AR，stp=La Rioja。 记录年代界：eag 7.246 Ma; lag 3.6 Ma；PBDB 年代区间字段 oei=Messinian，oli=Zanclean。 地层字段 sfm=Toro Negro。 记录署名 Gaudin et al. 2022；PBDB 引文编号 ref:81883。
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+In the proximity of the road between the localities of Vinchina and Jagüel
+
+- 出现记录 occ:819034；PBDB 采集记录 col:90023。 地点字段 cnm=Achiri；地点分区字段 cc2=BO，stp=La Paz，cny=Pacajes。 记录年代界：eag 11.63 Ma; lag 7.246 Ma；PBDB 年代区间字段 oei=Tortonian。 地层字段 sfm=Mauri。 记录署名 Gaudin et al. 2022；PBDB 引文编号 ref:81883。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Townsend and Croft 2010: 7.6 Ma to 10.35 Ma. refs for ages: Villarroel 1974a; Marshall et al. 1992.
+This makes the locality of Huayquerian (SALMA) or Tortonian in age.; Gomez et al. 2024 include the mammal-bearing locus of Villarroel 1974 at locailty ACH-27, at the approx. 80 meter level of their stratigraphic section through Mauri 6 and bracketed by ACH-TUF-4 at 9.42+/-0.1 Ma and ACH-TUF-3 at 10.42+/- 0.09Ma)
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Townsend and Croft 2010: 17°16´S, 69°01´W
+
+## 出现记录的年代界 {#s-e132d6118a}
+在这组 PBDB 记录中，最大记录 eag=15.98 Ma，见 occ:1453393；最小记录 lag=3.6 Ma，见 occ:1181671。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-a05e2e8f36}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1453393：PBDB 分类名称字段 tna=Mcdonaldocnus bondesioi；材料说明字段 ocm=MPEF-PV 3264, mandibular fragment；PBDB 地点坐标字段 lng=-69.733330，lat=-42.233334；古坐标／模型字段 pm1=gplates，pln=-67.29，pla=-41.58。
+- occ:1181671：PBDB 分类名称字段 tna=Mcdonaldocnus bondesioi；材料说明字段 ocm=CRILAR-PZ 262；PBDB 地点坐标字段 lng=-68.306114，lat=-28.686666；古坐标／模型字段 pm1=gplates，pln=-67.51，pla=-28.46。
+- occ:819034：PBDB 分类名称字段 tna=Mcdonaldocnus bondesioi；PBDB 地点坐标字段 lng=-69.000000，lat=-17.200001；古坐标／模型字段 pm1=gplates，pln=-66.84，pla=-16.74。
+
+## 各记录所附的引文 {#s-95f545c914}
+存档导读把这些记录关联到 2 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1453393：记录署名 Gaudin et al. 2022；PBDB 引文编号 ref:81883。
+- occ:1181671：记录署名 Gaudin et al. 2022；PBDB 引文编号 ref:81883。
+- occ:819034：记录署名 Gaudin et al. 2022；PBDB 引文编号 ref:81883。
 
 ## 资料边界 {#s-4ca17b89e9}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 13958 项哺乳类化石工作名录中，当前名称一致、父链可追到已记录 Mammalia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 5 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

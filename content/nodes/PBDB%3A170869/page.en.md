@@ -1,19 +1,44 @@
 ## Which fossil records this name represents {#s-50e623f369}
 Temnodontosaurus platyodon is accepted in the fixed PBDB ichthyosauriformes working roster, with database parent Temnodontosaurus. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-b8e0dba41a}
-Collection Black Ven ichthyosaur (England), region code UK, stratum name Charmouth Mudstone; database age bracket 199.5–192.9 Ma, early interval Sinemurian. Collection Lyme Regis, Lower Lias unspecified (BMNH) (England), region code UK; database age bracket 199.5–192.9 Ma, early interval Sinemurian. Collection Stockem Temnodontosaurus, region code BE; database age bracket 199.5–192.9 Ma, early interval Early Sinemurian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Temnodontosaurus platyodon is listed in the PBDB snapshot under taxon txn:170869. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-e3746cfdb7}
-Selected occurrences have an outer age envelope of 199.5–192.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Black Ven ichthyosaur, occurrence occ:884856 (199.5–192.9 Ma); one supplying the younger bound is Black Ven ichthyosaur, occurrence occ:884856 (199.5–192.9 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-b8e0dba41a}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-a524c2a429}
-Black Ven ichthyosaur has collection-environment label marine indet.; collection preservation-mode label body,concretion. Lyme Regis, Lower Lias unspecified (BMNH) has collection-environment label marine indet.; collection preservation-mode label body,adpression. Stockem Temnodontosaurus has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:884856; PBDB collection col:98103. Locality cnm=Black Ven ichthyosaur; place fields cc2=UK, stp=England, cny=Dorset. Recorded age bounds: eag 199.5 Ma; lag 192.9 Ma; PBDB interval fields oei=Sinemurian. Stratigraphic fields sfm=Charmouth Mudstone. Recorded attribution McGowan 1994; PBDB reference ref:33904.
 
-## Follow collection records back to references {#s-dc54844041}
-Black Ven ichthyosaur carries database reference attribution McGowan (1994), identifier ref:33904. Lyme Regis, Lower Lias unspecified (BMNH) carries database reference attribution McGowan (1974), identifier ref:45402. Stockem Temnodontosaurus carries database reference attribution Godefroit (1993), identifier ref:57919. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1108745; PBDB collection col:122153. Locality cnm=Lyme Regis, Lower Lias unspecified (BMNH); place fields cc2=UK, stp=England, cny=Dorset. Recorded age bounds: eag 199.5 Ma; lag 192.9 Ma; PBDB interval fields oei=Sinemurian. Recorded attribution McGowan 1974; PBDB reference ref:45402.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Lower Lias" is only stratigraphic info given, but most fish come from the Bucklandi and Semicostatum zones of the Early Sinemurian, specially the "Fish Bed" and "Fish Bed shales" - both in the Semicostatum zone, but also from the "Saurian shales" and other lower beds in the Bucklandi zone.
+
+- Occurrence occ:1313353; PBDB collection col:176255. Locality cnm=Stockem Temnodontosaurus; place fields cc2=BE. Recorded age bounds: eag 199.5 Ma; lag 192.9 Ma; PBDB interval fields oei=Early Sinemurian. Recorded attribution Godefroit 1993; PBDB reference ref:57919.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Les fossiles récoltés dans les marnes sableuses permettent de les rattacher aux Marnes de La Posterie (JEROME, 1910; MONTEE, 1958). Celles-ci correspondent aux Zones à obtusum et à oxynotum (MERGEN, 1985). [=Posterie Member of the Arlon Formation]
+
+## Age bounds on the recorded occurrences {#s-e3746cfdb7}
+Across these selected PBDB rows, the largest recorded eag=199.5 Ma in occ:884856; the smallest recorded lag=192.9 Ma in occ:884856. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-a524c2a429}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:884856: PBDB taxon-name field tna=Temnodontosaurus platyodon; material note ocm=Multiple specimens, including neotype BMNH 2003; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-2.900000, lat=50.732498; paleocoordinate/model fields pm1=gplates, pln=10.34, pla=37.18.
+- occ:1108745: PBDB original-identification field idn=Temnodontosaurus risor n. sp.; PBDB taxon-name field tna=Temnodontosaurus platyodon; material note ocm=Holotype BMNH 43971, complete skull (precise locality unknown); abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-2.920000, lat=50.732498; paleocoordinate/model fields pm1=gplates, pln=10.33, pla=37.17.
+- occ:1313353: PBDB taxon-name field tna=Temnodontosaurus platyodon; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=5.796111, lat=49.685280; paleocoordinate/model fields pm1=gplates, pln=17.84, pla=39.35.
+
+## References attached to each record {#s-dc54844041}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:884856: Recorded attribution McGowan 1994; PBDB reference ref:33904.
+- occ:1108745: Recorded attribution McGowan 1974; PBDB reference ref:45402.
+- occ:1313353: Recorded attribution Godefroit 1993; PBDB reference ref:57919.
 
 ## Evidence limits {#s-f4a5846854}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 182-item ichthyosauriformes working roster, retain the current same name and a complete parent chain to the recorded Ichthyosauriformes storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

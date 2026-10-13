@@ -1,19 +1,47 @@
 ## Which fossil records this name represents {#s-6a06f8d4c0}
 Eriphostoma microdon is accepted in the fixed PBDB other-synapsida working roster, with database parent Eriphostoma. This guide uses 11 eligible species-level occurrence records from 10 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-2322462d0d}
-Collection Hottentotsrivier Farm (Western Cape), region code ZA, stratum name Abrahamskraal; database age bracket 264.28–259.857 Ma, early interval Capitanian. Collection Leeu-Gamka  (Western Cape), region code ZA; database age bracket 264.28–259.857 Ma, early interval Capitanian. Collection Abrahamskraal, Prince Albert (Western Cape), region code ZA, stratum name Abrahamskraal; database age bracket 264.28–259.857 Ma, early interval Capitanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Eriphostoma microdon is listed in the PBDB snapshot under taxon txn:56794. This archived guide contains 11 selected occurrence rows, linked to 10 distinct PBDB collection IDs and 6 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-8bb886397a}
-Selected occurrences have an outer age envelope of 264.28–251.902 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Hottentotsrivier Farm, occurrence occ:1313318 (264.28–259.857 Ma); one supplying the younger bound is Osfontein, Graaff-Reinet, occurrence occ:1332735 (259.857–251.902 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-2322462d0d}
+The archived guide contains 11 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-8c2d7d658f}
-Hottentotsrivier Farm has collection-environment label "floodplain"; collection preservation-mode label body,mold/impression. Leeu-Gamka  has collection-environment label terrestrial indet.; collection preservation-mode label body. Abrahamskraal, Prince Albert has collection-environment label "floodplain"; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1313318; PBDB collection col:13004. Locality cnm=Hottentotsrivier Farm; place fields cc2=ZA, stp=Western Cape, cny=Beaufort West. Recorded age bounds: eag 264.28 Ma; lag 259.857 Ma; PBDB interval fields oei=Capitanian. Stratigraphic fields sfm=Abrahamskraal. Recorded attribution Broom 1913; PBDB reference ref:57891.
 
-## Follow collection records back to references {#s-a5d26ac88f}
-Hottentotsrivier Farm carries database reference attribution Broom (1913), identifier ref:57891. Leeu-Gamka  carries database reference attribution Broom (1911), identifier ref:57387. Abrahamskraal, Prince Albert carries database reference attribution Haughton (1915), identifier ref:57892. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Kitching (1977, "Distribution of the Karroo Vertebrate Fauna") assigns this locality to the lower and middle Tapinocephalus Zone. Kammerer et al. (2015) and Angielczyk et al. (2016) list this locality as Tapinocephalus Zone, and the latter note that "Day (2013) suggested that strata on this farm likely fall in the stratigraphic interval between 2350 and 2450 m above the base of the Abrahamskraal Formation in this part of the Karoo Basin." Radioisotopic data constrains the likely age of the Tapinocephalus Zone to Capitanian (Rubidge et al. 2013).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+DMS coordinates are for farm Hottentots Rivier, situated about 55 km west of Beaufort West.
+
+- Occurrence occ:1332735; PBDB collection col:179588. Locality cnm=Osfontein, Graaff-Reinet; place fields cc2=ZA, stp=Eastern Cape. Recorded age bounds: eag 259.857 Ma; lag 251.902 Ma; PBDB interval fields oei=Wuchiapingian, oli=Changhsingian. Recorded attribution Kitching 1977; PBDB reference ref:27216.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Daptocephalus or Dicynodon Assemblage Zone constrained as late Wuchiapingian to Changhsingian on the basis of radioisotopic data (Rubidge et al. 2013).
+
+- Occurrence occ:1313320; PBDB collection col:176244. Locality cnm=Leeu-Gamka; place fields cc2=ZA, stp=Western Cape, cny=Prince Albert. Recorded age bounds: eag 264.28 Ma; lag 259.857 Ma; PBDB interval fields oei=Capitanian. Recorded attribution Broom 1911; PBDB reference ref:57387.
+
+## Age bounds on the recorded occurrences {#s-8bb886397a}
+Across these selected PBDB rows, the largest recorded eag=264.28 Ma in occ:1313318; the smallest recorded lag=251.902 Ma in occ:1332735. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-8c2d7d658f}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1313318: PBDB original-identification field idn=Scylacognathus parvus n. gen. n. sp.; PBDB taxon-name field tna=Eriphostoma microdon; material note ocm=AM 3751 (holotype); abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=22.000000, lat=-32.366669; paleocoordinate/model fields pm1=gplates, pln=-27.68, pla=-52.85.
+- occ:1332735: PBDB original-identification field idn=Scylacognathus parvus; PBDB taxon-name field tna=Eriphostoma microdon; PBDB locality-coordinate fields lng=24.359167, lat=-32.000000; paleocoordinate/model fields pm1=gplates, pln=-18.3, pla=-51.68.
+- occ:1313320: PBDB original-identification field idn=Eriphostoma microdon n. gen. n. sp.; PBDB taxon-name field tna=Eriphostoma microdon; material note ocm=AMNH FARB 552; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=21.980278, lat=-32.773609; paleocoordinate/model fields pm1=gplates, pln=-28.32, pla=-52.99.
+
+## References attached to each record {#s-a5d26ac88f}
+The archived guide links the rows to 6 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1313318: Recorded attribution Broom 1913; PBDB reference ref:57891.
+- occ:1332735: Recorded attribution Kitching 1977; PBDB reference ref:27216.
+- occ:1313320: Recorded attribution Broom 1911; PBDB reference ref:57387.
 
 ## Evidence limits {#s-3148264647}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 11 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

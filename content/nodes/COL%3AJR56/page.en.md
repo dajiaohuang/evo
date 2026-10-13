@@ -1,29 +1,29 @@
-## The name and this data account {#s-bc71d214fd}
-COL26.8 accepts *Aulacorhynchus huallagae* in Ramphastidae. AVONET v7 uses its HBW–BirdLife 2020 name and records 3 measured individuals; all 3 have a complete morphological set, although a particular trait may draw on fewer measurements.
+## Row-reported mean and sample coverage {#s-bc71d214fd}
+The AVONET v7 row for Aulacorhynchus huallagae (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 85.7 mm. The row records 3 measured individuals, 3 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-424f55831b}
-At the standardized landmarks, mean beak length from the anterior edge of the nostril to the tip is 85.7 mm. Width and depth at that edge average 24.3 mm and 26.4 mm. These dimensions describe different measurements, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-424f55831b}
+AVONET records culmen length (bill tip to skull base) 96.3 mm; beak length (nostril front edge to tip) 85.7 mm; beak width at the nostril front edge 24.3 mm; beak depth at the nostril front edge 26.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-5e01c23d2f}
-Mean unflattened wing length, from carpal joint to longest primary, is 140.3 mm; mean tarsus length is 38.8 mm. A separate compilation reports mean mass of 268.84 g and source category Dunning. This species-average figure does not mean that each morphology specimen was weighed.
+## Wing and body measures use separate sources {#s-5e01c23d2f}
+AVONET records unflattened wing length 140.3 mm; tarsus length 38.8 mm; distance from first secondary tip to longest primary tip 17 mm; length to first secondary tip 123.3 mm; hand-wing index 12.1; tail length 159.7 mm; species-average body mass 268.84 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-0ab3679e4d}
-The dataset assigns Forest as the dominant habitat, Omnivore as the trophic niche and Insessorial as the lifestyle. These are comparison categories; they do not mean the bird uses only forest or eats every kind of food.
+## Recorded habitat and feeding categories {#s-0ab3679e4d}
+AVONET classifies Aulacorhynchus huallagae as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-16d090b31a}
-The migration field marks the record sedentary. Historical breeding and resident maps have latitude endpoints −8.24° and −6.7°. This does not cover all non-breeding movements, locate the bird today or estimate global occupancy. The geographic summary and morphological measurements come from separate compilation steps.
+## The migration label has a limited scope {#s-16d090b31a}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -8.24° to -6.7°. The mapped range area is 2703.98 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-b737105fb5}
-EltonTraits 1.0 also contains an older *Aulacorhynchus huallagae* record in the same family. Its two selected ecological groups are compared here with the accepted COL26.8 entry. The source uses an earlier bird or MSW3 mammal taxonomy, so a name match does not resolve later splits or synonymies.
+## Scope of the historical trait entry {#s-b737105fb5}
+EltonTraits 1.0 has a same-name, same-family record for Aulacorhynchus huallagae covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-93f8f75849}
-The nonzero weights are fruit 40%, seeds, nuts and spores grouped together 40%, invertebrates 10%, and unspecified vertebrates 10%. Code A indicates high compiler confidence in the source and diet information. These percentages standardize written descriptions rather than measure diet composition; zero does not prove a food is never eaten. Nect, Seed and PlantO are broader categories than their everyday names and do not imply exclusive use of nectar, seeds or plants.
+## Relative weights across food categories {#s-93f8f75849}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; vertebrates not further identified 10%; fruit 40%; seeds or nuts 40%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-2dca3c072a}
-Species-level feeding-position weights are 60% in trees or tall bushes from 2 m upward but below the canopy and 40% within or just above the canopy. The figures estimate relative position use while feeding, not nest sites, all habitat or a full day's activity. Surface-water, understory, mid/high, canopy and aerial categories have distinct source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-2dca3c072a}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 60%; in the canopy 40%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-bc98c7f32c}
-The selected groups carry Ref_7 labels. Diet, feeding position and activity may come from different sources, and the same number in bird and mammal reference tables does not identify the same work. The archive preserves complete source strings together with file, row, field group and reference table. The underlying books and papers have not been read individually; the labels do not add independent observations.
+## Sources and field limits {#s-bc98c7f32c}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-8ccf520c7b}
 AVONET v7 is a historical dataset, not a full species account. The morphological values are sample averages, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources; its sample cannot be inferred from the morphology count. Habitat, diet and migration are broad categories, and the geography covers historical breeding and resident ranges only. A one-to-one historical name crosswalk plus the catalogue match supports this association but does not prove species concepts remained equivalent after splits or lumps. Reproduction, current populations and conservation need other sources.

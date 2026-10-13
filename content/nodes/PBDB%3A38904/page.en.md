@@ -7,8 +7,8 @@ Start with Dimetrodon booneorum, Dimetrodon giganhomogenes, Dimetrodon borealis,
 ## Evidence limits {#s-31ce2da851}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## Teeth record a bounded sample {#s-05d167b4e1}
-Named Dimetrodon and cf. Dimetrodon teeth preserve variation in tooth edges and cusps, while a character-matrix study compares sphenacodontid relationships. Neither isolated teeth nor that tree identify a direct mammalian ancestor.
+## Tooth edges and cusps in named specimens {#s-05d167b4e1}
+Named Dimetrodon and cf. Dimetrodon teeth preserve differences in tooth edges and cusps. A separate character-matrix study compares sphenacodontid relationships; neither the isolated teeth nor the sampled tree identifies a direct mammalian ancestor.
 
 ## Diet {#s-2e8612cb60}
 Predatory feeding inferred from sphenacodontid tooth anatomy; individual prey is not preserved
@@ -34,12 +34,12 @@ MCZ 2028 and UMMP 9722 dentary teeth with lingual cusp variation
 ## Described features {#s-0a58ef4cb5}
 Carina and denticle character changes optimized in the sampled phylogeny
 
-## What the evidence supports {#s-9f8f1d7694}
-The study sample comes from Early Permian localities in Texas and New Mexico and spans 290.1–273 Ma. Predatory feeding and repeated dental-character change are interpretations of the sampled material, not a complete genus history or a record of specific prey.
+## An Early Permian dental sample, not a genus history {#s-9f8f1d7694}
+The study sample comes from Texas and New Mexico and spans 290.1–273 Ma. Predatory feeding and repeated dental-character change are interpretations of the sampled material, not records of particular prey or the genus's complete history.
 
-## Tooth edges and cusps vary across specimens {#s-cff1ba33d4}
-The study discusses teeth and skull material from named Dimetrodon species and cf. Dimetrodon, including an enlarged front maxillary tooth and variation in lingual cusps. Carinae, the sharp edges of a tooth, and denticles, their small serrations, are compared in the character matrix. Tooth form supports a predatory interpretation, but no particular prey is preserved with these specimens.
+## Named teeth show differences in edges and cusps {#s-cff1ba33d4}
+Brink and Reisz describe skull and tooth material from named Dimetrodon species and cf. Dimetrodon, including an enlarged anterior maxillary tooth and variation in lingual cusps. Their matrix compares carinae, the sharp tooth edges, and denticles, the small serrations. Tooth form supports a predatory interpretation, but no prey is preserved with these specimens.
 
-## A dental tree is not an ancestor sequence {#s-b013799179}
-The sampled character matrix places included Dimetrodon species within Sphenacodontidae and records repeated changes in dental characters. A branching analysis tests relationships among included forms; it does not show that Dimetrodon gave rise directly to mammals. The 290.1–273 Ma span is the Early Permian sample window from Texas and New Mexico, not a complete global range for the genus.
+## A character matrix tests sampled relationships {#s-b013799179}
+The sampled matrix places the included Dimetrodon species within Sphenacodontidae and optimizes repeated dental-character changes. It tests relationships among included forms, not direct mammalian ancestry. The 290.1–273 Ma interval is the Early Permian Texas and New Mexico sample window, not a complete global genus range.
 

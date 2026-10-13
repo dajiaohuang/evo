@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-cf5f68507f}
-Pinned COL26.8 organizes this page at Cinnyris minullus (5YV5P). BirdLife 2020 row 5974 and eBird 2021 row 2346 share the name and Avibase ID AVIBASE-6F3E5C98, with type 1BL to 1eBird; BirdTree row 2339 gives Nectarinia minulla, with type 1BL to 1BT. Read older-combination record 462NW points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-cf5f68507f}
+Catalogue of Life release COL26.8 records Cinnyris minullus Reichenow, 1899 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-002a8c9471}
 Morphology covers 7 birds: 3 female, 4 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 12.9 mm, tarsus 13 mm, unflattened wing 46 mm, tail 30 mm and hand-wing index 14.4 are historical row means. Inference=NO does not establish 7 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

@@ -1,7 +1,9 @@
 ## 概览 {#s-8814af7ec5}
 本导读串联固定 COL26.8 灵长类名录中的八个 Semnopithecus 种级 ID：本批新增的七页和既有的 S. vetulus 页面。先读喜马拉雅研究——S. ajax 秋季食性、S. hector 的 Dharan 有日期调查，以及 S. schistaceus 的食土实验；再比较 S. entellus 的局地样线计数与 S. priam 的季节食谱观察。南印度部分可并读 S. hypoleucos—S. johnii 比较研究和 Silent Valley 的 S. johnii 食性记录；后者发表时使用组合名 Trachypithecus johnii。最后读既有 S. vetulus 粪样筛查导读，它属于局地健康研究。本路径保留各来源的用名与范围，不是全属生态综述或最终分类处理。
 
-## 按生活史字段选择对读页面 {#s-951a7dd9b9}
+## 记录分类与直接上级关系 {#s-951a7dd9b9}
+COL26.8 将 Semnopithecus Desmarest, 1822 记录为属；其直接上级记录为 Presbytini Gray, 1825。
+
 Semnopithecus 的本批路线包含 6 条历史生活史导读，可从 Semnopithecus ajax、Semnopithecus entellus、Semnopithecus hector、Semnopithecus hypoleucos、Semnopithecus priam 开始。较多条目具有的字段包括 成年体重（6 条）、雌性成熟字段（源定义为首次受孕年龄）（6 条）、每窝幼体数或卵数（6 条）、受孕或受精至出生的时间（6 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-eabcf52bef}

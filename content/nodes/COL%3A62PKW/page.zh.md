@@ -1,4 +1,6 @@
-## Dermatemys 的来源明确条目 {#s-efb084648a}
+## 记录分类与直接上级关系 {#s-efb084648a}
+COL26.8 将 Dermatemys 记录为属；其直接上级记录为 Dermatemydidae。
+
 Dermatemys 的阅读路径收录 1 条带字段出处的同名同科记录，可从 Dermatemys mawii 开始。页面导航沿用固定版本 COL26.8 名称，ReptTraits 保留 Reptile Database 2023 名称框架；这是一组选读入口，不是完整接受种名录。
 
 ## 比较现有尺寸测量 {#s-0da7d5d2fc}

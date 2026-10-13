@@ -1,31 +1,31 @@
-## What one ecological field can tell us {#s-212dde67d0}
-Saxicola macrorhynchus is accepted in pinned COL26.8 within Muscicapidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-212dde67d0}
+EltonTraits 1.0 has a same-name, same-family record for Saxicola macrorhynchus covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-eae57ed076}
-The archive’s nonzero food weights are invertebrates 90%; other plant material (the source category also includes fungi) 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-eae57ed076}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 90%; other plant material 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Trace each field group to its source labels {#s-2c76143849}
-The used groups carry labels Ref_10. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-2c76143849}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.10.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-d07b5bfd1a}
 This page interprets one supported ecological field group; it does not fill the remaining diet, activity or stratum fields. This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
 This page withholds foraging stratum (source code 1) because of interpolation, certainty or source-link limits. Specific reasons and original values remain in the source archive; they do not fill definite ecological conclusions.
 
-## The name in the limited ecology record {#s-612bd471fa}
-Saxicola macrorhynchus is accepted in pinned COL26.8 within Muscicapidae. This section associates its same-name, same-family historical AVONET v7 record. Names and two one-to-one crosswalks do not resolve species concepts after later splits or lumps.
+## A historical name within this ecology row {#s-612bd471fa}
+The AVONET row uses historical BirdLife name Saxicola macrorhynchus. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-6e8254916c}
-The recorded habitat category is low-stature shrub habitats. The recorded feeding niche centres on terrestrial invertebrates. The recorded primary lifestyle involves much time perched above ground on vegetation, rocks or other substrates. The source defines these dominant feeding niches using a threshold of at least 60% of food resources. This page does not independently measure diet proportions or interpret a category as exclusive feeding. These coarse record categories do not replace food lists, behavioural observations or local microhabitat descriptions.
+## Recorded habitat and feeding categories {#s-6e8254916c}
+The ecology-only AVONET row classifies Saxicola macrorhynchus as habitat Shrubland (low, bush-dominated vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-c0db8ebc1d}
-The recorded migration category is partially migratory. The definition includes long-distance migration by a minority, shorter-distance migration by most populations, nomadic movements or distinct altitudinal migration. This entry does not supply current routes, schedules or movement distances for every population.
+## The migration label has a limited scope {#s-c0db8ebc1d}
+Migration code 2 classifies the record as partly migratory. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-e130da8c33}
-Historical breeding and resident maps have latitude endpoints of 25.13° to 28.83°. The source worksheet associates these fields with BirdLife/HBW 2019.1 maps accessed on 27 March 2020. Endpoints summarize a mapped range, not a locality list or evidence of occupancy throughout it, and exclude a complete account of non-breeding movements. They do not establish current distribution, survival or conservation status.
+## Mapped range is not a locality list {#s-e130da8c33}
+Historical breeding and resident maps span latitude endpoints 25.13° to 28.83°. The mapped range area is 90095.29 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-989009a12f}
-Of four ecological categories in this batch, 4 have readable records. All four coarse categories are recorded, but ecological coverage remains incomplete. Read historical latitude summaries within their map scope. The source does not flag biometric inference, and mass is sourced from an EltonTraits genus average. Morphological dimensions and mass are not interpreted here; reproduction, growth and conservation remain without complete accounts. Missing fields do not establish absence of the traits.
+## Fields outside this ecology-only view {#s-989009a12f}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
-## Limits of these historical data {#s-066be2558d}
-This batch provides limited historical ecology and geography, not complete species monographs. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Matching names and families plus one-to-one same-name BirdLife/eBird/BirdTree crosswalks establish an association, not equivalence to current COL26.8 species concepts. Ecological fields are coarse literature-derived categories; underlying species literature was not individually read here. Original morphology can involve inference from relatives, and mass can use genus averages or models. This batch therefore withholds morphological and mass interpretation rather than treating those fields as direct measurements of this species. Historical maps cover breeding and resident ranges, without current population, occupancy or conservation assessments.
+## Limits of this historical ecology record {#s-066be2558d}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 

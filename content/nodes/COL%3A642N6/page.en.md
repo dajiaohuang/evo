@@ -1,4 +1,6 @@
-## One historical foraging entry {#s-736d0965ec}
+## Recorded classification and direct parent {#s-736d0965ec}
+COL26.8 records Rhagamys at genus rank, with Murinae as its direct parent.
+
 Catalogue of Life COL26.8 records Rhagamys as an accepted genus. The EltonTraits 1.0 route in this batch contains one historical entry grouped under that pinned classification: Rhagamys orthodon. It contributes one foraging field group; the bound summary lists no food-category or mammalian activity-period groups. These are counts within this compilation, not a complete survey of the genus. The methods record describes semiquantitative translation and interpolation, so this entry is a historical compiled field, not a direct description of Rhagamys as a whole.
 
 ## What the single entry cannot establish {#s-a974ff23c6}

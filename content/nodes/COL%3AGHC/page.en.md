@@ -10,13 +10,15 @@ Cole et al. (2022) combine 27 living and recently extinct lineage genomes with s
 ## Compare evidence through six genus routes {#s-dc1a76e9f0}
 Start with [Spheniscus](Spheniscus/page.en.md), [Pygoscelis](Pygoscelis/page.en.md), [Eudyptes](Eudyptes/page.en.md) for close-species differences, regional lineages and crested-penguin naming; then [Eudyptula](Eudyptula/page.en.md), [Megadyptes](Megadyptes/page.en.md), [Aptenodytes](Aptenodytes/page.en.md) for little penguins, extinct ancient genomes and large divers. Existing pages retain morphology, food, reproduction and local observations; genomic history does not collapse those sources into one ecological conclusion.
 
-## Local data reading route {#s-3221e64f42}
+## Recorded classification and direct parent {#s-3221e64f42}
+COL26.8 records Spheniscidae Bonaparte, 1831 at family rank, with Sphenisciformes as its direct parent.
+
 This batch’s Spheniscidae route includes 18 measured species records. Start with Aptenodytes forsteri, Aptenodytes patagonicus, Eudyptes chrysocome, Eudyptes chrysolophus, Eudyptes moseleyi. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-2c5022fd55}
 Compiled mean mass endpoints in this batch are Eudyptula minor at 1107.82 g and Aptenodytes forsteri at 33569.33 g. Represented habitat categories include Marine; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-19f317ac06}
+## Amniote Life-history archive member records {#s-19f317ac06}
 This batch’s Spheniscidae route includes 18 historical life-history accounts; start with Aptenodytes forsteri, Aptenodytes patagonicus, Eudyptes chrysocome, Eudyptes chrysolophus, Eudyptes moseleyi. More frequently represented fields include adult body mass (18 entries), offspring per litter or eggs per clutch (18 entries), oviposition to hatching (18 entries), age at flight capability (leaving the nest in some source material) (18 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-d9245c1101}

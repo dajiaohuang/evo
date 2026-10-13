@@ -1,15 +1,15 @@
-## Length and activity define the available picture {#s-60ae80f9e3}
-COL26.8 accepts Cnemidophorus duellmani in Teiidae. Its ReptTraits row records maximum and female maximum lengths, terrestrial microhabitat, daytime activity and egg-laying. These field-specific entries outline the record but leave diet and reproductive output unresolved.
+## COL26.8 name and the ReptTraits row {#s-60ae80f9e3}
+COL26.8 records Cnemidophorus duellmani as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A maximum of 92.2 mm without the tail {#s-17b7c76858}
-The maximum snout–vent length is 92.2 mm and the female maximum is 70.2 mm. This measure stops at the body opening, excluding the tail. The compiled maxima are not typical sizes, and their difference alone cannot establish size dimorphism within a population.
+## Length values in the archived records {#s-17b7c76858}
+The row reports a maximum SVL of 92.2 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 70.2 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Land use and daytime activity {#s-587c75a580}
-The microhabitat is categorized as terrestrial and activity as diurnal. These labels suggest land-associated daytime activity but do not name a specific locality, prey or fixed routine. The cited row does not support a more detailed diet description.
+## Habitat use and activity labels {#s-587c75a580}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg laying without a clutch count {#s-b4f3ff0b0a}
-The reproductive mode is labelled oviparous, or egg-laying. A clutch/litter number is not supported in the cited focal fields, so this account does not estimate reproductive output. The mode label alone does not tell us embryo nutrition.
+## Reproductive fields in ReptTraits {#s-b4f3ff0b0a}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## A historical source row, not a current survey {#s-88addcdcf3}
-ReptTraits retains its 2023 name framework, whereas COL26.8 provides the pinned accepted placement. Their shared name does not prove taxonomic concept equivalence. One row also compresses differences among sexes, ages, places and populations; range and conservation status are not updated here.
+## Reading this compiled trait record {#s-88addcdcf3}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

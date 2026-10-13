@@ -1,26 +1,26 @@
-## The name and this data account {#s-bbab6984ce}
-Ploceus velatus is accepted in COL26.8 within Ploceidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 9 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-bbab6984ce}
+The AVONET v7 row for Ploceus velatus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 10.7 mm. The row records 9 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-08b4a8154b}
-Recorded mean beak measurements are 10.7 mm from the anterior nostril edge to the tip, 5.9 mm in width and 7.8 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-08b4a8154b}
+AVONET records culmen length (bill tip to skull base) 16.8 mm; beak length (nostril front edge to tip) 10.7 mm; beak width at the nostril front edge 5.9 mm; beak depth at the nostril front edge 7.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-c40979206e}
-Mean unflattened wing length from the carpal joint to the longest primary is 76.8 mm; mean tarsus length is 22 mm. Compiled mean mass is 30.94 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-c40979206e}
+AVONET records unflattened wing length 76.8 mm; tarsus length 22 mm; distance from first secondary tip to longest primary tip 15.6 mm; length to first secondary tip 60.6 mm; hand-wing index 20.6; tail length 52.4 mm; species-average body mass 30.94 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-fc515ac537}
-The dataset assigns habitat Shrubland, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-fc515ac537}
+AVONET classifies Ploceus velatus as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-77594d724e}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -34.84° to -8.81°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-77594d724e}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -34.84° to -8.81°. The mapped range area is 3538602.7 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-6e341c54ff}
-Ploceus velatus is accepted in pinned COL26.8 within Ploceidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-6e341c54ff}
+EltonTraits 1.0 has a same-name, same-family record for Ploceus velatus covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-63df612d6e}
-The archive’s nonzero food weights are invertebrates 40%; seeds, nuts and spores included in this category 30%; other plant material (the source category also includes fungi) 20%; scavenged food and related discarded material 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-63df612d6e}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 40%; carrion or refuse 10%; seeds or nuts 30%; other plant material 20%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Trace each field group to its source labels {#s-8f565c3bf6}
-The used groups carry labels Ref_15. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-8f565c3bf6}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.15.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-5bbe715099}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

@@ -1,19 +1,37 @@
 ## Which fossil records this name represents {#s-67fa99f7a2}
 Euscolosuchus olseni is accepted in the fixed PBDB other-reptilia working roster, with database parent Euscolosuchus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-5b8faa682a}
-Collection Tomahawk locality, USNM 39981 (Virginia), region code US, stratum name Vinita; database age bracket 237–227.3 Ma, early interval Carnian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Euscolosuchus olseni is listed in the PBDB snapshot under taxon txn:172470. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-6254df1df9}
-Selected occurrences have an outer age envelope of 237–227.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Tomahawk locality, USNM 39981, occurrence occ:406854 (237–227.3 Ma); one supplying the younger bound is Tomahawk locality, USNM 39981, occurrence occ:406854 (237–227.3 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-5b8faa682a}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-6530a2df8a}
-Tomahawk locality, USNM 39981 has collection-environment label lacustrine - small; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:406854; PBDB collection col:39159. Locality cnm=Tomahawk locality, USNM 39981; place fields cc2=US, stp=Virginia, cny=Chesterfield. Recorded age bounds: eag 237 Ma; lag 227.3 Ma; PBDB interval fields oei=Carnian. Stratigraphic fields sfm=Vinita. Recorded attribution Sues 1992; PBDB reference ref:34179.
 
-## Follow collection records back to references {#s-d910fb85a7}
-Tomahawk locality, USNM 39981 carries database reference attribution Sues (1992), identifier ref:34179. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Based on conchostracans, Kozur & Weems (2007) recently dated much of the succession in the Richmond Basin and correlative units in the adjacent Taylorsville basin as early Carnian (Cordevolian), but earlier Huber et al. (1993) had argued for a late Carnian age of these strata. At the present time this controversy cannot be resolved" (Sues & Hopson 2010)
+"Turkey Branch Formation" was previously used for this locality; Richmond Basin, Newark Supergroup
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+along NE bank of old course of Old Hundred Road (VA 652), 0.1 mi. (0.16 km) E of eastern branch of Tomahawk Creek, near Midlothian, Chesterfield Co., VA.
+
+## Age bounds on the recorded occurrences {#s-6254df1df9}
+Across these selected PBDB rows, the largest recorded eag=237 Ma in occ:406854; the smallest recorded lag=227.3 Ma in occ:406854. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-6530a2df8a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:406854: PBDB original-identification field idn=Euscolosuchus olseni n. gen. n. sp.; PBDB taxon-name field tna=Euscolosuchus olseni; material note ocm=USNM 448587, associated osteoderms (holotype). USNM 448580-448586, 448588, 448589; abundance fields abv=10, abu=specimens; PBDB locality-coordinate fields lng=-77.671387, lat=37.463890; paleocoordinate/model fields pm1=gplates, pln=-8.87, pla=12.64.
+
+## References attached to each record {#s-d910fb85a7}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:406854: Recorded attribution Sues 1992; PBDB reference ref:34179.
 
 ## Evidence limits {#s-a24c6fe86b}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 429-item other-reptilia working roster, retain the current same name and a complete parent chain to the recorded Reptilia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

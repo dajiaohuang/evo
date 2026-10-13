@@ -1,11 +1,11 @@
-## Following the older genus name {#s-b179b37644}
-Pinned COL26.8 places this page at Psilopogon faber (7WP64). AVONET v7 BirdLife 2020 row 9686 and eBird 2021 row 8653 use that name and Avibase ID AVIBASE-FF5877D7. BirdTree row 8608 instead lists Megalaima faber, with match type 1BL to 1BT. The older combination was not found in the related records in the read meg/psi shards. The crosswalk is retained as a source association, not turned into an invented catalogue synonym or proof that species boundaries match across dates.
+## A name fixed to COL26.8 {#s-b179b37644}
+Catalogue of Life release COL26.8 records Psilopogon faber (Swinhoe, 1870) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Morphology samples and averages {#s-638fa5fdd2}
 Four birds contribute morphology: 1 female, 2 male and 1 unsexed; 4 have complete measurement sets. Mean nostril-to-tip beak length is 17.4 mm, beak width 8.8 mm, tarsus 25 mm, unflattened wing 103.2 mm and hand-wing index 20.1. Inference=NO does not mean that every field has the same sample count. The index is Kipp’s distance divided by wing length ×100, not flight speed; beak width does not test fruit swallowing or pecking performance.
 
 ## Mass is compiled separately {#s-3a01998a43}
-The reported mass is 87.69 g, with Mass.Source=Dunning. It is a compiled species average, and the 4 morphology birds are not its denominator. Individual masses and the original book were not read, so sex, season and locality-specific minimum–maximum bounds are unsupported. [Psilopogon nuchalis](../Psilopogon_nuchalis/page.en.md) reports the same 87.69 g; without examining the original book, that equality cannot establish matching mass distributions.
+The reported mass is 87.69 g, with Mass.Source=Dunning. It is a compiled species average, and the 4 morphology birds are not its denominator. Individual masses and the original book were not read, so sex, season and locality-specific minimum–maximum bounds are unsupported. Psilopogon nuchalis reports the same 87.69 g; without examining the original book, that equality cannot establish matching mass distributions.
 
 ## Fruit niche and trophic level {#s-2db964e310}
 Frugivore is the Metadata category for predominantly fruit resources; Herbivore is the separate trophic-level entry. They describe different classification fields, not individual feeding observations. Category thresholds are not measured diet percentages for a place or season. No fruit species, food size, digestion or seed-dispersal experiment is documented here, so detailed diet and dispersal effects remain unsupported.

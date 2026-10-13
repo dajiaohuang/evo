@@ -1,18 +1,37 @@
-## Which fossil records this name represents {#s-b52c0c9e1d}
-Pelecanus schreiberi is accepted in the fixed PBDB dinosaur working roster, with database parent Pelecanus. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-b52c0c9e1d}
+Pelecanus schreiberi is listed in the PBDB snapshot under taxon txn:83376. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-f96bd642dc}
-Collection Lee Creek Mine, Yorktown Formation (North Carolina), region code US, stratum name Yorktown; database age bracket 5.333–3.6 Ma, early interval Zanclean. Collection Gardinier Mine (Florida), region code US, stratum name Peace River; database age bracket 9.4–3.6 Ma, early interval Late Hemphillian and late interval Zanclean. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-f96bd642dc}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-4d180e9aab}
-Selected occurrences have an outer age envelope of 9.4–3.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:594478; PBDB collection col:52582. Locality cnm=Lee Creek Mine, Yorktown Formation; place fields cc2=US, stp=North Carolina, cny=Beaufort. Recorded age bounds: eag 5.333 Ma; lag 3.6 Ma; PBDB interval fields oei=Zanclean. Stratigraphic fields sfm=Yorktown. Recorded attribution Olson 1999; PBDB reference ref:57790.
 
-## Read preservation setting separately from living habitat {#s-0fb77350ca}
-Lee Creek Mine, Yorktown Formation has collection-environment label estuary/bay; collection preservation-mode label body,original phosphate. Gardinier Mine has collection-environment label marginal marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+most fossils "are derived from the lower beds of the Yorktown Formation" (McLellan 1983) and the "total thickness of the Yorktown exposure is 15 m" (Snyder et al. 1983)
 
-## Follow collection records back to references {#s-1afe713bef}
-Lee Creek Mine, Yorktown Formation carries database reference attribution Olson (1999), identifier ref:57790. Gardinier Mine carries database reference attribution Olson (1999), identifier ref:57790. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Strontium dating places the base of the Yorktown Formation at 4.9 Ma [55]. The top of the Yorktown Formation at Lee Creek Mine is no younger than the middle of the Orionina vaughani ostracod assemblage zone, originally dated to ca. 3.7 Ma [53]. This is roughly in agreement with the top of nannoplankton zone NN14 (3.9 Ma) [20, 54], the second of the three nannoplankton zones correlating with the Orionina vaughani zone [53]. Taken together, these observations indicate an age bracket of 4.9–3.9 Ma. (Marx & Fordyce, 2015). middle Zanclean–early Piacenzian
 
-## Evidence limits {#s-92927e6f0d}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1311656; PBDB collection col:18535. Locality cnm=Gardinier Mine; place fields cc2=US, stp=Florida, cny=Polk. Recorded age bounds: eag 9.4 Ma; lag 3.6 Ma; PBDB interval fields oei=Late Hemphillian, oli=Zanclean. Stratigraphic fields sfm=Peace River. Recorded attribution Olson 1999; PBDB reference ref:57790.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+latest Hemphillian; upper beds
+By contrast, the Palmetto Fauna has been correlated with the latest Hemphillian (5.8–4.9 Ma [54]), and likely the earliest Pliocene (starting at 5.3 Ma) based on sea-level data [60].  (Marx & Fordyce, 2015)
+
+## Age bounds on the recorded occurrences {#s-4d180e9aab}
+Across these selected PBDB rows, the largest recorded eag=9.4 Ma in occ:1311656; the smallest recorded lag=3.6 Ma in occ:594478. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-0fb77350ca}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:594478: PBDB original-identification field idn=Pelecanus schreiberi n. sp.; PBDB taxon-name field tna=Pelecanus schreiberi; abundance fields abv=4, abu=specimens; PBDB locality-coordinate fields lng=-76.817497, lat=35.359722; paleocoordinate/model fields pm1=gplates, pln=-75.1, pla=35.91.
+- occ:1311656: PBDB taxon-name field tna=Pelecanus schreiberi; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-81.800003, lat=27.900000; paleocoordinate/model fields pm1=gplates, pln=-80.31, pla=28.54.
+
+## References attached to each record {#s-1afe713bef}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:594478: Recorded attribution Olson 1999; PBDB reference ref:57790.
+- occ:1311656: Recorded attribution Olson 1999; PBDB reference ref:57790.
+
+## What these records can show {#s-92927e6f0d}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

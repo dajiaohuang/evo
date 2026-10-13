@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-8173000ef2}
+## 记录分类与直接上级关系 {#s-8173000ef2}
+COL26.8 将 Amphibolurus 记录为属；其直接上级记录为 Amphibolurinae。
+
 Amphibolurus 的本批 ReptTraits 阅读路径包含 4 条同名同科、有逐性状出处的物种资料，可从 Amphibolurus burnsi、Amphibolurus centralis、Amphibolurus muricatus、Amphibolurus norrisi 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-848813b362}

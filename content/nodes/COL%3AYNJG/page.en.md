@@ -1,41 +1,41 @@
-## The name and this data account {#s-05227c9691}
-Corvus ruficollis is accepted in COL26.8 within Corvidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 15 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-05227c9691}
+The AVONET v7 row for Corvus ruficollis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 41.5 mm. The row records 15 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-f4189789f8}
-Recorded mean beak measurements are 41.5 mm from the anterior nostril edge to the tip, 17.1 mm in width and 22 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-f4189789f8}
+AVONET records culmen length (bill tip to skull base) 67.7 mm; beak length (nostril front edge to tip) 41.5 mm; beak width at the nostril front edge 17.1 mm; beak depth at the nostril front edge 22 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-e41c13b6af}
-Mean unflattened wing length from the carpal joint to the longest primary is 385.5 mm; mean tarsus length is 66.1 mm. Compiled mean mass is 573.5 g, with source category Updated_literature. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-e41c13b6af}
+AVONET records unflattened wing length 385.5 mm; tarsus length 66.1 mm; distance from first secondary tip to longest primary tip 177.4 mm; length to first secondary tip 207.2 mm; hand-wing index 45.7; tail length 191.8 mm; species-average body mass 573.5 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-b40cd423d9}
-The dataset assigns habitat Desert, trophic niche Omnivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-b40cd423d9}
+AVONET classifies Corvus ruficollis as habitat Desert (open arid landscapes); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-3967090823}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 11.76° to 47.08°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-3967090823}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 11.76° to 47.08°. The mapped range area is 12915376.88 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-c18f0520aa}
-Corvus ruficollis is accepted in pinned COL26.8 within Corvidae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-c18f0520aa}
+The August 2015 database has a same-name, same-family record for Corvus ruficollis. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-eec00f063f}
-Historical summary values are adult body mass 593 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-eec00f063f}
+The August 2015 compilation reports adult body mass 593 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-95ef9dfdb5}
-Available compilation fields are offspring per litter or eggs per clutch 4 offspring/eggs; oviposition to hatching 21 d; age at flight capability (leaving the nest in some source material) 43.5 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-95ef9dfdb5}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 4; oviposition-to-hatching interval 21 days; age at flight capability (some records mark nest departure) 43.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-3eb3310fab}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Boback and Guyer, 2003; Bennett, 1986, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-3eb3310fab}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-14c94a2288}
-Corvus ruficollis is accepted in pinned COL26.8 within Corvidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-14c94a2288}
+EltonTraits 1.0 has a same-name, same-family record for Corvus ruficollis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-864dcb018a}
-The archive’s nonzero food weights are invertebrates 30%; mammals and birds 20%; scavenged food and related discarded material 20%; reptiles and amphibians 10%; fruit 10%; seeds, nuts and spores included in this category 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-864dcb018a}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 30%; mammals and birds 20%; reptiles and amphibians 10%; carrion or refuse 20%; fruit 10%; seeds or nuts 10%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-f23f7ceb23}
-Foraging-stratum weights flagged as species-level in the archive are ground 60%; understory, edges or shrubs below 2 m 20%; trees or high bushes from 2 m upward but below the canopy 10%; air well above vegetation or other structures 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-f23f7ceb23}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 60%; in the understory 20%; in mid-height or high vegetation 10%; in the air 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-24fd784efb}
-The used groups carry labels Ref_14, Ref_30. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-24fd784efb}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.14.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Goodwin, D. and R. Gillmor. 1976. Crows of the world. Cornell University Press Ithaca, New York, USA.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-764221451f}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

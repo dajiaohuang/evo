@@ -1,4 +1,4 @@
-## Ecological evidence {#s-f6e524e0a1}
+## Food choice in a captive sample {#s-f6e524e0a1}
 At Furuviksparken, researchers tested five captive-born adult white-faced sakis—three females and two males—with 15 familiar foods from their managed diet. Every pair of foods was presented ten times. The group’s preference ranking tracked total energy content, while lipid content showed the strongest positive relationship among carbohydrates, protein, and lipids. The 5,250 choices were repeated trials on the same five animals, not observations of wild feeding.
 
 ## The 2015 life-history entry and this name {#s-52c5712e85}

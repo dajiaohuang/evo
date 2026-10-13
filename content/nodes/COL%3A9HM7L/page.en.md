@@ -1,5 +1,5 @@
-## Historical Anas combination and the pinned name {#s-2722196824}
-This page follows pinned COL26.8 Spatula platalea (9HM7L). AVONET v7 BirdLife 2020 row 400 and the eBird 2021 crosswalk use the same name and Avibase ID AVIBASE-CEFACC86; BirdTree gives Anas platalea, labelled 1BL to 1BT. Pinned COL synonym DGP5 points to accepted ID 9HM7L. Name links do not verify every species boundary across dates.
+## A name fixed to COL26.8 {#s-2722196824}
+Catalogue of Life release COL26.8 records Spatula platalea (Vieillot, 1816) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Beak, wing and compiled mass have different denominators {#s-e78a72f86c}
 Morphology covers 4 birds (2 female and 2 male), with 4 complete measurements. Mean nostril-to-tip beak length is 44.3 mm, beak width at the nostrils 19.4 mm, unflattened wing 209.8 mm and hand-wing index 53.3. These are species averages; the index is defined by Kipp’s distance/wing length ×100, not flight speed. Mass 465.43 g comes separately from Dunning’s literature compilation and cannot inherit the morphology sample size. Inference=NO retains the workbook’s non-inference flag without supplying individual bounds from unread raw material.

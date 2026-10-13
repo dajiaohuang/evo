@@ -1,11 +1,13 @@
-## 从旧属名进入十条历史资料 {#s-2bbf60b9ee}
+## 记录分类与直接上级关系 {#s-2bbf60b9ee}
+COL26.8 将 Hydrobates 记录为属；其直接上级记录为 Hydrobatidae。
+
 本批十条 Hydrobates 历史行与 eBird 同名关联。BirdTree 九条为 Oceanodroma，microsoma 为 Halocyptena；所读 COL hy／oc／ha 分片均有逐字旧组合指向固定接受 ID，其中 microsoma 另有 Oceanodroma 异名。本批十页和既有 pelagicus、tristrami 资料分别保留，不把来源路线相加为全属接受种分母，名称对应也不证明不同时期物种边界完全相同。
 
 ## 单雄鸟、双雌鸟与完整四只分开 {#s-d51c0aaa61}
-[Hydrobates monteiroi](Hydrobates_monteiroi/page.zh.md) 仅一只雄鸟、完整一只；[Hydrobates matsudairae](Hydrobates_matsudairae/page.zh.md) 两只均雌、完整两只，两页都不能据此比较雌雄。[Hydrobates homochroa](Hydrobates_homochroa/page.zh.md) 四只（雌一雄二未定一），完整仅两只；hornbyi 与 melania 都四只雌雄各二且完整四只。microsoma、monorhis、tethys、markhami、furcatus 都五只而完整四只，但 monorhis 有一只未定，markhami 雌三雄二，另外三条雌二雄三。Dunning 体重与这些形态鸟数分开，不把相同完整数当作相同取样或已知个体变异。
+Hydrobates monteiroi 仅一只雄鸟、完整一只；Hydrobates matsudairae 两只均雌、完整两只，两页都不能据此比较雌雄。Hydrobates homochroa 四只（雌一雄二未定一），完整仅两只；hornbyi 与 melania 都四只雌雄各二且完整四只。microsoma、monorhis、tethys、markhami、furcatus 都五只而完整四只，但 monorhis 有一只未定，markhami 雌三雄二，另外三条雌二雄三。Dunning 体重与这些形态鸟数分开，不把相同完整数当作相同取样或已知个体变异。
 
 ## 水生食物与飞行觅食并列阅读 {#s-3ba8abc010}
-十条均 Marine、密度3、Aquatic predator 生态位、Carnivore 营养级与 Aerial 活动类别。水生捕食定义包含水生脊椎与无脊椎资源，不能当作实际鱼、甲壳或软体猎物清单；Aerial 仍按飞行中觅食的活动定义，不改成 Aquatic 或补潜水深度。[Hydrobates microsoma](Hydrobates_microsoma/page.zh.md) 的迁移2为部分迁移，其他九条迁移3为多数个体长距离迁移；没有跟踪路线或日期。开放密度3包括水面，不能解读为鸟少；单鸟手翼指数不能推出全属速度或迁移能力。
+十条均 Marine、密度3、Aquatic predator 生态位、Carnivore 营养级与 Aerial 活动类别。水生捕食定义包含水生脊椎与无脊椎资源，不能当作实际鱼、甲壳或软体猎物清单；Aerial 仍按飞行中觅食的活动定义，不改成 Aquatic 或补潜水深度。Hydrobates microsoma 的迁移2为部分迁移，其他九条迁移3为多数个体长距离迁移；没有跟踪路线或日期。开放密度3包括水面，不能解读为鸟少；单鸟手翼指数不能推出全属速度或迁移能力。
 
 ## 从采样范围读到迁移类别 {#s-40a02028c3}
 先比较 monteiroi 单雄与 matsudairae 双雌，再对读 homochroa 的四只总数／两只完整和 microsoma 的五只／四只完整。随后对照 microsoma 的部分迁移与其他九条迁移3。既有 [tristrami 沙岛巢穴研究](Hydrobates_tristrami/page.zh.md) 和 [pelagicus 汇编导读](Hydrobates_pelagicus/page.zh.md) 提供不同材料，不能把一个种的繁殖率移给这十种。
@@ -19,7 +21,7 @@
 ## 从巢的成败读回汇编资料 {#s-7d8d52eaf1}
 先读 [Hydrobates tristrami](Hydrobates_tristrami/page.zh.md) 的巢检方法、繁殖时序和洞穴竞争，再沿本页既有 pelagicus 历史性状导读比较测量与汇编。tristrami 的沙岛样本不是 pelagicus 的繁殖记录；论文借用其他种死亡率的模型也不把两种生活史视为相同。
 
-## 本地数据阅读路径 {#s-ac6c36a83f}
+## 记录分类与成员材料 {#s-ac6c36a83f}
 Hydrobates 的本批阅读路径包含 1 条有测量来源的物种记录，可从 Hydrobates pelagicus 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-c21f04d059}

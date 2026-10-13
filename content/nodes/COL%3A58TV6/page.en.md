@@ -1,18 +1,18 @@
-## Name and this data account {#s-a0d1da806e}
-COL26.8 lists Trilepida jani in Leptotyphlopidae. Its ReptTraits v1–2 record uses the Reptile Database 2023 name framework and retains sources for individual fields. These data describe the compiled row, not a state established for every population.
+## COL26.8 name and the ReptTraits row {#s-a0d1da806e}
+COL26.8 records Trilepida jani as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-6c46f42a95}
-The compiled entry reports a maximum total length (TL) of 262 mm. TL includes the tail; snout–vent length (SVL) ends at the vent. This is a recorded maximum, not typical size or an absolute limit, and sex-specific values from separate sources do not measure dimorphism within a population.
+## Length values in the archived records {#s-6c46f42a95}
+The row reports maximum total length (TL) of 262 mm. ReptTraits attributes this field to Franca et al. 2008, Marinus Hoogmoed.
 
-## Where and how it is active {#s-f3e12ba3b8}
-The microhabitat field is Fossorial: it records an underground or burrowing association, without giving a full habitat description or daily activity pattern.
+## Habitat use and activity labels {#s-f3e12ba3b8}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## How to read reproductive records {#s-f08c161780}
-The reproductive-mode field is oviparous (egg-laying). It does not give clutch size or show that every population has the same reproductive pattern.
+## Reproductive fields in ReptTraits {#s-f08c161780}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-82f8361a55}
-This page summarizes selected fields from one ReptTraits v1–2 row under the Reptile Database 2023 name framework; it is not a complete species account. A row may combine records from different sexes, ages, places, or populations, and a shared name does not prove that later taxonomic concepts are identical. The maximum is a compiled report, not an absolute size limit. Where the workbook estimates mass from length, that estimate is not a measured mass; differing juvenile-length definitions are not used here. Conservation status, venom, current distribution, and population trends are not updated. Citation labels preserve the workbook's source chain but do not mean every original study was independently reviewed here.
+## Reading this compiled trait record {#s-82f8361a55}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-178e55ae07}
-This account covers the maximum total length, microhabitat category, and reproductive mode. It does not provide source-backed values here for sex-specific length, clutch or litter size and frequency, egg dimensions, diet, active time, foraging mode, or sex determination.
+## Reading this compiled trait record {#s-178e55ae07}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

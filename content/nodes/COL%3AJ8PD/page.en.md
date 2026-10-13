@@ -1,5 +1,5 @@
 ## Distribution records {#s-8cbd0de55a}
-The study overlaid IUCN range maps on ten major Brazilian Amazon interfluves and listed Ateles paniscus in 1 areas: Guiana. Here, occurrence means a region-level map overlap; it does not confirm animals at every site in those areas and is not a population count or complete range assessment.
+The study overlaid IUCN range maps on ten major Brazilian Amazon interfluves and listed Ateles paniscus in one mapped area (1): Guiana. Here, occurrence means a region-level map overlap; it does not confirm animals at every site in those areas and is not a population count or complete range assessment.
 
 ## The 2015 life-history entry and this name {#s-a9ae97fb95}
 Ateles paniscus is accepted in pinned COL26.8 within Atelidae. This page compares the same-name historical life-history entry using 7 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.

@@ -1,4 +1,6 @@
-## 沿食物、取食位置和活动时段对读 {#s-8f9a3f2fdc}
+## 记录分类与直接上级关系 {#s-8f9a3f2fdc}
+COL26.8 将 Neamblysomus 记录为属；其直接上级记录为 Amblysominae。
+
 Neamblysomus 的这条阅读路径链接 2 个历史条目，可从 Neamblysomus julianae、Neamblysomus gunningi 开始。2 条有食物类别权重，2 条有觅食层位，2 条有哺乳类活动时段。计数只涵盖这条路径上的资料，并非全部接受后代；这些来源分类也不代表整个类群共享同一种生态。
 
 ## 生活史资料边界 {#s-ea5d4855a4}

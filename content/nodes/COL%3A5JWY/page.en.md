@@ -1,9 +1,11 @@
-## Start with sourced trait records {#s-4ef89e822f}
-This batch’s ReptTraits route for Madatyphlops includes 14 same-name, same-family entries with trait-specific citations. Start with [Madatyphlops albanalis](Madatyphlops_albanalis/page.en.md), [Madatyphlops andasibensis](Madatyphlops_andasibensis/page.en.md), [Madatyphlops arenarius](Madatyphlops_arenarius/page.en.md), [Madatyphlops boettgeri](Madatyphlops_boettgeri/page.en.md), [Madatyphlops comorensis](Madatyphlops_comorensis/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and direct parent {#s-4ef89e822f}
+COL26.8 records Madatyphlops at genus rank, with Typhlopidae as its direct parent.
 
-## Choose comparisons by available fields {#s-6e7fa6794f}
+This batch’s ReptTraits route for Madatyphlops includes 14 same-name, same-family entries with trait-specific citations. Start with Madatyphlops albanalis, Madatyphlops andasibensis, Madatyphlops arenarius, Madatyphlops boettgeri, Madatyphlops comorensis. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+
+## ReptTraits member records {#s-6e7fa6794f}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Evidence limits {#s-955c84d0b3}
+## Limits attached to these records {#s-955c84d0b3}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

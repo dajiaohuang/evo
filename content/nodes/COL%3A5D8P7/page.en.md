@@ -1,17 +1,17 @@
-## A historical name link, not a species-concept match {#s-890acb221e}
-COL26.8 accepts Zosterops splendidus within Zosteropidae. AVONET v7 also has a historical record under this name and family. The two one-to-one crosswalks link names across datasets; they do not settle whether the historical and current species concepts are equivalent.
+## A historical name within this ecology row {#s-890acb221e}
+The AVONET row uses historical BirdLife name Zosterops splendidus. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Broad habitat and ecology labels {#s-72db565957}
-The record labels habitat as tall-tree vegetation with a relatively closed canopy, describes feeding across multiple niches, and classifies the primary lifestyle as Insessorial. These are broad categories, not a local habitat description, food list or observation of the same resource proportions in every season and place.
+## Recorded habitat and feeding categories {#s-72db565957}
+The ecology-only AVONET row classifies Zosterops splendidus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## What sedentary means here {#s-694ef7ccb1}
-The migration field is sedentary. It records the source’s broad category; it does not list regional seasonal movements or provide current routes, schedules or distances for every population.
+## The migration label has a limited scope {#s-694ef7ccb1}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Historical map limits {#s-e9f50b0451}
-Breeding and resident map latitudes extend from −8.18° to −7.94°. The worksheet links them to BirdLife/HBW 2019.1 maps accessed on 27 March 2020. Endpoints summarize the mapped range, not localities or confirmed occupancy throughout it, and do not cover non-breeding movements or current distribution.
+## Limits of this historical ecology record {#s-e9f50b0451}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## What this record leaves open {#s-ce8cddae55}
-All 4 of 4 AVONET ecology fields have readable values, but the record is still incomplete. Morphological measurements and mass are not interpreted; the mass field comes from an EltonTraits genus average. Reproduction, growth and conservation need other sources. Missing fields do not establish absence.
+## Fields outside this ecology-only view {#s-ce8cddae55}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
 ## Limits of these historical data {#s-94e6f0e910}
 This page summarizes limited historical AVONET ecology and geography, not a full species account. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Same-name matches and the BirdLife/eBird/BirdTree one-to-one crosswalks support association, not equivalence with the current COL26.8 concept. Ecological fields are broad literature-derived categories that were not individually checked against the underlying species literature. Morphology and mass remain uninterpreted; the mass value is a genus average. Maps cover historical breeding and resident ranges only. Current range, population, reproduction and conservation require other sources.

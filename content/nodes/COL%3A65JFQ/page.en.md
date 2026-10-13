@@ -1,15 +1,15 @@
-## Afrotyphlops nigrocandidus in the pinned checklist {#s-86e6f8b1f3}
-The pinned COL26.8 checklist accepts Afrotyphlops nigrocandidus as a species. Its ReptTraits v1-2 row follows the Reptile Database 2023 name framework. One row condenses the cited material, so the values describe the compiled entry rather than a uniform state across every sex, place, season or population.
+## COL26.8 name and the ReptTraits row {#s-86e6f8b1f3}
+COL26.8 records Afrotyphlops nigrocandidus as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A reported length for Afrotyphlops nigrocandidus {#s-9357b41567}
-The cited record reports compiled maximum total length (TL) 573 mm. TL also includes the tail. These are reported endpoints, not typical sizes or biological limits. Sex-specific values may come from different studies or places and do not by themselves show a consistent size difference between males and females.
+## Length values in the archived records {#s-9357b41567}
+The row reports maximum total length (TL) of 573 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Activity categories in the trait record {#s-e0913bece6}
-The entry records microhabitat is Fossorial, diet is Carnivorous, active time is Cathemeral. These broad categories do not give a full habitat, prey list or daily timetable. Multiple positions may be recorded. The diet label does not identify prey. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-e0913bece6}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as active across day and night (Cathemeral); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018.
 
-## Reproductive records for Afrotyphlops nigrocandidus {#s-8d97b94a65}
-The source labels the reproductive mode oviparous.  Summaries may use midpoints of reported means, or extrema when means are absent; they are not necessarily averages of observed clutches.  These labels do not establish fetal nutrition or uniformity across populations.
+## Reproductive fields in ReptTraits {#s-8d97b94a65}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-58b0ee937a}
-The ReptTraits v1-2 row uses its 2023 taxonomic framework and cites sources for individual traits. A single row compresses variation across sex, age, locality and populations; the same name and family do not guarantee equivalence to a later taxonomic concept. A reported maximum length is not an absolute species limit, and reproductive means are not fixed counts for every clutch. Many body-mass entries are estimated from length equations rather than measured mass. Juvenile-length fields use differing labels and definitions, so those values are not directly comparable without their source definitions. The compilation does not provide a current assessment of conservation, venom, geographic distribution or population trends; blank fields indicate unreported data. Some citation labels are inherited through the dataset source chain: they locate reported records but do not represent independent observations.
+## Reading this compiled trait record {#s-58b0ee937a}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

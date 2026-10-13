@@ -1,5 +1,5 @@
-## atlas-profile / overview {#s-fab561885e}
-CT data from the named jaws MCZ7/95A–B and MCZ10/G95 show the tooth-bearing dentary, a trough behind it and rows of teeth with wear surfaces. A character matrix placed sampled Late Triassic haramiyids outside crown Mammalia; that placement belongs to the cited analysis. Tooth shape and wear support plant processing and a backward jaw stroke, but these are interpretations, not direct records of diet or behaviour.
+## CT scans show tooth rows and a trough behind the jaw {#s-fab561885e}
+CT data from the named jaws MCZ7/95A–B and MCZ10/G95 show tooth-bearing dentaries, a trough behind the dentary, and rows of teeth with wear surfaces. The cited matrix places sampled Late Triassic haramiyids outside crown Mammalia; tooth form and wear also support plant processing and a backward jaw stroke, but these are interpretations rather than direct records of diet, movement or ancestry.
 
 ## atlas-profile / ecology / diet {#s-ae7c8add0e}
 Complex teeth and wear facets support plant processing; actual diet is not observed.
@@ -25,6 +25,6 @@ Rows of complex teeth behind the front of the jaw
 ## atlas-profile / traits {#s-1e1b2bb1e9}
 Backward jaw movement inferred from tooth-wear geometry
 
-## atlas-profile / evidenceSummary {#s-7d99cf628f}
-The named Greenland jaws support anatomical and tooth-wear observations, while placement outside crown Mammalia and plant processing are interpretations. The 205.7–201.4 Ma Rhaetian interval translates the formation context; it is not the full range of Haramiyida or an age for the mammal crown.
+## Named jaws and a formation-context age {#s-7d99cf628f}
+The Greenland jaws support anatomical and tooth-wear observations; placement outside crown Mammalia and plant processing are interpretations. The 205.7–201.4 Ma Rhaetian interval translates the formation context, not the full range of Haramiyida or the age of crown Mammalia.
 

@@ -10,9 +10,8 @@ One Hamipterus block preserves many eggs, including embryo-bearing eggs, giving 
 ## Testing flight with explicit assumptions {#s-1bfa1ff836}
 Biomechanical studies use reconstructed body mass, wing dimensions, muscle power and launch kinematics to test whether giant pterosaurs could fly and launch quadrupedally. Their outputs are feasibility results conditioned on those inputs, not preserved motions or measurements that apply uniformly across the pterosaur radiation.
 
-## reader limitations {#s-44284d7f85}
-This is a selective route through studies of relationships, fossils, geography and biomechanics. The fossil record is patchy; the cited locality and specimen results do not establish a complete global range, life history, diet or uniform flight capability. The profile is.
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## Study-specific limits on range, ecology and flight {#s-44284d7f85}
+This is a selective route through studies of pterosaur relationships, fossils, geography and flight biomechanics. The fossil record remains uneven: one dated locality or specimen cannot set the order’s complete range or life history. The cited studies do not establish a uniform diet or flight capability for all pterosaurs, and modelled launch results depend on each study’s specimens, inputs and assumptions.
 
 ## Haliskia: observations and reconstruction {#s-40fab4e726}
 Partial skeleton KK F1426 of Haliskia peterseni offers a comparison route: read the horizon and preserved elements before the teeth and elongated hyoid bones. Its approximately 4.6 m span is estimated comparatively, while feeding interpretations lack direct preserved contents. The genus guide separates these evidence types. Compare them with the egg, integument and flight-model studies already introduced here, retaining taxon-specific observations. A supplementary PBDB directory path does not represent a uniquely resolved phylogeny.
@@ -26,8 +25,8 @@ Start with Seazzadactylus venieri, Kunpengopterus sinensis, Kunpengopterus antip
 ## Evidence limits {#s-ba67c92a37}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## atlas-profile / overview {#s-dda793f0e9}
-Pterosaurs were an extinct radiation of flying archosaurs, usually placed within Ornithodira near dinosaurs. Their precise origin and closest relatives depend on the analysis and its taxon sampling. Fossils preserve parts of the animals themselves—including eggs and integument—while flight and ground-launch performance are tested through biomechanical models.
+## Pterosaur relationships, fossils and flight models {#s-dda793f0e9}
+Pterosaurs are extinct flying archosaurs often placed near dinosaurs; their precise origin and flight performance depend on phylogenetic and biomechanical analyses.
 
 ## atlas-profile / ecology / diet {#s-e4c53b36ad}
 Pterosaur lineages did not share one diet. The available profile evidence describes varied feeding guilds, so a diet proposed for one form should not be applied to the entire order.
@@ -53,6 +52,6 @@ Many pterosaurs had pneumatic bones containing air spaces. The extent and distri
 ## atlas-profile / traits {#s-a676b97aff}
 Quadrupedal ground launch has been tested with biomechanical models. It is a reconstruction from anatomy and assumptions, not a preserved behavior.
 
-## atlas-profile / evidenceSummary {#s-c8a28167ba}
-Named fossils directly document eggs and integument. Wing anatomy is preserved in fossils, but flight and launch performance come from models; those results are bounded by their specimens and assumptions rather than applying uniformly to every pterosaur.
+## Eggs and integument versus modelled flight {#s-c8a28167ba}
+Fossils document eggs, integument and wing anatomy; flight and launch results are models bounded by specimens and assumptions.
 

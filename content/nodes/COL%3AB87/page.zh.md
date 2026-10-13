@@ -1,8 +1,10 @@
-## 从 Hydrobates 进入不同采样范围 {#s-597170ff3f}
+## 记录分类与直接上级关系 {#s-597170ff3f}
+COL26.8 将 Hydrobatidae 记录为科；其直接上级记录为 Procellariiformes。
+
 Hydrobatidae 本批另增十条 Hydrobates 历史形态与生态导读：monteiroi 一只雄鸟、matsudairae 两只雌鸟、homochroa 四只完整两只、五条五只完整四只、hornbyi 与 melania 四只完整四只。十个逐字旧组合均有目录异名，Dunning 体重与形态分母独立。既有 pelagicus 汇编与 tristrami 沙岛巢穴材料仍单列，不把这些路线加作全科去重种数或共享繁殖率。
 
 ## 按水生食物、飞行活动和迁移分别对读 {#s-e798fe20bb}
-从 [Hydrobates](Hydrobates/page.zh.md) 的两组入口继续。Marine 与开放密度3描述栖地，Aquatic predator 描述食物，Aerial 描述活动；microsoma 的迁移2与九条迁移3分别保留。先读原定义和样本范围，再对照旧名，不能由统一类别补所有后代的鱼类食谱、潜水动作、路线或当前保育状态。
+从 Hydrobates 的两组入口继续。Marine 与开放密度3描述栖地，Aquatic predator 描述食物，Aerial 描述活动；microsoma 的迁移2与九条迁移3分别保留。先读原定义和样本范围，再对照旧名，不能由统一类别补所有后代的鱼类食谱、潜水动作、路线或当前保育状态。
 
 ## 沙岛巢穴中的繁殖研究 {#s-23316ede65}
 2008 年 tristrami 研究比较 Laysan 与 French Frigate Shoals 的繁殖巢。土洞、隐藏植被与岩缝的可发现程度不同，孵化率、离巢率和巢数估计也有不同分母。几处夏威夷沙岛的洞穴竞争和天气记录不能给整个类群定义相同繁殖成功率，更不能替代当前数量调查。
@@ -10,7 +12,7 @@ Hydrobatidae 本批另增十条 Hydrobates 历史形态与生态导读：monteir
 ## 从巢的成败读回汇编资料 {#s-286064c628}
 先读 [Hydrobates tristrami](Hydrobates/Hydrobates_tristrami/page.zh.md) 的巢检方法、繁殖时序和洞穴竞争，再沿本页既有 pelagicus 历史性状导读比较测量与汇编。tristrami 的沙岛样本不是 pelagicus 的繁殖记录；论文借用其他种死亡率的模型也不把两种生活史视为相同。
 
-## 本地数据阅读路径 {#s-50735ad031}
+## 记录分类与成员材料 {#s-50735ad031}
 Hydrobatidae 的本批阅读路径包含 1 条有测量来源的物种记录，可从 Hydrobates pelagicus 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-61935ff257}

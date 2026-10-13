@@ -1,12 +1,12 @@
-## What one compiled record can show {#s-45f10cb61d}
-COL26.8 places Pseudocalotes baliomus in the agamid lizard family. Its ReptTraits v1-2 row follows the workbook’s 2023 Reptile Database name framework and cites sources for the traits recorded there. A single row gathers published reports; it does not show that every population has the same body size or activity.
+## COL26.8 name and the ReptTraits row {#s-45f10cb61d}
+COL26.8 records Pseudocalotes baliomus as an accepted species. The ReptTraits v1-2 row gives its Family field as Agamidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Maximum lengths leave out the tail {#s-8e19def08f}
-The record gives a reported maximum snout–vent length of 68 mm and a female maximum of 58.5 mm. This measure runs from the snout to the vent and excludes the tail. These values are reported maxima, not an average adult size or growth limit. They may come from different places or studies, so the difference does not by itself measure body-size variation between sexes within a population.
+## Length values in the archived records {#s-8e19def08f}
+The row reports a maximum SVL of 68 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 58.5 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Activity in trees by day {#s-6922e3142d}
-The entry describes activity in trees and during the day. These broad categories do not map every habitat or establish a fixed daily schedule. The cited fields do not provide a diet or identify prey, and activity can vary among populations, seasons, and life stages.
+## Habitat use and activity labels {#s-6922e3142d}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## What these records cannot establish {#s-334b4939b5}
-The row compresses differences in sex, age, locality, and population, and its 2023 name framework may not match later taxonomic concepts. A reported maximum is not an absolute limit for the species. These size and activity fields do not establish diet, reproduction, venom, conservation status, current distribution, or population trends; those questions require evidence beyond this record. The source labels preserve the workbook’s citation chain rather than implying that each underlying study has been independently reassessed here.
+## Reading this compiled trait record {#s-334b4939b5}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

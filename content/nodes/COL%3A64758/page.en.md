@@ -1,17 +1,19 @@
-## Local data reading route {#s-d64de8ec79}
+## Recorded classification and direct parent {#s-d64de8ec79}
+COL26.8 records Tetraogallus at genus rank, with Phasianidae as its direct parent.
+
 This batch’s Tetraogallus route includes 5 measured species records. Start with Tetraogallus altaicus, Tetraogallus caspius, Tetraogallus caucasicus, Tetraogallus himalayensis, Tetraogallus tibetanus. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-bb4bfbf253}
 Compiled mean mass endpoints in this batch are Tetraogallus tibetanus at 1488.87 g and Tetraogallus altaicus at 2760.43 g. Represented habitat categories include Grassland, Rock; trophic niches include Omnivore, Herbivore terrestrial. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-2e7b301f1b}
+## Amniote Life-history archive member records {#s-2e7b301f1b}
 This batch’s Tetraogallus route includes 2 historical life-history accounts; start with Tetraogallus caucasicus, Tetraogallus himalayensis. More frequently represented fields include adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), oviposition to hatching (2 entries), female maturity field (defined by the source as age at first conception) (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-31d62eeac6}
 This batch’s Tetraogallus route includes 5 historical entries; start with Tetraogallus caucasicus, Tetraogallus caspius, Tetraogallus tibetanus, Tetraogallus altaicus, Tetraogallus himalayensis. Food-category weights are available in 5, foraging strata in 5, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-09ee9f9d1e}
+## Limits attached to these records {#s-09ee9f9d1e}
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 

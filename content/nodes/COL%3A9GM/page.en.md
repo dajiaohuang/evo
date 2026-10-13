@@ -4,7 +4,9 @@ The 2019 study adds Dromaius novaehollandiae and Casuarius casuarius genomes, as
 ## Read by material, tree model and experimental level {#s-78a4a4fba7}
 Study species directly represented at this entry are [Dromaius novaehollandiae](Dromaius/Dromaius_novaehollandiae/page.en.md). First distinguish added, reused and reference-mapped genomes, then compare species trees with gene trees. For a cross-lineage functional comparison, turn to the chicken reporter assays on [Rhea americana](../../Rheiformes/Rheidae/Rhea/Rhea_americana/page.en.md) and [Eudromia elegans](../../Tinamiformes/Tinamidae/Eudromia/Eudromia_elegans/page.en.md); one candidate region cannot validate every accelerated element. Return to existing morphology, life history or fossil occurrences with their own units and samples. This route is neither exhaustive group sampling nor a complete descendant catalogue.
 
-## Choose comparison pages by life-history fields {#s-a93f73bef0}
+## Recorded classification and direct parent {#s-a93f73bef0}
+COL26.8 records Dromaiidae at family rank, with Casuariiformes as its direct parent.
+
 This batch’s Dromaiidae route includes 1 historical life-history accounts; start with Dromaius novaehollandiae. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), oviposition to hatching (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-23fd93cac3}

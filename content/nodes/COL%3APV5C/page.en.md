@@ -1,32 +1,32 @@
-## The name and this data account {#s-b2be8f98d3}
-Callocephalon fimbriatum is accepted in COL26.8 within Cacatuidae. AVONET v7 lists 5 measured birds under the HBW–BirdLife 2020 name; 4 have a complete morphological set. Usable sample sizes can vary by trait.
+## Row-reported mean and sample coverage {#s-b2be8f98d3}
+The AVONET v7 row for Callocephalon fimbriatum (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 25.3 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-e0586e9874}
-The mean beak length is 25.3 mm from the front edge of the nostril to the tip. At that edge, mean width is 20.3 mm and depth is 39.6 mm. These are separate measurements at defined landmarks, not identification thresholds.
+## Beak measurements at defined landmarks {#s-e0586e9874}
+AVONET records culmen length (bill tip to skull base) 32.5 mm; beak length (nostril front edge to tip) 25.3 mm; beak width at the nostril front edge 20.3 mm; beak depth at the nostril front edge 39.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-e0f532c45f}
-Mean unflattened wing length from carpal joint to longest primary is 252.6 mm; mean tarsus length is 18.2 mm. A separate compilation gives mean mass as 256 g (Dunning category), which does not show that all measured birds were weighed.
+## Wing and body measures use separate sources {#s-e0f532c45f}
+AVONET records unflattened wing length 252.6 mm; tarsus length 18.2 mm; distance from first secondary tip to longest primary tip 96 mm; length to first secondary tip 159.2 mm; hand-wing index 37.6; tail length 135 mm; species-average body mass 256 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-1dc4cfd214}
-AVONET assigns Woodland habitat, Omnivore trophic niche and Insessorial lifestyle. These broad categories support cross-species comparisons but do not mean that the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-1dc4cfd214}
+AVONET classifies Callocephalon fimbriatum as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-e01322ee53}
-The migration field marks this record as partially migratory. Historical breeding and resident maps reach latitudes from -39.14° to -31.14°. They do not cover all non-breeding movements or estimate current global occupancy. The geographic and morphological data come from separate compilation steps.
+## The migration label has a limited scope {#s-e01322ee53}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -39.14° to -31.14°. The mapped range area is 333455.71 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-0d2d2b1ecc}
-In pinned COL26.8, Callocephalon fimbriatum is accepted within Cacatuidae. The six life-history fields below come from a historical record with the same name and family and are supported by cited species-level rows. The archive may carry data across earlier taxonomic groupings, so a matching name does not rule out inheritance.
+## Scope of the historical life-history entry {#s-0d2d2b1ecc}
+The August 2015 database has a same-name, same-family record for Callocephalon fimbriatum. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-9180feb881}
-The historical compilation summarizes adult body mass as 256 g. Adult records may combine males, females and adults with unspecified sex, so the summary is not a range of individual masses. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-9180feb881}
+The August 2015 compilation reports adult body mass 256 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-e35bc46fa9}
-The compilation reports female maturity at 1272.14 d (the source defines this as age at first conception), 2 offspring or eggs per litter/clutch, 29 d from egg laying to hatching and 56 d to flight capability (some sources record leaving the nest). Here, d means days. The litter/clutch field combines young and egg counts; a fractional summary would not mean part of an offspring in one event. Each timing value describes a different event, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-e35bc46fa9}
+The August 2015 compilation reports female age at first conception (source definition) 1272.138 days; median or interpolated-median number of offspring or eggs per litter/clutch 2; oviposition-to-hatching interval 29 days; age at flight capability (some records mark nest departure) 56 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-7e9ae2c388}
-The archive gives 27.5 years for maximum_longevity_y, the largest record found under its method. This does not show typical or average wild lifespan, an individual survival limit, or a current record that can be repeated.
+## A maximum record is not typical lifespan {#s-7e9ae2c388}
+The compilation lists 27.5 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-8b8bfdab74}
-The matching rows include labels Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; and Bennett, 1986, among others. The archive retains raw row numbers, values and field labels together with the reference table's full explanations. A label can point to a paper, book or another database. Row counts are not animal counts, and repeated citations are not independent experiments.
+## Sources and field limits {#s-8b8bfdab74}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-8ca5c76b9f}
 This page interprets historical AVONET v7 data. Morphological values are species averages for the listed samples, not identification limits or ranges of individual variation. Mass comes from separate literature or weighing sources, so the morphology sample counts do not apply to it. Habitat, diet and migration are broad categories; geography covers historical breeding and resident ranges only. A one-to-one historical crosswalk and matching catalogue name support this association but do not prove that later species concepts are equivalent. Reproduction, current populations and conservation require other sources.

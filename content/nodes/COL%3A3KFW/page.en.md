@@ -4,3 +4,6 @@ COL26.8 genus ID 3KFW links to the accepted C. bancanus page (SDLD). Read the Bu
 ## Scope of the evidence {#s-334c8fc084}
 This route links one accepted species page and two studies with different taxonomic scopes, sites, and methods. It is not an exhaustive Cephalopachus roster, genus-wide ecological synthesis, or range assessment. COL26.8 ID 3KFW fixes the genus identity. This page is.
 
+## Recorded classification {#col26-8-identity}
+In the pinned COL26.8 catalogue, Cephalopachus Swainson, 1835 is recorded as an accepted genus.
+

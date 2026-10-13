@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-75c731cf65}
+## 记录分类与直接上级关系 {#s-75c731cf65}
+COL26.8 将 Kobus 记录为属；其直接上级记录为 Reduncini。
+
 Kobus 的 PanTHERIA 本地路线有 4 条可用历史记录：Kobus ellipsiprymnus、Kobus kob、Kobus leche 和 Kobus vardonii。条目保留来源中的 MSW05 名称及各字段覆盖范围，不是现代接受种数量。
 
 ## 比较体型与生活史 {#s-e25d7cd0f9}
@@ -13,14 +15,14 @@ EltonTraits 在这条路线中有 5 条记录，每条都带食物类别权重�
 ## 证据边界 {#s-7443a63d54}
 PanTHERIA 的 4 条记录与其有限字段路线中的 1 条记录采用不同纳入门槛，均不代表 Kobus 全部内容。生活史数值是历史汇总；等权平均、最长寿命纪录和分类继承含义不同。EltonTraits 类别与可信度代码来自文献整理，不是标准化的直接观察。旧名称匹配不能解决当前物种边界。
 
-## 从已有历史条目开始 {#s-485907b9e9}
-有限字段的 PanTHERIA 路线有 1 条可用 Kobus 记录：[Kobus megaceros](Kobus_megaceros/page.zh.md)。字段与缺口仍对应这条历史记录；它不能说明全属只有一个物种。
+## 记录分类与成员材料 {#s-485907b9e9}
+有限字段的 PanTHERIA 路线有 1 条可用 Kobus 记录：Kobus megaceros。字段与缺口仍对应这条历史记录；它不能说明全属只有一个物种。
 
 ## 这组历史数据的边界 {#s-2ab4740154}
 这组有限资料纳入至少有 1 个焦点字段、且在历史对照表中同名同科的条目。它是具有自身来源条件的子集，不是全属完整介绍，也不能据此推断当前分布或保护状况。
 
 ## 沿生活史资料阅读 {#s-a1aeac528a}
-Ernest（2003）路线链接 5 个历史页面：[Kobus megaceros](Kobus_megaceros/page.zh.md)、[Kobus vardonii](Kobus_vardonii/page.zh.md)、[Kobus leche](Kobus_leche/page.zh.md)、[Kobus ellipsiprymnus](Kobus_ellipsiprymnus/page.zh.md) 和 [Kobus kob](Kobus_kob/page.zh.md)。路线计数只计算本批已写记录。
+Ernest（2003）路线链接 5 个历史页面：Kobus megaceros、Kobus vardonii、Kobus leche、Kobus ellipsiprymnus 和 Kobus kob。路线计数只计算本批已写记录。
 
 ## 先区分平均值与纪录 {#s-36735e51ea}
 妊娠时长和雌性首次繁殖年龄各见于 5 条中的 4 条，最高寿命见于 3 条。首次繁殖指可能受孕的年龄，不是首次生产或性成熟；最高寿命是纪录，不是典型寿命。

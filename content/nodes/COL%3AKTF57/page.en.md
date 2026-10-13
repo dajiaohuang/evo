@@ -1,10 +1,10 @@
-## Start with the historical entries {#s-90c3af957a}
+## Recorded classification and member material {#s-90c3af957a}
 The local PanTHERIA route for Phalangeriformes includes 27 usable data accounts. Start with Cercartetus caudatus, Cercartetus concinnus, Cercartetus lepidus, Cercartetus nanus, Burramys parvus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-b8e26de98e}
 Among available consolidated adult-mass values in this batch, Cercartetus lepidus records 8.03 g and Trichosurus caninus records 3115.06 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-4e9e8060ce}
+## Amniote Life-history archive member records {#s-4e9e8060ce}
 This batch’s Phalangeriformes route includes 45 historical life-history accounts; start with Acrobates pygmaeus, Distoechurus pennatus, Burramys parvus, Cercartetus caudatus, Cercartetus concinnus. More frequently represented fields include adult body mass (45 entries), offspring per litter or eggs per clutch (45 entries), longest lifespan record in the compilation (44 entries), age of dependence on food other than maternal milk (31 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-5dc5308abc}
@@ -19,12 +19,12 @@ This route covers this batch’s historical same-name, same-family entries with 
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Start with the historical entries {#s-bba6b93232}
-The local PanTHERIA route for Phalangeriformes includes 7 usable data accounts. Start with [Dactylopsila megalura](Petauroidea/Petauridae/Dactylopsilinae/Dactylopsila/Dactylopsila_megalura/page.en.md), [Dactylopsila tatei](Petauroidea/Petauridae/Dactylopsilinae/Dactylopsila/Dactylopsila_tatei/page.en.md), [Petaurus gracilis](Petauroidea/Petauridae/Petaurinae/Petaurus/Petaurus_gracilis/page.en.md), [Petropseudes dahli](Petauroidea/Pseudocheiridae/Pseudochiropsinae/Petropseudes/Petropseudes_dahli/page.en.md), [Phalanger ornatus](Phalangeroidea/Phalangeridae/Phalangerinae/Phalanger/Phalanger_ornatus/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-bba6b93232}
+The local PanTHERIA route for Phalangeriformes includes 7 usable data accounts. Start with Dactylopsila megalura, Dactylopsila tatei, Petaurus gracilis, Petropseudes dahli, Phalanger ornatus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-0e8a0d6b02}
 Among available consolidated adult-mass values in this batch, Dactylopsila tatei records 252 g and Spilocuscus rufoniger records 5999.99 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-72d3457e7f}
+## PanTHERIA material route {#s-72d3457e7f}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 

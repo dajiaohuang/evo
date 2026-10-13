@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-c45f703e31}
-Plagiolophus is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 9 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Plagiolophus {#s-c45f703e31}
+Plagiolophus is listed at rank genus in the PBDB classification route, with Palaeotheriinae as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-6633cdd4ae}
 Start with Plagiolophus mazateronensis, Plagiolophus (Plagiolophus) huerzeleri, Plagiolophus cartailhaci, Plagiolophus (Paloplotherium) fraasi, Plagiolophus mamertensis and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 48 selected occurrences from 42 collections; example stratum names are Mazaterón, Castrais, Upper Headon Beds, Bembridge Limestone. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-9db2c03dc6}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-9db2c03dc6}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Plagiolophus mazateronensis’s collection record, not a continuous history for Plagiolophus.
 

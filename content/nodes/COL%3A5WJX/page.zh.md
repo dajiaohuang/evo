@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-596c146198}
+## 记录分类与直接上级关系 {#s-596c146198}
+COL26.8 将 Myriopholis 记录为属；其直接上级记录为 Leptotyphlopinae。
+
 Myriopholis 的 ReptTraits 阅读路径列有 5 条同名同科、带逐性状出处的物种资料：Myriopholis algeriensis、Myriopholis cairi、Myriopholis longicauda、Myriopholis macrorhyncha 和 Myriopholis nursii。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架；这 5 条不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-4bf3536229}
@@ -11,8 +13,8 @@ Myriopholis macrorhyncha 是唯一在共享长度字段中有可用数值的后�
 第一条路径收录至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料；它不是该类群的完整后代名录。最大尺寸是汇编记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不是同一种测量。比较时应分别核对字段来源与汇总规则；历史一行式资料不能解决所有分类修订或种群差异。
 本页的另一条路径收录至少三个焦点字段有来源支持、且同名同科的历史条目，也不是完整后代名录。汇编中位数、最长寿命记录和历史分类继承仍有各自限制；群级入口不表示所有后代拥有相同繁殖方式或生活史。这些资料不能说明完整生物学或当前状态。
 
-## 从有性状记录的物种开始 {#s-60fc7c034b}
-Myriopholis 的 ReptTraits 阅读路径还列有 19 条同名同科、带逐性状出处的物种资料。可先看 [Myriopholis adleri](Myriopholis_adleri/page.zh.md)、[Myriopholis albiventer](Myriopholis_albiventer/page.zh.md)、[Myriopholis boueti](Myriopholis_boueti/page.zh.md)、[Myriopholis braccianii](Myriopholis_braccianii/page.zh.md) 或 [Myriopholis burii](Myriopholis_burii/page.zh.md)。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架；这 19 条不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-60fc7c034b}
+Myriopholis 的 ReptTraits 阅读路径还列有 19 条同名同科、带逐性状出处的物种资料。可先看 Myriopholis adleri、Myriopholis albiventer、Myriopholis boueti、Myriopholis braccianii 或 Myriopholis burii。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架；这 19 条不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-3d06494448}
 每个后代页只介绍各自有出处的字段。先看每页缺少哪些资料，再按共同有支持的尺寸、活动、食性或繁殖字段对读。页面数量不代表性状完整；不以近缘种补缺失值，也不将龟类 SCL 与其他类群 SVL 混作同一排名。

@@ -1,15 +1,15 @@
-## The species behind the row {#s-a7167709b0}
-COL26.8 accepts Phyllodactylus darwini within Phyllodactylidae. Its ReptTraits v1-2 row follows the workbook’s Reptile Database 2023 naming framework and keeps sources attached to traits. The row gathers reported records; it is not a uniform description of every population.
+## COL26.8 name and the ReptTraits row {#s-a7167709b0}
+COL26.8 records Phyllodactylus darwini as an accepted species. The ReptTraits v1-2 row gives its Family field as Phyllodactylidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Length measured to the vent {#s-c2126751ff}
-The entry gives a reported maximum snout–vent length (SVL) of 72 mm and a female maximum of 58.9 mm. SVL ends at the vent and excludes the tail. These are compiled maxima, not typical sizes or growth limits; because the sex-specific records may come from different studies or places, they do not alone measure size differences in one population.
+## Length values in the archived records {#s-c2126751ff}
+The row reports a maximum SVL of 72 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 58.9 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Rock and ground labels, with night activity {#s-4feea88f9e}
-The microhabitat is recorded as saxicolous (rock-associated) and terrestrial, with nocturnal activity. These labels describe more than one recorded setting but do not map the full habitat or a fixed daily schedule. The entry does not specify diet, and one row cannot resolve differences among localities, seasons or life stages.
+## Habitat use and activity labels {#s-4feea88f9e}
+The microhabitat field classifies the recorded position as rock-dwelling (Saxicolous)/ground-dwelling (Terrestrial) [source label: Saxicolous/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## A clutch average of 1.5 {#s-fe5bb22446}
-The source labels reproduction oviparous, or egg-laying, and gives a consolidated offspring/egg value of 1.5 per clutch or litter. The fraction is a summary, not a nest with half an egg. Depending on the source material, such values may be midpoints of reported means or extremes rather than an arithmetic average of observed clutches. This label does not establish embryo nutrition or uniformity across populations.
+## Reproductive fields in ReptTraits {#s-fe5bb22446}
+The compiled mean for offspring per litter or eggs per clutch is 1.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The scope of one compiled row {#s-0660d8062f}
-This page paraphrases the same-name ReptTraits v1-2 row under its 2023 naming framework. The row compresses age, sex, locality and population variation; a name-and-family match does not prove equivalence with later concepts. The reported length is a compiled maximum, and the reproductive value is a summary, not a species-wide boundary or fixed clutch count. The account does not update conservation, venom, current range or population trends; its citations preserve the source chain without implying that every original study was independently reread here.
+## Reading this compiled trait record {#s-0660d8062f}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

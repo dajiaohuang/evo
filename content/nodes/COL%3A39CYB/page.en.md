@@ -1,30 +1,30 @@
-## Name and this data account {#s-c3b6bcbe67}
-Pinned COL26.8 accepts Elseya lavarackorum in Chelidae. The ReptTraits v1-2 row retains the Reptile Database 2023 name framework and its field-specific source trail; as a one-row species summary, it cannot describe every population.
+## COL26.8 name and the ReptTraits row {#s-c3b6bcbe67}
+COL26.8 records Elseya lavarackorum as an accepted species. The ReptTraits v1-2 row gives its Family field as Chelidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-002ec76d6f}
-The entry reports a maximum straight carapace length (SCL) of 350 mm. SCL is a straight-line shell measurement that excludes the head, neck and tail. This is a compiled maximum, not a typical size or a theoretical growth limit.
+## Length values in the archived records {#s-002ec76d6f}
+The row reports a maximum straight carapace length (SCL) of 350 mm. ReptTraits attributes this field to Thomson et al. 1997.
 
-## Where and how it is active {#s-3d7650964c}
-The row classifies the microhabitat as Aquatic and the diet as Herbivorous. These broad categories do not provide a complete habitat or food inventory, and they cannot show variation among populations, seasons, or life stages.
+## Habitat use and activity labels {#s-3d7650964c}
+The microhabitat field classifies the recorded position as Aquatic. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Thomson et al. 1997. The diet field classifies the entry as plant-eating (Herbivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Thomson et al. 1997.
 
-## How to read reproductive records {#s-503cc54228}
-The reproductive-mode field is oviparous, and the consolidated offspring-or-egg count is 5 per litter or clutch. That value summarizes source records; it is not a prediction for every event or evidence about embryo nutrition.
+## Reproductive fields in ReptTraits {#s-503cc54228}
+The compiled mean for offspring per litter or eggs per clutch is 5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Iverson et al. 1993. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The 2015 life-history entry and this name {#s-857c3d491b}
-The 2015 life-history archive is compared here through four focal fields with cited, same-name, species-level rows in the sparse tables. Those matches support the association, but historical summaries may still inherit data across older species or subspecies concepts.
+## A 2015 life-history row for this name {#s-857c3d491b}
+COL26.8 records Elseya lavarackorum as an accepted species. The August 2015 life-history table has a species-name and family match (Chelidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-bc8b771d37}
-The archive reports adult body mass of 4,295 g. Its adult category may combine males, females and records of unspecified sex, so it is not a species-wide range. No birth or hatching mass is presented in this section.
+## Length values in the archived records {#s-bc8b771d37}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 4295 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
-## Reproduction and developmental timing {#s-9b8d7e6d37}
-The compilation lists 5 offspring or eggs per litter or clutch and 160 days from oviposition to hatching. The first field combines young and egg counts, so it does not represent a fractional individual if summarized with decimals. The timing refers to that specific interval, not a complete reproductive cycle.
+## Reproductive events in the life-history table {#s-9b8d7e6d37}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 3 recorded source-table values; oviposition to hatching: one direct source citation, with no median count stated. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 5; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993. The incubation field is 160 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## A longest record differs from usual lifespan {#s-1c5cf23835}
-The archive's maximum_longevity_y field is 21.8 years, the largest record found under its method. It is not a typical lifespan, a mean for wild animals, a survival ceiling for each individual, or a current record known to be repeatable.
+## Longest lifespan in the archive {#s-1c5cf23835}
+The archive's longest-lifespan record is 21.8 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009.
 
-## How to trace these values to sources {#s-bdd57944a4}
-Source labels on same-name rows include Iverson, J., Balgooyen, C., Byrd, K. et al. (1993), the Reptile Incubation book, and de Magalhaes and Costa (2009). The archive preserves field-level row numbers, values and labels. Labels can point to papers, books or databases; row counts are not sample sizes, and repeated citations are not independent replication.
+## The August 2015 life-history table {#s-bdd57944a4}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-79fa2739cc}
-The ReptTraits and 2015 archive sections are supplemental summaries, not a complete account of Elseya lavarackorum's morphology or ecology. ReptTraits compresses sex, age, locality and population variation into one row under its 2023 name framework. Archive values are compilation medians or averages of the two middle values, except longevity, which uses the largest record found. They are not measurements of one individual, individual ranges, wild-lifespan means or current surveys. Historical records may be shared across species and subspecies; name and family matches support association but do not establish equivalence to COL26.8 concepts or remove inherited data. Wild versus captive conditions are not consistently known, and underlying works were not individually reviewed. Maxima are not absolute size limits, and the clutch count is not fixed for every event. Other traits, current range and conservation require additional sources.
+## Separate histories in the two archives {#s-79fa2739cc}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

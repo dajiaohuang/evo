@@ -1,26 +1,26 @@
-## The name and this data account {#s-091f06d82b}
-Corvus validus is accepted in COL26.8 within Corvidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 10 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-091f06d82b}
+The AVONET v7 row for Corvus validus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 53.4 mm. The row records 10 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-e3bafab070}
-Recorded mean beak measurements are 53.4 mm from the anterior nostril edge to the tip, 18 mm in width and 23.4 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-e3bafab070}
+AVONET records culmen length (bill tip to skull base) 76.4 mm; beak length (nostril front edge to tip) 53.4 mm; beak width at the nostril front edge 18 mm; beak depth at the nostril front edge 23.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-217b46d96c}
-Mean unflattened wing length from the carpal joint to the longest primary is 335.4 mm; mean tarsus length is 56.2 mm. Compiled mean mass is 300 g, with source category Updated_literature. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-217b46d96c}
+AVONET records unflattened wing length 335.4 mm; tarsus length 56.2 mm; distance from first secondary tip to longest primary tip 126.4 mm; length to first secondary tip 209 mm; hand-wing index 37.6; tail length 166.3 mm; species-average body mass 300 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-014ba2e386}
-The dataset assigns habitat Forest, trophic niche Frugivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-014ba2e386}
+AVONET classifies Corvus validus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Frugivore (source threshold at least 60% from fruit); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-774bed9545}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -1.74° to 2.65°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-774bed9545}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -1.74° to 2.65°. The mapped range area is 24724.98 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-e774b27b41}
-Corvus validus is accepted in pinned COL26.8 within Corvidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-e774b27b41}
+EltonTraits 1.0 has a same-name, same-family record for Corvus validus covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-ec581f76b7}
-Foraging-stratum weights flagged as species-level in the archive are in or just above the canopy 50%; trees or high bushes from 2 m upward but below the canopy 30%; ground 10%; understory, edges or shrubs below 2 m 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-ec581f76b7}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 10%; in the understory 10%; in mid-height or high vegetation 30%; in the canopy 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-799622b228}
-The used groups carry labels Ref_30. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-799622b228}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Goodwin, D. and R. Gillmor. 1976. Crows of the world. Cornell University Press Ithaca, New York, USA.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-8c6698e5d0}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-a35553fa87}
+## 记录分类与直接上级关系 {#s-a35553fa87}
+COL26.8 将 Capitonidae 记录为科；其直接上级记录为 Piciformes。
+
 Capitonidae 的本批阅读路径包含 11 条有测量来源的物种记录，可从 Capito auratus、Capito aurovirens、Capito brunneipectus、Capito dayi、Capito hypoleucus 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-47b4ef9d5e}

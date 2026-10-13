@@ -1,18 +1,40 @@
-## Which fossil records this name represents {#s-82a0398b7e}
-Velocisaurus unicus is accepted in the fixed PBDB dinosaur working roster, with database parent Velocisaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-82a0398b7e}
+Velocisaurus unicus is listed in the PBDB snapshot under taxon txn:64902. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-fa743c8944}
-Collection Universidad Nacional del Comahue (W) (Neuquén), region code AR, stratum name Bajo de la Carpa; database age bracket 85.7–83.6 Ma, early interval Santonian. Collection Paso Córdova [Bajo de la Carpa] (Río Negro), region code AR, stratum name Bajo de la Carpa; database age bracket 85.7–83.6 Ma, early interval Santonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-fa743c8944}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-00c1cfdcdb}
-Selected occurrences have an outer age envelope of 85.7–83.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:479515; PBDB collection col:47796. Locality cnm=Universidad Nacional del Comahue (W); place fields cc2=AR, stp=Neuquén. Recorded age bounds: eag 85.7 Ma; lag 83.6 Ma; PBDB interval fields oei=Santonian. Stratigraphic fields sfm=Bajo de la Carpa. Recorded attribution Bonaparte 1991; PBDB reference ref:12794.
 
-## Read preservation setting separately from living habitat {#s-e9fbc31e62}
-Universidad Nacional del Comahue (W) has collection-environment label fluvial-deltaic indet.; collection preservation-mode label body. Paso Córdova [Bajo de la Carpa] has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"lower sandy section of the Rio Colorado Formation, Coniacian of the Neuquen Group (translated, pg. 71)" - now = Bajo de la Carpa Fm., Río Colorado Subgroup
 
-## Follow collection records back to references {#s-595783c24f}
-Universidad Nacional del Comahue (W) carries database reference attribution Bonaparte (1991), identifier ref:12794. Paso Córdova [Bajo de la Carpa] carries database reference attribution Brissón Egli et al. (2014), identifier ref:76274. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Estate of the National University of the Comahue, about 200 meters to the East of the building occupied by the Rector, city of Neuquen, Argentina. (translated, pg. 71)"
 
-## Evidence limits {#s-ebc3790085}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1338889; PBDB collection col:84309. Locality cnm=Paso Córdova [Bajo de la Carpa]; place fields cc2=AR, stp=Río Negro. Recorded age bounds: eag 85.7 Ma; lag 83.6 Ma; PBDB interval fields oei=Santonian. Stratigraphic fields sfm=Bajo de la Carpa. Recorded attribution Brissón Egli et al. 2014; PBDB reference ref:76274.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Río Colorado Subgroup
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Paso Córdova (= Paso Córdova) locality
+
+## Age bounds on the recorded occurrences {#s-00c1cfdcdb}
+Across these selected PBDB rows, the largest recorded eag=85.7 Ma in occ:479515; the smallest recorded lag=83.6 Ma in occ:479515. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-e9fbc31e62}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:479515: PBDB original-identification field idn=Velocisaurus unicus n. gen. n. sp.; PBDB taxon-name field tna=Velocisaurus unicus; material note ocm=MUCPv-41; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-68.058479, lat=-38.941151; paleocoordinate/model fields pm1=gplates, pln=-42.79, pla=-40.22.
+- occ:1338889: PBDB taxon-name field tna=Velocisaurus unicus; material note ocm=MPCN-PV-370, incomplete L hind limb; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-67.632301, lat=-39.117699; paleocoordinate/model fields pm1=gplates, pln=-42.39, pla=-40.44.
+
+## References attached to each record {#s-595783c24f}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:479515: Recorded attribution Bonaparte 1991; PBDB reference ref:12794.
+- occ:1338889: Recorded attribution Brissón Egli et al. 2014; PBDB reference ref:76274.
+
+## What these records can show {#s-ebc3790085}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,15 +1,15 @@
-## Which record these facts describe {#s-3e0d7cec4c}
-The pinned COL26.8 checklist accepts Liolaemus pseudoanomalus in the family Liolaemidae. The traits below come from its ReptTraits v1-2 row, which follows the Reptile Database's 2023 name framework and cites sources by trait. That row describes the compilation, not every population as if it were identical.
+## COL26.8 name and the ReptTraits row {#s-3e0d7cec4c}
+COL26.8 records Liolaemus pseudoanomalus as an accepted species. The ReptTraits v1-2 row gives its Family field as Liolaemidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What the length numbers measure {#s-dc3a28bb95}
-The row reports a maximum snout–vent length (SVL) of 68 mm and a female maximum of 56.3 mm. SVL measures from the snout to the vent and excludes the tail. These compiled maxima are neither typical sizes nor biological ceilings. The two sex-specific values may come from different studies or places; by themselves they do not measure how much males and females differ within one population.
+## Length values in the archived records {#s-dc3a28bb95}
+The row reports a maximum SVL of 68 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 56.3 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Microhabitat, food, and time of activity {#s-c8944385ac}
-The row labels the microhabitat terrestrial, the diet carnivorous, and the activity diurnal. These broad categories describe a ground-associated microhabitat, food from animal sources, and daytime activity. They do not provide a particular habitat or prey list, and the one-row summary does not show how traits vary among places, seasons, or life stages.
+## Habitat use and activity labels {#s-c8944385ac}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## What the clutch figures mean {#s-6586b4c760}
-The source labels the reproductive mode oviparous, or egg-laying. It gives a consolidated clutch-or-litter mean of 6.8, with reported-mean endpoints of 2 and 10. ReptTraits may calculate a summary from the midpoint of published means, or use the midpoint of reported extremes when means are missing; 6.8 is therefore not a count from one observed clutch. The low and high fields mark endpoints of reported means, not guaranteed smallest and largest individual clutches. These records do not show that every population shares the same clutch size.
+## Reproductive fields in ReptTraits {#s-6586b4c760}
+The compiled mean for offspring per litter or eggs per clutch is 6.8. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 10; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Limits of this account {#s-4e6f702b64}
-This page paraphrases the same-name ReptTraits v1-2 row and keeps its 2023 name framework and trait-specific citations. A single row compresses differences in sex, age, locality, and population; the same name and family do not prove that a historical record matches every later taxonomic concept. A reported maximum is not an absolute size limit, and the clutch mean is not a fixed count in every clutch. ReptTraits also includes mass estimates derived from length equations; they are not presented here as measured mass. Juvenile-length fields have differing headers and definitions, so they are not used as conclusions. This page does not update conservation status, venom, current distribution, or population trends. The citation labels retain the dataset's source chain; they do not mean this project independently rechecked every original study.
+## Reading this compiled trait record {#s-4e6f702b64}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

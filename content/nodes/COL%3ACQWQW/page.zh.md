@@ -1,5 +1,5 @@
-## 沿两表的 Phylloscartes 旧组合查历史行 {#s-eea3fd11bb}
-本页按 COL26.8 的 Pogonotriccus eximius（CQWQW）组织。BirdLife 2020 第 9034 行记当前页名；eBird 2021 第 8337 行记 Phylloscartes eximius，类型 1BL to 1eBird，两个 Avibase ID 均为 AVIBASE-D1765326；BirdTree 第 8299 行记 Phylloscartes eximius，类型 1BL to 1BT。本次读到目录异名 6VFKS，指向本页接受 ID。两张名称表保留同一旧属组合，不称 eBird 同名当前页；名称与标识对应不证明跨版本物种范围完全相同。
+## COL26.8 中的名称身份 {#s-eea3fd11bb}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pogonotriccus eximius (Temminck, 1822) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-f092e47b63}
 形态共 4 只鸟：雌 2、雄 2、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 6.2 mm、跗蹠 14.9 mm、未压平翼长 53 mm、尾长 48.5 mm、手翼指数 17.4 是历史行均值。完整数与总数相等，仍不提供个体变异范围。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

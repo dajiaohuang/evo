@@ -1,4 +1,6 @@
-## One historical life-history entry {#s-621dd603ac}
+## Recorded classification and direct parent {#s-621dd603ac}
+COL26.8 records Uromys at genus rank, with Murinae as its direct parent.
+
 Catalogue of Life COL26.8 records Uromys as an accepted genus. The August 2015 life-history archive has one historical entry placed under Uromys by its pinned ancestry grouping: Uromys siebersi. The batch records one field each for adult body mass, female age at first conception, offspring per litter or eggs per clutch, and the interval from conception or fertilization to birth. These counts describe archive coverage here, not a complete species denominator. The fields measure different things, so keep each definition and event beside any comparison.
 
 ## One historical ecological entry {#s-9175a883b2}

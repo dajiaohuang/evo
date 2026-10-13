@@ -1,29 +1,29 @@
-## AVONET measurements under a historical name {#s-d8cce8b6bf}
-COL26.8 accepts *Pseudibis papillosa* in Threskiornithidae. AVONET v7 reports this species under its HBW–BirdLife 2020 name. The source lists five measured individuals, four with a complete morphological set; sample sizes can still differ by trait.
+## Row-reported mean and sample coverage {#s-d8cce8b6bf}
+The AVONET v7 row for Pseudibis papillosa (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 124.3 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-03c831c3f4}
-Recorded mean beak measurements are 124.3 mm from the anterior nostril edge to the tip, 14.1 mm in width and 19 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-03c831c3f4}
+AVONET records culmen length (bill tip to skull base) 141.8 mm; beak length (nostril front edge to tip) 124.3 mm; beak width at the nostril front edge 14.1 mm; beak depth at the nostril front edge 19 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-6306f7bd58}
-Mean unflattened wing length from the carpal joint to the longest primary is 380.6 mm; mean tarsus length is 71.2 mm. Compiled mean mass is 823 g, with source category Updated_literature. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-6306f7bd58}
+AVONET records unflattened wing length 380.6 mm; tarsus length 71.2 mm; distance from first secondary tip to longest primary tip 139.4 mm; length to first secondary tip 241.8 mm; hand-wing index 36.5; tail length 199.2 mm; species-average body mass 823 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-608e2717dc}
-The dataset assigns habitat Grassland, trophic niche Omnivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-608e2717dc}
+AVONET classifies Pseudibis papillosa as habitat Grassland (open grass-dominated landscapes); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-5b12d209a8}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 8.07° to 29.98°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-5b12d209a8}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 8.07° to 29.98°. The mapped range area is 1181694.91 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Food and foraging-position records {#s-c14c3a60e9}
-COL26.8 accepts *Pseudibis papillosa* in Threskiornithidae. EltonTraits 1.0 also includes a same-name, same-family record with two ecological field groups. Its bird taxonomy is historical; the name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-c14c3a60e9}
+EltonTraits 1.0 has a same-name, same-family record for Pseudibis papillosa covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-a3d50e3aa4}
-The nonzero food-category weights are invertebrates 50%, reptiles and amphibians 20%, fish 20%, and seeds, nuts and spores 10% (the source groups these together). Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions; they are not measured diet composition, and a zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply an exclusive diet of nectar, seeds or plants.
+## Relative weights across food categories {#s-a3d50e3aa4}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; reptiles and amphibians 20%; fish 20%; seeds or nuts 10%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-37089bbe3c}
-The species-level foraging-stratum weights are 80% on the ground and 20% at or just below the water surface. They estimate relative use of feeding positions, not nest sites, all habitat or a whole-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-37089bbe3c}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 20%; on the ground 80%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-c88a54ce11}
-The two field groups carry the source label Ref_1. Diet, foraging stratum and activity may come from different material, and the same reference number in bird and mammal bibliographies does not necessarily identify the same work. The linked source details preserve the original citation strings. The underlying books and papers have not been individually read, and a source label is not an additional independent observation.
+## Sources and field limits {#s-c88a54ce11}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-c9637fe498}
 AVONET morphology values are sample averages, not identification diagnoses or ranges of individual variation. Mass comes from a separately cited literature or weighing source; the five measured birds must not be assumed to be the mass sample. Habitat, diet and migration are broad categories, and the geographic summary covers historical breeding and resident ranges only. Historical crosswalks and a matching catalogue name support association but do not prove that species concepts remained equivalent through later splits or lumps. Other sources are needed for reproduction, current populations and conservation status.

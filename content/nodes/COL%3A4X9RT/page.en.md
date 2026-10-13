@@ -1,18 +1,18 @@
-## Name and this data account {#s-65897ecf7f}
-Siebenrockiella leytensis is accepted in pinned COL26.8 within Geoemydidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-65897ecf7f}
+COL26.8 records Siebenrockiella leytensis as an accepted species. The ReptTraits v1-2 row gives its Family field as Geoemydidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-0ddbd17bf4}
-Recorded dimensions are reported maximum straight carapace length (SCL) 300 mm. SCL measures the shell in a straight line, excluding head, neck and tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-0ddbd17bf4}
+The row reports a maximum straight carapace length (SCL) of 300 mm. ReptTraits attributes this field to Ernst et al. 2011.
 
-## Where and how it is active {#s-33910252df}
-In the entry, microhabitat is Aquatic/Terrestrial. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-33910252df}
+The microhabitat field classifies the recorded position as Aquatic/ground-dwelling (Terrestrial) [source label: Aquatic/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Stark et al. 2018.
 
-## How to read reproductive records {#s-b89c329895}
-The reproductive-mode field uses the original label oviparous. These source labels do not establish fetal nutrition or uniformity across all populations. Uninterpreted clutch/litter numbers remain gaps.
+## Reproductive fields in ReptTraits {#s-b89c329895}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-11dd970f12}
-This supplemental account uses limited trait material and does not count as complete morphology or ecology. This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-11dd970f12}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-24d9d13498}
-This batch interprets 3 traits with field-specific source labels. Uninterpreted fields: Maximum female length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum male length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum total length ("TL", mm); Mean number of offspring per litter or number of eggs per clutch; Smallest clutch size; Largest clutch size; Number of litters or clutches produced per year; Egg length (mm); Egg width (mm); Diet; Active time; Foraging mode; Sex-determining mechanism (GSD or TSD). A supported value/category and source combination is not established here for these fields; relatives and blank entries do not fill species facts.
+## Reading this compiled trait record {#s-24d9d13498}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

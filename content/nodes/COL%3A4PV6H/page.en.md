@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-32d79873eb}
-Pinned COL26.8 organizes this page as Pternistis ahantensis (4PV6H). AVONET v7 BirdLife 2020 row 2506 and eBird 2021 agree in name, with Avibase ID AVIBASE-CA53B18D; BirdTree gives Francolinus ahantensis, with match type 1BL to 1BT. Read COL older-combination record 6JLCP points to accepted ID 4PV6H. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-32d79873eb}
+Catalogue of Life release COL26.8 records Pternistis ahantensis (Temminck, 1854) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-58844bde6c}
 Morphology covers 5 birds (2 female, 3 male); 4 have complete measurement sets. Mean nostril-to-tip beak length is 16.2 mm, tarsus 44.8 mm, unflattened wing 173.2 mm and hand-wing index 17.1. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

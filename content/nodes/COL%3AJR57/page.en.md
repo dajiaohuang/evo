@@ -1,26 +1,26 @@
-## The 2015 life-history entry and this name {#s-ae73b67a33}
-COL26.8 accepts Aulacorhynchus prasinus in Ramphastidae. The historical life-history archive includes a same-name entry; this page compares 4 focal fields, each supported by cited species-level sparse-table rows matching the name and family. The summaries may retain older taxonomic inheritance, which a matching row name alone cannot rule out.
+## Scope of the historical life-history entry {#s-ae73b67a33}
+The August 2015 database has a same-name, same-family record for Aulacorhynchus prasinus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-fe647296ac}
-The historical summary lists adult body mass as 175.83 g. Adult values may combine males, females and adults of unspecified sex, so this is not a species-wide range of individual masses.
+## Compiled adult-mass values {#s-fe647296ac}
+The August 2015 compilation reports adult body mass 175.8333333 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-a28d3843c1}
-The historical compilation reports offspring per litter or eggs per clutch 3.25 offspring/eggs; oviposition to hatching 16 d; age at flight capability (leaving the nest in some source material) 43 d. Here, d means days. The litter/clutch field merges offspring or egg counts; a fractional summary is not a fraction of an individual in one event. Each timing field refers to its own event; the values do not form one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-a28d3843c1}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.25; oviposition-to-hatching interval 16 days; age at flight capability (some records mark nest departure) 43 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-34961e5290}
-Cited sparse rows under the same name carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Boback and Guyer, 2003; Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004, among others. Field-level provenance retains the raw row number, value and source label; the reference table provides the full citation explanations. A label may point to a primary paper, a book or another database. Citation-row counts do not count measured individuals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-34961e5290}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-aa3d203d0b}
-COL26.8 accepts Aulacorhynchus prasinus in Ramphastidae. The same-name, same-family EltonTraits 1.0 entry provides source information for 2 ecological field groups. Its taxonomy follows earlier bird classification or MSW3 for mammals; the name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-aa3d203d0b}
+EltonTraits 1.0 has a same-name, same-family record for Aulacorhynchus prasinus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-3210bd81fc}
-Recorded positive food-category weights are fruit 50%; invertebrates 30%; unspecified vertebrates 10%; other plant material (the source category also includes fungi) 10%. Diet source code A marks high compiler confidence in the source and diet information. The percentages standardize verbal descriptions rather than measure diet composition, and a zero does not show that an item is never eaten. Categories such as Nect, Seed and PlantO have broader source definitions than their everyday names; they do not imply feeding exclusively on nectar, seeds or plants.
+## Relative weights across food categories {#s-3210bd81fc}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 30%; vertebrates not further identified 10%; fruit 50%; other plant material 10%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-2ebe3955a9}
-The archive marks these species-level foraging-stratum weights: trees or high bushes from 2 m upward but below the canopy 60%; in or just above the canopy 40%. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. The source defines surface-water, understory, mid/high, canopy and aerial categories separately. They are not elevation bands and cannot establish flight height or habitat area.
+## Foraging positions are not a time budget {#s-2ebe3955a9}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 60%; in the canopy 40%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-ccec6e9683}
-Source labels for the field groups used here are Ref_7. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. The source record keeps each original string with its file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-ccec6e9683}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-5083b3c9b0}
 The life-history values come from same-name records in the 2015 historical archive. The archive reports medians or averages of the two middle values; maximum longevity instead uses the largest record found. These summaries are not direct measurements of one individual, ranges of individual variation, mean wild lifespans or current population surveys. The historical compilation may share or inherit values across species and subspecies. A matching name and family, together with same-name sparse rows, supports the association; it does not establish equivalence to COL26.8 concepts or remove every inherited component from the summaries. The source does not consistently establish wild or captive conditions, and the cited publications are not individually summarized here. Other sources are needed for diet, behavior, current range, conservation and fields not reported here;

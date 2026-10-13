@@ -1,4 +1,6 @@
-## 有来源支持的物种记录 {#s-3cd38a4e61}
+## 记录分类与直接上级关系 {#s-3cd38a4e61}
+COL26.8 将 Melanochelys 记录为属；其直接上级记录为 Geoemydidae。
+
 目录列出 2 条Melanochelys物种资料，均为同名同科且逐性状有出处；可从 Melanochelys tricarinata、Melanochelys trijuga 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
 
 ## 比较前先确认测量方式 {#s-bfc27d16f4}

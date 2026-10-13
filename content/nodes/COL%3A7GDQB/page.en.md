@@ -1,5 +1,5 @@
-## Find rows through older Geotrygon combinations {#s-95a315e17d}
-Pinned COL26.8 organizes this page at Zentrygon carrikeri (7GDQB). BirdLife 2020 row 1850 and eBird 2021 row 11192 share the name and Avibase ID AVIBASE-3A16532D, with type 1BL to 1eBird; BirdTree row 11133 gives Geotrygon carrikeri, with type 1BL to 1BT. Read catalogue synonym 3FTLW points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-95a315e17d}
+Catalogue of Life release COL26.8 records Zentrygon carrikeri (Wetmore, 1941) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-6313428eaa}
 Morphology comprises 2 birds: 0 female, 2 male and 0 unsexed; 2 complete sets. Nostril-to-tip beak length 10.9 mm, tarsus 42.1 mm, unflattened wing 146.5 mm, tail 92.5 mm and hand-wing index 23.1 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. All birds are male, leaving female sampling and sex comparison unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

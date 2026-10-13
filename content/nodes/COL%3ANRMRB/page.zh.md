@@ -1,5 +1,5 @@
-## 沿 Pomatorhinus 旧名定位 {#s-e2969b1237}
-本页按COL26.8 Erythrogenys hypoleucos（NRMRB）、Timaliidae（H9M）组织。BirdLife 2020第8335行与eBird 2021第3771行同名，eBird两侧Avibase ID同为AVIBASE-1928C4DD，类型1BL to 1eBird。BirdTree第3755行记Pomatorhinus hypoleucos，类型1BL to 1BT；逐字目录异名6W6LK指向接受种NRMRB。名称关系提供定位，不证明不同版本物种范围完全相同。
+## COL26.8 中的名称身份 {#s-e2969b1237}
+《Catalogue of Life》COL26.8（2026-08-20）将 Erythrogenys hypoleucos (Blyth, 1844) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-f9362f3e0d}
 形态共 5 只鸟：雌 2、雄 3、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 30.3 mm、跗蹠 37.3 mm、未压平翼长 105.4 mm、尾长 93.8 mm、手翼指数 6.2 是历史行均值。总数大于完整数，不称每只鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；指数不是飞行速度，翼长也不是实测飞行能力。

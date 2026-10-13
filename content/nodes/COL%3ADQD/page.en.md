@@ -1,10 +1,10 @@
-## Start with the historical entries {#s-07bbb96a11}
+## Recorded classification and member material {#s-07bbb96a11}
 The local PanTHERIA route for Ornithorhynchidae includes one usable data account. Start with Ornithorhynchus anatinus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-9e9971eb7f}
 Among available consolidated adult-mass values in this batch, Ornithorhynchus anatinus records 1484.25 g and Ornithorhynchus anatinus records 1484.25 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-8d76ca21b3}
+## Amniote Life-history archive member records {#s-8d76ca21b3}
 The Ornithorhynchidae route links to one historical life-history account; begin with Ornithorhynchus anatinus. The more frequently represented fields are adult body mass (one entry), female maturity field (defined by the source as age at first conception) (one entry), offspring per litter or eggs per clutch (one entry), conception or fertilization to birth (one entry). These counts describe records on this route, not every accepted descendant. Check each field’s event, unit, and source before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-d249e80ef8}

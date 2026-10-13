@@ -1,4 +1,6 @@
-## Catalogue placement {#s-ca6f333fe3}
+## Recorded classification and direct parent {#s-ca6f333fe3}
+COL26.8 records Timon at genus rank, with Lacertidae as its direct parent.
+
 Timon is recorded as an accepted genus in COL26.8, placed under Lacertidae. This page follows that fixed catalogue placement.
 
 ## Start with the sampled species {#s-111177df50}
@@ -7,19 +9,19 @@ The local reading route currently covers Timon lepidus. Each species page identi
 ## How to read this comparison {#s-a97bd70550}
 Read a vertebral observation with its position in the spine and skeletal maturity. The study adapts names for ridges connecting anatomical landmarks, and shows that expression can change along one column. Matching terminology alone does not demonstrate evolutionary homology. The proposed characters still require evaluation before use as taxonomic diagnoses.
 
-## Choose comparison pages by life-history fields {#s-400af33f44}
+## Amniote Life-history archive member records {#s-400af33f44}
 This batch’s Timon route includes 4 historical life-history accounts; start with Timon lepidus, Timon pater, Timon princeps, Timon tangitanus. More frequently represented fields include adult body mass (4 entries), offspring per litter or eggs per clutch (4 entries), oviposition to hatching (4 entries), female maturity field (defined by the source as age at first conception) (3 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Evidence limits {#s-f017cbce64}
 This guide covers the listed study routes only. Other accepted descendants remain outside this batch. The paper’s Podarcis wagleriana and Agama impalearis have separate species pages preserving their original sample names and the sourced correspondence to Podarcis waglerianus and Agama bibronii. Takydromus sp. is not identified to species and is not counted as a species page.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
-## Start with sourced trait records {#s-683d60c7a0}
+## Recorded classification and member material {#s-683d60c7a0}
 This batch’s ReptTraits route for Timon includes 6 same-name, same-family entries with trait-specific citations. Start with Timon kurdistanicus, Timon lepidus, Timon nevadensis, Timon pater, Timon princeps. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-915d39cda1}
 Among size records in this batch, Timon kurdistanicus has a reported maximum snout–vent length (SVL) of 131 mm and Timon lepidus 260 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Limits of these trait data {#s-bc177e966e}
+## ReptTraits material route {#s-bc177e966e}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

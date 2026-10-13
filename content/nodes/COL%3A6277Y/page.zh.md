@@ -4,7 +4,9 @@
 ## 按材料、树模型和实验层次阅读 {#s-b20af03913}
 本入口直接对应的研究物种页为 [Rhea americana](Rhea/Rhea_americana/page.zh.md)、[Rhea pennata](Rhea/Rhea_pennata/page.zh.md)。先辨认新增、沿用或参考映射的基因组，再比较物种树与基因树。跨支系功能对读可转到 [Rhea americana](Rhea/Rhea_americana/page.zh.md) 与 [Eudromia elegans](../../Tinamiformes/Tinamidae/Eudromia/Eudromia_elegans/page.zh.md) 的鸡胚报告实验；单个候选区域不能替代所有加速区域的验证。最后回到已有形态、生活史或化石出现材料，保留它们各自的单位和样本；本阅读路径不是全类群取样或完整后代目录。
 
-## 本地数据阅读路径 {#s-c261133473}
+## 记录分类与直接上级关系 {#s-c261133473}
+COL26.8 将 Rheidae 记录为科；其直接上级记录为 Rheiformes。
+
 AVONET v7 资料中有一种 Rheidae 鸟类的测量记录：Rhea americana。页面层级按固定 COL26.8 组织，生物学数值仍保留原来源名称与采样范围。
 
 ## 记录之间有什么差别 {#s-904c6e2c96}

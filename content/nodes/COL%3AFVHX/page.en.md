@@ -1,12 +1,12 @@
-## Name and this data account {#s-ea6d14481a}
-Apostolepis borellii is accepted in pinned COL26.8 within Colubridae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-ea6d14481a}
+COL26.8 records Apostolepis borellii as an accepted species. The ReptTraits v1-2 row gives its Family field as Colubridae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Where and how it is active {#s-99b3f361d9}
-In the entry, diet is Carnivorous; foraging mode is ACT. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-99b3f361d9}
+The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## Evidence limits {#s-43b9784a30}
-This supplemental account uses limited trait material and does not count as complete morphology or ecology. This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-43b9784a30}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-e23066bac8}
-This batch interprets 2 traits with field-specific source labels. Uninterpreted fields: Maximum length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum female length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum male length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum total length ("TL", mm); Mean number of offspring per litter or number of eggs per clutch; Smallest clutch size; Largest clutch size; Number of litters or clutches produced per year; Egg length (mm); Egg width (mm); Microhabitat; Active time; Reproductive mode; Sex-determining mechanism (GSD or TSD). A supported value/category and source combination is not established here for these fields; relatives and blank entries do not fill species facts.
+## Reading this compiled trait record {#s-e23066bac8}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

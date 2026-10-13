@@ -1,4 +1,6 @@
-## 哪些 Causus 物种有性状记录？ {#s-4f33bbf143}
+## 记录分类与直接上级关系 {#s-4f33bbf143}
+COL26.8 将 Causus 记录为属；其直接上级记录为 Viperinae。
+
 固定版 COL26.8 将 3 条 ReptTraits v1-2 物种记录归在 Causus 下：Causus defilippii、C. resimus 和 C. rhombeatus。每条记录的性状引文仍对应各自物种行；这组资料提供阅读入口，不是该属全部接受种的数量。
 
 ## 这里的体长数值测量什么？ {#s-fc57994c24}
@@ -11,7 +13,7 @@ Causus 的历史生活史资料有 1 条，来自 Causus rhombeatus。成年体�
 这里汇集的是按来源字段筛出的历史记录，不是 Causus 的完整物种清单。ReptTraits 路线要求至少四项有来源的焦点性状，并含尺寸或繁殖数值且与 COL 同名同科；生活史路线则要求至少三项有来源的焦点字段、同名同科。最大体长是已报道的汇编记录，不是个体平均或鉴定界线；中位数、最长寿命记录和历史分类沿用均受原字段定义限制，不能解决之后的分类修订或种群差异。此处没有当前种群或保护状况资料，属级入口也不表示所有成员共享同一繁殖方式或生活史。
 
 ## 另一组记录包含哪些物种？ {#s-614c300d91}
-另一组 ReptTraits 资料收有 4 条同名同科、带性状出处的记录：[Causus bilineatus](Causus_bilineatus/page.zh.md)、[C. lichtensteinii](Causus_lichtensteinii/page.zh.md)、[C. maculatus](Causus_maculatus/page.zh.md) 和 [C. rasmusseni](Causus_rasmusseni/page.zh.md)。这组记录保留工作簿 v1-2 的 2023 年名称框架，与固定版 COL26.8 的导航分类各有用途；4 条记录也不等于该属的接受种总数。
+另一组 ReptTraits 资料收有 4 条同名同科、带性状出处的记录：Causus bilineatus、C. lichtensteinii、C. maculatus 和 C. rasmusseni。这组记录保留工作簿 v1-2 的 2023 年名称框架，与固定版 COL26.8 的导航分类各有用途；4 条记录也不等于该属的接受种总数。
 
 ## 对读物种时，哪些性状可比？ {#s-6b2721652a}
 这些物种页按各自有出处的字段介绍资料。尺寸、活动、食性或繁殖信息只有在两条记录都给出相同定义的字段时才适合对读；缺少的值不能从近缘种移来补齐。龟类 SCL 与其他类群的 SVL 也不是同一种测量，不能混在一个体长排名中。

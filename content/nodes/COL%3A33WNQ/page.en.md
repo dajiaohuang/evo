@@ -1,29 +1,29 @@
-## The name and this data account {#s-a45bea6b09}
-Dactylortyx thoracicus is accepted in COL26.8 within Odontophoridae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-a45bea6b09}
+The AVONET v7 row for Dactylortyx thoracicus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.1 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-4752af2d0c}
-Recorded mean beak measurements are 9.1 mm from the anterior nostril edge to the tip, 6.6 mm in width and 7.9 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-4752af2d0c}
+AVONET records culmen length (bill tip to skull base) 16 mm; beak length (nostril front edge to tip) 9.1 mm; beak width at the nostril front edge 6.6 mm; beak depth at the nostril front edge 7.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-6bd411b45c}
-Mean unflattened wing length from the carpal joint to the longest primary is 125.6 mm; mean tarsus length is 31.9 mm. Compiled mean mass is 201.75 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-6bd411b45c}
+AVONET records unflattened wing length 125.6 mm; tarsus length 31.9 mm; distance from first secondary tip to longest primary tip 38.1 mm; length to first secondary tip 89.6 mm; hand-wing index 29.9; tail length 42.6 mm; species-average body mass 201.75 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-1c23c98219}
-The dataset assigns habitat Forest, trophic niche Omnivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-1c23c98219}
+AVONET classifies Dactylortyx thoracicus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-63ab566192}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 13.32° to 26.3°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-63ab566192}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 13.32° to 26.3°. The mapped range area is 492692.14 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-488aa4cdc5}
-Dactylortyx thoracicus is accepted in pinned COL26.8 within Odontophoridae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-488aa4cdc5}
+EltonTraits 1.0 has a same-name, same-family record for Dactylortyx thoracicus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-ff1441fd18}
-The archive’s nonzero food weights are seeds, nuts and spores included in this category 40%; other plant material (the source category also includes fungi) 40%; invertebrates 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-ff1441fd18}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; seeds or nuts 40%; other plant material 40%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-08f1e12603}
-Foraging-stratum weights flagged as species-level in the archive are ground 100%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-08f1e12603}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-84413d0418}
-The used groups carry labels Ref_2. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-84413d0418}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-a507bf660a}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

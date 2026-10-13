@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-1808499724}
+## 记录分类与直接上级关系 {#s-1808499724}
+COL26.8 将 Brachygalba 记录为属；其直接上级记录为 Galbulidae。
+
 本批在 Brachygalba 下有 3 条 AVONET 形态测量物种记录：Brachygalba goeringi、Brachygalba lugubris 和 Brachygalba salmoni。可按固定的 COL26.8 层级导航；测量仍沿用 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-7b2b674a42}
@@ -12,8 +14,8 @@
 
 EltonTraits 路径只涵盖 4 条有可用生态字段的历史同名同科记录，不是完整后代目录，也不把文献估算的食物权重或觅食层位写成整个属共有特征。类别权重来自文献描述的标准化估计，不是直接行为观察；本页也未逐项重读底层书籍。
 
-## 从有限生态资料开始 {#s-14f87dd464}
-本批有 1 个有限生态资料页：[Brachygalba albogularis](Brachygalba_albogularis/page.zh.md)。其导航采用固定 COL26.8 层级；计数只含本批已写条目，不是全部接受种的分母。
+## 记录分类与成员材料 {#s-14f87dd464}
+本批有 1 个有限生态资料页：Brachygalba albogularis。其导航采用固定 COL26.8 层级；计数只含本批已写条目，不是全部接受种的分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-06ab2088a6}
 AVONET 生态专用条目中，栖地、营养生态位、主要生活方式和迁移四类字段各有 1 条记录，目标均为 Brachygalba albogularis。这些是来源定义的字段，不是个体行为观察，也不代表所有后代。该条目不解释喙、翼、跗蹠、尾或体重字段，因此不能用来比较类群体型。

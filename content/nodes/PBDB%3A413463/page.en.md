@@ -7,8 +7,8 @@ Continue to the Asteriornis maastrichtensis species page: distinguish preserved 
 ## Limits and open questions {#s-3ae9d1d72d}
 This genus route is limited to a named holotype and its cited study, without a complete genus range, ecology or variation account. The route’s 66.8–66.7 Ma interval applies to the cited sample; a global species range and first and last appearances remain unresolved. Recorded database placement and atlas navigation do not independently resolve competing phylogenetic results. This bilingual guide.
 
-## atlas-profile / overview {#s-a24311bbee}
-The latest Maastrichtian bird Asteriornis maastrichtensis is anchored by the CT-imaged holotype NHMM 2013 008, a nearly complete three-dimensional skull with fragmentary postcranial bones. Published analyses place it near crown Galloanserae but differ on its precise position.
+## NHMM 2013 008 anchors the genus account {#s-a24311bbee}
+NHMM 2013 008 preserves a three-dimensional skull and fragmentary postcrania; analyses place Asteriornis near crown Galloanserae but differ on its position.
 
 ## atlas-profile / ecology / diet {#s-ba2beb9e92}
 Not resolved by the cited description
@@ -34,7 +34,7 @@ The skull combines galliform-like and anseriform-like features in the authors' c
 ## atlas-profile / traits {#s-1f7528ce74}
 Parsimony and tip-dated Bayesian analyses recover different near-galloanseran positions
 
-## atlas-profile / evidenceSummary {#s-ec42a77c83}
+## A named horizon and a modelled body mass {#s-ec42a77c83}
 The 66.8–66.7 Ma horizon, skull anatomy and 394 g body-mass estimate are tied to a named specimen and a scaling model. Exact branch placement and possible littoral ecology remain interpretations.
 
 ## A three-dimensional skull and a modelled mass {#s-422cbc0d6f}

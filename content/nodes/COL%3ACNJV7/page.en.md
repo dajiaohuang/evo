@@ -1,5 +1,5 @@
-## Locate records through each older crosswalk name {#s-97a35ef189}
-Pinned COL26.8 organizes this page at Chalcites megarhynchus (CNJV7) in Cuculidae (8S7). BirdLife 2020 row 2093 uses this name; eBird 2021 row 1994 gives Chrysococcyx megarhynchus, BirdTree row 1983 Rhamphomantis megarhynchus, with types 1BL to 1eBird/1BL to 1BT. Both eBird sides share Avibase ID AVIBASE-14B0CB57. Exact synonyms CNKSY/4S2PW respectively point to CNJV7. The two older names differ; one combination cannot represent both tables. Names locate records without proving identical historical and current whole-species boundaries.
+## A name fixed to COL26.8 {#s-97a35ef189}
+Catalogue of Life release COL26.8 records Chalcites megarhynchus (G. R. Gray, 1858) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-4b91a19c8a}
 Morphology comprises 1 bird: 0 female, 1 male and 0 unsexed; 1 complete set. Nostril-to-tip beak length 18.5 mm, tarsus 15.4 mm, unflattened wing 97 mm, tail 73 mm and hand-wing index 29 are historical row means. Complete and total counts agree without supplying individual variation bounds. One male cannot establish sex differences or a population distribution. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

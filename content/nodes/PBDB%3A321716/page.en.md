@@ -7,8 +7,8 @@ Start with Carnufex carolinensis and compare each page’s named collections and
 ## Evidence limits {#s-3011683ecd}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## atlas-profile / overview {#s-924cb47f3e}
-The immature, partial skeleton NCSM 21558 anchors Carnufex in the Carnian Pekin Formation of North Carolina. Its serrated teeth and reconstructed size led the cited study to interpret it as a large terrestrial predator in that fossil assemblage; those ecological and body-size claims are inferences, not observed behaviour.
+## The immature holotype and its fossil setting {#s-924cb47f3e}
+The immature, partial holotype NCSM 21558 anchors Carnufex in the Carnian Pekin Formation; predator role and reconstructed size are study inferences.
 
 ## atlas-profile / ecology / diet {#s-37364e8076}
 Serrated, recurved teeth support a faunivorous interpretation; the fossil does not preserve feeding.
@@ -34,8 +34,8 @@ The reconstructed skull is slender and ornamented, with an estimated length grea
 ## atlas-profile / traits {#s-89db898de7}
 Premaxillary teeth are elongate, serrated and slightly recurved
 
-## atlas-profile / evidenceSummary {#s-d7fbd23917}
-The holotype anatomy and its approximately 231-million-year-old Pekin Formation context are documented. The study's body-size, predator-role and basal crocodylomorph interpretations depend on comparisons and an incomplete, immature specimen.
+## Specimen facts and model-dependent conclusions {#s-d7fbd23917}
+Holotype anatomy and Pekin context are documented; size, predator role and basal crocodylomorph placement depend on comparison with an immature specimen.
 
 ## What the partial skeleton preserves {#s-92844659f8}
 The holotype NCSM 21558 preserves parts of the skull, vertebral column, ribs and left humerus; a separate referred humerus is NCSM 21623. The reconstructed skull is slender and ornamented, with an estimated length greater than 50 cm. Its premaxillary teeth are long, serrated and slightly recurved. Because the holotype was still growing and is incomplete, these observations do not describe every Carnufex individual or adult body proportions.

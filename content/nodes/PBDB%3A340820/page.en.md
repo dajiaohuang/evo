@@ -1,19 +1,51 @@
 ## Which fossil records this name represents {#s-726032c3cf}
 Cyonosaurus longiceps is accepted in the fixed PBDB other-synapsida working roster, with database parent Cyonosaurus. This guide uses 8 eligible species-level occurrence records from 8 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-eb134b3ec9}
-Collection Hoeksplaas (Cistecephalus Assemblage Zone) (Eastern Cape), region code ZA, stratum name Teekloof; database age bracket 259.857–254.14 Ma, early interval Wuchiapingian. Collection Hoeksplaas (Dicynodon Assemblage Zone) (Western Cape), region code ZA; database age bracket 259.857–251.902 Ma, early interval Wuchiapingian and late interval Changhsingian. Collection Swaershoek (Eastern Cape), region code ZA; database age bracket 259.857–251.902 Ma, early interval Wuchiapingian and late interval Changhsingian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Cyonosaurus longiceps is listed in the PBDB snapshot under taxon txn:340820. This archived guide contains 8 selected occurrence rows, linked to 8 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-23c6e5fb9f}
-Selected occurrences have an outer age envelope of 259.857–251.902 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Hoeksplaas (Cistecephalus Assemblage Zone), occurrence occ:1304569 (259.857–254.14 Ma); one supplying the younger bound is Hoeksplaas (Dicynodon Assemblage Zone), occurrence occ:1304580 (259.857–251.902 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-eb134b3ec9}
+The archived guide contains 8 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-a1804cc62b}
-Hoeksplaas (Cistecephalus Assemblage Zone) has collection-environment label terrestrial indet.; collection preservation-mode label body. Hoeksplaas (Dicynodon Assemblage Zone) has collection-environment label terrestrial indet.; collection preservation-mode label body. Swaershoek has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1304569; PBDB collection col:174622. Locality cnm=Hoeksplaas (Cistecephalus Assemblage Zone); place fields cc2=ZA, stp=Eastern Cape, cny=Murraysburg. Recorded age bounds: eag 259.857 Ma; lag 254.14 Ma; PBDB interval fields oei=Wuchiapingian. Stratigraphic fields sfm=Teekloof. Recorded attribution Sigogneau-Russell 1989; PBDB reference ref:57886.
 
-## Follow collection records back to references {#s-62be31f07b}
-Hoeksplaas (Cistecephalus Assemblage Zone) carries database reference attribution Sigogneau-Russell (1989), identifier ref:57886. Hoeksplaas (Dicynodon Assemblage Zone) carries database reference attribution Kitching (1977), identifier ref:27216. Swaershoek carries database reference attribution Kitching (1977), identifier ref:27216. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Direct date for the Cistecephalus Assemblage Zone from Rubidge et al., 2013
+Per Bender 2001, Cistecephalus zone west of 24 degrees E is represented by Oukloof member, Teekloof formation
+
+- Occurrence occ:1304580; PBDB collection col:174623. Locality cnm=Hoeksplaas (Dicynodon Assemblage Zone); place fields cc2=ZA, stp=Western Cape, cny=Murraysburg. Recorded age bounds: eag 259.857 Ma; lag 251.902 Ma; PBDB interval fields oei=Wuchiapingian, oli=Changhsingian. Recorded attribution Kitching 1977; PBDB reference ref:27216.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Direct date for the Dicynodon Assemblage Zone from Rubidge et al., 2013
+
+- Occurrence occ:1320599; PBDB collection col:177601. Locality cnm=Swaershoek; place fields cc2=ZA, stp=Eastern Cape, cny=Graaff-Reinet. Recorded age bounds: eag 259.857 Ma; lag 251.902 Ma; PBDB interval fields oei=Wuchiapingian, oli=Changhsingian. Recorded attribution Kitching 1977; PBDB reference ref:27216.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Maximum date for the Dicynodon Assemblage Zone from Rubidge et al., 2013
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coordinates for the Swaershoek farm, near Graaff-Reinet
+
+## Age bounds on the recorded occurrences {#s-23c6e5fb9f}
+Across these selected PBDB rows, the largest recorded eag=259.857 Ma in occ:1304569; the smallest recorded lag=251.902 Ma in occ:1304580. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-a1804cc62b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1304569: PBDB taxon-name field tna=Cyonosaurus longiceps; material note ocm=BP/1/253, well-preserved skull; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=23.200001, lat=-31.616667; paleocoordinate/model fields pm1=gplates, pln=-19.52, pla=-50.98.
+- occ:1304580: PBDB taxon-name field tna=Cyonosaurus longiceps; material note ocm=Two skulls; abundance fields abv=2, abu=individuals; PBDB locality-coordinate fields lng=23.200001, lat=-31.616667; paleocoordinate/model fields pm1=gplates, pln=-18.56, pla=-50.64.
+- occ:1320599: PBDB taxon-name field tna=Cyonosaurus longiceps; PBDB locality-coordinate fields lng=25.416668, lat=-32.500000; paleocoordinate/model fields pm1=gplates, pln=-18.28, pla=-52.71.
+
+## References attached to each record {#s-62be31f07b}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1304569: Recorded attribution Sigogneau-Russell 1989; PBDB reference ref:57886.
+- occ:1304580: Recorded attribution Kitching 1977; PBDB reference ref:27216.
+- occ:1320599: Recorded attribution Kitching 1977; PBDB reference ref:27216.
 
 ## Evidence limits {#s-fb8613a7b8}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 8 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,18 +1,46 @@
-## Which fossil records this name represents {#s-b541f3c6b2}
-Uria antiqua is accepted in the fixed PBDB dinosaur working roster, with database parent Uria. This guide uses 4 eligible species-level occurrence records from 4 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 4 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-b541f3c6b2}
+Uria antiqua is listed in the PBDB snapshot under taxon txn:83403. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-c9740045d8}
-Collection Lee Creek Mine, Yorktown Formation (North Carolina), region code US, stratum name Yorktown; database age bracket 5.333–3.6 Ma, early interval Zanclean. Collection Langenboom, Oosterhaout Formation, Unit B (Noord-Brabant), region code NL, stratum name Oosterhout; database age bracket 5.333–2.58 Ma, early interval Zanclean and late interval Piacenzian. Collection Tarborough (North Carolina), region code US; database age bracket 5.333–2.58 Ma, early interval Pliocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-c9740045d8}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-5619d710ef}
-Selected occurrences have an outer age envelope of 5.333–2.58 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:594509; PBDB collection col:52582. Locality cnm=Lee Creek Mine, Yorktown Formation; place fields cc2=US, stp=North Carolina, cny=Beaufort. Recorded age bounds: eag 5.333 Ma; lag 3.6 Ma; PBDB interval fields oei=Zanclean. Stratigraphic fields sfm=Yorktown. Recorded attribution Olson and Rasmussen 2001; PBDB reference ref:18140.
 
-## Read preservation setting separately from living habitat {#s-a30299bb22}
-Lee Creek Mine, Yorktown Formation has collection-environment label estuary/bay; collection preservation-mode label body,original phosphate. Langenboom, Oosterhaout Formation, Unit B has collection-environment label open shallow subtidal; collection preservation-mode label body,original phosphate. Tarborough has collection-environment label marine indet.; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+most fossils "are derived from the lower beds of the Yorktown Formation" (McLellan 1983) and the "total thickness of the Yorktown exposure is 15 m" (Snyder et al. 1983)
 
-## Follow collection records back to references {#s-4484de9679}
-Lee Creek Mine, Yorktown Formation carries database reference attribution Olson and Rasmussen (2001), identifier ref:18140. Langenboom, Oosterhaout Formation, Unit B carries database reference attribution Wijnker et al. (2008), identifier ref:29366. Tarborough carries database reference attribution Marsh (1870), identifier ref:29790. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Strontium dating places the base of the Yorktown Formation at 4.9 Ma [55]. The top of the Yorktown Formation at Lee Creek Mine is no younger than the middle of the Orionina vaughani ostracod assemblage zone, originally dated to ca. 3.7 Ma [53]. This is roughly in agreement with the top of nannoplankton zone NN14 (3.9 Ma) [20, 54], the second of the three nannoplankton zones correlating with the Orionina vaughani zone [53]. Taken together, these observations indicate an age bracket of 4.9–3.9 Ma. (Marx & Fordyce, 2015). middle Zanclean–early Piacenzian
 
-## Evidence limits {#s-32cd76cb15}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:802051; PBDB collection col:59003. Locality cnm=Langenboom, Oosterhaout Formation, Unit B; place fields cc2=NL, stp=Noord-Brabant. Recorded age bounds: eag 5.333 Ma; lag 2.58 Ma; PBDB interval fields oei=Zanclean, oli=Piacenzian. Stratigraphic fields sfm=Oosterhout. Recorded attribution Wijnker et al. 2008; PBDB reference ref:29366.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Zanclean to early Piacenzian
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+between Mill & Langenboom
+
+- Occurrence occ:810683; PBDB collection col:88839. Locality cnm=Tarborough; place fields cc2=US, stp=North Carolina, cny=Edgecombe. Recorded age bounds: eag 5.333 Ma; lag 2.58 Ma; PBDB interval fields oei=Pliocene. Recorded attribution Marsh 1870; PBDB reference ref:29790.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+age of the collection is stated to be Tertiary; age is estimated based on other nearby collections
+
+## Age bounds on the recorded occurrences {#s-5619d710ef}
+Across these selected PBDB rows, the largest recorded eag=5.333 Ma in occ:594509; the smallest recorded lag=2.58 Ma in occ:802051. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-a30299bb22}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:594509: PBDB original-identification field idn=Alca antiqua; PBDB taxon-name field tna=Uria antiqua; PBDB locality-coordinate fields lng=-76.817497, lat=35.359722; paleocoordinate/model fields pm1=gplates, pln=-75.1, pla=35.91.
+- occ:802051: PBDB original-identification field idn=Alca antiqua; PBDB taxon-name field tna=Uria antiqua; PBDB locality-coordinate fields lng=5.729444, lat=51.700279; paleocoordinate/model fields pm1=gplates, pln=6.37, pla=51.02.
+- occ:810683: PBDB original-identification field idn=Catarractes antiquus n. sp.; PBDB taxon-name field tna=Uria antiqua; material note ocm=ANSP uncat.; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-77.553055, lat=35.907501; paleocoordinate/model fields pm1=gplates, pln=-75.83, pla=36.47.
+
+## References attached to each record {#s-4484de9679}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:594509: Recorded attribution Olson and Rasmussen 2001; PBDB reference ref:18140.
+- occ:802051: Recorded attribution Wijnker et al. 2008; PBDB reference ref:29366.
+- occ:810683: Recorded attribution Marsh 1870; PBDB reference ref:29790.
+
+## What these records can show {#s-32cd76cb15}
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

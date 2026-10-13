@@ -1,7 +1,7 @@
 ## Ecological evidence {#s-841b4e2997}
 In Sri Lanka, researchers collected 78 fresh fecal samples from free-ranging purple-faced leaf monkeys between December 2017 and April 2019. At least one gastrointestinal parasite type was detected in 55% of samples; the most prevalent reported helminth was the whipworm Trichuris trichiura, at 15%. These are fecal results from surveyed groups, not a clinical disease estimate for the species as a whole.
 
-## Ecological evidence {#s-37e1b5e060}
+## Local patterns in parasite detection {#s-37e1b5e060}
 The study reported a relationship between whipworm prevalence and troop size, as well as habitat differences in detection of T. trichiura and the roundworm Ascaris lumbricoides. These are associations in local samples; they do not establish that troop size or habitat caused infection. Fecal screening alone does not diagnose illness in an individual, and the study did not demonstrate transmission between monkeys and people.
 
 ## Evidence limits {#s-e724321c25}

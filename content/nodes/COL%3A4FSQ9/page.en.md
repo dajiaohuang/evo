@@ -1,4 +1,4 @@
-## Overview {#s-18740a756b}
+## A 20-kilometre transect survey {#s-18740a756b}
 A survey across six Madagascan transects covered 20 km and recorded 52 animals across three fork-marked lemur taxa; it reported an encounter rate of 2.4 *P. parienti* per km. This is a transect encounter rate, not a detection-corrected density.
 
 ## Research observations {#s-a090cf2b80}

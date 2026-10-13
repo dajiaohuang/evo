@@ -1,5 +1,5 @@
-## Find rows through older Parus combinations {#s-8910530e98}
-Pinned COL26.8 organizes this page at Melaniparus leuconotus (QV5VD). BirdLife 2020 row 6209 and eBird 2021 row 6068 share the name and Avibase ID AVIBASE-1A289D90, with type 1BL to 1eBird; BirdTree row 6036 gives Parus leuconotus, with type 1BL to 1BT. Read catalogue synonym 6TT7V points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-8910530e98}
+Catalogue of Life release COL26.8 records Melaniparus leuconotus (Guérin-Méneville, 1843) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-46e1d93726}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.7 mm, tarsus 17.4 mm, unflattened wing 78.5 mm, tail 60.2 mm and hand-wing index 14.3 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

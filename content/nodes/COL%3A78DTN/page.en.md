@@ -1,15 +1,15 @@
-## A tree-dwelling agamid recorded by day {#s-e7a01c4299}
-The ReptTraits entry describes Pseudocalotes guttalineatus as tree-dwelling and active by day. It reports a maximum snout–vent length of 95.3 mm and a female maximum of 80.8 mm, and classifies the species as egg-laying. The row follows the workbook’s 2023 Reptile Database name framework and summarizes cited reports rather than every population.
+## COL26.8 name and the ReptTraits row {#s-e7a01c4299}
+COL26.8 records Pseudocalotes guttalineatus as an accepted species. The ReptTraits v1-2 row gives its Family field as Agamidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Maximum length excludes the tail {#s-dee23ea443}
-The row gives a reported maximum snout–vent length of 95.3 mm and a female maximum of 80.8 mm. This measure runs from the snout to the vent and excludes the tail. The values are compiled maxima, not an average adult size or an absolute limit; the two measurements may come from different places or studies.
+## Length values in the archived records {#s-dee23ea443}
+The row reports a maximum SVL of 95.3 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 80.8 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Tree activity during the day {#s-01ff9fab1a}
-The entry describes activity in trees and during the day. These broad categories do not map every habitat or establish a fixed daily timetable. The cited fields do not give a diet or name prey; activity can vary among populations, seasons, and life stages.
+## Habitat use and activity labels {#s-01ff9fab1a}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg-laying and a clutch summary {#s-b6bf6cce57}
-The workbook describes Pseudocalotes guttalineatus as egg-laying. Its consolidated clutch or litter mean is 1.5, with reported means from 1 to 2. The summary can be a midpoint between published means—or between reported extremes when means are unavailable—rather than an average of observed nests. A fraction is a statistical summary, not half an egg, and it does not predict every clutch or establish uniformity across populations.
+## Reproductive fields in ReptTraits {#s-b6bf6cce57}
+The compiled mean for offspring per litter or eggs per clutch is 1.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## What these records cannot establish {#s-659a99530f}
-The one-row summary compresses differences in sex, age, locality, and population, and the workbook’s 2023 name framework may differ from later taxonomic concepts. A reported maximum is not an absolute size limit, and a clutch summary does not predict every nest. The listed fields do not establish diet, body mass, juvenile size, venom, conservation status, current distribution, or population trends. Source labels preserve the workbook’s citation chain, not an independent reassessment of every underlying study.
+## Reading this compiled trait record {#s-659a99530f}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,5 +1,5 @@
-## One historical record, two genus names {#s-3e109f3413}
-Pinned COL26.8 organizes this page as Ammospiza maritima (CVHD). AVONET v7 BirdLife 2020 row 6375 uses the same name, as does its one-to-one eBird 2021 crosswalk; the BirdTree crosswalk gives Ammodramus maritimus, labelled 1BL to 1BT. Pinned COL’s older-combination record CTL5 points to accepted ID CVHD. These associations support reading the historical row without verifying all taxonomic boundaries across dates.
+## A name fixed to COL26.8 {#s-3e109f3413}
+Catalogue of Life release COL26.8 records Ammospiza maritima (A. Wilson, 1811) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Beak, wing and tail in a small sample {#s-8ab673415b}
 Morphology covers 9 measured birds (4 female, 5 male), of which 8 have complete measurements. Species averages are 11.1 mm from the nostril’s anterior edge to the beak tip, 22.9 mm tarsus, 60.6 mm unflattened wing and 54.8 mm tail. These are not individual size bounds. Hand-wing index is 14.8, defined through Kipp’s distance/wing length ×100, rather than flight distance or speed. Dividing rounded species-average lengths cannot replace the reported index.

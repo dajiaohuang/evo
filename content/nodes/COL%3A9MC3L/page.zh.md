@@ -1,5 +1,5 @@
-## 历史属名与物种概念 {#s-c92e3a7389}
-固定 COL26.8 以 Pternistis atrifrons（9MC3L）组织本页。AVONET v7 BirdLife 2020 第 2507 行与 eBird 2021 对应同名，Avibase ID 为 AVIBASE-F86E768E；BirdTree 表对应 Francolinus castaneicollis，原匹配类型为 Many BL to 1BT。已读 COL 的旧组合 9LFG8 指向本页接受 ID 9MC3L。atrifrons 与 castaneicollis 两个 BirdLife 行共用旧 Francolinus castaneicollis 概念，不能把这个旧概念当作各自独立的一对一资料或把两行简单合并。
+## COL26.8 中的名称身份 {#s-c92e3a7389}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pternistis atrifrons (Conover, 1930) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与推算边界 {#s-5d38d380b0}
 原行形态样本为 4 只（雌 3、雄 1），完整测量为 0。Inference=YES，鼻孔至喙尖、喙宽、喙深、跗蹠、Kipp 距离、第一枚次级飞羽与手翼指数都标为从 castaneicollis 推算；不能把它们当作本种四只鸟的直接测量。翼长 173.8 mm、全喙峰长 27.5 mm、尾长 49.2 mm 未列入该行的推算字段，仍只按原行报告，不补逐个标本或全域范围。

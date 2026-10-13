@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:velociraptor
       claimKind: scientific
       claimType: morphology
-      statement: Velociraptor specimen IGM 100/981 preserves regularly spaced ulnar papillae interpreted as quill knobs; this supports attached secondary feathers on that forearm, not powered flight, exact plumage extent or every species in the genus.
+      statement:
+        page: en
+        section: s-95370ce828
+        part: body
       confidence: high
       confidenceRationale: The bony papillae are directly observed and compared with living birds. High confidence applies to the sampled forearm, while feather form and function remain comparative inference.
       referenceLinks:
@@ -27,7 +30,10 @@ records:
     - subjectId: taxon:velociraptor
       claimKind: scientific
       claimType: fossil-range
-      statement: Velociraptor is displayed at 75–71 Ma only as the Campanian specimen interval for IGM 100/981, not the full range of Velociraptor. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      statement:
+        page: en
+        section: specimen-window
+        part: body
       confidence: medium
       confidenceRationale: Velociraptor uses Turner, A.H.; Makovicky, P.J.; Norell, M.A. (2007) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Djadokhta Formation IGM 100/981 sample, Mongolia; broader endpoints remain unclaimed.
       referenceLinks:
@@ -45,8 +51,12 @@ records:
     - 骨质乳突是直接观察结果，并与现生鸟类比较。高置信度适用于取样前臂，羽毛形态与功能仍属比较推断。
     - Velociraptor 采用 Turner, A.H.; Makovicky, P.J.; Norell, M.A.（2007）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Djadokhta Formation IGM 100/981 sample, Mongolia；更宽泛端点保持未声明。
   claim-statements.zh:
-    - 伶盗龙标本 IGM 100/981 保存规则排列的尺骨乳突，被解释为羽茎瘤；这支持该前臂附着次级飞羽，不证明动力飞行、精确羽被范围或属内每个物种。
-    - Velociraptor 仅以 75–71 Ma 展示为IGM 100/981 标本的坎潘期区间，而非 Velociraptor 完整范围。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - page: zh
+      section: s-a5520206b3
+      part: body
+    - page: zh
+      section: specimen-window
+      part: body
   ranges:
     - entityId: velociraptor
       rangeKind: global-composite

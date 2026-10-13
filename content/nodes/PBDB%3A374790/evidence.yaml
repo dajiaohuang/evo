@@ -157,7 +157,10 @@ records:
     - subjectId: taxon:magericyon
       claimKind: scientific
       claimType: fossil-range
-      statement: Magericyon anceps is bounded by Batallones-1 material including complete young-adult skull B-4071 within an approximately 9.7–8.7 Ma sample envelope; finite-element results do not extend that locality sample into a global genus range.
+      statement:
+        page: en
+        section: s-553bebcd9f
+        part: body
       confidence: medium
       confidenceRationale: The named skull and locality interval are direct; prey handling and stress performance are simulations kept outside this range claim.
       referenceLinks:
@@ -169,7 +172,9 @@ records:
   claim-rationales.zh:
     - 具名头骨与地点区间属于直接证据；猎物处理和应力表现是模拟，不纳入该范围主张。
   claim-statements.zh:
-    - Magericyon anceps 由 Batallones-1 材料约束，其中包括处于约 970 万—870 万年前样本区间的完整青年成体头骨 B-4071；有限元结果不会把该地点样本扩展为全球属级范围。
+    - page: zh
+      section: s-b2ee1ac253
+      part: body
   ranges:
     - entityId: magericyon
       rangeKind: global-composite

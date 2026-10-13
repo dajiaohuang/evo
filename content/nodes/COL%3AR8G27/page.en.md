@@ -1,5 +1,5 @@
-## Find rows through older Schistocichla／Myrmeciza combinations {#s-a0504cea5e}
-Pinned COL26.8 organizes this page at Myrmelastes leucostigma (R8G27). BirdLife 2020 row 7793 and eBird 2021 row 6633 share the name and Avibase ID AVIBASE-9736A466, with type 1BL to 1eBird; BirdTree row 6608 gives Schistocichla leucostigma, with type 1BL to 1BT. Catalogue synonym 6Y83Z, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-a0504cea5e}
+Catalogue of Life release COL26.8 records Myrmelastes leucostigma (Pelzeln, 1868) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-669798c1f8}
 Morphology comprises 10 birds: 4 female, 6 male and 0 unsexed; 5 complete sets. Nostril-to-tip beak length 12.3 mm, tarsus 26.2 mm, unflattened wing 66.1 mm, tail 56.4 mm and hand-wing index 9.5 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

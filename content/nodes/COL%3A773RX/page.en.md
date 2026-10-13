@@ -1,29 +1,29 @@
-## The name and this data account {#s-8c096badcb}
-Perdicula argoondah is accepted in COL26.8 within Phasianidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-8c096badcb}
+The AVONET v7 row for Perdicula argoondah (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 7.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-fc99192674}
-Recorded mean beak measurements are 7.8 mm from the anterior nostril edge to the tip, 5.4 mm in width and 6.8 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-fc99192674}
+AVONET records culmen length (bill tip to skull base) 14.4 mm; beak length (nostril front edge to tip) 7.8 mm; beak width at the nostril front edge 5.4 mm; beak depth at the nostril front edge 6.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-b3560f9a89}
-Mean unflattened wing length from the carpal joint to the longest primary is 75.8 mm; mean tarsus length is 22.5 mm. Compiled mean mass is 60.48 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-b3560f9a89}
+AVONET records unflattened wing length 75.8 mm; tarsus length 22.5 mm; distance from first secondary tip to longest primary tip 16.9 mm; length to first secondary tip 59.6 mm; hand-wing index 22.2; tail length 33.4 mm; species-average body mass 60.48 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-851238ce26}
-The dataset assigns habitat Rock, trophic niche Omnivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-851238ce26}
+AVONET classifies Perdicula argoondah as habitat Rock (sparsely vegetated rocky ground); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-dad7cce8f1}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 11.52° to 30.08°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-dad7cce8f1}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 11.52° to 30.08°. The mapped range area is 1182863.73 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-f1726e7f97}
-Perdicula argoondah is accepted in pinned COL26.8 within Phasianidae. This page compares the same-name historical life-history entry using 3 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-f1726e7f97}
+The August 2015 database has a same-name, same-family record for Perdicula argoondah. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-a6e74d90c1}
-Historical summary values are adult body mass 69.5 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-a6e74d90c1}
+The August 2015 compilation reports adult body mass 69.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-d43dccd470}
-Available compilation fields are offspring per litter or eggs per clutch 6 offspring/eggs; oviposition to hatching 17 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-d43dccd470}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 6; oviposition-to-hatching interval 17 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-b0ff14fc8b}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Boback and Guyer, 2003; Bennett, 1986, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-b0ff14fc8b}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-e8b279ea8d}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

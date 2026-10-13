@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-af805b5879}
-Pinned COL26.8 organizes this page as Pternistis atrifrons (9MC3L). AVONET v7 BirdLife 2020 row 2507 and eBird 2021 agree in name, with Avibase ID AVIBASE-F86E768E; BirdTree gives Francolinus castaneicollis, with match type Many BL to 1BT. Read COL older-combination record 9LFG8 points to accepted ID 9MC3L. The atrifrons and castaneicollis BirdLife rows share older Francolinus castaneicollis, which cannot be treated as an independent one-to-one source for each or used to pool the two rows automatically.
+## A name fixed to COL26.8 {#s-af805b5879}
+Catalogue of Life release COL26.8 records Pternistis atrifrons (Conover, 1930) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-f034afe7e3}
 The row has four morphology birds (three female, one male); none has a complete measurement set. Inference=YES flags nostril-to-tip beak length, beak width/depth, tarsus, Kipp’s distance, first secondary and hand-wing index as inferred from castaneicollis. They cannot be treated as direct measurements of these four atrifrons birds. Wing 173.8 mm, culmen 27.5 mm and tail 49.2 mm are not listed among this row’s inferred fields; they remain reported row values without individual specimen or range-wide bounds.

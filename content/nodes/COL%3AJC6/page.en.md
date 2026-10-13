@@ -1,32 +1,34 @@
-## Start with the historical entries {#s-d48a004e2c}
+## Recorded classification and direct parent {#s-d48a004e2c}
+COL26.8 records Chrysochlorinae at subfamily rank, with Chrysochloridae as its direct parent.
+
 The local PanTHERIA route for Chrysochlorinae includes 6 usable data accounts. Start with Eremitalpa granti, Chlorotalpa duthieae, Chlorotalpa sclateri, Chrysochloris asiatica, Chrysochloris stuhlmanni. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-ef63c5c0f4}
 Among available consolidated adult-mass values in this batch, Eremitalpa granti records 22.04 g and Chrysospalax trevelyani records 434.04 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-e14d5c6e67}
+## Amniote Life-history archive member records {#s-e14d5c6e67}
 This batch’s Chrysochlorinae route includes 5 historical life-history accounts; start with Chrysochloris asiatica, Chrysochloris stuhlmanni, Chrysochloris visagiei, Chrysospalax trevelyani, Eremitalpa granti. More frequently represented fields include adult body mass (5 entries), offspring per litter or eggs per clutch (5 entries), longest lifespan record in the compilation (4 entries), age of dependence on food other than maternal milk (3 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-ed3e49f69f}
 This batch’s Chrysochlorinae route includes 10 historical entries; start with Carpitalpa arendsi, Chlorotalpa duthieae, Chlorotalpa sclateri, Chrysochloris asiatica, Chrysochloris visagiei. Food-category weights are available in 10, foraging strata in 10, and mammalian activity periods in 7. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-23d130e491}
+## Limits attached to these records {#s-23d130e491}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-657d043dfa}
-The local PanTHERIA route for Chrysochlorinae includes 3 usable data accounts. Start with [Chrysochloris visagiei](Chrysochloris/Chrysochloris_visagiei/page.en.md), [Cryptochloris wintoni](Cryptochloris/Cryptochloris_wintoni/page.en.md), [Cryptochloris zyli](Cryptochloris/Cryptochloris_zyli/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-657d043dfa}
+The local PanTHERIA route for Chrysochlorinae includes 3 usable data accounts. Start with Chrysochloris visagiei, Cryptochloris wintoni, Cryptochloris zyli. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
-## Limits of these historical data {#s-52964a274b}
+## PanTHERIA material route {#s-52964a274b}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Follow the life-history records {#s-caf7791c69}
-This batch offers 3 historical life-history accounts under Chrysochlorinae. Start with [Chrysochloris stuhlmanni](Chrysochloris/Chrysochloris_stuhlmanni/page.en.md), [Chrysochloris asiatica](Chrysochloris/Chrysochloris_asiatica/page.en.md), [Eremitalpa granti](Eremitalpa/Eremitalpa_granti/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-caf7791c69}
+This batch offers 3 historical life-history accounts under Chrysochlorinae. Start with Chrysochloris stuhlmanni, Chrysochloris asiatica, Eremitalpa granti. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-6d0e34b707}
 Gestation is recorded in 0 accounts, female age at first reproduction in 0 accounts, and maximum lifespan in 0 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-aac6359d6b}
+## Ernest life-history archive material route {#s-aac6359d6b}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

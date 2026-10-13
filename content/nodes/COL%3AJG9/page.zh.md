@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-6e2a07dddd}
+## 记录分类与直接上级关系 {#s-6e2a07dddd}
+COL26.8 将 Dipodinae 记录为亚科；其直接上级记录为 Dipodidae。
+
 Dipodinae 的本地 PanTHERIA 路径包括 4 条可用数据导读，可从 Dipus sagitta、Jaculus jaculus、Jaculus orientalis、Stylodipus telum 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-f1a0c2b281}
@@ -12,17 +14,17 @@ Dipodinae 的本批路线包含 9 个历史条目，可从 Dipus sagitta、Eremo
 
 ## 证据边界 {#s-000f909ce2}
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
 
-## 从已有历史条目开始 {#s-d8ec881211}
-Dipodinae 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 [Eremodipus lichtensteini](Eremodipus/Eremodipus_lichtensteini/page.zh.md)、[Paradipus ctenodactylus](Paradipus/Paradipus_ctenodactylus/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-d8ec881211}
+Dipodinae 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Eremodipus lichtensteini、Paradipus ctenodactylus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-290f083a3d}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-900397030c}
-Dipodinae 本批有 5 个历史生活史资料页，可从 [Dipus sagitta](Dipus/Dipus_sagitta/page.zh.md)、[Eremodipus lichtensteini](Eremodipus/Eremodipus_lichtensteini/page.zh.md)、[Jaculus orientalis](Jaculus/Jaculus_orientalis/page.zh.md)、[Jaculus jaculus](Jaculus/Jaculus_jaculus/page.zh.md)、[Stylodipus telum](Stylodipus/Stylodipus_telum/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Dipodinae 本批有 5 个历史生活史资料页，可从 Dipus sagitta、Eremodipus lichtensteini、Jaculus orientalis、Jaculus jaculus、Stylodipus telum 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-a7711f81e9}
 本批妊娠资料见 3 页，雌性首次繁殖年龄见 2 页，最高寿命记录见 1 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

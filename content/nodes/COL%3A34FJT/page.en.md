@@ -1,5 +1,5 @@
-## The 2015 life-history entry and this name {#s-7d531ed1ad}
-Delanymys brooksi is accepted in pinned COL26.8 within Nesomyidae. The 2015 life-history archive has a same-name entry with three focal fields, each supported by cited species-level sparse-table rows matching name and family. Historical taxonomic inheritance may still affect the summaries; a matching row name does not remove it.
+## Body mass and life-history values in the compilation {#s-7d531ed1ad}
+The August 2015 Amniote Database entry for *Delanymys brooksi* reports adult body mass 4.99 g; offspring per litter or eggs per clutch 3.19; longest lifespan record in the compilation 2 y. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Maximum longevity is the longest record found, not a mean or typical lifespan. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Delanymys brooksi*.
 
 ## Adult body mass {#s-3b8705a5cb}
 The historical adult-mass summary is 4.99 g. The field may combine males, females and adults of unspecified sex; it is not a species-wide range of individual masses. This account does not add a birth or hatching mass.
@@ -13,8 +13,8 @@ The archive’s maximum_longevity_y value is 2 years, the largest record found u
 ## Trace the values to their source labels {#s-d09dcd68ad}
 Same-name sparse rows carry labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009 and Carey, J.R. and D.S. Judge, 2002. The archive retains raw row numbers, values and labels by field, with the final table’s reference explanations. A label may refer to a primary paper, book or other database. Row counts are not measured-individual counts; repeated citations are not independent replication.
 
-## Three EltonTraits field groups {#s-3b1dcab0b0}
-Delanymys brooksi is accepted in pinned COL26.8 within Nesomyidae. Its same-name, same-family EltonTraits 1.0 record has three ecological field groups with source information. The archive follows earlier bird taxonomy or MSW3 for mammals; name matching does not resolve modern splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-3b1dcab0b0}
+The EltonTraits 1.0 record for *Delanymys brooksi* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of seeds, nuts and spores 100% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Delanymys brooksi*.
 
 ## A reported seed and nut category {#s-d060c0ff69}
 The nonzero food weight is 100% for the source category containing seeds, nuts and spores. Code ABC combines high, reasonable and partial confidence; the estimate may borrow from an ecologically similar congener, so it is not necessarily a direct observation of this species. EltonTraits standardizes verbal descriptions rather than measuring diet composition. A zero weight does not prove a food is never eaten, and broad labels such as Nect, Seed and PlantO do not imply exclusive foods.
@@ -28,13 +28,15 @@ The archive marks nighttime feeding activity as 1. Activity fields can be record
 ## Keep source labels attached to the fields {#s-4fa9e5b3d1}
 The used groups carry Ref_1 and metadata:Nowak1999 labels. Diet, stratum and activity may draw on different material; matching Ref numbers in bird and mammal reference tables do not identify the same work. The archive retains original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; labels provide traceability, not independent observations.
 
-## Limits of the historical life-history and ecology records {#s-10eceae8b5}
-Life-history values come from same-name records in the 2015 archive. Except for maximum longevity, summaries are medians or averages of the two middle values; maximum longevity is the largest record found. They are not measurements of one individual, individual variation ranges, mean wild lifespan or current population surveys. Historical species and subspecies may share or inherit data. Matching names and families and same-name rows support the association but do not prove equivalence to COL26.8 concepts or remove all inherited components. Wild or captive conditions are not uniformly confirmed, and publications have not been individually reviewed.
+## How to interpret these historical records {#s-10eceae8b5}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-EltonTraits 1.0 is a historical guide, not a complete species monograph, and its historical concepts are not automatically equivalent to COL26.8. Food and avian-stratum percentages are standardized relative weights from literature descriptions, not direct measures of stomach contents, intake, energy or observation time; avian A/B codes retain source and proportional uncertainty. Mammalian ABC diet or activity may use a congener judged ecologically similar, so fields are not necessarily direct observations of this species. Genus or family typical values, non-species-level avian strata and split records needing review do not establish definite claims. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation require other evidence.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## The PanTHERIA name entry {#s-d7456edbc4}
-Delanymys brooksi is accepted in pinned COL26.8 within Nesomyidae. PanTHERIA 1.0 associates it with an MSW05 entry in the August 2008 table; biological data gathering for that release ended in June 2004. This name association does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass and litter size in the historical table {#s-d7456edbc4}
+The August 2008 PanTHERIA row for *Delanymys brooksi* records adult body mass 4.99 g; litter-size summary 3.19 offspring. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. A fractional litter-size value is a compiled summary, not a literal fractional litter. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Delanymys brooksi*.
 
 ## A consolidated adult-mass value {#s-34a9cc94d8}
 The historical adult-mass summary is 4.99 g. PanTHERIA adjusts continuous traits for sex where applicable and reports medians; mass can include adult or age-unspecified animals but excludes pregnant females. This is not a specimen measurement or species-wide range.

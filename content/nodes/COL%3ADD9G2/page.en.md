@@ -1,5 +1,5 @@
-## Find rows through older Schizoeaca／Oreophylax combinations {#s-520291c9c9}
-Pinned COL26.8 organizes this page at Asthenes harterti (DD9G2). BirdLife 2020 row 4194 and eBird 2021 row 1039 share the name and Avibase ID AVIBASE-B1A9C628, with type 1BL to 1eBird; BirdTree row 1040 gives Schizoeaca harterti, with type 1BL to 1BT. Read catalogue synonym 79X6G points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-520291c9c9}
+Catalogue of Life release COL26.8 records Asthenes harterti (Berlepsch, 1901) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-95aefba3cc}
 Morphology comprises 11 birds: 2 female, 8 male and 1 unsexed; 1 complete set. Nostril-to-tip beak length 9.3 mm, tarsus 22.5 mm, unflattened wing 52 mm, tail 100.8 mm and hand-wing index 12.8 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Only one bird has a complete set; this is neither the total morphology sample nor proof that every field uses one bird. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

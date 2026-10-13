@@ -1,29 +1,29 @@
-## The name and this data account {#s-4f03c16f11}
-Diglossa carbonaria is accepted in COL26.8 within Thraupidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 15 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-4f03c16f11}
+The AVONET v7 row for Diglossa carbonaria (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 7.8 mm. The row records 15 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-abf4499b83}
-Recorded mean beak measurements are 7.8 mm from the anterior nostril edge to the tip, 2.2 mm in width and 4.7 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-abf4499b83}
+AVONET records culmen length (bill tip to skull base) 14.4 mm; beak length (nostril front edge to tip) 7.8 mm; beak width at the nostril front edge 2.2 mm; beak depth at the nostril front edge 4.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-4f17614d9f}
-Mean unflattened wing length from the carpal joint to the longest primary is 68.3 mm; mean tarsus length is 22 mm. Compiled mean mass is 11 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-4f17614d9f}
+AVONET records unflattened wing length 68.3 mm; tarsus length 22 mm; distance from first secondary tip to longest primary tip 11.5 mm; length to first secondary tip 56.7 mm; hand-wing index 16.9; tail length 60.5 mm; species-average body mass 11 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-a0bfd9ed22}
-The dataset assigns habitat Shrubland, trophic niche Nectarivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-a0bfd9ed22}
+AVONET classifies Diglossa carbonaria as habitat Shrubland (low, bush-dominated vegetation); trophic niche Nectarivore (source threshold at least 60% from nectar); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-d8316034b5}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -18.99° to -16.38°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-d8316034b5}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -18.99° to -16.38°. The mapped range area is 70106.56 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-72c293b7d1}
-Diglossa carbonaria is accepted in pinned COL26.8 within Thraupidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-72c293b7d1}
+EltonTraits 1.0 has a same-name, same-family record for Diglossa carbonaria covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-4882850ffb}
-The archive’s nonzero food weights are invertebrates 50%; nectar, pollen and plant exudates 50%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-4882850ffb}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; nectar 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-79542abd88}
-Foraging-stratum weights flagged as species-level in the archive are understory, edges or shrubs below 2 m 70%; trees or high bushes from 2 m upward but below the canopy 20%; air well above vegetation or other structures 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-79542abd88}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 70%; in mid-height or high vegetation 20%; in the air 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-51341a7a75}
-The used groups carry labels Ref_21. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-51341a7a75}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: The Tanagers. 1999. By Morton Isler. Smithsonian Press.; foraging: The Tanagers. 1999. By Morton Isler. Smithsonian Press.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-6466c7fe10}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

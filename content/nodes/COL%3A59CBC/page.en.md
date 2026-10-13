@@ -1,15 +1,15 @@
-## A water-linked profile with a broad activity label {#s-66d024574e}
-Tropidophorus misaminius is an accepted scincid in the pinned COL26.8 catalogue. Its ReptTraits row pairs a semi-aquatic microhabitat category with activity coded “cathemeral,” a pattern described as occurring at intervals across day and night. These labels make a useful outline, but the compiled row is not a schedule observed in every population.
+## COL26.8 name and the ReptTraits row {#s-66d024574e}
+COL26.8 records Tropidophorus misaminius as an accepted species. The ReptTraits v1-2 row gives its Family field as Scincidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A maximum measured to the body opening {#s-dca5b27aa3}
-The listed maximum snout–vent length is 112.2 mm; the female maximum is 101 mm. Snout–vent length ends at the body opening rather than the tail tip. The values are compiled maxima, not typical measurements, and the two sex-labelled records need not come from the same place or study.
+## Length values in the archived records {#s-dca5b27aa3}
+The row reports a maximum SVL of 112.2 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 101 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Semi-aquatic and cathemeral are broad categories {#s-766d29d1c3}
-The microhabitat category is semi-aquatic, linking the record broadly to water and land. “Cathemeral” indicates activity at intervals during both daylight and darkness; it does not provide a clock-time schedule. Neither label names a specific waterbody or says how activity changes by season or life stage.
+## Habitat use and activity labels {#s-766d29d1c3}
+The microhabitat field classifies the recorded position as semi-aquatic (Semi-Aquatic). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as active across day and night (Cathemeral); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Live birth, with a summary of three {#s-75c846ec52}
-The reproductive-mode field is viviparous, or live-bearing. The consolidated litter/clutch value is 3, and both listed endpoints of reported means are 3. This is a summary of sourced records; it does not establish a fixed litter size for all individuals or how embryos receive nourishment.
+## Reproductive fields in ReptTraits {#s-75c846ec52}
+The compiled mean for offspring per litter or eggs per clutch is 3. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 3; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 3; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The row preserves a historical name framework {#s-77b74e1513}
-Trait citations and names come through the workbook’s 2023 framework; the same accepted name in COL26.8 does not by itself show that both taxonomic concepts refer to identical material. One row also compresses local, age and sex differences. Maximum length and litter summaries are not species-wide limits, and this account does not update distribution or conservation. Citations retain provenance rather than claiming a fresh review of every source.
+## Reading this compiled trait record {#s-77b74e1513}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

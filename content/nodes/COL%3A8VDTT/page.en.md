@@ -1,14 +1,14 @@
-## The 2015 life-history entry and this name {#s-a4d513a085}
-COL26.8 accepts Trogon ramonianus within Trogonidae. The 2015 life-history archive also has a same-name, same-family entry; 3 selected fields have matching species-level source rows. Older records can include values inherited across historical species or subspecies, so matching names do not establish identical species concepts.
+## Scope of the historical life-history entry {#s-a4d513a085}
+The August 2015 database has a same-name, same-family record for Trogon ramonianus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-6ec9b038a9}
-The historical compilation reports adult body mass 51.08 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. The selected record provides no birth- or hatching-mass value.
+## Compiled adult-mass values {#s-6ec9b038a9}
+The August 2015 compilation reports adult body mass 51.075 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-ba2d83fecd}
-The historical compilation reports offspring per litter or eggs per clutch 2.5 offspring/eggs; age at flight capability (leaving the nest in some source material) 17 d; d means days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-ba2d83fecd}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.5; age at flight capability (some records mark nest departure) 17 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-7f2ddfe333}
-Same-name sparse rows carry source labels including Dunning, 1992; Boback and Guyer, 2003; Bennett, 1986; Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004. The source archive retains field-specific row numbers, values and labels, alongside the table’s full reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-7f2ddfe333}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Life-history evidence limits {#s-8eb7da2c3e}
 The 2015 life-history archive gathers historical same-name entries. Except for longevity, values summarize the compilation’s median or the mean of the two middle values; longevity is the largest record found. These summaries are not direct measurements of one animal, individual ranges, wild-lifespan averages or current population surveys. The compilation can carry values across historical species and subspecies, and matching names or families do not establish equivalence to COL26.8. Wild or captive conditions are not consistently identified. These records do not supply diet, behaviour, current range, conservation information or missing life-history fields.

@@ -17,8 +17,8 @@ Zanda (ZD1001) carries database reference attribution Tseng et al. (2013), ident
 ## Evidence limits {#s-ab3d82bb28}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
 
-## atlas-profile / overview {#s-519c5e4cc1}
-Three cranial fragments from the Zanda Basin were assigned to Panthera blytheae in the original combined fossil–molecular analysis. That study also placed it near snow leopards, but both the genus assignment and that relationship remain revisable results of the analysis.
+## Three Zanda fragments in a combined fossil–molecular analysis {#s-519c5e4cc1}
+The original combined fossil–molecular analysis assigned three cranial fragments from the Zanda Basin to Panthera blytheae and placed it near snow leopards. Both the genus assignment and that relationship are revisable analytical results.
 
 ## atlas-profile / ecology / diet {#s-90d86e0970}
 Felid dentition supports a meat-eating diet, but the partial skull does not reveal prey choice.
@@ -44,12 +44,12 @@ Associated ramus and premaxilla fragments
 ## atlas-profile / traits {#s-938e59bb74}
 Characters used in a combined total-evidence analysis
 
-## atlas-profile / evidenceSummary {#s-360e21651f}
-The IVPP V18788.1–3 material and its original magnetostratigraphic age model are documented. The taxonomic assignment and proposed snow-leopard affinity remain revisable, and this Zanda sample does not establish an Asian origin for all pantherines.
+## The specimen age follows the original magnetostratigraphy {#s-360e21651f}
+The study documents IVPP V18788.1–3 and its original magnetostratigraphic age model. The taxonomic assignment and proposed snow-leopard affinity remain revisable; one Zanda sample does not establish an Asian origin for all pantherines.
 
-## Three fragments anchor the account {#s-2231af250a}
-The original study describes IVPP V18788.1 as an adult partial cranium, with IVPP V18788.2–3 adding associated jaw and premaxilla fragments. The material comes from China's Zanda Basin in the Tibetan Himalaya. Its age envelope of 5.95–4.10 million years follows the study's original magnetostratigraphic framework; it is not a species-wide first or last appearance.
+## Three fragments and a 5.95–4.10 million-year envelope {#s-2231af250a}
+The original study describes IVPP V18788.1 as an adult partial cranium, with IVPP V18788.2–3 adding associated jaw and premaxilla fragments from China's Zanda Basin. The 5.95–4.10 million-year envelope follows the study's original magnetostratigraphic framework; it is not a species-wide first or last appearance.
 
-## A proposed relationship, not a settled ancestor {#s-f7c1f606da}
-The combined analysis assigned these fragments to Panthera and recovered an affinity with snow leopards. Those are analytical placements rather than facts visible in the fossil itself. Felid teeth support carnivory, but this cranial sample does not identify prey, locomotion or habitual habitat, and one Tibetan locality cannot establish the geographic origin of all pantherines.
+## A proposed snow-leopard affinity, not a settled ancestor {#s-f7c1f606da}
+The combined analysis assigned the fragments to Panthera and recovered an affinity with snow leopards. These are analytical placements, not facts visible in the fossil itself. Felid teeth support carnivory, but this cranial sample does not identify prey, movement or habitual habitat, and one Tibetan locality cannot establish the geographic origin of all pantherines.
 

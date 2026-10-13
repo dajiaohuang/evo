@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-c5c66ef38d}
+## 记录分类与直接上级关系 {#s-c5c66ef38d}
+COL26.8 将 Dorcatragus 记录为属；其直接上级记录为 Antilopini。
+
 Dorcatragus 的本地 PanTHERIA 路径有 1 条可用记录：Dorcatragus megalotis。物种页保留原始 MSW05 名称、各字段资料条件与缺失值。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
 
 ## 比较体型与生活史 {#s-c64f733fc9}

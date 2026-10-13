@@ -1,17 +1,17 @@
-## The name and this data account {#s-dd6c851e26}
-Psophodes nigrogularis is accepted in COL26.8 within Psophodidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 3 measured individuals, 1 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-dd6c851e26}
+The AVONET v7 row for Psophodes nigrogularis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 13 mm. The row records 3 measured individuals, 1 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-aa9c2183cf}
-Recorded mean beak measurements are 13 mm from the anterior nostril edge to the tip, 4.3 mm in width and 7.1 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-aa9c2183cf}
+AVONET records culmen length (bill tip to skull base) 23.4 mm; beak length (nostril front edge to tip) 13 mm; beak width at the nostril front edge 4.3 mm; beak depth at the nostril front edge 7.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-31941a9df6}
-Mean unflattened wing length from the carpal joint to the longest primary is 80.5 mm; mean tarsus length is 27.9 mm. Compiled mean mass is 44.52 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-31941a9df6}
+AVONET records unflattened wing length 80.5 mm; tarsus length 27.9 mm; distance from first secondary tip to longest primary tip 9.9 mm; length to first secondary tip 68.1 mm; hand-wing index 12.7; tail length 116 mm; species-average body mass 44.52 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-dd0f959fbb}
-The dataset assigns habitat Shrubland, trophic niche Invertivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-dd0f959fbb}
+AVONET classifies Psophodes nigrogularis as habitat Shrubland (low, bush-dominated vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-22c8175150}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -36.08° to -32.99°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-22c8175150}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -36.08° to -32.99°. The mapped range area is 70357.84 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
 ## Evidence limits {#s-26b35d8d41}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

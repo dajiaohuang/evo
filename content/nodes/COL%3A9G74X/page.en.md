@@ -1,5 +1,5 @@
-## One historical record, two genus names {#s-d624cd3332}
-Pinned COL26.8 organizes this page as Ammospiza nelsoni (9G74X). AVONET v7 BirdLife 2020 row 6376 uses the same name, as does its one-to-one eBird 2021 crosswalk; the BirdTree crosswalk gives Ammodramus nelsoni, labelled 1BL to 1BT. No synonym record for that older combination was found in the local COL name shard read here; it is retained only as AVONET’s historical table mapping. These associations support reading the historical row without verifying all taxonomic boundaries across dates.
+## A name fixed to COL26.8 {#s-d624cd3332}
+Catalogue of Life release COL26.8 records Ammospiza nelsoni (J. A. Allen, 1875) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Beak, wing and tail in a small sample {#s-8c012250fc}
 Morphology covers 11 measured birds (5 female, 6 male), of which 9 have complete measurements. Species averages are 8.7 mm from the nostril’s anterior edge to the beak tip, 21.7 mm tarsus, 56.4 mm unflattened wing and 47.7 mm tail. These are not individual size bounds. Hand-wing index is 21.9, defined through Kipp’s distance/wing length ×100, rather than flight distance or speed. Dividing rounded species-average lengths cannot replace the reported index.

@@ -1,18 +1,56 @@
-## Which fossil records this name represents {#s-7b6157a02a}
-Tenontosaurus tilletti is accepted in the fixed PBDB dinosaur working roster, with database parent Tenontosaurus. This guide uses 53 eligible species-level occurrence records from 53 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-7b6157a02a}
+Tenontosaurus tilletti is listed in the PBDB snapshot under taxon txn:52887. This archived guide contains 53 selected occurrence rows, linked to 53 distinct PBDB collection IDs and 6 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-6842c14a82}
-Collection AMNH 31-6, Cashen Pocket (Montana), region code US, stratum name Cloverly; database age bracket 110.1–93.9 Ma, early interval Middle Albian and late interval Early Cenomanian. Collection OU 40-11, Cashen Ranch (OMNH V184) (Montana), region code US, stratum name Cloverly; database age bracket 121.4–110.1 Ma, early interval Aptian and late interval Early Albian. Collection AMNH 33-1, Middle Dome (Montana), region code US, stratum name Cloverly; database age bracket 110.1–93.9 Ma, early interval Middle Albian and late interval Early Cenomanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-6842c14a82}
+The archived guide contains 53 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-515c2f4363}
-Selected occurrences have an outer age envelope of 121.4–93.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:259322; PBDB collection col:25077. Locality cnm=OU 40-11, Cashen Ranch (OMNH V184); place fields cc2=US, stp=Montana, cny=Big Horn. Recorded age bounds: eag 121.4 Ma; lag 110.1 Ma; PBDB interval fields oei=Aptian, oli=Early Albian. Stratigraphic fields sfm=Cloverly. Recorded attribution Ostrom 1970; PBDB reference ref:13525.
 
-## Read preservation setting separately from living habitat {#s-671b773f63}
-AMNH 31-6, Cashen Pocket has collection-environment label "channel"; collection preservation-mode label body. OU 40-11, Cashen Ranch (OMNH V184) has collection-environment label terrestrial indet.; collection preservation-mode label body. AMNH 33-1, Middle Dome has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+slightly higher in section than AMNH Cashen Ranch site. Ostrom's Unit V
 
-## Follow collection records back to references {#s-2883eab2ab}
-AMNH 31-6, Cashen Pocket carries database reference attribution Ostrom (1970), identifier ref:13525. OU 40-11, Cashen Ranch (OMNH V184) carries database reference attribution Ostrom (1970), identifier ref:13525. AMNH 33-1, Middle Dome carries database reference attribution Ostrom (1970), identifier ref:13525. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+D'Emic et al. 2019:  New data reported in this study suggest that deposition of the Cloverly Formation spanned the Valanginian–Cenomanian stages (ca. 140 Ma–98 Ma), a longer time interval than the commonly cited Aptian–Albian depositional timeframe. The overlying Little Sheep Mudstone Member was deposited ca. 124–109 Ma in a time of low sediment supply.
 
-## Evidence limits {#s-b2d12ce878}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Collected two miles from AMNH site at Cashen Ranch. SE 1/4, sec 32, T4S, R29E, 1.25 mi SSW of Cashen Ranch House, 400 yds W of road.
+
+- Occurrence occ:259321; PBDB collection col:25076. Locality cnm=AMNH 31-6, Cashen Pocket; place fields cc2=US, stp=Montana, cny=Big Horn. Recorded age bounds: eag 110.1 Ma; lag 93.9 Ma; PBDB interval fields oei=Middle Albian, oli=Early Cenomanian. Stratigraphic fields sfm=Cloverly. Recorded attribution Ostrom 1970; PBDB reference ref:13525.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower part of member = Ostrom's Unit VI; possible uppermost unit V
+
+D'Emic et al. 2019:  New data reported in this study suggest that deposition of the Cloverly Formation spanned the Valanginian–Cenomanian stages (ca. 140 Ma–98 Ma), a longer time interval than the commonly cited Aptian–Albian depositional timeframe. In the mid–late Albian to early Cenomanian (ca. 109–98 Ma), sediment sourced from the east was deposited as the Himes Member and Greybull Sandstone.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Buster Creek, Cashen Ranch, Crow Indian Reservation, Big Horn County, Montana. NW 1/4, sec 33, T4S, R29E; 0.25 mi SE of Cashen Ranch house
+
+- Occurrence occ:477946; PBDB collection col:47346. Locality cnm=AMNH 33-1, Middle Dome; place fields cc2=US, stp=Montana, cny=Wheatland. Recorded age bounds: eag 110.1 Ma; lag 93.9 Ma; PBDB interval fields oei=Middle Albian, oli=Early Cenomanian. Stratigraphic fields sfm=Cloverly. Recorded attribution Ostrom 1970; PBDB reference ref:13525.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+questionable stratigraphic assignment; = Ostrom's Unit VII, fossils from approx. 60 ft below base of Unit VIII
+
+D'Emic et al. 2019:  New data reported in this study suggest that deposition of the Cloverly Formation spanned the Valanginian–Cenomanian stages (ca. 140 Ma–98 Ma), a longer time interval than the commonly cited Aptian–Albian depositional timeframe. In the mid–late Albian to early Cenomanian (ca. 109–98 Ma), sediment sourced from the east was deposited as the Himes Member and Greybull Sandstone.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SW 1/4, sec 26, T7N, R16E, Wheatland Co., MT. Middle Dome, 12 miles SE of Harlowton
+
+## Age bounds on the recorded occurrences {#s-515c2f4363}
+Across these selected PBDB rows, the largest recorded eag=121.4 Ma in occ:259322; the smallest recorded lag=93.9 Ma in occ:259321. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-671b773f63}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:259322: PBDB taxon-name field tna=Tenontosaurus tilletti; material note ocm=OMNH 10144, 10132; abundance fields abv=5, abu=individuals; PBDB locality-coordinate fields lng=-108.161667, lat=45.441387; paleocoordinate/model fields pm1=gplates, pln=-46.55, pla=50.76.
+- occ:259321: PBDB taxon-name field tna=Tenontosaurus tilletti; material note ocm=AMNH 3012, 3022, 3023; abundance fields abv=3, abu=individuals; PBDB locality-coordinate fields lng=-108.141403, lat=45.438999; paleocoordinate/model fields pm1=gplates, pln=-63.36, pla=51.89.
+- occ:477946: PBDB original-identification field idn=Tenontosaurus tilletti n. gen. n. sp.; PBDB taxon-name field tna=Tenontosaurus tilletti; material note ocm=AMNH 3040; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-109.685501, lat=46.337502; paleocoordinate/model fields pm1=gplates, pln=-64.91, pla=52.93.
+
+## References attached to each record {#s-2883eab2ab}
+The archived guide links the rows to 6 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:259322: Recorded attribution Ostrom 1970; PBDB reference ref:13525.
+- occ:259321: Recorded attribution Ostrom 1970; PBDB reference ref:13525.
+- occ:477946: Recorded attribution Ostrom 1970; PBDB reference ref:13525.
+
+## What these records can show {#s-b2d12ce878}
+This is a guide to 53 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

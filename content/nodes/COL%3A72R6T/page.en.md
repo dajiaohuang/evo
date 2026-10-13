@@ -1,8 +1,8 @@
 ## Population and elevation surveys {#s-9f6ec10037}
 The survey recorded nine groups totaling 123 Assamese macaques at 250–856 m elevation; the authors calculated ecological density of 4.7 individuals/km² for a local occurrence area of about 26.3 km². The abstract reports about 67% of recorded individuals at 400–600 m.
 
-## Read this historical record through food and foraging position {#s-ef87ece3c8}
-Macaca assamensis is accepted in pinned COL26.8 within Cercopithecidae. This page compares the same-name, same-family EltonTraits 1.0 record through 3 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Diet, activity and foraging-stratum fields {#s-ef87ece3c8}
+Macaca assamensis is accepted in pinned COL26.8 within Cercopithecidae. The EltonTraits 1.0 entry has 3 literature-derived ecological field groups; these summarize categories rather than direct measurements and do not establish equivalence to the current COL26.8 concept. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
 
 ## Relative weights of food categories {#s-d38084a401}
 The archive’s nonzero food weights are other plant material (the source category also includes fungi) 40%; fruit 30%; seeds, nuts and spores included in this category 20%; invertebrates 10%. Code ABC pools high, reasonable and partial confidence; some estimates can borrow from an ecologically similar congener. ABC cannot be rewritten as direct observations of this species. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
@@ -13,12 +13,12 @@ The entry is assigned S: scansorial; code A records compiler confidence in sourc
 ## Activity periods can occur together {#s-775eb9a655}
 The archive marks feeding activity during daytime as 1. Several fields can be 1 together; they are not proportions adding to a daily time budget or schedules shared by every day, season and site. Activity certainty is ABC and can still use ecologically similar congeneric material; genus/family typical activity values do not fill gaps here.
 
-## Trace each field group to its source labels {#s-794372231f}
-The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources differ across field groups {#s-794372231f}
+The food, activity and mammalian foraging-stratum fields use separate source groups. A shared reference label in another dataset may refer to a different work; labels are not independent species observations.
 
 ## Evidence limits {#s-193ba23bc2}
-Results are limited to the Dampa Tiger Reserve core area; local ecological density is not a range-wide census or current estimate. The paper's 2015 conservation assessment is not presented as current. The Chinese label is an editorial translation; this guide is.
-This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
+Results are limited to the Dampa Tiger Reserve core area; local ecological density is not a range-wide census or current estimate. The paper's 2015 conservation assessment is not presented as current. The Chinese label is an editorial translation;
+EltonTraits 1.0 records literature-derived diet, activity and mammalian foraging categories; percentages are standardized weights, not measured feeding time or intake. Mammal ABC scores pool confidence levels and may draw on ecologically similar congeners, so they are not direct species-level observations in every field. Historical names do not establish equivalence to the pinned COL26.8 species concept.
 
 ## Name and historical material {#s-741e5605bc}
 Macaca assamensis is accepted in pinned COL26.8 within Cercopithecidae. This page uses the PanTHERIA 1.0 MSW05 entry from the August 2008 table, whose biological data gathering ended in June 2004. The name association does not resolve later taxonomic changes.

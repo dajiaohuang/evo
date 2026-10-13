@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-1ae0970db8}
+## 记录分类与直接上级关系 {#s-1ae0970db8}
+COL26.8 将 Oxyrhopus 记录为属；其直接上级记录为 Dipsadinae。
+
 Oxyrhopus 的本批 ReptTraits 阅读路径包含 6 条同名同科、有逐性状出处的物种资料，可从 Oxyrhopus formosus、Oxyrhopus guibei、Oxyrhopus petolarius、Oxyrhopus rhombifer、Oxyrhopus trigeminus 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-6b0a1e5141}
@@ -10,8 +12,8 @@ Oxyrhopus 的本批 ReptTraits 阅读路径包含 6 条同名同科、有逐性�
 ## 部分后代条目的引用缺口 {#s-a4aba17deb}
 这条 ReptTraits 阅读路径中有 1 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-c8e056de11}
-Oxyrhopus 的本批 ReptTraits 阅读路径包含 8 条同名同科、有逐性状出处的物种资料，可从 [Oxyrhopus clathratus](Oxyrhopus_clathratus/page.zh.md)、[Oxyrhopus doliatus](Oxyrhopus_doliatus/page.zh.md)、[Oxyrhopus erdisii](Oxyrhopus_erdisii/page.zh.md)、[Oxyrhopus fitzingeri](Oxyrhopus_fitzingeri/page.zh.md)、[Oxyrhopus leucomelas](Oxyrhopus_leucomelas/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-c8e056de11}
+Oxyrhopus 的本批 ReptTraits 阅读路径包含 8 条同名同科、有逐性状出处的物种资料，可从 Oxyrhopus clathratus、Oxyrhopus doliatus、Oxyrhopus erdisii、Oxyrhopus fitzingeri、Oxyrhopus leucomelas 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-2a0af04fed}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

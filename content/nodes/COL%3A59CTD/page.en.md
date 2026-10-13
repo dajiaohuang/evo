@@ -1,15 +1,15 @@
-## The species and its source row {#s-75432b20e6}
-COL26.8 accepts Tropiocolotes nubicus within Gekkonidae. The ReptTraits v1-2 row follows the workbook’s Reptile Database 2023 name framework and preserves sources by trait. Because it combines reports into one species entry, the row is evidence about the cited record, not a uniform description of every population.
+## COL26.8 name and the ReptTraits row {#s-75432b20e6}
+COL26.8 records Tropiocolotes nubicus as an accepted species. The ReptTraits v1-2 row gives its Family field as Gekkonidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The 30.5 mm figure excludes the tail {#s-45f936a9f2}
-The recorded maximum snout–vent length (SVL) is 30.5 mm. This measure runs from the snout to the vent and leaves out the tail. It is a compiled maximum, not a typical size or a limit on how large an individual can grow.
+## Length values in the archived records {#s-45f936a9f2}
+The row reports a maximum SVL of 30.5 mm. ReptTraits attributes this field to Meiri 2018.
 
-## A terrestrial, nocturnal record {#s-2b24b21b12}
-The row records terrestrial microhabitat and nocturnal activity. Its foraging code AMB denotes ambush foraging. These labels describe the compiled observations; they are not a complete habitat list or a fixed schedule, and the record does not specify prey or cover differences among places, seasons and life stages.
+## Habitat use and activity labels {#s-2b24b21b12}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records AMB (ambush or sit-and-wait foraging). ReptTraits attributes this field to Meiri 2018.
 
-## The clutch value is a summary, not a promise {#s-01ec83efdd}
-The source calls the reproductive mode oviparous, or egg-laying. The consolidated offspring/egg field is 1; the lowest and highest reported means are also 1. These figures summarize records and may be calculated from midpoints of reported means or, if means are missing, from reported extremes. They are not guaranteed counts for every clutch. The labels do not establish embryo nutrition or uniformity across populations.
+## Reproductive fields in ReptTraits {#s-01ec83efdd}
+The compiled mean for offspring per litter or eggs per clutch is 1. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## What the entry does not settle {#s-e3d22e1b18}
-This account paraphrases the same-name ReptTraits v1-2 entry, keeping its 2023 naming framework and trait sources. A single row compresses differences among ages, sexes, localities and populations; the name-and-family match does not establish equivalence with later taxonomic concepts. The maximum length is not an absolute species limit, and the clutch summary is not a fixed count for each nest. Workbook mass estimates derived from length equations and inconsistent juvenile-length fields are not presented as direct measurements. Conservation, venom, current range and population trends are not updated here; the cited source chain does not mean the original works were independently reread for this page.
+## Reading this compiled trait record {#s-e3d22e1b18}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

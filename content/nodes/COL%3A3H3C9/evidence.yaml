@@ -633,8 +633,14 @@ records:
       morphology:
         status: partially-supported
         claims:
-          - text: In a 3D geometric-morphometric comparison of 114 crania from three Gorilla subspecies, facial fluctuating asymmetry (random departure from bilateral symmetry) explained 6% of total facial-shape variation in the western lowland gorilla sample. This is a comparative archival-skull result, not a species-wide estimate or a description of other anatomical regions.
-            textZh: 在一项对 3 个大猩猩亚种的 114 个头骨进行的 3D 几何形态测量比较中，西部低地大猩猩样本的面部波动不对称（偏离左右对称的随机变异）解释了总面部形状变异的 6%。这是馆藏头骨比较结果，不是全物种估计，也不描述其他解剖部位。
+          - text:
+              page: en
+              section: facial-asymmetry
+              part: body
+            textZh:
+              page: zh
+              section: facial-asymmetry
+              part: body
             sourceIds:
               - mcgrath2022facialasymmetry
             locator: "Abstract: comparative study sample, definition of fluctuating asymmetry and reported percentage of total facial-shape variation for the western lowland gorilla sample."
@@ -646,8 +652,14 @@ records:
       lifeHistory:
         status: partially-supported
         claims:
-          - text: At Mbeli Bai, the monitored western lowland gorilla population (Gorilla gorilla gorilla) had a mean female age at first parturition of 12.2 ± 0.6 years (n = 7). Mean interbirth interval was 5.4 ± 0.9 years (n = 54 intervals; the analysis included intervals whose offspring survived to age three), and the rate of offspring surviving to age three was 0.121 per adult female-year. These are estimates for this site and study population, not species-wide values.
-            textZh: 在 Mbeli Bai 受监测的西部低地大猩猩种群（*Gorilla gorilla gorilla*）中，雌性初次分娩的平均年龄为 12.2 ± 0.6 岁（n = 7）。平均产间隔为 5.4 ± 0.9 年（n = 54 个间隔；分析纳入其后代存活至 3 岁的间隔）；后代存活至 3 岁的出生率为每成年雌性年 0.121。这些是该地点和研究种群的估计，不代表全物种数值。
+          - text:
+              page: en
+              section: s-8ec9d9fb29
+              part: body
+            textZh:
+              page: zh
+              section: s-6d1f4caa10
+              part: body
             sourceIds:
               - robbins2023gorillalifehistory
             locator: Methods §2.1, Study sites and data collection; §2.2, interbirth interval and surviving-birth-rate definitions; Results §3; Table 3, Mbeli western gorilla column and note.
@@ -659,22 +671,40 @@ records:
       ecology:
         status: partially-supported
         claims:
-          - text: At Loango National Park, Gabon, a study followed one habituated Atananga group of 10 western lowland gorillas from January 2018 to July 2020, collecting 5,896 observation hours over 652 days. Across the two complete years, mean feeding time was 31% fruit, 21% herbs, 31% tree foods, 10% nuts, and 0% insects. These are scan-based estimates for one group and site, not a species-wide diet.
-            textZh: 在加蓬 Loango 国家公园，研究人员于 2018 年 1 月至 2020 年 7 月跟踪一群经习惯化的 Atananga 西部低地大猩猩（10 只），累计观察 652 天、5,896 小时。两个完整年度的平均取食时间中，果实占 31%、草本植物占 21%、树类食物占 31%、坚果占 10%、昆虫占 0%。这些是基于扫描观察的单群体、单地点估计，不能代表整个物种的饮食。
+          - text:
+              page: en
+              section: s-36b4f96f33
+              part: body
+            textZh:
+              page: zh
+              section: s-ecb6f1c255
+              part: body
             sourceIds:
               - ortmann2022
             locator: Methods, Study site and data collection; Dietary composition based on feeding time; Results, Dietary composition; Table 2.
             placeTimeScope: One Atananga group in Loango National Park, Gabon; field observations from January 2018 to July 2020. Annual food-type values average the two complete years; 2020 was excluded from annual feeding-time summaries because it was incomplete.
             lifeStatus: Free-ranging, wild western lowland gorillas (Gorilla gorilla gorilla) in one habituated group; not representative of all Gorilla gorilla populations.
-          - text: Across 31 monthly observations at Loango, fruit availability and the group's proportion of feeding scans spent eating fruit were positively correlated (Pearson r = 0.623, t = 4.209, df = 28, p < 0.001). This is an association observed in one group at one site; it does not establish causation or a species-wide seasonal pattern.
-            textZh: 在 Loango 的 31 个月度观察中，果实可获得性与该群体用于取食果实的扫描记录比例呈正相关（Pearson r = 0.623，t = 4.209，df = 28，p < 0.001）。这是单一地点、单一群体中的相关关系，不能证明因果关系或代表整个物种的季节规律。
+          - text:
+              page: en
+              section: s-9e2081ba93
+              part: body
+            textZh:
+              page: zh
+              section: s-7bdb5e3bdf
+              part: body
             sourceIds:
               - ortmann2022
             locator: Methods, Fruit availability index and Statistical analysis; Results, Fruit availability and frugivory per month; Figure 1; Supporting Information Table S5.
             placeTimeScope: Monthly observations for one group at Loango National Park, Gabon, spanning 31 months during 2018–2020.
             lifeStatus: Free-ranging, wild western lowland gorillas in one habituated group; no inference to other populations or the full species range.
-          - text: "At Mbeli Bai, Republic of Congo, two wild adult female western gorillas from different groups used detached plant material for support in swamp water: on 9 October 2004 Leah used a branch to probe depth and steady herself while crossing an elephant pool; on 21 November 2004 Efi used a shrub trunk to stabilize food processing and then as a short bridge over swampy ground. These two observations do not estimate how often the behavior occurs or how it is acquired."
-            textZh: 在刚果共和国 Mbeli Bai，两只来自不同群体的野生成体雌性西部大猩猩在沼泽水域中使用脱落的植物材料支撑身体：2004 年 10 月 9 日，Leah 用树枝探测水深并在穿越象池时保持稳定；2004 年 11 月 21 日，Efi 用灌木树干支撑取食，随后将其当作跨越沼泽地面的短桥。这两次观察不能估计该行为的发生频率，也不能说明其习得方式。
+          - text:
+              page: en
+              section: s-2f4b549d4f
+              part: body
+            textZh:
+              page: zh
+              section: s-66a04f44db
+              part: body
             sourceIds:
               - breuer2005tool
             locator: Abstract; Results, observations of Leah on 9 October 2004 and Efi on 21 November 2004; Discussion; Methods, Mbeli Bai.
@@ -686,8 +716,14 @@ records:
       evolution:
         status: partially-supported
         claims:
-          - text: Using a diffusion-approximation model of the genome-wide site-frequency spectrum from 14 western lowland gorilla genomes, McManus et al. inferred an ancestral effective-population-size expansion of about 1.4-fold near 970 ka, followed by a 5.6-fold contraction near 23 ka. This is a model-based estimate for the sampled western-lowland lineage, not a current census or an estimate for every Gorilla gorilla subspecies; the authors state that the causes are unclear.
-            textZh: 麦克马纳斯等人使用 14 只西部低地大猩猩的全基因组位点频率谱进行扩散近似建模，推断其祖先有效种群规模在约 97 万年前扩大约 1.4 倍，随后在约 2.3 万年前收缩约 5.6 倍。这是针对所采样西部低地谱系的模型估计，不是当前种群普查数量，也不能代表 *Gorilla gorilla* 的所有亚种；作者指出这些变化的成因尚不清楚。
+          - text:
+              page: en
+              section: demographic-model
+              part: body
+            textZh:
+              page: zh
+              section: demographic-model
+              part: body
             originalLanguage: en
             sourceIds:
               - mcmanus2015gorillagenome

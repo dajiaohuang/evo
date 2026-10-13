@@ -1,5 +1,5 @@
-## Retain Locustella, Bradypterus and Helopsaltes by table {#s-310c20df41}
-Pinned COL26.8 organizes this page at Locustella luteoventris (6QLK7). BirdLife 2020 row 4988 gives Locustella luteoventris; eBird 2021 row 5652 gives Locustella luteoventris. Both Avibase IDs are AVIBASE-79094AD6, with type 1BL to 1eBird. BirdTree row 5623 gives Bradypterus luteoventris, with type 1BL to 1BT. Exact Bradypterus catalogue synonym N5DV points to this accepted ID. Name correspondence locates historical sources without establishing identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-310c20df41}
+Catalogue of Life release COL26.8 records Locustella luteoventris (Hodgson, 1845) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-1f59d03698}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.1 mm, tarsus 19 mm, unflattened wing 51.6 mm, tail 55 mm and hand-wing index 10.6 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

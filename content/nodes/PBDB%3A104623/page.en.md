@@ -1,9 +1,9 @@
-## PBDB classification and scope {#s-18bf29df33}
-PBDB records Eocursor at genus rank and uses its recorded database parents to organize the occurrence pages. This guide includes a page for one fossil species. The database hierarchy is an organizing scheme, not a phylogenetic hypothesis or a measure of evolutionary importance. The guide covers selected fossil species records rather than a complete inventory, so it does not establish that the whole group is extinct.
+## PBDB classification and occurrence scope {#s-18bf29df33}
+PBDB records Eocursor at genus rank and uses its database parents to organize the occurrence pages. This route follows the fossil species Eocursor parvus; its classification path is not a phylogenetic hypothesis or a complete genus catalogue.
 
-## Eocursor parvus in the occurrence record {#s-6e454a324d}
-The guide follows Eocursor parvus through one selected occurrence in one collection, with Elliot recorded as an example stratum name. Compare the collection’s own age bracket and identification qualifications before comparing it with another site. Occurrence, collection and species counts do not measure ancient population size.
+## Eocursor parvus in one selected occurrence {#s-6e454a324d}
+The txn:104623 query has one species, one occurrence and one collection: Eocursor parvus from the Elliot stratum. Check the collection’s age interval and identification qualification against the source. These database counts do not measure specimens, individuals, populations or sampling intensity.
 
-## What this guide can show {#s-e208a870ce}
-This guide presents occurrence records for the species pages included here; it is not a complete descendant catalogue or a shared ecological summary. Record counts do not measure specimens, individuals, populations or sampling intensity, and outer age bounds are not actual origin or extinction times. The PBDB path is a source classification and remains distinct from COL and from phylogenetic hypotheses.
+## What this occurrence cannot show {#s-e208a870ce}
+This guide introduces the selected species record; it is not a complete descendant catalogue or ecological account. Its age bracket is not the genus origin or extinction time, and the PBDB parent path does not substitute for a phylogenetic hypothesis or COL classification.
 

@@ -1,5 +1,5 @@
-## Find rows through older Carduelis/Serinus combinations {#s-49b6e464ab}
-Pinned COL26.8 organizes this page at Spinus cucullatus (4Z65N). BirdLife 2020 row 4154 and eBird 2021 row 9787 share the name and Avibase ID AVIBASE-8B583CC8, with type 1BL to 1eBird; BirdTree row 9728 gives Carduelis cucullata, with type 1BL to 1BT. Read catalogue synonym R6JD points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-49b6e464ab}
+Catalogue of Life release COL26.8 records Spinus cucullatus (Swainson, 1820) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-9984ead195}
 Morphology comprises 5 birds: 1 female, 4 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.4 mm, tarsus 10.8 mm, unflattened wing 58.1 mm, tail 32.9 mm and hand-wing index 27.9 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

@@ -1,7 +1,9 @@
 ## Overview {#s-9484ae129e}
 This guide follows study design and location rather than evolutionary relationships. Begin with black-fronted titi occurrence surveys across two fragmented landscapes in Minas Gerais, then compare the blond titi’s historical locality survey with a repeated-playback model. Continue with year-round feeding and space use by one Coimbra-Filho’s titi group and a separate locality survey in Sergipe; next read how one coastal black-handed titi group used undisturbed, logged and regenerating forest; finish with the masked titi observations in an urban park. Together, the four new pages and the existing black-fronted titi page cover the five accepted species in the pinned COL26.8 genus. Their samples, periods and methods differ and cannot be pooled into a genus-wide ecological average.
 
-## Choose comparison pages by life-history fields {#s-921acbf148}
+## Recorded classification and direct parent {#s-921acbf148}
+COL26.8 records Callicebus Thomas, 1903 at genus rank, with Callicebinae Pocock, 1925 as its direct parent.
+
 This batch’s Callicebus route includes 5 historical life-history accounts; start with Callicebus barbarabrownae, Callicebus coimbrai, Callicebus melanochir, Callicebus nigrifrons, Callicebus personatus. More frequently represented fields include adult body mass (5 entries), offspring per litter or eggs per clutch (5 entries), longest lifespan record in the compilation (5 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-62df6141f6}

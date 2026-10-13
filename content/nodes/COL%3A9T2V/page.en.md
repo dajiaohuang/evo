@@ -1,18 +1,18 @@
-## The 2015 life-history entry and this name {#s-e39248e610}
-Actinemys marmorata is accepted in pinned COL26.8 within Emydidae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## A 2015 life-history row for this name {#s-e39248e610}
+COL26.8 records Actinemys marmorata as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records; this match does not establish identity with the current COL concept.
 
-## Different stages in the mass fields {#s-83b9916b09}
-Historical summary values are adult body mass 282 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Length values in the archived records {#s-83b9916b09}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 282 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
-## Reproduction and developmental timing {#s-65ca8c4db3}
-Available compilation fields are offspring per litter or eggs per clutch 4 offspring/eggs; oviposition to hatching 80 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive events in the life-history table {#s-65ca8c4db3}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 7 recorded source-table values; oviposition to hatching: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 4; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; Behler, J.L., King, F.W., 1979. The incubation field is 80 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book; Behler, J.L., King, F.W., 1979.
 
-## A longest record differs from usual lifespan {#s-3d80be329c}
-The archive’s maximum_longevity_y value is 27.3 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## Longest lifespan in the archive {#s-3d80be329c}
+The archive's longest-lifespan record is 27.3 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009.
 
-## How to trace these values to sources {#s-cf5b9a2be0}
-Same-name sparse rows carry source labels including Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; Reptile Incubation book; Behler, J.L., King, F.W., 1979; Stebbins, R.C., 2003, among others. The archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## The August 2015 life-history table {#s-cf5b9a2be0}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Life-history evidence limits {#s-44fea33605}
-This page uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and these compilation values have not been checked against the underlying publications here. Diet, behavior, current range, conservation and missing fields require other sources;
+## Reading a historical life-history summary {#s-44fea33605}
+The 2015 archive retains a species/subspecies data-sharing procedure, so some final values may include transferred historical records. Values in separate fields need not describe one shared specimen or population.
 

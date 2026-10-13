@@ -1,5 +1,5 @@
-## Locate records through older Caprimulgus names {#s-91683f3be6}
-Pinned COL26.8 organizes this page at Antrostomus ridgwayi (F4N6) in Caprimulgidae (7PQ). BirdLife 2020 row 608 and eBird 2021 row 729 share the name; both eBird sides share Avibase ID AVIBASE-C0F335B7, with type 1BL to 1eBird. BirdTree row 730 gives Caprimulgus ridgwayi, type 1BL to 1BT; exact catalogue synonym QSPY points to accepted species F4N6. Name links locate records without proving identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-91683f3be6}
+Catalogue of Life release COL26.8 records Antrostomus ridgwayi Nelson, 1897 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-dd8d7d8c20}
 Morphology comprises 4 birds: 2 female, 1 male and 1 unsexed; 3 complete sets. Nostril-to-tip beak length 7.6 mm, tarsus 16.8 mm, unflattened wing 150.2 mm, tail 120 mm and hand-wing index 46.9 are historical row means. Totals exceed complete sets; not every bird has all fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

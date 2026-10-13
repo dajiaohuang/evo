@@ -1,19 +1,59 @@
 ## Which fossil records this name represents {#s-d70f76049c}
 Palaeosciurus sutteri is accepted in the fixed PBDB mammalia working roster, with database parent Palaeosciurus. This guide uses 10 eligible species-level occurrence records from 10 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-6e4da56d27}
-Collection Bellenberg 2 (Bayern), region code DE; database age bracket 15.98–13.82 Ma, early interval MN 5. Collection Edelstetten (Bayern), region code DE; database age bracket 15.98–13.82 Ma, early interval MN 5. Collection Betlinshausen (Bayern), region code DE; database age bracket 15.98–13.82 Ma, early interval MN 5. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Palaeosciurus sutteri is listed in the PBDB snapshot under taxon txn:64163. This archived guide contains 10 selected occurrence rows, linked to 10 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-83342ac5c9}
-Selected occurrences have an outer age envelope of 16.9–13.82 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Antonios, occurrence occ:686203 (16.9–13.82 Ma); one supplying the younger bound is Bellenberg 2, occurrence occ:456330 (15.98–13.82 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-6e4da56d27}
+The archived guide contains 10 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-26d08b7d5c}
-Bellenberg 2 has collection-environment label fluvial indet.; collection preservation-mode label body. Edelstetten has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. Betlinshausen has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:686203; PBDB collection col:73861. Locality cnm=Antonios; place fields cc2=GR, stp=Macedonia. Recorded age bounds: eag 16.9 Ma; lag 13.82 Ma; PBDB interval fields oei=MN 4, oli=MN 5. Stratigraphic fields sfm=Antonios. Recorded attribution Vasileiadou and Koufos 2005; PBDB reference ref:24771.
 
-## Follow collection records back to references {#s-69d42991b2}
-Bellenberg 2 carries database reference attribution Boon (1991), identifier ref:11707. Edelstetten carries database reference attribution Boon (1991), identifier ref:11707. Betlinshausen carries database reference attribution Boon (1991), identifier ref:11707. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"upper part of MN 4 to lower part of MN 5"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"along the road between the villages of Agios Antonios and Souroti... about 26 km southeast of Thessaloniki" in the Chalkidiki peninsula
+
+- Occurrence occ:456330; PBDB collection col:44971. Locality cnm=Bellenberg 2; place fields cc2=DE, stp=Bayern. Recorded age bounds: eag 15.98 Ma; lag 13.82 Ma; PBDB interval fields oei=MN 5. Recorded attribution Boon 1991; PBDB reference ref:11707.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+MN5"a"; Obere Süßwassermolasse (Upper Freshwater Molasse), upper Lower Miocene-lower Middle Miocene, Lower MN5.
+After Bollinger 1994: MN5"a" (=lower MN5).
+JA: "Fluviatile Untere Serie" entered as local section name
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Bavaria, South of Ulm City, 800 m Northeast of the church of Bellenberg (Gradabteilungsblatt 7726 Illertissen: r 35 82 160, h 53 46 720)
+
+- Occurrence occ:456345; PBDB collection col:44973. Locality cnm=Edelstetten; place fields cc2=DE, stp=Bayern. Recorded age bounds: eag 15.98 Ma; lag 13.82 Ma; PBDB interval fields oei=MN 5. Recorded attribution Boon 1991; PBDB reference ref:11707.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+MN5"b"; Obere Süßwassermolasse (Upper Freshwater Molasse), upper Lower Miocene-lower Middle Miocene, MN5, a little bit younger than Bellenberg 1 + 2.
+After Bollinger 1994: MN5"b" (=middle MN5).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Bavaria, East of Ulm City, 550 m East of the church of Edelstetten (Gradabteilungsblatt 7728 Krumbach: r 36 04 120, h 53 51 940)
+
+## Age bounds on the recorded occurrences {#s-83342ac5c9}
+Across these selected PBDB rows, the largest recorded eag=16.9 Ma in occ:686203; the smallest recorded lag=13.82 Ma in occ:456330. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-26d08b7d5c}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:686203: PBDB taxon-name field tna=Palaeosciurus sutteri; abundance fields abv=5, abu=specimens; PBDB locality-coordinate fields lng=23.000000, lat=40.500000; paleocoordinate/model fields pm1=gplates, pln=24.47, pla=36.37.
+- occ:456330: PBDB taxon-name field tna=Palaeosciurus sutteri; PBDB locality-coordinate fields lng=10.050000, lat=48.340000; paleocoordinate/model fields pm1=gplates, pln=12.04, pla=45.53.
+- occ:456345: PBDB taxon-name field tna=Palaeosciurus sutteri; PBDB locality-coordinate fields lng=10.410000, lat=48.380001; paleocoordinate/model fields pm1=gplates, pln=12.38, pla=45.56.
+
+## References attached to each record {#s-69d42991b2}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:686203: Recorded attribution Vasileiadou and Koufos 2005; PBDB reference ref:24771.
+- occ:456330: Recorded attribution Boon 1991; PBDB reference ref:11707.
+- occ:456345: Recorded attribution Boon 1991; PBDB reference ref:11707.
 
 ## Evidence limits {#s-60ceac2eb7}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 10 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

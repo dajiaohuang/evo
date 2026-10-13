@@ -1,5 +1,5 @@
-## Locate names using source spellings {#s-1f9888a59d}
-Pinned COL26.8 organizes this page at Turdoides sharpei (59PKG). BirdLife 2020 row 4950 and eBird 2021 row 10772 share the name and Avibase ID AVIBASE-7350FE4C, with type 1BL to 1eBird. BirdTree row 10703 gives Turdoides sharpei, with type 1BL to 1BT. The table and catalogue accepted name match exactly without establishing identical species boundaries across dates. Source family Leiotrichidae and catalogue ancestor Leiothrichidae retain their original spellings.
+## A name fixed to COL26.8 {#s-1f9888a59d}
+Catalogue of Life release COL26.8 records Turdoides sharpei (Reichenow, 1891) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-c3da147843}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 12.6 mm, tarsus 36.2 mm, unflattened wing 112.2 mm, tail 108.7 mm and hand-wing index 9.2 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

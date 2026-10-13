@@ -1,30 +1,30 @@
-## Name and this data account {#s-b2141f1756}
-Pinned COL26.8 accepts Daboia palaestinae in Viperidae. Its ReptTraits v1-2 row retains the Reptile Database 2023 name framework and field-specific sources; one species row is not a uniform description of all populations.
+## COL26.8 name and the ReptTraits row {#s-b2141f1756}
+COL26.8 records Daboia palaestinae as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-f3a0b1d03a}
-The entry reports maximum snout–vent length (SVL) of 872 mm and maximum total length (TL) of 1,500 mm. SVL ends at the vent, while TL includes the tail. These compiled maxima are reported measurements, not typical size or theoretical limits.
+## Length values in the archived records {#s-f3a0b1d03a}
+The row reports a maximum SVL of 872 mm. ReptTraits attributes this field to Feldman & Meiri 2013. The row reports maximum total length (TL) of 1500 mm. ReptTraits attributes this field to Feldman & Meiri 2013. This row records TL and SVL in separate fields; the captured definitions provide no conversion between them.
 
-## Where and how it is active {#s-c7d3a8b441}
-The row classifies the microhabitat as Terrestrial and activity as Nocturnal. These are broad categories, not a complete habitat account or fixed schedule; population, seasonal and life-stage variation is not shown.
+## Habitat use and activity labels {#s-c7d3a8b441}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to O'Shea 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Amitai and Bouskila 2001.
 
-## How to read reproductive records {#s-ef57b9cdbb}
-ReptTraits records oviparity, genotypic sex determination (ZW/ZZ), and a mean of 20 eggs per clutch. The clutch value summarizes source records; it is not a fixed count for each nest. The labels do not establish embryo nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-ef57b9cdbb}
+The compiled mean for offspring per litter or eggs per clutch is 20. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Iverson et al. 1993. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records GSD (ZW/ZZ). ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## The 2015 life-history entry and this name {#s-d6f5d4097e}
-Four fields from the 2015 life-history archive are compared here. Cited same-name, species-level sparse-table rows support each association, although the historical compilation may still include inherited taxonomic data.
+## A 2015 life-history row for this name {#s-d6f5d4097e}
+COL26.8 records Daboia palaestinae as an accepted species. The August 2015 life-history table has a species-name and family match (Viperidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-0520e5e4b2}
-The archive reports adult body mass of 666 g. Adult records can combine males, females and animals of unspecified sex, so this is not a species-wide mass range. No birth or hatching mass is reported here.
+## Length values in the archived records {#s-0520e5e4b2}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 666 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
-## Reproduction and developmental timing {#s-235cdec1b7}
-The available interval is 41 days from oviposition to hatching. It describes that event-to-event period, not a complete reproductive cycle.
+## Reproductive events in the life-history table {#s-235cdec1b7}
+Field-specific archive notes: oviposition to hatching: one direct source citation, with no median count stated. The incubation field is 41 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Birchard, G. and D. Marcellini, 1996.
 
-## A longest record differs from usual lifespan {#s-61ee960329}
-The maximum_longevity_y field is 16.4 years, the largest record found under the archive's method. It is not typical lifespan, a wild mean, an individual survival ceiling, or a current record known to be repeatable.
+## Longest lifespan in the archive {#s-61ee960329}
+The archive's longest-lifespan record is 16.4 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002.
 
-## How to trace these values to sources {#s-2e9497e813}
-Same-name source labels include Boback and Guyer (2003), Birchard and Marcellini (1996), de Magalhaes and Costa (2009), and Carey and Judge (2002). The archive preserves field-level row numbers, values and labels. Labels can identify papers, books or databases; row counts are not sample sizes, and repeated references are not independent replication.
+## The August 2015 life-history table {#s-2e9497e813}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-dd19addcee}
-This supplemental profile combines a ReptTraits v1-2 row with records from the 2015 life-history archive; it is not a complete morphology or ecology account. ReptTraits compresses sex, age, locality and population variation under its 2023 name framework. Archive summaries are medians or averages of two middle values, except longevity, which uses the largest record found; they are not measurements of one animal, individual ranges, wild means or current surveys. Historical data may be shared across species and subspecies. Name and family matches support association but do not establish equivalence to COL26.8 concepts or remove inherited material. Wild versus captive conditions are not consistently known, and original works were not individually reviewed. Maxima and clutch means are not universal limits or fixed counts. Current range, conservation and other missing traits require separate sources.
+## Separate histories in the two archives {#s-dd19addcee}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

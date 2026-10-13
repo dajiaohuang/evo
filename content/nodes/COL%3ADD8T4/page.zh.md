@@ -1,5 +1,5 @@
-## 从夏威夷的繁殖巢认识本种 {#s-ae3aeea111}
-固定 COL26.8 名录把本种列作 Hydrobates tristrami；2008 年论文使用旧组合 Oceanodroma tristrami。研究跟踪夏威夷西北部 Laysan、Tern 和 East 三座岛的繁殖巢：Laysan 为 2003–2005 年，French Frigate Shoals 的 Tern／East 材料来自 2005–2008 年，其中 East 仅在 2005 年间歇访问。这是岛上繁殖研究，不是整个北太平洋的食物或分布调查。
+## COL26.8 中的名称身份 {#s-ae3aeea111}
+《Catalogue of Life》COL26.8（2026-08-20）将 Hydrobates tristrami (Salvin, 1896) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 土洞、植被与岩缝中的巢 {#s-25d084dc67}
 Laysan 的 115 个巢位包括土洞、密植被和岩缝；French Frigate Shoals 本次检查的巢则都在土洞里。Laysan 测到的 42 条洞长为 15–70 厘米，但隐藏于植被的巢可能漏记，厚藤区域为减少干扰而未调查。检查采用红外探头，间隔依地点与年份为 4、7 或约 21 天；巢的结构比例和监测频率不能推广到所有岛屿。

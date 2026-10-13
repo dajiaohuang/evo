@@ -1,18 +1,18 @@
-## Name and this data account {#s-167053d68b}
-Anilios unguirostris is accepted in pinned COL26.8 within Typhlopidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-167053d68b}
+COL26.8 records Anilios unguirostris as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-9dbb2b6339}
-Recorded dimensions are reported maximum total length (TL) 700 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-9dbb2b6339}
+The row reports maximum total length (TL) of 700 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where the record places it {#s-08f1c8bddb}
-The entry codes microhabitat as fossorial. The category is not an exhaustive habitat list or fixed schedule; some records combine positions such as arboreal and terrestrial. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-08f1c8bddb}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Cogger 2018.
 
-## How to read reproductive records {#s-223b4c7388}
-The reproductive-mode field uses the original label oviparous. These source labels do not establish fetal nutrition or uniformity across all populations. Uninterpreted clutch/litter numbers remain gaps.
+## Reproductive fields in ReptTraits {#s-223b4c7388}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-9faa6b3104}
-The entry summarizes limited trait material rather than a complete account of morphology or ecology. It follows the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-9faa6b3104}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-e9a862f880}
-The entry has 3 traits with field-specific source labels. Other fields without a supported value/category and source combination are: maximum SVL (mm; SCL for turtles), maximum female SVL (mm; SCL for turtles), maximum male SVL (mm; SCL for turtles), mean litter or clutch size, smallest clutch size, largest clutch size, litters or clutches per year, egg length (mm), egg width (mm), diet, active time, foraging mode, and sex-determining mechanism (GSD or TSD). Relatives and blank entries do not fill species facts.
+## Reading this compiled trait record {#s-e9a862f880}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,18 +1,18 @@
-## Name and this data account {#s-730f3dfa65}
-COL26.8 accepts Gerrhopilus inornatus in Gerrhopilidae. Its ReptTraits v1-2 entry follows the Reptile Database 2023 name framework and retains citations for the recorded traits. The species row summarizes compiled records, not a condition established for every population.
+## COL26.8 name and the ReptTraits row {#s-730f3dfa65}
+COL26.8 records Gerrhopilus inornatus as an accepted species. The ReptTraits v1-2 row gives its Family field as Gerrhopilidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-a68570a3f7}
-The reported maximum total length (TL), including the tail, is 190 mm. Snout–vent length (SVL) ends at the vent and measures a different dimension. This compiled maximum describes source records, not typical size or an absolute growth limit. Values for different sexes may come from separate studies or places and do not establish size differences within a population.
+## Length values in the archived records {#s-a68570a3f7}
+The row reports maximum total length (TL) of 190 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-a24718b4d4}
-The entry classifies the recorded microhabitat as fossorial, meaning burrowing or underground activity. This broad category does not describe every habitat or a fixed activity schedule; the compiled row does not establish whether populations, seasons, or life stages share it.
+## Habitat use and activity labels {#s-a24718b4d4}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015.
 
-## How to read reproductive records {#s-0712ea245c}
-The source labels reproductive mode as oviparous. This classification does not establish embryo nutrition or uniformity among populations. No supported clutch or litter count is included here.
+## Reproductive fields in ReptTraits {#s-0712ea245c}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-166f40c07e}
-This limited trait record is not a full account of morphology or ecology. ReptTraits v1-2 preserves the 2023 taxonomic framework and field-specific sources, but one row per species compresses variation in sex, age, locality, and population. A shared name or family does not guarantee that later taxonomic concepts match. The reported maximum summarizes source material, not typical size or an absolute limit. Some dataset mass values are estimates from length equations, and juvenile-length fields use differing labels and definitions; neither is treated here as a direct species measurement. This entry does not establish conservation status, venom, current range, or population trends.
+## Reading this compiled trait record {#s-166f40c07e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-45c7472f7b}
-The sourced records cover total length, fossorial microhabitat, and oviparity. They do not establish a supported snout–vent or sex-specific length, clutch or litter count, egg dimensions, diet, activity time, foraging mode, or sex-determination mechanism. Missing fields and records for related species cannot supply those facts.
+## Reading this compiled trait record {#s-45c7472f7b}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-8510ead1ac}
+## 记录分类与直接上级关系 {#s-8510ead1ac}
+COL26.8 将 Gomesophis 记录为属；其直接上级记录为 Dipsadinae。
+
 Gomesophis 的本批 ReptTraits 阅读路径包含 1 条同名同科、有逐性状出处的物种资料，可从 Gomesophis brasiliensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-77bf27af79}

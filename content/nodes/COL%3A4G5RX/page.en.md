@@ -1,26 +1,26 @@
-## The name and this data account {#s-ecde69cb9f}
-Philemon subcorniculatus is accepted in COL26.8 within Meliphagidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-ecde69cb9f}
+The AVONET v7 row for Philemon subcorniculatus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 25.9 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-d020ca7ac1}
-Recorded mean beak measurements are 25.9 mm from the anterior nostril edge to the tip, 6.5 mm in width and 10 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-d020ca7ac1}
+AVONET records culmen length (bill tip to skull base) 45.7 mm; beak length (nostril front edge to tip) 25.9 mm; beak width at the nostril front edge 6.5 mm; beak depth at the nostril front edge 10 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-5da7bf1e7d}
-Mean unflattened wing length from the carpal joint to the longest primary is 158.6 mm; mean tarsus length is 40.5 mm. Compiled mean mass is 194 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-5da7bf1e7d}
+AVONET records unflattened wing length 158.6 mm; tarsus length 40.5 mm; distance from first secondary tip to longest primary tip 26.7 mm; length to first secondary tip 131.3 mm; hand-wing index 16.9; tail length 142 mm; species-average body mass 194 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-50fc2a7b70}
-The dataset assigns habitat Forest, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-50fc2a7b70}
+AVONET classifies Philemon subcorniculatus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-e36dc78cee}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -3.88° to -2.78°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-e36dc78cee}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -3.88° to -2.78°. The mapped range area is 17074.17 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-8395a39167}
-Philemon subcorniculatus is accepted in pinned COL26.8 within Meliphagidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-8395a39167}
+EltonTraits 1.0 has a same-name, same-family record for Philemon subcorniculatus covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-333d23712c}
-Foraging-stratum weights flagged as species-level in the archive are in or just above the canopy 70%; trees or high bushes from 2 m upward but below the canopy 30%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-333d23712c}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 30%; in the canopy 70%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-7a8f369d90}
-The used groups carry labels Ref_41. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-7a8f369d90}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Coates, B. J., K. David, and D. Gardner. 1997. A guide to the birds of Wallacea: Sulawesi, the Moluccas, and Lesser Sunda Islands, Indonesia. Dove Publications.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-bb51fb7a67}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

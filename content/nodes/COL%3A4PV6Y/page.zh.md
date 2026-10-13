@@ -1,5 +1,5 @@
-## 历史属名与物种概念 {#s-a8612dcd40}
-固定 COL26.8 以 Pternistis natalensis（4PV6Y）组织本页。AVONET v7 BirdLife 2020 第 2521 行与 eBird 2021 对应同名，Avibase ID 为 AVIBASE-A7002FF6；BirdTree 表对应 Francolinus natalensis，原匹配类型为 1BL to 1BT。已读 COL 的旧组合 6JLF9 指向本页接受 ID 4PV6Y。名称关联支持查回历史行，不证明各年代所有物种边界相同。
+## COL26.8 中的名称身份 {#s-a8612dcd40}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pternistis natalensis (A. Smith, 1833) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与推算边界 {#s-081d958b45}
 形态共测 5 只（雌 1、雄 4），完整测量 3 只。鼻孔前缘至喙尖均值 16.4 mm，跗蹠 47 mm，未压平翼长 170.6 mm，手翼指数 18。这些是物种行均值，指数按 Kipp 距离／翼长 ×100 定义；不能换成个体范围或飞行速度。

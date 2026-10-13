@@ -1,18 +1,51 @@
-## Which fossil records this name represents {#s-4bca0be409}
-Matuku otagoense is accepted in the fixed PBDB dinosaur working roster, with database parent Matuku. This guide uses 3 eligible species-level occurrence records from 3 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-4bca0be409}
+Matuku otagoense is listed in the PBDB snapshot under taxon txn:333946. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-dfe9f40094}
-Collection Site HH4, Home Hills Station (H41/f95) (South Island), region code NZ, stratum name Bannockburn; database age bracket 18.7–15.9 Ma, early interval Altonian. Collection Manuherikia River site, Saint Bathans, Home Hills Station, HH1a (South Island), region code NZ, stratum name Bannockburn; database age bracket 18.7–15.9 Ma, early interval Altonian. Collection HH1b Home Hills Station (H41/f90) (South Island), region code NZ, stratum name Bannockburn; database age bracket 18.7–15.9 Ma, early interval Altonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-dfe9f40094}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-416a06b2d5}
-Selected occurrences have an outer age envelope of 18.7–15.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1309142; PBDB collection col:175632. Locality cnm=Site HH4, Home Hills Station (H41/f95); place fields cc2=NZ, stp=South Island, cny=Otago. Recorded age bounds: eag 18.7 Ma; lag 15.9 Ma; PBDB interval fields oei=Altonian. Stratigraphic fields sfm=Bannockburn. Recorded attribution Scofield et al. 2010; PBDB reference ref:57478.
 
-## Read preservation setting separately from living habitat {#s-da77d9c982}
-Site HH4, Home Hills Station (H41/f95) has collection-environment label lacustrine - large; collection preservation-mode label body. Manuherikia River site, Saint Bathans, Home Hills Station, HH1a has collection-environment label lacustrine - large; collection preservation-mode label body,original phosphate. HH1b Home Hills Station (H41/f90) has collection-environment label lacustrine - large; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"HH4 is a 5–15 cm thick clay-silt layer notable for the large number of shell fragments of the gastropod Glyptophysa. It is located 2.15–2.35 m above the top of an obvious oncolite layer and 25.63–25.83 m above base of Bannockburn Formation."
 
-## Follow collection records back to references {#s-7def52af0b}
-Site HH4, Home Hills Station (H41/f95) carries database reference attribution Scofield et al. (2010), identifier ref:57478. Manuherikia River site, Saint Bathans, Home Hills Station, HH1a carries database reference attribution Scofield et al. (2010), identifier ref:57478. HH1b Home Hills Station (H41/f90) carries database reference attribution Scofield et al. (2010), identifier ref:57478. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Home Hills Station, Site HH4, true left side Manuherikia River, Otago, New Zealand. 44° 54.472'S 169° 51.434'E. NZMS 260 H41/618843, New Zealand Fossil Record File Number H41/f0095.
 
-## Evidence limits {#s-f523cac755}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1309143; PBDB collection col:73690. Locality cnm=Manuherikia River site, Saint Bathans, Home Hills Station, HH1a; place fields cc2=NZ, stp=South Island, cny=Otago. Recorded age bounds: eag 18.7 Ma; lag 15.9 Ma; PBDB interval fields oei=Altonian. Stratigraphic fields sfm=Bannockburn. Recorded attribution Scofield et al. 2010; PBDB reference ref:57478.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Bed HH1a, a sand layer bound by clay layers, in the Manuherikia River section, 6.88–7.0 m above the base of the Bannockburn Formation, allocated H41/f88 in the archival Fossil Record File of the Geological Society of NZ"
+early to earliest middle Miocene (Altonian), 19-16 Ma, Casuarinacea biozone
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near St Bathans in Central Otago
+
+- Occurrence occ:1309144; PBDB collection col:153884. Locality cnm=HH1b Home Hills Station (H41/f90); place fields cc2=NZ, stp=South Island, cny=Otago. Recorded age bounds: eag 18.7 Ma; lag 15.9 Ma; PBDB interval fields oei=Altonian. Stratigraphic fields sfm=Bannockburn. Recorded attribution Scofield et al. 2010; PBDB reference ref:57478.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+New Zealand Fossil Record File Number H41/f88
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+true left side Manuherikia River, Home Hills Station, St Bathans, Otago, New Zealand
+
+## Age bounds on the recorded occurrences {#s-416a06b2d5}
+Across these selected PBDB rows, the largest recorded eag=18.7 Ma in occ:1309142; the smallest recorded lag=15.9 Ma in occ:1309142. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-da77d9c982}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1309142: PBDB original-identification field idn=Matuku otagoense n. gen. n. sp.; PBDB taxon-name field tna=Matuku otagoense; material note ocm=NMNZ S.50003 (holotype). NMNZ S.50852, NMNZ S.50853 (paratypes); abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=169.857224, lat=-44.908054; paleocoordinate/model fields pm1=gplates, pln=-175.64, pla=-46.44.
+- occ:1309143: PBDB taxon-name field tna=Matuku otagoense; material note ocm=NMNZ S.50004, NMNZ S.50854; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=169.858337, lat=-44.908054; paleocoordinate/model fields pm1=gplates, pln=-175.64, pla=-46.44.
+- occ:1309144: PBDB taxon-name field tna=Matuku otagoense; material note ocm=NMNZ S.51264, NMNZ S.51174; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=169.858215, lat=-44.907940; paleocoordinate/model fields pm1=gplates, pln=-175.64, pla=-46.44.
+
+## References attached to each record {#s-7def52af0b}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1309142: Recorded attribution Scofield et al. 2010; PBDB reference ref:57478.
+- occ:1309143: Recorded attribution Scofield et al. 2010; PBDB reference ref:57478.
+- occ:1309144: Recorded attribution Scofield et al. 2010; PBDB reference ref:57478.
+
+## What these records can show {#s-f523cac755}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

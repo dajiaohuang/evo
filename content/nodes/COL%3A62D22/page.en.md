@@ -10,13 +10,15 @@ The 2022 study discusses coagulation-related FIBB and ANO6 and size-related CREB
 ## Follow material scope into comparison pages {#s-1769fb25e4}
 Begin with the study names and material in [Aptenodytes forsteri](Aptenodytes_forsteri/page.en.md), [Aptenodytes patagonicus](Aptenodytes_patagonicus/page.en.md) before comparing glacial curves. Distinguish historical research units first, then the existing morphology, food, reproduction and local studies, retaining each source’s counts, times and methods.
 
-## Local data reading route {#s-28c9dcaa4b}
+## Recorded classification and direct parent {#s-28c9dcaa4b}
+COL26.8 records Aptenodytes J. F. Miller, 1778 at genus rank, with Spheniscidae Bonaparte, 1831 as its direct parent.
+
 This batch’s Aptenodytes route includes 2 measured species records. Start with Aptenodytes forsteri, Aptenodytes patagonicus. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-4f329eae15}
 Compiled mean mass endpoints in this batch are Aptenodytes patagonicus at 11731.07 g and Aptenodytes forsteri at 33569.33 g. Represented habitat categories include Marine; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-ef5193ae20}
+## Amniote Life-history archive member records {#s-ef5193ae20}
 This batch’s Aptenodytes route includes 2 historical life-history accounts; start with Aptenodytes forsteri, Aptenodytes patagonicus. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), oviposition to hatching (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-b79cd9a9ca}

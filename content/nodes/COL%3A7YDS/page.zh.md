@@ -1,4 +1,6 @@
-## 本批的物种页 {#s-1449c96b6a}
+## 记录分类与直接上级关系 {#s-1449c96b6a}
+COL26.8 将 Trachyphonus 记录为属；其直接上级记录为 Lybiidae。
+
 Trachyphonus 路径在本批含 3 条测量物种记录：Trachyphonus erythrocephalus、Trachyphonus margaritatus 与 Trachyphonus vaillantii。目录层级固定于 COL26.8；AVONET v7 数值保留历史名称和采样范围。
 
 ## 用于比较的例子 {#s-d996c5b421}

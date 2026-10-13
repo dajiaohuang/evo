@@ -1,29 +1,29 @@
-## The name and this data account {#s-5deb664ede}
-COL26.8 accepts *Melanerpes striatus* in Picidae. AVONET v7 lists it under the HBW–BirdLife 2020 name, with 5 measured individuals and a complete morphological set for 4. Not every trait necessarily uses all 5 records.
+## Row-reported mean and sample coverage {#s-5deb664ede}
+The AVONET v7 row for Melanerpes striatus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 23.1 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-516ce93302}
-At standardized landmarks, mean beak length is 23.1 mm from the front edge of the nostril to the tip. Width and depth at that edge are both 6.7 mm. These are separate measurements, not thresholds for field identification.
+## Beak measurements at defined landmarks {#s-516ce93302}
+AVONET records culmen length (bill tip to skull base) 32.2 mm; beak length (nostril front edge to tip) 23.1 mm; beak width at the nostril front edge 6.7 mm; beak depth at the nostril front edge 6.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-f52770cf76}
-Mean unflattened wing length—from the carpal joint to the longest primary feather—is 117.2 mm; mean tarsus length is 23.8 mm. A separate compilation reports mean mass of 73.4 g (source category Dunning). The mass value is a species average from another source, not a claim that each measured bird was weighed.
+## Wing and body measures use separate sources {#s-f52770cf76}
+AVONET records unflattened wing length 117.2 mm; tarsus length 23.8 mm; distance from first secondary tip to longest primary tip 23 mm; length to first secondary tip 90.5 mm; hand-wing index 20.3; tail length 87.2 mm; species-average body mass 73.4 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-08b87a75c1}
-The comparison categories are Forest for habitat, Invertivore for trophic niche and Insessorial for lifestyle. They describe the dataset's dominant labels, not exclusive habitat or food use.
+## Recorded habitat and feeding categories {#s-08b87a75c1}
+AVONET classifies Melanerpes striatus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-8df06d5aca}
-The migration field classifies the record as sedentary. Historical breeding and resident maps extend between latitude endpoints 17.54° and 19.95°. They do not capture every non-breeding movement and are not a current-position or global-occupancy estimate. The geography and body measurements were compiled separately.
+## The migration label has a limited scope {#s-8df06d5aca}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 17.54° to 19.95°. The mapped range area is 74161.47 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-cdc542793e}
-An older *Melanerpes striatus* record in EltonTraits 1.0 supplies two ecological field groups for comparison with the accepted COL26.8 entry. It uses an earlier bird or MSW3 mammal taxonomy, so the shared name and family do not settle later splits or synonymies.
+## Scope of the historical trait entry {#s-cdc542793e}
+EltonTraits 1.0 has a same-name, same-family record for Melanerpes striatus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-d893ecbebb}
-The nonzero weights are invertebrates 60%, fruit 20%, nectar, pollen and plant exudates 10%, and a combined seeds, nuts and spores category 10%. Code A indicates high compiler confidence in the source and diet information. These are standardized interpretations of written descriptions, not measured diet proportions; a zero does not prove a food is never eaten. Nect, Seed and PlantO cover broader categories than their everyday names and do not mean exclusive use of nectar, seeds or plants.
+## Relative weights across food categories {#s-d893ecbebb}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 60%; fruit 20%; nectar 10%; seeds or nuts 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-3564d5ddd3}
-The species-level feeding-position weights are 60% in trees or tall bushes from 2 m upward but below the canopy, 20% in understory, edges or shrubs below 2 m, and 20% within or just above the canopy. They indicate relative feeding-position use, not nest sites, all habitat or a full-day time budget. The source defines surface-water, understory, mid/high, canopy and aerial positions separately; they are not elevation bands and cannot be converted to flight heights or habitat area.
+## Foraging positions are not a time budget {#s-3564d5ddd3}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 20%; in mid-height or high vegetation 60%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-b037d0f831}
-The selected field groups carry Ref_7 labels. Diet, feeding position and activity can rely on different sources, and the same number in bird and mammal tables does not necessarily identify the same work. The archive retains the complete source strings with file, row, field group and reference table. The underlying books and papers have not been read individually; labels do not count as additional observations.
+## Sources and field limits {#s-b037d0f831}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-6c8d3f8a31}
 AVONET v7 supplies historical comparisons, not a complete species account. The morphological figures are sample-based species averages, not identification diagnoses or individual-variation ranges. Mass comes from separate cited literature or weighing sources, so the morphology sample counts do not apply to mass. Habitat, diet and migration are broad categories; the map summary covers historical breeding and resident ranges only. The one-to-one historical crosswalk and catalogue name support the association but do not establish that species concepts stayed equivalent after splits or lumps. Other sources are needed for reproduction, current populations and conservation.

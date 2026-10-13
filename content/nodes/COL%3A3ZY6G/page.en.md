@@ -1,29 +1,29 @@
-## Name and AVONET sample {#s-edff7c6e1d}
-COL26.8 accepts Mesembrinibis cayennensis within Threskiornithidae. AVONET v7 reports its morphology and ecology under the HBW–BirdLife 2020 name. Nine individuals were measured, 4 with a complete morphological set; usable samples may vary by trait.
+## Row-reported mean and sample coverage {#s-edff7c6e1d}
+The AVONET v7 row for Mesembrinibis cayennensis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 92.5 mm. The row records 9 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions {#s-15f275e4d6}
-Mean beak length is 92.5 mm from the front edge of the nostril to the tip; width is 11.8 mm and depth 16.3 mm at that edge. These are separate measurements at standardized landmarks, not identification cutoffs.
+## Beak measurements at defined landmarks {#s-15f275e4d6}
+AVONET records culmen length (bill tip to skull base) 116.6 mm; beak length (nostril front edge to tip) 92.5 mm; beak width at the nostril front edge 11.8 mm; beak depth at the nostril front edge 16.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-3f5d972953}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 296.1 mm; mean tarsus length is 60.3 mm. AVONET’s compiled mean mass is 756 g, sourced to Dunning. This is separate species-average information, not necessarily a measurement from the morphology sample.
+## Wing and body measures use separate sources {#s-3f5d972953}
+AVONET records unflattened wing length 296.1 mm; tarsus length 60.3 mm; distance from first secondary tip to longest primary tip 76.6 mm; length to first secondary tip 229.5 mm; hand-wing index 25; tail length 153.3 mm; species-average body mass 756 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Broad habitat and ecology categories {#s-66f39d9fd6}
-AVONET assigns Forest habitat, an Aquatic predator trophic niche and a Terrestrial primary lifestyle. These are broad comparison labels, not a complete habitat or diet description.
+## Recorded habitat and feeding categories {#s-66f39d9fd6}
+AVONET classifies Mesembrinibis cayennensis as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and mapped range {#s-28d84f2ecc}
-The migration field is sedentary. Historical breeding and resident maps span latitude −29.1° to 15.41°. They do not describe all non-breeding movements, a current position or occupancy throughout the span. Geography and morphology come from separate compilation steps.
+## Mapped range is not a locality list {#s-28d84f2ecc}
+Historical breeding and resident maps span latitude endpoints -29.1° to 15.41°. The mapped range area is 10576805.93 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## A second historical ecology source {#s-de9710ed12}
-EltonTraits 1.0 has a same-name, same-family Mesembrinibis cayennensis entry with diet and foraging-stratum groups available. Its older taxonomy does not settle later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-de9710ed12}
+EltonTraits 1.0 has a same-name, same-family record for Mesembrinibis cayennensis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Standardized food weights {#s-69da4a49a4}
-The archive assigns 80% to invertebrates and 20% to other plant material; the source’s PlantO category also includes fungi. Code A indicates high compiler confidence in the source and diet information. These weights translate written descriptions, not measured diet shares; zero would not prove a food is never taken. Nect, Seed and PlantO are broader categories than their everyday labels.
+## Relative weights across food categories {#s-69da4a49a4}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; other plant material 20%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Ground and water-surface feeding positions {#s-00ceb04d95}
-The species-level foraging weights are 60% on the ground and 40% on or just below the water surface. These describe relative feeding positions, not nest sites, all habitat or a time budget. Source classes for water, understory, mid/high, canopy and aerial use have separate definitions; they are not elevation bands or flight heights.
+## Foraging positions are not a time budget {#s-00ceb04d95}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 40%; on the ground 60%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## The source label {#s-4ce8869c01}
-The used groups cite Ref_1. The archive retains the source string with its file, row, field group and reference-table location. This label traces material, not an additional observation; the underlying work has not been individually reviewed here.
+## Sources and field limits {#s-4ce8869c01}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits across these historical sources {#s-f4674e9149}
 This page combines AVONET v7 with EltonTraits 1.0 and is not a complete species account. AVONET morphology values are sample means, its mass has separate provenance, ecological labels are broad and maps are historical. EltonTraits weights are standardized from literature descriptions, not direct measurements. Same-name and same-family matches support association, not equivalence to the current COL26.8 concept. The underlying species literature was not individually reviewed. Current diet, range, population and conservation need other sources.

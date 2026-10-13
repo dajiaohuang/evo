@@ -1,19 +1,38 @@
 ## Which fossil records this name represents {#s-fb55057891}
 Serbelodon burnhami is accepted in the fixed PBDB mammalia working roster, with database parent Serbelodon. This guide uses 4 eligible species-level occurrence records from 4 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-54642a7d6a}
-Collection Dove Spring (Lower) (California), region code US, stratum name Dove Spring; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Collection Dove Spring (Middle) (California), region code US, stratum name Dove Spring; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Collection Iron Canyon (Upper) (California), region code US, stratum name Dove Spring; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Serbelodon burnhami is listed in the PBDB snapshot under taxon txn:51516. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-513c7a0e6d}
-Selected occurrences have an outer age envelope of 12.5–9.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Dove Spring (Lower), occurrence occ:191541 (12.5–9.4 Ma); one supplying the younger bound is Dove Spring (Lower), occurrence occ:191541 (12.5–9.4 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-54642a7d6a}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-b60e49ffbf}
-Dove Spring (Lower) has collection-environment label terrestrial indet.; collection preservation-mode label body. Dove Spring (Middle) has collection-environment label terrestrial indet.; collection preservation-mode label body. Iron Canyon (Upper) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:191541; PBDB collection col:19322. Locality cnm=Dove Spring (Lower); place fields cc2=US, stp=California, cny=Kern. Recorded age bounds: eag 12.5 Ma; lag 9.4 Ma; PBDB interval fields oei=Clarendonian. Stratigraphic fields sfm=Dove Spring, sls=DoveS, slb=4, slo=bottom to top. Recorded attribution Whistler and Burbank 1992; PBDB reference ref:3627.
 
-## Follow collection records back to references {#s-c42c395338}
-Dove Spring (Lower) carries database reference attribution Whistler and Burbank (1992), identifier ref:3627. Dove Spring (Middle) carries database reference attribution Whistler and Burbank (1992), identifier ref:3627. Iron Canyon (Upper) carries database reference attribution Whistler and Burbank (1992), identifier ref:3627. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:191559; PBDB collection col:19323. Locality cnm=Dove Spring (Middle); place fields cc2=US, stp=California, cny=Kern. Recorded age bounds: eag 12.5 Ma; lag 9.4 Ma; PBDB interval fields oei=Clarendonian. Stratigraphic fields sfm=Dove Spring, sls=DoveS, slb=5, slo=bottom to top. Recorded attribution Whistler and Burbank 1992; PBDB reference ref:3627.
+
+- Occurrence occ:191793; PBDB collection col:19384. Locality cnm=Iron Canyon (Upper); place fields cc2=US, stp=California, cny=Kern. Recorded age bounds: eag 12.5 Ma; lag 9.4 Ma; PBDB interval fields oei=Clarendonian. Stratigraphic fields sfm=Dove Spring, sls=DoveS, slb=2, slo=bottom to top. Recorded attribution Whistler and Burbank 1992; PBDB reference ref:3627.
+
+## Age bounds on the recorded occurrences {#s-513c7a0e6d}
+Across these selected PBDB rows, the largest recorded eag=12.5 Ma in occ:191541; the smallest recorded lag=9.4 Ma in occ:191541. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-b60e49ffbf}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:191541: PBDB taxon-name field tna=Serbelodon burnhami; PBDB locality-coordinate fields lng=-118.500000, lat=35.299999; paleocoordinate/model fields pm1=gplates, pln=-112.7, pla=37.87.
+- occ:191559: PBDB taxon-name field tna=Serbelodon burnhami; PBDB locality-coordinate fields lng=-118.500000, lat=35.299999; paleocoordinate/model fields pm1=gplates, pln=-112.7, pla=37.87.
+- occ:191793: PBDB taxon-name field tna=Serbelodon burnhami; PBDB locality-coordinate fields lng=-118.500000, lat=35.299999; paleocoordinate/model fields pm1=gplates, pln=-112.7, pla=37.87.
+
+## References attached to each record {#s-c42c395338}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:191541: Recorded attribution Whistler and Burbank 1992; PBDB reference ref:3627.
+- occ:191559: Recorded attribution Whistler and Burbank 1992; PBDB reference ref:3627.
+- occ:191793: Recorded attribution Whistler and Burbank 1992; PBDB reference ref:3627.
 
 ## Evidence limits {#s-7432555a55}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

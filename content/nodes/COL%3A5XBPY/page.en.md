@@ -1,15 +1,15 @@
-## Name and this data account {#s-4be5ad9d24}
-Carlia sukur is accepted in pinned COL26.8 within Scincidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-4be5ad9d24}
+COL26.8 records Carlia sukur as an accepted species. The ReptTraits v1-2 row gives its Family field as Scincidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-5ca452849d}
-Recorded dimensions are reported maximum snout–vent length (SVL) 41 mm; female maximum snout–vent length (SVL) 40.7 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-5ca452849d}
+The row reports a maximum SVL of 41 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 40.7 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## How to read reproductive records {#s-5739af2fe4}
-Consolidated mean offspring or eggs per litter/clutch 2. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-5739af2fe4}
+The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020.
 
-## Evidence limits {#s-4b82032edd}
-This supplemental account uses limited trait material and does not count as complete morphology or ecology. This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-4b82032edd}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-bce176628b}
-This batch interprets 3 traits with field-specific source labels. Uninterpreted fields: Maximum male length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum total length ("TL", mm); Smallest clutch size; Largest clutch size; Number of litters or clutches produced per year; Egg length (mm); Egg width (mm); Microhabitat; Diet; Active time; Foraging mode; Reproductive mode; Sex-determining mechanism (GSD or TSD). A supported value/category and source combination is not established here for these fields; relatives and blank entries do not fill species facts.
+## Reading this compiled trait record {#s-bce176628b}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

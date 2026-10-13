@@ -1,5 +1,5 @@
-## 沿旧 Porzana／Amaurornis 组合查历史行 {#s-3354b39791}
-本页按 COL26.8 的 Zapornia flavirostra（CPPDH）组织。BirdLife 2020 第 2734 行与 eBird 2021 第 11173 行同名，Avibase ID 为 AVIBASE-148F0B01，类型 1BL to 1eBird；BirdTree 第 11110 行记 Amaurornis flavirostra，类型 1BL to 1BT。本次读到目录异名 CK9T，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-3354b39791}
+《Catalogue of Life》COL26.8（2026-08-20）将 Zapornia flavirostra (Swainson, 1837) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-d4b2e13a1d}
 形态共 5 只鸟：雌 2、雄 3、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 12.5 mm、跗蹠 40.4 mm、未压平翼长 98.8 mm、尾长 41 mm、手翼指数 17.7 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

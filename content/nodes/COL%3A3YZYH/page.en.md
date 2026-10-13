@@ -1,33 +1,33 @@
-## Two historical feeding records and their limits {#s-1820f1df38}
-COL26.8 accepts Megazosterops palauensis in Zosteropidae. EltonTraits 1.0 has a historical entry with the same name and family, carrying two field groups here: diet and foraging stratum. Its earlier bird or MSW3 mammal taxonomy does not settle later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-1820f1df38}
+EltonTraits 1.0 has a same-name, same-family record for Megazosterops palauensis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-89c095a7e5}
-The nonzero food weights are invertebrates 40%, fruit 40%, and nectar, pollen and plant exudates 20%. Source code A records high compiler confidence in the source and diet information. The percentages standardize verbal descriptions; they are not measurements of diet composition, and a zero does not show that an item is never eaten. Nect, Seed and PlantO are broader source categories than their everyday names suggest, so they do not mean the bird eats only nectar, seeds or plants.
+## Relative weights across food categories {#s-89c095a7e5}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 40%; fruit 40%; nectar 20%. Its dominant five-category label is FruiNect. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-bd5428d978}
-The archive marks these feeding-position weights as species-level: trees or high bushes from 2 m upward but below the canopy, 60%; understory, edges or shrubs below 2 m, 40%. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. The source defines surface-water, understory, mid/high, canopy and aerial categories separately; they are not elevation bands and cannot establish flight heights or habitat area.
+## Foraging positions are not a time budget {#s-bd5428d978}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 40%; in mid-height or high vegetation 60%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-e8159bbeaf}
-The selected diet and foraging groups carry the labels Ref_13 and Ref_42. Diet, feeding strata and activity can draw on different material, and a Ref number in a bird table does not necessarily identify the same work as that number in a mammal table. The archived strings are traceable by file, row, field group and reference table. The underlying books and papers have not been read individually, so the labels do not represent additional independent observations.
+## Sources and field limits {#s-e8159bbeaf}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Pratt, H. D., P. L. Bruner, and D. G. Berrett. 1987. A field guide to the birds of Hawaii and the tropical Pacific. Princeton University Press Princeton, NJ.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-1aae3dfbb4}
 This historical same-name, same-family EltonTraits 1.0 entry is not a complete species account, and its identity is not proven equivalent to the accepted COL26.8 concept. The diet and foraging percentages are coarse relative weights standardized from literature descriptions, not direct measurements of stomach contents, intake, energy use or observation time. Avian A/B diet codes retain uncertainty in source and proportions. Mammalian ABC diet or activity codes can draw on a congener considered ecologically similar by the compilers; they are not direct observations of this bird. Genus- or family-level typical values, non-species-level stratum values and records affected by later splits are not treated here as definite species observations. The underlying books and papers have not been read individually. Current range, population status, conservation and local or seasonal variation need other sources.
 
-## A second historical source and its name matches {#s-9b17e9ac42}
-COL26.8 accepts Megazosterops palauensis in Zosteropidae. AVONET v7 also has a same-name, same-family historical entry, with one-to-one BirdLife/eBird and BirdLife/BirdTree crosswalks. Those matches associate records; they do not establish that species concepts remained equivalent through later splits or lumps.
+## A historical name within this ecology row {#s-9b17e9ac42}
+The AVONET row uses historical BirdLife name Megazosterops palauensis. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-3753a43282}
-The source classifies the habitat as tall-tree vegetation with a relatively closed canopy, the trophic niche as drawing on multiple feeding niches, and the primary lifestyle as spending much time perched above ground on vegetation, rocks or other substrates. The multiple-niche label does not give the same proportions for every season, region or individual. These broad categories do not replace food lists, behavioural observations or descriptions of local microhabitats.
+## Recorded habitat and feeding categories {#s-3753a43282}
+The ecology-only AVONET row classifies Megazosterops palauensis as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-019b33b4ee}
-The migration category is sedentary. Regional seasonal movements are not listed separately, and this entry gives no current routes, schedules or movement distances for every population.
+## The migration label has a limited scope {#s-019b33b4ee}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-0d5f1d664b}
-The historical breeding and resident maps span latitude endpoints 6.97° to 7.73°. The source worksheet links these values to BirdLife/HBW 2019.1 maps accessed on 27 March 2020. The endpoints summarize a mapped range; they are neither a list of localities nor evidence that the species occupies every point within it. They do not give a complete account of non-breeding movements or establish current distribution, survival or conservation status.
+## Mapped range is not a locality list {#s-0d5f1d664b}
+Historical breeding and resident maps span latitude endpoints 6.97° to 7.73°. The mapped range area is 413.29 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-68358cb951}
-All four ecological categories represented here have readable records, but these broad fields still leave the species’ ecology incomplete. The latitude endpoints describe a historical map, not a present-day range. The source does not flag biometric inference; it attributes mass to an EltonTraits mass–length model. Morphological dimensions and mass are not interpreted here, and there is no complete account of reproduction, growth or conservation. A missing field does not show that the species lacks the trait.
+## Fields outside this ecology-only view {#s-68358cb951}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
-## Limits of these historical data {#s-45989bd6d4}
-AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Matching names and families, together with the one-to-one BirdLife/eBird/BirdTree crosswalks, associate these records but do not prove equivalence with the current COL26.8 species concept. The ecological fields are broad categories derived from literature, which was not read individually here. The source does not flag biometric inference and identifies the mass value as coming from an EltonTraits model; morphology and mass therefore remain uninterpreted rather than direct measurements in this account. The historical maps cover breeding and resident ranges, not current population, occupancy or conservation assessments.
+## Limits of this historical ecology record {#s-45989bd6d4}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 

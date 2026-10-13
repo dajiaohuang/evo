@@ -1,4 +1,4 @@
-## 从已有历史条目开始 {#s-ab4c142234}
+## 记录分类与成员材料 {#s-ab4c142234}
 Felinae 的本地 PanTHERIA 路径包括 14 条可用数据导读，可从 Caracal caracal、Catopuma temminckii、Felis margarita、Leopardus wiedii、Lynx canadensis 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-4c7787d811}
@@ -17,14 +17,14 @@ Felinae 的本批路线包含 1 个历史条目，可从 Leopardus tigrinus 开�
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 Felinae 的路线分别保留不同样本：PanTHERIA 列有 14 条可用资料，另有一条受限路线涉及 Catopuma badia；2015 年段落显示一条 25 个名称的路线，以及另一组 13 条生活史资料，其中妊娠见于 12 条、首次繁殖年龄见于 9 条、最高寿命纪录见于 11 条。EltonTraits 列有 28 条记录，其中 27 条含活动时段代码，另有一条仅含食物字段的 Leopardus tigrinus 记录。这些计数描述各来源覆盖，不是当前亚科的完整名册。
 
-## 从已有历史条目开始 {#s-c35071a93c}
-Felinae 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 [Catopuma badia](Catopuma/Catopuma_badia/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-c35071a93c}
+Felinae 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Catopuma badia 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-8896b4256e}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-d20fb1a35a}
-Felinae 本批有 13 个历史生活史资料页，可从 [Acinonyx jubatus](Acinonyx/Acinonyx_jubatus/page.zh.md)、[Caracal caracal](Caracal/Caracal_caracal/page.zh.md)、[Catopuma temminckii](Catopuma/Catopuma_temminckii/page.zh.md)、[Felis margarita](Felis/Felis_margarita/page.zh.md)、[Leopardus wiedii](Leopardus/Leopardus_wiedii/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Felinae 本批有 13 个历史生活史资料页，可从 Acinonyx jubatus、Caracal caracal、Catopuma temminckii、Felis margarita、Leopardus wiedii 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-3878c32d45}
 本批妊娠资料见 12 页，雌性首次繁殖年龄见 9 页，最高寿命记录见 11 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

@@ -1,29 +1,29 @@
-## The name and this data account {#s-4619c64ef4}
-Scotopelia bouvieri is accepted in COL26.8 within Strigidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 3 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-4619c64ef4}
+The AVONET v7 row for Scotopelia bouvieri (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 20.1 mm. The row records 4 measured individuals, 3 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-43a2f3e36e}
-Recorded mean beak measurements are 20.1 mm from the anterior nostril edge to the tip, 10.6 mm in width and 16.6 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-43a2f3e36e}
+AVONET records culmen length (bill tip to skull base) 36.9 mm; beak length (nostril front edge to tip) 20.1 mm; beak width at the nostril front edge 10.6 mm; beak depth at the nostril front edge 16.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-b64611e0b2}
-Mean unflattened wing length from the carpal joint to the longest primary is 294.8 mm; mean tarsus length is 55.8 mm. Compiled mean mass is 636.99 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-b64611e0b2}
+AVONET records unflattened wing length 294.8 mm; tarsus length 55.8 mm; distance from first secondary tip to longest primary tip 58.4 mm; length to first secondary tip 236.4 mm; hand-wing index 19.8; tail length 162.2 mm; species-average body mass 636.99 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-c063c48ad6}
-The dataset assigns habitat Wetland, trophic niche Aquatic predator and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-c063c48ad6}
+AVONET classifies Scotopelia bouvieri as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-a98c52beac}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -7.7° to 9.28°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-a98c52beac}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -7.7° to 9.28°. The mapped range area is 3343964.51 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-e8d08bc2f3}
-Scotopelia bouvieri is accepted in pinned COL26.8 within Strigidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-e8d08bc2f3}
+EltonTraits 1.0 has a same-name, same-family record for Scotopelia bouvieri covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-23ba2840ed}
-The archive’s nonzero food weights are fish 40%; reptiles and amphibians 30%; invertebrates 20%; mammals and birds 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-23ba2840ed}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; mammals and birds 10%; reptiles and amphibians 30%; fish 40%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-b737231331}
-Foraging-stratum weights flagged as species-level in the archive are on or just below the water surface 80%; ground 20%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-b737231331}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 80%; on the ground 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-d3b5b14f86}
-Both the diet and foraging-stratum groups cite Ref_5. Diet, strata and activity can draw on different material, and a Ref number in a bird table does not identify the same source as that number in a mammal table. A reference label points to source material; it is not an additional independent observation.
+## Sources and field limits {#s-d3b5b14f86}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-98cff521b9}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

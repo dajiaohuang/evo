@@ -1,4 +1,4 @@
-## Overview {#s-b7bfdd6232}
+## Tiwai Island field-guide scope {#s-b7bfdd6232}
 This page follows the COL26.8 accepted name Colobus polykomos. Its English common name comes from the locally exact-matched MDD v2.5 record; the Chinese rendering is editorial. The available field guide centers on habitat comparisons at Tiwai Island, Sierra Leone, not a range-wide ecological summary.
 
 ## Research observations {#s-eeef3fc1e8}

@@ -1,17 +1,17 @@
-## The name and this data account {#s-cfa7f7f1e8}
-Chloropsis media is accepted in COL26.8 within Chloropseidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-cfa7f7f1e8}
+The AVONET v7 row for Chloropsis media (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 12.5 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-e940dfad13}
-Recorded mean beak measurements are 12.5 mm from the anterior nostril edge to the tip, 3.8 mm in width and 5.3 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-e940dfad13}
+AVONET records culmen length (bill tip to skull base) 20.8 mm; beak length (nostril front edge to tip) 12.5 mm; beak width at the nostril front edge 3.8 mm; beak depth at the nostril front edge 5.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-114fad673c}
-Mean unflattened wing length from the carpal joint to the longest primary is 88.5 mm; mean tarsus length is 18.6 mm. Compiled mean mass is 32.31 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-114fad673c}
+AVONET records unflattened wing length 88.5 mm; tarsus length 18.6 mm; distance from first secondary tip to longest primary tip 17.2 mm; length to first secondary tip 71.3 mm; hand-wing index 19.4; tail length 72 mm; species-average body mass 32.31 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-d7ed02db29}
-The dataset assigns habitat Forest, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-d7ed02db29}
+AVONET classifies Chloropsis media as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-5ccdb0344f}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -3.68° to 4.69°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-5ccdb0344f}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -3.68° to 4.69°. The mapped range area is 53744.78 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
 ## Evidence limits {#s-010ef29775}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

@@ -1,5 +1,5 @@
-## Separate matching names from family spelling {#s-a59436ef7a}
-Pinned COL26.8 organizes this page at Sarothrura boehmi (79PK2). BirdLife 2020 row 2722, eBird 2021 row 9382 and BirdTree row 9327 share the name, with Avibase ID AVIBASE-EBA9F2C4; link types are 1BL to 1eBird and 1BL to 1BT. Matching names locate historical sources without establishing identical species boundaries across versions. The source has Family1=Rallidae; the recorded COL ancestry places this page in Sarothruridae. Retain the original family spelling without inferring relationships from its difference.
+## A name fixed to COL26.8 {#s-a59436ef7a}
+Catalogue of Life release COL26.8 records Sarothrura boehmi Reichenow, 1900 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-cb54f12f14}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 6.1 mm, tarsus 20.9 mm, unflattened wing 83 mm, tail 25.8 mm and hand-wing index 19 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

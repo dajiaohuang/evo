@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-c3137369bd}
-Pinned COL26.8 organizes this page at Trochalopteron lineatum (596H8). BirdLife 2020 row 4926 and eBird 2021 row 10692 share the name and Avibase ID AVIBASE-67F7511E, with match type 1BL to 1eBird; BirdTree row 10625 gives Garrulax lineatus, with type 1BL to 1BT. Read COL older-combination record 3FBR9 points to this accepted ID. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-c3137369bd}
+Catalogue of Life release COL26.8 records Trochalopteron lineatum (Vigors, 1831) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-e335426abd}
 The morphology row covers 5 birds: 2 female, 3 male and 0 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 9.1 mm, tarsus 27.9 mm, unflattened wing 81.3 mm, tail 90.8 mm and hand-wing index 8.7 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

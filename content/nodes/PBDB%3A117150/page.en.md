@@ -1,18 +1,33 @@
-## Which fossil records this name represents {#s-d7cd5ce1b9}
-Glacialisaurus hammeri is accepted in the fixed PBDB dinosaur working roster, with database parent Glacialisaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-d7cd5ce1b9}
+Glacialisaurus hammeri is listed in the PBDB snapshot under taxon txn:117150. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-9f0dbea230}
-Collection Mt. Kirkpatrick, Beardmore Glacier, region code AQ, stratum name Hanson; database age bracket 199.5–184.2 Ma, early interval Sinemurian and late interval Pliensbachian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-9f0dbea230}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-52da5b1727}
-Selected occurrences have an outer age envelope of 199.5–184.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:475135; PBDB collection col:47135. Locality cnm=Mt. Kirkpatrick, Beardmore Glacier; place fields cc2=AQ. Recorded age bounds: eag 199.5 Ma; lag 184.2 Ma; PBDB interval fields oei=Sinemurian, oli=Pliensbachian. Stratigraphic fields sfm=Hanson. Recorded attribution Smith and Pol 2007; PBDB reference ref:26326.
 
-## Read preservation setting separately from living habitat {#s-318095197d}
-Mt. Kirkpatrick, Beardmore Glacier has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+collected within 1 m stratigraphically and 5 m laterally, except for "3 bones", including pterosaur (which came from 50 m below). Often described as from high in the Falla Fm. but actually from low in the Hanson.
 
-## Follow collection records back to references {#s-d2cabefbfc}
-Mt. Kirkpatrick, Beardmore Glacier carries database reference attribution Smith and Pol (2007), identifier ref:26326. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+"The presence of Dicroidium odontopteroides in the Falla Formation 300 meters below the vertebrate bearing layers of the Hanson Formation, and pollen and spore assemblages from the middle part of the Falla Formation provide an upper bound of Carnian–Norian (Late Triassic) for the base of the Hanson Formation (Kyle and Schopf 1982; Farabee et al. 1989; Elliot 1996). A radiometric date of 177±2 Ma of the overlying Prebble Formation and Kirkpatrick Basalt (Heimann et al. 1994) gives a lower bound of Aalenian (earliest Middle Jurassic) for the top of the Hanson Formation. Additional radiometric dates from the top of the Hanson Formation, including a K−Ar date of 203±3 Ma (Barrett and Elliot 1972), and an Rb−Sr isochron date of 186±9 Ma (Faure and Hill 1973), suggest that the lower part of the Hanson Formation, which includes the vertebrate−bearing horizons, is probably middle Early Jurassic (Elliot 1996)." (Smith & Pol 2007:658-659).
 
-## Evidence limits {#s-e6741c77df}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Mount Kirkpatrick, near Beardmore Glacier, Transantarctic Mtns., approx. 650 km from Souh Pole
+
+## Age bounds on the recorded occurrences {#s-52da5b1727}
+Across these selected PBDB rows, the largest recorded eag=199.5 Ma in occ:475135; the smallest recorded lag=184.2 Ma in occ:475135. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-318095197d}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:475135: PBDB original-identification field idn=Glacialisaurus hammeri n. gen. n. sp.; PBDB taxon-name field tna=Glacialisaurus hammeri; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=166.449997, lat=-84.333336; paleocoordinate/model fields pm1=gplates, pln=51.97, pla=-53.72.
+
+## References attached to each record {#s-d2cabefbfc}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:475135: Recorded attribution Smith and Pol 2007; PBDB reference ref:26326.
+
+## What these records can show {#s-e6741c77df}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

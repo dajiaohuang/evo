@@ -5,5 +5,5 @@ Garbino、Silva 与 Davis 以历史名称 Callibella humilis 报告两条新记�
 同一短文首次分析了长叫声声谱图，并将音节时长和频率与 Cebuella pygmaea、Mico argentatus 比较。这是叫声结构比较，不是全面的交流调查。
 
 ## 资料边界 {#s-6b68f6e3b2}
-这是有来源的入门页。本页依 COL26.8 使用 Mico humilis，野外论文使用 Callibella humilis。MDD 将 Callibella 记为亚属，并记录了不同的属级处理。分布陈述来自两条记录，不是当前完整分布评估。
+本页依 COL26.8 使用 Mico humilis，野外论文使用 Callibella humilis。MDD 将 Callibella 记为亚属，并记录了不同的属级处理。分布陈述来自两条记录，不是当前完整分布评估。
 

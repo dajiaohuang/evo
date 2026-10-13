@@ -1,10 +1,12 @@
-## Local data reading route {#s-f33b2ca9e4}
+## Recorded classification and direct parent {#s-f33b2ca9e4}
+COL26.8 records Tanysiptera at genus rank, with Halcyoninae as its direct parent.
+
 This batch’s Tanysiptera route includes 5 measured species records. Start with Tanysiptera danae, Tanysiptera galatea, Tanysiptera hydrocharis, Tanysiptera nympha, Tanysiptera riedelii. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-3ee645da29}
 Compiled mean mass endpoints in this batch are Tanysiptera hydrocharis at 33 g and Tanysiptera riedelii at 63.5 g. Represented habitat categories include Forest; trophic niches include Invertivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-9c6748d3b9}
+## Amniote Life-history archive member records {#s-9c6748d3b9}
 This batch’s Tanysiptera route includes 2 historical life-history accounts; start with Tanysiptera galatea, Tanysiptera riedelii. More frequently represented fields include adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), longest lifespan record in the compilation (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-2c2c71dcec}
@@ -13,18 +15,18 @@ This batch’s Tanysiptera route includes 6 historical entries; start with Tanys
 ## Compare food, feeding positions and activity periods {#s-1e4d9b0818}
 This batch’s Tanysiptera route includes 2 historical entries; start with Tanysiptera ellioti, Tanysiptera riedelii. Food-category weights are available in 0, foraging strata in 2, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-72a28dff3f}
+## Limits attached to these records {#s-72a28dff3f}
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
-This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
+This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the limited ecology records {#s-a8c3f632d7}
-This batch offers 2 limited ecology accounts under Tanysiptera. Start with [Tanysiptera carolinae](Tanysiptera_carolinae/page.en.md), [Tanysiptera ellioti](Tanysiptera_ellioti/page.en.md). Records follow pinned COL26.8 navigation; the count covers this batch’s authored entries rather than all accepted species.
+## Recorded classification and member material {#s-a8c3f632d7}
+This batch offers 2 limited ecology accounts under Tanysiptera. Start with Tanysiptera carolinae, Tanysiptera ellioti. Records follow pinned COL26.8 navigation; the count covers this batch’s authored entries rather than all accepted species.
 
 ## What is readable and what remains uninterpreted {#s-ea6d91bd4e}
 Recorded category counts are 2 for habitat, 2 for feeding niche, 2 for primary lifestyle, and 2 for migration. Read the original definitions and distinguish categories, historical maps and individual observations. Shared labels do not establish a lifestyle for every descendant. Beak, wing, tarsus, tail and mass fields remain uninterpreted in this batch and do not establish a group size comparison.
 
-## Limits of these historical data {#s-fb9914d997}
+## AVONET material route {#s-fb9914d997}
 This entry covers this batch’s limited historical ecology records, not every accepted descendant. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
 

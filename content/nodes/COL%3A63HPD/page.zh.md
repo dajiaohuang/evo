@@ -1,4 +1,6 @@
-## 本页代表的记录 {#s-642a4b5afa}
+## 记录分类与直接上级关系 {#s-642a4b5afa}
+COL26.8 将 Otus 记录为属；其直接上级记录为 Striginae。
+
 AVONET v7 收录 21 种 Otus 的测量记录，例如 Otus bakkamoena、O. brucei、O. capnodes、O. collari 和 O. elegans。目录层级按固定 COL26.8 组织，生物学数值保留来源的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-7bff875adf}
@@ -19,7 +21,7 @@ AVONET v7 在此总结 21 种有测量记录的后代，且有历史一对一分
 24 条记录构成同时有食物和觅食层位字段的子集；另 17 条仅有层位字段。两组都是历史同名、同科资料，不是完整后代名册。百分比将文献描述标准化，并不证明全属共有特征；来源分类和逐条解释仍很重要。
 
 ## 证据有限的生态记录 {#s-cddf40e165}
-15 个 Otus 页面只有有限生态证据。可从 [Otus alfredi](Otus_alfredi/page.zh.md)、[Otus alius](Otus_alius/page.zh.md)、[Otus angelinae](Otus_angelinae/page.zh.md)、[Otus balli](Otus_balli/page.zh.md) 或 [Otus beccarii](Otus_beccarii/page.zh.md) 开始。页面链接沿固定 COL26.8 分类排列；这个数量不是全部接受种数。
+15 个 Otus 页面只有有限生态证据。可从 Otus alfredi、Otus alius、Otus angelinae、Otus balli 或 Otus beccarii 开始。页面链接沿固定 COL26.8 分类排列；这个数量不是全部接受种数。
 
 ## 哪些内容可读，哪些仍未解读 {#s-1c3ab409b9}
 在这 15 个有限生态页面中，14 页有栖地类别，10 页有食性生态位，15 页有主导活动方式，15 页有迁移类别。这些是来源分类；相同标签不代表每个后代都具有相同生活方式。这些页面上的喙、翼、跗蹠、尾和体重字段在此未作解释，不能据此建立全属体型比较。

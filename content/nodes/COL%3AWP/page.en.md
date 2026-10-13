@@ -1,33 +1,39 @@
-## What the PanTHERIA entries cover {#s-84137d8462}
-The PanTHERIA route linked here includes 35 accounts with usable values. Start with Balaenoptera musculus, Balaenoptera physalus, Cephalorhynchus commersonii, Cephalorhynchus hectori, or Delphinapterus leucas. Each page keeps its historical MSW05 name, the conditions attached to each variable, and missing values. COL26.8 supplies the current navigation; these historical rows are not a count of currently accepted cetacean species.
+## PanTHERIA preserves historical cetacean entries {#s-84137d8462}
+The PanTHERIA route links historical entries such as *Balaenoptera musculus*, *B. physalus*, *Cephalorhynchus commersonii*, *C. hectori* and *Delphinapterus leucas*. Each species page retains its MSW05 name, variable-specific conditions and missing values. COL26.8 organizes current navigation; this archive selection is not a modern species census.
 
 ## Adult-mass values are summaries {#s-d47dd9f797}
 Among consolidated adult-mass values in this PanTHERIA set, Neophocaena phocaenoides is at 32500 g and Balaenoptera musculus at 154321304.5 g. These are endpoints of historical medians adjusted for sex, not individual extremes. Fetal development, weaning, activity and group measures have their own definitions; body size alone does not establish a shared lifestyle across Cetacea.
 
-## Compare life-history fields one at a time {#s-6181a00972}
-The 2015 life-history route contains 55 historical accounts. Begin with Balaena mysticetus, Eubalaena australis, Eubalaena glacialis, Eubalaena japonica, or Balaenoptera acutorostrata. Adult body mass appears in 55 entries; female age at first conception in 52; offspring per litter or eggs per clutch in 52; and the interval from conception or fertilization to birth in 52. These counts describe the linked records, not the full set of accepted species. Check each field's event, unit and source before comparing values.
+## Life-history fields remain species-specific {#s-6181a00972}
+The 2015 route includes historical accounts for *Balaena mysticetus*, *Eubalaena australis*, *E. glacialis*, *E. japonica* and *Balaenoptera acutorostrata*. Adult mass, age at first conception, offspring per litter or clutch, and the interval from conception to birth are separate measures. Check each field’s event definition, unit and source before comparing values.
 
-## Feeding records describe separate measures {#s-91b973ba4b}
-The EltonTraits route contains 56 historical entries; start with Balaena mysticetus, Eubalaena australis, Eubalaena glacialis, Eubalaena japonica, or Balaenoptera physalus. Food-category weights and feeding strata appear in 56 entries each, while activity periods appear in 28. The weights are coarse estimates, and activity is recorded in categories or as a binary value. These records do not establish an ecology shared by all Cetacea, and the counts are not a complete accepted-species denominator.
+## EltonTraits separates diet, depth and activity {#s-91b973ba4b}
+The EltonTraits route includes entries such as *Balaena mysticetus*, *Eubalaena australis*, *E. glacialis*, *E. japonica* and *Balaenoptera physalus*. Food-category weights are coarse standardized values, feeding strata describe a separate field, and activity periods use categories or binary coding. These summaries do not define ecology shared by all cetaceans.
 
-## Evidence limits {#s-800ee4371c}
-The PanTHERIA summaries include only historical entries with at least three focal fields, a matching name and family, and a one-to-one link between historical classifications. Their endpoints are consolidated values, not individual extremes; source conditions can differ by field. The 2015 life-history route uses same-name, same-family entries with at least three supported focal fields. Its medians, longest-lifespan records and inherited historical taxonomy do not establish that all descendants share a reproductive mode or life history. EltonTraits contributes same-name, same-family entries with at least two usable ecological field groups. Its standardized weights and activity categories are not traits shared by the entire group, and some mammalian ABC fields elsewhere in the archive can draw on congeners. None of these historical routes resolves current species concepts, distribution or conservation status; use the linked species pages and original variable definitions for field-level limits.
+## Keep the archive scopes and limits distinct {#s-800ee4371c}
+PanTHERIA links historical names through its own same-name and family rules; the 2015 life-history route uses separate taxonomic matching and summary methods; EltonTraits standardizes ecological descriptions into fields. None is a complete account of current Cetacea. For the 2015 Amniote archive, non-longevity values are medians or interpolated medians; maximum longevity is the longest recorded value, not an average. Some mammalian ABC entries may draw on congeners.
 
-## PanTHERIA entries with at least one focal field {#s-8faa337763}
-Thirteen PanTHERIA accounts in this route have at least one usable value. Read [Caperea marginata](Mysticeti/Neobalaenidae/Caperea/Caperea_marginata/page.en.md), [Cephalorhynchus eutropia](Odontoceti/Delphinidae/Cephalorhynchus/Cephalorhynchus_eutropia/page.en.md), [Cephalorhynchus heavisidii](Odontoceti/Delphinidae/Cephalorhynchus/Cephalorhynchus_heavisidii/page.en.md), [Feresa attenuata](Odontoceti/Delphinidae/Feresa/Feresa_attenuata/page.en.md), or [Lagenorhynchus australis](Odontoceti/Delphinidae/Lagenorhynchus/Lagenorhynchus_australis/page.en.md) to see how each historical MSW05 name, variable-specific condition and missing value is retained. COL26.8 organizes current navigation; 13 historical rows do not count today's accepted species.
+## PanTHERIA entries with sparse fields {#s-8faa337763}
+A separate PanTHERIA selection includes records such as *Caperea marginata*, *Cephalorhynchus eutropia*, *C. heavisidii*, *Feresa attenuata* and *Lagenorhynchus australis*. The species pages retain each historical MSW05 name, its available variable conditions and missing values. COL26.8 supplies current navigation; these records do not define today’s accepted-species list.
 
 ## Read the mass values with their status {#s-7f17bd4099}
 Among interpreted historical adult-mass summaries, Cephalorhynchus heavisidii is at 39999.99 g and Feresa attenuata at 170000 g. These are endpoints from different compiled records, not individual extremes. A Caperea marginata mass value is listed but is not included in the comparison. Each life-history field also needs to be read with the definition given on its page.
 
-## What these historical comparisons cannot establish {#s-6a4b052f1c}
-This PanTHERIA route includes historical entries with at least one focal field, a matching name and family, and a one-to-one historical correspondence. It does not cover every accepted species. The comparison endpoints are summaries of different records, not the group's individual extremes; source conditions vary by field. The historical values do not establish current species concepts, distribution or conservation status.
+## What this PanTHERIA selection cannot establish {#s-6a4b052f1c}
+This route links historical entries by recorded names and family placement and retains each field’s own source conditions. Its mass values summarize separate records, not individual extremes for Cetacea. Historical matching does not determine current species concepts, distribution or conservation status.
 
-## Life-history pages to continue with {#s-4e6ef61427}
-Thirty-eight linked Cetacea pages contain historical life-history accounts. Continue with [Balaena mysticetus](Mysticeti/Balaenidae/Balaena/Balaena_mysticetus/page.en.md), [Eubalaena australis](Mysticeti/Balaenidae/Eubalaena/Eubalaena_australis/page.en.md), [Balaenoptera physalus](Mysticeti/Balaenopteridae/Balaenoptera/Balaenoptera_physalus/page.en.md), [Balaenoptera musculus](Mysticeti/Balaenopteridae/Balaenoptera/Balaenoptera_musculus/page.en.md), or [Balaenoptera borealis](Mysticeti/Balaenopteridae/Balaenoptera/Balaenoptera_borealis/page.en.md). COL26.8 organizes the links; 38 historical same-name entries are not a count of all accepted species.
+## Species-specific life-history records {#s-4e6ef61427}
+The life-history route links pages for *Balaena mysticetus*, *Eubalaena australis*, *Balaenoptera physalus*, *B. musculus* and *B. borealis*. Read each entry for its own event definitions, units and source conditions. The links follow COL26.8 navigation, while the archived names remain historical records rather than a complete current species inventory.
 
-## Averages and longest records mean different things {#s-70c4c77a50}
-Gestation appears in 32 accounts, female age at first reproduction in 28, and maximum lifespan in 27. First reproduction is not the same event as first birth or sexual maturity; maximum lifespan is not average lifespan. Source conditions differ among traits. Missing fields need other sources, and matching names do not resolve changes in historical species concepts.
+## First reproduction and maximum lifespan differ {#s-70c4c77a50}
+The archive distinguishes gestation, female age at first reproduction and maximum lifespan. First reproduction is not first birth or sexual maturity; maximum lifespan is the longest collected record, not an average. Conditions may differ across sources, and missing values require other evidence.
 
-## How to read the life-history summaries {#s-208687f9ff}
-These 38 historical accounts are not a complete life-history survey of every accepted cetacean. Their species links use matching names and families plus a one-to-one MSW93/MSW05 name table; that does not establish equivalence to current species concepts. Except for maximum lifespan, fields generally average literature values with equal weighting. A value may be a published average, an individual observation, or a range midpoint when other data are absent; sample size does not change the weight, and the same underlying literature may recur. Maximum lifespan is the longest record, not a typical lifespan. Adult mass is not interpreted here, and missing values are not filled from relatives. Reference numbers remain on the species pages; these summaries do not resolve every study's wild, captive or locality conditions.
+## How the historical life-history values were assembled {#s-208687f9ff}
+Species entries use an MSW93/MSW05 name crosswalk, which does not prove equivalence with current concepts. Except for maximum lifespan, values generally average literature sources with equal weight; inputs may be published averages, individual values or range midpoints, and studies may recur. Adult mass is not interpreted in this route, and relatives do not fill missing fields. Wild, captive and locality conditions were not established for every source.
+
+## Cetacea is a synthesis across separate evidence {#review-synthesis}
+The 2010 review treats Cetacea through separately sampled Eocene fossils and living lineages, combining paleontological, anatomical, stratigraphic and molecular evidence. It does not document one continuous population or an exact origination event.
+
+## The fossil-to-living envelope is sample-bounded {#fossil-window}
+The displayed 53–0 Ma span is a review-bounded navigation envelope from sampled fossils through living Cetacea. It is not an exact origin date, global first or last appearance, divergence estimate, continuous-occupancy interval or direct-ancestor claim.
 

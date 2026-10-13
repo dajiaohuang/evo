@@ -1,19 +1,47 @@
 ## Which fossil records this name represents {#s-f2ca346e03}
 Ghazijhippus talibhasani is accepted in the fixed PBDB mammalia working roster, with database parent Ghazijhippus. This guide uses 8 eligible species-level occurrence records from 8 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-f822f467f3}
-Collection GH-37 (Balochistan), region code PK, stratum name Ghazij; database age bracket 56–48.07 Ma, early interval Ypresian. Collection GH-26 (Balochistan), region code PK, stratum name Ghazij; database age bracket 56–48.07 Ma, early interval Ypresian. Collection GH-31 (Balochistan), region code PK, stratum name Ghazij; database age bracket 56–48.07 Ma, early interval Ypresian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Ghazijhippus talibhasani is listed in the PBDB snapshot under taxon txn:345422. This archived guide contains 8 selected occurrence rows, linked to 8 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-3a21d5b5a7}
-Selected occurrences have an outer age envelope of 56–48.07 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is GH-37, occurrence occ:1337656 (56–48.07 Ma); one supplying the younger bound is GH-37, occurrence occ:1337656 (56–48.07 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-f822f467f3}
+The archived guide contains 8 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-d50c988913}
-GH-37 has collection-environment label marine indet.; collection preservation-mode label body. GH-26 has collection-environment label marine indet.; collection preservation-mode label body. GH-31 has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1337656; PBDB collection col:180537. Locality cnm=GH-37; place fields cc2=PK, stp=Balochistan. Recorded age bounds: eag 56 Ma; lag 48.07 Ma; PBDB interval fields oei=Ypresian. Stratigraphic fields sfm=Ghazij. Recorded attribution Missiaen and Gingerich 2014; PBDB reference ref:59912.
 
-## Follow collection records back to references {#s-d73dcc6b94}
-GH-37 carries database reference attribution Missiaen and Gingerich (2014), identifier ref:59912. GH-26 carries database reference attribution Missiaen and Gingerich (2014), identifier ref:59912. GH-31 carries database reference attribution Missiaen and Gingerich (2014), identifier ref:59912. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower part of the upper Ghazij Formation, early Eocene (Ypresian)
+
+- Occurrence occ:1337690; PBDB collection col:180548. Locality cnm=GH-26; place fields cc2=PK, stp=Balochistan. Recorded age bounds: eag 56 Ma; lag 48.07 Ma; PBDB interval fields oei=Ypresian. Stratigraphic fields sfm=Ghazij. Recorded attribution Missiaen and Gingerich 2014; PBDB reference ref:59912.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower part of the upper Ghazij Formation, early Eocene (Ypresian)
+
+- Occurrence occ:1337691; PBDB collection col:180551. Locality cnm=GH-31; place fields cc2=PK, stp=Balochistan. Recorded age bounds: eag 56 Ma; lag 48.07 Ma; PBDB interval fields oei=Ypresian. Stratigraphic fields sfm=Ghazij. Recorded attribution Missiaen and Gingerich 2014; PBDB reference ref:59912.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower part of the upper Ghazij Formation, early Eocene (Ypresian)
+
+## Age bounds on the recorded occurrences {#s-3a21d5b5a7}
+Across these selected PBDB rows, the largest recorded eag=56 Ma in occ:1337656; the smallest recorded lag=48.07 Ma in occ:1337656. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-d50c988913}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1337656: PBDB original-identification field idn=Ghazijhippus talibhasani n. gen. n. sp.; PBDB taxon-name field tna=Ghazijhippus talibhasani; material note ocm=GSP-UM 4638 - holotype; PBDB locality-coordinate fields lng=69.777298, lat=30.403799; paleocoordinate/model fields pm1=gplates, pln=70.68, pla=2.75.
+- occ:1337690: PBDB taxon-name field tna=Ghazijhippus talibhasani; material note ocm=GSP-UM 4335; PBDB locality-coordinate fields lng=69.789299, lat=30.430300; paleocoordinate/model fields pm1=gplates, pln=70.7, pla=2.77.
+- occ:1337691: PBDB taxon-name field tna=Ghazijhippus talibhasani; material note ocm=GSP-UM 4504 4505; PBDB locality-coordinate fields lng=69.786003, lat=30.429300; paleocoordinate/model fields pm1=gplates, pln=70.7, pla=2.77.
+
+## References attached to each record {#s-d73dcc6b94}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1337656: Recorded attribution Missiaen and Gingerich 2014; PBDB reference ref:59912.
+- occ:1337690: Recorded attribution Missiaen and Gingerich 2014; PBDB reference ref:59912.
+- occ:1337691: Recorded attribution Missiaen and Gingerich 2014; PBDB reference ref:59912.
 
 ## Evidence limits {#s-26b1b68294}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 8 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

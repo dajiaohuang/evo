@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-8b8404838e}
-Pinned COL26.8 organizes this page at Trochalopteron imbricatum (596H7). BirdLife 2020 row 4925 and eBird 2021 row 10691 share the name and Avibase ID AVIBASE-CE76873B, with match type 1BL to 1eBird; BirdTree row 10624 gives Garrulax imbricatus, with type 1BL to 1BT. Read COL older-combination record NZXV3 points to this accepted ID. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-8b8404838e}
+Catalogue of Life release COL26.8 records Trochalopteron imbricatum (Blyth, 1843) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-9cc10847e7}
 The morphology row covers 5 birds: 2 female, 3 male and 0 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 9.1 mm, tarsus 29.2 mm, unflattened wing 76.6 mm, tail 101.4 mm and hand-wing index 5.3 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

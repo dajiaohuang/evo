@@ -1,4 +1,6 @@
-## 目录中的位置 {#s-99390dce46}
+## 记录分类与直接上级关系 {#s-99390dce46}
+COL26.8 将 Squamata Oppel, 1811 记录为目；其直接上级记录为 Reptilia Laurenti, 1768。
+
 Squamata Oppel, 1811 在固定 COL26.8 中记录为接受分类单元，阶元为目，父级为 Reptilia。本页沿用这一目录位置。
 
 ## 从已有样本页面开始 {#s-da5be27ed5}
@@ -31,7 +33,7 @@ Squamata 是本批 PBDB 路径中的 未定级演化支（unranked clade） 分�
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 此路线只介绍本批已写物种出现记录，不是完整后代名册或统一生态总结。记录数不是标本、个体、种群或采样强度的可比测量；年代外包区间不是实际起源与灭绝时间。PBDB 分类路径用于资料编排，与 COL 和其他系统发育方案保持来源区分；。
 
-## 从有性状记录的物种开始 {#s-7575423b75}
+## 记录分类与成员材料 {#s-7575423b75}
 Squamata 的本批 ReptTraits 阅读路径包含 7138 条同名同科、有逐性状出处的物种资料，可从 Ablepharus alaicus、Ablepharus bivittatus、Ablepharus budaki、Ablepharus chernovi、Ablepharus deserti 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-58841d7e6a}
@@ -43,8 +45,8 @@ Squamata 的本批 ReptTraits 阅读路径包含 7138 条同名同科、有逐�
 ## 部分后代条目的引用缺口 {#s-893dccf7f6}
 这条 ReptTraits 阅读路径中有 119 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-bedde19a9f}
-Squamata 的本批 ReptTraits 阅读路径包含 3538 条同名同科、有逐性状出处的物种资料，可从 [Ablepharus darvazi](Autarchoglossa/Scincidae/Eugongylinae/Ablepharus/Ablepharus_darvazi/page.zh.md)、[Ablepharus eremchenkoi](Autarchoglossa/Scincidae/Eugongylinae/Ablepharus/Ablepharus_eremchenkoi/page.zh.md)、[Ablepharus mahabharatus](Autarchoglossa/Scincidae/Eugongylinae/Ablepharus/Ablepharus_mahabharatus/page.zh.md)、[Ablepharus tragbulensis](Autarchoglossa/Scincidae/Eugongylinae/Ablepharus/Ablepharus_tragbulensis/page.zh.md)、[Abronia cuchumatanus](Autarchoglossa/Anguidae/Gerrhonotinae/Abronia/Abronia_cuchumatanus/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-bedde19a9f}
+Squamata 的本批 ReptTraits 阅读路径包含 3538 条同名同科、有逐性状出处的物种资料，可从 Ablepharus darvazi、Ablepharus eremchenkoi、Ablepharus mahabharatus、Ablepharus tragbulensis、Abronia cuchumatanus 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-8b54f67b5f}
 本批已有尺寸记录中，Sphaerodactylus parthenopion 的已报道最大吻肛长（SVL）为 18 mm，Dalophia gigantea 为 705 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

@@ -1,29 +1,29 @@
-## The name and this data account {#s-5b6f55e366}
-Icterus nigrogularis is accepted in COL26.8 within Icteridae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 9 measured individuals, 9 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-5b6f55e366}
+The AVONET v7 row for Icterus nigrogularis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 15.7 mm. The row records 9 measured individuals, 9 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-f399ce9978}
-Recorded mean beak measurements are 15.7 mm from the anterior nostril edge to the tip, 6.3 mm in width and 8.3 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-f399ce9978}
+AVONET records culmen length (bill tip to skull base) 25.3 mm; beak length (nostril front edge to tip) 15.7 mm; beak width at the nostril front edge 6.3 mm; beak depth at the nostril front edge 8.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-d3d7094df7}
-Mean unflattened wing length from the carpal joint to the longest primary is 93.4 mm; mean tarsus length is 24.9 mm. Compiled mean mass is 40.2 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-d3d7094df7}
+AVONET records unflattened wing length 93.4 mm; tarsus length 24.9 mm; distance from first secondary tip to longest primary tip 17.7 mm; length to first secondary tip 75.7 mm; hand-wing index 18.9; tail length 84.7 mm; species-average body mass 40.2 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-3634adb777}
-The dataset assigns habitat Woodland, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-3634adb777}
+AVONET classifies Icterus nigrogularis as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-2fb1a8cbc4}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -1.13° to 12.63°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-2fb1a8cbc4}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -1.13° to 12.63°. The mapped range area is 1368029.34 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-e80a5e7ce8}
-Icterus nigrogularis is accepted in pinned COL26.8 within Icteridae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-e80a5e7ce8}
+EltonTraits 1.0 has a same-name, same-family record for Icterus nigrogularis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-5cb8a7de0f}
-The archive’s nonzero food weights are invertebrates 40%; nectar, pollen and plant exudates 40%; fruit 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-5cb8a7de0f}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 40%; fruit 20%; nectar 40%. Its dominant five-category label is FruiNect. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-ae6f7477b9}
-Foraging-stratum weights flagged as species-level in the archive are in or just above the canopy 100%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-ae6f7477b9}
+EltonTraits 1.0 records relative foraging-stratum weights of in the canopy 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-8c4a03e900}
-The used groups carry labels Ref_23, Ref_35. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-8c4a03e900}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: New World Blackbirds. 1999. Alvaro Jaramillo and Peter Burke. Princeton University Press; foraging: Jaramillo, A. and P. Burke. 1999. New World blackbirds: the icterids. Princeton University Press Princeton, New Jersey.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-d7d2ce2dab}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

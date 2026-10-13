@@ -1,8 +1,8 @@
-## 按来源分类组织化石记录 {#s-ec9dedb758}
-PBDB 分类路径将 Pelycosauria 记录为目级分类单元。此路线为名录中的 6 个物种提供化石出现记录导读；数据库记录的父级路径用于编排资料，不以条目数量评定类群的演化重要性，也不将这一路径视为唯一的系统发育方案。此路线只列出其中的非现生化石物种记录，不能据此断言整个类群已经灭绝。
+## PBDB 记录路径中的 Pelycosauria {#s-ec9dedb758}
+PBDB 将 Pelycosauria 记录为目级分类单元，这条路线连接到 6 个选录化石种。父级链帮助读者查找数据库记录；它不是系统发育树，也不衡量演化重要性。这里列出的是所选路线中的非现生记录，不能据此断言历史分类组合中的所有成员都已灭绝。
 
-## 从采集地、地层和年代对读 {#s-1c0ab2b003}
-可以从 Protoclepsydrops haplous、Xyrospondylus ecordi、Milosaurus mccordi、Nitosaurus jacksonorum 和 Lupeosaurus kayi 入手，再对照各页列出的具名采集记录和原始引文。本路线所列物种共有 7 条所选出现记录、6 个采集记录，地层名示例为 Joggins、Stanton、Mattoon、Cutler。先读每个采集地自己的年代区间和鉴定限定，再看不同地点之间是否可比；出现、采集和物种数量不能混用为古种群规模。
+## 六个采集记录中的七条出现记录 {#s-1c0ab2b003}
+可先从五个物种页所列记录对读：Protoclepsydrops haplous、Xyrospondylus ecordi、Milosaurus mccordi、Nitosaurus jacksonorum 和 Lupeosaurus kayi。所选路线包含 6 个采集记录中的 7 条出现记录；地层名称示例有 Joggins、Stanton、Mattoon 和 Cutler。每条记录各有自己的年代区间与鉴定限定。出现数和采集记录数是数据库条目数，不是标本或古代种群数量。
 
 ## 资料边界 {#s-d5fc036b88}
 此路线介绍的是所列物种的出现记录，不是完整后代名册或统一生态总结。记录数不能用于比较标本、个体、种群或采样强度；年代外包区间不代表实际起源或灭绝时间。PBDB 分类路径用于编排资料，不等同于 COL 分类或其他系统发育方案。

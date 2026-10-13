@@ -1,5 +1,5 @@
-## atlas-profile / overview {#s-8532e5dbfa}
-Indohyus is pieced together from separately catalogued skulls, teeth and limb bones, not a single complete skeleton. Dense limb bones and isotope measurements from several teeth support an aquatic or wading way of life, while a published phylogenetic analysis places Raoellidae as the sister group of Cetacea. The fossils do not settle diet or complete gait, and the tree does not make Indohyus a crown whale or a demonstrated ancestor.
+## Sindkhatudi material and the whale relationship {#s-8532e5dbfa}
+Indohyus is known from disarticulated Sindkhatudi material; bone density and tooth isotopes support aquatic use, while Raoellidae—not Indohyus—is sister to Cetacea.
 
 ## atlas-profile / ecology / diet {#s-3f08f4f3bc}
 Diet remains unresolved; the tooth isotopes speak more directly to water use than to food choice.
@@ -25,9 +25,9 @@ Sections through the long bones show dense bone tissue.
 ## atlas-profile / traits {#s-6da4ccd945}
 Stable-isotope measurements come from several teeth.
 
-## atlas-profile / evidenceSummary {#s-0e8b37d2d8}
-These are complementary but separate lines of evidence: a disarticulated bone-bed sample, dense limb bones, tooth isotopes and a phylogenetic analysis. They support aquatic or wading use and a raoellid sister relationship to whales, but leave diet, complete gait and direct ancestry unresolved.
+## Separate evidence for anatomy, water use and placement {#s-0e8b37d2d8}
+The Sindkhatudi sample supports aquatic or wading use and a Raoellidae–Cetacea sister relationship, but leaves diet, gait and direct ancestry unresolved.
 
-## atlas-profile / readerLimitations {#s-02323b2a11}
-The evidence joins separately catalogued skulls, limb bones and teeth, not an associated skeleton. Bone density and tooth isotopes support aquatic or wading use, but do not settle diet or a complete gait.
+## What the disarticulated sample cannot establish {#s-02323b2a11}
+Skulls, limb bones and teeth were catalogued separately rather than as an associated skeleton. Bone density and tooth isotopes support aquatic or wading use, but do not settle diet or a complete gait.
 

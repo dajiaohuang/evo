@@ -1,17 +1,17 @@
-## The name in the limited ecology record {#s-f8b69fd47d}
-Polyplectron schleiermacheri is accepted in pinned COL26.8 within Phasianidae. This section associates its same-name, same-family historical AVONET v7 record. Names and two one-to-one crosswalks do not resolve species concepts after later splits or lumps.
+## A historical name within this ecology row {#s-f8b69fd47d}
+The AVONET row uses historical BirdLife name Polyplectron schleiermacheri. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-9c4d4ecd0e}
-The recorded habitat category is woodland, forest edges or other relatively open tree habitats. The record describes resources drawn from multiple feeding niches. The recorded primary lifestyle involves much time on the ground, feeding while walking, hopping or wading. The multiple-niche category does not imply identical proportions across seasons, regions or individuals. These coarse record categories do not replace food lists, behavioural observations or local microhabitat descriptions.
+## Recorded habitat and feeding categories {#s-9c4d4ecd0e}
+The ecology-only AVONET row classifies Polyplectron schleiermacheri as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-72dff48ae3}
-The recorded migration category is sedentary. This is the source’s sedentary category; regional seasonal movements are not separately listed. This entry does not supply current routes, schedules or movement distances for every population.
+## The migration label has a limited scope {#s-72dff48ae3}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-0f4d0deddd}
-Historical breeding and resident maps have latitude endpoints of -3.81° to 6.5°. The source worksheet associates these fields with BirdLife/HBW 2019.1 maps accessed on 27 March 2020. Endpoints summarize a mapped range, not a locality list or evidence of occupancy throughout it, and exclude a complete account of non-breeding movements. They do not establish current distribution, survival or conservation status.
+## Mapped range is not a locality list {#s-0f4d0deddd}
+Historical breeding and resident maps span latitude endpoints -3.81° to 6.5°. The mapped range area is 187855.93 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-2054fbf0c3}
-Of four ecological categories in this batch, 4 have readable records. All four coarse categories are recorded, but ecological coverage remains incomplete. Read historical latitude summaries within their map scope. The source flags inference from relatives for at least some biometric fields, and mass is inferred from a related species. Morphological dimensions and mass are not interpreted here; reproduction, growth and conservation remain without complete accounts. Missing fields do not establish absence of the traits.
+## Fields outside this ecology-only view {#s-2054fbf0c3}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
 ## Evidence limits {#s-2bfc346ab3}
 This batch provides limited historical ecology and geography, not complete species monographs. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Matching names and families plus one-to-one same-name BirdLife/eBird/BirdTree crosswalks establish an association, not equivalence to current COL26.8 species concepts. Ecological fields are coarse literature-derived categories; underlying species literature was not individually read here. Original morphology can involve inference from relatives, and mass can use genus averages or models. This batch therefore withholds morphological and mass interpretation rather than treating those fields as direct measurements of this species. Historical maps cover breeding and resident ranges, without current population, occupancy or conservation assessments.

@@ -429,7 +429,10 @@ records:
     - subjectId: taxon:canidae
       claimKind: scientific
       claimType: topology
-      statement: Canidae is recovered as an extant family branch in the complete living-carnivoran supertree, whose canid subtree samples dog-like and fox-like lineages; extinct canid radiations and the family’s earliest fossil range are outside that tree’s direct coverage.
+      statement:
+        page: en
+        section: sampled-tree
+        part: body
       confidence: medium
       confidenceRationale: The study supports living family topology and explicitly discusses the canid subtree. Fossil exclusions prevent temporal overreach.
       referenceLinks:
@@ -441,7 +444,9 @@ records:
   claim-rationales.zh:
     - 研究支持现生科级拓扑并明确讨论犬科子树；化石排除项防止时间外推。
   claim-statements.zh:
-    - 犬科在完整现生食肉类超级树中被恢复为一个现生科级分支，其犬科子树取样犬样与狐样谱系；灭绝犬科辐射及该科最早化石范围不在该树直接覆盖内。
+    - page: zh
+      section: sampled-tree
+      part: body
   ranges:
     - entityId: canidae
       rangeKind: global-composite

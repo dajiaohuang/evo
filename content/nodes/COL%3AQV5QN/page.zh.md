@@ -1,5 +1,5 @@
-## 沿旧 Parus 组合查历史行 {#s-58f3fdee43}
-本页按 COL26.8 的 Melaniparus albiventris（QV5QN）组织。BirdLife 2020 第 6200 行与 eBird 2021 第 6059 行同名，Avibase ID 为 AVIBASE-C8880D28，类型 1BL to 1eBird；BirdTree 第 6027 行记 Parus albiventris，类型 1BL to 1BT。本次读到目录异名 76584，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-58f3fdee43}
+《Catalogue of Life》COL26.8（2026-08-20）将 Melaniparus albiventris (Shelley, 1881) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-417f02add9}
 形态共 10 只鸟：雌 3、雄 5、性别未定 2；完整测量 4 只。鼻孔前缘至喙尖 7.8 mm、跗蹠 19 mm、未压平翼长 82 mm、尾长 64.7 mm、手翼指数 17.7 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

@@ -1,4 +1,4 @@
-## overview {#s-81cf00f287}
+## Separate entries for Equus ferus and domestic horses {#s-81cf00f287}
 This release separately lists Equus ferus, domestic horses and Przewalski’s horses. MDD describes the domestic horse as a domestic derivative of E. ferus. This is a nomenclatural and taxonomic relationship, not evidence for a complete wild-horse life history.
 
 ## catalogue-profile / limitations {#s-fb1e7f0329}

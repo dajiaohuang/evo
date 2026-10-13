@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-bbdfd22640}
-Microenantiornis vulgaris is accepted in the fixed PBDB dinosaur working roster, with database parent Microenantiornis. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-bbdfd22640}
+Microenantiornis vulgaris is listed in the PBDB snapshot under taxon txn:391269. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-79d8d78adb}
-Collection Chaoyang City Yanornis type locality (Liaoning), region code CN, stratum name Jiufotang; database age bracket 121.4–113.2 Ma, early interval Aptian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-79d8d78adb}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-bf65ec04ed}
-Selected occurrences have an outer age envelope of 121.4–113.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1456555; PBDB collection col:85258. Locality cnm=Chaoyang City Yanornis type locality; place fields cc2=CN, stp=Liaoning. Recorded age bounds: eag 121.4 Ma; lag 113.2 Ma; PBDB interval fields oei=Aptian. Stratigraphic fields sfm=Jiufotang. Recorded attribution Wei and Li 2017; PBDB reference ref:69692.
 
-## Read preservation setting separately from living habitat {#s-1b1f2ce3df}
-Chaoyang City Yanornis type locality has collection-environment label lacustrine indet.; collection preservation-mode label body,adpression. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Early Cretaceous" (assigned to the Aptian based on age of other Jiufotang collections)
 
-## Follow collection records back to references {#s-4fed357add}
-Chaoyang City Yanornis type locality carries database reference attribution Wei and Li (2017), identifier ref:69692. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+coordinate based on Chaoyang
 
-## Evidence limits {#s-046971ec94}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-bf65ec04ed}
+Across these selected PBDB rows, the largest recorded eag=121.4 Ma in occ:1456555; the smallest recorded lag=113.2 Ma in occ:1456555. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-1b1f2ce3df}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1456555: PBDB original-identification field idn=Microenantiornis vulgaris n. gen. n. sp.; PBDB taxon-name field tna=Microenantiornis vulgaris; material note ocm=PMOL-AB00171; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=120.466667, lat=41.566666; paleocoordinate/model fields pm1=gplates, pln=131.6, pla=40.55.
+
+## References attached to each record {#s-4fed357add}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1456555: Recorded attribution Wei and Li 2017; PBDB reference ref:69692.
+
+## What these records can show {#s-046971ec94}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

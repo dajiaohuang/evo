@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-e9163326dc}
-Turiasaurus riodevensis is accepted in the fixed PBDB dinosaur working roster, with database parent Turiasaurus. This guide uses 5 eligible species-level occurrence records from 5 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-e9163326dc}
+Turiasaurus riodevensis is listed in the PBDB snapshot under taxon txn:91330. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-4055ca1a69}
-Collection Barrihonda–El Humero, RD-10 (Aragón), region code ES, stratum name Villar del Arzobispo; database age bracket 152.21–143.1 Ma, early interval Late Kimmeridgian and late interval Tithonian. Collection Puntal de Santa Cruz, RD-13 (Teruel), region code ES, stratum name Villar del Arzobispo; database age bracket 154.8–143.1 Ma, early interval Kimmeridgian and late interval Tithonian. Collection Veguillas de la Sierra, Sierra de Albarracín (Aragón), region code ES, stratum name Villar del Arzobispo; database age bracket 154.8–143.1 Ma, early interval Kimmeridgian and late interval Tithonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-4055ca1a69}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-88bf9768f4}
-Selected occurrences have an outer age envelope of 154.8–143.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:788989; PBDB collection col:85291. Locality cnm=Puntal de Santa Cruz, RD-13; place fields cc2=ES, stp=Teruel. Recorded age bounds: eag 154.8 Ma; lag 143.1 Ma; PBDB interval fields oei=Kimmeridgian, oli=Tithonian. Stratigraphic fields sfm=Villar del Arzobispo. Recorded attribution Alcalá et al. 2010; PBDB reference ref:82566.
 
-## Read preservation setting separately from living habitat {#s-a59a1b3002}
-Barrihonda–El Humero, RD-10 has collection-environment label fine channel fill; collection preservation-mode label body. Puntal de Santa Cruz, RD-13 has collection-environment label terrestrial indet.; collection preservation-mode label body. Veguillas de la Sierra, Sierra de Albarracín has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Age of Villar del Arzobispo Formation constrained to Kimmeridgian-Tithonian by Campos-Soto et al. (2017), rather than Tithonian-Berriasian of older literature
 
-## Follow collection records back to references {#s-95f25c4e24}
-Barrihonda–El Humero, RD-10 carries database reference attribution Royo-Torres et al. (2006), identifier ref:19463. Puntal de Santa Cruz, RD-13 carries database reference attribution Alcalá et al. (2010), identifier ref:82566. Veguillas de la Sierra, Sierra de Albarracín carries database reference attribution Royo-Torres et al. (2008), identifier ref:32035. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+southern Teruel
 
-## Evidence limits {#s-3aaa777d07}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:632251; PBDB collection col:68019. Locality cnm=Barrihonda–El Humero, RD-10; place fields cc2=ES, stp=Aragón, cny=Teruel. Recorded age bounds: eag 152.21 Ma; lag 143.1 Ma; PBDB interval fields oei=Late Kimmeridgian, oli=Tithonian. Stratigraphic fields sfm=Villar del Arzobispo. Recorded attribution Royo-Torres et al. 2006; PBDB reference ref:19463.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Age of Villar del Arzobispo Formation constrained to Kimmeridgian-Tithonian by Campos-Soto et al. (2017), rather than Tithonian-Berriasian of older literature
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+UTM 659049 4443553; sauropod remains all found within an area of 280 m2
+
+- Occurrence occ:846989; PBDB collection col:94221. Locality cnm=Veguillas de la Sierra, Sierra de Albarracín; place fields cc2=ES, stp=Aragón, cny=Teruel. Recorded age bounds: eag 154.8 Ma; lag 143.1 Ma; PBDB interval fields oei=Kimmeridgian, oli=Tithonian. Stratigraphic fields sfm=Villar del Arzobispo. Recorded attribution Royo-Torres et al. 2008; PBDB reference ref:32035.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Age of Villar del Arzobispo Formation constrained to Kimmeridgian-Tithonian by Campos-Soto et al. (2017), rather than Tithonian-Berriasian of older literature
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+within the city limits of Veguillas de la Sierra, in the Sierra de Albarracín
+
+## Age bounds on the recorded occurrences {#s-88bf9768f4}
+Across these selected PBDB rows, the largest recorded eag=154.8 Ma in occ:788989; the smallest recorded lag=143.1 Ma in occ:632251. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-a59a1b3002}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:788989: PBDB taxon-name field tna=Turiasaurus riodevensis; material note ocm=RD-13-2, 7, 8, 29 (= CPT-1609-1657, 1661-1674); abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-1.150000, lat=40.116699; paleocoordinate/model fields pm1=gplates, pln=14.16, pla=22.21.
+- occ:632251: PBDB original-identification field idn=Turiasaurus riodevensis n. gen. n. sp.; PBDB taxon-name field tna=Turiasaurus riodevensis; material note ocm=CPT-1195–1261; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-1.133307, lat=40.127270; paleocoordinate/model fields pm1=gplates, pln=13.88, pla=22.11.
+- occ:846989: PBDB taxon-name field tna=Turiasaurus riodevensis; material note ocm=CPT-3300; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-1.406137, lat=40.154774; paleocoordinate/model fields pm1=gplates, pln=13.98, pla=22.32.
+
+## References attached to each record {#s-95f25c4e24}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:788989: Recorded attribution Alcalá et al. 2010; PBDB reference ref:82566.
+- occ:632251: Recorded attribution Royo-Torres et al. 2006; PBDB reference ref:19463.
+- occ:846989: Recorded attribution Royo-Torres et al. 2008; PBDB reference ref:32035.
+
+## What these records can show {#s-3aaa777d07}
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

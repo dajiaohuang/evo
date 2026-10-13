@@ -1,5 +1,5 @@
-## atlas-profile / overview {#s-32b757a0a3}
-This account follows small dental samples attributed to Teilhardina in three sections correlated across the Paleocene–Eocene Thermal Maximum (PETM). Their sampled order—from Asia to Europe to North America—is a reconstruction from separate local records, not a tracked migrating population.
+## Three regions in a correlated PETM sequence {#s-32b757a0a3}
+This account follows small dental samples attributed to *Teilhardina* from the Hengyang Basin in China, Dormaal in Belgium and Wyoming’s Bighorn Basin. Their sections are correlated around the Paleocene–Eocene Thermal Maximum (PETM), about 56 Ma. The sampled order from Asia to Europe to North America is a reconstruction from separate local records, not a tracked population.
 
 ## atlas-profile / ecology / diet {#s-ee0caf4501}
 Dental samples do not directly record diet
@@ -25,18 +25,18 @@ Dental comparisons across three PETM sections
 ## atlas-profile / traits {#s-7afb887767}
 No associated postcranial skeleton
 
-## atlas-profile / evidenceSummary {#s-3a39aeeb66}
-Smith, Rose and Gingerich compare the teeth and correlated sections on pp. 11223–11227 (Figures 1–3 and Supporting Tables). The proposed order depends on species identifications and age correlations; it is not a direct migration route, a global first-appearance date or a claim of direct ancestry.
+## What the correlated dental record supports {#s-3a39aeeb66}
+Smith, Rose and Gingerich compare teeth and correlated sections on pages 11223–11227, Figures 1–3 and supporting tables. The proposed Asia–Europe–North America order depends on dental identifications and age correlations. It is not a directly observed migration route, a global first appearance or evidence of direct ancestry.
 
-## Teeth from three distant sections {#s-c84cc1994e}
-The paper compares small dental samples from the Hengyang Basin in China, Dormaal in Belgium and Wyoming’s Bighorn Basin. Each comes from a different section. Linking them into one geographic sequence therefore depends on both the species identifications and the correlation of the rock layers; the fossils do not record one group travelling between the sites.
+## Dental samples from China, Belgium and Wyoming {#s-c84cc1994e}
+The paper compares small dental samples from the Hengyang Basin in China, Dormaal in Belgium and Wyoming’s Bighorn Basin. Each comes from a separate section. Putting them in one geographic order depends on the species identifications and correlation of the rock layers; the fossils do not record one group travelling between these sites.
 
-## An ordered record around the PETM {#s-455589e71f}
-The authors compare the teeth and section ages with the PETM, a major warming event about 56 million years ago. Their correlations place the sampled Teilhardina records first in Asia, then Europe and North America over a short interval. This is an order among sampled fossils in correlated strata, not a continuous population history.
+## A sampled order around the PETM {#s-455589e71f}
+The authors compare the teeth and section ages with the PETM, about 56 million years ago. Their correlations place the sampled *Teilhardina* records in Asia, then Europe and North America over a short interval. This is an order among fossils in correlated strata, not a continuous history of one population.
 
-## Dispersal is an interpretation {#s-5e4e3a398d}
-Smith, Rose and Gingerich interpret the sequence as rapid geographic dispersal. The route itself is not preserved: species assignments, fossil sampling and age correlations all affect the result. Teeth alone do not show how the animals moved or where they lived, and the earliest sampled record is not necessarily the group’s global origin.
+## Rapid dispersal is an interpretation of the sequence {#s-5e4e3a398d}
+Smith, Rose and Gingerich interpret the sampled order as rapid geographic dispersal. No route is preserved: species assignments, fossil sampling and age correlations affect the result. Teeth alone do not show how the animals moved or where they lived, and the earliest sampled record need not mark the genus’s global origin.
 
-## atlas-profile / readerLimitations {#s-feb0f2021b}
-This account covers a small dental sample from three correlated sections. Its geographic order depends on identification and dating; it is not a continuous migration record, a complete ecological study or a directly measured global first appearance.
+## Scope of the three-section account {#s-feb0f2021b}
+This account covers small dental samples from three correlated sections. Their geographic order depends on identification and dating. The material is not a continuous migration record, a complete ecological study or a directly measured global first appearance.
 

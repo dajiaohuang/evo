@@ -1,12 +1,12 @@
-## A short account with size and reproduction records {#s-55992658b7}
-COL26.8 places Aurivela tergolaevigata in Teiidae. The cited ReptTraits entry supports two maximum lengths plus an oviparous mode and a clutch/litter summary. It does not establish the habitat or activity details needed for a fuller natural-history account.
+## COL26.8 name and the ReptTraits row {#s-55992658b7}
+COL26.8 records Aurivela tergolaevigata as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The reported 58 mm measurement excludes the tail {#s-7efc000376}
-The maximum snout–vent length is 58 mm and the female maximum 52.7 mm. Snout–vent length runs from the snout to the body opening, leaving out the tail. These are compiled maxima, not typical sizes; the sex-labelled values alone do not establish population dimorphism.
+## Length values in the archived records {#s-7efc000376}
+The row reports a maximum SVL of 58 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 52.7 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## An egg-laying label and a summary of two {#s-b248e261f5}
-The source calls the reproductive mode oviparous. Its consolidated clutch/litter figure is 2. This is an aggregate of cited records, not a promise that every clutch contains two eggs; no habitat, diet or activity category is linked here.
+## Reproductive fields in ReptTraits {#s-b248e261f5}
+The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Name placement and source scope {#s-c081d12a42}
-The workbook preserves a 2023 name framework, while COL26.8 supplies this page’s pinned placement. The same name does not prove historical and current concepts refer to identical specimens. A row can compress sex, age and population variation; current range and conservation are not updated.
+## Reading this compiled trait record {#s-c081d12a42}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

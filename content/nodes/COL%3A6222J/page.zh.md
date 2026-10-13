@@ -1,4 +1,4 @@
-## 本地数据阅读路径 {#s-f7acd54b80}
+## 记录分类与成员材料 {#s-f7acd54b80}
 Eurypygiformes 的本批阅读路径包含 2 条有测量来源的物种记录，可从 Eurypyga helias、Rhynochetos jubatus 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-5bfe04b558}

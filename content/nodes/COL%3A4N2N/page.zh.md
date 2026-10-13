@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-974ed0fff0}
+## 记录分类与直接上级关系 {#s-974ed0fff0}
+COL26.8 将 Geospiza 记录为属；其直接上级记录为 Thraupidae。
+
 Geospiza 的本批阅读路径包含 3 条有测量来源的物种记录，可从 Geospiza fortis、Geospiza fuliginosa、Geospiza scandens 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-8a736cff05}

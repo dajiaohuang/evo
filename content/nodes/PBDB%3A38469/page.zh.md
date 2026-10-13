@@ -1,9 +1,9 @@
-## 按来源分类组织化石记录 {#s-147ae58f24}
-在古生物学数据库 PBDB 中，Campylognathoides 按属记录，父级为 Campylognathoididae。该分类路径用于整理化石记录，本身并不表示系统发育上的祖先关系。
+## Campylognathoides：PBDB 分类路径 {#s-147ae58f24}
+在古生物学数据库 PBDB 中，Campylognathoides 按属记录，父级为 Campylognathoididae。该分类路径用于整理化石记录，本身并不表示系统发育上的祖先关系。所选出现记录提供成员记录的入口，不构成本属整体形态或生态的综述。
 
-## 从采集地、地层和年代对读 {#s-1824a8f3d3}
+## 与 Campylognathoides 关联的成员材料 {#s-1824a8f3d3}
 可继续阅读 Campylognathoides liasicus 与 C. zitteli 的出现记录。各自的采集地、地层和年代区间都属于单条记录；比较时应先看这些具体范围，再判断它们能否支持更广的结论。
 
-## 资料边界 {#s-a5a77b7510}
+## Campylognathoides 所选记录的范围限制 {#s-a5a77b7510}
 这些页面概述的是 PBDB 中选取的出现记录，不是完整分布或统一的生态说明。数据库年代包络不等于该属确切的起源或灭绝时间。
 

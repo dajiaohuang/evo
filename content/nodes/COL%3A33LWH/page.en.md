@@ -1,15 +1,15 @@
-## The accepted name and its measured record {#s-2f89a6a002}
-COL26.8 accepts Cyrtodactylus hoskini in Gekkonidae. The ReptTraits v1-2 entry linked to this name gives an overall and a female maximum SVL, a saxicolous microhabitat and oviparity. These values keep their separate citations in the workbook’s Reptile Database 2023 name framework; they do not amount to a complete account of the species.
+## COL26.8 name and the ReptTraits row {#s-2f89a6a002}
+COL26.8 records Cyrtodactylus hoskini as an accepted species. The ReptTraits v1-2 row gives its Family field as Gekkonidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Two snout-to-vent maxima {#s-0dc3f81357}
-The overall maximum is 112 mm SVL and the female maximum is 100 mm. SVL measures from snout to vent and excludes the tail. These compiled values need not come from the same place or study, so their difference cannot by itself establish sexual dimorphism across the species; neither figure is a typical size or absolute ceiling.
+## Length values in the archived records {#s-0dc3f81357}
+The row reports a maximum SVL of 112 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 100 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Rock-associated microhabitat is the listed category {#s-26ff3049bd}
-The entry gives saxicolous, meaning associated with rocky settings, as its microhabitat. It does not specify which rocks or how often they are used. No diet or activity value is interpreted here, so this record does not establish prey or a daily activity pattern.
+## Habitat use and activity labels {#s-26ff3049bd}
+The microhabitat field classifies the recorded position as rock-dwelling (Saxicolous). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018.
 
-## Oviparous, with clutch numbers left open {#s-48950f8ac8}
-The reproductive-mode field is labelled oviparous. No supported clutch-size mean or range appears in this account, leaving egg count and laying frequency unresolved. The mode label is not evidence that all populations have identical reproduction.
+## Reproductive fields in ReptTraits {#s-48950f8ac8}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Limits of a one-row species summary {#s-7932323c96}
-The cited data are from the same-name ReptTraits v1-2 row under its Reptile Database 2023 framework; name matching does not prove taxonomic concept equivalence with pinned COL26.8. The compilation compresses differences among samples and populations. Missing data do not support claims about mass, juvenile length, venom, conservation, current distribution or population trends, and the citations do not imply an independent review of every source.
+## Reading this compiled trait record {#s-7932323c96}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

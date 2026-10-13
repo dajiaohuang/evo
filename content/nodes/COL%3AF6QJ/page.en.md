@@ -1,33 +1,33 @@
-## Read this historical record through food and foraging position {#s-13e3c07ea8}
-What can historical diet and habitat records tell us about Apaloderma aequatoriale? The EltonTraits 1.0 entry links this name and family to earlier bird taxonomy or MSW3 mammal taxonomy and reports 2 ecological field groups. Those historical names do not resolve modern species splits or synonym disputes.
+## Scope of the historical trait entry {#s-13e3c07ea8}
+EltonTraits 1.0 has a same-name, same-family record for Apaloderma aequatoriale covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-75e50dcd56}
-The archive assigns a nonzero food-category weight of 100% to invertebrates. Source code A means the compilers expressed high confidence in the source and diet information. This percentage standardizes verbal descriptions; it is not a direct measurement of diet, and a zero for another category would not prove that the bird never eats it. Nect, Seed and PlantO are broader categories than their everyday names.
+## Relative weights across food categories {#s-75e50dcd56}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-f61f7d2e08}
-Species-level foraging-stratum weights are 50% for trees or high bushes from 2 m upward but below the canopy, 30% for ground, 10% for understory, edges or shrubs below 2 m, and 10% in or just above the canopy. These weights estimate relative use of feeding positions. They do not describe nest sites, all habitat or a full-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have distinct source definitions; they are not elevation ranges and cannot establish flight heights or habitat area.
+## Foraging positions are not a time budget {#s-f61f7d2e08}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 30%; in the understory 10%; in mid-height or high vegetation 50%; in the canopy 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-05504e8de3}
-The selected field groups carry source label Ref_6. Diet, strata and activity can draw on different materials, and a Ref number in a bird table is not necessarily the same source as that number in a mammal table. The batch archive retains the original strings by file, row, field group and reference table. The underlying books and papers have not been read individually; source labels are not independent observations.
+## Sources and field limits {#s-05504e8de3}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.6.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.6.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-788477a2e8}
 This is a guide to historical same-name, same-family EltonTraits 1.0 foraging records, not a complete species monograph. Matching names and classification do not establish equivalence between historical concepts and COL26.8. Food and avian-stratum percentages are coarse relative weights standardized from literature descriptions, not direct measures of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes may refer to a congener considered ecologically similar by the compilers, so not every field is claimed as a direct observation of this species. Genus- or family-typical values, non-species-level avian strata and split records needing individual review do not support definite conclusions. Underlying books and papers have not been reread individually. Individual, seasonal and local variation, current range, population and conservation require other sources.
 
-## The name in the limited ecology record {#s-aa9c767054}
-AVONET v7 associates Apaloderma aequatoriale with a same-name, same-family historical record. The name and two one-to-one crosswalks do not settle species concepts after later splits or lumps.
+## A historical name within this ecology row {#s-aa9c767054}
+The AVONET row uses historical BirdLife name Apaloderma aequatoriale. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-d999c050e2}
-The historical record classifies habitat as tall-tree vegetation with a relatively closed canopy, its feeding niche as centered on terrestrial invertebrates, and its primary lifestyle as spending much time perched above ground on vegetation, rocks or other substrates. The source applies a threshold of at least 60% of food resources to define its dominant feeding niches. This page does not independently measure diet proportions or treat a category as exclusive feeding. These coarse record categories do not replace food lists, observed behavior or local microhabitat descriptions.
+## Recorded habitat and feeding categories {#s-d999c050e2}
+The ecology-only AVONET row classifies Apaloderma aequatoriale as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-7c649396d6}
-The source classifies migration as sedentary. It does not separately list regional seasonal movements, and this entry gives no current routes, schedules or distances for every population.
+## The migration label has a limited scope {#s-7c649396d6}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-4941a2cddf}
-Historical breeding and resident maps have latitude endpoints of -4.61° to 6.22°. The source worksheet associates these fields with BirdLife/HBW 2019.1 maps accessed on 27 March 2020. The endpoints summarize a mapped range; they are not a locality list or evidence of occupancy throughout that range. They omit a complete account of non-breeding movements and do not establish current distribution, survival or conservation status.
+## Mapped range is not a locality list {#s-4941a2cddf}
+Historical breeding and resident maps span latitude endpoints -4.61° to 6.22°. The mapped range area is 636348.09 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-795dd1c712}
-Four of the 4 ecological categories in this batch have readable records. Having all four coarse categories recorded does not make the ecological account complete. Interpret the historical latitude summary within its map scope. The source flags inference from relatives for at least some biometric fields and indicates that mass is inferred from a related species. Morphological dimensions and mass are therefore left uninterpreted here. Reproduction, growth and conservation lack complete accounts; a missing field does not show that the species lacks the trait.
+## Fields outside this ecology-only view {#s-795dd1c712}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
-## Limits of these historical data {#s-2b6b1c364e}
-This batch supplies limited historical ecology and geography, not a complete species monograph. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Matching names and families, together with one-to-one same-name BirdLife/eBird/BirdTree crosswalks, establish an association but do not prove equivalence to current COL26.8 species concepts. Ecological fields are coarse categories derived from literature; the underlying species literature was not individually read here. Original morphology may involve inference from relatives, and mass may use genus averages or models. This batch therefore withholds morphological and mass interpretation rather than treating those fields as direct measurements of this species. Historical maps cover breeding and resident ranges, not current populations, occupancy or conservation assessments.
+## Limits of this historical ecology record {#s-2b6b1c364e}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 

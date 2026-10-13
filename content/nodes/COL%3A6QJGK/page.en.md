@@ -1,28 +1,27 @@
-## Name and source record {#s-1434bc335f}
-COL26.8 lists Lissemys scutata as accepted in Trionychidae. The ReptTraits v1-2 record uses the workbook’s Reptile Database 2023 name framework and cites sources by trait. It condenses information to one row per species, so this row does not describe a uniform condition across all populations.
+## COL26.8 name and the ReptTraits row {#s-1434bc335f}
+COL26.8 records Lissemys scutata as an accepted species. The ReptTraits v1-2 row gives its Family field as Trionychidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Recorded activity and habitat categories {#s-ea511a2d51}
-The ReptTraits row records microhabitat as Aquatic/Terrestrial; diet as Carnivorous; foraging mode as ACT. These labels summarize the recorded categories, not an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-ea511a2d51}
+The microhabitat field classifies the recorded position as Aquatic/ground-dwelling (Terrestrial) [source label: Aquatic/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Smith 1931. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Smith 1931.
 
-## How to interpret the reproduction fields {#s-b8c010bf8e}
-The source records reproductive mode as oviparous; sex determination is recorded as GSD (ZW/ZZ); the consolidated mean of offspring or eggs per litter/clutch is 10.5. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish embryonic nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-b8c010bf8e}
+The compiled mean for offspring per litter or eggs per clutch is 10.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Iverson et al. 1993. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records GSD (ZW/ZZ). ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## The historical life-history record {#s-1f8325cffa}
-COL26.8 lists Lissemys scutata as accepted in Trionychidae. The historical life-history archive has cited species-level rows with the same name and family for 4 fields. Some summaries carry values inherited through historical taxonomy; matching names do not remove those values or establish equivalence with COL26.8.
+## A 2015 life-history row for this name {#s-1f8325cffa}
+COL26.8 records Lissemys scutata as an accepted species. The August 2015 life-history table has a species-name and family match (Trionychidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## What the mass field represents {#s-a03504c18d}
-The 2015 archive reports an adult body mass of 1444.5 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. No birth or hatching mass is included here.
+## Length values in the archived records {#s-a03504c18d}
+Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 1444.5 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
-## Recorded reproductive timing {#s-be9107d6ec}
-The archive reports a mean of 10.5 offspring or eggs per litter/clutch; 57.5 days from oviposition to hatching. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive events in the life-history table {#s-be9107d6ec}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 8 recorded source-table values; oviposition to hatching: median of 4 recorded source-table values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 10.5; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993. The incubation field is 57.5 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## The archive’s longest record {#s-ceb05541a3}
-The archive’s longest-lifespan record is 17.8 years, using the largest record in the collected material under the source method. This is not typical lifespan, mean wild lifespan, a survival ceiling for every individual, or a current record shown to be repeatable.
+## Longest lifespan in the archive {#s-ceb05541a3}
+The archive's longest-lifespan record is 17.8 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002.
 
-## Where the values come from {#s-1b4fc0d95d}
-Source labels in the archive include Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; Reptile Incubation book; de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002. The archive records each field’s original row number, value and citation label, and provides the compilation’s full reference notes. A label may point to a paper, book or database. The number of source rows does not equal the number of animals measured, and repeated citations do not constitute independent replication.
+## The August 2015 life-history table {#s-1b4fc0d95d}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## What the sources establish {#s-6258f360be}
-This summary follows the same-name ReptTraits v1-2 entry, including its Reptile Database 2023 name framework and trait-specific sources. A single row compresses differences in sex, age, locality, and populations. Matching names and family do not establish equivalence with later taxonomic concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels show the source chain; their presence does not confirm that each original work was separately consulted for this summary.
-The values here come from historical same-name rows in the 2015 life-history archive. Except for maximum longevity, which is the largest record found, the summaries are medians or averages of the two middle values. They are not measurements of one individual, ranges of individual variation, average wild lifespans, or current population surveys. Historical species and subspecies may share inherited data. Same-name, same-family rows support the link here but do not establish equivalence with COL26.8 concepts or remove all inherited values. The archive does not consistently identify whether records come from wild or captive conditions; citation labels provide leads to the underlying publications. Diet, behavior, current distribution, conservation, and missing fields require other sources.
+## Separate histories in the two archives {#s-6258f360be}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

@@ -1,10 +1,10 @@
-## Local data reading route {#s-c29b8eee74}
+## Recorded classification and member material {#s-c29b8eee74}
 This batch’s Bucerotiformes route includes 36 measured species records. Start with Aceros nipalensis, Anorrhinus austeni, Anorrhinus galeritus, Anorrhinus tickelli, Anthracoceros albirostris. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-795e05a023}
 Compiled mean mass endpoints in this batch are Rhinopomastus minor at 21.7 g and Buceros bicornis at 2790.79 g. Represented habitat categories include Forest, Woodland, Grassland, Shrubland; trophic niches include Frugivore, Invertivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-ea30fb41f9}
+## Amniote Life-history archive member records {#s-ea30fb41f9}
 This batch’s Bucerotiformes route includes 20 historical life-history accounts; start with Buceros bicornis, Bycanistes brevis, Bycanistes subcylindricus, Ceratogymna atrata, Rhyticeros undulatus. More frequently represented fields include adult body mass (20 entries), offspring per litter or eggs per clutch (20 entries), oviposition to hatching (17 entries), age at flight capability (leaving the nest in some source material) (17 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-78c61e081c}

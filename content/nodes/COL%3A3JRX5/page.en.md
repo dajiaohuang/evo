@@ -1,29 +1,29 @@
-## The name and this data account {#s-7e5005e1d1}
-COL26.8 accepts Harpactes erythrocephalus within Trogonidae. AVONET v7 records measurements under the HBW–BirdLife 2020 name: 6 individuals were measured, and 4 have a complete set of measurements. Sample sizes can still differ among traits.
+## Row-reported mean and sample coverage {#s-7e5005e1d1}
+The AVONET v7 row for Harpactes erythrocephalus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 11.3 mm. The row records 6 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-b957249cec}
-Recorded mean beak measurements are 11.3 mm from the anterior nostril edge to the tip, 9.7 mm in width and 10.7 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-b957249cec}
+AVONET records culmen length (bill tip to skull base) 20 mm; beak length (nostril front edge to tip) 11.3 mm; beak width at the nostril front edge 9.7 mm; beak depth at the nostril front edge 10.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-dfc50885ae}
-Mean unflattened wing length from the carpal joint to the longest primary is 144.8 mm; mean tarsus length is 17.2 mm. Compiled mean mass is 80.29 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-dfc50885ae}
+AVONET records unflattened wing length 144.8 mm; tarsus length 17.2 mm; distance from first secondary tip to longest primary tip 54.8 mm; length to first secondary tip 91.2 mm; hand-wing index 37.5; tail length 170.8 mm; species-average body mass 80.29 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-7c5ed00fae}
-The dataset assigns habitat Forest, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-7c5ed00fae}
+AVONET classifies Harpactes erythrocephalus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-4d2a869b3a}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -5.52° to 30.24°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-4d2a869b3a}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -5.52° to 30.24°. The mapped range area is 2590116.66 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-c59cfee72a}
-COL26.8 accepts Harpactes erythrocephalus within Trogonidae. EltonTraits 1.0 records 2 ecological field groups under an earlier bird classification or the MSW3 mammal taxonomy. The name match supports a historical comparison, but does not settle later splits or synonymies.
+## Scope of the historical trait entry {#s-c59cfee72a}
+EltonTraits 1.0 has a same-name, same-family record for Harpactes erythrocephalus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-bc6d140b34}
-The archive’s nonzero food weights are invertebrates 70%; fruit 10%; seeds, nuts and spores included in this category 10%; other plant material (the source category also includes fungi) 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-bc6d140b34}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 70%; fruit 10%; seeds or nuts 10%; other plant material 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-54661d6ac6}
-Foraging-stratum weights flagged as species-level in the archive are trees or high bushes from 2 m upward but below the canopy 60%; in or just above the canopy 30%; understory, edges or shrubs below 2 m 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-54661d6ac6}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 10%; in mid-height or high vegetation 60%; in the canopy 30%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-50ebccdc83}
-The source labels for these fields are Ref_6. Diet, feeding position, and activity may draw on different works, so the same Ref number in bird and mammal tables does not identify the same source. The archive links each label to its file, row, field group, and reference table; these labels are not independent observations.
+## Sources and field limits {#s-50ebccdc83}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.6.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.6.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-fb57881842}
 AVONET v7 summarizes historical samples and species-level values. Morphology is averaged across the listed birds; it is neither an identification diagnosis nor a range of individual measurements. Body mass comes from a separate source and does not use the morphology sample count. Habitat, diet and migration are broad categories, while mapped geography covers historical breeding and resident ranges. Matching names across BirdLife, eBird, BirdTree and COL26.8 supports a crosswalk but does not settle species boundaries after splits or mergers. Reproduction, present populations and conservation require other evidence.

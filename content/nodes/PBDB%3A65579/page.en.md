@@ -7,8 +7,8 @@ Start with Nannippus lenticularis, Nannippus beckensis, Nannippus westoni, Nanni
 ## Evidence limits {#s-d73e57d0fe}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## A varied, three-toed horse radiation {#s-4ebce08f0d}
-Hipparionini is an extinct horse tribe whose members retained three toes while diversifying into several Old World genus-level groups. Diet, body size and habitat varied across lineages and time, so no single species profile describes the whole tribe.
+## Three-toed feet persisted as lineages diversified {#s-4ebce08f0d}
+Hipparionini is an extinct horse tribe whose members retained three toes while diversifying into several Old World genus-level groups. Diet, body size and habitat vary among lineages and through time, so no one species profile represents the tribe.
 
 ## Diet {#s-720c8a2bf5}
 Browse-dominated, mixed-feeding and grazing lineages
@@ -34,12 +34,12 @@ Hypsodont teeth in many lineages
 ## Described features {#s-92de050ff1}
 Substantial body-size and dietary variation
 
-## What the evidence supports {#s-3fac1ea6e8}
-The record separates a North American tribe-level history from Old World dispersal at 11.4–11.0 Ma and later regional occurrences. These windows and ecological comparisons describe different samples, not one continuous range or a single migration story.
+## Regional records use separate time windows {#s-3fac1ea6e8}
+The record separates a broad North American tribe-level history from an Old World dispersal interval of 11.4–11.0 Ma and later Eurasian and African occurrences. The underlying sources retain narrower windows; they do not make one continuous timeline or prove a single migration route.
 
-## Three toes persisted as diets diversified {#s-a40fd4370f}
-Hipparionins retained three toes, while many lineages evolved hypsodont, or high-crowned, teeth. The reviewed Old World forms range from browsing to mixed feeding and grazing, with body size and foot proportions also varying. These traits belong to different branches and settings; they should not be combined into one fixed lifestyle for every hipparionin.
+## Three toes persisted while diets diversified {#s-a40fd4370f}
+Hipparionins retained three toes, while many lineages evolved high-crowned teeth. The reviewed Old World forms range from browsing to mixed feeding and grazing, and body size and foot proportions also vary. These traits belong to different branches and settings, not one fixed lifestyle for every member.
 
-## Keep the regional histories separate {#s-dd64941ea7}
-The atlas distinguishes a broad North American tribe-level record from the Old World dispersal interval of 11.4–11.0 Ma and later Eurasian and African records. It also retains separate, narrower range windows in the underlying evidence. These dates describe sampled records and reviews; they do not form a single continuous timeline or prove one route of migration.
+## Keep North American and Old World windows separate {#s-dd64941ea7}
+The atlas distinguishes a broad North American tribe-level history from the Old World dispersal interval of 11.4–11.0 Ma and later Eurasian and African records. Separate, narrower windows remain in the underlying evidence. These sampled records do not form one continuous range or establish a single migration route.
 

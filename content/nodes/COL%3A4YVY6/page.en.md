@@ -1,12 +1,12 @@
-## What the catalogue and dataset identify {#s-15d0e36032}
-COL26.8 accepts Sphenomorphus wollastoni in the skink family Scincidae. The cited ReptTraits row gives a maximum length, but no matching source-supported microhabitat, diet, activity or reproductive values are established in this account. The result is a useful name-and-measurement record, not a full natural-history portrait.
+## COL26.8 name and the ReptTraits row {#s-15d0e36032}
+COL26.8 records Sphenomorphus wollastoni as an accepted species. The ReptTraits v1-2 row gives its Family field as Scincidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A 90 mm measurement from snout to vent {#s-a73cc11aa5}
-The reported maximum snout–vent length is 90 mm. This measurement runs from the snout to the body opening and excludes the tail. It is the largest value carried into the cited compilation, not an average, a typical individual, or a biological growth ceiling.
+## Length values in the archived records {#s-a73cc11aa5}
+The row reports a maximum SVL of 90 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Length is the available focal trait {#s-97c8bdff1c}
-The supported focal information here is the length entry. The sources used for this page do not establish sex-specific or total length, microhabitat, diet, daily activity or reproduction. Those absences mark the boundary of this account, not a claim that the species lacks such traits; no values are borrowed from other Sphenomorphus.
+## Reading this compiled trait record {#s-97c8bdff1c}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## A summary rather than a species-wide range {#s-e7ec663807}
-The workbook’s row uses a 2023 name framework, whereas COL26.8 provides the pinned placement shown here; the shared name does not establish equivalence between historical and current concepts. A compiled maximum also compresses differences in sex, age, locality and population, so it cannot stand for every animal. Current distribution and conservation status are outside this record, and the citation labels preserve the source trail without implying that every original work was rechecked.
+## Reading this compiled trait record {#s-e7ec663807}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

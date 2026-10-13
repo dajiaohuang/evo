@@ -1,4 +1,6 @@
-## Start with the three measured species pages {#s-1ffbae0d51}
+## Recorded classification and direct parent {#s-1ffbae0d51}
+COL26.8 records Phaethon at genus rank, with Phaethontidae as its direct parent.
+
 This Phaethon route contains 3 measured species records: Phaethon aethereus, Phaethon lepturus and Phaethon rubricauda. The directory follows pinned COL26.8; biological values retain AVONET v7 names and sampling scope.
 
 ## Compare the compiled means and categories {#s-45af8957b2}

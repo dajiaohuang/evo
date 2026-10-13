@@ -1,5 +1,5 @@
-## Find rows through older Thryothorus combinations {#s-9ab5d1925c}
-Pinned COL26.8 organizes this page at Pheugopedius eisenmanni (4G3KD). BirdLife 2020 row 8484 and eBird 2021 row 7737 share the name and Avibase ID AVIBASE-09EBF75E, with type 1BL to 1eBird; BirdTree row 7700 gives Thryothorus eisenmanni, with type 1BL to 1BT. Read catalogue synonym 7C9ZM points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-9ab5d1925c}
+Catalogue of Life release COL26.8 records Pheugopedius eisenmanni (T. A. Parker & O'Neill, 1985) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-0b959018b7}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 12.4 mm, tarsus 26.8 mm, unflattened wing 65.2 mm, tail 59.8 mm and hand-wing index 7 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

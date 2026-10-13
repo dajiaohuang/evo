@@ -1,4 +1,6 @@
-## Begin with five of the measured species pages {#s-2e8500cd35}
+## Recorded classification and direct parent {#s-2e8500cd35}
+COL26.8 records Bucconidae at family rank, with Piciformes as its direct parent.
+
 This Bucconidae route contains 28 measured species records. Start with Bucco capensis, Chelidoptera tenebrosa, Hapaloptila castanea, Malacoptila fulvogularis and Malacoptila fusca. Navigation follows pinned COL26.8; biological values retain AVONET v7 names and sampling scope.
 
 ## Compare the compiled means and categories {#s-9cac47cfd1}

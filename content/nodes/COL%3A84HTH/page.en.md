@@ -8,5 +8,5 @@ Bobadilla and Ferrari (1998) reported 1996 line-transect surveys at Ferreira Pen
 A 2002 thesis followed one 24-member group identified at the time as C. satanas utahicki on Germoplasma Island in the Tucuruí Reservoir. Its abstract reports 5,490 records for that group, with feeding the largest activity category, and 110 plant species in the diet; seed items made up 75.6% of the reported feeding records (n=2,721). A later chapter compares the same island group’s diet in 2001 and 2004, but both datasets remain local observations from one group and sampling periods.
 
 ## Evidence limits {#s-6f5bd0894e}
-The 1998 transects used the historical trinomial C. satanas utahicki and had different effort and seasonal coverage at the two sites. The diet record concerns one island group and limited periods, not species-wide diet or behavior. MDD records only Brazil at country level. COL26.8 ID 84HTH fixes page identity; the Chinese display name is editorial. This page is.
+The 1998 transects used the historical trinomial C. satanas utahicki and had different effort and seasonal coverage at the two sites. The diet record concerns one island group and limited periods, not species-wide diet or behavior. MDD records only Brazil at country level. COL26.8 ID 84HTH fixes page identity; the Chinese display name is editorial.
 

@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-245b1bda1c}
-Klallamornis buchanani is accepted in the fixed PBDB dinosaur working roster, with database parent Klallamornis. This guide uses 4 eligible species-level occurrence records from 4 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 4 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-245b1bda1c}
+Klallamornis buchanani is listed in the PBDB snapshot under taxon txn:205442. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-8782125876}
-Collection Murdock Creek (Washington), region code US, stratum name Pysht; database age bracket 33.9–27.3 Ma, early interval Rupelian. Collection Jansen Creek Mbr, Makah Fm - Jansen Creek (Washington), region code US, stratum name Makah; database age bracket 33.9–27.3 Ma, early interval Rupelian. Collection Bullman Creek (Washington), region code US, stratum name Makah; database age bracket 33.9–27.3 Ma, early interval Rupelian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-8782125876}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-be60649624}
-Selected occurrences have an outer age envelope of 33.9–27.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:995761; PBDB collection col:58964. Locality cnm=Murdock Creek; place fields cc2=US, stp=Washington, cny=Clallam. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Rupelian. Stratigraphic fields sfm=Pysht. Recorded attribution Dyke et al. 2011; PBDB reference ref:38491.
 
-## Read preservation setting separately from living habitat {#s-c9ce3acebe}
-Murdock Creek has collection-environment label deep-water indet.; collection preservation-mode label body,original phosphate. Jansen Creek Mbr, Makah Fm - Jansen Creek has collection-environment label deep-water indet.; collection preservation-mode label body. Bullman Creek has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower part of Pysht Formation; Prothero et al. (2001) place the lower Pysht in the early Oligocene (=Rupelian), as does Shipps et al (2019).
+lower part of Pysht Formation, latest early Oligocene/early late Oligocene (Barnes and Goedert, 2001; Barnes et al., 2001; Prothero et al., 2001), or late Oligocene (Nesbitt et al., 2010). (Mayr et al., 2015)
 
-## Follow collection records back to references {#s-ddff287452}
-Murdock Creek carries database reference attribution Dyke et al. (2011), identifier ref:38491. Jansen Creek Mbr, Makah Fm - Jansen Creek carries database reference attribution Dyke et al. (2011), identifier ref:38491. Bullman Creek carries database reference attribution Dyke et al. (2011), identifier ref:38491. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near the mouth of Murdock Creek
 
-## Evidence limits {#s-ecb8aed908}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+float concretions that eroded from the beach terrace and low banks west of the mouth of Murdock Creek, south shore of Strait of Juan de Fuca, Clallam County, Washington, U.S.A. (GPS data: SMF Av 599: 48.1567 N, 123.8696 W; SMF Av 600: 48.1545 N, 123.8655 W; SMF Av 601: 48.1558 N, 123.8685 W) (Mayr et al, 2015).
+
+- Occurrence occ:995762; PBDB collection col:62246. Locality cnm=Jansen Creek Mbr, Makah Fm - Jansen Creek; place fields cc2=US, stp=Washington, cny=Clallam. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Rupelian. Stratigraphic fields sfm=Makah, sls=Jansen Creek, slb=Clallam. Recorded attribution Dyke et al. 2011; PBDB reference ref:38491.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+STRATIGRAPHIC RELATIONS: The Makah Fm is in the upper part of a middle Eocene to lower Miocene sequence of marine sedimentary sequence that is more than 6000 m thick. The Makah Fm overlies the upper Eocene Hoko River Fm. The Makah Fm underlies the upper Oligocene and lower Miocene Pysht Fm. The Jansen Mbr occurs about 1600 m through the 2800 m thick Makah Fm, between the Third Beach and Falls Creek Mbrs. AGE: Addicott (written communs., 1973-1977) assigns a late Eocene age (Lincoln Stage of Weaver 1937) to this collection. Foraminiferal assemblages indicate a Refugian (Late Eocene) age, a Lincoln equivalent. More recent workers (e.g. Goedert et al. 1995) assign an Oligocene (Rupelian-Chattian) age for the unit. An older (more conservative) Rupelian age is assigned here. STRATIGRAPHIC POSITION: From Jansen Creek Mbr is approximately 200 m thick, but it is not clear where in this succession the collection is derived from.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SPECIFIC LOCATION: Exposures along shoreline adjacent to Jansen Creek, Clallam County, Washington. sec. 22, T. 33 N., R. 14 W. LAT/LONG: estimated based on Jansen Creek, Washington.
+
+- Occurrence occ:995764; PBDB collection col:120368. Locality cnm=Bullman Creek; place fields cc2=US, stp=Washington, cny=Clallam. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Rupelian. Stratigraphic fields sfm=Makah. Recorded attribution Dyke et al. 2011; PBDB reference ref:38491.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+southeast of Bullman Creek
+
+## Age bounds on the recorded occurrences {#s-be60649624}
+Across these selected PBDB rows, the largest recorded eag=33.9 Ma in occ:995761; the smallest recorded lag=27.3 Ma in occ:995761. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-c9ce3acebe}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:995761: PBDB original-identification field idn=Tonsala buchanani n. sp.; PBDB taxon-name field tna=Klallamornis buchanani; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-123.861946, lat=48.154167; paleocoordinate/model fields pm1=gplates, pln=-106.72, pla=53.19.
+- occ:995762: PBDB original-identification field idn=Tonsala buchanani; PBDB taxon-name field tna=Klallamornis buchanani; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-124.468887, lat=48.323891; paleocoordinate/model fields pm1=gplates, pln=-106.87, pla=53.52.
+- occ:995764: PBDB original-identification field idn=Tonsala buchanani; PBDB taxon-name field tna=Klallamornis buchanani; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-124.531387, lat=48.328888; paleocoordinate/model fields pm1=gplates, pln=-107.45, pla=53.39.
+
+## References attached to each record {#s-ddff287452}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:995761: Recorded attribution Dyke et al. 2011; PBDB reference ref:38491.
+- occ:995762: Recorded attribution Dyke et al. 2011; PBDB reference ref:38491.
+- occ:995764: Recorded attribution Dyke et al. 2011; PBDB reference ref:38491.
+
+## What these records can show {#s-ecb8aed908}
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

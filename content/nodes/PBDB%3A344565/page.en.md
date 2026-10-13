@@ -1,19 +1,47 @@
 ## Which fossil records this name represents {#s-f4c9a4c7cb}
 Bugtimys zafarullahi is accepted in the fixed PBDB mammalia working roster, with database parent Bugtimys. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-ed04ee1ebd}
-Collection Y-GSP 417 (Baluchistan), region code PK, stratum name Chitarwata; database age bracket 33.9–27.3 Ma, early interval Early Oligocene. Collection Paali Nala level C2 (DBC2) (Balochistan), region code PK, stratum name Chitarwata; database age bracket 33.9–27.3 Ma, early interval Rupelian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Bugtimys zafarullahi is listed in the PBDB snapshot under taxon txn:344565. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-ceb811bf5c}
-Selected occurrences have an outer age envelope of 33.9–27.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Y-GSP 417, occurrence occ:1334239 (33.9–27.3 Ma); one supplying the younger bound is Y-GSP 417, occurrence occ:1334239 (33.9–27.3 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-ed04ee1ebd}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-2fefd61abf}
-Y-GSP 417 has collection-environment label terrestrial indet.; collection preservation-mode label body. Paali Nala level C2 (DBC2) has collection-environment label marginal marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1334239; PBDB collection col:79009. Locality cnm=Y-GSP 417; place fields cc2=PK, stp=Baluchistan. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Early Oligocene. Stratigraphic fields sfm=Chitarwata. Recorded attribution Marivaux et al. 2002; PBDB reference ref:59704.
 
-## Follow collection records back to references {#s-efeefbdc26}
-Y-GSP 417 carries database reference attribution Marivaux et al. (2002), identifier ref:59704. Paali Nala level C2 (DBC2) carries database reference attribution Marivaux et al. (2002), identifier ref:59704. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower Bugti Member, about 10 m above its base
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+about 16 km south of the village Dera Bugti in Pazbogi Nala
+
+- Occurrence occ:1334905; PBDB collection col:78520. Locality cnm=Paali Nala level C2 (DBC2); place fields cc2=PK, stp=Balochistan. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Rupelian. Stratigraphic fields sfm=Chitarwata. Recorded attribution Marivaux et al. 2002; PBDB reference ref:59704.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"in the lowermost levels of the Lower Chitarwata Formation, which is early Oligocene in age"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Paali Nala is "about 12 km southeast of Dera Bugti" and at "N 28º51.084'; E 069º08.433'" (Métais et al. 2006)
+from a single "site"
+
+## Age bounds on the recorded occurrences {#s-ceb811bf5c}
+Across these selected PBDB rows, the largest recorded eag=33.9 Ma in occ:1334239; the smallest recorded lag=27.3 Ma in occ:1334239. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-2fefd61abf}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1334239: PBDB taxon-name field tna=Bugtimys zafarullahi; material note ocm=GSP 21541; PBDB locality-coordinate fields lng=69.199997, lat=28.850000; paleocoordinate/model fields pm1=gplates, pln=71, pla=14.07.
+- occ:1334905: PBDB original-identification field idn=Bugtimys zafarullahi n. gen. n. sp.; PBDB taxon-name field tna=Bugtimys zafarullahi; material note ocm=DBC 1261 - holotype; PBDB locality-coordinate fields lng=69.133331, lat=28.850000; paleocoordinate/model fields pm1=gplates, pln=70.94, pla=14.08.
+
+## References attached to each record {#s-efeefbdc26}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1334239: Recorded attribution Marivaux et al. 2002; PBDB reference ref:59704.
+- occ:1334905: Recorded attribution Marivaux et al. 2002; PBDB reference ref:59704.
 
 ## Evidence limits {#s-4522a35d1c}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

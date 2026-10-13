@@ -1,5 +1,5 @@
-## overview {#s-fbcbc9d9bd}
-现生成员包括马、犀和貘。承重轴经过第三指（趾），但不能据此把所有成员说成只有奇数个趾：貘的前足有四趾。它们通过后肠发酵利用植物性食物。
+## 承重轴经过第三指（趾） {#s-fbcbc9d9bd}
+现生成员包括马、犀和貘。所引资料描述承重轴经过第三指（趾）；这不表示每只足都只有奇数个趾，因为貘的前足有四趾。植物性食物通过后肠发酵处理。
 
 ## 按生活史字段选择对读页面 {#s-2dd5b5bced}
 Perissodactyla 的本批路线包含 14 条历史生活史导读，可从 Equus asinus、Equus caballus、Equus grevyi、Equus hemionus、Equus kiang 开始。较多条目具有的字段包括 成年体重（14 条）、雌性成熟字段（源定义为首次受孕年龄）（14 条）、每窝幼体数或卵数（14 条）、受孕或受精至出生的时间（14 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
@@ -22,7 +22,7 @@ Perissodactyla 的本地 PanTHERIA 路径包括 10 条可用数据导读，可�
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-b12dcf23ca}
-Perissodactyla 本批有 10 个历史生活史资料页，可从 [Equus kiang](Equidae/Equus/Equus_kiang/page.zh.md)、[Equus grevyi](Equidae/Equus/Equus_grevyi/page.zh.md)、[Equus zebra](Equidae/Equus/Equus_zebra/page.zh.md)、[Ceratotherium simum](Rhinocerotidae/Dicerotinae/Ceratotherium/Ceratotherium_simum/page.zh.md)、[Dicerorhinus sumatrensis](Rhinocerotidae/Rhinocerotinae/Dicerorhinus/Dicerorhinus_sumatrensis/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Perissodactyla 本批有 10 个历史生活史资料页，可从 Equus kiang、Equus grevyi、Equus zebra、Ceratotherium simum、Dicerorhinus sumatrensis 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-2e5504104b}
 本批妊娠资料见 10 页，雌性首次繁殖年龄见 8 页，最高寿命记录见 9 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

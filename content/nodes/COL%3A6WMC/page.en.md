@@ -1,7 +1,9 @@
 ## Overview {#s-a59e5c0e0e}
 COL26.8 accepts Prolemur simus as the sole accepted species in Prolemur. Older taxonomy and papers often used Hapalemur simus or H. (Prolemur) simus; read the 2002 mitochondrial study, the 2010 cyanide comparison and the current COL name in their respective historical contexts. Begin with the survey of six eastern sites, separating feeding signs, direct sightings and inferred distribution. Then read the field-identification study of large-culmed bamboos to see how plant data support feeding research, and finish with the Ranomafana comparison of samples from three bamboo lemurs. This route is not a complete population assessment or genus monograph.
 
-## Choose comparison pages by life-history fields {#s-95f7d3aeb3}
+## Recorded classification and direct parent {#s-95f7d3aeb3}
+COL26.8 records Prolemur Gray, 1870 at genus rank, with Lemuridae Gray, 1821 as its direct parent.
+
 This batch’s Prolemur route includes one historical life-history account; start with Prolemur simus. More frequently represented fields include adult body mass (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry), longest lifespan record in the compilation (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-8509f32267}

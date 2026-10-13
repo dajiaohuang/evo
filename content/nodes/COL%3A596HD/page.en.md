@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-7eacf95d1e}
-Pinned COL26.8 organizes this page at Trochalopteron peninsulae (596HD). BirdLife 2020 row 4931 and eBird 2021 row 10697 share the name and Avibase ID AVIBASE-503C6098, with match type 1BL to 1eBird; BirdTree row 10630 gives Garrulax peninsulae, with type 1BL to 1BT. The read tro/ga shards did not yield this exact older combination; a one-to-one crosswalk is not presented as a confirmed COL synonym. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-7eacf95d1e}
+Catalogue of Life release COL26.8 records Trochalopteron peninsulae Sharpe, 1887 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-2b660f499a}
 The morphology row covers 5 birds: 2 female, 3 male and 0 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 12.1 mm, tarsus 36.6 mm, unflattened wing 97 mm, tail 112.4 mm and hand-wing index 4.1 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

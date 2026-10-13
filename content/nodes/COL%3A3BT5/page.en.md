@@ -1,4 +1,6 @@
-## Start with the four measured species pages {#s-e3971aa79c}
+## Recorded classification and direct parent {#s-e3971aa79c}
+COL26.8 records Botaurus at genus rank, with Ardeidae as its direct parent.
+
 This Botaurus route contains 4 measured species records: Botaurus lentiginosus, Botaurus pinnatus, Botaurus poiciloptilus and Botaurus stellaris. The directory follows pinned COL26.8; the biological data retain AVONET v7 names and sampling limits.
 
 ## Use the group ranges to choose a comparison {#s-463bbbba40}

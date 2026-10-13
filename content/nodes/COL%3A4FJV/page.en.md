@@ -4,13 +4,15 @@ The 2022 paper treats macaroni and royal as two E. chrysolophus subspecific entr
 ## Follow material scope into comparison pages {#s-bf92e75dd6}
 Begin with the study names and material in [Eudyptes chrysolophus](Eudyptes_chrysolophus/page.en.md), [Eudyptes schlegeli](Eudyptes_schlegeli/page.en.md), [Eudyptes moseleyi](Eudyptes_moseleyi/page.en.md), [Eudyptes chrysocome](Eudyptes_chrysocome/page.en.md); then [Eudyptes robustus](Eudyptes_robustus/page.en.md), [Eudyptes pachyrhynchus](Eudyptes_pachyrhynchus/page.en.md), [Eudyptes sclateri](Eudyptes_sclateri/page.en.md) before comparing glacial curves. Distinguish historical research units first, then the existing morphology, food, reproduction and local studies, retaining each source’s counts, times and methods.
 
-## Local data reading route {#s-3b7f6672ca}
+## Recorded classification and direct parent {#s-3b7f6672ca}
+COL26.8 records Eudyptes at genus rank, with Spheniscidae Bonaparte, 1831 as its direct parent.
+
 This batch’s Eudyptes route includes 7 measured species records. Start with Eudyptes chrysocome, Eudyptes chrysolophus, Eudyptes moseleyi, Eudyptes pachyrhynchus, Eudyptes robustus. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-06320cb9f3}
 Compiled mean mass endpoints in this batch are Eudyptes chrysocome at 2327.85 g and Eudyptes sclateri at 5888.95 g. Represented habitat categories include Marine; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-c98ba6fd7f}
+## Amniote Life-history archive member records {#s-c98ba6fd7f}
 This batch’s Eudyptes route includes 7 historical life-history accounts; start with Eudyptes chrysocome, Eudyptes chrysolophus, Eudyptes moseleyi, Eudyptes pachyrhynchus, Eudyptes robustus. More frequently represented fields include adult body mass (7 entries), offspring per litter or eggs per clutch (7 entries), oviposition to hatching (7 entries), age at flight capability (leaving the nest in some source material) (7 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-33bded150a}

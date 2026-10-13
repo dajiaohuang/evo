@@ -1,29 +1,29 @@
-## The name and this data account {#s-894a4e4896}
-COL26.8 accepts Papasula abbotti in Sulidae. AVONET v7 uses the HBW–BirdLife 2020 name and records 5 measured birds, 4 with a complete set of morphological measurements. A particular trait may have fewer usable measurements.
+## Row-reported mean and sample coverage {#s-894a4e4896}
+The AVONET v7 row for Papasula abbotti (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 91.3 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-38ae2ac4ed}
-Mean beak length is 91.3 mm from the front edge of the nostril to the tip; mean width is 26.9 mm and depth is 37.7 mm at the nostril edge. These are separate dimensions measured at defined landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-38ae2ac4ed}
+AVONET records culmen length (bill tip to skull base) 118.8 mm; beak length (nostril front edge to tip) 91.3 mm; beak width at the nostril front edge 26.9 mm; beak depth at the nostril front edge 37.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-c5b9150737}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 442.4 mm; mean tarsus length is 46.1 mm. A separate species-average source gives mass as 1550.74 g and is labelled Dunning. The 5 measured birds should not be read as 5 weighed birds.
+## Wing and body measures use separate sources {#s-c5b9150737}
+AVONET records unflattened wing length 442.4 mm; tarsus length 46.1 mm; distance from first secondary tip to longest primary tip 287 mm; length to first secondary tip 157.5 mm; hand-wing index 64.6; tail length 204.8 mm; species-average body mass 1550.74 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-86e031dd07}
-AVONET assigns the broad categories Marine for habitat, Aquatic predator for trophic niche and Aerial for lifestyle. They help compare records; they do not mean the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-86e031dd07}
+AVONET classifies Papasula abbotti as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aerial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-2e19a4bea1}
-The migration field labels the record partially migratory. Historical breeding and resident maps have latitude endpoints from −13.26° to −7.67°. This does not give a complete account of non-breeding movements or estimate the bird’s current position or global occupancy. Geography and morphological measurements come from separate compilation steps.
+## The migration label has a limited scope {#s-2e19a4bea1}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -13.26° to -7.67°. The mapped range area is 677593.38 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## EltonTraits food and foraging records {#s-2d006f9eea}
-COL26.8 accepts Papasula abbotti in Sulidae. EltonTraits 1.0 has a historical record with the same name and family, covering 2 groups: diet and foraging position. Its older bird taxonomy does not settle later species splits or synonym disputes, so read the record as historically associated by name and family.
+## Scope of the historical trait entry {#s-2d006f9eea}
+EltonTraits 1.0 has a same-name, same-family record for Papasula abbotti covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-eb85ee71fd}
-EltonTraits assigns 50% of the food weight to invertebrates and 50% to fish. Source code B indicates reasonable confidence in the source, while the relative proportions may be uncertain. These weights standardize written descriptions; they are not measured diet shares, and a zero would not prove that a food is never eaten.
+## Relative weights across food categories {#s-eb85ee71fd}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; fish 50%. Its dominant five-category label is Omnivore. Code B marks a reasonably reliable source, though relative proportions may be uncertain. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-13fe512b1f}
-The species-level foraging record assigns 100% of its weight to feeding below the water surface. This estimates relative use of feeding positions, not nest sites, all habitat or time spent there over a day. The archive’s position categories have distinct definitions; they are not elevation bands and cannot be used to infer flight height or habitat area.
+## Foraging positions are not a time budget {#s-13fe512b1f}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-85f015e7ee}
-The selected diet and foraging groups carry source label Ref_1, which points to a bird handbook citation in EltonTraits. A Ref number in a mammal reference table would not identify the same source. The archive preserves full reference strings by row and field group; the cited book has not been reviewed individually, and its label is not an additional observation.
+## Sources and field limits {#s-85f015e7ee}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-64ade615b8}
 AVONET measurements and averages describe its sampled historical record, not individual variation or identification cutoffs. The mass estimate comes from a separate species-average source, not necessarily from these measured birds. Habitat, diet and migration are broad categories; the map summarizes historical breeding and resident ranges. The HBW–BirdLife name and COL26.8 match support this association but do not prove identical species concepts. Reproduction, current populations and conservation need other sources.

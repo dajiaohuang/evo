@@ -1,12 +1,12 @@
-## A limited entry for an accepted species {#s-470292f0fa}
-COL26.8 accepts Uroplatus garamaso within Gekkonidae. The limited ReptTraits v1-2 entry uses the workbook’s Reptile Database 2023 name framework. It supports one habitat label in this account, so the page offers a narrow view of the cited record rather than a complete species profile.
+## COL26.8 name and the ReptTraits row {#s-470292f0fa}
+COL26.8 records Uroplatus garamaso as an accepted species. The ReptTraits v1-2 row gives its Family field as Gekkonidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A label for tree use {#s-29ca3f8f38}
-The recorded microhabitat is arboreal, meaning associated with trees. No activity time, diet or foraging mode is established in this entry. A single habitat label is not a full account of where the species lives, and it may not capture differences among populations, seasons or life stages.
+## Habitat use and activity labels {#s-29ca3f8f38}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018.
 
-## Other fields lack a supported species value {#s-32f26c4e7c}
-Beyond the tree-associated microhabitat label, this record does not establish maximum body lengths, clutch size or frequency, egg dimensions, diet, activity time, foraging mode, reproductive mode or sex-determination mechanism. Those details need species-level sources; blanks and records for relatives cannot supply them.
+## Reading this compiled trait record {#s-32f26c4e7c}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## How far this page goes {#s-47a350c461}
-This is supplemental trait material, not a complete account of morphology or ecology. It follows the same-name ReptTraits v1-2 entry and its 2023 naming framework. One row compresses variation among ages, sexes, localities and populations; matching name and family do not prove equivalence with later taxonomic concepts. Length, reproduction and other unsupported fields remain open. This page does not update conservation, venom, current distribution or population trends, and its citations do not mean the original works were independently reread here.
+## Reading this compiled trait record {#s-47a350c461}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

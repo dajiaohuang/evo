@@ -195,6 +195,82 @@ test('round-trips bilingual research sections, distinct scopes and complete sour
   assert.deepEqual(edited.pages.zh.map(section => section.key), ['scope-north', 'scope-south'])
 })
 
+test('derives catalogue section headings from keyed pages without persisting or replacing authored titles', t => {
+  const root = fixtureRoot(t)
+  const reference = {
+    id: 'ref-catalogue-account', title: 'Catalogue account source', url: 'https://example.org/catalogue-account',
+    sourceRole: 'taxonomic-database', fitnessFor: ['taxonomy'], version: 'release-7',
+  }
+  writeReferences([reference], root)
+  const flat = canonicalToNodeContent({
+    identity: { kind: 'taxon', scientificName: 'Example mammal' },
+    records: {
+      'catalogue-profile': {
+        sections: [
+          { topic: 'overview', text: { en: pageRef('en', 'intro', 'body'), zh: pageRef('zh', 'intro', 'body') }, sourceIds: ['catalogue-source'] },
+          { topic: 'morphology', title: { en: 'Authored body account' }, text: { en: pageRef('en', 'body', 'body'), zh: pageRef('zh', 'body', 'body') }, sourceIds: ['catalogue-source'] },
+          { topic: 'research', title: { en: pageRef('en', 'explicit', 'title') }, text: { en: pageRef('en', 'body', 'body') } },
+          { topic: 'availability', text: { en: pageRef('en', 'body', 'body') } },
+        ],
+        sources: [{
+          id: 'catalogue-source', referenceId: reference.id,
+          fields: ['id', 'title', 'url', 'version', 'scope', 'locator', 'license', 'rightsHolder', 'attribution'],
+          usage: { scope: 'Pinned checklist release.', locator: 'Account section 3', license: 'CC BY 4.0', rightsHolder: 'Catalogue project', attribution: 'Catalogue project, release 7' },
+        }],
+      },
+      'catalogue-dossier': {
+        facets: {
+          morphology: { claims: [
+            { text: pageRef('en', 'body', 'body'), textZh: pageRef('zh', 'body', 'body'), sourceIds: ['catalogue-source'], locator: 'Specimen account' },
+            { title: { en: 'Authored study title' }, text: pageRef('en', 'body', 'body'), textZh: pageRef('zh', 'body', 'body') },
+            { text: pageRef('en', 'explicit', 'body') },
+          ] },
+        },
+      },
+    },
+    pages: {
+      en: [
+        { key: 'intro', title: 'Mammal account', body: 'Recorded overview.' },
+        { key: 'body', title: 'Body evidence', body: 'Recorded body evidence.' },
+        { key: 'explicit', title: 'Explicit passage title', body: 'A separate passage.' },
+      ],
+      zh: [
+        { key: 'intro', title: '哺乳动物记录', body: '记录概述。' },
+        { key: 'body', title: '身体证据', body: '记录的身体证据。' },
+      ],
+    },
+  })
+  writeNodeContent('catalogue-title-fixture', flat, root)
+  const evidencePath = join(root, 'content', 'nodes', 'catalogue-title-fixture', 'evidence.yaml')
+  const persistedBeforeRead = parse(readFileSync(evidencePath, 'utf8'))
+  const read = readNodeContent('catalogue-title-fixture', root)
+  const sections = read.records['catalogue-profile'].sections
+  assert.deepEqual(sections.map(section => section.title), [
+    { en: 'Mammal account', zh: '哺乳动物记录' },
+    { en: 'Authored body account', zh: '身体证据' },
+    { en: 'Explicit passage title' },
+    { en: 'Body evidence' },
+  ])
+  assert.deepEqual(sections.map(section => section.topic), ['overview', 'morphology', 'research', 'availability'])
+  assert.deepEqual(sections[0].sourceIds, ['catalogue-source'])
+  assert.deepEqual(read.records['catalogue-profile'].sources[0], {
+    id: 'catalogue-source', title: { en: 'Catalogue account source', zh: 'Catalogue account source' },
+    url: 'https://example.org/catalogue-account', version: 'release-7', scope: 'Pinned checklist release.',
+    locator: 'Account section 3', license: 'CC BY 4.0', rightsHolder: 'Catalogue project', attribution: 'Catalogue project, release 7',
+  })
+  assert.deepEqual(parse(readFileSync(evidencePath, 'utf8')), persistedBeforeRead)
+  assert.equal(Object.hasOwn(persistedBeforeRead.records['catalogue-profile'].sections[0], 'title'), false)
+  const claims = read.records['catalogue-dossier'].facets.morphology.claims
+  assert.deepEqual(claims.map(claim => claim.title), [
+    { en: 'Body evidence', zh: '身体证据' },
+    { en: 'Authored study title', zh: '身体证据' },
+    { en: 'Explicit passage title' },
+  ])
+  assert.equal(claims[0].locator, 'Specimen account')
+  assert.deepEqual(claims[0].sourceIds, ['catalogue-source'])
+  assert.equal(Object.hasOwn(persistedBeforeRead.records['catalogue-dossier'].facets.morphology.claims[0], 'title'), false)
+})
+
 test('converts primary reference usages without creating metadata variants', t => {
   const root = fixtureRoot(t)
   const reference = { id: 'ref-primary-study', title: 'Primary study', doi: '10.1000/example' }

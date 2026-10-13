@@ -5,5 +5,5 @@ Noronha and colleagues used a 2004 field trip to update the distribution account
 The authors obtained records in terra firme primary forest, secondary growth and igapó. Identification used diagnostic characters from the description and comparisons with museum specimens. The observations apply to sampled sites only and do not establish a current trend.
 
 ## Evidence limits {#s-3494011034}
-Source-linked introduction;. Evidence comes from one 2004 field trip reported in 2008, and one record came from an interview rather than a direct sighting. No current presence, abundance or continuous range is inferred.
+. Evidence comes from one 2004 field trip reported in 2008, and one record came from an interview rather than a direct sighting. No current presence, abundance or continuous range is inferred.
 

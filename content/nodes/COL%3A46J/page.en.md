@@ -1,10 +1,10 @@
-## Local data reading route {#s-c4a8b7b8b5}
+## Recorded classification and member material {#s-c4a8b7b8b5}
 This batch’s Suliformes route includes 30 measured species records. Start with Anhinga anhinga, Anhinga melanogaster, Anhinga novaehollandiae, Anhinga rufa, Fregata andrewsi. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-c3660b6652}
 Compiled mean mass endpoints in this batch are Phalacrocorax fuscicollis at 706 g and Morus bassanus at 2998.74 g. Represented habitat categories include Wetland, Marine, Coastal; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-151228812a}
+## Amniote Life-history archive member records {#s-151228812a}
 This batch’s Suliformes route includes 29 historical life-history accounts; start with Anhinga anhinga, Anhinga melanogaster, Anhinga novaehollandiae, Anhinga rufa, Fregata andrewsi. More frequently represented fields include adult body mass (29 entries), offspring per litter or eggs per clutch (29 entries), longest lifespan record in the compilation (26 entries), oviposition to hatching (25 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-f36d5b1336}

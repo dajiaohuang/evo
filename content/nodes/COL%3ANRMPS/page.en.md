@@ -1,5 +1,5 @@
-## Locate records through older Pomatorhinus names {#s-3968504e2d}
-Pinned COL26.8 organizes this page at Erythrogenys gravivox (NRMPS) in Timaliidae (H9M). BirdLife 2020 row 8334 and eBird 2021 row 3770 share the name; both eBird sides share Avibase ID AVIBASE-ACFAA819, with type 1BL to 1eBird. BirdTree row 3754 gives Pomatorhinus gravivox, type 1BL to 1BT; exact catalogue synonym 4LQWS points to accepted species NRMPS. Name links locate records without proving identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-3968504e2d}
+Catalogue of Life release COL26.8 records Erythrogenys gravivox (A. David, 1873) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-6bff9ba3f2}
 Morphology comprises 6 birds: 0 female, 2 male and 4 unsexed; 5 complete sets. Nostril-to-tip beak length 24.5 mm, tarsus 36.1 mm, unflattened wing 91.3 mm, tail 97.1 mm and hand-wing index 6.7 are historical row means. Totals exceed complete sets; not every bird has all fields. No sexed female is present and four birds are unsexed; an all-male sample or sex comparison is unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

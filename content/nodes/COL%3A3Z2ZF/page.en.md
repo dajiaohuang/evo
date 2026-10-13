@@ -1,26 +1,26 @@
-## The name and this data account {#s-4dd17591c5}
-In the pinned Catalogue of Life release COL26.8, Meiglyptes tukki is accepted in Picidae. AVONET v7 records it under the HBW–BirdLife 2020 name. The dataset includes 6 measured individuals; 5 have a complete morphological set. The usable sample size can still differ by trait.
+## Row-reported mean and sample coverage {#s-4dd17591c5}
+The AVONET v7 row for Meiglyptes tukki (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 19.9 mm. The row records 6 measured individuals, 5 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-a0c0d52888}
-Mean beak length, measured from the anterior edge of the nostril to the tip, is 19.9 mm. At that edge, mean width is 7.2 mm and mean depth is 7.3 mm. These are separate measurements at standardized landmarks, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-a0c0d52888}
+AVONET records culmen length (bill tip to skull base) 25.2 mm; beak length (nostril front edge to tip) 19.9 mm; beak width at the nostril front edge 7.2 mm; beak depth at the nostril front edge 7.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-20bd0ab938}
-Mean unflattened wing length, from the carpal joint to the longest primary feather, is 96.8 mm; mean tarsus length is 21 mm. A separate compilation reports mean mass of 53.1 g (source category Dunning). That species-average mass is not evidence that every bird in the morphology sample was weighed.
+## Wing and body measures use separate sources {#s-20bd0ab938}
+AVONET records unflattened wing length 96.8 mm; tarsus length 21 mm; distance from first secondary tip to longest primary tip 15.2 mm; length to first secondary tip 81.6 mm; hand-wing index 15.6; tail length 57.7 mm; species-average body mass 53.1 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-17407d2baf}
-The dataset’s comparison categories are habitat “Forest,” trophic niche “Invertivore,” and lifestyle “Insessorial.” They are dominant categories for comparing species, not claims that this bird uses only one habitat or one kind of food.
+## Recorded habitat and feeding categories {#s-17407d2baf}
+AVONET classifies Meiglyptes tukki as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-b01e2e6697}
-AVONET classifies migration as sedentary. The historical breeding and resident maps run from latitude -5.95° to 14.25°. These bounds do not describe non-breeding movements and are neither a current location nor a global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-b01e2e6697}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -5.95° to 14.25°. The mapped range area is 772219.58 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-650cd21973}
-COL26.8 accepts Meiglyptes tukki in Picidae. The same-name, same-family EltonTraits 1.0 entry provides source information for one ecological field group. Its taxonomy follows earlier bird classification or MSW3 for mammals; the name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-650cd21973}
+EltonTraits 1.0 has a same-name, same-family record for Meiglyptes tukki covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-e47d945cb9}
-Recorded positive food-category weights are invertebrates 100%. Diet source code A marks high compiler confidence in the source and diet information. The percentages standardize verbal descriptions rather than measure diet composition, and a zero does not show that an item is never eaten. Categories such as Nect, Seed and PlantO have broader source definitions than their everyday names; they do not imply feeding exclusively on nectar, seeds or plants.
+## Relative weights across food categories {#s-e47d945cb9}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Trace each field group to its source labels {#s-de7c38fdd9}
-Source labels for the field groups used here are Ref_7. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. The source record keeps each original string with its file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-de7c38fdd9}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-9b537aca19}
 The AVONET v7 values here are historical summaries. Morphological values are species averages for the listed samples, not field-identification criteria or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so the morphology sample count does not apply to it. Habitat, food and migration are broad categories; mapped latitude covers historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name link this record to older data, but do not show that species concepts remain equivalent after later splits or lumps. Other sources are needed for reproduction, present-day populations and conservation status.

@@ -1,5 +1,5 @@
-## 沿两表的 Phylloscartes 旧组合查历史行 {#s-442f0bb0fe}
-本页按 COL26.8 的 Pogonotriccus ophthalmicus（CQWQZ）组织。BirdLife 2020 第 9036 行记当前页名；eBird 2021 第 8339 行记 Phylloscartes ophthalmicus，类型 1BL to 1eBird，两个 Avibase ID 均为 AVIBASE-060A7FB7；BirdTree 第 8301 行记 Phylloscartes ophthalmicus，类型 1BL to 1BT。本次读到目录异名 RX7R4，指向本页接受 ID。两张名称表保留同一旧属组合，不称 eBird 同名当前页；名称与标识对应不证明跨版本物种范围完全相同。
+## COL26.8 中的名称身份 {#s-442f0bb0fe}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pogonotriccus ophthalmicus Taczanowski, 1874 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-4f7817b20a}
 形态共 17 只鸟：雌 6、雄 9、性别未定 2；完整测量 4 只。鼻孔前缘至喙尖 6.2 mm、跗蹠 15.3 mm、未压平翼长 59.6 mm、尾长 56.6 mm、手翼指数 16.5 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

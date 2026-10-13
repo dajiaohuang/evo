@@ -1,4 +1,6 @@
-## 十一条物种资料构成主要路径 {#s-b67e7b2809}
+## 记录分类与直接上级关系 {#s-b67e7b2809}
+COL26.8 将 Tropiocolotes 记录为属；其直接上级记录为 Gekkonidae。
+
 本页整理的 ReptTraits 路径包含 11 条物种资料，按固定 COL26.8 的分类路径归在 Tropiocolotes 下；各性状保留出处，工作簿仍沿用 2023 年名称框架。可从 Tropiocolotes algericus、T. bisharicus、T. hormozganensis、T. nattereri 和 T. naybandensis 开始。这是有来源记录的选集，不是属内全部接受种的数量。
 
 ## 两条长度记录不构成属级范围 {#s-5c29e05fe7}
@@ -8,7 +10,7 @@
 另一套 2015 年生活史档案提供 Tropiocolotes nattereri 与 T. steudneri 两条记录。两者都有成年体重、每窝幼体数或卵数、产卵至孵化时间和最长寿命字段。计数只说明这条阅读路径收录了什么；比较数值前，应先确认字段对应的事件、单位及历史来源。
 
 ## 另有三页须注意引用范围 {#s-2afed89422}
-另有三页使用范围较窄的 ReptTraits 路径：[Tropiocolotes chirioi](Tropiocolotes_chirioi/page.zh.md)、[T. confusus](Tropiocolotes_confusus/page.zh.md) 和 [T. yomtovi](Tropiocolotes_yomtovi/page.zh.md)。部分来源的引用范围仍待核对，因此相关字段没有写成确定性状。这三页独立于主要的 11 条路线，也不能补成完整属名录。
+另有三页使用范围较窄的 ReptTraits 路径：Tropiocolotes chirioi、T. confusus 和 T. yomtovi。部分来源的引用范围仍待核对，因此相关字段没有写成确定性状。这三页独立于主要的 11 条路线，也不能补成完整属名录。
 
 ## 只比较两条资料共同支持的性状 {#s-a75dd380ae}
 每个物种页只解释自身有出处的字段。应先找出两页共同有来源支持的尺寸、活动、食性或繁殖资料，再作比较；缺值不能从近缘种移入。测量也须一致，例如龟类直线背甲长（SCL）与其他爬行动物的吻肛长（SVL）不可混为一类。

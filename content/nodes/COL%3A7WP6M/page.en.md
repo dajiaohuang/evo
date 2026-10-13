@@ -1,5 +1,5 @@
-## Tracing the historical genus name {#s-449ad49666}
-The pinned COL26.8 record places this account under Psilopogon pulcherrimus (7WP6M). AVONET v7 The BirdLife 2020 row 9701 and eBird 2021 row 8668 use the same name and Avibase ID AVIBASE-6F858890; BirdTree row 8623 gives Megalaima pulcherrima, with match type 1BL to 1BT. Read COL older-combination record 7VSW9 points to this accepted ID. These associations locate historical data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-449ad49666}
+Catalogue of Life release COL26.8 records Psilopogon pulcherrimus (Sharpe, 1888) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and beak/wing averages {#s-8a29244cee}
 The morphology sample includes 4 birds: 2 female, 2 male and 0 unsexed; 4 have complete measurement sets. Mean nostril-to-tip beak length is 16 mm, beak width 8.1 mm, tarsus 24.6 mm, unflattened wing 91.5 mm and hand-wing index 16.7. Inference=NO does not establish an identical count for every field; complete-set birds and total samples remain separate. The index is Kipp’s distance/wing length ×100, not flight speed, and beak width is not a test of fruit swallowing or pecking performance.

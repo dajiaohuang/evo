@@ -1,15 +1,15 @@
-## Name and this data account {#s-caf2bfc98c}
-COL26.8 lists Myriopholis tanae in Leptotyphlopidae. Its ReptTraits v1–2 row follows the Reptile Database 2023 name framework and preserves field-level sources. The row is a compiled summary rather than a condition established for every population.
+## COL26.8 name and the ReptTraits row {#s-caf2bfc98c}
+COL26.8 records Myriopholis tanae as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-0c399761fb}
-The row reports a maximum total length (TL) of 102.5 mm. TL includes the tail; snout–vent length (SVL) ends at the vent. The value is a compiled maximum, not typical size or an absolute limit.
+## Length values in the archived records {#s-0c399761fb}
+The row reports maximum total length (TL) of 102.5 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-e6d7786d61}
-The microhabitat field is Fossorial, indicating an underground or burrowing association. It is not a complete habitat description or an activity schedule.
+## Habitat use and activity labels {#s-e6d7786d61}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## Evidence limits {#s-a81e9a05de}
-This page summarizes selected fields from one ReptTraits v1–2 row using the Reptile Database 2023 name framework; it is not a complete species account. A row can combine reports from different sexes, ages, places, or populations, and a shared name does not prove that later taxonomic concepts are identical. Recorded maxima are compiled measurements, not absolute size limits. Reproductive averages summarize source records and do not describe every clutch. Where mass is estimated from length, it is not a direct measurement; differing juvenile-length definitions are not used here. Conservation status, venom, current distribution, and population trends are not updated. Citation labels preserve the workbook's source chain but do not mean every cited study was independently reviewed here.
+## Reading this compiled trait record {#s-a81e9a05de}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-363747fb19}
-The entry covers maximum total length and microhabitat only. It does not establish species-specific source support here for sex-specific length, reproductive traits, egg dimensions, diet, activity, foraging, or sex determination.
+## Reading this compiled trait record {#s-363747fb19}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,41 +1,41 @@
-## AVONET measurements under a historical name {#s-4b0d2b3fad}
-COL26.8 accepts *Cochlearius cochlearius* in Ardeidae. AVONET v7 reports this species under its HBW–BirdLife 2020 name. The source lists five measured individuals, four with a complete morphological set; sample sizes can still differ by trait.
+## Row-reported mean and sample coverage {#s-4b0d2b3fad}
+The AVONET v7 row for Cochlearius cochlearius (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 65.9 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-e2661323bd}
-Recorded mean beak measurements are 65.9 mm from the anterior nostril edge to the tip, 43.3 mm in width and 28.9 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-e2661323bd}
+AVONET records culmen length (bill tip to skull base) 86.4 mm; beak length (nostril front edge to tip) 65.9 mm; beak width at the nostril front edge 43.3 mm; beak depth at the nostril front edge 28.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-8b23a55540}
-Mean unflattened wing length from the carpal joint to the longest primary is 264.6 mm; mean tarsus length is 78.3 mm. Compiled mean mass is 643.21 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-8b23a55540}
+AVONET records unflattened wing length 264.6 mm; tarsus length 78.3 mm; distance from first secondary tip to longest primary tip 77.5 mm; length to first secondary tip 197 mm; hand-wing index 28.2; tail length 117 mm; species-average body mass 643.21 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-0343b08143}
-The dataset assigns habitat Wetland, trophic niche Aquatic predator and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-0343b08143}
+AVONET classifies Cochlearius cochlearius as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-ae573fed86}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -26.98° to 24.4°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-ae573fed86}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -26.98° to 24.4°. The mapped range area is 11698377.4 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Four fields in a historical life-history record {#s-d32e97ef0f}
-COL26.8 accepts *Cochlearius cochlearius* in Ardeidae. A historical life-history record supplies four focal fields, each linked to cited species-level sparse-table rows with the same name and family. These matches support the association, but compiled values may still inherit data across historical taxonomic boundaries.
+## Scope of the historical life-history entry {#s-d32e97ef0f}
+The August 2015 database has a same-name, same-family record for Cochlearius cochlearius. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-283368129f}
-The historical life-history compilation lists adult body mass as 635.75 g, distinct from the AVONET mean of 643.21 g above. The life-history value can combine males, females and adults of unspecified sex; neither number is a range of individual masses. No birth or hatching mass is reported in this record.
+## Compiled adult-mass values {#s-283368129f}
+The August 2015 compilation reports adult body mass 635.75 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-1f3a1c4332}
-The available fields are female maturity (defined by the source as age at first conception), 726.94 d; offspring per litter or eggs per clutch, 2.8; and time from oviposition to hatching, 30 d. Here d means days. The litter/clutch field combines offspring and egg counts, so a fractional summary does not mean one event produced a fractional individual. The time values refer to distinct events, not one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-1f3a1c4332}
+The August 2015 compilation reports female age at first conception (source definition) 726.936 days; median or interpolated-median number of offspring or eggs per litter/clutch 2.8; oviposition-to-hatching interval 30 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-063435acce}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Bennett, 1986; and Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009. Associated source details retain field-specific row numbers, values, labels and full reference explanations. A label may identify a primary paper, book or another database. Row counts are not measured-individual counts, and repeated citations do not constitute independent experimental replication.
+## Sources and field limits {#s-063435acce}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Food and foraging-position records {#s-6056afcced}
-COL26.8 accepts *Cochlearius cochlearius* in Ardeidae. EltonTraits 1.0 also includes a same-name, same-family record with two ecological field groups. Its bird taxonomy is historical; the name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-6056afcced}
+EltonTraits 1.0 has a same-name, same-family record for Cochlearius cochlearius covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-fbc5706f21}
-The nonzero food-category weights are invertebrates 60%, fish 30%, and mammals and birds 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions; they are not measured diet composition, and a zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply an exclusive diet of nectar, seeds or plants.
+## Relative weights across food categories {#s-fbc5706f21}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 60%; mammals and birds 10%; fish 30%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-654557705c}
-The species-level foraging-stratum weights are 60% on the ground and 40% at or just below the water surface. They estimate relative use of feeding positions, not nest sites, all habitat or a whole-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-654557705c}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 40%; on the ground 60%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-cdfd4d9e74}
-The two field groups carry the source label Ref_1. Diet, foraging stratum and activity may come from different material, and the same reference number in bird and mammal bibliographies does not necessarily identify the same work. The linked source details preserve the original citation strings. The underlying books and papers have not been individually read, and a source label is not an additional independent observation.
+## Sources and field limits {#s-cdfd4d9e74}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-ee6f09dd7d}
 AVONET morphology values are sample averages, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources; the five measured birds must not be assumed to be the mass sample. Habitat, diet and migration are broad categories, and the geographic summary covers historical breeding and resident ranges only. Historical crosswalks and a matching catalogue name support association but do not prove that species concepts remained equivalent through later splits or lumps. Other sources are needed for reproduction, current populations and conservation status.

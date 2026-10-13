@@ -1,5 +1,5 @@
-## Find rows through older Puffinus combinations {#s-978492d7a1}
-Pinned COL26.8 organizes this page at Ardenna carneipes (D5KCV). BirdLife 2020 row 10084 and eBird 2021 row 930 share the name and Avibase ID AVIBASE-08F22F84, with type 1BL to 1eBird; BirdTree row 932 gives Puffinus carneipes, with type 1BL to 1BT. Catalogue synonym 4QFXL, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-978492d7a1}
+Catalogue of Life release COL26.8 records Ardenna carneipes (Gould, 1844) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-e8e9b49cf0}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 31.1 mm, tarsus 52.1 mm, unflattened wing 310.2 mm, tail 110.2 mm and hand-wing index 61 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

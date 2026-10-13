@@ -4,13 +4,13 @@ Chang and Ting’s 2017 experiment adds a focused mechanics route to this order 
 ## Compare cadaver support with live balance {#s-80d239f98c}
 Read the samples separately: the study tested two adult [Phoenicopterus ruber](Phoenicopteridae/Phoenicopterus/Phoenicopterus_ruber/page.en.md) cadavers in support geometries and observed eight juvenile [Phoenicopterus chilensis](Phoenicopteridae/Phoenicopterus/Phoenicopterus_chilensis/page.en.md) on a force plate. Species, age, clamps and apparatus differ, so these are complementary experiments rather than one interchangeable sample. Then use the separate morphology, feeding and life-history pages; historical compilation averages do not replace experimental observations.
 
-## Local data reading route {#s-205df2fb88}
+## Recorded classification and member material {#s-205df2fb88}
 Six measured AVONET v7 species records fall under Phoenicopteriformes in the pinned COL26.8 hierarchy. The route begins with Phoeniconaias minor, Phoenicoparrus andinus, Phoenicoparrus jamesi, Phoenicopterus chilensis and Phoenicopterus roseus. AVONET retains its historical names and sampling scope; this list is a reading route, not a complete descendant census.
 
 ## Differences between records {#s-3ea9d3e6f3}
 In the compiled AVONET species means, Phoeniconaias minor is the lower mass endpoint at 1500 g and Phoenicoparrus andinus the upper at 4900 g. These are means for records, not minimum and maximum individual birds. The represented habitat labels are Wetland and Coastal, and the trophic-niche labels are Herbivore aquatic and Aquatic predator. They occur among the selected species records; they are not traits established for every flamingo.
 
-## Choose comparison pages by life-history fields {#s-a4196eb461}
+## Amniote Life-history archive member records {#s-a4196eb461}
 The 2015 life-history archive has five historical records on this route: Phoeniconaias minor, Phoenicoparrus andinus, Phoenicopterus chilensis, P. roseus and P. ruber. All five include adult body mass, female age at first conception, offspring-per-litter or eggs-per-clutch count, and time from oviposition to hatching. These are field-coverage counts for this batch, not the number of accepted species in the order. Check each field’s event, unit and source method before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-f78cf17849}

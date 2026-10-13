@@ -1,5 +1,5 @@
-## Read this historical record through food and foraging position {#s-249a39727c}
-Ichthyomys stolzmanni is accepted in pinned COL26.8 within Cricetidae. This page compares the same-name, same-family EltonTraits 1.0 record through 3 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-249a39727c}
+The EltonTraits 1.0 record for *Ichthyomys stolzmanni* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 80%, fish 20% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Ichthyomys stolzmanni*.
 
 ## Relative weights of food categories {#s-8dad953e16}
 The archive’s nonzero food weights are invertebrates 80%; fish 20%. Code ABC pools high, reasonable and partial confidence; some estimates can borrow from an ecologically similar congener. ABC cannot be rewritten as direct observations of this species. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
@@ -13,11 +13,13 @@ The archive marks feeding activity during daytime as 1. Several fields can be 1 
 ## Trace each field group to its source labels {#s-280861c95e}
 The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
-## Life-history evidence limits {#s-017efd097b}
-This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
+## How to interpret these historical records {#s-017efd097b}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## Name and historical material {#s-de71dd7f4a}
-Ichthyomys stolzmanni is accepted in pinned COL26.8 within Cricetidae. This page uses the PanTHERIA 1.0 MSW05 entry from the August 2008 table, whose biological data gathering ended in June 2004. The name association does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass in the historical table {#s-de71dd7f4a}
+The August 2008 PanTHERIA row for *Ichthyomys stolzmanni* records adult body mass 84.7 g. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Ichthyomys stolzmanni*.
 
 ## How body size was consolidated {#s-afcc946cda}
 Historical consolidated values are adult body mass 84.7 g. These fields use adjustment for sex followed by medians. Mass can include adult or age-unspecified animals but excludes pregnant females.  Values are not direct measurements of one specimen or a species-wide size range.

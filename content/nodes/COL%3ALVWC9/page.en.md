@@ -1,5 +1,5 @@
-## Find rows through older Turdoides combinations {#s-d97eb1336d}
-Pinned COL26.8 organizes this page at Argya altirostris (LVWC9). BirdLife 2020 row 4819 and eBird 2021 row 949 share the name and Avibase ID AVIBASE-FE13475E, with type 1BL to 1eBird; BirdTree row 951 gives Turdoides altirostris, with type 1BL to 1BT. Read catalogue synonym 59PJK points to this accepted ID. Source family Leiotrichidae and catalogue Leiothrichidae retain their spellings. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-d97eb1336d}
+Catalogue of Life release COL26.8 records Argya altirostris (E. J. O. Hartert, 1909) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-d280348f6f}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 14.7 mm, tarsus 27.4 mm, unflattened wing 73.5 mm, tail 100.5 mm and hand-wing index 9.6 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

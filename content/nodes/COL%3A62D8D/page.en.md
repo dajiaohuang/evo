@@ -16,7 +16,9 @@ Start with the type number, photograph provenance and reproductive-isolation inf
 ## Overview {#s-e47cb23ba3}
 Follow this Aotus reading path by study scale. Start with the 2018–2019 Colombian comparison of three A. lemurinus groups and one A. griseimembra group; then the three-site 2008 Chagres survey of A. zonalis and the 2024 nest-site records for A. brumbacki. Compare those with northeastern Peru field material for A. miconax and the older transect estimates for A. nancymai. The A. jorgehernandezi page records the 2007 chromosome-based description and a 2025 synonym proposal that differs from the pinned COL26.8 treatment. Four other roster pages—A. azarae, A. nigriceps, A. trivirgatus and A. vociferans—include a Brazilian interfluve map overlay, which represents range-map overlap rather than point-level field confirmation. Together, the eleven fixed COL26.8 species IDs have reader pages; this selected path is not a genus-wide ecological synthesis or a phylogeny.
 
-## Choose comparison pages by life-history fields {#s-dbb0e24cf3}
+## Recorded classification and direct parent {#s-dbb0e24cf3}
+COL26.8 records Aotus Illiger, 1811 at genus rank, with Aotidae Elliot, 1913 as its direct parent.
+
 This batch’s Aotus route includes 4 historical life-history accounts; start with Aotus azarae, Aotus lemurinus, Aotus trivirgatus, Aotus vociferans. More frequently represented fields include adult body mass (4 entries), offspring per litter or eggs per clutch (4 entries), longest lifespan record in the compilation (4 entries), age of dependence on food other than maternal milk (3 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-dc826cdbbf}
@@ -29,9 +31,9 @@ This route includes only this batch’s unique same-name, same-family historical
 This pass adds material history and taxonomic reading: only front bibliographic information, the English abstract and relevant pages 59–61 of the 2007 paper, and the publisher abstract and metadata of the 2025 article were read. The subscription full text, original Torres et al. (1998) images, specimens, chromosome bands and reproductive-isolation experiments were not independently examined. Reprinted photographs and repeated page citations add no samples. Pinned identities, existing local studies and uncertain-provenance material remain separate; the A. jorgehernandezi wild-ecology gap remains.
 This pass read the 2010 main article’s sample tables, methods, results and discussion, without examining figure pixels, supplementary files, museum material or raw sequences, or rerunning analyses. Eight historical taxa do not directly represent every pinned COL26.8 accepted-species concept. TR1’s karyotype, Table 1 specimens and external sequences remain distinct. No new wild ecological material for A. jorgehernandezi was obtained.
 
-## Start with the historical entries {#s-4d68e85583}
-The local PanTHERIA route for Aotus includes one usable data account. Start with [Aotus miconax](Aotus_miconax/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-4d68e85583}
+The local PanTHERIA route for Aotus includes one usable data account. Start with Aotus miconax. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
-## Limits of these historical data {#s-787e3c4d1f}
+## PanTHERIA material route {#s-787e3c4d1f}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 

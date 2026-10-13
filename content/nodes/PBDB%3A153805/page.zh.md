@@ -17,23 +17,50 @@
 2023 年条目报告 GMN-03-11-001 的肱骨长 79 毫米，翼展为 1,602 毫米，大于 Sinopterus dongi 正模。两件材料均未成熟，因此应结合骨骼融合情况理解这些数值。它们是作者报告的数值，并非独立复量；约 1.6 米也不是该种成体最大翼展。
 
 ## 与已命名形态的比较 {#s-b55ea4e50b}
-修订将正模及其成长解释与 [Sinopterus dongi](../../Sinopterus/Sinopterus_dongi/page.zh.md) 对读，再把其较长的第一掌骨和翼指节与 [Huaxiapterus corollatus](../Huaxiapterus_corollatus/page.zh.md) 比较。这些标本对比构成了异名处理的依据；保存不完整且成熟度依赖推断，限制了比较能说明的内容。
+修订将正模及其成长解释与 Sinopterus dongi 对读，再把其较长的第一掌骨和翼指节与 Huaxiapterus corollatus 比较。这些标本对比构成了异名处理的依据；保存不完整且成熟度依赖推断，限制了比较能说明的内容。
 
 ## PBDB 名称与记录数量 {#s-25dcf62912}
 PBDB 接受 Huaxiapterus jii 这一名称，数据库父级为 Huaxiapterus。所选记录含 1 条种级出现、1 个采集记录和 1 个引文编号；这些是数据库记录数量，不是标本或动物个体数。
 
+PBDB 出现记录补充:
+Huaxiapterus jii 在 PBDB 快照中对应分类条目 txn:153805。这份存档导读包含 1 条选取的出现记录，关联 1 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## 所选采集记录 {#s-056b85038a}
 所选采集记录为 Chaoyang pterosaurs (PROXY)（Liaoning），地区代码 CN，地层 Jiufotang；数据库年代范围为 121.4–113.2 Ma，早端地质时段为 Aptian。单一采集记录不代表完整物种分布。
+
+PBDB 出现记录补充:
+存档导读包含 1 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:837536；PBDB 采集记录 col:92652。 地点字段 cnm=Chaoyang pterosaurs (PROXY)；地点分区字段 cc2=CN，stp=Liaoning。 记录年代界：eag 121.4 Ma; lag 113.2 Ma；PBDB 年代区间字段 oei=Aptian。 地层字段 sfm=Jiufotang。 记录署名 Lü and Yuan 2005；PBDB 引文编号 ref:31365。
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+This is a proxy location for all Jiufotang Formation pterosaurs for which the locality is given only as "Chaoyang City"
 
 ## 这条记录的年代范围 {#s-ab289342b3}
 所选记录的年代外包区间为 121.4–113.2 Ma（百万年前），不等于连续化石记录，也不是直接测得的物种起源、灭绝或寿命。采集记录保留自己的区间；本页不推定更精确的标本年龄。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=121.4 Ma，见 occ:837536；最小记录 lag=113.2 Ma，见 occ:837536。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 采集环境与保存方式 {#s-becca391ad}
 采集环境标为 lacustrine indet.，保存方式标为 body、adpression。这些是采集记录层级的描述，不能确定翼龙生前的栖地或每件化石的保存状况。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:837536：PBDB 原鉴定字段 idn=Huaxiapterus jii n. gen. n. sp.；PBDB 分类名称字段 tna=Huaxiapterus jii；材料说明字段 ocm=GMN-03-11-001, nearly complete skeleton with skull；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=120.441666，lat=41.566666；古坐标／模型字段 pm1=gplates，pln=131.57，pla=40.54。
 
 ## 关联的数据库引文 {#s-ab8b6efdbe}
 PBDB 将该采集记录归于 Lü 和 Yuan（2005），引文编号 ref:31365。署名用于定位来源，不是论文摘要或完整物种综述。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:837536：记录署名 Lü and Yuan 2005；PBDB 引文编号 ref:31365。
+
 ## 资料卡的范围 {#s-49ce792861}
 本资料卡结合了一条数据库采集记录和对未成熟正模的修订。异名处理及尺寸为来源作者的解释；数据库记录没有提供成体成长序列、成体最大翼展或完整分布。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 1 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

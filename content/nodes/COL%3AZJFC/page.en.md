@@ -1,5 +1,5 @@
-## Find historical rows through older Serinus combinations {#s-28995d2f81}
-Pinned COL26.8 organizes this page at Crithagra xantholaema (ZJFC). BirdLife 2020 row 4046 and eBird 2021 row 2942 share the name and Avibase ID AVIBASE-8C436082, with type 1BL to 1eBird; BirdTree row 2925 gives Serinus xantholaemus, with type 1BL to 1BT. Read catalogue synonym 4WV83 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-28995d2f81}
+Catalogue of Life release COL26.8 records Crithagra xantholaema (Salvadori, 1896) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## The scope of one measured bird {#s-95ae602643}
 Morphology comprises 1 bird: 1 female, 0 male and 0 unsexed; 1 complete set. Nostril-to-tip beak length 7.6 mm, tarsus 13.7 mm, unflattened wing 64 mm, tail 46 mm and hand-wing index 14.2 are historical row means. One bird cannot establish sex differences or a population distribution. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

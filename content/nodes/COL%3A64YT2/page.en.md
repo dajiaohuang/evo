@@ -1,5 +1,5 @@
-## Find rows through older Collocalia combinations {#s-f92501f6d4}
-Pinned COL26.8 organizes this page at Aerodramus elaphrus (64YT2). BirdLife 2020 row 507 and eBird 2021 row 193 share the name and Avibase ID AVIBASE-C983661F, with type 1BL to 1eBird; BirdTree row 199 gives Collocalia elaphra, with type 1BL to 1BT. Read catalogue synonym 8KCGP points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates. Historical Order1=Caprimulgiformes remains distinct from Apodiformes in this COL path.
+## A name fixed to COL26.8 {#s-f92501f6d4}
+Catalogue of Life release COL26.8 records Aerodramus elaphrus (Oberholser, 1906) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-774422a86d}
 Morphology comprises 4 birds: 0 female, 3 male and 1 unsexed; 4 complete sets. Nostril-to-tip beak length 2.1 mm, tarsus 8.8 mm, unflattened wing 113 mm, tail 47.8 mm and hand-wing index 69.7 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

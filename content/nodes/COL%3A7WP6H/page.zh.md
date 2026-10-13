@@ -1,5 +1,5 @@
-## 旧属名如何查回历史行 {#s-c5b2e6195b}
-固定 COL26.8 以 Psilopogon monticola（7WP6H）组织本页。AVONET v7 BirdLife 2020 第 9697 行与 eBird 2021 第 8664 行同名，Avibase ID 为 AVIBASE-67B5D4C8；BirdTree 第 8619 行记作 Megalaima monticola，匹配类型为 1BL to 1BT。已读 COL 旧组合 7VSW5 指向本页接受 ID。这些关联用于定位历史资料，不把所有年代物种边界视为完全相同。
+## COL26.8 中的名称身份 {#s-c5b2e6195b}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon monticola (Sharpe, 1889) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与喙翼均值 {#s-855370b09c}
 形态共测 5 只：雌 2、雄 3、性别未定 0，其中 4 只具完整测量。鼻孔前缘至喙尖均值 22 mm，喙宽 10.8 mm，跗蹠 26.3 mm，未压平翼长 102.8 mm，手翼指数 16.6。Inference=NO 不表示每项字段都测了同样数量；完整测量鸟数与总样本分开。指数定义为 Kipp 距离／翼长 ×100，不是飞行速度，喙宽也不是吞果或啄食能力实验。

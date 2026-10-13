@@ -1,5 +1,5 @@
-## Locate the current page through older Rallina names {#s-3cc87781e7}
-Pinned COL26.8 organizes this page at Rallicula forbesi (4RB98) in Sarothruridae (CPHSJ). BirdLife 2020 row 2696 uses this species name and source family Rallidae; eBird 2021 row 9076 and BirdTree row 9022 both give Rallina forbesi. Match types are 1BL to 1eBird and 1BL to 1BT; both eBird sides share Avibase ID AVIBASE-5AD47186. Exact catalogue synonym 4RB9G points to accepted species 4RB98. Older genus and family names remain source records; name links do not prove identical historical and current species boundaries.
+## A name fixed to COL26.8 {#s-3cc87781e7}
+Catalogue of Life release COL26.8 records Rallicula forbesi Sharpe, 1887 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-d9e19b37aa}
 Morphology comprises 6 birds: 2 female, 4 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 15.8 mm, tarsus 38.3 mm, unflattened wing 106.7 mm, tail 56.8 mm and hand-wing index 6 are historical row means. Totals exceed complete sets; not every bird has all fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; a low value does not establish flightlessness, and wing length is not measured flight ability.

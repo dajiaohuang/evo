@@ -1,7 +1,9 @@
 ## Overview {#s-37ce1bd2b1}
 This guide follows the eight Semnopithecus species IDs in the fixed COL26.8 primate roster: the seven source-linked pages in this batch and the existing S. vetulus page. Start with the Himalayan studies—autumn feeding in S. ajax, the dated Dharan survey of S. hector, and the geophagy experiment on S. schistaceus—then compare the local S. entellus transect counts with S. priam's seasonal diet observations. For southern India, read the S. hypoleucos–S. johnii comparison alongside the Silent Valley S. johnii feeding record; the latter was published under Trachypithecus johnii. Close with the existing S. vetulus fecal-screening guide, which is a local health study. The route preserves the names and scopes used by each source; it is not a complete genus ecology review or a final taxonomic treatment.
 
-## Choose comparison pages by life-history fields {#s-017d262e23}
+## Recorded classification and direct parent {#s-017d262e23}
+COL26.8 records Semnopithecus Desmarest, 1822 at genus rank, with Presbytini Gray, 1825 as its direct parent.
+
 This batch’s Semnopithecus route includes 6 historical life-history accounts; start with Semnopithecus ajax, Semnopithecus entellus, Semnopithecus hector, Semnopithecus hypoleucos, Semnopithecus priam. More frequently represented fields include adult body mass (6 entries), female maturity field (defined by the source as age at first conception) (6 entries), offspring per litter or eggs per clutch (6 entries), conception or fertilization to birth (6 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-358d85c97f}

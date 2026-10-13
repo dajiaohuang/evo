@@ -1,4 +1,6 @@
-## 13 条同名性状记录 {#s-e682735a2a}
+## 记录分类与直接上级关系 {#s-e682735a2a}
+COL26.8 将 Vipera 记录为属；其直接上级记录为 Viperinae。
+
 本批 ReptTraits 路径收录 13 条同名同科、逐性状附有出处的 Vipera 记录；可先读 Vipera ammodytes、Vipera aspis、Vipera berus、Vipera dinniki 和 Vipera eriwanensis。导航沿用固定版 COL26.8，工作簿则保留 Reptile Database 2023 名称框架。这 13 条是本批覆盖数，不是该属全部接受种数量。
 
 ## 两项已报道的吻肛长记录 {#s-2d27342d87}
@@ -14,7 +16,7 @@
 两个后代条目的部分字段有待澄清引用范围，因此没有作为确定性状写入正文。物种页保留原始记录及其引用标签。路径数量代表资料条目数，不代表已有支持的性状数量。
 
 ## 六条有限性状 ReptTraits 记录 {#s-eb1b39d892}
-有限性状 ReptTraits 路径包括 6 条同名同科记录，可从 [Vipera altaica](Vipera_altaica/page.zh.md)、[Vipera anatolica](Vipera_anatolica/page.zh.md)、[Vipera darevskii](Vipera_darevskii/page.zh.md)、[Vipera graeca](Vipera_graeca/page.zh.md) 或 [Vipera nikolskii](Vipera_nikolskii/page.zh.md) 开始。COL26.8 提供导航框架，工作簿保留 Reptile Database 2023 名称；6 条是这条路径的数量，不是 Vipera 的接受种总数。
+有限性状 ReptTraits 路径包括 6 条同名同科记录，可从 Vipera altaica、Vipera anatolica、Vipera darevskii、Vipera graeca 或 Vipera nikolskii 开始。COL26.8 提供导航框架，工作簿保留 Reptile Database 2023 名称；6 条是这条路径的数量，不是 Vipera 的接受种总数。
 
 ## 只比较共同有来源的字段 {#s-97e58b0d4e}
 每个后代页只介绍自身有来源的字段。只有定义和单位一致且都受来源支持时，才适合跨物种对读。缺项不以近缘种补值；页面数也不代表性状完整。龟类直线背甲长（SCL）与蛇类吻肛长（SVL）不可互换。

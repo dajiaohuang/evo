@@ -1,4 +1,4 @@
-## 从已有历史条目开始 {#s-57a5ee988f}
+## 记录分类与成员材料 {#s-57a5ee988f}
 Urocyon 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Urocyon cinereoargenteus、Urocyon littoralis 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-cbdba21c96}
@@ -15,7 +15,7 @@ Urocyon 的本批路线包含 2 个历史条目，可从 Urocyon cinereoargenteu
 本路线汇合两条 PanTHERIA 条目、两条 2015 年生活史记录及两条 EltonTraits 条目；这些样本按历史名称归并，不应视作完全配对的一组资料。两条生活史记录均没有最高寿命记录。两条 EltonTraits 记录都有活动时段代码，而食物权重和觅食层位是基于文献描述的类别。MSW93／MSW05 同名表可用于导航，但不能单独证明历史名称等同于当前物种概念。
 
 ## 沿生活史资料阅读 {#s-0f6c2ede65}
-Urocyon 本批有 2 个历史生活史资料页，可从 [Urocyon cinereoargenteus](Urocyon_cinereoargenteus/page.zh.md)、[Urocyon littoralis](Urocyon_littoralis/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Urocyon 本批有 2 个历史生活史资料页，可从 Urocyon cinereoargenteus、Urocyon littoralis 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-7e87ac948d}
 本批妊娠资料见 2 页，雌性首次繁殖年龄见 2 页，最高寿命记录见 0 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

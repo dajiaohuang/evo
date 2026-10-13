@@ -1,4 +1,4 @@
-## 从有性状记录的物种开始 {#s-5921d27a46}
+## 记录分类与成员材料 {#s-5921d27a46}
 Trionychoidea 的本批 ReptTraits 阅读路径包含 23 条同名同科、有逐性状出处的物种资料，可从 Amyda cartilaginea、Apalone ferox、Apalone mutica、Apalone spinifera、Carettochelys insculpta 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-9ca923010d}
@@ -16,8 +16,8 @@ Trionychoidea 的本批路线包含 12 条历史生活史导读，可从 Caretto
 ## 部分后代条目的引用缺口 {#s-38cd667052}
 这条 ReptTraits 阅读路径中有 4 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-8817a2234f}
-Trionychoidea 的本批 ReptTraits 阅读路径包含 13 条同名同科、有逐性状出处的物种资料，可从 [Amyda ornata](Trionychidae/Amyda/Amyda_ornata/page.zh.md)、[Chitra vandijki](Trionychidae/Chitra/Chitra_vandijki/page.zh.md)、[Cyclanorbis elegans](Trionychidae/Cyclanorbis/Cyclanorbis_elegans/page.zh.md)、[Cycloderma aubryi](Trionychidae/Cycloderma/Cycloderma_aubryi/page.zh.md)、[Cycloderma frenatum](Trionychidae/Cycloderma/Cycloderma_frenatum/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-8817a2234f}
+Trionychoidea 的本批 ReptTraits 阅读路径包含 13 条同名同科、有逐性状出处的物种资料，可从 Amyda ornata、Chitra vandijki、Cyclanorbis elegans、Cycloderma aubryi、Cycloderma frenatum 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-f5a141894e}
 本批已有尺寸记录中，Pelodiscus shipian 的已报道最大直线背甲长（SCL）为 100 mm，Chitra vandijki 为 1000 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

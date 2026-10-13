@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-00296ecd32}
+## 记录分类与直接上级关系 {#s-00296ecd32}
+COL26.8 将 Melanerpes 记录为属；其直接上级记录为 Picinae。
+
 这里代表的 AVONET v7 记录包含 23 种 Melanerpes 的测量资料，例如 Melanerpes aurifrons、Melanerpes cactorum、Melanerpes candidus、Melanerpes carolinus 和 Melanerpes chrysauchen。目录层级按固定 COL26.8 组织，生物学数值保留来源中的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-7b10b69d6a}

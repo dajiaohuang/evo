@@ -1,18 +1,36 @@
 ## Which fossil records this name represents {#s-5c1c8250e0}
 Anosteira shuvalovi is accepted in the fixed PBDB pantestudines working roster, with database parent Anosteira. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-9da2fb727d}
-Collection Bayshin-Tsav [SMPE] (PIN coll. 100) (Omnogov), region code MN, stratum name Baynshire; database age bracket 93.9–83.6 Ma, early interval Late Turonian and late interval Late Santonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Anosteira shuvalovi is listed in the PBDB snapshot under taxon txn:238112. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-4ce796e4ab}
-Selected occurrences have an outer age envelope of 93.9–83.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+## Named localities and collection records {#s-9da2fb727d}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-a999af55ba}
-Bayshin-Tsav [SMPE] (PIN coll. 100) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1426499; PBDB collection col:67974. Locality cnm=Bayshin-Tsav [SMPE] (PIN coll. 100); place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 93.9 Ma; lag 83.6 Ma; PBDB interval fields oei=Late Turonian, oli=Late Santonian. Stratigraphic fields sfm=Baynshire. Recorded attribution Danilov 1999; PBDB reference ref:44060.
 
-## Follow collection records back to references {#s-c0a93c9ade}
-Bayshin-Tsav [SMPE] (PIN coll. 100) carries database reference attribution Danilov (1999), identifier ref:44060. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Baynshire Suite = Bayn Shire = Baynshiree = Bainshirenskaya. Cenomanian to Santonian date is based upon palaeomagnetic analyses (see Watabe et al. 2009)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Bayshin-Tsav, in SE Mongolia
+
+## Age bounds on the recorded occurrences {#s-4ce796e4ab}
+Across these selected PBDB rows, the largest recorded eag=93.9 Ma in occ:1426499; the smallest recorded lag=83.6 Ma in occ:1426499. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-a999af55ba}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1426499: PBDB original-identification field idn=Anosteira shuvalovi n. sp.; PBDB taxon-name field tna=Anosteira shuvalovi; PBDB locality-coordinate fields lng=107.518059, lat=43.144169; paleocoordinate/model fields pm1=gplates, pln=112.03, pla=40.95.
+
+## References attached to each record {#s-c0a93c9ade}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1426499: Recorded attribution Danilov 1999; PBDB reference ref:44060.
 
 ## Evidence limits {#s-4cf93a1104}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 1150-item pantestudines working roster, retain the current same name and a complete parent chain to the recorded Pantestudines storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,19 +1,33 @@
 ## Which fossil records this name represents {#s-de2c4d8cb0}
 Paralitherium tarkanyense is accepted in the fixed PBDB mammalia working roster, with database parent Paralitherium. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-1369f4110d}
-Collection Felsotarkany, region code HU; database age bracket 37.71–33.9 Ma, early interval Priabonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Paralitherium tarkanyense is listed in the PBDB snapshot under taxon txn:65059. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-a9466b8284}
-Selected occurrences have an outer age envelope of 37.71–33.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Felsotarkany, occurrence occ:493641 (37.71–33.9 Ma); one supplying the younger bound is Felsotarkany, occurrence occ:493641 (37.71–33.9 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-1369f4110d}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-9375ebc56d}
-Felsotarkany has collection-environment label marine indet.. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:493641; PBDB collection col:49889. Locality cnm=Felsotarkany; place fields cc2=HU. Recorded age bounds: eag 37.71 Ma; lag 33.9 Ma; PBDB interval fields oei=Priabonian. Recorded attribution Kordos 1977; PBDB reference ref:13723.
 
-## Follow collection records back to references {#s-60cbd8b7ac}
-Felsotarkany carries database reference attribution Kordos (1977), identifier ref:13723. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Northeast Hungary, Bukk Mountains), exposure of road widening, by the "Varkut"
+
+## Age bounds on the recorded occurrences {#s-a9466b8284}
+Across these selected PBDB rows, the largest recorded eag=37.71 Ma in occ:493641; the smallest recorded lag=33.9 Ma in occ:493641. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-9375ebc56d}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:493641: PBDB original-identification field idn=Paralitherium tarkanyense n. gen. n. sp.; PBDB taxon-name field tna=Paralitherium tarkanyense; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=20.396944, lat=47.950279; paleocoordinate/model fields pm1=gplates, pln=25.15, pla=37.54.
+
+## References attached to each record {#s-60cbd8b7ac}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:493641: Recorded attribution Kordos 1977; PBDB reference ref:13723.
 
 ## Evidence limits {#s-2fd1568283}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,5 +1,5 @@
-## EltonTraits name association {#s-9d662374a2}
-COL26.8 accepts Tupaia nicobarica in Tupaiidae. EltonTraits 1.0 provides three ecological groups for its same-name, same-family record under older bird or MSW3 mammal taxonomy. This match does not resolve later splits or synonyms.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-9d662374a2}
+The EltonTraits 1.0 record for *Tupaia nicobarica* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 90%, other plant material, including fungi 10% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Tupaia nicobarica*.
 
 ## Standardized food weights {#s-25ec27ccfb}
 Nonzero weights are invertebrates 90% and other plant material, including fungi in the source category, 10%. ABC combines high, reasonable and partial confidence and may use a similar congener. These weights standardize descriptions rather than measure diet; zero is not proof of never eating.
@@ -11,13 +11,15 @@ The entry is G, ground, whose source definition includes some aquatic foraging; 
 Daytime activity is marked 1. Activity flags can overlap, so they are not shares of a daily budget or fixed schedules. ABC may include congeneric evidence; genus/family typical values did not fill gaps.
 
 ## Source labels by group {#s-ec6a9e1142}
-The groups carry Ref_1 and metadata:Nowak1999. Diet, stratum and activity may have distinct sources; matching reference numbers in bird and mammal tables need not identify the same work. Strings are preserved by file, row, group and table; underlying sources were not individually read.
+The groups carry Ref_1 and metadata:Nowak1999. Diet, stratum and activity may have distinct sources; matching reference numbers in bird and mammal tables need not identify the same work. Citation labels retain file, row, field-group and reference-table context.
 
-## EltonTraits evidence limits {#s-6900b73e80}
-This is a guide to a historical same-name, same-family EltonTraits 1.0 record, not a full species account; historical concepts are not proven equivalent to COL26.8. Food weights standardize literature descriptions, and ABC fields may include congeneric evidence. Underlying works have not been reread. Current variation, range, population and conservation need other evidence.
+## How to interpret these historical records {#s-6900b73e80}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## PanTHERIA name and release {#s-f306623e47}
-COL26.8 accepts Tupaia nicobarica in Tupaiidae. PanTHERIA 1.0 uses an MSW05 entry in its August 2008 table; biological-data gathering ended in June 2004. The association does not resolve later taxonomy.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass and litter size in the historical table {#s-f306623e47}
+The August 2008 PanTHERIA row for *Tupaia nicobarica* records adult body mass 170.25 g; litter-size summary 0.96 offspring. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. A fractional litter-size value is a compiled summary, not a literal fractional litter. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Tupaia nicobarica*.
 
 ## Consolidated adult mass {#s-e9db25bd5d}
 The historical adult body-mass summary is 170.25 g, adjusted for sex then summarized by median. Adult or age-unspecified records may contribute, but pregnant females are excluded. It is not one specimen measurement or a complete range.

@@ -5,5 +5,5 @@ COL26.8 lists the red-bellied tamarin as *Tamarinus labiatus*. Buchanan-Smith (1
 The study combined observation and radio-location to record group size, ranging, daily activity and intergroup interactions. During the study, red-bellied tamarins formed stable mixed-species groups with saddle-back tamarins and jointly used and defended home ranges. The authors also described differences in foraging, forest height and travel. These are Pando study-site observations, not species-wide group parameters.
 
 ## Evidence limits {#s-e2b0b4f2cb}
-The field source uses the older combination *Saguinus labiatus* and is limited to a northern Bolivian study site. This bilingual draft. This page is.
+The field source uses the older combination *Saguinus labiatus* and is limited to a northern Bolivian study site.
 

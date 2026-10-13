@@ -1,5 +1,5 @@
-## Locate records through each older crosswalk name {#s-a9f90aa29c}
-Pinned COL26.8 organizes this page at Chalcites lucidus (CNJTS) in Cuculidae (8S7). BirdLife 2020 row 2092 uses this name; eBird 2021 row 1993 gives Chrysococcyx lucidus, BirdTree row 1982 Chrysococcyx lucidus, with types 1BL to 1eBird/1BL to 1BT. Both eBird sides share Avibase ID AVIBASE-19268395. Both older names correspond to exact synonym 5YNM6, pointing to accepted species CNJTS. Names locate records without proving identical historical and current whole-species boundaries.
+## A name fixed to COL26.8 {#s-a9f90aa29c}
+Catalogue of Life release COL26.8 records Chalcites lucidus (J. F. Gmelin, 1788) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-e0ef9588e1}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 10.5 mm, tarsus 17.6 mm, unflattened wing 102.8 mm, tail 67.5 mm and hand-wing index 44 are historical row means. Complete and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

@@ -1,10 +1,8 @@
-## Hind feet still matter in this whale {#s-8109eeb4c8}
-Holotype MUSM 3580 is a partial, articulated skeleton from Peru’s middle Eocene Yumaque Member, dated in the dossier to about 42.6 million years ago. It preserves the jaws, much of the axial skeleton and portions of the limbs. Two fused sacral vertebrae, a defined femoral head and hoof-like toe bones show how much of the hind-limb apparatus remains available for comparison.
+## MUSM 3580: hind limbs alongside aquatic adaptations {#s-8109eeb4c8}
+Holotype MUSM 3580 is a partial, articulated skeleton from Peru’s middle Eocene Yumaque Member, assigned in the dossier an age of about 42.6 million years. It preserves the jaws, much of the axial skeleton and portions of the limbs. Two fused sacrals, a defined femoral head and hoof-like toe bones make the hind-limb anatomy available for comparison alongside cetacean aquatic adaptations. The fossils support a mixed functional reconstruction, not a witnessed walk or swim; protocetid placement does not establish direct ancestry of later whales.
 
-Those structures occur together with cetacean aquatic adaptations, so Peregocetus records a body plan that had not lost all weight-bearing limb anatomy. The fossils support a mixed functional reconstruction, not a witnessed walk or swim, and its placement among protocetids does not establish direct ancestry of later whales.
-
-## atlas-profile / overview {#s-c092c7bbc3}
-Holotype MUSM 3580 is a partial skeleton from the middle Eocene Yumaque Member of coastal Peru; its sacral attachment, robust limbs and hoof-like phalanges document a quadrupedal whale with both aquatic and weight-bearing anatomical signals.
+## A Peruvian holotype with weight-bearing anatomy {#s-c092c7bbc3}
+MUSM 3580 preserves hind-limb anatomy consistent with weight bearing alongside aquatic adaptations; its ~42.6 Ma age is locality context, not a direct specimen date.
 
 ## atlas-profile / ecology / diet {#s-0b2402818b}
 Carnivory is inferred from cetacean dentition; prey and feeding behaviour are not preserved
@@ -30,6 +28,6 @@ Two fused sacrals, defined femoral head and hoof-like distal phalanges
 ## atlas-profile / traits {#s-ffffbacfb6}
 Functional hind limbs alongside aquatic cetacean adaptations
 
-## atlas-profile / evidenceSummary {#s-819432773f}
-MUSM 3580 fixes an approximately 42.6 Ma Peruvian protocetid occurrence and preserves anatomy consistent with weight bearing and aquatic locomotion; walking, swimming and westward dispersal remain analytical interpretations, not direct ancestry.
+## What the holotype and age record establish {#s-819432773f}
+MUSM 3580 anchors a Peruvian occurrence near 42.6 Ma; locomotion and westward dispersal are reconstructions, not observed activity.
 

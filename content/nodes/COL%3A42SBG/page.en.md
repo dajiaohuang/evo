@@ -5,7 +5,7 @@ Olivieri and colleagues sampled eight inter-river systems and 25 sites in northe
 The original study placed this lineage in a northwestern sampling frame and compared river, mountain and watershed explanations for isolation. Inter-river boundaries reflect the paper's sites and model, not a complete present-day range map.
 
 ## Morphology {#s-ca71d85f94}
-The study combined pelage categories, morphometrics and mitochondrial relationships to distinguish reddish lineages; dorsal color alone is not an individual diagnosis. This account preserves the paper's taxonomic evidence without extending it to behavior or ecology.
+The study combined pelage categories, morphometrics and mitochondrial relationships to distinguish reddish lineages. Dorsal color alone does not diagnose an individual, and these taxonomic comparisons do not establish behavioral or ecological differences.
 
 ## Evidence limits {#s-17c3b17486}
 Evidence is limited to the 2007 northern/northwestern samples and taxonomic analysis; current full range, abundance, diet and conservation status are not assessed. Common-name wording is editorial. The page is.

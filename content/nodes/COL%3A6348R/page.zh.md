@@ -1,4 +1,6 @@
-## 历史生活史路径 {#s-56e3aebccc}
+## 记录分类与直接上级关系 {#s-56e3aebccc}
+COL26.8 将 Eoglaucomys 记录为属；其直接上级记录为 Pteromyini。
+
 本批次 Eoglaucomys 路径有一条可用生活史记录：Eoglaucomys fimbriatus。页面保留 MSW05 名称、条件差异和缺项。固定版本 COL26.8 用于导航；历史行数不是当前接受物种的分母。
 
 ## 生态数据路径字段 {#s-c9c71f0b6e}

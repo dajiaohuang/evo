@@ -1,5 +1,5 @@
-## 沿旧 Cettia 组合查历史行 {#s-0436d5ef9d}
-本页按 COL26.8 的 Horornis parens（6MDDL）组织。BirdLife 2020 第 7418 行与 eBird 2021 第 4908 行同名，Avibase ID 为 AVIBASE-DFE28E09，类型 1BL to 1eBird；BirdTree 第 4885 行记 Cettia parens，类型 1BL to 1BT。本次读到目录异名 T77Z，指向本页接受 ID。来源科名 Scotocercidae 与当前 COL Cettiidae 分别保留；属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-0436d5ef9d}
+《Catalogue of Life》COL26.8（2026-08-20）将 Horornis parens (Mayr, 1935) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-9bb25b0d35}
 形态共 2 只鸟：雌 2、雄 0、性别未定 0；完整测量 2 只。鼻孔前缘至喙尖 9.2 mm、跗蹠 22.6 mm、未压平翼长 51.5 mm、尾长 43 mm、手翼指数 8.9 是历史行均值。完整数与总数相等，仍不提供个体变异范围。没有已定性别雄鸟，不能建立雌雄比较。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

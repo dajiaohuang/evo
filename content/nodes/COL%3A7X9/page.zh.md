@@ -1,35 +1,33 @@
-## 从已有历史条目开始 {#s-0e4c04bc18}
-Cercopithecidae 的本地 PanTHERIA 路径包括 36 条可用数据导读，可从 Cercocebus galeritus、Cercopithecus ascanius、Cercopithecus cephus、Cercopithecus erythrogaster、Cercopithecus erythrotis 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## PanTHERIA 的历史资料条目 {#s-0e4c04bc18}
+本地 PanTHERIA 1.0 路径链接历史 Cercopithecidae 记录，包括 Cercocebus galeritus、Cercopithecus ascanius、C. cephus、C. erythrogaster 和 C. erythrotis。所选档案含 36 条可用资料，各条保留 MSW05 名称及变量条件、缺项说明。这个数量描述来源筛选，不是当前接受种分母；导航沿用固定 COL26.8 分类。
 
-## 比较体型与生活史 {#s-f562c70263}
-本批可用的成年体重汇总值中，Miopithecus talapoin 为 1248.86 g，Theropithecus gelada 为 15964.11 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
+## 成年体重汇总中的两个端点 {#s-f562c70263}
+本批经性别调整的历史成年体重中位数中，Miopithecus talapoin 为 1,248.86 g，Theropithecus gelada 为 15,964.11 g。两值分别概括不同来源条目，是这组记录中的端点；它们不是个体极值，也没有呈现 Cercopithecidae 的完整体型范围。
 
-## 按生活史字段选择对读页面 {#s-2c9448a133}
-Cercopithecidae 的本批路线包含 110 条历史生活史导读，可从 Allenopithecus nigroviridis、Cercocebus agilis、Cercocebus atys、Cercocebus chrysogaster、Cercocebus galeritus 开始。较多条目具有的字段包括 成年体重（110 条）、每窝幼体数或卵数（103 条）、汇编中最长寿命记录（103 条）、雌性成熟字段（源定义为首次受孕年龄）（94 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+## 羊膜动物生活史档案中的字段 {#s-2c9448a133}
+2015 年 8 月版档案在这个科级路径中含 110 条历史资料。 110 条都有成年体重；每窝幼体数或每窝卵数及最高寿命各见于 103 条；来源定义的雌性成熟字段——首次受孕年龄——见于 94 条。例子包括 Allenopithecus nigroviridis 和数种 Cercocebus。这些计数描述档案字段覆盖，不代表科级成员总数或所有后代共有的繁殖模式。
 
-## 沿食物、取食位置和活动时段对读 {#s-b87ad443ec}
-Cercopithecidae 的本批路线包含 121 个历史条目，可从 Allenopithecus nigroviridis、Macaca leonina、Macaca maura、Macaca mulatta、Macaca nemestrina 开始。其中 98 条可读食物类别权重，121 条可读取食层位，121 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+## 食物权重、取食层位与活动代码 {#s-b87ad443ec}
+EltonTraits 筛选含 121 条历史记录：98 条有食物类别权重，取食层位和哺乳类活动时段各见于 121 条。例子包括 Allenopithecus nigroviridis 和数种 Macaca。食物权重将文献描述标准化；层位和活动字段使用类别或二元代码，并非对每只动物饮食或每日安排的直接测量。
 
-## 证据边界 {#s-7e243f2af1}
-本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+## 不同资料集各自的适用边界 {#s-7e243f2af1}
+PanTHERIA、羊膜动物档案、EltonTraits 与 Ernest 汇编保留各自的名称对照、变量定义、筛选规则和来源条件。它们都未覆盖 COL26.8 下的全部后代；历史名称匹配不证明与当前物种概念等同。成年体重和生活史数值概括档案条目，不是个体范围或当前种群测量；空字段也不表示性状不存在。EltonTraits 类别概括文献描述，部分哺乳类 ABC 条目可能借用同属材料推断。2015 年羊膜动物档案中，除最高寿命外的数值为中位数或插补中位数；最高寿命是所收录的最长记录，不是平均值。
 
-## 从已有历史条目开始 {#s-3902e9b69b}
-Cercopithecidae 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 [Cercopithecus sclateri](Cercopithecinae/Cercopithecini/Cercopithecus/Cercopithecus_sclateri/page.zh.md)、[Presbytis frontata](Colobinae/Presbytini/Presbytis/Presbytis_frontata/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 另一组两条 PanTHERIA 资料 {#s-3902e9b69b}
+这组较小的 PanTHERIA 筛选链接 Cercopithecus sclateri 与 Presbytis frontata。历史 MSW05 名称和变量说明仍附于各自条目。这两条资料构成阅读样本，不是该科全部多样性的综述。
 
-## 比较体型与生活史 {#s-3c773344a5}
-本批可用的成年体重汇总值中，Cercopithecus sclateri 为 3067.29 g，Presbytis frontata 为 6096.6 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
+## 两条资料中的体重汇总值 {#s-3c773344a5}
+经性别调整的历史成年体重中位数分别为：Cercopithecus sclateri 3,067.29 g，Presbytis frontata 6,096.6 g。每个数值来自各自来源条目；两者既不是个体极值比较，也没有覆盖 Cercopithecidae 的完整体型范围。
 
-## 这组历史数据的边界 {#s-c39bfc9054}
-本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
+## 这组小型筛选代表什么 {#s-c39bfc9054}
+这条路径筛选至少有一个焦点字段的历史条目，并以同名同科及历史一对一对照表关联。它不覆盖所有接受后代，名称匹配也不能证明历史与当前物种概念等同。当前分布和保护状况需要其他证据。
 
-## 沿生活史资料阅读 {#s-34c39e7cb3}
-Cercopithecidae 本批有 30 个历史生活史资料页，可从 [Allenopithecus nigroviridis](Cercopithecinae/Cercopithecini/Allenopithecus/Allenopithecus_nigroviridis/page.zh.md)、[Cercocebus galeritus](Cercopithecinae/Papionini/Cercocebus/Cercocebus_galeritus/page.zh.md)、[Cercopithecus nictitans](Cercopithecinae/Cercopithecini/Cercopithecus/Cercopithecus_nictitans/page.zh.md)、[Cercopithecus erythrotis](Cercopithecinae/Cercopithecini/Cercopithecus/Cercopithecus_erythrotis/page.zh.md)、[Cercopithecus cephus](Cercopithecinae/Cercopithecini/Cercopithecus/Cercopithecus_cephus/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+## Ernest 汇编中的生活史记录 {#s-34c39e7cb3}
+Ernest 2003 年档案贡献 30 条关联至 Cercopithecidae 的历史生活史记录。例子包括 Allenopithecus nigroviridis、Cercocebus galeritus 及三条 Cercopithecus 资料。这是固定目录路径下精选的历史名称条目，不是接受种完整名录。
 
-## 先区分平均值与纪录 {#s-a138e62bb8}
-本批妊娠资料见 20 页，雌性首次繁殖年龄见 17 页，最高寿命记录见 10 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。
+## 妊娠、首次繁殖与寿命 {#s-a138e62bb8}
+20 条记录有妊娠期资料，17 条有雌性首次繁殖年龄，10 条有最高寿命。首次繁殖不同于首次生产或性成熟；最高寿命是最长纪录，不是平均值。来源字段的条件可能不同，缺失条目不会用近缘种资料补齐。
 
-## 这组历史数据的边界 {#s-f1af3f73ce}
-这个入口概括本批已写的历史生活史记录，不代表全部接受后代或完整类群生物学。物种页按同名同科及 MSW93／MSW05 同名一对一表关联，当前物种概念等同尚未证明。除最高寿命外，相关字段一般为等权文献平均，输入可含已有平均值、个体值或资料不足时的范围中点；未按样本量加权，底层文献可能重复。最高寿命仅为最长记录，不是一般寿命。成年体重不在本批解读，缺值不从近缘种补写。各页保留原始来源编号；本批未逐条读取底层物种文献，也未确定所有野外、圈养与地点条件。
+## 理解历史生活史数值 {#s-f1af3f73ce}
+物种条目按名称、科级位置及 MSW93／MSW05 同名一对一对照表关联；这仍不能证明与当前物种概念等同。除最高寿命外，字段通常对文献数值等权平均，不按样本量加权。资料可为已发表平均值、个体值或范围中点，底层研究也可能重复。 Ernest 路线不解读成年体重；页面保留原始参考编号，但并未逐项确定所有来源的野外、圈养和地点条件，也没有在此逐篇复核原始论文。
 

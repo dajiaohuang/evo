@@ -1,7 +1,7 @@
 ## overview {#s-27067d5beb}
 这条精选阅读路径连接固定 COL26.8 雀形目名录中已有正文的五个种级页面。可先读家麻雀岛屿种群中的幼鸟扩散研究，再读大山雀对荷兰苹果园毛虫损害的影响；蓝山雀页面介绍苏格兰一个巢箱种群中环境条件、亲本皮质酮与繁殖结果的关系；接着阅读斑胸草雀基因组研究，了解鸣唱学习研究背景、单只雄鸟的基因组组装，以及与鸡的有限比较。最后读喜鹊在布拉格公共绿地的一项繁殖季研究：噪声与较低的起飞距离/警戒距离之比相关，但未显著预测警戒距离。这些页面讨论的问题和尺度不同，组成的是若干精选研究的阅读路径，不是雀形目的完整介绍。
 
-## 本地数据阅读路径 {#s-56de8667c5}
+## 记录分类与成员材料 {#s-56de8667c5}
 Passeriformes 的本批阅读路径包含 3444 条有测量来源的物种记录，可从 Acanthisitta chloris、Xenicus gilviventris、Acanthiza apicalis、Acanthiza chrysorrhoa、Acanthiza ewingii 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-8bad13dc95}
@@ -23,8 +23,8 @@ Passeriformes 的本批路线包含 646 个历史条目，可从 Pitta maxima、
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
-## 从有限生态资料开始 {#s-b226e1252f}
-Passeriformes 本批有 316 个有限生态资料页，可从 [Gerygone dorsalis](Acanthizidae/Gerygone/Gerygone_dorsalis/page.zh.md)、[Gerygone hypoxantha](Acanthizidae/Gerygone/Gerygone_hypoxantha/page.zh.md)、[Gerygone inornata](Acanthizidae/Gerygone/Gerygone_inornata/page.zh.md)、[Acrocephalus rehsei](Acrocephalidae/Acrocephalus/Acrocephalus_rehsei/page.zh.md)、[Psaltria exilis](Aegithalidae/Psaltria/Psaltria_exilis/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-b226e1252f}
+Passeriformes 本批有 316 个有限生态资料页，可从 Gerygone dorsalis、Gerygone hypoxantha、Gerygone inornata、Acrocephalus rehsei、Psaltria exilis 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-e01a177a3b}
 栖地类别见 308 页，取食生态位见 316 页，主导活动方式见 316 页，迁移类别见 315 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

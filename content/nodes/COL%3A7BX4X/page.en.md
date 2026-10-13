@@ -1,29 +1,29 @@
-## Linking the historical records {#s-8f512468db}
-COL26.8 accepts Theristicus melanopis in Threskiornithidae. The 2015 archive supplies three life-history fields from a historical same-name, same-family entry. Its species-level row supports the association, but summaries may still include material inherited through an older taxonomy.
+## Scope of the historical life-history entry {#s-8f512468db}
+The August 2015 database has a same-name, same-family record for Theristicus melanopis. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass is a compiled summary {#s-dc4bf349e6}
-The archive reports adult body mass as 1,200 g. This summary may combine male, female and unspecified-sex adults; it is not an individual range. No birth or hatching mass is included here.
+## Compiled adult-mass values {#s-dc4bf349e6}
+The August 2015 compilation reports adult body mass 1200 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## A fractional clutch summary {#s-0dcf6b9599}
-The compiled litter-or-clutch field is 2.4 eggs or offspring. Because the source combines egg and young counts in one field, this fractional summary is not a count from one nest. Other reproductive and developmental durations are not available here.
+## Reproductive fields describe different events {#s-0dcf6b9599}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.4. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## Maximum longevity is not typical lifespan {#s-a34638a572}
-The maximum_longevity_y field is 34.5 years, the largest record retained by the archive method. This is a collected maximum, not a typical lifespan, wild-lifespan average or age reached by every bird.
+## A maximum record is not typical lifespan {#s-a34638a572}
+The compilation lists 34.5 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## Following the source trail {#s-ef004af995}
-Field-specific rows cite Bennett (1986), Jetz, Sekercioglu and Bohning-Gaese (2008), and de Magalhaes and Costa (2009). The archive retains each field's row locator, value and citation label. The sources differ in type, and repeated citations do not constitute independent replication.
+## Sources and field limits {#s-ef004af995}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## A second historical ecology record {#s-f219cba8ff}
-EltonTraits 1.0 also links a same-name, same-family record, following an earlier bird taxonomy. The link does not settle later splits or synonymy. This page uses the diet and foraging-position groups.
+## Scope of the historical trait entry {#s-f219cba8ff}
+EltonTraits 1.0 has a same-name, same-family record for Theristicus melanopis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Estimated food weights {#s-5f7f5bb62f}
-The nonzero diet weights are 70% invertebrates, 20% reptiles and amphibians, and 10% mammals and birds. Code A indicates high compiler confidence in the source and diet entry. These proportions standardize published descriptions; they are not measured shares of consumed food.
+## Relative weights across food categories {#s-5f7f5bb62f}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 70%; mammals and birds 10%; reptiles and amphibians 20%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Ground feeding in the source categories {#s-0967277775}
-The species-level foraging entry assigns 100% to ground. This is relative use within the source's feeding-position categories, not a full-day time budget, nest-site description or elevation measurement.
+## Foraging positions are not a time budget {#s-0967277775}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Provenance of the ecology fields {#s-e6e06f2bfe}
-Both groups carry Ref_1, recorded as Handbook of the Birds of the World, volume 1. The archive preserves this source label at group level. The Handbook was not independently reviewed here, and the label is not an additional observation.
+## Sources and field limits {#s-e6e06f2bfe}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits of these summaries {#s-1e812b3f7b}
 The 2015 life-history values are compilation summaries, not measurements of one bird. Adult mass may combine sexes, the clutch value is fractional, and longevity is the largest collected record. Historical species or subspecies inheritance may remain; the name match does not prove equivalence to COL26.8, and wild or captive conditions are not consistently established. EltonTraits weights translate descriptions under an older taxonomy. Ref_1 is preserved as a source label, not an independently verified observation. Additional evidence is needed for other reproductive traits, current range, populations and conservation.

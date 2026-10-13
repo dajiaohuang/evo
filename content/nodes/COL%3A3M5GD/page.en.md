@@ -1,3 +1,15 @@
+## A diagnosis based on two known specimens {#ha-diagnosis}
+The authors provide an amended diagnosis from two known specimens (the female holotype and an adult male collected in 2018) and compare it with congeners. Reported diagnostic measurements include forearm length 43.3–44.5 mm, ear length about 27.5 mm, and medial ear-lobe width about 4.5 mm; the authors describe dark bicolored dorsal fur and a low interaural skin band that fades toward the centre. These are account-level characters, not estimates of within-population variation.
+
+## One late-night capture at a forest edge {#ha-single-observation}
+The adult male collected in November 2018 was captured about four hours after sunset, at approximately 23:00, and the authors report it had been foraging along a forest-fragment edge beside grassland. This is one event and does not describe the species’ life cycle or reproductive behavior.
+
+## Habitat evidence from two localities {#ha-habitat-record}
+The 2018 specimen was captured at the edge of a forest fragment adjacent to grassland within a protected area containing natural grasslands and small, isolated moist Araucaria-forest fragments. Across the two known records, the authors describe the species as associated with dense rainforest, Araucaria and riparian forests, and grasslands; this is a two-locality account, not a complete habitat inventory or interaction network.
+
+## Two documented localities in southern Brazil {#ha-two-localities}
+As reported in 2023, H. alienus was known from two localities in southern Brazil: the female holotype from Joinville, Santa Catarina, at sea level, and the adult male collected at Palmas, Paraná, at 1208 m. The authors report the new locality as extending the documented distribution about 280 km west at the same latitude.
+
 ## Read this historical record through food and foraging position {#s-443712cbf9}
 Histiotus alienus is accepted in pinned COL26.8 within Vespertilionidae. This page compares the same-name, same-family EltonTraits 1.0 record through 3 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
 

@@ -1,18 +1,40 @@
-## Which fossil records this name represents {#s-61dc23bf63}
-Khankhuuluu mongoliensis is accepted in the fixed PBDB dinosaur working roster, with database parent Khankhuuluu. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-61dc23bf63}
+Khankhuuluu mongoliensis is listed in the PBDB snapshot under taxon txn:509677. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-08a50d16a5}
-Collection Tsagaan Teg West [HMNS-GIN 2008] (Dornogov), region code MN, stratum name Baynshire; database age bracket 100.5–83.6 Ma, early interval Cenomanian and late interval Santonian. Collection Bayshin-Tsav [SMPE] (PIN coll. 100) (Omnogov), region code MN, stratum name Baynshire; database age bracket 93.9–83.6 Ma, early interval Late Turonian and late interval Late Santonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-08a50d16a5}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-bd99a86e50}
-Selected occurrences have an outer age envelope of 100.5–83.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1165902; PBDB collection col:149977. Locality cnm=Tsagaan Teg West [HMNS-GIN 2008]; place fields cc2=MN, stp=Dornogov. Recorded age bounds: eag 100.5 Ma; lag 83.6 Ma; PBDB interval fields oei=Cenomanian, oli=Santonian. Stratigraphic fields sfm=Baynshire. Recorded attribution Voris et al. 2025; PBDB reference ref:92290.
 
-## Read preservation setting separately from living habitat {#s-f0d87d5971}
-Tsagaan Teg West [HMNS-GIN 2008] has collection-environment label terrestrial indet.; collection preservation-mode label body. Bayshin-Tsav [SMPE] (PIN coll. 100) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+= Bayn Shire
 
-## Follow collection records back to references {#s-e0c68fdf7c}
-Tsagaan Teg West [HMNS-GIN 2008] carries database reference attribution Voris et al. (2025), identifier ref:92290. Bayshin-Tsav [SMPE] (PIN coll. 100) carries database reference attribution Voris et al. (2025), identifier ref:92290. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+N: 44-24-40.44; E: 109-50-19.44; A: 885m; located ca. 20 km SW of Dzun Bayan Somon and ca. 3 km W of main Tsagaan Teg locality
 
-## Evidence limits {#s-97053dd6fb}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1209949; PBDB collection col:67974. Locality cnm=Bayshin-Tsav [SMPE] (PIN coll. 100); place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 93.9 Ma; lag 83.6 Ma; PBDB interval fields oei=Late Turonian, oli=Late Santonian. Stratigraphic fields sfm=Baynshire. Recorded attribution Voris et al. 2025; PBDB reference ref:92290.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Baynshire Suite = Bayn Shire = Baynshiree = Bainshirenskaya. Cenomanian to Santonian date is based upon palaeomagnetic analyses (see Watabe et al. 2009)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Bayshin-Tsav, in SE Mongolia
+
+## Age bounds on the recorded occurrences {#s-bd99a86e50}
+Across these selected PBDB rows, the largest recorded eag=100.5 Ma in occ:1165902; the smallest recorded lag=83.6 Ma in occ:1165902. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-f0d87d5971}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1165902: PBDB taxon-name field tna=Khankhuuluu mongoliensis; material note ocm=MPC-D 102/4; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=109.838608, lat=44.411110; paleocoordinate/model fields pm1=gplates, pln=113.97, pla=42.47.
+- occ:1209949: PBDB original-identification field idn=Khankhuuluu mongoliensis n. gen. n. sp.; PBDB taxon-name field tna=Khankhuuluu mongoliensis; material note ocm=PST.GIN AN MNP 100/50, 100/51; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=107.518059, lat=43.144169; paleocoordinate/model fields pm1=gplates, pln=112.03, pla=40.95.
+
+## References attached to each record {#s-e0c68fdf7c}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1165902: Recorded attribution Voris et al. 2025; PBDB reference ref:92290.
+- occ:1209949: Recorded attribution Voris et al. 2025; PBDB reference ref:92290.
+
+## What these records can show {#s-97053dd6fb}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

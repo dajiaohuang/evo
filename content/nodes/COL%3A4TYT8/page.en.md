@@ -1,32 +1,32 @@
-## The name and this data account {#s-63569f2fdf}
-Sagittarius serpentarius is accepted in COL26.8 within Sagittariidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 8 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-63569f2fdf}
+The AVONET v7 row for Sagittarius serpentarius (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 40.2 mm. The row records 8 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-752e817779}
-Recorded mean beak measurements are 40.2 mm from the anterior nostril edge to the tip, 19 mm in width and 24.1 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-752e817779}
+AVONET records culmen length (bill tip to skull base) 59.4 mm; beak length (nostril front edge to tip) 40.2 mm; beak width at the nostril front edge 19 mm; beak depth at the nostril front edge 24.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-715c44bcd7}
-Mean unflattened wing length from the carpal joint to the longest primary is 615.5 mm; mean tarsus length is 269.9 mm. Compiled mean mass is 4017 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-715c44bcd7}
+AVONET records unflattened wing length 615.5 mm; tarsus length 269.9 mm; distance from first secondary tip to longest primary tip 250.2 mm; length to first secondary tip 365.2 mm; hand-wing index 40.6; tail length 551.8 mm; species-average body mass 4017 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-c48d4dfeb8}
-The dataset assigns habitat Grassland, trophic niche Vertivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-c48d4dfeb8}
+AVONET classifies Sagittarius serpentarius as habitat Grassland (open grass-dominated landscapes); trophic niche Vertivore (source threshold at least 60% from terrestrial vertebrates); trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-e2e667130b}
-The migration field classifies this record as partially migratory. Historical breeding and resident maps span latitude endpoints -34.84° to 17.86°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-e2e667130b}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -34.84° to 17.86°. The mapped range area is 14023594.92 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-c2f3ebcb54}
-Sagittarius serpentarius is accepted in pinned COL26.8 within Sagittariidae. This page compares the same-name historical life-history entry using 6 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-c2f3ebcb54}
+The August 2015 database has a same-name, same-family record for Sagittarius serpentarius. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-597a202e9e}
-Historical summary values are adult body mass 3900 g; mass at birth or hatching 56 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+## Compiled adult-mass values {#s-597a202e9e}
+The August 2015 compilation reports adult body mass 3900 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-3cd7984acd}
-Available compilation fields are offspring per litter or eggs per clutch 2 offspring/eggs; oviposition to hatching 43.5 d; age at flight capability (leaving the nest in some source material) 83.5 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-3cd7984acd}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2; oviposition-to-hatching interval 43.5 days; age at flight capability (some records mark nest departure) 83.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-04283eb1f3}
-The archive’s maximum_longevity_y value is 18.6 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-04283eb1f3}
+The compilation lists 18.6 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-fef2979cda}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Bennett, 1986; Wasser, D.E. and P.W. Sherman, 2010, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-fef2979cda}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-d50be883de}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

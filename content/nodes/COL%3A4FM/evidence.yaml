@@ -16,7 +16,10 @@ records:
     - subjectId: taxon:strepsirrhini
       claimKind: scientific
       claimType: topology
-      statement: A 367-species molecular supermatrix strongly supports Strepsirrhini within the sampled living primates, but the tree omits extinct diversity and inherits the study’s 2012 species concepts; it does not date a fossil first appearance.
+      statement:
+        page: en
+        section: living-molecular-tree
+        part: body
       confidence: medium
       confidenceRationale: The primary analysis explicitly samples 69 nuclear segments and 10 mitochondrial sequences. Scope is restricted to its living species matrix.
       referenceLinks:
@@ -28,7 +31,9 @@ records:
   claim-rationales.zh:
     - 一手分析明确取样 69 个核基因片段和 10 条线粒体序列；范围仅限于其现生物种矩阵。
   claim-statements.zh:
-    - 一套覆盖 367 个物种的分子超级矩阵在取样现生灵长类中强烈支持湿鼻亚目，但该树不含灭绝多样性并继承研究的 2012 年物种概念；它不测定化石首现。
+    - page: zh
+      section: living-molecular-tree
+      part: body
   ranges:
     - entityId: strepsirrhini
       rangeKind: global-composite

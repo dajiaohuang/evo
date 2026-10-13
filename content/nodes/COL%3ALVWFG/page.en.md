@@ -1,5 +1,5 @@
-## Find rows through older Turdoides combinations {#s-1f3c839c39}
-Pinned COL26.8 organizes this page at Argya fulva (LVWFG). BirdLife 2020 row 4823 and eBird 2021 row 954 share the name and Avibase ID AVIBASE-3EFD8DF0, with type 1BL to 1eBird; BirdTree row 955 gives Turdoides fulva, with type 1BL to 1BT. Read catalogue synonym 59PJS points to this accepted ID. Source family Leiotrichidae and catalogue Leiothrichidae retain their spellings. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-1f3c839c39}
+Catalogue of Life release COL26.8 records Argya fulva (Desfontaines, 1789) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-2927c46040}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 14.4 mm, tarsus 28.6 mm, unflattened wing 96.2 mm, tail 125.2 mm and hand-wing index 11.6 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

@@ -1,5 +1,36 @@
 schemaVersion: 1
 records:
-  readerLimitations:
-    en: No biological archive or non-taxonomy reference located by this bounded collection pass; this is not a finding that sources do not exist
-    zh: 本轮尚未定位到生物资料档案或分类以外的文献引用，不能据此认定没有可用来源
+  readerLimitations: {}
+  catalogue-profile:
+    scientificName: Kleinothraupis atropileus (Lafresnaye, 1842)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Kleinothraupis atropileus
+      zh: Kleinothraupis atropileus
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Kleinothraupis atropileus
+          url: https://www.checklistbank.org/dataset/316115/taxon/9GBH3
+          locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    sections:
+      - topic: identity
+        text:
+          en:
+            page: en
+            section: name-card
+            part: body
+          zh:
+            page: zh
+            section: name-card
+            part: body
+        sourceIds:
+          - taxonomy

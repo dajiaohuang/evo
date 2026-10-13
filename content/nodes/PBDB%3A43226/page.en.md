@@ -7,8 +7,8 @@ Start with Teleoceras americanum, Teleoceras hicksi, Teleoceras snowi, Teleocera
 ## Evidence limits {#s-64c8dffb87}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## What the material shows {#s-33995fd6e5}
-Ecological evidence differs by locality: isotope studies portray Florida populations mainly as terrestrial, while a limited-mobility, wet-habitat signal is strongest for T. major at Ashfall. These results do not support one behavior for every Teleoceras population.
+## Florida and Ashfall records show different signals {#s-33995fd6e5}
+Florida isotope studies portray sampled Teleoceras populations mainly as terrestrial, while a limited-mobility, wet-habitat signal is strongest for T. major at Ashfall. The evidence differs by locality and does not support one behavior for every population.
 
 ## Feeding {#s-14db6f59b0}
 Dental and isotope evidence supports grazing or mixed feeding depending on locality; no single diet describes all samples.
@@ -37,6 +37,6 @@ Hypsodont molars are present.
 ## Preserved features {#s-71b61da310}
 Lower second incisors show sexual dimorphism.
 
-## How to read the evidence {#s-d4a8155a86}
-Florida and Ashfall studies yield different ecological signals. Body shape alone does not decide behavior; the strongest Ashfall interpretation remains bounded to that species and locality.
+## Different sites support different ecological readings {#s-d4a8155a86}
+Florida and Ashfall studies yield different ecological signals. Body shape alone does not decide behavior, and the strongest Ashfall interpretation remains bounded to T. major at that locality.
 

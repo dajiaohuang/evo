@@ -1,19 +1,38 @@
 ## Which fossil records this name represents {#s-c0673e6b60}
 Miotragocerus leskewitschi is accepted in the fixed PBDB mammalia working roster, with database parent Miotragocerus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-ad83f716a4}
-Collection Crețești-1 (Ilfov), region code RO; database age bracket 11.63–7.246 Ma, early interval Tortonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Miotragocerus leskewitschi is listed in the PBDB snapshot under taxon txn:473467. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-4733698553}
-Selected occurrences have an outer age envelope of 11.63–7.246 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Crețești-1, occurrence occ:1431998 (11.63–7.246 Ma); one supplying the younger bound is Crețești-1, occurrence occ:1431998 (11.63–7.246 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-ad83f716a4}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-c2315c2d06}
-Crețești-1 has collection-environment label "floodplain"; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1431998; PBDB collection col:199755. Locality cnm=Crețești-1; place fields cc2=RO, stp=Ilfov. Recorded age bounds: eag 11.63 Ma; lag 7.246 Ma; PBDB interval fields oei=Tortonian. Recorded attribution Codrea et al. 2017; PBDB reference ref:67928.
 
-## Follow collection records back to references {#s-d247a48aa5}
-Crețești-1 carries database reference attribution Codrea et al. (2017), identifier ref:67928. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The geological age of this locality was previously considered Vallesian, MN 9 (sensu Vangengeim & Tesakov 2013; Codrea et al. 2017). However, subsequent finds of some micromammals have cast doubt on this date. These concern the presence of a small-sized Lophocricetodon, and also of the pika Ochotona cf. eximia (Sen 2003; Čermák 2016; see Delinschi 2014, for a discussion about the unclear status of this genus) very similar to those reported from the Maeotian locality of Taraklia, in the Republic of Moldova (Tortonian, MN 12; Sevket Sen, pers. comm., 2021). Lungu et al. (2007) considered the late Miocene ‘Proochotona eximia Chom.’, where the vertebrate localities of the Republic of Moldova are located, as ‘early Maeotian–early Pontian’.
+The Maeotian was recently reassessed. In recent stratigraphical charts (Raffi et al. 2020; Krézsek & Olariu 2021), the Maeotian in the Dacian Basin was restricted to 7.6–6.1 Ma, referring only to units MN12–MN 13 (Steininger 1999). In this context, the pika implies dating to either to Maeotian (MN 12) or Khersonian (MN 11).
+As the correlations between the MN units from western and central Europe are being reconsidered (Vangengeim & Tesakov 2008, 2013), it is possible that some age boundaries will be re-assessed also, based on future advances in the knowledge of small mammals from this part of Europe and their evolutionary trends. Therefore, the geological age of Crețești 1 is re-interpreted as younger than previously presumed, being either Maeotian (MN 12), or late Khersonian (MN 11).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Discovered during the reconstruction works at the national road 24B, between Crasna and Husi."
+
+## Age bounds on the recorded occurrences {#s-4733698553}
+Across these selected PBDB rows, the largest recorded eag=11.63 Ma in occ:1431998; the smallest recorded lag=7.246 Ma in occ:1431998. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-c2315c2d06}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1431998: PBDB taxon-name field tna=Miotragocerus leskewitschi; material note ocm=mispelled as "Miotragoceros" in paper; PBDB locality-coordinate fields lng=27.965279, lat=46.643333; paleocoordinate/model fields pm1=gplates, pln=28.54, pla=44.8.
+
+## References attached to each record {#s-d247a48aa5}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1431998: Recorded attribution Codrea et al. 2017; PBDB reference ref:67928.
 
 ## Evidence limits {#s-1586294cb7}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

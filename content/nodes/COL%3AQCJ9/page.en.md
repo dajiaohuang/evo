@@ -1,29 +1,29 @@
-## The name and this data account {#s-c4a0e6548d}
-COL26.8 accepts Campethera punctuligera in Picidae. AVONET v7 links it to the HBW–BirdLife 2020 name and records five measured birds, four with a complete morphological set. Trait means below summarize that historical sample; the total and complete-set counts are not necessarily each trait's denominator.
+## Row-reported mean and sample coverage {#s-c4a0e6548d}
+The AVONET v7 row for Campethera punctuligera (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 19.4 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-cabdfb57f2}
-The recorded mean from the front edge of the nostril to the bill tip is 19.4 mm; width and depth measured at the nostril average 7.2 mm and 7.1 mm. The standardized landmarks distinguish three separate dimensions, not field-identification thresholds or individual ranges.
+## Beak measurements at defined landmarks {#s-cabdfb57f2}
+AVONET records culmen length (bill tip to skull base) 27.1 mm; beak length (nostril front edge to tip) 19.4 mm; beak width at the nostril front edge 7.2 mm; beak depth at the nostril front edge 7.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-acd9f3fd21}
-AVONET's unflattened wing mean—carpal joint to longest primary—is 113.4 mm, and the tarsus mean is 21.7 mm. It lists 71.79 g mass from Dunning. That compiled species value has its own source basis; the five morphology birds are not its weighing sample.
+## Wing and body measures use separate sources {#s-acd9f3fd21}
+AVONET records unflattened wing length 113.4 mm; tarsus length 21.7 mm; distance from first secondary tip to longest primary tip 22.4 mm; length to first secondary tip 92.2 mm; hand-wing index 19.6; tail length 71.4 mm; species-average body mass 71.79 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-6ee16ad575}
-The AVONET record is coded Woodland for habitat, Invertivore for trophic niche and Insessorial for lifestyle. These broad labels aid comparison; they do not say that every feeding event uses invertebrates or that woodland is the bird's only habitat.
+## Recorded habitat and feeding categories {#s-6ee16ad575}
+AVONET classifies Campethera punctuligera as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-72798a6c41}
-The migration field is coded sedentary. The historical breeding/resident map has latitude endpoints -1.36° and 17.04°. Those endpoints do not capture all non-breeding movement or give a current location or global occupancy estimate; the map and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-72798a6c41}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -1.36° to 17.04°. The mapped range area is 4070381.33 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-fc4d58ee56}
-EltonTraits 1.0 also includes a Campethera punctuligera entry in Picidae. This page reads its diet and foraging-stratum groups with their source information. The archive uses historical taxonomy; the matching name and family connect records but do not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-fc4d58ee56}
+EltonTraits 1.0 has a same-name, same-family record for Campethera punctuligera covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-97002b47cc}
-The EltonTraits diet field assigns 100% of its relative weight to invertebrates. Code A indicates high compiler confidence in the source and diet information. The percentage standardizes literature descriptions rather than measuring diet composition; zero-coded alternatives do not prove they are never eaten, and the archive's food categories may be broader than their everyday names.
+## Relative weights across food categories {#s-97002b47cc}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-aefa8c2132}
-This species-level stratum record assigns 40% to trees or high bushes from 2 m up but below the canopy, 20% to the ground, 20% to understory/edges/shrubs below 2 m and 20% to the canopy or just above it. These are relative feeding-position weights, not nest sites, total habitat use or a daily time budget. The source defines water, understory, mid/high, canopy and aerial categories separately; they are not elevation bands or flight-height measurements.
+## Foraging positions are not a time budget {#s-aefa8c2132}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 20%; in the understory 20%; in mid-height or high vegetation 40%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-d87bfc2cf5}
-Both selected groups carry the label Ref_7 in the archive's bird-source table. This records the cited basis for diet and stratum coding; it does not add a separate observation. The underlying book and papers have not been individually read, so the page retains the archive's relative-weight interpretation and limits.
+## Sources and field limits {#s-d87bfc2cf5}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-2d5e6e8087}
 The AVONET means summarize five measured birds, four with complete sets; they are not identification criteria or individual ranges. The 71.79 g mass comes from Dunning separately, not from those morphology counts. Habitat, niche and migration are broad codes, and the latitude endpoints describe historical breeding/resident geography. EltonTraits converts literature accounts to relative weights rather than measuring intake or time. Name matching does not prove that the old and current taxonomies share one species concept. Local variation, current range, population, breeding and conservation require other evidence.

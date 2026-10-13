@@ -1,31 +1,31 @@
-## One historical EltonTraits record {#s-c66864d42f}
-COL26.8 accepts *Zosterops anomalus* in Zosteropidae. The EltonTraits 1.0 table has a same-name, same-family record with one supported ecological field group. Its bird taxonomy is historical; matching names do not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-c66864d42f}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops anomalus covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-ae24692aff}
-The species-level foraging-stratum record assigns 50% to the canopy or just above it, 30% to trees or tall bushes from 2 m up to the canopy, and 20% to understory, edges or shrubs below 2 m. These weights estimate relative use of feeding positions, not nest sites, all habitat or time budgets for the whole day. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation bands and cannot provide flight heights or habitat area.
+## Foraging positions are not a time budget {#s-ae24692aff}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 20%; in mid-height or high vegetation 30%; in the canopy 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Source label for the stratum record {#s-6e54110c0e}
-The stratum record carries source label Ref_41. A label locates a reference; it does not show that the cited work directly measured this species or count as an independent observation by itself.
+## Sources and field limits {#s-6e54110c0e}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Coates, B. J., K. David, and D. Gardner. 1997. A guide to the birds of Wallacea: Sulawesi, the Moluccas, and Lesser Sunda Islands, Indonesia. Dove Publications.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-ac536d6074}
 Only one EltonTraits ecological field group is supported here; it does not complete the species’ diet, activity or other foraging strata. The food and stratum records use historical names and classification, which do not necessarily match the current COL26.8 species concept. Stratum percentages describe relative feeding positions, not direct measurements of time or habitat area; the cited source has not been independently re-evaluated here. Individual, seasonal and local variation, current range, population and conservation need other sources.
 The diet field is withheld with source code D1 because of uncertainty or interpolation, unresolved source labels, or unusable category values. It cannot support a species-level diet estimate here.
 
-## A separate AVONET record {#s-8d4e8019dc}
-The AVONET v7 record uses the same name and family as the accepted COL26.8 entry for *Zosterops anomalus*. Two one-to-one crosswalks support this association, but names do not resolve species concepts after later splits or lumps.
+## A historical ecology record {#s-8d4e8019dc}
+AVONET v7 links Zosterops anomalus with the historical BirdLife name Zosterops anomalus. This ecology-only row covers broad habitat, feeding, lifestyle and migration categories; the specific fields follow. Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-6c7274389d}
-AVONET records low-stature shrub habitat, a multiple-niche feeding category, and an insessorial lifestyle: much time perched above ground on vegetation, rocks or other substrates. The feeding category does not imply identical proportions across seasons, regions or individuals. These broad classifications do not replace food lists, behavioral observations or local microhabitat descriptions.
+## Recorded habitat and feeding categories {#s-6c7274389d}
+The ecology-only AVONET row classifies Zosterops anomalus as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-69197e9904}
-The migration field is classified as sedentary. The source does not separately list regional seasonal movements, so this category does not supply current routes, schedules or distances for every population.
+## The migration label has a limited scope {#s-69197e9904}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-e4a928caef}
-Historical breeding and resident maps span latitude endpoints of -5.71° to -2.82°. The source worksheet links these fields to BirdLife/HBW 2019.1 maps accessed on 27 March 2020. Endpoints summarize a mapped range, not a locality list or evidence of occupancy throughout it, and do not cover all non-breeding movements. They do not establish current distribution, survival or conservation status.
+## Mapped range is not a locality list {#s-e4a928caef}
+Historical breeding and resident maps span latitude endpoints -5.71° to -2.82°. The mapped range area is 31315.06 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-2450ffb426}
-AVONET supplies four broad ecological categories and historical latitude summaries, but no ecological record is complete. Its source marks the record as not inferred, while biometric fields are withheld here; the separate mass source is an EltonTraits mass–length model. Neither morphology nor mass is treated here as a direct measurement of this species. Missing fields do not show that a trait is absent.
+## Fields outside this ecology-only view {#s-2450ffb426}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
-## Limits of these historical data {#s-3c9505d650}
-These are limited historical ecology and geography records, not a complete species account. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Matching names and families, together with one-to-one BirdLife/eBird/BirdTree crosswalks, establish an association but not equivalence with current COL26.8 species concepts. Ecological fields are broad literature-derived categories; the underlying species literature has not been individually reviewed here. The historical maps cover breeding and resident ranges, without current population, occupancy or conservation assessments.
+## Limits of this historical ecology record {#s-3c9505d650}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 

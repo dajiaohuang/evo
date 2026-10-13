@@ -1,4 +1,6 @@
-## Overview {#s-3b69d739d5}
+## Recorded classification and direct parent {#s-3b69d739d5}
+COL26.8 records Hoolock Mootnick & Groves, 2005 at genus rank, with Hylobatidae Gray, 1871 as its direct parent.
+
 COL26.8 genus ID 4YHR links accepted species pages Hoolock hoolock (6MD6Q), H. leuconedys (3MJBF) and H. tianxing (3MJBG). This page is a reading route through those species records, not a genus-wide biological synthesis.
 
 ## Choose a reading path by research question {#s-bc81ea4b81}

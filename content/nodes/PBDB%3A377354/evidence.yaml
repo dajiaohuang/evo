@@ -16,7 +16,10 @@ records:
     - subjectId: taxon:ledumahadi
       claimKind: scientific
       claimType: fossil-range
-      statement: Ledumahadi is anchored by partial postcranial holotype BP/1/7120 from the earliest Jurassic Elliot Formation of South Africa; this occurrence does not define a global genus range or the origin of quadrupedal sauropodomorphs.
+      statement:
+        page: en
+        section: holotype-study
+        part: body
       confidence: high
       confidenceRationale: The holotype, formation and age context are directly reported. High confidence remains occurrence-bound and excludes body-mass and posture extrapolation.
       referenceLinks:
@@ -28,7 +31,9 @@ records:
   claim-rationales.zh:
     - 正模、地层和年代背景有直接报告。高置信度保持在出现记录边界内，不外推体重与姿态。
   claim-statements.zh:
-    - 巨雷龙由南非最早侏罗世埃利奥特组的部分躯干后骨骼正模 BP/1/7120 锚定；该记录不定义全球属级范围或四足蜥脚形类起源。
+    - page: zh
+      section: holotype-study
+      part: body
   ranges:
     - entityId: ledumahadi
       rangeKind: global-composite

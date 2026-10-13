@@ -2,7 +2,7 @@
 A laboratory study included six captive-born male gray mouse lemurs; two underwent 17 days at 10°C. During torpor in those two animals, sleep–wake rhythms continued and recorded sleep was mostly non-REM. EEG became isoelectric when body temperature fell below 21°C. The low-temperature group contained only two animals, so the result does not set a species-wide threshold or describe sleep in wild populations.
 
 ## A historical life-history entry under this name {#s-e39e9533d2}
-COL26.8 accepts *Microcebus murinus* in Cheirogaleidae. The 2015 life-history table has a same-name, same-family entry with seven focal fields supported by cited species-level rows. Because the compilation carries an older taxonomy, matching rows do not remove all historical inheritance from its summaries.
+COL26.8 accepts *Microcebus murinus* in Cheirogaleidae. The 2015 record is linked by historical name and family. The compilation uses an older taxonomy, so matching rows do not establish equivalence to the pinned COL26.8 concept or remove all historical inheritance from the summaries.
 
 ## Different stages in the mass fields {#s-221e886c7d}
 The historical table reports an adult body mass of 66.9 g and a birth or hatching mass of 6 g. The adult value can combine males, females and adults of unspecified sex; the birth value describes a different life stage. They do not track the same individuals through growth or give a species-wide range of individual masses.
@@ -17,7 +17,7 @@ The longest lifespan in the source table is 18.2 years, selected as the largest 
 Same-name rows cite Jones, K., Bielby, J., Cardillo, M. et al. (2009), de Magalhaes and Costa (2009), Ernest et al. (2003), and Ricklefs (2010b), among other sources. Row numbers and labels connect each field to the compilation’s reference list. A label may point to a paper, book or another database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
 
 ## A historical EltonTraits record {#s-3a43c2db53}
-COL26.8 accepts *Microcebus murinus* in Cheirogaleidae. The EltonTraits 1.0 table has a same-name, same-family record with three ecological field groups. Its mammal taxonomy follows MSW3; matching names do not resolve later splits or synonym disputes.
+COL26.8 accepts *Microcebus murinus* in Cheirogaleidae. The EltonTraits 1.0 record shares this historical name and family and follows MSW3 mammal taxonomy. The name match does not establish equivalence to the pinned COL26.8 concept or resolve later splits and synonymies.
 
 ## Relative weights of food categories {#s-f12ce404cc}
 The nonzero food weights are fruit 30%, invertebrates 20%, reptiles and amphibians 20%, other plant material 20% (the category also includes fungi), and nectar, pollen and plant exudates 10%. Code ABC combines high, reasonable and partial confidence, and some estimates can draw on an ecologically similar congener. It does not mean the value came from direct observation of this species. These percentages standardize verbal descriptions rather than measure diet composition; a zero does not prove that an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply exclusive use of nectar, seeds or plants.

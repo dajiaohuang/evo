@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:cetacea
       claimKind: scientific
       claimType: taxonomy
-      statement: A systematic synthesis recognizes Cetacea from a sequence of separately sampled Eocene fossils and living lineages, but explicitly combines paleontological, anatomical, stratigraphic and molecular evidence rather than documenting one continuous population or exact origination event.
+      statement:
+        page: en
+        section: review-synthesis
+        part: body
       confidence: medium
       confidenceRationale: The claim states the evidentiary architecture of the review and refuses to turn its approximate oldest record into a universal origin date.
       referenceLinks:
@@ -26,7 +29,10 @@ records:
     - subjectId: taxon:cetacea
       claimKind: scientific
       claimType: fossil-range
-      statement: Cetacea is displayed at 53–0 Ma only as a review-bounded fossil-to-living navigation envelope, not an exact cetacean origination date. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      statement:
+        page: en
+        section: fossil-window
+        part: body
       confidence: medium
       confidenceRationale: Cetacea uses Uhen, M.D. (2010) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Eocene fossil samples through living Cetacea synthesized by Uhen; broader endpoints remain unclaimed.
       referenceLinks:
@@ -43,8 +49,12 @@ records:
     - 主张陈述综述的证据结构，并拒绝把其近似最早记录转化为普适起源日期。
     - Cetacea 采用 Uhen, M.D.（2010）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Eocene fossil samples through living Cetacea synthesized by Uhen；更宽泛端点保持未声明。
   claim-statements.zh:
-    - 系统综述依据彼此独立取样的始新世化石与现生谱系识别鲸目，但明确综合古生物学、解剖学、地层学和分子证据，而非记录一个连续种群或精确起源事件。
-    - Cetacea 仅以 53–0 Ma 展示为综述限定的化石至现生导航包络，而非鲸类精确起源日期。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - page: zh
+      section: review-synthesis
+      part: body
+    - page: zh
+      section: fossil-window
+      part: body
   ranges:
     - entityId: cetacea
       rangeKind: global-composite

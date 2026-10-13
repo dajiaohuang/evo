@@ -1,38 +1,38 @@
-## Name, classification and sample {#s-90c4ce7b39}
-COL26.8 accepts Monasa morphoeus in Bucconidae. AVONET v7 records it under the HBW–BirdLife 2020 name: 6 individuals were measured, and 4 have a complete morphological set. Usable samples may vary by trait.
+## Row-reported mean and sample coverage {#s-90c4ce7b39}
+The AVONET v7 row for Monasa morphoeus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 25.9 mm. The row records 6 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions {#s-071eed365b}
-Mean measurements are 25.9 mm from the anterior nostril edge to the tip, 9.1 mm in width and 11.2 mm in depth at that edge. These are separate measurements at defined landmarks, not identification thresholds.
+## Beak measurements at defined landmarks {#s-071eed365b}
+AVONET records culmen length (bill tip to skull base) 37 mm; beak length (nostril front edge to tip) 25.9 mm; beak width at the nostril front edge 9.1 mm; beak depth at the nostril front edge 11.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-791177a937}
-Mean unflattened wing length, from carpal joint to longest primary, is 125.5 mm; mean tarsus length is 19.2 mm. A separate compiled mean mass is 87.9 g (source category Dunning). It does not imply that the AVONET specimens were weighed.
+## Wing and body measures use separate sources {#s-791177a937}
+AVONET records unflattened wing length 125.5 mm; tarsus length 19.2 mm; distance from first secondary tip to longest primary tip 27.6 mm; length to first secondary tip 98.4 mm; hand-wing index 21.9; tail length 114.3 mm; species-average body mass 87.9 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Ecological categories {#s-b5d2ada3c3}
-The source labels habitat Forest, trophic niche Invertivore and lifestyle Insessorial. These are comparison categories, not claims of exclusive habitat use or diet.
+## Recorded habitat and feeding categories {#s-b5d2ada3c3}
+AVONET classifies Monasa morphoeus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and mapped latitudes {#s-18f6e40f88}
-The migration entry is sedentary. Historical breeding and resident maps span latitude endpoints -20.21° and 15.3°. They do not cover all non-breeding movements or estimate current position or global occupancy; geography and morphology were compiled separately.
+## Mapped range is not a locality list {#s-18f6e40f88}
+Historical breeding and resident maps span latitude endpoints -20.21° to 15.3°. The mapped range area is 5210334.01 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## The 2015 life-history match {#s-e70ee21662}
-In pinned COL26.8, Monasa morphoeus belongs to Bucconidae. The 2015 archive supplies 3 focal fields from cited species-level sparse-table rows matching the name and family. Historical inheritance may remain, so a matching row does not prove that the summary is free of inherited information.
+## Scope of the historical life-history entry {#s-e70ee21662}
+The August 2015 database has a same-name, same-family record for Monasa morphoeus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass in the historical compilation {#s-0c054fa1cc}
-The archive reports adult body mass of 89.45 g. This field may combine male, female and sex-unspecified records; it is not an individual-mass range. No birth or hatching mass is included here.
+## Compiled adult-mass values {#s-0c054fa1cc}
+The August 2015 compilation reports adult body mass 89.45 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Clutch and flight timing {#s-96c4926a77}
-The compiled litter-or-clutch field is 2.5 offspring/eggs; age at flight capability is 30 d, though some source entries describe leaving the nest. d means days. The fractional summary is not a fractional animal in one event, and these time fields refer to different milestones.
+## Reproductive fields describe different events {#s-96c4926a77}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.5; age at flight capability (some records mark nest departure) 30 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## Source trail {#s-cb169cf6a1}
-Same-name sparse rows cite Dunning, 1992; Bennett, 1986; Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004; and Jetz, Sekercioglu, and Bohning-Gaese, 2008. The batch archive keeps field-level row numbers, values and labels plus full reference explanations. A label may identify a paper, book or database; row counts are not specimen counts, and repeated references are not independent replications.
+## Sources and field limits {#s-cb169cf6a1}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## One ecological field group {#s-61bc83bc73}
-For EltonTraits 1.0, this page interprets 1 supported field group for the same-name, same-family Monasa morphoeus record linked to pinned COL26.8. The source uses earlier bird taxonomy or MSW3 for mammals; this match does not resolve later splits or synonyms.
+## Scope of the historical trait entry {#s-61bc83bc73}
+EltonTraits 1.0 has a same-name, same-family record for Monasa morphoeus covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative food weights {#s-6892ff0e4c}
-Nonzero diet weights are invertebrates 80%, reptiles and amphibians 10%, and fruit 10%. Code A marks high compiler confidence in source and diet information. The standardized weights come from descriptions, not measured diet proportions; a zero would not show that a food is never eaten. Nect, Seed and PlantO are broader source categories than their everyday labels.
+## Relative weights across food categories {#s-6892ff0e4c}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; reptiles and amphibians 10%; fruit 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Reference labels by field group {#s-b72342a84c}
-The used EltonTraits group carries Ref_7. Diet, stratum and activity may come from different materials, and Ref_7 in bird and mammal tables does not identify one shared source. The archive retains original strings by file, row, group and reference table. The underlying works were not individually read; labels are not additional observations.
+## Sources and field limits {#s-b72342a84c}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits of these compiled sources {#s-98773f3a1f}
 AVONET v7 values are historical species averages for the listed samples, not individual ranges or identification criteria. Dunning mass is separate and must not inherit the morphology sample count. Habitat, trophic niche and migration are broad categories; mapped latitudes refer to historical breeding and resident ranges. Crosswalks and matching names link records but do not prove equivalence with the COL26.8 concept. Reproduction, current populations and conservation require other evidence.

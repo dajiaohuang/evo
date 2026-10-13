@@ -1,5 +1,5 @@
-## Find rows through older Oceanodroma／Halocyptena combinations {#s-190ae3dd51}
-COL26.8 accepts *Hydrobates furcatus* (D5KF2). The BirdLife 2020 row 10057 and eBird 2021 row 4915 use the same name and Avibase ID AVIBASE-DD814006; their crosswalk type is 1BL to 1eBird. BirdTree row 4892 instead lists *Oceanodroma furcata* (1BL to 1BT). The catalogue synonym 48C44 points to the accepted ID. These name links help locate older records but do not show that species boundaries remained identical over time.
+## A name fixed to COL26.8 {#s-190ae3dd51}
+Catalogue of Life release COL26.8 records Hydrobates furcatus (J. F. Gmelin, 1789) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-7e42dfdc85}
 Five birds contribute to the morphology record: 2 females, 3 males and none of unrecorded sex; 4 have complete measurement sets. Historical row means are 10.1 mm for beak length from nostril to tip, 25.3 mm for tarsus, 155.6 mm for unflattened wing, 90 mm for tail and 60.8 for hand-wing index. Since only 4 sets are complete, not every bird contributes to every field. Inference=NO does not replace the sample denominator for each measurement. The hand-wing index is Kipp's distance divided by wing length ×100, not flight speed; beak length alone gives neither bite force nor prey-handling ability.

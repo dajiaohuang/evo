@@ -1,15 +1,15 @@
-## An anole active in trees and on the ground {#s-95bbcc1ea1}
-The ReptTraits entry lists Anolis auratus in both tree and ground microhabitats, as a daytime, carnivorous lizard that forages by ambush. It reports a maximum snout–vent length of 57 mm and a female maximum of 47.7 mm. The row follows the workbook’s 2023 Reptile Database name framework and summarizes cited reports, not every population.
+## COL26.8 name and the ReptTraits row {#s-95bbcc1ea1}
+COL26.8 records Anolis auratus as an accepted species. The ReptTraits v1-2 row gives its Family field as Anolidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Length measurements leave out the tail {#s-36bea270da}
-The row gives a maximum snout–vent length of 57 mm and a female maximum of 47.7 mm. This measure runs from the snout to the vent and excludes the tail. These compiled maxima are not average sizes or a growth limit. The values may come from different localities or studies, so their difference alone cannot quantify size variation between sexes within a population.
+## Length values in the archived records {#s-36bea270da}
+The row reports a maximum SVL of 57 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 47.7 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Tree and ground activity, with ambush foraging {#s-f124e26e1f}
-The row lists tree-associated and ground-associated microhabitats, daytime activity, and a carnivorous diet. Its code AMB means ambush foraging; the category does not name prey or tell how often the lizard uses that approach. These broad fields do not map every habitat or set a fixed daily schedule, and activity may vary with population, season, and life stage.
+## Habitat use and activity labels {#s-f124e26e1f}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/ground-dwelling (Terrestrial) [source label: Arboreal/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records AMB (ambush or sit-and-wait foraging). ReptTraits attributes this field to Meiri 2018.
 
-## Egg counts are not fixed at one {#s-fcf1dbf448}
-The workbook describes Anolis auratus as egg-laying. Its consolidated clutch or litter mean is 1, with reported means from 1 to 2. These summaries can be midpoints between published means—or between reported extremes when means are unavailable—rather than averages of observed nests. They do not guarantee one egg in every clutch or prove that all populations reproduce alike.
+## Reproductive fields in ReptTraits {#s-fcf1dbf448}
+The compiled mean for offspring per litter or eggs per clutch is 1. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## What these records cannot establish {#s-b340b59783}
-The one-row summary compresses differences in sex, age, locality, and population, and the workbook’s 2023 name framework may differ from later taxonomic concepts. A reported maximum is not an absolute size limit, and a clutch summary does not predict each nest. These fields do not establish body mass, juvenile size, venom, conservation status, current distribution, or population trends. Source labels preserve the workbook’s citation chain rather than an independent reassessment of every underlying study.
+## Reading this compiled trait record {#s-b340b59783}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

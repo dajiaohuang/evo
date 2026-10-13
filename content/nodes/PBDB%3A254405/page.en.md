@@ -1,18 +1,51 @@
 ## Which fossil records this name represents {#s-32bae1e098}
 Tyrannoneustes lythrodectikos is accepted in the fixed PBDB crocodylomorph working roster, with database parent Tyrannoneustes. This guide uses 4 eligible species-level occurrence records from 4 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-40bd7f951d}
-Collection Fletton brick pit, Peterborough (England), region code UK, stratum name Oxford Clay; database age bracket 165.3–161.5 Ma, early interval Middle Callovian. Collection Peterborough area, Leeds Collection (England), region code UK, stratum name Oxford Clay; database age bracket 165.3–161.5 Ma, early interval Middle Callovian. Collection Peterborough (general) (England), region code UK, stratum name Oxford Clay; database age bracket 165.3–161.5 Ma, early interval Middle Callovian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Tyrannoneustes lythrodectikos is listed in the PBDB snapshot under taxon txn:254405. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-3c4f42c53f}
-Selected occurrences have an outer age envelope of 165.3–161.5 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+## Named localities and collection records {#s-40bd7f951d}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-532c05df64}
-Fletton brick pit, Peterborough has collection-environment label marine indet.; collection preservation-mode label body. Peterborough area, Leeds Collection has collection-environment label offshore; collection preservation-mode label body. Peterborough (general) has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1095040; PBDB collection col:47362. Locality cnm=Fletton brick pit, Peterborough; place fields cc2=UK, stp=England, cny=Cambridgeshire. Recorded age bounds: eag 165.3 Ma; lag 161.5 Ma; PBDB interval fields oei=Middle Callovian. Stratigraphic fields sfm=Oxford Clay. Recorded attribution Young et al. 2013; PBDB reference ref:44183.
 
-## Follow collection records back to references {#s-16858214f7}
-Fletton brick pit, Peterborough carries database reference attribution Young et al. (2013), identifier ref:44183. Peterborough area, Leeds Collection carries database reference attribution Young et al. (2013), identifier ref:44183. Peterborough (general) carries database reference attribution Foffa and Young (2014), identifier ref:53049. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+probably Kosmoceras jasoni Zone, though bone-bearing bed includes both this zone and the Erymnoceras coronatum zone. Smith (1997) puts this in the Stewartby Member.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Fletton, Cambridgeshire (formerly in Huntingdonshire), near Peterborough, Northamptonshire
+
+- Occurrence occ:1095041; PBDB collection col:109800. Locality cnm=Peterborough area, Leeds Collection; place fields cc2=UK, stp=England, cny=Cambridgeshire. Recorded age bounds: eag 165.3 Ma; lag 161.5 Ma; PBDB interval fields oei=Middle Callovian. Stratigraphic fields sfm=Oxford Clay. Recorded attribution Young et al. 2013; PBDB reference ref:44183.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"The Peterborough Member (Sigiloceras enodatum (Sigiloceras calloviense Zone)–Kosmoceras phaeinum (Peltoceras athleta Zone) ammonite Subzone: late Early–early Late Callovian, Middle Jurassic, previously termed the ‘lower Oxford Clay’"
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+The exact locations of many early specimens are unknown but were excavated from the many clay pits around the city.
+
+- Occurrence occ:1237521; PBDB collection col:162945. Locality cnm=Peterborough (general); place fields cc2=UK, stp=England, cny=Cambridgeshire. Recorded age bounds: eag 165.3 Ma; lag 161.5 Ma; PBDB interval fields oei=Middle Callovian. Stratigraphic fields sfm=Oxford Clay. Recorded attribution Foffa and Young 2014; PBDB reference ref:53049.
+
+## Age bounds on the recorded occurrences {#s-3c4f42c53f}
+Across these selected PBDB rows, the largest recorded eag=165.3 Ma in occ:1095040; the smallest recorded lag=161.5 Ma in occ:1095040. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-532c05df64}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1095040: PBDB original-identification field idn=Tyrannoneustes lythrodectikos n. gen. n. sp.; PBDB taxon-name field tna=Tyrannoneustes lythrodectikos; material note ocm=GLAHM V972, holotype partial skeleton; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-0.241701, lat=52.552071; paleocoordinate/model fields pm1=gplates, pln=18.56, pla=35.94.
+- occ:1095041: PBDB taxon-name field tna=Tyrannoneustes lythrodectikos; material note ocm=GLAHM V1145: numerous isolated teeth, left humerus, coracoids, femur, ilium; GLAHM V1399/9: isolated tooth; GLAHM V1402/5: isolated tooth; GLAHM V1430: isolated tooth; GLAHM V1436: numerous isolated teeth. All from near Peterborough, England (Peterborough Member, Oxford Clay Formation; Middle Callovian); abundance fields abv=5, abu=specimens; PBDB locality-coordinate fields lng=-0.233333, lat=52.566666; paleocoordinate/model fields pm1=gplates, pln=18.56, pla=35.95.
+- occ:1237521: PBDB taxon-name field tna=Tyrannoneustes lythrodectikos; material note ocm=CAMSM J64267–a complete left mandibular ramus; GLAHM V1145–numerous isolated teeth, left humerus, coracoids, femur, ilium; GLAHM V1399/9–isolated tooth; GLAHM V1402/5–isolated tooth; GLAHM V1430–isolated tooth; GLAHM V1436–numerous isolated teeth; NHMUK PV R3939–incomplete skull, mandible, with eight distorted vertebrae (four of which are cervical vertebrae and the other four are thoracic vertebrae), and isolated fragments (including parts of cervical ribs); PETMG:R176–almost complete skull and PETMG:R60–an associated complete, but distorted mandible.; PBDB locality-coordinate fields lng=-0.241701, lat=52.552071; paleocoordinate/model fields pm1=gplates, pln=18.56, pla=35.94.
+
+## References attached to each record {#s-16858214f7}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1095040: Recorded attribution Young et al. 2013; PBDB reference ref:44183.
+- occ:1095041: Recorded attribution Young et al. 2013; PBDB reference ref:44183.
+- occ:1237521: Recorded attribution Foffa and Young 2014; PBDB reference ref:53049.
 
 ## Evidence limits {#s-6cc24549a6}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 672-item crocodylomorph working roster, retain the current same name and a complete parent chain to the recorded Crocodylomorpha storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

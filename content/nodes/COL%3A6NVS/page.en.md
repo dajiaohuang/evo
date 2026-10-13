@@ -4,13 +4,15 @@ The 2017 study separates adult P. ruber cadaver support from live juvenile P. ch
 ## Compare cadaver support with live balance {#s-742a494609}
 Start with the cadaver material and support geometry of [Phoenicopterus ruber](Phoenicopterus_ruber/page.en.md), then the juveniles, centre of pressure and quiet behaviour of [Phoenicopterus chilensis](Phoenicopterus_chilensis/page.en.md). Keep species, ages, clamps and force-plate conditions explicit before returning to existing morphology, feeding and life-history accounts. Historical compilation averages do not replace experimental samples.
 
-## Local data reading route {#s-82df6f51e4}
+## Recorded classification and direct parent {#s-82df6f51e4}
+COL26.8 records Phoenicopterus at genus rank, with Phoenicopteridae as its direct parent.
+
 This batch’s Phoenicopterus route includes 3 measured species records. Start with Phoenicopterus chilensis, Phoenicopterus roseus, Phoenicopterus ruber. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-c7a6b9fbd8}
 Compiled mean mass endpoints in this batch are Phoenicopterus chilensis at 2277 g and Phoenicopterus ruber at 3031.59 g. Represented habitat categories include Wetland, Coastal; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-7dcf162bf1}
+## Amniote Life-history archive member records {#s-7dcf162bf1}
 This batch’s Phoenicopterus route includes 3 historical life-history accounts; start with Phoenicopterus chilensis, Phoenicopterus roseus, Phoenicopterus ruber. More frequently represented fields include adult body mass (3 entries), female maturity field (defined by the source as age at first conception) (3 entries), offspring per litter or eggs per clutch (3 entries), mass at birth or hatching (3 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-ede9769fec}

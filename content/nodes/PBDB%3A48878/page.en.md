@@ -1,19 +1,38 @@
 ## Which fossil records this name represents {#s-235cffdfe5}
 Mylagaulus kinseyi is accepted in the fixed PBDB mammalia working roster, with database parent Mylagaulus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-b754f56b95}
-Collection Haile 5B (Florida), region code US, stratum name Alachua; database age bracket 23.04–5.333 Ma, early interval Miocene. Collection McGehee Farm (Florida), region code US, stratum name Alachua; database age bracket 9.4–4.7 Ma, early interval Hemphillian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Mylagaulus kinseyi is listed in the PBDB snapshot under taxon txn:48878. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-86ded443d3}
-Selected occurrences have an outer age envelope of 23.04–4.7 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Haile 5B, occurrence occ:187810 (23.04–5.333 Ma); one supplying the younger bound is McGehee Farm, occurrence occ:187934 (9.4–4.7 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-b754f56b95}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-7f1b5de852}
-Haile 5B has collection-environment label terrestrial indet.; collection preservation-mode label body. McGehee Farm has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:187810; PBDB collection col:18540. Locality cnm=Haile 5B; place fields cc2=US, stp=Florida, cny=Alachua. Recorded age bounds: eag 23.04 Ma; lag 5.333 Ma; PBDB interval fields oei=Miocene. Stratigraphic fields sfm=Alachua. Recorded attribution Webb 1966; PBDB reference ref:3563.
 
-## Follow collection records back to references {#s-23c7dfb4c1}
-Haile 5B carries database reference attribution Webb (1966), identifier ref:3563. McGehee Farm carries database reference attribution Hirschfeld and Webb (1968), identifier ref:1919. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:187934; PBDB collection col:18560. Locality cnm=McGehee Farm; place fields cc2=US, stp=Florida, cny=Alachua. Recorded age bounds: eag 9.4 Ma; lag 4.7 Ma; PBDB interval fields oei=Hemphillian. Stratigraphic fields sfm=Alachua. Recorded attribution Hirschfeld and Webb 1968; PBDB reference ref:1919.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+3 mi N of Newberry (basis of coordinate)
+"SW1/4, Sec. 15, T. 9 S., R. 17 E." (Becker 1985)
+
+## Age bounds on the recorded occurrences {#s-86ded443d3}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:187810; the smallest recorded lag=4.7 Ma in occ:187934. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-7f1b5de852}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:187810: PBDB taxon-name field tna=Mylagaulus kinseyi; PBDB locality-coordinate fields lng=-82.099998, lat=29.799999; paleocoordinate/model fields pm1=gplates, pln=-76.49, pla=31.8.
+- occ:187934: PBDB taxon-name field tna=Mylagaulus kinseyi; PBDB locality-coordinate fields lng=-82.599998, lat=29.650000; paleocoordinate/model fields pm1=gplates, pln=-79.51, pla=30.92.
+
+## References attached to each record {#s-23c7dfb4c1}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:187810: Recorded attribution Webb 1966; PBDB reference ref:3563.
+- occ:187934: Recorded attribution Hirschfeld and Webb 1968; PBDB reference ref:1919.
 
 ## Evidence limits {#s-68f7df3451}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

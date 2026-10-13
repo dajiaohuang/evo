@@ -1,15 +1,15 @@
-## Accepted name and record {#s-dc7d788251}
-COL26.8 accepts Holcosus bridgesii in Teiidae. Its ReptTraits v1-2 entry retains the workbook’s Reptile Database 2023 name framework and the cited sources for each trait. The dataset summarizes each species in one row, so this profile describes the compiled entry rather than every population.
+## COL26.8 name and the ReptTraits row {#s-dc7d788251}
+COL26.8 records Holcosus bridgesii as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A maximum length that excludes the tail {#s-dde1ecc739}
-The reported maximum snout–vent length is 120 mm. Snout–vent length measures from the snout to the body opening, not to the tail tip. It is a compiled maximum, not a typical size or absolute growth limit; the cited fields provide no sex-specific maximum for comparison.
+## Length values in the archived records {#s-dde1ecc739}
+The row reports a maximum SVL of 120 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Ground-associated, carnivorous, and active by day {#s-0a564c0e45}
-The entry classifies its microhabitat as terrestrial, its diet as carnivorous, and its active time as diurnal. These broad categories do not identify a particular site, prey, or daily schedule. They also do not rule out variation among seasons, life stages, and populations.
+## Habitat use and activity labels {#s-0a564c0e45}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg laying without a clutch estimate {#s-b2e613442c}
-Reproductive mode is recorded as oviparous, meaning eggs are laid. The cited focal fields do not provide a clutch count, so this page gives no estimate of eggs per clutch or clutches per year. The mode alone does not describe breeding frequency or conditions across populations.
+## Reproductive fields in ReptTraits {#s-b2e613442c}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-66a1163868}
-This page paraphrases the same-name ReptTraits v1-2 entry, with its 2023 taxonomic framework and trait-specific citations. A matching name and family do not guarantee that later classifications use an identical concept. The one-row format compresses sex, age, place, and population variation; a reported maximum is not a species limit. Estimated mass and inconsistent juvenile-length fields are not treated as measured results. Conservation, venom, current range, and population trends are not updated, and unrecorded traits remain unknown.
+## Reading this compiled trait record {#s-66a1163868}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

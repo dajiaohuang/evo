@@ -10,3 +10,6 @@ This is a reading order connecting three COL-accepted names to selected local st
 ## Scope of the evidence {#s-2bf0ac7d90}
 The genus count follows the pinned COL26.8 checklist and does not imply that every checklist uses the same genus-level arrangement. Field papers commonly use Saguinus combinations; the local MDD exact-name crosswalk did not match these three COL IDs, so the pages do not merge records based on name similarity. Chinese genus and species names are editorial renderings; the new pages. This page is.
 
+## Recorded classification {#col26-8-identity}
+In the pinned COL26.8 catalogue, Oedipomidas Reichenbach, 1862 is recorded as an accepted genus.
+

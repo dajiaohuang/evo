@@ -1,5 +1,5 @@
-## Locate names using source spellings {#s-a549c7e66d}
-Pinned COL26.8 organizes this page at Turdoides tenebrosa (59PKQ). BirdLife 2020 row 4954 and eBird 2021 row 10776 share the name and Avibase ID AVIBASE-775C66B9, with type 1BL to 1eBird. BirdTree row 10707 gives Turdoides tenebrosa, with type 1BL to 1BT. The table and catalogue accepted name match exactly without establishing identical species boundaries across dates. Source family Leiotrichidae and catalogue ancestor Leiothrichidae retain their original spellings.
+## A name fixed to COL26.8 {#s-a549c7e66d}
+Catalogue of Life release COL26.8 records Turdoides tenebrosa (Hartlaub, 1883) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-f35520e43e}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 13.3 mm, tarsus 33 mm, unflattened wing 118.6 mm, tail 118.5 mm and hand-wing index 11.2 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

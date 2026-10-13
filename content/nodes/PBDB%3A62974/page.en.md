@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-67957ece27}
 Ichthyolestes pinfoldi is accepted in the fixed PBDB mammalia working roster, with database parent Ichthyolestes. This guide uses 4 eligible species-level occurrence records from 4 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-fb2ca6748c}
-Collection Ganda Kas (Punjab), region code PK, stratum name Kuldana; database age bracket 48.07–41.03 Ma, early interval Lutetian. Collection Ganda Kas Locality 24, region code PK, stratum name Kuldana; database age bracket 48.07–41.03 Ma, early interval Lutetian. Collection Chorlakki (North-West Frontier), region code PK, stratum name Kuldana; database age bracket 48.07–41.03 Ma, early interval Lutetian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Ichthyolestes pinfoldi is listed in the PBDB snapshot under taxon txn:62974. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9a4dd38893}
-Selected occurrences have an outer age envelope of 48.07–41.03 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Ganda Kas, occurrence occ:461455 (48.07–41.03 Ma); one supplying the younger bound is Ganda Kas, occurrence occ:461455 (48.07–41.03 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-fb2ca6748c}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-fd0f60b318}
-Ganda Kas has collection-environment label marine indet.; collection preservation-mode label body,original phosphate. Ganda Kas Locality 24 has collection-environment label fluvial indet.; collection preservation-mode label body,original phosphate. Chorlakki has collection-environment label fluvial indet.; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:461455; PBDB collection col:45529. Locality cnm=Ganda Kas; place fields cc2=PK, stp=Punjab. Recorded age bounds: eag 48.07 Ma; lag 41.03 Ma; PBDB interval fields oei=Lutetian. Stratigraphic fields sfm=Kuldana. Recorded attribution Dehm and Oettingen-Spielberg 1958; PBDB reference ref:11944.
 
-## Follow collection records back to references {#s-65891b80e7}
-Ganda Kas carries database reference attribution Dehm and Oettingen-Spielberg (1958), identifier ref:11944. Ganda Kas Locality 24 carries database reference attribution Thewissen and Hussain (1998), identifier ref:11990. Chorlakki carries database reference attribution Thewissen and Hussain (1998), identifier ref:11990. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+one specimen of Gandakasia is purportedly from the Kohat Formation, which overlies the Kuldana (Gingerich, 1977); early Lutetian (Gingerich, 2003)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Authors give no more particular geographic information than the town in the area, Ganda Kas. Coordinates are for the town. early Lutetian (Gingerich, 2003)
+
+- Occurrence occ:462054; PBDB collection col:45587. Locality cnm=Ganda Kas Locality 24; place fields cc2=PK. Recorded age bounds: eag 48.07 Ma; lag 41.03 Ma; PBDB interval fields oei=Lutetian. Stratigraphic fields sfm=Kuldana. Recorded attribution Thewissen and Hussain 1998; PBDB reference ref:11990.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+redbeds of the lower Kuldana Formation; early Lutetian age after Gingerich (2003); PJW: These seem to be from the upper Kuldana, not lower.
+
+- Occurrence occ:462056; PBDB collection col:28978. Locality cnm=Chorlakki; place fields cc2=PK, stp=North-West Frontier. Recorded age bounds: eag 48.07 Ma; lag 41.03 Ma; PBDB interval fields oei=Lutetian. Stratigraphic fields sfm=Kuldana. Recorded attribution Thewissen and Hussain 1998; PBDB reference ref:11990.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Gingerich (2003) places this collection in the earliest Lutetian; shown by Gunnell et al. (2008) as being close to the top of the formation, spanning at three beds, and falling just over the Early - Middle Eocene boundary; early Lutetian
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+4 km NNW of Chorlaki village, Kohat District, North-West Frontier Province, Pakistan.
+
+## Age bounds on the recorded occurrences {#s-9a4dd38893}
+Across these selected PBDB rows, the largest recorded eag=48.07 Ma in occ:461455; the smallest recorded lag=41.03 Ma in occ:461455. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-fd0f60b318}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:461455: PBDB original-identification field idn=Ichthyolestes pinfoldi n. gen. n. sp.; PBDB taxon-name field tna=Ichthyolestes pinfoldi; PBDB locality-coordinate fields lng=72.681664, lat=33.783054; paleocoordinate/model fields pm1=gplates, pln=74.86, pla=11.49.
+- occ:462054: PBDB taxon-name field tna=Ichthyolestes pinfoldi; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=72.681664, lat=33.783054; paleocoordinate/model fields pm1=gplates, pln=74.86, pla=11.49.
+- occ:462056: PBDB taxon-name field tna=Ichthyolestes pinfoldi; abundance fields abv=7, abu=specimens; PBDB locality-coordinate fields lng=71.922218, lat=33.622223; paleocoordinate/model fields pm1=gplates, pln=74.19, pla=11.51.
+
+## References attached to each record {#s-65891b80e7}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:461455: Recorded attribution Dehm and Oettingen-Spielberg 1958; PBDB reference ref:11944.
+- occ:462054: Recorded attribution Thewissen and Hussain 1998; PBDB reference ref:11990.
+- occ:462056: Recorded attribution Thewissen and Hussain 1998; PBDB reference ref:11990.
 
 ## Evidence limits {#s-d8bece045c}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

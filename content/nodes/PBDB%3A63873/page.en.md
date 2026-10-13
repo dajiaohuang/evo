@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-e5d7c19c42}
-Limaysaurus tessonei is accepted in the fixed PBDB dinosaur working roster, with database parent Limaysaurus. This guide uses 5 eligible species-level occurrence records from 5 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 5 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-e5d7c19c42}
+Limaysaurus tessonei is listed in the PBDB snapshot under taxon txn:63873. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-161f64f4cf}
-Collection Villa El Chocón, 10 km southwest (MUCP-MACN) (Neuquén), region code AR, stratum name Candeleros; database age bracket 113.2–110.1 Ma, early interval Early Albian. Collection Villa El Chocón, 10 km southwest (Neuquén), region code AR, stratum name Candeleros; database age bracket 113.2–110.1 Ma, early interval Early Albian. Collection Villa El Chocón, 15 km south (Neuquén), region code AR, stratum name Candeleros; database age bracket 113.2–110.1 Ma, early interval Early Albian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-161f64f4cf}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-7a4f0a1840}
-Selected occurrences have an outer age envelope of 113.2–106.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:513399; PBDB collection col:51947. Locality cnm=Villa El Chocón, 10 km southwest (MUCP-MACN); place fields cc2=AR, stp=Neuquén. Recorded age bounds: eag 113.2 Ma; lag 110.1 Ma; PBDB interval fields oei=Early Albian. Stratigraphic fields sfm=Candeleros. Recorded attribution Calvo and Salgado 1995; PBDB reference ref:16726.
 
-## Read preservation setting separately from living habitat {#s-439b455ed9}
-Villa El Chocón, 10 km southwest (MUCP-MACN) has collection-environment label fluvial indet.; collection preservation-mode label body. Villa El Chocón, 10 km southwest has collection-environment label terrestrial indet.; collection preservation-mode label body. Villa El Chocón, 15 km south has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Río Limay Subgroup, top of formation
 
-## Follow collection records back to references {#s-6e42a47c3b}
-Villa El Chocón, 10 km southwest (MUCP-MACN) carries database reference attribution Calvo and Salgado (1995), identifier ref:16726. Villa El Chocón, 10 km southwest carries database reference attribution Calvo and Salgado (1995), identifier ref:16726. Villa El Chocón, 15 km south carries database reference attribution Calvo (1999), identifier ref:13863. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+10 km SW of El Chocón
 
-## Evidence limits {#s-52a4be00fe}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:564732; PBDB collection col:58981. Locality cnm=Villa El Chocón, 5 km southwest (MUCP); place fields cc2=AR, stp=Neuquén. Recorded age bounds: eag 110.1 Ma; lag 106.3 Ma; PBDB interval fields oei=Middle Albian. Stratigraphic fields sfm=Huincul. Recorded attribution Calvo and Salgado 1995; PBDB reference ref:16726.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Río Limay Subgroup, base of formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+approx 5 km SW of El Chocón, along NW border of Lake Ezquiel Ramos Méxia
+
+- Occurrence occ:513400; PBDB collection col:51948. Locality cnm=Villa El Chocón, 10 km southwest; place fields cc2=AR, stp=Neuquén. Recorded age bounds: eag 113.2 Ma; lag 110.1 Ma; PBDB interval fields oei=Early Albian. Stratigraphic fields sfm=Candeleros. Recorded attribution Calvo and Salgado 1995; PBDB reference ref:16726.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Río Limay Subgroup, top of formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+10 km SW of El Chocón, 1 km from holotype site of R. tessonei
+
+## Age bounds on the recorded occurrences {#s-7a4f0a1840}
+Across these selected PBDB rows, the largest recorded eag=113.2 Ma in occ:513399; the smallest recorded lag=106.3 Ma in occ:564732. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-439b455ed9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:513399: PBDB original-identification field idn=Rebbachisaurus tessonei n. sp.; PBDB taxon-name field tna=Limaysaurus tessonei; material note ocm=MUCPv-205; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-68.796501, lat=-39.311401; paleocoordinate/model fields pm1=gplates, pln=-33.81, pla=-38.12.
+- occ:564732: PBDB original-identification field idn=Rebbachisaurus tessonei; PBDB taxon-name field tna=Limaysaurus tessonei; material note ocm=MUCPv-153; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-68.796501, lat=-39.311401; paleocoordinate/model fields pm1=gplates, pln=-35.34, pla=-38.73.
+- occ:513400: PBDB original-identification field idn=Rebbachisaurus tessonei; PBDB taxon-name field tna=Limaysaurus tessonei; material note ocm=MUCPv-206; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-68.796501, lat=-39.311401; paleocoordinate/model fields pm1=gplates, pln=-33.81, pla=-38.12.
+
+## References attached to each record {#s-6e42a47c3b}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:513399: Recorded attribution Calvo and Salgado 1995; PBDB reference ref:16726.
+- occ:564732: Recorded attribution Calvo and Salgado 1995; PBDB reference ref:16726.
+- occ:513400: Recorded attribution Calvo and Salgado 1995; PBDB reference ref:16726.
+
+## What these records can show {#s-52a4be00fe}
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

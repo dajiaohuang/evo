@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-087bfdf8de}
+## 记录分类与直接上级关系 {#s-087bfdf8de}
+COL26.8 将 Forpus 记录为属；其直接上级记录为 Psittacidae。
+
 这里整理的 AVONET v7 资料包含 6 种 Forpus 鸟类的测量记录，使用来源中的历史名称，例如 F. coelestis、F. conspicillatus、F. cyanopygius、F. modestus 和 F. passerinus。页面层级按固定 COL26.8 组织，测量资料仍保留来源名称与采样范围。
 
 ## 记录之间有什么差别 {#s-176177fe37}

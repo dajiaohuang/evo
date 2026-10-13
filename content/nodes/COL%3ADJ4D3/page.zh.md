@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-1521a77739}
+## 记录分类与直接上级关系 {#s-1521a77739}
+COL26.8 将 Serpentes Linnaeus, 1758 记录为亚目；其直接上级记录为 Squamata Oppel, 1811。
+
 Serpentes 的本批 ReptTraits 阅读路径包含 1599 条同名同科、有逐性状出处的物种资料，可从 Acanthophis antarcticus、Acanthophis cryptamydros、Acanthophis hawkei、Acanthophis laevis、Acanthophis praelongus 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-29c8f91f3c}
@@ -9,15 +11,15 @@ Serpentes 的本批路线包含 297 条历史生活史导读，可从 Acrochordu
 
 ## 证据边界 {#s-e30773483c}
 本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
-本路线包含原始筛选后写入的同名同科历史条目；部分在撤下字段范围疑点后低于原焦点字段门槛，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+本路线包含原始筛选后写入的同名同科历史条目；部分在撤下字段范围疑点后低于原焦点字段门槛，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
 ## 部分后代条目的引用缺口 {#s-1fd50f1c2f}
 这条 ReptTraits 阅读路径中有 105 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-e359983172}
-Serpentes 的本批 ReptTraits 阅读路径包含 2169 条同名同科、有逐性状出处的物种资料，可从 [Achalinus huangjietangi](Alethinophidia/Xenodermidae/Achalinus/Achalinus_huangjietangi/page.zh.md)、[Achalinus pingbianensis](Alethinophidia/Xenodermidae/Achalinus/Achalinus_pingbianensis/page.zh.md)、[Achalinus timi](Alethinophidia/Xenodermidae/Achalinus/Achalinus_timi/page.zh.md)、[Achalinus tranganensis](Alethinophidia/Xenodermidae/Achalinus/Achalinus_tranganensis/page.zh.md)、[Achalinus vanhoensis](Alethinophidia/Xenodermidae/Achalinus/Achalinus_vanhoensis/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-e359983172}
+Serpentes 的本批 ReptTraits 阅读路径包含 2169 条同名同科、有逐性状出处的物种资料，可从 Achalinus huangjietangi、Achalinus pingbianensis、Achalinus timi、Achalinus tranganensis、Achalinus vanhoensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-cbf88a061e}
 本批已有尺寸记录中，Epictia tenella 的已报道最大吻肛长（SVL）为 165.7 mm，Amnisiophis amoenus 为 663 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

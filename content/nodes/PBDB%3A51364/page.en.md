@@ -1,19 +1,56 @@
 ## Which fossil records this name represents {#s-fe08e06c6f}
 Rhynchotherium falconeri is accepted in the fixed PBDB mammalia working roster, with database parent Rhynchotherium. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-b0ee791291}
-Collection Arroyo de la Parida (Rhynchotherium Site) (New Mexico), region code US, stratum name Palomas; database age bracket 4.7–1.4 Ma, early interval Blancan. Collection Miraflores (Baja California Sur), region code MX; database age bracket 4.7–1.4 Ma, early interval Blancan. Collection Walrus Ditch (South Carolina), region code US, stratum name Goose Creek; database age bracket 5.333–2.58 Ma, early interval Pliocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Rhynchotherium falconeri is listed in the PBDB snapshot under taxon txn:51364. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-2cc449de4e}
-Selected occurrences have an outer age envelope of 5.333–1.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Walrus Ditch, occurrence occ:1487229 (5.333–2.58 Ma); one supplying the younger bound is Arroyo de la Parida (Rhynchotherium Site), occurrence occ:194794 (4.7–1.4 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-b0ee791291}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-8950f3c31b}
-Arroyo de la Parida (Rhynchotherium Site) has collection-environment label fluvial indet.; collection preservation-mode label body. Miraflores has collection-environment label marginal marine indet.; collection preservation-mode label body. Walrus Ditch has collection-environment label coastal indet.. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:194794; PBDB collection col:19969. Locality cnm=Arroyo de la Parida (Rhynchotherium Site); place fields cc2=US, stp=New Mexico, cny=Socorro. Recorded age bounds: eag 4.7 Ma; lag 1.4 Ma; PBDB interval fields oei=Blancan. Stratigraphic fields sfm=Palomas, sls=ArrLP, slb=2, slo=bottom to top. Recorded attribution Lucas and Morgan 1996; PBDB reference ref:2301.
 
-## Follow collection records back to references {#s-ff70af3c2c}
-Arroyo de la Parida (Rhynchotherium Site) carries database reference attribution Lucas and Morgan (1996), identifier ref:2301. Miraflores carries database reference attribution Wang et al. (2014), identifier ref:57025. Walrus Ditch carries database reference attribution Albright et al. (2019), identifier ref:71195. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"derived from a >70-m-thick succession of sand and gravel" and "medial Blancan" (Sealey et al. 2001)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+6 km NE of Socorro
+
+- Occurrence occ:195361; PBDB collection col:20075. Locality cnm=Miraflores; place fields cc2=MX, stp=Baja California Sur. Recorded age bounds: eag 4.7 Ma; lag 1.4 Ma; PBDB interval fields oei=Blancan. Recorded attribution Wang et al. 2014; PBDB reference ref:57025.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be  Blancan
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+5 km E of Miraflores
+
+- Occurrence occ:1487229; PBDB collection col:77593. Locality cnm=Walrus Ditch; place fields cc2=US, stp=South Carolina, cny=Dorchester. Recorded age bounds: eag 5.333 Ma; lag 2.58 Ma; PBDB interval fields oei=Pliocene. Stratigraphic fields sfm=Goose Creek. Recorded attribution Albright et al. 2019; PBDB reference ref:71195.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Goose Creek Formation?
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+between Ladson and Summerville
+
+## Age bounds on the recorded occurrences {#s-2cc449de4e}
+Across these selected PBDB rows, the largest recorded eag=5.333 Ma in occ:1487229; the smallest recorded lag=1.4 Ma in occ:194794. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-8950f3c31b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:194794: PBDB taxon-name field tna=Rhynchotherium falconeri; material note ocm=apparently includes "R. sp." of Tedford 1981 from "Arroyo de la Parida; PBDB locality-coordinate fields lng=-107.000000, lat=34.000000; paleocoordinate/model fields pm1=gplates, pln=-105.96, pla=34.77.
+- occ:195361: PBDB taxon-name field tna=Rhynchotherium falconeri; PBDB locality-coordinate fields lng=-109.800003, lat=23.400000; paleocoordinate/model fields pm1=gplates, pln=-108.52, pla=23.95.
+- occ:1487229: PBDB taxon-name field tna=Rhynchotherium falconeri; PBDB locality-coordinate fields lng=-80.183334, lat=33.000000; paleocoordinate/model fields pm1=gplates, pln=-78.55, pla=33.61.
+
+## References attached to each record {#s-ff70af3c2c}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:194794: Recorded attribution Lucas and Morgan 1996; PBDB reference ref:2301.
+- occ:195361: Recorded attribution Wang et al. 2014; PBDB reference ref:57025.
+- occ:1487229: Recorded attribution Albright et al. 2019; PBDB reference ref:71195.
 
 ## Evidence limits {#s-41a6ed636d}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

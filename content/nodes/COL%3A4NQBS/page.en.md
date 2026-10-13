@@ -1,26 +1,26 @@
-## The name and this data account {#s-3e6ba4b201}
-COL26.8 accepts *Pseudobulweria aterrima* in Procellariidae. AVONET v7 uses the HBW–BirdLife 2020 name and records 1 measured individual, with a complete morphological set. Usable sample sizes can vary by trait.
+## Row-reported mean and sample coverage {#s-3e6ba4b201}
+The AVONET v7 row for Pseudobulweria aterrima (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 17.5 mm. The row records 1 measured individuals, 1 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-2cfe0891f4}
-The recorded beak means are 17.5 mm from the front edge of the nostril to the tip, 8.2 mm wide and 12.2 mm deep at the nostril edge. These are distinct dimensions at defined landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-2cfe0891f4}
+AVONET records culmen length (bill tip to skull base) 35.1 mm; beak length (nostril front edge to tip) 17.5 mm; beak width at the nostril front edge 8.2 mm; beak depth at the nostril front edge 12.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-a82837d192}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 253 mm; mean tarsus length is 41 mm. The compiled mean mass is 232 g, from source category Dunning. Mass comes from separate species-average information, so the morphology record does not show that the bird was weighed.
+## Wing and body measures use separate sources {#s-a82837d192}
+AVONET records unflattened wing length 253 mm; tarsus length 41 mm; distance from first secondary tip to longest primary tip 133.5 mm; length to first secondary tip 119.5 mm; hand-wing index 52.8; tail length 112 mm; species-average body mass 232 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-669fb4a8c9}
-The dataset's dominant categories are Marine for habitat, Aquatic predator for trophic niche and Aquatic for lifestyle. They support cross-species comparisons, but do not mean the bird uses only marine habitat or eats only aquatic prey.
+## Recorded habitat and feeding categories {#s-669fb4a8c9}
+AVONET classifies Pseudobulweria aterrima as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aquatic. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-a08d55a6f7}
-The migration field classifies the record as partially migratory. Historical breeding and resident maps span latitudes -22.79° to -19.79°. They do not give a complete account of non-breeding movements or show current positions or global occupancy. Geographic and morphological data come from separate compilation steps.
+## The migration label has a limited scope {#s-a08d55a6f7}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -22.79° to -19.79°. The mapped range area is 74510.86 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-a4f610ae05}
-EltonTraits 1.0 also contains an older *Pseudobulweria aterrima* record in Procellariidae. One supported ecological group is shown for comparison with the COL26.8 entry, while retaining the source's earlier bird or MSW3 mammal taxonomy. A matching name does not settle later splits or synonym disputes.
+## Scope of the historical trait entry {#s-a4f610ae05}
+EltonTraits 1.0 has a same-name, same-family record for Pseudobulweria aterrima covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-fd82a1e3f1}
-The nonzero food weights are invertebrates 80% and fish 20%. Source code B indicates reasonable confidence in the source but possible uncertainty in the relative proportions. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove that an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply a diet limited to nectar, seeds or plants.
+## Relative weights across food categories {#s-fd82a1e3f1}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; fish 20%. Its dominant five-category label is Invertebrate. Code B marks a reasonably reliable source, though relative proportions may be uncertain. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Trace each field group to its source labels {#s-77fb49d776}
-The selected group carries source label Ref_1. Diet, strata and activity can come from different materials; the same Ref number in bird and mammal reference tables does not identify the same source. The archive preserves complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, so source labels do not count as new independent observations.
+## Sources and field limits {#s-77fb49d776}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-bde436e45d}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages from the listed sample, not identification diagnoses or ranges of individual variation. Mass comes from separate literature or weighing sources; the morphology sample count does not apply to mass. Habitat, diet and migration are broad categories, and the map covers historical breeding and resident ranges. Historical crosswalks and a matching catalogue name support this association but do not prove equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status need other sources.

@@ -1,19 +1,48 @@
 ## Which fossil records this name represents {#s-4e6f788ad5}
 Tomarctus brevirostris is accepted in the fixed PBDB mammalia working roster, with database parent Tomarctus. This guide uses 21 eligible species-level occurrence records from 21 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-97eba49c36}
-Collection Boulder Quarry (Nebraska), region code US, stratum name Olcott; database age bracket 16.3–12.5 Ma, early interval Early Barstovian. Collection Courthouse Butte (Colorado), region code US, stratum name Pawnee Creek; database age bracket 18.5–16.3 Ma, early interval Hemingfordian. Collection East Sand Quarry (Nebraska), region code US, stratum name Olcott; database age bracket 16.3–12.5 Ma, early interval Early Barstovian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Tomarctus brevirostris is listed in the PBDB snapshot under taxon txn:52374. This archived guide contains 21 selected occurrence rows, linked to 21 distinct PBDB collection IDs and 6 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-afb94d6b43}
-Selected occurrences have an outer age envelope of 18.5–11.63 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Courthouse Butte, occurrence occ:183358 (18.5–16.3 Ma); one supplying the younger bound is "B" Sites, occurrence occ:191157 (15.98–11.63 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-97eba49c36}
+The archived guide contains 21 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-35c01cab80}
-Boulder Quarry has collection-environment label terrestrial indet.; collection preservation-mode label body. Courthouse Butte has collection-environment label terrestrial indet.; collection preservation-mode label body. East Sand Quarry has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:183358; PBDB collection col:17893. Locality cnm=Courthouse Butte; place fields cc2=US, stp=Colorado, cny=Weld. Recorded age bounds: eag 18.5 Ma; lag 16.3 Ma; PBDB interval fields oei=Hemingfordian. Stratigraphic fields sfm=Pawnee Creek. Recorded attribution Wang et al. 1999; PBDB reference ref:3558.
 
-## Follow collection records back to references {#s-4a5d44413f}
-Boulder Quarry carries database reference attribution Wang et al. (1999), identifier ref:3558. Courthouse Butte carries database reference attribution Wang et al. (1999), identifier ref:3558. East Sand Quarry carries database reference attribution Wang et al. (1999), identifier ref:3558. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near Pawnee Buttes
+
+- Occurrence occ:191157; PBDB collection col:19196. Locality cnm="B" Sites; place fields cc2=US, stp=California, cny=San Luis Obispo. Recorded age bounds: eag 15.98 Ma; lag 11.63 Ma; PBDB interval fields oei=Middle Miocene. Stratigraphic fields sfm=Caliente. Recorded attribution Wang et al. 1999; PBDB reference ref:3558.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+beds are a lateral equivalent of the Branch Canyon Fm.
+associated with a "middle Miocene marine mollusk fauna"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Eastern Caliente Range
+
+- Occurrence occ:183285; PBDB collection col:17880. Locality cnm=Boulder Quarry; place fields cc2=US, stp=Nebraska, cny=Sioux. Recorded age bounds: eag 16.3 Ma; lag 12.5 Ma; PBDB interval fields oei=Early Barstovian. Stratigraphic fields sfm=Olcott. Recorded attribution Wang et al. 1999; PBDB reference ref:3558.
+
+## Age bounds on the recorded occurrences {#s-afb94d6b43}
+Across these selected PBDB rows, the largest recorded eag=18.5 Ma in occ:183358; the smallest recorded lag=11.63 Ma in occ:191157. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-35c01cab80}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:183358: PBDB original-identification field idn=Tomarctus brevirostris n. sp.; PBDB taxon-name field tna=Tomarctus brevirostris; material note ocm=of Cope; PBDB locality-coordinate fields lng=-104.199997, lat=40.799999; paleocoordinate/model fields pm1=gplates, pln=-96.4, pla=44.81.
+- occ:191157: PBDB taxon-name field tna=Tomarctus brevirostris; PBDB locality-coordinate fields lng=-120.000000, lat=35.099998; paleocoordinate/model fields pm1=gplates, pln=-113.8, pla=37.56.
+- occ:183285: PBDB taxon-name field tna=Tomarctus brevirostris; PBDB locality-coordinate fields lng=-103.800003, lat=42.400002; paleocoordinate/model fields pm1=gplates, pln=-97.28, pla=45.82.
+
+## References attached to each record {#s-4a5d44413f}
+The archived guide links the rows to 6 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:183358: Recorded attribution Wang et al. 1999; PBDB reference ref:3558.
+- occ:191157: Recorded attribution Wang et al. 1999; PBDB reference ref:3558.
+- occ:183285: Recorded attribution Wang et al. 1999; PBDB reference ref:3558.
 
 ## Evidence limits {#s-e54d83596f}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 21 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

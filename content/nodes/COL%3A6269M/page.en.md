@@ -4,13 +4,15 @@ One-legged standing raises separate questions of weight support and balance. Cha
 ## Compare cadaver support with live balance {#s-431afd1e29}
 Start with the cadaver material and support geometry of [Phoenicopterus ruber](Phoenicopterus/Phoenicopterus_ruber/page.en.md), then the juveniles, centre of pressure and quiet behaviour of [Phoenicopterus chilensis](Phoenicopterus/Phoenicopterus_chilensis/page.en.md). Keep species, ages, clamps and force-plate conditions explicit before returning to existing morphology, feeding and life-history accounts. Historical compilation averages do not replace experimental samples.
 
-## Local data reading route {#s-280bce7936}
+## Recorded classification and direct parent {#s-280bce7936}
+COL26.8 records Phoenicopteridae at family rank, with Phoenicopteriformes as its direct parent.
+
 This batch’s Phoenicopteridae route includes 6 measured species records. Start with Phoeniconaias minor, Phoenicoparrus andinus, Phoenicoparrus jamesi, Phoenicopterus chilensis, Phoenicopterus roseus. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-4f909b733c}
 Compiled mean mass endpoints in this batch are Phoeniconaias minor at 1500 g and Phoenicoparrus andinus at 4900 g. Represented habitat categories include Wetland, Coastal; trophic niches include Herbivore aquatic, Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-6bf9f7cc10}
+## Amniote Life-history archive member records {#s-6bf9f7cc10}
 This batch’s Phoenicopteridae route includes 5 historical life-history accounts; start with Phoeniconaias minor, Phoenicoparrus andinus, Phoenicopterus chilensis, Phoenicopterus roseus, Phoenicopterus ruber. More frequently represented fields include adult body mass (5 entries), female maturity field (defined by the source as age at first conception) (5 entries), offspring per litter or eggs per clutch (5 entries), oviposition to hatching (5 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-6ade5781b9}

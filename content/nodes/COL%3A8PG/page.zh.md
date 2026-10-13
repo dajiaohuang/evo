@@ -4,7 +4,9 @@ Crocodylidae 的感觉比较以两篇尼罗鳄研究为具名入口。皮肤感�
 ## 按材料、刺激和记录方式比较 {#s-9f895a3ce3}
 先读 [Alligator mississippiensis](../Alligatoridae/Alligator/Alligator_mississippiensis/page.zh.md) 的颌部触觉与测量下限，再到 [Crocodylus niloticus](Crocodylus/Crocodylus_niloticus/page.zh.md) 比较体表分布及胚胎时序，最后读 [Caiman crocodilus](../Alligatoridae/Caiman/Caiman_crocodilus/page.zh.md) 的颌部多类刺激记录。每步先确认研究年份、幼体／胚胎、部位及子样本；局部神经电活动不等于野外偏好，盐液未检出响应也不证明动物没有盐度感觉。沿用现有咬力、移动与生活史路径时，另核对年龄、单位和方法，不把感觉阈值换算为捕食成功率。
 
-## 从有性状记录的物种开始 {#s-3f04811ec7}
+## 记录分类与直接上级关系 {#s-3f04811ec7}
+COL26.8 将 Crocodylidae 记录为科；其直接上级记录为 Crocodylia。
+
 Crocodylidae 的本批 ReptTraits 阅读路径包含 14 条同名同科、有逐性状出处的物种资料，可从 Crocodylus acutus、Crocodylus intermedius、Crocodylus johnstoni、Crocodylus mindorensis、Crocodylus moreletii 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 不同类群需要不同尺度 {#s-3fd8621f22}
@@ -23,8 +25,8 @@ Crocodylidae 的本批路线包含 12 条历史生活史导读，可从 Crocodyl
 ## 部分后代条目的引用缺口 {#s-690f53edfd}
 这条 ReptTraits 阅读路径中有 2 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-739e7ca371}
-Crocodylidae 的本批 ReptTraits 阅读路径包含 3 条同名同科、有逐性状出处的物种资料，可从 [Crocodylus halli](Crocodylus/Crocodylus_halli/page.zh.md)、[Mecistops leptorhynchus](Mecistops/Mecistops_leptorhynchus/page.zh.md)、[Osteolaemus osborni](Osteolaemus/Osteolaemus_osborni/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-739e7ca371}
+Crocodylidae 的本批 ReptTraits 阅读路径包含 3 条同名同科、有逐性状出处的物种资料，可从 Crocodylus halli、Mecistops leptorhynchus、Osteolaemus osborni 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-6f248d0dae}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

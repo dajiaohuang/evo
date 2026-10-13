@@ -1,3 +1,9 @@
+## Mean forearm length in an adult sample {#maz-forearm}
+The study examined 12 adult Molossus specimens and reports a mean forearm length of 39.74 mm, classified as medium under its stated length bands. The sample is restricted to adults and this single quantitative size indicator; it does not establish the species’ full morphology or sex- and age-related variation.
+
+## A strongly supported mitochondrial clade {#maz-mito-clade}
+The mitochondrial COI + cyt b tree places M. aztecus in the paper’s strongly supported clade with M. fluminensis, M. bondae, M. sinaloae, M. rufus, M. pretiosus, and M. currentium.
+
 ## The 2015 life-history entry and this name {#s-86e017f8e4}
 COL26.8 accepts *Molossus aztecus* in Molossidae. The historical life-history profile below draws on same-name, same-family rows for six fields. Older compilations can carry information across earlier taxonomic boundaries, so a name match links records without proving that every historical row represents the same species concept used by COL26.8.
 

@@ -1,29 +1,29 @@
-## The name and this data account {#s-50263896e6}
-Zosterops modestus is accepted in COL26.8 within Zosteropidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-50263896e6}
+The AVONET v7 row for Zosterops modestus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 7.5 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-c415911d71}
-Recorded mean beak measurements are 7.5 mm from the anterior nostril edge to the tip, 3.2 mm in width and 3.5 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-c415911d71}
+AVONET records culmen length (bill tip to skull base) 13.7 mm; beak length (nostril front edge to tip) 7.5 mm; beak width at the nostril front edge 3.2 mm; beak depth at the nostril front edge 3.5 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-96dea0809a}
-Mean unflattened wing length from the carpal joint to the longest primary is 58 mm; mean tarsus length is 17.5 mm. Compiled mean mass is 12.8 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-96dea0809a}
+AVONET records unflattened wing length 58 mm; tarsus length 17.5 mm; distance from first secondary tip to longest primary tip 9.8 mm; length to first secondary tip 48.1 mm; hand-wing index 17; tail length 39.8 mm; species-average body mass 12.8 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-5c2ac8101f}
-The dataset assigns habitat Woodland, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-5c2ac8101f}
+AVONET classifies Zosterops modestus as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-9a3167ff40}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -4.75° to -4.38°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-9a3167ff40}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -4.75° to -4.38°. The mapped range area is 8.91 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Two historical EltonTraits field groups {#s-d0899bbbf4}
-COL26.8 accepts *Zosterops modestus* in Zosteropidae. The EltonTraits 1.0 table has a same-name, same-family record with two ecological field groups. Its bird taxonomy is historical; matching names do not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-d0899bbbf4}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops modestus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-9e5aca22f3}
-The nonzero food weights are invertebrates 40%, fruit 30%, seeds, nuts and spores 20%, and nectar, pollen and plant exudates 10%. Code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; a zero does not prove that an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply exclusive use of nectar, seeds or plants.
+## Relative weights across food categories {#s-9e5aca22f3}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 40%; fruit 30%; nectar 10%; seeds or nuts 20%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-e85f481740}
-The species-level foraging-stratum record assigns 60% to understory, edges or shrubs below 2 m and 40% to trees or tall bushes from 2 m up to the canopy. These weights estimate relative use of feeding positions, not nest sites, all habitat or time budgets for the whole day. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation bands and cannot provide flight heights or habitat area.
+## Foraging positions are not a time budget {#s-e85f481740}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 60%; in mid-height or high vegetation 40%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Source labels for the field groups {#s-c4264b708c}
-The field groups carry source labels Ref_13 and Ref_50. They locate references but do not show that the cited works directly measured this species or count as independent observations by themselves.
+## Sources and field limits {#s-c4264b708c}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Sinclair, J. and O. Langrand. 1998. Birds of the Indian Ocean Islands. Struik (Cape Town).. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-e018db790d}
 AVONET v7 records four measured individuals, all with a complete morphological set; usable sample sizes can still differ among traits. The reported values are species averages, not identification diagnoses or ranges of individual variation. Mass comes from separate literature or weighing sources, so the four morphological samples do not define its sample. Habitat, diet and migration are coarse categories, and geography describes historical breeding and resident ranges. Historical crosswalks and matching names support an association but do not prove equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status need other sources.

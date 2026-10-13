@@ -11,5 +11,5 @@ A craniodental study compared 290 museum Galagoides skulls. Samples carrying the
 A study from Gabon's Haut-Ogooué region treated thomasi and demidoff as sympatric populations. The first Bioko record and the Gabon study are local evidence from different places; they support a reading path and occurrence records, not a complete range map or population assessment.
 
 ## Evidence limits {#s-a0806634c8}
-This is a guide to a first record from one Bioko locality and a sympatric study in Gabon, not a complete species account. Available sources do not support a full range, range-wide ecology or current population status; neighboring-population research is not extrapolated to the island as a whole. This page is.
+This is a guide to a first record from one Bioko locality and a sympatric study in Gabon, not a complete species account. Available sources do not support a full range, range-wide ecology or current population status; neighboring-population research is not extrapolated to the island as a whole.
 

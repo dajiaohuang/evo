@@ -1,44 +1,44 @@
-## The name and this data account {#s-4c995ad0b3}
-AVONET v7 lists this record under the HBW–BirdLife 2020 name *Dryocopus martius*. It includes 10 measured individuals, 4 in a complete morphological set; trait means may use different sample sizes.
+## Row-reported mean and sample coverage {#s-4c995ad0b3}
+The AVONET v7 row for Dryocopus martius (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 46.8 mm. The row records 10 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-a1f902ee38}
-Mean beak length is 46.8 mm from the anterior nostril edge to the tip. At that landmark, width averages 15.4 mm and depth 13.2 mm. These standardized dimensions are not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-a1f902ee38}
+AVONET records culmen length (bill tip to skull base) 65.6 mm; beak length (nostril front edge to tip) 46.8 mm; beak width at the nostril front edge 15.4 mm; beak depth at the nostril front edge 13.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-d4dd453486}
-Mean unflattened wing length (carpal joint to longest primary) is 237.8 mm; mean tarsus is 35.6 mm. AVONET separately lists mass at 321 g in the Dunning category, not as a measurement of every specimen.
+## Wing and body measures use separate sources {#s-d4dd453486}
+AVONET records unflattened wing length 237.8 mm; tarsus length 35.6 mm; distance from first secondary tip to longest primary tip 63 mm; length to first secondary tip 175.2 mm; hand-wing index 26.4; tail length 175.8 mm; species-average body mass 321 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-079a0e59a4}
-AVONET classifies habitat as Forest, trophic niche as Invertivore and lifestyle as Insessorial, a perching-associated category. These broad labels do not mean exclusive habitat or food use.
+## Recorded habitat and feeding categories {#s-079a0e59a4}
+AVONET classifies Dryocopus martius as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-3ed8834b36}
-The migration field is sedentary. Historical breeding and resident maps span 29.72°–69.48° latitude; they do not describe all non-breeding movement or current global occupancy.
+## The migration label has a limited scope {#s-3ed8834b36}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 29.72° to 69.48°. The mapped range area is 19634445.89 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-188944f2aa}
-The 2015 life-history archive contains a same-name, same-family entry. Seven fields used here have cited species-level rows matching that name and family. The match identifies the entry but cannot rule out taxonomic inheritance.
+## Scope of the historical life-history entry {#s-188944f2aa}
+The August 2015 database has a same-name, same-family record for Dryocopus martius. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-72b929b9ca}
-The archive reports adult mass 321 g and birth or hatching mass 9 g. The adult value happens to match the separate AVONET mean, but comes from a distinct source record. Adult summaries can combine sexes or records with sex unspecified.
+## Compiled adult-mass values {#s-72b929b9ca}
+The August 2015 compilation reports adult body mass 321 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-41300d5b1a}
-Reported reproductive fields are female maturity (source-defined as age at first conception) 364.23 days; offspring or eggs per litter or clutch 4.8; laying to hatching 12 days; and flight capability 27 days. Some sources define the last as leaving the nest. A fractional clutch or litter is a summary, not a fractional brood.
+## Reproductive fields describe different events {#s-41300d5b1a}
+The August 2015 compilation reports female age at first conception (source definition) 364.234 days; median or interpolated-median number of offspring or eggs per litter/clutch 4.8; oviposition-to-hatching interval 12 days; age at flight capability (some records mark nest departure) 27 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-71bfcf7886}
-Maximum longevity is 14 years, the largest record found for that field. It is not typical lifespan, mean wild lifespan or a guaranteed survival limit.
+## A maximum record is not typical lifespan {#s-71bfcf7886}
+The compilation lists 14 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-1fd5d5d578}
-Source labels include Dunning (1992), Szekely, Lislevand and Figuerola (2007), de Magalhaes and Costa (2009), and Boback and Guyer (2003), among others. Batch records preserve row numbers, values and full reference explanations; row counts are not measured animals or independent replications.
+## Sources and field limits {#s-1fd5d5d578}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-d308233822}
-EltonTraits 1.0 has a historical entry matching this name and family. This account uses its diet and foraging-stratum groups. The name match does not settle later species splits or synonymy.
+## Scope of the historical trait entry {#s-d308233822}
+EltonTraits 1.0 has a same-name, same-family record for Dryocopus martius covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-018c254d48}
-Invertebrates make up the only non-zero diet weight, 100%; the source gives confidence code A. EltonTraits standardizes literature descriptions into relative weights rather than measuring diet composition. Zero in another category would not prove it is never eaten.
+## Relative weights across food categories {#s-018c254d48}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-d3e423daf0}
-Species-level foraging weights are ground 40%, understory/edges/shrubs below 2 m 40%, and trees or tall bushes from 2 m to below the canopy 20%. These concern feeding positions, not nest sites or daily time budgets; strata are not elevations or flight heights.
+## Foraging positions are not a time budget {#s-d3e423daf0}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 40%; in the understory 40%; in mid-height or high vegetation 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-6a0479069b}
-The selected EltonTraits groups cite Ref_7, identified as *Handbook of the Birds of the World*, volume 7. Diet and foraging fields may draw on different material despite the shared label. The book has not been individually reviewed here; the label records provenance.
+## Sources and field limits {#s-6a0479069b}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-1028756f2b}
 This page combines three historical data layers. AVONET measurements are species averages from the stated sample, while mass comes from a separate source; habitat, trophic niche and migration are broad codes, and mapped latitudes describe historical breeding/resident geography. The 2015 life-history summaries are medians or averages of the two middle values, except maximum longevity, which is the largest record found. Data may be inherited across historical species and subspecies; matching names do not prove current concept equivalence, and wild/captive status is not consistently known. EltonTraits percentages standardize literature descriptions rather than report direct measurements. The underlying works have not all been reviewed; this page does not establish current range, population, conservation status or complete species biology.

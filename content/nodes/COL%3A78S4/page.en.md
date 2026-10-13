@@ -7,7 +7,9 @@ Start with R. avunculus: keep the Khau Ca leaf-chemistry comparison separate fro
 ## Interpreting the evidence {#s-6cbfab540d}
 This is a reading path linking five checklist-accepted species to selected local studies, not a genus-wide ecological review or a phylogenetic conclusion. Population, ranging and habitat results remain tied to their stated sites and periods; the new species pages.
 
-## Choose comparison pages by life-history fields {#s-a278d2c9f0}
+## Recorded classification and direct parent {#s-a278d2c9f0}
+COL26.8 records Rhinopithecus A. Milne-Edwards, 1872 at genus rank, with Presbytini Gray, 1825 as its direct parent.
+
 This batch’s Rhinopithecus route includes 4 historical life-history accounts; start with Rhinopithecus avunculus, Rhinopithecus bieti, Rhinopithecus brelichi, Rhinopithecus roxellana. More frequently represented fields include adult body mass (4 entries), conception or fertilization to birth (4 entries), offspring per litter or eggs per clutch (3 entries), longest lifespan record in the compilation (3 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-be9c730652}

@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-9232348bc8}
+## 记录分类与直接上级关系 {#s-9232348bc8}
+COL26.8 将 Tytoninae 记录为亚科；其直接上级记录为 Tytonidae。
+
 Tytoninae 的本批阅读路径包含 3 条有测量来源的物种记录，可从 Tyto capensis、Tyto longimembris、Tyto soumagnei 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-b854f49b7e}
@@ -16,8 +18,8 @@ Tytoninae 的这条阅读路径链接 5 个历史条目，可从 Tyto inexspecta
 ## 证据边界 {#s-58065fc6bb}
 AVONET v7 提供历史样本的形态与体重汇总，不是个体变异范围。2015 年生活史档案汇总历史条目，其中数值可能沿用较早种或亚种概念。EltonTraits 1.0 将文献描述转换为食物与觅食类别的相对权重，不是直接的食性或行为测量。各来源的样本数与字段定义不同；Tytoninae 的这些记录不涵盖全部接受后代，也不能确定当前分布、保护状况或历史名称与 COL26.8 具有相同物种边界。
 
-## 从有限生态资料开始 {#s-7d1a0215ec}
-Tytoninae 本批有 4 个有限生态资料页，可从 [Tyto aurantia](Tyto/Tyto_aurantia/page.zh.md)、[Tyto inexspectata](Tyto/Tyto_inexspectata/page.zh.md)、[Tyto nigrobrunnea](Tyto/Tyto_nigrobrunnea/page.zh.md)、[Tyto rosenbergii](Tyto/Tyto_rosenbergii/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计所列资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-7d1a0215ec}
+Tytoninae 本批有 4 个有限生态资料页，可从 Tyto aurantia、Tyto inexspectata、Tyto nigrobrunnea、Tyto rosenbergii 开始。源条目沿固定 COL26.8 分类组织；行数只计所列资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-03e97f65bd}
 栖地类别见 4 页，取食生态位见 4 页，主导活动方式见 4 页，迁移类别见 4 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。喙、翼、跗蹠、尾与体重字段在这里仍未作解释，不能用来建立类群体型比较。

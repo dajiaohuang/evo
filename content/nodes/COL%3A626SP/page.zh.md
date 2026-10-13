@@ -1,4 +1,4 @@
-## 从已有历史条目开始 {#s-0018ae6b63}
+## 记录分类与成员材料 {#s-0018ae6b63}
 Viverridae 的本地 PanTHERIA 路径包括 13 条可用数据导读，可从 Genetta genetta、Civettictis civetta、Cynogale bennettii、Genetta tigrina、Hemigalus derbyanus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-ded3319389}
@@ -15,8 +15,8 @@ Viverridae 的本批路线包含 32 个历史条目，可从 Civettictis civetta
 本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
-## 从已有历史条目开始 {#s-c1603d2588}
-Viverridae 的本地 PanTHERIA 路径包括 8 条可用数据导读，可从 [Genetta johnstoni](Genettinae/Genetta/Genetta_johnstoni/page.zh.md)、[Diplogale hosei](Hemigalinae/Diplogale/Diplogale_hosei/page.zh.md)、[Genetta abyssinica](Genettinae/Genetta/Genetta_abyssinica/page.zh.md)、[Genetta angolensis](Genettinae/Genetta/Genetta_angolensis/page.zh.md)、[Chrotogale owstoni](Hemigalinae/Chrotogale/Chrotogale_owstoni/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-c1603d2588}
+Viverridae 的本地 PanTHERIA 路径包括 8 条可用数据导读，可从 Genetta johnstoni、Diplogale hosei、Genetta abyssinica、Genetta angolensis、Chrotogale owstoni 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-f655bbc922}
 本批可用的成年体重汇总值中，Genetta abyssinica 为 1405.48 g，Viverra civettina 为 12061.27 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
@@ -25,7 +25,7 @@ Viverridae 的本地 PanTHERIA 路径包括 8 条可用数据导读，可从 [Ge
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-b827f9e333}
-Viverridae 本批有 12 个历史生活史资料页，可从 [Arctictis binturong](Paradoxurinae/Arctictis/Arctictis_binturong/page.zh.md)、[Arctogalidia trivirgata](Paradoxurinae/Arctogalidia/Arctogalidia_trivirgata/page.zh.md)、[Chrotogale owstoni](Hemigalinae/Chrotogale/Chrotogale_owstoni/page.zh.md)、[Civettictis civetta](Viverrinae/Civettictis/Civettictis_civetta/page.zh.md)、[Cynogale bennettii](Hemigalinae/Cynogale/Cynogale_bennettii/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Viverridae 本批有 12 个历史生活史资料页，可从 Arctictis binturong、Arctogalidia trivirgata、Chrotogale owstoni、Civettictis civetta、Cynogale bennettii 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-e85bac6246}
 本批妊娠资料见 6 页，雌性首次繁殖年龄见 4 页，最高寿命记录见 8 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-d55be2d508}
-Didelphodon is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 3 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Didelphodon {#s-d55be2d508}
+Didelphodon is listed at rank genus in the PBDB classification route, with Stagodontidae as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-68654a5dfa}
 Start with Didelphodon vorax, Ectoconodon montanensis, Didelphodon coyi and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 75 selected occurrences from 72 collections; example stratum names are Lance, Hell Creek, Frenchman, Scollard. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-604a33faaf}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-604a33faaf}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Didelphodon vorax’s collection record, not a continuous history for Didelphodon.
 

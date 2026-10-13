@@ -11,5 +11,5 @@ A 2014 Huánuco inventory walked 618 km of transects and recorded 47 primate gro
 In 2016, Aquino et al. walked 213 km over 532 hours and recorded five groups between Monopampa and Libertad on the eastern side of the Río Huallaga. They described this as a first record east of the river and a southeastern extension of the then-known range toward the Pasco boundary; the paper also notes that further surveying was needed. The five groups are not a total count.
 
 ## Evidence limits {#s-7da92d4c24}
-Density values and groups are tied to individual survey areas and methods. The La Esperanza comparison covers two periods at one site; Huánuco detections and the 2016 distribution record do not establish a current range-wide population. The Chinese display name is editorial. This page is.
+Density values and groups are tied to individual survey areas and methods. The La Esperanza comparison covers two periods at one site; Huánuco detections and the 2016 distribution record do not establish a current range-wide population. The Chinese display name is editorial.
 

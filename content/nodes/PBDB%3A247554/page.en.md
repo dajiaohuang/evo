@@ -1,19 +1,46 @@
 ## Which fossil records this name represents {#s-2e521d66be}
 Madakoala devisi is accepted in the fixed PBDB mammalia working roster, with database parent Madakoala. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-7eb9cd239a}
-Collection Lake Namba (South Australia), region code AU, stratum name Namba; database age bracket 27.3–23.04 Ma, early interval Late Oligocene. Collection Lake Pinpa (South Australia), region code AU, stratum name Namba; database age bracket 27.3–23.04 Ma, early interval Late Oligocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Madakoala devisi is listed in the PBDB snapshot under taxon txn:247554. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-21fd1421db}
-Selected occurrences have an outer age envelope of 27.3–23.04 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Lake Namba, occurrence occ:506499 (27.3–23.04 Ma); one supplying the younger bound is Lake Namba, occurrence occ:506499 (27.3–23.04 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-7eb9cd239a}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-b708e80b59}
-Lake Namba has collection-environment label lacustrine indet.; collection preservation-mode label body,original phosphate. Lake Pinpa has collection-environment label lacustrine indet.; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:506499; PBDB collection col:45652. Locality cnm=Lake Namba; place fields cc2=AU, stp=South Australia. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Late Oligocene. Stratigraphic fields sfm=Namba. Recorded attribution Fitzgerald 2004; PBDB reference ref:13672.
 
-## Follow collection records back to references {#s-bf079727d6}
-Lake Namba carries database reference attribution Fitzgerald (2004), identifier ref:13672. Lake Pinpa carries database reference attribution Fitzgerald (2004), identifier ref:13672. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The accepted age for the Namba formation has varied from late Oligocene-early Miocene. Woodburne et al. 1994 suggested a late Oligocene age for the correlated faunas of Zone A in the Etadunna Formation. Martin 1990 also suggested that an early Miocene age was unlikely based on pollen data. Megirian et al. 2010 also used a late Oligocene age of 28-24Ma for the Namba Formation.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+4 km south of Ericmas Quarry, which occurs at the base of low bluffs, just south of track to Billeroo Waterhole on western side of Lake Namba, Lake Frome area
+
+- Occurrence occ:506529; PBDB collection col:51412. Locality cnm=Lake Pinpa; place fields cc2=AU, stp=South Australia. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Late Oligocene. Stratigraphic fields sfm=Namba. Recorded attribution Fitzgerald 2004; PBDB reference ref:13672.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+top of unnamed member 1; Beck et al. (2020): The Namba Formation has been correlated with the Etadunna Formation, which has been estimated to be 26-24 Ma old (i.e. latest Oligocene) on the basis of isotopic, foraminiferal, magnetostratigraphic and radiometric (Rb-Sr dating of illite) data. More recently, the Etadunna Formation has been proposed to be 26.1-23.6 Ma old based on a best-fit age-model of magnetostratigraphic data. The Pinpa Local Fauna is the oldest of the three distinct faunal units recovered from stratigraphic levels in the Namba Formation, and has been correlated with the oldest faunal zone (Zone A) of the Etadunna Formation, which has been dated as 25.3-24.9 Ma old (chrons 7An and 7Ar) based on magnetostratigraphy. In summary, available evidence suggests a probable age of between approximately 26 and 25 MYA for the Pinpa Local Fauna.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Tarkarooloo basin; western margin and floor of Lake Pinpa
+
+## Age bounds on the recorded occurrences {#s-21fd1421db}
+Across these selected PBDB rows, the largest recorded eag=27.3 Ma in occ:506499; the smallest recorded lag=23.04 Ma in occ:506499. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-b708e80b59}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:506499: PBDB taxon-name field tna=Madakoala devisi; PBDB locality-coordinate fields lng=140.233337, lat=-31.233334; paleocoordinate/model fields pm1=gplates, pln=144.52, pla=-44.86.
+- occ:506529: PBDB taxon-name field tna=Madakoala devisi; PBDB locality-coordinate fields lng=140.233337, lat=-31.166668; paleocoordinate/model fields pm1=gplates, pln=144.5, pla=-44.8.
+
+## References attached to each record {#s-bf079727d6}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:506499: Recorded attribution Fitzgerald 2004; PBDB reference ref:13672.
+- occ:506529: Recorded attribution Fitzgerald 2004; PBDB reference ref:13672.
 
 ## Evidence limits {#s-0ef072dd9b}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

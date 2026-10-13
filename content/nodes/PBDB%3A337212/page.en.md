@@ -1,19 +1,44 @@
 ## Which fossil records this name represents {#s-f25fa73b40}
 Rosendolops primigenium is accepted in the fixed PBDB mammalia working roster, with database parent Rosendolops. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-293a71298a}
-Collection Rinconada de Los Lopez (Chubut), region code AR; database age bracket 56–48 Ma, early interval Casamayoran. Collection Barranca south of Lago Colhue-Huapi, Gran Barranca (Chubut), region code AR, stratum name Sarmiento; database age bracket 41.03–37.71 Ma, early interval Bartonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Rosendolops primigenium is listed in the PBDB snapshot under taxon txn:337212. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-3798f11d40}
-Selected occurrences have an outer age envelope of 56–37.71 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Rinconada de Los Lopez, occurrence occ:1313796 (56–48 Ma); one supplying the younger bound is Barranca south of Lago Colhue-Huapi, Gran Barranca, occurrence occ:1316619 (41.03–37.71 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-293a71298a}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-9d43588709}
-Rinconada de Los Lopez has collection-environment label terrestrial indet.; collection preservation-mode label body. Barranca south of Lago Colhue-Huapi, Gran Barranca has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1313796; PBDB collection col:175742. Locality cnm=Rinconada de Los Lopez; place fields cc2=AR, stp=Chubut. Recorded age bounds: eag 56 Ma; lag 48 Ma; PBDB interval fields oei=Casamayoran. Recorded attribution Goin and Candela 1996; PBDB reference ref:58285.
 
-## Follow collection records back to references {#s-1449f06e3b}
-Rinconada de Los Lopez carries database reference attribution Goin and Candela (1996), identifier ref:58285. Barranca south of Lago Colhue-Huapi, Gran Barranca carries database reference attribution Goin and Candela (1996), identifier ref:58285. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Estimated from map in Marshall (1982)
+
+- Occurrence occ:1316619; PBDB collection col:13779. Locality cnm=Barranca south of Lago Colhue-Huapi, Gran Barranca; place fields cc2=AR, stp=Chubut. Recorded age bounds: eag 41.03 Ma; lag 37.71 Ma; PBDB interval fields oei=Bartonian. Stratigraphic fields sfm=Sarmiento. Recorded attribution Goin and Candela 1996; PBDB reference ref:58285.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Lowest fossil horizon, Casamayor Formation - now referred to as Sarmiento Formation
+Initially referred to the Casamayoran SALMA, which was later subdivided. Now considered type sequence for Barrancan SALMA (see Woodburne et al. 2014)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Cliff south of Lago Colhue-Huapi, Chubut, Argentina
+
+## Age bounds on the recorded occurrences {#s-3798f11d40}
+Across these selected PBDB rows, the largest recorded eag=56 Ma in occ:1313796; the smallest recorded lag=37.71 Ma in occ:1316619. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-9d43588709}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1313796: PBDB taxon-name field tna=Rosendolops primigenium; material note ocm=AMNH 28928, isolated upper molar; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-69.166664, lat=-44.333332; paleocoordinate/model fields pm1=gplates, pln=-59.12, pla=-45.83.
+- occ:1316619: PBDB original-identification field idn=Rosendolops primigenium n. gen. n. sp.; PBDB taxon-name field tna=Rosendolops primigenium; material note ocm=MLP 77-VI-14-3, ?M2, holotype; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-68.666664, lat=-45.666668; paleocoordinate/model fields pm1=gplates, pln=-60.92, pla=-46.35.
+
+## References attached to each record {#s-1449f06e3b}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1313796: Recorded attribution Goin and Candela 1996; PBDB reference ref:58285.
+- occ:1316619: Recorded attribution Goin and Candela 1996; PBDB reference ref:58285.
 
 ## Evidence limits {#s-3b9258860e}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

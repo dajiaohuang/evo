@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-82700123bc}
+## 记录分类与直接上级关系 {#s-82700123bc}
+COL26.8 将 Ramphastos 记录为属；其直接上级记录为 Ramphastidae。
+
 这里有四个 Ramphastos 物种页面含测量记录：Ramphastos brevis、Ramphastos dicolorus、Ramphastos sulfuratus 和 Ramphastos toco。目录层级按固定 COL26.8 组织，生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-6ad8e496c4}

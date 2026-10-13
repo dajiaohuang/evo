@@ -1,4 +1,6 @@
-## 历史生态阅读路径中的三条记录 {#s-b88df0f4f3}
+## 记录分类与直接上级关系 {#s-b88df0f4f3}
+COL26.8 将 Eospalax 记录为属；其直接上级记录为 Myospalacinae。
+
 Catalogue of Life COL26.8 将 Eospalax 记录为接受的属。该批 EltonTraits 1.0 阅读路径包含三条按这一固定祖先分类归入的历史记录：Eospalax fontanierii、Eospalax rothschildi 和 Eospalax smithii。字段组汇总计有三条食物记录、三条取食记录和三条活动记录。这些数字描述历史汇编中的条目，不是该属完整的物种清单，也不能证明成员具有相同的食物或活动模式。方法元数据说明生态字段经过半定量转换和插补，因此应将它们视为编码后的历史字段。
 
 ## 这条阅读路径的边界 {#s-93d513769a}

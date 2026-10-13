@@ -1,5 +1,5 @@
-## Locate the current page through older Rallina names {#s-50d5173092}
-Pinned COL26.8 organizes this page at Rallicula mayri (793B6) in Sarothruridae (CPHSJ). BirdLife 2020 row 2698 uses this species name and source family Rallidae; eBird 2021 row 9078 and BirdTree row 9024 both give Rallina mayri. Match types are 1BL to 1eBird and 1BL to 1BT; both eBird sides share Avibase ID AVIBASE-8F99953C. Exact catalogue synonym 4RB9J points to accepted species 793B6. Older genus and family names remain source records; name links do not prove identical historical and current species boundaries.
+## A name fixed to COL26.8 {#s-50d5173092}
+Catalogue of Life release COL26.8 records Rallicula mayri E. J. O. Hartert, 1930 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-57da881be3}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 3 complete sets. Nostril-to-tip beak length 15.5 mm, tarsus 34.3 mm, unflattened wing 109.4 mm, tail 66.8 mm and hand-wing index 6.3 are historical row means. Totals exceed complete sets; not every bird has all fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; a low value does not establish flightlessness, and wing length is not measured flight ability.

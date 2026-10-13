@@ -4,13 +4,15 @@ American alligators provide one juvenile skin-sensation study for Alligator. The
 ## Compare material, stimuli and recording methods {#s-b7e4351ea1}
 Start with jaw touch and measurement limits on [Alligator mississippiensis](Alligator_mississippiensis/page.en.md), compare body distribution and embryonic timing on [Crocodylus niloticus](../../Crocodylidae/Crocodylus/Crocodylus_niloticus/page.en.md), then read the multiple stimulus types tested on the jaws of [Caiman crocodilus](../Caiman/Caiman_crocodilus/page.en.md). At each step identify the year, juvenile or embryo, site and subset. Local neural activity is not wild preference; undetected salt-solution responses do not establish absence of whole-animal salinity perception. Existing bite-force, movement and life-history routes retain their own ages, units and methods; sensory thresholds do not convert into predation success rates.
 
-## Start with sourced trait records {#s-115314b168}
+## Recorded classification and direct parent {#s-115314b168}
+COL26.8 records Alligator at genus rank, with Alligatoridae as its direct parent.
+
 This batch’s ReptTraits route for Alligator includes 2 same-name, same-family entries with trait-specific citations. Start with Alligator mississippiensis, Alligator sinensis. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Different groups require different measures {#s-c7797e579a}
 The shared length column records straight carapace length in turtles and snout–vent length in other groups. They are not combined into a size ranking. On species pages, inspect measurement landmarks, activity and feeding categories, reproductive mode and clutch/litter values, selecting comparable material by source and definition.
 
-## Choose comparison pages by life-history fields {#s-d56a875e0d}
+## Amniote Life-history archive member records {#s-d56a875e0d}
 This batch’s Alligator route includes 2 historical life-history accounts; start with Alligator mississippiensis, Alligator sinensis. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), mass at birth or hatching (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Evidence limits {#s-2ccc6d5d93}

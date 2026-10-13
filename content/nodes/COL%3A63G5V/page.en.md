@@ -1,4 +1,6 @@
-## One usable account on this PanTHERIA route {#s-d20a2686e8}
+## Recorded classification and direct parent {#s-d20a2686e8}
+COL26.8 records Oenomys at genus rank, with Murinae as its direct parent.
+
 The local PanTHERIA route for Oenomys has one usable account: Oenomys hypoxanthus. It keeps its original MSW05 name, variable-specific conditions, and missing fields. COL26.8 provides the navigation taxonomy; this historical row count is not the current accepted-species denominator.
 
 ## The reported adult-mass endpoints coincide {#s-9759571750}
@@ -18,13 +20,13 @@ A second life-history route includes this batch’s same-name, same-family entri
 The ecological route uses only this batch’s unique same-name, same-family historical entries with at least two usable field groups. It is not a complete descendant catalogue. Individual food types, estimated weights, and activity patterns are not traits of the whole group. Semiquantitative conversion, older taxonomy, and possible congeneric borrowing in ABC fields require per-page interpretation.
 
 ## The other PanTHERIA route {#s-6cebcb0c19}
-A separate local PanTHERIA route has one usable account and links to [Oenomys ornatus](Oenomys_ornatus/page.en.md). The entry retains its MSW05 name, field-specific conditions, and missing data. COL26.8 supplies navigation; the historical count does not represent every currently accepted species.
+A separate local PanTHERIA route has one usable account and links to Oenomys ornatus. The entry retains its MSW05 name, field-specific conditions, and missing data. COL26.8 supplies navigation; the historical count does not represent every currently accepted species.
 
 ## Scope of this historical subset {#s-948174aea6}
 This guide includes only batch entries with at least one focal field, a matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. The values consolidate historical records, not individual extremes, and source conditions may differ by field. They do not establish current taxonomy, distribution, or conservation.
 
 ## One authored same-name life-history account {#s-a5c61a36e7}
-This batch has one historical life-history account under Oenomys: [Oenomys hypoxanthus](Oenomys_hypoxanthus/page.en.md). The link follows COL26.8 navigation. The count refers to authored same-name entries in this batch, not every accepted species in the group.
+This batch has one historical life-history account under Oenomys: Oenomys hypoxanthus. The link follows COL26.8 navigation. The count refers to authored same-name entries in this batch, not every accepted species in the group.
 
 ## Three fields with different meanings {#s-8057ac58d5}
 Gestation appears in 0 accounts, female age at first reproduction in 1, and maximum lifespan in 0. First reproduction is not the same event as first birth or sexual maturity; maximum lifespan is not average lifespan. Source conditions may differ. Missing fields require other evidence, and the historical name match does not settle concept changes.

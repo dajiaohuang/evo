@@ -1,5 +1,5 @@
-## Overview {#s-8ebcfa077c}
-COL26.8 accepts *Leontocebus leucogenys*. Matauschek et al. (2011) used mitochondrial sequences, mainly from wild fecal samples, to test saddle-back lineages and supported leucogenys as a distinct taxon; later authorities differ in its genus-level combination.
+## Mitochondrial evidence for a distinct lineage {#s-8ebcfa077c}
+Mitochondrial sequences, mainly from wild fecal samples, support treating *Leontocebus leucogenys* as a distinct saddle-back taxon. Later authorities differ on its genus-level combination; this account retains the pinned accepted name alongside those usages.
 
 ## Research observations {#s-5c8d30e7e9}
 Göbel and Heymann (2018) conducted the first systematic primate survey at Peru’s Panguana private reserve. Within a 35.7-ha observation area, this species was encountered around or within gaps more often than expected by chance; that pattern describes this reserve, area and survey only. Group sizes in the paper are likewise local observations, not fixed species-wide values.

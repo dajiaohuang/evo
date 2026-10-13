@@ -52,7 +52,10 @@ records:
     - subjectId: taxon:phorusrhacidae
       claimKind: scientific
       claimType: topology
-      statement: Phorusrhacidae is represented by the named Llallawavis specimen and its morphology-matrix placement within terror birds; sensory reconstructions and family relationships are study hypotheses, not a complete range or ancestor chain.
+      statement:
+        page: en
+        section: s-71e07d9964
+        part: body
       confidence: medium
       confidenceRationale: The specimen anatomy and phylogenetic analysis are direct, whereas sensory capabilities and deeper relationships are inferential. Medium confidence keeps both levels distinct.
       referenceLinks:
@@ -64,7 +67,10 @@ records:
     - subjectId: taxon:phorusrhacidae
       claimKind: scientific
       claimType: fossil-range
-      statement: Phorusrhacidae is displayed at 3.6–2.6 Ma only as the Pliocene Llallawavis specimen interval, not the family-wide FAD or LAD. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      statement:
+        page: en
+        section: s-286be2d03c
+        part: body
       confidence: medium
       confidenceRationale: Phorusrhacidae uses Degrange, F.J.; Tambussi, C.P.; Taglioretti, M.L.; Dondas, A.; Scaglia, F. (2015) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Playa Los Lobos Llallawavis scagliai sample, Argentina; broader endpoints remain unclaimed.
       referenceLinks:
@@ -82,8 +88,12 @@ records:
     - 标本解剖与系统发育分析是直接证据，而感官能力与更深关系属于推断；中等置信度区分两者。
     - Phorusrhacidae 采用 Degrange, F.J.; Tambussi, C.P.; Taglioretti, M.L.; Dondas, A.; Scaglia, F.（2015）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Playa Los Lobos Llallawavis scagliai sample, Argentina；更宽泛端点保持未声明。
   claim-statements.zh:
-    - 恐鹤科由具名 Llallawavis 标本及其在恐鹤类形态矩阵中的位置表示；感官重建与科内关系属于研究假说，不是完整范围或祖先链。
-    - Phorusrhacidae 仅以 3.6–2.6 Ma 展示为上新世 Llallawavis 标本区间，而非恐鹤科整体首现或末现。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - page: zh
+      section: s-94b808fedb
+      part: body
+    - page: zh
+      section: s-ccaeebf44e
+      part: body
   ranges:
     - entityId: phorusrhacidae
       rangeKind: global-composite

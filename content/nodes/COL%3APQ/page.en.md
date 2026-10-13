@@ -1,10 +1,10 @@
-## Local data reading route {#s-47a9a5c867}
+## Recorded classification and member material {#s-47a9a5c867}
 This batch’s Anseriformes route includes 127 measured species records. Start with Aix galericulata, Aix sponsa, Alopochen aegyptiaca, Amazonetta brasiliensis, Anas acuta. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-515d5f38a5}
 Compiled mean mass endpoints in this batch are Nettapus auritus at 266 g and Cygnus buccinator at 11071.13 g. Represented habitat categories include Forest, Wetland, Riverine, Grassland, Shrubland; trophic niches include Herbivore aquatic, Omnivore, Aquatic predator, Herbivore terrestrial. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-f8b6c5e247}
+## Amniote Life-history archive member records {#s-f8b6c5e247}
 This batch’s Anseriformes route includes 132 historical life-history accounts; start with Aix galericulata, Aix sponsa, Alopochen aegyptiaca, Amazonetta brasiliensis, Anas acuta. More frequently represented fields include adult body mass (132 entries), offspring per litter or eggs per clutch (132 entries), oviposition to hatching (131 entries), age at flight capability (leaving the nest in some source material) (89 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-c4296ec903}

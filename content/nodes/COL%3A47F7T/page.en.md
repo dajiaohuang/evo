@@ -1,15 +1,15 @@
-## Name and this data account {#s-2298c592dd}
-Nilssonia hurum is accepted in pinned COL26.8 within Trionychidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-2298c592dd}
+COL26.8 records Nilssonia hurum as an accepted species. The ReptTraits v1-2 row gives its Family field as Trionychidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Where and how it is active {#s-f41836ce06}
-In the entry, microhabitat is Aquatic; active timing is Nocturnal. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-f41836ce06}
+The microhabitat field classifies the recorded position as Aquatic. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Stark et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Stark et al. 2018.
 
-## How to read reproductive records {#s-a2b4305308}
-The reproductive-mode field uses the original label oviparous; sex determination is recorded as GSD (ZW/ZZ). These source labels do not establish fetal nutrition or uniformity across all populations. Uninterpreted clutch/litter numbers remain gaps.
+## Reproductive fields in ReptTraits {#s-a2b4305308}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records GSD (ZW/ZZ). ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## Evidence limits {#s-8c01ea6380}
-This supplemental account uses limited trait material and does not count as complete morphology or ecology. This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-8c01ea6380}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-8c98b8c2f1}
-This batch interprets 4 traits with field-specific source labels. Uninterpreted fields: Maximum length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum female length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum male length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum total length ("TL", mm); Mean number of offspring per litter or number of eggs per clutch; Smallest clutch size; Largest clutch size; Number of litters or clutches produced per year; Egg length (mm); Egg width (mm); Diet; Foraging mode. A supported value/category and source combination is not established here for these fields; relatives and blank entries do not fill species facts.
+## Reading this compiled trait record {#s-8c98b8c2f1}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

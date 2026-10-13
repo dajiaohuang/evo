@@ -1,33 +1,33 @@
-## Three reptile radiations, ten evidence dossiers {#s-a0b23c1397}
-Keep ichthyosaurs, plesiosaurs and pterosaurs as three independent radiations, and compare an older uncertain Bobosaurus candidate with diagnostic Rhaeticosaurus without turning either into a direct ancestor.
+## Ten fossils and models, three separate reptile radiations {#s-a0b23c1397}
+Pregnancy fossils, skin tissues, skeletal mosaics and physical models sample ichthyosaurs, plesiosaurs and pterosaurs. Each preserves a different kind of evidence; together they do not trace one direct ancestral path.
 
-## A small ichthyosauromorph with a short snout {#s-e8a643e66d}
-AGM I-1 preserves a small body with a short snout, large flippers, and dense limb and rib bones. Amphibious habits and suction feeding are functional interpretations; the specimen records neither behaviour nor direct ancestry.
+## One 40-centimetre skeleton preserves a body-plan mosaic {#s-e8a643e66d}
+Articulated holotype AGM I-1 preserves a short snout, robust trunk, large flippers and thick cortical bone in the ribs and limbs. Amphibious habits and suction feeding are anatomical interpretations; a later corrigendum changed character descriptions and tree statistics while retaining the reported topology.
 
-## Embryos support pregnancy, not a complete birth story {#s-a73b398803}
-Chaohusaurus specimen AGM I-1 preserves two embryos inside the mother and a nearby neonate. The association supports pregnancy. Head-first delivery and a terrestrial origin for live birth are comparative inferences, not observations from this specimen.
+## Embryos inside a mother support pregnancy {#s-a73b398803}
+Chaohusaurus specimen AGM I-1 preserves two embryos inside a maternal skeleton and a neonate beside the pelvis; one embryo lies head-first near that region. The association directly supports pregnancy, while birth orientation and a terrestrial origin for live birth remain interpretations rather than observed events.
 
-## One Jurassic ichthyosaur preserves skin chemistry {#s-3a4ce9ce44}
-MH 432 preserves skin layers, a blubber-like layer beneath the skin, and structures containing eumelanin pigment. Countershading and thermoregulation are interpretations based on their distribution and comparisons with living animals, not measured physiology.
+## Microscopy finds skin layers and pigment cells {#s-3a4ce9ce44}
+Microscopy, spectroscopy and molecular analyses of Stenopterygius specimen MH 432 identify skin layers, a subcutaneous adipose layer interpreted as blubber, and eumelanin-bearing pigment cells. Countershading and thermoregulation are comparisons with living animals, not measured physiology or a condition established for every ichthyosaur.
 
-## An older fossil can still be hard to place {#s-802ddc3ada}
-Early Carnian Bobosaurus combines features compared with nothosaurs and plesiosaurs, while alternative tree positions remain viable. It is an older candidate near the plesiosaur lineage, not proof that diagnostic Plesiosauria reached back into the Carnian.
+## Bobosaurus is older, but its placement remains open {#s-802ddc3ada}
+Articulated holotype MFSN 27285 from the lower Carnian Rio del Lago Formation combines features compared with nothosaurs and plesiosaurs. The original study tested alternative placements, so Bobosaurus is an older uncertain candidate; it does not extend diagnostic Plesiosauria back into the Carnian.
 
-## A Rhaetian skeleton adds anatomy and bone tissue {#s-95e5bfdc61}
-LWL-MFN P 64047 preserves an articulated skeleton and vascularized tissue in a long bone from the Rhaetian. Its proposed basal position among pliosaurids and the physiological meaning of the tissue depend on phylogenetic and histological interpretation.
+## Bone tissue adds evidence to a Rhaetian skeleton {#s-95e5bfdc61}
+Rhaetian holotype LWL-MFN P 64047 preserves an articulated plesiosaur skeleton; sampled humerus and femur sections show rapidly deposited, highly vascularized bone tissue. Basal pliosaurid placement comes from phylogenetic analysis, while growth rate and metabolism are histological interpretations, not measurements of the living animal.
 
-## One fetus records plesiosaur pregnancy {#s-ab63a89814}
-The adult Polycotylus LACM 129639 contains one large articulated fetus identified as the same taxon. The specimen supports pregnancy and live birth; parental care, sociality, and a K-selected life-history strategy are broader hypotheses based on comparison.
+## One fetus records live birth, not parental care {#s-ab63a89814}
+Adult Polycotylus specimen LACM 129639 contains one large, articulated fetus identified as the same taxon, supporting viviparity in this plesiosaur. A single association cannot establish post-birth care, sociality or a K-selected life history.
 
-## A water-channel model tests four-flipper mechanics {#s-ec9d85e943}
-A physical model measured thrust and efficiency while researchers set the timing between fore- and hind-flipper strokes. Interacting vortices show that the proposed mechanics are plausible; they do not record an extinct animal's gait or a stroke shared by every plesiosaur.
+## A water channel measures set flipper strokes {#s-ec9d85e943}
+Researchers moved rigid fore- and hind-flipper models through prescribed strokes in a recirculating water channel, varying their timing and measuring thrust, torque and efficiency. Selected phase offsets improved performance through vortex interaction; the experiment tests physical feasibility, not a living plesiosaur’s actual gait or one stroke shared by every taxon.
 
-## One skull preserves branched structures and melanosomes {#s-7a63a0b01c}
-MCT.R.1884 preserves unbranched filaments, branched feather-like structures, and melanosomes around a Tupandactylus skull and crest. These remains do not directly recover exact colours or show that all pterosaurs had the same covering.
+## Five slabs preserve filaments and melanosomes {#s-7a63a0b01c}
+Five slabs of Tupandactylus specimen MCT.R.1884 preserve parts of the skull and crest with simple filaments and branched, feather-like structures. Melanosomes occur in sampled soft tissues, but exact colours, signaling roles and a covering shared by all pterosaurs are not directly observed.
 
-## The egg block preserves embryos in a larger assemblage {#s-4b7dd341cc}
-A Hamipterus block exposes 215 eggs and may contain about 300. Sixteen eggs from the wider assemblage preserve embryonic remains at multiple stages. Nesting, transport, and hatchling behaviour remain interpretations of the site and fossils.
+## One block exposes 215 eggs in a wider site sample {#s-4b7dd341cc}
+A 3.28 m² sandstone block from the Shengjinkou Formation exposes 215 Hamipterus eggs; the study estimates roughly 300 in the block. Across the broader assemblage, 16 eggs contain embryonic bones and egg-bearing deposits occur at four or more levels. Nesting, storm transport and hatchling behavior remain interpretations of the site and developmental evidence.
 
-## A model tests whether a giant pterosaur could launch on four limbs {#s-f87f70f3e4}
-Scaling estimates, bone mechanics, and aerodynamic calculations test powered flight and forelimb-assisted launch in selected giant-pterosaur reconstructions. The result is a feasibility model, not direct observation of an extinct takeoff.
+## Flight and four-limbed launch are model tests {#s-f87f70f3e4}
+Scaling, bone-strength and aerodynamic calculations test powered flight and four-limbed launch for selected giant-pterosaur reconstructions, including Pteranodon and Quetzalcoatlus. The calculations establish feasibility under chosen mass, wing-shape and kinematic inputs; they do not record an extinct animal taking off or describe every pterosaur.
 

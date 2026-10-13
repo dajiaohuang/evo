@@ -7,7 +7,9 @@ Start with Beeby and Baden to see how fruit availability corresponded with feedi
 ## Scope of the evidence {#s-9fe5c7f431}
 This is a reading path, not a complete genus checklist or ecological synthesis. The cited studies differ in location, time window and outcome measures; they do not establish a genus-wide diet, range or restoration effect.
 
-## Choose comparison pages by life-history fields {#s-99daf565eb}
+## Recorded classification and direct parent {#s-99daf565eb}
+COL26.8 records Varecia Gray, 1863 at genus rank, with Lemuridae Gray, 1821 as its direct parent.
+
 This batch’s Varecia route includes 2 historical life-history accounts; start with Varecia rubra, Varecia variegata. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), conception or fertilization to birth (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-9f42f66a5d}

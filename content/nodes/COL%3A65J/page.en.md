@@ -1,10 +1,10 @@
-## Start with the historical entries {#s-677326868b}
+## Recorded classification and member material {#s-677326868b}
 The local PanTHERIA route for Ailuridae includes 1 usable data accounts. Start with Ailurus fulgens. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-e6e9197bc1}
 Among available consolidated adult-mass values in this batch, Ailurus fulgens records 5170.08 g and Ailurus fulgens records 5170.08 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-dc32104f67}
+## Amniote Life-history archive member records {#s-dc32104f67}
 This batch’s Ailuridae route includes 1 historical life-history accounts; start with Ailurus fulgens. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-ba751de7d1}

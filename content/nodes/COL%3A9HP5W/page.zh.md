@@ -1,5 +1,5 @@
-## 历史 Anas 组合与固定目录名 {#s-443c792d32}
-本页按固定 COL26.8 的 Spatula smithii（9HP5W）组织。AVONET v7 的 BirdLife 2020 第 404 行与 eBird 2021 对应均同名，Avibase ID 为 AVIBASE-4670CF43；BirdTree 对应表用 Anas smithii，标为 1BL to 1BT。固定 COL 异名 B97R7 指向接受 ID 9HP5W。名称对应不等于已验证各年代所有物种边界。
+## COL26.8 中的名称身份 {#s-443c792d32}
+《Catalogue of Life》COL26.8（2026-08-20）将 Spatula smithii E. Hartert, 1891 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 喙、翼与文献体重的不同分母 {#s-07f7688a25}
 形态共测 4 只（4 只性别未定），完整测量 4 只。鼻孔前缘至喙尖均值 43.3 mm，鼻孔前缘处喙宽 18.9 mm，未压平翼长 229.2 mm，手翼指数 50.5。这些是物种均值；指数按 Kipp 距离／翼长 ×100 定义，不能当作飞行速度。体重 591.46 g 另取 Dunning 文献汇编，不能给它套用形态样本数。Inference=NO 保留为原表的非推算标记，不补未读原始材料中的个体范围。

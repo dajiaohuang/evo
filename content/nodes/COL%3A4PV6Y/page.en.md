@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-b86b412d0e}
-Pinned COL26.8 organizes this page as Pternistis natalensis (4PV6Y). AVONET v7 BirdLife 2020 row 2521 and eBird 2021 agree in name, with Avibase ID AVIBASE-A7002FF6; BirdTree gives Francolinus natalensis, with match type 1BL to 1BT. Read COL older-combination record 6JLF9 points to accepted ID 4PV6Y. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-b86b412d0e}
+Catalogue of Life release COL26.8 records Pternistis natalensis (A. Smith, 1833) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-5f4ac6e9c1}
 Morphology covers 5 birds (1 female, 4 male); 3 have complete measurement sets. Mean nostril-to-tip beak length is 16.4 mm, tarsus 47 mm, unflattened wing 170.6 mm and hand-wing index 18. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

@@ -7,8 +7,8 @@ Start with Anchitherium zitteli, Anchitherium navasotae, Anchitherium aurelianen
 ## Evidence limits {#s-b143442cb1}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## One tooth sample, not a genus-wide ecology {#s-fde26febae}
-The ecological result here concerns Anchitherium aurelianense at Sandelzhausen: wear on 35 cheek teeth supports browse-dominated mixed feeding. The separate MN3–MN9 record describes the European biochronological sample, not one global genus-wide ecology.
+## Thirty-five teeth record one Sandelzhausen sample {#s-fde26febae}
+Kaiser analyzed 35 cheek teeth of Anchitherium aurelianense from Sandelzhausen; their mesowear supports browse-dominated mixed feeding, not a uniform pure-browser model. The separate MN3–MN9 record describes a European biochronological sample, not the genus's complete global ecology or range.
 
 ## What the tooth wear suggests {#s-ce04df107d}
 Mesowear on 35 cheek teeth supports browse-dominated mixed feeding rather than a uniform pure-browser model at this locality.
@@ -34,12 +34,12 @@ Tridactyl manus with reduced fifth metacarpal
 ## Wear pattern {#s-92c31b6778}
 Dental wear more abrasive than a pure-browser model predicts
 
-## European sample, bounded conclusion {#s-5a589a892e}
-Kaiser analyzes 35 Anchitherium aurelianense cheek teeth at Sandelzhausen and describes a European MN3–MN9 biochronological record. The study's dietary result is local to that species and sample; MN3–MN9 is not a complete global genus range or a precise endpoint.
+## One tooth sample within a regional time record {#s-5a589a892e}
+Kaiser analyzes 35 Anchitherium aurelianense cheek teeth from Sandelzhausen. The study's dietary result is local to that species and sample; the European MN3–MN9 record supplies regional biochronological context, not complete global endpoints or a precise date for every fossil.
 
-## Mesowear at Sandelzhausen {#s-98288c6933}
-Kaiser measured wear on 35 cheek teeth from Anchitherium aurelianense at Sandelzhausen. The mesowear pattern supports browse-dominated mixed feeding rather than a uniform pure-browser model. This is one species at one locality, and the study does not isolate every influence on diet or turn the result into a genus-wide feeding label.
+## Thirty-five cheek teeth show mixed wear signals {#s-98288c6933}
+Kaiser measured mesowear on 35 cheek teeth from Anchitherium aurelianense at Sandelzhausen. The pattern supports browse-dominated mixed feeding rather than a uniform pure-browser model. It applies to one species at one locality; the study does not separate every influence on diet or generalize the result to the genus.
 
-## Teeth, hand anatomy and regional record {#s-997e519019}
-The cited diagnosis records low-crowned lophodont cheek teeth and a three-toed manus with a reduced fifth metacarpal. The studied dietary sample sits within a European MN3–MN9 biochronological record; MN zones are European mammal-age units, not direct dates for every fossil. The study does not claim exact global endpoints or a complete North American–Eurasian distribution for Anchitherium.
+## Hand anatomy and European MN3–MN9 context {#s-997e519019}
+The cited diagnosis records low-crowned lophodont cheek teeth and a three-toed manus with a reduced fifth metacarpal. MN3–MN9 supplies a European biochronological context, not a direct date for each fossil or a complete global Anchitherium range.
 

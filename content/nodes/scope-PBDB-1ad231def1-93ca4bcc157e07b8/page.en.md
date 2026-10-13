@@ -1,5 +1,5 @@
-## What the material shows {#s-739c8f7f78}
-About 280 teeth, jaws and ankle bones from the early Eocene revise the older picture of “Miacis” latouri based on only two teeth.
+## About 280 fossils revise a two-tooth picture {#s-739c8f7f78}
+About 280 early Eocene teeth, jaws and ankle bones expand the material used to interpret Dormaalocyon, replacing the older picture of “Miacis” latouri based on only two teeth. The larger sample supports dental, ankle and matrix observations, but does not by itself establish crown Carnivora membership or direct ancestry.
 
 ## Feeding {#s-308b3a2eee}
 Dentition supports an inference of small-prey or insect eating; stomach contents are not preserved.
@@ -25,6 +25,6 @@ Ankle bones include astragali and a calcaneum.
 ## Preserved features {#s-0a2ffa261a}
 A sampled character matrix places it among basal carnivoraforms.
 
-## How to read the evidence {#s-943831a06b}
-The fossils support dental, ankle and matrix observations. They do not demonstrate membership in crown Carnivora, a direct ancestor, or the global first carnivoramorphan.
+## Dental, ankle and matrix evidence have different limits {#s-943831a06b}
+The fossils support observations of teeth, ankles and a sampled character matrix. They do not establish membership in crown Carnivora, direct ancestry or a global first carnivoramorphan.
 

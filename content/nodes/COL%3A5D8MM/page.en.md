@@ -1,29 +1,29 @@
-## The name and this data account {#s-ad90d189b9}
-Zosterops griseovirescens is accepted in COL26.8 within Zosteropidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-ad90d189b9}
+The AVONET v7 row for Zosterops griseovirescens (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 7.7 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-80500cfb77}
-Recorded mean beak measurements are 7.7 mm from the anterior nostril edge to the tip, 3.2 mm in width and 3.2 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-80500cfb77}
+AVONET records culmen length (bill tip to skull base) 15.1 mm; beak length (nostril front edge to tip) 7.7 mm; beak width at the nostril front edge 3.2 mm; beak depth at the nostril front edge 3.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-287c9980e3}
-Mean unflattened wing length from the carpal joint to the longest primary is 63.1 mm; mean tarsus length is 20.6 mm. Compiled mean mass is 11 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-287c9980e3}
+AVONET records unflattened wing length 63.1 mm; tarsus length 20.6 mm; distance from first secondary tip to longest primary tip 11.8 mm; length to first secondary tip 51.4 mm; hand-wing index 18.6; tail length 47.8 mm; species-average body mass 11 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-528903cc9b}
-The dataset assigns habitat Forest, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-528903cc9b}
+AVONET classifies Zosterops griseovirescens as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-a2f521cbe4}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -1.46° to -1.4°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-a2f521cbe4}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -1.46° to -1.4°. The mapped range area is 14.7 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Two historical EltonTraits field groups {#s-c5e35e751c}
-COL26.8 accepts *Zosterops griseovirescens* in Zosteropidae. The EltonTraits 1.0 table has a same-name, same-family record with two ecological field groups. Its bird taxonomy is historical; matching names do not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-c5e35e751c}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops griseovirescens covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-ebd9a50997}
-The nonzero food weights are invertebrates 80% and seeds, nuts and spores 20%. Code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; a zero does not prove that an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply exclusive use of nectar, seeds or plants.
+## Relative weights across food categories {#s-ebd9a50997}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; seeds or nuts 20%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-420db4a7ee}
-The species-level foraging-stratum record assigns 40% to understory, edges or shrubs below 2 m, 30% to trees or tall bushes from 2 m up to the canopy, and 30% to the canopy or just above it. These weights estimate relative use of feeding positions, not nest sites, all habitat or time budgets for the whole day. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation bands and cannot provide flight heights or habitat area.
+## Foraging positions are not a time budget {#s-420db4a7ee}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 40%; in mid-height or high vegetation 30%; in the canopy 30%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Source labels for the field groups {#s-2ea465b37b}
-The field groups carry source labels Ref_13 and Ref_56. They locate references but do not show that the cited works directly measured this species or count as independent observations by themselves.
+## Sources and field limits {#s-2ea465b37b}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Fry, C. H., E. K. Urban, and S. Keith. 2000. Birds of Africa, Volume VI. Princeton University Press.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-946c61e251}
 AVONET v7 values are historical species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separate literature or weighing sources; the four measured morphological individuals are not necessarily the individuals behind the mass estimate. Habitat, diet and migration are coarse categories, and the geography describes historical breeding and resident ranges. The one-to-one historical crosswalks and matching catalogue name support an association, not equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status need other sources.

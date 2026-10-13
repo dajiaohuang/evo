@@ -5,5 +5,5 @@ Soto da Costa and colleagues sampled hair from 107 Wied’s marmosets in 30 grou
 An earlier study followed two groups for three months each in a coastal Atlantic Forest remnant. It described tree-exudate feeding and home ranges of about 10 ha centred on a principal exudate tree. The article uses the older spelling C. kuhli; its small sample and single site should not be treated as a modern range-wide home-range norm.
 
 ## Evidence limits {#s-74ab148934}
-Source-linked studies from southern Bahia and one 1980 forest remnant;. Isotope patterns are indirect dietary evidence, and the older C. kuhli study used a historical spelling and two groups at one site.
+Isotope patterns are indirect dietary evidence, and the older C. kuhli study used a historical spelling and two groups at one site.
 

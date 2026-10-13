@@ -4,7 +4,9 @@
 ## 对读尸体承重与活鸟平衡 {#s-fadff4f684}
 先读 [Phoenicopterus ruber](Phoenicopterus/Phoenicopterus_ruber/page.zh.md) 的尸体材料与支撑几何，再读 [Phoenicopterus chilensis](Phoenicopterus/Phoenicopterus_chilensis/page.zh.md) 的幼鸟、压力中心和安静行为。比较时保留物种、年龄、夹具与测力台条件，再回到已有的形态、取食和生活史条目；不要把历史汇编均值用于替换实验样本。
 
-## 本地数据阅读路径 {#s-306be0dabf}
+## 记录分类与直接上级关系 {#s-306be0dabf}
+COL26.8 将 Phoenicopteridae 记录为科；其直接上级记录为 Phoenicopteriformes。
+
 Phoenicopteridae 的本批阅读路径包含 6 条有测量来源的物种记录，可从 Phoeniconaias minor、Phoenicoparrus andinus、Phoenicoparrus jamesi、Phoenicopterus chilensis、Phoenicopterus roseus 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-297135cce9}

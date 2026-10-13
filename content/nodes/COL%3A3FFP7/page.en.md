@@ -1,32 +1,32 @@
-## The name and this data account {#s-dcb9340cda}
-Gavia pacifica is accepted in COL26.8 within Gaviidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-dcb9340cda}
+The AVONET v7 row for Gavia pacifica (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 41.1 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-eeccba482e}
-Recorded mean beak measurements are 41.1 mm from the anterior nostril edge to the tip, 8.3 mm in width and 12.9 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-eeccba482e}
+AVONET records culmen length (bill tip to skull base) 71.9 mm; beak length (nostril front edge to tip) 41.1 mm; beak width at the nostril front edge 8.3 mm; beak depth at the nostril front edge 12.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-5a5879d207}
-Mean unflattened wing length from the carpal joint to the longest primary is 291.2 mm; mean tarsus length is 72.8 mm. Compiled mean mass is 2251.1 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-5a5879d207}
+AVONET records unflattened wing length 291.2 mm; tarsus length 72.8 mm; distance from first secondary tip to longest primary tip 139 mm; length to first secondary tip 151.5 mm; hand-wing index 47.9; tail length 48.4 mm; species-average body mass 2251.1 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-5de8ba3edd}
-The dataset assigns habitat Wetland, trophic niche Aquatic predator and lifestyle Aquatic. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-5de8ba3edd}
+AVONET classifies Gavia pacifica as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aquatic. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-e4fc06d9cf}
-The migration field classifies this record as migratory. Historical breeding and resident maps span latitude endpoints 51.22° to 74.56°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-e4fc06d9cf}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints 51.22° to 74.56°. The mapped range area is 5397186.87 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-00fda15292}
-Gavia pacifica is accepted in pinned COL26.8 within Gaviidae. This page compares the same-name historical life-history entry using 7 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-00fda15292}
+The August 2015 database has a same-name, same-family record for Gavia pacifica. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-8456d0601f}
-Historical summary values are adult body mass 2665 g; mass at birth or hatching 73.67 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+## Compiled adult-mass values {#s-8456d0601f}
+The August 2015 compilation reports adult body mass 2665 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-062e798120}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 1001.84 d; offspring per litter or eggs per clutch 1.95 offspring/eggs; oviposition to hatching 29 d; age at flight capability (leaving the nest in some source material) 61.25 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-062e798120}
+The August 2015 compilation reports female age at first conception (source definition) 1001.835 days; median or interpolated-median number of offspring or eggs per litter/clutch 1.95; oviposition-to-hatching interval 29 days; age at flight capability (some records mark nest departure) 61.25 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-3bdcb8974c}
-The archive’s maximum_longevity_y value is 28 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-3bdcb8974c}
+The compilation lists 28 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-7899073122}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Bennett, 1986, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-7899073122}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-9359f5bd7c}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

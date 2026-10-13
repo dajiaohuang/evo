@@ -1,5 +1,7 @@
-## 有来源支持的物种记录 {#s-85e9f5a772}
-目录列出 1 条Leucocephalon物种资料，均为同名同科且逐性状有出处；可从 [Leucocephalon yuwonoi](Leucocephalon_yuwonoi/page.zh.md) 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
+## 记录分类与直接上级关系 {#s-85e9f5a772}
+COL26.8 将 Leucocephalon 记录为属；其直接上级记录为 Geoemydidae。
+
+目录列出 1 条Leucocephalon物种资料，均为同名同科且逐性状有出处；可从 Leucocephalon yuwonoi 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
 
 ## 可比较的性状字段 {#s-82edf2df57}
 这组资料后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

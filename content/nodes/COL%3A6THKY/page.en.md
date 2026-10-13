@@ -1,26 +1,26 @@
-## The 2015 life-history entry and this name {#s-c4ed1779fd}
-COL26.8 accepts *Pachyptila salvini* in Procellariidae. The 2015 life-history archive has an older entry with the same name and family. Four fields are included because cited species-level sparse-table rows support them, although the summaries may still inherit older taxonomic data.
+## Scope of the historical life-history entry {#s-c4ed1779fd}
+The August 2015 database has a same-name, same-family record for Pachyptila salvini. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-dc77c0b2c6}
-The historical adult-mass summary is 175 g. Its source can combine males, females and adults whose sex was not specified, so it is not a range of individual masses across the species. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-dc77c0b2c6}
+The August 2015 compilation reports adult body mass 175 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-c6651f68e0}
-The compilation reports 1 offspring or egg per litter/clutch, 56 d from oviposition to hatching and 55 d to flight capability (some sources describe leaving the nest); d means days. The litter/clutch field combines offspring and egg counts. The two timing values describe distinct events and cannot be treated as one reproductive cycle.
+## Reproductive fields describe different events {#s-c6651f68e0}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 56 days; age at flight capability (some records mark nest departure) 55 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-b898901fea}
-The same-name rows cite Dunning (1992); Bennett (1986); Dyke and Kaiser (2010); and Carrier, D.R. and J. Auriemma (1992). The archive preserves raw row numbers, values and field-specific labels with each reference's full explanation. A label can point to a paper, book or another database. Row counts are not measured individuals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-b898901fea}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-ad8d7d7b15}
-EltonTraits 1.0 also contains an older *Pachyptila salvini* record in Procellariidae. The selected ecological groups allow comparison with the COL26.8 entry while retaining the source's earlier bird or MSW3 mammal taxonomy. A matching name does not settle later splits or synonym disputes.
+## Scope of the historical trait entry {#s-ad8d7d7b15}
+EltonTraits 1.0 has a same-name, same-family record for Pachyptila salvini covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-e7e31cbe5b}
-The nonzero food weights are invertebrates 80% and fish 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply a diet limited to nectar, seeds or plants.
+## Relative weights across food categories {#s-e7e31cbe5b}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; fish 20%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-bc5de60618}
-The archive's species-level foraging-stratum weight is 100% on or just below the water surface. It estimates relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-bc5de60618}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-4b7425370d}
-The selected groups carry source label Ref_1. Diet, strata and activity can come from different materials; the same Ref number in bird and mammal reference tables does not identify the same source. The archive preserves complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, so source labels do not count as new independent observations.
+## Sources and field limits {#s-4b7425370d}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-275c820711}
 The 2015 life-history figures are historical compilation summaries: medians or averages of the two middle values, except maximum longevity, which uses the largest record found. They are not measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation may share or inherit data across historical species and subspecies. Matching name and family, together with same-name sparse rows, supports the association but does not establish equivalence to COL26.8 concepts or remove every inherited component. Wild or captive conditions are not uniformly confirmed, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources.

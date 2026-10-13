@@ -1,18 +1,18 @@
-## Name and this data account {#s-a7cb0237d8}
-COL26.8 accepts Madatyphlops ocularis in Typhlopidae. Its ReptTraits v1–2 row follows the Reptile Database 2023 name framework and cites individual fields; it is a compiled summary, not a description of every population.
+## COL26.8 name and the ReptTraits row {#s-a7cb0237d8}
+COL26.8 records Madatyphlops ocularis as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-ef074999fb}
-The row reports a maximum total length (TL) of 342 mm. TL includes the tail; snout–vent length (SVL) ends at the vent. This compiled maximum is not typical size or an absolute limit.
+## Length values in the archived records {#s-ef074999fb}
+The row reports maximum total length (TL) of 342 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-de8b125caf}
-The microhabitat category is Fossorial, indicating an underground or burrowing association without giving a full habitat description.
+## Habitat use and activity labels {#s-de8b125caf}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## How to read reproductive records {#s-6a0cae716d}
-The source classifies reproduction as oviparous (egg-laying). This label gives no clutch size and does not establish a uniform pattern across populations.
+## Reproductive fields in ReptTraits {#s-6a0cae716d}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-e5938d67e3}
-This page summarizes selected fields from a ReptTraits v1–2 row using the Reptile Database 2023 name framework; it is not a complete species account. The row may combine records across sexes, ages, places, or populations, and a shared name does not prove identical later taxonomic concepts. A reported maximum is a compiled measurement, not an absolute size limit. The reproductive label does not supply clutch size. Workbook mass estimates and differing juvenile-length definitions are not treated here as direct observations. Conservation, venom, current distribution, and population trends are not updated. Citation labels preserve the workbook's source chain but do not mean every original study was independently reviewed.
+## Reading this compiled trait record {#s-e5938d67e3}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-adbba7393d}
-This account covers maximum total length, microhabitat, and reproductive mode. It does not interpret sex-specific length, clutch or litter counts and frequency, egg dimensions, diet, activity time, foraging mode, or sex determination where species-specific support is absent.
+## Reading this compiled trait record {#s-adbba7393d}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

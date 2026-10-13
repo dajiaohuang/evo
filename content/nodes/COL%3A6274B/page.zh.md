@@ -10,7 +10,9 @@ Naturalis 的三个伶猴案例展示模式工作不同于简单重复旧标签�
 ## 先看骨架，再看观察地点 {#s-e1826421d7}
 先读 [Plecturocebus bernhardi](Plecturocebus/Plecturocebus_bernhardi/page.zh.md) 的正模、副模、颜色组合与单件颅骨测量，再比较已报告地点和待确认延伸。回到 [Plecturocebus stephennashi](Plecturocebus/Plecturocebus_stephennashi/page.zh.md) 的未知精确来源，以及 [Plecturocebus discolor](Plecturocebus/Plecturocebus_discolor/page.zh.md) 的历史名称／现代修订问题；三页的材料和名称限制不同。现有生活史条目仍按各自样本和单位阅读，不用骨架、潜在食源树种或鸣叫叙述补造密度与食谱。
 
-## 按生活史字段选择对读页面 {#s-61d35297c0}
+## 记录分类与直接上级关系 {#s-61d35297c0}
+COL26.8 将 Callicebinae Pocock, 1925 记录为亚科；其直接上级记录为 Pitheciidae Mivart, 1865。
+
 Callicebinae 的本批路线包含 5 条历史生活史导读，可从 Callicebus barbarabrownae、Callicebus coimbrai、Callicebus melanochir、Callicebus nigrifrons、Callicebus personatus 开始。较多条目具有的字段包括 成年体重（5 条）、每窝幼体数或卵数（5 条）、汇编中最长寿命记录（5 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-e1595805b5}

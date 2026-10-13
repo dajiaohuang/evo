@@ -1,14 +1,14 @@
-## How the historical entry is linked {#s-983cecf3e1}
-COL26.8 accepts Chrysocolaptes haematribon in Picidae. This page reads four life-history fields from a same-name, same-family entry in the 2015 archive, each linked to cited species-level sparse-table rows. The compilation may carry information inherited across older taxonomies; the matching name does not remove that possibility.
+## Scope of the historical life-history entry {#s-983cecf3e1}
+The August 2015 database has a same-name, same-family record for Chrysocolaptes haematribon. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass, without an individual range {#s-1a9690439a}
-The archive reports adult body mass as 170.92 g. Its adult field can combine male, female and unspecified-sex material, so it is not a range of individual masses or a sex-specific estimate. No birth or hatching mass is added here.
+## Compiled adult-mass values {#s-1a9690439a}
+The August 2015 compilation reports adult body mass 170.9166667 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Clutch size and developmental events {#s-0c54a5624c}
-The compiled litter-or-clutch field is 3.2 young or eggs; incubation from laying to hatching is 14.75 days, and the age at flight capability is 25 days. The archive combines young-per-litter and eggs-per-clutch counts, so the fractional summary is not a count from one nest. Some flight-age source records instead describe leaving the nest. Incubation and flight age are different events, not interchangeable parts of one fixed cycle.
+## Reproductive fields describe different events {#s-0c54a5624c}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.2; oviposition-to-hatching interval 14.75 days; age at flight capability (some records mark nest departure) 25 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## Following the source trail {#s-26a80b4b3b}
-The same-name rows cite, among others, Dunning (1992), Boback and Guyer (2003), Bennett (1986), and Boyer, Cartron and Brown (2009). The source archive retains field-level row numbers, values, labels and complete reference explanations. A label may point to a primary paper, book or another database. Rows are not counts of measured birds, and a repeated citation is not independent replication.
+## Sources and field limits {#s-26a80b4b3b}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Limits of the compilation {#s-d89ff652d6}
 These values come from historical same-name records in the 2015 life-history archive. Field summaries use the median or the average of the two middle values; maximum longevity, where present, uses the largest reported record. They are not individual measurements, variation ranges, wild-life-span averages or current population surveys. The compilation can share data across historical species and subspecies. A matching name and family support the association but neither proves equivalence with COL26.8 nor removes inherited data. Wild versus captive conditions are not consistently resolved, and the original cited works were not individually reviewed. Diet, behavior, current range, conservation and absent fields require other sources.

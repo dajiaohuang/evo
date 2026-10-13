@@ -1,18 +1,20 @@
-## Start with sourced trait records {#s-9bc9ce9859}
+## Recorded classification and direct parent {#s-9bc9ce9859}
+COL26.8 records Diploderma at genus rank, with Draconinae as its direct parent.
+
 This batch’s ReptTraits route for Diploderma includes 19 same-name, same-family entries with trait-specific citations. Start with Diploderma batangense, Diploderma brevipes, Diploderma chapaense, Diploderma dymondi, Diploderma fasciatum. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-6d9ceae2b7}
 Among size records in this batch, Diploderma chapaense has a reported maximum snout–vent length (SVL) of 59.6 mm and Diploderma splendidum 100 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Evidence limits {#s-a73b9ea0ad}
+## Limits attached to these records {#s-a73b9ea0ad}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 
-## Start with sourced trait records {#s-d9ef7390d4}
-This batch’s ReptTraits route for Diploderma includes 4 same-name, same-family entries with trait-specific citations. Start with [Diploderma brevicauda](Diploderma_brevicauda/page.en.md), [Diploderma grahami](Diploderma_grahami/page.en.md), [Diploderma hamptoni](Diploderma_hamptoni/page.en.md), [Diploderma swild](Diploderma_swild/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-d9ef7390d4}
+This batch’s ReptTraits route for Diploderma includes 4 same-name, same-family entries with trait-specific citations. Start with Diploderma brevicauda, Diploderma grahami, Diploderma hamptoni, Diploderma swild. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-15cf42fa1e}
 Among size records in this batch, Diploderma grahami has a reported maximum snout–vent length (SVL) of 51 mm and Diploderma hamptoni 78 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Limits of these trait data {#s-fd9e8c8bb0}
+## ReptTraits material route {#s-fd9e8c8bb0}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

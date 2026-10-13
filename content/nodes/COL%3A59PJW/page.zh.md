@@ -1,5 +1,5 @@
-## 按资料原拼写定位名称 {#s-f569fda0e0}
-本页按 COL26.8 的 Turdoides hindei（59PJW）组织。BirdLife 2020 第 4941 行与 eBird 2021 第 10763 行同名、Avibase ID 为 AVIBASE-224B2B08，类型 1BL to 1eBird。BirdTree 第 10694 行记 Turdoides hindei，类型 1BL to 1BT。该表与目录接受名逐字相同，不能因此断定跨年代的物种范围完全相同。来源科名为 Leiotrichidae，目录祖先为 Leiothrichidae，原拼写分别保留。
+## COL26.8 中的名称身份 {#s-f569fda0e0}
+《Catalogue of Life》COL26.8（2026-08-20）将 Turdoides hindei (Sharpe, 1900) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-82f708b254}
 形态共 4 只鸟：雌 2、雄 2、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 12.8 mm、跗蹠 33.2 mm、未压平翼长 100.8 mm、尾长 108.8 mm、手翼指数 9.5 是历史行均值。完整数与总数相等，仍不提供个体变异范围。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

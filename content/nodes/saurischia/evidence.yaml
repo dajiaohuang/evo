@@ -69,3 +69,25 @@ records:
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
       evidenceLevel: literature-synthesized
+  atlas-profile:
+    scientificName: Saurischia
+    name:
+      en: Saurischia
+      zh: Saurischia
+    rank: order
+    sections:
+      - topic: fossil-range
+        title:
+          en: Tawa anchors a source-bounded interval
+          zh: Tawa 锚定来源限定的年代区间
+        text:
+          en:
+            page: en
+            section: tawa-sample
+            part: body
+          zh:
+            page: zh
+            section: tawa-sample
+            part: body
+        claimIds:
+          - claim:taxon:saurischia:source-bounded-range-rc49

@@ -1,18 +1,28 @@
-## Which fossil records this name represents {#s-39018366bf}
-Spinosaurus mirabilis is accepted in the fixed PBDB dinosaur working roster, with database parent Spinosaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-39018366bf}
+Spinosaurus mirabilis is listed in the PBDB snapshot under taxon txn:519548. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-01108c447b}
-Collection Sirig Taghat (Agadez Region), region code NE, stratum name Farak; database age bracket 100.5–93.9 Ma, early interval Early Cenomanian. Collection Iguidi fossil area (Agadez Region), region code NE, stratum name Farak; database age bracket 100.5–93.9 Ma, early interval Early Cenomanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-01108c447b}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-c10dba8e0b}
-Selected occurrences have an outer age envelope of 100.5–93.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:2063475; PBDB collection col:278624. Locality cnm=Sirig Taghat; place fields cc2=NE, stp=Agadez Region, cny=Jenguebi area. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian. Stratigraphic fields sfm=Farak. Recorded attribution Sereno et al. 2026; PBDB reference ref:94635.
 
-## Read preservation setting separately from living habitat {#s-30c05e5fc7}
-Sirig Taghat has collection-environment label terrestrial indet.; collection preservation-mode label body. Iguidi fossil area has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:2063476; PBDB collection col:278625. Locality cnm=Iguidi fossil area; place fields cc2=NE, stp=Agadez Region, cny=Jenguebi area. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian. Stratigraphic fields sfm=Farak. Recorded attribution Sereno et al. 2026; PBDB reference ref:94635.
 
-## Follow collection records back to references {#s-e5012a420e}
-Sirig Taghat carries database reference attribution Sereno et al. (2026), identifier ref:94635. Iguidi fossil area carries database reference attribution Sereno et al. (2026), identifier ref:94635. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+## Age bounds on the recorded occurrences {#s-c10dba8e0b}
+Across these selected PBDB rows, the largest recorded eag=100.5 Ma in occ:2063475; the smallest recorded lag=93.9 Ma in occ:2063475. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
 
-## Evidence limits {#s-98f499cf82}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Material and coordinate fields {#s-30c05e5fc7}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:2063475: PBDB original-identification field idn=Spinosaurus mirabilis n. sp.; PBDB taxon-name field tna=Spinosaurus mirabilis; material note ocm=, MNBH JEN2, MNBH JEN3, MNBH JEN4, MNBH JEN5, MNBH JEN6, MNBH JEN7, MNBH JEN8. MNBH JEN9; abundance fields abv=9, abu=specimens; PBDB locality-coordinate fields lng=8.066290, lat=16.973490; paleocoordinate/model fields pm1=gplates, pln=12.61, pla=8.25.
+- occ:2063476: PBDB taxon-name field tna=Spinosaurus mirabilis; material note ocm=MNBH IGU11, MNBH IGU25, MNBH IGU38, MNBH IGU39, MNBH IGU40,; abundance fields abv=5, abu=specimens; PBDB locality-coordinate fields lng=7.821290, lat=17.075100; paleocoordinate/model fields pm1=gplates, pln=12.42, pla=8.43.
+
+## References attached to each record {#s-e5012a420e}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:2063475: Recorded attribution Sereno et al. 2026; PBDB reference ref:94635.
+- occ:2063476: Recorded attribution Sereno et al. 2026; PBDB reference ref:94635.
+
+## What these records can show {#s-98f499cf82}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

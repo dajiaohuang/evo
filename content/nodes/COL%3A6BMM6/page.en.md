@@ -1,5 +1,5 @@
-## Read this historical record through food and foraging position {#s-c19ed3c0bf}
-Ctenomys lewisi is accepted in pinned COL26.8 within Ctenomyidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Foraging stratum and activity flags in the compilation {#s-c19ed3c0bf}
+The EltonTraits 1.0 record for *Ctenomys lewisi* contains the foraging stratum, activity flags. The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark twilight and daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Source comments and compiler confidence remain attached to the foraging category. The archive leaves diet fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Ctenomys lewisi*.
 
 ## Mammalian foraging-stratum assignment {#s-d7887d74e9}
 The entry is assigned G: ground category (the source definition includes some aquatic foraging); code A records compiler confidence in source and assignment. Metadata collectively attributes mammalian stratum assignments to Nowak (1999). This is a category assignment, not a percentage of time among strata, and does not mean the species acts only there.
@@ -10,12 +10,13 @@ The archive marks feeding activity during twilight, daytime as 1. Several fields
 ## Trace each field group to its source labels {#s-dcb931898c}
 The used groups carry labels metadata:Nowak1999, Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
-## Life-history evidence limits {#s-ff93a02e53}
-This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
-This page withholds diet (source code D1) because of interpolation, certainty or source-link limits. Specific reasons and original values remain in the source archive; they do not fill definite ecological conclusions.
+## How to interpret these historical records {#s-ff93a02e53}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## Name and historical material {#s-7d98d690f0}
-Ctenomys lewisi is accepted in pinned COL26.8 within Ctenomyidae. This page uses the PanTHERIA 1.0 MSW05 entry from the August 2008 table, whose biological data gathering ended in June 2004. The name association does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass and adult head–body length in the historical table {#s-7d98d690f0}
+The August 2008 PanTHERIA row for *Ctenomys lewisi* records adult body mass 117.2 g; adult head–body length 177.5 mm. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Ctenomys lewisi*.
 
 ## How body size was consolidated {#s-86b8694000}
 Historical consolidated values are adult body mass 117.2 g; adult head–body length 177.5 mm. These fields use adjustment for sex followed by medians. Mass can include adult or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. Values are not direct measurements of one specimen or a species-wide size range.

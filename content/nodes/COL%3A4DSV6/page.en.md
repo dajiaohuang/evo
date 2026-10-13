@@ -1,5 +1,5 @@
-## Three EltonTraits field groups {#s-2e0baab12e}
-Parotomys littledalei is accepted in pinned COL26.8 within Muridae. Its same-name, same-family EltonTraits 1.0 record supplies three ecological field groups with source information. That archive follows earlier bird taxonomy or MSW3 for mammals; a name match does not settle modern splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-2e0baab12e}
+The EltonTraits 1.0 record for *Parotomys littledalei* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of seeds, nuts and spores 30%, other plant material, including fungi 70% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Parotomys littledalei*.
 
 ## Relative weights of reported foods {#s-020db3d1f2}
 The nonzero weights are other plant material, a source category that also includes fungi, 70%; and seeds, nuts and spores, 30%. Code ABC combines high, reasonable and partial confidence, and estimates may borrow from an ecologically similar congener. They are not necessarily direct observations of this species. EltonTraits standardizes verbal descriptions rather than measures diet composition; zero does not prove a food is never eaten. Broad categories such as Nect, Seed and PlantO do not imply exclusive use of nectar, seeds or plants.
@@ -13,11 +13,13 @@ The archive marks daytime feeding activity as 1. Activity fields can be recorded
 ## Trace each field group to its source {#s-3a65a68164}
 The retained ecological groups carry Ref_1 and metadata:Nowak1999 labels. Diet, stratum and activity can use different material; the same Ref number in bird and mammal tables does not identify one source. The archive preserves original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, so labels are traceability aids rather than new observations.
 
-## Limits of the EltonTraits summary {#s-ebd389cb33}
-This is a guide to historical same-name, same-family EltonTraits 1.0 records, not a complete species monograph. Matching names and classification do not establish equivalence to COL26.8. Food and avian-stratum percentages are coarse relative weights standardized from literature descriptions, not direct measures of stomach contents, intake, energy or observation time; avian A/B codes retain source and proportional uncertainty. Mammalian ABC diet or activity may refer to a congener judged ecologically similar, so fields are not necessarily direct observations of this species. Genus or family typical values, non-species-level avian strata and split records needing review do not establish definite conclusions. Underlying works have not been individually reread. Individual, seasonal and local variation, current range, population and conservation require other evidence.
+## How to interpret these historical records {#s-ebd389cb33}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## PanTHERIA’s historical name entry {#s-660b477a5f}
-Parotomys littledalei is accepted in pinned COL26.8 within Muridae. PanTHERIA 1.0 links it to an MSW05 entry in the August 2008 table; biological data gathering for that release ended in June 2004. This historical name association does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass and litter size in the historical table {#s-660b477a5f}
+The August 2008 PanTHERIA row for *Parotomys littledalei* records adult body mass 126.99 g; litter-size summary 2.91 offspring. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. A fractional litter-size value is a compiled summary, not a literal fractional litter. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Parotomys littledalei*.
 
 ## A consolidated adult-mass value {#s-fdb19ba2ef}
 The historical adult body-mass summary is 126.99 g. The source adjusted for sex before calculating medians. The mass data can include adults or animals of unspecified age but exclude pregnant females. This is not a single specimen measurement or a species-wide range.

@@ -1,19 +1,43 @@
 ## Which fossil records this name represents {#s-d0f389e285}
 Lophibaluchia pilbeami is accepted in the fixed PBDB mammalia working roster, with database parent Lophibaluchia. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-fcb6298115}
-Collection Y-GSP 417 (Baluchistan), region code PK, stratum name Chitarwata; database age bracket 33.9–27.3 Ma, early interval Early Oligocene. Collection Z108 (Baluchistan), region code PK, stratum name Chitarwata; database age bracket 27.3–23.04 Ma, early interval Late Oligocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Lophibaluchia pilbeami is listed in the PBDB snapshot under taxon txn:118281. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-7185200e42}
-Selected occurrences have an outer age envelope of 33.9–23.04 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Y-GSP 417, occurrence occ:735862 (33.9–27.3 Ma); one supplying the younger bound is Z108, occurrence occ:1334230 (27.3–23.04 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-fcb6298115}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-2019f974ec}
-Y-GSP 417 has collection-environment label terrestrial indet.; collection preservation-mode label body. Z108 has collection-environment label "channel"; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:735862; PBDB collection col:79009. Locality cnm=Y-GSP 417; place fields cc2=PK, stp=Baluchistan. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Early Oligocene. Stratigraphic fields sfm=Chitarwata. Recorded attribution Flynn et al. 1986; PBDB reference ref:26501.
 
-## Follow collection records back to references {#s-c6e301e41b}
-Y-GSP 417 carries database reference attribution Flynn et al. (1986), identifier ref:26501. Z108 carries database reference attribution Flynn and Cheema (1994), identifier ref:59636. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower Bugti Member, about 10 m above its base
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+about 16 km south of the village Dera Bugti in Pazbogi Nala
+
+- Occurrence occ:1334230; PBDB collection col:179812. Locality cnm=Z108; place fields cc2=PK, stp=Baluchistan. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Late Oligocene. Stratigraphic fields sfm=Chitarwata. Recorded attribution Flynn and Cheema 1994; PBDB reference ref:59636.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower part of the Chitarwata Formation
+
+## Age bounds on the recorded occurrences {#s-7185200e42}
+Across these selected PBDB rows, the largest recorded eag=33.9 Ma in occ:735862; the smallest recorded lag=23.04 Ma in occ:1334230. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-2019f974ec}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:735862: PBDB original-identification field idn=Lophibaluchia pilbeami n. gen. n. sp.; PBDB taxon-name field tna=Lophibaluchia pilbeami; PBDB locality-coordinate fields lng=69.199997, lat=28.850000; paleocoordinate/model fields pm1=gplates, pln=71, pla=14.07.
+- occ:1334230: PBDB taxon-name field tna=Lophibaluchia pilbeami; material note ocm=Z 846-876; PBDB locality-coordinate fields lng=70.333336, lat=30.083332; paleocoordinate/model fields pm1=gplates, pln=71.95, pla=17.19.
+
+## References attached to each record {#s-c6e301e41b}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:735862: Recorded attribution Flynn et al. 1986; PBDB reference ref:26501.
+- occ:1334230: Recorded attribution Flynn and Cheema 1994; PBDB reference ref:59636.
 
 ## Evidence limits {#s-a1e5141c13}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

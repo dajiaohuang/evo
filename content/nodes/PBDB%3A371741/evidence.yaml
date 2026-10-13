@@ -16,7 +16,10 @@ records:
     - subjectId: taxon:ambolestes
       claimKind: scientific
       claimType: fossil-range
-      statement: Ambolestes zhoui is bounded by near-complete holotype STM33-5 from the Lujiatun Unit of the Yixian Formation within an approximately 126–125 Ma interval; its eutherian placement is matrix-dependent and does not make it a direct placental ancestor.
+      statement:
+        page: en
+        section: holotype-and-placement
+        part: body
       confidence: medium
       confidenceRationale: The holotype and unit are direct evidence; higher placement and implications for the metatherian record are analytical.
       referenceLinks:
@@ -28,7 +31,9 @@ records:
   claim-rationales.zh:
     - 正模与地层单元属于直接证据；高阶位置及其对后兽类记录的含义属于分析结果。
   claim-statements.zh:
-    - Ambolestes zhoui 由义县组陆家屯层近完整正模 STM33-5 约束，处于约 1.26 亿—1.25 亿年前区间；其真兽类位置依赖矩阵，不使其成为胎盘类直接祖先。
+    - page: zh
+      section: holotype-and-placement
+      part: body
   ranges:
     - entityId: ambolestes
       rangeKind: global-composite

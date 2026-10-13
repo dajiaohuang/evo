@@ -1,20 +1,22 @@
-## Find records through older Collocalia combinations {#s-2c0bd604db}
+## Recorded classification and direct parent {#s-2c0bd604db}
+COL26.8 records Aerodramus at genus rank, with Apodinae as its direct parent.
+
 The twelve Aerodramus rows link by the same name to eBird; BirdTree uses older Collocalia combinations throughout. The read COL ae/col shards confirm ten exact older combinations; the synonym linked to spodiopygius is Collocalia spodiopygius, differing from the table ending spodiopygia. The exact terraereginae combination was not found in this reading, without establishing its absence from the whole catalogue. Order1=Caprimulgiformes stays distinct from COL navigation at Apodiformes. Name correspondence locates sources without proving identical historical and current species boundaries; twelve rows are not the accepted-species denominator of the genus.
 
 ## Separate one male bird from more complete samples {#s-e6486de58c}
-[Aerodramus whiteheadi](Aerodramus_whiteheadi/page.en.md) and [Aerodramus sawtelli](Aerodramus_sawtelli/page.en.md) each have one male bird and one complete set, supplying neither a sex comparison nor population variation. [Aerodramus bartschi](Aerodramus_bartschi/page.en.md) has three birds (two female, one male), two complete; [Aerodramus unicolor](Aerodramus_unicolor/page.en.md) has five (two female, three male), four complete. The other eight each have four complete birds, but francicus has four unsexed and elaphrus three male/one unsexed; spodiopygius has one female/three male, and the other five have two of each sex. Equal complete counts do not imply equal sex coverage, and Dunning literature mass has a separate denominator.
+Aerodramus whiteheadi and Aerodramus sawtelli each have one male bird and one complete set, supplying neither a sex comparison nor population variation. Aerodramus bartschi has three birds (two female, one male), two complete; Aerodramus unicolor has five (two female, three male), four complete. The other eight each have four complete birds, but francicus has four unsexed and elaphrus three male/one unsexed; spodiopygius has one female/three male, and the other five have two of each sex. Equal complete counts do not imply equal sex coverage, and Dunning literature mass has a separate denominator.
 
 ## An aerial category does not replace measurements or habitat {#s-62c07659ce}
 All twelve are Aerial, defined as much time in flight and hunting or foraging predominantly on the wing, without measuring flight speed or establishing echolocation or nest material. All have Invertivore niche and Carnivore level, defined by at least 60% invertebrate resources in terrestrial systems and at least 70% live invertebrate or vertebrate resources respectively, rather than measured seasonal diets. Nine habitats are Forest; papuensis and unicolor are Rock, terraereginae Grassland. All have density 1 and migration 1. Density 1 denotes dense habitat in the original definition and is retained beside the habitat field without inferring error or a cause from other labels; migration 1 does not imply lifelong immobility.
 
-## Start with single birds, then compare complete sets and habitat {#s-df9088780d}
+## AVONET member records {#s-df9088780d}
 Start with single-male limits at whiteheadi and sawtelli, then compare total and complete counts at bartschi and unicolor. Contrast Rock at papuensis, Grassland at terraereginae and the other Forest rows. Older names, order placement and field definitions stay distinct, without supplying shared nest material, calls or current maps. The existing seven-entry life-history route stays separate and is not added to these twelve as a deduplicated species count.
 
-- 1: [Aerodramus papuensis](Aerodramus_papuensis/page.en.md), [Aerodramus whiteheadi](Aerodramus_whiteheadi/page.en.md), [Aerodramus hirundinaceus](Aerodramus_hirundinaceus/page.en.md), [Aerodramus mearnsi](Aerodramus_mearnsi/page.en.md)
-- 2: [Aerodramus sawtelli](Aerodramus_sawtelli/page.en.md), [Aerodramus maximus](Aerodramus_maximus/page.en.md), [Aerodramus terraereginae](Aerodramus_terraereginae/page.en.md), [Aerodramus bartschi](Aerodramus_bartschi/page.en.md)
-- 3: [Aerodramus francicus](Aerodramus_francicus/page.en.md), [Aerodramus elaphrus](Aerodramus_elaphrus/page.en.md), [Aerodramus spodiopygius](Aerodramus_spodiopygius/page.en.md), [Aerodramus unicolor](Aerodramus_unicolor/page.en.md)
+- 1: Aerodramus papuensis, Aerodramus whiteheadi, Aerodramus hirundinaceus, Aerodramus mearnsi
+- 2: Aerodramus sawtelli, Aerodramus maximus, Aerodramus terraereginae, Aerodramus bartschi
+- 3: Aerodramus francicus, Aerodramus elaphrus, Aerodramus spodiopygius, Aerodramus unicolor
 
-## Choose comparison pages by life-history fields {#s-0e6373ac1e}
+## Amniote Life-history archive member records {#s-0e6373ac1e}
 This batch’s Aerodramus route includes 7 historical life-history accounts; start with Aerodramus amelis, Aerodramus brevirostris, Aerodramus fuciphagus, Aerodramus germani, Aerodramus salangana. More frequently represented fields include adult body mass (7 entries), offspring per litter or eggs per clutch (7 entries), age at flight capability (leaving the nest in some source material) (7 entries), oviposition to hatching (5 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Life-history evidence limits {#s-13fbf53a64}

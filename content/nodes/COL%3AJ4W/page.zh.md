@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-424b1d6ff6}
+## 记录分类与直接上级关系 {#s-424b1d6ff6}
+COL26.8 将 Amblysominae 记录为亚科；其直接上级记录为 Chrysochloridae。
+
 Amblysominae 的本地 PanTHERIA 路线有 1 条可用资料页：Calcochloris obtusirostris。页面保留原始 MSW05 名称、变量各自的来源条件与缺失值。分类导航沿固定版本 COL26.8；历史表格行数不是当前接受种的分母。
 
 ## 比较体型与生活史 {#s-f0356fc023}

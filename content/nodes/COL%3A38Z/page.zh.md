@@ -1,4 +1,4 @@
-## 本地数据阅读路径 {#s-3e9cb6920f}
+## 记录分类与成员材料 {#s-3e9cb6920f}
 Galliformes 的本批阅读路径包含 204 条有测量来源的物种记录，可从 Aburria aburri、Chamaepetes goudotii、Chamaepetes unicolor、Crax alector、Crax blumenbachii 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-0e31202a96}
@@ -19,8 +19,8 @@ Galliformes 的本批路线包含 18 个历史条目，可从 Ortalis garrula、
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
-## 从有限生态资料开始 {#s-0e66db1f5d}
-Galliformes 本批有 9 个有限生态资料页，可从 [Crax alberti](Cracidae/Cracinae/Crax/Crax_alberti/page.zh.md)、[Ortalis superciliaris](Cracidae/Penelopinae/Ortalis/Ortalis_superciliaris/page.zh.md)、[Penelope ochrogaster](Cracidae/Penelopinae/Penelope/Penelope_ochrogaster/page.zh.md)、[Aepypodius bruijnii](Megapodiidae/Aepypodius/Aepypodius_bruijnii/page.zh.md)、[Megapodius bernsteinii](Megapodiidae/Megapodius/Megapodius_bernsteinii/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-0e66db1f5d}
+Galliformes 本批有 9 个有限生态资料页，可从 Crax alberti、Ortalis superciliaris、Penelope ochrogaster、Aepypodius bruijnii、Megapodius bernsteinii 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-41ea9b89c2}
 栖地类别见 9 页，取食生态位见 9 页，主导活动方式见 9 页，迁移类别见 9 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

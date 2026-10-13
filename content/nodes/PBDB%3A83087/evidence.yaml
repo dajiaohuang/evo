@@ -176,7 +176,10 @@ records:
     - subjectId: taxon:homo_neanderthalensis
       claimKind: scientific
       claimType: fossil-range
-      statement: Homo neanderthalensis is anchored here by Vindija 33.19, which yielded a high-coverage genome and a greater-than-45.5 ka radiocarbon result within an approximately 55–45.5 ka sample envelope; modelled age and relationships do not define the species’ full range.
+      statement:
+        page: en
+        section: vindija-genome
+        part: body
       confidence: high
       confidenceRationale: The specimen and laboratory result are direct, whereas the approximately 52 ka estimate and demographic tree are models.
       referenceLinks:
@@ -206,7 +209,9 @@ records:
     - 标本与实验室结果属于直接证据，而约 5.2 万年前估计和种群树属于模型。
     - Homo neanderthalensis 采用 Prüfer, K.; de Filippo, C.; Grote, S.; Mafessoni, F.; Korlević, P.; Hajdinjak, M.; Vernot, B.; Skov, L.; Hsieh, P.; Peyrégne, S.; et al.（2017）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Vindija 33.19 specimen age envelope, Croatia；更宽泛端点保持未声明。
   claim-statements.zh:
-    - 此处 Homo neanderthalensis 由 Vindija 33.19 锚定，该标本产生高覆盖基因组和大于 4.55 万年的放射性碳结果，处于约 5.5 万—4.55 万年前的样本区间；模型年龄与关系不定义物种完整范围。
+    - page: zh
+      section: vindija-genome
+      part: body
     - Homo neanderthalensis 仅以 0.055–0.0455 Ma 展示为有测年约束的温迪亚标本包络，而非尼安德特人的完整存续期。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
   ranges:
     - entityId: homo_neanderthalensis

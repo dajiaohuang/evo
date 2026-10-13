@@ -1,5 +1,5 @@
-## 从旧 Nectarinia 名称定位资料 {#s-afd21f07b3}
-本页按 COL26.8 的 Cinnyris tsavoensis（5Z6TM）组织。BirdLife 2020 第 5995 行与 eBird 2021 第 2367 行同名，Avibase ID 为 AVIBASE-17DE4B1F，匹配为 1BL to 1eBird；BirdTree 第 2360 行记 Nectarinia tsavoensis，匹配为 1BL to 1BT。本次已读分片未找到这个逐字旧组合，不把一对一名称表当成已核实 COL 异名。旧名用于查原资料，不证明所有时期的物种范围相同。
+## COL26.8 中的名称身份 {#s-afd21f07b3}
+《Catalogue of Life》COL26.8（2026-08-20）将 Cinnyris tsavoensis Someren, 1922 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 喙长、翼与尾的样本范围 {#s-292638cd67}
 形态共 5 只鸟：雌 2、雄 3、性别未定 0，4 只具完整测量。鼻孔前缘至喙尖 12.1 mm、跗蹠 14.2 mm、未压平翼长 52.2 mm、尾长 41.8 mm、手翼指数 12.4 是历史行汇总均值。Inference=NO 不代表每项字段都有 5 只独立记录；完整测量数不替代逐字段分母。喙长不能单独证明特定花种适配、舌结构或授粉效果；手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度。

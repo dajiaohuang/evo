@@ -1,26 +1,28 @@
-## Start with the historical entries {#s-76c9a8fd6c}
+## Recorded classification and direct parent {#s-76c9a8fd6c}
+COL26.8 records Macropodidae at family rank, with Macropodiformes as its direct parent.
+
 The local PanTHERIA route for Macropodidae includes 29 usable data accounts. Start with Dendrolagus bennettianus, Dendrolagus inustus, Dendrolagus lumholtzi, Dendrolagus matschiei, Dendrolagus scottae. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-36c6d4bdcc}
 Among available consolidated adult-mass values in this batch, Petrogale concinna records 1398.2 g and Macropus giganteus records 33409.89 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-7614c19df0}
+## Amniote Life-history archive member records {#s-7614c19df0}
 This batch’s Macropodidae route includes 43 historical life-history accounts; start with Dendrolagus bennettianus, Dendrolagus dorianus, Dendrolagus goodfellowi, Dendrolagus inustus, Dendrolagus lumholtzi. More frequently represented fields include adult body mass (43 entries), offspring per litter or eggs per clutch (43 entries), longest lifespan record in the compilation (41 entries), age of dependence on food other than maternal milk (37 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-4dc86e2015}
 This batch’s Macropodidae route includes 52 historical entries; start with Lagorchestes leporides, Lagorchestes hirsutus, Lagorchestes conspicillatus, Lagorchestes asomatus, Macropus fuliginosus. Food-category weights are available in 47, foraging strata in 52, and mammalian activity periods in 50. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-288d814174}
+## Limits attached to these records {#s-288d814174}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-8d25b317ba}
-The local PanTHERIA route for Macropodidae includes 8 usable data accounts. Start with [Lagorchestes asomatus](Macropodinae/Lagorchestes/Lagorchestes_asomatus/page.en.md), [Lagorchestes leporides](Macropodinae/Lagorchestes/Lagorchestes_leporides/page.en.md), [Onychogalea lunata](Macropodinae/Onychogalea/Onychogalea_lunata/page.en.md), [Onychogalea unguifera](Macropodinae/Onychogalea/Onychogalea_unguifera/page.en.md), [Petrogale brachyotis](Macropodinae/Petrogale/Petrogale_brachyotis/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-8d25b317ba}
+The local PanTHERIA route for Macropodidae includes 8 usable data accounts. Start with Lagorchestes asomatus, Lagorchestes leporides, Onychogalea lunata, Onychogalea unguifera, Petrogale brachyotis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-9cf5a911ab}
 Among available consolidated adult-mass values in this batch, Petrogale burbidgei records 1258 g and Onychogalea unguifera records 6494.73 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-57be798b14}
+## PanTHERIA material route {#s-57be798b14}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 

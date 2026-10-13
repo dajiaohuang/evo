@@ -1,4 +1,4 @@
-## Distribution and habitat {#s-c2b59f2ec0}
+## Type locality and name-bearing specimen {#s-c2b59f2ec0}
 MDD currently displays Bornean Slow Loris and lists the type locality as the Sakaiam River in Sanggau District, West Kalimantan, Indonesia; the holotype is USNM:MAMM:142234. The type locality identifies the original name-bearing material, not a complete current range.
 
 ## Classification {#s-04e3ebb87c}

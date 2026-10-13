@@ -1,44 +1,44 @@
-## The name and this data account {#s-a2394ecaea}
-Brotogeris tirica is an accepted Psittacidae species in COL26.8. AVONET v7 records 7 measured birds under the HBW–BirdLife 2020 name, 4 with a complete morphological set. Usable sample sizes may differ by trait.
+## Row-reported mean and sample coverage {#s-a2394ecaea}
+The AVONET v7 row for Brotogeris tirica (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 17.3 mm. The row records 7 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-c334024a42}
-Mean beak length is 17.3 mm from the front edge of the nostril to the tip. At the nostril edge, mean width is 9.1 mm and depth is 15.2 mm. These are distinct measurements at defined landmarks, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-c334024a42}
+AVONET records culmen length (bill tip to skull base) 22.3 mm; beak length (nostril front edge to tip) 17.3 mm; beak width at the nostril front edge 9.1 mm; beak depth at the nostril front edge 15.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-614e205d71}
-Mean unflattened wing length from carpal joint to longest primary is 113.4 mm, and mean tarsus length is 11.9 mm. A separate compilation gives mean mass as 63 g (Dunning category); this does not imply all measured birds were weighed.
+## Wing and body measures use separate sources {#s-614e205d71}
+AVONET records unflattened wing length 113.4 mm; tarsus length 11.9 mm; distance from first secondary tip to longest primary tip 40.3 mm; length to first secondary tip 73.6 mm; hand-wing index 35.1; tail length 106.3 mm; species-average body mass 63 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-86135c310d}
-AVONET assigns Forest habitat, Omnivore trophic niche and Insessorial lifestyle. These broad categories enable comparisons across species but do not mean the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-86135c310d}
+AVONET classifies Brotogeris tirica as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-5ba3aa1a54}
-The migration field classifies the record as sedentary. Historical breeding and resident maps reach latitude endpoints of -30.44° and -9.01°. They do not cover all non-breeding movements or estimate current global occupancy. Geographic and morphological records were compiled separately.
+## The migration label has a limited scope {#s-5ba3aa1a54}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -30.44° to -9.01°. The mapped range area is 288572.86 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-1e9bd797ba}
-In pinned COL26.8, Brotogeris tirica is accepted within Psittacidae. The three life-history fields below come from a historical record with the same name and family and are supported by cited species-level rows. Older taxonomic groupings may have passed data into the compilation, so a matching name does not rule out inheritance.
+## Scope of the historical life-history entry {#s-1e9bd797ba}
+The August 2015 database has a same-name, same-family record for Brotogeris tirica. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-01fac29e43}
-The historical compilation gives an adult body-mass summary of 63 g. It may combine male, female and sex-unspecified adult records, so it is not an individual mass range. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-01fac29e43}
+The August 2015 compilation reports adult body mass 63 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-c04723ece7}
-The available field reports 4 offspring or eggs per litter/clutch. Young and egg counts share one field, so a fractional summary would not mean part of an individual in one event. Missing reproductive and developmental durations are not filled in here.
+## Reproductive fields describe different events {#s-c04723ece7}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 4. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-aca55ee419}
-The archive gives 11 years for maximum_longevity_y, the largest value found under its method. This is not a typical or average wild lifespan, a limit for each individual, or proof of a current record that can be repeated.
+## A maximum record is not typical lifespan {#s-aca55ee419}
+The compilation lists 11 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-02714b164c}
-The matching rows carry source labels including Dunning, 1992; de Magalhaes and Costa, 2009; Schuck-Paima, C., Alonsob, W.J., and E.B. Ottonia, 2008; and Wasser, D.E. and P.W. Sherman, 2010, among others. The archive retains each field's row number, value and label with the complete reference explanations. A label may point to a paper, book or database. Row counts are not numbers of animals measured, and repeated citations are not independent experiments.
+## Sources and field limits {#s-02714b164c}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-0980ddf53e}
-In pinned COL26.8, Brotogeris tirica is accepted within Psittacidae. The EltonTraits 1.0 comparison uses two ecological field groups from a historical record with the same name and family, retaining its source labels. The source follows earlier bird taxonomy or MSW3 for mammals; matching names do not settle modern splits or synonymy.
+## Scope of the historical trait entry {#s-0980ddf53e}
+EltonTraits 1.0 has a same-name, same-family record for Brotogeris tirica covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-c508d41954}
-EltonTraits assigns nonzero food weights of 30% each to fruit, the category including seeds, nuts and spores, and other plant material (which also includes fungi); invertebrates account for 10%. Code A indicates high compiler confidence in the source and diet information. These are standardized estimates from verbal descriptions, not measured diet shares; a zero does not prove a food is never eaten. Nect, Seed and PlantO cover more than their everyday names imply.
+## Relative weights across food categories {#s-c508d41954}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; fruit 30%; seeds or nuts 30%; other plant material 30%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-a8fbb366ff}
-The archive flags these as species-level foraging-stratum weights: in or just above the canopy, 60%; understory, edges or shrubs below 2 m, 20%; and trees or tall bushes from 2 m upward but below the canopy, 20%. These estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. Water, understory, mid/high, canopy and aerial categories have distinct source definitions; they are not elevation ranges or measures of flight height or habitat area.
+## Foraging positions are not a time budget {#s-a8fbb366ff}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 20%; in mid-height or high vegetation 20%; in the canopy 60%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-2b1df614c9}
-The selected groups carry label Ref_4. Diet, strata and activity may draw on different material, and the same reference number in bird and mammal tables does not identify the same source. The archive preserves citation strings by file, row, field group and reference table. Underlying books and papers have not been reviewed individually; labels are not additional observations.
+## Sources and field limits {#s-2b1df614c9}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-5b7b3cbcd2}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages from the listed samples, not diagnostic limits or individual variation ranges. Mass comes from separate literature or weighing sources, so morphology sample counts do not apply to it. Habitat, diet and migration are broad categories; maps cover historical breeding and resident ranges. A one-to-one historical crosswalk and matching name support the association but do not establish equivalence between later taxonomic concepts. Reproduction, current populations and conservation require other sources.

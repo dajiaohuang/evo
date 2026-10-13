@@ -53,7 +53,10 @@ records:
     - subjectId: taxon:xenarthra
       claimKind: scientific
       claimType: fossil-range
-      statement: The 58.3–0 Ma Xenarthra route retains the Riostegotherium entry from a combined phenomic–molecular chronology as a sampled/model bound; it is not a securely dated global FAD, crown origin or complete fossil range.
+      statement:
+        page: en
+        section: s-4500e24b8e
+        part: body
       confidence: low
       confidenceRationale: The source makes fossil ages, ghost lineages and topology explicit inputs to a combined model. The atlas therefore keeps the rounded bound visibly model-conditioned rather than treating it as a direct occurrence endpoint.
       referenceLinks:
@@ -65,7 +68,9 @@ records:
   claim-rationales.zh:
     - 来源把化石年龄、幽灵谱系与拓扑明确作为联合模型输入；因此图谱将取整边界标为模型条件结果，而非直接出现记录端点。
   claim-statements.zh:
-    - 58.3–0 Ma 的异关节类路线保留表型—分子联合年代框架中的 Riostegotherium 条目作为取样/模型边界；它不是可靠测定的全球首现、冠群起源或完整化石范围。
+    - page: zh
+      section: s-049b98d394
+      part: body
   ranges:
     - entityId: xenarthra
       rangeKind: global-composite

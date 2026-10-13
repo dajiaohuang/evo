@@ -1,31 +1,30 @@
-## Name and this data account {#s-9356aae934}
-Spalerosophis diadema is accepted in pinned COL26.8 within Colubridae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-9356aae934}
+COL26.8 records Spalerosophis diadema as an accepted species. The ReptTraits v1-2 row gives its Family field as Colubridae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-d6b04b6cef}
-Recorded dimensions are reported maximum snout–vent length (SVL) 854.6 mm; reported maximum total length (TL) 2000 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-d6b04b6cef}
+The row reports a maximum SVL of 854.6 mm. ReptTraits attributes this field to Feldman & Meiri 2013. The row reports maximum total length (TL) of 2000 mm. ReptTraits attributes this field to Feldman et al. 2016. This row records TL and SVL in separate fields; the captured definitions provide no conversion between them.
 
-## Where and how it is active {#s-3a5da9fac6}
-In the entry, microhabitat is Terrestrial; active timing is Nocturnal. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-3a5da9fac6}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Rhodin et al. 2011.
 
-## How to read reproductive records {#s-e80c3d367b}
-the reproductive-mode field uses the original label oviparous; consolidated mean offspring or eggs per litter/clutch 8; consolidated litters/clutches per year 1. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-e80c3d367b}
+The compiled mean for offspring per litter or eggs per clutch is 8. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to SniDer and Bowler 1992, Harding 1997, De Magalhaes and Costa 2009, Feldman et al. 2015. The row reports 1 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The 2015 life-history entry and this name {#s-72bf3ca549}
-Spalerosophis diadema is accepted in pinned COL26.8 within Colubridae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## A 2015 life-history row for this name {#s-72bf3ca549}
+COL26.8 records Spalerosophis diadema as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Reproduction and developmental timing {#s-09be61670d}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 547 d; offspring per litter or eggs per clutch 9.5 offspring/eggs; oviposition to hatching 60 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive events in the life-history table {#s-09be61670d}
+Field-specific archive notes: female maturity field (defined by the source as age at first conception): one direct source citation, with no median count stated; offspring per litter or eggs per clutch: a source-level mean based on median inputs; oviposition to hatching: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The female maturity field is 547 d; the archive defines it as age at first conception. The 2015 archive's field citation is de Magalhaes and Costa, 2009. The offspring-per-litter or eggs-per-clutch summary is 9.5; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; BC Reptiles - Fathinia, B., Rastegar-Pouyani, N., Darvishnia, H., and M. Rajabizadeh, 2010. The incubation field is 60 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book; Birchard, G. and D. Marcellini, 1996.
 
-## A longest record differs from usual lifespan {#s-f6f20f6c10}
-The archive’s maximum_longevity_y value is 17 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## Longest lifespan in the archive {#s-f6f20f6c10}
+The archive's longest-lifespan record is 17 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002.
 
-## How to trace these values to sources {#s-74d4800f81}
-Same-name sparse rows carry source labels including de Magalhaes and Costa, 2009; Reptile Incubation book; BC Reptiles - Fathinia, B., Rastegar-Pouyani, N., Darvishnia, H., and M. Rajabizadeh, 2010; Birchard, G. and D. Marcellini, 1996, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## The August 2015 life-history table {#s-74d4800f81}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-10e11b9c04}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
-This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
+## Separate histories in the two archives {#s-10e11b9c04}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 
-## Fields awaiting citation-scope review {#s-2e82d9e06a}
-Citation scope remains unresolved for Foraging mode. Harrington et al. (2018) studied snakes; the Rhodin et al. (2011) checklist concerns turtles. Support for the affected fields in this taxon has not been established here, so they are withheld from definite trait conclusions. Original values, categories and labels remain in the source archive; this does not establish that the values are wrong, and no replacement is inferred. Other chapters retain their own sources.
+## ReptTraits v1-2 field citations {#s-2e82d9e06a}
+ReptTraits v1-2 records a cited source for each reported trait; the citation beside each value belongs to that field.
 

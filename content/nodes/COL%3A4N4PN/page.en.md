@@ -1,18 +1,18 @@
-## Name and this data account {#s-e8d2bcabf6}
-COL26.8 lists Protobothrops sieversorum as an accepted species in Viperidae. The ReptTraits v1-2 entry follows the Reptile Database 2023 name framework and brings together trait records with their cited sources. Its single row summarizes the compiled record; it does not describe a uniform condition across all populations.
+## COL26.8 name and the ReptTraits row {#s-e8d2bcabf6}
+COL26.8 records Protobothrops sieversorum as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-690b00fb76}
-The compiled maximum total length (TL), which includes the tail, is 1,255 mm. Snout–vent length (SVL) ends at the vent and is a different measurement. A reported maximum summarizes the material in the source record; it is neither a typical size nor a biological upper limit. Values for different sexes can come from different studies or places, so they do not by themselves measure size differences within a population.
+## Length values in the archived records {#s-690b00fb76}
+The row reports maximum total length (TL) of 1255 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-46c793df06}
-The entry classifies the recorded microhabitat as arboreal. This category describes a reported setting, not a complete list of habitats or a fixed schedule of activity. It does not establish that every population, season, or life stage uses the same setting.
+## Habitat use and activity labels {#s-46c793df06}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to O'Shea 2018.
 
-## How to read reproductive records {#s-7bda91c08f}
-The source labels the reproductive mode as oviparous. That category does not establish a particular pattern of embryo nutrition or show that reproduction is uniform across populations. The record supplies no supported clutch or litter count here.
+## Reproductive fields in ReptTraits {#s-7bda91c08f}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-c05d201f60}
-This is a limited trait summary, not a full account of morphology or ecology. ReptTraits v1-2 retains the 2023 taxonomic framework and the cited sources for individual traits, but one row per species compresses variation in age, sex, place, and population. A shared name or family does not guarantee that later taxonomic concepts are identical. Length maxima and reproductive summaries describe reported records, not every individual or clutch. Some mass values in the dataset are estimates from length equations, and juvenile-length fields have differing labels and definitions; neither is treated here as a direct species measurement. Conservation, venom, current range, and population trends are not established by this account.
+## Reading this compiled trait record {#s-c05d201f60}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-1aafd01d65}
-The supported records here cover total length, microhabitat, and reproductive mode. They provide no supported species value for snout–vent length, sex-specific length, clutch or litter counts, egg dimensions, diet, activity time, foraging mode, or sex-determining mechanism. Missing values and records for related species cannot fill those gaps.
+## Reading this compiled trait record {#s-1aafd01d65}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

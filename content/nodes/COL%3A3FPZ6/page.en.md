@@ -1,5 +1,5 @@
-## Tracing the historical Zoothera name {#s-2f3d078718}
-Pinned COL26.8 organizes this page at Geokichla camaronensis (3FPZ6). AVONET v7 BirdLife 2020 row 8546 and eBird 2021 row 4307 share the name and Avibase ID AVIBASE-DB5CE93A; BirdTree row 4288 gives Zoothera camaronensis, with match type 1BL to 1BT. Read COL synonym 5D7ND is spelled Zoothera cameronensis and points to this ID, whereas the crosswalk spells camaronensis. The discrepancy is retained without silently renaming the source or declaring an exact synonym confirmed. These links locate data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-2f3d078718}
+Catalogue of Life release COL26.8 records Geokichla camaronensis Sharpe, 1905 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured birds and beak/wing values {#s-6cfedcad79}
 Morphology covers 6 birds: 1 female, 4 male and 1 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 11.2 mm, tarsus 27.9 mm, unflattened wing 97.3 mm and hand-wing index 25.2 are summaries in this historical row. Inference=NO does not establish equal counts across fields; complete-set birds do not supply every field’s denominator. The index is Kipp’s distance/wing length ×100, not flight speed, migration distance or a range-wide performance test.

@@ -1,15 +1,15 @@
-## What this record identifies {#s-59354849f5}
-COL26.8 lists Cyrtodactylus irregularis as accepted in Gekkonidae. ReptTraits v1-2 links this name to overall and female maximum SVL, nocturnal activity and oviparity, retaining citations for each field under the workbook’s Reptile Database 2023 framework. This is a compilation of cited reports, not a uniform description of every population.
+## COL26.8 name and the ReptTraits row {#s-59354849f5}
+COL26.8 records Cyrtodactylus irregularis as an accepted species. The ReptTraits v1-2 row gives its Family field as Gekkonidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The two reported maxima are not total length {#s-9a3179b847}
-The maximum SVL is 90 mm and the female maximum is 80.5 mm. Snout–vent length ends at the vent and leaves out the tail. The values are compiled maxima rather than typical sizes; because sex-specific records may come from different sources, they do not alone quantify population-level sexual dimorphism.
+## Length values in the archived records {#s-9a3179b847}
+The row reports a maximum SVL of 90 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 80.5 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Activity is classified as nocturnal {#s-bd76f3f639}
-The active-time category is nocturnal. This broad label is not a schedule and does not show whether activity varies by season, locality or life stage. No microhabitat or diet value is interpreted in this account, so location and prey remain unspecified.
+## Habitat use and activity labels {#s-bd76f3f639}
+The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Oviparity does not supply clutch size {#s-31047cebd4}
-The reproductive-mode field is labelled oviparous, but this account has no supported mean or range for eggs per clutch. Egg number and annual frequency therefore remain unreported; the mode label does not establish uniformity across populations.
+## Reproductive fields in ReptTraits {#s-31047cebd4}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Do not overread the compilation {#s-789b38b392}
-This account follows the same-name ReptTraits v1-2 entry and its 2023 taxonomic framework; that match does not confirm equivalence with pinned COL26.8. The one-row structure compresses variation in sex, age, place and populations. No mass, juvenile length, venom, conservation status, present range or population trend is inferred from missing fields.
+## Reading this compiled trait record {#s-789b38b392}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

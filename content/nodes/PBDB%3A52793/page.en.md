@@ -13,10 +13,10 @@ upper end, Gilbert Creek has collection-environment label terrestrial indet.; co
 ## Follow collection records back to references {#s-d6378b9517}
 upper end, Gilbert Creek carries database reference attribution Brown (1908), identifier ref:4210. Engdahl Anthills 2 carries database reference attribution Carpenter (1982), identifier ref:12202. 1.5 miles above Tolman Ferry (210 ft level) [AMNH] carries database reference attribution Brown (1914), identifier ref:63399. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
 
-## Evidence limits {#s-14aaec36c0}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Scope of the PBDB occurrence guide {#s-14aaec36c0}
+This guide uses PBDB occurrence records dated 2026-10-02 from the fixed 3538-item dinosaur working roster. Included entries retain the recorded name and parent chain to the Dinosauria anchor and have eligible species-level occurrences without uncertain-identification qualifiers. PBDB accepted-name links can connect older combinations, but they do not decide specimen identification or merge this concept with a same-name COL taxon. Collection sites, age intervals, depositional settings and collection-level preservation fields describe different things; they do not establish a complete range, exact origin or extinction dates, fixed species ecology, abundance or the condition of every specimen.
 
-## A low skull, cervical half-ring and tail club {#s-1b08b04cc4}
+## Low skull, neck armour and tail club in named material {#s-1b08b04cc4}
 Carpenter’s redescription documents Ankylosaurus magniventris from named Upper Cretaceous Western Interior material. The specimens show a long, low skull with prominent horns, a large cervical half-ring and a low tail club; this anatomical account does not establish diet, gait or behaviour.
 
 ## atlas-profile / ecology / diet {#s-2ac12f146a}
@@ -43,6 +43,6 @@ A large cervical half-ring is associated with the shoulder region.
 ## atlas-profile / traits {#s-d0538cc00f}
 The referred material documents a large, low tail club.
 
-## Named Western Interior material and its limits {#s-6d6370d4bd}
+## Named material and its limits {#s-6d6370d4bd}
 The redescription supplies specimen-level anatomy and formation records for accepted material. It does not extend every isolated ankylosaurid remain into the species or infer feeding and movement from armour.
 

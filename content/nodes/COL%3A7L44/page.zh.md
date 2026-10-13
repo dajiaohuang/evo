@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-b46e3d7a7c}
+## 记录分类与直接上级关系 {#s-b46e3d7a7c}
+COL26.8 将 Spindalis 记录为属；其直接上级记录为 Spindalidae。
+
 固定分类版本 COL26.8 将 *Spindalis* 记录为属。本页关联的 AVONET v7 材料含4条物种测量记录：*Spindalis dominicensis*、*Spindalis nigricephala*、*Spindalis portoricensis*、*Spindalis zena*。这里保留历史资料中的原名，作为阅读数据的起点；它不是该分类单元完整的成员清单，也不表示所有后代共有同样特征。
 
 ## 记录之间有什么差别 {#s-c4b7eb15b9}

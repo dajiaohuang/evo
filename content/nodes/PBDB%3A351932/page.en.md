@@ -1,9 +1,12 @@
-## Organize fossil records by source classification {#s-71a8f180fd}
-Gustafsonia is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 1 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## How PBDB organizes fossil occurrences {#s-71a8f180fd}
+PBDB groups the selected fossil-occurrence records for *Gustafsonia* under its recorded classification path and links them to collections, strata, age brackets, and references. This hierarchy organizes database records; it remains distinct from COL taxonomy and is not a phylogenetic hypothesis.
 
-## Compare collections, strata and age brackets {#s-f7ac3e20cd}
-Start with Gustafsonia cognita and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 1 selected occurrence from 1 collection. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Read the named occurrence and its age bracket {#s-f7ac3e20cd}
+The occurrence guide for *Gustafsonia cognita* connects a recorded collection with its age bracket and original reference. Those fields let readers inspect what was collected and how the record is dated. An occurrence, collection and species are different units; none is a measure of ancient population size.
 
-## Evidence limits {#s-a4cbf628a2}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## How to interpret the displayed age brackets {#s-a4cbf628a2}
+These PBDB age brackets bound the registered occurrences shown here. They do not by themselves establish a taxon’s global first or last appearance or a clade’s origin or extinction.
+
+## A CT-reconstructed holotype from Chambers Tuff {#holotype-record}
+*Gustafsonia cognita* is anchored by holotype cranium TMM 40209-200 from the Chambers Tuff. CT reconstruction and the study’s analysis place this material within an approximately 38–36.6 Ma sample envelope. That is not a global first appearance for the family or a date of direct ancestry.
 

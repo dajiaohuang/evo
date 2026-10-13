@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:cetaceamorpha
       claimKind: scientific
       claimType: taxonomy
-      statement: Cetaceamorpha is used here as a navigation route joining raoellid evidence to sampled Cetacea; Uhen’s synthesis reviews those relationships but does not present the route as one observed lineage, a direct ancestor chain or a dated crown group.
+      statement:
+        page: en
+        section: route-boundary
+        part: body
       confidence: medium
       confidenceRationale: The source supports the constituent evidence and competing relationship hypotheses. The claim explicitly identifies the atlas-only route boundary.
       referenceLinks:
@@ -26,7 +29,10 @@ records:
     - subjectId: taxon:cetaceamorpha
       claimKind: scientific
       claimType: fossil-range
-      statement: cetaceamorpha is displayed at 53–0 Ma only as an editorial navigation envelope across separately sampled fossils and living whales, not one observed lineage or origin date. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      statement:
+        page: en
+        section: sample-envelope
+        part: body
       confidence: medium
       confidenceRationale: cetaceamorpha uses Uhen, M.D. (2010) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Raoellid-to-living-cetacean navigation sample synthesized by Uhen; broader endpoints remain unclaimed.
       referenceLinks:
@@ -43,8 +49,12 @@ records:
     - 来源支持组成证据及相互竞争的关系假说；主张明确标示仅属图谱的路线边界。
     - cetaceamorpha 采用 Uhen, M.D.（2010）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Raoellid-to-living-cetacean navigation sample synthesized by Uhen；更宽泛端点保持未声明。
   claim-statements.zh:
-    - 此处 Cetaceamorpha 是连接 Raoellidae 证据与取样鲸目的导航路线；Uhen 的综述讨论这些关系，但不把该路线呈现为单一已观测谱系、直接祖先链或有日期的冠群。
-    - cetaceamorpha 仅以 53–0 Ma 展示为跨多个独立化石样本与现生鲸类的编辑性导航包络，而非单一观测谱系或起源日期。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - page: zh
+      section: route-boundary
+      part: body
+    - page: zh
+      section: sample-envelope
+      part: body
   ranges:
     - entityId: cetaceamorpha
       rangeKind: global-composite

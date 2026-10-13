@@ -1,19 +1,48 @@
 ## Which fossil records this name represents {#s-79b9c6bc11}
 Candelaria barbouri is accepted in the fixed PBDB other-reptilia working roster, with database parent Candelaria. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-9c4ab8917b}
-Collection Sanga Pinheiros, unknown locality (Rio Grande do Sul), region code BR, stratum name Santa Maria; database age bracket 241.464–237 Ma, early interval Ladinian. Collection Sítio Cortado, RST 287 Highway (Rio Grande do Sul), region code BR, stratum name Santa Maria; database age bracket 241.464–237 Ma, early interval Ladinian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Candelaria barbouri is listed in the PBDB snapshot under taxon txn:158939. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-c16e0236d5}
-Selected occurrences have an outer age envelope of 241.464–237 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Sanga Pinheiros, unknown locality, occurrence occ:837002 (241.464–237 Ma); one supplying the younger bound is Sanga Pinheiros, unknown locality, occurrence occ:837002 (241.464–237 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-9c4ab8917b}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-dd74c5e07a}
-Sanga Pinheiros, unknown locality has collection-environment label fluvial indet.; collection preservation-mode label body,recrystallized,permineralized. Sítio Cortado, RST 287 Highway has collection-environment label "floodplain"; collection preservation-mode label body,recrystallized,permineralized. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:837002; PBDB collection col:92807. Locality cnm=Sanga Pinheiros, unknown locality; place fields cc2=BR, stp=Rio Grande do Sul, cny=Candelária. Recorded age bounds: eag 241.464 Ma; lag 237 Ma; PBDB interval fields oei=Ladinian. Stratigraphic fields sfm=Santa Maria. Recorded attribution Cisneros et al. 2004; PBDB reference ref:31325.
 
-## Follow collection records back to references {#s-84ac791778}
-Sanga Pinheiros, unknown locality carries database reference attribution Cisneros et al. (2004), identifier ref:31325. Sítio Cortado, RST 287 Highway carries database reference attribution Cisneros et al. (2004), identifier ref:31325. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"The sediments belong to the Dinodontosaurus Cenozone of the Santa Maria Formation (Paraná Basin) and are of Ladinian (late Middle Triassic) age [...]." (Cisneros et al., 2004).
+Santa Maria Sequence 1 of the Santa Maria Supersequence (Rosario do Sul Group), corresponding to the "Dinodontosaurus Assemblage Zone" or "Therapsid Cenozone" of the lower Santa Maria Formation (Langer et al. 2007: fig. 2, locality 32).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+" [...] Sanga Pinheiros (29°46'19" S, 52°44'54" W), Candelaria County, Rio Grande do Sul State, Brazil." (Cisneros et al., 2004).  These coordinates are for the Sanga Pinheiros, but Langer et al. (2007) indicate that the type specimen of Candelaria came from an unknown locality in this area
+
+- Occurrence occ:837006; PBDB collection col:92809. Locality cnm=Sítio Cortado, RST 287 Highway; place fields cc2=BR, stp=Rio Grande do Sul, cny=Novo Cabrais. Recorded age bounds: eag 241.464 Ma; lag 237 Ma; PBDB interval fields oei=Ladinian. Stratigraphic fields sfm=Santa Maria. Recorded attribution Cisneros et al. 2004; PBDB reference ref:31325.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"The sediments pertain to the same horizon as those from which the holotype [of Candelaria barbouri] was recovered." (Cisneros et al., 2004); see PBDB coll. no 92807
+Santa Maria Sequence 1 of the Santa Maria Supersequence (Rosario do Sul Group), corresponding to the "Dinodontosaurus Assemblage Zone" of the lower Santa Maria Formation (Langer et al. 2007: fig. 2, locality 32).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Small outcrop (29°44'55" S, 53°00'06" W) 166.5 km along RST 287 Highway, Novo Cabrais County, Rio Grande do Sul State." (Cisneros et al., 2004). Original site description from Mattar 87: "along road RS-509 (from Candelária to Santa Maria), approx. 26 km W of city of Candelária, close to the Vila Palmeiras locality. Outcrops situated 1.5 km before the main entrance for Vila Cortado, on the left side of the highway, in the direction of Santa Maria."
+
+## Age bounds on the recorded occurrences {#s-c16e0236d5}
+Across these selected PBDB rows, the largest recorded eag=241.464 Ma in occ:837002; the smallest recorded lag=237 Ma in occ:837002. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-dd74c5e07a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:837002: PBDB original-identification field idn=Candelaria barbouri n. gen. n. sp.; PBDB taxon-name field tna=Candelaria barbouri; material note ocm=DGM 314R (type); abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-52.748333, lat=-29.771944; paleocoordinate/model fields pm1=gplates, pln=-11.6, pla=-35.31.
+- occ:837006: PBDB taxon-name field tna=Candelaria barbouri; material note ocm=UFSM 11076, 11131; abundance fields abv=2, abu=individuals; PBDB locality-coordinate fields lng=-53.001667, lat=-29.748611; paleocoordinate/model fields pm1=gplates, pln=-11.87, pla=-35.28.
+
+## References attached to each record {#s-84ac791778}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:837002: Recorded attribution Cisneros et al. 2004; PBDB reference ref:31325.
+- occ:837006: Recorded attribution Cisneros et al. 2004; PBDB reference ref:31325.
 
 ## Evidence limits {#s-9e84fa1701}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 429-item other-reptilia working roster, retain the current same name and a complete parent chain to the recorded Reptilia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

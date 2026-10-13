@@ -1,5 +1,5 @@
-## Retain Locustella, Bradypterus and Helopsaltes by table {#s-b9d2156cf9}
-Pinned COL26.8 organizes this page at Locustella pryeri (6QLJT). BirdLife 2020 row 4996 gives Locustella pryeri; eBird 2021 row 5661 gives Helopsaltes pryeri. Both Avibase IDs are AVIBASE-0150666B, with type 1BL to 1eBird. BirdTree row 5632 gives Locustella pryeri, with type 1BL to 1BT. BirdTree matches this accepted name. The read hel shard did not confirm this exact Helopsaltes name; a crosswalk does not replace catalogue synonym evidence. Name correspondence locates historical sources without establishing identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-b9d2156cf9}
+Catalogue of Life release COL26.8 records Locustella pryeri (Seebohm, 1884) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-462d6be483}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 6.7 mm, tarsus 20.6 mm, unflattened wing 52.2 mm, tail 52.8 mm and hand-wing index 18.9 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

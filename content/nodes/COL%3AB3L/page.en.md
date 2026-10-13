@@ -1,24 +1,27 @@
-## Start with the historical entries {#s-92ae84facc}
-The pinned COL26.8 route has one authored PanTHERIA WR05 entry under Hippopotamidae: Hippopotamus amphibius. The page keeps the historical MSW05 name and each field’s own missing data and source conditions. One archive entry is not a count of all currently accepted species.
+## PanTHERIA preserves the historical hippo entry {#s-92ae84facc}
+The PanTHERIA WR05 route retains the historical *Hippopotamus amphibius* name and the conditions and missing fields attached to its variables. This is one archive’s entry under the pinned COL26.8 navigation, not a count of all currently accepted Hippopotamidae.
 
-## Compare body size and life history {#s-1a648c1fe4}
-PanTHERIA’s consolidated table reports one adult-mass median for Hippopotamus amphibius: 1,536,310.4 g. This is a historical summary, not two range endpoints or a measurement of every hippo. Other fields describe different events and need their own definitions; body mass alone does not show that all descendants share a way of life.
+## An adult-mass median, not a range {#s-1a648c1fe4}
+PanTHERIA reports an adult-mass median of 1,536,310.4 g for *Hippopotamus amphibius*. This is a historical summary, not two range endpoints or a measurement of every hippo. Other life-history fields refer to different events and need their own definitions.
 
-## Choose comparison pages by life-history fields {#s-d50554b9fe}
-The 2015 life-history archive has one Hippopotamus amphibius entry. It reports adult mass, female age at first conception, litter size and gestation, with one value recorded for each field in this batch. These counts describe archive coverage, not species abundance or individual sample sizes. Check each unit, event and source before comparing.
+## The life-history archive separates its fields {#s-d50554b9fe}
+The 2015 life-history entry records adult mass, female age at first conception, litter size and gestation for *Hippopotamus amphibius*. These summaries describe different variables, not species abundance or a set of individual measurements. Check each unit, event definition and source before comparing it with another species.
 
-## Compare food, feeding positions and activity periods {#s-d3948c4341}
-EltonTraits has one historical same-name entry here, with diet, foraging-stratum and activity fields. Its diet weights translate written descriptions into coarse relative values; the stratum and activity fields are codes. One row cannot establish ecology shared across Hippopotamidae.
+## EltonTraits codes are not a family-wide ecology {#s-d3948c4341}
+The EltonTraits entry for *Hippopotamus amphibius* contains diet, foraging-stratum and activity fields. Diet weights translate written descriptions into coarse relative values, while stratum and activity are coded categories. One historical entry cannot establish ecology shared by the entire family.
 
-## Evidence limits {#s-defd15cbb4}
-This is a route through one historical Hippopotamus account in each of several archives, not a complete family guide. The datasets use different names, field definitions and summaries; a shared species label does not make their values interchangeable or prove that a historical taxon equals the pinned COL26.8 concept. Life-history summaries may inherit or reuse older literature, and maximum longevity is a record rather than a typical lifespan. Missing fields, current distribution and conservation need other sources.
+## The archives answer different questions {#s-defd15cbb4}
+This page brings together separate records for *Hippopotamus amphibius* from PanTHERIA, the 2015 life-history archive and EltonTraits. Their names, variables and transformations are not interchangeable, and historical matching does not establish equivalence with the pinned COL26.8 concept. Life-history values may inherit older literature. Missing fields, current distribution and conservation require other evidence.
 
-## Follow the life-history records {#s-5de880944f}
-For the 2015 life-history entry, follow [Hippopotamus amphibius](Hippopotamus/Hippopotamus_amphibius/page.en.md). The single row is the coverage in this batch, not a list of every accepted descendant.
+## The 2015 life-history account {#s-5de880944f}
+The 2015 route points to the historical life-history entry for *Hippopotamus amphibius*. Read its own units and source conditions with the values; the archive entry is a record of that compilation, not a complete inventory of Hippopotamidae.
 
-## Distinguish averages from records {#s-96dca8a923}
-The 2015 entry contains gestation, female age at first reproduction and maximum longevity. First reproduction is not the same event as first birth or sexual maturity; maximum longevity is the longest collected record, not an average. Their source conditions may differ.
+## First reproduction differs from first birth {#s-96dca8a923}
+The life-history source distinguishes gestation, female age at first reproduction and maximum longevity. First reproduction is not the same event as first birth or sexual maturity; maximum longevity is the longest collected record rather than an average. The source conditions attached to these fields can differ.
 
-## Limits of these historical data {#s-ecb17c374f}
-The 2003 life-history file uses a one-to-one MSW93/MSW05 name crosswalk for this historical entry; that does not establish equivalence with COL26.8. Most interpreted values summarize literature with equal weighting, while maximum longevity keeps the largest record. Inputs may include means, individual values or range midpoints, and underlying sources can be reused. The body-mass field is withheld in that file; relatives do not fill missing data. Original reference numbers remain available, but the cited species literature was not individually reviewed.
+## The older life-history crosswalk has limits {#s-ecb17c374f}
+The 2003 file links this historical entry through an MSW93/MSW05 name crosswalk, which does not prove equivalence with COL26.8. Most values average literature sources with equal weight; inputs may be means, individual values or range midpoints, and studies can recur. The file withholds its body-mass field, and missing data are not filled from relatives; original reference numbers remain available.
+
+## A sampled revision of hippopotamid relationships {#systematic-review}
+A systematic review and 37-character cladistic analysis sampled 15 living and fossil hippopotamid taxa and revised several historical assignments. Hippopotamidae is the study’s focal family, but the resulting membership is a sampled taxonomic hypothesis, not a complete fossil duration.
 

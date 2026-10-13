@@ -1,5 +1,5 @@
-## Find rows through older Thryothorus combinations {#s-c54fccfdc0}
-Pinned COL26.8 organizes this page at Pheugopedius atrogularis (4G3KB). BirdLife 2020 row 8481 and eBird 2021 row 7734 share the name and Avibase ID AVIBASE-2258FAE9, with type 1BL to 1eBird; BirdTree row 7697 gives Thryothorus atrogularis, with type 1BL to 1BT. Read catalogue synonym 56N7C points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-c54fccfdc0}
+Catalogue of Life release COL26.8 records Pheugopedius atrogularis (Salvin, 1865) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-bbd2349239}
 Morphology comprises 13 birds: 6 female, 5 male and 2 unsexed; 4 complete sets. Nostril-to-tip beak length 13.1 mm, tarsus 24.2 mm, unflattened wing 66 mm, tail 51.5 mm and hand-wing index 11.1 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

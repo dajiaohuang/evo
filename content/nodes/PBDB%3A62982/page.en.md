@@ -1,19 +1,50 @@
 ## Which fossil records this name represents {#s-3f3f60dafd}
 Saghacetus osiris is accepted in the fixed PBDB mammalia working roster, with database parent Saghacetus. This guide uses 8 eligible species-level occurrence records from 7 collections and 7 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 3 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-64f46ca5e2}
-Collection Zeuglodonberg, region code EG, stratum name Qasr el-Sagha; database age bracket 37.71–33.9 Ma, early interval Priabonian. Collection Gebel Hameier, region code EG, stratum name Qasr el-Sagha; database age bracket 37.71–33.9 Ma, early interval Priabonian. Collection Gebel Hameier W, region code EG, stratum name Qasr el-Sagha; database age bracket 37.71–33.9 Ma, early interval Priabonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Saghacetus osiris is listed in the PBDB snapshot under taxon txn:62982. This archived guide contains 8 selected occurrence rows, linked to 7 distinct PBDB collection IDs and 7 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-e835104cfa}
-Selected occurrences have an outer age envelope of 37.71–33.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Zeuglodonberg, occurrence occ:613790 (37.71–33.9 Ma); one supplying the younger bound is Zeuglodonberg, occurrence occ:613790 (37.71–33.9 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-64f46ca5e2}
+The archived guide contains 8 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-f6b249a045}
-Zeuglodonberg has collection-environment label lagoonal; collection preservation-mode label body,original phosphate. Gebel Hameier has collection-environment label lagoonal; collection preservation-mode label body,original phosphate. Gebel Hameier W has collection-environment label lagoonal; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:613790; PBDB collection col:47947. Locality cnm=Zeuglodonberg; place fields cc2=EG. Recorded age bounds: eag 37.71 Ma; lag 33.9 Ma; PBDB interval fields oei=Priabonian. Stratigraphic fields sfm=Qasr el-Sagha. Recorded attribution Dames 1894; PBDB reference ref:11950.
 
-## Follow collection records back to references {#s-8d4b8282ab}
-Zeuglodonberg carries database reference attribution Dames (1894), identifier ref:11950. Gebel Hameier carries database reference attribution Stromer (1902), identifier ref:26784. Gebel Hameier W carries database reference attribution Stromer (1903), identifier ref:11951. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+12.5 km im Westen vom alten Tempelbau, AAA(beta)
+
+- Occurrence occ:741144; PBDB collection col:49919. Locality cnm=Gebel Hameier; place fields cc2=EG. Recorded age bounds: eag 37.71 Ma; lag 33.9 Ma; PBDB interval fields oei=Priabonian. Stratigraphic fields sfm=Qasr el-Sagha. Recorded attribution Stromer 1902; PBDB reference ref:26784.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+middle Priabonian
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+270.500E x 3275.500N, about 6 km WSW from the temple building at Qasr el-Sagha
+
+- Occurrence occ:741146; PBDB collection col:79698. Locality cnm=Gebel Hameier W; place fields cc2=EG. Recorded age bounds: eag 37.71 Ma; lag 33.9 Ma; PBDB interval fields oei=Priabonian. Stratigraphic fields sfm=Qasr el-Sagha. Recorded attribution Stromer 1903; PBDB reference ref:11951.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+middle Priabonian
+
+## Age bounds on the recorded occurrences {#s-e835104cfa}
+Across these selected PBDB rows, the largest recorded eag=37.71 Ma in occ:613790; the smallest recorded lag=33.9 Ma in occ:613790. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-f6b249a045}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:613790: PBDB original-identification field idn=Zeuglodon osiris n. sp.; PBDB taxon-name field tna=Saghacetus osiris; PBDB locality-coordinate fields lng=30.569000, lat=29.575001; paleocoordinate/model fields pm1=gplates, pln=32.06, pla=19.25.
+- occ:741144: PBDB taxon-name field tna=Saghacetus osiris; PBDB locality-coordinate fields lng=30.632000, lat=29.586000; paleocoordinate/model fields pm1=gplates, pln=32.12, pla=19.26.
+- occ:741146: PBDB original-identification field idn=Zeuglodon zitteli n. sp.; PBDB taxon-name field tna=Saghacetus osiris; PBDB locality-coordinate fields lng=30.614000, lat=29.580000; paleocoordinate/model fields pm1=gplates, pln=32.1, pla=19.25.
+
+## References attached to each record {#s-8d4b8282ab}
+The archived guide links the rows to 7 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:613790: Recorded attribution Dames 1894; PBDB reference ref:11950.
+- occ:741144: Recorded attribution Stromer 1902; PBDB reference ref:26784.
+- occ:741146: Recorded attribution Stromer 1903; PBDB reference ref:11951.
 
 ## Evidence limits {#s-a2dc33f568}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 8 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

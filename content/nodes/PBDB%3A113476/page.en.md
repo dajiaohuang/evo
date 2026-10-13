@@ -1,19 +1,45 @@
 ## Which fossil records this name represents {#s-70e3f6248f}
 Kulutherium kenyensis is accepted in the fixed PBDB mammalia working roster, with database parent Kulutherium. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-ec1df1595d}
-Collection Rusinga Island R2-4, region code KE, stratum name Hiwegi; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Collection Chamtwara, region code KE, stratum name Chamtwara; database age bracket 23.04–15.98 Ma, early interval Early Miocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Kulutherium kenyensis is listed in the PBDB snapshot under taxon txn:113476. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-b9ca83f43e}
-Selected occurrences have an outer age envelope of 23.04–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Chamtwara, occurrence occ:717428 (23.04–15.98 Ma); one supplying the younger bound is Rusinga Island R2-4, occurrence occ:717427 (20.45–15.98 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-ec1df1595d}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-c564971e6a}
-Rusinga Island R2-4 has collection-environment label lacustrine - large; collection preservation-mode label body. Chamtwara has collection-environment label terrestrial indet.. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:717427; PBDB collection col:77024. Locality cnm=Rusinga Island R2-4; place fields cc2=KE. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Stratigraphic fields sfm=Hiwegi. Recorded attribution Pickford 2007; PBDB reference ref:26067.
 
-## Follow collection records back to references {#s-2a6e6a39a0}
-Rusinga Island R2-4 carries database reference attribution Pickford (2007), identifier ref:26067. Chamtwara carries database reference attribution Pickford (2007), identifier ref:26067. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Originally mapped as lacustrine Kulu Formation; subsequent studies indicate it is a lacustrine facies in basal part of Hiwegi Formation
+
+K-Ar dates published by Drake et al. (1988) suggested that the Hiwegi For- mation was deposited ~17.9 Ma, and that the entire fossiliferous Rusinga Group sequence (Fig- ure 1) was deposited in less than a half million years. More recent analyses using 40Ar/39Ar dates, magnetostratigraphy, and lithostratgiraphy demon- strate that the fossiliferous strata on Rusinga were deposited over a much longer time interval, between ~17-20 Ma (Peppe et al., 2009; Peppe et al., 2011; McCollum et al., 2012; Peppe et al. 2016; Peppe et al. 2017).
+
+- Occurrence occ:717428; PBDB collection col:77025. Locality cnm=Chamtwara; place fields cc2=KE. Recorded age bounds: eag 23.04 Ma; lag 15.98 Ma; PBDB interval fields oei=Early Miocene. Stratigraphic fields sfm=Chamtwara. Recorded attribution Pickford 2007; PBDB reference ref:26067.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+age noted as 19-20 Ma
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+location based on proximity to Koru; could be improved
+
+## Age bounds on the recorded occurrences {#s-b9ca83f43e}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:717428; the smallest recorded lag=15.98 Ma in occ:717427. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-c564971e6a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:717427: PBDB taxon-name field tna=Kulutherium kenyensis; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=34.116699, lat=-0.400000; paleocoordinate/model fields pm1=gplates, pln=33.59, pla=-5.7.
+- occ:717428: PBDB taxon-name field tna=Kulutherium kenyensis; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=35.259998, lat=-0.150000; paleocoordinate/model fields pm1=gplates, pln=34.67, pla=-6.04.
+
+## References attached to each record {#s-2a6e6a39a0}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:717427: Recorded attribution Pickford 2007; PBDB reference ref:26067.
+- occ:717428: Recorded attribution Pickford 2007; PBDB reference ref:26067.
 
 ## Evidence limits {#s-c1d6ce7a6e}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

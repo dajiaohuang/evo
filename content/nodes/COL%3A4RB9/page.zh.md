@@ -1,5 +1,7 @@
-## Grypotyphlops 的来源明确条目 {#s-887ec84b12}
-Grypotyphlops 的阅读路径收录 1 条带字段出处的同名同科记录，可从 [Grypotyphlops acutus](Grypotyphlops_acutus/page.zh.md) 开始。页面导航沿用固定版本 COL26.8 名称，ReptTraits 保留 Reptile Database 2023 名称框架；这是一组选读入口，不是完整接受种名录。
+## 记录分类与直接上级关系 {#s-887ec84b12}
+COL26.8 将 Grypotyphlops 记录为属；其直接上级记录为 Typhlopidae。
+
+Grypotyphlops 的阅读路径收录 1 条带字段出处的同名同科记录，可从 Grypotyphlops acutus 开始。页面导航沿用固定版本 COL26.8 名称，ReptTraits 保留 Reptile Database 2023 名称框架；这是一组选读入口，不是完整接受种名录。
 
 ## 比较共同支持的字段 {#s-84bd266506}
 每个后代条目只呈现自身来源支持的性状。只有两个记录采用相同定义且证据可比时，才适合并列字段；缺失值不能从近缘种借用。龟类直线背甲长（SCL）与其他类群使用的吻肛长（SVL）是不同测量。

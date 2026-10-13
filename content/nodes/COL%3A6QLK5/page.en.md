@@ -1,5 +1,5 @@
-## Retain Locustella, Bradypterus and Helopsaltes by table {#s-64987d61ac}
-Pinned COL26.8 organizes this page at Locustella seebohmi (6QLK5). BirdLife 2020 row 4997 gives Locustella seebohmi; eBird 2021 row 5662 gives Locustella seebohmi. Both Avibase IDs are AVIBASE-E38055D6, with type 1BL to 1eBird. BirdTree row 5633 gives Bradypterus seebohmi, with type 1BL to 1BT. Exact Bradypterus catalogue synonym 69438 points to this accepted ID. Name correspondence locates historical sources without establishing identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-64987d61ac}
+Catalogue of Life release COL26.8 records Locustella seebohmi (Ogilvie-Grant, 1895) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-5ef80588ab}
 Morphology comprises 2 birds: 1 female, 1 male and 0 unsexed; 2 complete sets. Nostril-to-tip beak length 7.4 mm, tarsus 21.8 mm, unflattened wing 53.5 mm, tail 62.5 mm and hand-wing index 15.2 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

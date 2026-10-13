@@ -1,5 +1,5 @@
-## Find rows through older Oceanodroma／Halocyptena combinations {#s-548e899575}
-Pinned COL26.8 organizes this page at Hydrobates melania (DD8SY). BirdLife 2020 row 10065 and eBird 2021 row 4923 share the name and Avibase ID AVIBASE-149499C6, with type 1BL to 1eBird; BirdTree row 4900 gives Oceanodroma melania, with type 1BL to 1BT. Read catalogue synonym 48C4C points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-548e899575}
+Catalogue of Life release COL26.8 records Hydrobates melania (Bonaparte, 1854) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-fb948e0bc7}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 9.6 mm, tarsus 29.8 mm, unflattened wing 172.2 mm, tail 81 mm and hand-wing index 61.6 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

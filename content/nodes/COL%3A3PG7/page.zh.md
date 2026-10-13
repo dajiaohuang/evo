@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-cbacf371e7}
+## 记录分类与直接上级关系 {#s-cbacf371e7}
+COL26.8 将 Chrysochloris 记录为属；其直接上级记录为 Chrysochlorinae。
+
 PanTHERIA 为两个 Chrysochloris 历史条目提供可用资料：Chrysochloris asiatica 和 Chrysochloris stuhlmanni。其页面保留原始 MSW05 名称、各变量对应的材料条件以及没有报告数值的字段。当前分类导航依据 COL26.8；历史表格行数不代表目前接受种的数量。
 
 ## 比较体型与生活史 {#s-96c73a8f8c}
@@ -15,14 +17,14 @@ PanTHERIA 为两个 Chrysochloris 历史条目提供可用资料：Chrysochloris
 生活史比较覆盖同名同科且至少有三个带来源支持焦点字段的历史条目。汇编中位数、最高寿命记录和历史分类继承均有各自限制；现有条目不能说明每个后代都有相同的繁殖方式或生活史。
 生态比较纳入名称和科级位置相符、至少有两类可用字段的独特历史条目。它不是完整的后代名册，也不把单一物种的食物类型、估计权重或活动模式视为整个类群共有特征。半定量转换、历史分类以及 ABC 字段可能借用同属材料等限制仍须逐条考虑。
 
-## 从已有历史条目开始 {#s-27de9301f1}
-PanTHERIA 在此提供一个可用条目：[Chrysochloris visagiei](Chrysochloris_visagiei/page.zh.md)。该页保留原始 MSW05 名称、各变量对应的材料条件以及没有报告数值的字段。当前分类导航依据 COL26.8；一行历史表格不等于一个当前接受种。
+## 记录分类与成员材料 {#s-27de9301f1}
+PanTHERIA 在此提供一个可用条目：Chrysochloris visagiei。该页保留原始 MSW05 名称、各变量对应的材料条件以及没有报告数值的字段。当前分类导航依据 COL26.8；一行历史表格不等于一个当前接受种。
 
 ## 这组历史数据的边界 {#s-bd8738cd3f}
 PanTHERIA 概览纳入至少有一个焦点字段、名称和科级位置相符且历史上一对一对应的条目，并不覆盖所有接受后代。比较端点是历史汇总值，不是类群的个体极值；不同字段的材料条件也可能不同。这些资料不能确定当前物种概念、分布或保护状况。
 
 ## 沿生活史资料阅读 {#s-8cb45bf4f3}
-这里可读到两个 Chrysochloris 历史生活史条目：[Chrysochloris stuhlmanni](Chrysochloris_stuhlmanni/page.zh.md) 和 [Chrysochloris asiatica](Chrysochloris_asiatica/page.zh.md)。当前导航采用 COL26.8；这两个条目不代表类群全部接受种。
+这里可读到两个 Chrysochloris 历史生活史条目：Chrysochloris stuhlmanni 和 Chrysochloris asiatica。当前导航采用 COL26.8；这两个条目不代表类群全部接受种。
 
 ## 先区分平均值与纪录 {#s-32f0593bc4}
 现有条目均未提供妊娠期、雌性首次繁殖年龄或最高寿命。首次繁殖不同于首次生产或性成熟；最高寿命不同于平均寿命。性状可能来自不同资料条件，同名关联也没有解决历史分类概念的变化。

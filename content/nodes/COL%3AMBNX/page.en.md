@@ -1,29 +1,29 @@
-## The name and this data account {#s-f8f42c48a5}
-Bolborhynchus orbygnesius is accepted in COL26.8 within Psittacidae. AVONET v7 records 7 measured birds under the HBW–BirdLife 2020 name, 4 with a complete morphological set. Usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-f8f42c48a5}
+The AVONET v7 row for Bolborhynchus orbygnesius (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 12.2 mm. The row records 7 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-6bf1f83501}
-Mean beak length is 12.2 mm from the front edge of the nostril to the tip. At that edge, mean width is 8.9 mm and depth is 13.4 mm. These are separate measurements at defined landmarks, not identification thresholds.
+## Beak measurements at defined landmarks {#s-6bf1f83501}
+AVONET records culmen length (bill tip to skull base) 13.5 mm; beak length (nostril front edge to tip) 12.2 mm; beak width at the nostril front edge 8.9 mm; beak depth at the nostril front edge 13.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-aa85ae3970}
-Mean unflattened wing length from carpal joint to longest primary is 106.6 mm, and mean tarsus length is 12.6 mm. A separate compilation gives mean mass as 43.1 g (Dunning category); it does not imply every measured bird was weighed.
+## Wing and body measures use separate sources {#s-aa85ae3970}
+AVONET records unflattened wing length 106.6 mm; tarsus length 12.6 mm; distance from first secondary tip to longest primary tip 44.9 mm; length to first secondary tip 61.6 mm; hand-wing index 42.2; tail length 66.9 mm; species-average body mass 43.1 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-4b3a3b4a2d}
-AVONET assigns Shrubland habitat, Omnivore trophic niche and Insessorial lifestyle. These are broad comparison categories, not claims of exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-4b3a3b4a2d}
+AVONET classifies Bolborhynchus orbygnesius as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-87b9077dfa}
-The migration field marks this record as partially migratory. Historical breeding and resident maps reach latitude endpoints of -18.35° and -6.42°. They do not cover all non-breeding movements or estimate current global occupancy. The geography and morphology data were compiled separately.
+## The migration label has a limited scope {#s-87b9077dfa}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -18.35° to -6.42°. The mapped range area is 191118.76 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-d678e1eec7}
-In pinned COL26.8, Bolborhynchus orbygnesius is accepted within Psittacidae. Two ecological field groups come from the historical same-name, same-family EltonTraits 1.0 record, with source labels retained. Its taxonomy follows an earlier bird classification or MSW3 for mammals; the name match does not settle modern splits or synonymy.
+## Scope of the historical trait entry {#s-d678e1eec7}
+EltonTraits 1.0 has a same-name, same-family record for Bolborhynchus orbygnesius covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-a92229d81f}
-EltonTraits assigns nonzero food weights of 50% each to fruit and the category that includes seeds, nuts and spores. Code A indicates high compiler confidence in the source and diet information. These percentages are standardized estimates from descriptions, not measured diet shares; a zero does not prove a food is never eaten. Nect, Seed and PlantO have broader meanings than their everyday names.
+## Relative weights across food categories {#s-a92229d81f}
+EltonTraits 1.0 assigns relative diet weights of fruit 50%; seeds or nuts 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-51225b610c}
-The archive flags these as species-level foraging-stratum weights: trees or tall bushes from 2 m upward but below the canopy, 40%; ground, 20%; understory, edges or shrubs below 2 m, 20%; and in or just above the canopy, 20%. They estimate relative use of feeding positions, not nesting sites, all habitat or a full-day time budget. Water, understory, mid/high, canopy and aerial categories have distinct source definitions; they are not elevation ranges or measures of flight height or habitat area.
+## Foraging positions are not a time budget {#s-51225b610c}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 20%; in the understory 20%; in mid-height or high vegetation 40%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-9811859f0d}
-The selected groups carry label Ref_4. Diet, strata and activity may draw on different material, and the same reference number in bird and mammal tables does not identify the same source. The archive retains complete citation strings by file, row, field group and reference table. Underlying books and papers have not been reviewed individually; labels are not additional observations.
+## Sources and field limits {#s-9811859f0d}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-4c8879a458}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages from the listed samples, not diagnostic limits or individual variation ranges. Mass comes from separate literature or weighing sources, so morphology sample counts do not apply to it. Habitat, diet and migration are broad categories; maps cover historical breeding and resident ranges. A one-to-one historical crosswalk and matching name support the association but do not prove that later taxonomic concepts are equivalent. Reproduction, current populations and conservation need other sources.

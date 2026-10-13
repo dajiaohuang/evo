@@ -1,18 +1,34 @@
-## Which fossil records this name represents {#s-8a439da08c}
-Argyrosaurus superbus is accepted in the fixed PBDB dinosaur working roster, with database parent Argyrosaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-8a439da08c}
+Argyrosaurus superbus is listed in the PBDB snapshot under taxon txn:66267. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-a1640f02ef}
-Collection La Angostura, Río Chico (MLP) (Chubut), region code AR, stratum name Lago Colhué Huapi; database age bracket 83.6–66 Ma, early interval Campanian and late interval Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-a1640f02ef}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-eacd8af76c}
-Selected occurrences have an outer age envelope of 83.6–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:508502; PBDB collection col:51618. Locality cnm=La Angostura, Río Chico (MLP); place fields cc2=AR, stp=Chubut. Recorded age bounds: eag 83.6 Ma; lag 66 Ma; PBDB interval fields oei=Campanian, oli=Maastrichtian. Stratigraphic fields sfm=Lago Colhué Huapi. Recorded attribution Lydekker 1893; PBDB reference ref:36798.
 
-## Read preservation setting separately from living habitat {#s-7f90507ccc}
-La Angostura, Río Chico (MLP) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+supposedly 100 m below the "Notostylops beds"; sometimes listed as Castillo Fm.
 
-## Follow collection records back to references {#s-ad347ef0cf}
-La Angostura, Río Chico (MLP) carries database reference attribution Lydekker (1893), identifier ref:36798. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Probably upper member of the Bajo Barreal Formation, Chubut Group (Bonaparte and Gasparini, 1979); Campanian–?Maastrichtian (Late Cretaceous) (Casal et al., 2007). Based on outcrops in the western part of the San Jorge Basin, the Bajo Barreal Formation is generally considered middle Cenomanian–Turonian in age (Bridge et al., 2000, Lamanna et al., 2002); however, recent evidence indicates that the more easterly exposures in the less well-studied Rio Chico area are much younger, i.e., Campanian–?Maastrichtian (Casal et al., 2007) (Mannion and Otero, 2012).
 
-## Evidence limits {#s-f4acc993d6}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+from a barranca in the angle between Lago Musters and Río Chico, on estancia "La Angostura", S bank of Río Chico. However, Huene (1929) and Feruglio (1931) claimed it was from the L (= NW) bank of the river, about 5 km to the E, in the Pampa Pelada (= Pampa de los Boers), 14 km S of 45° latitude, NE of Lago Colhué-Huapi.
+
+Update from Mannion and Otero (2012): Left bank (northwest) of the Río Chico, near Pampa Pelada, northeast of Lago Colhué Huapi, Chubut Province, Argentina
+
+## Age bounds on the recorded occurrences {#s-eacd8af76c}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:508502; the smallest recorded lag=66 Ma in occ:508502. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-7f90507ccc}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:508502: PBDB original-identification field idn=Argyrosaurus superbus n. gen. n. sp.; PBDB taxon-name field tna=Argyrosaurus superbus; material note ocm=MLP 77-V-29-1; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-69.216667, lat=-45.450001; paleocoordinate/model fields pm1=gplates, pln=-53.86, pla=-45.97.
+
+## References attached to each record {#s-ad347ef0cf}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:508502: Recorded attribution Lydekker 1893; PBDB reference ref:36798.
+
+## What these records can show {#s-f4acc993d6}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

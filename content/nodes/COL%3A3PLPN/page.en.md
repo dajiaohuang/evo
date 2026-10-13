@@ -1,29 +1,29 @@
-## What the measurements represent {#s-c10c5349a8}
-COL26.8 accepts Indicator xanthonotus in Indicatoridae. AVONET v7 reports this record under the HBW–BirdLife name used in 2020: five individuals were measured, and four had a complete morphological set. A trait-specific mean may therefore use fewer birds than the overall count.
+## Row-reported mean and sample coverage {#s-c10c5349a8}
+The AVONET v7 row for Indicator xanthonotus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 5.1 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak size at three landmarks {#s-f45bff7ef5}
-Mean beak length from the front edge of the nostril to the tip is 5.1 mm; width and depth at that edge are 3.6 and 4.7 mm. The standardized landmarks define separate dimensions, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-f45bff7ef5}
+AVONET records culmen length (bill tip to skull base) 9.9 mm; beak length (nostril front edge to tip) 5.1 mm; beak width at the nostril front edge 3.6 mm; beak depth at the nostril front edge 4.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-8d0d164c90}
-The unflattened wing, measured from the carpal joint to the longest primary, averages 89.4 mm; the tarsus averages 13.9 mm. A separate species-level compilation gives mean mass as 30.38 g and labels its source Dunning. That record does not show that these measured birds were weighed.
+## Wing and body measures use separate sources {#s-8d0d164c90}
+AVONET records unflattened wing length 89.4 mm; tarsus length 13.9 mm; distance from first secondary tip to longest primary tip 25 mm; length to first secondary tip 63.3 mm; hand-wing index 28.2; tail length 53.5 mm; species-average body mass 30.38 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Broad habitat and feeding labels {#s-514dd82fa2}
-AVONET labels the habitat Wetland, the trophic niche Invertivore and the lifestyle Insessorial (primarily perching above ground). These are comparison classes for dominant tendencies, not claims of exclusive wetland use or an invertebrate-only diet.
+## Recorded habitat and feeding categories {#s-514dd82fa2}
+AVONET classifies Indicator xanthonotus as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and mapped latitude {#s-b7b732f5f0}
-The migration field calls the record sedentary. Historical breeding and resident maps extend from 25.37° to 34.38° north. They do not give a complete account of non-breeding movement or current occupancy; geography and morphology come from separate compilation steps.
+## Mapped range is not a locality list {#s-b7b732f5f0}
+Historical breeding and resident maps span latitude endpoints 25.37° to 34.38°. The mapped range area is 97279.81 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## A separate historical ecology record {#s-240230c0b5}
-EltonTraits 1.0 also records Indicator xanthonotus in Indicatoridae, using an earlier taxonomy. This comparison uses its diet and feeding-position groups with their source labels. A matching name does not decide how later splits or synonymies should be treated.
+## Scope of the historical trait entry {#s-240230c0b5}
+EltonTraits 1.0 has a same-name, same-family record for Indicator xanthonotus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Food in the EltonTraits estimate {#s-10cbb7f89d}
-Invertebrates account for all of the nonzero diet weight (100%). Code A records high compiler confidence in the source and diet entry, but the percentage is a standardized reading of published descriptions, not measured intake. Zero weight for another category would not prove it is never eaten; broad dataset labels should not be mistaken for exclusive diets.
+## Relative weights across food categories {#s-10cbb7f89d}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Feeding positions in the vegetation {#s-e7397591df}
-The species-level stratum record divides feeding positions equally: 50% below 2 m in understory, edges or shrubs, and 50% in trees or tall bushes from 2 m up to the canopy. These relative weights do not locate nests, describe all habitat or provide a daily time budget. Source classes such as water surface, mid/high, canopy and aerial are not elevation bands and cannot yield flight height or habitat area.
+## Foraging positions are not a time budget {#s-e7397591df}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 50%; in mid-height or high vegetation 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Provenance of the selected fields {#s-1ce2bd07fa}
-Both selected groups point to Ref_7, the Handbook of the Birds of the World, volume 7. Diet and feeding position can derive from different material in other records, and the same reference number in mammal and bird tables need not identify the same work. Original citation strings remain tied to file, row, field group and table. The Handbook source was not independently reread here.
+## Sources and field limits {#s-1ce2bd07fa}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits of the summaries {#s-5d4e39a376}
 AVONET measurements are species means from the historical sample, not diagnostic limits or individual ranges. Mass has separate provenance and does not inherit the morphological sample count. Habitat, trophic niche and migration are broad labels; the map summarizes historical breeding and resident ranges. The name crosswalk associates this record with the current catalogue entry but cannot prove that species concepts remained equivalent through later splits or lumps. Reproduction, present-day range, populations and conservation require other evidence.

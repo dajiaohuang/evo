@@ -1,4 +1,6 @@
-## 本批的物种页 {#s-9361e448f1}
+## 记录分类与直接上级关系 {#s-9361e448f1}
+COL26.8 将 Melichneutes 记录为属；其直接上级记录为 Indicatoridae。
+
 Melichneutes 路径在本批有 1 条测量物种记录：Melichneutes robustus。目录层级依固定 COL26.8 组织；生物学数值保留 AVONET v7 历史名称与采样范围。
 
 ## 单条记录所示内容 {#s-81088b2a93}

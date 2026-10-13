@@ -1,5 +1,5 @@
-## Find rows through older Turdoides combinations {#s-cbd18c83c9}
-Pinned COL26.8 organizes this page at Argya rubiginosa (LVWH8). BirdLife 2020 row 4825 and eBird 2021 row 956 share the name and Avibase ID AVIBASE-861DA135, with type 1BL to 1eBird; BirdTree row 957 gives Turdoides rubiginosa, with type 1BL to 1BT. Read catalogue synonym 7CZ7J points to this accepted ID. Source family Leiotrichidae and catalogue Leiothrichidae retain their spellings. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-cbd18c83c9}
+Catalogue of Life release COL26.8 records Argya rubiginosa (Rüppell, 1845) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-1da04c7ba0}
 Morphology comprises 9 birds: 4 female, 5 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 11.3 mm, tarsus 27.2 mm, unflattened wing 83.4 mm, tail 101.9 mm and hand-wing index 7 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

@@ -1,5 +1,5 @@
-## Find rows through older Puffinus combinations {#s-3730cbb9a3}
-Pinned COL26.8 organizes this page at Ardenna grisea (D5KCJ). BirdLife 2020 row 10087 and eBird 2021 row 933 share the name and Avibase ID AVIBASE-1725B07D, with type 1BL to 1eBird; BirdTree row 935 gives Puffinus griseus, with type 1BL to 1BT. Catalogue synonym 4QFXR, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-3730cbb9a3}
+Catalogue of Life release COL26.8 records Ardenna grisea (J. F. Gmelin, 1789) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-21f99f97fa}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 31.1 mm, tarsus 55.8 mm, unflattened wing 295.6 mm, tail 88 mm and hand-wing index 61.8 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

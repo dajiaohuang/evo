@@ -1,19 +1,40 @@
 ## Which fossil records this name represents {#s-fb714d5843}
 Protapirus douvillei is accepted in the fixed PBDB mammalia working roster, with database parent Protapirus. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-35391fa896}
-Collection Buchberg 6, region code CH; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Collection Paulhiac (Lot-et-Garonne), region code FR; database age bracket 23.04–20.45 Ma, early interval Aquitanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Protapirus douvillei is listed in the PBDB snapshot under taxon txn:350789. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-4477eef5d8}
-Selected occurrences have an outer age envelope of 23.04–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Paulhiac, occurrence occ:1357675 (23.04–20.45 Ma); one supplying the younger bound is Buchberg 6, occurrence occ:1357664 (20.45–15.98 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-35391fa896}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-abb41c2102}
-Buchberg 6 has collection-environment label terrestrial indet.; collection preservation-mode label body. Paulhiac has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1357664; PBDB collection col:184455. Locality cnm=Buchberg 6; place fields cc2=CH. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Recorded attribution Scherler et al. 2011; PBDB reference ref:61798.
 
-## Follow collection records back to references {#s-846eef9101}
-Buchberg 6 carries database reference attribution Scherler et al. (2011), identifier ref:61798. Paulhiac carries database reference attribution Scherler et al. (2011), identifier ref:61798. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+OSM (Upper Freshwater Molasse)
+
+- Occurrence occ:1357675; PBDB collection col:181673. Locality cnm=Paulhiac; place fields cc2=FR, stp=Lot-et-Garonne. Recorded age bounds: eag 23.04 Ma; lag 20.45 Ma; PBDB interval fields oei=Aquitanian. Recorded attribution Scherler et al. 2011; PBDB reference ref:61798.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower Aquitanian
+
+## Age bounds on the recorded occurrences {#s-4477eef5d8}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:1357675; the smallest recorded lag=15.98 Ma in occ:1357664. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-abb41c2102}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1357664: PBDB taxon-name field tna=Protapirus douvillei; material note ocm=PIMUZ A/V690; PBDB locality-coordinate fields lng=8.613889, lat=47.738888; paleocoordinate/model fields pm1=gplates, pln=11.02, pla=44.37.
+- occ:1357675: PBDB taxon-name field tna=Protapirus douvillei; PBDB locality-coordinate fields lng=0.780000, lat=44.580002; paleocoordinate/model fields pm1=gplates, pln=3.97, pla=40.8.
+
+## References attached to each record {#s-846eef9101}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1357664: Recorded attribution Scherler et al. 2011; PBDB reference ref:61798.
+- occ:1357675: Recorded attribution Scherler et al. 2011; PBDB reference ref:61798.
 
 ## Evidence limits {#s-688439960b}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

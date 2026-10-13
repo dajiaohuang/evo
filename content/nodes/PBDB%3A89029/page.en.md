@@ -1,18 +1,46 @@
-## Which fossil records this name represents {#s-a0d0649c67}
-Psittacosaurus sibiricus is accepted in the fixed PBDB dinosaur working roster, with database parent Psittacosaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-a0d0649c67}
+Psittacosaurus sibiricus is listed in the PBDB snapshot under taxon txn:89029. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-665c80da63}
-Collection Shestakovo-1 (Kemerovo), region code RU, stratum name Ilek; database age bracket 121.4–113.2 Ma, early interval Aptian. Collection Shestakovo-3 (Kemerovo), region code RU, stratum name Ilek; database age bracket 125.77–113.2 Ma, early interval Barremian and late interval Aptian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-665c80da63}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-44431e99ce}
-Selected occurrences have an outer age envelope of 125.77–113.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:410874; PBDB collection col:39680. Locality cnm=Shestakovo-1; place fields cc2=RU, stp=Kemerovo, cny=Chebulinsky. Recorded age bounds: eag 121.4 Ma; lag 113.2 Ma; PBDB interval fields oei=Aptian. Stratigraphic fields sfm=Ilek. Recorded attribution Averianov et al. 2006; PBDB reference ref:19092.
 
-## Read preservation setting separately from living habitat {#s-05afa7c425}
-Shestakovo-1 has collection-environment label terrestrial indet.; collection preservation-mode label body. Shestakovo-3 has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Ilekskaya Suite"
 
-## Follow collection records back to references {#s-c81bad4d1b}
-Shestakovo-1 carries database reference attribution Averianov et al. (2006), identifier ref:19092. Shestakovo-3 carries database reference attribution Leshchinskiy et al. (2000), identifier ref:40059. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Recently the fossiliferous level at Shestakovo 1 locality has been dated as Aptian by pollen (Bugdaeva et al., 2017).
 
-## Evidence limits {#s-e7d5970500}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Shestakovo-1 locality, Kemerovo region, western Siberia, Kuznetsk Basin, Chebula district, about 40 km S of Mariinsk city; right bluff/precipice of Kiya (Kie) River, a right tributary of Chulym River, 1.5 km downstream from Shestakovo
+
+- Occurrence occ:520770; PBDB collection col:52808. Locality cnm=Shestakovo-3; place fields cc2=RU, stp=Kemerovo, cny=Chebulinsky. Recorded age bounds: eag 125.77 Ma; lag 113.2 Ma; PBDB interval fields oei=Barremian, oli=Aptian. Stratigraphic fields sfm=Ilek. Recorded attribution Leshchinskiy et al. 2000; PBDB reference ref:40059.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Ilekskaya Suite"; several bone-bearing layers within the main "Layer 1"
+
+Skutschas et al. 2017: The dating of the Shestakovo 3 locality within the Lower Cretaceous remains controversial: it has been dated as Berriasian (Alifanov et al. 1999), Aptian–Albian (Averianov et al. 2006), and Barremian–Aptian (Kurochkin et al. 2011) based on vertebrates.
+
+Age of Ilek Formation is poorly constrained but is currently believed to be Barremian-Aptian (see Averianov et al. 2018). The fossiliferous layer at Shestakovo 1 locality was dated to Aptian (Bugadeva et al. 2017). The overlying Kiya Formation has been assigned Albian age based on plant remains (Golovneva and Shchepetov 2010).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Shestakovo-3 locality, road cut outcrop 1 km SE from Shestakovo village, Kiya River precipice, Kemerovo region, western Siberia, Chebula district, about 40 km S of Mariinsk city. Also listed as 3 km E of Shestakovo and 2 km NE of Shestakovo Bluff; a roadcut.
+
+## Age bounds on the recorded occurrences {#s-44431e99ce}
+Across these selected PBDB rows, the largest recorded eag=125.77 Ma in occ:520770; the smallest recorded lag=113.2 Ma in occ:410874. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-05afa7c425}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:410874: PBDB taxon-name field tna=Psittacosaurus sibiricus; PBDB locality-coordinate fields lng=87.957779, lat=55.903332; paleocoordinate/model fields pm1=gplates, pln=97.36, pla=49.46.
+- occ:520770: PBDB original-identification field idn=Psittacosaurus sibiricus n. sp.; PBDB taxon-name field tna=Psittacosaurus sibiricus; material note ocm=PM TSU 120-Sh3-125, 16/0-54 to 56; KOKM 4652/1. 9–11, 13, 16; KOKM 22985/1, 2, 8; KOKM 24114/52plus hundreds of isolated specimens; abundance fields abv=14, abu=individuals; PBDB locality-coordinate fields lng=87.999168, lat=55.876110; paleocoordinate/model fields pm1=gplates, pln=96.36, pla=49.01.
+
+## References attached to each record {#s-c81bad4d1b}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:410874: Recorded attribution Averianov et al. 2006; PBDB reference ref:19092.
+- occ:520770: Recorded attribution Leshchinskiy et al. 2000; PBDB reference ref:40059.
+
+## What these records can show {#s-e7d5970500}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

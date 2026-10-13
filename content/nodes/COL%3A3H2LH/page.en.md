@@ -1,15 +1,15 @@
-## Name and this data account {#s-ab64fa4244}
-Pinned COL26.8 accepts Gopherus morafkai in Testudinidae. This account follows its ReptTraits v1-2 row, retaining the Reptile Database 2023 name framework and trait-specific sources. Because the dataset has one row per species, its categories describe that record rather than every population.
+## COL26.8 name and the ReptTraits row {#s-ab64fa4244}
+COL26.8 records Gopherus morafkai as an accepted species. The ReptTraits v1-2 row gives its Family field as Testudinidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Where and how it is active {#s-ff391c4202}
-The row classifies the microhabitat as Terrestrial. This broad category is not a complete habitat inventory or fixed schedule; the one-row summary cannot show variation among populations, seasons or life stages.
+## Habitat use and activity labels {#s-ff391c4202}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to The Reptile Database 2023.
 
-## How to read reproductive records {#s-165c9fbdf6}
-The entry records an oviparous reproductive mode and a consolidated value of 1 litter or clutch per year. This annual count is a dataset summary, not a guarantee for every individual or population. It does not establish fetal nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-165c9fbdf6}
+The row reports 1 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-6d901d4f65}
-This is a small supplemental trait account, not a complete treatment of morphology or ecology. It paraphrases the same-name ReptTraits v1-2 row, retaining the Reptile Database 2023 framework and individual trait sources. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later taxonomic concepts. Reported maxima are not absolute length limits. Many dataset mass values are estimated from length equations and are not treated here as measured mass. Juvenile-length fields have differing headers and definitions and are not used in the conclusions. Conservation, venom, current distribution and population trends are not updated; missing fields remain gaps. Citation labels preserve the source chain but do not imply independent review here of every original work.
+## Reading this compiled trait record {#s-6d901d4f65}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-a34324784d}
-Three traits have field-specific source labels and are interpreted here. This account does not establish supported species values and sources for maximum length (SVL, or SCL for turtles), maximum female or male length, maximum total length (TL), mean offspring per litter or eggs per clutch, minimum or maximum clutch size, egg dimensions, diet, active time, foraging mode or sex-determining mechanism (GSD or TSD). Relatives and blank entries cannot supply those missing facts.
+## Reading this compiled trait record {#s-a34324784d}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

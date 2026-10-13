@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-0fb9d84595}
-Pinned COL26.8 organizes this page at Cinnyris ursulae (5Z75M). BirdLife 2020 row 5996 and eBird 2021 row 2368 share the name and Avibase ID AVIBASE-6781CD7F, with type 1BL to 1eBird; BirdTree row 2361 gives Nectarinia ursulae, with type 1BL to 1BT. Read older-combination record 462PZ points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-0fb9d84595}
+Catalogue of Life release COL26.8 records Cinnyris ursulae (Alexander, 1903) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-f1d1be3ac6}
 Morphology covers 5 birds: 2 female, 3 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 13.4 mm, tarsus 14.1 mm, unflattened wing 46.8 mm, tail 26.6 mm and hand-wing index 15.3 are historical row means. Inference=NO does not establish 5 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

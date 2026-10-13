@@ -1,29 +1,29 @@
-## The name and this data account {#s-a3b5d85f92}
-COL26.8 accepts *Melanerpes chrysogenys* in Picidae. AVONET v7 records it under the HBW–BirdLife 2020 name and reports measurements for 5 individuals; 4 have a complete set of morphological measurements. A trait may use fewer records than the total.
+## Row-reported mean and sample coverage {#s-a3b5d85f92}
+The AVONET v7 row for Melanerpes chrysogenys (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 18.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-3efbd4cc9f}
-At the source's standardized landmarks, mean beak length—from the front edge of the nostril to the tip—is 18.8 mm. Width and depth at the nostril edge average 6.5 mm and 6.7 mm. These measurements describe different dimensions; they are not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-3efbd4cc9f}
+AVONET records culmen length (bill tip to skull base) 26.5 mm; beak length (nostril front edge to tip) 18.8 mm; beak width at the nostril front edge 6.5 mm; beak depth at the nostril front edge 6.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-f0c67cbebf}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 117.8 mm; mean tarsus length is 20.3 mm. A separate compilation gives mean mass as 67.72 g and assigns it source category Dunning. That species-average mass is not evidence that each morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-f0c67cbebf}
+AVONET records unflattened wing length 117.8 mm; tarsus length 20.3 mm; distance from first secondary tip to longest primary tip 24.9 mm; length to first secondary tip 91.6 mm; hand-wing index 21.4; tail length 79.4 mm; species-average body mass 67.72 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-4bd8db5cc6}
-AVONET's dominant categories are Woodland for habitat, Invertivore for trophic niche and Insessorial for lifestyle. They are comparison labels, not claims that the bird uses only woodland or eats only invertebrates.
+## Recorded habitat and feeding categories {#s-4bd8db5cc6}
+AVONET classifies Melanerpes chrysogenys as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-e596041b85}
-The migration field calls the record sedentary. Historical breeding and resident maps run between latitude endpoints 15.65° and 24.12°. They do not show all non-breeding movements or establish a current position or global occupancy. The map summary and morphological measurements come from separate compilations.
+## The migration label has a limited scope {#s-e596041b85}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 15.65° to 24.12°. The mapped range area is 161373.56 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-c446848371}
-EltonTraits 1.0 also holds an older *Melanerpes chrysogenys* record in the same family. This page uses its two selected ecological field groups as a historical comparison with the accepted COL26.8 entry. The dataset follows earlier bird or MSW3 mammal taxonomy, so matching names do not settle later splits or synonymies.
+## Scope of the historical trait entry {#s-c446848371}
+EltonTraits 1.0 has a same-name, same-family record for Melanerpes chrysogenys covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-391e4ec414}
-The nonzero food weights are invertebrates 80%, fruit 10%, and a combined seeds, nuts and spores category 10%. Code A indicates high compiler confidence in the source and diet information. These figures standardize written descriptions rather than measure diet composition; a zero does not prove that a food is never eaten. Nect, Seed and PlantO are broader than their everyday names, so they do not imply exclusive use of nectar, seeds or plants.
+## Relative weights across food categories {#s-391e4ec414}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; fruit 10%; seeds or nuts 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-3e74be9465}
-The archive marks its feeding-position weights as species-level: trees or tall bushes from 2 m up to the canopy 80%, and within or just above the canopy 20%. These are relative estimates of where feeding occurs, not nest sites, all habitat or a full-day time budget. Surface-water, understory, mid/high, canopy and aerial positions have distinct source definitions; they are not elevation bands and cannot be used to calculate flight heights or habitat area.
+## Foraging positions are not a time budget {#s-3e74be9465}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 80%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-e05b32142a}
-The selected groups carry the label Ref_7. Diet, feeding position and activity can come from different material, and Ref_7 in a bird table does not necessarily name the same source as Ref_7 in a mammal table. The archive preserves each full source string with its file, row, field group and reference table. The underlying books and papers have not been read individually; labels do not add independent observations.
+## Sources and field limits {#s-e05b32142a}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-cae91edca6}
 AVONET v7 is historical data, not a complete species account. Its morphological figures are sample-based species averages, not identification diagnoses or ranges of individual variation. Mass comes from separate cited literature or weighing sources, so the morphology sample counts cannot be applied to it. Habitat, diet and migration are broad categories, while the geography covers historical breeding and resident ranges only. A one-to-one crosswalk to an older name plus the catalogue match supports the association here; it does not prove species concepts stayed equivalent through splits or lumps. Other sources are needed for reproduction, current populations and conservation status.

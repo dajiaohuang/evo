@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-25b2801f2c}
+## 记录分类与直接上级关系 {#s-25b2801f2c}
+COL26.8 将 Oligodon 记录为属；其直接上级记录为 Colubrinae。
+
 Oligodon 的本批 ReptTraits 阅读路径包含 17 条同名同科、有逐性状出处的物种资料，可从 Oligodon albocinctus、Oligodon annulifer、Oligodon arnensis、Oligodon catenatus、Oligodon chinensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 不同类群需要不同尺度 {#s-b3d8f6657a}
@@ -10,8 +12,8 @@ Oligodon 的本批 ReptTraits 阅读路径包含 17 条同名同科、有逐性�
 ## 部分后代条目的引用缺口 {#s-c069a1887f}
 这条 ReptTraits 阅读路径中有 10 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-63834bb8c2}
-Oligodon 的本批 ReptTraits 阅读路径包含 57 条同名同科、有逐性状出处的物种资料，可从 [Oligodon affinis](Oligodon_affinis/page.zh.md)、[Oligodon ancorus](Oligodon_ancorus/page.zh.md)、[Oligodon annamensis](Oligodon_annamensis/page.zh.md)、[Oligodon barroni](Oligodon_barroni/page.zh.md)、[Oligodon bitorquatus](Oligodon_bitorquatus/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-63834bb8c2}
+Oligodon 的本批 ReptTraits 阅读路径包含 57 条同名同科、有逐性状出处的物种资料，可从 Oligodon affinis、Oligodon ancorus、Oligodon annamensis、Oligodon barroni、Oligodon bitorquatus 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-2b735025ea}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

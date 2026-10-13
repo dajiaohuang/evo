@@ -1,26 +1,26 @@
-## AVONET measurements under a historical name {#s-8f2b37f195}
-COL26.8 accepts *Bucco capensis* in Bucconidae. AVONET v7 reports this species under its HBW–BirdLife 2020 name. The source lists six measured individuals, four with a complete morphological set; sample sizes can still differ by trait.
+## Row-reported mean and sample coverage {#s-8f2b37f195}
+The AVONET v7 row for Bucco capensis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 22 mm. The row records 6 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-8703c81f75}
-Recorded mean beak measurements are 22 mm from the anterior nostril edge to the tip, 11.3 mm in width and 12.8 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-8703c81f75}
+AVONET records culmen length (bill tip to skull base) 34.5 mm; beak length (nostril front edge to tip) 22 mm; beak width at the nostril front edge 11.3 mm; beak depth at the nostril front edge 12.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-fc14f88683}
-Mean unflattened wing length from the carpal joint to the longest primary is 86.7 mm; mean tarsus length is 17.4 mm. Compiled mean mass is 54 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-fc14f88683}
+AVONET records unflattened wing length 86.7 mm; tarsus length 17.4 mm; distance from first secondary tip to longest primary tip 17.2 mm; length to first secondary tip 68.5 mm; hand-wing index 19.9; tail length 57 mm; species-average body mass 54 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-e705f1f004}
-The dataset assigns habitat Forest, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-e705f1f004}
+AVONET classifies Bucco capensis as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-8c48501aad}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -13.87° to 8.27°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-8c48501aad}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -13.87° to 8.27°. The mapped range area is 5454915.04 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## One foraging-position field {#s-f31ee669de}
-COL26.8 accepts *Bucco capensis* in Bucconidae. EltonTraits 1.0 also includes a same-name, same-family bird record with one ecological field group available here. Its taxonomy is historical, so the shared name does not settle later splits or synonym disputes.
+## Scope of the historical trait entry {#s-f31ee669de}
+EltonTraits 1.0 has a same-name, same-family record for Bucco capensis covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-7d71a3bc7d}
-The species-level foraging-stratum weights are 50% on the ground and 50% in understory, edges or shrubs below 2 m. They estimate relative use of feeding positions, not nest sites, all habitat or a whole-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-7d71a3bc7d}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 50%; in the understory 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-a1b46be0a3}
-The field carries the source label Ref_7. Diet, foraging stratum and activity may come from different material, and the same reference number in bird and mammal bibliographies does not necessarily identify the same work. The linked source details preserve the original citation strings. The underlying books and papers have not been individually read, and a source label is not an additional independent observation.
+## Sources and field limits {#s-a1b46be0a3}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-986e5bd06c}
 AVONET morphology values are sample averages, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources; the six measured birds must not be assumed to be the mass sample. Habitat, diet and migration are broad categories, and the geographic summary covers historical breeding and resident ranges only. Historical crosswalks and a matching catalogue name support association but do not prove that species concepts remained equivalent through later splits or lumps. Other sources are needed for reproduction, current populations and conservation status.

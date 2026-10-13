@@ -1,5 +1,5 @@
-## Historical Anas combination and the pinned name {#s-82dcbf4eb4}
-This page follows pinned COL26.8 Spatula discors (9HKHF). AVONET v7 BirdLife 2020 row 398 and the eBird 2021 crosswalk use the same name and Avibase ID AVIBASE-90E2543E; BirdTree gives Anas discors, labelled 1BL to 1BT. Pinned COL synonym DGNG points to accepted ID 9HKHF. Name links do not verify every species boundary across dates.
+## A name fixed to COL26.8 {#s-82dcbf4eb4}
+Catalogue of Life release COL26.8 records Spatula discors (Linnaeus, 1766) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Beak, wing and compiled mass have different denominators {#s-cce2168b35}
 Morphology covers 6 birds (2 female and 4 male), with 4 complete measurements. Mean nostril-to-tip beak length is 31.8 mm, beak width at the nostrils 15.6 mm, unflattened wing 178.3 mm and hand-wing index 53.8. These are species averages; the index is defined by Kipp’s distance/wing length ×100, not flight speed. Mass 359.44 g comes separately from Dunning’s literature compilation and cannot inherit the morphology sample size. Inference=NO retains the workbook’s non-inference flag without supplying individual bounds from unread raw material.

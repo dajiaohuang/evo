@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-d7cc626dbb}
-Pinned COL26.8 organizes this page at Trochalopteron subunicolor (596HF). BirdLife 2020 row 4933 and eBird 2021 row 10699 share the name and Avibase ID AVIBASE-C9493A71, with match type 1BL to 1eBird; BirdTree row 10632 gives Garrulax subunicolor, with type 1BL to 1BT. Read COL older-combination record 3FBS2 points to this accepted ID. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-d7cc626dbb}
+Catalogue of Life release COL26.8 records Trochalopteron subunicolor Blyth, 1843 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-5123d68a07}
 The morphology row covers 5 birds: 2 female, 3 male and 0 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 9.2 mm, tarsus 36.7 mm, unflattened wing 92.3 mm, tail 108.4 mm and hand-wing index 5 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

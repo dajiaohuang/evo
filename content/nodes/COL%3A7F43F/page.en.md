@@ -1,28 +1,27 @@
-## Name and this data account {#s-fce27b7142}
-Uta encantadae is accepted in pinned COL26.8 within Phrynosomatidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-fce27b7142}
+COL26.8 records Uta encantadae as an accepted species. The ReptTraits v1-2 row gives its Family field as Phrynosomatidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-c1c43b1fd1}
-Recorded dimensions are reported maximum snout–vent length (SVL) 69 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-c1c43b1fd1}
+The row reports a maximum SVL of 69 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Where and how it is active {#s-c0b3d52eb8}
-In the entry, microhabitat is Saxicolous/Terrestrial; diet is Omnivorous; active timing is Diurnal. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-c0b3d52eb8}
+The microhabitat field classifies the recorded position as rock-dwelling (Saxicolous)/ground-dwelling (Terrestrial) [source label: Saxicolous/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023. The diet field classifies the entry as plant- and animal-eating (Omnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## How to read reproductive records {#s-dd9d4f91dc}
-consolidated mean offspring or eggs per litter/clutch 3.55; lowest reported clutch/litter mean 3; highest reported clutch/litter mean 4. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-dd9d4f91dc}
+The compiled mean for offspring per litter or eggs per clutch is 3.55. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 3; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 4; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018.
 
-## The 2015 life-history entry and this name {#s-6a51f825bb}
-Uta encantadae is accepted in pinned COL26.8 within Phrynosomatidae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## A 2015 life-history row for this name {#s-6a51f825bb}
+COL26.8 records Uta encantadae as an accepted species. The August 2015 life-history table has a species-name and family match (Phrynosomatidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-c4ea4933b7}
-Historical summary values are adult body mass 3.6 g; mass at birth or hatching 0.32 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+## Length values in the archived records {#s-c4ea4933b7}
+Field-specific archive notes: adult body mass: a mean of cited source values; mass at birth or hatching: one direct source citation, with no median count stated. The archive reports adult body mass as 3.6 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011. The combined birth-or-hatching mass field is 0.32 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
-## Reproduction and developmental timing {#s-7d6869f780}
-Available compilation fields are offspring per litter or eggs per clutch 3.55 offspring/eggs; oviposition to hatching 46 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive events in the life-history table {#s-7d6869f780}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 12 recorded source-table values; oviposition to hatching: a mean of cited source values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 3.55; it is not a count from one event. The 2015 archive's field citation is Warne and Charnov, 2008; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; Reptile Incubation book. The incubation field is 46 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## How to trace these values to sources {#s-8f5e7f861a}
-Same-name sparse rows carry source labels including Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011; Warne and Charnov, 2008; Reptile Incubation book, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## The August 2015 life-history table {#s-8f5e7f861a}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-70c854a185}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
-This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
+## Separate histories in the two archives {#s-70c854a185}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

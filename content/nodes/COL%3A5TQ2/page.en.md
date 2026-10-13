@@ -1,4 +1,6 @@
-## Genus-level models and species studies answer different questions {#s-574517cd65}
+## Recorded classification and direct parent {#s-574517cd65}
+COL26.8 records Mirza Gray, 1870 at genus rank, with Cheirogaleidae Gray, 1873 as its direct parent.
+
 COL26.8 recognizes Mirza as a genus with two linked species pages here: *M. coquereli* and *M. zaza*. The studies summarized across those pages use different places and methods, so a result for one species or site should not be read as a trait of the whole genus.
 
 ## Environmental associations in a genus-level analysis {#s-2b2a4fccbd}

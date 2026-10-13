@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-30c68db204}
-Parapodemus is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 4 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Parapodemus {#s-30c68db204}
+Parapodemus is listed at rank genus in the PBDB classification route, with Muridae as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-865faa5128}
 Start with Parapodemus gaudryi, Parapodemus meini, Parapodemus lugdunensis, Parapodemus coronensis and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 34 selected occurrences from 34 collections; example stratum names are Lefkon, Alfambra, Venta del Moro-Villatoya, Alcala. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-bf49c3b5cb}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-bf49c3b5cb}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Parapodemus gaudryi’s collection record, not a continuous history for Parapodemus.
 

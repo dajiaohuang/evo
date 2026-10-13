@@ -1,9 +1,11 @@
-## Local data reading route {#s-359dd763f9}
+## Recorded classification and direct parent {#s-359dd763f9}
+COL26.8 records Oxylabes at genus rank, with Bernieridae as its direct parent.
+
 This batch’s Oxylabes route includes 1 measured species records. Start with Oxylabes madagascariensis. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-6dce456945}
 Compiled mean mass endpoints in this batch are Oxylabes madagascariensis at 23.3 g and Oxylabes madagascariensis at 23.3 g. Represented habitat categories include Forest; trophic niches include Invertivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Evidence limits {#s-7b526236c7}
+## Limits attached to these records {#s-7b526236c7}
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
 

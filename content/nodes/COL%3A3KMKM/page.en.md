@@ -1,29 +1,29 @@
-## The name and this data account {#s-271452b839}
-Hemicircus canente is accepted in COL26.8 within Picidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-271452b839}
+The AVONET v7 row for Hemicircus canente (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 17 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-6942f9d18a}
-Recorded mean beak measurements are 17 mm from the anterior nostril edge to the tip, 6.4 mm in width and 6.1 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-6942f9d18a}
+AVONET records culmen length (bill tip to skull base) 20.4 mm; beak length (nostril front edge to tip) 17 mm; beak width at the nostril front edge 6.4 mm; beak depth at the nostril front edge 6.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-dd94b64d8f}
-Mean unflattened wing length from the carpal joint to the longest primary is 94.6 mm; mean tarsus length is 17.3 mm. Compiled mean mass is 43.01 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-dd94b64d8f}
+AVONET records unflattened wing length 94.6 mm; tarsus length 17.3 mm; distance from first secondary tip to longest primary tip 11.8 mm; length to first secondary tip 81.2 mm; hand-wing index 12.7; tail length 33.4 mm; species-average body mass 43.01 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-e6d697601e}
-The dataset assigns habitat Forest, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-e6d697601e}
+AVONET classifies Hemicircus canente as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-a69d98941f}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 8.52° to 25.43°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-a69d98941f}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 8.52° to 25.43°. The mapped range area is 665192.85 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-7d86e6e8f5}
-Hemicircus canente is accepted in pinned COL26.8 within Picidae. EltonTraits 1.0 links a same-name record in the same family, with estimates for both food and foraging stratum. Its bird classification is historical; the catalogue match does not show that the source and current taxonomy use identical species boundaries.
+## Scope of the historical trait entry {#s-7d86e6e8f5}
+EltonTraits 1.0 has a same-name, same-family record for Hemicircus canente covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-6eef3c593e}
-The archive’s nonzero food weights are invertebrates 100%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-6eef3c593e}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-89983db67d}
-Foraging-stratum weights flagged as species-level in the archive are trees or high bushes from 2 m upward but below the canopy 50%; in or just above the canopy 50%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-89983db67d}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 50%; in the canopy 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-9b064111ba}
-Both field groups carry the label Ref_7. The label locates a catalogue citation; it is not a separate observation or independent confirmation. Food and stratum estimates may draw on different literature, and the underlying works have not been checked individually for this page.
+## Sources and field limits {#s-9b064111ba}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-8fe338311a}
 AVONET v7 measurements are means from the listed samples, not identification diagnoses or individual ranges; the 43.01 g mass comes from a separate species-average source and is not based on those specimen counts. Habitat, feeding and movement are broad categories, and the latitude endpoints describe historical breeding and resident maps. The EltonTraits percentages standardize literature descriptions rather than measure food intake or time at each height. The Ref_7 label is a citation locator, and the linked name does not settle historical species boundaries. Current range, population trends and conservation status require other sources.

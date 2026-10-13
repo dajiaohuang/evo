@@ -1,4 +1,4 @@
-## Choose comparison pages by life-history fields {#s-6355fd1e03}
+## Amniote Life-history archive member records {#s-6355fd1e03}
 This batch’s Lycalopex route includes 5 historical life-history accounts; start with Lycalopex culpaeus, Lycalopex fulvipes, Lycalopex griseus, Lycalopex gymnocercus, Lycalopex vetulus. More frequently represented fields include adult body mass (5 entries), offspring per litter or eggs per clutch (5 entries), conception or fertilization to birth (5 entries), longest lifespan record in the compilation (5 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-b4ab23b4a1}

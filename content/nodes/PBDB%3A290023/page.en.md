@@ -1,18 +1,52 @@
-## Which fossil records this name represents {#s-1dabdc98d4}
-Anzu wyliei is accepted in the fixed PBDB dinosaur working roster, with database parent Anzu. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-1dabdc98d4}
+Anzu wyliei is listed in the PBDB snapshot under taxon txn:290023. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-37658cfb91}
-Collection Sandy Site, KJ9536 (DMNH 1492) (South Dakota), region code US, stratum name Hell Creek; database age bracket 72.2–66 Ma, early interval Lancian. Collection 5 km northwest of Marmarth (MRF) (North Dakota), region code US, stratum name Hell Creek; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection Tooth Draw Quarry (TD), Deer's Ears Butte (South Dakota), region code US, stratum name Hell Creek; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-37658cfb91}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-80569fd520}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1197891; PBDB collection col:48235. Locality cnm=Sandy Site, KJ9536 (DMNH 1492); place fields cc2=US, stp=South Dakota, cny=Harding. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Lancian. Stratigraphic fields sfm=Hell Creek. Recorded attribution Lamanna et al. 2014; PBDB reference ref:50440.
 
-## Read preservation setting separately from living habitat {#s-e25ddd1274}
-Sandy Site, KJ9536 (DMNH 1492) has collection-environment label fine channel fill; collection preservation-mode label body,adpression. 5 km northwest of Marmarth (MRF) has collection-environment label channel lag; collection preservation-mode label body. Tooth Draw Quarry (TD), Deer's Ears Butte has collection-environment label channel lag; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+-50m to Hell Creek-Fort Union contact datum, -50m to K-T boundary based on calculations in Johnson (2002)
 
-## Follow collection records back to references {#s-be810e87ff}
-Sandy Site, KJ9536 (DMNH 1492) carries database reference attribution Lamanna et al. (2014), identifier ref:50440. 5 km northwest of Marmarth (MRF) carries database reference attribution Lamanna et al. (2014), identifier ref:50440. Tooth Draw Quarry (TD), Deer's Ears Butte carries database reference attribution Stein (2021), identifier ref:80625. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Chimney Butte 7.5'
 
-## Evidence limits {#s-9e303b02e4}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1197990; PBDB collection col:154928. Locality cnm=5 km northwest of Marmarth (MRF); place fields cc2=US, stp=North Dakota, cny=Slope. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Hell Creek. Recorded attribution Lamanna et al. 2014; PBDB reference ref:50440.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper 1/3 of formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+ca. 5 km NW of Marmarth, ND
+
+- Occurrence occ:1588482; PBDB collection col:224484. Locality cnm=Tooth Draw Quarry (TD), Deer's Ears Butte; place fields cc2=US, stp=South Dakota, cny=Butte. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Hell Creek. Recorded attribution Stein 2021; PBDB reference ref:80625.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"it was determined that the Tooth Draw Quarry (TD) is approximately, 58 meters below the suspected K-Pg boundary. This places it somewhere in the lower middle of the Hell Creek Formation, equivalent to the lower “Marmath Member” of Frye, (1969) or at the base of the informally named “JenRex Sandstone”, “East Ried Coulee Unit”, as per the lectostratatype section by Hartman et. al (2014)."
+- Single major bonebed with several subunits (Horizons A through E)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+original Tooth Draw Quarry extended/correlated with nearby exposures: Tooth Draw West (TDW) and Tooth Draw Site B (= Becca's Tooth Draw); in Deer's Ears Butte area
+- Coordinates provided in Fig. 20.
+
+## Age bounds on the recorded occurrences {#s-80569fd520}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:1197891; the smallest recorded lag=66 Ma in occ:1197891. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-e25ddd1274}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1197891: PBDB original-identification field idn=Anzu wyliei n. gen. n. sp.; PBDB taxon-name field tna=Anzu wyliei; material note ocm=CM 78000, 78001; abundance fields abv=2, abu=individuals; PBDB locality-coordinate fields lng=-103.787224, lat=45.873333; paleocoordinate/model fields pm1=gplates, pln=-63.02, pla=55.91.
+- occ:1197990: PBDB taxon-name field tna=Anzu wyliei; material note ocm=MRF 319; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-103.978516, lat=46.328201; paleocoordinate/model fields pm1=gplates, pln=-62.87, pla=56.38.
+- occ:1588482: PBDB taxon-name field tna=Anzu wyliei; abundance fields abv=8, abu=specimens; PBDB locality-coordinate fields lng=-103.188957, lat=45.000481; paleocoordinate/model fields pm1=gplates, pln=-63.03, pla=54.94.
+
+## References attached to each record {#s-be810e87ff}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1197891: Recorded attribution Lamanna et al. 2014; PBDB reference ref:50440.
+- occ:1197990: Recorded attribution Lamanna et al. 2014; PBDB reference ref:50440.
+- occ:1588482: Recorded attribution Stein 2021; PBDB reference ref:80625.
+
+## What these records can show {#s-9e303b02e4}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

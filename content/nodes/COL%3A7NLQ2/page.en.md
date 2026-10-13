@@ -1,26 +1,28 @@
-## Start with the historical entries {#s-a4a446b5f7}
+## Recorded classification and direct parent {#s-a4a446b5f7}
+COL26.8 records Cynopterinae at subfamily rank, with Pteropodidae as its direct parent.
+
 The local PanTHERIA route for Cynopterinae includes 9 usable data accounts. Start with Balionycteris maculata, Chironax melanocephalus, Cynopterus sphinx, Cynopterus titthaecheilus, Haplonycteris fischeri. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-ed35232e9a}
 Among available consolidated adult-mass values in this batch, Balionycteris maculata records 14.43 g and Thoopterus nigrescens records 66.12 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-ca1f07e622}
+## Amniote Life-history archive member records {#s-ca1f07e622}
 This batch’s Cynopterinae route includes 12 historical life-history accounts; start with Aethalops aequalis, Balionycteris maculata, Cynopterus brachyotis, Cynopterus horsfieldii, Cynopterus luzoniensis. More frequently represented fields include adult body mass (12 entries), offspring per litter or eggs per clutch (12 entries), longest lifespan record in the compilation (11 entries), conception or fertilization to birth (9 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-14e7c40575}
 This batch’s Cynopterinae route includes 23 historical entries; start with Aethalops aequalis, Aethalops alecto, Alionycteris paucidentata, Balionycteris maculata, Chironax melanocephalus. Food-category weights are available in 11, foraging strata in 23, and mammalian activity periods in 23. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-bab661a7f0}
+## Limits attached to these records {#s-bab661a7f0}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-90d6f870e0}
-The local PanTHERIA route for Cynopterinae includes 5 usable data accounts. Start with [Latidens salimalii](Balionycterini/Latidens/Latidens_salimalii/page.en.md), [Megaerops kusnotoi](Cynopterini/Megaerops/Megaerops_kusnotoi/page.en.md), [Megaerops niphanae](Cynopterini/Megaerops/Megaerops_niphanae/page.en.md), [Ptenochirus minor](Cynopterini/Ptenochirus/Ptenochirus_minor/page.en.md), [Sphaerias blanfordi](Balionycterini/Sphaerias/Sphaerias_blanfordi/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-90d6f870e0}
+The local PanTHERIA route for Cynopterinae includes 5 usable data accounts. Start with Latidens salimalii, Megaerops kusnotoi, Megaerops niphanae, Ptenochirus minor, Sphaerias blanfordi. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-23043e6796}
 Among available consolidated adult-mass values in this batch, Sphaerias blanfordi records 28.88 g and Ptenochirus minor records 47.02 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-0d5934d4a8}
+## PanTHERIA material route {#s-0d5934d4a8}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 

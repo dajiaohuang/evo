@@ -1,19 +1,56 @@
 ## 这个名称对应哪些化石记录 {#s-01568498c7}
 Birbalomys sondaari 在固定 PBDB 哺乳类化石工作名录中为接受种，数据库父级为 Birbalomys。本页导读 7 条可用种级出现记录，涉及 6 个采集记录和 5 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。其中 2 条保留旧鉴定名称或名称组合与数据库接受名的对应，原字符串另存，不把重组名当作新的独立发现。
 
-## 从具名采集地和地层开始 {#s-c7b382f6e7}
-采集记录 Easy Access Locality（Himachal Pradesh），地区代码 IN，地层名称 Subathu；数据库年代范围 48.07–37.71 Ma，早端地质时段 Middle Eocene。采集记录 East Babbian Gala Locality（Jammu and Kashmir），地区代码 IN，地层名称 Subathu；数据库年代范围 48.07–41.03 Ma，早端地质时段 Lutetian。采集记录 Chorlakki（North-West Frontier），地区代码 PK，地层名称 Kuldana；数据库年代范围 48.07–41.03 Ma，早端地质时段 Lutetian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Birbalomys sondaari 在 PBDB 快照中对应分类条目 txn:66482。这份存档导读包含 7 条选取的出现记录，关联 6 个不同的 PBDB 采集记录编号和 5 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-980f719d82}
-本页所选出现记录的年代外包区间为 48.07–37.71 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Easy Access Locality 的出现记录 occ:303821（48.07–37.71 Ma）；晚端可追到 Easy Access Locality 的出现记录 occ:303821（48.07–37.71 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-c7b382f6e7}
+存档导读包含 7 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 保存环境与生活环境分开阅读 {#s-562c8ab8fe}
-Easy Access Locality；集合保存方式标签为 实体化石（body）。East Babbian Gala Locality 的采集环境标签为 河道滞留沉积环境（channel lag）；集合保存方式标签为 实体化石、coprolite（body,coprolite）。Chorlakki 的采集环境标签为 河流沉积环境，类型未定（fluvial indet.）；集合保存方式标签为 实体化石、原磷酸盐成分（body,original phosphate）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:303821；PBDB 采集记录 col:31036。 地点字段 cnm=Easy Access Locality；地点分区字段 cc2=IN，stp=Himachal Pradesh，cny=Solan District。 记录年代界：eag 48.07 Ma; lag 37.71 Ma；PBDB 年代区间字段 oei=Middle Eocene。 地层字段 sfm=Subathu，slb=red facies。 记录署名 Kumar et al. 1997；PBDB 引文编号 ref:8377。
 
-## 沿采集记录追到文献 {#s-a56b4c07b3}
-Easy Access Locality 的数据库引文署名为 Kumar et al.（1997），编号 ref:8377。East Babbian Gala Locality 的数据库引文署名为 Kumar et al.（1997），编号 ref:8377。Chorlakki 的数据库引文署名为 Hartenberger（1982），编号 ref:13077。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+two closely-spaced red-colored bands which occur approx. 16 m below the top of the formation
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Village Naya Nagar on Subathu-Garkhal road, 1km from Subathu town
+
+- 出现记录 occ:332412；PBDB 采集记录 col:31299。 地点字段 cnm=East Babbian Gala Locality；地点分区字段 cc2=IN，stp=Jammu and Kashmir，cny=Rajauri District。 记录年代界：eag 48.07 Ma; lag 41.03 Ma；PBDB 年代区间字段 oei=Lutetian。 地层字段 sfm=Subathu。 记录署名 Kumar et al. 1997；PBDB 引文编号 ref:8377。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+"the main fossiliferous bed is a 10 to 15 cm thick" (Kumar et al. 2002)
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+East of the village Babbian Gala, near colvert no. 69/3, about 3km from Metka on Metka-Moghla Road
+
+- 出现记录 occ:462493；PBDB 采集记录 col:28978。 地点字段 cnm=Chorlakki；地点分区字段 cc2=PK，stp=North-West Frontier。 记录年代界：eag 48.07 Ma; lag 41.03 Ma；PBDB 年代区间字段 oei=Lutetian。 地层字段 sfm=Kuldana。 记录署名 Hartenberger 1982；PBDB 引文编号 ref:13077。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Gingerich (2003) places this collection in the earliest Lutetian; shown by Gunnell et al. (2008) as being close to the top of the formation, spanning at three beds, and falling just over the Early - Middle Eocene boundary; early Lutetian
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+4 km NNW of Chorlaki village, Kohat District, North-West Frontier Province, Pakistan.
+
+## 出现记录的年代界 {#s-980f719d82}
+在这组 PBDB 记录中，最大记录 eag=48.07 Ma，见 occ:303821；最小记录 lag=37.71 Ma，见 occ:303821。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-562c8ab8fe}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:303821：PBDB 分类名称字段 tna=Birbalomys sondaari；PBDB 地点坐标字段 lng=76.983330，lat=30.983334；古坐标／模型字段 pm1=gplates，pln=77.35，pla=9.05。
+- occ:332412：PBDB 分类名称字段 tna=Birbalomys sondaari；PBDB 地点坐标字段 lng=75.500000，lat=32.500000；古坐标／模型字段 pm1=gplates，pln=76.81，pla=9.61。
+- occ:462493：PBDB 分类名称字段 tna=Birbalomys sondaari；PBDB 地点坐标字段 lng=71.922218，lat=33.622223；古坐标／模型字段 pm1=gplates，pln=74.19，pla=11.51。
+
+## 各记录所附的引文 {#s-a56b4c07b3}
+存档导读把这些记录关联到 5 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:303821：记录署名 Kumar et al. 1997；PBDB 引文编号 ref:8377。
+- occ:332412：记录署名 Kumar et al. 1997；PBDB 引文编号 ref:8377。
+- occ:462493：记录署名 Hartenberger 1982；PBDB 引文编号 ref:13077。
 
 ## 资料边界 {#s-b115b08171}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 13958 项哺乳类化石工作名录中，当前名称一致、父链可追到已记录 Mammalia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 7 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

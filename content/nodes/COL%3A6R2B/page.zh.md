@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-39b8f5e857}
+## 记录分类与直接上级关系 {#s-39b8f5e857}
+COL26.8 将 Pituophis 记录为属；其直接上级记录为 Colubrinae。
+
 Pituophis 的本批 ReptTraits 阅读路径包含 3 条同名同科、有逐性状出处的物种资料，可从 Pituophis catenifer、Pituophis melanoleucus、Pituophis ruthveni 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 不同类群需要不同尺度 {#s-3340b2d028}
@@ -9,13 +11,13 @@ Pituophis 的本批路线包含 4 条历史生活史导读，可从 Pituophis ca
 
 ## 证据边界 {#s-3ba21ad5da}
 本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
 
 ## 部分后代条目的引用缺口 {#s-8567a36e2f}
 这条 ReptTraits 阅读路径中有 2 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-9c542036b1}
-Pituophis 的本批 ReptTraits 阅读路径包含 4 条同名同科、有逐性状出处的物种资料，可从 [Pituophis deppei](Pituophis_deppei/page.zh.md)、[Pituophis insulanus](Pituophis_insulanus/page.zh.md)、[Pituophis lineaticollis](Pituophis_lineaticollis/page.zh.md)、[Pituophis vertebralis](Pituophis_vertebralis/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-9c542036b1}
+Pituophis 的本批 ReptTraits 阅读路径包含 4 条同名同科、有逐性状出处的物种资料，可从 Pituophis deppei、Pituophis insulanus、Pituophis lineaticollis、Pituophis vertebralis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-98efc52db5}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

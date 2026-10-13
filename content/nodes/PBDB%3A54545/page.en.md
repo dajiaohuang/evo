@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-d8d959f41a}
-Caenagnathus collinsi is accepted in the fixed PBDB dinosaur working roster, with database parent Caenagnathus. This guide uses 6 eligible species-level occurrence records from 6 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-d8d959f41a}
+Caenagnathus collinsi is listed in the PBDB snapshot under taxon txn:54545. This archived guide contains 6 selected occurrence rows, linked to 6 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-4f5f5d4299}
-Collection RTMP Quarry Q112, Sand Creek (111 ft level) [NMC] (Alberta), region code CA, stratum name Dinosaur Park; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Collection RTMP Quarry 45, Sand Creek (300 ft level) [ROM] (Alberta), region code CA, stratum name Dinosaur Park; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Collection RTMP Quarry 25, Red Deer River (Alberta), region code CA, stratum name Dinosaur Park; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-4f5f5d4299}
+The archived guide contains 6 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-9c35eecc64}
-Selected occurrences have an outer age envelope of 83.6–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:472460; PBDB collection col:46952. Locality cnm=RTMP Quarry Q112, Sand Creek (111 ft level) [NMC]; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Dinosaur Park. Recorded attribution Sternberg 1940; PBDB reference ref:18597.
 
-## Read preservation setting separately from living habitat {#s-ac2ebfda83}
-RTMP Quarry Q112, Sand Creek (111 ft level) [NMC] has collection-environment label terrestrial indet.; collection preservation-mode label body. RTMP Quarry 45, Sand Creek (300 ft level) [ROM] has collection-environment label terrestrial indet.; collection preservation-mode label body. RTMP Quarry 25, Red Deer River has collection-environment label "channel"; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+orignally described as the "Pale Beds", then assigned to Oldman Fm.
 
-## Follow collection records back to references {#s-73b0014680}
-RTMP Quarry Q112, Sand Creek (111 ft level) [NMC] carries database reference attribution Sternberg (1940), identifier ref:18597. RTMP Quarry 45, Sand Creek (300 ft level) [ROM] carries database reference attribution Funston et al. (2015), identifier ref:54018. RTMP Quarry 25, Red Deer River carries database reference attribution Funston et al. (2015), identifier ref:54018. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+LSD 15, NE 1/4, sec 31, T20, R11, W 4th meridian, Dinosaur Provincial Park; about 1.5 mi due S of the mouth of Sand Creek, and about 0.5 mi E of the creek at this point; 111 ft above river
 
-## Evidence limits {#s-5d456d68ff}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1237523; PBDB collection col:46358. Locality cnm=RTMP Quarry 45, Sand Creek (300 ft level) [ROM]; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Dinosaur Park. Recorded attribution Funston et al. 2015; PBDB reference ref:54018.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+originally assigned to Oldman Fm.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Red Deer River valley, 300 feet above river, 2 miles SE of Sand Creek, in badlands
+
+- Occurrence occ:1237524; PBDB collection col:58912. Locality cnm=RTMP Quarry 25, Red Deer River; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Dinosaur Park. Recorded attribution Funston et al. 2015; PBDB reference ref:54018.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+originally assigned to the Oldman Fm.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near center of sec 21, T21N, R12W, W 4th meridian; 3 mi. S of Steveille, W side of river
+
+## Age bounds on the recorded occurrences {#s-9c35eecc64}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:472460; the smallest recorded lag=72.2 Ma in occ:472460. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-ac2ebfda83}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:472460: PBDB original-identification field idn=Caenagnathus collinsi n. gen. n. sp.; PBDB taxon-name field tna=Caenagnathus collinsi; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-111.514618, lat=50.739815; paleocoordinate/model fields pm1=gplates, pln=-65.7, pla=60.93.
+- occ:1237523: PBDB taxon-name field tna=Caenagnathus collinsi; material note ocm=TMP 2009.003.0029 (formerly P.82.19.222 [??]), left or right manual ungual I-2; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-111.488022, lat=50.741657; paleocoordinate/model fields pm1=gplates, pln=-65.67, pla=60.92.
+- occ:1237524: PBDB taxon-name field tna=Caenagnathus collinsi; material note ocm=TMP 1993.036.0475, left or right manual ungual II-3; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-111.630714, lat=50.800125; paleocoordinate/model fields pm1=gplates, pln=-65.79, pla=61.01.
+
+## References attached to each record {#s-73b0014680}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:472460: Recorded attribution Sternberg 1940; PBDB reference ref:18597.
+- occ:1237523: Recorded attribution Funston et al. 2015; PBDB reference ref:54018.
+- occ:1237524: Recorded attribution Funston et al. 2015; PBDB reference ref:54018.
+
+## What these records can show {#s-5d456d68ff}
+This is a guide to 6 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

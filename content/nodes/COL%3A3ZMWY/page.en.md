@@ -1,5 +1,5 @@
-## A 2015 record under the accepted name {#s-e816465791}
-Melomys frigicola is accepted in COL26.8 within Muridae. The 2015 life-history archive has a same-name entry with three focal fields, each supported by cited species-level rows matching the name and family. This supports historical comparison but does not remove possible data inheritance across older taxonomic concepts.
+## Body mass and life-history values in the compilation {#s-e816465791}
+The August 2015 Amniote Database entry for *Melomys frigicola* reports adult body mass 62.475 g; offspring per litter or eggs per clutch 2.5; age of dependence on food other than maternal milk 21.4135 d. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Melomys frigicola*.
 
 ## Adult body mass in the archive {#s-23b7bc794c}
 The historical summary gives adult body mass as 62.48 g. It may combine males, females, and adults whose sex was not recorded, so it is not a species-wide range. No birth or hatching mass is reported here.
@@ -10,8 +10,8 @@ The combined litter-or-clutch field is 2.5 offspring/eggs, and weaning is report
 ## Citations behind the life-history values {#s-eef0713dc3}
 Same-name sparse rows include Jones, K., Bielby, J., Cardillo, M. et al., 2009, and Ernest et al., 2003. The archive retains field-specific row numbers, values, and labels, as well as full reference notes. Labels may refer to papers, books, or databases; row counts are not animal sample sizes, and repeated citations are not replication.
 
-## A separate foraging-ecology record {#s-891dbbd96c}
-EltonTraits 1.0 contains a same-name, same-family entry for Melomys frigicola with two ecological field groups. Its taxonomy follows earlier bird classifications or MSW3 for mammals. This historical match does not resolve later splits or synonym disputes.
+## Foraging stratum and activity flags in the compilation {#s-891dbbd96c}
+The EltonTraits 1.0 record for *Melomys frigicola* contains the foraging stratum, activity flags. The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Source comments and compiler confidence remain attached to the foraging category. The archive leaves diet fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Melomys frigicola*.
 
 ## Foraging stratum as a category {#s-226e91035d}
 The entry is classified G, ground, which also covers some aquatic foraging in the source definition. Code A indicates compiler confidence in the source and assignment; mammalian metadata attributes stratum assignments collectively to Nowak (1999). G is not a time share or an exclusive location.
@@ -22,10 +22,8 @@ Feeding at night is marked 1. Activity flags can overlap, so this is not a perce
 ## Where the selected fields point {#s-21838cb0d5}
 The used groups carry metadata:Nowak1999 and Ref_1. Source material can differ between groups, and a Ref number depends on its reference table. The archive preserves original strings by file, row, field group, and table. Underlying literature has not been individually read, so the labels are not additional observations.
 
-## Limits on both historical sources {#s-c159db146f}
-The life-history comparison uses same-name entries from the 2015 archive. Values are compilation medians or averages of two middle records, except maximum longevity, which uses the largest record found. They are not one-animal measurements, individual ranges, mean wild lifespans, or current population surveys. Historical species and subspecies can share inherited data. Name, family, and matching sparse rows support the association but neither prove equivalence to COL26.8 nor remove all inheritance. Wild or captive conditions are not consistently known, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation, and missing fields need other sources.
+## How to interpret these historical records {#s-c159db146f}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-EltonTraits 1.0 provides a historical same-name, same-family foraging record, not a full species account. The older classification does not establish equivalence with COL26.8. Mammalian ABC activity or diet fields can use an ecologically similar congener, so this page does not treat every value as direct observation of the species. Underlying works have not been individually reread; individual, seasonal, and local variation, current distribution, population, and conservation need other evidence.
-
-Diet is withheld under code D1 because of interpolation, certainty, or source-link limits. Original values and specific reasons remain in the archive; they do not support a definite diet claim here.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 

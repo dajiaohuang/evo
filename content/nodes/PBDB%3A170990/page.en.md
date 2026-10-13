@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-27d6ca955a}
 Talahphiomys lavocati is accepted in the fixed PBDB mammalia working roster, with database parent Talahphiomys. This guide uses 4 eligible species-level occurrence records from 4 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 2 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-960e861bd4}
-Collection Quarry L-41 (Jebel Qatrani Formation) (Fayum), region code EG, stratum name Jebel Qatrani; database age bracket 33.9–27.3 Ma, early interval Rupelian. Collection Zallah 5, region code LY; database age bracket 33.9–27.3 Ma, early interval Early Oligocene. Collection Quarry E (Jebel Qatrani Formation) (Fayum), region code EG, stratum name Jebel Qatrani; database age bracket 33.9–27.3 Ma, early interval Rupelian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Talahphiomys lavocati is listed in the PBDB snapshot under taxon txn:170990. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-75a99c6dd4}
-Selected occurrences have an outer age envelope of 48.07–27.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Dur At-Talah, DT-Loc. 2, occurrence occ:1307904 (48.07–33.9 Ma); one supplying the younger bound is Quarry L-41 (Jebel Qatrani Formation), occurrence occ:572691 (33.9–27.3 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-960e861bd4}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-4d6dba85c8}
-Quarry L-41 (Jebel Qatrani Formation) has collection-environment label lacustrine indet.; collection preservation-mode label body. Zallah 5 has collection-environment label fluvial-deltaic indet.; collection preservation-mode label body. Quarry E (Jebel Qatrani Formation) has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1307904; PBDB collection col:175362. Locality cnm=Dur At-Talah, DT-Loc. 2; place fields cc2=LY, stp=Sirt. Recorded age bounds: eag 48.07 Ma; lag 33.9 Ma; PBDB interval fields oei=Middle Eocene, oli=Late Eocene. Recorded attribution Jaeger et al. 2010; PBDB reference ref:33889.
 
-## Follow collection records back to references {#s-554c2cdf21}
-Quarry L-41 (Jebel Qatrani Formation) carries database reference attribution Gagnon (1997), identifier ref:17279. Zallah 5 carries database reference attribution Coster et al. (2012), identifier ref:51270. Quarry E (Jebel Qatrani Formation) carries database reference attribution Wood (1968), identifier ref:52900. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+New Idam Unit
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+southern Sirt Basin
+
+- Occurrence occ:572691; PBDB collection col:60127. Locality cnm=Quarry L-41 (Jebel Qatrani Formation); place fields cc2=EG, stp=Fayum. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Rupelian. Stratigraphic fields sfm=Jebel Qatrani. Recorded attribution Gagnon 1997; PBDB reference ref:17279.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"more likely" represents Chron 13r and therefore is "very latest Eocene in age" (Gunnell et al. 2008); Rupelian age after Coster et al. (2012), Chron 13R is Oligocene not Eocene
+
+- Occurrence occ:1206517; PBDB collection col:105925. Locality cnm=Zallah 5; place fields cc2=LY. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Early Oligocene. Recorded attribution Coster et al. 2012; PBDB reference ref:51270.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"early Oligocene"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"located near the oasis of Zallah" (basis of coordinate)
+
+## Age bounds on the recorded occurrences {#s-75a99c6dd4}
+Across these selected PBDB rows, the largest recorded eag=48.07 Ma in occ:1307904; the smallest recorded lag=27.3 Ma in occ:572691. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-4d6dba85c8}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1307904: PBDB taxon-name field tna=Talahphiomys lavocati; PBDB locality-coordinate fields lng=18.181944, lat=25.715000; paleocoordinate/model fields pm1=gplates, pln=20.45, pla=14.98.
+- occ:572691: PBDB original-identification field idn=Phiomys lavocati; PBDB taxon-name field tna=Talahphiomys lavocati; PBDB locality-coordinate fields lng=30.500000, lat=29.500000; paleocoordinate/model fields pm1=gplates, pln=31.83, pla=20.62.
+- occ:1206517: PBDB taxon-name field tna=Talahphiomys lavocati; PBDB locality-coordinate fields lng=17.549999, lat=28.549999; paleocoordinate/model fields pm1=gplates, pln=19.7, pla=20.49.
+
+## References attached to each record {#s-554c2cdf21}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1307904: Recorded attribution Jaeger et al. 2010; PBDB reference ref:33889.
+- occ:572691: Recorded attribution Gagnon 1997; PBDB reference ref:17279.
+- occ:1206517: Recorded attribution Coster et al. 2012; PBDB reference ref:51270.
 
 ## Evidence limits {#s-a172df26c7}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

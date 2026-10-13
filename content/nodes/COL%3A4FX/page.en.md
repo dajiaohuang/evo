@@ -1,10 +1,10 @@
-## Start with the historical entries {#s-36e0ee66fe}
+## Recorded classification and member material {#s-36e0ee66fe}
 The local PanTHERIA route for Yangochiroptera includes 128 usable data accounts. Start with Balantiopteryx io, Balantiopteryx plicata, Chaerephon ansorgei, Chaerephon major, Brachyphylla cavernarum. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-a9c91fbcf3}
 Among available consolidated adult-mass values in this batch, Pipistrellus nanulus records 2.51 g and Vampyrum spectrum records 171.61 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-928b8820c4}
+## Amniote Life-history archive member records {#s-928b8820c4}
 This batch’s Yangochiroptera route includes 156 historical life-history accounts; start with Balantiopteryx plicata, Coleura afra, Emballonura monticola, Rhynchonycteris naso, Saccopteryx bilineata. More frequently represented fields include adult body mass (156 entries), offspring per litter or eggs per clutch (155 entries), conception or fertilization to birth (116 entries), age of dependence on food other than maternal milk (106 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-96ddb9a08c}
@@ -19,12 +19,12 @@ This route covers this batch’s historical same-name, same-family entries with 
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Start with the historical entries {#s-7ed6a2e050}
-The local PanTHERIA route for Yangochiroptera includes 126 usable data accounts. Start with [Balantiopteryx infusca](Emballonuroidea/Emballonuridae/Emballonurinae/Diclidurini/Balantiopteryx/Balantiopteryx_infusca/page.en.md), [Chaerephon aloysiisabaudiae](Vespertilionoidea/Molossidae/Molossinae/Chaerephon/Chaerephon_aloysiisabaudiae/page.en.md), [Chaerephon bemmeleni](Vespertilionoidea/Molossidae/Molossinae/Chaerephon/Chaerephon_bemmeleni/page.en.md), [Chaerephon gallagheri](Vespertilionoidea/Molossidae/Molossinae/Chaerephon/Chaerephon_gallagheri/page.en.md), [Chaerephon johorensis](Vespertilionoidea/Molossidae/Molossinae/Chaerephon/Chaerephon_johorensis/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-7ed6a2e050}
+The local PanTHERIA route for Yangochiroptera includes 126 usable data accounts. Start with Balantiopteryx infusca, Chaerephon aloysiisabaudiae, Chaerephon bemmeleni, Chaerephon gallagheri, Chaerephon johorensis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-8c2e783dcf}
 Among available consolidated adult-mass values in this batch, Kerivoula minuta records 2.03 g and Phyllostomus latifolius records 134 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-d8eee9fc6f}
+## PanTHERIA material route {#s-d8eee9fc6f}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 

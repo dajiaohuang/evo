@@ -1,5 +1,5 @@
-## Find rows through older Geotrygon combinations {#s-8990561f31}
-Pinned COL26.8 organizes this page at Zentrygon lawrencii (5D2LZ). BirdLife 2020 row 1855 and eBird 2021 row 11197 share the name and Avibase ID AVIBASE-DCC794E5, with type 1BL to 1eBird; BirdTree row 11138 gives Geotrygon lawrencii, with type 1BL to 1BT. Read catalogue synonym 3FTM4 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-8990561f31}
+Catalogue of Life release COL26.8 records Zentrygon lawrencii (Salvin, 1874) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-caea91b5a4}
 Morphology comprises 4 birds: 2 female, 0 male and 2 unsexed; 4 complete sets. Nostril-to-tip beak length 9.6 mm, tarsus 40.3 mm, unflattened wing 137.5 mm, tail 74.2 mm and hand-wing index 24.3 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. No sexed male is present, so a female–male comparison is unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

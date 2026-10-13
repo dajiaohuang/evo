@@ -4,7 +4,7 @@ Chang 与 Ting 于 2017 年发表的实验为本目页面提供一个具体的�
 ## 对读尸体承重与活鸟平衡 {#s-09b2c26d53}
 先把两组样本分开读：[Phoenicopterus ruber](Phoenicopteridae/Phoenicopterus/Phoenicopterus_ruber/page.zh.md) 的实验使用两只成年尸体测试支撑几何；[Phoenicopterus chilensis](Phoenicopteridae/Phoenicopterus/Phoenicopterus_chilensis/page.zh.md) 的实验观察八只活幼鸟站在测力台上。物种、年龄、夹具和设备条件不同，它们是互补实验，不是可互换的同一组样本。再分别查阅形态、取食和生活史页面；历史汇编均值不能替代实验观察。
 
-## 本地数据阅读路径 {#s-c306ac2c9b}
+## 记录分类与成员材料 {#s-c306ac2c9b}
 固定 COL26.8 层级下的 Phoenicopteriformes 路线包含 AVONET v7 的六条有测量来源的物种记录。可先读 Phoeniconaias minor、Phoenicoparrus andinus、Phoenicoparrus jamesi、Phoenicopterus chilensis 和 Phoenicopterus roseus。AVONET 保留其历史名称与采样范围；这里列出的是阅读入口，不是完整后代名册。
 
 ## 记录之间有什么差别 {#s-7b3cf5c2a4}

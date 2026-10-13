@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-164347ffd7}
+## 记录分类与直接上级关系 {#s-164347ffd7}
+COL26.8 将 Bassaricyon 记录为属；其直接上级记录为 Procyonidae。
+
 Bassaricyon 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Bassaricyon gabbii 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-f33029e3fd}
@@ -15,7 +17,7 @@ Bassaricyon 的本批路线包含 2 个历史条目，可从 Bassaricyon alleni�
 PanTHERIA 和详细生活史段落以 Bassaricyon gabbii 为中心；较广的 2015 年和 EltonTraits 路线还列出 B. alleni。gabbii 的详细资料没有最高寿命记录，而 EltonTraits 为两个名称提供食物、觅食和活动类别。唯一成年体重中位数只对应 gabbii，这些历史路线不证明当前物种覆盖完整。
 
 ## 沿生活史资料阅读 {#s-d9902b3a33}
-Bassaricyon 本批有 1 个历史生活史资料页，可从 [Bassaricyon gabbii](Bassaricyon_gabbii/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Bassaricyon 本批有 1 个历史生活史资料页，可从 Bassaricyon gabbii 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-52e0ad15c2}
 本批妊娠资料见 1 页，雌性首次繁殖年龄见 1 页，最高寿命记录见 0 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

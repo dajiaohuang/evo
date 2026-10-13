@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-1e6c9f08af}
+## 记录分类与直接上级关系 {#s-1e6c9f08af}
+COL26.8 将 Galbula 记录为属；其直接上级记录为 Galbulidae。
+
 本批有 9 条 AVONET 形态测量物种记录归于 Galbula 路径。可先从 Galbula chalcothorax、Galbula cyanescens、Galbula cyanicollis、Galbula dea 和 Galbula galbula 进入。固定 COL26.8 层级用于导航，测量仍保留 AVONET v7 的历史名称与取样范围。
 
 ## 记录之间有什么差别 {#s-623d57b86a}

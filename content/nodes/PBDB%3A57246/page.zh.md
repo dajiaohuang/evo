@@ -22,22 +22,52 @@ MPC-D 100/127 的颅骨从前颌骨至枕髁长 1024 毫米，前部扩展成匙
 ## 2014 年树与当前目录分开 {#s-d11286ddc4}
 该研究以 568 个形态字符、96 个分类单元进行分析，得到六棵最简约树的严格一致树；恐手龙与 Garudimimus 为姐妹群，和 Beishanlong 组成作者讨论的 Deinocheiridae。这是该矩阵与编码条件下的结果，不能把姐妹群写成彼此祖先。当前 PBDB 存储把 Beishanlong 放在另一路径，科入口还列有其他研究未按同样材料重描述的种；本页保留目录路径，不以一篇 2014 年分析重排全部名单。图 4 的有肉、带羽复原明确是推想图，外形、颜色和羽毛不增加一件化石样本。
 
-## 这个名称对应哪些化石记录 {#s-e85b651ab5}
-Deinocheirus mirificus 在固定 PBDB 恐龙及其鸟类分支工作名录中为接受种，数据库父级为 Deinocheirus。本页导读 4 条可用种级出现记录，涉及 4 个采集记录和 3 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
+## 这组记录包含什么 {#s-e85b651ab5}
+Deinocheirus mirificus 在 PBDB 快照中对应分类条目 txn:57246。这份存档导读包含 4 条选取的出现记录，关联 4 个不同的 PBDB 采集记录编号和 3 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 从具名采集地和地层开始 {#s-32bc517b7b}
-采集记录 Altan Ula III, site 2 [PMPE]（Omnogov），地区代码 MN，地层名称 Nemegt；数据库年代范围 72.2–66 Ma，早端地质时段 Maastrichtian。采集记录 Bugin Tsav I [HMNS-GIN/KID]（Omnogov），地区代码 MN，地层名称 Nemegt；数据库年代范围 72.2–66 Ma，早端地质时段 Maastrichtian。采集记录 Altan Ula IV [HMNS-GIN]（Omnogov），地区代码 MN，地层名称 Nemegt；数据库年代范围 72.2–66 Ma，早端地质时段 Maastrichtian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+## 具名地点与采集记录 {#s-32bc517b7b}
+存档导读包含 4 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 这些记录的年代边界 {#s-e07909d913}
-本页所选出现记录的年代外包区间为 72.2–66 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
+- 出现记录 occ:403400；PBDB 采集记录 col:38695。 地点字段 cnm=Altan Ula III, site 2 [PMPE]；地点分区字段 cc2=MN，stp=Omnogov。 记录年代界：eag 72.2 Ma; lag 66 Ma；PBDB 年代区间字段 oei=Maastrichtian。 地层字段 sfm=Nemegt。 记录署名 Kielan-Jaworowska 1969；PBDB 引文编号 ref:63354。
 
-## 保存环境与生活环境分开阅读 {#s-37b7c0c7b7}
-Altan Ula III, site 2 [PMPE] 的采集环境标签为 陆相沉积环境，类型未定（terrestrial indet.）；集合保存方式标签为 实体化石（body）。Bugin Tsav I [HMNS-GIN/KID] 的采集环境标签为 fine channel fill；集合保存方式标签为 实体化石（body）。Altan Ula IV [HMNS-GIN] 的采集环境标签为 河流沉积环境，类型未定（fluvial indet.）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+upper Nemegt beds = Nemegt Fm., "tentatively placed" low in formation
 
-## 沿采集记录追到文献 {#s-75c0489de6}
-Altan Ula III, site 2 [PMPE] 的数据库引文署名为 Kielan-Jaworowska（1969），编号 ref:63354。Bugin Tsav I [HMNS-GIN/KID] 的数据库引文署名为 Lee et al.（2014），编号 ref:71125。Altan Ula IV [HMNS-GIN] 的数据库引文署名为 Lee et al.（2014），编号 ref:71125。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；这份出现记录清单本身不代表所有原论文或标本已逐项复核；新增 2014 年读文范围另见上文。
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Altan Ula III, 40 km W of Nemegt, Omnogov (southern Mongolia). Quarry atop a small hill
+
+- 出现记录 occ:1058771；PBDB 采集记录 col:55257。 地点字段 cnm=Bugin Tsav I [HMNS-GIN/KID]；地点分区字段 cc2=MN，stp=Omnogov。 记录年代界：eag 72.2 Ma; lag 66 Ma；PBDB 年代区间字段 oei=Maastrichtian。 地层字段 sfm=Nemegt。 记录署名 Lee et al. 2014；PBDB 引文编号 ref:71125。
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+northern area of Bugin Tsav; N: 43-51-5909; E: 100-00-3976; A: 982m
+Bugin-tsav, southern Gobi Desert
+
+- 出现记录 occ:1272864；PBDB 采集记录 col:127674。 地点字段 cnm=Altan Ula IV [HMNS-GIN]；地点分区字段 cc2=MN，stp=Omnogov。 记录年代界：eag 72.2 Ma; lag 66 Ma；PBDB 年代区间字段 oei=Maastrichtian。 地层字段 sfm=Nemegt。 记录署名 Lee et al. 2014；PBDB 引文编号 ref:71125。
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+N: 43-35-50.04; E: 100-27-28.03; A: 1555 m
+
+## 出现记录的年代界 {#s-e07909d913}
+在这组 PBDB 记录中，最大记录 eag=72.2 Ma，见 occ:403400；最小记录 lag=66 Ma，见 occ:403400。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-37b7c0c7b7}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:403400：PBDB 原鉴定字段 idn=Deinocheirus mirificus n. gen. n. sp.；PBDB 分类名称字段 tna=Deinocheirus mirificus；材料说明字段 ocm=ZPal MgD-I/6 (MPC-D 100/018)；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=100.482780，lat=43.566387；古坐标／模型字段 pm1=gplates，pln=93.8，pla=36.46。
+- occ:1058771：PBDB 分类名称字段 tna=Deinocheirus mirificus；材料说明字段 ocm=articulated skeleton; 060823-4 BgT TSGT；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=100.011108，lat=43.866390；古坐标／模型字段 pm1=gplates，pln=93.29，pla=36.66。
+- occ:1272864：PBDB 分类名称字段 tna=Deinocheirus mirificus；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=100.457779，lat=43.597221；古坐标／模型字段 pm1=gplates，pln=93.77，pla=36.49。
+
+## 各记录所附的引文 {#s-75c0489de6}
+存档导读把这些记录关联到 3 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:403400：记录署名 Kielan-Jaworowska 1969；PBDB 引文编号 ref:63354。
+- occ:1058771：记录署名 Lee et al. 2014；PBDB 引文编号 ref:71125。
+- occ:1272864：记录署名 Lee et al. 2014；PBDB 引文编号 ref:71125。
 
 ## 资料边界 {#s-3bacf4e1cc}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 3538 项恐龙及其鸟类分支工作名录中，当前名称一致、父链可追到已记录 Dinosauria 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
 新增正文依据机构存档的 2014 年在线先行 PDF 主文第 1–4 页及所附扩展图 1–7、表 1 图说；看图范围为 PDF 第 1、3、11 页（图 1、图 4、扩展图 7）。最终卷期页码取 Crossref，PDF 页码不冒充最终 257–260 页布局。表 1 数值、其他图像、线上 Methods、补充矩阵／测量表、实物、全部流转记录与后续文献未独立核齐或重跑。体重和行为保留推断，尾羽不作直接保存；2014 年分类与 PBDB 导航分开。不是完整种志。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 4 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

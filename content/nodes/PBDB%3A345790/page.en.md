@@ -1,18 +1,53 @@
-## Which fossil records this name represents {#s-0623e5fd2a}
-Neilus sansomae is accepted in the fixed PBDB dinosaur working roster, with database parent Neilus. This guide uses 4 eligible species-level occurrence records from 4 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-0623e5fd2a}
+Neilus sansomae is listed in the PBDB snapshot under taxon txn:345790. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-6a26703988}
-Collection Manuherikia River site, Saint Bathans, Home Hills Station, HH1a (South Island), region code NZ, stratum name Bannockburn; database age bracket 18.7–15.9 Ma, early interval Altonian. Collection Manuherikia River site, Saint Bathans, Home Hills Station, HH1b (South Island), region code NZ, stratum name Bannockburn; database age bracket 18.7–15.9 Ma, early interval Altonian. Collection Manuherikia River site, Saint Bathans, Home Hills Station, HH2b (South Island), region code NZ, stratum name Bannockburn; database age bracket 18.7–15.9 Ma, early interval Altonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-6a26703988}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-357e719133}
-Selected occurrences have an outer age envelope of 18.7–15.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1338531; PBDB collection col:73690. Locality cnm=Manuherikia River site, Saint Bathans, Home Hills Station, HH1a; place fields cc2=NZ, stp=South Island, cny=Otago. Recorded age bounds: eag 18.7 Ma; lag 15.9 Ma; PBDB interval fields oei=Altonian. Stratigraphic fields sfm=Bannockburn. Recorded attribution De Pietri et al. 2016; PBDB reference ref:60030.
 
-## Read preservation setting separately from living habitat {#s-306f78ff24}
-Manuherikia River site, Saint Bathans, Home Hills Station, HH1a has collection-environment label lacustrine - large; collection preservation-mode label body,original phosphate. Manuherikia River site, Saint Bathans, Home Hills Station, HH1b has collection-environment label lacustrine - large; collection preservation-mode label body,original phosphate. Manuherikia River site, Saint Bathans, Home Hills Station, HH2b has collection-environment label lacustrine - large; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Bed HH1a, a sand layer bound by clay layers, in the Manuherikia River section, 6.88–7.0 m above the base of the Bannockburn Formation, allocated H41/f88 in the archival Fossil Record File of the Geological Society of NZ"
+early to earliest middle Miocene (Altonian), 19-16 Ma, Casuarinacea biozone
 
-## Follow collection records back to references {#s-4dcdf9bcb5}
-Manuherikia River site, Saint Bathans, Home Hills Station, HH1a carries database reference attribution De Pietri et al. (2016), identifier ref:60030. Manuherikia River site, Saint Bathans, Home Hills Station, HH1b carries database reference attribution De Pietri et al. (2016), identifier ref:60030. Manuherikia River site, Saint Bathans, Home Hills Station, HH2b carries database reference attribution De Pietri et al. (2016), identifier ref:60030. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near St Bathans in Central Otago
 
-## Evidence limits {#s-fee4466988}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1338532; PBDB collection col:180772. Locality cnm=Manuherikia River site, Saint Bathans, Home Hills Station, HH1b; place fields cc2=NZ, stp=South Island, cny=Otago. Recorded age bounds: eag 18.7 Ma; lag 15.9 Ma; PBDB interval fields oei=Altonian. Stratigraphic fields sfm=Bannockburn. Recorded attribution De Pietri et al. 2016; PBDB reference ref:60030.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Bed HH1a, a sand layer bound by clay layers, in the Manuherikia River section, 6.88–7.0 m above the base of the Bannockburn Formation, allocated H41/f88 in the archival Fossil Record File of the Geological Society of NZ"
+early to earliest middle Miocene (Altonian), 19-16 Ma, Casuarinacea biozone
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near St Bathans in Central Otago
+
+- Occurrence occ:1338533; PBDB collection col:180773. Locality cnm=Manuherikia River site, Saint Bathans, Home Hills Station, HH2b; place fields cc2=NZ, stp=South Island, cny=Otago. Recorded age bounds: eag 18.7 Ma; lag 15.9 Ma; PBDB interval fields oei=Altonian. Stratigraphic fields sfm=Bannockburn. Recorded attribution De Pietri et al. 2016; PBDB reference ref:60030.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Bed HH1a, a sand layer bound by clay layers, in the Manuherikia River section, 6.88–7.0 m above the base of the Bannockburn Formation, allocated H41/f88 in the archival Fossil Record File of the Geological Society of NZ"
+early to earliest middle Miocene (Altonian), 19-16 Ma, Casuarinacea biozone
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near St Bathans in Central Otago
+
+## Age bounds on the recorded occurrences {#s-357e719133}
+Across these selected PBDB rows, the largest recorded eag=18.7 Ma in occ:1338531; the smallest recorded lag=15.9 Ma in occ:1338531. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-306f78ff24}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1338531: PBDB original-identification field idn=Neilus sansomae n. gen. n. sp.; PBDB taxon-name field tna=Neilus sansomae; abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=169.858337, lat=-44.908054; paleocoordinate/model fields pm1=gplates, pln=-175.64, pla=-46.44.
+- occ:1338532: PBDB taxon-name field tna=Neilus sansomae; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=169.858337, lat=-44.908054; paleocoordinate/model fields pm1=gplates, pln=-175.64, pla=-46.44.
+- occ:1338533: PBDB taxon-name field tna=Neilus sansomae; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=169.858337, lat=-44.908054; paleocoordinate/model fields pm1=gplates, pln=-175.64, pla=-46.44.
+
+## References attached to each record {#s-4dcdf9bcb5}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1338531: Recorded attribution De Pietri et al. 2016; PBDB reference ref:60030.
+- occ:1338532: Recorded attribution De Pietri et al. 2016; PBDB reference ref:60030.
+- occ:1338533: Recorded attribution De Pietri et al. 2016; PBDB reference ref:60030.
+
+## What these records can show {#s-fee4466988}
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

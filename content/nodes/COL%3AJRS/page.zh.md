@@ -1,4 +1,6 @@
-## 本批的物种页 {#s-0e6fdfb7ab}
+## 记录分类与直接上级关系 {#s-0e6fdfb7ab}
+COL26.8 将 Jynginae 记录为亚科；其直接上级记录为 Picidae。
+
 Jynginae 路径覆盖 2 条测量物种记录：Jynx ruficollis 与 Jynx torquilla。目录层级依固定 COL26.8；AVONET v7 测量保留历史名称和采样范围。
 
 ## 用于对比的例子 {#s-d57d91c30a}

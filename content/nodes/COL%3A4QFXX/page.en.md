@@ -1,44 +1,44 @@
-## The name and this data account {#s-1ca224856c}
-Puffinus nativitatis is an accepted Procellariidae species in COL26.8. AVONET v7 lists it under the HBW–BirdLife 2020 name; all 4 measured birds have a complete morphological set, though usable counts can vary by trait.
+## Row-reported mean and sample coverage {#s-1ca224856c}
+The AVONET v7 row for Puffinus nativitatis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 22.3 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-e0371b160d}
-Mean beak length is 22.3 mm from the front edge of the nostril to the tip. At the nostril edge, mean width is 5.7 mm and depth is 8.1 mm. These are separate measurements at defined points, not identification thresholds.
+## Beak measurements at defined landmarks {#s-e0371b160d}
+AVONET records culmen length (bill tip to skull base) 29.1 mm; beak length (nostril front edge to tip) 22.3 mm; beak width at the nostril front edge 5.7 mm; beak depth at the nostril front edge 8.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-f4afe5df31}
-The mean unflattened wing, from carpal joint to longest primary, measures 235.5 mm; mean tarsus length is 40.7 mm. A separate compilation gives mean mass as 356 g (Dunning source category), which does not mean that every measured bird was weighed.
+## Wing and body measures use separate sources {#s-f4afe5df31}
+AVONET records unflattened wing length 235.5 mm; tarsus length 40.7 mm; distance from first secondary tip to longest primary tip 147.5 mm; length to first secondary tip 88 mm; hand-wing index 62.6; tail length 86.5 mm; species-average body mass 356 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-ac1431fdb2}
-AVONET classifies habitat as Marine, trophic niche as Aquatic predator and lifestyle as Generalist. These broad comparison categories do not mean the species uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-ac1431fdb2}
+AVONET classifies Puffinus nativitatis as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Generalist. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-4ba92720ff}
-The migration field marks this record as partially migratory. Historical breeding and resident maps reach latitude endpoints of -31.8° and 37.42°. They omit a complete account of non-breeding movements and do not estimate current global occupancy. The maps and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-4ba92720ff}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -31.8° to 37.42°. The mapped range area is 50917573.17 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-e3e266f7de}
-In pinned COL26.8, Puffinus nativitatis is accepted in Procellariidae. Six fields here come from a historical life-history record with the same name and family, supported by cited species-level rows. The compilation may carry data across older taxonomic groupings, so a matching name does not rule out inheritance.
+## Scope of the historical life-history entry {#s-e3e266f7de}
+The August 2015 database has a same-name, same-family record for Puffinus nativitatis. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-104b6800da}
-The historical compilation gives an adult body-mass summary of 354 g. Adult records may combine males, females and adults whose sex was not specified; this is not a range of individual masses. Birth or hatching mass is not included.
+## Compiled adult-mass values {#s-104b6800da}
+The August 2015 compilation reports adult body mass 354 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-66b751ef0f}
-The compilation lists female maturity at 1461 d (the source defines this as age at first conception), 1 offspring or egg per litter/clutch, 51.5 d from egg laying to hatching, and 96 d to flight capability (some sources record leaving the nest). Here, d means days. Litter and clutch counts share one field; a fractional summary would not mean a fraction of an offspring in one event. The timing values describe different events, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-66b751ef0f}
+The August 2015 compilation reports female age at first conception (source definition) 1461 days; median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 51.5 days; age at flight capability (some records mark nest departure) 96 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-0433745310}
-The archive gives 22.8 years for maximum_longevity_y, the largest record found under its method. This is not typical or average wild lifespan, an individual survival limit, or proof of a current record that can be repeated.
+## A maximum record is not typical lifespan {#s-0433745310}
+The compilation lists 22.8 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-d7a373fbee}
-Source labels on the matching rows include Dunning, 1992; Bennett, 1986; Dyke and Kaiser, 2010; and Wasser, D.E. and P.W. Sherman, 2010, among others. The archive retains raw row numbers, values and field labels, alongside the reference table's full explanations. A label may identify a paper, book or database. Row counts are not animal counts, and repeated citations do not amount to independent experiments.
+## Sources and field limits {#s-d7a373fbee}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-832d1133ac}
-Puffinus nativitatis is accepted in pinned COL26.8 within Procellariidae. The EltonTraits 1.0 comparison uses two ecological field groups from a historical record with the same name and family, with source labels retained. The source uses an earlier bird classification or MSW3 for mammals; matching names do not settle modern splits or synonymy.
+## Scope of the historical trait entry {#s-832d1133ac}
+EltonTraits 1.0 has a same-name, same-family record for Puffinus nativitatis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-a366618aaa}
-EltonTraits assigns equal nonzero food weights to invertebrates (50%) and fish (50%). Code A indicates high compiler confidence in the source and diet information. These are standardized estimates from verbal descriptions, not measured diet shares; a zero would not prove a food is never eaten. Nect, Seed and PlantO are broader labels than their everyday meanings.
+## Relative weights across food categories {#s-a366618aaa}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; fish 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-27810c2c06}
-The archive marks these species-level foraging-stratum weights: below the water surface, 80%; on or just below it, 20%. They estimate relative use of feeding positions, not nest sites, total habitat or time across the day. The source's water, understory, mid/high, canopy and aerial categories have different definitions; they are not elevation ranges or measures of flight height or habitat area.
+## Foraging positions are not a time budget {#s-27810c2c06}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 80%; around the water surface 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-2f9e1d1c92}
-The selected groups carry the label Ref_1. Diet, strata and activity may use different material, and Ref_1 in bird and mammal reference tables does not identify the same source. The archive retains each original citation string with its file, row, field group and reference table. The underlying books and papers have not been individually reviewed; labels are not additional observations.
+## Sources and field limits {#s-2f9e1d1c92}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-5f0f1776c2}
 This page interprets historical AVONET v7 data. Morphological values are species averages from the listed samples, not diagnostic limits or individual variation ranges. Mass comes from separate literature or weighing sources, so the morphology sample counts do not apply to it. Habitat, diet and migration are broad categories; the mapped area covers historical breeding and resident ranges. A one-to-one historical crosswalk and matching catalogue name support the association but do not show that later taxonomic concepts are equivalent. Other sources are needed for reproduction, present populations and conservation.

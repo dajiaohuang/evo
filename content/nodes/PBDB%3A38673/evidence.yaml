@@ -122,6 +122,18 @@ records:
             page: en
             section: s-cc54068225
             part: body
+      - topic: literatureContext
+        sourceIds:
+          - taylor2009BrachiosaurusGiraffatitan
+        text:
+          en:
+            page: en
+            section: taylor-literature-context
+            part: body
+          zh:
+            page: zh
+            section: taylor-literature-context
+            part: body
     sources:
       - id: taxonomy
         referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
@@ -192,6 +204,19 @@ records:
           scope:
             zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
             en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: taylor2009BrachiosaurusGiraffatitan
+        referenceId: taylor-2009-brachiosaurus-giraffatitan
+        fields:
+          - id
+          - title
+          - authors
+          - publishedYear
+          - pages
+          - url
+          - doi
+          - locator
+        usage:
+          locator: pp. 787–806; Figures 1–16; Tables 1–3; Type-material review; comparative diagnosis; generic separation
     limitations:
       zh:
         page: zh

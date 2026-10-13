@@ -1,18 +1,53 @@
 ## 本页所选记录对应的名称 {#s-e74daafd2f}
 2026-10-02 的 PBDB 翼龙快照将 Ardeadactylus longicollum 作为接受名，记录的数据库父级为 Ardeadactylus。本页选取 3 条种级出现记录，关联 3 个采集记录与 2 个引文编号。这些是数据库计数单位，不等于化石标本数或古代个体数。 其中 3 条记录将原始鉴定或名称组合链接至接受名；记录仍保留原始名称字符串，名称变更不会额外生成一次出现记录。
 
+PBDB 出现记录补充:
+Ardeadactylus longicollum 在 PBDB 快照中对应分类条目 txn:163714。这份存档导读包含 3 条选取的出现记录，关联 3 个不同的 PBDB 采集记录编号和 2 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## 样本中的采集地与地层 {#s-394b7842d4}
 采集记录 Nusplingen Plattenkalk, Liegende Bankkalk Fm.（Baden-Württemberg），地区代码 DE，地层名称 Liegende Bankkalk；数据库年代范围 152.21–149.2 Ma，早端地质时段 Late Kimmeridgian。采集记录 Nusplingen quarry (SMNS collection)（Baden-Württemberg），地区代码 DE；数据库年代范围 152.21–149.2 Ma，早端地质时段 Late Kimmeridgian。采集记录 Eichstätt, Solnhofen (BSPG collection)（Bayern），地区代码 DE，地层名称 Solnhofen；数据库年代范围 149.2–145.06 Ma，早端地质时段 Early Tithonian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+
+PBDB 出现记录补充:
+存档导读包含 3 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:1192903；PBDB 采集记录 col:154138。 地点字段 cnm=Nusplingen Plattenkalk, Liegende Bankkalk Fm.；地点分区字段 cc2=DE，stp=Baden-Württemberg。 记录年代界：eag 152.21 Ma; lag 149.2 Ma；PBDB 年代区间字段 oei=Late Kimmeridgian。 地层字段 sfm=Liegende Bankkalk。 记录署名 Dietl and Schweigert 2011；PBDB 引文编号 ref:49972。
+
+- 出现记录 occ:1704787；PBDB 采集记录 col:229120。 地点字段 cnm=Nusplingen quarry (SMNS collection)；地点分区字段 cc2=DE，stp=Baden-Württemberg。 记录年代界：eag 152.21 Ma; lag 149.2 Ma；PBDB 年代区间字段 oei=Late Kimmeridgian。 记录署名 Wellnhofer 1970；PBDB 引文编号 ref:32120。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+upper Kimmeridgian, Beckeri Zone, Ulmense Subzone
+
+- 出现记录 occ:2070020；PBDB 采集记录 col:216616。 地点字段 cnm=Eichstätt, Solnhofen (BSPG collection)；地点分区字段 cc2=DE，stp=Bayern。 记录年代界：eag 149.2 Ma; lag 145.06 Ma；PBDB 年代区间字段 oei=Early Tithonian。 地层字段 sfm=Solnhofen。 记录署名 Wellnhofer 1970；PBDB 引文编号 ref:32120。
 
 ## 如何理解年代区间 {#s-ffa6a195b9}
 本页所选出现记录的年代外包区间为 152.21–145.06 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=152.21 Ma，见 occ:1192903；最小记录 lag=145.06 Ma，见 occ:2070020。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 采集标签描述的内容 {#s-3aff9feafc}
 Nusplingen Plattenkalk, Liegende Bankkalk Fm. 的采集环境标签为 潟湖或受限浅潮下沉积环境（lagoonal/restricted shallow subtidal）；集合保存方式标签为 实体化石、压印保存、trace、软组织（body,adpression,trace,soft parts）。Nusplingen quarry (SMNS collection) 的采集环境标签为 潟湖或受限浅潮下沉积环境（lagoonal/restricted shallow subtidal）；集合保存方式标签为 实体化石（body）。Eichstätt, Solnhofen (BSPG collection) 的采集环境标签为 潟湖或受限浅潮下沉积环境（lagoonal/restricted shallow subtidal）；集合保存方式标签为 mold/impression、压印保存（mold/impression,adpression）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1192903：PBDB 原鉴定字段 idn=Pterodactylus longicollum；PBDB 分类名称字段 tna=Ardeadactylus longicollum；PBDB 地点坐标字段 lng=8.866667，lat=48.116669；古坐标／模型字段 pm1=gplates，pln=22.34，pla=31.19。
+- occ:1704787：PBDB 原鉴定字段 idn=Pterodactylus longicollum n. sp.；PBDB 分类名称字段 tna=Ardeadactylus longicollum；材料说明字段 ocm=SMNS 5802 (neotype specimen)；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=8.875000，lat=48.125000；古坐标／模型字段 pm1=gplates，pln=22.34，pla=31.19。
+- occ:2070020：PBDB 原鉴定字段 idn=Pterodactylus longicollum；PBDB 分类名称字段 tna=Ardeadactylus longicollum；材料说明字段 ocm=Specimens lost (formerly Munich)；丰度字段 abv=2，abu=specimens；PBDB 地点坐标字段 lng=11.145000，lat=48.910000；古坐标／模型字段 pm1=gplates，pln=23.87，pla=32.08。
 
 ## 这些采集记录关联的文献 {#s-ef153c9ddb}
 Nusplingen Plattenkalk, Liegende Bankkalk Fm. 的数据库引文署名为 Dietl and Schweigert（2011），编号 ref:49972。Nusplingen quarry (SMNS collection) 的数据库引文署名为 Wellnhofer（1970），编号 ref:32120。Eichstätt, Solnhofen (BSPG collection) 的数据库引文署名为 Wellnhofer（1970），编号 ref:32120。 这些作者—年份署名是 PBDB 为所选采集记录关联的引文，未必对应每件标本的原始描述。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 2 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1192903：记录署名 Dietl and Schweigert 2011；PBDB 引文编号 ref:49972。
+- occ:1704787：记录署名 Wellnhofer 1970；PBDB 引文编号 ref:32120。
+- occ:2070020：记录署名 Wellnhofer 1970；PBDB 引文编号 ref:32120。
+
 ## 本目录能说明什么 {#s-90420f6869}
 本页整理 2026-10-02 的 PBDB 翼龙出现记录，属于选定记录导读，不是完整物种专论。条目沿用数据库接受名与父级路径，并纳入没有不确定鉴定限定词的可用种级记录。PBDB 对旧名称的链接不能裁决标本鉴定或全部分类争议，也不等于与 COL 同名概念合并。采集地点、地层年代、沉积环境和采集层级保存方式是不同字段；它们本身不能确立完整分布、真实起源或灭绝时间、固定生态、生物数量或每件标本的保存状态。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 3 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

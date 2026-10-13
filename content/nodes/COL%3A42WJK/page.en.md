@@ -1,5 +1,5 @@
-## Read this historical record through food and foraging position {#s-344600c5e9}
-COL26.8 accepts Microgale soricoides within Tenrecidae. EltonTraits 1.0 records 2 ecological field groups under an earlier bird classification or the MSW3 mammal taxonomy. The name match supports a historical comparison, but does not settle later splits or synonymies.
+## Foraging stratum and activity flags in the compilation {#s-344600c5e9}
+The EltonTraits 1.0 record for *Microgale soricoides* contains the foraging stratum, activity flags. The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night and twilight and daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Source comments and compiler confidence remain attached to the foraging category. The archive leaves diet fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Microgale soricoides*.
 
 ## Mammalian foraging-stratum assignment {#s-8c43cad738}
 The entry is assigned G: ground category (the source definition includes some aquatic foraging); code A records compiler confidence in source and assignment. Metadata collectively attributes mammalian stratum assignments to Nowak (1999). This is a category assignment, not a percentage of time among strata, and does not mean the species acts only there.
@@ -10,7 +10,6 @@ The archive marks feeding activity during night, twilight, daytime as 1. Several
 ## Trace each field group to its source labels {#s-0f2946dfa9}
 The source labels for these fields are metadata:Nowak1999, Ref_1. Diet, feeding position, and activity may draw on different works, so the same Ref number in bird and mammal tables does not identify the same source. The archive links each label to its file, row, field group, and reference table; these labels are not independent observations.
 
-## Life-history evidence limits {#s-48a2a8227e}
-EltonTraits 1.0 compiles historical foraging descriptions under earlier names and family assignments. A same-name, same-family match supports comparison with the COL26.8 record but does not prove that the historical and current species concepts are identical. Food and bird foraging-stratum percentages are standardized relative weights from descriptions, not measurements of intake, stomach contents, energy use or time budgets. Bird A/B diet codes retain uncertainty in source and relative proportions; mammal ABC food or activity fields may draw on a congener judged ecologically similar. Genus- or family-level typical values, non-species-level strata and records affected by taxonomic splits do not support species-level conclusions. These data describe the listed fields, not complete ecology, current distribution, population or conservation status.
-The archive does not use diet (source code D1) where interpolation, certainty, or source-link limits prevent a clear interpretation. That field therefore does not support a definite ecological conclusion.
+## How to read the source fields {#s-48a2a8227e}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 

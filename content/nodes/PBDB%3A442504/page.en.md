@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-14d3a07750}
-Pendraig milnerae is accepted in the fixed PBDB dinosaur working roster, with database parent Pendraig. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-14d3a07750}
+Pendraig milnerae is listed in the PBDB snapshot under taxon txn:442504. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-9df268b804}
-Collection Pant-y-ffynnon Quarry, Bonvilston (Wales), region code UK; database age bracket 237–227.3 Ma, early interval Carnian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-9df268b804}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-2d324681ba}
-Selected occurrences have an outer age envelope of 237–227.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1574570; PBDB collection col:27012. Locality cnm=Pant-y-ffynnon Quarry, Bonvilston; place fields cc2=UK, stp=Wales, cny=Swansea. Recorded age bounds: eag 237 Ma; lag 227.3 Ma; PBDB interval fields oei=Carnian. Recorded attribution Spiekman et al. 2021; PBDB reference ref:78307.
 
-## Read preservation setting separately from living habitat {#s-9937d9d1cf}
-Pant-y-ffynnon Quarry, Bonvilston has collection-environment label fissure fill; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Whiteside & Marshall (2008) argue that Pant-y-ffynnon and other Triassic fissure fills are Rhaetian in age
 
-## Follow collection records back to references {#s-f0d82a13be}
-Pant-y-ffynnon Quarry, Bonvilston carries database reference attribution Spiekman et al. (2021), identifier ref:78307. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Pant-y-ffynnon Quarry, near Bonvilston, South Glamorgan, Wales; also called Pant-y-ffynon, Cowbridge Island, ST 046 743; 3 mi E of Cowbridge. Simms & Drost 2024: (grid ref. ST 045742; 51.4590, − 3.3755)
 
-## Evidence limits {#s-207d3dd362}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-2d324681ba}
+Across these selected PBDB rows, the largest recorded eag=237 Ma in occ:1574570; the smallest recorded lag=227.3 Ma in occ:1574570. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-9937d9d1cf}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1574570: PBDB original-identification field idn=Pendraig milnerae n. gen. n. sp.; PBDB taxon-name field tna=Pendraig milnerae; material note ocm=Holotype: NHMUK PV R 37591 - An articulated vertebral series and pelvic girdle comprising the two posteriormost dorsal vertebrae missing most of the neural spines, the three anteriormost sacral vertebrae and a small fragment of the centrum of the fourth sacral, a complete left ilium, a largely complete left pubis missing the distal end, a left ischium missing most of the distal portion, a largely complete right pubis missing the distal end, and a right ischium missing most of the dorsal and distal portions (field number P77/1). Additionally, a left femur was found disarticulated from the left hemipelvis in the same block (field number P76/1). It has been completely freed from the matrix and is confidently referred to the same individual as the vertebral column and pelvis. Referred material. NHMUK PV R 37596 (field number P83/1): A complete middle to posterior dorsal vertebra completely freed from matrix (figure 4). NHMUK PV R 37597 (field number P65/66b): the proximal end of a left ischium preserving the articular facet with the left ilium (figure 5). A counterslab to this specimen, listed as field number P65/66a and comprising the base of the distal portion and part of the proximal expansion of the ischium, was described and figured in the unpublished PhD thesis of Warrener.; PBDB locality-coordinate fields lng=-3.375500, lat=51.459000; paleocoordinate/model fields pm1=gplates, pln=8.41, pla=33.98.
+
+## References attached to each record {#s-f0d82a13be}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1574570: Recorded attribution Spiekman et al. 2021; PBDB reference ref:78307.
+
+## What these records can show {#s-207d3dd362}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -7,8 +7,8 @@ Start with Paraceratherium asiaticum, Paraceratherium lepidum, Paraceratherium h
 ## Evidence limits {#s-867376f8c9}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## Overview {#s-c48ac4df9a}
-Paraceratherium is an Oligocene Asian genus represented here by six sampled species. A 155-character analysis places the 26.5 Ma Paraceratherium linxiaense specimen LX1808 within a monophyletic genus, although detailed relationships depend on that matrix. Its skull, mandible and neck vertebrae support a giant, long-necked animal with long limbs.
+## LX1808 anchors a sampled Paraceratherium analysis {#s-c48ac4df9a}
+This Oligocene Asian account samples six Paraceratherium species. A 155-character analysis places the approximately 26.5 Ma specimen LX1808 within a monophyletic genus, although finer relationships depend on the matrix. Its skull, mandible and neck vertebrae support a giant animal with a long neck and long limbs.
 
 ## Diet {#s-c4266e9ee1}
 A large terrestrial herbivore; feeding height is inferred from neck and body form, not measured.
@@ -37,9 +37,9 @@ Long limbs rather than stubby graviportal limbs
 ## Preserved features {#s-9d81df2e62}
 Species diagnoses use cranial and dental characters
 
-## Evidence and scope {#s-a262b90a9d}
-Deng and colleagues provide the dated LX1808 specimen, diagnosis, 155-character analysis and occurrence map. The analysis samples six species and supports a monophyletic genus; a Tibetan-region dispersal route, palaeoelevation and feeding height remain inferences.
+## Six sampled species and a dated specimen {#s-a262b90a9d}
+Deng and colleagues document LX1808, its diagnosis, a 155-character analysis and an occurrence map. The analysis samples six species and supports a monophyletic genus; dispersal through the Tibetan region, palaeoelevation and feeding height remain inferences.
 
-## Limits of this account {#s-2c03ebf3ad}
-LX1808 is a point occurrence, not the genus’ global first or last appearance. Locality records span the Mongolian Plateau, northwestern China, Kazakhstan and Pakistan; routes through the Tibetan region and palaeoelevation are reconstructed, not directly recorded. Herbivory is supported, but browsing height and a single habitat for every species are not established.
+## LX1808 does not define the genus-wide range {#s-2c03ebf3ad}
+LX1808 is one point occurrence, not a global first or last appearance. Localities span the Mongolian Plateau, northwestern China, Kazakhstan and Pakistan; a route through the Tibetan region and palaeoelevation are reconstructed. Herbivory is supported, but browsing height and one habitat for all species are not established.
 

@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-6d5cc256b6}
+## 记录分类与直接上级关系 {#s-6d5cc256b6}
+COL26.8 将 Luperosaurus 记录为属；其直接上级记录为 Gekkonidae。
+
 Luperosaurus 的本批 ReptTraits 阅读路径包含 8 条同名同科、有逐性状出处的物种资料，可从 Luperosaurus angliit、Luperosaurus corfieldi、Luperosaurus cumingii、Luperosaurus joloensis、Luperosaurus kubli 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-8b4bc01088}

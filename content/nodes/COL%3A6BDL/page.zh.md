@@ -1,15 +1,17 @@
-## 按生活史字段选择对读页面 {#s-83bdb87142}
+## 记录分类与直接上级关系 {#s-83bdb87142}
+COL26.8 将 Oxymycterus 记录为属；其直接上级记录为 Sigmodontinae。
+
 Oxymycterus 的本批路线包含 7 条历史生活史导读，可从 Oxymycterus dasytrichus、Oxymycterus hispidus、Oxymycterus josei、Oxymycterus nasutus、Oxymycterus quaestor 开始。较多条目具有的字段包括 成年体重（7 条）、雌性成熟字段（源定义为首次受孕年龄）（7 条）、每窝幼体数或卵数（7 条）、转而依靠非母乳食物的年龄（7 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-a438b289e3}
 Oxymycterus 的本批路线包含 16 个历史条目，可从 Oxymycterus caparoae、Oxymycterus rufus、Oxymycterus akodontius、Oxymycterus amazonicus、Oxymycterus angularis 开始。其中 11 条可读食物类别权重，16 条可读取食层位，16 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
 
 ## 生活史资料边界 {#s-971729d94f}
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
 
-## 从已有历史条目开始 {#s-ca19b33bb6}
-Oxymycterus 的本地 PanTHERIA 路径包括 9 条可用数据导读，可从 [Oxymycterus akodontius](Oxymycterus_akodontius/page.zh.md)、[Oxymycterus angularis](Oxymycterus_angularis/page.zh.md)、[Oxymycterus delator](Oxymycterus_delator/page.zh.md)、[Oxymycterus hiska](Oxymycterus_hiska/page.zh.md)、[Oxymycterus hucucha](Oxymycterus_hucucha/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-ca19b33bb6}
+Oxymycterus 的本地 PanTHERIA 路径包括 9 条可用数据导读，可从 Oxymycterus akodontius、Oxymycterus angularis、Oxymycterus delator、Oxymycterus hiska、Oxymycterus hucucha 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-88810b2307}
 本批可用的成年体重汇总值中，Oxymycterus inca 为 34.99 g，Oxymycterus roberti 为 83.71 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。

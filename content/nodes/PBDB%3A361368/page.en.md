@@ -1,18 +1,54 @@
 ## Which fossil records this name represents {#s-b03e43a2c3}
 Kimurachelys slobodae is accepted in the fixed PBDB pantestudines working roster, with database parent Kimurachelys. This guide uses 3 eligible species-level occurrence records from 3 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-42e16fa0af}
-Collection Sage Creek Provincial Grazing Reserve (TMP) (Alberta), region code CA, stratum name Dinosaur Park; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Collection 6.5 km northeast of Onefour (Lethbridge Coal Zone) (Alberta), region code CA, stratum name Dinosaur Park; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Collection Iddesleigh (Lethbridge Coal Zone) (Alberta), region code CA, stratum name Dinosaur Park; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Kimurachelys slobodae is listed in the PBDB snapshot under taxon txn:361368. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-2ab2d60657}
-Selected occurrences have an outer age envelope of 83.6–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+## Named localities and collection records {#s-42e16fa0af}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-91b80b3b6e}
-Sage Creek Provincial Grazing Reserve (TMP) has collection-environment label estuary/bay; collection preservation-mode label body. 6.5 km northeast of Onefour (Lethbridge Coal Zone) has collection-environment label estuary/bay; collection preservation-mode label body. Iddesleigh (Lethbridge Coal Zone) has collection-environment label estuary/bay; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1380628; PBDB collection col:188996. Locality cnm=Sage Creek Provincial Grazing Reserve (TMP); place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Dinosaur Park. Recorded attribution Brinkman et al. 2015; PBDB reference ref:56093.
 
-## Follow collection records back to references {#s-1768eb26d0}
-Sage Creek Provincial Grazing Reserve (TMP) carries database reference attribution Brinkman et al. (2015), identifier ref:56093. 6.5 km northeast of Onefour (Lethbridge Coal Zone) carries database reference attribution Brinkman et al. (2015), identifier ref:56093. Iddesleigh (Lethbridge Coal Zone) carries database reference attribution Brinkman et al. (2015), identifier ref:56093. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+From a stratum immediately overlying the basalmost coal bed of the Lethbridge Coal
+Zone in the Dinosaur Park Formation
+
+- Occurrence occ:1380630; PBDB collection col:188997. Locality cnm=6.5 km northeast of Onefour (Lethbridge Coal Zone); place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Dinosaur Park. Recorded attribution Brinkman et al. 2015; PBDB reference ref:56093.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Onefour mud-filled channel complex in the Lethbridge Coal Zone, uppermost part of the Dinosaur Park Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+UTM coordinates: 12; 543199; 5444343, WGS 84
+
+- Occurrence occ:1380631; PBDB collection col:188998. Locality cnm=Iddesleigh (Lethbridge Coal Zone); place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Dinosaur Park. Recorded attribution Brinkman et al. 2015; PBDB reference ref:56093.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Lethbridge Coal Zone, uppermost part of the Dinosaur Park Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+UTM coordinates: 12; 473975; 5623725, WGS 84
+
+## Age bounds on the recorded occurrences {#s-2ab2d60657}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:1380628; the smallest recorded lag=72.2 Ma in occ:1380628. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-91b80b3b6e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1380628: PBDB taxon-name field tna=Kimurachelys slobodae; material note ocm=TMP 2010.85.17 - holotype; PBDB locality-coordinate fields lng=-110.467842, lat=49.115551; paleocoordinate/model fields pm1=gplates, pln=-65.86, pla=59.17.
+- occ:1380630: PBDB taxon-name field tna=Kimurachelys slobodae; material note ocm=TMP 2012.39.24; PBDB locality-coordinate fields lng=-110.470001, lat=49.119999; paleocoordinate/model fields pm1=gplates, pln=-65.86, pla=59.17.
+- occ:1380631: PBDB taxon-name field tna=Kimurachelys slobodae; PBDB locality-coordinate fields lng=-111.370117, lat=50.753296; paleocoordinate/model fields pm1=gplates, pln=-65.52, pla=60.9.
+
+## References attached to each record {#s-1768eb26d0}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1380628: Recorded attribution Brinkman et al. 2015; PBDB reference ref:56093.
+- occ:1380630: Recorded attribution Brinkman et al. 2015; PBDB reference ref:56093.
+- occ:1380631: Recorded attribution Brinkman et al. 2015; PBDB reference ref:56093.
 
 ## Evidence limits {#s-f6cd9bf869}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 1150-item pantestudines working roster, retain the current same name and a complete parent chain to the recorded Pantestudines storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,44 +1,44 @@
-## The name and this data account {#s-049accf30d}
-Ara glaucogularis is accepted in COL26.8 within Psittacidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-049accf30d}
+The AVONET v7 row for Ara glaucogularis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 51.7 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-7301c8dacf}
-Recorded mean beak measurements are 51.7 mm from the anterior nostril edge to the tip, 24.6 mm in width and 51.1 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-7301c8dacf}
+AVONET records culmen length (bill tip to skull base) 59.6 mm; beak length (nostril front edge to tip) 51.7 mm; beak width at the nostril front edge 24.6 mm; beak depth at the nostril front edge 51.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-a0fd307b46}
-Mean unflattened wing length from the carpal joint to the longest primary is 343.4 mm; mean tarsus length is 30.1 mm. Compiled mean mass is 783.99 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-a0fd307b46}
+AVONET records unflattened wing length 343.4 mm; tarsus length 30.1 mm; distance from first secondary tip to longest primary tip 114.7 mm; length to first secondary tip 231.1 mm; hand-wing index 33.1; tail length 477 mm; species-average body mass 783.99 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-98b1ce89b8}
-The dataset assigns habitat Forest, trophic niche Frugivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-98b1ce89b8}
+AVONET classifies Ara glaucogularis as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Frugivore (source threshold at least 60% from fruit); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-2d1d40081c}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -15.6° to -13.44°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-2d1d40081c}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -15.6° to -13.44°. The mapped range area is 27792.35 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-73a32edd95}
-The 2015 life-history archive lists three focal fields for Ara glaucogularis in Psittacidae, each supported by cited species-level rows with the same name and family. These summaries may still include data inherited across historical taxa; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-73a32edd95}
+The August 2015 database has a same-name, same-family record for Ara glaucogularis. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-0d6e9e6c5b}
-Historical summary values are adult body mass 784 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-0d6e9e6c5b}
+The August 2015 compilation reports adult body mass 784 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-698056603a}
-Available compilation fields are offspring per litter or eggs per clutch 2.4 offspring/eggs. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Missing reproductive and developmental durations are not supplied here.
+## Reproductive fields describe different events {#s-698056603a}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.4. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## The longest record differs from usual lifespan {#s-3995466a3c}
-The life-history archive reports a maximum longevity of 22 years, using the largest record found under its method. This is not a typical or mean wild lifespan, a survival ceiling for every individual or a current record that can be assumed repeatable.
+## A maximum record is not typical lifespan {#s-3995466a3c}
+The compilation lists 22 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-b202c2f17a}
-Same-name sparse rows cite Dunning (1992), de Magalhaes and Costa (2009), and Jetz, Sekercioglu, and Bohning-Gaese (2008). Each field has its own source label; a label may identify a paper, book or database. Row counts are not numbers of measured individuals, and repeated citations do not represent independent experimental replication.
+## Sources and field limits {#s-b202c2f17a}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## EltonTraits record and taxonomic context {#s-561e9b4adc}
-The EltonTraits 1.0 record associated with Ara glaucogularis has two ecological field groups: food weights and foraging strata. Its taxonomy follows an earlier bird classification; a name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-561e9b4adc}
+EltonTraits 1.0 has a same-name, same-family record for Ara glaucogularis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-ddaf8b7fbe}
-The archive’s nonzero food weights are fruit 100%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-ddaf8b7fbe}
+EltonTraits 1.0 assigns relative diet weights of fruit 100%. Its dominant five-category label is FruiNect. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-72a8c6ff69}
-Foraging-stratum weights flagged as species-level in the archive are understory, edges or shrubs below 2 m 30%; trees or high bushes from 2 m upward but below the canopy 30%; ground 20%; in or just above the canopy 20%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-72a8c6ff69}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 20%; in the understory 30%; in mid-height or high vegetation 30%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-b79c04a587}
-Both groups carry the label Ref_4. Diet, strata and activity can come from different material; the same reference number in bird and mammal tables does not identify the same source. Original source strings are retained with their file, row, field group and reference table. Underlying books and papers have not been individually read, and source labels do not count as new independent observations.
+## Sources and field limits {#s-b79c04a587}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-31ebab5cb4}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

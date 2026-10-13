@@ -1,19 +1,49 @@
 ## Which fossil records this name represents {#s-8e45d67746}
 Merycoides cursor is accepted in the fixed PBDB mammalia working roster, with database parent Merycoides. This guide uses 4 eligible species-level occurrence records from 4 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-35f7843d73}
-Collection Big Muddy Creek (Wyoming), region code US; database age bracket 29.5–18.5 Ma, early interval Arikareean. Collection Signal Butte (Nebraska), region code US, stratum name Gering; database age bracket 29.5–24.7 Ma, early interval Geringian. Collection Love's 23V (Wyoming), region code US, stratum name Arikaree; database age bracket 18.5–16.3 Ma, early interval Hemingfordian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Merycoides cursor is listed in the PBDB snapshot under taxon txn:48293. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-815d817f90}
-Selected occurrences have an outer age envelope of 29.5–16.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Big Muddy Creek, occurrence occ:181275 (29.5–18.5 Ma); one supplying the younger bound is Love's 23V, occurrence occ:189904 (18.5–16.3 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-35f7843d73}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-1c61fdff34}
-Big Muddy Creek has collection-environment label terrestrial indet.; collection preservation-mode label body. Signal Butte has collection-environment label terrestrial indet.; collection preservation-mode label body. Love's 23V has collection-environment label eolian indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:181275; PBDB collection col:17472. Locality cnm=Big Muddy Creek; place fields cc2=US, stp=Wyoming, cny=Goshen. Recorded age bounds: eag 29.5 Ma; lag 18.5 Ma; PBDB interval fields oei=Arikareean. Recorded attribution Schultz and Falkenbach 1949; PBDB reference ref:3065.
 
-## Follow collection records back to references {#s-0dc5ca90eb}
-Big Muddy Creek carries database reference attribution Schultz and Falkenbach (1949), identifier ref:3065. Signal Butte carries database reference attribution Schultz and Falkenbach (1949), identifier ref:3065. Love's 23V carries database reference attribution Munthe (1988), identifier ref:2634. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+supposed "Upper Harrison" beds of Loomis 1911 are actually beneath the Harrison Fm. in early Arikareean rocks: McKenna and Love 1972
+"Lower Harrison" is referred to "Lower Rosebud" by Loomis 1925
+oreodonts of Schultz and Falkenbach 1949 are supposedly from the Monroe Creek Fm., but according to Stevens and Stevens 1996, "the Gering (the lower sediments of the 'lower Harrison beds') and Monroe Creek formations in the Muddy Creek area cannot be distinguished lithologically"
+may be a stratigraphic composite: Coombs 1978b
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+said to be 3 mi W of bridge of Highway 85 across Muddy Creek by Wang 1994
+this is placed in Niobrara Co. by many authors, and certainly would be if it were due west of Lusk, but in Goshen Co. by Prothero 1996d
+I assume that general Muddy Creek records are from Big Muddy Creek
+
+- Occurrence occ:189904; PBDB collection col:18949. Locality cnm=Love's 23V; place fields cc2=US, stp=Wyoming, cny=Natrona. Recorded age bounds: eag 18.5 Ma; lag 16.3 Ma; PBDB interval fields oei=Hemingfordian. Stratigraphic fields sfm=Arikaree. Recorded attribution Munthe 1988; PBDB reference ref:2634.
+
+- Occurrence occ:182360; PBDB collection col:17664. Locality cnm=Signal Butte; place fields cc2=US, stp=Nebraska, cny=Scotts Bluff. Recorded age bounds: eag 29.5 Ma; lag 24.7 Ma; PBDB interval fields oei=Geringian. Stratigraphic fields sfm=Gering. Recorded attribution Schultz and Falkenbach 1949; PBDB reference ref:3065.
+
+## Age bounds on the recorded occurrences {#s-815d817f90}
+Across these selected PBDB rows, the largest recorded eag=29.5 Ma in occ:181275; the smallest recorded lag=16.3 Ma in occ:189904. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-1c61fdff34}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:181275: PBDB original-identification field idn=Merycoides nebraskensis; PBDB taxon-name field tna=Merycoides cursor; material note ocm="Muddy Creek"; type of ssp. Merycoides nebraskensis blairi; PBDB locality-coordinate fields lng=-104.199997, lat=42.000000; paleocoordinate/model fields pm1=gplates, pln=-92.34, pla=47.
+- occ:189904: PBDB taxon-name field tna=Merycoides cursor; PBDB locality-coordinate fields lng=-107.099998, lat=43.200001; paleocoordinate/model fields pm1=gplates, pln=-99.21, pla=47.39.
+- occ:182360: PBDB original-identification field idn=Merycoides nebraskensis n. sp.; PBDB taxon-name field tna=Merycoides cursor; PBDB locality-coordinate fields lng=-103.800003, lat=41.799999; paleocoordinate/model fields pm1=gplates, pln=-90.48, pla=47.02.
+
+## References attached to each record {#s-0dc5ca90eb}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:181275: Recorded attribution Schultz and Falkenbach 1949; PBDB reference ref:3065.
+- occ:189904: Recorded attribution Munthe 1988; PBDB reference ref:2634.
+- occ:182360: Recorded attribution Schultz and Falkenbach 1949; PBDB reference ref:3065.
 
 ## Evidence limits {#s-54ad78918e}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

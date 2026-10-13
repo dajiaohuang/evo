@@ -1,5 +1,5 @@
-## Find rows through older Schizoeaca／Oreophylax combinations {#s-9580de8f62}
-Pinned COL26.8 organizes this page at Asthenes moreirae (DD9FX). BirdLife 2020 row 4203 and eBird 2021 row 1048 share the name and Avibase ID AVIBASE-BF71CB3E, with type 1BL to 1eBird; BirdTree row 1049 gives Oreophylax moreirae, with type 1BL to 1BT. Read catalogue synonym RBCVQ points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-9580de8f62}
+Catalogue of Life release COL26.8 records Asthenes moreirae (Miranda-Ribeiro, 1906) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-d3e966afc9}
 Morphology comprises 5 birds: 1 female, 4 male and 0 unsexed; 1 complete set. Nostril-to-tip beak length 9.9 mm, tarsus 23.1 mm, unflattened wing 59.3 mm, tail 106.5 mm and hand-wing index 10.6 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Only one bird has a complete set; this is neither the total morphology sample nor proof that every field uses one bird. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

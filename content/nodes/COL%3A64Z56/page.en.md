@@ -1,5 +1,5 @@
-## Find rows through older Collocalia combinations {#s-ac56fae1de}
-Pinned COL26.8 organizes this page at Aerodramus papuensis (64Z56). BirdLife 2020 row 518 and eBird 2021 row 208 share the name and Avibase ID AVIBASE-10591B00, with type 1BL to 1eBird; BirdTree row 212 gives Collocalia papuensis, with type 1BL to 1BT. Read catalogue synonym 8KQJ3 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates. Historical Order1=Caprimulgiformes remains distinct from Apodiformes in this COL path.
+## A name fixed to COL26.8 {#s-ac56fae1de}
+Catalogue of Life release COL26.8 records Aerodramus papuensis (Rand, 1941) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-06e2d52f62}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 3.8 mm, tarsus 11.1 mm, unflattened wing 132.5 mm, tail 50.9 mm and hand-wing index 70.4 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

@@ -1,29 +1,29 @@
-## The name and this data account {#s-2bfd7e3c42}
-Sporophila minuta is accepted in COL26.8 within Thraupidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 23 measured individuals, 9 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-2bfd7e3c42}
+The AVONET v7 row for Sporophila minuta (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 6.2 mm. The row records 23 measured individuals, 9 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-2c702c9a9d}
-Recorded mean beak measurements are 6.2 mm from the anterior nostril edge to the tip, 5 mm in width and 6.2 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-2c702c9a9d}
+AVONET records culmen length (bill tip to skull base) 9.2 mm; beak length (nostril front edge to tip) 6.2 mm; beak width at the nostril front edge 5 mm; beak depth at the nostril front edge 6.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-524f63ec05}
-Mean unflattened wing length from the carpal joint to the longest primary is 49.3 mm; mean tarsus length is 15.7 mm. Compiled mean mass is 7.8 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-524f63ec05}
+AVONET records unflattened wing length 49.3 mm; tarsus length 15.7 mm; distance from first secondary tip to longest primary tip 8.8 mm; length to first secondary tip 40.8 mm; hand-wing index 17.8; tail length 39.6 mm; species-average body mass 7.8 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-acc064d9c6}
-The dataset assigns habitat Grassland, trophic niche Granivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-acc064d9c6}
+AVONET classifies Sporophila minuta as habitat Grassland (open grass-dominated landscapes); trophic niche Granivore (source threshold at least 60% from seeds or nuts); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-ac2ae54026}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -3.97° to 22.06°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-ac2ae54026}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -3.97° to 22.06°. The mapped range area is 2243040.21 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-a24375079b}
-Sporophila minuta is accepted in pinned COL26.8 within Thraupidae. This page compares the same-name historical life-history entry using 3 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-a24375079b}
+The August 2015 database has a same-name, same-family record for Sporophila minuta. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-4e1ed8809a}
-Historical summary values are adult body mass 8 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-4e1ed8809a}
+The August 2015 compilation reports adult body mass 8 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-24344800c4}
-Available compilation fields are offspring per litter or eggs per clutch 2.4 offspring/eggs; age at flight capability (leaving the nest in some source material) 11 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-24344800c4}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.4; age at flight capability (some records mark nest departure) 11 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-acc7d3f067}
-Same-name sparse rows carry source labels including Dunning, 1992; Bennett, 1986; Pereira, H.M., Daily, G.C. and J. Roughgarden, 2004; Jetz, Sekercioglu, and Bohning-Gaese, 2008. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-acc7d3f067}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-330d50c81d}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

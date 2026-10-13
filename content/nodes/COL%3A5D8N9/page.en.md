@@ -1,26 +1,26 @@
-## A small set of measured birds {#s-122a95bda2}
-COL26.8 places *Zosterops meyeni* in Zosteropidae. The AVONET v7 record uses the HBW–BirdLife 2020 name and lists four measured individuals, each with a complete morphological measurement set. The usable sample may still differ by trait, so the reported values are source averages rather than a description of every bird.
+## Row-reported mean and sample coverage {#s-122a95bda2}
+The AVONET v7 row for Zosterops meyeni (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 6.9 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-7a5394b5a3}
-Mean beak length, measured from the front edge of the nostril to the tip, is 6.9 mm. At that same landmark, mean width is 2.8 mm and depth is 2.9 mm. These are three separate measurements taken at standardized points; they are not thresholds for identifying an individual in the field.
+## Beak measurements at defined landmarks {#s-7a5394b5a3}
+AVONET records culmen length (bill tip to skull base) 13.1 mm; beak length (nostril front edge to tip) 6.9 mm; beak width at the nostril front edge 2.8 mm; beak depth at the nostril front edge 2.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-e0e63b08ca}
-Mean unflattened wing length, measured from the carpal joint to the longest primary feather, is 52 mm; mean tarsus length is 15.3 mm. The tarsus is the lower-leg segment measured in this protocol. A separate compilation gives mean body mass as 10 g. That mass estimate is not tied to these four morphological specimens, so it does not show that each was weighed.
+## Wing and body measures use separate sources {#s-e0e63b08ca}
+AVONET records unflattened wing length 52 mm; tarsus length 15.3 mm; distance from first secondary tip to longest primary tip 9.9 mm; length to first secondary tip 42.1 mm; hand-wing index 19; tail length 40.5 mm; species-average body mass 10 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-16ff49f585}
-AVONET assigns the habitat category “forest,” the feeding category “omnivore,” and an insessorial lifestyle, meaning that perching is the primary recorded activity pattern. These are broad categories for comparison across species. They do not mean that the bird uses only forest or one set of foods, or that it never uses other activity patterns.
+## Recorded habitat and feeding categories {#s-16ff49f585}
+AVONET classifies Zosterops meyeni as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-2742f23b54}
-The migration field is coded as sedentary. Historical breeding and resident maps span latitude endpoints from 11.83° to 22.68°; these are limits of the mapped range, not a record of non-breeding movements or a measure of present-day occupancy. The map summary and the morphological measurements come from separate parts of the compilation.
+## The migration label has a limited scope {#s-2742f23b54}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 11.83° to 22.68°. The mapped range area is 105626.26 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## A separate estimate of foraging height {#s-a09780cd43}
-EltonTraits 1.0 has an older, same-name, same-family record for *Z. meyeni*. Its taxonomy predates the current COL26.8 classification, so the name match links records for comparison without resolving later splits or synonym disputes.
+## Scope of the historical trait entry {#s-a09780cd43}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops meyeni covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-8335549544}
-The archive marks its foraging-height entry as species-level: 70% is assigned to understory, edges or shrubs below 2 m, and 30% to trees or tall bushes from 2 m up to the canopy. These standardized weights estimate relative use of feeding positions in the source literature. They do not describe nest sites or a full-day time budget; the height classes are not elevation ranges and cannot establish flight height or habitat area.
+## Foraging positions are not a time budget {#s-8335549544}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 70%; in mid-height or high vegetation 30%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-2998f92613}
-The foraging-height entry is linked in the archive to Kennedy’s 2000 guide to Philippine birds. The guide has not been independently checked here, so the percentages should be read as EltonTraits’ standardized account of that literature, not as new field measurements.
+## Sources and field limits {#s-2998f92613}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Kennedy, R. 2000. A guide to the birds of the Philippines. Oxford University Press, USA.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-c58109d972}
 The morphology values are averages from the AVONET sample, not identification limits or a measure of individual variation. The mass estimate comes from a separate source and must not inherit the morphological sample size. Habitat, feeding, activity and migration are broad classifications; the latitude endpoints refer to historical breeding and resident maps only. The EltonTraits foraging weights are literature-derived estimates rather than direct measurements, and its diet field is withheld because its source record has uncertainty, interpolation or unresolved links. Neither historical name matching nor crosswalks establish that the datasets use the same species concept as COL26.8. The cited underlying studies have not been individually reread; current distribution, population and conservation status need other evidence.

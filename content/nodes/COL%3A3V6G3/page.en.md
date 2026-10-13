@@ -1,15 +1,15 @@
-## Which record these facts describe {#s-24df13cdbf}
-The pinned COL26.8 checklist accepts Liolaemus frassinettii in the family Liolaemidae. The traits below come from its ReptTraits v1-2 row, which follows the Reptile Database's 2023 name framework and cites sources by trait. ReptTraits brings records together as one row per species, so these values describe that compilation, not every population as if it were identical.
+## COL26.8 name and the ReptTraits row {#s-24df13cdbf}
+COL26.8 records Liolaemus frassinettii as an accepted species. The ReptTraits v1-2 row gives its Family field as Liolaemidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What the length numbers measure {#s-5b5924363c}
-The compiled record gives a reported maximum snout–vent length (SVL) of 91.1 mm and a female maximum of 71.1 mm. SVL measures from the snout to the vent and leaves out the tail, so it is shorter than total length. These are maxima found in the cited material, not a growth ceiling or a typical size. The two sex-specific values may come from different studies or places; by themselves they do not measure how much males and females differ within one population.
+## Length values in the archived records {#s-5b5924363c}
+The row reports a maximum SVL of 91.1 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 71.1 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Rock-associated habitat and daytime activity {#s-1eb7d40af5}
-The microhabitat field uses the label “Saxicolous,” meaning associated with rocky surfaces, and the activity field labels it diurnal, or active by day. These broad categories do not describe a complete habitat or a fixed schedule. This row has no diet value or prey description, and it does not show whether habitat use or activity varies among places, seasons, or life stages.
+## Habitat use and activity labels {#s-1eb7d40af5}
+The microhabitat field classifies the recorded position as rock-dwelling (Saxicolous). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## What the litter figure means {#s-5a21ffec6e}
-The row gives a consolidated mean of 2 offspring or eggs per litter or clutch. It does not provide a reproductive-mode label or low and high values for this species. ReptTraits summaries can use the midpoint of published means, or the midpoint of reported extremes when means are missing, so 2 is not necessarily an arithmetic average of directly counted litters. The combined field also does not say whether the source counted offspring or eggs in this record. The available data do not establish how embryos are nourished or that all populations share the same reproductive pattern.
+## Reproductive fields in ReptTraits {#s-5a21ffec6e}
+The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020.
 
-## Limits of this account {#s-1ad5e4a175}
-This page paraphrases the same-name ReptTraits v1-2 row and keeps its 2023 name framework and trait-specific citations. A single row compresses differences in sex, age, locality, and population; the same name and family do not prove that a historical record matches every later taxonomic concept. A reported maximum is not an absolute size limit, and a reproductive mean is not a fixed litter size. ReptTraits also includes mass estimates derived from length equations; they are not presented here as measured mass. Juvenile-length fields have differing headers and definitions, so they are not used as conclusions. This page does not update conservation status, venom, current distribution, or population trends. The citation labels retain the dataset's source chain; they do not mean this project independently rechecked every original study.
+## Reading this compiled trait record {#s-1ad5e4a175}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,5 +1,5 @@
-## 沿 Pomatorhinus 旧名定位 {#s-ec14c52e58}
-本页按COL26.8 Erythrogenys gravivox（NRMPS）、Timaliidae（H9M）组织。BirdLife 2020第8334行与eBird 2021第3770行同名，eBird两侧Avibase ID同为AVIBASE-ACFAA819，类型1BL to 1eBird。BirdTree第3754行记Pomatorhinus gravivox，类型1BL to 1BT；逐字目录异名4LQWS指向接受种NRMPS。名称关系提供定位，不证明不同版本物种范围完全相同。
+## COL26.8 中的名称身份 {#s-ec14c52e58}
+《Catalogue of Life》COL26.8（2026-08-20）将 Erythrogenys gravivox (A. David, 1873) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-1e459584b8}
 形态共 6 只鸟：雌 0、雄 2、性别未定 4；完整测量 5 只。鼻孔前缘至喙尖 24.5 mm、跗蹠 36.1 mm、未压平翼长 91.3 mm、尾长 97.1 mm、手翼指数 6.7 是历史行均值。总数大于完整数，不称每只鸟都有整套字段。没有已定雌鸟，仍有四只性别未定鸟，不能称全部为雄鸟或建立雌雄比较。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；指数不是飞行速度，翼长也不是实测飞行能力。

@@ -1,18 +1,31 @@
-## Which fossil records this name represents {#s-e9bf64270f}
-Qiupalong henanensis is accepted in the fixed PBDB dinosaur working roster, with database parent Qiupalong. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-e9bf64270f}
+Qiupalong henanensis is listed in the PBDB snapshot under taxon txn:176038. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-2035691077}
-Collection Qiupa, Luanchuan Basin (Henan), region code CN, stratum name Qiupa; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-2035691077}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-f35d3182bb}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:914468; PBDB collection col:84996. Locality cnm=Qiupa, Luanchuan Basin; place fields cc2=CN, stp=Henan, cny=Luanchuan. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Qiupa, sls=Qiupa Section B, slb=34, slo=bottom to top. Recorded attribution Xu et al. 2011; PBDB reference ref:34984.
 
-## Read preservation setting separately from living habitat {#s-225e8fec7d}
-Qiupa, Luanchuan Basin has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"late Late Cretaceous"
 
-## Follow collection records back to references {#s-ddd04ac68e}
-Qiupa, Luanchuan Basin carries database reference attribution Xu et al. (2011), identifier ref:34984. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Near village of Qiupa, Luanchuan Basin (also listed as Luanchuan County, Tantou Basin).
+"At least five individuals of Yulong were found in the Qiupa Area, but they are from different quarries up to 4 km apart. The geological survey indicates that these different quarries belong to the same age." (Lü et al. 2013) — indicates geographic resolution of 'local area' until more detailed provenance data are provided.
 
-## Evidence limits {#s-24aca0b7be}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-f35d3182bb}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:914468; the smallest recorded lag=66 Ma in occ:914468. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-225e8fec7d}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:914468: PBDB original-identification field idn=Qiupalong henanensis n. gen. n. sp.; PBDB taxon-name field tna=Qiupalong henanensis; material note ocm=HGM 41HIII-0106; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=111.650002, lat=34.016666; paleocoordinate/model fields pm1=gplates, pln=106.29, pla=29.23.
+
+## References attached to each record {#s-ddd04ac68e}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:914468: Recorded attribution Xu et al. 2011; PBDB reference ref:34984.
+
+## What these records can show {#s-24aca0b7be}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,5 +1,5 @@
-## One historical record, two genus names {#s-5473872d6c}
-Pinned COL26.8 organizes this page as Ammospiza caudacuta (9G43T). AVONET v7 BirdLife 2020 row 6373 uses the same name, as does its one-to-one eBird 2021 crosswalk; the BirdTree crosswalk gives Ammodramus caudacutus, labelled 1BL to 1BT. Pinned COL’s older-combination record CTKZ points to accepted ID 9G43T. These associations support reading the historical row without verifying all taxonomic boundaries across dates.
+## A name fixed to COL26.8 {#s-5473872d6c}
+Catalogue of Life release COL26.8 records Ammospiza caudacuta (J. F. Gmelin, 1788) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Beak, wing and tail in a small sample {#s-f06552a789}
 Morphology covers 10 measured birds (4 female, 6 male), of which 9 have complete measurements. Species averages are 9 mm from the nostril’s anterior edge to the beak tip, 21.2 mm tarsus, 56.8 mm unflattened wing and 47.5 mm tail. These are not individual size bounds. Hand-wing index is 18.9, defined through Kipp’s distance/wing length ×100, rather than flight distance or speed. Dividing rounded species-average lengths cannot replace the reported index.

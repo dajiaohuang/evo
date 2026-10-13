@@ -1,49 +1,49 @@
-## The 2015 life-history entry and this name {#s-a0a0bf2586}
-The 2015 life-history archive lists three focal fields for Poicephalus crassus in Psittacidae, each supported by cited species-level rows with the same name and family. These summaries may still include data inherited across historical taxa; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-a0a0bf2586}
+The August 2015 database has a same-name, same-family record for Poicephalus crassus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-33aa731b08}
-Historical summary values are adult body mass 139.5 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-33aa731b08}
+The August 2015 compilation reports adult body mass 139.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-fb7e0063a7}
-Available compilation fields are offspring per litter or eggs per clutch 2.75 offspring/eggs. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Missing reproductive and developmental durations are not supplied here.
+## Reproductive fields describe different events {#s-fb7e0063a7}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.75. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## The longest record differs from usual lifespan {#s-69150b922e}
-The life-history archive reports a maximum longevity of 32.1 years, using the largest record found under its method. This is not a typical or mean wild lifespan, a survival ceiling for every individual or a current record that can be assumed repeatable.
+## A maximum record is not typical lifespan {#s-69150b922e}
+The compilation lists 32.1 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-fa0df088ec}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Bennett, 1986, among others. Each field has its own source label, which may identify a paper, book or database. Row counts are not numbers of measured individuals, and repeated citations do not represent independent experimental replication.
+## Sources and field limits {#s-fa0df088ec}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## EltonTraits record and taxonomic context {#s-2319167853}
-The EltonTraits 1.0 record associated with Poicephalus crassus has two ecological field groups: food weights and foraging strata. Its taxonomy follows an earlier bird classification; a name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-2319167853}
+EltonTraits 1.0 has a same-name, same-family record for Poicephalus crassus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-96f15ec617}
-The archive’s nonzero food weights are seeds, nuts and spores included in this category 100%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-96f15ec617}
+EltonTraits 1.0 assigns relative diet weights of seeds or nuts 100%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-d49e51c9c0}
-Foraging-stratum weights flagged as species-level in the archive are understory, edges or shrubs below 2 m 40%; trees or high bushes from 2 m upward but below the canopy 40%; in or just above the canopy 20%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-d49e51c9c0}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 40%; in mid-height or high vegetation 40%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-1262742eb7}
-Both groups carry the label Ref_4. Diet, strata and activity can come from different material; the same reference number in bird and mammal tables does not identify the same source. Original source strings are retained with their file, row, field group and reference table. Underlying books and papers have not been individually read, and source labels do not count as new independent observations.
+## Sources and field limits {#s-1262742eb7}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-f385a5c5fa}
 The 2015 life-history archive reports historical same-name records as compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. These are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the summaries. Wild or captive conditions are not uniformly confirmed, and underlying publications have not been individually reviewed.
 The EltonTraits 1.0 food and foraging-stratum percentages are coarse relative estimates standardized from literature descriptions, not direct measurements of intake or feeding time. Source code A indicates high compiler confidence in the source and diet information. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Underlying books and papers have not been individually reread.
 
-## The name in the limited ecology record {#s-06bb77323b}
-Poicephalus crassus is accepted in pinned COL26.8 within Psittacidae. AVONET v7 includes a same-name, same-family historical record associated through two one-to-one crosswalks. These links do not resolve species concepts after later splits or lumps.
+## A historical name within this ecology row {#s-06bb77323b}
+The AVONET row uses historical BirdLife name Poicephalus crassus. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-bb57a4e627}
-The recorded habitat category is tall-tree vegetation with a relatively closed canopy. The recorded feeding niche centres on seeds or nuts. The recorded primary lifestyle involves much time perched above ground on vegetation, rocks or other substrates. The source defines these dominant feeding niches using a threshold of at least 60% of food resources. This page does not independently measure diet proportions or interpret a category as exclusive feeding. These coarse record categories do not replace food lists, behavioural observations or local microhabitat descriptions.
+## Recorded habitat and feeding categories {#s-bb57a4e627}
+The ecology-only AVONET row classifies Poicephalus crassus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Granivore (source threshold at least 60% from seeds or nuts); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-eb603b8462}
-The recorded migration category is sedentary. This is the source’s sedentary category; regional seasonal movements are not separately listed. This entry does not supply current routes, schedules or movement distances for every population.
+## The migration label has a limited scope {#s-eb603b8462}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-22ffa3603f}
-Historical breeding and resident maps have latitude endpoints of 3.85° to 8.89°. The source worksheet associates these fields with BirdLife/HBW 2019.1 maps accessed on 27 March 2020. Endpoints summarize a mapped range, not a locality list or evidence of occupancy throughout it, and exclude a complete account of non-breeding movements. They do not establish current distribution, survival or conservation status.
+## Mapped range is not a locality list {#s-22ffa3603f}
+Historical breeding and resident maps span latitude endpoints 3.85° to 8.89°. The mapped range area is 343246.59 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-40659dc447}
-The record provides readable entries for habitat, feeding niche, primary lifestyle and migration, but this is not complete ecological coverage. Historical latitude endpoints describe only the map scope. The source flags inference from relatives for some biometric fields and identifies mass as inferred from a related species, so this page does not interpret its morphology or mass as direct measurements. Reproduction, growth and conservation lack complete accounts; missing fields do not establish that the traits are absent.
+## Fields outside this ecology-only view {#s-40659dc447}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
-## Limits of these historical data {#s-071f72665a}
-These pages summarize limited historical ecology and geography, not a complete species monograph. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Matching names and families plus the one-to-one BirdLife/eBird/BirdTree crosswalks establish an association, not equivalence to current COL26.8 species concepts. Ecological fields are coarse categories derived from literature; the underlying species literature was not individually read here. Some original morphological values may be inferred from relatives, and mass may use genus averages or models. The morphology and mass are therefore left uninterpreted rather than presented as direct measurements of this species. Historical maps cover breeding and resident ranges and do not provide current population, occupancy or conservation assessments.
+## Limits of this historical ecology record {#s-071f72665a}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 

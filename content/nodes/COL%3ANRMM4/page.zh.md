@@ -1,4 +1,6 @@
-## 沿六个 Pomatorhinus 旧组合读 {#s-2b0f4b828c}
+## 记录分类与直接上级关系 {#s-2b0f4b828c}
+COL26.8 将 Erythrogenys E. C. S. Baker, 1930 记录为属；其直接上级记录为 Timaliidae。
+
 六条历史导读沿COL26.8 Erythrogenys（NRMM4）、Timaliidae（H9M）组织。eBird六条同名且各Avibase ID相同；BirdTree六条Pomatorhinus旧组合均有逐字目录异名，各指向接受种。不据名称关系证明物种概念完全等同。属七目录直接子项与本批六页不计完整属内容。
 
 ## 没有雌鸟与四只未定鸟分开 {#s-2b1c6c6afa}
@@ -10,7 +12,7 @@ gravivox六只雌零雄二未定四，完整五套；不能称全部为雄鸟。
 ## 先读 gravivox，再看四条相同体重 {#s-ab922b18e2}
 先读gravivox零雌四未定与erythrogenys八只完整七，再比较swinhoei五只完整三与其他五只完整四的记录。独立阅读四条58.15 g体重来源，最后对读同灌丛的两种密度。
 
-[Erythrogenys swinhoei](Erythrogenys_swinhoei/page.zh.md)、[Erythrogenys gravivox](Erythrogenys_gravivox/page.zh.md)、[Erythrogenys mcclellandi](Erythrogenys_mcclellandi/page.zh.md)、[Erythrogenys hypoleucos](Erythrogenys_hypoleucos/page.zh.md)、[Erythrogenys erythrogenys](Erythrogenys_erythrogenys/page.zh.md)、[Erythrogenys erythrocnemis](Erythrogenys_erythrocnemis/page.zh.md)
+Erythrogenys swinhoei、Erythrogenys gravivox、Erythrogenys mcclellandi、Erythrogenys hypoleucos、Erythrogenys erythrogenys、Erythrogenys erythrocnemis
 
 ## 证据边界 {#s-12bf585ba4}
 六条历史导读不计完整七个目录子项内容；Pomatorhinus旧名、性别未定、完整分母、四条相同文献体重与不同灌丛密度各保留。没有实测食谱、当前地图、完整自然史。

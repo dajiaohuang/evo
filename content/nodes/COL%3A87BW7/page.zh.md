@@ -1,4 +1,6 @@
-## 目录中的位置 {#s-d63fcf0319}
+## 记录分类与直接上级关系 {#s-d63fcf0319}
+COL26.8 将 Iguania 记录为亚目；其直接上级记录为 Squamata Oppel, 1811。
+
 Iguania 在固定 COL26.8 中记录为接受分类单元，阶元为亚目，父级为 Squamata。
 
 ## 保留研究的样本原名 {#s-998f3698c9}
@@ -16,7 +18,7 @@ Iguania 的本批路线包含 179 条历史生活史导读，可从 Acanthocercu
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
-## 从有性状记录的物种开始 {#s-c273a3992b}
+## 记录分类与成员材料 {#s-c273a3992b}
 Iguania 的本批 ReptTraits 阅读路径包含 1669 条同名同科、有逐性状出处的物种资料，可从 Acanthocercus adramitanus、Acanthocercus annectans、Acanthocercus atricollis、Acanthocercus branchi、Acanthocercus cyanogaster 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-443ff9af53}
@@ -28,8 +30,8 @@ Iguania 的本批 ReptTraits 阅读路径包含 1669 条同名同科、有逐性
 ## 部分后代条目的引用缺口 {#s-62f8120d84}
 这条 ReptTraits 阅读路径中有 4 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-13bbd1f897}
-Iguania 的本批 ReptTraits 阅读路径包含 247 条同名同科、有逐性状出处的物种资料，可从 [Acanthocercus guentherpetersi](Agamidae/Agaminae/Acanthocercus/Acanthocercus_guentherpetersi/page.zh.md)、[Acanthocercus kiwuensis](Agamidae/Agaminae/Acanthocercus/Acanthocercus_kiwuensis/page.zh.md)、[Acanthosaura murphyi](Agamidae/Draconinae/Acanthosaura/Acanthosaura_murphyi/page.zh.md)、[Agama bottegi](Agamidae/Agaminae/Agama/Agama_bottegi/page.zh.md)、[Agama dodomae](Agamidae/Agaminae/Agama/Agama_dodomae/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-13bbd1f897}
+Iguania 的本批 ReptTraits 阅读路径包含 247 条同名同科、有逐性状出处的物种资料，可从 Acanthocercus guentherpetersi、Acanthocercus kiwuensis、Acanthosaura murphyi、Agama bottegi、Agama dodomae 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-c7c8689376}
 本批已有尺寸记录中，Diporiphora convergens 的已报道最大吻肛长（SVL）为 34 mm，Hypsilurus nigrigularis 为 230 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

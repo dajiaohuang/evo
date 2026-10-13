@@ -1,31 +1,30 @@
-## Name and trait overview {#s-28ef7bf2be}
-Pinned COL26.8 accepts *Rheodytes leukops* in Chelidae. ReptTraits v1-2 compiles reported traits for this species under the Reptile Database 2023 name framework and retains citations by trait. The chapters below describe the compiled record; they do not imply that every population, sex or life stage shares the same characteristics.
+## COL26.8 name and the ReptTraits row {#s-28ef7bf2be}
+COL26.8 records Rheodytes leukops as an accepted species. The ReptTraits v1-2 row gives its Family field as Chelidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What the length record measures {#s-6772acb153}
-The row reports maximum straight carapace length (SCL) 260 mm. SCL measures the shell in a straight line, excluding head, neck and tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-6772acb153}
+The row reports a maximum straight carapace length (SCL) of 260 mm. ReptTraits attributes this field to Feldman & Meiri 2013.
 
-## Activity and diet labels {#s-fbbfe0bb61}
-The row records microhabitat as Aquatic/Terrestrial; foraging mode as active foraging. These are broad literature-derived labels; they indicate reported patterns, not a complete habitat, diet or year-round activity account, and a species-level row cannot show differences among localities, seasons or life stages.
+## Habitat use and activity labels {#s-fbbfe0bb61}
+The microhabitat field classifies the recorded position as Aquatic/ground-dwelling (Terrestrial) [source label: Aquatic/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023. The diet field classifies the entry as plant- and animal-eating (Omnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Rhodin et al. 2011.
 
-## Fields awaiting citation-scope review {#s-fc88e42694}
-Citation scope remains unresolved for Diet. Harrington et al. (2018) studied snakes; the Rhodin et al. (2011) checklist concerns turtles. Support for the affected fields in this taxon has not been established here, so they are withheld from definite trait conclusions. Original values, categories and labels remain in the source archive; this does not establish that the values are wrong, and no replacement is inferred. Other chapters retain their own sources.
+## ReptTraits v1-2 field citations {#s-fc88e42694}
+ReptTraits v1-2 records a cited source for each reported trait; the citation beside each value belongs to that field.
 
-## Reproductive fields and summary values {#s-72a5bb1150}
-The row records oviparous reproduction (egg-laying); consolidated mean of offspring or eggs per litter/clutch 18.8. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-72a5bb1150}
+The compiled mean for offspring per litter or eggs per clutch is 18.8. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to De Magalhaes and Costa 2009, Feldman et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The same-name row in the 2015 archive {#s-cbe2f88939}
-A second source is the August 2015 Amniote Database life-history archive. It contains a same-name, species-level row in Chelidae; this page follows 3 fields with citation labels. The archive compiles historical literature and may carry values forward from older species or subspecies. Matching name and family support reading the records together, but do not establish equivalence to the COL26.8 concept or remove inherited values.
+## A 2015 life-history row for this name {#s-cbe2f88939}
+COL26.8 records Rheodytes leukops as an accepted species. The August 2015 life-history table has a species-name and family match (Chelidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-cb2e6d751f}
-Historical summary values are adult body mass 1691 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Length values in the archived records {#s-cb2e6d751f}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 1691 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
-## Reproduction and developmental timing {#s-286b9649f9}
-Available compilation fields are offspring per litter or eggs per clutch 18.8 offspring/eggs; oviposition to hatching 47 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive events in the life-history table {#s-286b9649f9}
+Field-specific archive notes: offspring per litter or eggs per clutch: one direct source citation, with no median count stated; oviposition to hatching: a mean of cited source values. The offspring-per-litter or eggs-per-clutch summary is 18.8; it is not a count from one event. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993. The incubation field is 47 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## How to trace these values to sources {#s-fd857c5123}
-Same-name sparse rows carry source labels including Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; Reptile Incubation book. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## The August 2015 life-history table {#s-fd857c5123}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-1b84121704}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
-This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
+## Separate histories in the two archives {#s-1b84121704}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

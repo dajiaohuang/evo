@@ -1,15 +1,15 @@
-## Body length and reproduction are compiled from separate sources {#s-47ab426ab1}
-The accepted COL26.8 name Aspidoscelis costatus is placed in Teiidae. ReptTraits links a maximum length and a female maximum with terrestrial, daytime and egg-laying labels, plus a clutch summary. These details describe the cited row, not one population measured throughout its life.
+## COL26.8 name and the ReptTraits row {#s-47ab426ab1}
+COL26.8 records Aspidoscelis costatus as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A snout–vent maximum of 132 mm {#s-682e36f613}
-The listed maximum is 132 mm, with a female maximum of 78.6 mm. Snout–vent length runs from snout to the body opening and excludes the tail. Compiled maxima are not typical sizes, and sex-labelled maxima may come from different places or studies.
+## Length values in the archived records {#s-682e36f613}
+The row reports a maximum SVL of 132 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 78.6 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## A land-based, daytime and animal-eating profile {#s-52eba5d7bb}
-The source classifies the microhabitat as terrestrial, activity as diurnal and diet as carnivorous. The diet category does not identify prey, while the habitat and timing labels do not specify a particular site or schedule.
+## Habitat use and activity labels {#s-52eba5d7bb}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## A 5.05 clutch summary, not a fixed count {#s-2d9c39c6bc}
-The reproductive mode is oviparous, or egg-laying. The consolidated clutch/litter summary is 5.05, with reported mean values from 1 to 8. The decimal reflects aggregation; these endpoints are not guaranteed smallest and largest observed clutches and do not mean that every female lays the same number.
+## Reproductive fields in ReptTraits {#s-2d9c39c6bc}
+The compiled mean for offspring per litter or eggs per clutch is 5.05. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 8; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## One row cannot describe every population {#s-7959438452}
-ReptTraits retains a 2023 name framework; COL26.8 is the pinned placement used here. The matching name does not by itself prove that the taxonomic concepts cover identical specimens. A single row compresses variation among sexes, ages, localities and populations; current distribution and conservation are not updated.
+## Reading this compiled trait record {#s-7959438452}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

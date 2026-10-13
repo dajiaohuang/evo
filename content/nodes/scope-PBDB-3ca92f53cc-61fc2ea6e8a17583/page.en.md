@@ -1,5 +1,5 @@
-## atlas-profile / overview {#s-244836c9a4}
-The semi-articulated foot AMNH 143612/143640 from Wyoming's Bridger B locality preserves toe bones that can be assigned to individual digits. Comparing those bones led researchers to infer a grooming claw on digit two of *Notharctus*. The claw's function is inferred from anatomy; grooming itself was not observed. This 50–48.5 Ma locality sample does not establish the genus's full range, a direct ancestor or membership in the living-primate crown group.
+## One Bridger foot, one digit-two inference {#s-244836c9a4}
+The semi-articulated AMNH 143612/143640 foot from Bridger B, Wyoming, preserves phalanges that can be assigned to individual digits. Their shape and joint relationships support a grooming-claw interpretation on digit two. This 50–48.5 Ma locality interval describes one foot sample; it records anatomy, not grooming, the genus-wide range, direct ancestry or crown-group membership.
 
 ## atlas-profile / ecology / diet {#s-29c1b25fb3}
 The foot does not record diet.
@@ -25,18 +25,18 @@ Toe bones assigned to individual digits
 ## atlas-profile / traits {#s-54042a66f2}
 Grooming-claw function inferred for digit two
 
-## atlas-profile / evidenceSummary {#s-0b471d25e0}
-The named foot preserves phalanges that can be compared by toe. The proposed grooming claw on digit two is a functional interpretation, not an observation of grooming or a condition shown for every *Notharctus*.
+## Evidence and its limits {#s-0b471d25e0}
+The study centers on one semi-articulated foot catalogued as AMNH 143612 and AMNH 143640. Its phalanges support a digit-two grooming-claw interpretation, but do not record grooming behavior or show that every *Notharctus* had the same anatomy.
 
-## One foot under two museum numbers {#s-b90dd2c4a7}
-The study examines a semi-articulated *Notharctus* foot from Wyoming's Bridger Formation, catalogued as AMNH 143612 and AMNH 143640. Several toe bones remain positioned well enough to compare individual digits. These two catalogue numbers refer to one bounded foot sample, not every *Notharctus* foot or a complete skeleton.
+## One Bridger foot under two AMNH numbers {#s-b90dd2c4a7}
+The paper treats AMNH 143612 and AMNH 143640 as a semi-articulated *Notharctus* foot from Wyoming's Bridger B locality. Several phalanges retain positions that allow assignment to individual digits. The two catalogue numbers describe one bounded foot sample, not two animals or a complete skeleton.
 
-## Which digit had a grooming claw? {#s-3c2fd18b90}
-Comparing the toe bones led the authors to infer that the grooming claw was on digit two, rather than the digit-one position often proposed for adapiforms. The inference rests on the shape and joint relationships of phalanges assigned to particular digits. It is a functional interpretation of the bones, not a record of *Notharctus* grooming.
+## Why the study places the claw on digit two {#s-3c2fd18b90}
+The authors compared the shape and joint relationships of phalanges assigned to different digits. Their interpretation places the grooming claw on digit two rather than the digit-one position often proposed for adapiforms. This is a functional reading of the bones; grooming itself was not observed.
 
-## What a foot bone cannot show {#s-b000868bfd}
-The proposed claw position can be compared with feet of other primates, but the fossil does not show how often the animal groomed, why it groomed, or whether every individual had the same claw. One foot tests a functional hypothesis; it cannot settle behaviour across the genus or ancestry.
+## A foot cannot establish behavior or ancestry {#s-b000868bfd}
+The proposed digit assignment can be compared with other primate feet, but this specimen cannot show grooming frequency, why the animal groomed, or whether other individuals shared the same claw. One foot can test a functional hypothesis; it cannot establish behavior across the genus or direct ancestry.
 
-## atlas-profile / readerLimitations {#s-89e269336a}
-This page follows one semi-articulated foot sample and a proposed grooming-claw function. The fossil does not record grooming behaviour or frequency, variation across the population, or a direct role in anthropoid ancestry.
+## Scope of the foot study {#s-89e269336a}
+This account follows one semi-articulated foot and a function inferred from its phalanges. It does not document grooming behavior or frequency, population-wide variation, a global range for *Notharctus*, or direct anthropoid ancestry.
 

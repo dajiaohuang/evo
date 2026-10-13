@@ -1,18 +1,44 @@
-## Which fossil records this name represents {#s-d2022d74ca}
-Spizaetus grinnelli is accepted in the fixed PBDB dinosaur working roster, with database parent Spizaetus. This guide uses 5 eligible species-level occurrence records from 5 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-d2022d74ca}
+Spizaetus grinnelli is listed in the PBDB snapshot under taxon txn:368494. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-dfa03a5ca2}
-Collection Cutler Hammock (Florida), region code US; database age bracket 0.129–0.0117 Ma, early interval Late Pleistocene. Collection La Brea Tar Pits (general) (California), region code US; database age bracket 0.129–0.0117 Ma, early interval Late Pleistocene. Collection Rancho La Brea, Pit 10 (California), region code US; database age bracket 0.21–0.014 Ma, early interval Rancholabrean. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-dfa03a5ca2}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-616ddafde7}
-Selected occurrences have an outer age envelope of 0.21–0.0117 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1671617; PBDB collection col:192630. Locality cnm=Rancho La Brea, Pit 10; place fields cc2=US, stp=California, cny=Los Angeles. Recorded age bounds: eag 0.21 Ma; lag 0.014 Ma; PBDB interval fields oei=Rancholabrean. Recorded attribution Howard and Miller 1939; PBDB reference ref:89843.
 
-## Read preservation setting separately from living habitat {#s-d3b782b0d6}
-Cutler Hammock has collection-environment label sinkhole; collection preservation-mode label body,original phosphate,bone collector. La Brea Tar Pits (general) has collection-environment label tar; collection preservation-mode label body. Rancho La Brea, Pit 10 has collection-environment label tar; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"These excavations all included a Late Pleistocene biota, but assignment of exact ages is impossible in most cases because most of the Pierce beetle specimens are without stratigraphic data."
 
-## Follow collection records back to references {#s-2daf777bea}
-Cutler Hammock carries database reference attribution Emslie and Morgan (1995), identifier ref:50316. La Brea Tar Pits (general) carries database reference attribution Miller and DeMay (1942), identifier ref:75467. Rancho La Brea, Pit 10 carries database reference attribution Howard and Miller (1939), identifier ref:89843. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1196106; PBDB collection col:154722. Locality cnm=Cutler Hammock; place fields cc2=US, stp=Florida, cny=Dade. Recorded age bounds: eag 0.129 Ma; lag 0.0117 Ma; PBDB interval fields oei=Late Pleistocene. Recorded attribution Emslie and Morgan 1995; PBDB reference ref:50316.
 
-## Evidence limits {#s-720123ac96}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+isolated sinkhole deposit formed in Miami Limestone
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Perrine 7.5' Quadrangle, NE1/4 of NW1/4 of section 35, T.55S., R.40E.
+
+- Occurrence occ:1550536; PBDB collection col:190077. Locality cnm=La Brea Tar Pits (general); place fields cc2=US, stp=California, cny=Los Angeles. Recorded age bounds: eag 0.129 Ma; lag 0.0117 Ma; PBDB interval fields oei=Late Pleistocene. Recorded attribution Miller and DeMay 1942; PBDB reference ref:75467.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Specimens at La Brea mostly range from 11,500 to 35,000 years old. One of the older pits, pit 77, has a mean calibrated age of 35,370, while a younger pit, pits 61/67, has a mean calibrated age of 11,581 before present. Many other pits fall in between these dates, however, most seem to occur between 20,000–29,000 years ago
+
+## Age bounds on the recorded occurrences {#s-616ddafde7}
+Across these selected PBDB rows, the largest recorded eag=0.21 Ma in occ:1671617; the smallest recorded lag=0.0117 Ma in occ:1196106. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-d3b782b0d6}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1671617: PBDB taxon-name field tna=Spizaetus grinnelli; abundance fields abv=4, abu=individuals; PBDB locality-coordinate fields lng=-118.357002, lat=34.063999; paleocoordinate/model fields pm1=gplates.
+- occ:1196106: PBDB taxon-name field tna=Spizaetus grinnelli; PBDB locality-coordinate fields lng=-80.400002, lat=25.700001; paleocoordinate/model fields pm1=gplates.
+- occ:1550536: PBDB taxon-name field tna=Spizaetus grinnelli; PBDB locality-coordinate fields lng=-118.356445, lat=34.063881; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-2daf777bea}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1671617: Recorded attribution Howard and Miller 1939; PBDB reference ref:89843.
+- occ:1196106: Recorded attribution Emslie and Morgan 1995; PBDB reference ref:50316.
+- occ:1550536: Recorded attribution Miller and DeMay 1942; PBDB reference ref:75467.
+
+## What these records can show {#s-720123ac96}
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

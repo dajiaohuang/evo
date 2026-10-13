@@ -1,4 +1,6 @@
-## 沿性状记录阅读 {#s-6ccc0a63db}
+## 记录分类与直接上级关系 {#s-6ccc0a63db}
+COL26.8 将 Viperinae 记录为亚科；其直接上级记录为 Viperidae。
+
 COL26.8 将 Viperinae 置于 Viperidae 之下。这条 ReptTraits v1-2 路径连接了 65 条同名、同科的物种记录，其中包括 *Atheris acuminata*、*A. anisolepis*、*A. barbouri*、*A. broadleyi* 和 *A. ceratophora*。记录保留工作簿的 Reptile Database 2023 名称框架，分类导航则依据 COL26.8。65 条记录不等于亚科内全部接受种的数量。
 
 ## 比较前先看测量定义 {#s-f93eb8be31}
@@ -13,8 +15,8 @@ COL26.8 将 Viperinae 置于 Viperidae 之下。这条 ReptTraits v1-2 路径连
 ## 部分后代条目的引用缺口 {#s-037eef4e1a}
 有两个物种条目包含一项引用范围疑点。相关数值不作为确定性状结论；具体字段和引用标签仍见各物种页。路径数量表示相连的资料条目，不代表性状覆盖完整。
 
-## 从有性状记录的物种开始 {#s-675171c379}
-较窄的 ReptTraits 路径包含 29 条 Viperinae 记录，名称和科名相符，并保留逐性状出处。可从 [Atheris hetfieldi](Atheris/Atheris_hetfieldi/page.zh.md)、[Atheris mongoensis](Atheris/Atheris_mongoensis/page.zh.md)、[Bitis albanica](Bitis/Bitis_albanica/page.zh.md)、[Bitis armata](Bitis/Bitis_armata/page.zh.md) 和 [Bitis heraldica](Bitis/Bitis_heraldica/page.zh.md) 对读。这不是该亚科全部接受种；条目的 2023 年名称框架仍与 COL26.8 导航分开。
+## 记录分类与成员材料 {#s-675171c379}
+较窄的 ReptTraits 路径包含 29 条 Viperinae 记录，名称和科名相符，并保留逐性状出处。可从 Atheris hetfieldi、Atheris mongoensis、Bitis albanica、Bitis armata 和 Bitis heraldica 对读。这不是该亚科全部接受种；条目的 2023 年名称框架仍与 COL26.8 导航分开。
 
 ## 按现有字段选择比较材料 {#s-970d2e6270}
 每个物种页只介绍各自有出处的字段。只有两页同时支持同一测量或分类时，才比较体长、活动、食性或繁殖记录。缺少数值时不从近缘种补入；龟类直线背甲长（SCL）也不能与吻肛长（SVL）互换。

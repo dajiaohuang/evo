@@ -1,30 +1,27 @@
-## 从已有历史条目开始 {#s-caad518eba}
-Diprotodontia 的本地 PanTHERIA 路径包括 65 条可用数据导读，可从 Cercartetus caudatus、Cercartetus concinnus、Cercartetus lepidus、Cercartetus nanus、Dendrolagus bennettianus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## Diprotodontia 中的 PanTHERIA 历史记录 {#s-caad518eba}
+本地 PanTHERIA 路线包含 65 条可用历史记录，例子有 Cercartetus caudatus、C. concinnus、C. lepidus、C. nanus 和 Dendrolagus bennettianus。各条目保留 MSW05 名称、变量对应的来源条件与缺失值；该路线计数不是固定 COL26.8 下的当前接受种分母。
 
-## 比较体型与生活史 {#s-8e2a3585a2}
-本批可用的成年体重汇总值中，Cercartetus lepidus 为 8.03 g，Macropus giganteus 为 33409.89 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
+## Diprotodontia 选录中的两个成年体重中位数 {#s-8e2a3585a2}
+现有成年体重的经性别调整历史中位数中，Cercartetus lepidus 为 8.03 g，Macropus giganteus 为 33409.89 g。它们是不同记录的汇总，不是个体极值。来源页还列有胚胎发育、断乳、活动和群体字段；单凭体重不能确定共同的生活方式。
 
-## 按生活史字段选择对读页面 {#s-debff2a71e}
-Diprotodontia 的本批路线包含 102 条历史生活史导读，可从 Acrobates pygmaeus、Distoechurus pennatus、Burramys parvus、Cercartetus caudatus、Cercartetus concinnus 开始。较多条目具有的字段包括 成年体重（102 条）、每窝幼体数或卵数（102 条）、汇编中最长寿命记录（99 条）、转而依靠非母乳食物的年龄（81 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+## 102 条记录中的生活史字段覆盖 {#s-debff2a71e}
+历史生活史路线包含 102 条 Diprotodontia 记录，例子有 Acrobates pygmaeus、Distoechurus pennatus、Burramys parvus、Cercartetus caudatus 和 C. concinnus。成年体重及每窝幼体数或每窝卵数字段各见于 102 条；最高寿命记录见于 99 条，开始依赖母乳以外食物的年龄见于 81 条。这些数字统计所选资料的字段覆盖，不是接受种总数；比较前应核对事件、单位和来源。
 
-## 沿食物、取食位置和活动时段对读 {#s-68f2ada7f6}
-Diprotodontia 的本批路线包含 123 个历史条目，可从 Phascolarctos cinereus、Lasiorhinus krefftii、Lasiorhinus latifrons、Vombatus ursinus、Burramys parvus 开始。其中 113 条可读食物类别权重，123 条可读取食层位，120 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+## 123 条记录中的食物、取食层位与活动 {#s-68f2ada7f6}
+另一条生态路线包含 123 条历史记录，例子有 Phascolarctos cinereus、Lasiorhinus krefftii、L. latifrons、Vombatus ursinus 和 Burramys parvus。113 条有食物类别权重，123 条有取食层位，120 条有哺乳类活动时段。各字段使用不同来源和编码方式；这并不说明整个目共有某一种食物或活动模式。
 
-## 沿食物、取食位置和活动时段对读 {#s-9de5cf01da}
-Diprotodontia 的本批路线包含 4 个历史条目，可从 Ailurops melanotis、Phalanger mimicus、Phalanger intercastellanus、Phalanger alexandrae 开始。其中 0 条可读食物类别权重，4 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+## 四条记录有取食层位资料 {#s-9de5cf01da}
+较小的一组历史记录包含 4 条：Ailurops melanotis、Phalanger mimicus、P. intercastellanus 和 P. alexandrae。0 条有食物类别权重，4 条有取食层位，此子集中 0 条有哺乳类活动时段记录。字段缺失只描述该来源选录，不能说明这些物种没有相应行为。
 
-## 证据边界 {#s-291575f36c}
-本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
-本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+## 不同历史选录各自的限制 {#s-291575f36c}
+这些是彼此分开的历史选录。生活史子集采用同名、同科及一对一对应，并要求至少 3 个焦点字段；应用来源范围提醒后低于门槛的条目仍予保留，但不用于具体事件解释。EltonTraits 另有至少两类与恰好一类可用字段组的不同选录。估算权重、活动代码及可能借用同属资料的情况仍是记录级限制，不能证明 Diprotodontia 共有某种生态。
 
-## 从已有历史条目开始 {#s-78df0108cf}
-Diprotodontia 的本地 PanTHERIA 路径包括 17 条可用数据导读，可从 [Caloprymnus campestris](Macropodiformes/Potoroidae/Bettongini/Caloprymnus/Caloprymnus_campestris/page.zh.md)、[Dactylopsila megalura](Phalangeriformes/Petauroidea/Petauridae/Dactylopsilinae/Dactylopsila/Dactylopsila_megalura/page.zh.md)、[Dactylopsila tatei](Phalangeriformes/Petauroidea/Petauridae/Dactylopsilinae/Dactylopsila/Dactylopsila_tatei/page.zh.md)、[Lagorchestes asomatus](Macropodiformes/Macropodidae/Macropodinae/Lagorchestes/Lagorchestes_asomatus/page.zh.md)、[Lagorchestes leporides](Macropodiformes/Macropodidae/Macropodinae/Lagorchestes/Lagorchestes_leporides/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 另一组 PanTHERIA 历史记录 {#s-78df0108cf}
+另一条本地 PanTHERIA 路线包含 17 条可用历史记录，例子有 Caloprymnus campestris、Dactylopsila megalura、D. tatei、Lagorchestes asomatus 和 L. leporides。各条目保留 MSW05 名称、变量对应的来源条件与缺失值；17 是这组历史选录的数量，不是固定 COL26.8 下的当前接受种分母。
 
-## 比较体型与生活史 {#s-db6d80f726}
-本批可用的成年体重汇总值中，Dactylopsila tatei 为 252 g，Onychogalea unguifera 为 6494.73 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
+## 另一组选录中的成年体重中位数 {#s-db6d80f726}
+现有成年体重的经性别调整历史中位数中，Dactylopsila tatei 为 252 g，Onychogalea unguifera 为 6494.73 g。这些数值汇总自不同历史条目，不是个体极值。仅凭体重差异不能概括 Diprotodontia 的生活方式范围。
 
-## 这组历史数据的边界 {#s-66ab6cd672}
-本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
+## 这组 PanTHERIA 比较的范围 {#s-66ab6cd672}
+这组资料收录至少有一个焦点字段、名称与科级位置相符、且历史一对一对应的条目；它不是完整的接受后代名录。成年体重端点汇总自不同历史记录，各字段的来源条件可能不同；这些数值不能确定当前物种概念、分布或保护状况。
 

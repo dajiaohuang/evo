@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-2cb851519c}
-Pinned COL26.8 organizes this page at Cinnyris dussumieri (5YV5H). BirdLife 2020 row 5956 and eBird 2021 row 2328 share the name and Avibase ID AVIBASE-8449EA0A, with type 1BL to 1eBird; BirdTree row 2321 gives Nectarinia dussumieri, with type 1BL to 1BT. Read older-combination record 462N8 points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-2cb851519c}
+Catalogue of Life release COL26.8 records Cinnyris dussumieri (Hartlaub, 1861) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-2037628031}
 Morphology covers 4 birds: 2 female, 2 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 18.7 mm, tarsus 17.2 mm, unflattened wing 60.1 mm, tail 39.2 mm and hand-wing index 15.8 are historical row means. Inference=NO does not establish 4 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

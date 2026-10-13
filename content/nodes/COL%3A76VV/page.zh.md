@@ -1,4 +1,6 @@
-## 四个 Rallina 旧组合与科名边界 {#s-edc9a32e54}
+## 记录分类与直接上级关系 {#s-edc9a32e54}
+COL26.8 将 Rallicula Schlegel, 1871 记录为属；其直接上级记录为 Sarothruridae。
+
 本入口按 COL26.8 Rallicula（76VV）、Sarothruridae（CPHSJ）组织四条历史导读；原表 Rallidae 保留。四条 eBird／BirdTree 均记 Rallina，逐字异名各指向接受种，eBird Avibase ID各相同。属有四个目录直接子项，本批四页数量相同也不计完整自然史或跨版本物种概念已核实。
 
 ## 两只完整不等于全雌 {#s-147192b0fc}
@@ -10,7 +12,7 @@ rubra两只、雌一雄零未定一，完整两套；不能称全雌或提供雌
 ## 先看 rubra 性别，再比较完整分母 {#s-58461826ab}
 先读rubra两只但无已定雄鸟，再与leucospila四只全部完整对读；接着比较mayri四只完整三与forbesi六只完整四。沿旧Rallina组合查名称关系，单独阅读文献体重与地面生态类别。
 
-[Rallicula mayri](Rallicula_mayri/page.zh.md)、[Rallicula rubra](Rallicula_rubra/page.zh.md)、[Rallicula leucospila](Rallicula_leucospila/page.zh.md)、[Rallicula forbesi](Rallicula_forbesi/page.zh.md)
+Rallicula mayri、Rallicula rubra、Rallicula leucospila、Rallicula forbesi
 
 ## 证据边界 {#s-ae23993bcd}
 所选四条历史导读与四个目录直接子项不替代完整属自然史。旧Rallina／Rallidae名称、性别未定、完整分母、独立文献体重与生态类别分别保留，不补物种概念完全等同、飞行能力、当前地图。

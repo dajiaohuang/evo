@@ -1,15 +1,15 @@
-## Name, family and the record behind this profile {#s-890f3bd1b4}
-COL26.8 lists Cyrtodactylus cavernicolus as an accepted species in Gekkonidae. The measurements and habits below come from its same-name row in ReptTraits v1-2, which retains the workbook’s Reptile Database 2023 name framework and trait-specific citations. One row gathers published reports; it does not describe every population as if all individuals shared one condition.
+## COL26.8 name and the ReptTraits row {#s-890f3bd1b4}
+COL26.8 records Cyrtodactylus cavernicolus as an accepted species. The ReptTraits v1-2 row gives its Family field as Gekkonidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The reported maximum is measured to the vent {#s-7a263e8755}
-The compiled maximum snout–vent length is 81 mm. Snout–vent length (SVL) stops at the vent and leaves out the tail, so it is not total body length. This is the largest value in the cited record, not a typical size or a biological growth ceiling; sex-specific figures may come from different studies or places and do not by themselves demonstrate population-level size differences.
+## Length values in the archived records {#s-7a263e8755}
+The row reports a maximum SVL of 81 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Three settings appear in the microhabitat record {#s-30972128d7}
-The row combines arboreal, saxicolous (rock-associated) and terrestrial microhabitats, and classifies the diet as carnivorous and activity as nocturnal. These are broad labels: they do not identify prey, show how often the gecko uses each setting, or set a fixed daily schedule. The combination is what the database records, not a complete account of habitat use across seasons or life stages.
+## Habitat use and activity labels {#s-30972128d7}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/rock-dwelling (Saxicolous)/ground-dwelling (Terrestrial) [source label: Arboreal/Saxicolous/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Oviparity and a summary count of two {#s-0992249798}
-The reproductive-mode field says oviparous, and the compiled offspring-per-litter or eggs-per-clutch field gives a mean of 2. Depending on the available reports, that summary may be a midpoint of reported means or, if means are absent, a midpoint of reported extremes; it is not necessarily the arithmetic mean of observed clutches. It therefore does not mean every clutch contains exactly two eggs.
+## Reproductive fields in ReptTraits {#s-0992249798}
+The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Limits of this species record {#s-c66614db98}
-The traits here are linked to the ReptTraits v1-2 entry under its 2023 name framework; the name match does not establish that the historical concept is identical to the pinned COL26.8 concept. This page does not infer mass, juvenile length, venom, conservation status, current range or population trend from missing fields, and its citation chain does not mean the project independently rechecked every original study.
+## Reading this compiled trait record {#s-c66614db98}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

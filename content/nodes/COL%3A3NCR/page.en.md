@@ -1,7 +1,9 @@
 ## Choose a reading path by research question {#s-583da344f5}
 COL26.8 genus ID 3NCR connects six selected Chiropotes pages: C. albinasus (5Y6KP), C. chiropotes (5Y6KK), C. satanas (5Y6KV), C. sagulatus (5Y6L6), C. utahicki (84HTH), and C. israelita (5Y6KL). The israelita guide keeps the fixed COL ID visible alongside the MDD v2.5 treatment that places the name under C. chiropotes. Bonvicino et al. (2003) compared 25 specimens and argued for a distinct Rio Negro form; Boubli and de Lima (2009) modeled potential distribution and noted the need for further field surveys. These are different historical taxonomic and predictive sources, not a current genus-wide inventory or population estimate.
 
-## Choose comparison pages by life-history fields {#s-dbde8b0312}
+## Recorded classification and direct parent {#s-dbde8b0312}
+COL26.8 records Chiropotes Lesson, 1840 at genus rank, with Pitheciinae Mivart, 1865 as its direct parent.
+
 This batch’s Chiropotes route includes 4 historical life-history accounts; start with Chiropotes albinasus, Chiropotes chiropotes, Chiropotes israelita, Chiropotes satanas. More frequently represented fields include adult body mass (4 entries), female maturity field (defined by the source as age at first conception) (4 entries), offspring per litter or eggs per clutch (4 entries), conception or fertilization to birth (4 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-2472655ca8}
@@ -12,13 +14,13 @@ This genus route links six selected COL26.8 species pages and studies from diffe
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Start with the historical entries {#s-cf5274d929}
+## Recorded classification and member material {#s-cf5274d929}
 The local PanTHERIA route for Chiropotes includes one usable data account. Start with Chiropotes albinasus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-0f55a02412}
 This batch has one usable consolidated adult-mass value: Chiropotes albinasus at 2793.21 g, a historical median adjusted for sex. It supplies no comparison between group endpoints. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-f0d0fe3b95}
+## PanTHERIA material route {#s-f0d0fe3b95}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. These are consolidated historical values rather than individual extremes of the group; a single available entry does not supply a comparison between endpoints. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
 ## Read support from marker datasets separately {#s-cdad568b54}

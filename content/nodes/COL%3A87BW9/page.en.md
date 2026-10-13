@@ -4,31 +4,30 @@ Pleurodira is an accepted suborder under Testudines in pinned COL26.8 (COL 87BW9
 ## Keep the catalogue route separate from fossil research {#s-ee76ca9e2d}
 The existing Testudines research dossier discusses fossil calibration questions, while the Pleurodira range in this workspace remains withheld pending a group-specific provenance review. Local source-linked routes now include Cheloidea (Chelidae: Chelus fimbriata, Hydromedusa tectifera and Emydura subglobosa) and Pelomedusoidea (Pelusios niger, Erymnochelys madagascariensis and Podocnemis unifilis). These are partial, sample-bounded study routes, not a complete descendant guide.
 
-## Choose comparison pages by life-history fields {#s-64af7e7af7}
-This batch’s Pleurodira route includes 43 historical life-history accounts; start with Acanthochelys spixii, Chelodina canni, Chelodina expansa, Chelodina longicollis, Chelodina novaeguineae. More frequently represented fields include offspring per litter or eggs per clutch (43 entries), oviposition to hatching (41 entries), longest lifespan record in the compilation (35 entries), adult body mass (30 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
+## Comparing life-history records {#s-64af7e7af7}
+The August 2015 archive contains 43 historical records placed under Pleurodira by pinned COL ancestry. In this batch, offspring per litter or eggs per clutch appears in 43 entries, oviposition-to-hatching time in 41, maximum-longevity records in 35 and adult body mass in 30. These are field-coverage counts, not accepted-species counts or independent-animal sample sizes; compare each value using its event, unit and source definition.
 
-## Evidence limits {#s-e25f18d116}
-This is a release-pinned classification pointer. It does not resolve the existing withheld temporal range, enumerate every descendant, or establish living status, current distribution, population condition or conservation status. The local species pages describe specific study samples and do not establish complete species or family research coverage.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+## Limits of the historical life-history sample {#s-e25f18d116}
+This is a selected historical sample, not a census of COL26.8 descendants. It retains same-name, same-family records with at least three source-supported focal fields; it is not a complete descendant catalogue. Compilation medians, maximum-longevity records and historical taxonomic inheritance retain their source limits. A group route does not imply that all descendants share a reproductive mode or life history; local species pages remain bounded to their study samples.
 
-## Start with sourced trait records {#s-6e80d35921}
-This batch’s ReptTraits route for Pleurodira includes 52 same-name, same-family entries with trait-specific citations. Start with Acanthochelys macrocephala, Acanthochelys pallidipectoris, Acanthochelys radiolata, Acanthochelys spixii, Chelodina burrungandjii. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## A separate ReptTraits comparison route {#s-6e80d35921}
+The ReptTraits v1-2 route contains 52 same-name, same-family authored records with trait-specific citations, including Acanthochelys macrocephala, Acanthochelys pallidipectoris, Acanthochelys radiolata, Acanthochelys spixii and Chelodina burrungandjii. The workbook retains its 2023 name framework while navigation follows pinned COL26.8.
 
-## Read the definition before comparing {#s-d5887bda75}
-Among size records in this batch, Pseudemydura umbrina has a reported maximum straight carapace length (SCL) of 155 mm and Podocnemis expansa 1070 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
+## Reported carapace-length records {#s-d5887bda75}
+The selected records report maximum straight carapace length (SCL) of 155 mm for Pseudemydura umbrina and 1070 mm for Podocnemis expansa. SCL measures the shell in a straight line, excluding the head, neck and tail. These are records from different species, not a within-species range.
 
-## Limits of these trait data {#s-52cd46e3b1}
-This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
+## Limits of the selected trait data {#s-52cd46e3b1}
+This route selects entries with at least four sourced focal traits and a size or reproductive value, and with a matching COL name and family; it is not a complete descendant list. Compiled maxima are records, not averages or identification thresholds. Carapace length and snout–vent length differ, and historical one-row accounts retain taxonomic and population limits.
 
-## Citation gaps in some descendant accounts {#s-1c61f19d73}
-In this ReptTraits route, some fields in 13 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
+## When a trait citation does not settle its scope {#s-1c61f19d73}
+In the ReptTraits v1-2 route, fields from 13 authored species accounts have unresolved citation scope. Those fields are withheld from definite trait statements; species pages retain their field and citation labels so the limitation remains visible.
 
-## Start with sourced trait records {#s-d85a42369c}
-This batch’s ReptTraits route for Pleurodira includes 49 same-name, same-family entries with trait-specific citations. Start with [Chelodina canni](Cheloidea/Chelidae/Chelodina/Chelodina_canni/page.en.md), [Chelodina gunaleni](Cheloidea/Chelidae/Chelodina/Chelodina_gunaleni/page.en.md), [Chelodina ipudinapi](Cheloidea/Chelidae/Chelodina/Chelodina_ipudinapi/page.en.md), [Chelodina kuchlingi](Cheloidea/Chelidae/Chelodina/Chelodina_kuchlingi/page.en.md), [Chelodina kurrichalpongo](Cheloidea/Chelidae/Chelodina/Chelodina_kurrichalpongo/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## A second linked ReptTraits selection {#s-d85a42369c}
+The limited ReptTraits v1-2 route contains 49 same-name, same-family authored records with trait-specific citations. Its reading targets include Chelodina canni, Chelodina gunaleni, Chelodina ipudinapi, Chelodina kuchlingi and Chelodina kurrichalpongo. The workbook retains its 2023 name framework while navigation follows pinned COL26.8.
 
-## Read the definition before comparing {#s-d040caa2d8}
-Among size records in this batch, Pelomedusa schweinfurthi has a reported maximum straight carapace length (SCL) of 157 mm and Elseya branderhorsti 400 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
+## Reported size records in this route {#s-d040caa2d8}
+The selected records report maximum straight carapace length (SCL) of 157 mm for Pelomedusa schweinfurthi and 400 mm for Elseya branderhorsti. SCL measures the shell in a straight line, excluding the head, neck and tail. These are records from different species, not a within-group minimum and maximum.
 
-## Limits of these trait data {#s-4fc547c0ff}
-This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
+## Limits of the limited ReptTraits route {#s-4fc547c0ff}
+This limited route requires at least one sourced focal trait for each entry, interpreted within its own scope, and a matching COL name and family. Reported maximum sizes are not individual averages or identification thresholds. Carapace length and snout–vent length are not interchangeable, and historical one-row accounts retain taxonomic and population limits.
 

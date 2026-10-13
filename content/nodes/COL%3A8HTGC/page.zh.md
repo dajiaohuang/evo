@@ -1,5 +1,5 @@
-## 沿旧 Collocalia 组合查历史行 {#s-9e35adfe97}
-本页按 COL26.8 的 Aerodramus sawtelli（8HTGC）组织。BirdLife 2020 第 521 行与 eBird 2021 第 211 行同名，Avibase ID 为 AVIBASE-C6C43CDC，类型 1BL to 1eBird；BirdTree 第 215 行记 Collocalia sawtelli，类型 1BL to 1BT。本次读到目录异名 8KCGX，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。历史行 Order1=Caprimulgiformes，与本页 COL 路径的 Apodiformes 分开保留。
+## COL26.8 中的名称身份 {#s-9e35adfe97}
+《Catalogue of Life》COL26.8（2026-08-20）将 Aerodramus sawtelli (Holyoak, 1974) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 一只鸟的测量范围 {#s-3ffd9e7c31}
 形态共 1 只鸟：雌 0、雄 1、性别未定 0；完整测量 1 只。鼻孔前缘至喙尖 2.5 mm、跗蹠 8.5 mm、未压平翼长 116 mm、尾长 54 mm、手翼指数 67.3 是历史行均值。这里只有一只鸟，不能建立雌雄或群体变异分布。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

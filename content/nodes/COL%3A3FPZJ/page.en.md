@@ -1,11 +1,11 @@
-## Tracing the historical Zoothera name {#s-7f0b7e5197}
-Pinned COL26.8 organizes this page at Geokichla mendeni (3FPZJ). AVONET v7 BirdLife 2020 row 8558 and eBird 2021 row 4319 share the name and Avibase ID AVIBASE-55A20FBF; BirdTree row 4300 gives Zoothera mendeni, with match type 1BL to 1BT. Read COL older-combination record 5D7P5 points to this accepted ID. These links locate data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-7f0b7e5197}
+Catalogue of Life release COL26.8 records Geokichla mendeni (Neumann, 1939) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured birds and beak/wing values {#s-ac4c3a897e}
 Morphology covers 1 bird: 0 female, 1 male and 0 unsexed; 1 bird has a complete measurement set. Nostril-to-tip beak length 13.9 mm, tarsus 27.9 mm, unflattened wing 111 mm and hand-wing index 28.3 are summaries in this historical row. One bird cannot establish population variation, sex differences or individual ranges. The index is Kipp’s distance/wing length ×100, not flight speed, migration distance or a range-wide performance test.
 
 ## Mass has a separate source {#s-20fe92b7e2}
-Mass 56.32 g has Mass.Source=Dunning, a compiled species average; the 1 morphology bird is not an independent weighing denominator. The original book and individual weights were not read, leaving sex, season and locality minimum–maximum bounds unsupported. This row and [Geokichla erythronota](../Geokichla_erythronota/page.en.md) share the compiled mass value. The original book has not been examined to explain the equality, which does not establish identical individual mass distributions.
+Mass 56.32 g has Mass.Source=Dunning, a compiled species average; the 1 morphology bird is not an independent weighing denominator. The original book and individual weights were not read, leaving sex, season and locality minimum–maximum bounds unsupported. This row and Geokichla erythronota share the compiled mass value. The original book has not been examined to explain the equality, which does not establish identical individual mass distributions.
 
 ## Food categories and feeding observations {#s-b69ca73e4e}
 This row has Trophic.Niche=Invertivore and Trophic.Level=Carnivore. Invertivore primarily uses terrestrial invertebrate resources and has a different definition from the separate Carnivore/Omnivore trophic-level field; neither replaces the other. These are compiled categories, whose thresholds are not locally measured seasonal diet percentages. Prey species, individual feeding observations, digestion and resource availability are absent here, leaving detailed prey lists and seasonal proportions unsupported.

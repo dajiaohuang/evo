@@ -1,26 +1,26 @@
-## The name and this data account {#s-c34c2c7291}
-Leptotila ochraceiventris is accepted in COL26.8 within Columbidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-c34c2c7291}
+The AVONET v7 row for Leptotila ochraceiventris (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.2 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-972ea889a4}
-Recorded mean beak measurements are 9.2 mm from the anterior nostril edge to the tip, 3.1 mm in width and 3.8 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-972ea889a4}
+AVONET records culmen length (bill tip to skull base) 21.2 mm; beak length (nostril front edge to tip) 9.2 mm; beak width at the nostril front edge 3.1 mm; beak depth at the nostril front edge 3.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-cfd8187b29}
-Mean unflattened wing length from the carpal joint to the longest primary is 132.4 mm; mean tarsus length is 31.3 mm. Compiled mean mass is 146 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-cfd8187b29}
+AVONET records unflattened wing length 132.4 mm; tarsus length 31.3 mm; distance from first secondary tip to longest primary tip 33.5 mm; length to first secondary tip 99 mm; hand-wing index 25.3; tail length 96.2 mm; species-average body mass 146 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-0bb1277589}
-The dataset assigns habitat Forest, trophic niche Granivore and lifestyle Generalist. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-0bb1277589}
+AVONET classifies Leptotila ochraceiventris as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Granivore (source threshold at least 60% from seeds or nuts); trophic level Herbivore; primary lifestyle Generalist. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-8e5ff7b779}
-The migration field classifies this record as partially migratory. Historical breeding and resident maps span latitude endpoints -5.94° to -1.56°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-8e5ff7b779}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -5.94° to -1.56°. The mapped range area is 6446.42 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-b7484649cf}
-Leptotila ochraceiventris is accepted in pinned COL26.8 within Columbidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-b7484649cf}
+EltonTraits 1.0 has a same-name, same-family record for Leptotila ochraceiventris covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-fc9a4a7759}
-Foraging-stratum weights flagged as species-level in the archive are ground 50%; understory, edges or shrubs below 2 m 40%; trees or high bushes from 2 m upward but below the canopy 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-fc9a4a7759}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 50%; in the understory 40%; in mid-height or high vegetation 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-e69c148a1f}
-The used groups carry labels Ref_4. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-e69c148a1f}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-a2f89c81d6}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

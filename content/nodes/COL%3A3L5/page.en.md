@@ -1,21 +1,15 @@
-## Start with the historical entries {#s-5ee84e6d34}
-The local PanTHERIA route for Monotremata contains 2 usable data accounts: Ornithorhynchus anatinus and Tachyglossus aculeatus. Each page retains its original MSW05 name, variable-specific source conditions and missing values. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Two historical PanTHERIA accounts {#s-5ee84e6d34}
+The local PanTHERIA route contains two usable historical accounts for Ornithorhynchus anatinus and Tachyglossus aculeatus. Each preserves its MSW05 name, variable-specific source conditions, and missing values. The two records describe this source route, not the accepted-species denominator; navigation follows pinned COL26.8.
 
-## Compare body size and life history {#s-c56e3b20ad}
-Among the consolidated adult-mass values available in this batch, Ornithorhynchus anatinus is 1484.25 g and Tachyglossus aculeatus is 4499.97 g. These endpoints are historical medians adjusted for sex. The species pages also contain fetal development, weaning, activity and group fields; read each variable's definition before comparing it. Body-mass differences alone do not establish a lifestyle shared by the descendants.
+## Adult-mass summaries for two recorded species {#s-c56e3b20ad}
+The available sex-adjusted historical adult-mass medians are 1484.25 g for Ornithorhynchus anatinus and 4499.97 g for Tachyglossus aculeatus. They summarize historical accounts, not individual extremes. The pages also record fetal development, weaning, activity, and group fields; compare those only with each variable’s definition in view.
 
-## Choose comparison pages by life-history fields {#s-bf44fee319}
-This route has 4 historical life-history accounts: Ornithorhynchus anatinus, Tachyglossus aculeatus, Zaglossus bartoni and Zaglossus bruijni. Within their declared class scopes, adult body mass, offspring per litter or eggs per clutch, conception or fertilization to birth, and age of dependence on food other than maternal milk each appear in 4 accounts. These counts describe this batch, not the complete accepted-species denominator. Check events, units and provenance before comparing values.
+## Life-history fields in four historical accounts {#s-bf44fee319}
+A separate historical route contains four accounts: Ornithorhynchus anatinus, Tachyglossus aculeatus, Zaglossus bartoni, and Z. bruijni. Within their stated class scopes, all four record adult mass, offspring per litter or eggs per clutch, conception or fertilization to birth, and age at dependence on food beyond maternal milk. These counts describe the selected entries, not all accepted monotremes; check events, units, and sources before comparing.
 
-## Compare food, feeding positions and activity periods {#s-2431ed4ed4}
-Five historical foraging records are available: Tachyglossus aculeatus, Zaglossus attenboroughi, Zaglossus bartoni, Zaglossus bruijni and Ornithorhynchus anatinus. Food-category weights appear in 4 records, foraging strata in 5 and mammalian activity periods in 5. Separate sources and distinguish coarse weights from categorical or binary codes before comparing. These counts describe this batch, not the complete accepted-species denominator or ecology shared by the whole group.
+## Foraging and activity fields in five records {#s-2431ed4ed4}
+Five historical ecological records cover Tachyglossus aculeatus, Zaglossus attenboroughi, Z. bartoni, Z. bruijni, and Ornithorhynchus anatinus. Four include food-category weights, all five include foraging strata, and all five include mammalian activity-period fields. Food weights are coarse and the other fields are categorical or coded; these values describe this selection, not a shared ecology for the group.
 
-## Evidence limits {#s-ac4d78f7f7}
-This guide covers only entries in this batch with at least 3 focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. The comparison endpoints are consolidated historical values, not individual extremes for the group. Fields may reflect different source conditions; consult species pages and the original variable definitions. These historical values do not establish current species concepts, distribution or conservation.
-
-The life-history route includes historical same-name, same-family entries authored after the initial selection. Some fall below the original threshold after class-scope cautions; this is not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished.
-
-Some descendant entries have class-scope cautions on source fields. Those values are withheld from event interpretations while the original records remain available; see species pages for the specific limits.
-
-The ecological route includes only this batch's unique same-name, same-family historical entries with at least two usable field groups. It is not a complete descendant catalogue, and descendant food types, estimated weights or activity patterns are not traits of the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+## Limits of the historical samples {#s-ac4d78f7f7}
+The life-history and EltonTraits routes are separate historical samples, not a complete monotreme account. Life-history entries use one-to-one same-name and same-family matching with at least three focal fields; entries that fall below that threshold after class-scope cautions remain recorded but are withheld from event interpretation. EltonTraits requires at least two usable field groups. Estimated food weights, activity codes and possible congeneric borrowing remain record-level limits and do not establish shared monotreme traits. These historical records do not establish current species concepts, distributions or conservation.
 

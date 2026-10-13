@@ -1,5 +1,5 @@
-## 逐表保留 Locustella、Bradypterus 与 Helopsaltes {#s-f580c72fb1}
-本页按 COL26.8 的 Locustella caudata（72LK8）组织。BirdLife 2020 第 4979 行记 Locustella caudata；eBird 2021 第 5643 行记 Locustella caudata，两表 Avibase ID 均为 AVIBASE-A86920C2，类型 1BL to 1eBird。BirdTree 第 5614 行记 Bradypterus caudatus，类型 1BL to 1BT。Bradypterus 逐字目录异名 N5DN 指向本页接受 ID。名称对应帮助定位历史资料，不证明跨版本的物种范围相同。
+## COL26.8 中的名称身份 {#s-f580c72fb1}
+《Catalogue of Life》COL26.8（2026-08-20）将 Locustella caudata (Ogilvie-Grant, 1895) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-a6150d7a1a}
 形态共 3 只鸟：雌 1、雄 2、性别未定 0；完整测量 2 只。鼻孔前缘至喙尖 8.6 mm、跗蹠 25.3 mm、未压平翼长 60.7 mm、尾长 83 mm、手翼指数 8.7 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

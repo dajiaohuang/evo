@@ -1,5 +1,5 @@
-## 同名关联保留不同科名 {#s-3a166234bc}
-本页按 COL26.8 的 Agapornis pullarius（65MFS）组织。BirdLife 2020 第 10204 行、eBird 2021 第 259 行及 BirdTree 第 261 行同名；eBird Avibase ID 为 AVIBASE-1E2EC99C，类型分别1BL to 1eBird与1BL to 1BT。来源科名 Psittacidae、目录 Psittaculidae 分别保留，不把科级分配变化改写成名称不匹配。目录接受名来自已读 ag 分片；同名一对一关系不证明跨年代物种范围完全相同。
+## COL26.8 中的名称身份 {#s-3a166234bc}
+《Catalogue of Life》COL26.8（2026-08-20）将 Agapornis pullarius (Linnaeus, 1758) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-f9a519ae98}
 形态共 8 只鸟：雌 2、雄 6、性别未定 0；完整测量 8 只。鼻孔前缘至喙尖 14.1 mm、跗蹠 11.7 mm、未压平翼长 90.4 mm、尾长 41.1 mm、手翼指数 39.4 是历史行均值。完整数与总数相等，仍不提供个体变异范围。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

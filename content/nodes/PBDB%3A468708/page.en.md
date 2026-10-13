@@ -14,23 +14,38 @@ The paper combines ribcage shape, neck and snout anatomy to propose a semiaquati
 The revised matrix adds this species, removes four taxa to prevent major-clade collapse and changes two Mahakala scores, leaving 182 taxa and 1807 characters. It places Natovenator in Halszkaraptorinae but does not resolve its relationships with Mahakala and Hulsanpes. A character at the distal third metatarsal is incompletely preserved; alternative coding changes its position. Methods set a 99,999-tree limit while Results report more than 99,999 most-parsimonious trees. That reporting difference is retained without reanalysis. The fixed PBDB path organizes pages; the study tree does not establish that classification disputes are settled.
 
 ## Read from skeletal observations to ecological inference {#s-09050a1107}
-Begin with the specimen and skull in Figures 1–2, then compare ribs in Figure 4 and Table 1 before reading the swimming interpretation in Discussion. The authors use Natovenator to support a semiaquatic interpretation of Halszkaraptor. That is this paper’s comparative argument, without implying that this page independently reviews the other holotype, all opposing studies or the full supplementary matrices. The database interdune label alone does not determine living habitat. Return to the [Natovenator genus guide](../page.en.md) to follow this progression from material to inference.
+Begin with the specimen and skull in Figures 1–2, then compare ribs in Figure 4 and Table 1 before reading the swimming interpretation in Discussion. The authors use Natovenator to support a semiaquatic interpretation of Halszkaraptor. That is this paper’s comparative argument, without implying that this page independently reviews the other holotype, all opposing studies or the full supplementary matrices. The database interdune label alone does not determine living habitat. Return to the Natovenator genus guide to follow this progression from material to inference.
 
-## Which fossil records this name represents {#s-391d9b0329}
-Natovenator polydontus is accepted in the fixed PBDB dinosaur working roster, with database parent Natovenator. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-391d9b0329}
+Natovenator polydontus is listed in the PBDB snapshot under taxon txn:468708. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-82b2b681b7}
-Collection Khermeen Tsav (KID) [Baruungoyot Fm.] (Omnogov), region code MN, stratum name Baruungoyot; database age bracket 83.6–72.2 Ma, early interval Middle Campanian and late interval Late Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-82b2b681b7}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-eb64ac5109}
-Selected occurrences have an outer age envelope of 83.6–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1634492; PBDB collection col:204919. Locality cnm=Khermeen Tsav (KID) [Baruungoyot Fm.]; place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Middle Campanian, oli=Late Campanian. Stratigraphic fields sfm=Baruungoyot. Recorded attribution Lee et al. 2022; PBDB reference ref:83912.
 
-## Read preservation setting separately from living habitat {#s-d668759bcc}
-Khermeen Tsav (KID) [Baruungoyot Fm.] has collection-environment label interdune; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Khermeen Tsav
+
+## Age bounds on the recorded occurrences {#s-eb64ac5109}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:1634492; the smallest recorded lag=72.2 Ma in occ:1634492. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-d668759bcc}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1634492: PBDB original-identification field idn=Natovenator polydontus n. gen. n. sp.; PBDB taxon-name field tna=Natovenator polydontus; material note ocm=MPC-D 102/114 - holotype; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=99.826942, lat=43.493332; paleocoordinate/model fields pm1=gplates, pln=95.53, pla=37.77.
 
 ## Follow collection records back to references {#s-ddce9295ad}
 Collection reference ref:83912 abbreviates Lee et al. (2022). This page separately reads the eight-author original description and binds the study of holotype MPC-D 102/114. PBDB records and paper observations remain distinct units. Full occurrence rows, collection identifiers and identifications remain in the source archive; the physical specimen was not inspected.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1634492: Recorded attribution Lee et al. 2022; PBDB reference ref:83912.
+
 ## Evidence limits {#s-146a56a565}
 This page combines fixed PBDB records with the 2022 description of one holotype. Ribs, teeth and cervicals are anatomical observations; swimming, fish eating and propulsion retain the authors’ inferential scope, without direct behavioral observations or measured hydrodynamics. Broad database ages are not a death date, and an interdune setting alone does not determine ecology. All supplements and later disputes are not assembled. This is not a complete monograph, matrix reanalysis, direct specimen inspection.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

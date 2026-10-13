@@ -1,26 +1,26 @@
-## The name and this data account {#s-57d929f68e}
-COL26.8 accepts Glaucidium parkeri in Strigidae. AVONET v7 uses the HBW–BirdLife 2020 name and records 4 measured individuals, 3 with a complete set of measurements. A trait may still have a smaller usable sample.
+## Row-reported mean and sample coverage {#s-57d929f68e}
+The AVONET v7 row for Glaucidium parkeri (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 10 mm. The row records 4 measured individuals, 3 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-364747805f}
-Mean beak length is 10 mm from the front edge of the nostril to the tip; mean width is 6.8 mm and depth is 9.3 mm at the nostril edge. These are separate measurements at defined landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-364747805f}
+AVONET records culmen length (bill tip to skull base) 14.3 mm; beak length (nostril front edge to tip) 10 mm; beak width at the nostril front edge 6.8 mm; beak depth at the nostril front edge 9.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-f6a4ccad1a}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 93.9 mm; mean tarsus length is 19.9 mm. The compiled mean mass is 61.39 g and carries source category Dunning. Mass comes from separate species-average information, so the AVONET measurement count does not mean those birds were weighed.
+## Wing and body measures use separate sources {#s-f6a4ccad1a}
+AVONET records unflattened wing length 93.9 mm; tarsus length 19.9 mm; distance from first secondary tip to longest primary tip 22.1 mm; length to first secondary tip 71.4 mm; hand-wing index 23.6; tail length 49.3 mm; species-average body mass 61.39 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-9e0748d03e}
-The dataset codes habitat as Forest, trophic niche as Vertivore and lifestyle as Insessorial, meaning mainly perched on vegetation or another support. These are broad categories for cross-species comparison; they do not show exclusive use of forest or a single food source.
+## Recorded habitat and feeding categories {#s-9e0748d03e}
+AVONET classifies Glaucidium parkeri as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Vertivore (source threshold at least 60% from terrestrial vertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-fcd63ebed5}
-The migration field classifies the record as sedentary. Historical breeding and resident maps span latitudes -13.5° to 1.16°. They do not give a full account of non-breeding movements or a current position or global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-fcd63ebed5}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -13.5° to 1.16°. The mapped range area is 29014.24 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-ba7348ed4b}
-Pinned COL26.8 accepts Glaucidium parkeri in Strigidae. EltonTraits 1.0 has a same-name, same-family entry; this page interprets one field group with source information. The archive follows earlier bird taxonomy or, for mammals, MSW3. A matching name alone does not settle modern splits or synonymies.
+## Scope of the historical trait entry {#s-ba7348ed4b}
+EltonTraits 1.0 has a same-name, same-family record for Glaucidium parkeri covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-ffa9008725}
-Species-level foraging weights are ground 90% and understory, edges or shrubs below 2 m 10%. These are relative weights for feeding positions, not nest sites, all habitat or a daily time budget. The archive's categories have distinct definitions; they are not elevation bands and do not give flight heights or habitat area.
+## Foraging positions are not a time budget {#s-ffa9008725}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 90%; in the understory 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-a150de282e}
-The selected field group carries the label Ref_5. Diet, foraging strata and activity may draw on different materials, and Ref_5 in a bird table need not identify the same source as Ref_5 in a mammal table. The archive preserves original labels by file, row, field group and reference table. The underlying works have not been individually read; labels do not add independent observations.
+## Sources and field limits {#s-a150de282e}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-e22f441989}
 This is a guide to historical AVONET v7 data. Morphology values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass has separate provenance and must not inherit the morphology sample count. Habitat, diet and migration are broad categories; the maps cover historical breeding and resident ranges. Matching historical names support the link to this account but do not prove that the older and COL26.8 species concepts are equivalent. Reproduction, current populations and conservation need other sources.

@@ -1,5 +1,5 @@
-## Find historical rows through older Serinus combinations {#s-663b296398}
-Pinned COL26.8 organizes this page at Crithagra citrinelloides (6BGL5). BirdLife 2020 row 4018 and eBird 2021 row 2912 share the name and Avibase ID AVIBASE-D419E3A5, with type 1BL to 1eBird; BirdTree row 2896 gives Serinus citrinelloides, with type 1BL to 1BT. Read catalogue synonym 4WV6R points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-663b296398}
+Catalogue of Life release COL26.8 records Crithagra citrinelloides (Rüppell, 1840) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-0ebd622a48}
 Morphology comprises 15 birds: 8 female, 7 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8.6 mm, tarsus 14.1 mm, unflattened wing 66.4 mm, tail 48.2 mm and hand-wing index 22.4 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

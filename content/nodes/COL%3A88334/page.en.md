@@ -1,18 +1,18 @@
-## Name and this data account {#s-009066e4cc}
-COL26.8 places Cubatyphlops contorhinus in Typhlopidae. Its ReptTraits v1–2 row retains field-level sources under the Reptile Database 2023 name framework; it is a compiled summary, not a description of every population.
+## COL26.8 name and the ReptTraits row {#s-009066e4cc}
+COL26.8 records Cubatyphlops contorhinus as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-11160a30bb}
-The row reports a maximum total length (TL) of 316 mm. TL includes the tail; snout–vent length (SVL) ends at the vent. The compiled maximum is not typical size or an absolute limit.
+## Length values in the archived records {#s-11160a30bb}
+The row reports maximum total length (TL) of 316 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-903f90c9ff}
-The microhabitat field is Fossorial, indicating an underground or burrowing association without giving a full habitat description.
+## Habitat use and activity labels {#s-903f90c9ff}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## How to read reproductive records {#s-1a70346ca2}
-The source classifies the reproductive mode as oviparous (egg-laying). It gives no clutch size and does not establish uniformity across populations.
+## Reproductive fields in ReptTraits {#s-1a70346ca2}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-d3156fe8d1}
-This page summarizes selected fields from a ReptTraits v1–2 row under the Reptile Database 2023 name framework; it is not a complete species account. A row may combine records from different sexes, ages, places, or populations, and a shared name does not establish identical later taxonomic concepts. A reported maximum is a compiled measurement, not an absolute size limit. Reproductive labels do not give clutch size; workbook averages summarize source records rather than every clutch. Estimated mass and differing juvenile-length definitions are not used here as direct observations. Conservation, venom, current distribution, and population trends are not updated. Citation labels preserve the workbook's source chain but do not mean every original study was independently reviewed here.
+## Reading this compiled trait record {#s-d3156fe8d1}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-b4f4996e31}
-This account covers maximum total length, microhabitat, and reproductive mode. It does not interpret sex-specific size, clutch or litter counts and frequency, egg dimensions, diet, activity, foraging, or sex determination where species-specific support is absent.
+## Reading this compiled trait record {#s-b4f4996e31}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

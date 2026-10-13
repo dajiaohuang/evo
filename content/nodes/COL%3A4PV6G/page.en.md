@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-6b035b7844}
-Pinned COL26.8 organizes this page as Pternistis afer (4PV6G). AVONET v7 BirdLife 2020 row 2505 and eBird 2021 agree in name, with Avibase ID AVIBASE-5FA94F66; BirdTree gives Francolinus afer, with match type 1BL to 1BT. Read COL older-combination record PC2SK points to accepted ID 4PV6G. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-6b035b7844}
+Catalogue of Life release COL26.8 records Pternistis afer (P. L. S. Müller, 1776) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-3c0e8bf168}
 Morphology covers 4 birds (2 female, 2 male); 2 have complete measurement sets. Mean nostril-to-tip beak length is 16.4 mm, tarsus 49.1 mm, unflattened wing 170.2 mm and hand-wing index 19.5. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

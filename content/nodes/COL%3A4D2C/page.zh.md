@@ -1,4 +1,6 @@
-## 两条相关但不同的性状路径 {#s-7989c18106}
+## 记录分类与直接上级关系 {#s-7989c18106}
+COL26.8 将 Epictia 记录为属；其直接上级记录为 Epictinae。
+
 本页呈现两条 ReptTraits 资料路径。v1-2 已编写资料集中有一条 Epictia 记录，即 E. albipuncta，包含四个焦点字段的数值：最大吻肛长（SVL）144.5 mm、最大全长 355 mm、穴居型微生境和卵生繁殖。两项长度均归于 Marinus Hoogmoed，微生境归于 Feldman（2015），繁殖方式归于 Zimin 等（2022）。这些是资料中报告的记录值，不是物种平均值，也不是 Epictia 的尺寸边界。分类导航采用固定 COL26.8；工作簿名称沿用《The Reptile Database》2023 年版。同名同科本身不足以证明历史与当前分类概念等同。
 
 ## 区分两种长度测量 {#s-9c521e0156}
@@ -8,7 +10,7 @@
 受限版 v1-2 路径包含 43 条按固定 COL26.8 祖先关系归入 Epictia 的资料。每条均有同名同科匹配和逐性状引文，但历史工作簿名称不能证明当前分类概念等同。其焦点字段分布为：2 条有一个有支持的字段，20 条有两个，21 条有三个。这些是供阅读的来源记录，不是全部接受种的数量，也不能为缺失字段提供证据。
 
 ## 按各自证据进入物种页 {#s-5520a249fe}
-以下五个链接是 43 条受限资料中的入口：[Epictia albifrons](Epictia_albifrons/page.zh.md)、[Epictia alfredschmidti](Epictia_alfredschmidti/page.zh.md)、[Epictia amazonica](Epictia_amazonica/page.zh.md)、[Epictia antoniogarciai](Epictia_antoniogarciai/page.zh.md) 和 [Epictia ater](Epictia_ater/page.zh.md)。这个数量只描述此来源路径，并非所有接受的 Epictia 物种。每个链接页只报告本页各自有引文支持的字段。
+以下五个链接是 43 条受限资料中的入口：Epictia albifrons、Epictia alfredschmidti、Epictia amazonica、Epictia antoniogarciai 和 Epictia ater。这个数量只描述此来源路径，并非所有接受的 Epictia 物种。每个链接页只报告本页各自有引文支持的字段。
 
 ## 只比较共同且定义明确的字段 {#s-841002b384}
 受限资料的每条记录仅有一至三个焦点字段，因此链接页未必支持相同比较。先核对每页有哪些字段，保留 SVL 与全长 TL 等定义区别，并只比较各页引文支持的数值。字段缺失时，不从近缘种借用数值。

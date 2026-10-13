@@ -4,13 +4,15 @@ The 2019 genome comparison includes Rhea americana and R. pennata. Their differi
 ## Read by material, tree model and experimental level {#s-8881a0c32d}
 Study species directly represented at this entry are [Rhea americana](Rhea/Rhea_americana/page.en.md), [Rhea pennata](Rhea/Rhea_pennata/page.en.md). First distinguish added, reused and reference-mapped genomes, then compare species trees with gene trees. For a cross-lineage functional comparison, turn to the chicken reporter assays on [Rhea americana](Rhea/Rhea_americana/page.en.md) and [Eudromia elegans](../../Tinamiformes/Tinamidae/Eudromia/Eudromia_elegans/page.en.md); one candidate region cannot validate every accelerated element. Return to existing morphology, life history or fossil occurrences with their own units and samples. This route is neither exhaustive group sampling nor a complete descendant catalogue.
 
-## Local data reading route {#s-0347c536a4}
+## Recorded classification and direct parent {#s-0347c536a4}
+COL26.8 records Rheidae at family rank, with Rheiformes as its direct parent.
+
 AVONET v7 measurements are represented for one Rheidae species: Rhea americana. The page hierarchy follows pinned COL26.8, while biological values retain the source name and sampling scope.
 
 ## Differences between records {#s-c564d98806}
 The compiled mean mass represented here is 23000 g for Rhea americana; with one species in this route, there is no among-species mass range to compare. The source categories include Grassland habitat and Omnivore trophic niche. These do not establish traits shared by all rheas.
 
-## Choose comparison pages by life-history fields {#s-a783e39090}
+## Amniote Life-history archive member records {#s-a783e39090}
 Two historical life-history accounts are represented: Rhea americana and R. pennata. Both include adult body mass, offspring per litter or eggs per clutch, and oviposition-to-hatching time; female maturity (defined by the source as age at first conception) appears in one account. These counts describe the available archive records, not the full accepted-species total. Check each field’s event, unit and source before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-214e51cef1}

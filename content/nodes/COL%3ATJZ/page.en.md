@@ -1,4 +1,6 @@
-## Choose comparison pages by life-history fields {#s-44c6eb6a78}
+## Recorded classification and direct parent {#s-44c6eb6a78}
+COL26.8 records Amblysomus at genus rank, with Amblysominae as its direct parent.
+
 The Amblysomus route links to 5 historical life-history accounts; begin with Amblysomus corriae, Amblysomus hottentotus, Amblysomus marleyi, Amblysomus robustus, Amblysomus septentrionalis. The more frequently represented fields are adult body mass (5 entries), offspring per litter or eggs per clutch (5 entries), mass at birth or hatching (5 entries), longest lifespan record in the compilation (5 entries). These counts describe records on this route, not every accepted descendant. Check each field’s event, unit, and source before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-599500a62e}

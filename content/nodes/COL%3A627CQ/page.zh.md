@@ -1,10 +1,12 @@
-## 从 Ardenna 比较三种活动类别 {#s-57302d065e}
+## 记录分类与直接上级关系 {#s-57302d065e}
+COL26.8 将 Procellariidae 记录为科；其直接上级记录为 Procellariiformes。
+
 新增七条 Ardenna 导读分别以目录异名连接七个较早的 Puffinus 组合；griseus／pacificus 与旧组合中的 grisea／pacifica 对应。七条记录的食物生态位均为水生动物，其中四条标为 Generalist、两条 Aerial、一条 Aquatic。这些类别不提供捕食动作、潜水深度或实测食谱。bulleri 共四只鸟且四套完整；其他条目各有五只鸟、四套完整。pacifica 有一只性别未定的鸟，Dunning 体重另列。此前的计数分别为 64 条测量资料、50 条生活史、50 条多字段、10 条单字段和 1 条有限生态资料。各组范围仍分开，不能相加成去重接受种数或全科共同活动方式。
 
 ## 沿两组 Ardenna 路线区分食物与活动 {#s-28a4ed873b}
-可进入 [Ardenna](Ardenna/page.zh.md) 的两组路线，对读 gravis／carneipes 的 Aerial、bulleri 的 Aquatic 与四条 Generalist 记录；再分开查看完整测量套数、总鸟数、独立体重和旧名词词尾。开放海洋环境 3 是生境密度类别，不是鸟数；迁移 3 不提供路线、距离或每只鸟的移动轨迹。此前的资料边界仍适用，不能据此补出完整自然史。
+可进入 Ardenna 的两组路线，对读 gravis／carneipes 的 Aerial、bulleri 的 Aquatic 与四条 Generalist 记录；再分开查看完整测量套数、总鸟数、独立体重和旧名词词尾。开放海洋环境 3 是生境密度类别，不是鸟数；迁移 3 不提供路线、距离或每只鸟的移动轨迹。此前的资料边界仍适用，不能据此补出完整自然史。
 
-## 本地数据阅读路径 {#s-70439cac15}
+## 记录分类与成员材料 {#s-70439cac15}
 固定 COL26.8 层级下的 Procellariidae 路径收录了 64 条有测量来源的物种记录。可先从 Bulweria bulwerii、Bulweria fallax、Calonectris edwardsii、Calonectris leucomelas、Daption capense 读起；生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-5b71dd9eb2}
@@ -26,8 +28,8 @@ Procellariidae 路径收录 10 个历史条目，可从 Pseudobulweria aterrima�
 单字段路线只纳入名称与科相符、且只有一类可用取食生态字段的唯一历史条目。这些记录不是完整后代名册，也不把后代的食物类型、估计权重或活动模式当作整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的情况仍需逐页考虑。这些页面不是完整物种专论。
 另有七条 Ardenna 导读连接旧名称，并分别保留四套完整测量、总鸟数、独立体重和三类活动方式。海洋食物生态位与迁移代码不能说明捕食动作、迁移路线或整个科的自然史。
 
-## 从有限生态资料开始 {#s-b8345cad36}
-固定 COL26.8 分类路径下，Procellariidae有 1 个有限生态资料页，可从 [Puffinus heinrothi](Puffinus/Puffinus_heinrothi/page.zh.md) 开始。这个数量只计这里列出的页面，并非全部接受物种。
+## 记录分类与成员材料 {#s-b8345cad36}
+固定 COL26.8 分类路径下，Procellariidae有 1 个有限生态资料页，可从 Puffinus heinrothi 开始。这个数量只计这里列出的页面，并非全部接受物种。
 
 ## 哪些内容可读，哪些仍未解读 {#s-e917680f32}
 栖地类别、取食生态位、主导活动方式和迁移类别分别见 1、1、1、1 页。阅读时应依照原字段定义，并区分类别、历史地图与个体观察；共同标签不表示所有后代生活方式相同。这里没有解释喙、翼、跗蹠、尾或体重字段，因此不能据此比较类群体型。

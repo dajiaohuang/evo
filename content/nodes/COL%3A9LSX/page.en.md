@@ -1,30 +1,27 @@
-## Name and this data account {#s-93f3bba524}
-Acrochordus granulatus is accepted in pinned COL26.8 within Acrochordidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-93f3bba524}
+COL26.8 records Acrochordus granulatus as an accepted species. The ReptTraits v1-2 row gives its Family field as Acrochordidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-28f7b08f8e}
-Recorded dimensions are reported maximum total length (TL) 1220 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-28f7b08f8e}
+The row reports maximum total length (TL) of 1220 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-9511657a74}
-In the entry, microhabitat is Aquatic; diet is Carnivorous; active timing is Nocturnal; foraging mode is ACT. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-9511657a74}
+The microhabitat field classifies the recorded position as Aquatic. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Cogger 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Houston and Shine 1994, Lillywhite 1996, Mattison 1995. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## How to read reproductive records {#s-f45b6eac1e}
-the reproductive-mode field uses the original label ovoviviparous; sex determination is recorded as GSD (ZW/ZZ); consolidated mean offspring or eggs per litter/clutch 7; consolidated litters/clutches per year 1. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-f45b6eac1e}
+The compiled mean for offspring per litter or eggs per clutch is 7. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Bennett 1986, Greer 1997. The row reports 1 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The reproductive-mode field records ovoviviparous; this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records GSD (ZW/ZZ). ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## The 2015 life-history entry and this name {#s-088c94ae88}
-Acrochordus granulatus is accepted in pinned COL26.8 within Acrochordidae. This page compares the same-name historical life-history entry retaining 2 focal fields within the declared scope, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## A 2015 life-history row for this name {#s-088c94ae88}
+COL26.8 records Acrochordus granulatus as an accepted species. The August 2015 life-history table has a species-name and family match (Acrochordidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-d33661c67b}
-Historical summary values are adult body mass 666 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Length values in the archived records {#s-d33661c67b}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 666 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
-## Reproduction and developmental timing {#s-9c75180e77}
-Retained compilation fields are offspring per litter or eggs per clutch 7 offspring/eggs. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Missing reproductive and developmental durations are not supplied here.
+## Reproductive events in the life-history table {#s-9c75180e77}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 9 recorded source-table values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 7; it is not a count from one event. The 2015 archive's field citation is Greer, A.E, 1997. The archive retains a conception or fertilization to birth value in this row, classified as reptiles, but its own class-scope note excludes reptiles for this event field. The retained value is not interpreted here as a species event.
 
-## How to trace these values to sources {#s-80209cc2d9}
-Same-name sparse rows carry source labels including Boback and Guyer, 2003; Greer, A.E, 1997; IUCN, 2011. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## The August 2015 life-history table {#s-80209cc2d9}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-812aac2008}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
-This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
-
-The compilation contains gestation_d, outside the class scopes declared in Supplemental Table 9. Original values and reference labels remain in the source archive; without underlying-source review they are not interpreted as the corresponding reproductive or developmental events for this species. After withholding these fields, the entry falls below the original focal-field threshold and is retained as a limited-data and gap account.
+## Separate histories in the two archives {#s-812aac2008}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

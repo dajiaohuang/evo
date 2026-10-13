@@ -18,7 +18,10 @@ records:
     - subjectId: taxon:homininae
       claimType: taxonomy
       claimKind: scientific
-      statement: COL26.8 accepted usage 4C92G places Pan troglodytes beneath Homininae (parent usage JPH). This records the checklist classification only.
+      statement:
+        page: en
+        section: s-bc32383af2
+        part: body
       confidence: medium
       confidenceRationale: The accepted COL26.8 species record carries the Homininae parent usage JPH. This is one release-specific classification statement, not a claim of universal consensus or phylogeny.
       referenceLinks:
@@ -28,7 +31,9 @@ records:
   claim-rationales.zh:
     - COL26.8 接受种级记录包含 Homininae 父级用名 JPH。本陈述仅限该版本的分类记录，不表示普遍共识或系统发育关系。
   claim-statements.zh:
-    - COL26.8 接受用名 4C92G 将 Pan troglodytes 置于 Homininae 之下（父级用名 JPH）。此陈述仅记录该清单版本中的分类位置。
+    - page: zh
+      section: s-063e6aafa4
+      part: body
   ranges:
     - entityId: homininae
       rangeKind: global-composite

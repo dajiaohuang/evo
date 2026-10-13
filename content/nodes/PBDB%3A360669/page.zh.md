@@ -1,18 +1,41 @@
 ## 这个名称对应哪些化石记录 {#s-df206e3995}
 Trionyx pliocenicus 在固定 PBDB 龟类化石谱系工作名录中为接受种，数据库父级为 Trionyx。本页导读 3 条可用种级出现记录，涉及 3 个采集记录和 2 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-f005c6f5ad}
-采集记录 Poggio alle Monache，地区代码 IT；数据库年代范围 5.333–2.58 Ma，早端地质时段 Pliocene。采集记录 Cava Gentile，地区代码 IT；数据库年代范围 11.63–7.246 Ma，早端地质时段 Tortonian。采集记录 Cava Franzè，地区代码 IT；数据库年代范围 11.63–7.246 Ma，早端地质时段 Tortonian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Trionyx pliocenicus 在 PBDB 快照中对应分类条目 txn:360669。这份存档导读包含 3 条选取的出现记录，关联 3 个不同的 PBDB 采集记录编号和 2 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-7b1cb46e7a}
-本页所选出现记录的年代外包区间为 11.63–2.58 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
+## 具名地点与采集记录 {#s-f005c6f5ad}
+存档导读包含 3 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
 
-## 保存环境与生活环境分开阅读 {#s-5d36f4a0f2}
-Poggio alle Monache 的采集环境标签为 滨岸沉积环境，类型未定（coastal indet.）；集合保存方式标签为 实体化石、原磷酸盐成分（body,original phosphate）。Cava Gentile 的采集环境标签为 海洋沉积环境，类型未定（marine indet.）；集合保存方式标签为 实体化石（body）。Cava Franzè 的采集环境标签为 海洋沉积环境，类型未定（marine indet.）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:872895；PBDB 采集记录 col:96778。 地点字段 cnm=Poggio alle Monache；地点分区字段 cc2=IT。 记录年代界：eag 5.333 Ma; lag 2.58 Ma；PBDB 年代区间字段 oei=Pliocene。 记录署名 Bianucci and Landini 2005；PBDB 引文编号 ref:32997。
 
-## 沿采集记录追到文献 {#s-4ef57f4f37}
-Poggio alle Monache 的数据库引文署名为 Bianucci and Landini（2005），编号 ref:32997。Cava Gentile 的数据库引文署名为 Georgalis et al.（2020），编号 ref:71702。Cava Franzè 的数据库引文署名为 Georgalis et al.（2020），编号 ref:71702。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+- 出现记录 occ:1494765；PBDB 采集记录 col:65227。 地点字段 cnm=Cava Gentile；地点分区字段 cc2=IT。 记录年代界：eag 11.63 Ma; lag 7.246 Ma；PBDB 年代区间字段 oei=Tortonian。 记录署名 Georgalis et al. 2020；PBDB 引文编号 ref:71702。
+
+- 出现记录 occ:1494767；PBDB 采集记录 col:207797。 地点字段 cnm=Cava Franzè；地点分区字段 cc2=IT。 记录年代界：eag 11.63 Ma; lag 7.246 Ma；PBDB 年代区间字段 oei=Tortonian。 记录署名 Georgalis et al. 2020；PBDB 引文编号 ref:71702。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+The chronological attribution of the described turtles can be dated to around 8.0 Ma, being the provenance layer from the base of the sedimentary succession magnetostratigraphically correlated with normal Chron C4n (Marra et al. 2017).
+
+## 出现记录的年代界 {#s-7b1cb46e7a}
+在这组 PBDB 记录中，最大记录 eag=11.63 Ma，见 occ:1494765；最小记录 lag=2.58 Ma，见 occ:872895。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-5d36f4a0f2}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:872895：PBDB 分类名称字段 tna=Trionyx pliocenicus；PBDB 地点坐标字段 lng=10.829722，lat=43.387222；古坐标／模型字段 pm1=gplates，pln=11.51，pla=42.44。
+- occ:1494765：PBDB 分类名称字段 tna=Trionyx pliocenicus；材料说明字段 ocm=costal fragment (MSNC 4590) and a complete right hypoplastron (MSNC 4589)；PBDB 地点坐标字段 lng=15.906944，lat=38.671944；古坐标／模型字段 pm1=gplates，pln=17.02，pla=36.39。
+- occ:1494767：PBDB 分类名称字段 tna=Trionyx pliocenicus；材料说明字段 ocm=costal fragment (MSNC 4591)；PBDB 地点坐标字段 lng=15.889444，lat=38.655834；古坐标／模型字段 pm1=gplates，pln=17.01，pla=36.37。
+
+## 各记录所附的引文 {#s-4ef57f4f37}
+存档导读把这些记录关联到 2 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:872895：记录署名 Bianucci and Landini 2005；PBDB 引文编号 ref:32997。
+- occ:1494765：记录署名 Georgalis et al. 2020；PBDB 引文编号 ref:71702。
+- occ:1494767：记录署名 Georgalis et al. 2020；PBDB 引文编号 ref:71702。
 
 ## 资料边界 {#s-18d85bbead}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 1150 项龟类化石谱系工作名录中，当前名称一致、父链可追到已记录 Pantestudines 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 3 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

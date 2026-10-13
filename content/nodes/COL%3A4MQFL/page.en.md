@@ -1,29 +1,29 @@
-## What the measurement record covers {#s-307066cb2e}
-COL26.8 accepts Prodotiscus regulus in Indicatoridae. AVONET v7 records it under the HBW–BirdLife name used in 2020. Five birds were measured, four with a complete morphological set, so a trait mean can rest on fewer individuals than the total.
+## Row-reported mean and sample coverage {#s-307066cb2e}
+The AVONET v7 row for Prodotiscus regulus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 7.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions {#s-7cbd27f8ad}
-The means are 7.8 mm from the front edge of the nostril to the tip, 4 mm wide and 3.2 mm deep at that edge. These standardized landmarks define separate dimensions, not diagnostic cutoffs.
+## Beak measurements at defined landmarks {#s-7cbd27f8ad}
+AVONET records culmen length (bill tip to skull base) 10.5 mm; beak length (nostril front edge to tip) 7.8 mm; beak width at the nostril front edge 4 mm; beak depth at the nostril front edge 3.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and body mass {#s-5e8d0b71a1}
-Unflattened wing length, from the carpal joint to the longest primary, averages 77 mm; tarsus length averages 11.7 mm. A separate compilation gives mean mass as 14.1 g (source category Dunning). That record does not show that the measured birds were weighed.
+## Wing and body measures use separate sources {#s-5e8d0b71a1}
+AVONET records unflattened wing length 77 mm; tarsus length 11.7 mm; distance from first secondary tip to longest primary tip 21.8 mm; length to first secondary tip 54.7 mm; hand-wing index 28.5; tail length 51 mm; species-average body mass 14.1 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat and ecological categories {#s-a017a98d0d}
-AVONET labels the habitat Woodland, the trophic niche Invertivore and the lifestyle Insessorial, meaning primarily perched above ground. These comparison classes summarize dominant tendencies rather than exclusive habitat or diet.
+## Recorded habitat and feeding categories {#s-a017a98d0d}
+AVONET classifies Prodotiscus regulus as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and map extent {#s-ada190728d}
-The migration field labels the record sedentary. Historical breeding and resident maps span 34.84° south to 14.03° north. They do not describe the full non-breeding movements or current occupancy; the geographic summary and morphology were compiled separately.
+## The migration label has a limited scope {#s-ada190728d}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -34.84° to 14.03°. The mapped range area is 3186750.81 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## EltonTraits ecology in historical context {#s-6c1c142a33}
-EltonTraits 1.0 has a same-name, same-family Prodotiscus regulus entry based on an older taxonomy. The comparison uses its diet and feeding-position fields with source labels. The matching name does not resolve later splits or synonymy.
+## Scope of the historical trait entry {#s-6c1c142a33}
+EltonTraits 1.0 has a same-name, same-family record for Prodotiscus regulus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Estimated diet weight {#s-0cdc61fad5}
-Invertebrates carry all of the nonzero diet weight (100%). Code A records high compiler confidence in the source and diet entry. EltonTraits standardizes verbal accounts into relative weights rather than measuring intake; a zero elsewhere would not prove a food is never taken, and broad labels should not be read as exclusive diets.
+## Relative weights across food categories {#s-0cdc61fad5}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Where the feeding record places it {#s-ac4e466aab}
-The species-level record assigns half the foraging weight to understory, edges or shrubs below 2 m and half to trees or tall bushes from 2 m up to the canopy. These relative weights do not identify nest sites, represent all habitat use or provide a full-day time budget. Water-surface, mid/high, canopy and aerial classes are not elevation bands and cannot supply flight height or habitat area.
+## Foraging positions are not a time budget {#s-ac4e466aab}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 50%; in mid-height or high vegetation 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Source trail {#s-3347746e2c}
-Both field groups cite Ref_7, the Handbook of the Birds of the World, volume 7. Other records can use different materials for diet, strata and activity, and bird and mammal tables may assign the same number to different works. The archive retains the full original string with the file, row and field group. The Handbook has not been independently checked here.
+## Sources and field limits {#s-3347746e2c}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits on interpretation {#s-1f828aef41}
 AVONET values are historical species means, not diagnostic limits or ranges of individual variation. Mass is separately sourced and cannot inherit the morphology sample count. Habitat, trophic niche and migration are broad classes; the map covers historical breeding and resident ranges. The name crosswalk links this record to the current catalogue entry but does not prove unchanged species concepts after later splits or lumps. Reproduction, current populations and conservation need other evidence.

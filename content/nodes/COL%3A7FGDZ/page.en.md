@@ -1,30 +1,30 @@
-## Accepted placement and records {#s-70933ac08c}
-COL26.8 accepts Varanus doreanus in Varanidae. The ReptTraits v1-2 profile retains the workbook’s Reptile Database 2023 name framework. This page also draws on a separate 2015 life-history archive, so its older summaries are distinguished from the species profile.
+## COL26.8 name and the ReptTraits row {#s-70933ac08c}
+COL26.8 records Varanus doreanus as an accepted species. The ReptTraits v1-2 row gives its Family field as Varanidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A maximum measured without the tail {#s-5fba5a3b6b}
-The listed maximum snout–vent length is 460 mm. The measurement ends at the body opening rather than the tail tip. This compiled maximum is not a typical size or a biological ceiling; the source row does not supply a sex-specific maximum.
+## Length values in the archived records {#s-5fba5a3b6b}
+The row reports a maximum SVL of 460 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Tree and ground categories, daytime activity {#s-cc3ecf5d4d}
-The profile records arboreal and terrestrial microhabitats, a carnivorous diet, and diurnal activity. These broad labels can cover different settings and do not specify a prey list, exact locality, or fixed schedule. They need not describe every season or life stage.
+## Habitat use and activity labels {#s-cc3ecf5d4d}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/ground-dwelling (Terrestrial) [source label: Arboreal/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg laying and a narrow clutch summary {#s-7a9755c582}
-Reproductive mode is listed as oviparous. The consolidated mean is 9.09 offspring or eggs per litter or clutch, with reported mean endpoints of 9 and 10. These are source summaries, not guaranteed counts in individual clutches. The endpoint values refer to reported means, not necessarily the smallest and largest clutches observed.
+## Reproductive fields in ReptTraits {#s-7a9755c582}
+The compiled mean for offspring per litter or eggs per clutch is 9.09. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 9; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 10; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## An older archive under the same name {#s-653e7cfbd1}
-The 2015 life-history archive contributes five focal fields from sparse same-name, same-family rows. It follows a historical compilation framework that may retain taxonomic inheritance. The name match supports a cautious reading alongside COL26.8 but does not show that both taxonomic concepts cover identical material.
+## A 2015 life-history row for this name {#s-653e7cfbd1}
+COL26.8 records Varanus doreanus as an accepted species. The August 2015 life-history table has a species-name and family match (Varanidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Adult mass in the historical compilation {#s-b5c760e735}
-The archive’s adult body-mass summary is 1,287 g. Adult records can combine males, females, or adults with unspecified sex, so the value is not a range of individual masses or a measurement for every population. No birth or hatching mass is included in this account.
+## Length values in the archived records {#s-b5c760e735}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 1287 g. The 2015 archive's field citation is Meiri, 2010.
 
-## Maturity, clutch size, and hatching interval {#s-c18bc82a65}
-The source defines female maturity as age at first conception and reports 578 days. Its clutch or litter summary is 9.09 offspring or eggs, and its oviposition-to-hatching interval is 177 days. These fields refer to different events: they do not combine into one reproductive-cycle duration.
+## Reproductive events in the life-history table {#s-c18bc82a65}
+Field-specific archive notes: female maturity field (defined by the source as age at first conception): one direct source citation, with no median count stated; offspring per litter or eggs per clutch: a source-level mean based on median inputs; oviposition to hatching: a source-level mean based on median inputs. These counts refer to archived table inputs, not individual animals. The female maturity field is 578 d; the archive defines it as age at first conception. The 2015 archive's field citation is BC Reptiles - Frydlova et al., 2013. The offspring-per-litter or eggs-per-clutch summary is 9.09; it is not a count from one event. The 2015 archive's field citation is Mendyk, 2011; Thompsom and Pianka, 2001; Reptile Incubation book. The incubation field is 177 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Thompsom and Pianka, 2001; Reptile Incubation book; BC Reptiles - Gregorovicova, M., Zahradnicek, O., Tucker, A.S. et al., 2012.
 
-## A maximum longevity record {#s-1351c5bdbb}
-The archive gives maximum longevity as 17.4 years, taking the largest record found under its method. This does not represent typical lifespan, mean lifespan in the wild, or a survival limit for every individual.
+## Longest lifespan in the archive {#s-1351c5bdbb}
+The archive's longest-lifespan record is 17.4 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013.
 
-## Tracing the historical sources {#s-7b91225464}
-Source labels include Meiri (2010), BC Reptiles (Frydlova et al., 2013), Mendyk (2011), and Thompsom and Pianka (2001), among others. The archive preserves field-level row numbers, values, and citations. Rows are not counts of sampled animals, and repeated labels do not amount to independent experimental replication.
+## The August 2015 life-history table {#s-7b91225464}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-5d5109ca85}
-The ReptTraits profile uses the workbook’s 2023 taxonomy framework; the separate life-history source is an August 2015 archive that may inherit data across historical species or subspecies. A matching name and family do not establish equivalence with the pinned COL26.8 concept. The archive reports medians or averages of the two middle values, except maximum longevity, which uses the largest record found. These are not direct measurements of one animal, population ranges, or current surveys; collection conditions are not uniformly known, and underlying papers were not individually reviewed here. Current distribution, conservation, venom, and absent fields remain outside this account.
+## Separate histories in the two archives {#s-5d5109ca85}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

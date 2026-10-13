@@ -1,18 +1,32 @@
-## Which fossil records this name represents {#s-061f1cf6db}
-Parvavis chuxiongensis is accepted in the fixed PBDB dinosaur working roster, with database parent Parvavis. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-061f1cf6db}
+Parvavis chuxiongensis is listed in the PBDB snapshot under taxon txn:287262. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-ba019eabaf}
-Collection Luojumei Village, Chuxiong City (Yunnan), region code CN, stratum name Jiangdihe; database age bracket 93.9–83.6 Ma, early interval Turonian and late interval Santonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-ba019eabaf}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-00b965fe06}
-Selected occurrences have an outer age envelope of 93.9–83.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1190582; PBDB collection col:153694. Locality cnm=Luojumei Village, Chuxiong City; place fields cc2=CN, stp=Yunnan, cny=Chuxiong. Recorded age bounds: eag 93.9 Ma; lag 83.6 Ma; PBDB interval fields oei=Turonian, oli=Santonian. Stratigraphic fields sfm=Jiangdihe. Recorded attribution Wang et al. 2014; PBDB reference ref:49767.
 
-## Read preservation setting separately from living habitat {#s-c117157a75}
-Luojumei Village, Chuxiong City has collection-environment label lacustrine - large; collection preservation-mode label body,soft parts. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Jiangdihe Formation, Upper Cretaceous (Turonian–Santonian) (Chen, 2000).
+The litho- and biostratigraphic correlation performed by the regional geological survey suggests that the Jiangdihe Formation was deposited during the Late Cretaceous (Y. Zhang, 1996), a conclusion corroborated by evidence from fossil invertebrates (conchostracans: e.g., Aglestheria, Halysestheria, Nemestheria; ostracods: e.g., Cypridea, Limnocythere) and palynomorphs that indicate the formation is Turonian–Santonian in age (Chen, 2000).
+The Jiangdihe Formation is conformable with both the underlying Matoushan Formation and the overlying Zhaojiadian Formation.
 
-## Follow collection records back to references {#s-938c53897f}
-Luojumei Village, Chuxiong City carries database reference attribution Wang et al. (2014), identifier ref:49767. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Based on Google Earth co-ordinate for Chuxiong
 
-## Evidence limits {#s-edd2c89472}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-00b965fe06}
+Across these selected PBDB rows, the largest recorded eag=93.9 Ma in occ:1190582; the smallest recorded lag=83.6 Ma in occ:1190582. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-c117157a75}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1190582: PBDB original-identification field idn=Parvavis chuxiongensis n. gen. n. sp.; PBDB taxon-name field tna=Parvavis chuxiongensis; material note ocm=Holotype: An articulated partial skeleton preserved in a slab (IVPP V18586/1) (Fig. 2) and counter slab (IVPP V18586/2) (Fig. 3) with feather impressions covering the body cranial to the pygostyle; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=101.528053, lat=25.045555; paleocoordinate/model fields pm1=gplates, pln=110.15, pla=18.86.
+
+## References attached to each record {#s-938c53897f}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1190582: Recorded attribution Wang et al. 2014; PBDB reference ref:49767.
+
+## What these records can show {#s-edd2c89472}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

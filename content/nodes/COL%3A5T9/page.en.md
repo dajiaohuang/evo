@@ -1,10 +1,12 @@
-## Start with the historical entries {#s-978289ab73}
+## Recorded classification and direct parent {#s-978289ab73}
+COL26.8 records Vespertilionoidea Gray, 1821 at superfamily rank, with Yangochiroptera Koopman, 1984 as its direct parent.
+
 The local PanTHERIA route for Vespertilionoidea includes 44 usable data accounts. Start with Chaerephon ansorgei, Chaerephon major, Chalinolobus dwyeri, Chalinolobus morio, Barbastella barbastellus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-ed8dfefe45}
 Among available consolidated adult-mass values in this batch, Pipistrellus nanulus records 2.51 g and Molossus pretiosus records 98 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-8f9fb18c19}
+## Amniote Life-history archive member records {#s-8f9fb18c19}
 This batch’s Vespertilionoidea route includes 108 historical life-history accounts; start with Chaerephon ansorgei, Chaerephon plicatus, Chaerephon pumilus, Eumops bonariensis, Eumops dabbenei. More frequently represented fields include adult body mass (108 entries), offspring per litter or eggs per clutch (107 entries), conception or fertilization to birth (83 entries), age of dependence on food other than maternal milk (76 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-6ade2a80fc}
@@ -13,18 +15,18 @@ This batch’s Vespertilionoidea route includes 291 historical entries; start wi
 ## Compare food, feeding positions and activity periods {#s-d985418d1e}
 This batch’s Vespertilionoidea route includes 5 historical entries; start with Nyctophilus bifax, Nyctophilus howensis, Nyctophilus nebulosus, Eudiscopus denticulus, Kerivoula lenis. Food-category weights are available in 0, foraging strata in 0, and mammalian activity periods in 5. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-570ed197fb}
+## Limits attached to these records {#s-570ed197fb}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
-This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
+This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-ad9650129f}
-The local PanTHERIA route for Vespertilionoidea includes 86 usable data accounts. Start with [Chaerephon aloysiisabaudiae](Molossidae/Molossinae/Chaerephon/Chaerephon_aloysiisabaudiae/page.en.md), [Chaerephon bemmeleni](Molossidae/Molossinae/Chaerephon/Chaerephon_bemmeleni/page.en.md), [Chaerephon gallagheri](Molossidae/Molossinae/Chaerephon/Chaerephon_gallagheri/page.en.md), [Chaerephon johorensis](Molossidae/Molossinae/Chaerephon/Chaerephon_johorensis/page.en.md), [Chaerephon nigeriae](Molossidae/Molossinae/Chaerephon/Chaerephon_nigeriae/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-ad9650129f}
+The local PanTHERIA route for Vespertilionoidea includes 86 usable data accounts. Start with Chaerephon aloysiisabaudiae, Chaerephon bemmeleni, Chaerephon gallagheri, Chaerephon johorensis, Chaerephon nigeriae. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-ca0d27e8bb}
 Among available consolidated adult-mass values in this batch, Kerivoula minuta records 2.03 g and Eumops dabbenei records 67.27 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-2880b12e05}
+## PanTHERIA material route {#s-2880b12e05}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 

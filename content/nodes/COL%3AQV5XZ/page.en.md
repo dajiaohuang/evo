@@ -1,5 +1,5 @@
-## Find rows through older Parus combinations {#s-5417533529}
-Pinned COL26.8 organizes this page at Melaniparus thruppi (QV5XZ). BirdLife 2020 row 6213 and eBird 2021 row 6072 share the name and Avibase ID AVIBASE-610FFD8E, with type 1BL to 1eBird; BirdTree row 6040 gives Parus thruppi, with type 1BL to 1BT. Read catalogue synonym 75SW8 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-5417533529}
+Catalogue of Life release COL26.8 records Melaniparus thruppi (Shelley, 1885) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-746d18032e}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8.2 mm, tarsus 16.9 mm, unflattened wing 63.8 mm, tail 44.8 mm and hand-wing index 14.6 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

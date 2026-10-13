@@ -1,4 +1,6 @@
-## Compare food, feeding positions and activity periods {#s-abc658844f}
+## Recorded classification and direct parent {#s-abc658844f}
+COL26.8 records Neoromicia at genus rank, with Vespertilionini as its direct parent.
+
 The ecological route lists two historical names, Neoromicia guineensis and N. zuluensis. Both have foraging-stratum and activity-period codes, while food-category weights are available for one entry. These weights and codes describe source coverage in this batch, not ecology shared by every member of the genus.
 
 ## Life-history evidence limits {#s-322b039164}

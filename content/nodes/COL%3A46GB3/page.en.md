@@ -1,0 +1,3 @@
+## Neodon linzhiensis: accepted name and source boundary {#col-name-record}
+Catalogue of Life release COL26.8 (2026-08-20) records *Neodon linzhiensis* as an accepted species, with the recorded name authority Liu, Sun, Liu, Wang, Guo & Murphy, 2012. This node currently contains a classification record but no biological observation. The record therefore does not support a description of the animal’s form, habitat, range, or behavior.
+

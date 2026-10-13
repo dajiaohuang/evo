@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-85b1dd209e}
 Tapirus (Helicotapirus) lundeliusi is accepted in the fixed PBDB mammalia working roster, with database parent Tapirus (Helicotapirus). This guide uses 11 eligible species-level occurrence records from 11 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-863ce44e82}
-Collection Haile 7C (Florida), region code US; database age bracket 2.58–0.774 Ma, early interval Early Pleistocene. Collection Haile 7G (Florida), region code US; database age bracket 2.58–0.774 Ma, early interval Early Pleistocene. Collection Withlacoochee River 1A (Florida), region code US; database age bracket 4.7–1.4 Ma, early interval Blancan. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Tapirus (Helicotapirus) lundeliusi is listed in the PBDB snapshot under taxon txn:171531. This archived guide contains 11 selected occurrence rows, linked to 11 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9b4d06db0f}
-Selected occurrences have an outer age envelope of 4.7–0.774 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Withlacoochee River 1A, occurrence occ:888526 (4.7–1.4 Ma); one supplying the younger bound is Haile 7C, occurrence occ:888524 (2.58–0.774 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-863ce44e82}
+The archived guide contains 11 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-22ba7cb623}
-Haile 7C has collection-environment label terrestrial indet.; collection preservation-mode label body. Haile 7G has collection-environment label terrestrial indet.; collection preservation-mode label body. Withlacoochee River 1A has collection-environment label sinkhole; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:888526; PBDB collection col:98314. Locality cnm=Withlacoochee River 1A; place fields cc2=US, stp=Florida, cny=Marion. Recorded age bounds: eag 4.7 Ma; lag 1.4 Ma; PBDB interval fields oei=Blancan. Recorded attribution Hulbert 2010; PBDB reference ref:33964.
 
-## Follow collection records back to references {#s-a893703cbe}
-Haile 7C carries database reference attribution Hulbert (2010), identifier ref:33964. Haile 7G carries database reference attribution Hulbert (2010), identifier ref:33964. Withlacoochee River 1A carries database reference attribution Hulbert (2010), identifier ref:33964. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+middle late Blancan, ca 1.9-2.2 Ma
+
+- Occurrence occ:888524; PBDB collection col:19750. Locality cnm=Haile 7C; place fields cc2=US, stp=Florida, cny=Alachua. Recorded age bounds: eag 2.58 Ma; lag 0.774 Ma; PBDB interval fields oei=Early Pleistocene. Recorded attribution Hulbert 2010; PBDB reference ref:33964.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+middle late Blancan, ca 1.9-2.2 Ma
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+6 km northeast of newberry
+
+- Occurrence occ:888525; PBDB collection col:98313. Locality cnm=Haile 7G; place fields cc2=US, stp=Florida, cny=Alachua. Recorded age bounds: eag 2.58 Ma; lag 0.774 Ma; PBDB interval fields oei=Early Pleistocene. Recorded attribution Hulbert 2010; PBDB reference ref:33964.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+middle late Blancan, ca 1.9-2.2 Ma
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+6 km northeast of Newberry
+
+## Age bounds on the recorded occurrences {#s-9b4d06db0f}
+Across these selected PBDB rows, the largest recorded eag=4.7 Ma in occ:888526; the smallest recorded lag=0.774 Ma in occ:888524. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-22ba7cb623}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:888526: PBDB taxon-name field tna=Tapirus (Helicotapirus) lundeliusi; PBDB locality-coordinate fields lng=-82.300003, lat=29.000000; paleocoordinate/model fields pm1=gplates, pln=-81.17, pla=29.49.
+- occ:888524: PBDB original-identification field idn=Tapirus (Helicotapirus) lundeliusi n. sp.; PBDB taxon-name field tna=Tapirus (Helicotapirus) lundeliusi; PBDB locality-coordinate fields lng=-82.559998, lat=29.690001; paleocoordinate/model fields pm1=gplates, pln=-81.8, pla=30.02.
+- occ:888525: PBDB taxon-name field tna=Tapirus (Helicotapirus) lundeliusi; PBDB locality-coordinate fields lng=-82.099998, lat=29.799999; paleocoordinate/model fields pm1=gplates, pln=-81.34, pla=30.13.
+
+## References attached to each record {#s-a893703cbe}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:888526: Recorded attribution Hulbert 2010; PBDB reference ref:33964.
+- occ:888524: Recorded attribution Hulbert 2010; PBDB reference ref:33964.
+- occ:888525: Recorded attribution Hulbert 2010; PBDB reference ref:33964.
 
 ## Evidence limits {#s-e0d7d35d46}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 11 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

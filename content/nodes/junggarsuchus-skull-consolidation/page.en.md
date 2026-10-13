@@ -1,3 +1,5 @@
-## A consolidated skull in Junggarsuchus {#s-05bd039a89}
-An articulated anterior skeleton of Middle Jurassic Junggarsuchus preserves a consolidated skull together with a gracile body. The combination occurs in one animal, while its functional meaning and place among crocodylomorphs remain interpretations; the specimen does not identify a direct ancestor.
+## Junggarsuchus pairs cranial consolidation with a gracile postcranium {#s-05bd039a89}
+Middle Jurassic specimen IVPP V14010 preserves a nearly complete skull and lower jaw with the anterior postcranium articulated. Several cranial consolidations approach the crocodylian skull condition; the same individual has a gracile postcranium.
+
+Researchers interpret the skull as having reduced mobility and the animal as terrestrial, but those are functional readings. Its phylogenetic placement among crocodylomorphs also depends on the study’s character matrix. The fossils show a combination of anatomy, not a directly identified ancestor.
 

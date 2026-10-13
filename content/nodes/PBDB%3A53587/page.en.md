@@ -1,18 +1,38 @@
-## Which fossil records this name represents {#s-3c2302b8ed}
-Brontornis burmeisteri is accepted in the fixed PBDB dinosaur working roster, with database parent Brontornis. This guide uses 9 eligible species-level occurrence records from 8 collections and 5 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-3c2302b8ed}
+Brontornis burmeisteri is listed in the PBDB snapshot under taxon txn:53587. This archived guide contains 9 selected occurrence rows, linked to 8 distinct PBDB collection IDs and 5 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-f7811fbe3c}
-Collection Lago Argentino (Santa Cruz), region code AR; database age bracket 15.98–11.63 Ma, early interval Middle Miocene. Collection Santa Cruz Formation (Santa Cruz), region code AR, stratum name Santa Cruz; database age bracket 17.5–16.3 Ma, early interval Santacrucian. Collection Monte Leon Fm - Monte Leon, region code AR, stratum name Monte Leon; database age bracket 23.04–15.98 Ma, early interval Early Miocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-f7811fbe3c}
+The archived guide contains 9 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-c88ef796b0}
-Selected occurrences have an outer age envelope of 23.04–11.63 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:810651; PBDB collection col:66154. Locality cnm=Monte Leon Fm - Monte Leon; place fields cc2=AR. Recorded age bounds: eag 23.04 Ma; lag 15.98 Ma; PBDB interval fields oei=Early Miocene. Stratigraphic fields sfm=Monte Leon. Recorded attribution Moreno and Mercerat 1891; PBDB reference ref:29788.
 
-## Read preservation setting separately from living habitat {#s-ef175ab43f}
-Lago Argentino has collection-environment label terrestrial indet.. Santa Cruz Formation has collection-environment label terrestrial indet.; collection preservation-mode label body. Monte Leon Fm - Monte Leon has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+STRATIGRAPHIC RELATIONS: From Monte Leon Fm, which is unconformably overlain by the Santa Cruz Fm (Late Miocene) and unconformably overlies the San Julian Fm (Early Oligocene). AGE: Stated in text to be Oligocene in age. Recent chronostratigraphic revision by Del Rio (2004) places the Monte Leon Fm in the Early Miocene. STRATIGRAPHIC POSITION: Upper levels of the Monte Leon Fm.
 
-## Follow collection records back to references {#s-c2e7c1415e}
-Lago Argentino carries database reference attribution Moreno and Mercerat (1891), identifier ref:29788. Santa Cruz Formation carries database reference attribution Moreno and Mercerat (1891), identifier ref:29788. Monte Leon Fm - Monte Leon carries database reference attribution Moreno and Mercerat (1891), identifier ref:29788. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SPECIFIC LOCATION: Monte Leon, near Puerto Entrada, Santa Cruz Province, Argentina. LAT/LONG: estimated based on Monte Leon.
 
-## Evidence limits {#s-39cf3300cc}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:810649; PBDB collection col:88834. Locality cnm=Lago Argentino; place fields cc2=AR, stp=Santa Cruz. Recorded age bounds: eag 15.98 Ma; lag 11.63 Ma; PBDB interval fields oei=Middle Miocene. Recorded attribution Moreno and Mercerat 1891; PBDB reference ref:29788.
+
+- Occurrence occ:810650; PBDB collection col:27313. Locality cnm=Santa Cruz Formation; place fields cc2=AR, stp=Santa Cruz. Recorded age bounds: eag 17.5 Ma; lag 16.3 Ma; PBDB interval fields oei=Santacrucian. Stratigraphic fields sfm=Santa Cruz. Recorded attribution Moreno and Mercerat 1891; PBDB reference ref:29788.
+
+## Age bounds on the recorded occurrences {#s-c88ef796b0}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:810651; the smallest recorded lag=11.63 Ma in occ:810649. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-ef175ab43f}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:810651: PBDB original-identification field idn=Rostrornis floweri n. gen. n. sp.; PBDB taxon-name field tna=Brontornis burmeisteri; PBDB locality-coordinate fields lng=-68.916664, lat=-50.233334; paleocoordinate/model fields pm1=gplates, pln=-65.97, pla=-49.64.
+- occ:810649: PBDB original-identification field idn=Brontornis burmeisteri n. gen. n. sp.; PBDB taxon-name field tna=Brontornis burmeisteri; PBDB locality-coordinate fields lng=-73.400002, lat=-50.099998; paleocoordinate/model fields pm1=gplates, pln=-71.65, pla=-49.33.
+- occ:810650: PBDB taxon-name field tna=Brontornis burmeisteri; PBDB locality-coordinate fields lng=-70.000000, lat=-50.000000; paleocoordinate/model fields pm1=gplates, pln=-67.65, pla=-49.34.
+
+## References attached to each record {#s-c2e7c1415e}
+The archived guide links the rows to 5 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:810651: Recorded attribution Moreno and Mercerat 1891; PBDB reference ref:29788.
+- occ:810649: Recorded attribution Moreno and Mercerat 1891; PBDB reference ref:29788.
+- occ:810650: Recorded attribution Moreno and Mercerat 1891; PBDB reference ref:29788.
+
+## What these records can show {#s-39cf3300cc}
+This is a guide to 9 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,5 +1,5 @@
-## 历史属名与物种概念 {#s-eadf566ad4}
-固定 COL26.8 以 Pternistis ahantensis（4PV6H）组织本页。AVONET v7 BirdLife 2020 第 2506 行与 eBird 2021 对应同名，Avibase ID 为 AVIBASE-CA53B18D；BirdTree 表对应 Francolinus ahantensis，原匹配类型为 1BL to 1BT。已读 COL 的旧组合 6JLCP 指向本页接受 ID 4PV6H。名称关联支持查回历史行，不证明各年代所有物种边界相同。
+## COL26.8 中的名称身份 {#s-eadf566ad4}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pternistis ahantensis (Temminck, 1854) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与推算边界 {#s-18e720a628}
 形态共测 5 只（雌 2、雄 3），完整测量 4 只。鼻孔前缘至喙尖均值 16.2 mm，跗蹠 44.8 mm，未压平翼长 173.2 mm，手翼指数 17.1。这些是物种行均值，指数按 Kipp 距离／翼长 ×100 定义；不能换成个体范围或飞行速度。

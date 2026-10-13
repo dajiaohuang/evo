@@ -1,5 +1,5 @@
-## Name and historical material {#s-57fa93da07}
-Pinned COL26.8 accepts Aepyceros melampus in Bovidae. The linked PanTHERIA row uses its MSW05 name from the August 2008 table, whose biological data gathering ended in June 2004; this historical name match does not settle later taxonomic changes.
+## Adult body mass, adult head–body length and litter size in the historical table {#s-57fa93da07}
+The August 2008 PanTHERIA row for *Aepyceros melampus* records adult body mass 52591.69 g; adult head–body length 1420 mm; litter-size summary 0.98 offspring. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. A fractional litter-size value is a compiled summary, not a literal fractional litter. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Aepyceros melampus*.
 
 ## How body size was consolidated {#s-953b5493ff}
 PanTHERIA reports an adult-mass median of 52591.69 g and head-to-body length of 1420 mm after sex adjustment. A median is the middle value after sorting the observations. Mass can include adults or animals of unspecified age but excludes pregnant females; head-to-body length does not include the tail.
@@ -13,8 +13,8 @@ This PanTHERIA row codes activity as diurnal, feeding as plant-based, diet bread
 ## Home range and mapped distribution {#s-bbd76528e4}
 The source reports an individual home-range median of 2.36 km² after adjustments for sex and estimation method. A separate historical range map covers 3926868.66 km², with latitude endpoints from -28.42° to 2.58°. The mapped area is not continuously occupied, and it is not a current distribution or population estimate.
 
-## The 2015 life-history entry and this name {#s-ec6429e255}
-The August 2015 life-history archive associates 7 cited fields with this same-name, same-family record. Its historical row match supports the link, but some summarized values may retain inherited taxonomic data; the old record does not prove identity with the present COL26.8 concept.
+## Body mass and life-history values in the compilation {#s-ec6429e255}
+The August 2015 Amniote Database entry for *Aepyceros melampus* reports adult body mass 52500 g; mass at birth or hatching 5304.2 g; female age at first conception 477.485 d; offspring per litter or eggs per clutch 1; conception or fertilization to birth 196.74 d; age of dependence on food other than maternal milk 167 d; longest lifespan record in the compilation 25.6 y. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. The female-maturity field is defined as age at first conception, not first birth. Gestation is the source-defined interval from conception or fertilization to birth. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Maximum longevity is the longest record found, not a mean or typical lifespan. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Aepyceros melampus*.
 
 ## Different stages in the mass fields {#s-4614106632}
 That archive reports adult mass of 52500 g and birth mass of 5304.2 g. Adult mass can combine males, females, and animals whose sex was not recorded; birth mass describes a different life stage. These values do not trace growth in the same animals.
@@ -28,8 +28,8 @@ The 2015 archive’s maximum-longevity field is 25.6 years, the largest record k
 ## How to trace these values to sources {#s-bf080185b4}
 Field-level rows include labels such as Jones et al. (2009), de Magalhaes and Costa (2009), Ernest et al. (2003), and Ricklefs (2010b). The archive retains the original row numbers, values, and source labels; a label may refer to a book or database, not only a primary paper. Rows do not count individuals, and repeated citations are not independent replication.
 
-## Read this historical record through food and foraging position {#s-2948fe9ba3}
-The EltonTraits 1.0 record matches the pinned COL26.8 name and family and summarizes 3 ecological field groups. It follows an earlier mammal taxonomy, so the match does not resolve later species splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-2948fe9ba3}
+The EltonTraits 1.0 record for *Aepyceros melampus* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of other plant material, including fungi 100% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night and twilight and daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Aepyceros melampus*.
 
 ## Relative weights of food categories {#s-623093aa17}
 EltonTraits assigns 100% to other plant material, a category that also includes fungi. The percentage is a relative weight standardized from literature descriptions, not measured intake. Its ABC confidence code can include estimates borrowed from a related species, so it is not necessarily a direct observation of Aepyceros melampus.
@@ -43,15 +43,17 @@ EltonTraits marks night, twilight, and daytime activity as 1. These codes can ov
 ## Trace each field group to its source labels {#s-3fcc149263}
 The used fields carry Ref_1 and metadata:Nowak1999 labels. Diet, feeding position, and activity can draw on separate sources; a shared Ref number in bird and mammal reference tables does not guarantee the same work. Original labels and row locations are retained in the source archive; the underlying books and papers were not individually reread.
 
-## Evidence limits {#s-016f705661}
-PanTHERIA’s WR05/2008 values are historical summaries: continuous traits are medians, sometimes adjusted by a general linear model (GLM) for sex or method, and *_EXT extrapolations are not used to fill gaps. Source conditions can include wild, captive, provisioned, or unspecified material and vary by field. The MSW93/MSW05 crosswalk and COL name/family match support an association, not identical species concepts; current range, survival, and conservation need other sources.
+## How to interpret these historical records {#s-016f705661}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-The 2015 life-history archive reports medians or averages of the two middle values, except maximum longevity, which is the largest record found. Historical species and subspecies may share inherited data; wild/captive conditions are not uniform, and underlying publications were not individually reviewed. The values are not individual ranges or current population surveys.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-EltonTraits 1.0 converts literature descriptions into relative food weights and codes, not direct measures of diet, feeding time, or activity. Mammalian ABC fields may use a related species, and the older taxonomy does not settle current species boundaries. Local variation, current distribution, and conservation require additional sources.
+Ernest’s historical compilation generally gives equal-weight averages across listed sources, with possible reuse of the same primary source. The cited books and papers remain provenance; they do not become new direct observations here.
 
-## The name in the historical life-history record {#s-5791330b5b}
-Ernest’s 2003 compilation lists Aepyceros melampus under Wilson and Reeder’s 1993 taxonomy. Its same-name link also uses the PanTHERIA MSW93/MSW05 one-to-one crosswalk; these historical matches do not establish equivalence to the current COL26.8 concept.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Life-history values including a maximum lifespan record {#s-5791330b5b}
+The 2003 Ernest life-history compilation lists gestation 6.35 months; mass at birth 5093 g; age at weaning 5.63 months; mass at weaning 15900 g; age at first reproduction 16.66 months; maximum recorded lifespan 213 months; litter size 1 offspring; litters per year 0.95 litters/year for its historical *Aepyceros melampus* row. These are compilation values; the selected record does not identify a single sample or uniformly documented wild/captive conditions. The source field is age at first reproduction, distinct from age at first conception. The lifespan value is a maximum record, not an average. The MSW93/MSW05 name correspondence does not establish equivalence to the pinned COL26.8 concept for *Aepyceros melampus*.
 
 ## Gestation and first reproduction {#s-777efe5d85}
 The compiled averages are 6.35 months for active gestation and 16.66 months for female age at first reproduction. Gestation excludes delayed implantation. First reproduction is the age when a female can conceive; if a source reports first-birth age, the method subtracts gestation. It is distinct from sexual maturity and first birth.

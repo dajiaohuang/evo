@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-38d49d5372}
+## 记录分类与直接上级关系 {#s-38d49d5372}
+COL26.8 将 Apostolepis 记录为属；其直接上级记录为 Dipsadinae。
+
 Apostolepis 的本批 ReptTraits 阅读路径包含 23 条同名同科、有逐性状出处的物种资料，可从 Apostolepis albicollaris、Apostolepis ambiniger、Apostolepis assimilis、Apostolepis breviceps、Apostolepis cearensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-9d4ef32d80}
@@ -7,8 +9,8 @@ Apostolepis 的本批 ReptTraits 阅读路径包含 23 条同名同科、有逐�
 ## 证据边界 {#s-0f710e6201}
 本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
 
-## 从有性状记录的物种开始 {#s-f61989526b}
-Apostolepis 的本批 ReptTraits 阅读路径包含 9 条同名同科、有逐性状出处的物种资料，可从 [Apostolepis adhara](Apostolepis_adhara/page.zh.md)、[Apostolepis arenaria](Apostolepis_arenaria/page.zh.md)、[Apostolepis borellii](Apostolepis_borellii/page.zh.md)、[Apostolepis intermedia](Apostolepis_intermedia/page.zh.md)、[Apostolepis lineata](Apostolepis_lineata/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-f61989526b}
+Apostolepis 的本批 ReptTraits 阅读路径包含 9 条同名同科、有逐性状出处的物种资料，可从 Apostolepis adhara、Apostolepis arenaria、Apostolepis borellii、Apostolepis intermedia、Apostolepis lineata 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-706974cdb4}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

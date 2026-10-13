@@ -1,15 +1,15 @@
-## The species in its source record {#s-7c8fa75a03}
-COL26.8 accepts Uroplatus phantasticus within Gekkonidae. The ReptTraits v1-2 entry preserves trait-specific sources under the workbook’s Reptile Database 2023 naming framework. Its one-row summary brings reports together; it is not a claim that every population has the same measurements or behavior.
+## COL26.8 name and the ReptTraits row {#s-7c8fa75a03}
+COL26.8 records Uroplatus phantasticus as an accepted species. The ReptTraits v1-2 row gives its Family field as Gekkonidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The reported length excludes the tail {#s-9d941efc22}
-The reported maximum snout–vent length (SVL) is 86.1 mm, and the female maximum is 62.7 mm. SVL runs from snout to vent, leaving out the tail. These are compiled maxima, not typical sizes or growth limits. The two sex-specific values may come from different places or studies, so their difference alone cannot measure dimorphism within one population.
+## Length values in the archived records {#s-9d941efc22}
+The row reports a maximum SVL of 86.1 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 62.7 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## An arboreal, nocturnal carnivore in the dataset {#s-a65a6ce6bb}
-The entry combines three broad labels: arboreal microhabitat, carnivorous diet and nocturnal activity. “Carnivorous” identifies animal food in general, not a particular prey. The categories describe this compiled record rather than every habitat, season or life stage.
+## Habitat use and activity labels {#s-a65a6ce6bb}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## A clutch summary of two eggs {#s-4142fa42e5}
-The source labels reproduction as oviparous, or egg-laying. Its consolidated offspring/egg value is 2; the lowest and highest reported means are 1 and 2. The summary may use midpoints of reported means or, where means are missing, of reported extremes. It is not necessarily an average of observed clutches, and the endpoints are not guaranteed individual extremes. These fields do not establish embryo nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-4142fa42e5}
+The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## What a single row cannot resolve {#s-2ca59b5733}
-This page follows the same-name ReptTraits v1-2 entry and its 2023 name framework. A single row compresses variation by sex, age, locality and population; matching name and family do not establish equivalence with later concepts. Maximum length and reproductive summaries are not fixed species-wide limits or outcomes. Other workbook mass entries may be estimates from length equations, while juvenile-length headers differ in definition; neither is treated here as direct measurement. Conservation, venom, current range and population trends are not updated. Preserving citation labels does not mean every original work was independently reread for this account.
+## Reading this compiled trait record {#s-2ca59b5733}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

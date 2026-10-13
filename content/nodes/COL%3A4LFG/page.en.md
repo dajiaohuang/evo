@@ -1,22 +1,24 @@
-## Start with sourced trait records {#s-26dda743d5}
+## Recorded classification and direct parent {#s-26dda743d5}
+COL26.8 records Furcifer at genus rank, with Chamaeleonidae as its direct parent.
+
 This batch’s ReptTraits route for Furcifer includes 21 same-name, same-family entries with trait-specific citations. Start with Furcifer angeli, Furcifer antimena, Furcifer balteatus, Furcifer belalandaensis, Furcifer bifidus. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-889d84aa2e}
 Among size records in this batch, Furcifer campani has a reported maximum snout–vent length (SVL) of 70 mm and Furcifer oustaleti 299 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Choose comparison pages by life-history fields {#s-783774f07d}
+## Amniote Life-history archive member records {#s-783774f07d}
 This batch’s Furcifer route includes 6 historical life-history accounts; start with Furcifer campani, Furcifer labordi, Furcifer lateralis, Furcifer major, Furcifer oustaleti. More frequently represented fields include offspring per litter or eggs per clutch (6 entries), oviposition to hatching (6 entries), adult body mass (5 entries), mass at birth or hatching (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
-## Evidence limits {#s-eb3b683284}
+## Limits attached to these records {#s-eb3b683284}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history.
 
-## Start with sourced trait records {#s-3f7292d40b}
-This batch’s ReptTraits route for Furcifer includes 2 same-name, same-family entries with trait-specific citations. Start with [Furcifer viridis](Furcifer_viridis/page.en.md), [Furcifer voeltzkowi](Furcifer_voeltzkowi/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-3f7292d40b}
+This batch’s ReptTraits route for Furcifer includes 2 same-name, same-family entries with trait-specific citations. Start with Furcifer viridis, Furcifer voeltzkowi. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
-## Choose comparisons by available fields {#s-50d98bb340}
+## ReptTraits member records {#s-50d98bb340}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Limits of these trait data {#s-99a63c729e}
+## ReptTraits material route {#s-99a63c729e}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

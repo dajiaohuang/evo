@@ -1,18 +1,18 @@
-## Name and this data account {#s-36b91a88fd}
-Pinned COL26.8 accepts Montivipera albizona in Viperidae. Its ReptTraits v1-2 entry retains the Reptile Database 2023 name framework and field-specific sources; one row is not a population-wide account.
+## COL26.8 name and the ReptTraits row {#s-36b91a88fd}
+COL26.8 records Montivipera albizona as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-2ba5555cdc}
-The entry reports maximum total length (TL) of 780 mm. TL includes the tail. This compiled maximum is not a typical size or theoretical limit.
+## Length values in the archived records {#s-2ba5555cdc}
+The row reports maximum total length (TL) of 780 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-5b998c0b1f}
-The recorded microhabitat is Terrestrial. This broad label is not a complete habitat description or fixed schedule and cannot show differences among populations, seasons, or life stages.
+## Habitat use and activity labels {#s-5b998c0b1f}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015.
 
-## How to read reproductive records {#s-10bd13c48b}
-The source labels the reproductive mode viviparous. That label alone does not establish embryo nutrition. Clutch and litter counts remain unreported in this profile.
+## Reproductive fields in ReptTraits {#s-10bd13c48b}
+The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-269372fdac}
-This is a brief supplemental profile, not a complete morphology or ecology account. ReptTraits v1-2 compresses variation into one species row under its 2023 name framework. The reported maximum is not an absolute size limit; estimated mass is not treated as a direct measurement. Unreported traits remain gaps, and current distribution, conservation, venom and population trends are outside scope. Workbook source labels preserve the citation chain but do not mean every underlying study was independently reviewed.
+## Reading this compiled trait record {#s-269372fdac}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-e8db7ad54c}
-Three traits have field-specific source labels here. The profile establishes no values for SVL, sex-specific length, clutch size or frequency, egg dimensions, diet, activity time, foraging mode, or sex determination. Related-species data and blank entries cannot supply those facts.
+## Reading this compiled trait record {#s-e8db7ad54c}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

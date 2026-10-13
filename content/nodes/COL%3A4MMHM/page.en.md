@@ -1,5 +1,5 @@
-## The 2015 life-history entry and this name {#s-2302883d56}
-COL26.8 recognizes Procapra przewalskii in Bovidae. Four fields in the 2015 life-history archive link to same-name, species-level rows; historical name matches may still carry older taxonomy.
+## Body mass and life-history values in the compilation {#s-2302883d56}
+The August 2015 Amniote Database entry for *Procapra przewalskii* reports adult body mass 25348.83 g; offspring per litter or eggs per clutch 1; conception or fertilization to birth 175.03 d; longest lifespan record in the compilation 5.6 y. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. Gestation is the source-defined interval from conception or fertilization to birth. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Maximum longevity is the longest record found, not a mean or typical lifespan. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Procapra przewalskii*.
 
 ## Different stages in the mass fields {#s-e0dcf2b5ae}
 The compilation reports adult mass of 25,348.83 g. It may combine sexes and animals of unspecified sex, so it is not an individual-size range.
@@ -13,8 +13,8 @@ The archive’s largest retained longevity record is 5.6 years. It is not an ave
 ## How to trace these values to sources {#s-1ffea59989}
 The linked rows cite Jones et al. (2009), Leslie et al. (2010), and Weigl (2005), among others. Row counts describe archived records, not animals, and citations can overlap.
 
-## Read this historical record through food and foraging position {#s-befa1ecdf1}
-Procapra przewalskii is accepted in pinned COL26.8 within Bovidae. This page compares the same-name, same-family EltonTraits 1.0 record through 3 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-befa1ecdf1}
+The EltonTraits 1.0 record for *Procapra przewalskii* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of other plant material, including fungi 100% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark twilight and daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Procapra przewalskii*.
 
 ## Relative weights of food categories {#s-6bb05fbbc7}
 The archive’s nonzero food weights are other plant material (the source category also includes fungi) 100%. Code ABC pools high, reasonable and partial confidence; some estimates can borrow from an ecologically similar congener. ABC cannot be rewritten as direct observations of this species. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
@@ -28,12 +28,15 @@ The archive marks feeding activity during twilight, daytime as 1. Several fields
 ## Trace each field group to its source labels {#s-4b4585c6c9}
 The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
-## Life-history evidence limits {#s-99f2e1a623}
-This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians (middle values after sorting observations) or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
-This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
+## How to interpret these historical records {#s-99f2e1a623}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-## Name and historical material {#s-dde4a75a49}
-PanTHERIA 1.0 links this name to a historical MSW05 row in the August 2008 table, using biological data gathered through June 2004. The name match does not settle later taxonomic changes.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
+
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass in the historical table {#s-dde4a75a49}
+The August 2008 PanTHERIA row for *Procapra przewalskii* records adult body mass 27499.99 g. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Procapra przewalskii*.
 
 ## How body size was consolidated {#s-6b8527dd3f}
 The table reports sex-adjusted adult mass of 27,499.99 g. Mass can include adults or animals of unspecified age but excludes pregnant females. It is a historical consolidated value, not a measurement of one animal.

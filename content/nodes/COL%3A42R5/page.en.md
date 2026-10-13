@@ -1,4 +1,6 @@
-## Choose comparison pages by life-history fields {#s-6ac4a5c2bb}
+## Recorded classification and direct parent {#s-6ac4a5c2bb}
+COL26.8 records Delphinus at genus rank, with Delphinidae as its direct parent.
+
 This batch’s Delphinus route includes 1 historical life-history accounts; start with Delphinus delphis. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-5c408528f5}

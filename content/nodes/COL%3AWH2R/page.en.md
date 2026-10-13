@@ -1,27 +1,27 @@
-## Two compilations give different views of the record {#s-846b371682}
-COL26.8 accepts Cnemidophorus nigricolor within Teiidae. ReptTraits records a 108 mm maximum, an omnivorous diet and egg-laying; a separate 2015 life-history archive contributes mass and developmental timing. Both tracks preserve historical names and summaries, so they are clues rather than a population survey.
+## COL26.8 name and the ReptTraits row {#s-846b371682}
+COL26.8 records Cnemidophorus nigricolor as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A maximum that leaves out the tail {#s-3eaa974bad}
-The ReptTraits entry reports a maximum snout–vent length of 108 mm. This measure ends at the body opening and excludes the tail. It is a compiled maximum, not the usual adult size or a limit for every individual.
+## Length values in the archived records {#s-3eaa974bad}
+The row reports a maximum SVL of 108 mm. ReptTraits attributes this field to Meiri 2018.
 
-## A broad omnivore category {#s-59f79873f0}
-The diet field classifies the species as omnivorous, meaning the cited record includes both animal and plant food categories. It does not identify particular foods, proportions or seasonal changes, and it gives no foraging schedule.
+## Habitat use and activity labels {#s-59f79873f0}
+The diet field classifies the entry as plant- and animal-eating (Omnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018.
 
-## Egg laying and a 2.14 clutch summary {#s-5abf149aa2}
-The reproductive-mode label is oviparous. The consolidated offspring/egg count is 2.14, with cited clutch/litter means from 2 to 3. The decimal is an aggregate, not a fraction of an animal; the endpoints are reported means, not guaranteed actual extremes.
+## Reproductive fields in ReptTraits {#s-5abf149aa2}
+The compiled mean for offspring per litter or eggs per clutch is 2.135. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 3; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The life-history archive is a separate historical track {#s-591108246d}
-A 2015 archive also contains a same-name, same-family record linked here through cited sparse-table rows. It supports four focal fields, but historical taxonomic inheritance remains possible. Matching name and family motivates the association; it does not prove equivalence to COL26.8.
+## A 2015 life-history row for this name {#s-591108246d}
+COL26.8 records Cnemidophorus nigricolor as an accepted species. The August 2015 life-history table has a species-name and family match (Teiidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Mass values refer to different life stages {#s-3ce5ce1a1f}
-The archive summary gives adult body mass as 7.43 g and mass at birth or hatching as 0.45 g. Adult entries may combine males, females and animals of unspecified sex, while the second value concerns newborns or hatchlings. They do not follow the same animals through growth or define a species-wide mass range.
+## Length values in the archived records {#s-3ce5ce1a1f}
+Field-specific archive notes: adult body mass: a mean of cited source values; mass at birth or hatching: one direct source citation, with no median count stated. The archive reports adult body mass as 7.43 g. The 2015 archive's field citation is Meiri, 2010; Meiri, S., Brown, J.H., and R.M. Sibly, 2011. The combined birth-or-hatching mass field is 0.45 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011.
 
-## A count and a developmental interval {#s-21418ba2f1}
-The archive lists 2.14 offspring or eggs per litter/clutch and 60 days from oviposition to hatching. The count is a summary, not a fractional individual in one event; the second value measures a specific interval, not a complete reproductive cycle.
+## Reproductive events in the life-history table {#s-21418ba2f1}
+Field-specific archive notes: offspring per litter or eggs per clutch: a source-level mean based on median inputs; oviposition to hatching: one direct source citation, with no median count stated. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 2.135; it is not a count from one event. The 2015 archive's field citation is Meiri, S., Brown, J.H., and R.M. Sibly, 2011; Reptile Incubation book; Radder, R.S., Pizzatto, L., Shine, R., 2008. The incubation field is 60 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## Citation labels preserve a mixed source trail {#s-750de38fe0}
-The archive carries labels including Meiri (2010), Meiri, Brown and Sibly (2011), the Reptile Incubation book, and Radder, Pizzatto and Shine (2008). Field-specific row numbers and labels remain in the source archive. A label may point to a study, book or database; repeated citations and row counts are not independent observations.
+## The August 2015 life-history table {#s-750de38fe0}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Historical summaries are not current population estimates {#s-336da09172}
-The ReptTraits row retains a 2023 name framework; the 2015 archive may also inherit values across historical species or subspecies. Matching name and family do not establish equivalence to the pinned COL26.8 concept. Mass summaries combine individuals and stages, while the clutch value aggregates reports. Underlying studies have not each been re-reviewed here, and current distribution and conservation are not updated.
+## Separate histories in the two archives {#s-336da09172}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

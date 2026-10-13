@@ -7,3 +7,6 @@ This guide connects the matrix in Supplementary Table S1 of Mourthé et al. (202
 ## Separate group records from animal counts {#s-ff4d5e3b8c}
 [Saguinus ursula](Saguinus_ursula/page.en.md) separates encounter, group-size and density records in the Gurupi survey. Read units and methods before interpreting local abundance.
 
+## Recorded classification {#col26-8-identity}
+In the pinned COL26.8 catalogue, Saguinus Hoffmannsegg, 1807 is recorded as an accepted genus.
+

@@ -1,4 +1,6 @@
 ## Overview {#s-26d2e293e0}
+COL26.8 records Galagoides A. Smith, 1833 at genus rank, with Galagidae Gray, 1825 as its direct parent.
+
 The pinned COL26.8 primate roster lists demidoff, kumbirensis and thomasi as the three accepted Galagoides species. This guide uses their COL IDs as reader entry points; the genus and member list follow that release and do not resolve broader galagid classification.
 
 ## Choose a reading path by research question {#s-fe79d3664c}

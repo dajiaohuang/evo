@@ -1,26 +1,26 @@
-## The name and this data account {#s-9e1559d448}
-The pinned COL26.8 checklist accepts Zosterops rennellianus in Zosteropidae. AVONET v7 records it under the HBW–BirdLife 2020 name. Four individuals were measured and all four had a complete morphological set, although usable sample sizes may still vary among traits.
+## Row-reported mean and sample coverage {#s-9e1559d448}
+The AVONET v7 row for Zosterops rennellianus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.1 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-4f55ffb7fd}
-Mean beak length from the front edge of the nostril to the tip is 9.1 mm. At the nostril edge, mean width is 3.3 mm and depth is 3.8 mm. These are standardized measurements of different dimensions, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-4f55ffb7fd}
+AVONET records culmen length (bill tip to skull base) 15.6 mm; beak length (nostril front edge to tip) 9.1 mm; beak width at the nostril front edge 3.3 mm; beak depth at the nostril front edge 3.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-bac1187332}
-Mean unflattened wing length, measured from the carpal joint to the longest primary feather, is 61.4 mm; mean tarsus length is 19.4 mm. The compiled mean mass is 14.5 g and its source category is Updated_literature. This is a separate species-average estimate, not evidence that each bird measured for morphology was weighed.
+## Wing and body measures use separate sources {#s-bac1187332}
+AVONET records unflattened wing length 61.4 mm; tarsus length 19.4 mm; distance from first secondary tip to longest primary tip 9.5 mm; length to first secondary tip 51.9 mm; hand-wing index 15.4; tail length 48.2 mm; species-average body mass 14.5 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-da6056b444}
-The dataset classifies the habitat as Forest, the feeding niche as Invertivore, and the lifestyle as Insessorial, its category for a perching way of life. These broad labels are used for cross-species comparison and do not mean the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-da6056b444}
+AVONET classifies Zosterops rennellianus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-48417d94c6}
-The migration field labels this record sedentary. Historical breeding and resident maps extend from latitude -11.88° to -11.46°. They do not describe all non-breeding movements and are not a current position or a global occupancy estimate. The geographic summary and morphological measurements were compiled separately.
+## The migration label has a limited scope {#s-48417d94c6}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -11.88° to -11.46°. The mapped range area is 669.69 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-81e0470ba5}
-EltonTraits 1.0 contains a historical record with this name and family. This page uses one ecological field group from it. The source follows an earlier bird classification; for mammals it uses MSW3. A matching name does not settle later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-81e0470ba5}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops rennellianus covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-cb22b8673f}
-The archive gives nonzero food-category weights of 60% for invertebrates, 30% for fruit, and 10% for seeds, nuts and spores included in that category. Source code A records the compilers’ high confidence in the source and diet information. The percentages standardize written descriptions; they are not measured proportions of food eaten, and a zero does not show that an item is never eaten. Labels such as Nect, Seed and PlantO cover more than their everyday names suggest, so they do not mean a bird eats only nectar, seeds or plants.
+## Relative weights across food categories {#s-cb22b8673f}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 60%; fruit 30%; seeds or nuts 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Trace each field group to its source labels {#s-bcea245211}
-The used food fields carry the source label Ref_13. Diet, foraging position and activity may come from different works, and a repeated Ref number in bird and mammal tables does not identify the same source. The underlying books and papers have not been read individually; a source label is not an additional independent observation.
+## Sources and field limits {#s-bcea245211}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-226a33cd43}
 The AVONET values are a historical compilation. Morphological values are species averages for the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so the morphology sample counts do not apply to it. Habitat, diet and migration are broad categories; the geographic summary covers historical breeding and resident ranges only. Historical name crosswalks and the matching checklist name link the records but do not prove that their species concepts remained equivalent after later splits or lumps. Reproduction, current populations and conservation status are not covered here.

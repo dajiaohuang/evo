@@ -1,18 +1,36 @@
-## Which fossil records this name represents {#s-c96fe6cc8e}
-Morus avitus is accepted in the fixed PBDB dinosaur working roster, with database parent Morus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-c96fe6cc8e}
+Morus avitus is listed in the PBDB snapshot under taxon txn:231735. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-8b76d4bd89}
-Collection Plum Point, Zone 10 (Maryland), region code US, stratum name Calvert; database age bracket 15.98–13.82 Ma, early interval Langhian. Collection Lee Creek Mine, Yorktown Formation (North Carolina), region code US, stratum name Yorktown; database age bracket 5.333–3.6 Ma, early interval Zanclean. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-8b76d4bd89}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-a5600f9ae7}
-Selected occurrences have an outer age envelope of 15.98–3.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1034767; PBDB collection col:70818. Locality cnm=Plum Point, Zone 10; place fields cc2=US, stp=Maryland, cny=Calvert. Recorded age bounds: eag 15.98 Ma; lag 13.82 Ma; PBDB interval fields oei=Langhian. Stratigraphic fields sfm=Calvert. Recorded attribution Wetmore 1938; PBDB reference ref:40913.
 
-## Read preservation setting separately from living habitat {#s-44e78e3c58}
-Plum Point, Zone 10 has collection-environment label estuary/bay; collection preservation-mode label body. Lee Creek Mine, Yorktown Formation has collection-environment label estuary/bay; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+at Plum Point
 
-## Follow collection records back to references {#s-4c42549597}
-Plum Point, Zone 10 carries database reference attribution Wetmore (1938), identifier ref:40913. Lee Creek Mine, Yorktown Formation carries database reference attribution Olson and Rasmussen (2001), identifier ref:18140. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1311129; PBDB collection col:52582. Locality cnm=Lee Creek Mine, Yorktown Formation; place fields cc2=US, stp=North Carolina, cny=Beaufort. Recorded age bounds: eag 5.333 Ma; lag 3.6 Ma; PBDB interval fields oei=Zanclean. Stratigraphic fields sfm=Yorktown. Recorded attribution Olson and Rasmussen 2001; PBDB reference ref:18140.
 
-## Evidence limits {#s-7549df359a}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+most fossils "are derived from the lower beds of the Yorktown Formation" (McLellan 1983) and the "total thickness of the Yorktown exposure is 15 m" (Snyder et al. 1983)
+
+Strontium dating places the base of the Yorktown Formation at 4.9 Ma [55]. The top of the Yorktown Formation at Lee Creek Mine is no younger than the middle of the Orionina vaughani ostracod assemblage zone, originally dated to ca. 3.7 Ma [53]. This is roughly in agreement with the top of nannoplankton zone NN14 (3.9 Ma) [20, 54], the second of the three nannoplankton zones correlating with the Orionina vaughani zone [53]. Taken together, these observations indicate an age bracket of 4.9–3.9 Ma. (Marx & Fordyce, 2015). middle Zanclean–early Piacenzian
+
+## Age bounds on the recorded occurrences {#s-a5600f9ae7}
+Across these selected PBDB rows, the largest recorded eag=15.98 Ma in occ:1034767; the smallest recorded lag=3.6 Ma in occ:1311129. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-44e78e3c58}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1034767: PBDB original-identification field idn=Sula avita n. sp.; PBDB taxon-name field tna=Morus avitus; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-76.515282, lat=38.614166; paleocoordinate/model fields pm1=gplates, pln=-69.4, pla=40.28.
+- occ:1311129: PBDB taxon-name field tna=Morus avitus; PBDB locality-coordinate fields lng=-76.817497, lat=35.359722; paleocoordinate/model fields pm1=gplates, pln=-75.1, pla=35.91.
+
+## References attached to each record {#s-4c42549597}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1034767: Recorded attribution Wetmore 1938; PBDB reference ref:40913.
+- occ:1311129: Recorded attribution Olson and Rasmussen 2001; PBDB reference ref:18140.
+
+## What these records can show {#s-7549df359a}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

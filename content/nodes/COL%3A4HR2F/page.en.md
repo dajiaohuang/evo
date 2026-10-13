@@ -1,29 +1,29 @@
-## The name and this data account {#s-080eba288f}
-AVONET v7 lists *Picumnus granadensis* under the HBW–BirdLife 2020 name. The record has 5 measured individuals, 4 in a complete morphological set; usable sample sizes may differ across traits.
+## Row-reported mean and sample coverage {#s-080eba288f}
+The AVONET v7 row for Picumnus granadensis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-bf94ee215e}
-Mean beak length is 9 mm from the anterior nostril edge to the tip; width at that landmark is 4.3 mm and depth 5 mm. These standardized dimensions are not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-bf94ee215e}
+AVONET records culmen length (bill tip to skull base) 11.4 mm; beak length (nostril front edge to tip) 9 mm; beak width at the nostril front edge 4.3 mm; beak depth at the nostril front edge 5 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-893c2b88ef}
-Mean unflattened wing length (carpal joint to longest primary) is 56.1 mm; mean tarsus is 12.3 mm. The separately compiled mean mass is 12.2 g in the Dunning category; it is not a weight for every specimen.
+## Wing and body measures use separate sources {#s-893c2b88ef}
+AVONET records unflattened wing length 56.1 mm; tarsus length 12.3 mm; distance from first secondary tip to longest primary tip 8.9 mm; length to first secondary tip 46.2 mm; hand-wing index 16.2; tail length 31.2 mm; species-average body mass 12.2 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-b469834fbe}
-AVONET codes habitat Forest, trophic niche Invertivore and lifestyle Insessorial (perching-associated). These broad comparison categories do not imply exclusive use of forest or invertebrate food.
+## Recorded habitat and feeding categories {#s-b469834fbe}
+AVONET classifies Picumnus granadensis as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-47860cfd70}
-The migration field is sedentary. Historical breeding and resident maps span 1.46°–6.15° latitude; this is not a current range or a complete account of non-breeding movement.
+## The migration label has a limited scope {#s-47860cfd70}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 1.46° to 6.15°. The mapped range area is 27384.64 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-801507c888}
-EltonTraits 1.0 contains a historical entry matching this name and family. This account uses its diet and species-level foraging groups. The historical match does not resolve later taxonomic changes.
+## Scope of the historical trait entry {#s-801507c888}
+EltonTraits 1.0 has a same-name, same-family record for Picumnus granadensis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-b5523e45c1}
-The only non-zero diet weight is invertebrates at 100%. Source code B indicates reasonable confidence in the source while relative proportions may be uncertain. EltonTraits standardizes literature descriptions rather than measuring diet composition.
+## Relative weights across food categories {#s-b5523e45c1}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code B marks a reasonably reliable source, though relative proportions may be uncertain. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-2a064e4c26}
-Species-level foraging weights are understory, edges or shrubs below 2 m at 50%, and trees or high bushes from 2 m to below the canopy at 50%. They describe relative use of feeding positions, not nest sites or daily time budgets; strata are not elevations or flight heights.
+## Foraging positions are not a time budget {#s-2a064e4c26}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 50%; in mid-height or high vegetation 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-7d022218d0}
-The selected EltonTraits groups cite Ref_7, identified as *Handbook of the Birds of the World*, volume 7. Diet and foraging categories may be based on different passages despite the shared label. The source book has not been individually reviewed here; the label records provenance.
+## Sources and field limits {#s-7d022218d0}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-dc2c6ffb05}
 AVONET morphology is summarized from the listed historical sample; mass comes from separate compiled information. Habitat and movement are broad codes, and mapped latitudes describe historical breeding/resident geography. EltonTraits diet and foraging weights standardize literature descriptions; code B retains uncertainty in relative proportions. Both sources use historical taxonomy, so a matching name does not prove current species-concept equivalence. Underlying works have not been individually reviewed; current range, population and conservation need separate evidence.

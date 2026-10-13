@@ -1,4 +1,4 @@
-## 本地数据阅读路径 {#s-3b6448f40d}
+## 记录分类与成员材料 {#s-3b6448f40d}
 Apodiformes 的本批阅读路径包含 279 条有测量来源的物种记录，可从 Aegotheles albertisi、Aegotheles crinifrons、Aegotheles cristatus、Aegotheles insignis、Aegotheles tatei 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-de17e552ef}
@@ -19,8 +19,8 @@ Apodiformes 的本批路线包含 34 个历史条目，可从 Cypseloides rothsc
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
-## 从有限生态资料开始 {#s-0b7b9111ef}
-Apodiformes 本批有 21 个有限生态资料页，可从 [Aegotheles savesi](Aegothelidae/Aegotheles/Aegotheles_savesi/page.zh.md)、[Apus acuticauda](Apodidae/Apodinae/Apus/Apus_acuticauda/page.zh.md)、[Apus alexandri](Apodidae/Apodinae/Apus/Apus_alexandri/page.zh.md)、[Apus batesi](Apodidae/Apodinae/Apus/Apus_batesi/page.zh.md)、[Cypseloides rothschildi](Apodidae/Cypseloidinae/Cypseloides/Cypseloides_rothschildi/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-0b7b9111ef}
+Apodiformes 本批有 21 个有限生态资料页，可从 Aegotheles savesi、Apus acuticauda、Apus alexandri、Apus batesi、Cypseloides rothschildi 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-cf7306d85b}
 栖地类别见 21 页，取食生态位见 21 页，主导活动方式见 21 页，迁移类别见 19 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

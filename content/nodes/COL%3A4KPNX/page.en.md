@@ -1,44 +1,44 @@
-## The name and this data account {#s-be3ef34b87}
-COL26.8 accepts *Podiceps grisegena* in Podicipedidae. AVONET v7 uses the HBW–BirdLife 2020 name and records 10 measured individuals, 4 of them with a complete set of morphological measurements. The number of usable specimens can vary by trait.
+## Row-reported mean and sample coverage {#s-be3ef34b87}
+The AVONET v7 row for Podiceps grisegena (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 27.3 mm. The row records 10 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-395e7854a5}
-The recorded beak means are 27.3 mm from the front edge of the nostril to the tip, 6.2 mm wide and 10.2 mm deep at the nostril edge. These are separate dimensions measured at defined landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-395e7854a5}
+AVONET records culmen length (bill tip to skull base) 48.1 mm; beak length (nostril front edge to tip) 27.3 mm; beak width at the nostril front edge 6.2 mm; beak depth at the nostril front edge 10.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-bae9c22f9d}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 167.1 mm; mean tarsus length is 54.4 mm. The compiled mean mass is 1023 g, from source category Dunning. It comes from separate species-average information, so the morphological specimens were not necessarily weighed.
+## Wing and body measures use separate sources {#s-bae9c22f9d}
+AVONET records unflattened wing length 167.1 mm; tarsus length 54.4 mm; distance from first secondary tip to longest primary tip 66.8 mm; length to first secondary tip 96.4 mm; hand-wing index 40.9; tail length 32 mm; species-average body mass 1023 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-47cf09336f}
-The dataset's dominant categories are Wetland for habitat, Aquatic predator for trophic niche and Aquatic for lifestyle. These labels support comparisons across species; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-47cf09336f}
+AVONET classifies Podiceps grisegena as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aquatic. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-099e5e3119}
-The migration field classifies the record as migratory. Historical breeding and resident maps span latitudes 37.07° to 69.17°. They do not give a complete account of non-breeding movements or current position and global occupancy. The geographic and morphological data come from different compilation steps.
+## The migration label has a limited scope {#s-099e5e3119}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints 37.07° to 69.17°. The mapped range area is 17383433.44 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-72e014f81f}
-COL26.8 accepts *Podiceps grisegena* in Podicipedidae. The 2015 life-history archive has an older entry with the same name and family. Seven fields are included because cited species-level sparse-table rows support them, although the summaries may still inherit older taxonomic data.
+## Scope of the historical life-history entry {#s-72e014f81f}
+The August 2015 database has a same-name, same-family record for Podiceps grisegena. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-be0b19d65b}
-The historical summaries are 946.5 g for adult body mass and 18 g at birth or hatching. Adult mass can combine males, females and adults of unspecified sex; the other value describes an earlier life stage. These are neither a longitudinal series for the same individuals nor a range of individual masses across the species.
+## Compiled adult-mass values {#s-be0b19d65b}
+The August 2015 compilation reports adult body mass 946.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-cf697623ce}
-The compilation reports 726.94 d to female maturity (defined by the source as age at first conception), 4.5 offspring or eggs per litter/clutch, 21.5 d from oviposition to hatching, and 66 d to flight capability (some sources describe leaving the nest); d means days. The litter/clutch field combines offspring and egg counts, so its fractional summary does not mean one event produced part of an individual. Each timing value describes a different event, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-cf697623ce}
+The August 2015 compilation reports female age at first conception (source definition) 726.936 days; median or interpolated-median number of offspring or eggs per litter/clutch 4.5; oviposition-to-hatching interval 21.5 days; age at flight capability (some records mark nest departure) 66 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-a453f1c6c1}
-The archive's maximum_longevity_y field is 11 years, the largest record found under the source method. It does not represent typical or mean wild lifespan, a survival limit for every individual or a current record that can be repeatedly attained.
+## A maximum record is not typical lifespan {#s-a453f1c6c1}
+The compilation lists 11 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-154e27753c}
-The same-name rows cite Dunning (1992); Szekely, Lislevand, and Figuerola (2007); Bennett (1986); Dyke and Kaiser (2010); and other works. The archive preserves raw row numbers, values and field-specific labels together with each reference's full explanation. A label may point to a paper, book or another database. Row counts are not measured individuals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-154e27753c}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-4317141221}
-EltonTraits 1.0 also has an older *Podiceps grisegena* record in Podicipedidae. The two selected ecological groups allow comparison with the COL26.8 entry, while retaining the source's earlier bird or MSW3 mammal taxonomy. A matching name does not settle later splits or synonym disputes.
+## Scope of the historical trait entry {#s-4317141221}
+EltonTraits 1.0 has a same-name, same-family record for Podiceps grisegena covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-4a93266a8a}
-The nonzero food weights are invertebrates 50% and fish 50%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove that an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply an exclusively nectar-, seed- or plant-based diet.
+## Relative weights across food categories {#s-4a93266a8a}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; fish 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-47bb5d1402}
-The archive's species-level foraging-stratum weights are 70% below the water surface and 30% on or just below it. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-47bb5d1402}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 70%; around the water surface 30%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-3c82db16d5}
-The selected groups carry source label Ref_1. Diet, strata and activity can come from different materials; the same Ref number in bird and mammal reference tables does not identify the same source. The archive preserves complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, so source labels do not count as new independent observations.
+## Sources and field limits {#s-3c82db16d5}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-b6835216b2}
 This page guides readers through historical AVONET v7 data. The morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separate literature or weighing sources; the morphological sample counts do not apply to mass. Habitat, diet and migration are broad categories, and the map covers historical breeding and resident ranges. Historical crosswalks and a matching catalogue name support this association but do not prove equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status need other sources.

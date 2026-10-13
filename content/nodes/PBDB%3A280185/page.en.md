@@ -1,18 +1,34 @@
-## Which fossil records this name represents {#s-8455a379d2}
-Normanniasaurus genceyi is accepted in the fixed PBDB dinosaur working roster, with database parent Normanniasaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-8455a379d2}
+Normanniasaurus genceyi is listed in the PBDB snapshot under taxon txn:280185. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-3ff316bbb1}
-Collection Cap de la Hève, Bléville (Seine-Maritime), region code FR, stratum name Poudingue ferrugineux; database age bracket 110.1–106.3 Ma, early interval Middle Albian. Collection Northern side of Cap de la Hève, Bléville (Seine-Maritime), region code FR, stratum name Poudingue ferrugineux; database age bracket 110.1–106.3 Ma, early interval Middle Albian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-3ff316bbb1}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-2fae1ea134}
-Selected occurrences have an outer age envelope of 110.1–106.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1110940; PBDB collection col:140711. Locality cnm=Cap de la Hève, Bléville; place fields cc2=FR, stp=Seine-Maritime. Recorded age bounds: eag 110.1 Ma; lag 106.3 Ma; PBDB interval fields oei=Middle Albian. Stratigraphic fields sfm=Poudingue ferrugineux. Recorded attribution Le Loeuff et al. 2013; PBDB reference ref:48471.
 
-## Read preservation setting separately from living habitat {#s-fac52d301a}
-Cap de la Hève, Bléville has collection-environment label marginal marine indet.; collection preservation-mode label body. Northern side of Cap de la Hève, Bléville has collection-environment label coastal indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Cap de la Hève, Bléville, Seine-Maritime
 
-## Follow collection records back to references {#s-a404860ec5}
-Cap de la Hève, Bléville carries database reference attribution Le Loeuff et al. (2013), identifier ref:48471. Northern side of Cap de la Hève, Bléville carries database reference attribution Le Loeuff et al. (2013), identifier ref:48471. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1177107; PBDB collection col:151677. Locality cnm=Northern side of Cap de la Hève, Bléville; place fields cc2=FR, stp=Seine-Maritime. Recorded age bounds: eag 110.1 Ma; lag 106.3 Ma; PBDB interval fields oei=Middle Albian. Stratigraphic fields sfm=Poudingue ferrugineux. Recorded attribution Le Loeuff et al. 2013; PBDB reference ref:48471.
 
-## Evidence limits {#s-9748d9d708}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Cap de la Hève, Bléville, Seine-Maritime, Le Havre
+
+## Age bounds on the recorded occurrences {#s-2fae1ea134}
+Across these selected PBDB rows, the largest recorded eag=110.1 Ma in occ:1110940; the smallest recorded lag=106.3 Ma in occ:1110940. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-fac52d301a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1110940: PBDB taxon-name field tna=Normanniasaurus genceyi; material note ocm=caudal vertebra (Mus. de Rouen); abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=0.100000, lat=49.516701; paleocoordinate/model fields pm1=gplates, pln=21.58, pla=45.2.
+- occ:1177107: PBDB original-identification field idn=Normanniasaurus genceyi n. gen. n. sp.; PBDB taxon-name field tna=Normanniasaurus genceyi; material note ocm=MHNH-2013.2.1 - holotype - partial skeleton (presacral vertebrae fragments, a partial sacrum, an anterior caudal vertebra, a middle caudal vertebra, a right scapula, parts of both ilia, the proximal extremity of a femur, and the proximal part of a fibula); PBDB locality-coordinate fields lng=0.100000, lat=49.516701; paleocoordinate/model fields pm1=gplates, pln=21.58, pla=45.2.
+
+## References attached to each record {#s-a404860ec5}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1110940: Recorded attribution Le Loeuff et al. 2013; PBDB reference ref:48471.
+- occ:1177107: Recorded attribution Le Loeuff et al. 2013; PBDB reference ref:48471.
+
+## What these records can show {#s-9748d9d708}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

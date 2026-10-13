@@ -1,10 +1,12 @@
-## 从 Erythrogenys 读未定性别与相同体重 {#s-32fb00d0b9}
+## 记录分类与直接上级关系 {#s-32fb00d0b9}
+COL26.8 将 Timaliidae 记录为科；其直接上级记录为 Passeriformes。
+
 另增六条Erythrogenys旧名导读，BirdTree均Pomatorhinus。gravivox零雌二雄四未定不称全雄；四条58.15 g为独立文献汇编行，不证明实际体重相同。六Terrestrial／Shrubland而密度三1三2，分别读。原23测量、1生活史、19多字段、3单字段、4有限生态各保留范围，不相加为全科接受种去重分母。
 
 ## 沿未定性别、分母与密度对读 {#s-582fd71111}
-进入 [Erythrogenys](Erythrogenys/page.zh.md) 六种路径，先读gravivox四未定、erythrogenys八只完整七，再比较四条相同文献体重及灌丛密度。旧Pomatorhinus组合提供定位，不把本批名称变化写成原Pomatorhinus路线已经迁移或全科具有共享食谱、涉水、繁殖和当前分布。
+进入 Erythrogenys 六种路径，先读gravivox四未定、erythrogenys八只完整七，再比较四条相同文献体重及灌丛密度。旧Pomatorhinus组合提供定位，不把本批名称变化写成原Pomatorhinus路线已经迁移或全科具有共享食谱、涉水、繁殖和当前分布。
 
-## 本地数据阅读路径 {#s-ce40095516}
+## 记录分类与成员材料 {#s-ce40095516}
 Timaliidae 的本批阅读路径包含 23 条有测量来源的物种记录，可从 Dumetia hyperythra、Pomatorhinus horsfieldii、Pomatorhinus melanurus、Pomatorhinus montanus、Pomatorhinus musicus 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-48925913e1}
@@ -21,13 +23,13 @@ Timaliidae 的本批路线包含 3 个历史条目，可从 Pomatorhinus schisti
 
 ## 证据边界 {#s-c5cc8396dc}
 本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
-本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
+本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
 另增六条Erythrogenys导读，旧名、未定性别、完整分母、四条相同体重与密度分别保留；全科内容未完成。
 
-## 从有限生态资料开始 {#s-ff026c9c9b}
-Timaliidae 本批有 4 个有限生态资料页，可从 [Spelaeornis badeigularis](Spelaeornis/Spelaeornis_badeigularis/page.zh.md)、[Spelaeornis longicaudatus](Spelaeornis/Spelaeornis_longicaudatus/page.zh.md)、[Spelaeornis troglodytoides](Spelaeornis/Spelaeornis_troglodytoides/page.zh.md)、[Stachyris nonggangensis](Stachyris/Stachyris_nonggangensis/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-ff026c9c9b}
+Timaliidae 本批有 4 个有限生态资料页，可从 Spelaeornis badeigularis、Spelaeornis longicaudatus、Spelaeornis troglodytoides、Stachyris nonggangensis 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-f6219d1142}
 栖地类别见 4 页，取食生态位见 4 页，主导活动方式见 4 页，迁移类别见 4 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

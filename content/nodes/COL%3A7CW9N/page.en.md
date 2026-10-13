@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-465072d1c0}
-Pinned COL26.8 organizes this page at Trochalopteron squamatum (7CW9N). BirdLife 2020 row 4932 and eBird 2021 row 10698 share the name and Avibase ID AVIBASE-466F5979, with match type 1BL to 1eBird; BirdTree row 10631 gives Garrulax squamatus, with type 1BL to 1BT. Read COL older-combination record 3FBRX points to this accepted ID. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-465072d1c0}
+Catalogue of Life release COL26.8 records Trochalopteron squamatum (Gould, 1835) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-9941374fcd}
 The morphology row covers 4 birds: 2 female, 2 male and 0 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 12 mm, tarsus 37.7 mm, unflattened wing 99.8 mm, tail 101.2 mm and hand-wing index 4 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

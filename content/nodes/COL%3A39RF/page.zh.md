@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-f7c0f06297}
+## 记录分类与直接上级关系 {#s-f7c0f06297}
+COL26.8 将 Bernieria 记录为属；其直接上级记录为 Bernieridae。
+
 Bernieria 的本批阅读路径包含 1 条有测量来源的物种记录，可从 Bernieria madagascariensis 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-bd7b2b1ee5}

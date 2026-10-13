@@ -1,0 +1,39 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Carlito Groves & Shekelle, 2010
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Carlito
+      zh: Carlito
+    sections:
+      - topic: classification
+        text:
+          en:
+            page: en
+            section: col26-8-identity
+            part: body
+          zh:
+            page: zh
+            section: col26-8-identity
+            part: body
+        sourceIds:
+          - taxonomy
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 taxon record 3HNV
+            zh: Catalogue of Life COL26.8 分类记录 3HNV
+          url: https://www.checklistbank.org/dataset/316115/taxon/3HNV
+          scope:
+            en: Pins the accepted genus name, rank and status in this COL26.8 taxon record; identity only, not biological evidence.
+            zh: 固定此 COL26.8 分类记录中的接受属名、等级与状态；仅用于身份识别，不提供生物学证据。

@@ -1,18 +1,18 @@
-## Name and this data account {#s-9ffc2551d5}
-COL26.8 accepts Epictia tricolor in Leptotyphlopidae. The linked ReptTraits v1–2 row follows the Reptile Database 2023 name framework and cites sources for individual traits. One row summarizes the cited record; it does not establish a uniform condition across populations.
+## COL26.8 name and the ReptTraits row {#s-9ffc2551d5}
+COL26.8 records Epictia tricolor as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-b9537f0843}
-The record gives a maximum total length (TL) of 324 mm. Total length includes the tail, whereas snout–vent length (SVL) ends at the vent. This compiled maximum is a reported measurement, not typical size or an absolute growth limit. Sex-specific values may come from different places or studies and do not by themselves measure size differences within a population.
+## Length values in the archived records {#s-b9537f0843}
+The row reports maximum total length (TL) of 324 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-b1184645e1}
-The recorded microhabitat category is Fossorial, indicating an underground or burrowing association. It does not describe the full habitat, activity schedule, or diet; populations and life stages may differ.
+## Habitat use and activity labels {#s-b1184645e1}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015.
 
-## How to read reproductive records {#s-0d0e431135}
-The source classifies the reproductive mode as oviparous, or egg-laying. This label gives no clutch size and does not establish that reproduction is identical across populations.
+## Reproductive fields in ReptTraits {#s-0d0e431135}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-51ae280fb7}
-This page summarizes selected fields from one ReptTraits v1–2 row under the Reptile Database 2023 name framework; it is not a complete account of the species. A row can compress records from different sexes, ages, places, or populations, and a shared name does not prove that later taxonomic concepts are identical. Where the workbook estimates mass from length, that estimate is not a measured mass; differing juvenile-length definitions are not used here. This page does not update conservation status, venom, current distribution, or population trends. Citation labels preserve the workbook's source chain but do not mean every original study was independently reviewed here.
+## Reading this compiled trait record {#s-51ae280fb7}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-0a4f57d262}
-This account reports the sourced maximum total length, microhabitat category, and reproductive mode. It does not interpret sex-specific length, clutch or litter counts and frequency, egg dimensions, diet, active time, foraging mode, or sex-determining mechanism because this row does not establish the needed species-specific source support.
+## Reading this compiled trait record {#s-0a4f57d262}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

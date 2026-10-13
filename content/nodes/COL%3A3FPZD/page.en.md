@@ -1,5 +1,5 @@
-## Tracing the historical Zoothera name {#s-d3e6c14c6f}
-Pinned COL26.8 organizes this page at Geokichla gurneyi (3FPZD). AVONET v7 BirdLife 2020 row 8553 and eBird 2021 row 4314 share the name and Avibase ID AVIBASE-45C55FDE; BirdTree row 4295 gives Zoothera gurneyi, with match type 1BL to 1BT. Read COL older-combination record 5D7NP points to this accepted ID. These links locate data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-d3e6c14c6f}
+Catalogue of Life release COL26.8 records Geokichla gurneyi (Hartlaub, 1864) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured birds and beak/wing values {#s-25f0b037ba}
 Morphology covers 14 birds: 4 female, 5 male and 5 unsexed; 9 birds have complete measurement sets. Nostril-to-tip beak length 13.3 mm, tarsus 33.9 mm, unflattened wing 108 mm and hand-wing index 24.1 are summaries in this historical row. Inference=NO does not establish equal counts across fields; complete-set birds do not supply every field’s denominator. The index is Kipp’s distance/wing length ×100, not flight speed, migration distance or a range-wide performance test.

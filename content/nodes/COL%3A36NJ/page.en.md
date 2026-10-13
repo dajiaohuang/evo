@@ -3,7 +3,9 @@ Woolly lemurs are nocturnal Malagasy primates whose named diversity has changed 
 
 Suggested reading path: read the 2006 eastern revision before the 2007 genus treatment to see how A. peyrierasi, A. meridionalis, and the Manombo form were interpreted, then compare the source-bounded pages for A. betsileo and A. mooreorum. For western forms, read the geographic and pelage study alongside later sequence comparisons; the latter report disagreement between fragments about the placement of A. cleesei. Finish with Harcourt’s single-male A. laniger follow and the short Bemaraha call study, keeping both tied to their local samples.
 
-## Compare food, feeding positions and activity periods {#s-c34a180a7c}
+## Recorded classification and direct parent {#s-c34a180a7c}
+COL26.8 records Avahi Jourdan, 1834 at genus rank, with Indriidae Burnett, 1828 as its direct parent.
+
 This batch’s Avahi route includes 3 historical entries; start with Avahi laniger, Avahi occidentalis, Avahi unicolor. Food-category weights are available in 3, foraging strata in 3, and mammalian activity periods in 3. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
 ## Scope of the evidence {#s-ff5cb691a9}

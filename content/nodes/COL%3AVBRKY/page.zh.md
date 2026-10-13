@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-240fd1a168}
+## 记录分类与直接上级关系 {#s-240fd1a168}
+COL26.8 将 Reduncini 记录为族；其直接上级记录为 Antilopinae。
+
 本批 Reduncini 的 PanTHERIA 路径有 8 条可用记录。可从 Kobus ellipsiprymnus、Kobus kob、Kobus leche、Kobus vardonii 或 Pelea capreolus 开始。各页保留原始 MSW05 名称、各变量对应的材料条件和缺失项。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
 
 ## 比较体型与生活史 {#s-62de4ead83}
@@ -13,14 +15,14 @@
 ## 证据边界 {#s-e2042571ac}
 本指南只涵盖本批至少有三个焦点字段、名称与科相符且具有一对一历史对应的条目，并未覆盖所有接受种。体型端点是历史汇总值，不是该群体个体极值；不同字段的来源条件可能不同。历史数值不能确定当前物种概念、分布或保护状况。
 
-## 从已有历史条目开始 {#s-a747bce1e5}
-Reduncini 的本地 PanTHERIA 路径有一条可用记录：[Kobus megaceros](Kobus/Kobus_megaceros/page.zh.md)。该页保留原始 MSW05 名称、各变量对应的材料条件和缺失项。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
+## 记录分类与成员材料 {#s-a747bce1e5}
+Reduncini 的本地 PanTHERIA 路径有一条可用记录：Kobus megaceros。该页保留原始 MSW05 名称、各变量对应的材料条件和缺失项。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
 
 ## 这组历史数据的边界 {#s-cc03c73f09}
 本指南只涵盖本批至少有一个焦点字段、名称与科相符且具有一对一历史对应的条目，并未覆盖所有接受种。数值汇总自历史条目，不是该群体个体极值；各字段的来源条件可能不同。这些记录不能确定当前物种概念、分布或保护状况。
 
 ## 沿生活史资料阅读 {#s-d02b5b3879}
-本批 Reduncini 路径有 9 条历史生活史记录。可阅读 [Kobus megaceros](Kobus/Kobus_megaceros/page.zh.md)、[Kobus vardonii](Kobus/Kobus_vardonii/page.zh.md)、[Kobus leche](Kobus/Kobus_leche/page.zh.md)、[Kobus ellipsiprymnus](Kobus/Kobus_ellipsiprymnus/page.zh.md) 或 [Kobus kob](Kobus/Kobus_kob/page.zh.md)。分类导航沿用固定 COL26.8。此数量涵盖本批撰写的同名记录，不代表该群全部接受种。
+本批 Reduncini 路径有 9 条历史生活史记录。可阅读 Kobus megaceros、Kobus vardonii、Kobus leche、Kobus ellipsiprymnus 或 Kobus kob。此数量涵盖本批撰写的同名记录，不代表该群全部接受种。
 
 ## 先区分平均值与纪录 {#s-d419d2a9c4}
 妊娠期见于 8 条记录，雌性首次繁殖年龄见于 6 条，最长寿命见于 6 条。首次繁殖不同于首次出生或性成熟；最长寿命也不同于平均寿命。各字段可能来自不同材料条件。缺失字段需由其他来源补充，名称相同不能解决历史分类变更问题。

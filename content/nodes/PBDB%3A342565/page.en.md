@@ -1,19 +1,40 @@
 ## Which fossil records this name represents {#s-b3fb559340}
 Anictops wanghudunensis is accepted in the fixed PBDB mammalia working roster, with database parent Anictops. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-c643c76a3a}
-Collection IVPP Locality 81002 (Anhui), region code CN, stratum name Wanghudun; database age bracket 66–61.66 Ma, early interval Early Paleocene. Collection IVPP Locality 81015 (Anhui), region code CN, stratum name Wanghudun; database age bracket 66–61.66 Ma, early interval Early Paleocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Anictops wanghudunensis is listed in the PBDB snapshot under taxon txn:342565. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-872f951e82}
-Selected occurrences have an outer age envelope of 66–61.66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is IVPP Locality 81002, occurrence occ:1331655 (66–61.66 Ma); one supplying the younger bound is IVPP Locality 81002, occurrence occ:1331655 (66–61.66 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-c643c76a3a}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-4c63318e71}
-IVPP Locality 81002 has collection-environment label terrestrial indet.; collection preservation-mode label body. IVPP Locality 81015 has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1331655; PBDB collection col:179332. Locality cnm=IVPP Locality 81002; place fields cc2=CN, stp=Anhui, cny=Qianshan. Recorded age bounds: eag 66 Ma; lag 61.66 Ma; PBDB interval fields oei=Early Paleocene. Stratigraphic fields sfm=Wanghudun. Recorded attribution Zheng et al. 1999; PBDB reference ref:59381.
 
-## Follow collection records back to references {#s-f7c9cb4cb4}
-IVPP Locality 81002 carries database reference attribution Zheng et al. (1999), identifier ref:59381. IVPP Locality 81015 carries database reference attribution Zheng et al. (1999), identifier ref:59381. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Lower part of the Upper Member of Wanghudun Formation
+
+- Occurrence occ:1331656; PBDB collection col:179333. Locality cnm=IVPP Locality 81015; place fields cc2=CN, stp=Anhui, cny=Qianshan. Recorded age bounds: eag 66 Ma; lag 61.66 Ma; PBDB interval fields oei=Early Paleocene. Stratigraphic fields sfm=Wanghudun. Recorded attribution Zheng et al. 1999; PBDB reference ref:59381.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Lower part of the Upper Member of Wanghudun Formation
+
+## Age bounds on the recorded occurrences {#s-872f951e82}
+Across these selected PBDB rows, the largest recorded eag=66 Ma in occ:1331655; the smallest recorded lag=61.66 Ma in occ:1331655. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-4c63318e71}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1331655: PBDB original-identification field idn=Anictops wanghudunensis n. sp.; PBDB taxon-name field tna=Anictops wanghudunensis; material note ocm=IVPP V11687 - type; PBDB locality-coordinate fields lng=116.552780, lat=30.760834; paleocoordinate/model fields pm1=gplates, pln=112.9, pla=29.2.
+- occ:1331656: PBDB taxon-name field tna=Anictops wanghudunensis; material note ocm=IVPP V11688; PBDB locality-coordinate fields lng=116.552780, lat=30.760834; paleocoordinate/model fields pm1=gplates, pln=112.9, pla=29.2.
+
+## References attached to each record {#s-f7c9cb4cb4}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1331655: Recorded attribution Zheng et al. 1999; PBDB reference ref:59381.
+- occ:1331656: Recorded attribution Zheng et al. 1999; PBDB reference ref:59381.
 
 ## Evidence limits {#s-a83b088e11}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## 生态阅读路径中的两条记录 {#s-f463cdb3d2}
+## 记录分类与直接上级关系 {#s-f463cdb3d2}
+COL26.8 将 Hyosciurus 记录为属；其直接上级记录为 Callosciurinae。
+
 Catalogue of Life COL26.8 将 Hyosciurus 记录为接受的属。EltonTraits 1.0 在本批列有两条按固定祖先分类归入的历史记录：Hyosciurus ileile 和 Hyosciurus heinrichi。字段组汇总计有两条取食记录和两条活动记录，没有食物字段组。这些数字描述该汇编，并非完整物种清单；此处没有食物字段，也不代表其他地方没有相关资料。方法元数据说明字段经过半定量转换和插补，因此应将条目视为编码后的历史记录。
 
 ## 这条路径不能证明什么 {#s-9adbbc3723}

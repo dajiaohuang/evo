@@ -1,5 +1,5 @@
-## Name and historical material {#s-dc510e9505}
-Pinned COL26.8 accepts Echinops telfairi in Tenrecidae. The linked PanTHERIA row uses the MSW05 name in its August 2008 table, based on biological data gathered through June 2004; that historical match does not settle later taxonomic changes.
+## Adult body mass, adult head–body length and litter size in the historical table {#s-dc510e9505}
+The August 2008 PanTHERIA row for *Echinops telfairi* records adult body mass 152.25 g; adult head–body length 160 mm; litter-size summary 5.49 offspring. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. A fractional litter-size value is a compiled summary, not a literal fractional litter. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Echinops telfairi*.
 
 ## How body size was consolidated {#s-6ad81418a3}
 PanTHERIA reports an adult-mass median of 152.25 g and head-to-body length of 160 mm after adjustment for sex. A median is the middle value after sorting the observations. The mass may combine adults and animals of unspecified age but excludes pregnant females; head-to-body length leaves out the tail.
@@ -13,8 +13,8 @@ This PanTHERIA entry codes activity as nocturnal, feeding as animal-based, diet 
 ## Home range and mapped distribution {#s-9fec0e70fe}
 The historical range-map estimate is 61701.13 km², with mapped latitude endpoints from -25.47° to -19.69°. A mapped range is not an individual’s home range, and its area does not mean every point was occupied. These old map values do not give a current distribution or population estimate.
 
-## The 2015 life-history entry and this name {#s-fb56e4d4b1}
-A second source, the August 2015 amniote life-history archive, reports 7 focal fields for this same-name, same-family record. Its historical row match supports the association, but the summaries may retain inherited taxonomic data and do not prove that the old concept equals the COL26.8 species.
+## Body mass and life-history values in the compilation {#s-fb56e4d4b1}
+The August 2015 Amniote Database entry for *Echinops telfairi* reports adult body mass 166.125 g; mass at birth or hatching 7.67 g; female age at first conception 278.42 d; offspring per litter or eggs per clutch 5.49; conception or fertilization to birth 57.8284 d; age of dependence on food other than maternal milk 29 d; longest lifespan record in the compilation 19 y. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. The female-maturity field is defined as age at first conception, not first birth. Gestation is the source-defined interval from conception or fertilization to birth. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Maximum longevity is the longest record found, not a mean or typical lifespan. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Echinops telfairi*.
 
 ## Different stages in the mass fields {#s-5f8431f26e}
 The 2015 archive lists adult mass as 166.13 g and birth mass as 7.67 g. Adult mass can combine sexes and animals whose sex was not recorded; birth mass describes a different life stage. The two values are not a growth series for the same animals.
@@ -28,8 +28,8 @@ The archive’s maximum-longevity field is 19 years, the largest record retained
 ## How to trace these values to sources {#s-3f68afe6ea}
 The supporting rows carry labels including Jones et al. (2009), de Magalhaes and Costa (2009), Ernest et al. (2003), and Savage et al. (2004). The archive preserves the row, value, and field-specific label; a label may point to a book or database as well as a paper. Row counts do not count measured animals, and repeated citations are not independent experiments.
 
-## Read this historical record through food and foraging position {#s-06a1ae8450}
-The EltonTraits 1.0 row is a historical same-name, same-family match to the pinned COL26.8 record, described through 3 ecological field groups. It follows older mammal taxonomy, so matching names do not resolve later splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-06a1ae8450}
+The EltonTraits 1.0 record for *Echinops telfairi* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 60%, fruit 40% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Echinops telfairi*.
 
 ## Relative weights of food categories {#s-980dc3339e}
 The source assigns 60% to invertebrates and 40% to fruit. These are relative weights standardized from written diet descriptions, not measured diet composition; the ABC code groups different confidence levels, and some entries can draw on a similar congener. The categories should not be read as direct observations of every meal.
@@ -43,15 +43,17 @@ The archive marks night activity as 1 and twilight and daytime as 0. These are a
 ## Trace each field group to its source labels {#s-3f2bc0fea8}
 The selected fields carry labels Ref_40, metadata:Nowak1999, and Ref_1. Diet, feeding position, and activity can come from different sources; identical Ref numbers in bird and mammal tables need not identify the same work. The source archive keeps the original labels and row locations, while the underlying books and papers were not individually reread.
 
-## Evidence limits {#s-42592c732d}
-PanTHERIA’s WR05/2008 row is historical: continuous traits are usually medians, sometimes adjusted by a general linear model (GLM) for sex or method, and *_EXT extrapolations are not used to fill gaps. Its inputs can mix wild, captive, provisioned, unspecified, primary, secondary, or extrapolated records according to each field’s rules. The MSW93/MSW05 same-name crosswalk and COL name/family match support an association, not equivalent species concepts; current range, survival, and conservation need other sources.
+## How to interpret these historical records {#s-42592c732d}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-The 2015 life-history archive reports compiled medians or averages of the two middle values, except maximum longevity, which is the largest record found. It can inherit data across historical species and subspecies; conditions are not uniformly known, and cited underlying studies were not individually reviewed. These values are not measurements of one animal, individual ranges, or current population surveys.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-EltonTraits 1.0 converts literature descriptions into broad diet weights and codes. Mammalian ABC values can include a congener judged similar by the compilers; they are not necessarily direct observations of Echinops telfairi. The page is a guide to these historical records, not a complete account of diet, behavior, distribution, or conservation.
+Ernest’s historical compilation generally gives equal-weight averages across listed sources, with possible reuse of the same primary source. The cited books and papers remain provenance; they do not become new direct observations here.
 
-## The name in the historical life-history record {#s-ee292a41e2}
-Ernest’s 2003 table records Echinops telfairi under Wilson and Reeder’s 1993 taxonomy. The name also matches a one-to-one MSW93/MSW05 crosswalk, but neither match establishes equivalence to the present COL26.8 concept.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Life-history values including a maximum lifespan record {#s-ee292a41e2}
+The 2003 Ernest life-history compilation lists gestation 1.9 months; mass at birth 7.74 g; age at weaning 0.94 months; mass at weaning 50 g; age at first reproduction 8.32 months; maximum recorded lifespan 156 months; litter size 5.01 offspring; litters per year 1 litters/year for its historical *Echinops telfairi* row. These are compilation values; the selected record does not identify a single sample or uniformly documented wild/captive conditions. The source field is age at first reproduction, distinct from age at first conception. The lifespan value is a maximum record, not an average. The MSW93/MSW05 name correspondence does not establish equivalence to the pinned COL26.8 concept for *Echinops telfairi*.
 
 ## Gestation and first reproduction {#s-f5227b085b}
 The compilation averages active gestation at 1.9 months and female age at first reproduction at 8.32 months. Active gestation excludes delayed implantation. First reproduction means the female age when conception is possible; when a source gives first-birth age, the method subtracts gestation. It is not the same as maturity or first birth.

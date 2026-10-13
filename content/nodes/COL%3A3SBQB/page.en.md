@@ -1,44 +1,44 @@
-## The name and this data account {#s-17e4fc4093}
-Larus glaucescens is accepted in COL26.8 within Laridae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-17e4fc4093}
+The AVONET v7 row for Larus glaucescens (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 25.2 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-4c587f1403}
-Recorded mean beak measurements are 25.2 mm from the anterior nostril edge to the tip, 9.2 mm in width and 19.7 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-4c587f1403}
+AVONET records culmen length (bill tip to skull base) 69.8 mm; beak length (nostril front edge to tip) 25.2 mm; beak width at the nostril front edge 9.2 mm; beak depth at the nostril front edge 19.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-18e742d621}
-Mean unflattened wing length from the carpal joint to the longest primary is 411.8 mm; mean tarsus length is 65.2 mm. Compiled mean mass is 1056.54 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-18e742d621}
+AVONET records unflattened wing length 411.8 mm; tarsus length 65.2 mm; distance from first secondary tip to longest primary tip 218.2 mm; length to first secondary tip 193.5 mm; hand-wing index 53; tail length 166 mm; species-average body mass 1056.54 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-7f10b870ee}
-The dataset assigns habitat Coastal, trophic niche Aquatic predator and lifestyle Generalist. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-7f10b870ee}
+AVONET classifies Larus glaucescens as habitat Coastal (intertidal and nearby coastal habitats); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Generalist. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-7b5dd5e38e}
-The migration field classifies this record as migratory. Historical breeding and resident maps span latitude endpoints 45.49° to 65.31°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-7b5dd5e38e}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints 45.49° to 65.31°. The mapped range area is 899194.26 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-a90468bee1}
-Larus glaucescens is accepted in pinned COL26.8 within Laridae. This page compares the same-name historical life-history entry using 7 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-a90468bee1}
+The August 2015 database has a same-name, same-family record for Larus glaucescens. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-72bd96388a}
-Historical summary values are adult body mass 1010 g; mass at birth or hatching 70.65 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+## Compiled adult-mass values {#s-72bd96388a}
+The August 2015 compilation reports adult body mass 1010 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-a21dfadf7d}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 2008.88 d; offspring per litter or eggs per clutch 2.75 offspring/eggs; oviposition to hatching 27 d; age at flight capability (leaving the nest in some source material) 42 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-a21dfadf7d}
+The August 2015 compilation reports female age at first conception (source definition) 2008.875 days; median or interpolated-median number of offspring or eggs per litter/clutch 2.75; oviposition-to-hatching interval 27 days; age at flight capability (some records mark nest departure) 42 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-2751c5e17e}
-The archive’s maximum_longevity_y value is 32 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-2751c5e17e}
+The compilation lists 32 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-edc2387f84}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Bennett, 1986, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-edc2387f84}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-d344ea61fa}
-Larus glaucescens is accepted in pinned COL26.8 within Laridae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-d344ea61fa}
+EltonTraits 1.0 has a same-name, same-family record for Larus glaucescens covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-0ec0c86e97}
-The archive’s nonzero food weights are invertebrates 30%; fish 30%; mammals and birds 20%; scavenged food and related discarded material 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-0ec0c86e97}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 30%; mammals and birds 20%; fish 30%; carrion or refuse 20%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-2d88d0ac32}
-Foraging-stratum weights flagged as species-level in the archive are on or just below the water surface 40%; below the water surface 30%; ground 30%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-2d88d0ac32}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 30%; around the water surface 40%; on the ground 30%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-f1171d9389}
-The used groups carry labels Ref_3. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-f1171d9389}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.3.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.3.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-ee2dd85cc5}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

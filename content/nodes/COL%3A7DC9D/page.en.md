@@ -1,12 +1,12 @@
-## A small skink in the cited length record {#s-9163604bd4}
-COL26.8 places Tytthoscincus biparietalis in the skink family Scincidae. Its compiled row gives a maximum snout–vent length and a separate female maximum, then labels the microhabitat as terrestrial and activity as daytime. Those entries sketch a compact, ground-associated profile without providing a complete life history.
+## COL26.8 name and the ReptTraits row {#s-9163604bd4}
+COL26.8 records Tytthoscincus biparietalis as an accepted species. The ReptTraits v1-2 row gives its Family field as Scincidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Body length without the tail {#s-89268e1db7}
-The reported maximum snout–vent length is 36 mm; the female maximum is 34 mm. This measure ends at the body opening and excludes the tail. The values are maxima in compiled material rather than typical sizes, and their small difference alone does not establish a population-level size difference between sexes.
+## Length values in the archived records {#s-89268e1db7}
+The row reports a maximum SVL of 36 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 34 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Ground use and daytime activity {#s-3d5714e5e2}
-The source categorizes the microhabitat as terrestrial and activity as diurnal, or during daylight. These broad labels do not name a precise site or establish a fixed daily schedule. The cited row offers no prey or reproductive detail to extend this brief profile.
+## Habitat use and activity labels {#s-3d5714e5e2}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## What these entries leave open {#s-5388bae33f}
-The row preserves a 2023 name framework, while COL26.8 supplies the accepted placement; shared names do not prove that the concepts cover identical specimens. Its maxima compress differences among individuals, places and populations. No reproductive, diet or current conservation claim is made here, and the citation labels retain provenance rather than claiming independent review of every original source.
+## Reading this compiled trait record {#s-5388bae33f}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

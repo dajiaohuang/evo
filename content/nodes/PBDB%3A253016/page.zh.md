@@ -1,19 +1,55 @@
 ## 这个名称对应哪些化石记录 {#s-32c6066569}
 Pseudopus laurillardi 在固定 PBDB 有鳞类化石工作名录中为接受种，数据库父级为 Pseudopus。本页导读 16 条可用种级出现记录，涉及 16 个采集记录和 5 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-195a211ad0}
-采集记录 Griesbeckerzell 1a（Bavaria），地区代码 DE，地层名称 Upper Freshwater Molasse；数据库年代范围 15.98–13.82 Ma，早端地质时段 Langhian。采集记录 Griesbeckerzell 1b（Bavaria），地区代码 DE，地层名称 Upper Freshwater Molasse；数据库年代范围 15.98–13.82 Ma，早端地质时段 Langhian。采集记录 Sansan（Midi-Pyrenees），地区代码 FR；数据库年代范围 15.98–11.63 Ma，早端地质时段 Langhian、晚端时段 Serravallian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Pseudopus laurillardi 在 PBDB 快照中对应分类条目 txn:253016。这份存档导读包含 16 条选取的出现记录，关联 16 个不同的 PBDB 采集记录编号和 5 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-01e8d22c36}
-本页所选出现记录的年代外包区间为 16.9–11.1 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Béon 1 的出现记录 occ:1089640（16.9–15.98 Ma）；晚端可追到 Petersbuch 73 的出现记录 occ:1302521（12.75–11.1 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-195a211ad0}
+存档导读包含 16 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 保存环境与生活环境分开阅读 {#s-0d50b287e4}
-Griesbeckerzell 1a 的采集环境标签为 fine channel fill；集合保存方式标签为 实体化石（body）。Griesbeckerzell 1b 的采集环境标签为 fine channel fill；集合保存方式标签为 实体化石（body）。Sansan 的采集环境标签为 湖泊沉积环境，源标注 small（lacustrine - small）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:1089640；PBDB 采集记录 col:136919。 地点字段 cnm=Béon 1；地点分区字段 cc2=FR，stp=Midi-Pyrenees，cny=Gers。 记录年代界：eag 16.9 Ma; lag 15.98 Ma；PBDB 年代区间字段 oei=MN 4。 记录署名 Rage and Bailon 2005；PBDB 引文编号 ref:43777。
 
-## 沿采集记录追到文献 {#s-cf2c3f55ea}
-Griesbeckerzell 1a 的数据库引文署名为 Ivanov and Böhme（2011），编号 ref:43315。Griesbeckerzell 1b 的数据库引文署名为 Ivanov and Böhme（2011），编号 ref:43315。Sansan 的数据库引文署名为 Augé and Rage（2000），编号 ref:43532。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+The locality is about 2.5 km SE from the town of Montréal immediately south of the old Panblanc quarry. DMS coordinates are based on map (fig. 1) in Bulot et al. (2009, Ann. Paléont. 95(4))
+
+- 出现记录 occ:1302521；PBDB 采集记录 col:174120。 地点字段 cnm=Petersbuch 73；地点分区字段 cc2=DE，stp=Bavaria，cny=Eichstätt。 记录年代界：eag 12.75 Ma; lag 11.1 Ma；PBDB 年代区间字段 oei=MN 7 + 8。 记录署名 Klembara et al. 2010；PBDB 引文编号 ref:56791。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Petersbuch 73 (MN 7/8 based on Parasorex socialis,Deperetomys sp., and Cricetodon cf. jumaensis; Rummel,unpublished)(From Klembara et al. 2010)
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Volkert limestone quarry E of Titting-Petersbuch (R 4441310, H 5426880; Ziegler 1989) coordinates, originally entered as 48°53' N 11°10' E, have been changed accordingly (TL) Coordinates from Ziegler, 2005.
+
+- 出现记录 occ:1079021；PBDB 采集记录 col:134954。 地点字段 cnm=Griesbeckerzell 1a；地点分区字段 cc2=DE，stp=Bavaria，cny=Aichach-Friedberg。 记录年代界：eag 15.98 Ma; lag 13.82 Ma；PBDB 年代区间字段 oei=Langhian。 地层字段 sfm=Upper Freshwater Molasse。 记录署名 Ivanov and Böhme 2011；PBDB 引文编号 ref:43315。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Brock horizon of the Fluviatile Untere Serie, Middle part of the Upper Freshwater Molasse (OSM), Early Badenian (Langhian).
+"Fossil localities of the Brock horizon lacking fossils of the large-sized lineage of <i>Megacricetodon</i> Fahlbusch, 1964 are placed at the beginning of [the regional] unit OSM F (Heissig 1989, 1997; Böhme et al. 2001; Abdul Aziz et al. 2008). [...] According to the new palaeomagnetic and radiometric dating of the Ries impact event (Abdul Aziz et al. 2008), Griesbeckerzell 1a probably is approximately 14.77 Ma (14.88 ± 0.11 Ma for the Ries impact and chron C5ADr for sediments containing the Brock horizon) in age [...]" (Ivanov & Böhme, 2011).
+
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Abandoned sand pit, approx. 6 km ESE of Aichach, 14 km NW of Augsburg.
+
+## 出现记录的年代界 {#s-01e8d22c36}
+在这组 PBDB 记录中，最大记录 eag=16.9 Ma，见 occ:1089640；最小记录 lag=11.1 Ma，见 occ:1302521。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-0d50b287e4}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1089640：PBDB 分类名称字段 tna=Pseudopus laurillardi；材料说明字段 ocm=posterior part of a braincase (Béon 2004 LT 38), 1 right dentary (Béon 2004 LT 39) 129 vertebrae (Béon 2004 LT 40 to 47; Béon E3 SN 1 and SN 2; Béon 98 déblais SN 1), 16 osteoderms (Béon 2004 LT 48)；丰度字段 abv=147，abu=elements；PBDB 地点坐标字段 lng=0.223611，lat=43.935280；古坐标／模型字段 pm1=gplates，pln=2.57，pla=41.22。
+- occ:1302521：PBDB 分类名称字段 tna=Pseudopus laurillardi；材料说明字段 ocm=Frontal, NMA-2007-87/ 2035；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=11.197222，lat=48.976391；古坐标／模型字段 pm1=gplates，pln=12.78，pla=46.73。
+- occ:1079021：PBDB 分类名称字段 tna=Pseudopus laurillardi；材料说明字段 ocm=Maxilla, BSPG 1997 XIII 467–468, 470, 472–473, 475–476; Dentary, BSPG 1997 XIII 477, 479–482, 486；PBDB 地点坐标字段 lng=11.044444，lat=48.443611；古坐标／模型字段 pm1=gplates，pln=12.99，pla=45.61。
+
+## 各记录所附的引文 {#s-cf2c3f55ea}
+存档导读把这些记录关联到 5 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1089640：记录署名 Rage and Bailon 2005；PBDB 引文编号 ref:43777。
+- occ:1302521：记录署名 Klembara et al. 2010；PBDB 引文编号 ref:56791。
+- occ:1079021：记录署名 Ivanov and Böhme 2011；PBDB 引文编号 ref:43315。
 
 ## 资料边界 {#s-cdc9ba8b67}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 1010 项有鳞类化石工作名录中，当前名称一致、父链可追到已记录 Squamata 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 16 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

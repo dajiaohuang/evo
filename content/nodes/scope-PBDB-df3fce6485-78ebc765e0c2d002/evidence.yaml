@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:pinnipedimorpha
       claimKind: scientific
       claimType: topology
-      statement: Pinnipedimorpha is used as the atlas route joining fossil pinniped-line evidence to the living seal, sea-lion and walrus branches represented in the carnivoran supertree; the extant tree does not itself resolve all stem pinnipeds or their first appearance.
+      statement:
+        page: en
+        section: living-branches
+        part: body
       confidence: medium
       confidenceRationale: The source supports the living family branches, while the statement labels the broader atlas route and fossil exclusion explicitly.
       referenceLinks:
@@ -27,7 +30,9 @@ records:
   claim-rationales.zh:
     - 来源支持现生科分支；表述明确标示更广的图谱路线和化石排除项。
   claim-statements.zh:
-    - 图谱以 Pinnipedimorpha 路线连接化石鳍足型类证据与食肉类超级树中的现生海豹、海狮和海象分支；现生树本身不解析所有干群鳍足类或其首现。
+    - page: zh
+      section: living-branches
+      part: body
   ranges:
     - entityId: pinnipedimorpha
       rangeKind: global-composite

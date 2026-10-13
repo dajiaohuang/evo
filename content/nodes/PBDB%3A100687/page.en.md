@@ -1,19 +1,57 @@
 ## Which fossil records this name represents {#s-a322fd03df}
 Fallomus ladakhensis is accepted in the fixed PBDB mammalia working roster, with database parent Fallomus. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-6144b2f94e}
-Collection Cha Prong Pit (Phetchaburi), region code TH; database age bracket 27.3–23.04 Ma, early interval Late Oligocene. Collection 3.5 km ESE of Kargil township (K/7b horizon) (Jammu and Kashmir), region code IN, stratum name Kargil; database age bracket 27.3–23.04 Ma, early interval Late Oligocene. Collection Kargil-Akchamal-Batalik Road, km stone 4 (K/4a horizon) (Jammu and Kashmir), region code IN, stratum name Kargil; database age bracket 27.3–23.04 Ma, early interval Late Oligocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Fallomus ladakhensis is listed in the PBDB snapshot under taxon txn:100687. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-2fd375e6e5}
-Selected occurrences have an outer age envelope of 27.3–23.04 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Cha Prong Pit, occurrence occ:667887 (27.3–23.04 Ma); one supplying the younger bound is Cha Prong Pit, occurrence occ:667887 (27.3–23.04 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-6144b2f94e}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-90b8f30d74}
-Cha Prong Pit has collection-environment label terrestrial indet.; collection preservation-mode label body. 3.5 km ESE of Kargil township (K/7b horizon) has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. Kargil-Akchamal-Batalik Road, km stone 4 (K/4a horizon) has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:667887; PBDB collection col:71985. Locality cnm=Cha Prong Pit; place fields cc2=TH, stp=Phetchaburi. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Late Oligocene. Recorded attribution Marivaux et al. 2004; PBDB reference ref:24350.
 
-## Follow collection records back to references {#s-8360b2589b}
-Cha Prong Pit carries database reference attribution Marivaux et al. (2004), identifier ref:24350. 3.5 km ESE of Kargil township (K/7b horizon) carries database reference attribution Nanda and Sahni (1998), identifier ref:59907. Kargil-Akchamal-Batalik Road, km stone 4 (K/4a horizon) carries database reference attribution Kumar et al. (1996), identifier ref:59908. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Cha Prong pit of Nong Ya Plong coal mine" (coordinate based on Cha Prong)
+
+- Occurrence occ:1337647; PBDB collection col:180532. Locality cnm=3.5 km ESE of Kargil township (K/7b horizon); place fields cc2=IN, stp=Jammu and Kashmir. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Late Oligocene. Stratigraphic fields sfm=Kargil. Recorded attribution Nanda and Sahni 1998; PBDB reference ref:59907.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Wakka Chu section - K/7b horizon
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Locality lies on the main Kargil-Homboting La-Batalik Road and is just before the Wakka River Bridge and is 3.5 km east southeast of the Kargil township.
+
+Note that Nanda and Sahni (1990) incorrectly described this as WNW, rather than ESE of Kargil
+
+- Occurrence occ:1337649; PBDB collection col:180533. Locality cnm=Kargil-Akchamal-Batalik Road, km stone 4 (K/4a horizon); place fields cc2=IN, stp=Jammu and Kashmir. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Late Oligocene. Stratigraphic fields sfm=Kargil. Recorded attribution Kumar et al. 1996; PBDB reference ref:59908.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Wakka Chu section - K/4a horizon
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Locality lies on the main Kargil-Homboting La-Batalik Road and is just before the Wakka River Bridge and is 3.5 km east southeast of the Kargil township.
+
+Note that Nanda and Sahni (1990) incorrectly described this as WNW, rather than ESE of Kargil
+
+## Age bounds on the recorded occurrences {#s-2fd375e6e5}
+Across these selected PBDB rows, the largest recorded eag=27.3 Ma in occ:667887; the smallest recorded lag=23.04 Ma in occ:667887. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-90b8f30d74}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:667887: PBDB taxon-name field tna=Fallomus ladakhensis; abundance fields abv=4, abu=specimens; PBDB locality-coordinate fields lng=99.683334, lat=13.183333; paleocoordinate/model fields pm1=gplates, pln=105.04, pla=8.67.
+- occ:1337647: PBDB original-identification field idn=Fallomus ladakhensis n. sp.; PBDB taxon-name field tna=Fallomus ladakhensis; material note ocm=WIMF/A 1706 - type; paratype: WIMF/A 1707; PBDB locality-coordinate fields lng=76.133331, lat=34.549999; paleocoordinate/model fields pm1=gplates, pln=77.89, pla=20.71.
+- occ:1337649: PBDB taxon-name field tna=Fallomus ladakhensis; material note ocm=WIMF/A 1290; PBDB locality-coordinate fields lng=76.133331, lat=34.549999; paleocoordinate/model fields pm1=gplates, pln=77.89, pla=20.71.
+
+## References attached to each record {#s-8360b2589b}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:667887: Recorded attribution Marivaux et al. 2004; PBDB reference ref:24350.
+- occ:1337647: Recorded attribution Nanda and Sahni 1998; PBDB reference ref:59907.
+- occ:1337649: Recorded attribution Kumar et al. 1996; PBDB reference ref:59908.
 
 ## Evidence limits {#s-cec865a6a1}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,5 +1,5 @@
-## 沿旧 Serinus 组合查历史行 {#s-e168d5e936}
-本页按 COL26.8 的 Crithagra citrinipectus（6BGL6）组织。BirdLife 2020 第 4019 行与 eBird 2021 第 2913 行同名，Avibase ID 为 AVIBASE-238953D9，类型 1BL to 1eBird；BirdTree 第 2897 行记 Serinus citrinipectus，类型 1BL to 1BT。本次读到目录异名 4WV6S，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-e168d5e936}
+《Catalogue of Life》COL26.8（2026-08-20）将 Crithagra citrinipectus (Clancey & Lawson, 1960) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-0607b29bdf}
 形态共 7 只鸟：雌 3、雄 1、性别未定 3；完整测量 7 只。鼻孔前缘至喙尖 6.8 mm、跗蹠 13.5 mm、未压平翼长 61.8 mm、尾长 38.3 mm、手翼指数 24.2 是历史行均值。完整数与总数相等，仍不提供个体变异范围。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体种子的处理能力。

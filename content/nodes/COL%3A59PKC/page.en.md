@@ -1,5 +1,5 @@
-## Locate names using source spellings {#s-e72c671512}
-Pinned COL26.8 organizes this page at Turdoides reinwardtii (59PKC). BirdLife 2020 row 4948 and eBird 2021 row 10770 share the name and Avibase ID AVIBASE-D5BF7D2F, with type 1BL to 1eBird. BirdTree row 10701 gives Turdoides reinwardii, with type 1BL to 1BT. The table has one fewer t: reinwardii/reinwardtii are retained separately. Exact reinwardii correspondence was not confirmed in the read tu shard, so the crosswalk is not presented as a confirmed catalogue synonym. Source family Leiotrichidae and catalogue ancestor Leiothrichidae retain their original spellings.
+## A name fixed to COL26.8 {#s-e72c671512}
+Catalogue of Life release COL26.8 records Turdoides reinwardtii (Swainson, 1831) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-ac79ea43d0}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 14.6 mm, tarsus 33.6 mm, unflattened wing 114.4 mm, tail 113.2 mm and hand-wing index 11 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

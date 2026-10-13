@@ -1,15 +1,15 @@
-## Name and this data account {#s-d4300e43c0}
-COL26.8 places Anilios pilbarensis in Typhlopidae. Its ReptTraits v1–2 row follows the Reptile Database 2023 name framework and retains sources for individual fields; it is a compiled summary, not a population-wide description.
+## COL26.8 name and the ReptTraits row {#s-d4300e43c0}
+COL26.8 records Anilios pilbarensis as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-7bb60d219c}
-The entry gives a maximum total length (TL) of 370 mm. TL includes the tail; snout–vent length (SVL) ends at the vent. The maximum is not typical size or an absolute limit.
+## Length values in the archived records {#s-7bb60d219c}
+The row reports maximum total length (TL) of 370 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-247ed1afe2}
-The row records a Fossorial microhabitat, Carnivorous diet, and ACT foraging mode. Fossorial indicates an underground or burrowing association; the diet category does not specify prey. These fields do not provide a complete account of habitat or feeding.
+## Habitat use and activity labels {#s-247ed1afe2}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Cogger 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## How to read reproductive records {#s-5eb0e7a70a}
-The recorded reproductive mode is oviparous (egg-laying). The label gives no clutch count or evidence of uniformity across populations.
+## Reproductive fields in ReptTraits {#s-5eb0e7a70a}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-f838d595f8}
-This page summarizes selected fields from a ReptTraits v1–2 row under the Reptile Database 2023 name framework; it is not a complete species account. A row may combine records from different sexes, ages, places, or populations, and a shared name does not establish identical later taxonomic concepts. A maximum is a compiled measurement, not an absolute size limit. Reproductive labels do not give clutch size; workbook averages summarize source records rather than every clutch. Estimated mass and differing juvenile-length definitions are not used here as direct observations. Conservation, venom, current distribution, and population trends are not updated. Citation labels preserve the workbook's source chain but do not mean every original study was independently reviewed here.
+## Reading this compiled trait record {#s-f838d595f8}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

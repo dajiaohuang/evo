@@ -15,7 +15,9 @@ Dwarf lemurs are nocturnal primates endemic to Madagascar. Fat storage in the ta
 
 Suggested path: compare the different taxonomic interpretations of Groeneveld et al. and Lei et al.; then read the locality-bounded descriptions by Thiele, Lei, Frasier, and McLain. Next, use Dausmann's hibernation study of the fat-tailed dwarf lemur, Lahann's local study of the greater dwarf lemur, and Blanco et al.'s same-site comparison of Crossley's and Sibree's dwarf lemurs to explore ecological differences. Hending et al. (2023) compiled records from 1964–2020 but modelled only three of nine catalogue species because the other six had too few occurrence points; a species not modelled is not a species shown to be absent.
 
-## Choose comparison pages by life-history fields {#s-07a1c2c0b1}
+## Recorded classification and direct parent {#s-07a1c2c0b1}
+COL26.8 records Cheirogaleus É. Geoffroy Saint-Hilaire, 1812 at genus rank, with Cheirogaleidae Gray, 1873 as its direct parent.
+
 This batch’s Cheirogaleus route includes 4 historical life-history accounts; start with Cheirogaleus crossleyi, Cheirogaleus major, Cheirogaleus medius, Cheirogaleus sibreei. More frequently represented fields include adult body mass (4 entries), female maturity field (defined by the source as age at first conception) (4 entries), offspring per litter or eggs per clutch (4 entries), conception or fertilization to birth (4 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-a97d9374f3}

@@ -1,5 +1,5 @@
-## Find rows through older Collocalia combinations {#s-6fd0e8676c}
-Pinned COL26.8 organizes this page at Aerodramus francicus (64Z4Q). BirdLife 2020 row 508 and eBird 2021 row 194 share the name and Avibase ID AVIBASE-C831C041, with type 1BL to 1eBird; BirdTree row 200 gives Collocalia francica, with type 1BL to 1BT. Read catalogue synonym 8KCGQ points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates. Historical Order1=Caprimulgiformes remains distinct from Apodiformes in this COL path.
+## A name fixed to COL26.8 {#s-6fd0e8676c}
+Catalogue of Life release COL26.8 records Aerodramus francicus (J. F. Gmelin, 1789) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-1c3923ad81}
 Morphology comprises 4 birds: 0 female, 0 male and 4 unsexed; 4 complete sets. Nostril-to-tip beak length 1.8 mm, tarsus 9.2 mm, unflattened wing 109 mm, tail 47 mm and hand-wing index 67.6 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

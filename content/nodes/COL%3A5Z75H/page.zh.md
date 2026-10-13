@@ -1,5 +1,5 @@
-## 从旧 Nectarinia 名称定位资料 {#s-d2e1590e6a}
-本页按 COL26.8 的 Cinnyris fuelleborni（5Z75H）组织。BirdLife 2020 第 5958 行与 eBird 2021 第 2330 行同名，Avibase ID 为 AVIBASE-411ECD6F，匹配为 1BL to 1eBird；BirdTree 第 2323 行记 Nectarinia fuelleborni，匹配为 1BL to 1BT。本次已读分片未找到这个逐字旧组合，不把一对一名称表当成已核实 COL 异名。旧名用于查原资料，不证明所有时期的物种范围相同。
+## COL26.8 中的名称身份 {#s-d2e1590e6a}
+《Catalogue of Life》COL26.8（2026-08-20）将 Cinnyris fuelleborni Reichenow, 1899 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 喙长、翼与尾的样本范围 {#s-92c6648f0f}
 形态共 5 只鸟：雌 2、雄 3、性别未定 0，4 只具完整测量。鼻孔前缘至喙尖 15.4 mm、跗蹠 16.6 mm、未压平翼长 53.9 mm、尾长 42.4 mm、手翼指数 13.8 是历史行汇总均值。Inference=NO 不代表每项字段都有 5 只独立记录；完整测量数不替代逐字段分母。喙长不能单独证明特定花种适配、舌结构或授粉效果；手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度。

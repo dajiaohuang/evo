@@ -14,23 +14,41 @@ Lift-to-drag ratio compares lift with drag; in steady gliding a higher value cor
 A second model uses a balsa body, aluminium flat-plate lifting surfaces and a rod tail, tested in a sprawled configuration. Its size, projected areas and estimated center of gravity differ from the feathered model. Similar lift-to-drag ratios at high aerodynamic forces in the stable region lead the authors to argue that effective gliding need not require a highly derived modern wing section. This concerns lifting surfaces under specified model conditions. It does not negate fossil feathers or verify every claim about symmetric feathers, powered flapping or other dinosaurs’ locomotion.
 
 ## Read from specimens through models to behavioral hypotheses {#s-067f54cc63}
-Start with the two specimens underlying model construction in Figure 5, then read the feather, leg-posture and center-of-gravity settings before comparing stable points and trajectories in Figure 2. The authors propose possible climbing, terrestrial foraging and occasional gliding, but the experiment does not observe behavioral frequencies. It cites a fish stomach-content study; that primary dietary paper was not separately read here and is not converted into a particular M. gui diet. Return to the [Microraptor genus route](../page.en.md) for occurrence records under two other names. Their biological accounts still require their own sources rather than completion by this model.
+Start with the two specimens underlying model construction in Figure 5, then read the feather, leg-posture and center-of-gravity settings before comparing stable points and trajectories in Figure 2. The authors propose possible climbing, terrestrial foraging and occasional gliding, but the experiment does not observe behavioral frequencies. It cites a fish stomach-content study; that primary dietary paper was not separately read here and is not converted into a particular M. gui diet. Return to the Microraptor genus route for occurrence records under two other names. Their biological accounts still require their own sources rather than completion by this model.
 
-## Which fossil records this name represents {#s-abe89f4979}
-Microraptor gui is accepted in the fixed PBDB dinosaur working roster, with database parent Microraptor. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-abe89f4979}
+Microraptor gui is listed in the PBDB snapshot under taxon txn:68246. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-21ead6f460}
-Collection Dapingfang (Liaoning), region code CN, stratum name Jiufotang; database age bracket 121.4–113.2 Ma, early interval Aptian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-21ead6f460}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-af00236e43}
-Selected occurrences have an outer age envelope of 121.4–113.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:536667; PBDB collection col:55536. Locality cnm=Dapingfang; place fields cc2=CN, stp=Liaoning, cny=Chaoyang. Recorded age bounds: eag 121.4 Ma; lag 113.2 Ma; PBDB interval fields oei=Aptian. Stratigraphic fields sfm=Jiufotang, sls=Dapingfang, slb=Yuanjiawa. Recorded attribution Xu et al. 2003; PBDB reference ref:14924.
 
-## Read preservation setting separately from living habitat {#s-08bda1a177}
-Dapingfang has collection-environment label lacustrine indet.; collection preservation-mode label body,adpression,soft parts. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Yuanjiawa Bed = middle of 3rd Member
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Dapingfang, Chaoyang County, western Liaoning (30 km southwest of Chaoyang City), different from Shangheshou (but listed as same site in ref 26670
+
+## Age bounds on the recorded occurrences {#s-af00236e43}
+Across these selected PBDB rows, the largest recorded eag=121.4 Ma in occ:536667; the smallest recorded lag=113.2 Ma in occ:536667. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-08bda1a177}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:536667: PBDB original-identification field idn=Microraptor gui n. sp.; PBDB taxon-name field tna=Microraptor gui; material note ocm=IVPP V13352, V13320; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=120.175301, lat=41.423901; paleocoordinate/model fields pm1=gplates, pln=131.36, pla=40.36.
 
 ## Follow collection records back to references {#s-6ea28f27f5}
 The database retains Xu et al. (2003), ref:14924, as collection attribution. This page separately reads the complete nine-page Dyke et al. (2013) wind-tunnel article, binding experiments, model provenance and interpretations independently. The 2003 description, 2012 plumage-color study and cited stomach-content paper were not separately read in this batch; citation is not direct review here. Full occurrences, collections and identifications remain archived, without physical fossil examination or repetition of the experiment.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:536667: Recorded attribution Xu et al. 2003; PBDB reference ref:14924.
+
 ## Evidence limits {#s-aea8ffa331}
 This page provides a 2013 model-study guide with fixed occurrences, not a complete species monograph. Feathered and flat-plate models differ in geometry, center of gravity and feather assumptions; tunnel inputs, estimated mass, trajectories and living behavior remain distinct. Another construction specimen retains genus-level identification rather than transferring results to every M. gui individual or all Microraptor. Figure 2’s caption gives inconsistent low-height wording, so exact height thresholds are not adopted here. Trajectories and experiments were not rerun, nor all later debate reviewed. Original descriptions, direct diet and other biological evidence remain incompletely assembled.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

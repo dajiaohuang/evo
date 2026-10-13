@@ -22,18 +22,45 @@ The 2025 paper uses the Angustinaripterini grouping introduced in the 2022 descr
 ## One eligible occurrence links to one collection {#s-6fd99363de}
 The fixed Paleobiology Database (PBDB) pterosaur roster accepts Dearc sgiathanach beneath the database parent Dearc. This guide draws on one eligible species-level occurrence, linked to one collection and one reference identifier. These are counts of database records, collections and citations—not counts of bones, specimens or individual animals.
 
+PBDB occurrence record excerpt:
+Dearc sgiathanach is listed in the PBDB snapshot under taxon txn:454355. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## The collection is from Scotland’s Lealt Shale {#s-f41bfcba4f}
 The selected collection is named Rubha nam Brathairean pterosaur (Scotland), with region code UK and stratum Lealt Shale. Its database age bracket is 168.2–165.3 Ma, with the early bound assigned to the Middle Bathonian. The collection and rock-unit names follow the database wording. One recorded locality cannot give a complete map of the species or show that it was absent elsewhere.
+
+PBDB occurrence record excerpt:
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:1685927; PBDB collection col:238818. Locality cnm=Rubha nam Brathairean pterosaur; place fields cc2=UK, stp=Scotland. Recorded age bounds: eag 168.2 Ma; lag 165.3 Ma; PBDB interval fields oei=Middle Bathonian. Stratigraphic fields sfm=Lealt Shale. Recorded attribution Jagielska et al. 2022; PBDB reference ref:81241.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+just above Brothers Point 3 tracksite, Rubha nam Brathairean (Rudha nam Braithairean = Brothers' Point), Trotternish peninsula, Isle of Skye
 
 ## A bracket around records, not a continuous timeline {#s-8d2cdf8c3f}
 The selected occurrence falls within an outer bracket of 168.2–165.3 Ma (Ma means million years ago). This combines the earliest and latest database bounds; it does not mean the animal is recorded continuously throughout that span, or date its origin, extinction or lifespan. Each collection keeps its own bracket. The broad age range is not reduced to a more precise specimen date.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=168.2 Ma in occ:1685927; the smallest recorded lag=165.3 Ma in occ:1685927. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## The collection setting is not the animal’s habitat {#s-7d96f25129}
 The Rubha nam Brathairean collection carries the database environment label “lagoonal” and preservation-mode label “body.” These labels describe the collection and its depositional setting, not Dearc’s daily habitat or diet. A collection-level label also does not describe every fossil in it. Where the database has no value, none is supplied here.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1685927: PBDB original-identification field idn=Dearc sgiathanach n. gen. n. sp.; PBDB taxon-name field tna=Dearc sgiathanach; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-6.149400, lat=57.586300; paleocoordinate/model fields pm1=gplates, pln=15.63, pla=41.35.
 
 ## The database citation and the anatomy study have different roles {#s-9b68b1fd1a}
 The database collection cites Jagielska et al. (2022), reference 81241. The anatomical details summarized above come from a separate 2025 osteological study, listed with its eight authors, publication date and open license. The two citations therefore support different parts of this account: one is attached to the collection record, while the other describes the holotype’s anatomy.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1685927: Recorded attribution Jagielska et al. 2022; PBDB reference ref:81241.
+
 ## Evidence limits {#s-9af24a3560}
 The anatomical account here summarizes selected sections of the 2025 study rather than a complete monograph. It does not cover every structure or original image, nor the full 2022 description, including its wingspan regressions and histology. Muscle use, feeding and climbing are interpretations drawn from bones, teeth and comparisons; they are not direct records of behavior. This material also does not establish Dearc’s life history or settle its placement among pterosaurs.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,15 +1,15 @@
-## The entry pairs body length with active ground use {#s-88b7903765}
-Ameivula cipoensis is accepted in the pinned COL26.8 catalogue within Teiidae. Its compiled profile includes a maximum and female maximum length, terrestrial and diurnal categories, active foraging, and an egg-laying label. The profile is built from field-specific citations rather than one observation set.
+## COL26.8 name and the ReptTraits row {#s-88b7903765}
+COL26.8 records Ameivula cipoensis as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Snout–vent length is not total length {#s-fbbdae3dbb}
-The row gives a maximum of 71.3 mm and a female maximum of 63.2 mm. Both are snout–vent measurements, from snout to body opening, so the tail is excluded. They are reported maxima, not typical sizes; separate sex-labelled maxima do not alone measure dimorphism in one population.
+## Length values in the archived records {#s-fbbdae3dbb}
+The row reports a maximum SVL of 71.3 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 63.2 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Active foraging does not identify prey {#s-e110ae75b3}
-The cited categories are terrestrial, carnivorous, diurnal and actively foraging. In plain terms, the entry places the animal on land, active by day, and searching for food. It supplies no prey list or exact site, and the labels need not describe every season or life stage.
+## Habitat use and activity labels {#s-e110ae75b3}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Meiri 2018.
 
-## Oviparous, with clutch size unrecorded here {#s-acc3a46ce2}
-The reproductive-mode field is oviparous, meaning egg-laying. A sourced clutch/litter number is not available in this account, so the mode cannot be turned into a clutch-size estimate. The label also does not establish how embryos are nourished.
+## Reproductive fields in ReptTraits {#s-acc3a46ce2}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The row’s source boundary {#s-7dbcd4f000}
-ReptTraits uses its 2023 name framework, while COL26.8 supplies the pinned placement. The same name does not demonstrate that historical and current concepts cover identical specimens. One row compresses differences in sex, age, place and population; this page does not update distribution or conservation.
+## Reading this compiled trait record {#s-7dbcd4f000}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

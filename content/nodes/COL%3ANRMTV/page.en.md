@@ -1,5 +1,5 @@
-## Locate records through older Pomatorhinus names {#s-aac0a14a6f}
-Pinned COL26.8 organizes this page at Erythrogenys swinhoei (NRMTV) in Timaliidae (H9M). BirdLife 2020 row 8337 and eBird 2021 row 3773 share the name; both eBird sides share Avibase ID AVIBASE-E4AFAF52, with type 1BL to 1eBird. BirdTree row 3757 gives Pomatorhinus swinhoei, type 1BL to 1BT; exact catalogue synonym 4LQX5 points to accepted species NRMTV. Name links locate records without proving identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-aac0a14a6f}
+Catalogue of Life release COL26.8 records Erythrogenys swinhoei (A. David, 1874) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-a66d47826d}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 3 complete sets. Nostril-to-tip beak length 24 mm, tarsus 36.3 mm, unflattened wing 96.2 mm, tail 94 mm and hand-wing index 5.6 are historical row means. Totals exceed complete sets; not every bird has all fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

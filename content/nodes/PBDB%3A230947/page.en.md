@@ -1,23 +1,25 @@
-## Which fossil records this name represents {#s-e1c306ef00}
-Yutyrannus huali is accepted in the fixed PBDB dinosaur working roster, with database parent Yutyrannus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## One selected PBDB occurrence {#s-e1c306ef00}
+In the fixed PBDB dinosaur working roster, *Yutyrannus huali* is the accepted species name and *Yutyrannus* its recorded database parent. This guide covers one eligible occurrence from one collection and one linked reference identifier. Those are record counts, not counts of specimens or animals.
 
-## Begin with named collections and strata {#s-82a957ee18}
-Collection Batuyingzi, Beipiao (Liaoning), region code CN, stratum name Yixian; database age bracket 125.77–119.57 Ma, early interval Late Barremian and late interval Early Aptian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Batuyingzi and its Yixian age bracket {#s-82a957ee18}
+The selected collection is Batuyingzi, Beipiao (Liaoning), region code CN, with Yixian as the recorded stratum name. PBDB notes that the specimens supposedly came from a single quarry near Batuyingzi, but its exact location is unknown.
 
-## Age bounds of these records {#s-6eebb213f5}
-Selected occurrences have an outer age envelope of 125.77–119.57 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+The archived row marks the stratigraphic assignment as speculative and based on lithology—the rock’s characteristics. PBDB records an age bracket of 125.77–119.57 Ma, from Late Barremian at the early end to Early Aptian at the late end. These labels and bounds belong to this collection record; they are not an independent specimen date or a complete species distribution.
 
-## Read preservation setting separately from living habitat {#s-0f89dfb33a}
-Batuyingzi, Beipiao has collection-environment label lacustrine - large; collection preservation-mode label body,adpression,soft parts. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+## The selected record’s broad age interval {#s-6eebb213f5}
+The selected PBDB record has an outer age envelope of 125.77–119.57 Ma, where Ma means millions of years ago. It combines the oldest early bound with the youngest late bound in the selected set; it is not continuous fossil evidence or a measured date for the species’ origin, extinction, or an individual’s lifespan. Each collection keeps its own bracket, and this guide does not revise the source’s dating interpretation.
 
-## Follow collection records back to references {#s-03a1f480bf}
-Batuyingzi, Beipiao carries database reference attribution Xu et al. (2012), identifier ref:41024. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+## Collection labels are not habitat observations {#s-0f89dfb33a}
+For Batuyingzi, Beipiao, PBDB records the environment label `lacustrine - large` and the collection-level preservation mode `body,adpression,soft parts`. These describe a collection setting and assemblage, not the species’ living habitat or every fossil individually. Fields left blank by the source remain blank.
 
-## Evidence limits {#s-586b54e164}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## The collection’s database reference {#s-03a1f480bf}
+The Batuyingzi, Beipiao record carries the abbreviated attribution Xu et al. (2012), identifier `ref:41024`. This database citation is not a completed author list and is not necessarily the original species description. The independent source archive retains the full row, collection identifier, accepted and original identifications, and reference identifiers; the papers and specimens have not been rereviewed here.
 
-## Overview {#s-8fc3f6864f}
-Yutyrannus huali is known from three nearly complete Yixian Formation skeletons representing two growth stages. The specimens preserve long filamentous integument, a three-fingered hand and a typical theropod foot. The study’s basal tyrannosauroid placement is an analysis result, not a direct-ancestor claim.
+## Scope of this PBDB occurrence guide {#s-586b54e164}
+This is a guide to PBDB occurrence records queried on 2026-10-02, not a species monograph. The fixed working roster contains 3,538 dinosaur entries; this page includes a matching accepted name with a parent path to the recorded Dinosauria anchor and a usable species-level occurrence without an uncertain-identification qualifier. PBDB may connect an accepted name to an older combination; that database link does not decide specimen identifications or all taxonomic disputes, and it does not merge the name with a same-name COL concept. Localities, stratigraphic intervals, depositional settings, and collection-level preservation modes describe different fields. They do not establish complete range, origin or extinction times, species-wide ecology, abundance, or every specimen’s condition. Original descriptions, revisions, morphology, diet, and behaviour remain incompletely assembled.
+
+## Three Yixian skeletons and a sampled placement {#s-8fc3f6864f}
+Three nearly complete *Yutyrannus huali* skeletons from the Yixian Formation represent two growth stages. They preserve long filamentous integument, a three-fingered hand, and a typical theropod foot. A sampled analysis places the species near the base of Tyrannosauroidea; this is an analysis result, not a direct-ancestor claim.
 
 ## Diet {#s-bc22605236}
 Diet is not resolved by the cited description.
@@ -43,9 +45,9 @@ A three-fingered manus and typical theropod pes are described
 ## Preserved features {#s-73f2fb3b88}
 Long filamentous integument is preserved in the named sample
 
-## Evidence and scope {#s-792ec7ff03}
-The three skeletons, their Yixian provenance and filamentous integument are direct observations. Colour, full-body coverage, insulation or display function, behaviour and performance are not observed; placement depends on the study’s sampled phylogenetic analysis.
+## Observed anatomy and limits of inference {#s-792ec7ff03}
+The three Yixian skeletons preserve long filaments. Their tyrannosauroid placement comes from a sampled phylogenetic analysis; the fossils do not establish the filaments’ colour or function.
 
-## Limits of this account {#s-78bac175e2}
-The specimen sample does not establish population-wide variation. It preserves filaments, but not their colour, complete body coverage or whether they provided insulation or display; diet, habitat preference and locomotor behaviour also remain unresolved.
+## What the three-skeleton sample cannot resolve {#s-78bac175e2}
+The anatomical and phylogenetic account concerns Xu et al.’s (2012) three-skeleton sample. The PBDB collection record has its own identification and age interval.
 

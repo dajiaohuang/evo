@@ -1,4 +1,6 @@
-## Two entries in the ecological route {#s-34e586e274}
+## Recorded classification and direct parent {#s-34e586e274}
+COL26.8 records Hyosciurus at genus rank, with Callosciurinae as its direct parent.
+
 Catalogue of Life COL26.8 records Hyosciurus as an accepted genus. EltonTraits 1.0 has two historical entries in this batch, Hyosciurus ileile and Hyosciurus heinrichi, grouped under the pinned ancestry. The field-group summary counts two foraging entries and two activity entries, with no diet group. These counts describe this compilation, not a complete species list; the missing diet group does not show that diet information is absent elsewhere. The methods metadata describes semiquantitative translation and interpolation, so read the entries as coded historical fields.
 
 ## What the route does not establish {#s-4522d1dd7e}

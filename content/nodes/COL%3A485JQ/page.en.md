@@ -5,5 +5,5 @@ MDD currently displays Kayan Slow Loris and records holotype AMNH M-106012 from 
 Munds and colleagues found that facial-marking combinations clustered geographically and used this evidence to support N. kayan among Bornean animals previously grouped under N. menagensis. They called for genetic testing and refinement. A 2023 study found that several pelage-named samples did not align one-to-one with molecular lineages, so this page does not present the diagnosis as a final resolution.
 
 ## Evidence limits {#s-94ad86906f}
-This profile is limited to the cited sources and their locality, specimen, sample and taxonomic scope. Its Chinese common name is an editorial translation. This entry is.
+The Kayan name is tied to one holotype from Peleben. Facial-marking clusters support the proposed taxon, but a 2023 molecular comparison found that several pelage-named samples did not align one-to-one with molecular lineages. The complete range and ecology remain undetermined. The Chinese common name is an editorial translation.
 

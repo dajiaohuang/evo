@@ -1,15 +1,15 @@
-## Liotyphlops schubarti in the pinned checklist {#s-2db86625e4}
-The pinned COL26.8 checklist accepts Liotyphlops schubarti as a species. Its ReptTraits v1-2 row follows the Reptile Database 2023 name framework. One row condenses the cited material, so the values describe the compiled entry rather than a uniform state across every sex, place, season or population.
+## COL26.8 name and the ReptTraits row {#s-2db86625e4}
+COL26.8 records Liotyphlops schubarti as an accepted species. The ReptTraits v1-2 row gives its Family field as Anomalepididae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Activity categories in the trait record {#s-cfe4b3a6d0}
-The entry records microhabitat is Fossorial. These broad categories do not give a full habitat, prey list or daily timetable. Multiple positions may be recorded. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-cfe4b3a6d0}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015.
 
-## Reproductive records for Liotyphlops schubarti {#s-81e4cb3bb6}
-The source labels the reproductive mode oviparous.  Summaries may use midpoints of reported means, or extrema when means are absent; they are not necessarily averages of observed clutches.  These labels do not establish fetal nutrition or uniformity across populations.
+## Reproductive fields in ReptTraits {#s-81e4cb3bb6}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-0b7ab88998}
-This supplemental record draws on limited trait material and is not a complete account of morphology or ecology. The ReptTraits v1-2 row uses its 2023 taxonomic framework and cites sources for individual traits. A single row compresses variation across sex, age, locality and populations; the same name and family do not guarantee equivalence to a later taxonomic concept. A reported maximum length is not an absolute species limit, and reproductive means are not fixed counts for every clutch. Many body-mass entries are estimated from length equations rather than measured mass. Juvenile-length fields use differing labels and definitions, so those values are not directly comparable without their source definitions. The compilation does not provide a current assessment of conservation, venom, geographic distribution or population trends; blank fields indicate unreported data. Some citation labels are inherited through the dataset source chain: they locate reported records but do not represent independent observations.
+## Reading this compiled trait record {#s-0b7ab88998}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits that remain unresolved {#s-27f976573e}
-The record has 2 traits matched to field-specific sources. This account leaves size measures, clutch counts, egg dimensions or breeding frequency, foraging mode, diet, activity timing, sex-determination mechanism unresolved. Blanks and values for relatives cannot fill those gaps.
+## Reading this compiled trait record {#s-27f976573e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

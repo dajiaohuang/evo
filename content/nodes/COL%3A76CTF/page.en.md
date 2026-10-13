@@ -1,34 +1,33 @@
-## Name and trait overview {#s-9defaad9ee}
-Pinned COL26.8 accepts *Pelodiscus sinensis* in Trionychidae. ReptTraits v1-2 compiles reported traits for this species under the Reptile Database 2023 name framework and retains citations by trait. The chapters below describe the compiled record; they do not imply that every population, sex or life stage shares the same characteristics.
+## COL26.8 name and the ReptTraits row {#s-9defaad9ee}
+COL26.8 records Pelodiscus sinensis as an accepted species. The ReptTraits v1-2 row gives its Family field as Trionychidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What the length record measures {#s-2d358ca01a}
-The row reports maximum straight carapace length (SCL) 330 mm; female maximum straight carapace length (SCL) 330 mm; male maximum straight carapace length (SCL) 270 mm. SCL measures the shell in a straight line, excluding head, neck and tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-2d358ca01a}
+The row reports a maximum straight carapace length (SCL) of 330 mm. ReptTraits attributes this field to Gong et al. 2022. The row reports a female maximum straight carapace length (SCL) of 330 mm. ReptTraits attributes this field to Gong et al. 2022. The row reports a male maximum straight carapace length (SCL) of 270 mm. ReptTraits attributes this field to Ernst and Lovich 2009. These overall and sex-specific maxima cite separate studies, but the row gives no matched sample ranges, sample sizes, or localities; they do not establish population-level sexual dimorphism.
 
-## Activity and diet labels {#s-a274773bd6}
-The row records microhabitat as Aquatic; foraging mode as active foraging. These are broad literature-derived labels; they indicate reported patterns, not a complete habitat, diet or year-round activity account, and a species-level row cannot show differences among localities, seasons or life stages.
+## Habitat use and activity labels {#s-a274773bd6}
+The microhabitat field classifies the recorded position as Aquatic. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Gong et al. 2022. The diet field classifies the entry as plant- and animal-eating (Omnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Rhodin et al. 2011.
 
-## Fields awaiting citation-scope review {#s-3619b99058}
-Citation scope remains unresolved for Diet. Harrington et al. (2018) studied snakes; the Rhodin et al. (2011) checklist concerns turtles. Support for the affected fields in this taxon has not been established here, so they are withheld from definite trait conclusions. Original values, categories and labels remain in the source archive; this does not establish that the values are wrong, and no replacement is inferred. Other chapters retain their own sources.
+## ReptTraits v1-2 field citations {#s-3619b99058}
+ReptTraits v1-2 records a cited source for each reported trait; the citation beside each value belongs to that field.
 
-## Reproductive fields and summary values {#s-78f07e9e7c}
-The row records oviparous reproduction (egg-laying); sex determination as genotypic (ZW/ZZ); consolidated mean of offspring or eggs per litter/clutch 14.5; lowest reported clutch/litter mean 8; highest reported clutch/litter mean 30; egg length 25 mm; egg width 25 mm. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-78f07e9e7c}
+The compiled mean for offspring per litter or eggs per clutch is 14.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to De Magalhaes and Costa 2009, Feldman et al. 2015. The lowest value among reported litter or clutch means is 8; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Bonin et al. 2006. The highest value among reported litter or clutch means is 30; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Bonin et al. 2006. The recorded egg length is 25 mm. ReptTraits attributes this field to Greer 1997. The recorded egg width is 25 mm. ReptTraits attributes this field to Greer 1997. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records GSD (ZW/ZZ). ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## The same-name row in the 2015 archive {#s-197a52ed5d}
-A second source is the August 2015 Amniote Database life-history archive. It contains a same-name, species-level row in Trionychidae; this page follows 4 fields with citation labels. The archive compiles historical literature and may carry values forward from older species or subspecies. Matching name and family support reading the records together, but do not establish equivalence to the COL26.8 concept or remove inherited values.
+## A 2015 life-history row for this name {#s-197a52ed5d}
+COL26.8 records Pelodiscus sinensis as an accepted species. The August 2015 life-history table has a species-name and family match (Trionychidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-af045705ae}
-Historical summary values are adult body mass 2327.5 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Length values in the archived records {#s-af045705ae}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 2327.5 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
-## Reproduction and developmental timing {#s-7b0152538e}
-Available compilation fields are offspring per litter or eggs per clutch 14.5 offspring/eggs; oviposition to hatching 61.5 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive events in the life-history table {#s-7b0152538e}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 3 recorded source-table values; oviposition to hatching: a mean of cited source values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 14.5; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993. The incubation field is 61.5 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## A longest record differs from usual lifespan {#s-8c249fbf69}
-The archive’s maximum_longevity_y value is 7.3 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## Longest lifespan in the archive {#s-8c249fbf69}
+The archive's longest-lifespan record is 7.3 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is Carey, J.R. and D.S. Judge, 2002.
 
-## How to trace these values to sources {#s-a282a4f16f}
-Same-name sparse rows carry source labels including Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; Reptile Incubation book; Carey, J.R. and D.S. Judge, 2002. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## The August 2015 life-history table {#s-a282a4f16f}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-88c4be4740}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
-This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
+## Separate histories in the two archives {#s-88c4be4740}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

@@ -1,10 +1,10 @@
-## Start with sourced trait records {#s-25338b2b68}
+## Recorded classification and member material {#s-25338b2b68}
 This batch’s ReptTraits route for Chelydroidea includes 26 same-name, same-family entries with trait-specific citations. Start with Chelydra acutirostris, Chelydra rossignonii, Chelydra serpentina, Claudius angustatus, Dermatemys mawii. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-5c3e9756d7}
 Among size records in this batch, Sternotherus depressus has a reported maximum straight carapace length (SCL) of 100 mm and Macrochelys temminckii 808 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Choose comparison pages by life-history fields {#s-e35e45a7db}
+## Amniote Life-history archive member records {#s-e35e45a7db}
 This batch’s Chelydroidea route includes 20 historical life-history accounts; start with Chelydra acutirostris, Chelydra rossignonii, Chelydra serpentina, Macrochelys temminckii, Dermatemys mawii. Fields retained within declared class scopes include adult body mass (20 entries), offspring per litter or eggs per clutch (20 entries), oviposition to hatching (19 entries), longest lifespan record in the compilation (19 entries). Counts describe this batch’s coverage, not the complete accepted-species denominator; read events, units and provenance before comparing values.
 
 ## Evidence limits {#s-b92a7b9f03}
@@ -16,12 +16,12 @@ Some descendant entries have class-scope cautions in source fields. Those values
 ## Citation gaps in some descendant accounts {#s-3dc237b4b1}
 In this ReptTraits route, some fields in 3 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 
-## Start with sourced trait records {#s-4d139eeb83}
-This batch’s ReptTraits route for Chelydroidea includes 11 same-name, same-family entries with trait-specific citations. Start with [Kinosternon abaxillare](Kinosternidae/Kinosternon/Kinosternon_abaxillare/page.en.md), [Kinosternon acutum](Kinosternidae/Kinosternon/Kinosternon_acutum/page.en.md), [Kinosternon chimalhuaca](Kinosternidae/Kinosternon/Kinosternon_chimalhuaca/page.en.md), [Kinosternon cora](Kinosternidae/Kinosternon/Kinosternon_cora/page.en.md), [Kinosternon dunni](Kinosternidae/Kinosternon/Kinosternon_dunni/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-4d139eeb83}
+This batch’s ReptTraits route for Chelydroidea includes 11 same-name, same-family entries with trait-specific citations. Start with Kinosternon abaxillare, Kinosternon acutum, Kinosternon chimalhuaca, Kinosternon cora, Kinosternon dunni. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
-## Choose comparisons by available fields {#s-18170d83d0}
+## ReptTraits member records {#s-18170d83d0}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Limits of these trait data {#s-1fb10d570f}
+## ReptTraits material route {#s-1fb10d570f}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

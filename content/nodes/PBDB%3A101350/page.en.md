@@ -1,19 +1,54 @@
 ## Which fossil records this name represents {#s-0af2bc8071}
 Palaeosciurus feignouxi is accepted in the fixed PBDB mammalia working roster, with database parent Palaeosciurus. This guide uses 4 eligible species-level occurrence records from 4 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-ac15b7bb03}
-Collection Cetina de Aragon (Zaragoza), region code ES; database age bracket 22.4–20 Ma, early interval MN 2. Collection Eggingen (Baden-Württemberg), region code DE, stratum name Lower Freshwater Molasse; database age bracket 23.04–20.45 Ma, early interval Aquitanian. Collection Santa Cilia (Huesca), region code ES; database age bracket 23.04–22.4 Ma, early interval MN 1. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Palaeosciurus feignouxi is listed in the PBDB snapshot under taxon txn:101350. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-62f8181481}
-Selected occurrences have an outer age envelope of 23.04–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Eggingen, occurrence occ:615346 (23.04–20.45 Ma); one supplying the younger bound is Gökler, occurrence occ:1498932 (23.04–15.98 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-ac15b7bb03}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-46c7544e5f}
-Cetina de Aragon has collection-environment label terrestrial indet.; collection preservation-mode label body. Eggingen has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. Santa Cilia has collection-environment label terrestrial indet.. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:615346; PBDB collection col:52566. Locality cnm=Eggingen; place fields cc2=DE, stp=Baden-Württemberg, cny=City of Ulm. Recorded age bounds: eag 23.04 Ma; lag 20.45 Ma; PBDB interval fields oei=Aquitanian. Stratigraphic fields sfm=Lower Freshwater Molasse. Recorded attribution Werner 1994; PBDB reference ref:18709.
 
-## Follow collection records back to references {#s-458c134035}
-Cetina de Aragon carries database reference attribution Daams (1974), identifier ref:9360. Eggingen carries database reference attribution Werner (1994), identifier ref:18709. Santa Cilia carries database reference attribution Alvarez Sierra et al. (1991), identifier ref:19173. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+stratigraphy is from Werner (1994)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Eggingen, WSW of Ulm, Bavaria (? Dehm, 1938)
+Eggingen today is part of the City of Ulm and thus is within Baden-Württemberg; the locality name "Eckingen" refers to a historical limestone quarry NW of Eggingen (R 3564525 H 5359675; Werner, 1994); coordinates, orignally entered as 48°21'48" N 9°52'44" E, have been changed accordingly (TL)
+
+- Occurrence occ:1498932; PBDB collection col:208576. Locality cnm=Gökler; place fields cc2=TR. Recorded age bounds: eag 23.04 Ma; lag 15.98 Ma; PBDB interval fields oei=Early Miocene. Recorded attribution Joniak et al. 2017; PBDB reference ref:72018.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Ar/Ar dates on volcanic ashes bracket section to 22.2 +/- 0.2 at base and 20.7+/- 0.2 Ma at top
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+NE of Gökler village in abandoned lignite quarry
+
+- Occurrence occ:378570; PBDB collection col:35750. Locality cnm=Cetina de Aragon; place fields cc2=ES, stp=Zaragoza. Recorded age bounds: eag 22.4 Ma; lag 20 Ma; PBDB interval fields oei=MN 2. Recorded attribution Daams 1974; PBDB reference ref:9360.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+between Cetina and Embid de Ariza, about 3 km north of the mainroad Zaragoza-Madrid, on the eastern slope of the valley.
+
+## Age bounds on the recorded occurrences {#s-62f8181481}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:615346; the smallest recorded lag=15.98 Ma in occ:1498932. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-46c7544e5f}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:615346: PBDB taxon-name field tna=Palaeosciurus feignouxi; PBDB locality-coordinate fields lng=9.870000, lat=48.371666; paleocoordinate/model fields pm1=gplates, pln=12.72, pla=44.25.
+- occ:1498932: PBDB taxon-name field tna=Palaeosciurus feignouxi; PBDB locality-coordinate fields lng=32.423058, lat=39.953609; paleocoordinate/model fields pm1=gplates, pln=33.36, pla=35.77.
+- occ:378570: PBDB taxon-name field tna=Palaeosciurus feignouxi; PBDB locality-coordinate fields lng=-1.967000, lat=41.299999; paleocoordinate/model fields pm1=gplates, pln=1, pla=37.79.
+
+## References attached to each record {#s-458c134035}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:615346: Recorded attribution Werner 1994; PBDB reference ref:18709.
+- occ:1498932: Recorded attribution Joniak et al. 2017; PBDB reference ref:72018.
+- occ:378570: Recorded attribution Daams 1974; PBDB reference ref:9360.
 
 ## Evidence limits {#s-d1490cc2ce}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,5 +1,5 @@
-## Find rows through older Phalacrocorax combinations {#s-ad9f4e304e}
-Pinned COL26.8 organizes this page at Leucocarbo carunculatus (6PTKH). BirdLife 2020 row 10928 and eBird 2021 row 5556 share the name and Avibase ID AVIBASE-09D4D411, with type 1BL to 1eBird; BirdTree row 5529 gives Phalacrocorax carunculatus, with type 1BL to 1BT. Catalogue synonym 4FQQD points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-ad9f4e304e}
+Catalogue of Life release COL26.8 records Leucocarbo carunculatus (J. F. Gmelin, 1789) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-9324396e92}
 Morphology comprises 5 birds: 3 female, 0 male and 2 unsexed; 3 complete sets. Nostril-to-tip beak length 56.9 mm, tarsus 63.5 mm, unflattened wing 287.8 mm, tail 119.8 mm and hand-wing index 36.7 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. No sexed male is present, so a female–male comparison is unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

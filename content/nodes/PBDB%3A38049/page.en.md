@@ -7,8 +7,8 @@ Start with Kaikaifilu hervei, Hainosaurus neumilleri, Hainosaurus boubker, Taniw
 ## Evidence limits {#s-d4515398e6}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## atlas-profile / overview {#s-85845cceed}
-Mosasauridae were marine reptiles with different limb forms. Bell and Polcyn’s 144-character analysis includes the plesiopedal genus Dallasaurus—whose limbs retain a less paddle-shaped condition—alongside hydropedal members with flipper-like limbs. The analysis places both conditions within the family; limb grade alone does not diagnose the group or make Dallasaurus a direct ancestor of later forms.
+## Dallasaurus and the family-level limb comparison {#s-85845cceed}
+A 144-character analysis places plesiopedal Dallasaurus and flipper-limbed hydropedal forms within Mosasauridae; limb grade alone does not define the family or show ancestry.
 
 ## atlas-profile / ecology / diet {#s-90e845ff8b}
 Mosasaurids were marine carnivores, but their diets were not uniform. Carbon-isotope measurements from tooth enamel in five Maastrichtian taxa support resource partitioning among that sample. The small sample does not establish one family-wide menu or fully separate the effects of prey, diving and habitat.
@@ -34,6 +34,6 @@ Two incomplete Dallasaurus skeletons preserve cranial, axial and limb characters
 ## atlas-profile / traits {#s-e1bdb98d1d}
 The sampled tree places plesiopedal and hydropedal limb conditions in separate lineages; this pattern is not a direct ancestor sequence.
 
-## atlas-profile / evidenceSummary {#s-fac092a3ab}
-The profile draws on two incomplete Dallasaurus skeletons and a 144-character phylogenetic analysis for morphology and limb evolution, five taxa for isotope-based ecological comparison, and a latest-Maastrichtian Mosasaurus hoffmanni specimen for a younger occurrence. Together they show a sampled envelope of roughly 92–66 Ma, not precise global first and last appearances for the family.
+## A sampled envelope, not global age bounds {#s-fac092a3ab}
+Two Dallasaurus skeletons, five isotope-sampled taxa and one younger Mosasaurus specimen frame a sampled ~92–66 Ma envelope, not family-wide age bounds.
 

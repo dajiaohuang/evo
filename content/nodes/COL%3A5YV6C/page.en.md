@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-5577b4ad16}
-Pinned COL26.8 organizes this page at Cinnyris coccinigastrus (5YV6C). BirdLife 2020 row 5951 and eBird 2021 row 2323 share the name and Avibase ID AVIBASE-48EC6C78, with type 1BL to 1eBird; BirdTree row 2316 gives Nectarinia coccinigaster, with type 1BL to 1BT. Read catalogue synonym 462N2, Nectarinia coccinigastra (Latham, 1802), differs in spelling from crosswalk name Nectarinia coccinigaster; the discrepancy is retained without declaring an exact old-name match confirmed. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-5577b4ad16}
+Catalogue of Life release COL26.8 records Cinnyris coccinigastrus (Latham, 1802) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-42fbc7e869}
 Morphology covers 8 birds: 3 female, 5 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 20.1 mm, tarsus 16.9 mm, unflattened wing 66.8 mm, tail 42.4 mm and hand-wing index 17.1 are historical row means. Inference=NO does not establish 8 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

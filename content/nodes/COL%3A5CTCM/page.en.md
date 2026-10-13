@@ -1,14 +1,14 @@
-## A historical entry under this name {#s-510fa6f845}
-COL26.8 accepts Yuhina everetti as a species in Zosteropidae. The 2015 life-history archive has same-name rows in this family for the 3 fields summarized here. Those rows offer a lead for comparison, but do not establish that the archive's historical taxon concept matches COL26.8; its summaries may carry inherited data.
+## Scope of the historical life-history entry {#s-510fa6f845}
+The August 2015 database has a same-name, same-family record for Yuhina everetti. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult body mass in the archive {#s-fc473e8664}
-The historical summary reports adult body mass of 11.9 g. Its adult records may combine males, females and adults of unspecified sex, so this value is not a range of individual body masses. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-fc473e8664}
+The August 2015 compilation reports adult body mass 11.9 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Clutch-size summary and hatching time {#s-d29cc2e125}
-The archive reports 3.5 offspring per litter or eggs per clutch, and 12 d from oviposition to hatching; d denotes days. The litter/clutch field combines offspring and egg counts, so a fractional summary does not mean one event produced a fraction of an individual. The timing fields describe different intervals, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-d29cc2e125}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.5; oviposition-to-hatching interval 12 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## What the archive's citations mean {#s-6fbc42bdd0}
-Rows under the same name carry labels including Dunning, 1992 and Bennett, 1986. The archive retains each field's raw row numbers, values and labels, along with the reference table's full explanations. A label may point to a primary paper, book or another database. Rows count records, not measured individuals, and repeated citations are not independent replication.
+## Sources and field limits {#s-6fbc42bdd0}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## How to read these life-history summaries {#s-a6d7982419}
 These summaries come from the 2015 life-history archive. The archive reports medians or averages of the two middle records; its maximum-longevity field instead uses the largest record found. These summaries are not measurements of one individual, ranges of individual variation, average wild lifespans or current population surveys. The compilation may share or inherit data among historical species and subspecies. A matching name and family, plus same-name rows, support a comparison but do not establish equivalence with the COL26.8 species concept or remove inherited data. Wild or captive conditions are not consistently confirmed, and the underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and other missing fields need additional sources.

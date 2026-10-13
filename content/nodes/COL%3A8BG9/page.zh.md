@@ -1,4 +1,6 @@
-## PanTHERIA 的本地数据路径 {#s-c1847ef4c8}
+## 记录分类与直接上级关系 {#s-c1847ef4c8}
+COL26.8 将 Zyzomys 记录为属；其直接上级记录为 Murinae。
+
 本地 PanTHERIA 路径包含 Zyzomys argurus 和 Z. woodwardi 两条可用数据记录。每条记录都保留其历史 MSW05 名称、各变量特定的数据条件和缺失字段。导航依据固定版本 COL26.8；这些历史行不代表当前接受种的分母。
 
 ## 两条记录的成年体重对比 {#s-7133dbe654}

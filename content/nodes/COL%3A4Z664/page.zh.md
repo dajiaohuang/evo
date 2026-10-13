@@ -1,5 +1,5 @@
-## 沿旧 Carduelis／Serinus 组合查历史行 {#s-b65ce5c053}
-本页按 COL26.8 的 Spinus xanthogastrus（4Z664）组织。BirdLife 2020 第 4168 行与 eBird 2021 第 9801 行同名，Avibase ID 为 AVIBASE-8E56A1C6，类型 1BL to 1eBird；BirdTree 第 9742 行记 Carduelis xanthogastra，类型 1BL to 1BT。本次读到目录异名 R6JZ，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-b65ce5c053}
+《Catalogue of Life》COL26.8（2026-08-20）将 Spinus xanthogastrus (Du Bus de Gisignies, 1855) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-6cc0055ad1}
 形态共 9 只鸟：雌 3、雄 4、性别未定 2；完整测量 4 只。鼻孔前缘至喙尖 7.8 mm、跗蹠 13.5 mm、未压平翼长 65.2 mm、尾长 40.5 mm、手翼指数 29.1 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体种子的处理能力。

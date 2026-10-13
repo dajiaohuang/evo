@@ -1,4 +1,4 @@
-## Overview {#s-be672f7ff9}
+## Pinned identity and MDD display label {#s-be672f7ff9}
 This page follows COL26.8 accepted species ID BVHH. The exact MDD v2.5 name record supplies the display label Preuss's Monkey; the Chinese name is editorial.
 
 ## Local knowledge {#s-20498ee37f}

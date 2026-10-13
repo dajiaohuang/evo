@@ -1,15 +1,15 @@
-## 以一件标本为科级研究提供锚点 {#s-94b808fedb}
-这里的恐鹤科 Phorusrhacidae 与阿根廷 Playa Los Lobos 的 Llallawavis scagliai 标本相联系。研究者把头骨和其他解剖特征放入形态矩阵，检验科内亲缘关系。研究也重建了感觉特征，但这些重建和更深层的科内系统树都属于依据有限样本提出的解释。
+## Llallawavis scagliai 在科级形态矩阵中的位置 {#s-94b808fedb}
+阿根廷 Playa Los Lobos 的 Llallawavis scagliai 标本为这份 Phorusrhacidae 内容提供了具名化石材料。研究者把它的头骨和其他解剖特征编码进形态矩阵，以检验恐鹤类内部关系。同一研究还重建了感觉特征；这些能力和更深层的科内关系是基于取样材料的解释，不是直接观察或完整祖先链。
 
-## 把年代区间理解为样本窗口 {#s-ccaeebf44e}
-页面所示的 360 万至 260 万年前区间对应 Llallawavis 标本样本，并非恐鹤科的完整历史。这是一个化石出现的定年窗口，不是整个恐鹤类的首现和末现。
+## 3.6–2.6 Ma 标记所取样的 Llallawavis 出现记录 {#s-ccaeebf44e}
+来源限定的上新世区间 3.6–2.6 Ma 对应阿根廷 Playa Los Lobos 的 Llallawavis 标本样本。这是单件化石的年代窗，不是 Phorusrhacidae 的全球首现或末现、科级起源或灭绝，也不表示连续存在。
 
-## 按来源分类组织化石记录 {#s-4e1cfe6754}
-Phorusrhacidae 是本批 PBDB 路径中的 family 分类名称。其下本批可读 22 个固定工作名录物种的出现导读；这里使用数据库记录的父级路径编排资料，不以资料条目数量评定类群演化重要性，也不把这一路径视为唯一系统发育方案。本路线只列本批非现生化石种条目，不能由此断言整个类群已经灭绝。
+## PBDB 分类链中的 Phorusrhacidae {#s-4e1cfe6754}
+PBDB 将 Phorusrhacidae 记录为科级，并在其下组织选出的化石种出现导读。这是一条浏览数据库记录的路径，不是完整的科级成员名录，也不是系统发育结果。路线只含化石条目，不表示所有相关成员或祖先都已收入。
 
-## 从采集地、地层和年代对读 {#s-c69dd87e30}
-可以从 Andrewsornis abbotti、Patagornis marshi、Paraphysornis brasiliensis、Titanis walleri、Phorusrhacos longissimus 开始，对照各页具名采集记录和原引文。本路线所含的全部本批物种合计有 71 条所选出现记录、43 个采集记录，地层名示例为 Sarmiento、Santa Cruz、Cerro Boleadoras、Tremembé。先读每个采集地自己的年代区间和鉴定限定，再看不同地点之间是否可比；出现、采集和物种数量不能混用为古种群规模。
+## 选录化石记录与具名地层 {#s-c69dd87e30}
+选出的记录导读包括 Andrewsornis abbotti、Patagornis marshi、Paraphysornis brasiliensis、Titanis walleri 和 Phorusrhacos longissimus。Sarmiento、Santa Cruz、Cerro Boleadoras 和 Tremembé 是这组记录中的地层名称。比较地点前，应依据来源核对每个采集记录的年代区间和鉴定；出现记录与采集记录不衡量古代种群规模。
 
-## 资料边界 {#s-5baf25e412}
-此路线只介绍本批已写物种出现记录，不是完整后代名册或统一生态总结。记录数不是标本、个体、种群或采样强度的可比测量；年代外包区间不是实际起源与灭绝时间。PBDB 分类路径用于资料编排，与 COL 和其他系统发育方案保持来源区分；。
+## 选出的 PBDB 记录能够说明什么 {#s-5baf25e412}
+选出的出现导读用于组织具名化石记录，不衡量标本、个体、种群或采样强度。其年代外侧边界不是 Phorusrhacidae 的实际起源或灭绝时间。PBDB 父级路径帮助浏览记录，并与 COL 分类及研究系统发育树保持区分。
 

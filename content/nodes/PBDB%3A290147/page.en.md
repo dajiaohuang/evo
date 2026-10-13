@@ -1,18 +1,38 @@
-## Which fossil records this name represents {#s-0893be5885}
-Ornimegalonyx oteroi is accepted in the fixed PBDB dinosaur working roster, with database parent Ornimegalonyx. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-0893be5885}
+Ornimegalonyx oteroi is listed in the PBDB snapshot under taxon txn:290147. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-5013ec428e}
-Collection Cueva Pío Dominga owl locality (Cuba) (Sierra de Sumidero), region code CU; database age bracket 2.58–0.0117 Ma, early interval Pleistocene. Collection Cueva de Paredones, Ceiba del Agua (Artemisa), region code CU; database age bracket 0.129–0 Ma, early interval Late Pleistocene and late interval Holocene. Collection Cueva del Túnel, La Salud (Mayabeque), region code CU; database age bracket 0.129–0 Ma, early interval Late Pleistocene and late interval Holocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-5013ec428e}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-f58ac6c308}
-Selected occurrences have an outer age envelope of 2.58–0 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:149835; PBDB collection col:13264. Locality cnm=Cueva Pío Dominga owl locality (Cuba); place fields cc2=CU, stp=Sierra de Sumidero, cny=Pinar del Río. Recorded age bounds: eag 2.58 Ma; lag 0.0117 Ma; PBDB interval fields oei=Pleistocene. Recorded attribution Brodkorb 1961; PBDB reference ref:4396.
 
-## Read preservation setting separately from living habitat {#s-126d9ba7dc}
-Cueva Pío Dominga owl locality (Cuba) has collection-environment label terrestrial indet.; collection preservation-mode label body. Cueva de Paredones, Ceiba del Agua has collection-environment label cave; collection preservation-mode label body. Cueva del Túnel, La Salud has collection-environment label cave; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1412037; PBDB collection col:195083. Locality cnm=Cueva de Paredones, Ceiba del Agua; place fields cc2=CU, stp=Artemisa. Recorded age bounds: eag 0.129 Ma; lag 0 Ma; PBDB interval fields oei=Late Pleistocene, oli=Holocene. Recorded attribution Arredondo 1972; PBDB reference ref:66345.
 
-## Follow collection records back to references {#s-eada745394}
-Cueva Pío Dominga owl locality (Cuba) carries database reference attribution Brodkorb (1961), identifier ref:4396. Cueva de Paredones, Ceiba del Agua carries database reference attribution Arredondo (1972), identifier ref:66345. Cueva del Túnel, La Salud carries database reference attribution Arredondo (1972), identifier ref:66345. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Municipality of Caimito, Artemisa (formerly La Habana) Province
 
-## Evidence limits {#s-2511fcca40}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1412053; PBDB collection col:153777. Locality cnm=Cueva del Túnel, La Salud; place fields cc2=CU, stp=Mayabeque. Recorded age bounds: eag 0.129 Ma; lag 0 Ma; PBDB interval fields oei=Late Pleistocene, oli=Holocene. Recorded attribution Arredondo 1972; PBDB reference ref:66345.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+La Salud
+
+## Age bounds on the recorded occurrences {#s-f58ac6c308}
+Across these selected PBDB rows, the largest recorded eag=2.58 Ma in occ:149835; the smallest recorded lag=0 Ma in occ:1412037. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-126d9ba7dc}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:149835: PBDB taxon-name field tna=Ornimegalonyx oteroi; material note ocm=Ornimegalonyx arredondoi is an objective junior synonym of O. oteroi; PBDB locality-coordinate fields lng=-83.666664, lat=22.583332; paleocoordinate/model fields pm1=gplates, pln=-83.33, pla=22.76.
+- occ:1412037: PBDB taxon-name field tna=Ornimegalonyx oteroi; PBDB locality-coordinate fields lng=-82.635002, lat=22.879999; paleocoordinate/model fields pm1=gplates.
+- occ:1412053: PBDB taxon-name field tna=Ornimegalonyx oteroi; PBDB locality-coordinate fields lng=-82.419998, lat=22.875000; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-eada745394}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:149835: Recorded attribution Brodkorb 1961; PBDB reference ref:4396.
+- occ:1412037: Recorded attribution Arredondo 1972; PBDB reference ref:66345.
+- occ:1412053: Recorded attribution Arredondo 1972; PBDB reference ref:66345.
+
+## What these records can show {#s-2511fcca40}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

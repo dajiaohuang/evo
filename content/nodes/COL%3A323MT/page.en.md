@@ -1,29 +1,29 @@
-## The name and this data account {#s-3ec7eaf304}
-Crypturellus parvirostris is accepted in COL26.8 within Tinamidae. AVONET v7 reports measurements under its HBW–BirdLife 2020 name. The source lists 14 measured individuals, 4 with a complete morphological set; sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-3ec7eaf304}
+The AVONET v7 row for Crypturellus parvirostris (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.5 mm. The row records 14 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-618e207269}
-Mean beak measurements are 9.5 mm from the anterior edge of the nostril to the tip, 4.3 mm wide and 4.2 mm deep at that edge. These are separate dimensions taken at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-618e207269}
+AVONET records culmen length (bill tip to skull base) 19.3 mm; beak length (nostril front edge to tip) 9.5 mm; beak width at the nostril front edge 4.3 mm; beak depth at the nostril front edge 4.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-b8870169ab}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 111.1 mm; mean tarsus length is 25.7 mm. The compiled mean body mass is 198.99 g, with source category Dunning. Mass comes from a separate species-average source, so the morphological sample does not imply that every bird was weighed.
+## Wing and body measures use separate sources {#s-b8870169ab}
+AVONET records unflattened wing length 111.1 mm; tarsus length 25.7 mm; distance from first secondary tip to longest primary tip 27 mm; length to first secondary tip 82.6 mm; hand-wing index 24.7; tail length 37.3 mm; species-average body mass 198.99 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-f679dd9586}
-The dataset records Shrubland as the habitat, Omnivore as the trophic niche and Terrestrial as the lifestyle. These dominant categories support comparisons; they do not mean the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-f679dd9586}
+AVONET classifies Crypturellus parvirostris as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-41e13c2157}
-The migration field classifies the record as sedentary. Historical breeding and resident maps have latitude endpoints of -28.61° and -0.38°. They do not provide a complete account of non-breeding movements, a current position or a global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-41e13c2157}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -28.61° to -0.38°. The mapped range area is 6659535.62 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-aeb4e3669d}
-This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; matching names do not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-aeb4e3669d}
+EltonTraits 1.0 has a same-name, same-family record for Crypturellus parvirostris covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-416fa5f22f}
-The archive gives nonzero food weights of 60% for seeds, nuts and spores included in this category, and 40% for invertebrates. Source code A records high compiler confidence in the source and diet information. The percentages standardize verbal descriptions; they are not measured diet composition, and a zero does not prove that a food is never eaten. Nect, Seed and PlantO are broader than their everyday names and do not show exclusive feeding on nectar, seeds or plants.
+## Relative weights across food categories {#s-416fa5f22f}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 40%; seeds or nuts 60%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-ebb4deb734}
-Foraging-stratum weights marked as species-level in the archive are ground 100%. They estimate relative use of feeding positions, not nest sites, all habitat or time spent over an entire day. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot establish flight heights or habitat area.
+## Foraging positions are not a time budget {#s-ebb4deb734}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-13c7ec8737}
-The used field groups carry source label Ref_1. Diet, foraging strata and activity can draw on different material; the same Ref number in bird and mammal reference tables does not mean the same source. This batch retains the original strings by file, row, field group and reference table. The underlying books and papers have not been read individually, and repeated labels are not new independent observations.
+## Sources and field limits {#s-13c7ec8737}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-e90a5e0d3a}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so morphological sample counts cannot be applied to it. Habitat, diet and migration are coarse categories, while geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name support the association used here; they do not prove that species concepts remained equivalent after later splits or lumps. Reproduction, current populations and conservation status require other sources.

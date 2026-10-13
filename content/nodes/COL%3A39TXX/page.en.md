@@ -1,15 +1,15 @@
-## Name and this data account {#s-e8597ede08}
-Enhydris subtaeniata is accepted in pinned COL26.8 within Homalopsidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-e8597ede08}
+COL26.8 records Enhydris subtaeniata as an accepted species. The ReptTraits v1-2 row gives its Family field as Homalopsidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-156d899b5e}
-Recorded dimensions are reported maximum snout–vent length (SVL) 537.5 mm; reported maximum total length (TL) 870 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-156d899b5e}
+The row reports a maximum SVL of 537.5 mm. ReptTraits attributes this field to Karns et al. 2010. The row reports maximum total length (TL) of 870 mm. ReptTraits attributes this field to Karns et al. 2010. This row records TL and SVL in separate fields; the captured definitions provide no conversion between them.
 
-## Where and how it is active {#s-b93d09bd08}
-In the entry, microhabitat is Aquatic. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-b93d09bd08}
+The microhabitat field classifies the recorded position as Aquatic. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Bars-Closel et al. 2017.
 
-## How to read reproductive records {#s-b9db23d06a}
-the reproductive-mode field uses the original label viviparous. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-b9db23d06a}
+The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-99fc33c250}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-99fc33c250}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

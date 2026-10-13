@@ -45,6 +45,7 @@ export function isPreviewRouteLocked(
   allowRemoteRegistry = false,
 ): boolean {
   if (!preview) return false
+  if (route === 'pbdb') return true
   if (route === 'registry' && allowRemoteRegistry) return false
   if (route === 'taxa') return !params.get('id') || !isPreviewTaxonAllowed(params.get('id'))
   if (route === 'explore') {

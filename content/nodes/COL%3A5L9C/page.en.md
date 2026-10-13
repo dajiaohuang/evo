@@ -1,4 +1,6 @@
-## A genus page with a limited reading route {#s-5b9c417d1c}
+## Recorded classification and direct parent {#s-5b9c417d1c}
+COL26.8 records Margaretamys at genus rank, with Murinae as its direct parent.
+
 COL26.8 records Margaretamys as an accepted genus. The historical EltonTraits route attached here points to three named entries: Margaretamys beccarii, Margaretamys elegans and Margaretamys parvus. All three have a foraging-stratum field; none has a food-category weight or mammalian activity-period field in this route. These counts describe the records collected here, not the genus’s complete membership. They also do not show that a field missing from the route is absent from the animals.
 
 ## What this page does and does not summarize {#s-442a7787cf}

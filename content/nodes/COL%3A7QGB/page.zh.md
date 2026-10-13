@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-a4f00398a8}
+## 记录分类与直接上级关系 {#s-a4f00398a8}
+COL26.8 将 Sus 记录为属；其直接上级记录为 Suidae。
+
 Sus 的本地 PanTHERIA 路径包括 3 条可用数据导读，可从 Sus cebifrons、Sus philippensis、Sus verrucosus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-eceb770693}

@@ -1,10 +1,10 @@
-## Start with the historical entries {#s-311a1f2021}
+## Recorded classification and member material {#s-311a1f2021}
 The local PanTHERIA route for Prototheria includes 2 usable data accounts. Start with Ornithorhynchus anatinus, Tachyglossus aculeatus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-13dd190f58}
 Among available consolidated adult-mass values in this batch, Ornithorhynchus anatinus records 1484.25 g and Tachyglossus aculeatus records 4499.97 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-0d991c3015}
+## Amniote Life-history archive member records {#s-0d991c3015}
 This batch’s Prototheria route includes 4 historical life-history accounts; start with Ornithorhynchus anatinus, Tachyglossus aculeatus, Zaglossus bartoni, Zaglossus bruijni. Fields retained within declared class scopes include adult body mass (4 entries), offspring per litter or eggs per clutch (4 entries), conception or fertilization to birth (4 entries), age of dependence on food other than maternal milk (4 entries). Counts describe this batch’s coverage, not the complete accepted-species denominator; read events, units and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-4b542463e9}

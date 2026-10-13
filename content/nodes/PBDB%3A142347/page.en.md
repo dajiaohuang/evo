@@ -1,19 +1,37 @@
 ## Which fossil records this name represents {#s-033fe9c0b5}
 Adelosaurus huxleyi is accepted in the fixed PBDB other-reptilia working roster, with database parent Adelosaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-7c26f47253}
-Collection Middridge, Durham (England), region code UK, stratum name Marl Slate; database age bracket 259.857–254.14 Ma, early interval Wuchiapingian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Adelosaurus huxleyi is listed in the PBDB snapshot under taxon txn:142347. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-afc472473c}
-Selected occurrences have an outer age envelope of 259.857–254.14 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Middridge, Durham, occurrence occ:799563 (259.857–254.14 Ma); one supplying the younger bound is Middridge, Durham, occurrence occ:799563 (259.857–254.14 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-7c26f47253}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-5b877120bb}
-Middridge, Durham has collection-environment label coastal indet.; collection preservation-mode label body,adpression. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:799563; PBDB collection col:87004. Locality cnm=Middridge, Durham; place fields cc2=UK, stp=England, cny=Durham. Recorded age bounds: eag 259.857 Ma; lag 254.14 Ma; PBDB interval fields oei=Wuchiapingian. Stratigraphic fields sfm=Marl Slate. Recorded attribution Evans 1988; PBDB reference ref:29271.
 
-## Follow collection records back to references {#s-db7ed38269}
-Middridge, Durham carries database reference attribution Evans (1988), identifier ref:29271. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+the Marl Slate is the "first member of the English Zechstein succession" (Pettigrew, 1979) and equivalent to the Kupferschiefer of Germany. Brauns et al. (2003) reported a date of 257.3 +/- 2.6 Ma (Wuchiapingian) for the Kupferschiefer based on a Re-Os geochronological study. The presence of the conodont Mesogondolella britannica in Kupferschiefer equivalents supports a middle Wuchiapingian age.
+According to the British Geological Survey Lexicon of Named Rock Units (http://www.bgs.ac.uk/lexicon/lexicon.cfm?pub=MLSL) the Marl Slate has formational status and is a subunit of the Zechstein Group.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Railway cutting, 1 km south-south-west of Middridge, Durham, England (NZ 2455 2535)" (Evans, 1988). Middridge is a small village near the town of Shildon, about 25 km WNW of Middlesbrough, and about 40 km S of Newcastle, northeastern England.
+
+## Age bounds on the recorded occurrences {#s-afc472473c}
+Across these selected PBDB rows, the largest recorded eag=259.857 Ma in occ:799563; the smallest recorded lag=254.14 Ma in occ:799563. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5b877120bb}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:799563: PBDB original-identification field idn=Protorosaurus huxleyi n. sp.; PBDB taxon-name field tna=Adelosaurus huxleyi; material note ocm=NEWHM G.26.49 (type); abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-1.621111, lat=54.622223; paleocoordinate/model fields pm1=gplates, pln=20.99, pla=27.
+
+## References attached to each record {#s-db7ed38269}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:799563: Recorded attribution Evans 1988; PBDB reference ref:29271.
 
 ## Evidence limits {#s-e4c0ee6f4c}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 429-item other-reptilia working roster, retain the current same name and a complete parent chain to the recorded Reptilia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

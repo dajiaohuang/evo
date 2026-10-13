@@ -1,18 +1,39 @@
-## Which fossil records this name represents {#s-fd4721a996}
-Tyto balearica is accepted in the fixed PBDB dinosaur working roster, with database parent Tyto. This guide uses 8 eligible species-level occurrence records from 8 collections and 5 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-fd4721a996}
+Tyto balearica is listed in the PBDB snapshot under taxon txn:94154. This archived guide contains 8 selected occurrence rows, linked to 8 distinct PBDB collection IDs and 5 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-828a421495}
-Collection Barranc de Binigaus (Menorca), region code ES; database age bracket 3.6–0.774 Ma, early interval Late Pliocene and late interval Early Pleistocene. Collection Cova de Canet (Majorca (Mallorca)), region code ES; database age bracket 3.6–2.58 Ma, early interval Late Pliocene. Collection Pedrera de S'Onix (Majorca (Mallorca)), region code ES; database age bracket 3.6–0.774 Ma, early interval Late Pliocene and late interval Early Pleistocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-828a421495}
+The archived guide contains 8 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-0ae9380bf8}
-Selected occurrences have an outer age envelope of 12.75–0.129 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1576616; PBDB collection col:78572. Locality cnm=Hostalets de Pierola inferior; place fields cc2=ES, stp=Cataluña. Recorded age bounds: eag 12.75 Ma; lag 11.1 Ma; PBDB interval fields oei=MN 7 + 8. Recorded attribution Sánchez‐Marco 2021; PBDB reference ref:78374.
 
-## Read preservation setting separately from living habitat {#s-5845a1dbbd}
-Barranc de Binigaus has collection-environment label terrestrial indet.; collection preservation-mode label body. Cova de Canet has collection-environment label terrestrial indet.; collection preservation-mode label body. Pedrera de S'Onix has collection-environment label karst indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:641097; PBDB collection col:69062. Locality cnm=Castiglione 3; place fields cc2=FR, stp=Corse, cny=departement Haute-Corse. Recorded age bounds: eag 0.774 Ma; lag 0.129 Ma; PBDB interval fields oei=Middle Pleistocene. Recorded attribution Salotti et al. 1997; PBDB reference ref:19913.
 
-## Follow collection records back to references {#s-8ef6e8e85f}
-Barranc de Binigaus carries database reference attribution Mourer-Chauvire et al. (1980), identifier ref:19858. Cova de Canet carries database reference attribution Mourer-Chauvire et al. (1980), identifier ref:19858. Pedrera de S'Onix carries database reference attribution Mourer-Chauvire et al. (1980), identifier ref:19858. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+the fossiliferous deposit is located from 39m to 33m below ground level, at the intersection between 2 narrow, perpendicular fissures.
+Th/U method gives an age of 157,000 y (+22,200/-17,300)
 
-## Evidence limits {#s-c57e2d0aa4}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+northern Corsica, about 2-3 km south of Saint Florent, 4 km NW from Oletta, in the karstic area along the small river "l'Alliso"
+
+- Occurrence occ:639305; PBDB collection col:68814. Locality cnm=Barranc de Binigaus; place fields cc2=ES, stp=Menorca, cny=Es Migjorn. Recorded age bounds: eag 3.6 Ma; lag 0.774 Ma; PBDB interval fields oei=Late Pliocene, oli=Early Pleistocene. Recorded attribution Mourer-Chauvire et al. 1980; PBDB reference ref:19858.
+
+## Age bounds on the recorded occurrences {#s-0ae9380bf8}
+Across these selected PBDB rows, the largest recorded eag=12.75 Ma in occ:1576616; the smallest recorded lag=0.129 Ma in occ:641097. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5845a1dbbd}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1576616: PBDB taxon-name field tna=Tyto balearica; PBDB locality-coordinate fields lng=0.500000, lat=42.200001; paleocoordinate/model fields pm1=gplates, pln=2.17, pla=40.2.
+- occ:641097: PBDB taxon-name field tna=Tyto balearica; PBDB locality-coordinate fields lng=9.298056, lat=42.665001; paleocoordinate/model fields pm1=gplates.
+- occ:639305: PBDB taxon-name field tna=Tyto balearica; material note ocm=proximal end of a left coracoid; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=4.000000, lat=39.916668; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-8ef6e8e85f}
+The archived guide links the rows to 5 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1576616: Recorded attribution Sánchez‐Marco 2021; PBDB reference ref:78374.
+- occ:641097: Recorded attribution Salotti et al. 1997; PBDB reference ref:19913.
+- occ:639305: Recorded attribution Mourer-Chauvire et al. 1980; PBDB reference ref:19858.
+
+## What these records can show {#s-c57e2d0aa4}
+This is a guide to 8 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

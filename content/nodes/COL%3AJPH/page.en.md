@@ -1,26 +1,24 @@
-## PanTHERIA entries for the Pan species {#s-1b974c2ff5}
-PanTHERIA has usable entries here for *Pan paniscus* and *Pan troglodytes*. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; these historical rows are not the current accepted-species roster for Homininae.
+## Two PanTHERIA entries {#s-1b974c2ff5}
+The historical PanTHERIA route has usable entries for Pan paniscus and Pan troglodytes. Each species page retains its MSW05 name, variable-specific source conditions, and missing fields. COL26.8 supplies the navigation placement; these two archive rows are not a current Homininae species roster.
 
-## Comparing the Pan body-mass summaries {#s-7372570207}
-Among the available adult-mass summaries, *Pan paniscus* is at the lower endpoint, 35119.95 g, and *Pan troglodytes* at the upper endpoint, 45000 g. These historical medians were adjusted for sex. Other records describe fetal development, weaning, activity and group size; body mass alone does not establish a shared lifestyle for Homininae.
+## Two historical adult-mass summaries {#s-7372570207}
+In this PanTHERIA comparison, the sex-adjusted adult-mass median is 35,119.95 g for Pan paniscus and 45,000 g for Pan troglodytes. These are compiled historical summaries, not individual extremes. The archive also has fetal-development, weaning, activity, and group-size fields; mass alone does not define a lifestyle shared by Homininae.
 
-## A wider historical life-history comparison {#s-1dfa2dca04}
-The wider historical life-history comparison includes *Gorilla beringei*, *Gorilla gorilla*, *Homo sapiens*, *Pan paniscus* and *Pan troglodytes*. All five entries report adult body mass, female age at first conception, litter or clutch size, and time from conception or fertilization to birth. These counts describe the records available here, not the complete accepted-species roster. Check each field’s event, unit and source conditions before comparing values.
+## Five entries in a separate life-history archive {#s-1dfa2dca04}
+The Amniote life-history archive contributes Gorilla beringei, Gorilla gorilla, Homo sapiens, Pan paniscus, and Pan troglodytes. All five entries report adult mass, female age at first conception, litter or clutch size, and conception- or fertilization-to-birth time. This is the coverage of those historical records, not the accepted-species count for Homininae. Compare each field only with its event, unit, and source conditions in view.
 
-## What ecological records are available? {#s-d6ed036668}
-The historical EltonTraits comparison covers *Gorilla gorilla*, *Gorilla beringei*, *Homo sapiens*, *Pan paniscus* and *Pan troglodytes*. Four entries have food-category weights; all five have foraging-stratum and mammalian activity fields. Weights are coarse estimates, strata are categories, and activity fields are binary codes. These counts describe the available records, not the entire accepted-species roster or a shared ecology for Homininae.
+## Five EltonTraits records {#s-d6ed036668}
+The historical EltonTraits set covers the same five named species. Four entries have food-category weights; all five have foraging-stratum and mammalian activity fields. Weights are coarse estimates, strata are categories, and activity values are binary codes. These counts describe this archive extract, not a shared ecology or complete descendant roster.
 
-## Evidence limits {#s-bc32383af2}
-The comparisons bring together historical entries with at least three focal fields, matching names and families, and one-to-one historical correspondence. They do not cover every accepted descendant. Endpoints are compiled values, not individual extremes for the group. Source conditions differ among fields, so consult the species accounts and original variable definitions. These records do not establish current species concepts, distribution or conservation status.
-The life-history entries are historical same-name, same-family records with at least three supported fields, not a complete catalogue of descendants. Compiled medians, maximum-lifespan records and inherited historical taxonomy have their own limits; membership in Homininae does not mean all descendants share one reproductive mode or life history. Broader biological and current-status claims require other evidence.
-The ecological comparison uses historical same-name, same-family records with at least two usable field groups. Food types, estimated weights and activity patterns are not traits of the whole group. Semiquantitative conversions, historical taxonomy and possible congener borrowing in ABC-coded fields limit interpretation of each record. These entries are not complete species accounts.
+## Checklist placement and evidence limits {#s-bc32383af2}
+COL26.8 records the accepted parent placement of Pan troglodytes under Homininae in this release; that checklist statement does not assert phylogeny or universal consensus. The historical datasets were grouped by name, family, and their own mapping rules. Their small, non-complete samples do not establish Homininae-wide traits, Missing fields and source-specific conditions remain visible.
 
-## Open the Pan life-history accounts {#s-3cbda3949a}
-Two historical life-history accounts are linked here: [*Pan troglodytes*](Pan/Pan_troglodytes/page.en.md) and [*Pan paniscus*](Pan/Pan_paniscus/page.en.md). The links follow pinned COL26.8 classification; they do not represent every accepted species in Homininae.
+## Two Pan life-history pages {#s-3cbda3949a}
+This route includes historical life-history accounts for Pan troglodytes and Pan paniscus. Their placement follows the pinned COL26.8 navigation. They are two authored records, not every accepted species assigned to Homininae.
 
-## Distinguish averages from records {#s-df3a9fa390}
-Both Pan accounts report gestation and female age at first reproduction; one reports maximum lifespan. First reproduction differs from first birth and sexual maturity, while maximum lifespan differs from average lifespan. Source conditions can differ among traits. Missing fields need other sources, and matching names do not resolve historical changes in species concepts.
+## Separate averages from maximum records {#s-df3a9fa390}
+Both Pan accounts report gestation and female age at first reproduction; one also reports maximum lifespan. First reproduction is not the same event as first birth or sexual maturity. Maximum lifespan is a longest recorded value, not an average. The underlying conditions can differ by trait, and a missing field is not supplied from a relative.
 
-## Limits of these historical data {#s-bc5e5b6efc}
-The two Pan accounts summarize historical life-history records, not every accepted descendant or the complete biology of Homininae. They associate names through family matches and a one-to-one MSW93/MSW05 table; equivalence with current species concepts remains unproven. Except for maximum lifespan, fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample size does not determine weight, and underlying studies may overlap. Maximum lifespan is the longest record, not typical lifespan. Adult mass is not interpreted in these accounts, and relatives do not fill missing fields. Original reference numbers remain on each page; wild, captive and locality conditions have not been established consistently, and the cited species literature has not been individually reviewed here.
+## How to read these life-history records {#s-bc5e5b6efc}
+The accounts use matching names and families plus a one-to-one MSW93/MSW05 mapping; equivalence to current species concepts is unproven. Except for maximum lifespan, values generally average literature inputs with equal weight, whether those inputs are published averages, individual values, or range midpoints. Sample size does not set the weight, and sources may overlap. The pages retain source numbers, but this batch has not reviewed every underlying paper or consistently established wild, captive, or locality conditions.
 

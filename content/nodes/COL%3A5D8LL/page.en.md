@@ -1,14 +1,14 @@
-## What this historical entry can tell us {#s-e95d3c4a88}
-COL26.8 lists Zosterops abyssinicus as accepted within Zosteropidae. EltonTraits 1.0 contains a historical entry with the same name and family. Its two usable groups describe food categories and feeding positions; the older source taxonomy does not resolve later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-e95d3c4a88}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops abyssinicus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Food categories in the archive {#s-d8a3937f1f}
-The archive assigns 70% to invertebrates and 30% to fruit. Code A means the compilers rated the source and diet information highly. These are standardized weights based on written descriptions, not measured shares of food eaten; a zero would not prove that a food is never taken. Source labels such as Nect, Seed and PlantO cover broader categories than their everyday names, so they do not imply an exclusive diet.
+## Relative weights across food categories {#s-d8a3937f1f}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 70%; fruit 30%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Where the record places feeding {#s-28941ee86e}
-The species-level stratum weights are 70% in trees or tall shrubs from 2 m upward but below the canopy, and 30% in understory, edges or shrubs below 2 m. They describe relative use of feeding positions, not nest sites, all habitat or time spent there through the day. The source’s water, understory, mid/high, canopy and aerial classes have distinct definitions; they are not elevation bands and cannot be used to calculate flight height or habitat area.
+## Foraging positions are not a time budget {#s-28941ee86e}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 30%; in mid-height or high vegetation 70%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Sources behind the two field groups {#s-a958882f64}
-The diet fields cite Ref_13 and the feeding-stratum fields cite Ref_47. Each label belongs to its own bird reference entry. The archive keeps the full source strings with the data file, row, field group and reference table. Those labels point to material; they are not extra observations, and the underlying books have not been individually reviewed here.
+## Sources and field limits {#s-a958882f64}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Zimmerman, D. A., D. A. Turner, D. J. Pearson, I. Willis, and H. D. Pratt. 1996. Birds of Kenya and northern Tanzania. Princeton University Press Princeton.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits of this foraging record {#s-90cfe4114d}
 This is a guide to EltonTraits 1.0’s historical same-name, same-family record, not a complete account of Zosterops abyssinicus. The food weights translate literature descriptions into coarse proportions; they are not stomach contents, intake, energy or observation-time measurements. The listed sources and historical classification support the association but do not establish equivalence with the COL26.8 species concept. Local, seasonal and individual differences, current range, population and conservation status need other sources; the cited books have not been individually reviewed here.

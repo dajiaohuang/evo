@@ -1,15 +1,15 @@
-## A comparatively long length record anchors the profile {#s-d6b5187b5e}
-The accepted COL26.8 name Ameiva pantherina is placed in Teiidae. ReptTraits records a 152 mm maximum snout–vent length, a terrestrial and daytime profile, and an oviparous label. Each detail belongs to a compiled species row, not a single measured animal or monitored population.
+## COL26.8 name and the ReptTraits row {#s-d6b5187b5e}
+COL26.8 records Ameiva pantherina as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The 152 mm value stops before the tail {#s-cca4d5777c}
-The row’s maximum snout–vent length is 152 mm; this measurement runs from the snout to the body opening and excludes the tail. It is a reported maximum rather than a typical adult size or an upper bound for every individual.
+## Length values in the archived records {#s-cca4d5777c}
+The row reports a maximum SVL of 152 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Land, daytime, and an animal-based diet label {#s-a016c8e263}
-The source categorizes the microhabitat as terrestrial, activity as diurnal, and diet as carnivorous. “Carnivorous” does not name particular prey, while terrestrial and diurnal do not identify one habitat or a strict daily schedule.
+## Habitat use and activity labels {#s-a016c8e263}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## An egg-laying mode and a fractional summary {#s-c0e720bec3}
-Reproduction is labelled oviparous. The consolidated clutch/litter field is 1.5; because the source field summarizes reported means, the decimal is not a fraction of an egg in a nest. It does not guarantee that a clutch contains one or two eggs, and no endpoint range is provided here.
+## Reproductive fields in ReptTraits {#s-c0e720bec3}
+The compiled mean for offspring per litter or eggs per clutch is 1.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Keep the compilation in its source frame {#s-b556c3f055}
-The trait workbook retains its 2023 name framework; COL26.8 is the pinned placement on this page. Shared names do not prove the concepts cover the same specimens. The one-row entry also compresses variation among sex, age, places and populations; it does not update current range or conservation.
+## Reading this compiled trait record {#s-b556c3f055}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

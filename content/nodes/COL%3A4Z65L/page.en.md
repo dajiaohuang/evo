@@ -1,5 +1,5 @@
-## Find rows through older Carduelis/Serinus combinations {#s-cfcb0271e2}
-Pinned COL26.8 organizes this page at Spinus barbatus (4Z65L). BirdLife 2020 row 4152 and eBird 2021 row 9785 share the name and Avibase ID AVIBASE-AE31F0F3, with type 1BL to 1eBird; BirdTree row 9726 gives Carduelis barbata, with type 1BL to 1BT. Read catalogue synonym R6J4 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-cfcb0271e2}
+Catalogue of Life release COL26.8 records Spinus barbatus (Molina, 1782) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-f73737ebaa}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8.3 mm, tarsus 16.3 mm, unflattened wing 72.2 mm, tail 48.9 mm and hand-wing index 31.1 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

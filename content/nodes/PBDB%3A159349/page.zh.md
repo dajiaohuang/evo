@@ -14,23 +14,50 @@
 E. lii 出自较老的义县组，且在形态上接近来自较年轻九佛堂组的 S. dongi，因此作者提出两者可能是渐进演化过程中的时间种。这仍是假说，并非已证祖先—后代链。仅凭地层先后与形态相似，无法证明直接祖先关系、精确化石年代或两物种是否曾同时生活。
 
 ## 与相关物种的比较一起阅读 {#s-5e2cecce72}
-可将本页与 [Sinopterus dongi](../../Neoazhdarchia/Tapejaroidea/Tapejaridae/Sinopterus/Sinopterus_dongi/page.zh.md) 和 [Huaxiadraco corollatus](../../Neoazhdarchia/Tapejaroidea/Tapejaridae/Huaxiapterus/Huaxiapterus_corollatus/page.zh.md) 对读，比较它们的解剖和分类。这里讨论的亲缘关系和翅膀、头骨比例应分开理解；形态相似不能确定它们食性相同。
+可将本页与 Sinopterus dongi 和 Huaxiadraco corollatus 对读，比较它们的解剖和分类。这里讨论的亲缘关系和翅膀、头骨比例应分开理解；形态相似不能确定它们食性相同。
 
 ## 义县组的一条所选记录 {#s-515262de6f}
 固定 Paleobiology Database（PBDB）翼龙名录接受 Eopteranodon lii，数据库父级为 Eopteranodon。本页使用一条可用种级出现记录，关联一个采集地和一个引文编号。这些数字统计数据库记录与引文，不是骨骼或动物个体数。
 
+PBDB 出现记录补充:
+Eopteranodon lii 在 PBDB 快照中对应分类条目 txn:159349。这份存档导读包含 1 条选取的出现记录，关联 1 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## Beipiao 采集记录与义县组 {#s-c35a826b4a}
 所选采集记录为 Beipiao pterosaurs (PROXY)，位于 Liaoning（地区代码 CN），地层为 Yixian。数据库年代范围是 125.77–119.57 Ma，老端为 Late Barremian，年轻端为 Early Aptian。一个采集记录不能代表该种全部分布。
+
+PBDB 出现记录补充:
+存档导读包含 1 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:837521；PBDB 采集记录 col:92903。 地点字段 cnm=Beipiao pterosaurs (PROXY)；地点分区字段 cc2=CN，stp=Liaoning。 记录年代界：eag 125.77 Ma; lag 119.57 Ma；PBDB 年代区间字段 oei=Late Barremian，oli=Early Aptian。 地层字段 sfm=Yixian。 记录署名 Lü et al. 2006；PBDB 引文编号 ref:31359。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+"age of 129.7 ± 0.5 Ma for a basaltic lava from the bottom of the Yixian Formation and an age of 122.1 ± 0.3 Ma for a tuff from the lowermost part of the overlying Jiufotang Formation" (Chang et al. 2009)
 
 ## 宽泛的数据库年代范围 {#s-9357bbc8bf}
 所选出现记录的数据库宽年代范围为 125.77–119.57 Ma（Ma 为百万年前）。它划定采集记录范围，不表示每一时刻都有化石，也不能直接确定物种起源、灭绝或个体寿命；这不是精确标本年龄。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=125.77 Ma，见 occ:837521；最小记录 lag=119.57 Ma，见 occ:837521。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 采集标签不说明动物生活在哪里 {#s-1558eaef89}
 Beipiao pterosaurs (PROXY) 的数据库环境标签为“lacustrine indet.”，保存方式为“body”和“adpression”。这些标签描述采集地与化石保存类别，不能据此确定 Eopteranodon 的生活栖地或食性，也未必适用于每件化石。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:837521：PBDB 原鉴定字段 idn=Eopteranodon lii n. gen. n. sp.；PBDB 分类名称字段 tna=Eopteranodon lii；材料说明字段 ocm=BPV-078 (holotype), skeleton with incomplete skull. D2526, complete skeleton without skull；丰度字段 abv=2，abu=individuals；PBDB 地点坐标字段 lng=120.766670，lat=41.799999；古坐标／模型字段 pm1=gplates，pln=129.27，pla=41.7。
 
 ## 采集记录附带的引文 {#s-26817f98e1}
 数据库将 Beipiao pterosaurs (PROXY) 采集记录关联到 Lü et al.（2006），引文编号 31359。它是采集记录附带的引文；2023 年修订则讨论正模的解剖解释和分类位置，两者用途不同。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:837521：记录署名 Lü et al. 2006；PBDB 引文编号 ref:31359。
+
 ## 资料边界 {#s-4fbf2dc665}
 本页概述 2023 年修订对正模 BPV 078 的解释，并结合固定 276 名翼龙 PBDB 名录中的一条出现记录。头骨和下颌重新识别、系统发育位置均归于该研究作者。E. lii 与 S. dongi 可能构成时间种的说法仍是假说：地层先后并不能证明直接祖先关系。数据库宽年代不是精确标本日期，采集环境也不是全种栖地。2005／2006 年原始描述及后续解剖、生态研究不在本页完整讨论范围内。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 1 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

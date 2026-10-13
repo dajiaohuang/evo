@@ -1,44 +1,44 @@
-## The name and this data account {#s-c9912fb1d9}
-Phoebastria irrorata is accepted in COL26.8 within Diomedeidae. AVONET v7 records it under the HBW–BirdLife 2020 name. The selected record contains two measured individuals, only one of which has a complete morphological set; sample sizes can differ by trait.
+## Row-reported mean and sample coverage {#s-c9912fb1d9}
+The AVONET v7 row for Phoebastria irrorata (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 107.2 mm. The row records 2 measured individuals, 1 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-b9ac6e868a}
-The compiled beak means are 107.2 mm from the front edge of the nostril to the tip, 24 mm wide and 36.6 mm deep at that edge. Length, width and depth are separate measures taken at standard landmarks, not identification thresholds.
+## Beak measurements at defined landmarks {#s-b9ac6e868a}
+AVONET records culmen length (bill tip to skull base) 151.1 mm; beak length (nostril front edge to tip) 107.2 mm; beak width at the nostril front edge 24 mm; beak depth at the nostril front edge 36.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-e7bfcd05aa}
-Mean unflattened wing length, measured from the carpal joint to the tip of the longest primary, is 534.5 mm; mean tarsus length is 101.2 mm. The separately compiled species mean for mass is 3,376.38 g, attributed to Dunning. It does not imply that both morphology specimens supplied mass data.
+## Wing and body measures use separate sources {#s-e7bfcd05aa}
+AVONET records unflattened wing length 534.5 mm; tarsus length 101.2 mm; distance from first secondary tip to longest primary tip 336 mm; length to first secondary tip 194 mm; hand-wing index 63.4; tail length 138.5 mm; species-average body mass 3376.38 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-d40468a144}
-AVONET assigns the habitat category Marine, the trophic niche Aquatic predator and the primary lifestyle Generalist. These are broad comparison categories, not claims that the bird uses no other habitats or foods.
+## Recorded habitat and feeding categories {#s-d40468a144}
+AVONET classifies Phoebastria irrorata as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Omnivore; primary lifestyle Generalist. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-e1c5d38e41}
-AVONET classifies the record as partially migratory. Historical breeding and resident maps span latitude endpoints -17.84° to 1.04°. The map does not give a complete account of non-breeding movements or current occupancy; its geographic summary and the morphology values come from different compilation steps.
+## The migration label has a limited scope {#s-e1c5d38e41}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -17.84° to 1.04°. The mapped range area is 1736846.61 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-680f0c3a48}
-Phoebastria irrorata is accepted in pinned COL26.8 within Diomedeidae. The 2015 life-history archive has a record under the same name, with six focal fields supported by cited species-level rows from the same family. These rows link the records but do not remove older species or subspecies data that may have been carried into the summaries.
+## Scope of the historical life-history entry {#s-680f0c3a48}
+The August 2015 database has a same-name, same-family record for Phoebastria irrorata. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass in the archive {#s-c8c34036f6}
-The archive’s adult body-mass summary is 3,447.5 g. It may combine male, female and unspecified-sex records, and does not describe the species’ range of individual masses. No birth-or-hatching mass is reported in this account.
+## Compiled adult-mass values {#s-c8c34036f6}
+The August 2015 compilation reports adult body mass 3447.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-1b4b212dfa}
-The archive reports female age at first conception as 3,031.58 days, one offspring or egg per litter or clutch, 60.5 days from laying to hatching, and 113.5 days to flight capability. Some source material defines the last event as leaving the nest. Because the litter/clutch field combines offspring and egg counts, its summary is not a fractional individual. The timing values refer to separate events, not one interchangeable reproductive interval.
+## Reproductive fields describe different events {#s-1b4b212dfa}
+The August 2015 compilation reports female age at first conception (source definition) 3031.575 days; median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 60.5 days; age at flight capability (some records mark nest departure) 113.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-bda5ee44d3}
-The archive reports maximum longevity as 40 years, selected as the largest record in the collected material. This is not typical or mean wild lifespan, a ceiling for every individual, or a claim that the record is currently repeatable.
+## A maximum record is not typical lifespan {#s-bda5ee44d3}
+The compilation lists 40 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-b617a48e59}
-The cited rows include Dunning (1992), Szekely, Lislevand and Figuerola (2007), de Magalhaes and Costa (2009), and Bennett (1986), among other sources. The archive retains each field’s row number, value and source label, as well as the reference explanations. A label may identify a paper, book or another database; rows are not counts of measured birds, and repeated citations are not independent experiments.
+## Sources and field limits {#s-b617a48e59}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-34d90b4ced}
-Phoebastria irrorata is accepted in pinned COL26.8 within Diomedeidae. EltonTraits 1.0 contains a historical record with the same name and family; the following sections describe its diet and feeding-position fields. Its taxonomy predates the current catalogue, so a name match cannot resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-34d90b4ced}
+EltonTraits 1.0 has a same-name, same-family record for Phoebastria irrorata covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-f4b042acb3}
-EltonTraits assigns 60% of the food weight to invertebrates and 40% to fish. Diet code A indicates high compiler confidence in the source and diet information. The weights standardize literature descriptions; they are not direct measurements of diet, and a zero for another category would not prove it is never eaten.
+## Relative weights across food categories {#s-f4b042acb3}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 60%; fish 40%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-0715f64cf7}
-The archive marks the foraging-stratum record as species-level and assigns 100% to feeding on or just below the water surface. This is a relative weight for feeding positions, not a description of nest sites, total habitat use or a full-day activity budget. The categories follow the source’s definitions; they do not indicate elevation, flight height or habitat area.
+## Foraging positions are not a time budget {#s-0715f64cf7}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-0924c66159}
-Both EltonTraits field groups cite Ref_1, the Handbook of the Birds of the World volume 1 entry recorded by the archive. References attach to field groups; their labels document provenance rather than additional observations. The underlying book entry has not been independently reviewed here.
+## Sources and field limits {#s-0924c66159}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-eeb85d0e93}
 AVONET v7 reports species averages from its listed samples, not individual ranges or identification diagnoses. Only two individuals contribute to this record, and one has a complete morphological set. The mass estimate is separately sourced and must not inherit that specimen count. Habitat and migration are broad categories; the latitude endpoints cover historical breeding and resident maps only. Historical crosswalks support association with the current catalogue name but do not establish equivalence after taxonomic changes. Reproduction, current populations and conservation require other sources.

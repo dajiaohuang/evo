@@ -1,19 +1,51 @@
 ## Which fossil records this name represents {#s-5f5fd053c7}
 Titanosuchus ferox is accepted in the fixed PBDB other-synapsida working roster, with database parent Titanosuchus. This guide uses 12 eligible species-level occurrence records from 9 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-2ebc16e2bb}
-Collection Bloukrans (Prince Albert District) (Western Cape), region code ZA, stratum name Abrahamskraal; database age bracket 264.28–259.857 Ma, early interval Capitanian. Collection Gouph Tract, Beaufort West (Western Cape), region code ZA, stratum name Abrahamskraal; database age bracket 274.4–259.857 Ma, early interval Guadalupian. Collection Lammerskraal (Western Cape), region code ZA; database age bracket 264.28–259.857 Ma, early interval Capitanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Titanosuchus ferox is listed in the PBDB snapshot under taxon txn:56780. This archived guide contains 12 selected occurrence rows, linked to 9 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9e17f00fbc}
-Selected occurrences have an outer age envelope of 274.4–259.857 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Gouph Tract, Beaufort West, occurrence occ:1317938 (274.4–259.857 Ma); one supplying the younger bound is Bloukrans (Prince Albert District), occurrence occ:1317364 (264.28–259.857 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-2ebc16e2bb}
+The archived guide contains 12 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-f8acfcbec4}
-Bloukrans (Prince Albert District) has collection-environment label terrestrial indet.; collection preservation-mode label body. Gouph Tract, Beaufort West has collection-environment label terrestrial indet.; collection preservation-mode label body. Lammerskraal has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1317938; PBDB collection col:177007. Locality cnm=Gouph Tract, Beaufort West; place fields cc2=ZA, stp=Western Cape, cny=Beaufort West. Recorded age bounds: eag 274.4 Ma; lag 259.857 Ma; PBDB interval fields oei=Guadalupian. Stratigraphic fields sfm=Abrahamskraal. Recorded attribution Kitching 1977; PBDB reference ref:27216.
 
-## Follow collection records back to references {#s-a3d5b19021}
-Bloukrans (Prince Albert District) carries database reference attribution Kitching (1977), identifier ref:27216. Gouph Tract, Beaufort West carries database reference attribution Kitching (1977), identifier ref:27216. Lammerskraal carries database reference attribution Kitching (1977), identifier ref:27216. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+This is a vague locality covering both the Tapinocephalus and the Pristerognathus Assemblage Zones, making the precise stratigraphic origin of the different remains difficult to assesss (Kammerer et al, 2011)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Unreliable locality, as this tract covers an extensive area" Kitching 1977, coordinates for Beaufort West
+
+- Occurrence occ:1317364; PBDB collection col:89650. Locality cnm=Bloukrans (Prince Albert District); place fields cc2=ZA, stp=Western Cape, cny=Prince Albert. Recorded age bounds: eag 264.28 Ma; lag 259.857 Ma; PBDB interval fields oei=Capitanian. Stratigraphic fields sfm=Abrahamskraal. Recorded attribution Kitching 1977; PBDB reference ref:27216.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"This locality is considered to be low in the Beaufort Group (middle of the 'Tapinocephalus zone,' Upper Permian) [...] " (Reisz & Dilkes, 1992).  The middle Tapinocephalus Zone corresponds to the transition of the Tapinocephalus and Pristerognathus Assemblage Zones of Rubidge et al. (1995, South African Committee for Stratigraphy, Biostratigraphic Series No. 1).
+Both Tapinocephalus and Pristerognathus AZs are Capitanian according to Catuneanu et al. (2005, J. Afr. Earth Sci. 43). Since the locality is west of 24°E it very likely is within the Abrahamskraal Fm. (cf. Catuneanu et al., 2005 figs. 24, 25).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+" [...] Bloukrans in the Prince Albert District, Cape Province, South Africa." (Reisz & Dilkes, 1992). Polar coordinates are for farm Bloukrans, about 30 km north of Prince Albert.
+
+- Occurrence occ:1328808; PBDB collection col:176250. Locality cnm=Lammerskraal; place fields cc2=ZA, stp=Western Cape, cny=Prince Albert. Recorded age bounds: eag 264.28 Ma; lag 259.857 Ma; PBDB interval fields oei=Capitanian. Recorded attribution Kitching 1977; PBDB reference ref:27216.
+
+## Age bounds on the recorded occurrences {#s-9e17f00fbc}
+Across these selected PBDB rows, the largest recorded eag=274.4 Ma in occ:1317938; the smallest recorded lag=259.857 Ma in occ:1317364. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-f8acfcbec4}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1317938: PBDB taxon-name field tna=Titanosuchus ferox; PBDB locality-coordinate fields lng=22.582779, lat=-32.350277; paleocoordinate/model fields pm1=gplates, pln=-31.24, pla=-55.02.
+- occ:1317364: PBDB taxon-name field tna=Titanosuchus ferox; PBDB locality-coordinate fields lng=22.016666, lat=-32.966667; paleocoordinate/model fields pm1=gplates, pln=-28.6, pla=-53.09.
+- occ:1328808: PBDB taxon-name field tna=Titanosuchus ferox; PBDB locality-coordinate fields lng=22.600000, lat=-33.016701; paleocoordinate/model fields pm1=gplates, pln=-28.38, pla=-53.56.
+
+## References attached to each record {#s-a3d5b19021}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1317938: Recorded attribution Kitching 1977; PBDB reference ref:27216.
+- occ:1317364: Recorded attribution Kitching 1977; PBDB reference ref:27216.
+- occ:1328808: Recorded attribution Kitching 1977; PBDB reference ref:27216.
 
 ## Evidence limits {#s-7a7296c9b5}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 12 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

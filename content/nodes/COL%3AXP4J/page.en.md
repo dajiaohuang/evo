@@ -1,17 +1,17 @@
-## The name and this data account {#s-34235bf79e}
-Conirostrum speciosum is accepted in COL26.8 within Thraupidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 15 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-34235bf79e}
+The AVONET v7 row for Conirostrum speciosum (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 8.4 mm. The row records 15 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-f4be88774d}
-Recorded mean beak measurements are 8.4 mm from the anterior nostril edge to the tip, 2.8 mm in width and 3.6 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-f4be88774d}
+AVONET records culmen length (bill tip to skull base) 11.5 mm; beak length (nostril front edge to tip) 8.4 mm; beak width at the nostril front edge 2.8 mm; beak depth at the nostril front edge 3.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-c90b6e1ab9}
-Mean unflattened wing length from the carpal joint to the longest primary is 55.8 mm; mean tarsus length is 14.3 mm. Compiled mean mass is 8.8 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-c90b6e1ab9}
+AVONET records unflattened wing length 55.8 mm; tarsus length 14.3 mm; distance from first secondary tip to longest primary tip 12.5 mm; length to first secondary tip 43.9 mm; hand-wing index 22.1; tail length 40.2 mm; species-average body mass 8.8 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-39a73aee98}
-The dataset assigns habitat Forest, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-39a73aee98}
+AVONET classifies Conirostrum speciosum as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-4c261903a7}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -29.7° to 9.98°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-4c261903a7}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -29.7° to 9.98°. The mapped range area is 7564709.17 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
 ## Evidence limits {#s-c02cd2c4e5}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

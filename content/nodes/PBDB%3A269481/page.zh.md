@@ -1,19 +1,48 @@
 ## 这个名称对应哪些化石记录 {#s-0eccd837a8}
 Merkurosaurus ornatus 在固定 PBDB 有鳞类化石工作名录中为接受种，数据库父级为 Merkurosaurus。本页导读 2 条可用种级出现记录，涉及 2 个采集记录和 2 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-ae617bea6a}
-采集记录 Merkur-North（Ústí nad Labem），地区代码 CZ，地层名称 Most；数据库年代范围 20.45–15.98 Ma，早端地质时段 Burdigalian。采集记录 Amöneburg（Rhineland-Palatinate），地区代码 DE，地层名称 Wiesbaden；数据库年代范围 22.4–20 Ma，早端地质时段 MN 2。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Merkurosaurus ornatus 在 PBDB 快照中对应分类条目 txn:269481。这份存档导读包含 2 条选取的出现记录，关联 2 个不同的 PBDB 采集记录编号和 2 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-d8c786c2f1}
-本页所选出现记录的年代外包区间为 22.4–15.98 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Amöneburg 的出现记录 occ:1260130（22.4–20 Ma）；晚端可追到 Merkur-North 的出现记录 occ:1140009（20.45–15.98 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-ae617bea6a}
+存档导读包含 2 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
 
-## 保存环境与生活环境分开阅读 {#s-559ddf1f6a}
-Merkur-North 的采集环境标签为 fluvial-lacustrine indet.；集合保存方式标签为 实体化石（body）。Amöneburg 的采集环境标签为 潟湖或受限浅潮下沉积环境（lagoonal/restricted shallow subtidal）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:1140009；PBDB 采集记录 col:48173。 地点字段 cnm=Merkur-North；地点分区字段 cc2=CZ，stp=Ústí nad Labem，cny=Chomutov。 记录年代界：eag 20.45 Ma; lag 15.98 Ma；PBDB 年代区间字段 oei=Burdigalian。 地层字段 sfm=Most。 记录署名 Klembara 2008；PBDB 引文编号 ref:46988。
 
-## 沿采集记录追到文献 {#s-940c6049c2}
-Merkur-North 的数据库引文署名为 Klembara（2008），编号 ref:46988。Amöneburg 的数据库引文署名为 Cernansky et al.（2015），编号 ref:54643。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+from the "Main Brown Coal Seam," Eggenburgian, early Orleanium, zone MN3a
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+"[...] situated in the opencast brown coal mine near Tušimice, in the area of the former village Ahníkov, close to Chomutov (northwestern Bohemia)" (Ivanov 2002).
+Coordinates, formerly based on the town of Chomutov (50°27'31"N, 13°24'26"E), have been refined to the position of the large opencast mine SW of Chomutov.
+Definitely not the same locality as Bilina Mine paleobotany record (Bílina mine is about 25 km NE from Chomutov, collection name has been changed accordingly). (TL)
+
+- 出现记录 occ:1260130；PBDB 采集记录 col:167464。 地点字段 cnm=Amöneburg；地点分区字段 cc2=DE，stp=Rhineland-Palatinate，cny=Wiesbaden。 记录年代界：eag 22.4 Ma; lag 20 Ma；PBDB 年代区间字段 oei=MN 2。 地层字段 sfm=Wiesbaden。 记录署名 Cernansky et al. 2015；PBDB 引文编号 ref:54643。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+"The Formation [i.e. the Wiesbaden Formation, formerly referred to as the Lower <i>Hydrobia</i> beds; TL] can be divided into three parts. The lower (brackish) and middle (lacustrine) parts are middle Aquitanian, containing the MN 2 mammal zone (Tobien 1988; Gers & Medden 1991; Reichenbacher 2000; Reichenbacher & Keller 2002). Reichenbacher (2000) assumed that the MN 2b and MN 3a mammal sub-zones of the Late Aquitanian–Early Burdigalian interval corresponded to the upper part of the Wiesbaden Formation, named the ‘emerging facies’. The squamate microvertebrate material described here was collected by Thomas Keller and colleagues from the lower brackish part of the Wiesbaden Formation where numerous freshwater and terrestrial gastropods, including <i>Gyraulus</i>, <i>Stagnicola</i> and <i>Planorbarius</i>, also occur." Age of the lower part of the Wiesbaden Fm is given as MN2a.
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+"Wiesbaden-Amöneburg"; coordinate is for area occupied by quarries in the northeastern part of Amöneburg
+
+## 出现记录的年代界 {#s-d8c786c2f1}
+在这组 PBDB 记录中，最大记录 eag=22.4 Ma，见 occ:1260130；最小记录 lag=15.98 Ma，见 occ:1140009。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-559ddf1f6a}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1140009：PBDB 原鉴定字段 idn=Merkurosaurus ornatus n. gen. n. sp.；PBDB 分类名称字段 tna=Merkurosaurus ornatus；材料说明字段 ocm=holotype: NMP Pb 02045, a parietal; referred specimens: 4 premaxillae (NMP Pb 01852, Pb 02018; Ah 843 SGDB, 930 SGDB), 19 frontals (NMP Pb 01813, Pb 01820, Pb 01874; Ah 790–815 SGDB), 42 parietals (NMP Pb 01814–01815, Pb 01817–01819, Pb 01867, Pb 02019; Ah 775–789 SGDB, 816–819 SGDB, 823–838 SGDB), 24 maxillae (NMP Pb 01833, Pb 01854, Pb 01919, Pb 01921, Pb 02020; Ah 720–725 SGDB, 989 SGDB, 991–994 SGDB, 1015–1016 SGDB, 1018 SGDB, 1020 SGDB, 1022–1025 SGDB), 11 jugals (NMP Pb 01859; Ah 820–822 SGDB, 1026–1032 SGDB), 6 pterygoids (NMP Pb 02021–02022; Ah 839–842 SGDB). 49 dentaries (NMP Pb 01796, Pb 01823, Pb 01844, Pb 01847, Pb 01850–01851, Pb 01860–01861, Pb 01897, Pb 02023; Ah 747–770 SGDB, 934–938 SGDB, 978–980 SGDB, 995 SGDB, 997–999 SGDB, 1001–1002 SGDB, 1014 SGDB), 4 osteoderms (Ah 716–719 SGDB); several of these specimens have been mentioned as cf. <i>Shinisaurus</i> by Vejvalka (1997, unpubl. PhD-Thesis)；丰度字段 abv=159，abu=elements；PBDB 地点坐标字段 lng=13.356944，lat=50.424999；古坐标／模型字段 pm1=gplates，pln=15.62，pla=46.93。
+- occ:1260130：PBDB 分类名称字段 tna=Merkurosaurus ornatus；材料说明字段 ocm=PAL EV 2013/268 (a jugal)；丰度字段 abv=1，abu=elements；PBDB 地点坐标字段 lng=8.270833，lat=50.044445；古坐标／模型字段 pm1=gplates，pln=11.23，pla=46.12。
+
+## 各记录所附的引文 {#s-940c6049c2}
+存档导读把这些记录关联到 2 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1140009：记录署名 Klembara 2008；PBDB 引文编号 ref:46988。
+- occ:1260130：记录署名 Cernansky et al. 2015；PBDB 引文编号 ref:54643。
 
 ## 资料边界 {#s-b5c19f4ef1}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 1010 项有鳞类化石工作名录中，当前名称一致、父链可追到已记录 Squamata 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 2 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

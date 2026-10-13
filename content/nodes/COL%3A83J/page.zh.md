@@ -1,4 +1,6 @@
-## 有日期的科级名录 {#s-72ce67d085}
+## 记录分类与直接上级关系 {#s-72ce67d085}
+COL26.8 将 Cheloniidae 记录为科；其直接上级记录为 Chelonioidea。
+
 固定版 COL26.8 的科级名录包含五个接受属和六个接受种：Caretta（1 种）、Chelonia（1 种）、Eretmochelys（1 种）、Lepidochelys（2 种）和 Natator（1 种）。这些计数只描述 2026 年 8 月 20 日的目录版本，不表示现生状态或读者页面覆盖完整。
 
 ## 区分研究中的不同样本集 {#s-891eab7b3f}
@@ -16,7 +18,7 @@ Cheloniidae 的本批路线包含 6 条历史生活史导读，可从 Caretta ca
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
-## 从有性状记录的物种开始 {#s-8277a508a7}
+## 记录分类与成员材料 {#s-8277a508a7}
 Cheloniidae 的本批 ReptTraits 阅读路径包含 6 条同名同科、有逐性状出处的物种资料，可从 Caretta caretta、Chelonia mydas、Eretmochelys imbricata、Lepidochelys kempii、Lepidochelys olivacea 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-168c1429ed}

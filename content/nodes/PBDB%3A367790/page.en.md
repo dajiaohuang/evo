@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-adc75035a1}
-Kustokazanser formosus is accepted in the fixed PBDB dinosaur working roster, with database parent Kustokazanser. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-adc75035a1}
+Kustokazanser formosus is listed in the PBDB snapshot under taxon txn:367790. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-5792635f22}
-Collection Kiin Kerish (lower Aksyir svita), region code KZ; database age bracket 37.71–33.9 Ma, early interval Late Eocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-5792635f22}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-cec02bd37d}
-Selected occurrences have an outer age envelope of 37.71–33.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1660897; PBDB collection col:177066. Locality cnm=Kiin Kerish (lower Aksyir svita); place fields cc2=KZ. Recorded age bounds: eag 37.71 Ma; lag 33.9 Ma; PBDB interval fields oei=Late Eocene. Recorded attribution Kurochkin 1968; PBDB reference ref:74461.
 
-## Read preservation setting separately from living habitat {#s-1f96aaf9d9}
-Kiin Kerish (lower Aksyir svita) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower Aksyir svita
 
-## Follow collection records back to references {#s-9b47a64a61}
-Kiin Kerish (lower Aksyir svita) carries database reference attribution Kurochkin (1968), identifier ref:74461. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+in the Zaisan depression, South Kazakhstan
 
-## Evidence limits {#s-397c3ef7e7}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-cec02bd37d}
+Across these selected PBDB rows, the largest recorded eag=37.71 Ma in occ:1660897; the smallest recorded lag=33.9 Ma in occ:1660897. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-1f96aaf9d9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1660897: PBDB original-identification field idn=Cygnavus formosus n. sp.; PBDB taxon-name field tna=Kustokazanser formosus; PBDB locality-coordinate fields lng=84.000000, lat=47.000000; paleocoordinate/model fields pm1=gplates, pln=80.81, pla=43.
+
+## References attached to each record {#s-9b47a64a61}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1660897: Recorded attribution Kurochkin 1968; PBDB reference ref:74461.
+
+## What these records can show {#s-397c3ef7e7}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

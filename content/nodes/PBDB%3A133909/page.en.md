@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-72c84b8332}
-Gravisauria is recorded at rank unranked clade in this batch’s PBDB path. This route offers occurrence guides for 313 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Gravisauria {#s-72c84b8332}
+Gravisauria is listed at rank unranked clade in the PBDB classification route, with Sauropoda as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-36e0568b16}
 Start with Spinophorosaurus nigerensis, Amygdalodon patagonicus, Jobaria tiguidensis, Datousaurus bashanensis, Shunosaurus lii and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 656 selected occurrences from 537 collections; example stratum names are Irhazer II, Cerro Carnerero, Tiourarén, Shaximiao. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-5ec7a4fbc8}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-5ec7a4fbc8}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Spinophorosaurus nigerensis’s collection record, not a continuous history for Gravisauria.
 

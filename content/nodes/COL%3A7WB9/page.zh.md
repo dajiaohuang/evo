@@ -1,4 +1,6 @@
-## 从 3 条测量记录开始 {#s-6ed8b7bee8}
+## 记录分类与直接上级关系 {#s-6ed8b7bee8}
+COL26.8 将 Threskiornis 记录为属；其直接上级记录为 Threskiornithidae。
+
 Threskiornis 本路线包含 3 条有测量资料的物种记录：Threskiornis aethiopicus、Threskiornis bernieri 和 Threskiornis spinicollis。导航沿用固定 COL26.8；生物学资料保留 AVONET v7 名称与取样范围。
 
 ## 已记录的体重均值与类别 {#s-0dd3bf32aa}
@@ -13,8 +15,8 @@ Threskiornis 本路线包含 3 条有测量资料的物种记录：Threskiornis 
 ## 本批各资料路线的边界 {#s-23d7fe0b1c}
 本群级页面并列本批 3 条 AVONET 测量记录、4 条 2015 年 8 月生活史导读和 4 条 EltonTraits 记录；这些都不是完整后代名录。体重端点比较各物种汇编均值，不是个体最小值和最大值。生活史汇总仍受中位数、最大记录方法及可能的分类继承影响；群级路线不表示后代共享繁殖方式。EltonTraits 权重来自文献描述并经半定量转换，不是直接测量。历史分类以及 ABC 字段可能借用同属资料等限制仍然存在。各物种页说明具体采样、解释和来源边界。
 
-## 从有限生态导读开始 {#s-59521330c3}
-Threskiornis 本批有 1 个有限生态资料页：[Threskiornis melanocephalus](Threskiornis_melanocephalus/page.zh.md)。路线沿用固定 COL26.8；计数只涵盖本批已写页面，不是全部接受物种。
+## 记录分类与成员材料 {#s-59521330c3}
+Threskiornis 本批有 1 个有限生态资料页：Threskiornis melanocephalus。路线沿用固定 COL26.8；计数只涵盖本批已写页面，不是全部接受物种。
 
 ## 哪些内容可读，哪些仍未解读 {#s-be446e4ab2}
 栖地、取食生态位、主导活动方式和迁移类别各有 1 条可读记录。阅读时应依据原字段定义，并区分类别、历史地图与个体观察；相同标签不证明所有后代具有相同生活方式。本路线不解读喙、翼、跗蹠、尾和体重字段，因此不能建立类群体型比较。

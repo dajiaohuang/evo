@@ -1,5 +1,5 @@
-## Find rows through older Thryothorus combinations {#s-91124a8a62}
-Pinned COL26.8 organizes this page at Pheugopedius maculipectus (4G3KJ). BirdLife 2020 row 8489 and eBird 2021 row 7742 share the name and Avibase ID AVIBASE-18253ACC, with type 1BL to 1eBird; BirdTree row 7705 gives Thryothorus maculipectus, with type 1BL to 1BT. Read catalogue synonym 56N7R points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-91124a8a62}
+Catalogue of Life release COL26.8 records Pheugopedius maculipectus (Lafresnaye, 1845) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-b9fe69eb88}
 Morphology comprises 11 birds: 2 female, 9 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 12.1 mm, tarsus 21.1 mm, unflattened wing 58.5 mm, tail 53.9 mm and hand-wing index 10.3 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

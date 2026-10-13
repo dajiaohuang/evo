@@ -1,5 +1,5 @@
-## 沿旧属名区分种与亚种目标 {#s-36bdef2d47}
-本页按 COL26.8 的 Sporophila maximiliani（9G8BJ）组织。BirdLife 2020 第 8219 行与 eBird 2021 第 9853 行同名，Avibase ID 为 AVIBASE-A5767214，类型 1BL to 1eBird；BirdTree 第 9794 行记 Oryzoborus maximiliani，类型 1BL to 1BT。本次逐字目录异名 6SZGM 指向本页接受种。名称关系提供定位，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-36bdef2d47}
+《Catalogue of Life》COL26.8（2026-08-20）将 Sporophila maximiliani (Cabanis, 1851) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-07d407cb18}
 形态共 4 只鸟：雌 1、雄 3、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 12.9 mm、跗蹠 17.7 mm、未压平翼长 74.8 mm、尾长 67 mm、手翼指数 14.8 是历史行均值。完整数与总数相等，仍不提供个体变异范围。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或特定食物的处理能力。

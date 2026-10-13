@@ -1,10 +1,10 @@
-## Local data reading route {#s-3949ee2e23}
+## Recorded classification and member material {#s-3949ee2e23}
 This batch’s Opisthocomiformes route includes 1 measured species records. Start with Opisthocomus hoazin. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-8bfadf23f6}
 Compiled mean mass endpoints in this batch are Opisthocomus hoazin at 696 g and Opisthocomus hoazin at 696 g. Represented habitat categories include Riverine; trophic niches include Herbivore terrestrial. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-5cf6495117}
+## Amniote Life-history archive member records {#s-5cf6495117}
 This batch’s Opisthocomiformes route includes 1 historical life-history accounts; start with Opisthocomus hoazin. More frequently represented fields include adult body mass (1 entries), offspring per litter or eggs per clutch (1 entries), oviposition to hatching (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-951417c5e2}

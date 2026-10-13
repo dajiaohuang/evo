@@ -1,5 +1,5 @@
-## Separate matching names from family spelling {#s-15de8bb567}
-Pinned COL26.8 organizes this page at Sarothrura elegans (6XPJV). BirdLife 2020 row 2723, eBird 2021 row 9383 and BirdTree row 9328 share the name, with Avibase ID AVIBASE-E75BA92C; link types are 1BL to 1eBird and 1BL to 1BT. Matching names locate historical sources without establishing identical species boundaries across versions. The source has Family1=Rallidae; the recorded COL ancestry places this page in Sarothruridae. Retain the original family spelling without inferring relationships from its difference.
+## A name fixed to COL26.8 {#s-15de8bb567}
+Catalogue of Life release COL26.8 records Sarothrura elegans (A. Smith, 1839) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-f7554873b4}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 6.6 mm, tarsus 25 mm, unflattened wing 85 mm, tail 36.8 mm and hand-wing index 18.5 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

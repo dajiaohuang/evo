@@ -1,4 +1,6 @@
-## 本批的物种页 {#s-863bc01f83}
+## 记录分类与直接上级关系 {#s-863bc01f83}
+COL26.8 将 Eubucco 记录为属；其直接上级记录为 Capitonidae。
+
 本路线列有 2 条 Eubucco 测量记录：Eubucco bourcierii 与 Eubucco tucinkae。目录层级按固定 COL26.8 组织；生物测量保留 AVONET v7 名称和历史采样范围。
 
 ## 用于对比的例子 {#s-223771e325}

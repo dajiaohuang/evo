@@ -18,7 +18,10 @@ records:
     - subjectId: taxon:pan
       claimType: taxonomy
       claimKind: scientific
-      statement: COL26.8 accepted usage 4C92G places Pan troglodytes in Pan (parent usage 6D2G). This records the checklist classification only.
+      statement:
+        page: en
+        section: s-af2edc4a05
+        part: body
       confidence: medium
       confidenceRationale: The accepted COL26.8 species record carries the Pan parent usage 6D2G. This is one release-specific classification statement, not a claim of universal consensus or phylogeny.
       referenceLinks:
@@ -28,7 +31,9 @@ records:
   claim-rationales.zh:
     - COL26.8 接受种级记录包含 Pan 父级用名 6D2G。本陈述仅限该版本的分类记录，不表示普遍共识或系统发育关系。
   claim-statements.zh:
-    - COL26.8 接受用名 4C92G 将 Pan troglodytes 置于 Pan 属中（父级用名 6D2G）。此陈述仅记录该清单版本中的分类位置。
+    - page: zh
+      section: s-5b59590b86
+      part: body
   ranges:
     - entityId: pan
       rangeKind: global-composite

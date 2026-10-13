@@ -1,4 +1,6 @@
-## Habrophallos 的来源明确条目 {#s-b69409432b}
+## 记录分类与直接上级关系 {#s-b69409432b}
+COL26.8 将 Habrophallos 记录为属；其直接上级记录为 Epictinae。
+
 Habrophallos 的阅读路径收录 1 条带字段出处的同名同科记录，可从 Habrophallos collaris 开始。页面导航沿用固定版本 COL26.8 名称，ReptTraits 保留 Reptile Database 2023 名称框架；这是一组选读入口，不是完整接受种名录。
 
 ## 不同类群需要不同尺度 {#s-ff5eb87858}

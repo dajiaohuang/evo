@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-cebdbc2fb4}
-Pinned COL26.8 organizes this page at Cinnyris batesi (5YV5V). BirdLife 2020 row 5944 and eBird 2021 row 2316 share the name and Avibase ID AVIBASE-DD180188, with type 1BL to 1eBird; BirdTree row 2309 gives Nectarinia batesi, with type 1BL to 1BT. Read older-combination record 462MR points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-cebdbc2fb4}
+Catalogue of Life release COL26.8 records Cinnyris batesi Ogilvie-Grant, 1908 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-a6f1c5a0fd}
 Morphology covers 4 birds: 2 female, 2 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 11.3 mm, tarsus 15.2 mm, unflattened wing 48.1 mm, tail 29.5 mm and hand-wing index 13.8 are historical row means. Inference=NO does not establish 4 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

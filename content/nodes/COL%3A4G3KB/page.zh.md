@@ -1,5 +1,5 @@
-## 沿旧 Thryothorus 组合查历史行 {#s-130cb1ef2d}
-本页按 COL26.8 的 Pheugopedius atrogularis（4G3KB）组织。BirdLife 2020 第 8481 行与 eBird 2021 第 7734 行同名，Avibase ID 为 AVIBASE-2258FAE9，类型 1BL to 1eBird；BirdTree 第 7697 行记 Thryothorus atrogularis，类型 1BL to 1BT。本次读到目录异名 56N7C，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-130cb1ef2d}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pheugopedius atrogularis (Salvin, 1865) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-7e05e7b4a6}
 形态共 13 只鸟：雌 6、雄 5、性别未定 2；完整测量 4 只。鼻孔前缘至喙尖 13.1 mm、跗蹠 24.2 mm、未压平翼长 66 mm、尾长 51.5 mm、手翼指数 11.1 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

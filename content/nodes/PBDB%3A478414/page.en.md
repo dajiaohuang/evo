@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-9df94edce6}
-Imrankhanhero zilefatmi is accepted in the fixed PBDB dinosaur working roster, with database parent Imrankhanhero. This guide uses 3 eligible species-level occurrence records from 3 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-9df94edce6}
+Imrankhanhero zilefatmi is listed in the PBDB snapshot under taxon txn:478414. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-2e001edbe2}
-Collection Sangiali Kali Kakor, DL-1 (western) (Balochistan), region code PK, stratum name Vitakri; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection Nala Basti, DL-7 (Zubra Gambrak) (Balochistan), region code PK, stratum name Vitakri; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection Bara Simla, Jabalpur [Sauropod Bed] (Madhya Pradesh), region code IN, stratum name Lameta; database age bracket 72.2–66 Ma, early interval Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-2e001edbe2}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-75ddf6cb44}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1559889; PBDB collection col:220149. Locality cnm=Sangiali Kali Kakor, DL-1 (western); place fields cc2=PK, stp=Balochistan, cny=Barkham. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Vitakri. Recorded attribution Malkani 2023; PBDB reference ref:86250.
 
-## Read preservation setting separately from living habitat {#s-c7d7f9a720}
-Sangiali Kali Kakor, DL-1 (western) has collection-environment label fluvial indet.; collection preservation-mode label body. Nala Basti, DL-7 (Zubra Gambrak) has collection-environment label fluvial indet.; collection preservation-mode label body. Bara Simla, Jabalpur [Sauropod Bed] has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"... upper Pab Formation, just below or on the boundary of Mesozoic (Cretaceous) and Cenozoic (Tertiary/Paleocene)."
 
-## Follow collection records back to references {#s-6584542084}
-Sangiali Kali Kakor, DL-1 (western) carries database reference attribution Malkani (2023), identifier ref:86250. Nala Basti, DL-7 (Zubra Gambrak) carries database reference attribution Malkani (2023), identifier ref:86250. Bara Simla, Jabalpur [Sauropod Bed] carries database reference attribution Malkani (2023), identifier ref:86250. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+western site along Kali Kakor stream near Sangiali village, Vitakri area, Central Sulaiman Range, Barkhan District, Balochistan
 
-## Evidence limits {#s-eec6d94612}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1638705; PBDB collection col:79427. Locality cnm=Nala Basti, DL-7 (Zubra Gambrak); place fields cc2=PK, stp=Balochistan, cny=Barkhan. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Vitakri. Recorded attribution Malkani 2023; PBDB reference ref:86250.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"... found from the red, maroon and greenish grey mud/clays/paleosol zone of upper  of Pab Formation, just below or on the (K-T) boundary of Mesozoic (Cretaceous) and Cenozoic (Tertiary/Paleocene)... [found] in the Central periphery of Sulaiman range..."
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Nala Basti (Zubra) = Basti Nala (Zubra) Gumbrak, Central Sulaiman Range, Barkhan District, Balochistan. Sites on peak and southern limb.
+
+- Occurrence occ:1638706; PBDB collection col:26375. Locality cnm=Bara Simla, Jabalpur [Sauropod Bed]; place fields cc2=IN, stp=Madhya Pradesh, cny=Jabalpur. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Maastrichtian. Stratigraphic fields sfm=Lameta. Recorded attribution Malkani 2023; PBDB reference ref:86250.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+belongs to the lowest and least nodular part of the Mottled Nodular Beds, about four feet above the Ossiferous Conglomerate
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+western slope of Bara Simla Hill, Jubbulpore (= Jabalpur). Bed outcrops 50 yards northeast of the Carnosaur Bed, and 100 yards from the bungalow and office of the Inspector of Gun Carriages and Vehicles, and adjoins the track leading up to the blockhouse that crowns the hill; on the grounds of the Gun Carriage Estate, on W slope of hill
+
+## Age bounds on the recorded occurrences {#s-75ddf6cb44}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:1559889; the smallest recorded lag=66 Ma in occ:1559889. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-c7d7f9a720}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1559889: PBDB original-identification field idn=Imrankhanhero zilefatmi n. gen. n. sp.; PBDB taxon-name field tna=Imrankhanhero zilefatmi; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=69.399170, lat=29.700001; paleocoordinate/model fields pm1=gplates, pln=66.17, pla=-19.66.
+- occ:1638705: PBDB taxon-name field tna=Imrankhanhero zilefatmi; material note ocm=prox fibula MSM-253-7, and prox MT MSM-296-7; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=69.494720, lat=29.711666; paleocoordinate/model fields pm1=gplates, pln=66.26, pla=-19.69.
+- occ:1638706: PBDB taxon-name field tna=Imrankhanhero zilefatmi; material note ocm=K20/321 (L tibia), 489 (R fibula); abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=79.972282, lat=23.168694; paleocoordinate/model fields pm1=gplates, pln=72.2, pla=-30.87.
+
+## References attached to each record {#s-6584542084}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1559889: Recorded attribution Malkani 2023; PBDB reference ref:86250.
+- occ:1638705: Recorded attribution Malkani 2023; PBDB reference ref:86250.
+- occ:1638706: Recorded attribution Malkani 2023; PBDB reference ref:86250.
+
+## What these records can show {#s-eec6d94612}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

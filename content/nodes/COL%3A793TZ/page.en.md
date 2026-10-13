@@ -1,15 +1,15 @@
-## Name and this data account {#s-9db294a3dc}
-Pinned COL26.8 accepts Rafetus swinhoei in Trionychidae. This account follows its ReptTraits v1-2 row, retaining the Reptile Database 2023 name framework and trait-specific sources. Because the dataset has one row per species, its categories describe that record rather than every population.
+## COL26.8 name and the ReptTraits row {#s-9db294a3dc}
+COL26.8 records Rafetus swinhoei as an accepted species. The ReptTraits v1-2 row gives its Family field as Trionychidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-aeb3b8d24b}
-The recorded maximum straight carapace length (SCL) is 1000 mm. SCL measures the shell in a straight line, excluding the head, neck and tail. This is a maximum in the reported material, not a theoretical limit or typical individual size. Sex-specific maxima, when available, may come from different localities or studies and cannot alone quantify sexual dimorphism across a population.
+## Length values in the archived records {#s-aeb3b8d24b}
+The row reports a maximum straight carapace length (SCL) of 1000 mm. ReptTraits attributes this field to Taskavak et al. 2016.
 
-## Where and how it is active {#s-3cdd5133cf}
-The row classifies the microhabitat as Aquatic/Terrestrial, diet as Omnivorous and foraging mode as active (ACT). These are broad categories, not a complete habitat or food inventory or a fixed schedule. They do not identify particular foods or show variation among populations, seasons or life stages.
+## Habitat use and activity labels {#s-3cdd5133cf}
+The microhabitat field classifies the recorded position as Aquatic/ground-dwelling (Terrestrial) [source label: Aquatic/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023. The diet field classifies the entry as plant- and animal-eating (Omnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Taskavak et al. 2016. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Taskavak et al. 2016.
 
-## How to read reproductive records {#s-3f4984c024}
-The entry records an oviparous reproductive mode, genotypic sex determination (GSD; ZW/ZZ), a mean of 50 offspring or eggs per litter/clutch, and low and high reported means of 20 and 80. A summary may be the midpoint of reported means or, when means are unavailable, the midpoint of reported extremes; it is not necessarily an arithmetic average of observed clutches. The low and high fields are endpoints of reported means, not guaranteed individual-clutch limits. These fields do not establish fetal nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-3f4984c024}
+The compiled mean for offspring per litter or eggs per clutch is 50. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Biricik and Turğa 2011. The lowest value among reported litter or clutch means is 20; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Biricik and Turğa 2011. The highest value among reported litter or clutch means is 80; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Biricik and Turğa 2011. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records GSD (ZW/ZZ). ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## Evidence limits {#s-a3ce92572b}
-This limited trait account paraphrases the same-name ReptTraits v1-2 row, retaining the Reptile Database 2023 framework and individual trait sources. One row per species compresses variation in sex, age, locality and populations; a matching name and family do not guarantee the same later taxonomic concept. A reported maximum is not an absolute length limit, and a reproductive mean is not a fixed clutch count. Many dataset mass values are estimated from length equations and are not treated here as measured mass. Juvenile-length fields have differing headers and definitions and are not used in the conclusions. Conservation, venom, current distribution and population trends are not updated; missing fields remain gaps. Citation labels preserve the source chain and do not imply independent review here of every original work.
+## Reading this compiled trait record {#s-a3ce92572b}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

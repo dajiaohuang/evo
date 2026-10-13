@@ -1,10 +1,10 @@
-## Start with the historical entries {#s-3b4af39272}
+## Recorded classification and member material {#s-3b4af39272}
 The local PanTHERIA route for Hylobatidae includes 5 usable data accounts. Start with Hylobates klossii, Hylobates lar, Hylobates moloch, Hylobates muelleri, Hylobates pileatus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-a1ab1459d0}
 Among available consolidated adult-mass values in this batch, Hylobates pileatus records 5542.37 g and Hylobates muelleri records 5909.81 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-2eb2413946}
+## Amniote Life-history archive member records {#s-2eb2413946}
 This batch’s Hylobatidae route includes 12 historical life-history accounts; start with Hylobates agilis, Hylobates albibarbis, Hylobates klossii, Hylobates lar, Hylobates moloch. More frequently represented fields include adult body mass (12 entries), offspring per litter or eggs per clutch (12 entries), conception or fertilization to birth (12 entries), age of dependence on food other than maternal milk (12 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-e19f84e5c9}
@@ -15,12 +15,12 @@ This guide covers only this batch’s entries with at least three focal fields, 
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Follow the life-history records {#s-e5c9d931d7}
-This batch offers 3 historical life-history accounts under Hylobatidae. Start with [Hylobates moloch](Hylobates/Hylobates_moloch/page.en.md), [Hylobates klossii](Hylobates/Hylobates_klossii/page.en.md), [Hylobates lar](Hylobates/Hylobates_lar/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-e5c9d931d7}
+This batch offers 3 historical life-history accounts under Hylobatidae. Start with Hylobates moloch, Hylobates klossii, Hylobates lar. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-04f0d17fc0}
 Gestation is recorded in 3 accounts, female age at first reproduction in 1 account, and maximum lifespan in 1 account. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-3365a63e7b}
+## Ernest life-history archive material route {#s-3365a63e7b}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

@@ -15,6 +15,7 @@ import { loadEntityIndex } from '../../data-client/staticDataClient'
 import type { RuntimeEntity } from '../../data-client/types'
 import { LocalTreePanel, type OpenFullTree } from '../tree/LocalTreePanel'
 import { localizedProfileText } from '../../i18n/profileText'
+import { ReaderInlineText } from '../reading/ReaderInlineText'
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
@@ -180,7 +181,7 @@ export function SpeciesDetail({ onOpenFullTree }: { onOpenFullTree?: OpenFullTre
             {node.name}{node.rank ? ` · ${t(node.rank)}` : ''}
           </p>
           {profile && <div className="node-preview-reading">
-            <p>{profile.readerSections?.find(section => section.id === 'reading-introduction')?.text[language] ?? localizedProfileText(profile, profile.overview, language, t)}</p>
+            <p><ReaderInlineText text={profile.readerSections?.find(section => section.id === 'reading-introduction')?.text[language] ?? localizedProfileText(profile, profile.overview, language, t)} /></p>
             <a href={`#/taxa?id=${encodeURIComponent(profile.id)}`}>{language === 'zh' ? '继续阅读' : 'Continue reading'} →</a>
           </div>}
 

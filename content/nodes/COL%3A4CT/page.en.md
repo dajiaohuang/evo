@@ -1,40 +1,39 @@
-## PanTHERIA’s Caniformia records {#s-f53328f26c}
-PanTHERIA 1.0 links 71 usable historical accounts to Caniformia, including Canis latrans, Canis simensis, Callorhinus ursinus, Atelocynus microtis, and Cerdocyon thous. These entries retain the source’s MSW05 names, along with variable-specific conditions and missing fields. The catalogue navigation follows COL26.8, so the 71 accounts describe archive coverage rather than the current accepted-species count.
+## Historical names and modern navigation {#s-f53328f26c}
+PanTHERIA preserves MSW05 names and the conditions or missing fields attached to each variable. Examples include *Canis latrans*, *C. simensis*, *Callorhinus ursinus*, *Atelocynus microtis* and *Cerdocyon thous*. COL26.8 supplies the present navigation path; an older name matched to that path does not establish equivalence between historical and current species concepts.
 
 ## Adult-mass summaries in this set {#s-dbf0dafb0b}
 Among the consolidated adult-mass values available here, the low and high endpoints are 308.16 g for Poecilogale albinucha and 1,600,000 g for Mirounga leonina. These are historical medians adjusted for sex, not the smallest and largest individuals measured. The difference in mass alone does not show that all caniform descendants share a way of life.
 
-## Which life-history fields were recorded {#s-860b34bab5}
-The historical life-history route contains 129 accounts. Adult mass and offspring per litter or eggs per clutch appear in all 129; a maximum-lifespan record appears in 125, and conception or fertilization to birth in 124. Examples include Ailurus fulgens, Canis aureus, Canis latrans, Canis lupus, and Canis simensis. These counts describe available fields in this compilation, not a complete census of living caniforms; each measure has its own event definition, unit, and source.
+## Life-history fields describe different events {#s-860b34bab5}
+The historical life-history route pairs adult mass and offspring per litter or clutch with gestation and maximum lifespan. These fields describe separate measures. Missing values remain missing instead of being inferred from relatives.
 
-## Food and activity records in EltonTraits {#s-8f44b13fdb}
-EltonTraits includes 142 historical Caniformia entries here: food-category weights are available for 141, foraging strata for 141, and activity periods for 130. Examples include Vulpes vulpes, V. cana, V. chama, V. corsac, and V. ferrilata. The weights standardize literature descriptions, while stratum and activity fields use separate categories or codes; they are not direct measurements of every animal’s diet or daily time budget.
+## Diet and activity are coded summaries {#s-8f44b13fdb}
+EltonTraits records food-category weights, foraging strata and activity periods for historical entries, including foxes such as *Vulpes vulpes*, *V. cana* and *V. corsac*. The weights standardize descriptions in literature; strata and activity use separate categories or codes. They summarize source reports rather than directly measuring every animal’s diet or daily schedule.
 
-## A smaller set with foraging-stratum data {#s-ac4346dfca}
-A separate EltonTraits subset contains three entries: Phocarctos hookeri, Zalophus japonicus, and Z. wollebaeki. All three have a foraging-stratum assignment, while none has a food-weight or activity-period record in this subset. The available category records do not establish one shared foraging pattern for these species.
+## Foraging strata do not fill absent fields {#s-ac4346dfca}
+The EltonTraits entries for *Phocarctos hookeri*, *Zalophus japonicus* and *Z. wollebaeki* retain a foraging-stratum assignment, while this route has no diet-weight or activity-period values for them. That is a limit of the archived fields; it does not establish one shared feeding pattern or show that the animals lack those behaviors.
 
-## Scope of the historical comparisons {#s-c1598466fe}
-These pages bring together several historical compilations, each with its own name crosswalk, selection rules, field definitions, and source conditions. Their coverage counts do not describe every COL26.8 descendant, and matching an older name does not settle whether the older and current species concepts are identical.
-
-Adult-mass and life-history figures are summaries of source entries, not individual ranges or current population measurements. Maximum-lifespan values are records, not averages; a blank field is not evidence that the trait is absent.
-
-EltonTraits food weights standardize literature descriptions, and mammalian ABC entries can include inference from a congener. Feeding strata and activity codes are categorical source summaries, not direct measurements of daily time budgets. Current distributions and conservation status require other evidence.
+## How to read the historical comparisons {#s-c1598466fe}
+The compilations use different name crosswalks, selection rules, field definitions and source conditions. Historical matches do not settle modern species concepts. Adult-mass and life-history values summarize source entries, not individual ranges or current populations; a longest-lifespan value is not an average, and a blank field does not show a trait is absent. EltonTraits weights and activity codes are standardized categories, not direct daily measurements.
 
 ## A second PanTHERIA selection {#s-b9e1bb8bf8}
-Another PanTHERIA route links 12 usable accounts to Caniformia. Examples include [Galictis cuja](Mustelidae/Ictonychinae/Galictis/Galictis_cuja/page.en.md), [Dusicyon australis](Canidae/Dusicyon/Dusicyon_australis/page.en.md), [Lontra provocax](Mustelidae/Lutrinae/Lontra/Lontra_provocax/page.en.md), [Lutra sumatrana](Mustelidae/Lutrinae/Lutra/Lutra_sumatrana/page.en.md), and [Lyncodon patagonicus](Mustelidae/Ictonychinae/Lyncodon/Lyncodon_patagonicus/page.en.md). These historical entries retain their MSW05 names and variable-level notes; their count is not the current number of accepted species.
+A separate PanTHERIA route links historical entries such as *Galictis cuja*, *Dusicyon australis*, *Lontra provocax*, *Lutra sumatrana* and *Lyncodon patagonicus*. Their MSW05 names and variable-level notes stay attached to those records. This is a distinct selection, not a census of current Caniformia.
 
 ## Adult-mass values in this route {#s-3e7f78e19d}
 For this set of PanTHERIA records, consolidated adult-mass medians range from 225 g for Lyncodon patagonicus to 7,499.98 g for Lontra provocax. The values are sex-adjusted historical summaries, not individual extremes or a complete description of body size across Caniformia.
 
-## What the PanTHERIA route represents {#s-54367801bc}
-This route includes historical entries with at least one focal field, linked by matching names and families and a one-to-one historical correspondence. It does not include every COL26.8 descendant. The mass values above are summaries of separate entries, not extremes measured across the whole group; current species concepts, distributions, and conservation status require other evidence.
+## Historical matching does not prove equivalence {#s-54367801bc}
+This route links entries by recorded names, family placement and a one-to-one historical crosswalk. It does not include every COL26.8 descendant or prove that older and current species concepts are equivalent. Its mass values summarize separate source entries; present distributions and conservation status are outside this evidence.
 
-## Life-history accounts in Ernest’s compilation {#s-9eacf76414}
-Ernest’s 2003 life-history compilation contains 62 accounts linked to Caniformia in this route. Examples include [Atelocynus microtis](Canidae/Atelocynus/Atelocynus_microtis/page.en.md), [Canis simensis](Canidae/Canis/Canis_simensis/page.en.md), [Canis latrans](Canidae/Canis/Canis_latrans/page.en.md), [Cerdocyon thous](Canidae/Cerdocyon/Cerdocyon_thous/page.en.md), and [Chrysocyon brachyurus](Canidae/Chrysocyon/Chrysocyon_brachyurus/page.en.md). The total counts authored historical name matches, not every accepted caniform species.
+## Ernest’s 2003 life-history accounts {#s-9eacf76414}
+The 2003 compilation connects historical accounts such as *Atelocynus microtis*, *Canis simensis*, *Canis latrans*, *Cerdocyon thous* and *Chrysocyon brachyurus* with this reading route. These literature entries follow historical taxonomy; they are not a complete inventory of accepted Caniformia species today.
 
-## Different events, different summaries {#s-50bd31d666}
-Gestation is recorded in 59 accounts, female age at first reproduction in 48, and maximum lifespan in 48. First reproduction is not the same event as first birth or sexual maturity, and maximum lifespan is not average lifespan. The underlying records may differ in source conditions; missing fields cannot be supplied from relatives.
+## Gestation, first reproduction and longevity {#s-50bd31d666}
+The compilation treats gestation, female age at first reproduction and maximum lifespan as separate fields. First reproduction is not the same event as first birth or sexual maturity. Maximum lifespan is the longest collected record, not a typical lifespan; source conditions differ and missing values remain unresolved.
 
-## How to interpret these historical values {#s-584496b7c6}
-The species links use matching names and families together with a one-to-one MSW93/MSW05 name crosswalk; this does not prove equivalence with current species concepts. Except for maximum lifespan, values generally average literature sources with equal weight, regardless of sample size. Inputs may be published averages, individual values, or range midpoints, and underlying studies can be reused. Maximum lifespan is the longest record found, not a typical lifespan. Adult mass is not interpreted in this Ernest route, and wild, captive, and locality conditions were not established for every source.
+## Limits of the Ernest values {#s-584496b7c6}
+Species entries use an MSW93/MSW05 historical-name crosswalk, which does not prove equivalence to current concepts. Except for maximum lifespan, values generally average literature sources with equal weight; inputs may be published averages, individual values or range midpoints, and studies can recur. This route does not interpret adult mass or fill gaps from relatives, and it does not establish the wild, captive or locality conditions for every source.
+
+## Living family branches in a supertree {#research-topology}
+A carnivoran supertree recovers Caniformia and its sampled living family branches. Its topology and divergence estimates combine source trees, newly inferred gene trees and fossil calibrations, so they are analytical results built from several evidence layers rather than direct fossil observations.
 

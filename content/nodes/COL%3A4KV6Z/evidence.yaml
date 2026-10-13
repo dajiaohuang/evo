@@ -170,13 +170,20 @@ records:
       ecology:
         status: partially-supported
         claims:
-          - text: "Thermal images from the study's naturalistic enclosures showed greater substrate-temperature variability than standard enclosures: model estimates for the substrate-temperature standard deviation were 1.86 ± 0.07 and 1.39 ± 0.07, respectively (p < 0.001). The result is an enclosure-level measurement and does not by itself demonstrate improved thermoregulation or welfare."
+          - text:
+              page: en
+              section: enclosure-temps
+              part: body
             sourceIds:
               - denomme2025pogona
             locator: Results, Thermal heterogeneity and enclosure temperatures; Methods, Thermal heterogeneity; Fig. 8.
             placeTimeScope: Brock University laboratory study in St. Catharines, Ontario, Canada. Temperature images were collected in May 2024 around 09:00, 11:00, and 15:00; after removing one enclosure of each style from analysis, 11 enclosures per style were represented at each time point.
             lifeStatus: Captive-bred Pogona vitticeps in laboratory enclosures; no wild animals or fossil material were represented in this temperature comparison.
             originalLanguage: en
+            textZh:
+              page: zh
+              section: enclosure-temps
+              part: body
         gaps:
           - The temperature analysis measured enclosures and did not establish the lizards' resulting body temperatures or realized thermoregulation.
           - The authors describe overall behaviour and welfare effects as equivocal; substrate-temperature heterogeneity alone does not establish improved welfare.

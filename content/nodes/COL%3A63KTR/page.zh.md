@@ -1,4 +1,6 @@
-## 有来源支持的物种记录 {#s-fabe65fc25}
+## 记录分类与直接上级关系 {#s-fabe65fc25}
+COL26.8 将 Pelomedusa 记录为属；其直接上级记录为 Pelomedusidae。
+
 目录列出 1 条Pelomedusa物种资料，均为同名同科且逐性状有出处；可从 Pelomedusa subrufa 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
 
 ## 比较前先确认测量方式 {#s-d64f971f9f}
@@ -15,7 +17,7 @@
 这条 ReptTraits 阅读路径中有 1 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
 ## 有来源支持的物种记录 {#s-294fa756af}
-目录列出 9 条Pelomedusa物种资料，均为同名同科且逐性状有出处；可从 [Pelomedusa barbata](Pelomedusa_barbata/page.zh.md)、[Pelomedusa galeata](Pelomedusa_galeata/page.zh.md)、[Pelomedusa gehafie](Pelomedusa_gehafie/page.zh.md)、[Pelomedusa kobe](Pelomedusa_kobe/page.zh.md)、[Pelomedusa neumanni](Pelomedusa_neumanni/page.zh.md) 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
+目录列出 9 条Pelomedusa物种资料，均为同名同科且逐性状有出处；可从 Pelomedusa barbata、Pelomedusa galeata、Pelomedusa gehafie、Pelomedusa kobe、Pelomedusa neumanni 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
 
 ## 比较前先确认测量方式 {#s-aaf85d828e}
 现有尺寸记录中，Pelomedusa schweinfurthi 的已报道最大直线背甲长（SCL）为 157 mm，Pelomedusa galeata 为 325 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

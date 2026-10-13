@@ -5,5 +5,5 @@ COL26.8 currently lists the Siberut Langur as a separate accepted species, where
 In the mixed primary forest study area, the paper reported overlapping ranges between the two langurs. Groups then labelled P. potenziani used canopy above 20 m more often and selected fruit more than simakobu. Only two langur groups were studied under that older label, limiting both site and taxonomic extrapolation.
 
 ## Evidence limits {#s-9aac1c3720}
-The main ecological record uses the pre-split name P. potenziani; the page relates it to current P. siberu only through study locality and does not treat it as a modern species-wide conclusion. This page. This page is.
+The main ecological record uses the pre-split name P. potenziani; the page relates it to current P. siberu only through study locality and does not treat it as a modern species-wide conclusion.
 

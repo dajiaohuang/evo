@@ -1,30 +1,30 @@
-## A ground-active, plant-eating agamid {#s-a758452530}
-The ReptTraits record describes Leiolepis guttata as ground-dwelling, herbivorous, and active by day. It places the species in the agamid family and gives a reported maximum snout–vent length of 250 mm. These entries follow the workbook’s 2023 Reptile Database name framework and summarize cited reports, not every population.
+## COL26.8 name and the ReptTraits row {#s-a758452530}
+COL26.8 records Leiolepis guttata as an accepted species. The ReptTraits v1-2 row gives its Family field as Agamidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The 250 mm measure excludes the tail {#s-5eed442101}
-The reported maximum snout–vent length is 250 mm. Snout–vent length measures from the tip of the snout to the vent and excludes the tail. It is a compiled maximum, not an average adult size or a growth limit for the species.
+## Length values in the archived records {#s-5eed442101}
+The row reports a maximum SVL of 250 mm. ReptTraits attributes this field to Meiri 2018.
 
-## On the ground, eating plants by day {#s-bd9775c6e1}
-The cited categories place the lizard on the ground, describe its diet as herbivorous, and record daytime activity. “Herbivorous” indicates plant food but does not identify particular plants. The labels do not map every habitat or set a fixed daily schedule; activity and diet can vary with population, season, and life stage.
+## Habitat use and activity labels {#s-bd9775c6e1}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as plant-eating (Herbivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg counts are compiled summaries {#s-9ab3b771b1}
-The workbook calls this species oviparous, or egg-laying, and gives a consolidated clutch figure of 5. The lowest and highest reported means are also 5. Such summaries can be midpoints between published means—or between reported extremes if means are unavailable—rather than averages of individual clutches. They describe the compilation, not a guaranteed count for every nest or identical reproduction across populations.
+## Reproductive fields in ReptTraits {#s-9ab3b771b1}
+The compiled mean for offspring per litter or eggs per clutch is 5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 5; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 5; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## A separate, older life-history compilation {#s-22160e61ee}
-An August 2015 life-history archive has a same-name, same-family species entry for Leiolepis guttata. Four fields in its sparse table have source labels and are summarized below. Because the archive can carry information inherited across historical species and subspecies, a matching name does not prove that every record refers to the exact COL26.8 taxonomic concept.
+## A 2015 life-history row for this name {#s-22160e61ee}
+COL26.8 records Leiolepis guttata as an accepted species. The August 2015 life-history table has a species-name and family match (Agamidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## The adult mass entry is 40 g {#s-e6592433dc}
-The archive gives 40 g as an adult body-mass summary. Its adult field can combine males, females, and adults of unspecified sex, so it does not show the full range of individual weights. No birth or hatching mass is listed in this entry.
+## Length values in the archived records {#s-e6592433dc}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 40 g. The 2015 archive's field citation is Meiri, 2010.
 
-## Nest count and incubation time {#s-7530602cbd}
-The historical table records 5 offspring per litter or eggs per clutch and 64 days from egg laying to hatching. The count field combines litters and clutches, so it does not describe a fractional individual if summarized values are not whole numbers. The 64-day interval measures incubation to hatching; it is not a complete measure of the reproductive cycle.
+## Reproductive events in the life-history table {#s-7530602cbd}
+Field-specific archive notes: offspring per litter or eggs per clutch: one direct source citation, with no median count stated; oviposition to hatching: one direct source citation, with no median count stated. The offspring-per-litter or eggs-per-clutch summary is 5; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book. The incubation field is 64 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## 5.6 years is the longest collected record {#s-0a66eb6c30}
-The archive’s maximum-longevity field is 5.6 years, the largest record found under its compilation method. It is not a typical lifespan, a mean lifespan in the wild, a limit for every individual, or a current record known to be repeatedly attained.
+## Longest lifespan in the archive {#s-0a66eb6c30}
+The archive's longest-lifespan record is 5.6 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is Carey, J.R. and D.S. Judge, 2002.
 
-## Different fields have different source histories {#s-08c5dd72d9}
-The field-level source labels include Meiri (2010), the *Reptile Incubation* book, and Carey and Judge (2002). A label may refer to a primary study, book, or database. The number of table rows is not the number of animals measured, and repeated citations do not count as independent experiments.
+## The August 2015 life-history table {#s-08c5dd72d9}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## How to read the two compilations {#s-af84cd3b98}
-The ReptTraits row and the 2015 life-history archive are separate compilations with different source histories. Their summaries compress differences in sex, age, locality, and population; the older archive may also inherit information across historical species or subspecies. Its values are medians or averages of the two middle values, except for maximum longevity, which uses the largest collected record. These are not direct measurements of one animal, ranges of individual variation, mean wild lifespans, or current population surveys. The source record does not consistently distinguish wild from captive conditions, and its labels do not establish that historical names match every current taxonomic concept. The listed fields also do not update conservation status, venom, or current distribution.
+## Separate histories in the two archives {#s-af84cd3b98}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

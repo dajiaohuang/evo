@@ -7,8 +7,8 @@ Start with Enaliarctos mealsi, Enaliarctos emlongi, Enaliarctos barnesi, Enaliar
 ## Evidence limits {#s-3d60c744bd}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## A skeleton for comparing locomotion {#s-e0a660e166}
-The nearly complete Enaliarctos mealsi skeleton LACM 4321 anchors a study of early pinniped locomotor anatomy. Its vertebrae and limbs support comparisons of aquatic and terrestrial capability, not a direct-ancestor claim or a complete genus history.
+## LACM 4321 preserves spine and limbs together {#s-e0a660e166}
+The virtually complete Enaliarctos mealsi skeleton LACM 4321 anchors a study of early pinniped locomotor anatomy. Its vertebrae and limbs support comparisons of aquatic and terrestrial capability, not a direct-ancestor claim or a complete genus history.
 
 ## Diet {#s-e8785228ac}
 Not resolved by the cited skeletal locomotor study
@@ -34,12 +34,12 @@ Flexible lumbar vertebral morphology in the comparative interpretation
 ## Described features {#s-f17609e952}
 Flipper-like limbs with developed bony processes and muscle-attachment areas
 
-## What the evidence supports {#s-c349e36691}
-LACM 4321 comes from the Pyramid Hill Sandstone Member of California’s Jewett Sand and is dated approximately to 23 Ma. Swimming strokes, habitual habitat, diet and a universal pinniped history are not directly observed in this specimen.
+## One dated skeleton informs a locomotor comparison {#s-c349e36691}
+LACM 4321 comes from the Pyramid Hill Sandstone Member of California's Jewett Sand and is dated to approximately 23 Ma. Swimming strokes, habitual habitat, diet and a universal pinniped history are not directly observed in this specimen.
 
 ## One skeleton preserves spine and limbs together {#s-5c054fdf1d}
-LACM 4321 is a virtually complete skeleton of Enaliarctos mealsi. The study draws on its lumbar vertebrae, flipper-like limbs and developed bony processes with muscle-attachment areas to compare locomotor anatomy. Those are observations on one fossil; they are not measurements of every Enaliarctos species or a population-wide body-size range.
+LACM 4321 is a virtually complete skeleton of Enaliarctos mealsi. The study draws on lumbar vertebrae, flipper-like limbs and developed bony processes with muscle-attachment areas to compare locomotor anatomy. These are observations on one fossil, not measurements of every Enaliarctos species or a population-wide size range.
 
 ## Anatomy suggests capability, not observed behavior {#s-3d30539e1a}
-Comparisons of the spine and limbs are used to infer how this animal may have moved in water and on land. A skeletal model can test which movements were anatomically possible, but it does not preserve a swimming stroke, daily habitat or feeding event. The roughly 23 Ma occurrence is one central-California record and does not trace a route of pinniped dispersal.
+Comparisons of the spine and limbs are used to infer how this animal may have moved in water and on land. A skeletal model can test anatomical capability, but it does not preserve a swimming stroke, daily habitat or feeding event. The roughly 23 Ma occurrence is one central California record, not a route of pinniped dispersal.
 

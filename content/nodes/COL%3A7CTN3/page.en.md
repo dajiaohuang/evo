@@ -1,15 +1,15 @@
-## Name and data behind this account {#s-dd60ce17a8}
-Pinned COL26.8 lists Trimeresurus medoensis in Viperidae. Its ReptTraits v1-2 entry follows the Reptile Database 2023 name framework and cites sources by trait. One row per species summarizes cited reports rather than a condition shared by every population.
+## COL26.8 name and the ReptTraits row {#s-dd60ce17a8}
+COL26.8 records Trimeresurus medoensis as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What does the reported length measure? {#s-9a88c2fec3}
-The reported maximum total length (TL) is 677 mm. Total length includes the tail; snout-to-vent length (SVL) ends at the vent. This compiled maximum describes reported material, not a theoretical growth limit or typical individual size. Female and male values may come from different localities or studies, so they cannot by themselves measure sexual dimorphism within one population.
+## Length values in the archived records {#s-9a88c2fec3}
+The row reports maximum total length (TL) of 677 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and when is it active? {#s-3e737f3183}
-The entry classifies the microhabitat as arboreal, the diet as carnivorous, and the activity period as nocturnal. These categories do not give a complete habitat list, identify specific prey, or describe a fixed schedule. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-3e737f3183}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018.
 
-## What does the reproductive record show? {#s-f9b751fe88}
-The reproductive-mode field labels the species as viviparous, or live-bearing. ReptTraits may summarize litter or clutch size using midpoints of reported means, or extrema when means are unavailable; the result is not necessarily an arithmetic average of observed litters or clutches. A fractional mean summarizes records, not part of an individual litter. The “lowest” and “highest” fields are endpoints of reported means, not guaranteed smallest and largest litters or clutches. These labels do not establish fetal nutrition or a pattern shared by all populations.
+## Reproductive fields in ReptTraits {#s-f9b751fe88}
+The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-8812a346c9}
-This profile draws on a single ReptTraits v1-2 row classified under the Reptile Database 2023 framework. A row can obscure differences by sex, age, locality and population, and its historical name may not map exactly to later taxonomic concepts. The reported maximum is not a biological upper limit; a reproductive mean is not a count for every litter. Length-based mass estimates are not measured weights, and juvenile-length fields are excluded because their headers and definitions differ. The cited record provides no current conservation, venom, distribution or population-trend information. Source labels trace the workbook's citations but do not independently establish every cited paper's findings.
+## Reading this compiled trait record {#s-8812a346c9}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

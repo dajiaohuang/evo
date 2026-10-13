@@ -1,15 +1,15 @@
-## The record behind the name {#s-071fa3ec50}
-COL26.8 accepts Tenuidactylus voraginosus within Gekkonidae. The ReptTraits v1-2 entry keeps the workbook’s Reptile Database 2023 name framework and trait-specific citations. Its one-row summary brings reports together; it does not describe every individual or population as having the same traits.
+## COL26.8 name and the ReptTraits row {#s-071fa3ec50}
+COL26.8 records Tenuidactylus voraginosus as an accepted species. The ReptTraits v1-2 row gives its Family field as Gekkonidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A length measured to the vent {#s-5bb6d17bb5}
-The compilation lists maximum snout–vent length (SVL) as 64.5 mm and the female maximum as 57.6 mm. SVL ends at the vent rather than the tail tip. These values are reported maxima, not a typical size or an absolute growth limit. Since the sex-specific records may come from different localities or studies, they cannot by themselves show the size difference within one population.
+## Length values in the archived records {#s-5bb6d17bb5}
+The row reports a maximum SVL of 64.5 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 57.6 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Rock-associated and nocturnal {#s-aacc82b9f0}
-The recorded microhabitat is saxicolous, meaning associated with rock, and activity is classed as nocturnal. These labels summarize the cited observations without giving a complete habitat map or a fixed schedule for every animal. They leave open variation among localities, seasons and life stages.
+## Habitat use and activity labels {#s-aacc82b9f0}
+The microhabitat field classifies the recorded position as rock-dwelling (Saxicolous). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg-laying, with no clutch count here {#s-b1d0ae98f5}
-The source labels the reproductive mode oviparous: eggs are laid. This entry provides no clutch or litter count, so it cannot show how many eggs are laid at a time. A reproductive-mode label alone does not describe embryo nutrition or establish that populations reproduce identically.
+## Reproductive fields in ReptTraits {#s-b1d0ae98f5}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Limits of this compiled account {#s-43f2ac7118}
-This page follows the same-name ReptTraits v1-2 record and its 2023 naming framework. A single species row cannot preserve all differences in age, sex, place or population, and matching name and family do not prove that older records match a later taxonomic concept. The length is a compiled maximum, not a species-wide ceiling. Other workbook mass values may be estimates from length equations, while juvenile-length field definitions differ; neither is used here as a direct measurement. Conservation, venom, current range and population trends are not updated, and the citation chain does not mean the original studies were independently reread for this account.
+## Reading this compiled trait record {#s-43f2ac7118}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

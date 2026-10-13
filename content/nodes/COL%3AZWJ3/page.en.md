@@ -1,5 +1,5 @@
-## Read this historical record through food and foraging position {#s-753d86ca9f}
-COL26.8 accepts Cryptochloris wintoni within Chrysochloridae. EltonTraits 1.0 records 3 ecological field groups under an earlier bird classification or the MSW3 mammal taxonomy. The name match supports a historical comparison, but does not settle later splits or synonymies.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-753d86ca9f}
+The EltonTraits 1.0 record for *Cryptochloris wintoni* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 40%, ectothermic vertebrates 60% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Cryptochloris wintoni*.
 
 ## Relative weights of food categories {#s-5cece66950}
 The archive’s nonzero food weights are reptiles and amphibians 60%; invertebrates 40%. Code ABC pools high, reasonable and partial confidence; some estimates can borrow from an ecologically similar congener. ABC cannot be rewritten as direct observations of this species. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
@@ -13,11 +13,13 @@ The archive marks feeding activity during night as 1. Several fields can be 1 to
 ## Trace each field group to its source labels {#s-ee181988ca}
 The source labels for these fields are Ref_1, metadata:Nowak1999. Diet, feeding position, and activity may draw on different works, so the same Ref number in bird and mammal tables does not identify the same source. The archive links each label to its file, row, field group, and reference table; these labels are not independent observations.
 
-## Life-history evidence limits {#s-f40ef5c38a}
-EltonTraits 1.0 compiles historical foraging descriptions under earlier names and family assignments. A same-name, same-family match supports comparison with the COL26.8 record but does not prove that the historical and current species concepts are identical. Food and bird foraging-stratum percentages are standardized relative weights from descriptions, not measurements of intake, stomach contents, energy use or time budgets. Bird A/B diet codes retain uncertainty in source and relative proportions; mammal ABC food or activity fields may draw on a congener judged ecologically similar. Genus- or family-level typical values, non-species-level strata and records affected by taxonomic splits do not support species-level conclusions. These data describe the listed fields, not complete ecology, current distribution, population or conservation status.
+## How to interpret these historical records {#s-f40ef5c38a}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## Name and historical material {#s-06484fd22e}
-Cryptochloris wintoni is accepted in pinned COL26.8 within Chrysochloridae. The PanTHERIA 1.0 entry follows MSW05 in the August 2008 table; its biological data gathering ended in June 2004. This name association does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult head–body length in the historical table {#s-06484fd22e}
+The August 2008 PanTHERIA row for *Cryptochloris wintoni* records adult head–body length 89.99 mm. Adult head–body length is a sex-adjusted median. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Cryptochloris wintoni*.
 
 ## How body size was consolidated {#s-a2c66fd46d}
 Historical consolidated values are adult head–body length 89.99 mm. These fields use adjustment for sex followed by medians. Head–body length excludes the tail. Values are not direct measurements of one specimen or a species-wide size range.

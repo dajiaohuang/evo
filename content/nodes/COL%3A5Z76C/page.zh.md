@@ -1,5 +1,5 @@
-## 从旧 Nectarinia 名称定位资料 {#s-e85825adbd}
-本页按 COL26.8 的 Cinnyris comorensis（5Z76C）组织。BirdLife 2020 第 5952 行与 eBird 2021 第 2324 行同名，Avibase ID 为 AVIBASE-0D9CEEA0，匹配为 1BL to 1eBird；BirdTree 第 2317 行记 Nectarinia comorensis，匹配为 1BL to 1BT。已读旧组合 462N3 指向本页接受 ID。旧名用于查原资料，不证明所有时期的物种范围相同。
+## COL26.8 中的名称身份 {#s-e85825adbd}
+《Catalogue of Life》COL26.8（2026-08-20）将 Cinnyris comorensis W. Peters, 1864 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 喙长、翼与尾的样本范围 {#s-32edcf995c}
 形态共 4 只鸟：雌 2、雄 2、性别未定 0，4 只具完整测量。鼻孔前缘至喙尖 15.2 mm、跗蹠 17.4 mm、未压平翼长 53.6 mm、尾长 36.8 mm、手翼指数 17 是历史行汇总均值。Inference=NO 不代表每项字段都有 4 只独立记录；完整测量数不替代逐字段分母。喙长不能单独证明特定花种适配、舌结构或授粉效果；手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度。

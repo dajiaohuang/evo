@@ -1,4 +1,6 @@
-## 分别读取 Chrysococcyx 与 Rhamphomantis {#s-c31e3a2eca}
+## 记录分类与直接上级关系 {#s-c31e3a2eca}
+COL26.8 将 Chalcites Lesson, 1830 记录为属；其直接上级记录为 Cuculidae。
+
 六条历史导读沿COL26.8 Chalcites（CNJTQ）、Cuculidae（8S7）组织。eBird六Chrysococcyx且各Avibase ID相同；BirdTree五Chrysococcyx一Rhamphomantis megarhynchus。meyerii两表词尾meyerii／meyeri不同，两异名CQ6RV／CNKT3均指向CNJV8；megarhynchus两组合异名CNKSY／4S2PW均指向CNJV7。名称关系不证明物种概念完全等同。属八目录直接子项，本批六页不计完整属内容。
 
 ## 单只雌鸟与单只雄鸟各有边界 {#s-859f9c1085}
@@ -10,7 +12,7 @@ ruficollis一只雌鸟完整一套，megarhynchus一只雄鸟完整一套，各�
 ## 先区分两表名称，再比较单只样本 {#s-ad7f1e8136}
 先读meyerii词尾和megarhynchus两个旧属组合，再比较ruficollis单雌与megarhynchus单雄各自边界。对读lucidus／meyerii完整四套与basalis／osculans五只完整四，最后比较森林密度与basalis Generalist。
 
-[Chalcites ruficollis](Chalcites_ruficollis/page.zh.md)、[Chalcites lucidus](Chalcites_lucidus/page.zh.md)、[Chalcites basalis](Chalcites_basalis/page.zh.md)、[Chalcites meyerii](Chalcites_meyerii/page.zh.md)、[Chalcites megarhynchus](Chalcites_megarhynchus/page.zh.md)、[Chalcites osculans](Chalcites_osculans/page.zh.md)
+Chalcites ruficollis、Chalcites lucidus、Chalcites basalis、Chalcites meyerii、Chalcites megarhynchus、Chalcites osculans
 
 ## 证据边界 {#s-9f992f1f19}
 六条历史导读不计完整八个目录子项内容。两表旧名、词尾、单只雌雄鸟、完整分母、独立体重与生态类别各保留；不补巢寄生、宿主、繁殖、当前地图。

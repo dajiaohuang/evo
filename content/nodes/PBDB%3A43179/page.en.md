@@ -7,8 +7,8 @@ Start with Metamynodon mckinneyi, Metamynodon planifrons, Metamynodon chadronens
 ## Evidence limits {#s-06bf86bd38}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## Research overview {#s-43c260fd47}
-Metamynodon planifrons is the subject of a comparative test of semi-aquatic movement. The anatomy and deposits bear on how this one amynodontid may have moved; they do not justify calling the whole family “swamp rhinos.”
+## One species in a test of semi-aquatic movement {#s-43c260fd47}
+Metamynodon planifrons is the subject of a comparative test of semi-aquatic locomotion. Its anatomy and depositional setting inform that hypothesis for this species; they do not support a family-wide swamp-rhino label.
 
 ## atlas-profile / ecology / diet {#s-a40bc4de31}
 Herbivorous; diet not tested in the locomotor study
@@ -34,14 +34,12 @@ Reduced thoracic neural spines
 ## atlas-profile / traits {#s-7f10bfa7fb}
 Limb-lever proportions differing from more terrestrial amynodontids
 
-## What this evidence can establish {#s-23d63c69c7}
-Wall and Heinbaugh compare eye position, the spine and limb proportions with other amynodontids. These anatomical differences and the sedimentary setting support a semi-aquatic interpretation, but neither directly records the animal’s behavior.
+## A semi-aquatic interpretation, not observed behavior {#s-23d63c69c7}
+Wall and Heinbaugh use comparative anatomy and deposits to test semi-aquatic movement. The study does not observe behavior, test diet, assign a feeding guild or estimate mass across the genus.
 
-## Anatomy used to test movement {#s-25b3e90fa6}
-In the studied Metamynodon planifrons material, the orbits sit high on the skull and the thoracic neural spines are shortened.
+## Orbits, neural spines and limb proportions {#s-25b3e90fa6}
+In the studied M. planifrons material, the orbits sit high on the skull and the thoracic neural spines are reduced. Its limb-lever proportions differ from those of the more terrestrial amynodontids included in the comparison.
 
-Its limb-bone lever proportions differ from those of the more terrestrial amynodontids used in the comparison. These observations concern the study material.
-
-## A semi-aquatic test, not observed behaviour {#s-a91a835ed4}
-The sampled M. planifrons material is associated with Orellan channel sandstones. Comparative anatomy and deposits are used to test semi-aquatic movement, but neither directly records behaviour; the locomotor study does not test diet or yield a genus-wide mass estimate or feeding guild.
+## Channel sandstones are depositional context {#s-a91a835ed4}
+The sampled material is associated with Orellan channel sandstones. This setting contributes to the movement interpretation but does not directly establish habitual habitat or behavior.
 

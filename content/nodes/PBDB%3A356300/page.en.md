@@ -1,19 +1,47 @@
 ## Which fossil records this name represents {#s-c29fb61ae7}
 Pozomys ucayaliensis is accepted in the fixed PBDB mammalia working roster, with database parent Pozomys. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-e40c08dc69}
-Collection CTA-29 (Loreto), region code PE, stratum name Pozo; database age bracket 33.9–23.04 Ma, early interval Rupelian and late interval Chattian. Collection Santa Rosa (LACM Loc. 6289) (Departamento de Ucayali), region code PE, stratum name Yahuarango; database age bracket 33.9–27.3 Ma, early interval Rupelian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Pozomys ucayaliensis is listed in the PBDB snapshot under taxon txn:356300. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-fba250ba6f}
-Selected occurrences have an outer age envelope of 33.9–23.04 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is CTA-29, occurrence occ:1312288 (33.9–23.04 Ma); one supplying the younger bound is CTA-29, occurrence occ:1312288 (33.9–23.04 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-e40c08dc69}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-4f1548bea9}
-CTA-29 has collection-environment label fluvial indet.; collection preservation-mode label body. Santa Rosa (LACM Loc. 6289) has collection-environment label terrestrial indet.; collection preservation-mode label body,original phosphate,bone collector. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1312288; PBDB collection col:176129. Locality cnm=CTA-29; place fields cc2=PE, stp=Loreto. Recorded age bounds: eag 33.9 Ma; lag 23.04 Ma; PBDB interval fields oei=Rupelian, oli=Chattian. Stratigraphic fields sfm=Pozo. Recorded attribution Boivin et al. 2017; PBDB reference ref:62609.
 
-## Follow collection records back to references {#s-1af10afc7d}
-CTA-29 carries database reference attribution Boivin et al. (2017), identifier ref:62609. Santa Rosa (LACM Loc. 6289) carries database reference attribution Arnal et al. (2019), identifier ref:69440. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+early Barrancan SALMA based on mammalian biochronology
+
+Campbell et al. (2021). Our analyses correctly predicted that Pozomys ucayaliensis from CTA-29 is younger (27.0 Ma) than the rodents from the underlying level CTA-27 (mean of 30.3 Ma) and provide an independent age estimate for CTA-29 that is ∼16.5 My younger than that provided by “biotite” grains from the same layer (presumably reworked, see Discussion) that yielded a 40Ar/39Ar date of 43.44 ± 2.5 Ma.
+
+- Occurrence occ:1452862; PBDB collection col:149523. Locality cnm=Santa Rosa (LACM Loc. 6289); place fields cc2=PE, stp=Departamento de Ucayali, cny=Provincia Atalaya. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Rupelian. Stratigraphic fields sfm=Yahuarango. Recorded attribution Arnal et al. 2019; PBDB reference ref:69440.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Either latest Eocene or earliest Oligocene (Seiffert et al. 2020).
+
+Campbell et al. (2021). The Santa Rosa fossil locality in eastern Perú produced the first Paleogene vertebrate fauna from the Amazon Basin, including the oldest known monkeys from South America. This diverse paleofauna was originally assigned an Eocene age based largely on the stage of evolution of the site’s caviomorph rodents and marsupials. Here, we present detrital zircon dates that indicate that the maximum composite age of Santa Rosa is 29.6 ± 0.08 Ma (Lower Oligocene), although several zircons from Santa Rosa date to the Upper Oligocene. The first appearance datum for Caviomorpha in South America is purported to be the CTA-27 site in the Contamana region of Perú, which is hypothesized to be ∼41 Ma (Middle Eocene) in age. However, the presence of the same caviomorph species and/or genera at both CTA-27 and at Santa Rosa is now difficult to reconcile with a >11-My age difference. To further test the Middle Eocene age estimate for CTA-27, we ran multiple Bayesian tip-dating analyses of Caviomorpha, treating the ages of all Paleogene species from Perú as unknown. These analyses produced mean age estimates for Santa Rosa that closely approximate the maximum 29.6 ± 0.08 Ma composite date provided by detrital zircons, but predict that CTA-27 is much younger than currently thought (∼30 Ma). We conclude that the ∼41 Ma age proposed for CTA-27 is incorrect, and that there are currently no compelling Eocene records of either rodents or primates in the known fossil record of South America.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+along the Yurua River near the village of Santa Rosa
+
+## Age bounds on the recorded occurrences {#s-fba250ba6f}
+Across these selected PBDB rows, the largest recorded eag=33.9 Ma in occ:1312288; the smallest recorded lag=23.04 Ma in occ:1312288. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-4f1548bea9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1312288: PBDB original-identification field idn=Pozomys ucayaliensis n. gen. n. sp.; PBDB taxon-name field tna=Pozomys ucayaliensis; material note ocm="two teeth and a mandibular fragment with m1-m2"; abundance fields abv=3, abu=elements; PBDB locality-coordinate fields lng=-74.945557, lat=-7.328590; paleocoordinate/model fields pm1=gplates, pln=-62.15, pla=-7.91.
+- occ:1452862: PBDB taxon-name field tna=Pozomys ucayaliensis; material note ocm=LACM 143291 and more; PBDB locality-coordinate fields lng=-72.763336, lat=-9.494167; paleocoordinate/model fields pm1=gplates, pln=-63.3, pla=-9.49.
+
+## References attached to each record {#s-1af10afc7d}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1312288: Recorded attribution Boivin et al. 2017; PBDB reference ref:62609.
+- occ:1452862: Recorded attribution Arnal et al. 2019; PBDB reference ref:69440.
 
 ## Evidence limits {#s-d4e1c7526b}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

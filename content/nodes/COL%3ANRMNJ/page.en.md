@@ -1,5 +1,5 @@
-## Locate records through older Pomatorhinus names {#s-e0801b277b}
-Pinned COL26.8 organizes this page at Erythrogenys erythrogenys (NRMNJ) in Timaliidae (H9M). BirdLife 2020 row 8333 and eBird 2021 row 3769 share the name; both eBird sides share Avibase ID AVIBASE-DA20DCA9, with type 1BL to 1eBird. BirdTree row 3753 gives Pomatorhinus erythrogenys, type 1BL to 1BT; exact catalogue synonym 4LQWQ points to accepted species NRMNJ. Name links locate records without proving identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-e0801b277b}
+Catalogue of Life release COL26.8 records Erythrogenys erythrogenys (Vigors, 1831) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-1ac24a9ba2}
 Morphology comprises 8 birds: 3 female, 4 male and 1 unsexed; 7 complete sets. Nostril-to-tip beak length 24.5 mm, tarsus 36.9 mm, unflattened wing 94.8 mm, tail 107.8 mm and hand-wing index 5.5 are historical row means. Totals exceed complete sets; not every bird has all fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

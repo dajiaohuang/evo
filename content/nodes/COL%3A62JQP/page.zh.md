@@ -1,7 +1,9 @@
 ## 概览 {#s-cd5dfbc7c4}
 COL26.8（2026-08-20）将 Cacajao 属分为八个接受种；下方提供这八个物种的阅读入口。先读 2022 年秃乌卡里分子重估及其对 C. amuna 的描述，再比较黑秃乌卡里中 Rio Aracá 的 C. ayresi 分类重估；随后阅读 C. ucayalii 的栖地记录和较新的声音研究。C. novaesi 与 C. rubicundus 页面现将分类史与 2025 年 ICMBio 评估并列：novaesi 以 2021 年调查为据概述河间地分布，rubicundus 概述评估报告的三个出现区域。novaesi 保留区域调查范围；rubicundus 另接入 2008 年直接观察。两页均不代表完整生态志或全种数量估计。
 
-## 按生活史字段选择对读页面 {#s-c0d642f612}
+## 记录分类与直接上级关系 {#s-c0d642f612}
+COL26.8 将 Cacajao Lesson, 1840 记录为属；其直接上级记录为 Pitheciinae Mivart, 1865。
+
 Cacajao 的本批路线包含 2 条历史生活史导读，可从 Cacajao calvus、Cacajao melanocephalus 开始。较多条目具有的字段包括 成年体重（2 条）、每窝幼体数或卵数（2 条）、汇编中最长寿命记录（2 条）、雌性成熟字段（源定义为首次受孕年龄）（1 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-d751633351}
@@ -12,7 +14,7 @@ Cacajao 的本批路线包含 2 个历史条目，可从 Cacajao calvus、Cacaja
 本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
-## 从已有历史条目开始 {#s-768478e219}
+## 记录分类与成员材料 {#s-768478e219}
 Cacajao 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Cacajao calvus、Cacajao melanocephalus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-ccc268c7c7}
@@ -27,14 +29,14 @@ Cacajao 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Cacaja
 ## 固定名录的八个物种入口 {#s-386b7d8a7a}
 以下八个接受种按 COL26.8 版本排列；阅读入口不表示每篇已有完整生态志。
 
-- [Cacajao amuna](Cacajao_amuna/page.zh.md)
-- [Cacajao rubicundus](Cacajao_rubicundus/page.zh.md)
-- [Cacajao novaesi](Cacajao_novaesi/page.zh.md)
-- [Cacajao ucayalii](Cacajao_ucayalii/page.zh.md)
-- [Cacajao ayresi](Cacajao_ayresi/page.zh.md)
-- [Cacajao calvus](Cacajao_calvus/page.zh.md)
-- [Cacajao hosomi](Cacajao_hosomi/page.zh.md)
-- [Cacajao melanocephalus](Cacajao_melanocephalus/page.zh.md)
+- Cacajao amuna
+- Cacajao rubicundus
+- Cacajao novaesi
+- Cacajao ucayalii
+- Cacajao ayresi
+- Cacajao calvus
+- Cacajao hosomi
+- Cacajao melanocephalus
 
 ## 比较短期直接观察与长期季节记录 {#s-82f0490c0f}
 [C. rubicundus 的 Mamirauá 导读](Cacajao_rubicundus/page.zh.md) 展示 2008 年定向搜索中的取食与接触；[C. ucayalii 的 Quebrada Blanco 导读](Cacajao_ucayalii/page.zh.md) 展示 1985–2022 年目击的季节分布。后者将成熟果实指标和跨栖地移动假说分别解释。两地动物不因历史名称相似就视为同一物种，两种调查也不能直接比较密度。

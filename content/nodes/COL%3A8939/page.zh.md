@@ -1,11 +1,13 @@
-## 一条生活史档案记录 {#s-b3e7ea1db0}
+## 记录分类与直接上级关系 {#s-b3e7ea1db0}
+COL26.8 将 Xenuromys 记录为属；其直接上级记录为 Murinae。
+
 Catalogue of Life COL26.8 将 Xenuromys 记录为接受的属。2015 年 8 月生活史档案有一条按固定祖先分类归入 Xenuromys 的历史记录。这个数字描述该档案中的阅读路径，不是完整后代覆盖。方法元数据提到中位数汇总、最长寿命最大记录，以及沿用历史种或亚种分类；此记录没有逐篇核查底层研究。
 
 ## 一条 EltonTraits 生态记录 {#s-678f5b851f}
 EltonTraits 1.0 列有一条按固定 COL26.8 祖先分类归入的历史记录：Xenuromys barbatus。字段组汇总计有一条食物记录、一条取食记录和一条活动记录。这些是汇编条目数，不是特征值，也不能证明该属成员具有统一生态。方法元数据说明字段经过半定量转换和插补。
 
 ## 一条通往 Xenuromys barbatus 的 PanTHERIA 路径 {#s-0714ce5fec}
-PanTHERIA WR05 也有一条历史记录 Xenuromys barbatus，按固定 COL26.8 祖先分类归入 Xenuromys。链接的[物种页](Xenuromys_barbatus/page.zh.md)提供这条记录的阅读路径。它只是一条历史记录，不是当前接受后代的数量。
+PanTHERIA WR05 也有一条历史记录 Xenuromys barbatus，按固定 COL26.8 祖先分类归入 Xenuromys。链接的物种页提供这条记录的阅读路径。它只是一条历史记录，不是当前接受后代的数量。
 
 ## PanTHERIA 方法因字段而异 {#s-d5e4e96ce9}
 PanTHERIA 汇总元数据提到中位数、部分 GLM 调整和各字段不同的适用范围。中位数是排序后位于中间的汇总值；来源提醒，不同字段可能采用不同条件。本节点证据没有包含底层测量值，因此单凭本页不能进行数值体型或生活史比较。

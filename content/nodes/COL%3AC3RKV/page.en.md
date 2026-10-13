@@ -1,36 +1,36 @@
-## The 2015 life-history entry and this name {#s-d4ef3cc62a}
-Pyrrhura griseipectus is accepted in pinned COL26.8 within Psittacidae. This page compares the same-name historical life-history entry using 3 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-d4ef3cc62a}
+The August 2015 database has a same-name, same-family record for Pyrrhura griseipectus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-e651b297c7}
-Historical summary values are adult body mass 56.7 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-e651b297c7}
+The August 2015 compilation reports adult body mass 56.7 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-60f03f46dd}
-Available compilation fields are offspring per litter or eggs per clutch 6.7 offspring/eggs. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Missing reproductive and developmental durations are not supplied here.
+## Reproductive fields describe different events {#s-60f03f46dd}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 6.7. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-4309e739db}
-The archive’s maximum_longevity_y value is 18.5 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-4309e739db}
+The compilation lists 18.5 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-21a3ccd204}
-Same-name sparse rows carry source labels including Schuck-Paima, C., Alonsob, W.J., and E.B. Ottonia, 2008; Jetz, Sekercioglu, and Bohning-Gaese, 2008; de Magalhaes and Costa, 2009. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-21a3ccd204}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Life-history evidence limits {#s-451eae2131}
 This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
 
-## The name in the limited ecology record {#s-22b32915d4}
-Pyrrhura griseipectus is accepted in pinned COL26.8 within Psittacidae. This section associates its same-name, same-family historical AVONET v7 record. Names and two one-to-one crosswalks do not resolve species concepts after later splits or lumps.
+## A historical name within this ecology row {#s-22b32915d4}
+The AVONET row uses historical BirdLife name Pyrrhura griseipectus. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-3b51a05e49}
-The recorded habitat category is tall-tree vegetation with a relatively closed canopy. The record describes resources drawn from multiple feeding niches. The recorded primary lifestyle involves much time perched above ground on vegetation, rocks or other substrates. The multiple-niche category does not imply identical proportions across seasons, regions or individuals. These coarse record categories do not replace food lists, behavioural observations or local microhabitat descriptions.
+## Recorded habitat and feeding categories {#s-3b51a05e49}
+The ecology-only AVONET row classifies Pyrrhura griseipectus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-b35bcfaee1}
-The recorded migration category is sedentary. This is the source’s sedentary category; regional seasonal movements are not separately listed. This entry does not supply current routes, schedules or movement distances for every population.
+## The migration label has a limited scope {#s-b35bcfaee1}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-f57a29b46b}
-Historical breeding and resident maps have latitude endpoints of -5.07° to -4.07°. The source worksheet associates these fields with BirdLife/HBW 2019.1 maps accessed on 27 March 2020. Endpoints summarize a mapped range, not a locality list or evidence of occupancy throughout it, and exclude a complete account of non-breeding movements. They do not establish current distribution, survival or conservation status.
+## Mapped range is not a locality list {#s-f57a29b46b}
+Historical breeding and resident maps span latitude endpoints -5.07° to -4.07°. The mapped range area is 686.2 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-093a9fc590}
-Of four ecological categories in this batch, 4 have readable records. All four coarse categories are recorded, but ecological coverage remains incomplete. Read historical latitude summaries within their map scope. The source does not flag biometric inference, and mass is sourced from an EltonTraits genus average. Morphological dimensions and mass are not interpreted here; reproduction, growth and conservation remain without complete accounts. Missing fields do not establish absence of the traits.
+## Fields outside this ecology-only view {#s-093a9fc590}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
-## Limits of these historical data {#s-36abcc7a83}
-This batch provides limited historical ecology and geography, not complete species monographs. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Matching names and families plus one-to-one same-name BirdLife/eBird/BirdTree crosswalks establish an association, not equivalence to current COL26.8 species concepts. Ecological fields are coarse literature-derived categories; underlying species literature was not individually read here. Original morphology can involve inference from relatives, and mass can use genus averages or models. This batch therefore withholds morphological and mass interpretation rather than treating those fields as direct measurements of this species. Historical maps cover breeding and resident ranges, without current population, occupancy or conservation assessments.
+## Limits of this historical ecology record {#s-36abcc7a83}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 

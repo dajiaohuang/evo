@@ -1,19 +1,46 @@
 ## 这个名称对应哪些化石记录 {#s-74f4929e69}
 Behemotops proteus 在固定 PBDB 哺乳类化石工作名录中为接受种，数据库父级为 Behemotops。本页导读 2 条可用种级出现记录，涉及 2 个采集记录和 2 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-452eda25d1}
-采集记录 LACMVP 5412（Washington），地区代码 US，地层名称 Pysht；数据库年代范围 27.3–23.04 Ma，早端地质时段 Chattian。采集记录 Murdock Creek（Washington），地区代码 US，地层名称 Pysht；数据库年代范围 33.9–27.3 Ma，早端地质时段 Rupelian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Behemotops proteus 在 PBDB 快照中对应分类条目 txn:71785。这份存档导读包含 2 条选取的出现记录，关联 2 个不同的 PBDB 采集记录编号和 2 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-1a539d1ef1}
-本页所选出现记录的年代外包区间为 33.9–23.04 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Murdock Creek 的出现记录 occ:564571（33.9–27.3 Ma）；晚端可追到 LACMVP 5412 的出现记录 occ:463760（27.3–23.04 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-452eda25d1}
+存档导读包含 2 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
 
-## 保存环境与生活环境分开阅读 {#s-5ddc42bcd8}
-LACMVP 5412 的采集环境标签为 离岸沉积环境（offshore）；集合保存方式标签为 实体化石、原磷酸盐成分（body,original phosphate）。Murdock Creek 的采集环境标签为 deep-water indet.；集合保存方式标签为 实体化石、原磷酸盐成分（body,original phosphate）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:463760；PBDB 采集记录 col:45809。 地点字段 cnm=LACMVP 5412；地点分区字段 cc2=US，stp=Washington，cny=Clallam。 记录年代界：eag 27.3 Ma; lag 23.04 Ma；PBDB 年代区间字段 oei=Chattian。 地层字段 sfm=Pysht。 记录署名 Domning et al. 1986；PBDB 引文编号 ref:12991。
 
-## 沿采集记录追到文献 {#s-9b492e6b17}
-LACMVP 5412 的数据库引文署名为 Domning et al.（1986），编号 ref:12991。Murdock Creek 的数据库引文署名为 Ray et al.（1994），编号 ref:70320。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+south side of Strait of Juan de Fuca, on north shore fo Olympic Peninsula, Clallam County, WA; some 34 km west of Port Angeles and approximately 3.6 km east of mouth of East Twin River; wave cut bench 15 meters orth of cliff face (Domning et al. 1986)
+
+- 出现记录 occ:564571；PBDB 采集记录 col:58964。 地点字段 cnm=Murdock Creek；地点分区字段 cc2=US，stp=Washington，cny=Clallam。 记录年代界：eag 33.9 Ma; lag 27.3 Ma；PBDB 年代区间字段 oei=Rupelian。 地层字段 sfm=Pysht。 记录署名 Ray et al. 1994；PBDB 引文编号 ref:70320。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+lower part of Pysht Formation; Prothero et al. (2001) place the lower Pysht in the early Oligocene (=Rupelian), as does Shipps et al (2019).
+lower part of Pysht Formation, latest early Oligocene/early late Oligocene (Barnes and Goedert, 2001; Barnes et al., 2001; Prothero et al., 2001), or late Oligocene (Nesbitt et al., 2010). (Mayr et al., 2015)
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+near the mouth of Murdock Creek
+
+float concretions that eroded from the beach terrace and low banks west of the mouth of Murdock Creek, south shore of Strait of Juan de Fuca, Clallam County, Washington, U.S.A. (GPS data: SMF Av 599: 48.1567 N, 123.8696 W; SMF Av 600: 48.1545 N, 123.8655 W; SMF Av 601: 48.1558 N, 123.8685 W) (Mayr et al, 2015).
+
+## 出现记录的年代界 {#s-1a539d1ef1}
+在这组 PBDB 记录中，最大记录 eag=33.9 Ma，见 occ:564571；最小记录 lag=23.04 Ma，见 occ:463760。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-5ddc42bcd8}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:463760：PBDB 原鉴定字段 idn=Behemotops proteus n. gen. n. sp.；PBDB 分类名称字段 tna=Behemotops proteus；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=-123.898613，lat=48.160557；古坐标／模型字段 pm1=gplates，pln=-109.79，pla=52.78。
+- occ:564571：PBDB 分类名称字段 tna=Behemotops proteus；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=-123.861946，lat=48.154167；古坐标／模型字段 pm1=gplates，pln=-106.72，pla=53.19。
+
+## 各记录所附的引文 {#s-9b492e6b17}
+存档导读把这些记录关联到 2 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:463760：记录署名 Domning et al. 1986；PBDB 引文编号 ref:12991。
+- occ:564571：记录署名 Ray et al. 1994；PBDB 引文编号 ref:70320。
 
 ## 资料边界 {#s-cc0397bad1}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 13958 项哺乳类化石工作名录中，当前名称一致、父链可追到已记录 Mammalia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 2 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

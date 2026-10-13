@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-782f0def9c}
+## 记录分类与直接上级关系 {#s-782f0def9c}
+COL26.8 将 Anguidae 记录为科；其直接上级记录为 Autarchoglossa。
+
 Anguidae 的本批 ReptTraits 阅读路径包含 69 条同名同科、有逐性状出处的物种资料，可从 Abronia antauges、Abronia anzuetoi、Abronia aurita、Abronia bogerti、Abronia campbelli 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-32c47d3040}
@@ -9,12 +11,12 @@ Anguidae 的本批路线包含 11 条历史生活史导读，可从 Anguis cepha
 
 ## 证据边界 {#s-b866e820dd}
 本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
-本路线包含原始筛选后写入的同名同科历史条目；部分在撤下字段范围疑点后低于原焦点字段门槛，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+本路线包含原始筛选后写入的同名同科历史条目；部分在撤下字段范围疑点后低于原焦点字段门槛，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
-## 从有性状记录的物种开始 {#s-ceea0af855}
-Anguidae 的本批 ReptTraits 阅读路径包含 14 条同名同科、有逐性状出处的物种资料，可从 [Abronia cuchumatanus](Gerrhonotinae/Abronia/Abronia_cuchumatanus/page.zh.md)、[Abronia fuscolabialis](Gerrhonotinae/Abronia/Abronia_fuscolabialis/page.zh.md)、[Abronia mitchelli](Gerrhonotinae/Abronia/Abronia_mitchelli/page.zh.md)、[Abronia montecristoi](Gerrhonotinae/Abronia/Abronia_montecristoi/page.zh.md)、[Abronia reidi](Gerrhonotinae/Abronia/Abronia_reidi/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-ceea0af855}
+Anguidae 的本批 ReptTraits 阅读路径包含 14 条同名同科、有逐性状出处的物种资料，可从 Abronia cuchumatanus、Abronia fuscolabialis、Abronia mitchelli、Abronia montecristoi、Abronia reidi 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-c53b74c385}
 本批已有尺寸记录中，Abronia cuchumatanus 的已报道最大吻肛长（SVL）为 72 mm，Dopasia ludovici 为 195 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

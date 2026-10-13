@@ -1,5 +1,5 @@
-## 历史记录中的名称 {#s-f16ee8adaf}
-固定的 COL26.8 条目为 Psilopogon corvinus（7WP5Z）。AVONET v7 的 BirdLife 2020 第 9682 行与 eBird 2021 第 8649 行使用该名称及 Avibase ID AVIBASE-2A5A8428。BirdTree 第 8604 行则记作 Megalaima corvina，匹配类型为 1BL to 1BT；COL 已读旧组合记录 7VSVR 指向当前接受条目。这些对应关系用于查找历史行，并不证明不同来源一直采用相同物种边界。
+## COL26.8 中的名称身份 {#s-f16ee8adaf}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon corvinus (Temminck, 1831) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量个体提供的信息 {#s-6f0ab75c14}
 形态记录包括 4 只鸟：雌 2 只、雄 2 只，均具完整测量组。均值为鼻孔前缘至喙尖 29.4 mm、喙宽 13.3 mm、跗蹠 32.8 mm、未压平翼长 121.8 mm。手翼指数为 18.3，定义为 Kipp 距离除以翼长再乘 100；它是翼部比例指标，不是飞行速度。Inference=NO 不保证每个字段样本数相同；完整测量数与总数应分开。喙宽也不是吞果或啄食表现的实验结果。

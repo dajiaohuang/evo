@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-bfe4a110fa}
-Thylacosmilidae is recorded at rank family in this batch’s PBDB path. This route offers occurrence guides for 3 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Thylacosmilidae {#s-bfe4a110fa}
+Thylacosmilidae is listed at rank family in the PBDB classification route, with Sparassodonta as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-7a2da4f9af}
 Start with Anachlysictis gracilis, Patagosmilus goini, Thylacosmilus atrox and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 12 selected occurrences from 11 collections; example stratum names are Villavieja, La Victoria, Collón Curá, Ituzaingo. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-d551c86ba4}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-d551c86ba4}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Anachlysictis gracilis’s collection record, not a continuous history for Thylacosmilidae.
 

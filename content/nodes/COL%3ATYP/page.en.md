@@ -1,4 +1,6 @@
-## PanTHERIA accounts {#s-faed62f55f}
+## Recorded classification and direct parent {#s-faed62f55f}
+COL26.8 records Ammospermophilus at genus rank, with Marmotini as its direct parent.
+
 Four usable accounts in this batch are Ammospermophilus harrisii, A. interpres, A. leucurus and A. nelsoni. Pages retain historical MSW05 names, field conditions and gaps; pinned COL26.8 navigation does not make these rows a current species denominator.
 
 ## Adult-mass endpoints {#s-b058294b65}
@@ -14,13 +16,13 @@ Five entries include A. interpres, A. insularis, A. harrisii, A. nelsoni and A. 
 Each route reflects only batch entries meeting its field and historical-name rules, not all descendants. Medians are summaries; fields can have different conditions. The ecological view does not turn food types, weights or activity into shared group traits. Historical taxonomy, maximum records and possible ABC congeneric borrowing retain source limits; current concepts, range and conservation need other evidence.
 
 ## One focal PanTHERIA account {#s-8bc786ca69}
-The route has one usable account, [Ammospermophilus insularis](Ammospermophilus_insularis/page.en.md), retaining the MSW05 name, conditions and gaps. Historical rows are not current accepted-species counts.
+The route has one usable account, Ammospermophilus insularis, retaining the MSW05 name, conditions and gaps. Historical rows are not current accepted-species counts.
 
 ## PanTHERIA scope {#s-881ec62360}
 This view includes batch entries with at least one focal field and matching name/family plus historical one-to-one correspondence. It does not cover all descendants; endpoints are summaries with variable-specific conditions. Current concepts, distribution and conservation are not established here.
 
 ## Life-history pages {#s-90b24c84aa}
-Four authored accounts are [A. harrisii](Ammospermophilus_harrisii/page.en.md), [A. nelsoni](Ammospermophilus_nelsoni/page.en.md), [A. interpres](Ammospermophilus_interpres/page.en.md) and [A. leucurus](Ammospermophilus_leucurus/page.en.md). This batch count is not the full accepted-species total.
+Four authored accounts are A. harrisii, A. nelsoni, A. interpres and A. leucurus. This batch count is not the full accepted-species total.
 
 ## Timing and maximum records {#s-21fa470488}
 Gestation appears in three accounts, female age at first reproduction in two, and maximum lifespan in two. First reproduction is not first birth or maturity; maximum lifespan is not mean lifespan. Conditions differ and gaps need other sources.

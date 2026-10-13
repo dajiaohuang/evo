@@ -1,4 +1,4 @@
-## Distribution and habitat {#s-ea462f73bc}
+## Type locality and name-bearing specimen {#s-ea462f73bc}
 MDD currently displays Bangka Slow Loris, gives Klabat Bay on Bangka, Indonesia, as the type locality, and lists holotype USNM:MAMM:124907. This specimen locality anchors the name; it is not a complete map of the species' present distribution.
 
 ## Classification {#s-4e04279f68}

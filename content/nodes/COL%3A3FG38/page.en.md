@@ -1,5 +1,5 @@
-## The 2015 life-history entry and this name {#s-eab7d53725}
-Gazella bennettii is accepted in pinned COL26.8 within Bovidae. This page reads a same-name historical life-history record through 7 focal fields, each supported by cited species-level sparse-table rows matching name and family. Summaries can retain historical taxonomic inheritance; matching row names do not remove it.
+## Body mass and life-history values in the compilation {#s-eab7d53725}
+The August 2015 Amniote Database entry for *Gazella bennettii* reports adult body mass 22278.415 g; mass at birth or hatching 2200 g; female age at first conception 485.11 d; offspring per litter or eggs per clutch 1.22; conception or fertilization to birth 172 d; age of dependence on food other than maternal milk 88 d; longest lifespan record in the compilation 23.7 y. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. The female-maturity field is defined as age at first conception, not first birth. Gestation is the source-defined interval from conception or fertilization to birth. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Maximum longevity is the longest record found, not a mean or typical lifespan. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Gazella bennettii*.
 
 ## Different stages in the mass fields {#s-311422a4d8}
 The historical summaries are adult body mass 22278.42 g and birth or hatching mass 2200 g. Adult mass may combine males, females and adults of unspecified sex; birth or hatching mass describes another life stage. These are not a longitudinal series from the same individuals or a species-wide range.
@@ -13,8 +13,8 @@ The archive’s maximum_longevity_y value is 23.7 years, the largest record foun
 ## How to trace these values to sources {#s-3aea16a208}
 Same-name sparse rows carry labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; de Magalhaes and Costa, 2009; Ernest et al., 2003; and Ricklefs, 2010b. The batch archive retains field-specific raw row numbers, values and labels, plus complete reference explanations from the final table. A label may refer to a primary paper, book or database. Row counts are not measured-individual counts, and repeated citations are not independent replication.
 
-## Read this historical record through food and foraging position {#s-ceeecbb2e3}
-Gazella bennettii is accepted in pinned COL26.8 within Bovidae. This page reads its same-name, same-family EltonTraits 1.0 record through 2 ecological field groups. The source follows earlier bird or MSW3 mammal taxonomy; matching names do not resolve modern splits or synonym disputes.
+## Foraging stratum and activity flags in the compilation {#s-ceeecbb2e3}
+The EltonTraits 1.0 record for *Gazella bennettii* contains the foraging stratum, activity flags. The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark twilight and daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Source comments and compiler confidence remain attached to the foraging category. The archive leaves diet fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Gazella bennettii*.
 
 ## Mammalian foraging-stratum assignment {#s-40aa53f88d}
 The entry assigns G, the ground category; the source definition includes some aquatic foraging. Code A records compiler confidence in the source and assignment. Metadata collectively attributes mammalian foraging-stratum assignments to Nowak (1999). G is a category, not a percentage of time among strata or a claim that the species acts only there.
@@ -25,11 +25,15 @@ The archive marks feeding activity during twilight and daytime as 1. Several per
 ## Trace each field group to its source labels {#s-5d0925aac8}
 The selected groups carry labels metadata:Nowak1999 and Ref_1. Diet, stratum and activity may use different materials; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, and source labels are not independent observations.
 
-## Life-history evidence limits {#s-be88b9abbd}
-The 2015 life-history archive reports medians or averages of the two middle values, except maximum longevity, which is the largest record found. These are not one-individual measurements, variation ranges, mean wild lifespan or population surveys. Historical species and subspecies may share or inherit data; name, family and sparse rows support an association but do not establish equivalence to COL26.8 or remove inherited components. Wild/captive conditions are not uniformly confirmed; underlying publications have not been individually reviewed. The EltonTraits route covers historical same-name, same-family foraging, not a complete monograph or proof of current concept equivalence. Food and avian-stratum percentages are standardized literature estimates, not direct measurements. Avian A/B and mammalian ABC codes retain uncertainty; ABC fields may use congeneric material. Genus/family typical values, non-species-level avian strata and split records needing review do not support definite conclusions. This page withholds diet (source code D1) because of interpolation, certainty or source-link limits; the source archive retains its reasons and original values. Current range, population, conservation, behavior and missing fields require other sources.
+## How to interpret these historical records {#s-be88b9abbd}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-## Name and historical material {#s-ef81997fd3}
-Gazella bennettii is accepted in pinned COL26.8 within Bovidae. This page uses its PanTHERIA 1.0 MSW05 entry from the August 2008 table; biological data gathering for the source ended in June 2004. The name association does not resolve later taxonomic changes.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
+
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass in the historical table {#s-ef81997fd3}
+The August 2008 PanTHERIA row for *Gazella bennettii* records adult body mass 18916.67 g. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Gazella bennettii*.
 
 ## How body size was consolidated {#s-cf943a36a0}
 The historical consolidated value is adult body mass 18916.67 g. The source adjusted for sex and then calculated medians. Mass may include adults or animals of unspecified age but excludes pregnant females. This is not a measurement of one specimen or a species-wide size range.

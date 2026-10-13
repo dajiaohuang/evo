@@ -1,30 +1,30 @@
-## What one ecological field can tell us {#s-51677687f4}
-COL26.8 lists Zosterops grayi within Zosteropidae. The historical EltonTraits 1.0 entry associates the same name and family with one usable ecological group: foraging strata. Its diet field is not usable here. The older taxonomy and name match do not resolve later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-51677687f4}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops grayi covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-243467cf04}
-The archived weights place 70% in trees or tall shrubs from 2 m upward but below the canopy, and 30% in understory, edges or shrubs below 2 m. These are standardized relative weights for feeding positions, not nest sites, a complete habitat description or the share of the day spent there. The source’s water, understory, mid/high, canopy and aerial classes have separate definitions; they are not elevation bands or flight heights.
+## Foraging positions are not a time budget {#s-243467cf04}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 30%; in mid-height or high vegetation 70%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-886b5605d7}
-The usable foraging fields cite Ref_41. The archive retains the original source string with its file, row, field group and reference-table location. The book behind this label has not been individually reviewed here; the citation is a source trail, not an additional observation.
+## Sources and field limits {#s-886b5605d7}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Coates, B. J., K. David, and D. Gardner. 1997. A guide to the birds of Wallacea: Sulawesi, the Moluccas, and Lesser Sunda Islands, Indonesia. Dove Publications.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-432cb5bdcb}
 The EltonTraits entry supports only the foraging-stratum group here. Its diet field is withheld under code D1 because the source marks uncertainty, interpolation, unresolved source labels or unusable category values; no diet conclusion is inferred from it. The stratum weights are literature-derived, not direct measurements. AVONET1_BirdLife names and crosswalks support an association, not equivalence between historical species concepts and COL26.8. The underlying species literature has not been individually reread. Historical maps cover breeding and resident ranges; morphology and mass remain uninterpreted here, including mass sourced from an EltonTraits mass–length model. Current range, population and conservation assessments need other sources.
 
-## The name in the limited ecology record {#s-55e693d567}
-AVONET v7 also associates a historical Zosterops grayi entry with this name and family. Its name follows the HBW–BirdLife 5.0 taxonomy from December 2020. The association does not settle whether that historical entry matches the current COL26.8 species concept.
+## A historical name within this ecology row {#s-55e693d567}
+The AVONET row uses historical BirdLife name Zosterops grayi. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-3ef58b2cf6}
-AVONET records a tall-tree habitat with a relatively closed canopy, a multi-niche trophic category and an Insessorial primary lifestyle. These are broad archive categories: they do not identify exact local habitat, a fixed diet or proportions that hold across seasons, places and individuals.
+## Recorded habitat and feeding categories {#s-3ef58b2cf6}
+The ecology-only AVONET row classifies Zosterops grayi as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-766c6a615d}
-The recorded migration category is sedentary. This is the source’s broad category; it does not rule out regional seasonal movements or provide current routes, schedules or distances for every population.
+## The migration label has a limited scope {#s-766c6a615d}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-5eeaaecfec}
-Historical breeding and resident maps have latitude endpoints of −6° to −5.27°. The source worksheet links these fields to BirdLife/HBW 2019.1 maps accessed on 27 March 2020. The endpoints summarize a mapped range, not a locality list or proof of occupancy throughout it, and they do not describe non-breeding movements or current distribution.
+## Mapped range is not a locality list {#s-5eeaaecfec}
+Historical breeding and resident maps span latitude endpoints -6° to -5.27°. The mapped range area is 556.55 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-a3cd33fa89}
-All 4 of 4 AVONET ecological categories are readable, but that is not a complete ecological account. Biometric fields, including morphology and mass, are left uninterpreted; the source does not flag biometric inference, while mass is sourced from an EltonTraits mass–length model. The record does not provide complete accounts of reproduction, growth or conservation. Missing fields do not establish that a trait is absent.
+## Fields outside this ecology-only view {#s-a3cd33fa89}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
-## Limits of these historical data {#s-28e6fc404e}
-This record provides limited historical ecology and geography, not a complete species monograph. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020; same-name matches and two one-to-one BirdLife/eBird/BirdTree crosswalks support association, not equivalence with COL26.8. Ecological fields are coarse literature-derived categories, and the underlying species literature has not been individually read here. Historical maps cover breeding and resident ranges only. Current range, population and conservation assessments require other sources.
+## Limits of this historical ecology record {#s-28e6fc404e}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 

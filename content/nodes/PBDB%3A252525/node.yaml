@@ -11,6 +11,18 @@ identity:
     sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=252525
     parentSourceIdentifier: txn:246753
     placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  sourceIdentities:
+    - identity: PBDB:txn:252525
+      taxonomy:
+        path: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+        recordId: txn:252525
+        url: https://paleobiodb.org/data1.2/taxa/single.json?id=252525
+    - identity: PBDB:txn:246754
+      taxonomy:
+        path: data/sources/snapshots/pbdb-amniota-accepted-fossil-species-2026-10-02.json
+        recordId: txn:246754
+        url: https://paleobiodb.org/data1.2/taxa/single.json?id=246754
+  conceptsMerged: false
 relationships: []
 structure:
   sections:

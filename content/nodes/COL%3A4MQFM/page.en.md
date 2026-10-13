@@ -1,29 +1,29 @@
-## Name, classification and sample {#s-3c7fbaec9d}
-COL26.8 accepts Prodotiscus zambesiae in Indicatoridae. AVONET v7 records it under the HBW–BirdLife 2020 name: 5 individuals were measured, and 4 have a complete morphological set. Available samples may differ by trait.
+## Row-reported mean and sample coverage {#s-3c7fbaec9d}
+The AVONET v7 row for Prodotiscus zambesiae (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 5.7 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions {#s-6809871822}
-Mean length from anterior nostril edge to tip is 5.7 mm; beak width is 3.4 mm and depth at that edge is 2.5 mm. These standardized dimensions are separate measurements, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-6809871822}
+AVONET records culmen length (bill tip to skull base) 8.1 mm; beak length (nostril front edge to tip) 5.7 mm; beak width at the nostril front edge 3.4 mm; beak depth at the nostril front edge 2.5 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-9c47803faf}
-Mean unflattened wing length, from carpal joint to longest primary, is 73 mm; mean tarsus is 11.9 mm. A separate compiled mean mass is 10.2 g (source category Dunning); morphology sampling does not establish its denominator.
+## Wing and body measures use separate sources {#s-9c47803faf}
+AVONET records unflattened wing length 73 mm; tarsus length 11.9 mm; distance from first secondary tip to longest primary tip 18.6 mm; length to first secondary tip 54.4 mm; hand-wing index 25.5; tail length 50 mm; species-average body mass 10.2 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Ecological categories {#s-298b78cb3b}
-The dataset records Forest habitat, Invertivore trophic niche and Insessorial lifestyle. These broad categories help compare records but do not imply exclusive habitat use or diet.
+## Recorded habitat and feeding categories {#s-298b78cb3b}
+AVONET classifies Prodotiscus zambesiae as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and mapped range {#s-fe0d6e2523}
-The migration field is sedentary. Historical breeding and resident maps span latitude endpoints -25.14° and 8.81°. They do not describe every non-breeding movement or current/global occupancy; geography and morphology were compiled separately.
+## Mapped range is not a locality list {#s-fe0d6e2523}
+Historical breeding and resident maps span latitude endpoints -25.14° to 8.81°. The mapped range area is 3997564.3 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## Two EltonTraits field groups {#s-a8ac4783f4}
-An EltonTraits 1.0 same-name, same-family record is associated with Prodotiscus zambesiae under pinned COL26.8. This page reads 2 supported ecological field groups. Historical bird taxonomy and MSW3 mammal taxonomy do not settle present-day splits or synonyms.
+## Scope of the historical trait entry {#s-a8ac4783f4}
+EltonTraits 1.0 has a same-name, same-family record for Prodotiscus zambesiae covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Food-category weights {#s-248aa11192}
-Nonzero weights are invertebrates 80%, fruit 10%, and seeds, nuts and spores 10%. Code A marks high compiler confidence in the source and diet information. The weights standardize written descriptions, not measured diet; zero does not establish that an item is never eaten. Nect, Seed and PlantO are broad source categories.
+## Relative weights across food categories {#s-248aa11192}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; fruit 10%; seeds or nuts 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Feeding positions {#s-663040e014}
-Species-level weights are understory, edges or shrubs below 2 m 50%, and trees or high bushes from 2 m up but below the canopy 50%. They represent relative use of feeding positions, not nests, total habitat or full-day activity. Surface-water, understory, mid/high, canopy and aerial categories have distinct definitions; they do not measure elevation, flight height or habitat area.
+## Foraging positions are not a time budget {#s-663040e014}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 50%; in mid-height or high vegetation 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Reference labels {#s-c3461c51eb}
-The used groups carry Ref_7. Diet, stratum and activity can use different references, and Ref_7 in bird and mammal tables does not identify the same source. The archive keeps source strings with file, row, group and reference table. Underlying publications were not individually read; labels are not extra observations.
+## Sources and field limits {#s-c3461c51eb}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-62a74c995c}
 AVONET v7 values are historical species averages for the listed samples, not individual ranges or identification criteria. Dunning mass is separately compiled and has a different denominator. Habitat, diet and migration are broad categories; mapped latitudes cover historical breeding and resident ranges only. Matching names and crosswalks connect records without proving that historical species concepts equal COL26.8. Reproduction, current populations and conservation need other sources.

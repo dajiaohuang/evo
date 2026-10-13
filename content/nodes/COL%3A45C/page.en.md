@@ -1,4 +1,6 @@
-## Catalogue placement {#s-bc2a857da2}
+## Recorded classification and direct parent {#s-bc2a857da2}
+COL26.8 records Squamata Oppel, 1811 at order rank, with Reptilia Laurenti, 1768 as its direct parent.
+
 Squamata Oppel, 1811 is recorded as an accepted order in COL26.8, placed under Reptilia. This page follows that fixed catalogue placement.
 
 ## Start with the sampled species {#s-47ae23b37c}
@@ -14,7 +16,7 @@ The local cranial-study route covers Heloderma horridum, Lanthanotus borneensis,
 ## Study grouping and classification {#s-7d8ec22612}
 The paper treats Varanus, Lanthanotus and Heloderma as a functional comparison group and discusses possible non-monophyly. This page navigates the pinned COL classification rather than creating an accepted taxon for that study grouping. Results concern bite, shake and pull responses at standardized volume.
 
-## Choose comparison pages by life-history fields {#s-4824f2b22d}
+## Amniote Life-history archive member records {#s-4824f2b22d}
 This batch’s Squamata route includes 895 historical life-history accounts; start with Acrochordus arafurae, Acrochordus granulatus, Acrochordus javanicus, Acanthocercus atricollis, Agama aculeata. Fields retained within declared class scopes include offspring per litter or eggs per clutch (893 entries), adult body mass (820 entries), oviposition to hatching (715 entries), longest lifespan record in the compilation (589 entries). Counts describe this batch’s coverage, not the complete accepted-species denominator; read events, units and provenance before comparing values. 6 entries fall below the original threshold after unconfirmed fields are withheld and remain limited-data and gap pages.
 
 ## Organize fossil records by source classification {#s-c52e37551c}
@@ -31,24 +33,24 @@ This route includes historical same-name, same-family entries authored after ini
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## Start with sourced trait records {#s-079d37c693}
+## Recorded classification and member material {#s-079d37c693}
 This batch’s ReptTraits route for Squamata includes 7138 same-name, same-family entries with trait-specific citations. Start with Ablepharus alaicus, Ablepharus bivittatus, Ablepharus budaki, Ablepharus chernovi, Ablepharus deserti. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-061bca3786}
 Among size records in this batch, Sphaerodactylus elasmorhynchus has a reported maximum snout–vent length (SVL) of 17 mm and Ophiophagus hannah 5700 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Limits of these trait data {#s-c57e56ee16}
+## ReptTraits material route {#s-c57e56ee16}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 
 ## Citation gaps in some descendant accounts {#s-6a72f2deb6}
 In this ReptTraits route, some fields in 119 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 
-## Start with sourced trait records {#s-3a183590f2}
-This batch’s ReptTraits route for Squamata includes 3538 same-name, same-family entries with trait-specific citations. Start with [Ablepharus darvazi](Autarchoglossa/Scincidae/Eugongylinae/Ablepharus/Ablepharus_darvazi/page.en.md), [Ablepharus eremchenkoi](Autarchoglossa/Scincidae/Eugongylinae/Ablepharus/Ablepharus_eremchenkoi/page.en.md), [Ablepharus mahabharatus](Autarchoglossa/Scincidae/Eugongylinae/Ablepharus/Ablepharus_mahabharatus/page.en.md), [Ablepharus tragbulensis](Autarchoglossa/Scincidae/Eugongylinae/Ablepharus/Ablepharus_tragbulensis/page.en.md), [Abronia cuchumatanus](Autarchoglossa/Anguidae/Gerrhonotinae/Abronia/Abronia_cuchumatanus/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-3a183590f2}
+This batch’s ReptTraits route for Squamata includes 3538 same-name, same-family entries with trait-specific citations. Start with Ablepharus darvazi, Ablepharus eremchenkoi, Ablepharus mahabharatus, Ablepharus tragbulensis, Abronia cuchumatanus. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-3bc8365884}
 Among size records in this batch, Sphaerodactylus parthenopion has a reported maximum snout–vent length (SVL) of 18 mm and Dalophia gigantea 705 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Limits of these trait data {#s-75b1b7c9b9}
+## ReptTraits material route {#s-75b1b7c9b9}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

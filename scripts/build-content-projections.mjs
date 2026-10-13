@@ -13,7 +13,6 @@ const REFERENCE_PROJECTION_PATH = 'data/references.json'
 const ATLAS_SOURCE_PATH = 'content/navigation/atlas.yaml'
 const NODE_SOURCE_NAMES = ['node.yaml', 'evidence.yaml', 'page.zh.md', 'page.en.md']
 const SHARED_CODE_PATHS = [
-  CONTENT_PROJECTION_MAP,
   CONTENT_REFERENCES_PATH,
   ATLAS_SOURCE_PATH,
   'scripts/node-content.mjs',
@@ -186,8 +185,6 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
   if (!existsSync(mapPath)) return null
 
   const started = Date.now()
-  const map = readYaml(mapPath)
-  assertFlatProjectionMap(map)
   const shared = sharedFingerprint(root)
   const sources = sourceState(root, shared)
   const gitEntry = join(root, '.git')
@@ -208,6 +205,9 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
     if (!quiet) console.log('Content projections are current (' + sources.fileCount + ' canonical source files).')
     return null
   }
+
+  const map = readYaml(mapPath)
+  assertFlatProjectionMap(map)
 
   // readReferences returns one cloned reference document; the codec then reuses its
   // validated per-root cache while readNodeContent hydrates each node's bindings.
@@ -287,7 +287,7 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
       CONTENT_REFERENCES_PATH,
       ATLAS_SOURCE_PATH,
     ]
-    const dependencyFingerprint = digest(shared + '\n' + dependencyFiles.map(file => file + ':' + (() => {
+    const dependencyFingerprint = digest(shared + '\ndescriptor:' + JSON.stringify(descriptor) + '\n' + dependencyFiles.map(file => file + ':' + (() => {
       const absolute = pathFromRoot(root, file)
       if (!existsSync(absolute)) return 'missing'
       const stat = statSync(absolute)
@@ -401,7 +401,9 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
     ...sourceManifest.shards.map(shard => shard.path),
   ].sort()
 
-  if (!check && gitDirectory && existsSync(gitDirectory) && statSync(gitDirectory).isDirectory()) {
+  // A successful byte-for-byte check certifies the same outputs as generation.
+  // Cache that result only inside Git so later build steps can reuse it.
+  if (gitDirectory && existsSync(gitDirectory) && statSync(gitDirectory).isDirectory()) {
     writeUtf8(cachePath, jsonText({
       schemaVersion: 3,
       sourceFingerprint: sources.fingerprint,

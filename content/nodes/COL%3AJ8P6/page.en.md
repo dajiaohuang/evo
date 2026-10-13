@@ -1,10 +1,10 @@
-## Ecological evidence {#s-8d1e921a31}
+## Seedlings and beetles at sleeping-site latrines {#s-8d1e921a31}
 A study on Costa Rica's Osa Peninsula compared seed-laden latrine sites near spider-monkey sleeping locations with control sites. Camera traps recorded vertebrate visits, and sampling reported higher seedling abundance and dung-beetle biomass at those sites. The results concern sampled forest sites and indicators; they do not directly estimate forest-wide regeneration or the effects of all spider monkeys.
 
-## Ecological evidence {#s-098fc2d2ab}
+## Canopy features in one monkey’s movements {#s-098fc2d2ab}
 At Barro Colorado Island in Panama, a tracking study analyzed six months of movement by one subadult female Geoffroy's spider monkey. Selected movement steps were positively associated with canopy height, distance from canopy gaps using an 8-metre cutoff, and crown thickness. The model's mean cross-validation Spearman correlation was 0.94; this is an individual model result, not a species-wide movement preference.
 
-## Ecological evidence {#s-77f557ec6a}
+## Fruit sniffing and a skull sample {#s-77f557ec6a}
 In the study's sample of fruit-investigation behavior, Geoffroy's spider monkeys had the highest sniffing rate among the three primates studied, above white-faced capuchins and mantled howlers. The study also compared nasal-turbinate area, but geographic provenance, collection dates and wild or captive status were not reported for its 15 spider-monkey skulls, so the anatomical sample does not describe species-wide variation.
 
 ## The 2015 life-history entry and this name {#s-fad79fe0eb}

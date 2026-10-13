@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-fc8a9e6dd2}
+## 记录分类与直接上级关系 {#s-fc8a9e6dd2}
+COL26.8 将 Myonycteris 记录为属；其直接上级记录为 Myonycterini。
+
 一条本地 PanTHERIA 路线有一条 Myonycteris torquata 可用记录。原始 MSW05 名称、变量各自的材料条件与缺失情况仍依附于该记录；这条历史记录不代表当前接受种数量。
 
 ## 比较体型与生活史 {#s-e96a7cdb68}
@@ -14,8 +16,8 @@ Myonycteris torquata 的汇总成年体重记录为44.92 g，是经性别调整�
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 两条 PanTHERIA 路线范围不同：一条列出 Myonycteris torquata，另一条列出 M. brachycephala 和 M. relicta。生活史路线有一条记录；生态路线有三个名称并提供层位与活动代码，但没有食物权重。这些路线记录不构成完整属级样本。
 
-## 从已有历史条目开始 {#s-e79ef62bbb}
-另一条本地 PanTHERIA 路线有两条可用记录，可从 [Myonycteris brachycephala](Myonycteris_brachycephala/page.zh.md) 和 [Myonycteris relicta](Myonycteris_relicta/page.zh.md) 开始。各记录保留原始 MSW05 名称、变量各自的材料条件与缺失情况；这些历史行不代表当前接受种数量。
+## 记录分类与成员材料 {#s-e79ef62bbb}
+另一条本地 PanTHERIA 路线有两条可用记录，可从 Myonycteris brachycephala 和 Myonycteris relicta 开始。各记录保留原始 MSW05 名称、变量各自的材料条件与缺失情况；这些历史行不代表当前接受种数量。
 
 ## 这组历史数据的边界 {#s-506b6ac3c9}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。

@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:rodentia
       claimKind: scientific
       claimType: topology
-      statement: Rodentia forms a constrained higher branch in the mammal-wide 31-gene framework, but DNA-missing taxa in completed trees inherit explicit taxonomic placements; the analysis is not direct molecular evidence for every rodent or a fossil origin date.
+      statement:
+        page: en
+        section: s-fe43751c45
+        part: body
       confidence: medium
       confidenceRationale: The study provides broad topology while documenting which placements are constrained rather than sequence-derived.
       referenceLinks:
@@ -27,7 +30,9 @@ records:
   claim-rationales.zh:
     - 研究提供广泛拓扑，并记录哪些位置来自约束而非序列。
   claim-statements.zh:
-    - 啮齿目在哺乳动物全局 31 基因框架中形成一个受约束高阶分支，但完整树中缺少 DNA 的类群继承明确的分类位置；该分析不是每一种啮齿类的直接分子证据，也不是化石起源日期。
+    - page: zh
+      section: s-91cbdce314
+      part: body
   ranges:
     - entityId: rodentia
       rangeKind: global-composite

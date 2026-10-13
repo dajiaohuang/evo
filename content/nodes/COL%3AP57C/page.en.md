@@ -1,32 +1,32 @@
-## The name and this data account {#s-56579f1919}
-Cacatua galerita is accepted in COL26.8 within Cacatuidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-56579f1919}
+The AVONET v7 row for Cacatua galerita (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 40.2 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-1c3a91a662}
-Recorded mean beak measurements are 40.2 mm from the anterior nostril edge to the tip, 22.4 mm in width and 44.3 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-1c3a91a662}
+AVONET records culmen length (bill tip to skull base) 49.3 mm; beak length (nostril front edge to tip) 40.2 mm; beak width at the nostril front edge 22.4 mm; beak depth at the nostril front edge 44.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-e8c84dbb90}
-Mean unflattened wing length from the carpal joint to the longest primary is 347.3 mm; mean tarsus length is 28.5 mm. Compiled mean mass is 720.43 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-e8c84dbb90}
+AVONET records unflattened wing length 347.3 mm; tarsus length 28.5 mm; distance from first secondary tip to longest primary tip 93.2 mm; length to first secondary tip 266 mm; hand-wing index 25.9; tail length 198.4 mm; species-average body mass 720.43 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-8d9d8aa34b}
-The dataset assigns habitat Forest, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-8d9d8aa34b}
+AVONET classifies Cacatua galerita as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-bce2d2e653}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -43.64° to 0.04°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-bce2d2e653}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -43.64° to 0.04°. The mapped range area is 3905044.34 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-7fa2f14801}
-Cacatua galerita is accepted in pinned COL26.8 within Cacatuidae. This page compares the same-name historical life-history entry using 6 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-7fa2f14801}
+The August 2015 database has a same-name, same-family record for Cacatua galerita. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-80522e3adc}
-Historical summary values are adult body mass 723.5 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-80522e3adc}
+The August 2015 compilation reports adult body mass 723.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-f456e253bf}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 1461 d; offspring per litter or eggs per clutch 2.5 offspring/eggs; oviposition to hatching 27 d; age at flight capability (leaving the nest in some source material) 70 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-f456e253bf}
+The August 2015 compilation reports female age at first conception (source definition) 1461 days; median or interpolated-median number of offspring or eggs per litter/clutch 2.5; oviposition-to-hatching interval 27 days; age at flight capability (some records mark nest departure) 70 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-7828f11596}
-The archive’s maximum_longevity_y value is 120 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-7828f11596}
+The compilation lists 120 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-476632152c}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Ricklefs, 2010b, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-476632152c}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-1435fcb5be}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

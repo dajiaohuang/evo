@@ -1,7 +1,9 @@
 ## Overview {#s-d89464d837}
 This guide links 18 selected COL26.8 species pages across Ghana, Côte d’Ivoire, Nigeria, Benin, Cameroon, Gabon, Equatorial Guinea, Rwanda, the Republic of the Congo, the Democratic Republic of the Congo, Kenya and Uganda. Begin with the Taï comparison of C. campbelli and C. petaurista; compare feeding notes from Bia, Okomu and three Gabon sites; then read the Nyungwe studies of C. denti and C. hamlyni. The Benin habitat model, Niger Delta occupancy survey and Kafa activity scans each answer a different local question. Finish with putty-nosed monkey alarm experiments and the limited Lomako/Lomami records for Wolf’s monkey. These are selected studies, not a complete genus account or a single comparable dataset.
 
-## Choose comparison pages by life-history fields {#s-1b799e7995}
+## Recorded classification and direct parent {#s-1b799e7995}
+COL26.8 records Cercopithecus Linnaeus, 1758 at genus rank, with Cercopithecini as its direct parent.
+
 This batch’s Cercopithecus route includes 17 historical life-history accounts; start with Cercopithecus ascanius, Cercopithecus campbelli, Cercopithecus cephus, Cercopithecus denti, Cercopithecus diana. More frequently represented fields include adult body mass (17 entries), offspring per litter or eggs per clutch (17 entries), longest lifespan record in the compilation (17 entries), mass at birth or hatching (16 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-61d589878c}
@@ -12,27 +14,27 @@ A reading path for 18 selected species pages, not a complete genus checklist, ra
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Start with the historical entries {#s-3ecd95f4f6}
+## Recorded classification and member material {#s-3ecd95f4f6}
 The local PanTHERIA route for Cercopithecus includes 8 usable data accounts. Start with Cercopithecus ascanius, Cercopithecus cephus, Cercopithecus erythrogaster, Cercopithecus erythrotis, Cercopithecus neglectus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-215eb88de1}
 Among available consolidated adult-mass values in this batch, Cercopithecus petaurista records 3233.67 g and Cercopithecus neglectus records 5324.52 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-f0c91110e7}
+## PanTHERIA material route {#s-f0c91110e7}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Start with the historical entries {#s-3fe0d1e8e6}
-The local PanTHERIA route for Cercopithecus includes one usable data account. Start with [Cercopithecus sclateri](Cercopithecus_sclateri/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-3fe0d1e8e6}
+The local PanTHERIA route for Cercopithecus includes one usable data account. Start with Cercopithecus sclateri. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
-## Limits of these historical data {#s-a69af7a067}
+## PanTHERIA material route {#s-a69af7a067}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Follow the life-history records {#s-05e287e5cd}
-This batch offers 6 historical life-history accounts under Cercopithecus. Start with [Cercopithecus nictitans](Cercopithecus_nictitans/page.en.md), [Cercopithecus erythrotis](Cercopithecus_erythrotis/page.en.md), [Cercopithecus cephus](Cercopithecus_cephus/page.en.md), [Cercopithecus pogonias](Cercopithecus_pogonias/page.en.md), [Cercopithecus ascanius](Cercopithecus_ascanius/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-05e287e5cd}
+This batch offers 6 historical life-history accounts under Cercopithecus. Start with Cercopithecus nictitans, Cercopithecus erythrotis, Cercopithecus cephus, Cercopithecus pogonias, Cercopithecus ascanius. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-1fffe707a2}
 Gestation is recorded in 5 accounts, female age at first reproduction in 4 accounts, and maximum lifespan in 0 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-2cdfb27eee}
+## Ernest life-history archive material route {#s-2cdfb27eee}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

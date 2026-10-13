@@ -10,3 +10,6 @@ COL26.8 属级 ID 3MSD 连接 Cheracebus medemi（TXQM）、C. aquinoi（VQ6J6�
 ## 从手部颜色回到标本证据 {#s-ee04607c32}
 [Cheracebus medemi](Cheracebus_medemi/page.zh.md) 介绍 2020 年馆藏比较为何质疑仅靠黑色手部鉴定。标本数量与野外数量分开阅读，分类争议也不能代替本种的生态调查。
 
+## 名录分类记录 {#col26-8-identity}
+在固定的 COL26.8 名录中，Cheracebus Byrne, Rylands, Carneiro, Lynch Alfaro et al., 2016 被记录为接受属。
+

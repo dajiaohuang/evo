@@ -10,7 +10,9 @@ Cat Ba 基因组研究给 poliocephalus 新增四个野生个体序列，并复�
 ## 从岛上样本回到黑色型问题 {#s-41263d9a5f}
 先读 [Trachypithecus poliocephalus](Trachypithecus/Trachypithecus_poliocephalus/page.zh.md) 的采样、核树和初步适应解释，再读 [Trachypithecus ebenus](Trachypithecus/Trachypithecus_ebenus/page.zh.md) 的单个复用基因组与野外归属边界。前者北部三种的分群／基因流检验不能替后者南部黑色型问题作最终裁定；继续沿各页原有行为、照片与访谈资料阅读，保留材料对应缺口。
 
-## 从已有历史条目开始 {#s-dc13c8007b}
+## 记录分类与直接上级关系 {#s-dc13c8007b}
+COL26.8 将 Presbytini Gray, 1825 记录为族；其直接上级记录为 Colobinae Jerdon, 1867。
+
 Presbytini 的本地 PanTHERIA 路径包括 11 条可用数据导读，可从 Nasalis larvatus、Presbytis comata、Presbytis hosei、Presbytis melalophos、Presbytis potenziani 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-fe98391cf7}
@@ -29,14 +31,14 @@ Presbytini 的本批路线包含 41 个历史条目，可从 Nasalis larvatus、
 新增段落据 2024 年论文摘要、采样／系统关系／多样性与 ROH／选择及非同义变异结果、北部系统关系、高钙及潜在咸水适应讨论，和采样、比对、系统／基因流、ROH、选择扫描方法选段；未全读全部引言、遗传负荷章节、补充表／矩阵／视频或原复用项目，未查看图像像素和重跑原始读段／统计。完整 23 作者引文按 Crossref 记录。新四个 Cat Ba 个体与复用的单个 ebenus 样本分别计量，生理机制为初步候选；ebenus 名称／野外概念联接仍不足，首轮缺口未关闭，无完整种志。
 本次新增段落据原研究采样、重测序及 CACNA1C 功能结果／方法选段，以及补充 PDF 第 3、18、19 页的采样说明和完整表 S16；已查看第 19 页表格图像。其余补充章节、视频、工作簿、原始读段和实物未审阅，未重跑统计。完整 21 作者引文记录在线 2019-12-21 与卷期 2020-04-01 两个日期。2019B001 的动物园来源与 Laos 国家标签不补出缺失的野外地点或模式／照片联接；分类缺口保持开放，未作完整种志。
 
-## 从已有历史条目开始 {#s-7b953d1f03}
-Presbytini 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 [Presbytis frontata](Presbytis/Presbytis_frontata/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-7b953d1f03}
+Presbytini 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Presbytis frontata 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-401f2b43ae}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-0a23433872}
-Presbytini 本批有 8 个历史生活史资料页，可从 [Nasalis larvatus](Nasalis/Nasalis_larvatus/page.zh.md)、[Presbytis comata](Presbytis/Presbytis_comata/page.zh.md)、[Presbytis rubicunda](Presbytis/Presbytis_rubicunda/page.zh.md)、[Presbytis potenziani](Presbytis/Presbytis_potenziani/page.zh.md)、[Presbytis melalophos](Presbytis/Presbytis_melalophos/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Presbytini 本批有 8 个历史生活史资料页，可从 Nasalis larvatus、Presbytis comata、Presbytis rubicunda、Presbytis potenziani、Presbytis melalophos 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-5588f11724}
 本批妊娠资料见 3 页，雌性首次繁殖年龄见 2 页，最高寿命记录见 1 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

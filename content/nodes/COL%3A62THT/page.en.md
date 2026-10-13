@@ -1,4 +1,6 @@
-## Local data reading route {#s-21ba658199}
+## Recorded classification and direct parent {#s-21ba658199}
+COL26.8 records Heleia at genus rank, with Zosteropidae as its direct parent.
+
 This batch’s Heleia route includes 1 measured species records. Start with Heleia muelleri. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-641f9e8732}
@@ -10,17 +12,17 @@ This batch’s Heleia route includes 1 historical entries; start with Heleia mue
 ## Compare food, feeding positions and activity periods {#s-ec3356c366}
 This batch’s Heleia route includes one historical entry; start with Heleia crassirostris. Food-category weights are available in 0, foraging strata in 1, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-3a2fa44f07}
+## Limits attached to these records {#s-3a2fa44f07}
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
-This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
+This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the limited ecology records {#s-34696f2f53}
-This batch offers 1 limited ecology account under Heleia. Start with [Heleia crassirostris](Heleia_crassirostris/page.en.md). Records follow pinned COL26.8 navigation; the count covers this batch’s authored entries rather than all accepted species.
+## Recorded classification and member material {#s-34696f2f53}
+This batch offers 1 limited ecology account under Heleia. Start with Heleia crassirostris. Records follow pinned COL26.8 navigation; the count covers this batch’s authored entries rather than all accepted species.
 
 ## What is readable and what remains uninterpreted {#s-aa0ad56612}
 Recorded category counts are 1 for habitat, 1 for feeding niche, 1 for primary lifestyle, and 1 for migration. Read the original definitions and distinguish categories, historical maps and individual observations. Shared labels do not establish a lifestyle for every descendant. Beak, wing, tarsus, tail and mass fields remain uninterpreted in this batch and do not establish a group size comparison.
 
-## Limits of these historical data {#s-c573dba714}
+## AVONET material route {#s-c573dba714}
 This entry covers this batch’s limited historical ecology records, not every accepted descendant. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
 

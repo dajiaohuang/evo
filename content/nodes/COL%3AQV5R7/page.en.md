@@ -1,5 +1,5 @@
-## Find rows through older Parus combinations {#s-d9b8d127b0}
-Pinned COL26.8 organizes this page at Melaniparus cinerascens (QV5R7). BirdLife 2020 row 6202 and eBird 2021 row 6061 share the name and Avibase ID AVIBASE-42478D2D, with type 1BL to 1eBird; BirdTree row 6029 gives Parus cinerascens, with type 1BL to 1BT. Read catalogue synonym 764VT points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-d9b8d127b0}
+Catalogue of Life release COL26.8 records Melaniparus cinerascens (Vieillot, 1818) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-90e6c244b0}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 9.2 mm, tarsus 18.2 mm, unflattened wing 79.2 mm, tail 59 mm and hand-wing index 18 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

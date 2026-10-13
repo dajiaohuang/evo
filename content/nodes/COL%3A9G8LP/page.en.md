@@ -1,5 +1,5 @@
-## Separate species and subspecies targets through older genera {#s-4d62cdf6e3}
-Pinned COL26.8 organizes this page at Sporophila crassirostris (9G8LP). BirdLife 2020 row 8207 and eBird 2021 row 9841 share the name and Avibase ID AVIBASE-2824A1D9, with type 1BL to 1eBird; BirdTree row 9782 gives Oryzoborus crassirostris, with type 1BL to 1BT. Exact catalogue synonym 6SZGL points to this accepted species. Name relationships locate records without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-4d62cdf6e3}
+Catalogue of Life release COL26.8 records Sporophila crassirostris (J. F. Gmelin, 1789) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-b101698c8b}
 Morphology comprises 13 birds: 6 female, 5 male and 2 unsexed; 3 complete sets. Nostril-to-tip beak length 10.2 mm, tarsus 18.6 mm, unflattened wing 66.9 mm, tail 59.6 mm and hand-wing index 16.2 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular foods.

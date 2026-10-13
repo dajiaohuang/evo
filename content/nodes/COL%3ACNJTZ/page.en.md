@@ -1,5 +1,5 @@
-## Locate records through each older crosswalk name {#s-2d7980750c}
-Pinned COL26.8 organizes this page at Chalcites osculans (CNJTZ) in Cuculidae (8S7). BirdLife 2020 row 2096 uses this name; eBird 2021 row 1997 gives Chrysococcyx osculans, BirdTree row 1987 Chrysococcyx osculans, with types 1BL to 1eBird/1BL to 1BT. Both eBird sides share Avibase ID AVIBASE-087C279E. Both older names correspond to exact synonym 5YNLG, pointing to accepted species CNJTZ. Names locate records without proving identical historical and current whole-species boundaries.
+## A name fixed to COL26.8 {#s-2d7980750c}
+Catalogue of Life release COL26.8 records Chalcites osculans Gould, 1847 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-98871c6bd6}
 Morphology comprises 5 birds: 2 female, 2 male and 1 unsexed; 4 complete sets. Nostril-to-tip beak length 11.5 mm, tarsus 18.8 mm, unflattened wing 115.2 mm, tail 86.4 mm and hand-wing index 39.8 are historical row means. Totals exceed complete sets; not every bird has all fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

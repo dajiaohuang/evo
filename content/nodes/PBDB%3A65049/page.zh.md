@@ -1,19 +1,50 @@
 ## 这个名称对应哪些化石记录 {#s-cacceec1ac}
 Dioplotherium allisoni 在固定 PBDB 哺乳类化石工作名录中为接受种，数据库父级为 Dioplotherium。本页导读 10 条可用种级出现记录，涉及 9 个采集记录和 5 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。其中 1 条保留旧鉴定名称或名称组合与数据库接受名的对应，原字符串另存，不把重组名当作新的独立发现。
 
-## 从具名采集地和地层开始 {#s-8820019042}
-采集记录 Temple Hill, NE（California），地区代码 US，地层名称 Topanga；数据库年代范围 20.45–13.82 Ma，早端地质时段 Burdigalian、晚端时段 Langhian。采集记录 La Purisima（Baja California Sur），地区代码 MX；数据库年代范围 16.3–4.7 Ma，早端地质时段 Barstovian、晚端时段 Hemphillian。采集记录 Arroyo de la Purisimia（Baja California Sur），地区代码 MX，地层名称 Ysidro；数据库年代范围 15.98–11.63 Ma，早端地质时段 Middle Miocene。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Dioplotherium allisoni 在 PBDB 快照中对应分类条目 txn:65049。这份存档导读包含 10 条选取的出现记录，关联 9 个不同的 PBDB 采集记录编号和 5 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-67712966a9}
-本页所选出现记录的年代外包区间为 23.04–4.7 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Ilha de Fortaleza, São João de Pirabas 的出现记录 occ:608805（23.04–15.98 Ma）；晚端可追到 La Purisima 的出现记录 occ:515377（16.3–4.7 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-8820019042}
+存档导读包含 10 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 保存环境与生活环境分开阅读 {#s-b1fb9f0e0f}
-Temple Hill, NE 的采集环境标签为 碳酸盐沉积环境，类型未定（carbonate indet.）；集合保存方式标签为 实体化石、原磷酸盐成分（body,original phosphate）。La Purisima 的采集环境标签为 边缘海沉积环境，类型未定（marginal marine indet.）；集合保存方式标签为 实体化石（body）。Arroyo de la Purisimia 的采集环境标签为 海洋沉积环境，类型未定（marine indet.）；集合保存方式标签为 实体化石、原磷酸盐成分（body,original phosphate）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:608805；PBDB 采集记录 col:65162。 地点字段 cnm=Ilha de Fortaleza, São João de Pirabas；地点分区字段 cc2=BR，stp=Para。 记录年代界：eag 23.04 Ma; lag 15.98 Ma；PBDB 年代区间字段 oei=Early Miocene。 地层字段 sfm=Pirabas。 记录署名 de Toledo and Domning 1991；PBDB 引文编号 ref:18872。
 
-## 沿采集记录追到文献 {#s-f9828e8848}
-Temple Hill, NE 的数据库引文署名为 Domning（1978），编号 ref:6029。La Purisima 的数据库引文署名为 Voorhies（1969），编号 ref:18731。Arroyo de la Purisimia 的数据库引文署名为 Domning（1978），编号 ref:6029。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+ilha de Fortaleza, município de São João de Pirabas, nordeste do estado do Pará
+
+- 出现记录 occ:515377；PBDB 采集记录 col:18731。 地点字段 cnm=La Purisima；地点分区字段 cc2=MX，stp=Baja California Sur。 记录年代界：eag 16.3 Ma; lag 4.7 Ma；PBDB 年代区间字段 oei=Barstovian，oli=Hemphillian。 记录署名 Voorhies 1969；PBDB 引文编号 ref:18731。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+JA: Barstovian to Hemphillian based on AEO results
+
+- 出现记录 occ:515374；PBDB 采集记录 col:52180。 地点字段 cnm=Temple Hill, NE；地点分区字段 cc2=US，stp=California，cny=Orange。 记录年代界：eag 20.45 Ma; lag 13.82 Ma；PBDB 年代区间字段 oei=Burdigalian，oli=Langhian。 地层字段 sfm=Topanga。 记录署名 Domning 1978；PBDB 引文编号 ref:6029。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+early middle Miocene, Vaqueros-Temblor transition zone
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+SW1/4, SE1/4, SE1/4 S. 18, T7S, R8W, Laguna Beach Quad 7.5', 1965
+
+## 出现记录的年代界 {#s-67712966a9}
+在这组 PBDB 记录中，最大记录 eag=23.04 Ma，见 occ:608805；最小记录 lag=4.7 Ma，见 occ:515377。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-b1fb9f0e0f}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:608805：PBDB 分类名称字段 tna=Dioplotherium allisoni；PBDB 地点坐标字段 lng=-48.170555，lat=-0.480000；古坐标／模型字段 pm1=gplates，pln=-42.41，pla=-0.83。
+- occ:515377：PBDB 原鉴定字段 idn=Halianassa allisoni；PBDB 分类名称字段 tna=Dioplotherium allisoni；PBDB 地点坐标字段 lng=-112.099998，lat=26.200001；古坐标／模型字段 pm1=gplates，pln=-107.76，pla=27.99。
+- occ:515374：PBDB 分类名称字段 tna=Dioplotherium allisoni；PBDB 地点坐标字段 lng=-117.752220，lat=33.557499；古坐标／模型字段 pm1=gplates。
+
+## 各记录所附的引文 {#s-f9828e8848}
+存档导读把这些记录关联到 5 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:608805：记录署名 de Toledo and Domning 1991；PBDB 引文编号 ref:18872。
+- occ:515377：记录署名 Voorhies 1969；PBDB 引文编号 ref:18731。
+- occ:515374：记录署名 Domning 1978；PBDB 引文编号 ref:6029。
 
 ## 资料边界 {#s-701fcdee41}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 13958 项哺乳类化石工作名录中，当前名称一致、父链可追到已记录 Mammalia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 10 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

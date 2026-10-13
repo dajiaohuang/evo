@@ -1,5 +1,5 @@
-## 历史属名与物种概念 {#s-c23caeba1e}
-固定 COL26.8 以 Pternistis castaneicollis（4PV6M）组织本页。AVONET v7 BirdLife 2020 第 2511 行与 eBird 2021 对应同名，Avibase ID 为 AVIBASE-05A3EE36；BirdTree 表对应 Francolinus castaneicollis，原匹配类型为 Many BL to 1BT。已读 COL 的旧组合 6JLDY 指向本页接受 ID 4PV6M。atrifrons 与 castaneicollis 两个 BirdLife 行共用旧 Francolinus castaneicollis 概念，不能把这个旧概念当作各自独立的一对一资料或把两行简单合并。
+## COL26.8 中的名称身份 {#s-c23caeba1e}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pternistis castaneicollis (Salvadori, 1888) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与推算边界 {#s-39c8221ec4}
 形态共测 13 只（雌 4、雄 9），完整测量 3 只。鼻孔前缘至喙尖均值 15.6 mm，跗蹠 55.5 mm，未压平翼长 195.5 mm，手翼指数 16.4。这些是物种行均值，指数按 Kipp 距离／翼长 ×100 定义；不能换成个体范围或飞行速度。

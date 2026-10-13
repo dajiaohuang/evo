@@ -1,5 +1,5 @@
-## Separate species and subspecies targets through older genera {#s-38a814817f}
-Pinned COL26.8 organizes this page at Sporophila nuttingi (9GBHP). BirdLife 2020 row 8226 and eBird 2021 row 9860 share the name and Avibase ID AVIBASE-3AAEDDCF, with type 1BL to 1eBird; BirdTree row 9801 gives Oryzoborus nuttingi, with type 1BL to 1BT. Exact catalogue synonym 74ZGM points to this accepted species. Name relationships locate records without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-38a814817f}
+Catalogue of Life release COL26.8 records Sporophila nuttingi (Ridgway, 1884) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-999263cbcc}
 Morphology comprises 3 birds: 1 female, 2 male and 0 unsexed; 3 complete sets. Nostril-to-tip beak length 12.2 mm, tarsus 18.4 mm, unflattened wing 68.1 mm, tail 63.3 mm and hand-wing index 15.4 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular foods.

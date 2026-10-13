@@ -1,5 +1,5 @@
-## atlas-profile / overview {#s-a33d2d951c}
-The early therapsid record here is a snout, not a complete skeleton. Holotype IVPP V15424 is a roughly 100 mm fragment from the Middle Permian Dashankou locality. A published analysis scored 71 anatomical characters and placed Raranimus dashankouensis near the base of Therapsida in that matrix. Its canine pattern and other cranial features help test that position, but the fossil is not a demonstrated ancestor and the formation has no reliable direct radiometric date in the cited account.
+## IVPP V15424: a snout, not a skeleton {#s-a33d2d951c}
+IVPP V15424 is a partial snout, not a complete skeleton; its 71-character matrix placement is sample-dependent, and the cited account reports no reliable direct formation date.
 
 ## atlas-profile / ecology / diet {#s-68760589a8}
 Carnivory is inferred from the snout’s cranial and dental morphology.
@@ -25,9 +25,9 @@ The diagnosis discusses a double-canine condition
 ## atlas-profile / traits {#s-1aacab5a95}
 The matrix places Raranimus near the base of sampled Therapsida
 
-## atlas-profile / evidenceSummary {#s-0cca49d222}
-The named holotype and 71-character matrix let researchers test early therapsid relationships, but the result depends on that partial skull and its scoring. The cited account reports no reliable direct radiometric date for the Dashankou Formation. Neither the matrix position nor the snout demonstrates ancestry.
+## What the 71-character analysis can establish {#s-0cca49d222}
+The 71-character matrix tests placement from a partial snout; the cited account reports no reliable direct Dashankou date, and the result does not establish ancestry.
 
-## atlas-profile / readerLimitations {#s-e17b880770}
+## Matrix placement and broad age context {#s-e17b880770}
 The placement comes from a 71-character analysis of a partial snout; the cited account reports no reliable direct radiometric date for the Dashankou sequence. The matrix position and broad stage-based display do not demonstrate direct ancestry or a precise lineage duration.
 

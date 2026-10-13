@@ -1,12 +1,12 @@
-## Name and this data account {#s-8c434dff4f}
-Melanochelys tricarinata is accepted in pinned COL26.8 within Geoemydidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-8c434dff4f}
+COL26.8 records Melanochelys tricarinata as an accepted species. The ReptTraits v1-2 row gives its Family field as Geoemydidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Microhabitat and activity time {#s-8129da153a}
-The entry lists microhabitat as Terrestrial and active timing as Crepuscular (active around dawn and dusk). Diet and foraging mode are not interpreted here; these categories are not an exhaustive habitat record or fixed schedule, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-8129da153a}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Stark et al. 2018. The active-time field classifies activity as active around dawn or dusk (Crepuscular); it is the dataset's timing category. ReptTraits attributes this field to Stark et al. 2018.
 
-## How to read reproductive records {#s-e3220afaa2}
-The reproductive-mode field uses the original label oviparous; consolidated mean offspring or eggs per litter/clutch 2; consolidated litters/clutches per year 5. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-e3220afaa2}
+The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Iverson et al. 1993. The row reports 5 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-f7e80b5b17}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-f7e80b5b17}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

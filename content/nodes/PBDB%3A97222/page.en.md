@@ -1,19 +1,67 @@
 ## Which fossil records this name represents {#s-52ca839554}
 Afropithecus turkanensis is accepted in the fixed PBDB mammalia working roster, with database parent Afropithecus. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-336c8011f4}
-Collection Kalodirr, west of Lake Turkana, region code KE, stratum name Lothidok; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Collection Locherangan, west of Lake Turkana, region code KE; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Collection Moroto II (UPE collections), region code UG; database age bracket 23.04–11.63 Ma, early interval Early Miocene and late interval Middle Miocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Afropithecus turkanensis is listed in the PBDB snapshot under taxon txn:97222. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-14e9b85641}
-Selected occurrences have an outer age envelope of 23.04–11.63 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Moroto II (UPE collections), occurrence occ:786310 (23.04–11.63 Ma); one supplying the younger bound is Moroto II (UPE collections), occurrence occ:786310 (23.04–11.63 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-336c8011f4}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-9a6569c378}
-Kalodirr, west of Lake Turkana has collection-environment label "channel"; collection preservation-mode label body. Locherangan, west of Lake Turkana has collection-environment label "channel"; collection preservation-mode label body. Moroto II (UPE collections) has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:395627; PBDB collection col:38060. Locality cnm=Kalodirr, west of Lake Turkana; place fields cc2=KE. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Stratigraphic fields sfm=Lothidok. Recorded attribution Leakey and Leakey 1986; PBDB reference ref:10163.
 
-## Follow collection records back to references {#s-697054d742}
-Kalodirr, west of Lake Turkana carries database reference attribution Leakey and Leakey (1986), identifier ref:10163. Locherangan, west of Lake Turkana carries database reference attribution Anyonge (1991), identifier ref:28050. Moroto II (UPE collections) carries database reference attribution Pickford et al. (2003), identifier ref:28475. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+the site of Kalodirr ("Oryx" in the Turkana language) is located at the headwater of the Kalodirr River (3?20'N, 35?45'E) between the Lokipenata Ridge and the Basalt Hills to the east (Boschetto et al. 1992; Leakey and Leakey 1986a, b).
+
+Grossman et al. 2009: The age of the Kalodirr fauna can be well constrained based on K/Ar dating of the underlying Kalodirr tuffs (17.5+/-10.2 Ma) and the overlying Naserte tuffs (16.8+/-0.2 Ma), which divide the Kalodirr Member from the younger Naserte Member of the Lothidok Formation.
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Kalodirr is located near the head-waters of the Kalodirr River (3°20’N, 35°45’E), extending from just south of the Lodwar-Kalakol road north to the Lokipenata Ridge; approximately 10km south of the Miocene localities: Losodok, Moruaret Hill and Moruarot.
+
+- Occurrence occ:779646; PBDB collection col:83629. Locality cnm=Locherangan, west of Lake Turkana; place fields cc2=KE. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Recorded attribution Anyonge 1991; PBDB reference ref:28050.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+from a "13.5 m" unit at the top of the local sequence
+there is an average K-Ar date of 17.5 +/- 0.3 Ma for five determinations on "two feldspar separates" coming from the "upper tuff" in the sequence, which is "slightly" below the fossiliferous unit
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"10 kilometers west of Kataboi... on a steep slope on the northern bank of the Locherangan River... The site... covers no more than 20 m2"
+coordinate stated as "3º47'N... 3º42'E" but this is apparently a typo because Kataboi is at 3º47'N 35º51'E
+
+- Occurrence occ:786310; PBDB collection col:28293. Locality cnm=Moroto II (UPE collections); place fields cc2=UG. Recorded age bounds: eag 23.04 Ma; lag 11.63 Ma; PBDB interval fields oei=Early Miocene, oli=Middle Miocene. Recorded attribution Pickford et al. 2003; PBDB reference ref:28475.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Age constrained by being within Brachyodus range
+see comment on Moroto II concerning age assignment
+
+Moroto II and II fauna are Early Miocene–Middle Miocene in age (Pickford et al. 2003; Grossman et al. 2014; Pickford et al. 2017)
+
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+five nearby "fossilferous exposures" from "12 km north of Moroto Mountain, east Uganda" (Pickford et al. 2003)
+coordinate is for the primate locality that yields most of the new collections
+
+## Age bounds on the recorded occurrences {#s-14e9b85641}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:786310; the smallest recorded lag=11.63 Ma in occ:786310. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-9a6569c378}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:395627: PBDB original-identification field idn=Afropithecus turkanensis n. gen. n. sp.; PBDB taxon-name field tna=Afropithecus turkanensis; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=35.750000, lat=3.333333; paleocoordinate/model fields pm1=gplates, pln=35.22, pla=-1.97.
+- occ:779646: PBDB taxon-name field tna=Afropithecus turkanensis; PBDB locality-coordinate fields lng=35.700001, lat=3.783333; paleocoordinate/model fields pm1=gplates, pln=35.17, pla=-1.52.
+- occ:786310: PBDB taxon-name field tna=Afropithecus turkanensis; PBDB locality-coordinate fields lng=34.714443, lat=2.672222; paleocoordinate/model fields pm1=gplates, pln=34.22, pla=-2.34.
+
+## References attached to each record {#s-697054d742}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:395627: Recorded attribution Leakey and Leakey 1986; PBDB reference ref:10163.
+- occ:779646: Recorded attribution Anyonge 1991; PBDB reference ref:28050.
+- occ:786310: Recorded attribution Pickford et al. 2003; PBDB reference ref:28475.
 
 ## Evidence limits {#s-3f4d5b513d}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

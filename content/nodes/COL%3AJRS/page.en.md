@@ -1,4 +1,6 @@
-## Species pages in this batch {#s-d5f7e3f0f7}
+## Recorded classification and direct parent {#s-d5f7e3f0f7}
+COL26.8 records Jynginae at subfamily rank, with Picidae as its direct parent.
+
 The Jynginae route covers 2 measured species records: Jynx ruficollis and Jynx torquilla. The hierarchy follows pinned COL26.8; AVONET v7 measurements keep their historical names and sampling scope.
 
 ## Examples for comparison {#s-a4d2af2cbe}
@@ -13,7 +15,7 @@ For Jynx torquilla, 1 historical entry has food-category weights and 1 has forag
 ## Ecological record with one field {#s-d96158ed2f}
 For Jynx ruficollis, the batch includes one historical entry with food-category weights (1), but no foraging-stratum entry (0) and no mammalian activity-period entry (0). The single supported field does not fill the missing ecology or describe the subfamily.
 
-## Evidence limits {#s-494f2d1f7f}
+## Limits attached to these records {#s-494f2d1f7f}
 The measured examples are only this batch’s records with one-to-one historical crosswalks and matching catalogue name and family; they do not represent every accepted descendant. The mass endpoints compare compiled means across records, not individual minima and maxima. Species pages retain their own taxonomy, samples and other biological limits.
 The life-history route includes same-name, same-family records with at least 3 source-supported focal fields in this batch. Compilation medians, maximum-lifespan records and historical taxonomic inheritance still qualify the summaries. A group route does not mean that all descendants share one reproductive mode or life history; it is not a complete biology or current-status review.
 The ecological routes separate entries with at least two usable field groups from those with exactly one. They are not a complete descendant catalogue and do not turn food categories, estimated weights or activity patterns into shared traits. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their entry-level limits; complete species monographs are not provided.

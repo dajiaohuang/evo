@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-4010d9fc1f}
+## 记录分类与直接上级关系 {#s-4010d9fc1f}
+COL26.8 将 Notharchus 记录为属；其直接上级记录为 Bucconidae。
+
 固定 COL26.8 层级下的 Notharchus 路径收录了 5 条有测量来源的物种记录。可先从 Notharchus hyperrhynchus、Notharchus macrorhynchos、Notharchus ordii、Notharchus pectoralis、Notharchus swainsoni 读起；生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-9423903aa1}

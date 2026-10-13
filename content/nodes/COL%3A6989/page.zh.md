@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-b7b6c482b9}
+## 记录分类与直接上级关系 {#s-b7b6c482b9}
+COL26.8 将 Oplurus 记录为属；其直接上级记录为 Opluridae。
+
 Oplurus 的本批 ReptTraits 阅读路径包含 6 条同名同科、有逐性状出处的物种资料，可从 Oplurus cuvieri、Oplurus cyclurus、Oplurus fierinensis、Oplurus grandidieri、Oplurus quadrimaculatus 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-c6b6e8ef43}

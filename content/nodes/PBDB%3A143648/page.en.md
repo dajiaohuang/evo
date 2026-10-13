@@ -1,19 +1,40 @@
 ## Which fossil records this name represents {#s-187d36609c}
 Brachyodus manchharensis is accepted in the fixed PBDB mammalia working roster, with database parent Brachyodus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-854bf1e811}
-Collection Gogha, Kathiawar, region code IN; database age bracket 23.04–15.98 Ma, early interval Early Miocene. Collection Fategadh, region code IN; database age bracket 23.04–5.333 Ma, early interval Miocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Brachyodus manchharensis is listed in the PBDB snapshot under taxon txn:143648. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-7500ae39ba}
-Selected occurrences have an outer age envelope of 23.04–5.333 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Gogha, Kathiawar, occurrence occ:803470 (23.04–15.98 Ma); one supplying the younger bound is Fategadh, occurrence occ:804374 (23.04–5.333 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-854bf1e811}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-be072b9b19}
-Gogha, Kathiawar has collection-environment label terrestrial indet.. Fategadh has collection-environment label terrestrial indet.. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:803470; PBDB collection col:87485. Locality cnm=Gogha, Kathiawar; place fields cc2=IN. Recorded age bounds: eag 23.04 Ma; lag 15.98 Ma; PBDB interval fields oei=Early Miocene. Recorded attribution Sahni 1979; PBDB reference ref:29458.
 
-## Follow collection records back to references {#s-b09ce26387}
-Gogha, Kathiawar carries database reference attribution Sahni (1979), identifier ref:29458. Fategadh carries database reference attribution Prasad (1964), identifier ref:29513. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Gaj age
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+locality information is vague at best
+
+- Occurrence occ:804374; PBDB collection col:87724. Locality cnm=Fategadh; place fields cc2=IN. Recorded age bounds: eag 23.04 Ma; lag 5.333 Ma; PBDB interval fields oei=Miocene. Recorded attribution Prasad 1964; PBDB reference ref:29513.
+
+## Age bounds on the recorded occurrences {#s-7500ae39ba}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:803470; the smallest recorded lag=5.333 Ma in occ:804374. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-be072b9b19}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:803470: PBDB taxon-name field tna=Brachyodus manchharensis; PBDB locality-coordinate fields lng=72.283333, lat=21.683331; paleocoordinate/model fields pm1=gplates, pln=72.09, pla=11.23.
+- occ:804374: PBDB original-identification field idn=Brachyodus manchharensis n. sp.; PBDB taxon-name field tna=Brachyodus manchharensis; PBDB locality-coordinate fields lng=70.849998, lat=23.700001; paleocoordinate/model fields pm1=gplates, pln=71.36, pla=16.51.
+
+## References attached to each record {#s-b09ce26387}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:803470: Recorded attribution Sahni 1979; PBDB reference ref:29458.
+- occ:804374: Recorded attribution Prasad 1964; PBDB reference ref:29513.
 
 ## Evidence limits {#s-abf246f845}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

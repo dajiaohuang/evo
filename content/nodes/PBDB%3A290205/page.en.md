@@ -1,18 +1,52 @@
-## Which fossil records this name represents {#s-ecb6d955bc}
-Pandanaris convexa is accepted in the fixed PBDB dinosaur working roster, with database parent Pandanaris. This guide uses 4 eligible species-level occurrence records from 4 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-ecb6d955bc}
+Pandanaris convexa is listed in the PBDB snapshot under taxon txn:290205. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-012283ddd4}
-Collection Reddick IA (Florida), region code US; database age bracket 0.21–0.014 Ma, early interval Rancholabrean. Collection Terapa (Sonora), region code MX; database age bracket 0.21–0.014 Ma, early interval Rancholabrean. Collection Haile XIB (Florida), region code US; database age bracket 0.129–0.0117 Ma, early interval Late Pleistocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-012283ddd4}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-4556757b68}
-Selected occurrences have an outer age envelope of 0.21–0.0117 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1083825; PBDB collection col:20491. Locality cnm=Reddick IA; place fields cc2=US, stp=Florida, cny=Marion. Recorded age bounds: eag 0.21 Ma; lag 0.014 Ma; PBDB interval fields oei=Rancholabrean. Recorded attribution Gut and Ray 1963; PBDB reference ref:43539.
 
-## Read preservation setting separately from living habitat {#s-75e2510b82}
-Reddick IA has collection-environment label terrestrial indet.; collection preservation-mode label body. Terapa has collection-environment label fluvial indet.; collection preservation-mode label body. Haile XIB has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be late Rancholabrean by Morgan and Seymour 1997, but not by Webb and Wilkins
 
-## Follow collection records back to references {#s-80c88e68a5}
-Reddick IA carries database reference attribution Gut and Ray (1963), identifier ref:43539. Terapa carries database reference attribution Oswald and Steadman (2011), identifier ref:50490. Haile XIB carries database reference attribution Ligon (1966), identifier ref:50707. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+1.3 km SE of Reddick
 
-## Evidence limits {#s-19c5396b0b}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1201144; PBDB collection col:20595. Locality cnm=Haile XIB; place fields cc2=US, stp=Florida, cny=Alachua. Recorded age bounds: eag 0.129 Ma; lag 0.0117 Ma; PBDB interval fields oei=Late Pleistocene. Recorded attribution Ligon 1966; PBDB reference ref:50707.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be  Sangamonian
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+7 km NE of Newberry
+
+- Occurrence occ:1198259; PBDB collection col:20495. Locality cnm=Terapa; place fields cc2=MX, stp=Sonora. Recorded age bounds: eag 0.21 Ma; lag 0.014 Ma; PBDB interval fields oei=Rancholabrean. Recorded attribution Oswald and Steadman 2011; PBDB reference ref:50490.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be Irvingtonian by Mead et al. 2001, but Rancholabrean by Mead et al. 2006
+overlays the Tonibabi flow, dated at 0.44 +/- 0.13 (2 sigma) Ma using 40Ar-39Ar (i.e., early Rancholabrean)
+most material is from a ~2m thick bed ("As3"), but some is from beds immediately above and below
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"along the Río Moctezume... between San Clemente de Terapa and El Llano, 13 km south of Moctezuma"; fossils are from "approximately 20 sublocalities"
+
+## Age bounds on the recorded occurrences {#s-4556757b68}
+Across these selected PBDB rows, the largest recorded eag=0.21 Ma in occ:1083825; the smallest recorded lag=0.0117 Ma in occ:1201144. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-75e2510b82}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1083825: PBDB original-identification field idn=Pandanaris floridana; PBDB taxon-name field tna=Pandanaris convexa; PBDB locality-coordinate fields lng=-82.300003, lat=29.100000; paleocoordinate/model fields pm1=gplates.
+- occ:1201144: PBDB original-identification field idn=Pandanaris floridana; PBDB taxon-name field tna=Pandanaris convexa; PBDB locality-coordinate fields lng=-82.099998, lat=29.799999; paleocoordinate/model fields pm1=gplates.
+- occ:1198259: PBDB taxon-name field tna=Pandanaris convexa; abundance fields abv=9, abu=specimens; PBDB locality-coordinate fields lng=-109.650002, lat=29.683332; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-80c88e68a5}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1083825: Recorded attribution Gut and Ray 1963; PBDB reference ref:43539.
+- occ:1201144: Recorded attribution Ligon 1966; PBDB reference ref:50707.
+- occ:1198259: Recorded attribution Oswald and Steadman 2011; PBDB reference ref:50490.
+
+## What these records can show {#s-19c5396b0b}
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

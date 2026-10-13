@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-f32f2e464c}
+## 记录分类与直接上级关系 {#s-f32f2e464c}
+COL26.8 将 Plegadis 记录为属；其直接上级记录为 Threskiornithidae。
+
 固定的 COL26.8 分类层级把 AVONET v7 中三条有测量来源的记录列入 Plegadis 阅读路径：Plegadis chihi、P. falcinellus 与 P. ridgwayi。AVONET 保留其历史名称与采样范围；这是一条通往这些记录的路径，不是现今该属全部物种的普查。
 
 ## 记录之间有什么差别 {#s-6db6b29710}

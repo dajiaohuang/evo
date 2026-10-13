@@ -1,13 +1,15 @@
-## Start with sourced trait records {#s-65e87d34f2}
+## Recorded classification and direct parent {#s-65e87d34f2}
+COL26.8 records Pseudonaja at genus rank, with Hydrophiinae as its direct parent.
+
 This batch’s ReptTraits route for Pseudonaja includes 7 same-name, same-family entries with trait-specific citations. Start with Pseudonaja affinis, Pseudonaja guttata, Pseudonaja inframacula, Pseudonaja ingrami, Pseudonaja modesta. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-51a802433a}
 Among size records in this batch, Pseudonaja modesta has a reported maximum snout–vent length (SVL) of 349 mm and Pseudonaja ingrami 1226 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Choose comparison pages by life-history fields {#s-150f098f78}
+## Amniote Life-history archive member records {#s-150f098f78}
 This batch’s Pseudonaja route includes 4 historical life-history accounts; start with Pseudonaja affinis, Pseudonaja inframacula, Pseudonaja nuchalis, Pseudonaja textilis. Fields retained within declared class scopes include offspring per litter or eggs per clutch (4 entries), mass at birth or hatching (4 entries), oviposition to hatching (4 entries), longest lifespan record in the compilation (4 entries). Counts describe this batch’s coverage, not the complete accepted-species denominator; read events, units and provenance before comparing values.
 
-## Evidence limits {#s-bf0b349c1f}
+## Limits attached to these records {#s-bf0b349c1f}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 This route includes historical same-name, same-family entries authored after initial selection; some fall below the original threshold after class-scope cautions, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 
@@ -16,12 +18,12 @@ Some descendant entries have class-scope cautions in source fields. Those values
 ## Citation gaps in some descendant accounts {#s-2415b23a49}
 In this ReptTraits route, some fields in 5 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 
-## Start with sourced trait records {#s-a4f79c2129}
-This batch’s ReptTraits route for Pseudonaja includes 2 same-name, same-family entries with trait-specific citations. Start with [Pseudonaja aspidorhyncha](Pseudonaja_aspidorhyncha/page.en.md), [Pseudonaja mengdeni](Pseudonaja_mengdeni/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-a4f79c2129}
+This batch’s ReptTraits route for Pseudonaja includes 2 same-name, same-family entries with trait-specific citations. Start with Pseudonaja aspidorhyncha, Pseudonaja mengdeni. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
-## Choose comparisons by available fields {#s-8e861f9e3f}
+## ReptTraits member records {#s-8e861f9e3f}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Limits of these trait data {#s-9d48bfba2a}
+## ReptTraits material route {#s-9d48bfba2a}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

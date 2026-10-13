@@ -1,7 +1,7 @@
 ## Overview {#s-b2230b09cb}
 COL26.8 places the accepted species pages 3W2S8 and 3W2S9 under genus ID 5GJD. Read the Dja Reserve seasonal-feeding study for L. albigena, then compare Horn’s two-year Lake Tumba field account for L. aterrimus. The latter paper uses the older name Cercocebus aterrimus. A Salonga transect study adds a separate lesson about how survey cutting can affect detections. These sources differ in era, site and method; together they form a short reading path, not a genus-wide ecological synthesis.
 
-## Choose comparison pages by life-history fields {#s-18bb030c09}
+## Amniote Life-history archive member records {#s-18bb030c09}
 This batch’s Lophocebus route includes 2 historical life-history accounts; start with Lophocebus albigena, Lophocebus aterrimus. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), conception or fertilization to birth (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-17ae08b64a}

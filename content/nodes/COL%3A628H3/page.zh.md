@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-74aaeeb550}
+## 记录分类与直接上级关系 {#s-74aaeeb550}
+COL26.8 将 Vespertilionini 记录为族；其直接上级记录为 Vespertilioninae Gray, 1821。
+
 一条本地 PanTHERIA 路线包含六条可用记录。可从 Chalinolobus dwyeri、C. morio、Mimetillus moloneyi、Tylonycteris pachypus 和 T. robustula 开始。历史 MSW05 名称、变量各自的材料条件与缺失情况仍依附于对应记录；这些行数不代表当前接受种数量。
 
 ## 比较体型与生活史 {#s-7644025e5f}
@@ -17,8 +19,8 @@
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 各段描述不同路线：两条 PanTHERIA 路线分别有6条与13条记录，生活史路线有15条，较广生态路线有50条。该生态路线有37条食物权重、43条层位代码和50条活动代码；另一个三名称的 Nyctophilus 路线只有活动时段资料。应让字段计数保持在各自路线内，不要将它们合并成完整样本或共有特征。
 
-## 从已有历史条目开始 {#s-4a4dcdfdc7}
-另一条本地 PanTHERIA 路线包含13条可用记录。可从以下链接开始：[Chalinolobus nigrogriseus](Chalinolobus/Chalinolobus_nigrogriseus/page.zh.md)、[Chalinolobus picatus](Chalinolobus/Chalinolobus_picatus/page.zh.md)、[Chalinolobus tuberculatus](Chalinolobus/Chalinolobus_tuberculatus/page.zh.md)、[Laephotis angolensis](Laephotis/Laephotis_angolensis/page.zh.md) 和 [Laephotis botswanae](Laephotis/Laephotis_botswanae/page.zh.md)。历史 MSW05 名称、变量各自的材料条件与缺失情况仍依附于对应记录；13行不代表当前接受种数量。
+## 记录分类与成员材料 {#s-4a4dcdfdc7}
+另一条本地 PanTHERIA 路线包含13条可用记录。可从以下链接开始：Chalinolobus nigrogriseus、Chalinolobus picatus、Chalinolobus tuberculatus、Laephotis angolensis 和 Laephotis botswanae。历史 MSW05 名称、变量各自的材料条件与缺失情况仍依附于对应记录；13行不代表当前接受种数量。
 
 ## 比较体型与生活史 {#s-7b8f6e70a4}
 两个成年体重示例是 Nyctophilus walkeri 的 4.44 g 与 Philetor brachypterus 的 12 g。两者都是经性别调整的历史中位数，不是个体极值。与生活史、活动或群体资料比较前应查看字段定义；体型本身不能说明所有后代共有生活方式。

@@ -4,13 +4,15 @@ The Alligatoridae route compares American-alligator tactile recordings from 2012
 ## Compare material, stimuli and recording methods {#s-728d61862d}
 Start with jaw touch and measurement limits on [Alligator mississippiensis](Alligator/Alligator_mississippiensis/page.en.md), compare body distribution and embryonic timing on [Crocodylus niloticus](../Crocodylidae/Crocodylus/Crocodylus_niloticus/page.en.md), then read the multiple stimulus types tested on the jaws of [Caiman crocodilus](Caiman/Caiman_crocodilus/page.en.md). At each step identify the year, juvenile or embryo, site and subset. Local neural activity is not wild preference; undetected salt-solution responses do not establish absence of whole-animal salinity perception. Existing bite-force, movement and life-history routes retain their own ages, units and methods; sensory thresholds do not convert into predation success rates.
 
-## Start with sourced trait records {#s-af36979274}
+## Recorded classification and direct parent {#s-af36979274}
+COL26.8 records Alligatoridae at family rank, with Crocodylia as its direct parent.
+
 This batch’s ReptTraits route for Alligatoridae includes 8 same-name, same-family entries with trait-specific citations. Start with Alligator mississippiensis, Alligator sinensis, Caiman crocodilus, Caiman latirostris, Caiman yacare. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Different groups require different measures {#s-6353b2460b}
 The shared length column records straight carapace length in turtles and snout–vent length in other groups. They are not combined into a size ranking. On species pages, inspect measurement landmarks, activity and feeding categories, reproductive mode and clutch/litter values, selecting comparable material by source and definition.
 
-## Choose comparison pages by life-history fields {#s-c2a505291e}
+## Amniote Life-history archive member records {#s-c2a505291e}
 This batch’s Alligatoridae route includes 8 historical life-history accounts; start with Alligator mississippiensis, Alligator sinensis, Caiman crocodilus, Caiman latirostris, Caiman yacare. Fields retained within declared class scopes include adult body mass (8 entries), offspring per litter or eggs per clutch (8 entries), oviposition to hatching (8 entries), longest lifespan record in the compilation (8 entries). Counts describe this batch’s coverage, not the complete accepted-species denominator; read events, units and provenance before comparing values.
 
 ## Evidence limits {#s-ee6371451e}

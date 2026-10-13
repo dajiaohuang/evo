@@ -1,11 +1,11 @@
-## Organize fossil records by source classification {#s-aa58f4f101}
-The PBDB classification path records Scelidosaurus at the genus rank. This route links to an occurrence guide for 1 listed species. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. The route lists only its non-extant fossil species records; it does not imply that the entire group is extinct.
+## Scelidosaurus in the PBDB classification {#s-aa58f4f101}
+The PBDB path records Scelidosaurus at genus rank and links selected fossil-species occurrence material. Its parent path organizes records; it is not a phylogenetic hypothesis or complete genus catalogue. The separate lectotype page treats NHMUK R1111 and associated anatomy.
 
-## Compare collections, strata and age brackets {#s-6e36d0d3b9}
-Start with Scelidosaurus harrisonii, then review its page’s named collections and original reference links. Across the species in this guide, there are 9 selected occurrences from 9 collections; example stratum names are Charmouth Mudstone. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Read Scelidosaurus harrisonii records in context {#s-6e36d0d3b9}
+The txn:38801 query has one species, Scelidosaurus harrisonii, with nine occurrence records from nine distinct collections; Charmouth Mudstone is a recorded stratum name. Compare each collection’s original reference, rock unit, age interval and identification limits. Rows report fossil finds, not individual animals or populations.
 
-## Evidence limits {#s-f2f3a14096}
-This route introduces occurrence records for species covered here; it is not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## Limits of the selected occurrence route {#s-f2f3a14096}
+This route covers selected occurrence records, not a complete descendant catalogue or shared ecological account. Its outer age interval does not set the genus origin or extinction date. PBDB classification and the Scelidosaurus lectotype study answer different questions.
 
 ## Scelidosaurus is anchored by lectotype NHMUK R1111 {#s-6c5261a9e2}
 *Scelidosaurus* is anchored by lectotype NHMUK R1111 and associated Early Jurassic material from Dorset, England. The 193–191 Ma display reflects the study’s occurrence window for this material in the Charmouth Mudstone Formation. It does not establish the genus’s complete duration or a global first appearance for Thyreophora.

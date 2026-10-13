@@ -21,7 +21,7 @@ Tyrannosaurus rex is known from a large specimen sample, but no single fossil co
 
 The observations do not automatically yield population density, adult mass or bite performance. Those quantities depend on sampling and models, while tooth marks and coprolites support a narrower conclusion: bone was consumed. Keeping the sample, trace and model separate makes the animal’s history easier to read without turning one estimate into a universal fact.
 
-## atlas-profile / overview {#s-4fe86123a6}
+## Specimen observations and model-based inferences {#s-4fe86123a6}
 A latest Maastrichtian tyrannosaurid represented by a large specimen sample; the dossier separates specimen anatomy and traces from fitted growth, bite-force and abundance models.
 
 ## atlas-profile / ecology / diet {#s-c416f69fa2}
@@ -48,6 +48,6 @@ Two-fingered forelimb and powerful hindlimb
 ## atlas-profile / traits {#s-76ef6e7f1c}
 Ontogenetic cranial changes documented across a multi-institution specimen series
 
-## atlas-profile / evidenceSummary {#s-6a14b1ce8e}
+## Evidence for growth, feeding and abundance {#s-6a14b1ce8e}
 Stratigraphic census, growth-series anatomy, bone traces and coprolite contents are observations; population density, maturity, body mass, bite force and tooth pressure remain model-dependent inferences.
 

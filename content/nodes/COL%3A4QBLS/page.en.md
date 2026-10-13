@@ -1,15 +1,15 @@
-## The accepted species and its row {#s-1000075a72}
-COL26.8 accepts Ptyodactylus homolepis within Phyllodactylidae. Its ReptTraits v1-2 row retains the workbook’s Reptile Database 2023 name framework and trait-specific sources. The entry brings reports together, rather than describing every population as identical.
+## COL26.8 name and the ReptTraits row {#s-1000075a72}
+COL26.8 records Ptyodactylus homolepis as an accepted species. The ReptTraits v1-2 row gives its Family field as Phyllodactylidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Snout–vent length leaves out the tail {#s-494736ba15}
-The reported maximum snout–vent length (SVL) is 110 mm. This measure runs from the snout to the vent and excludes the tail. It is a compiled maximum, not a typical size or an absolute growth ceiling.
+## Length values in the archived records {#s-494736ba15}
+The row reports a maximum SVL of 110 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Rock-associated, nocturnal activity {#s-7d683acfc5}
-The microhabitat is recorded as saxicolous, or rock-associated, and activity as nocturnal. This summarizes the cited entry rather than a complete habitat list or schedule. No diet value is provided, and the row cannot capture differences by locality, season or life stage.
+## Habitat use and activity labels {#s-7d683acfc5}
+The microhabitat field classifies the recorded position as rock-dwelling (Saxicolous). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg-laying, without a clutch count {#s-8803afa19c}
-The source labels reproduction as oviparous, meaning egg-laying, but reports no clutch or litter number. It therefore does not show how many eggs are laid per event. This category does not establish embryo nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-8803afa19c}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## What the row leaves unmeasured {#s-8dd0bf4549}
-This page paraphrases the same-name ReptTraits v1-2 record under its 2023 naming framework. One row compresses age, sex, locality and population variation; matching name and family do not prove equivalence with later taxonomic concepts. The maximum length is a compiled report, not a species ceiling; the reproductive mode supplies no clutch size. Conservation, venom, current distribution and population trends are not updated here, and the citation chain does not imply that every original source was independently reread for this page.
+## Reading this compiled trait record {#s-8dd0bf4549}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

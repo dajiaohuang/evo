@@ -1,5 +1,5 @@
-## Find historical rows through older Serinus combinations {#s-0e073644e7}
-Pinned COL26.8 organizes this page at Crithagra flaviventris (6BGMJ). BirdLife 2020 row 4024 and eBird 2021 row 2918 share the name and Avibase ID AVIBASE-4746346C, with type 1BL to 1eBird; BirdTree row 2902 gives Serinus flaviventris, with type 1BL to 1BT. Read catalogue synonym 4WV6Y points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-0e073644e7}
+Catalogue of Life release COL26.8 records Crithagra flaviventris (J. F. Gmelin, 1789) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-c6e0e2676d}
 Morphology comprises 8 birds: 4 female, 4 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.6 mm, tarsus 17.7 mm, unflattened wing 70.4 mm, tail 53.1 mm and hand-wing index 22.8 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

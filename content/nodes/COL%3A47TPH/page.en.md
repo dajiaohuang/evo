@@ -1,29 +1,29 @@
-## The name and this data account {#s-86072e16be}
-Nothoprocta pentlandii is accepted in COL26.8 within Tinamidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 9 measured individuals, 9 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-86072e16be}
+The AVONET v7 row for Nothoprocta pentlandii (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 14.7 mm. The row records 9 measured individuals, 9 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-3695ddb636}
-Recorded mean beak measurements are 14.7 mm from the anterior nostril edge to the tip, 5.9 mm in width and 5.9 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-3695ddb636}
+AVONET records culmen length (bill tip to skull base) 27.9 mm; beak length (nostril front edge to tip) 14.7 mm; beak width at the nostril front edge 5.9 mm; beak depth at the nostril front edge 5.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-c85b06c191}
-Mean unflattened wing length from the carpal joint to the longest primary is 148.2 mm; mean tarsus length is 37 mm. Compiled mean mass is 300.73 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-c85b06c191}
+AVONET records unflattened wing length 148.2 mm; tarsus length 37 mm; distance from first secondary tip to longest primary tip 33.5 mm; length to first secondary tip 114.7 mm; hand-wing index 22.6; tail length 53.4 mm; species-average body mass 300.73 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-b04555f6cb}
-The dataset assigns habitat Shrubland, trophic niche Omnivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-b04555f6cb}
+AVONET classifies Nothoprocta pentlandii as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-82475ac421}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -36.9° to -2.83°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-82475ac421}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -36.9° to -2.83°. The mapped range area is 612683.69 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-6c0d5446ed}
-Nothoprocta pentlandii is accepted in pinned COL26.8 within Tinamidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-6c0d5446ed}
+EltonTraits 1.0 has a same-name, same-family record for Nothoprocta pentlandii covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-7b1bf1ca2a}
-The archive’s nonzero food weights are other plant material (the source category also includes fungi) 50%; invertebrates 20%; seeds, nuts and spores included in this category 20%; fruit 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-7b1bf1ca2a}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; fruit 10%; seeds or nuts 20%; other plant material 50%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-93c91738b9}
-Foraging-stratum weights flagged as species-level in the archive are ground 100%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-93c91738b9}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-830bdcb550}
-The used groups carry labels Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-830bdcb550}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-57baf7908f}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

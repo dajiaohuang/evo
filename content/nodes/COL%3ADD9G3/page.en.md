@@ -1,5 +1,5 @@
-## Find rows through older Schizoeaca／Oreophylax combinations {#s-5d903e0faa}
-Pinned COL26.8 organizes this page at Asthenes helleri (DD9G3). BirdLife 2020 row 4195 and eBird 2021 row 1040 share the name and Avibase ID AVIBASE-B87C0D49, with type 1BL to 1eBird; BirdTree row 1041 gives Schizoeaca helleri, with type 1BL to 1BT. Read catalogue synonym 6XX6D points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-5d903e0faa}
+Catalogue of Life release COL26.8 records Asthenes helleri (Chapman, 1923) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-bf09ab411a}
 Morphology comprises 13 birds: 1 female, 3 male and 9 unsexed; 7 complete sets. Nostril-to-tip beak length 8.8 mm, tarsus 23 mm, unflattened wing 52.6 mm, tail 97 mm and hand-wing index 12.3 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

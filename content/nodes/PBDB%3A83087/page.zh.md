@@ -1,19 +1,21 @@
-## 这个名称对应哪些化石记录 {#s-b5b7ab67c5}
-Homo neanderthalensis 在固定 PBDB 哺乳类化石工作名录中为接受种，数据库父级为 Homo。本页导读 5 条可用种级出现记录，涉及 5 个采集记录和 5 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
+## 这份 PBDB 导读统计什么 {#s-b5b7ab67c5}
+2026-10-02 年 Paleobiology Database（PBDB）快照在所选哺乳类分类路径中将 *Homo neanderthalensis* 置于 *Homo* 之下。本导读选取五条种级出现记录，分别关联五条采集记录和五个参考文献编号。出现记录、采集记录与参考文献是不同数据库单位，不是标本或个体计数。
 
-## 从具名采集地和地层开始 {#s-b49e0b5476}
-采集记录 Apidima Cave A（Lakonia），地区代码 GR；数据库年代范围 0.774–0.0117 Ma，早端地质时段 Middle Pleistocene、晚端时段 Late Pleistocene。采集记录 Artenac 'Bed 6 composite list', Commune de Saint-Mary, Charente,（Poitou-Charentes），地区代码 FR；数据库年代范围 0.129–0.0117 Ma，早端地质时段 Late Pleistocene。采集记录 Kalamakia（Peloponnesus），地区代码 GR；数据库年代范围 0.129–0.0117 Ma，早端地质时段 Late Pleistocene。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+## 三个具名采集记录示例 {#s-b49e0b5476}
+所选记录包括 Apidima Cave A（Lakonia，地区代码 GR；0.774–0.0117 Ma）、Artenac 'Bed 6 composite list', Commune de Saint-Mary, Charente（Poitou-Charentes，FR；0.129–0.0117 Ma），以及 Kalamakia（Peloponnesus，GR；0.129–0.0117 Ma）。这些宽泛采集年代区间和有记录的地层时段均按数据库保留。五个采集记录中另有两个未在此逐一具名。这些示例不是完整分布清单，某地有记录也不能证明其他地区没有本种。
 
-## 这些记录的年代边界 {#s-cae3a3d6e5}
-本页所选出现记录的年代外包区间为 0.774–0.0117 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到 Apidima Cave A 的出现记录 occ:339569（0.774–0.0117 Ma）；晚端可追到 Apidima Cave A 的出现记录 occ:339569（0.774–0.0117 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 所选记录的年代外包络 {#s-cae3a3d6e5}
+这 5 条 PBDB 出现记录合并后的年代外包络为 0.774–0.0117 Ma（Ma 表示百万年前）。在本次摘录中，两个边界都来自同一条宽泛的 Apidima Cave A 记录 occ:339569；它们不是两件独立化石，也不是物种存续端点。其他两个具名示例各有 0.129–0.0117 Ma 的采集年代区间。这些数据库区间不表示连续存在、全球首现或末现，也不是某一个体的年龄；它们与单独的温迪亚基因组样本记录相互独立。
 
-## 保存环境与生活环境分开阅读 {#s-5e3e3b09ae}
-Apidima Cave A 的采集环境标签为 cave。Artenac 'Bed 6 composite list', Commune de Saint-Mary, Charente, 的采集环境标签为 洞穴沉积环境（cave）；集合保存方式标签为 anthropogenic。Kalamakia 的采集环境标签为 洞穴沉积环境（cave）；集合保存方式标签为 实体化石、anthropogenic、bone collector（body,anthropogenic,bone collector）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+## 采集标签不等于物种生态 {#s-5e3e3b09ae}
+PBDB 将 Apidima Cave A 标为 cave；将 Artenac 标为 cave，集合级保存方式为 anthropogenic；将 Kalamakia 标为 cave，集合级方式为 body、anthropogenic 和 bone collector。这些字段描述数据库的采集环境或集合，不是尼安德特人的栖地、食性、行为，也不说明每件标本的保存状态。来源未填写的字段仍为未知。
 
-## 沿采集记录追到文献 {#s-5ced436d7c}
-Apidima Cave A 的数据库引文署名为 Harvati et al.（2019），编号 ref:71674。Artenac 'Bed 6 composite list', Commune de Saint-Mary, Charente, 的数据库引文署名为 Delagnes et al.（1999），编号 ref:11457。Kalamakia 的数据库引文署名为 Harvati et al.（2013），编号 ref:61580。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+## 三个数据库文献署名示例 {#s-5ced436d7c}
+三个具名记录对应的 PBDB 简略来源署名为：Apidima Cave A，Harvati et al.（2019），ref:71674；Artenac，Delagnes et al.（1999），ref:11457；Kalamakia，Harvati et al.（2013），ref:61580。这些是数据库来源标签，不是完整作者表，也不一定是本种的原始描述。独立档案保留全部 5 个出现、采集和引文编号。本导读未重新复核原论文或标本。
 
-## 资料边界 {#s-f39544aea0}
-本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 13958 项哺乳类化石工作名录中，当前名称一致、父链可追到已记录 Mammalia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+## 出现记录导读的边界 {#s-f39544aea0}
+本导读概述 2026-10-02 快照中的 PBDB 所选出现记录，不是物种专论。 PBDB 分类路径与 COL 概念分开记录。地点、年代、环境和采集层级的保存模式属于不同字段；它们不能确定完整分布、物种整体生态、丰度或每件标本的状态。 Vindija 基因组样本与此出现记录包络分开处理。
+
+## 单独的温迪亚基因组样本 {#vindija-genome}
+另一项研究报告了来自克罗地亚温迪亚洞穴 Vindija 33.19 的高覆盖度尼安德特人基因组，以及大于 4.55 万年的放射性碳结果。此处约 5.5 万—4.55 万年前（0.055–0.0455 Ma）的区间是来源限定的标本包络，不是 Homo neanderthalensis 的完整存续期。约 5.2 万年前的年龄及种群关系属于模型结果。此基因组研究情境与上方 5 条 PBDB 出现记录分开处理。
 

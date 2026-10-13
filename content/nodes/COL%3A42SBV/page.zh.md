@@ -5,8 +5,8 @@
 描述论文把 Marolambo 样本识别为独立鼠狐猴谱系，并指出其体重在当时的比较资料中偏大。作者同时说明，采集样本很少，尚无野外研究覆盖其自然史、社会系统或生活史；个别个体的体重和一只怀孕雌性不能代替种群统计。
 
 ## 分类资料 {#s-a8ec99bf3a}
-名录处理并不一致：固定 COL26.8 将 *Microcebus marohita* 保留为接受种 42SBV；MDD 当前页面将 marohita 作为 *M. jollyae* 的异名。此导读遵循指定的 COL26.8 分母，同时把另一名录的合并处理明示出来。
+名录处理并不一致：COL26.8 将 *Microcebus marohita* 保留为接受种 42SBV，而 MDD 当前页面将 marohita 作为 *M. jollyae* 的异名。
 
 ## 资料边界 {#s-717ff0335e}
-COL26.8 接受此名；MDD 当前页面将 *M. marohita* 列为 *M. jollyae* 异名。本页依固定 COL26.8 接受名编写，生物学正文限于 2013 年小样本与论文地点。中文译名与英语普通名 Marohita Mouse Lemur 均为编辑标签。
+COL26.8 接受此名，而 MDD 当前页面将 *M. marohita* 列为 *M. jollyae* 的异名。生物学正文依据 2013 年的小样本与研究地点。中文译名及英语普通名 Marohita Mouse Lemur 均为编辑标签。
 

@@ -7,7 +7,7 @@ Start with Ankylosaurus magniventris and compare each page’s named collections
 ## Evidence limits {#s-857cb4618d}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## atlas-profile / overview {#s-6954ec4c6a}
+## Type and referred specimens in the redescription {#s-6954ec4c6a}
 The cited redescription treats the type and referred material of Ankylosaurus magniventris, documenting its long, low skull, large neck armour and broad tail club. This account stays with those named specimens and formations.
 
 ## atlas-profile / ecology / diet {#s-410b46bb8d}
@@ -34,7 +34,7 @@ A large cervical half-ring associated with the shoulder region
 ## atlas-profile / traits {#s-1aff4ece81}
 A large, low tail club documented in the redescribed material
 
-## atlas-profile / evidenceSummary {#s-6439fce27b}
+## What the redescription does not establish {#s-6439fce27b}
 The redescription supplies specimen-level anatomy, armor and formation records. It does not directly establish diet, behavior, locomotion or a species-wide habitat preference.
 
 ## A low skull, neck armour and tail club {#s-71715459a1}

@@ -6,7 +6,9 @@ Taxonomy in Pithecia has been repeatedly revised. Marsh's 2014 treatment brought
 
 Suggested path: begin with the 2014 revision for names, types and specimens; compare the Napo and Equatorial saki Curaray survey and its local records on opposite riverbanks; then read the Isabel's saki type series and Miller's saki Colombian records. Finish with the Vanzolini's, Rylands' and Pissinatti's bald-faced saki pages to compare the 2019 pelage argument with COL/MDD name differences, and close with the 2024 P. inusta addendum. This path covers this batch and selected related pages, not the full genus or a final classification.
 
-## Choose comparison pages by life-history fields {#s-80b11766ea}
+## Recorded classification and direct parent {#s-80b11766ea}
+COL26.8 records Pithecia Desmarest, 1804 at genus rank, with Pitheciinae Mivart, 1865 as its direct parent.
+
 This batch’s Pithecia route includes 3 historical life-history accounts; start with Pithecia irrorata, Pithecia monachus, Pithecia pithecia. More frequently represented fields include adult body mass (3 entries), offspring per litter or eggs per clutch (3 entries), longest lifespan record in the compilation (3 entries), mass at birth or hatching (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-4ab7cc1f9f}
@@ -17,18 +19,18 @@ This is a genus-level guide to the matrix in Supplementary Table S1 of Mourthé 
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Start with the historical entries {#s-4c8f8fabd9}
+## Recorded classification and member material {#s-4c8f8fabd9}
 The local PanTHERIA route for Pithecia includes 4 usable data accounts. Start with Pithecia albicans, Pithecia irrorata, Pithecia monachus, Pithecia pithecia. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-68d8ab9216}
 Among available consolidated adult-mass values in this batch, Pithecia pithecia records 1667.19 g and Pithecia albicans records 2800.07 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-05fe5bfda0}
+## PanTHERIA material route {#s-05fe5bfda0}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Start with the historical entries {#s-ca13571c06}
-The local PanTHERIA route for Pithecia includes one usable data account. Start with [Pithecia aequatorialis](Pithecia_aequatorialis/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-ca13571c06}
+The local PanTHERIA route for Pithecia includes one usable data account. Start with Pithecia aequatorialis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
-## Limits of these historical data {#s-c82e69fdb3}
+## PanTHERIA material route {#s-c82e69fdb3}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 

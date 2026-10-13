@@ -1,19 +1,46 @@
 ## Which fossil records this name represents {#s-2826358a3e}
 Langobardisaurus pandolfii is accepted in the fixed PBDB other-reptilia working roster, with database parent Langobardisaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-3010c7765d}
-Collection Cene, Seriana Valley (Lombardia), region code IT, stratum name Zorzino Limestone; database age bracket 215.38–211.18 Ma, early interval Alaunian. Collection Eudimorphodon site, Reither Joch-Alm, Seefeld (Tirol), region code AT, stratum name Seefelder Schichten; database age bracket 211.18–205.7 Ma, early interval Sevatian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Langobardisaurus pandolfii is listed in the PBDB snapshot under taxon txn:176500. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-b1d8002591}
-Selected occurrences have an outer age envelope of 215.38–205.7 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Cene, Seriana Valley, occurrence occ:915667 (215.38–211.18 Ma); one supplying the younger bound is Eudimorphodon site, Reither Joch-Alm, Seefeld, occurrence occ:1418498 (211.18–205.7 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-3010c7765d}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-00d85b0138}
-Cene, Seriana Valley has collection-environment label basinal (carbonate); collection preservation-mode label body,adpression. Eudimorphodon site, Reither Joch-Alm, Seefeld has collection-environment label carbonate indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:915667; PBDB collection col:59639. Locality cnm=Cene, Seriana Valley; place fields cc2=IT, stp=Lombardia, cny=Bergamo. Recorded age bounds: eag 215.38 Ma; lag 211.18 Ma; PBDB interval fields oei=Alaunian. Stratigraphic fields sfm=Zorzino Limestone. Recorded attribution Renesto 1994; PBDB reference ref:35061.
 
-## Follow collection records back to references {#s-332197e809}
-Cene, Seriana Valley carries database reference attribution Renesto (1994), identifier ref:35061. Eudimorphodon site, Reither Joch-Alm, Seefeld carries database reference attribution Saller et al. (2013), identifier ref:66826. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+uppermost Zorzino Limestone (Calcare di Zorzino); uppermost Alaunian on the basis of palynomorphs; most specimens collected from a single 15 cm thick bed 20-30 m below the overlying Argilliti di Riva di Solta
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+quarry on the slope of Monte Bo, close to the small town of Cene, Seriana Valley, Bergamo. Coordinates are for Cene.
+
+- Occurrence occ:1418498; PBDB collection col:83351. Locality cnm=Eudimorphodon site, Reither Joch-Alm, Seefeld; place fields cc2=AT, stp=Tirol. Recorded age bounds: eag 211.18 Ma; lag 205.7 Ma; PBDB interval fields oei=Sevatian. Stratigraphic fields sfm=Seefelder Schichten. Recorded attribution Saller et al. 2013; PBDB reference ref:66826.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Sevatian date is based upon the conodont Mockina slovakensis, see Kozur (in Wellnhofer 2003) and Moix et al. (2007. New Mexico Museum of Natural History and Science, Bulletin 41:282–311).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Above the Reither Joch-Alm (1499) at an elevation of about 1600 m"
+
+## Age bounds on the recorded occurrences {#s-b1d8002591}
+Across these selected PBDB rows, the largest recorded eag=215.38 Ma in occ:915667; the smallest recorded lag=205.7 Ma in occ:1418498. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-00d85b0138}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:915667: PBDB original-identification field idn=Langobardisaurus pandolfii n. gen. n. sp.; PBDB taxon-name field tna=Langobardisaurus pandolfii; material note ocm=MCSNB 2883, 4860; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=9.817000, lat=45.783001; paleocoordinate/model fields pm1=gplates, pln=28.02, pla=22.45.
+- occ:1418498: PBDB taxon-name field tna=Langobardisaurus pandolfii; material note ocm=P 10121, impression of complete skeleton; PBDB locality-coordinate fields lng=11.220556, lat=47.317501; paleocoordinate/model fields pm1=gplates, pln=29.45, pla=25.44.
+
+## References attached to each record {#s-332197e809}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:915667: Recorded attribution Renesto 1994; PBDB reference ref:35061.
+- occ:1418498: Recorded attribution Saller et al. 2013; PBDB reference ref:66826.
 
 ## Evidence limits {#s-838fc2fbd0}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 429-item other-reptilia working roster, retain the current same name and a complete parent chain to the recorded Reptilia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

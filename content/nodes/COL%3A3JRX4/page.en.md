@@ -1,29 +1,29 @@
-## The name and this data account {#s-cd66a1a06b}
-Harpactes duvaucelii is accepted in COL26.8 within Trogonidae. AVONET v7 reports measurements under its HBW–BirdLife 2020 name. The source lists 5 measured individuals, 4 with a complete morphological set; sample sizes can differ among traits.
+## Row-reported mean and sample coverage {#s-cd66a1a06b}
+The AVONET v7 row for Harpactes duvaucelii (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 10.2 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-27b2b4c39a}
-Mean beak measurements are 10.2 mm from the anterior edge of the nostril to the tip, 6.7 mm wide and 7.7 mm deep at that edge. These are separate measurements at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-27b2b4c39a}
+AVONET records culmen length (bill tip to skull base) 17.4 mm; beak length (nostril front edge to tip) 10.2 mm; beak width at the nostril front edge 6.7 mm; beak depth at the nostril front edge 7.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-c3cd499b21}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 107.4 mm; mean tarsus length is 11.5 mm. The compiled mean mass is 38.85 g, with source category Dunning. Mass comes from separate species-average information, so the morphology sample does not show that every bird was weighed.
+## Wing and body measures use separate sources {#s-c3cd499b21}
+AVONET records unflattened wing length 107.4 mm; tarsus length 11.5 mm; distance from first secondary tip to longest primary tip 37.8 mm; length to first secondary tip 67.2 mm; hand-wing index 36; tail length 115 mm; species-average body mass 38.85 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-f35e38002c}
-The dataset records Forest as the habitat, Invertivore as the trophic niche and Insessorial as the lifestyle. These are dominant categories for cross-species comparison, not claims that the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-f35e38002c}
+AVONET classifies Harpactes duvaucelii as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-3a7cf77d9c}
-The migration field classifies the record as sedentary. Historical breeding and resident maps have latitude endpoints of -5.95° and 13.01°. They do not provide a complete account of non-breeding movements or a current position or global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-3a7cf77d9c}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -5.95° to 13.01°. The mapped range area is 1253065.68 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-c9a4602a2f}
-This page compares the same-name, same-family EltonTraits 1.0 entry using 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; matching names do not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-c9a4602a2f}
+EltonTraits 1.0 has a same-name, same-family record for Harpactes duvaucelii covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-3609d46df7}
-The archive assigns 100% of its nonzero food-category weight to invertebrates. Source code A indicates high compiler confidence in the source and diet information. The percentage standardizes verbal descriptions rather than measuring diet composition; a zero for another category would not prove that the bird never eats it. Nect, Seed and PlantO are broader than their everyday names.
+## Relative weights across food categories {#s-3609d46df7}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-eac63df3dd}
-Species-level foraging-stratum weights are 70% for trees or high bushes from 2 m upward but below the canopy and 30% for understory, edges or shrubs below 2 m. These weights estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have distinct source definitions; they are not elevation ranges and cannot establish flight heights or habitat area.
+## Foraging positions are not a time budget {#s-eac63df3dd}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 30%; in mid-height or high vegetation 70%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-c49d5b5c8e}
-The selected field groups carry source label Ref_6. Diet, strata and activity can draw on different materials, and a Ref number in bird and mammal reference tables does not necessarily mean the same source. The batch archive retains original strings by file, row, field group and reference table. Underlying books and papers have not been read individually; source labels are not independent observations.
+## Sources and field limits {#s-c49d5b5c8e}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.6.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.6.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-9c98041e85}
 This page combines a guide to historical AVONET v7 data with EltonTraits 1.0 foraging records. AVONET morphology values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so its sample size cannot be inferred from the morphology sample. Habitat, diet and migration are coarse categories; the geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name support the association but do not prove that species concepts remained equivalent after later splits or lumps. Reproduction, current populations and conservation status need other sources.

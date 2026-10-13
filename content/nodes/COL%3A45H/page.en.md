@@ -1,10 +1,10 @@
-## Local data reading route {#s-c18e863dba}
+## Recorded classification and member material {#s-c18e863dba}
 This batch’s Steatornithiformes route includes 1 measured species records. Start with Steatornis caripensis. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-309c9f2f2c}
 Compiled mean mass endpoints in this batch are Steatornis caripensis at 408 g and Steatornis caripensis at 408 g. Represented habitat categories include Forest; trophic niches include Frugivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-b46a6b9c06}
+## Amniote Life-history archive member records {#s-b46a6b9c06}
 This batch’s Steatornithiformes route includes 1 historical life-history accounts; start with Steatornis caripensis. More frequently represented fields include adult body mass (1 entries), offspring per litter or eggs per clutch (1 entries), oviposition to hatching (1 entries), age at flight capability (leaving the nest in some source material) (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-6a92e0217b}

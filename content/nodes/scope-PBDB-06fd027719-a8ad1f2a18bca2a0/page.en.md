@@ -1,5 +1,5 @@
-## What do the skull and teeth say about early proboscideans? {#s-661390b2b0}
-The Eritherium azzouzorum sample includes holotype skull MNHN PM69 and 14 referred specimens from Sidi Chennane. Their teeth and skull help test where this early proboscidean sits in a comparative character matrix.
+## MNHN PM69 and the 15-specimen hypodigm {#s-661390b2b0}
+The *Eritherium azzouzorum* hypodigm includes holotype skull MNHN PM69 and 14 referred specimens from Sidi Chennane. Their skull and teeth supply characters for a comparative matrix testing the position of this early proboscidean. The matrix result is an analysis of sampled characters, not a direct-ancestry claim.
 
 ## atlas-profile / ecology / diet {#s-ef16b004ed}
 Dental comparisons support a limited functional interpretation of feeding; diet is not directly observed.
@@ -25,15 +25,15 @@ Fourteen referred specimens add upper and lower teeth and cranial material
 ## atlas-profile / traits {#s-48ce349c0f}
 A character-matrix analysis proposes a stem-proboscidean position
 
-## atlas-profile / evidenceSummary {#s-15b1b52d76}
-The locality, sample and skull–tooth anatomy are directly described. Stem placement, estimated mass and ecological readings depend on comparisons and analysis; the fossil is not identified as a direct ancestor.
+## Observed sample versus comparative interpretations {#s-15b1b52d76}
+The locality, 15-specimen hypodigm and skull–tooth anatomy are directly described. Stem placement, the 3–8 kg mass estimate and ecological readings depend on comparisons or analysis; the fossil is not identified as a direct ancestor.
 
-## The hypodigm extends beyond the holotype {#s-a8d2fdb263}
-The holotype skull MNHN PM69 preserves the rostrum and upper teeth. Fourteen referred specimens add upper and lower teeth and other cranial material, so the evidence is a 15-specimen hypodigm rather than a complete skeleton.
+## The sample extends beyond the holotype {#s-a8d2fdb263}
+Holotype skull MNHN PM69 preserves the rostrum and upper teeth. Fourteen referred specimens add upper and lower teeth and other cranial material, making this a 15-specimen hypodigm rather than a complete skeleton.
 
-## A dental estimate is not a weighing {#s-c097020c72}
-Dental comparisons support a limited functional reading of feeding, while dental allometry estimates a mass of 3–8 kg. The mass is calculated rather than directly measured, and the material does not identify a specific meal.
+## Dental allometry estimates mass; it does not weigh it {#s-c097020c72}
+Dental comparisons support a limited functional reading of feeding, while dental allometry estimates a mass of 3–8 kg. The value is calculated rather than directly measured, and the material does not identify a specific meal.
 
-## atlas-profile / readerLimitations / en {#s-1da00c20d6}
-The sample comes from the lower bone bed of phosphate bed IIa at Sidi Chennane, Morocco, in the early Thanetian. This depositional setting does not establish habitual habitat; cranial and dental material does not resolve locomotion or a feeding guild.
+## What the phosphate-basin sample cannot establish {#s-1da00c20d6}
+The sample comes from the lower bone bed of phosphate bed IIa at Sidi Chennane, Morocco, in the Early Thanetian. This depositional setting does not establish habitual habitat; cranial and dental material does not resolve locomotion or a feeding guild.
 

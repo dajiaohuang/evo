@@ -1,4 +1,6 @@
-## 接受的目录记录 {#s-b717886275}
+## 记录分类与直接上级关系 {#s-b717886275}
+COL26.8 将 Erymnochelys 记录为属；其直接上级记录为 Podocnemididae。
+
 Erymnochelys 是 COL26.8 接受的属（COL 62S43），隶属 Podocnemididae 科。固定记录支持该分类路径。
 
 ## 当前本地种级样本 {#s-2b86c95137}
@@ -7,8 +9,8 @@ Martín-Jiménez 和 Pérez-García（2021）在比较研究中纳入了 Erymnoc
 ## 证据边界 {#s-1d1226975a}
 当前路径仅代表一个物种和一项头骨研究。它不能证明后代名录完整、种内变异或属级生物学特征。
 
-## 从有性状记录的物种开始 {#s-3192a1fb44}
-Erymnochelys 的本批 ReptTraits 阅读路径包含 1 条同名同科、有逐性状出处的物种资料，可从 [Erymnochelys madagascariensis](Erymnochelys_madagascariensis/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-3192a1fb44}
+Erymnochelys 的本批 ReptTraits 阅读路径包含 1 条同名同科、有逐性状出处的物种资料，可从 Erymnochelys madagascariensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-0f29ab65cf}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

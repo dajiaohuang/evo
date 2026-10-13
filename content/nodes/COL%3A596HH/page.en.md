@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-7858b539dc}
-Pinned COL26.8 organizes this page at Trochalopteron virgatum (596HH). BirdLife 2020 row 4935 and eBird 2021 row 10701 share the name and Avibase ID AVIBASE-5046CFCA, with match type 1BL to 1eBird; BirdTree row 10634 gives Garrulax virgatus, with type 1BL to 1BT. Read COL older-combination record 3FBS8 points to this accepted ID. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-7858b539dc}
+Catalogue of Life release COL26.8 records Trochalopteron virgatum Godwin-Austen, 1874 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-ae2ae5ac67}
 The morphology row covers 5 birds: 2 female, 3 male and 0 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 10.1 mm, tarsus 31.9 mm, unflattened wing 81.5 mm, tail 102.6 mm and hand-wing index 8.3 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

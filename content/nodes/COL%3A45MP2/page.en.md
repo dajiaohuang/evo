@@ -1,29 +1,29 @@
-## The name and this data account {#s-22ca0cbc34}
-Nannopsittaca dachilleae is accepted in COL26.8 within Psittacidae. AVONET v7 records 6 measured birds under its HBW–BirdLife 2020 name; 4 have a complete morphological set. Usable counts can still differ by trait.
+## Row-reported mean and sample coverage {#s-22ca0cbc34}
+The AVONET v7 row for Nannopsittaca dachilleae (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.9 mm. The row records 6 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-c093c23714}
-Mean beak length is 9.9 mm from the front edge of the nostril to the tip. At that edge, mean width is 7.7 mm and depth is 9.9 mm. These are distinct measurements at defined landmarks, not identification thresholds.
+## Beak measurements at defined landmarks {#s-c093c23714}
+AVONET records culmen length (bill tip to skull base) 13.1 mm; beak length (nostril front edge to tip) 9.9 mm; beak width at the nostril front edge 7.7 mm; beak depth at the nostril front edge 9.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-bc6fbf5a95}
-Mean unflattened wing length from carpal joint to longest primary is 82 mm; mean tarsus length is 10.7 mm. A separate compilation gives mean mass as 41.5 g (Dunning category); it does not imply all measured birds were weighed.
+## Wing and body measures use separate sources {#s-bc6fbf5a95}
+AVONET records unflattened wing length 82 mm; tarsus length 10.7 mm; distance from first secondary tip to longest primary tip 28.1 mm; length to first secondary tip 53.9 mm; hand-wing index 34.4; tail length 39.6 mm; species-average body mass 41.5 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-51260beade}
-AVONET assigns Forest habitat, Omnivore trophic niche and Insessorial lifestyle. These broad comparison categories do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-51260beade}
+AVONET classifies Nannopsittaca dachilleae as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-cdb6c145ec}
-The migration field classifies this record as sedentary. Historical breeding and resident maps reach latitude endpoints of -14.14° and -3.78°. They do not describe all non-breeding movements or estimate current global occupancy. The geography and morphology data were compiled separately.
+## The migration label has a limited scope {#s-cdb6c145ec}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -14.14° to -3.78°. The mapped range area is 133890.4 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-d53d4f591b}
-In pinned COL26.8, Nannopsittaca dachilleae is accepted within Psittacidae. Two ecological field groups here come from the same-name, same-family EltonTraits 1.0 record, with its source labels retained. The source follows an earlier bird classification or MSW3 for mammals; matching names do not settle modern splits or synonymy.
+## Scope of the historical trait entry {#s-d53d4f591b}
+EltonTraits 1.0 has a same-name, same-family record for Nannopsittaca dachilleae covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-c5c0a23bba}
-EltonTraits assigns nonzero food weights of 50% each to fruit and the category that includes seeds, nuts and spores. Code A indicates high compiler confidence in the source and diet information. These are standardized estimates from descriptions, not measured diet shares; a zero does not prove a food is never eaten. Nect, Seed and PlantO have broader meanings than their everyday names.
+## Relative weights across food categories {#s-c5c0a23bba}
+EltonTraits 1.0 assigns relative diet weights of fruit 50%; seeds or nuts 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-b63914ab94}
-The archive flags these as species-level foraging-stratum weights: understory, edges or shrubs below 2 m, 50%; trees or tall bushes from 2 m upward but below the canopy, 50%. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. Water, understory, mid/high, canopy and aerial categories have distinct source definitions; they are not elevation ranges or measures of flight height or habitat area.
+## Foraging positions are not a time budget {#s-b63914ab94}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 50%; in mid-height or high vegetation 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-340a6df890}
-The selected groups carry label Ref_4. Diet, strata and activity can draw on different material, and the same reference number in bird and mammal tables does not identify the same source. The archive keeps complete citation strings by file, row, field group and reference table. Underlying books and papers have not been reviewed individually; labels are not additional observations.
+## Sources and field limits {#s-340a6df890}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-cb3213b9ab}
 This page interprets historical AVONET v7 data. Morphological values are species averages for the listed samples, not identification limits or individual variation ranges. Mass comes from separate literature or weighing sources, so morphology sample counts do not apply to it. Habitat, diet and migration are broad categories; maps cover historical breeding and resident ranges. A one-to-one historical crosswalk and matching name support the association but do not prove that later taxonomic concepts are equivalent. Reproduction, current populations and conservation need other sources.

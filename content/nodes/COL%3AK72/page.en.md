@@ -1,4 +1,4 @@
-## Choose comparison pages by life-history fields {#s-21d0f50db3}
+## Amniote Life-history archive member records {#s-21d0f50db3}
 This batch’s Ponginae route includes 2 historical life-history accounts; start with Pongo abelii, Pongo pygmaeus. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), conception or fertilization to birth (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-61938450dd}

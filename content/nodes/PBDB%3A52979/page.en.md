@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-8c0a310128}
-Camptosaurus dispar is accepted in the fixed PBDB dinosaur working roster, with database parent Camptosaurus. This guide uses 8 eligible species-level occurrence records from 5 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-8c0a310128}
+Camptosaurus dispar is listed in the PBDB snapshot under taxon txn:52979. This archived guide contains 8 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 6 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-61e08a4c71}
-Collection Quarry 13, Como Bluff (YPM) (Wyoming), region code US, stratum name Morrison; database age bracket 154.8–143.1 Ma, early interval Kimmeridgian and late interval Tithonian. Collection Felch Quarry 1, Garden Park (Colorado), region code US, stratum name Morrison; database age bracket 152.21–145.06 Ma, early interval Late Kimmeridgian and late interval Early Tithonian. Collection Cope Quarry IV, Cope's Nipple (Colorado), region code US, stratum name Morrison; database age bracket 154.8–143.1 Ma, early interval Kimmeridgian and late interval Tithonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-61e08a4c71}
+The archived guide contains 8 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-205f7d0e60}
-Selected occurrences have an outer age envelope of 154.8–143.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:408061; PBDB collection col:39253. Locality cnm=Quarry 13, Como Bluff (YPM); place fields cc2=US, stp=Wyoming, cny=Albany. Recorded age bounds: eag 154.8 Ma; lag 143.1 Ma; PBDB interval fields oei=Kimmeridgian, oli=Tithonian. Stratigraphic fields sfm=Morrison. Recorded attribution Marsh 1879; PBDB reference ref:7814.
 
-## Read preservation setting separately from living habitat {#s-747ac2010b}
-Quarry 13, Como Bluff (YPM) has collection-environment label crevasse splay; collection preservation-mode label body. Felch Quarry 1, Garden Park has collection-environment label "channel"; collection preservation-mode label body. Cope Quarry IV, Cope's Nipple has collection-environment label dry floodplain; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+low in formation, Unit A
 
-## Follow collection records back to references {#s-19bdb0c309}
-Quarry 13, Como Bluff (YPM) carries database reference attribution Marsh (1879), identifier ref:7814. Felch Quarry 1, Garden Park carries database reference attribution Gilmore (1914), identifier ref:10606. Cope Quarry IV, Cope's Nipple carries database reference attribution Carpenter (1998), identifier ref:12893. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+NE 1/4 of sec. 5, T22N, R76W, Como Bluff, Albany Co., WY (possibly section 6); 8 miles E of Como. Includes Quarry 13 West, 13 Middle, 13 East
 
-## Evidence limits {#s-8686c88637}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:408062; PBDB collection col:39253. Locality cnm=Quarry 13, Como Bluff (YPM); place fields cc2=US, stp=Wyoming, cny=Albany. Recorded age bounds: eag 154.8 Ma; lag 143.1 Ma; PBDB interval fields oei=Kimmeridgian, oli=Tithonian. Stratigraphic fields sfm=Morrison. Recorded attribution Marsh 1894; PBDB reference ref:9097.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+low in formation, Unit A
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+NE 1/4 of sec. 5, T22N, R76W, Como Bluff, Albany Co., WY (possibly section 6); 8 miles E of Como. Includes Quarry 13 West, 13 Middle, 13 East
+
+- Occurrence occ:408063; PBDB collection col:39253. Locality cnm=Quarry 13, Como Bluff (YPM); place fields cc2=US, stp=Wyoming, cny=Albany. Recorded age bounds: eag 154.8 Ma; lag 143.1 Ma; PBDB interval fields oei=Kimmeridgian, oli=Tithonian. Stratigraphic fields sfm=Morrison. Recorded attribution Marsh 1894; PBDB reference ref:9097.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+low in formation, Unit A
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+NE 1/4 of sec. 5, T22N, R76W, Como Bluff, Albany Co., WY (possibly section 6); 8 miles E of Como. Includes Quarry 13 West, 13 Middle, 13 East
+
+## Age bounds on the recorded occurrences {#s-205f7d0e60}
+Across these selected PBDB rows, the largest recorded eag=154.8 Ma in occ:408061; the smallest recorded lag=143.1 Ma in occ:408061. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-747ac2010b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:408061: PBDB original-identification field idn=Camptonotus dispar n. sp.; PBDB taxon-name field tna=Camptosaurus dispar; material note ocm=YPM 1877; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-105.963402, lat=41.907700; paleocoordinate/model fields pm1=gplates, pln=-40.41, pla=28.58.
+- occ:408062: PBDB original-identification field idn=Camptosaurus nanus n. sp.; PBDB taxon-name field tna=Camptosaurus dispar; material note ocm=USNM 2210; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-105.963402, lat=41.907700; paleocoordinate/model fields pm1=gplates, pln=-40.41, pla=28.58.
+- occ:408063: PBDB original-identification field idn=Camptosaurus medius n. sp.; PBDB taxon-name field tna=Camptosaurus dispar; material note ocm=YPM 1880; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-105.963402, lat=41.907700; paleocoordinate/model fields pm1=gplates, pln=-40.41, pla=28.58.
+
+## References attached to each record {#s-19bdb0c309}
+The archived guide links the rows to 6 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:408061: Recorded attribution Marsh 1879; PBDB reference ref:7814.
+- occ:408062: Recorded attribution Marsh 1894; PBDB reference ref:9097.
+- occ:408063: Recorded attribution Marsh 1894; PBDB reference ref:9097.
+
+## What these records can show {#s-8686c88637}
+This is a guide to 8 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

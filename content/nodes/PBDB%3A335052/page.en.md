@@ -1,18 +1,36 @@
-## Which fossil records this name represents {#s-185a0571bf}
-Laricola elegans is accepted in the fixed PBDB dinosaur working roster, with database parent Laricola. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-185a0571bf}
+Laricola elegans is listed in the PBDB snapshot under taxon txn:335052. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-90b86ebb61}
-Collection Saint-Gérand-le-Puy (Milne-Edwards coll), region code FR, stratum name Indusial Limestone; database age bracket 23.04–20.45 Ma, early interval Aquitanian. Collection Crechy (Allier), region code FR; database age bracket 33.9–27.3 Ma, early interval Rupelian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-90b86ebb61}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-afb5b5cfab}
-Selected occurrences have an outer age envelope of 33.9–20.45 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1397045; PBDB collection col:152490. Locality cnm=Saint-Gérand-le-Puy (Milne-Edwards coll); place fields cc2=FR. Recorded age bounds: eag 23.04 Ma; lag 20.45 Ma; PBDB interval fields oei=Aquitanian. Stratigraphic fields sfm=Indusial Limestone. Recorded attribution De Pietri et al. 2011; PBDB reference ref:13375.
 
-## Read preservation setting separately from living habitat {#s-79806fa044}
-Saint-Gérand-le-Puy (Milne-Edwards coll) has collection-environment label lacustrine - large; collection preservation-mode label body. Crechy has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+From one of the sand-filled pockets that separate the nodules of Phryganea limestone.
 
-## Follow collection records back to references {#s-0638c50d2b}
-Saint-Gérand-le-Puy (Milne-Edwards coll) carries database reference attribution De Pietri et al. (2011), identifier ref:13375. Crechy carries database reference attribution Mourer-Chauviré et al. (2004), identifier ref:12668. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1430751; PBDB collection col:181646. Locality cnm=Crechy; place fields cc2=FR, stp=Allier. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Rupelian. Recorded attribution Mourer-Chauviré et al. 2004; PBDB reference ref:12668.
 
-## Evidence limits {#s-83e0f91d94}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Stampien superieur ou Aquitanien"
+
+latest Oligocene (reference-levels MP 29 and MP 30)
+
+## Age bounds on the recorded occurrences {#s-afb5b5cfab}
+Across these selected PBDB rows, the largest recorded eag=33.9 Ma in occ:1430751; the smallest recorded lag=20.45 Ma in occ:1397045. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-79806fa044}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1397045: PBDB taxon-name field tna=Laricola elegans; PBDB locality-coordinate fields lng=3.510000, lat=46.257999; paleocoordinate/model fields pm1=gplates, pln=6.65, pla=42.36.
+- occ:1430751: PBDB original-identification field idn=Larus elegans; PBDB taxon-name field tna=Laricola elegans; PBDB locality-coordinate fields lng=3.387000, lat=46.269001; paleocoordinate/model fields pm1=gplates, pln=7.64, pla=41.08.
+
+## References attached to each record {#s-0638c50d2b}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1397045: Recorded attribution De Pietri et al. 2011; PBDB reference ref:13375.
+- occ:1430751: Recorded attribution Mourer-Chauviré et al. 2004; PBDB reference ref:12668.
+
+## What these records can show {#s-83e0f91d94}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

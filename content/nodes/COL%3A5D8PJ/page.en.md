@@ -1,26 +1,26 @@
-## Name and AVONET sample {#s-d4227af17a}
-COL26.8 accepts Zosterops xanthochroa within Zosteropidae. AVONET v7 associates its morphology and ecology with the HBW–BirdLife 2020 name. Five individuals were measured and four had a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-d4227af17a}
+The AVONET v7 row for Zosterops xanthochroa (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions {#s-34c1157f5b}
-The mean beak length is 8 mm from the front edge of the nostril to the tip; width is 2.9 mm and depth 3.4 mm at that edge. These are separate measurements at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-34c1157f5b}
+AVONET records culmen length (bill tip to skull base) 14.4 mm; beak length (nostril front edge to tip) 8 mm; beak width at the nostril front edge 2.9 mm; beak depth at the nostril front edge 3.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-394ef421ee}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 60.4 mm; mean tarsus length is 18.9 mm. The separately compiled mean mass is 10.3 g, sourced to Dunning. It is not a claim that all five morphological specimens were weighed.
+## Wing and body measures use separate sources {#s-394ef421ee}
+AVONET records unflattened wing length 60.4 mm; tarsus length 18.9 mm; distance from first secondary tip to longest primary tip 10.9 mm; length to first secondary tip 49.3 mm; hand-wing index 18.1; tail length 48.7 mm; species-average body mass 10.3 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Broad ecological categories {#s-527fd1f26c}
-AVONET assigns Forest habitat, an Invertivore trophic niche and an Insessorial primary lifestyle. These labels support broad comparisons; they do not describe every food or place used by the species.
+## Recorded habitat and feeding categories {#s-527fd1f26c}
+AVONET classifies Zosterops xanthochroa as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and mapped range {#s-4c07b4da85}
-The migration category is sedentary. Historical breeding and resident maps extend from latitude −22.68° to −20.09°. These endpoints summarize a mapped range, not non-breeding movements, a current location or confirmed occupancy throughout the span. Geography and morphology come from separate compilation steps.
+## Mapped range is not a locality list {#s-4c07b4da85}
+Historical breeding and resident maps span latitude endpoints -22.68° to -20.09°. The mapped range area is 17202.11 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## A second historical ecology source {#s-a7c7888d7d}
-EltonTraits 1.0 has a same-name, same-family historical entry associated with this record. Its diet group is usable; the foraging-stratum group is withheld. The older taxonomy does not resolve later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-a7c7888d7d}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops xanthochroa covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Diet weights and confidence code {#s-b2d0056da5}
-The diet weights are 50% invertebrates and 50% fruit. Code A marks high compiler confidence in the source and diet information. These are standardized weights drawn from descriptions, not measured diet shares; a zero would not prove a food is never taken. Source categories such as Nect, Seed and PlantO are broader than their everyday labels.
+## Relative weights across food categories {#s-b2d0056da5}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; fruit 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## The diet source label {#s-6d5a254164}
-The diet fields cite Ref_13. The archive retains the original source string with its file, row, field group and reference-table location. This citation traces material; it is not an additional observation, and the underlying book has not been individually reviewed here.
+## Sources and field limits {#s-6d5a254164}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits of these historical sources {#s-039202e491}
 This page combines limited AVONET v7 measurements and ecology with one usable EltonTraits 1.0 diet group. AVONET morphology values are sample means, not individual ranges or identification diagnoses; mass is separately sourced. Its broad ecology labels and historical breeding/resident map do not provide current movement or occupancy. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020, and name matches or crosswalks do not prove equivalence to COL26.8. EltonTraits weights are literature-derived, not direct measurements. Its foraging field is withheld under source code 1 because the record is not species-level or source/category support is unavailable. Current range, population and conservation require other sources.

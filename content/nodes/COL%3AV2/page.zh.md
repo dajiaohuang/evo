@@ -1,33 +1,33 @@
-## 从目录走到样本 {#s-dedffc3b13}
-固定 COL26.8 中的 Aves 接受种分母为 11,044。本地 AVONET 阅读路径整理其中 5,931 条同名同科、历史分类一对一且具有直接形态测量的记录。先看各物种的取样量，再比较喙、翼与跗蹠；这条路径帮助阅读研究材料，不等于每个接受种都已有完整专论。
+## Aves 形态测量路径包含什么 {#s-dedffc3b13}
+本 Aves 页面从固定的 COL26.8 鸟纲分类进入 AVONET v7 形态测量样本。该样本整理历史上同名、同科且有一对一分类对照的记录，并提供直接形态测量。比较喙、翼、跗蹠的物种均值时，应同时查看各自样本量；这条路径展示研究材料，不是每个接受种的完整专论。
 
-## 哪些数值可以比较 {#s-2cfd5ae2d0}
-喙的长、宽、深来自指定解剖位置，翼长使用未压平翼的腕关节到最长初级飞羽尖的距离。数值是来源的物种均值，不是个体最大、最小值。体重另有文献或称重来源，不能沿用形态测量的样本数；没有推断的形态字段也不表示全部生态字段都齐全。
+## 喙、翼和体重字段各自表示什么 {#s-2cfd5ae2d0}
+喙长、喙宽和喙深使用指定的解剖标志点。翼长从腕关节量到未压平翼上最长初级飞羽的尖端。这些是来源中的物种均值，不是个体极值。体重有独立的称重或文献来源，不能沿用形态样本量；缺少形态值也不表示生态信息同时缺失。
 
-## 选择下一条阅读路径 {#s-d68aa651bf}
-可从 Accipiter nisus 的林地测量记录、Aptenodytes forsteri 的企鹅记录和 Phoebastria immutabilis 的海洋鸟类记录开始，比较主导栖地、食性、活动方式及迁移类别。地理摘要描述历史繁殖与留居范围，不能代替非繁殖季分布或当前占域。缺失类别保持为未记录，不用生活习性常识补齐。
+## AVONET 历史生态记录中的三个例子 {#s-d68aa651bf}
+选出的 AVONET 记录包括林地相关的 Accipiter nisus、企鹅 Aptenodytes forsteri 和海洋鸟类 Phoebastria immutabilis。它们的栖地、食性、生活方式和迁移字段属于数据集分类。地理摘要描述历史繁殖与留居范围，不代表非繁殖季分布或当前占域；缺失类别仍保持未记录。
 
-## 按生活史字段选择对读页面 {#s-83442872b9}
-Aves 的本批路线包含 2297 条历史生活史导读，可从 Accipiter chionogaster、Accipiter erythronemius、Accipiter nisus、Accipiter ovampensis、Accipiter rufiventris 开始。较多条目具有的字段包括 成年体重（2296 条）、每窝幼体数或卵数（2290 条）、产卵至孵化的时间（1974 条）、具备飞行能力的年龄（部分材料指离巢）（1606 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+## 生活史字段须按事件和单位解读 {#s-83442872b9}
+所选生活史记录包括成年体重、每窝幼体数或卵数、从产卵到孵化的时间，以及具备飞行能力的年龄。部分来源记录实际描述的是离巢年龄，因此这两个事件不能混为一谈。本路线限于本批历史资料中同名、同科且至少有三个来源支持焦点字段的唯一条目。可从 Accipiter chionogaster、A. erythronemius、A. nisus、A. ovampensis 和 A. rufiventris 的记录入手。比较数值前，应检查每个字段的单位和出处。
 
-## 沿食物、取食位置和活动时段对读 {#s-7df1714cba}
-Aves 的本批路线包含 5515 个历史条目，可从 Struthio camelus、Rhea americana、Rhea pennata、Casuarius casuarius、Casuarius bennetti 开始。其中 5515 条可读食物类别权重，5515 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+## 选录资料中的食性与取食层位字段 {#s-7df1714cba}
+选出的 EltonTraits 记录包括 Struthio camelus、Rhea americana、R. pennata、Casuarius casuarius 和 C. bennetti，涉及食物类别权重与取食层位。本路线基于本批唯一、历史上同名同科且至少有两类可用生态字段组的条目。食物值是粗略权重，取食字段依原资料的类别或二元代码记录。这些历史字段不是对特定动物进食或活动的直接观察。
 
-## 沿食物、取食位置和活动时段对读 {#s-eb3210bcd5}
-Aves 的本批路线包含 979 个历史条目，可从 Crypturellus erythropus、Tinamotis ingoufi、Ortalis garrula、Ortalis erythroptera、Ortalis motmot 开始。其中 461 条可读食物类别权重，518 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+## 另一个 EltonTraits 子集：䳍类与凤冠雉类 {#s-eb3210bcd5}
+另一个 EltonTraits 子集连接到 Crypturellus erythropus、Tinamotis ingoufi、Ortalis garrula、O. erythroptera 和 O. motmot 的食性与取食字段。本路线纳入本批唯一、历史上同名同科且恰有一类可用生态字段组的条目；所选记录跨食性与取食字段分布，但每条条目均符合单字段组筛选。资料库中的食物权重和取食层位是历史编码，不是完整物种专论，也不是对某只动物的直接观察。应将此子集与另一条 EltonTraits 路径分开阅读。
 
-## 证据边界 {#s-ce74aaf85e}
-这是一条 AVONET v7 历史资料阅读路径，保留 HBW–BirdLife 2020 名称、原始采样量与资料分类。历史一对一对应和 COL 同名关联不自动证明后续拆分、合并的物种概念相同。本批没有覆盖其他接受种，也不建立完整繁殖信息、当前种群或保护评估。原有化石与图谱证据继续按各自来源理解，不能用这批现生测量资料改写其年代或节点概念。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
-本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+## Aves 各数据集的差异与边界 {#s-ce74aaf85e}
+历史名称和一对一分类对照不保证当前物种概念等同。这些汇编不是当前种群或保护评估，也没有一个数据集能代表所有鸟类共有的生物学。
 
-## 从有限生态资料开始 {#s-103289d4df}
-Aves 本批有 525 个有限生态资料页，可从 [Aviceda madagascariensis](Accipitriformes/Accipitridae/Aviceda/Aviceda_madagascariensis/page.zh.md)、[Buteo albigula](Accipitriformes/Accipitridae/Buteo/Buteo_albigula/page.zh.md)、[Circaetus beaudouini](Accipitriformes/Accipitridae/Circaetus/Circaetus_beaudouini/page.zh.md)、[Henicopernis infuscatus](Accipitriformes/Accipitridae/Henicopernis/Henicopernis_infuscatus/page.zh.md)、[Nisaetus bartelsi](Accipitriformes/Accipitridae/Nisaetus/Nisaetus_bartelsi/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## AVONET 生态专用路径中的选录鸟类 {#s-103289d4df}
+这条 AVONET 路径为选出的物种记录栖地、食性、主导生活方式和迁移类别。可从 Aviceda madagascariensis、Buteo albigula、Circaetus beaudouini、Henicopernis infuscatus 和 Nisaetus bartelsi 的记录开始。这些是选出的历史记录，不是所有鸟类的完整生态专论。
 
-## 哪些内容可读，哪些仍未解读 {#s-82a51a82d0}
-栖地类别见 513 页，取食生态位见 520 页，主导活动方式见 525 页，迁移类别见 521 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。
+## 生态类别与未解读的测量字段 {#s-82a51a82d0}
+栖地、食性、主导生活方式和迁移以数据集定义的类别记录，并非独立的行为观察。历史分布图不表示当前占域。生态专用路径不解读喙、翼、跗蹠、尾或体重字段，因此不能支持体型比较。
 
-## 这组历史数据的边界 {#s-bed9cbadc3}
-该入口只覆盖本批已写的有限历史生态资料。按 COL26.8 路径导航、历史同名同科及两张同名一对一表关联，并未消除后来的概念差异。粗生态类别不是独立行为观察，历史地图摘要不是当前占域或保护评估；原始形态推算与体重来源完整保留，但本批不解释为本物种直接测量。
+## AVONET 生态专用路径的范围 {#s-bed9cbadc3}
+这条 AVONET 生态专用路径沿固定的 COL26.8 分类组织选出的历史同名同科记录。
+
+## 从 Archaeopteryx 到现生鸟的导航选集 {#fossil-anthology}
+这条 Aves 路线把约 150 Ma 的晚侏罗世巴伐利亚板状石灰岩中归入 Archaeopteryx 的材料，与现生鸟类端点并列。Archaeopteryx 位于现生鸟冠群 Neornithes 之外，因此这是一条浏览选集，不是连续的祖先链，也不标示冠群鸟类的起源时间。
 

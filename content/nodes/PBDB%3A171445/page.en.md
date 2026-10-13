@@ -1,19 +1,50 @@
 ## Which fossil records this name represents {#s-bc7ddba27f}
 Suevoleviathan integer is accepted in the fixed PBDB ichthyosauriformes working roster, with database parent Suevoleviathan. This guide uses 3 eligible species-level occurrence records from 3 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-e417be689d}
-Collection Bad Boll (Epsilon II 10-12) (Würtemberg), region code DE, stratum name Posidonienschiefer; database age bracket 184.2–182.9 Ma, early interval Falciferum. Collection Holzmaden, epsilon II/6, Uppsala pterosaur (Baden-Württenburg), region code DE, stratum name Posidonia Shale; database age bracket 184.2–182.9 Ma, early interval Early Toarcian. Collection Holzmaden/Ohmden quarry, Wilder Schiefer epsilon III (UMH coll) (Baden-Württenburg), region code DE, stratum name Posidonia Shale; database age bracket 182.9–174.7 Ma, early interval Bifrons. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Suevoleviathan integer is listed in the PBDB snapshot under taxon txn:171445. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-978585ca11}
-Selected occurrences have an outer age envelope of 184.2–174.7 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Bad Boll (Epsilon II 10-12), occurrence occ:1433357 (184.2–182.9 Ma); one supplying the younger bound is Holzmaden/Ohmden quarry, Wilder Schiefer epsilon III (UMH coll), occurrence occ:1433360 (182.9–174.7 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-e417be689d}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-932effc4b4}
-Bad Boll (Epsilon II 10-12) has collection-environment label marine indet.; collection preservation-mode label body,adpression. Holzmaden, epsilon II/6, Uppsala pterosaur has collection-environment label marine indet.; collection preservation-mode label body. Holzmaden/Ohmden quarry, Wilder Schiefer epsilon III (UMH coll) has collection-environment label marine indet.; collection preservation-mode label body,adpression. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1433357; PBDB collection col:186710. Locality cnm=Bad Boll (Epsilon II 10-12); place fields cc2=DE, stp=Würtemberg, cny=Kreis Göppingen. Recorded age bounds: eag 184.2 Ma; lag 182.9 Ma; PBDB interval fields oei=Falciferum. Stratigraphic fields sfm=Posidonienschiefer. Recorded attribution Maxwell 2018; PBDB reference ref:67990.
 
-## Follow collection records back to references {#s-223843848a}
-Bad Boll (Epsilon II 10-12) carries database reference attribution Maxwell (2018), identifier ref:67990. Holzmaden, epsilon II/6, Uppsala pterosaur carries database reference attribution Maxwell (2018), identifier ref:67990. Holzmaden/Ohmden quarry, Wilder Schiefer epsilon III (UMH coll) carries database reference attribution Maxwell (2018), identifier ref:67990. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1433359; PBDB collection col:91698. Locality cnm=Holzmaden, epsilon II/6, Uppsala pterosaur; place fields cc2=DE, stp=Baden-Württenburg, cny=Esslingen. Recorded age bounds: eag 184.2 Ma; lag 182.9 Ma; PBDB interval fields oei=Early Toarcian. Stratigraphic fields sfm=Posidonia Shale. Recorded attribution Maxwell 2018; PBDB reference ref:67990.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Lias ("Schwarzjura") epsilon II/6
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coordinates based upon the village of Holzmaden
+
+- Occurrence occ:1433360; PBDB collection col:122463. Locality cnm=Holzmaden/Ohmden quarry, Wilder Schiefer epsilon III (UMH coll); place fields cc2=DE, stp=Baden-Württenburg. Recorded age bounds: eag 182.9 Ma; lag 174.7 Ma; PBDB interval fields oei=Bifrons. Stratigraphic fields sfm=Posidonia Shale. Recorded attribution Maxwell 2018; PBDB reference ref:67990.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Lias epsilon III (Wilder Schiefer).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coordinates based upon the village of Holzmaden
+
+## Age bounds on the recorded occurrences {#s-978585ca11}
+Across these selected PBDB rows, the largest recorded eag=184.2 Ma in occ:1433357; the smallest recorded lag=174.7 Ma in occ:1433360. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-932effc4b4}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1433357: PBDB original-identification field idn=Suevoleviathan integer n. sp.; PBDB taxon-name field tna=Suevoleviathan integer; material note ocm=MCZ 1042 (holotype); abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=9.620000, lat=48.639999; paleocoordinate/model fields pm1=gplates, pln=27.09, pla=39.46.
+- occ:1433359: PBDB taxon-name field tna=Suevoleviathan integer; material note ocm=GPIT 328/4/5; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=9.518056, lat=48.633057; paleocoordinate/model fields pm1=gplates, pln=27.01, pla=39.43.
+- occ:1433360: PBDB taxon-name field tna=Suevoleviathan integer; material note ocm=NMC 15867; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=9.518056, lat=48.633057; paleocoordinate/model fields pm1=gplates, pln=29.33, pla=38.33.
+
+## References attached to each record {#s-223843848a}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1433357: Recorded attribution Maxwell 2018; PBDB reference ref:67990.
+- occ:1433359: Recorded attribution Maxwell 2018; PBDB reference ref:67990.
+- occ:1433360: Recorded attribution Maxwell 2018; PBDB reference ref:67990.
 
 ## Evidence limits {#s-804905c704}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 182-item ichthyosauriformes working roster, retain the current same name and a complete parent chain to the recorded Ichthyosauriformes storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

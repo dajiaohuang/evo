@@ -1,18 +1,48 @@
-## Which fossil records this name represents {#s-5b5a7febae}
-Nelepsittacus donmertoni is accepted in the fixed PBDB dinosaur working roster, with database parent Nelepsittacus. This guide uses 3 eligible species-level occurrence records from 3 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-5b5a7febae}
+Nelepsittacus donmertoni is listed in the PBDB snapshot under taxon txn:333966. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-cefd0978e0}
-Collection Croc Site L1, Mata Creek, H41/f84 (South Island), region code NZ, stratum name Bannockburn; database age bracket 18.7–15.9 Ma, early interval Altonian. Collection HH1b Home Hills Station (H41/f90) (South Island), region code NZ, stratum name Bannockburn; database age bracket 18.7–15.9 Ma, early interval Altonian. Collection Manuherikia River site, Saint Bathans, Home Hills Station, HH1a (South Island), region code NZ, stratum name Bannockburn; database age bracket 18.7–15.9 Ma, early interval Altonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-cefd0978e0}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-bb9d99223f}
-Selected occurrences have an outer age envelope of 18.7–15.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1309081; PBDB collection col:126289. Locality cnm=Croc Site L1, Mata Creek, H41/f84; place fields cc2=NZ, stp=South Island, cny=Otago. Recorded age bounds: eag 18.7 Ma; lag 15.9 Ma; PBDB interval fields oei=Altonian. Stratigraphic fields sfm=Bannockburn. Recorded attribution Worthy et al. 2011; PBDB reference ref:57489.
 
-## Read preservation setting separately from living habitat {#s-d7cf32dd21}
-Croc Site L1, Mata Creek, H41/f84 has collection-environment label lacustrine - large; collection preservation-mode label body,original phosphate. HH1b Home Hills Station (H41/f90) has collection-environment label lacustrine - large; collection preservation-mode label body. Manuherikia River site, Saint Bathans, Home Hills Station, HH1a has collection-environment label lacustrine - large; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near St. Bathans in Central Otago, along Mata Creek
 
-## Follow collection records back to references {#s-3122c9f40e}
-Croc Site L1, Mata Creek, H41/f84 carries database reference attribution Worthy et al. (2011), identifier ref:57489. HH1b Home Hills Station (H41/f90) carries database reference attribution Worthy et al. (2011), identifier ref:57489. Manuherikia River site, Saint Bathans, Home Hills Station, HH1a carries database reference attribution Worthy et al. (2011), identifier ref:57489. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1309276; PBDB collection col:153884. Locality cnm=HH1b Home Hills Station (H41/f90); place fields cc2=NZ, stp=South Island, cny=Otago. Recorded age bounds: eag 18.7 Ma; lag 15.9 Ma; PBDB interval fields oei=Altonian. Stratigraphic fields sfm=Bannockburn. Recorded attribution Worthy et al. 2011; PBDB reference ref:57489.
 
-## Evidence limits {#s-fc6db2e566}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+New Zealand Fossil Record File Number H41/f88
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+true left side Manuherikia River, Home Hills Station, St Bathans, Otago, New Zealand
+
+- Occurrence occ:1309277; PBDB collection col:73690. Locality cnm=Manuherikia River site, Saint Bathans, Home Hills Station, HH1a; place fields cc2=NZ, stp=South Island, cny=Otago. Recorded age bounds: eag 18.7 Ma; lag 15.9 Ma; PBDB interval fields oei=Altonian. Stratigraphic fields sfm=Bannockburn. Recorded attribution Worthy et al. 2011; PBDB reference ref:57489.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Bed HH1a, a sand layer bound by clay layers, in the Manuherikia River section, 6.88–7.0 m above the base of the Bannockburn Formation, allocated H41/f88 in the archival Fossil Record File of the Geological Society of NZ"
+early to earliest middle Miocene (Altonian), 19-16 Ma, Casuarinacea biozone
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near St Bathans in Central Otago
+
+## Age bounds on the recorded occurrences {#s-bb9d99223f}
+Across these selected PBDB rows, the largest recorded eag=18.7 Ma in occ:1309081; the smallest recorded lag=15.9 Ma in occ:1309081. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-d7cf32dd21}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1309081: PBDB taxon-name field tna=Nelepsittacus donmertoni; abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=169.837784, lat=-44.889442; paleocoordinate/model fields pm1=gplates, pln=-175.66, pla=-46.42.
+- occ:1309276: PBDB original-identification field idn=Nelepsittacus donmertoni n. sp.; PBDB taxon-name field tna=Nelepsittacus donmertoni; material note ocm=NMNZ S.52016, tarsometatarsus (holotype). NMNZ S.52049, tarsometatarsus (paratype). Referred specimens: NMNZ S.50190, NMNZ S.50864, NMNZ S.51905, NMNZ S.51136, NMNZ S.51317, NMNZ S.51695, NMNZ S.51915, NMNZ S.51936, NMNZ S.51878, NMNZ S.51291, NMNZ S.51803, NMNZ S.51900, NMNZ S.51625, NMNZ S.51972, NMNZ S.51160, NMNZ S.51624, CM Av40879.; abundance fields abv=19, abu=specimens; PBDB locality-coordinate fields lng=169.858215, lat=-44.907940; paleocoordinate/model fields pm1=gplates, pln=-175.64, pla=-46.44.
+- occ:1309277: PBDB taxon-name field tna=Nelepsittacus donmertoni; material note ocm=NMNZ S.50261, NMNZ S.50311 (paratypes). Referred specimens NMNZ S.42854, NMNZ S.43995, NMNZ S.43996, NMNZ S.50267, NMNZ S.50281, NMNZ S.50396, NMNZ S.51422, NMNZ S.42615, NMNZ S.42832, NMNZ S.44211, NMNZ S.50265, NMNZ S.51407, NMNZ S.51501, NMNZ S.52455, NMNZ S.44308, NMNZ S.52259, NMNZ S.52541, NMNZ S.52622, NMNZ S.52623, NMNZ S.42723, NMNZ S.44310, NMNZ S.42784, NMNZ S.42853, NMNZ S.50129, NMNZ S.50301, NMNZ S.52226, NMNZ S.42614, NMNZ S.42856, NMNZ S.44309, NMNZ S.51720, NMNZ S.40458, NMNZ S.42663, NMNZ S.42855, NMNZ S.50277, NMNZ S.51409, NMNZ S.42833.; abundance fields abv=38, abu=specimens; PBDB locality-coordinate fields lng=169.858337, lat=-44.908054; paleocoordinate/model fields pm1=gplates, pln=-175.64, pla=-46.44.
+
+## References attached to each record {#s-3122c9f40e}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1309081: Recorded attribution Worthy et al. 2011; PBDB reference ref:57489.
+- occ:1309276: Recorded attribution Worthy et al. 2011; PBDB reference ref:57489.
+- occ:1309277: Recorded attribution Worthy et al. 2011; PBDB reference ref:57489.
+
+## What these records can show {#s-fc6db2e566}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

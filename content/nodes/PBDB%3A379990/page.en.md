@@ -1,19 +1,50 @@
 ## Which fossil records this name represents {#s-f479904d8c}
 Panchomys steppani is accepted in the fixed PBDB mammalia working roster, with database parent Panchomys. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-90ba4d0ac6}
-Collection Playa Terrazas del Marquesado (Buenos Aires), region code AR, stratum name Vorohué; database age bracket 3.6–2.58 Ma, early interval Late Pliocene. Collection Punta San Andres (Zone of Paractenomys chapadmalensis) (Buenos Aires), region code AR, stratum name San Andres; database age bracket 3–1.75 Ma, early interval Uquian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Panchomys steppani is listed in the PBDB snapshot under taxon txn:379990. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-0be62ec290}
-Selected occurrences have an outer age envelope of 3.6–1.75 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Playa Terrazas del Marquesado, occurrence occ:1429757 (3.6–2.58 Ma); one supplying the younger bound is Punta San Andres (Zone of Paractenomys chapadmalensis), occurrence occ:1632893 (3–1.75 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-90ba4d0ac6}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-71171bf737}
-Playa Terrazas del Marquesado has collection-environment label terrestrial indet.; collection preservation-mode label body. Punta San Andres (Zone of Paractenomys chapadmalensis) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1429757; PBDB collection col:198943. Locality cnm=Playa Terrazas del Marquesado; place fields cc2=AR, stp=Buenos Aires, cny=General Pueyrredón. Recorded age bounds: eag 3.6 Ma; lag 2.58 Ma; PBDB interval fields oei=Late Pliocene. Stratigraphic fields sfm=Vorohué. Recorded attribution Pardiñas 1997; PBDB reference ref:67786.
 
-## Follow collection records back to references {#s-6101f42808}
-Playa Terrazas del Marquesado carries database reference attribution Pardiñas (1997), identifier ref:67786. Punta San Andres (Zone of Paractenomys chapadmalensis) carries database reference attribution Romano et al. (2023), identifier ref:85650. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Subpiso Vorohuense, Piso Marplatense (Plioceno superior).
+
+Formación Vorohué (sensu Kraglievich 1952),
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coleccionado por M. Lezcano en Playa "Terrazas del Marquesado", 1 O kilometros al nor-noreste de la localidad de Miramar, partido de General Pueyrredón, provincia de Buenos Aires, Argentina (38° 14' S 57° 44' 0).
+
+- Occurrence occ:1632893; PBDB collection col:199160. Locality cnm=Punta San Andres (Zone of Paractenomys chapadmalensis); place fields cc2=AR, stp=Buenos Aires. Recorded age bounds: eag 3 Ma; lag 1.75 Ma; PBDB interval fields oei=Uquian. Stratigraphic fields sfm=San Andres. Recorded attribution Romano et al. 2023; PBDB reference ref:85650.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+This zone is the biostratigraphic basis of Sanandresian subage of Marplatan.
+
+San Andes “Formation” of Kraglievich, 1952); type locality, Punta San And&
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+beds between paleosol 11 (and “Tosca” 2) and paleosol 13 of Zarate, 1989;
+
+## Age bounds on the recorded occurrences {#s-0be62ec290}
+Across these selected PBDB rows, the largest recorded eag=3.6 Ma in occ:1429757; the smallest recorded lag=1.75 Ma in occ:1632893. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-71171bf737}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1429757: PBDB original-identification field idn=Panchomys steppani n. gen. n. sp.; PBDB taxon-name field tna=Panchomys steppani; material note ocm=Holotype: MLP 88-XI-20-1; PBDB locality-coordinate fields lng=-57.733334, lat=-38.233334; paleocoordinate/model fields pm1=gplates, pln=-57.26, pla=-38.13.
+- occ:1632893: PBDB taxon-name field tna=Panchomys steppani; PBDB locality-coordinate fields lng=-57.698055, lat=-38.118889; paleocoordinate/model fields pm1=gplates, pln=-57.22, pla=-38.02.
+
+## References attached to each record {#s-6101f42808}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1429757: Recorded attribution Pardiñas 1997; PBDB reference ref:67786.
+- occ:1632893: Recorded attribution Romano et al. 2023; PBDB reference ref:85650.
 
 ## Evidence limits {#s-7c9e631dfa}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

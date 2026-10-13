@@ -10,7 +10,9 @@ The 2002 bernhardi description connects an adult skeleton of unknown sex with tw
 ## Start with the skeleton, then observation sites {#s-a6cc663345}
 Start with the holotype, paratypes, color combination and single-skull measurements on [Plecturocebus bernhardi](Plecturocebus/Plecturocebus_bernhardi/page.en.md), then compare named sites with the unconfirmed extension. Return to the uncertain precise origin on [Plecturocebus stephennashi](Plecturocebus/Plecturocebus_stephennashi/page.en.md) and historical-name/revision questions on [Plecturocebus discolor](Plecturocebus/Plecturocebus_discolor/page.en.md); their material and name limits differ. Existing life-history accounts retain their own samples and units. Skeletons, potential fruit resources and calling remarks do not supply invented densities or diets.
 
-## Choose comparison pages by life-history fields {#s-4fef327210}
+## Recorded classification and direct parent {#s-4fef327210}
+COL26.8 records Callicebinae Pocock, 1925 at subfamily rank, with Pitheciidae Mivart, 1865 as its direct parent.
+
 This batch’s Callicebinae route includes 5 historical life-history accounts; start with Callicebus barbarabrownae, Callicebus coimbrai, Callicebus melanochir, Callicebus nigrifrons, Callicebus personatus. More frequently represented fields include adult body mass (5 entries), offspring per litter or eggs per clutch (5 entries), longest lifespan record in the compilation (5 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-e0ea8806fa}

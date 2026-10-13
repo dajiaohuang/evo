@@ -1,5 +1,5 @@
-## 沿 Pomatorhinus 旧名定位 {#s-ab58dce5c5}
-本页按COL26.8 Erythrogenys erythrogenys（NRMNJ）、Timaliidae（H9M）组织。BirdLife 2020第8333行与eBird 2021第3769行同名，eBird两侧Avibase ID同为AVIBASE-DA20DCA9，类型1BL to 1eBird。BirdTree第3753行记Pomatorhinus erythrogenys，类型1BL to 1BT；逐字目录异名4LQWQ指向接受种NRMNJ。名称关系提供定位，不证明不同版本物种范围完全相同。
+## COL26.8 中的名称身份 {#s-ab58dce5c5}
+《Catalogue of Life》COL26.8（2026-08-20）将 Erythrogenys erythrogenys (Vigors, 1831) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-e4ab38beaf}
 形态共 8 只鸟：雌 3、雄 4、性别未定 1；完整测量 7 只。鼻孔前缘至喙尖 24.5 mm、跗蹠 36.9 mm、未压平翼长 94.8 mm、尾长 107.8 mm、手翼指数 5.5 是历史行均值。总数大于完整数，不称每只鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；指数不是飞行速度，翼长也不是实测飞行能力。

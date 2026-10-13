@@ -1,44 +1,44 @@
-## AVONET measurements under a historical name {#s-46ac77d273}
-COL26.8 accepts *Bostrychia hagedash* in Threskiornithidae. AVONET v7 reports this species under its HBW–BirdLife 2020 name. The source lists 27 measured individuals, four with a complete morphological set; sample sizes can still differ by trait.
+## Row-reported mean and sample coverage {#s-46ac77d273}
+The AVONET v7 row for Bostrychia hagedash (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 103.9 mm. The row records 27 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-7d767b6ac1}
-Recorded mean beak measurements are 103.9 mm from the anterior nostril edge to the tip, 15 mm in width and 20 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-7d767b6ac1}
+AVONET records culmen length (bill tip to skull base) 144.4 mm; beak length (nostril front edge to tip) 103.9 mm; beak width at the nostril front edge 15 mm; beak depth at the nostril front edge 20 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-0ff1abaee2}
-Mean unflattened wing length from the carpal joint to the longest primary is 338.8 mm; mean tarsus length is 74 mm. Compiled mean mass is 1238 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-0ff1abaee2}
+AVONET records unflattened wing length 338.8 mm; tarsus length 74 mm; distance from first secondary tip to longest primary tip 91.1 mm; length to first secondary tip 245.3 mm; hand-wing index 27.1; tail length 162.4 mm; species-average body mass 1238 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-b29a89d8c4}
-The dataset assigns habitat Grassland, trophic niche Invertivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-b29a89d8c4}
+AVONET classifies Bostrychia hagedash as habitat Grassland (open grass-dominated landscapes); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-d42e10836a}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -34.84° to 17.95°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-d42e10836a}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -34.84° to 17.95°. The mapped range area is 16241597.55 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Five fields in a historical life-history compilation {#s-5895bfb194}
-COL26.8 accepts *Bostrychia hagedash* in Threskiornithidae. A historical life-history record supplies five focal fields, each linked to cited species-level sparse-table rows with the same name and family. These matches support the association, but compiled values may still inherit data across historical taxonomic boundaries.
+## Scope of the historical life-history entry {#s-5895bfb194}
+The August 2015 database has a same-name, same-family record for Bostrychia hagedash. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-05b3ccc0e9}
-The historical life-history compilation lists adult body mass as 1245.25 g, distinct from the AVONET mean of 1238 g above. The life-history value can combine males, females and adults of unspecified sex; neither number is a range of individual masses. No birth or hatching mass is reported in this record.
+## Compiled adult-mass values {#s-05b3ccc0e9}
+The August 2015 compilation reports adult body mass 1245.25 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-0632c6b28d}
-The available fields are offspring per litter or eggs per clutch, 2.86; time from oviposition to hatching, 27.5 d; and age at flight capability, 35 d (some sources describe leaving the nest). Here d means days. The litter/clutch field combines offspring and egg counts, so a fractional summary does not mean one event produced a fractional individual. The time values refer to distinct events, not one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-0632c6b28d}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.855; oviposition-to-hatching interval 27.5 days; age at flight capability (some records mark nest departure) 35 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-5b7d253d28}
-The maximum_longevity_y field is 16 years, the largest record in the collected material under the source method. It is not typical or mean wild lifespan, a survival ceiling for every individual, or evidence that the record remains current or repeatable.
+## A maximum record is not typical lifespan {#s-5b7d253d28}
+The compilation lists 16 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-a4be377d2d}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; and Bennett, 1986. Associated source details retain field-specific row numbers, values, labels and full reference explanations. A label may identify a primary paper, book or another database. Row counts are not measured-individual counts, and repeated citations do not constitute independent experimental replication.
+## Sources and field limits {#s-a4be377d2d}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Food and foraging-position records {#s-1cc56d62e6}
-COL26.8 accepts *Bostrychia hagedash* in Threskiornithidae. EltonTraits 1.0 also includes a same-name, same-family record with two ecological field groups. Its bird taxonomy is historical; the name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-1cc56d62e6}
+EltonTraits 1.0 has a same-name, same-family record for Bostrychia hagedash covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-171e885de9}
-The nonzero food-category weights are invertebrates 90% and reptiles and amphibians 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions; they are not measured diet composition, and a zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply an exclusive diet of nectar, seeds or plants.
+## Relative weights across food categories {#s-171e885de9}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 90%; reptiles and amphibians 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-dcb41a0070}
-The species-level foraging-stratum estimate assigns 100% to ground-level feeding positions. It estimates relative use of feeding positions, not nest sites, all habitat or a whole-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-dcb41a0070}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-4f15e5ca92}
-The two field groups carry the source label Ref_1. Diet, foraging stratum and activity may come from different material, and the same reference number in bird and mammal bibliographies does not necessarily identify the same work. The linked source details preserve the original citation strings. The underlying books and papers have not been individually read, and a source label is not an additional independent observation.
+## Sources and field limits {#s-4f15e5ca92}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-1fc7909bbd}
 AVONET morphology values are sample averages, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources; the 27 measured birds must not be assumed to be the mass sample. Habitat, diet and migration are broad categories, and the geographic summary covers historical breeding and resident ranges only. Historical crosswalks and a matching catalogue name support association but do not prove that species concepts remained equivalent through later splits or lumps. Other sources are needed for reproduction, current populations and conservation status.

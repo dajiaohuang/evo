@@ -8,5 +8,5 @@ From April to August 2025, Pottie et al. walked about 101 km across five transec
 The 2025 study found lower encounter rates for medium and small primates alongside recovery of larger species, and discussed competitive release or density compensation as possible explanations. The surveys were about twelve years apart, and group size and detectability also affect encounter rates. The comparison describes community change at Los Amigos; it does not establish a range-wide trend or a single cause for C. cuscinus.
 
 ## Evidence limits {#s-f5404009ab}
-A local transect-study guide. The two relative encounter-rate estimates come from one site in Peru; differences in detectability, group size and taxonomic usage limit trend interpretation. They are not a complete natural-history or current range account.
+The two relative encounter-rate estimates come from one site in Peru; differences in detectability, group size and taxonomic usage limit trend interpretation. They are not a complete natural-history or current range account.
 

@@ -1,27 +1,27 @@
-## Amerotyphlops reticulatus in the pinned checklist {#s-aa9682ccbf}
-The pinned COL26.8 checklist accepts Amerotyphlops reticulatus as a species. Its ReptTraits v1-2 row follows the Reptile Database 2023 name framework. One row condenses the cited material, so the values describe the compiled entry rather than a uniform state across every sex, place, season or population.
+## COL26.8 name and the ReptTraits row {#s-aa9682ccbf}
+COL26.8 records Amerotyphlops reticulatus as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A reported length for Amerotyphlops reticulatus {#s-6487711c48}
-The cited record reports compiled maximum total length (TL) 522 mm. TL also includes the tail. These are reported endpoints, not typical sizes or biological limits. Sex-specific values may come from different studies or places and do not by themselves show a consistent size difference between males and females.
+## Length values in the archived records {#s-6487711c48}
+The row reports maximum total length (TL) of 522 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Activity categories in the trait record {#s-fc05b91ed4}
-The entry records microhabitat is Fossorial, diet is Carnivorous, foraging mode is ACT. These broad categories do not give a full habitat, prey list or daily timetable. Multiple positions may be recorded. The diet label does not identify prey. The foraging code remains as recorded and is not expanded here. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-fc05b91ed4}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## Reproductive records for Amerotyphlops reticulatus {#s-5f8c69dad3}
-The source labels the reproductive mode oviparous.  Summaries may use midpoints of reported means, or extrema when means are absent; they are not necessarily averages of observed clutches.  These labels do not establish fetal nutrition or uniformity across populations.
+## Reproductive fields in ReptTraits {#s-5f8c69dad3}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Historical entries associated with Amerotyphlops reticulatus {#s-1e44708290}
-A separate 2015 life-history archive contains 3 focal fields under Amerotyphlops reticulatus. Same-name, same-family rows support the association, but historical summaries can carry taxonomic inheritance; the name alone does not make its concept identical to pinned COL26.8.
+## A 2015 life-history row for this name {#s-1e44708290}
+COL26.8 records Amerotyphlops reticulatus as an accepted species. The August 2015 life-history table has a species-name and family match (Typhlopidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Mass records at different life stages {#s-8627870b94}
-The 2015 archive reports adult body mass 53 g. Adult summaries may combine sexes or unspecified-sex records; adult and hatchling values are different life stages, not a growth series for the same animals.
+## Length values in the archived records {#s-8627870b94}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 53 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
-## Counts and timing in the 2015 archive {#s-6fe324158b}
-The archive reports litter/clutch 10 offspring or eggs; egg laying to hatching 2 d. Here d means days. Counts and intervals describe different events; a decimal clutch summary is not a fractional animal in one event.
+## Reproductive events in the life-history table {#s-6fe324158b}
+Field-specific archive notes: offspring per litter or eggs per clutch: a mean of cited source values; oviposition to hatching: one direct source citation, with no median count stated. The offspring-per-litter or eggs-per-clutch summary is 10; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; O'Shea, M., 2007. The incubation field is 2 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## Following the field citations {#s-7697cbd189}
-The archived rows attribute fields to Boback and Guyer, 2003; Reptile Incubation book; O'Shea, M., 2007. A label may name a paper, book or database; repeated citations are not independent observations. Field locators and reference notes preserve the source trail.
+## The August 2015 life-history table {#s-7697cbd189}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-22f37490f2}
-The ReptTraits v1-2 row uses its 2023 taxonomic framework and cites sources for individual traits. A single row compresses variation across sex, age, locality and populations; the same name and family do not guarantee equivalence to a later taxonomic concept. A reported maximum length is not an absolute species limit, and reproductive means are not fixed counts for every clutch. Many body-mass entries are estimated from length equations rather than measured mass. Juvenile-length fields use differing labels and definitions, so those values are not directly comparable without their source definitions. The compilation does not provide a current assessment of conservation, venom, geographic distribution or population trends; blank fields indicate unreported data. Some citation labels are inherited through the dataset source chain: they locate reported records but do not represent independent observations. A separate 2015 life-history compilation supplies historical values: these are medians or averages of the two middle records, except maximum longevity, which uses the largest record found. They are not direct measurements of one animal, individual-variation ranges, average wild lifespans or current population surveys. Historical species and subspecies may share or inherit data. Same-name, same-family rows support the association but do not make an older concept equivalent to COL26.8 or remove all inheritance uncertainty.
+## Separate histories in the two archives {#s-22f37490f2}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

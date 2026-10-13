@@ -1,16 +1,18 @@
-## Accepted-species index {#s-a10c7b281c}
+## Recorded classification and direct parent {#s-a10c7b281c}
+COL26.8 records Vultur Linnaeus, 1758 at genus rank, with Cathartidae Lafresnaye, 1839 as its direct parent.
+
 Vultur is a genus in Cathartidae in the pinned COL26.8 tree. Its complete accepted-species index contains one entry: Vultur gryphus Linnaeus, 1758 (COL 5BSLM), under genus 87CF. Open that species to follow the Ecuador studies below. Accepted status identifies this catalogue usage; it does not establish living status or equivalence to a PBDB fossil concept.
 
 ## Reading route {#s-2ea8251d14}
 Read the species distribution and conservation sections first for the 2016 Ecuador model and dated census, then the life-history and nest-interaction sections for the 2024 nesting study. These routes distinguish modelled area and estimated abundance from observations at particular nests. They do not form a range-wide natural-history account, and their different sampling periods cannot be combined into a population trend.
 
-## Local data reading route {#s-9a4f6e707d}
+## Recorded classification and member material {#s-9a4f6e707d}
 This batch’s Vultur route includes 1 measured species records. Start with Vultur gryphus. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-7ee6ca9469}
 Compiled mean mass endpoints in this batch are Vultur gryphus at 11236.1 g and Vultur gryphus at 11236.1 g. Represented habitat categories include Grassland; trophic niches include Scavenger. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-2598eddda7}
+## Amniote Life-history archive member records {#s-2598eddda7}
 This batch’s Vultur route includes 1 historical life-history accounts; start with Vultur gryphus. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), mass at birth or hatching (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-e2acaadbff}

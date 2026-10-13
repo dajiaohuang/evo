@@ -1,5 +1,5 @@
-## Separate matching names from family spelling {#s-b783b2a137}
-Pinned COL26.8 organizes this page at Sarothrura pulchra (79PK7). BirdLife 2020 row 2726, eBird 2021 row 9386 and BirdTree row 9331 share the name, with Avibase ID AVIBASE-6EF64F69; link types are 1BL to 1eBird and 1BL to 1BT. Matching names locate historical sources without establishing identical species boundaries across versions. The source has Family1=Rallidae; the recorded COL ancestry places this page in Sarothruridae. Retain the original family spelling without inferring relationships from its difference.
+## A name fixed to COL26.8 {#s-b783b2a137}
+Catalogue of Life release COL26.8 records Sarothrura pulchra (J. E. Gray, 1829) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-b4db7ec983}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8.3 mm, tarsus 31.5 mm, unflattened wing 80.6 mm, tail 41 mm and hand-wing index 10.4 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

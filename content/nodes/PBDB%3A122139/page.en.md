@@ -1,19 +1,54 @@
 ## Which fossil records this name represents {#s-9b9d0520af}
 Lystrosaurus murrayi is accepted in the fixed PBDB other-synapsida working roster, with database parent Lystrosaurus. This guide uses 45 eligible species-level occurrence records from 39 collections and 13 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-b9750a3784}
-Collection K47/578, 0.5 mile S Dhenua, Damodar river (West Bengal), region code IN, stratum name Panchet; database age bracket 251.902–248.6 Ma, early interval Induan and late interval Smithian. Collection Harrismith Commonage (Free State), region code ZA, stratum name Normandien; database age bracket 251.902–247 Ma, early interval Induan and late interval Olenekian. Collection Boesmansklip, Bergville (Kwazulu-Natal), region code ZA; database age bracket 251.902–247 Ma, early interval Early Triassic. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Lystrosaurus murrayi is listed in the PBDB snapshot under taxon txn:122139. This archived guide contains 45 selected occurrence rows, linked to 39 distinct PBDB collection IDs and 13 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-68946fbe17}
-Selected occurrences have an outer age envelope of 259.857–247 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Bethesda Road Area, occurrence occ:1418147 (259.857–251.902 Ma); one supplying the younger bound is Harrismith Commonage, occurrence occ:922669 (251.902–247 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-b9750a3784}
+The archived guide contains 45 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-2c05a29138}
-K47/578, 0.5 mile S Dhenua, Damodar river has collection-environment label terrestrial indet.; collection preservation-mode label body. Harrismith Commonage has collection-environment label terrestrial indet.; collection preservation-mode label body. Boesmansklip, Bergville has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1418147; PBDB collection col:176336. Locality cnm=Bethesda Road Area; place fields cc2=ZA, stp=Eastern Cape, cny=Graaff-Reinet. Recorded age bounds: eag 259.857 Ma; lag 251.902 Ma; PBDB interval fields oei=Wuchiapingian, oli=Changhsingian. Recorded attribution Haughton 1965; PBDB reference ref:66794.
 
-## Follow collection records back to references {#s-f1de97ea7a}
-K47/578, 0.5 mile S Dhenua, Damodar river carries database reference attribution Tripathi (1961), identifier ref:34028. Harrismith Commonage carries database reference attribution Kitching (1977), identifier ref:27216. Boesmansklip, Bergville carries database reference attribution Kitching (1977), identifier ref:27216. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Direct maximum date for the Dicynodon Assemblage Zone from  Rubidge et al., 2013
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coordinates for "Bethesda Road Area, Graaff-Reinet" situated in the general area between New Bethesda and Graaff-Reinet, as no exact location is given.
+
+- Occurrence occ:922669; PBDB collection col:88282. Locality cnm=Harrismith Commonage; place fields cc2=ZA, stp=Free State, cny=Maluti-A-Phofung. Recorded age bounds: eag 251.902 Ma; lag 247 Ma; PBDB interval fields oei=Induan, oli=Olenekian. Stratigraphic fields sfm=Normandien. Recorded attribution Kitching 1977; PBDB reference ref:27216.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"levels corresponding to the Harrismith Member of the Normandien Formation (Rubidge et al. 1995), which record a fauna biostratigraphically known as the Lystrosaurus AZ, Induan–early Olenekian in age." (Abdala 2007)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Low relief with small, scanty, but very productive exposures in the 'Old Brickfield' donga or gully and in a number of places on the Forestry Department lnad along the base of Platberg. Small exposures also occur next to the Wilge River and on the slopes of Queen's Hill" (Kitching 1977:93).
+Polar coordinates are for the town of Harrismith. Maluti-A-Phofung is the name now used for the former Harrismith municipality
+
+- Occurrence occ:891104; PBDB collection col:98624. Locality cnm=K47/578, 0.5 mile S Dhenua, Damodar river; place fields cc2=IN, stp=West Bengal. Recorded age bounds: eag 251.902 Ma; lag 248.6 Ma; PBDB interval fields oei=Induan, oli=Smithian. Stratigraphic fields sfm=Panchet. Recorded attribution Tripathi 1961; PBDB reference ref:34028.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Panchet Formation yields a typical earliest Triassic vertebrate assemblage that can be correlated with the Lystrosaurus Assemblage Zone of South Africa
+
+## Age bounds on the recorded occurrences {#s-68946fbe17}
+Across these selected PBDB rows, the largest recorded eag=259.857 Ma in occ:1418147; the smallest recorded lag=247 Ma in occ:922669. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-2c05a29138}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1418147: PBDB original-identification field idn=Lystrosaurus rubidgei n. sp.; PBDB taxon-name field tna=Lystrosaurus murrayi; material note ocm=RC 46, partial skull; PBDB locality-coordinate fields lng=24.598057, lat=-31.912779; paleocoordinate/model fields pm1=gplates, pln=-18.01, pla=-51.81.
+- occ:922669: PBDB taxon-name field tna=Lystrosaurus murrayi; PBDB locality-coordinate fields lng=29.125000, lat=-28.275000; paleocoordinate/model fields pm1=gplates, pln=-4.64, pla=-50.81.
+- occ:891104: PBDB original-identification field idn=Lystrosaurus orientalis; PBDB taxon-name field tna=Lystrosaurus murrayi; material note ocm=GSI 17816, 17820; abundance fields abv=2, abu=elements; PBDB locality-coordinate fields lng=86.974998, lat=23.633333; paleocoordinate/model fields pm1=gplates, pln=47.83, pla=-49.14.
+
+## References attached to each record {#s-f1de97ea7a}
+The archived guide links the rows to 13 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1418147: Recorded attribution Haughton 1965; PBDB reference ref:66794.
+- occ:922669: Recorded attribution Kitching 1977; PBDB reference ref:27216.
+- occ:891104: Recorded attribution Tripathi 1961; PBDB reference ref:34028.
 
 ## Evidence limits {#s-e991606ffd}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 45 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

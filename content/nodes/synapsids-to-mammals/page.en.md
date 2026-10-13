@@ -1,8 +1,8 @@
-## From synapsids to mammals {#s-c7a3daadbf}
-Trace changes in the jaw, middle ear, teeth and posture across a long transition in synapsid history.
+## Synapsid history across separate evidence records {#s-c7a3daadbf}
+A character analysis distinguishes early synapsid and sauropsid branches, while scarce fossils and calibration choices limit exact placements and dates. Later jaw and ear comparisons belong to their own records, not a single sequence of direct ancestors.
 
-## The early amniote branches {#s-bcdd573ea1}
-Early in amniote history, synapsids and sauropsids diverged into separate lineages. This marks a branch in the tree, not a named fossil ancestor.
+## Skull characters recover two early branches {#s-bcdd573ea1}
+The cited analysis uses diagnostic skull openings to separate Synapsida from Sauropsida, while noting rare early members and several topology-sensitive Paleozoic placements. Divergence dates shift with tree calibration. The result is a branching hypothesis from anatomical characters, not a fossil identified as the common ancestor.
 
 ## Many therapsid forms {#s-40553d898d}
 Across Permian and Triassic synapsids, posture, feeding and skull architecture changed. These broad patterns do not make each form a rung in a single ladder.

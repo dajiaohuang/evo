@@ -29,23 +29,67 @@ The 2020 authors interpret V 4063 as at least a subadult because its skull eleme
 The study places its material in the Early Cretaceous Tugulu Group of Urho–Delunshan, Xinjiang, and discusses material from the eastern Junggar Basin. Records of Dsungaripterus and Noripterus at the same localities suggest possible coexistence, but the 2020 authors explicitly call for fieldwork to establish whether they occur in the same horizon. The three selected database collections are not matched individually to scanned specimens and do not establish competition, a shared menu or simultaneous death.
 
 ## Compare revised bone boundaries with Caupedactylus {#s-5bed25aebb}
-[Caupedactylus ybaka](../../../Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Caupedactylus/Caupedactylus_ybaka/page.en.md) contributes to both papers’ palatal comparisons. Read the newly scanned Dsungaripterus material first, then Caupedactylus comparisons based on earlier illustrations, and compare pterygoid openings and palatine identities. Similarities in 2020 support the authors’ cited relationship interpretation, while 2024 revises bone boundaries. No matrix was rerun here, and palatal resemblance is not presented as an established sister relationship.
+Caupedactylus ybaka contributes to both papers’ palatal comparisons. Read the newly scanned Dsungaripterus material first, then Caupedactylus comparisons based on earlier illustrations, and compare pterygoid openings and palatine identities. Similarities in 2020 support the authors’ cited relationship interpretation, while 2024 revises bone boundaries. No matrix was rerun here, and palatal resemblance is not presented as an established sister relationship.
 
 ## Which fossil records this name represents {#s-2041036607}
 Dsungaripterus weii is accepted in the fixed PBDB pterosaur working roster, with database parent Dsungaripterus. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
+PBDB occurrence record excerpt:
+Dsungaripterus weii is listed in the PBDB snapshot under taxon txn:100403. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## Begin with named collections and strata {#s-d5400b70af}
 Collection Wuerho, IVPP site 64041 (Xinjiang), region code CN, stratum name Lianmuqin; database age bracket 137.05–100.5 Ma, early interval Valanginian and late interval Albian. Collection Wuerho, IVPP site 64045 (Xinjiang), region code CN, stratum name Lianmuqin; database age bracket 137.05–100.5 Ma, early interval Valanginian and late interval Albian. Collection Tatal bonebed (Uvs), region code MN, stratum name Tsagaantsav; database age bracket 137.05–121.4 Ma, early interval Valanginian and late interval Barremian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+
+PBDB occurrence record excerpt:
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:487794; PBDB collection col:49047. Locality cnm=Wuerho, IVPP site 64041; place fields cc2=CN, stp=Xinjiang. Recorded age bounds: eag 137.05 Ma; lag 100.5 Ma; PBDB interval fields oei=Valanginian, oli=Albian. Stratigraphic fields sfm=Lianmuqin. Recorded attribution Young 1973; PBDB reference ref:13383.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower part of formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Wuerho area
+
+- Occurrence occ:493241; PBDB collection col:49819. Locality cnm=Wuerho, IVPP site 64045; place fields cc2=CN, stp=Xinjiang. Recorded age bounds: eag 137.05 Ma; lag 100.5 Ma; PBDB interval fields oei=Valanginian, oli=Albian. Stratigraphic fields sfm=Lianmuqin. Recorded attribution Young 1973; PBDB reference ref:13383.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower part of formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Wuerho
+
+- Occurrence occ:829169; PBDB collection col:91412. Locality cnm=Tatal bonebed; place fields cc2=MN, stp=Uvs. Recorded age bounds: eag 137.05 Ma; lag 121.4 Ma; PBDB interval fields oei=Valanginian, oli=Barremian. Stratigraphic fields sfm=Tsagaantsav. Recorded attribution Lü et al. 2009; PBDB reference ref:30777.
 
 ## Age bounds of these records {#s-9c40f597e1}
 Selected occurrences have an outer age envelope of 137.05–100.5 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=137.05 Ma in occ:487794; the smallest recorded lag=100.5 Ma in occ:487794. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## Read preservation setting separately from living habitat {#s-dd99c789be}
 Wuerho, IVPP site 64041 has collection-environment label lacustrine indet.; collection preservation-mode label body. Wuerho, IVPP site 64045 has collection-environment label lacustrine indet.; collection preservation-mode label body. Tatal bonebed has collection-environment label lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:487794: PBDB taxon-name field tna=Dsungaripterus weii; PBDB locality-coordinate fields lng=85.792046, lat=46.043884; paleocoordinate/model fields pm1=gplates, pln=99.82, pla=40.23.
+- occ:493241: PBDB taxon-name field tna=Dsungaripterus weii; PBDB locality-coordinate fields lng=85.666664, lat=46.099998; paleocoordinate/model fields pm1=gplates, pln=99.7, pla=40.28.
+- occ:829169: PBDB taxon-name field tna=Dsungaripterus weii; material note ocm=GIN125/1010-2, right tibia and fibula; GIN125/1010-3, right wing metacarpal IV; GIN125/1010-4, cervical vertebra 4; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=92.595001, lat=48.758331; paleocoordinate/model fields pm1=gplates, pln=97.74, pla=43.77.
 
 ## Follow collection records back to references {#s-4a56eb0049}
 Wuerho, IVPP site 64041 carries database reference attribution Young (1973), identifier ref:13383. Wuerho, IVPP site 64045 carries database reference attribution Young (1973), identifier ref:13383. Tatal bonebed carries database reference attribution Lü et al. (2009), identifier ref:30777. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:487794: Recorded attribution Young 1973; PBDB reference ref:13383.
+- occ:493241: Recorded attribution Young 1973; PBDB reference ref:13383.
+- occ:829169: Recorded attribution Lü et al. 2009; PBDB reference ref:30777.
+
 ## Evidence limits {#s-578ce09c29}
 The 2020 and 2024 studies describe different skull specimens; the later CT interpretation revises some bone boundaries and identities. Preserved anatomy, reconstructed soft tissues, diet, maturity, sex and same-horizon coexistence are separate inferences. Database occurrences are not matched specimen by specimen to the scanned material.
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## 一条历史生态记录 {#s-5e8cd677ad}
+## 记录分类与直接上级关系 {#s-5e8cd677ad}
+COL26.8 将 Chaetocauda 记录为属；其直接上级记录为 Leithiinae。
+
 Catalogue of Life COL26.8 将 Chaetocauda 记录为接受的属。EltonTraits 1.0 在本批有一条历史记录 Chaetocauda sichuanensis，按固定祖先分类归入。字段组汇总计有一条食物记录、一条取食记录和一条活动记录。这些数字只统计该汇编，并非完整物种分母，也不能证明所有成员具有相同生态。方法元数据说明字段经过半定量转换和插补，因此应将其视为编码后的历史记录。
 
 ## 一条记录不能证明什么 {#s-f269e47e5c}

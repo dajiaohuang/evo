@@ -1,5 +1,5 @@
-## 逐表保留 Locustella、Bradypterus 与 Helopsaltes {#s-3c9c592842}
-本页按 COL26.8 的 Locustella ochotensis（72LJS）组织。BirdLife 2020 第 4993 行记 Locustella ochotensis；eBird 2021 第 5658 行记 Helopsaltes ochotensis，两表 Avibase ID 均为 AVIBASE-3200EE86，类型 1BL to 1eBird。BirdTree 第 5629 行记 Locustella ochotensis，类型 1BL to 1BT。BirdTree 与本页接受名相同。本次所读 hel 分片未确认这个逐字 Helopsaltes 名称；名称表关联不替代目录异名证据。名称对应帮助定位历史资料，不证明跨版本的物种范围相同。
+## COL26.8 中的名称身份 {#s-3c9c592842}
+《Catalogue of Life》COL26.8（2026-08-20）将 Locustella ochotensis (Middendorff, 1853) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-eafc3ab5eb}
 形态共 5 只鸟：雌 2、雄 3、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 9.4 mm、跗蹠 24.4 mm、未压平翼长 69.5 mm、尾长 58.2 mm、手翼指数 29.6 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

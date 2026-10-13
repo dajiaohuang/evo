@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-a3d3c5ff82}
-Pinned COL26.8 organizes this page at Cinnyris nectarinioides (5Z75P). BirdLife 2020 row 5977 and eBird 2021 row 2349 share the name and Avibase ID AVIBASE-7C822074, with type 1BL to 1eBird; BirdTree row 2342 gives Nectarinia nectarinioides, with type 1BL to 1BT. Read older-combination record 462NZ points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-a3d3c5ff82}
+Catalogue of Life release COL26.8 records Cinnyris nectarinioides Richmond, 1897 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-5d33820588}
 Morphology covers 6 birds: 2 female, 4 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 12.3 mm, tarsus 14.8 mm, unflattened wing 52.5 mm, tail 51.1 mm and hand-wing index 13.8 are historical row means. Inference=NO does not establish 6 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

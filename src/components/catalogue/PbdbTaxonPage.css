@@ -1,0 +1,12 @@
+.pbdb-taxon-page h1 { font: 500 clamp(32px, 5vw, 64px)/1.1 var(--font-display); overflow-wrap: anywhere; margin-block: 16px; }
+.pbdb-taxon-account { width: min(1180px, calc(100% - 48px)); margin-inline: auto; overflow-wrap: anywhere; }
+.pbdb-taxon-account button { min-height: 44px; padding: 10px 14px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); cursor: pointer; }
+.pbdb-taxon-account nav { display: flex; gap: 8px; flex-wrap: wrap; max-height: 320px; overflow: auto; }
+.pbdb-taxon-account button:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 3px; }
+.pbdb-taxon-account .catalogue-knowledge { max-width: 100%; }
+.pbdb-taxon-account .node-reading__methods p { line-height: 1.7; margin-block: 12px; }
+.pbdb-source-tree label { display: grid; gap: 8px; margin-block: 16px; }
+.pbdb-source-tree input { width: 100%; min-height: 44px; padding: 8px 12px; border: 1px solid var(--color-border); background: var(--color-surface); color: var(--color-text); }
+.pbdb-source-tree__children { max-height: 360px; overflow: auto; list-style: none; padding-left: 20px; border-left: 1px solid var(--color-border); }
+.pbdb-source-tree__children button { width: 100%; text-align: left; }
+@media (max-width: 600px) { .pbdb-taxon-account { width: calc(100% - 32px); } .pbdb-taxon-account .catalogue-knowledge { padding: 16px; } }

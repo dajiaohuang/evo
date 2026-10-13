@@ -1,4 +1,6 @@
-## 从 2 个测量物种页开始 {#s-74422f2c5c}
+## 记录分类与直接上级关系 {#s-74422f2c5c}
+COL26.8 将 Pseudibis 记录为属；其直接上级记录为 Threskiornithidae。
+
 Pseudibis 本路线有 2 条测量物种记录：Pseudibis davisoni 和 Pseudibis papillosa。目录沿用固定的 COL26.8 层级；生物学资料保留 AVONET v7 名称与取样限制。
 
 ## 比较记录均值与类别 {#s-c00c8a7605}

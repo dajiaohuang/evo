@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-43b56e3028}
-Pinned COL26.8 organizes this page as Pternistis nobilis (4PV6Z). AVONET v7 BirdLife 2020 row 2522 and eBird 2021 agree in name, with Avibase ID AVIBASE-DA7CA265; BirdTree gives Francolinus nobilis, with match type 1BL to 1BT. Read COL older-combination record 6JLF8 points to accepted ID 4PV6Z. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-43b56e3028}
+Catalogue of Life release COL26.8 records Pternistis nobilis (Reichenow, 1908) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-769abaeb4f}
 Morphology covers 2 birds (2 female, 0 male); 2 have complete measurement sets. Mean nostril-to-tip beak length is 13.7 mm, tarsus 52.7 mm, unflattened wing 185.5 mm and hand-wing index 29.2. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed. Only one sex is represented here, leaving size differences between sexes unsupported.

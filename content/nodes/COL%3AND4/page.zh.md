@@ -1,4 +1,6 @@
 ## overview {#s-988b6a3f90}
+COL26.8 将 Acrocodia Goldman, 1913 记录为属；其直接上级记录为 Tapiridae Gray, 1821。
+
 本版目录在此属收录马来貘。生物学来源采用 Tapirus indicus；成体黑白相间的躯干色块是该物种的特征，而非所有貘的特征。
 
 ## catalogue-profile / limitations {#s-49faf0ded9}

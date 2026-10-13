@@ -1,29 +1,29 @@
-## The COL26.8 name and the AVONET record {#s-42742951b7}
-COL26.8 accepts *Heleia muelleri* in Zosteropidae. AVONET v7 records the bird under the HBW–BirdLife 2020 taxonomy: five individuals were measured, and four have a complete set of morphological measurements. The usable sample size can differ by trait.
+## Row-reported mean and sample coverage {#s-42742951b7}
+The AVONET v7 row for Heleia muelleri (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.1 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Three dimensions of the bill {#s-538e510361}
-AVONET reports a mean bill length of 9.1 mm from the front edge of the nostril to the tip, with width of 3.6 mm and depth of 4.3 mm measured at the nostril edge. These are separate dimensions taken at standard landmarks, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-538e510361}
+AVONET records culmen length (bill tip to skull base) 16.3 mm; beak length (nostril front edge to tip) 9.1 mm; beak width at the nostril front edge 3.6 mm; beak depth at the nostril front edge 4.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and body mass {#s-9f582dd62c}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 68.3 mm; mean tarsus length is 20.1 mm. The compiled species-average mass is 16.7 g and is classed as Updated_literature. It comes from a separate source, so the morphological sample count does not describe the mass data.
+## Wing and body measures use separate sources {#s-9f582dd62c}
+AVONET records unflattened wing length 68.3 mm; tarsus length 20.1 mm; distance from first secondary tip to longest primary tip 9.6 mm; length to first secondary tip 58.5 mm; hand-wing index 14.1; tail length 55.4 mm; species-average body mass 16.7 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat and feeding categories {#s-2e012e2a20}
-AVONET assigns the record to the Forest habitat category and the Invertivore trophic niche. Its lifestyle code, Insessorial, describes perching on vegetation or other substrates above ground. These are dominant categories for comparison, not claims that the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-2e012e2a20}
+AVONET classifies Heleia muelleri as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## What the mapped range represents {#s-b382fe5f0d}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitudes from -10.37° to -8.33°. They do not give a full account of non-breeding movements or a current or global range. The geography and morphological measurements come from separate compilation steps.
+## Mapped range is not a locality list {#s-b382fe5f0d}
+Historical breeding and resident maps span latitude endpoints -10.37° to -8.33°. The mapped range area is 26735.01 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## A second, older ecology record {#s-8ae785db70}
-EltonTraits 1.0 also contains an older record with this name and family. Two source-linked field groups are described below. A same-name, same-family match does not establish that the historical record represents the same species concept as COL26.8, or resolve later splits and synonym disputes.
+## Scope of the historical trait entry {#s-8ae785db70}
+EltonTraits 1.0 has a same-name, same-family record for Heleia muelleri covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Standardized weights for food categories {#s-2dbd829e2b}
-For the nonzero categories, EltonTraits gives relative weights of 60% for invertebrates and 40% for fruit. Source code A records high compiler confidence in the source and diet information. The percentages standardize verbal descriptions; they are not measured diet composition, and a zero value does not show that an item is never eaten. Codes such as Nect, Seed and PlantO use categories broader than their everyday names.
+## Relative weights across food categories {#s-2dbd829e2b}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 60%; fruit 40%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Feeding positions are not a daily time budget {#s-4524475120}
-Foraging-stratum values flagged as species-level assign 50% to trees or high bushes from 2 m up to below the canopy, and 50% to the canopy or just above it. These are relative weights for feeding positions, not nest sites, all habitat use or time spent through the day. The source defines surface-water, understory, mid/high, canopy and aerial categories separately; they do not give elevation ranges, flight heights or habitat area.
+## Foraging positions are not a time budget {#s-4524475120}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 50%; in the canopy 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Source labels point to separate records {#s-174203b841}
-The diet and feeding-position groups carry the labels Ref_13 and Ref_41. Each label belongs to a particular source table, so the same number in bird and mammal tables need not identify the same work. The underlying books and papers have not been checked individually; these labels trace the archive fields and are not additional independent observations.
+## Sources and field limits {#s-174203b841}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Coates, B. J., K. David, and D. Gardner. 1997. A guide to the birds of Wallacea: Sulawesi, the Moluccas, and Lesser Sunda Islands, Indonesia. Dove Publications.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-618b613580}
 The AVONET figures are historical species-level summaries. Morphological values are means from the listed samples, not diagnostic cutoffs or ranges of individual variation; mass comes from a separate literature or weighing source. Habitat, diet, migration and geography are broad categories, and the mapped bounds cover historical breeding and resident ranges only. A one-to-one historical crosswalk and matching name link the record to this page but do not prove that its species concept is identical to COL26.8. The account does not establish reproduction, current distribution, population size or conservation status.

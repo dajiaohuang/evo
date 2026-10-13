@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-41cb3a8236}
-Pinned COL26.8 organizes this page at Trochalopteron morrisonianum (596HB). BirdLife 2020 row 4929 and eBird 2021 row 10695 share the name and Avibase ID AVIBASE-AB9D580D, with match type 1BL to 1eBird; BirdTree row 10628 gives Garrulax morrisonianus, with type 1BL to 1BT. Read COL older-combination record 3FBRK points to this accepted ID. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-41cb3a8236}
+Catalogue of Life release COL26.8 records Trochalopteron morrisonianum Ogilvie-Grant, 1906 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-6d0f94d5fe}
 The morphology row covers 5 birds: 2 female, 3 male and 0 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 11.9 mm, tarsus 37.8 mm, unflattened wing 100.2 mm, tail 125.6 mm and hand-wing index 9.8 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

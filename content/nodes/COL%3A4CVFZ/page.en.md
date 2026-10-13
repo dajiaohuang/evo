@@ -8,5 +8,5 @@ Harcourt and Nash (1986) used mark–recapture and radio-tracking at two Kenyan 
 A 2006 taxonomic and distribution review summarized the species as occurring in coastal forests of Kenya and northeastern Tanzania. That account clarifies some older name usage, but it is not a complete modern distribution survey and does not make historical localities evidence of continuous present-day occupancy.
 
 ## Evidence limits {#s-72f94dca96}
-The main field behavior evidence comes from two Kenyan forests in the 1980s and was published under a name later revised. This page does not generalize it to the species-wide social system, current population size or a complete range. Source-linked bilingual draft;.
+The main field behavior evidence comes from two Kenyan forests in the 1980s and was published under a name later revised. Those observations do not establish the species-wide social system, current population size or a complete range.
 

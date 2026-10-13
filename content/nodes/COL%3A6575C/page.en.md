@@ -1,44 +1,44 @@
-## The name and this data account {#s-079a26c0ae}
-In the pinned Catalogue of Life release COL26.8, Aechmophorus clarkii is accepted in Podicipedidae. AVONET v7 records it under the HBW–BirdLife 2020 name. The dataset includes 5 measured individuals; 4 have a complete morphological set. The usable sample size can still differ by trait.
+## Row-reported mean and sample coverage {#s-079a26c0ae}
+The AVONET v7 row for Aechmophorus clarkii (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 58.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-a90954bf9f}
-Mean beak length, measured from the anterior edge of the nostril to the tip, is 58.8 mm. At that edge, mean width is 7.5 mm and mean depth is 11.6 mm. These are separate measurements at standardized landmarks, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-a90954bf9f}
+AVONET records culmen length (bill tip to skull base) 77.9 mm; beak length (nostril front edge to tip) 58.8 mm; beak width at the nostril front edge 7.5 mm; beak depth at the nostril front edge 11.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-b7b840c176}
-Mean unflattened wing length, from the carpal joint to the longest primary feather, is 195.4 mm; mean tarsus length is 76.6 mm. A separate compilation reports mean mass of 1090.93 g (source category Dunning). That species-average mass is not evidence that every bird in the morphology sample was weighed.
+## Wing and body measures use separate sources {#s-b7b840c176}
+AVONET records unflattened wing length 195.4 mm; tarsus length 76.6 mm; distance from first secondary tip to longest primary tip 79.8 mm; length to first secondary tip 111.7 mm; hand-wing index 41.8; tail length 34 mm; species-average body mass 1090.93 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-34865db69f}
-The dataset’s comparison categories are habitat “Wetland,” trophic niche “Aquatic predator,” and lifestyle “Aquatic.” They are dominant categories for comparing species, not claims that this bird uses only one habitat or one kind of food.
+## Recorded habitat and feeding categories {#s-34865db69f}
+AVONET classifies Aechmophorus clarkii as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aquatic. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-837aa5ed0e}
-AVONET classifies migration as migratory. The historical breeding and resident maps run from latitude 18.07° to 53.31°. These bounds do not describe non-breeding movements and are neither a current location nor a global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-837aa5ed0e}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints 18.07° to 53.31°. The mapped range area is 3589069.35 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-85ae0da1c8}
-COL26.8 accepts Aechmophorus clarkii in Podicipedidae. The historical life-history archive includes a same-name entry; this page compares 7 focal fields, each supported by cited species-level sparse-table rows matching the name and family. The summaries may retain older taxonomic inheritance, which a matching row name alone cannot rule out.
+## Scope of the historical life-history entry {#s-85ae0da1c8}
+The August 2015 database has a same-name, same-family record for Aechmophorus clarkii. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-ef39c7c4ab}
-The historical summary lists adult body mass as 1259.63 g and mass at birth or hatching as 30.7 g. Adult values may combine males, females and adults of unspecified sex; the birth or hatching value belongs to a different life stage. The two values do not track the same individuals or define a species-wide range of individual masses.
+## Compiled adult-mass values {#s-ef39c7c4ab}
+The August 2015 compilation reports adult body mass 1259.625 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-cb409f8a3b}
-The historical compilation reports female maturity field (defined by the source as age at first conception) 365 d; offspring per litter or eggs per clutch 3 offspring/eggs; oviposition to hatching 23 d; age at flight capability (leaving the nest in some source material) 70 d. Here, d means days. The litter/clutch field merges offspring or egg counts; a fractional summary is not a fraction of an individual in one event. Each timing field refers to its own event; the values do not form one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-cb409f8a3b}
+The August 2015 compilation reports female age at first conception (source definition) 365 days; median or interpolated-median number of offspring or eggs per litter/clutch 3; oviposition-to-hatching interval 23 days; age at flight capability (some records mark nest departure) 70 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-e69a1fe59e}
-The archive reports maximum_longevity_y as 14 years, following the source method for the largest collected record. This field is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a currently repeatable record.
+## A maximum record is not typical lifespan {#s-e69a1fe59e}
+The compilation lists 14 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-6061aeb8e4}
-Cited sparse rows under the same name carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Bennett, 1986, among others. Field-level provenance retains the raw row number, value and source label; the reference table provides the full citation explanations. A label may point to a primary paper, a book or another database. Citation-row counts do not count measured individuals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-6061aeb8e4}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-038776b273}
-COL26.8 accepts Aechmophorus clarkii in Podicipedidae. The same-name, same-family EltonTraits 1.0 entry provides source information for 2 ecological field groups. Its taxonomy follows earlier bird classification or MSW3 for mammals; the name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-038776b273}
+EltonTraits 1.0 has a same-name, same-family record for Aechmophorus clarkii covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-b425ab7e80}
-Recorded positive food-category weights are fish 90%; invertebrates 10%. Diet source code A marks high compiler confidence in the source and diet information. The percentages standardize verbal descriptions rather than measure diet composition, and a zero does not show that an item is never eaten. Categories such as Nect, Seed and PlantO have broader source definitions than their everyday names; they do not imply feeding exclusively on nectar, seeds or plants.
+## Relative weights across food categories {#s-b425ab7e80}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; fish 90%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-5b01bf3a56}
-The archive marks these species-level foraging-stratum weights: below the water surface 100%. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. The source defines surface-water, understory, mid/high, canopy and aerial categories separately. They are not elevation bands and cannot establish flight height or habitat area.
+## Foraging positions are not a time budget {#s-5b01bf3a56}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-d973a6cfa9}
-Source labels for the field groups used here are Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. The source record keeps each original string with its file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-d973a6cfa9}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-5b7f73cc67}
 The AVONET v7 values here are historical summaries. Morphological values are species averages for the listed samples, not field-identification criteria or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so the morphology sample count does not apply to it. Habitat, food and migration are broad categories; mapped latitude covers historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name link this record to older data, but do not show that species concepts remain equivalent after later splits or lumps. Other sources are needed for reproduction, present-day populations and conservation status.

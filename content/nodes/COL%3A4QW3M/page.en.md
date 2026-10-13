@@ -1,33 +1,33 @@
-## Read this historical record through food and foraging position {#s-33a5dcfa30}
-COL26.8 accepts Pyrrhura devillei within Psittacidae. EltonTraits 1.0 records 2 ecological field groups under an earlier bird classification or the MSW3 mammal taxonomy. The name match supports a historical comparison, but does not settle later splits or synonymies.
+## Scope of the historical trait entry {#s-33a5dcfa30}
+EltonTraits 1.0 has a same-name, same-family record for Pyrrhura devillei covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-9965ed2a43}
-The archive’s nonzero food weights are fruit 50%; seeds, nuts and spores included in this category 50%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-9965ed2a43}
+EltonTraits 1.0 assigns relative diet weights of fruit 50%; seeds or nuts 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-dfe70a9a3a}
-Foraging-stratum weights flagged as species-level in the archive are trees or high bushes from 2 m upward but below the canopy 50%; understory, edges or shrubs below 2 m 30%; in or just above the canopy 20%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-dfe70a9a3a}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 30%; in mid-height or high vegetation 50%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-656263dd34}
-The source labels for these fields are Ref_4. Diet, feeding position, and activity may draw on different works, so the same Ref number in bird and mammal tables does not identify the same source. The archive links each label to its file, row, field group, and reference table; these labels are not independent observations.
+## Sources and field limits {#s-656263dd34}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-9e7d636f1a}
 EltonTraits 1.0 compiles historical foraging descriptions under earlier names and family assignments. A same-name, same-family match supports comparison with the COL26.8 record but does not prove that the historical and current species concepts are identical. Food and bird foraging-stratum percentages are standardized relative weights from descriptions, not measurements of intake, stomach contents, energy use or time budgets. Bird A/B diet codes retain uncertainty in source and relative proportions; mammal ABC food or activity fields may draw on a congener judged ecologically similar. Genus- or family-level typical values, non-species-level strata and records affected by taxonomic splits do not support species-level conclusions. These data describe the listed fields, not complete ecology, current distribution, population or conservation status.
 
-## The name in the limited ecology record {#s-c5ba422d7a}
-Pyrrhura devillei is accepted in pinned COL26.8 within Psittacidae. This section associates its same-name, same-family historical AVONET v7 record. Names and two one-to-one crosswalks do not resolve species concepts after later splits or lumps.
+## A historical name within this ecology row {#s-c5ba422d7a}
+The AVONET row uses historical BirdLife name Pyrrhura devillei. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-4bf28ac757}
-The recorded habitat category is tall-tree vegetation with a relatively closed canopy. The record describes resources drawn from multiple feeding niches. The recorded primary lifestyle involves much time perched above ground on vegetation, rocks or other substrates. The multiple-niche category does not imply identical proportions across seasons, regions or individuals. These coarse record categories do not replace food lists, behavioural observations or local microhabitat descriptions.
+## Recorded habitat and feeding categories {#s-4bf28ac757}
+The ecology-only AVONET row classifies Pyrrhura devillei as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-a687f3c66e}
-The recorded migration category is sedentary. This is the source’s sedentary category; regional seasonal movements are not separately listed. This entry does not supply current routes, schedules or movement distances for every population.
+## The migration label has a limited scope {#s-a687f3c66e}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-d27a50c508}
-Historical breeding and resident maps have latitude endpoints of -22.56° to -17.92°. The source worksheet associates these fields with BirdLife/HBW 2019.1 maps accessed on 27 March 2020. Endpoints summarize a mapped range, not a locality list or evidence of occupancy throughout it, and exclude a complete account of non-breeding movements. They do not establish current distribution, survival or conservation status.
+## Mapped range is not a locality list {#s-d27a50c508}
+Historical breeding and resident maps span latitude endpoints -22.56° to -17.92°. The mapped range area is 143503.09 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-6ab71b7d7c}
-Of four ecological categories in this batch, 4 have readable records. All four coarse categories are recorded, but ecological coverage remains incomplete. Read historical latitude summaries within their map scope. The source flags inference from relatives for at least some biometric fields, and mass is inferred from a related species. Morphological dimensions and mass are not interpreted here; reproduction, growth and conservation remain without complete accounts. Missing fields do not establish absence of the traits.
+## Fields outside this ecology-only view {#s-6ab71b7d7c}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
-## Limits of these historical data {#s-c8035656c5}
-This batch provides limited historical ecology and geography, not complete species monographs. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Matching names and families plus one-to-one same-name BirdLife/eBird/BirdTree crosswalks establish an association, not equivalence to current COL26.8 species concepts. Ecological fields are coarse literature-derived categories; underlying species literature was not individually read here. Original morphology can involve inference from relatives, and mass can use genus averages or models. This batch therefore withholds morphological and mass interpretation rather than treating those fields as direct measurements of this species. Historical maps cover breeding and resident ranges, without current population, occupancy or conservation assessments.
+## Limits of this historical ecology record {#s-c8035656c5}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 

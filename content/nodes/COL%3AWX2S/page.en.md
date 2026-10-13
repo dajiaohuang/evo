@@ -1,29 +1,29 @@
-## The accepted name and the measurement record {#s-3aaf38b4fd}
-COL26.8 accepts Colaptes pitius in Picidae. The AVONET v7 record uses the HBW–BirdLife 2020 name and includes four measured individuals, all with a complete morphological set. The number contributing to a particular trait can still vary by field.
+## Row-reported mean and sample coverage {#s-3aaf38b4fd}
+The AVONET v7 row for Colaptes pitius (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 32.8 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Three beak measurements {#s-5d75a5f987}
-AVONET reports a mean beak length of 32.8 mm from the anterior edge of the nostril to the tip, a width of 9.4 mm, and a depth of 8.3 mm. Length, width, and depth describe different dimensions at the source’s measurement landmarks; none is an identification threshold.
+## Beak measurements at defined landmarks {#s-5d75a5f987}
+AVONET records culmen length (bill tip to skull base) 42.4 mm; beak length (nostril front edge to tip) 32.8 mm; beak width at the nostril front edge 9.4 mm; beak depth at the nostril front edge 8.3 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus, and separately sourced mass {#s-f5c9eab792}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 151.5 mm; mean tarsus length is 28.6 mm. The AVONET record gives a species-level mass value of 159 g with source category Dunning. Mass comes from separate species-average information, so the four morphology records should not be treated as four weighed birds.
+## Wing and body measures use separate sources {#s-f5c9eab792}
+AVONET records unflattened wing length 151.5 mm; tarsus length 28.6 mm; distance from first secondary tip to longest primary tip 37.8 mm; length to first secondary tip 113.8 mm; hand-wing index 25; tail length 110 mm; species-average body mass 159 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Broad habitat and feeding categories {#s-23c4708826}
-The record assigns Woodland as habitat, Invertivore as trophic niche, and Terrestrial as primary lifestyle. These broad comparison categories summarize the source classification; they do not mean that the bird uses only woodland or eats only invertebrates.
+## Recorded habitat and feeding categories {#s-23c4708826}
+AVONET classifies Colaptes pitius as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement code and historical latitude span {#s-1cbce934d7}
-The migration field is coded as sedentary. The source’s historical breeding and resident maps span latitudes -50.65° to -29.69°. This summary does not cover all non-breeding movements and is not a current-location or global-occupancy estimate. The geographic and morphological fields come from different compilation steps.
+## Mapped range is not a locality list {#s-1cbce934d7}
+Historical breeding and resident maps span latitude endpoints -50.65° to -29.69°. The mapped range area is 428459.35 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## A separate historical account of diet and foraging {#s-30e58accef}
-COL26.8 accepts Colaptes pitius in Picidae. EltonTraits 1.0 has a historical record under the same name and family, with source information for diet and foraging. This is a separate data account from AVONET. A historical name match does not settle modern species splits or synonym disputes.
+## Scope of the historical trait entry {#s-30e58accef}
+EltonTraits 1.0 has a same-name, same-family record for Colaptes pitius covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Diet weight and confidence code {#s-c2b36587c5}
-EltonTraits assigns 100% to the invertebrate diet category; all other listed diet weights are zero. Its A code records high compiler confidence in the source and diet information, not a direct measurement of meals eaten by this species. The percentages standardize literature descriptions rather than measure diet composition, and a zero weight does not prove that a food is never eaten.
+## Relative weights across food categories {#s-c2b36587c5}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Ground foraging is not a time budget {#s-e038e21369}
-The archive marks the foraging record as species-level and assigns 100% to the ground stratum. This is a relative estimate of feeding position, not a nest-site description, full habitat account, or percentage of the day spent on the ground. The other strata describe distinct positions; they are not elevation bands and cannot be converted into flight heights or habitat area.
+## Foraging positions are not a time budget {#s-e038e21369}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## What the citation label points to {#s-c989b21763}
-Both selected groups use Ref_7, which the bird reference table expands to *Handbook of the Birds of the World*, volume 7 (Del Hoyo, Elliott, Sargatal, and Christie, 1992–2011; Lynx Edicions). The source archive preserves this label with the file, row, and field group. The underlying book has not been individually reviewed here; a citation label is not an additional independent observation.
+## Sources and field limits {#s-c989b21763}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits of both historical accounts {#s-72d4c99c31}
 The AVONET account describes historical species averages, not identification diagnoses or individual-variation ranges. Its mass value has separate provenance and must not be assigned to the four morphology specimens. Habitat, diet, and migration are broad categories, while the latitude summary covers historical breeding and resident ranges. The name and one-to-one historical crosswalk support this record’s association but do not prove equivalence between historical and COL26.8 species concepts. EltonTraits likewise provides a historical same-name, same-family account, not a complete species monograph or proof of concept equivalence. Its diet and foraging percentages are literature-based relative weights, not direct measurements of intake, stomach contents, energy, or observation time; the A confidence code does not remove those limits. The cited book has not been individually reviewed. Reproduction, current range, population, conservation, and local or seasonal variation need other sources.

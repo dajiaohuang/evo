@@ -1,18 +1,18 @@
-## Three sourced fields {#s-5afb2c74ad}
-Pinned COL26.8 accepts Tricheilostoma greenwelli in Leptotyphlopidae. The limited ReptTraits v1-2 row records maximum total length, microhabitat and reproductive mode, each with its own citation. The workbook follows The Reptile Database’s 2023 names; a matching name and family do not settle equivalence with the current taxon concept.
+## COL26.8 name and the ReptTraits row {#s-5afb2c74ad}
+COL26.8 records Tricheilostoma greenwelli as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Maximum total length {#s-2134913331}
-The entry gives a maximum total length (TL) of 141 mm, sourced to Feldman et al. (2016). TL includes the tail, unlike snout–vent length (SVL). This compiled maximum is neither a mean nor an absolute bound for all individuals.
+## Length values in the archived records {#s-2134913331}
+The row reports maximum total length (TL) of 141 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Microhabitat category {#s-09c3d1fad8}
-The microhabitat label is “fossorial,” with Feldman (2015) cited for the field. The workbook also uses arboreal, cryptic, saxicolous, semi-aquatic and terrestrial categories, including combinations. This label does not describe a specific habitat type or observation site.
+## Habitat use and activity labels {#s-09c3d1fad8}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015.
 
-## Reproductive mode {#s-a3cd7b2fda}
-The row records “oviparous,” citing Zimin et al. (2022). It includes no clutch size, annual clutch count or egg dimensions, so the mode label does not fill those gaps.
+## Reproductive fields in ReptTraits {#s-a3cd7b2fda}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Limits of the record {#s-9d5df83ce4}
-One compiled row cannot describe all populations, individuals or life stages. It gives no separate sex-specific lengths or detailed ecological account. The source labels retain the dataset’s citation chain and do not imply that every original study was independently reread for this page.
+## Reading this compiled trait record {#s-9d5df83ce4}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Fields not established {#s-da4817cd10}
-No sourced reader value is established here for SVL or sex-specific lengths, reproductive counts, egg measurements, diet, active time, foraging mode or sex-determining mechanism. These fields remain open for this species; a blank or a relative’s value cannot supply them.
+## Reading this compiled trait record {#s-da4817cd10}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

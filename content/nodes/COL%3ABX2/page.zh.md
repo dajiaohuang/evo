@@ -1,4 +1,6 @@
-## 从 PanTHERIA 历史记录开始 {#s-bcaa155c35}
+## 记录分类与直接上级关系 {#s-bcaa155c35}
+COL26.8 将 Leporidae 记录为科；其直接上级记录为 Lagomorpha。
+
 Leporidae 的本地 PanTHERIA 阅读路径包含 29 条可用历史资料，可从 Brachylagus idahoensis、Bunolagus monticularis、Caprolagus hispidus、Lepus alleni 或 Lepus americanus 开始。各条目保留 MSW05 名称、不同变量的资料条件与缺失值。分类入口沿用固定 COL26.8；历史记录行数不是当前接受种数量。
 
 ## 体重端点比较的是什么 {#s-48ed5d1701}

@@ -1,4 +1,6 @@
-## 完整的日期固定属索引 {#s-59139b3024}
+## 记录分类与直接上级关系 {#s-59139b3024}
+COL26.8 将 Dermochelys 记录为属；其直接上级记录为 Dermochelyidae。
+
 Dermochelys 是 2026 年 8 月 20 日发布的 COL26.8 中的接受属 COL 62PMJ，位于 Chelonioidea、Cryptodira 之下的 Dermochelyidae（COL 94Y）。其全部严格接受种后代只有一条：Dermochelys coriacea (Vandelli, 1761)，COL 34XB9。属页与种页构成这一固定概念的阅读索引；它们不合并化石记录，也不决定其他版本对名称的处理。
 
 ## 从标本进入性状编码 {#s-f8948d367d}
@@ -13,7 +15,7 @@ Dermochelys 的本批路线包含 1 条历史生活史导读，可从 Dermochely
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
-## 从有性状记录的物种开始 {#s-c5f033b543}
+## 记录分类与成员材料 {#s-c5f033b543}
 Dermochelys 的本批 ReptTraits 阅读路径包含 1 条同名同科、有逐性状出处的物种资料，可从 Dermochelys coriacea 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-c37218618c}

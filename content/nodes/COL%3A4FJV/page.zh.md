@@ -4,7 +4,9 @@
 ## 从材料范围读到比较页面 {#s-f63f2db08f}
 先读 [Eudyptes chrysolophus](Eudyptes_chrysolophus/page.zh.md)、[Eudyptes schlegeli](Eudyptes_schlegeli/page.zh.md)、[Eudyptes moseleyi](Eudyptes_moseleyi/page.zh.md)、[Eudyptes chrysocome](Eudyptes_chrysocome/page.zh.md)；再读 [Eudyptes robustus](Eudyptes_robustus/page.zh.md)、[Eudyptes pachyrhynchus](Eudyptes_pachyrhynchus/page.zh.md)、[Eudyptes sclateri](Eudyptes_sclateri/page.zh.md) 的研究名称与材料，随后比较各自冰期曲线。先区分历史研究单元，再读已有的形态、食物、繁殖和地方研究；不同来源的计数、时间与方法分别保留。
 
-## 本地数据阅读路径 {#s-5061dc1be1}
+## 记录分类与直接上级关系 {#s-5061dc1be1}
+COL26.8 将 Eudyptes 记录为属；其直接上级记录为 Spheniscidae Bonaparte, 1831。
+
 Eudyptes 的本批阅读路径包含 7 条有测量来源的物种记录，可从 Eudyptes chrysocome、Eudyptes chrysolophus、Eudyptes moseleyi、Eudyptes pachyrhynchus、Eudyptes robustus 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-85f2c7e8a6}

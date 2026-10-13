@@ -1,5 +1,7 @@
-## Cathetorhinus 的来源明确条目 {#s-ded8a25c3c}
-Cathetorhinus 的阅读路径收录 1 条带字段出处的同名同科记录，可从 [Cathetorhinus melanocephalus](Cathetorhinus_melanocephalus/page.zh.md) 开始。页面导航沿用固定版本 COL26.8 名称，ReptTraits 保留 Reptile Database 2023 名称框架；这是一组选读入口，不是完整接受种名录。
+## 记录分类与直接上级关系 {#s-ded8a25c3c}
+COL26.8 将 Cathetorhinus 记录为属；其直接上级记录为 Gerrhopilidae。
+
+Cathetorhinus 的阅读路径收录 1 条带字段出处的同名同科记录，可从 Cathetorhinus melanocephalus 开始。页面导航沿用固定版本 COL26.8 名称，ReptTraits 保留 Reptile Database 2023 名称框架；这是一组选读入口，不是完整接受种名录。
 
 ## 比较共同支持的字段 {#s-911a6eaa7e}
 每个后代条目只呈现自身来源支持的性状。只有两个记录采用相同定义且证据可比时，才适合并列字段；缺失值不能从近缘种借用。龟类直线背甲长（SCL）与其他类群使用的吻肛长（SVL）是不同测量。

@@ -1,19 +1,36 @@
 ## Which fossil records this name represents {#s-996ef1cea0}
 Paikasigudodon yadagirii is accepted in the fixed PBDB other-synapsida working roster, with database parent Paikasigudodon. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-2eadf6f040}
-Collection Paikasigudem village (Andhra Pradesh), region code IN, stratum name Kota; database age bracket 184.2–170.9 Ma, early interval Toarcian and late interval Aalenian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Paikasigudodon yadagirii is listed in the PBDB snapshot under taxon txn:242246. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-075f72ce76}
-Selected occurrences have an outer age envelope of 184.2–170.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Paikasigudem village, occurrence occ:1061293 (184.2–170.9 Ma); one supplying the younger bound is Paikasigudem village, occurrence occ:1061293 (184.2–170.9 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-2eadf6f040}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-cde35ff695}
-Paikasigudem village has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1061293; PBDB collection col:39673. Locality cnm=Paikasigudem village; place fields cc2=IN, stp=Andhra Pradesh, cny=Adilabad. Recorded age bounds: eag 184.2 Ma; lag 170.9 Ma; PBDB interval fields oei=Toarcian, oli=Aalenian. Stratigraphic fields sfm=Kota. Recorded attribution Prasad and Manhas 1997; PBDB reference ref:42359.
 
-## Follow collection records back to references {#s-12fa3193f0}
-Paikasigudem village carries database reference attribution Prasad and Manhas (1997), identifier ref:42359. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"On the basis of fishes, the Kota Formation has long been considered to be of Liassic age (King 1881; Robinson 1970). However, several workers noticed the similarity of Kota fishes with the European Toarcian fishes (Schaeffer and Patterson 1984). Patterson and Owen (1991) suggested that the major marine transgression during the Toarcian might have been instrumental for the invasion of the European Liassic fishes in the circumtethyean continents including parts of Indian subcontinent. Recovery of Darwinula, an early Middle Jurassic ostracod, led Govindan (1975) to suggest a Middle Jurassic age for the Kota Formation. Analysing the faunas of the underlying Dharmaram Formation and of the lower and upper units of the Kota Formation and comparing them with faunas from coeval horizons, Bandyopadhyay and Roychowdhury (1996) and Bandyopadhyay and Sengupta (2006) suggested that the Lower Kota Formation has an age ranging from Sinemurian to Pliensbachian, while the age of the upper Kota is Toarcian and may even be extended to Middle Jurassic (?Aalenian)." (Bandyopadhyay et al. 2010)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+along stream cutting 150 m W of Paikasigudem village, 6 km E of Rebbana village, Rebbana Mandalam, Adilabad District, Andhra Pradesh, India.  Kutty (1969) notes that "This village is marked in the Survey maps as Chitarampalli and the local villagers are absolutely unfamiliar with this name."
+
+## Age bounds on the recorded occurrences {#s-075f72ce76}
+Across these selected PBDB rows, the largest recorded eag=184.2 Ma in occ:1061293; the smallest recorded lag=170.9 Ma in occ:1061293. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-cde35ff695}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1061293: PBDB original-identification field idn=Kotatherium yadagirii n. sp.; PBDB taxon-name field tna=Paikasigudodon yadagirii; material note ocm=VPL/JU/KM/10 holotype right upper molar; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=79.516670, lat=19.266666; paleocoordinate/model fields pm1=gplates, pln=44.6, pla=-31.21.
+
+## References attached to each record {#s-12fa3193f0}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1061293: Recorded attribution Prasad and Manhas 1997; PBDB reference ref:42359.
 
 ## Evidence limits {#s-9b00a617e2}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,29 +1,29 @@
-## The 2015 life-history entry and this name {#s-9c503cddec}
-Ninox novaeseelandiae is accepted in pinned COL26.8 within Strigidae. This page compares the same-name historical life-history entry using 5 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-9c503cddec}
+The August 2015 database has a same-name, same-family record for Ninox novaeseelandiae. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-9ca0287303}
-Historical summary values are adult body mass 195 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-9ca0287303}
+The August 2015 compilation reports adult body mass 195 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-ae94a9f7bd}
-Available compilation fields are offspring per litter or eggs per clutch 2.5 offspring/eggs; oviposition to hatching 29 d; age at flight capability (leaving the nest in some source material) 40 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-ae94a9f7bd}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.5; oviposition-to-hatching interval 29 days; age at flight capability (some records mark nest departure) 40 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-198ada135f}
-The archive’s maximum_longevity_y value is 13 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-198ada135f}
+The compilation lists 13 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-ac4433273a}
-Same-name sparse rows cite Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Bennett, 1986; Wasser, D.E. and P.W. Sherman, 2010, among others. Field-specific source rows, values and labels are recorded in the evidence; a label may refer to a paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations do not constitute independent replication.
+## Sources and field limits {#s-ac4433273a}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-1eb5734d66}
-Ninox novaeseelandiae is accepted in pinned COL26.8 within Strigidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-1eb5734d66}
+EltonTraits 1.0 has a same-name, same-family record for Ninox novaeseelandiae covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-739fae01b8}
-The archive’s nonzero food weights are invertebrates 70%; mammals and birds 20%; reptiles and amphibians 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-739fae01b8}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 70%; mammals and birds 20%; reptiles and amphibians 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-72c2449e80}
-Foraging-stratum weights flagged as species-level in the archive are ground 30%; understory, edges or shrubs below 2 m 20%; trees or high bushes from 2 m upward but below the canopy 20%; in or just above the canopy 20%; air well above vegetation or other structures 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-72c2449e80}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 30%; in the understory 20%; in mid-height or high vegetation 20%; in the canopy 20%; in the air 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-bfa0f8dd21}
-Both the diet and foraging-stratum groups cite Ref_5. Diet, strata and activity can draw on different material, and a Ref number in a bird table does not identify the same source as that number in a mammal table. A reference label points to source material; it is not an additional independent observation.
+## Sources and field limits {#s-bfa0f8dd21}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-d7eed27a41}
 The 2015 archive reports compiled medians or averages of the two middle values, except that maximum longevity is the largest record found. These summaries are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. Historical species and subspecies can share or inherit data; matching name and family, together with same-name sparse-table rows, supports the association but does not establish equivalence to COL26.8 or remove every inherited component. Wild or captive conditions are not uniformly confirmed, and underlying publications have not been individually reviewed.

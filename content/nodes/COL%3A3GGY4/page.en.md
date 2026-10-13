@@ -1,5 +1,5 @@
-## Historical EltonTraits entry {#s-20327f0cf3}
-COL26.8 accepts Glyphotes simus in Sciuridae. EltonTraits 1.0 supplies two ecological field groups for a same-name, same-family record. It follows older bird or MSW3 mammal taxonomy, so a name match does not resolve later splits or synonymy.
+## Foraging stratum and activity flags in the compilation {#s-20327f0cf3}
+The EltonTraits 1.0 record for *Glyphotes simus* contains the foraging stratum, activity flags. The foraging-stratum field assigns the arboreal category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Source comments and compiler confidence remain attached to the foraging category. The archive leaves diet fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Glyphotes simus*.
 
 ## Arboreal stratum category {#s-099d3605b4}
 The mammalian entry is Ar, arboreal, with confidence code A. Metadata groups these assignments under Nowak (1999). This is a category rather than a time proportion and does not imply foraging only in trees.
@@ -10,11 +10,13 @@ The archive marks daytime feeding activity as 1. Activity flags can be positive 
 ## Source labels by field group {#s-ca60e427a9}
 The fields carry metadata:Nowak1999 and Ref_1. Diet, stratum and activity may use different sources, and a numbered bird reference need not be the same work as a mammal reference with that number. The archive retains strings by file, row, field group and table. Underlying works have not been individually read; labels are not extra observations.
 
-## Limits and withheld diet interpretation {#s-4ab9625422}
-This is an EltonTraits 1.0 reading guide for a same-name, same-family record, not a full species account; historical and COL26.8 concepts are not proven equivalent. Diet is withheld (source code D2) because interpolation, certainty or source-link limits prevent interpretation. Its original value and specific reason remain in the archive. ABC activity may include evidence from a similar congener. The underlying works have not been reread; current variation, range, population and conservation need other sources.
+## How to interpret these historical records {#s-4ab9625422}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## Historical name and release {#s-61bcd8ac6f}
-COL26.8 accepts Glyphotes simus in Sciuridae. PanTHERIA 1.0 uses an MSW05 entry in its August 2008 table; biological-data collection ended in June 2004. This association does not settle later classification changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult head–body length in the historical table {#s-61bcd8ac6f}
+The August 2008 PanTHERIA row for *Glyphotes simus* records adult head–body length 120 mm. Adult head–body length is a sex-adjusted median. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Glyphotes simus*.
 
 ## One consolidated length {#s-ab043ce3a3}
 Adult head–body length is 120 mm in the historical summary. PanTHERIA adjusts for sex and then uses medians; head–body length excludes the tail. This is not a single specimen measurement or species-wide range.

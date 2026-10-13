@@ -1,5 +1,5 @@
-## Find rows through older Oceanodroma／Halocyptena combinations {#s-a8e4c4b78b}
-COL26.8 accepts *Hydrobates monteiroi* (DD8SS). BirdLife 2020 row 10068 and eBird 2021 row 4926 use the same name and Avibase ID AVIBASE-3E579E5B; their crosswalk type is 1BL to 1eBird. BirdTree row 4903 instead lists *Oceanodroma monteiroi* (1BL to 1BT). Catalogue synonym 48C4F points to the accepted ID. These name links help locate older records but do not prove unchanged species boundaries over time.
+## A name fixed to COL26.8 {#s-a8e4c4b78b}
+Catalogue of Life release COL26.8 records Hydrobates monteiroi (Bolton, A. L. Smith, Gómez-Díaz, Friesen, Medeiros, Bried, Roscales & Furness, 2008) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## The scope of one measured bird {#s-b27a47c89a}
 The morphology record covers one bird: 0 females, 1 male and none of unrecorded sex; that bird has a complete measurement set. Historical row means are 9.7 mm for beak length from nostril to tip, 22.2 mm for tarsus, 153 mm for unflattened wing, 91 mm for tail and 43.8 for hand-wing index. A single bird cannot establish sex differences or a population distribution. Inference=NO does not replace the sampling denominator for each field. The hand-wing index is Kipp's distance divided by wing length ×100, not flight speed; beak length alone gives neither bite force nor prey-handling ability.

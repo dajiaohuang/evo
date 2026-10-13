@@ -1,4 +1,6 @@
-## Start with the historical entries {#s-d6126977f5}
+## Recorded classification and direct parent {#s-d6126977f5}
+COL26.8 records Pseudohydromys at genus rank, with Murinae as its direct parent.
+
 The local PanTHERIA route for Pseudohydromys includes 1 usable data accounts. Start with Pseudohydromys murinus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-a0194df5fb}
@@ -7,13 +9,13 @@ Among available consolidated adult-mass values in this batch, Pseudohydromys mur
 ## Compare food, feeding positions and activity periods {#s-59c6a69ee8}
 This batch’s Pseudohydromys route includes 4 historical entries; start with Pseudohydromys ellermani, Pseudohydromys fuscus, Pseudohydromys murinus, Pseudohydromys occidentalis. Food-category weights are available in 4, foraging strata in 4, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-cab90ad5dc}
+## Limits attached to these records {#s-cab90ad5dc}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-b412542dd0}
-The local PanTHERIA route for Pseudohydromys includes one usable data account. Start with [Pseudohydromys occidentalis](Pseudohydromys_occidentalis/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-b412542dd0}
+The local PanTHERIA route for Pseudohydromys includes one usable data account. Start with Pseudohydromys occidentalis. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
-## Limits of these historical data {#s-dd3191f03f}
+## PanTHERIA material route {#s-dd3191f03f}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 

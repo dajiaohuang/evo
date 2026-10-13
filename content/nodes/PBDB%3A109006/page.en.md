@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-6afd60f186}
 Galerix rutlandae is accepted in the fixed PBDB mammalia working roster, with database parent Galerix. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-8fa133eb32}
-Collection Daud Khel Local Fauna (Minanwali), region code PK, stratum name Chinji; database age bracket 15.98–7.246 Ma, early interval Middle Miocene and late interval Tortonian. Collection HGSP 82-14 (Sindh), region code PK, stratum name Lower Manchar; database age bracket 23.04–5.333 Ma, early interval Miocene. Collection HGSP 82-24 (Sindh), region code PK, stratum name Lower Manchar; database age bracket 23.04–5.333 Ma, early interval Miocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Galerix rutlandae is listed in the PBDB snapshot under taxon txn:109006. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-bfe9fbfd26}
-Selected occurrences have an outer age envelope of 23.04–5.333 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is HGSP 82-14, occurrence occ:1311334 (23.04–5.333 Ma); one supplying the younger bound is HGSP 82-14, occurrence occ:1311334 (23.04–5.333 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-8fa133eb32}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-81d5051718}
-Daud Khel Local Fauna has collection-environment label fluvial indet.; collection preservation-mode label body. HGSP 82-14 has collection-environment label terrestrial indet.; collection preservation-mode label body. HGSP 82-24 has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:700599; PBDB collection col:13489. Locality cnm=Daud Khel Local Fauna; place fields cc2=PK, stp=Minanwali. Recorded age bounds: eag 15.98 Ma; lag 7.246 Ma; PBDB interval fields oei=Middle Miocene, oli=Tortonian. Stratigraphic fields sfm=Chinji, sls=Daud Khel, slb=Unit 59, slo=bottom to top. Recorded attribution Munthe and West 1980; PBDB reference ref:25430.
 
-## Follow collection records back to references {#s-5e3854fc68}
-Daud Khel Local Fauna carries database reference attribution Munthe and West (1980), identifier ref:25430. HGSP 82-14 carries database reference attribution Zijlstra and Flynn (2015), identifier ref:57750. HGSP 82-24 carries database reference attribution Zijlstra and Flynn (2015), identifier ref:57750. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Includes localities H-GSP 17, 18, 19
+age given only as Miocene, but unambiguously Tortonian based on the faunal list (JA)
+
+This formation is about 11.2 to 14.2 Ma in age (Barry et al., 2002).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Howard University-GSP Locality No. 18
+
+- Occurrence occ:1311334; PBDB collection col:176045. Locality cnm=HGSP 82-14; place fields cc2=PK, stp=Sindh. Recorded age bounds: eag 23.04 Ma; lag 5.333 Ma; PBDB interval fields oei=Miocene. Stratigraphic fields sfm=Lower Manchar. Recorded attribution Zijlstra and Flynn 2015; PBDB reference ref:57750.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Gaj River area. Date estimated at ~13.0 Ma by rodent biostratigraphy
+
+- Occurrence occ:1311335; PBDB collection col:176046. Locality cnm=HGSP 82-24; place fields cc2=PK, stp=Sindh. Recorded age bounds: eag 23.04 Ma; lag 5.333 Ma; PBDB interval fields oei=Miocene. Stratigraphic fields sfm=Lower Manchar. Recorded attribution Zijlstra and Flynn 2015; PBDB reference ref:57750.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Sehwan area. Date estimated at ~13.5 Ma by rodent biostratigraphy
+
+## Age bounds on the recorded occurrences {#s-bfe9fbfd26}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:1311334; the smallest recorded lag=5.333 Ma in occ:1311334. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-81d5051718}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:700599: PBDB original-identification field idn=Galerix rutlandae n. sp.; PBDB taxon-name field tna=Galerix rutlandae; PBDB locality-coordinate fields lng=71.655556, lat=32.929169; paleocoordinate/model fields pm1=gplates, pln=73.25, pla=26.65.
+- occ:1311334: PBDB taxon-name field tna=Galerix rutlandae; PBDB locality-coordinate fields lng=67.831001, lat=26.416000; paleocoordinate/model fields pm1=gplates, pln=68.84, pla=19.52.
+- occ:1311335: PBDB taxon-name field tna=Galerix rutlandae; PBDB locality-coordinate fields lng=67.831001, lat=26.416000; paleocoordinate/model fields pm1=gplates, pln=68.84, pla=19.52.
+
+## References attached to each record {#s-5e3854fc68}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:700599: Recorded attribution Munthe and West 1980; PBDB reference ref:25430.
+- occ:1311334: Recorded attribution Zijlstra and Flynn 2015; PBDB reference ref:57750.
+- occ:1311335: Recorded attribution Zijlstra and Flynn 2015; PBDB reference ref:57750.
 
 ## Evidence limits {#s-de4fa09228}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,19 +1,50 @@
 ## Which fossil records this name represents {#s-8bde45ce7f}
 Arguimus khosbajari is accepted in the fixed PBDB mammalia working roster, with database parent Arguimus. This guide uses 2 eligible species-level occurrence records from 1 collection and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-b7bb6d9bc8}
-Collection Khovboor (PIN coll. 3101) [SMPE] (Övörkhangai), region code MN, stratum name Dzunbain; database age bracket 119.57–110.1 Ma, early interval Late Aptian and late interval Early Albian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Arguimus khosbajari is listed in the PBDB snapshot under taxon txn:204159. This archived guide contains 2 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-b9277f957f}
-Selected occurrences have an outer age envelope of 119.57–110.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Khovboor (PIN coll. 3101) [SMPE], occurrence occ:990603 (119.57–110.1 Ma); one supplying the younger bound is Khovboor (PIN coll. 3101) [SMPE], occurrence occ:990603 (119.57–110.1 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-b7bb6d9bc8}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-c95f0fdd5a}
-Khovboor (PIN coll. 3101) [SMPE] has collection-environment label lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:990603; PBDB collection col:77191. Locality cnm=Khovboor (PIN coll. 3101) [SMPE]; place fields cc2=MN, stp=Övörkhangai, cny=Guchin Us. Recorded age bounds: eag 119.57 Ma; lag 110.1 Ma; PBDB interval fields oei=Late Aptian, oli=Early Albian. Stratigraphic fields sfm=Dzunbain. Recorded attribution Dashzeveg 1979; PBDB reference ref:38329.
 
-## Follow collection records back to references {#s-670d12a48b}
-Khovboor (PIN coll. 3101) [SMPE] carries database reference attribution Dashzeveg (1979), identifier ref:38329. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Lower Cretaceous (possibly Aptian)" and from the Khukhtekskaya Svita = Dzunbayn = Dzunbain Formation according to Dashzeveg 1975, but "? Aptian or Albian" according to Wible et al. 2001. Shown in column as "Khobur" beds (Shuvalov, 1974).
+
+Alifanov 2019: assumed to belong to the Hühteeg Horizon without formal assignment to any formation identified in Mongolia and are dated either to the Aptian age including the Albian age (Shuvalov, 2000) or to the late Aptian age and the entire Albian age (Lucas, 2006). According to our preliminary data, the Hühteeg Horizon corresponds to the time interval that includes the late Aptian and early Albian ages.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+a single site "in Guchin Us somon (county) in the province (aymak) of Arvaykher" (coordinate based on Guchin Us)
+
+- Occurrence occ:990604; PBDB collection col:77191. Locality cnm=Khovboor (PIN coll. 3101) [SMPE]; place fields cc2=MN, stp=Övörkhangai, cny=Guchin Us. Recorded age bounds: eag 119.57 Ma; lag 110.1 Ma; PBDB interval fields oei=Late Aptian, oli=Early Albian. Stratigraphic fields sfm=Dzunbain. Recorded attribution Dashzeveg 1994; PBDB reference ref:38330.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Lower Cretaceous (possibly Aptian)" and from the Khukhtekskaya Svita = Dzunbayn = Dzunbain Formation according to Dashzeveg 1975, but "? Aptian or Albian" according to Wible et al. 2001. Shown in column as "Khobur" beds (Shuvalov, 1974).
+
+Alifanov 2019: assumed to belong to the Hühteeg Horizon without formal assignment to any formation identified in Mongolia and are dated either to the Aptian age including the Albian age (Shuvalov, 2000) or to the late Aptian age and the entire Albian age (Lucas, 2006). According to our preliminary data, the Hühteeg Horizon corresponds to the time interval that includes the late Aptian and early Albian ages.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+a single site "in Guchin Us somon (county) in the province (aymak) of Arvaykher" (coordinate based on Guchin Us)
+
+## Age bounds on the recorded occurrences {#s-b9277f957f}
+Across these selected PBDB rows, the largest recorded eag=119.57 Ma in occ:990603; the smallest recorded lag=110.1 Ma in occ:990603. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-c95f0fdd5a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:990603: PBDB original-identification field idn=Arguimus khosbajari n. gen. n. sp.; PBDB taxon-name field tna=Arguimus khosbajari; material note ocm=GISPS 10-15 (holotype dentary fragment); abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=102.416664, lat=42.450001; paleocoordinate/model fields pm1=gplates, pln=115.18, pla=38.56.
+- occ:990604: PBDB original-identification field idn=Arguitherium cromptoni n. gen. n. sp.; PBDB taxon-name field tna=Arguimus khosbajari; material note ocm=PS 10-31 (holotype partial dentary) reported by Dashvezeg & Kielan-Jaworowska (1998); abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=102.416664, lat=42.450001; paleocoordinate/model fields pm1=gplates, pln=115.18, pla=38.56.
+
+## References attached to each record {#s-670d12a48b}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:990603: Recorded attribution Dashzeveg 1979; PBDB reference ref:38329.
+- occ:990604: Recorded attribution Dashzeveg 1994; PBDB reference ref:38330.
 
 ## Evidence limits {#s-e5398caf5e}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -7,7 +7,9 @@ Start with the multi-year feeding records for P. nemaeus at Son Tra, then read t
 ## Interpreting the evidence {#s-6514eb582f}
 Together these studies connect feeding, phenology, movement and local surveys, but diet proportions, home ranges and sighting counts cannot be pooled: sites, years, observation methods and sample units differ. This path is not a genus-wide ecological review or complete distribution account.
 
-## Choose comparison pages by life-history fields {#s-bffb5ce1e9}
+## Recorded classification and direct parent {#s-bffb5ce1e9}
+COL26.8 records Pygathrix É. Geoffroy Saint-Hilaire, 1812 at genus rank, with Presbytini Gray, 1825 as its direct parent.
+
 This batch’s Pygathrix route includes 3 historical life-history accounts; start with Pygathrix cinerea, Pygathrix nemaeus, Pygathrix nigripes. More frequently represented fields include adult body mass (3 entries), female maturity field (defined by the source as age at first conception) (3 entries), offspring per litter or eggs per clutch (3 entries), conception or fertilization to birth (3 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-12b555315c}

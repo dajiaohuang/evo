@@ -1,5 +1,5 @@
-## Locate records through older Caprimulgus names {#s-02a3865322}
-Pinned COL26.8 organizes this page at Antrostomus rufus (F4N7) in Caprimulgidae (7PQ). BirdLife 2020 row 609 and eBird 2021 row 730 share the name; both eBird sides share Avibase ID AVIBASE-F331D204, with type 1BL to 1eBird. BirdTree row 731 gives Caprimulgus rufus, type 1BL to 1BT; exact catalogue synonym QSQ3 points to accepted species F4N7. Name links locate records without proving identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-02a3865322}
+Catalogue of Life release COL26.8 records Antrostomus rufus (Boddaert, 1783) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-414665be0b}
 Morphology comprises 4 birds: 0 female, 3 male and 1 unsexed; 3 complete sets. Nostril-to-tip beak length 10.1 mm, tarsus 18.4 mm, unflattened wing 169 mm, tail 116.2 mm and hand-wing index 46.1 are historical row means. Totals exceed complete sets; not every bird has all fields. No sexed female is present and one bird is unsexed; an all-male sample or sex comparison is unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

@@ -1,7 +1,9 @@
 ## Overview {#s-47aa20ab2b}
 This reading path links nineteen COL26.8 Presbytis species pages; it is neither a complete genus checklist nor a phylogeny. The new reading sequence begins with field studies on Natuna and the Mentawai Islands, then compares the pre-split Siberut record, then compare local Sumatran studies of melalophos and mitrata that used different period taxonomies. Move to Borneo: forest-type comparisons for Hose’s langur, a watershed survey for the white-fronted langur, multi-site diet and ground-use studies for the maroon leaf monkey, and a short subspecies-level study for the Sarawak langur. Next read local landscape studies of the black-and-white and black Sumatran langurs, then compare mitochondrial evidence for the East Sumatran and Malay Peninsula banded langurs. Finish with the Bintan pale-thighed langur, Thomas's Langur, and the Bornean Miller's and Sabah grizzled langurs. Meyer et al.'s genus-level mitochondrial study sampled nine species; it supported many terminal clades but left deeper relationships unresolved and called for nuclear data. Sites, dates, samples and taxonomic concepts differ; the order compares evidence without combining it into one genus-wide range.
 
-## Choose comparison pages by life-history fields {#s-3c3a9f6a45}
+## Recorded classification and direct parent {#s-3c3a9f6a45}
+COL26.8 records Presbytis Eschscholtz, 1821 at genus rank, with Presbytini Gray, 1825 as its direct parent.
+
 This batch’s Presbytis route includes 7 historical life-history accounts; start with Presbytis chrysomelas, Presbytis femoralis, Presbytis melalophos, Presbytis natunae, Presbytis rubicunda. More frequently represented fields include adult body mass (7 entries), offspring per litter or eggs per clutch (7 entries), longest lifespan record in the compilation (7 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-b18fc4d1ee}
@@ -12,27 +14,27 @@ This guide covers only the eight accepted species with pages in this batch; it i
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Start with the historical entries {#s-c0afbf123e}
+## Recorded classification and member material {#s-c0afbf123e}
 The local PanTHERIA route for Presbytis includes 6 usable data accounts. Start with Presbytis comata, Presbytis hosei, Presbytis melalophos, Presbytis potenziani, Presbytis rubicunda. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-2bfd64b4fe}
 Among available consolidated adult-mass values in this batch, Presbytis hosei records 6277.78 g and Presbytis thomasi records 6689.99 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-e392efdef3}
+## PanTHERIA material route {#s-e392efdef3}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Start with the historical entries {#s-777d3f902f}
-The local PanTHERIA route for Presbytis includes one usable data account. Start with [Presbytis frontata](Presbytis_frontata/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-777d3f902f}
+The local PanTHERIA route for Presbytis includes one usable data account. Start with Presbytis frontata. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
-## Limits of these historical data {#s-b7f901fb09}
+## PanTHERIA material route {#s-b7f901fb09}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Follow the life-history records {#s-be68d3fa1d}
-This batch offers 4 historical life-history accounts under Presbytis. Start with [Presbytis comata](Presbytis_comata/page.en.md), [Presbytis rubicunda](Presbytis_rubicunda/page.en.md), [Presbytis potenziani](Presbytis_potenziani/page.en.md), [Presbytis melalophos](Presbytis_melalophos/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-be68d3fa1d}
+This batch offers 4 historical life-history accounts under Presbytis. Start with Presbytis comata, Presbytis rubicunda, Presbytis potenziani, Presbytis melalophos. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-9b724baba4}
 Gestation is recorded in 0 accounts, female age at first reproduction in 0 accounts, and maximum lifespan in 0 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-0395188046}
+## Ernest life-history archive material route {#s-0395188046}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

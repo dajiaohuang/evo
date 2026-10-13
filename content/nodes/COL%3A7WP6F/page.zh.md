@@ -1,5 +1,5 @@
-## 旧属名如何查回历史行 {#s-24eebb4488}
-固定 COL26.8 以 Psilopogon lineatus（7WP6F）组织本页。AVONET v7 BirdLife 2020 第 9695 行与 eBird 2021 第 8662 行同名，Avibase ID 为 AVIBASE-4EBAE936；BirdTree 第 8617 行记作 Megalaima lineata，匹配类型为 1BL to 1BT。已读 COL 旧组合 7VSW4 指向本页接受 ID。这些关联用于定位历史资料，不把所有年代物种边界视为完全相同。
+## COL26.8 中的名称身份 {#s-24eebb4488}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon lineatus (Vieillot, 1816) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与喙翼均值 {#s-fe85b6d93e}
 形态共测 10 只：雌 3、雄 5、性别未定 2，其中 8 只具完整测量。鼻孔前缘至喙尖均值 22.6 mm，喙宽 11.9 mm，跗蹠 28.5 mm，未压平翼长 125.6 mm，手翼指数 19。Inference=NO 不表示每项字段都测了同样数量；完整测量鸟数与总样本分开。指数定义为 Kipp 距离／翼长 ×100，不是飞行速度，喙宽也不是吞果或啄食能力实验。

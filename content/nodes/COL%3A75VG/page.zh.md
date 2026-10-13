@@ -7,7 +7,9 @@
 ## 对读巢存活、繁殖群与冬季食性 {#s-b568a4fc4c}
 COL26.8 属级 ID 75VG（Pygoscelis）包含三个接受种：P. adeliae、P. antarcticus 和 P. papua。阿德利企鹅页追踪 Windmill Islands 相机点位十个繁殖季的巢成功；帽带企鹅页整理多种方法组成的全球繁殖群评估；巴布亚企鹅页介绍异常偏暖年份 Bird Island 的冬季食性。帽带企鹅论文使用的拼法 P. antarctica 作为来源用名保留，而 COL26.8 接受 P. antarcticus。这些研究地点、时期和方法不同；它们组成的是选定阅读路径，不是完整属级综述或统一种群趋势。
 
-## 本地数据阅读路径 {#s-a73c7055d6}
+## 记录分类与直接上级关系 {#s-a73c7055d6}
+COL26.8 将 Pygoscelis Wagler, 1832 记录为属；其直接上级记录为 Spheniscidae Bonaparte, 1831。
+
 Pygoscelis 的本批阅读路径包含 3 条有测量来源的物种记录，可从 Pygoscelis adeliae、Pygoscelis antarcticus、Pygoscelis papua 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-31d92dc095}

@@ -1,8 +1,8 @@
-## Organize fossil records by source classification {#s-fa4bbe2431}
-The PBDB classification path records Pelycosauria at the order rank. This route links to occurrence guides for 6 listed species. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. The route lists only its non-extant fossil species records; it does not imply that the entire group is extinct.
+## Pelycosauria in the PBDB record path {#s-fa4bbe2431}
+PBDB records Pelycosauria at order rank, and this route links to six listed fossil species. The parent chain helps retrieve the database records; it is not a phylogeny or a measure of evolutionary importance. These are non-extant records in the selected route, which does not establish that every member of this historical grade was extinct.
 
-## Compare collections, strata and age brackets {#s-927c4fdfe6}
-Start with Protoclepsydrops haplous, Xyrospondylus ecordi, Milosaurus mccordi, Nitosaurus jacksonorum and Lupeosaurus kayi, then compare the named collections and original reference links on each page. Across the species in this guide, there are 7 selected occurrences from 6 collections; example stratum names are Joggins, Stanton, Mattoon, Cutler. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Seven occurrences across six collections {#s-927c4fdfe6}
+Five species pages—Protoclepsydrops haplous, Xyrospondylus ecordi, Milosaurus mccordi, Nitosaurus jacksonorum, and Lupeosaurus kayi—provide a starting set for comparing named records. The selected route contains seven occurrences from six collections; example strata are Joggins, Stanton, Mattoon, and Cutler. Each record has its own age bracket and identification qualifications. Occurrence and collection totals count database entries, not specimens or ancient populations.
 
 ## Evidence limits {#s-49bfb9ae05}
 This route introduces occurrence records for species covered here; it is not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.

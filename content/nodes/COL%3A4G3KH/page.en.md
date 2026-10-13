@@ -1,5 +1,5 @@
-## Find rows through older Thryothorus combinations {#s-8ff98db34b}
-Pinned COL26.8 organizes this page at Pheugopedius genibarbis (4G3KH). BirdLife 2020 row 8488 and eBird 2021 row 7741 share the name and Avibase ID AVIBASE-5D5C6D51, with type 1BL to 1eBird; BirdTree row 7704 gives Thryothorus genibarbis, with type 1BL to 1BT. Read catalogue synonym 56N7J points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-8ff98db34b}
+Catalogue of Life release COL26.8 records Pheugopedius genibarbis (Swainson, 1838) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-11f0ad5c0d}
 Morphology comprises 33 birds: 6 female, 10 male and 17 unsexed; 4 complete sets. Nostril-to-tip beak length 11.9 mm, tarsus 23.4 mm, unflattened wing 61.1 mm, tail 56.4 mm and hand-wing index 10.4 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-0db54e2152}
+## 记录分类与直接上级关系 {#s-0db54e2152}
+COL26.8 将 Daption 记录为属；其直接上级记录为 Procellariidae。
+
 这里有一个 Daption 物种页面含测量记录：Daption capense。目录层级按固定 COL26.8 组织，生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-758c6ba3da}

@@ -1,5 +1,5 @@
-## Find rows through older Puffinus combinations {#s-6ebf7e56e7}
-The pinned COL26.8 record places this account under Ardenna tenuirostris (D5KCW). The BirdLife 2020 row 10089 and eBird 2021 row 935 share the name; their Avibase ID is AVIBASE-60825BF6, with type 1BL to 1eBird; BirdTree row 937 gives Puffinus tenuirostris, with type 1BL to 1BT. Catalogue synonym 4QFY6, recorded in the source, points to this accepted ID. Older genus names and changed endings help locate source rows; they do not show that species boundaries stayed identical over time.
+## A name fixed to COL26.8 {#s-6ebf7e56e7}
+Catalogue of Life release COL26.8 records Ardenna tenuirostris (Temminck, 1836) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-c2fcc008f0}
 The morphology sample includes 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 22.2 mm, tarsus 49.3 mm, unflattened wing 262.2 mm, tail 82.8 mm and hand-wing index 63.8 are historical row means. The total number of birds exceeds the number of complete sets, so not every bird has every field. Inference=NO does not give every field the same sample denominator. The hand-wing index is Kipp’s distance divided by wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

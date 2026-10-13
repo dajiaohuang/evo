@@ -1,5 +1,5 @@
-## 沿旧 Zoothera 名称查历史资料 {#s-c4b28d920d}
-本页按 COL26.8 的 Geokichla cinerea（3FPZ7）组织。AVONET v7 BirdLife 2020 第 8547 行与 eBird 2021 第 4308 行同名，Avibase ID 为 AVIBASE-552E29B1；BirdTree 第 4289 行记作 Zoothera cinerea，匹配类型为 1BL to 1BT。已读 COL 旧组合 7GH2V 指向本页接受 ID。这些来源关联用于查资料，不证明所有时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-c4b28d920d}
+《Catalogue of Life》COL26.8（2026-08-20）将 Geokichla cinerea Bourns & Worcester, 1894 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量鸟数与喙翼数值 {#s-4dcaca01f9}
 形态共测 4 只：雌 2、雄 2、性别未定 0；4 只具完整测量。鼻孔前缘至喙尖 13.6 mm、跗蹠 31.1 mm、未压平翼长 114.2 mm、手翼指数 29.4 是该历史行的汇总数值。Inference=NO 不代表所有字段都测了相同数量；完整测量鸟数不替代每项字段分母。手翼指数定义为 Kipp 距离／翼长 ×100，不是飞行速度、迁移距离或本种全域的能力测验。

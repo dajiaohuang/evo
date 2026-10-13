@@ -1,39 +1,36 @@
-## 从已有历史条目开始 {#s-24e4a5c9b8}
-Rodentia 的本地 PanTHERIA 路径包括 350 条可用数据导读，可从 Cannomys badius、Callosciurus adamsi、Callosciurus baluensis、Callosciurus caniceps、Callosciurus nigrovittatus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 一条含 350 条历史记录的 PanTHERIA 路线 {#s-24e4a5c9b8}
+这条 PanTHERIA WR05 路线有 350 条可用啮齿目记录；示例阅读路径从 Cannomys badius 和四种 Callosciurus 开始：C. adamsi、C. baluensis、C. caniceps、C. nigrovittatus。物种页保留 MSW05 名称、变量各自的来源条件和缺失数据。 COL26.8 用于组织导航，这些档案行不定义当前接受种分母。
 
-## 比较体型与生活史 {#s-8109782070}
-本批可用的成年体重汇总值中，Perognathus merriami 为 6.94 g，Castor fiber 为 19000 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
+## 历史成年体重中位数端点 {#s-8109782070}
+此路线可用的性别调整成年体重中位数中，Perognathus merriami 位于较低端（6.94 g），Castor fiber 位于较高端（19,000 g）。这些是物种汇总值，不是个体极值。其他记录涉及胚胎发育、断乳、活动和群体规模；这两个端点不代表所有啮齿类的体型范围。
 
-## 按生活史字段选择对读页面 {#s-f307d5a24b}
-Rodentia 的本批路线包含 694 条历史生活史导读，可从 Abrocoma bennettii、Abrocoma budini、Abrocoma cinerea、Abrocoma famatina、Abrocoma shistacea 开始。较多条目具有的字段包括 成年体重（685 条）、每窝幼体数或卵数（680 条）、汇编中最长寿命记录（561 条）、受孕或受精至出生的时间（484 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+## 另一份生活史档案 {#s-f307d5a24b}
+羊膜动物生活史档案在此提供 694 条啮齿目历史资料。该组中，685 条有成年体重，680 条有每窝幼体或卵数，561 条有汇编中的最长寿命记录，484 条有受孕或受精至出生时间。示例路径从五种 Abrocoma 开始。计数描述档案覆盖，不是接受种名录；比较时须按字段事件、单位和来源逐项核对。
 
-## 沿食物、取食位置和活动时段对读 {#s-4044db0ad6}
-Rodentia 的本批路线包含 1411 个历史条目，可从 Aplodontia rufa、Ratufa affinis、Ratufa bicolor、Ratufa indica、Ratufa macroura 开始。其中 1158 条可读食物类别权重，1411 条可读取食层位，1261 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+## 字段覆盖较广的 EltonTraits 子集 {#s-4044db0ad6}
+另一条 EltonTraits 路线有 1,411 条历史记录，其中 1,158 条有食物类别权重，1,411 条有觅食层位值，1,261 条有哺乳类活动代码。示例路径从 Aplodontia rufa 和四种 Ratufa 开始。权重是粗略估计；层位为类别，活动以代码记录。这些档案计数不代表啮齿目共有的生态。
 
-## 沿食物、取食位置和活动时段对读 {#s-b6c5f6b7d8}
-Rodentia 的本批路线包含 214 个历史条目，可从 Spermophilus pallidicauda、Spermophilus ralli、Spermophilus brevicauda、Dryomys niethammeri、Eliomys munbyanus 开始。其中 1 条可读食物类别权重，213 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+## 仅有一类可用字段的 EltonTraits 子集 {#s-b6c5f6b7d8}
+第二组 EltonTraits 数据有 214 条仅具一类可用生态字段的记录：1 条有食物类别权重，213 条有觅食层位，没有哺乳类活动值。示例名称包括三种 Spermophilus、Dryomys niethammeri 和 Eliomys munbyanus。零条表示该子集没有可用活动记录，不表示这些动物不存在活动模式。
 
-## 证据边界 {#s-91cbdce314}
-本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
-本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+## 各路线的分类与证据边界 {#s-91cbdce314}
+COL26.8 将 Rodentia 记录为接受目级分类。在哺乳动物全局 31 基因研究中，高阶分支受到约束，部分缺少 DNA 的类群沿用明确分类位置；这不是每种啮齿类的序列证据，也不是化石起源日期。各历史档案使用各自名称、字段和筛选规则。任何一条不完整路线都不能确定当前物种概念、完整分布、保护状况或全目共有特征。
 
-## 从已有历史条目开始 {#s-3c26c82ddc}
-Rodentia 的本地 PanTHERIA 路径包括 472 条可用数据导读，可从 [Callosciurus melanogaster](Sciuromorpha/Sciuridae/Callosciurinae/Callosciurus/Callosciurus_melanogaster/page.zh.md)、[Calomys boliviae](Myomorpha/Muroidea/Cricetidae/Sigmodontinae/Calomys/Calomys_boliviae/page.zh.md)、[Calomys callidus](Myomorpha/Muroidea/Cricetidae/Sigmodontinae/Calomys/Calomys_callidus/page.zh.md)、[Calomys hummelincki](Myomorpha/Muroidea/Cricetidae/Sigmodontinae/Calomys/Calomys_hummelincki/page.zh.md)、[Calomys sorellus](Myomorpha/Muroidea/Cricetidae/Sigmodontinae/Calomys/Calomys_sorellus/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 第二条 PanTHERIA 路线 {#s-3c26c82ddc}
+另一条 PanTHERIA WR05 路线包含 472 条已编写记录；示例包括 Callosciurus melanogaster 和四种 Calomys。它与上方 350 条记录的路线分开，因此分别保留各自计数和示例名称。其他限制仍适用：物种页沿用历史 MSW05 名称，并保留缺失字段和来源条件。
 
-## 比较体型与生活史 {#s-3f734e5355}
-本批可用的成年体重汇总值中，Delanymys brooksi 为 4.99 g，Elasmodontomys obliquus 为 13700 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
+## 第二条路线中的体重汇总 {#s-3f734e5355}
+第二条 PanTHERIA 路线可用的性别调整成年体重中位数，从 Delanymys brooksi 的 4.99 g 到 Elasmodontomys obliquus 的 13,700 g。这些是历史汇总值，不是个体极值，也不是啮齿目共有的实测范围。
 
-## 这组历史数据的边界 {#s-652e9f6816}
-本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
+## 第二条 PanTHERIA 路线的边界 {#s-652e9f6816}
+472 条记录按该路线规则纳入至少有一个焦点字段、历史名称与科级位置相符的条目；它不是完整后代名录。汇总值不是个体极值。应核对原变量定义和各物种的来源条件。
 
-## 沿生活史资料阅读 {#s-10c5dd1fbd}
-Rodentia 本批有 221 个历史生活史资料页，可从 [Anomalurus beecrofti](Anomaluromorpha/Anomaluridae/Anomalurinae/Anomalurus/Anomalurus_beecrofti/page.zh.md)、[Anomalurus derbianus](Anomaluromorpha/Anomaluridae/Anomalurinae/Anomalurus/Anomalurus_derbianus/page.zh.md)、[Anomalurus pelii](Anomaluromorpha/Anomaluridae/Anomalurinae/Anomalurus/Anomalurus_pelii/page.zh.md)、[Bathyergus suillus](Hystricomorpha/Hystricognathi/Bathyergidae/Bathyergus/Bathyergus_suillus/page.zh.md)、[Bathyergus janetta](Hystricomorpha/Hystricognathi/Bathyergidae/Bathyergus/Bathyergus_janetta/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+## Ernest 生活史档案路线 {#s-10c5dd1fbd}
+Ernest 哺乳动物生活史表在此提供 221 条啮齿目历史资料。示例路径包括 Anomalurus beecrofti、A. derbianus、A. pelii、Bathyergus suillus 和 B. janetta。计数仅覆盖本批已编写的同名记录，导航沿用固定 COL26.8；它不是完整接受种名录。
 
-## 先区分平均值与纪录 {#s-8936d9364a}
-本批妊娠资料见 129 页，雌性首次繁殖年龄见 95 页，最高寿命记录见 60 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。
+## Ernest 档案的部分字段 {#s-8936d9364a}
+221 条 Ernest 资料中，129 条记录妊娠时间，95 条记录雌性首次繁殖年龄，60 条记录最高寿命。档案还包括新生体重（91 条）、断乳年龄（101 条）、断乳体重（48 条）、窝仔数（208 条）和每年窝数（91 条）。首次繁殖不同于首次生产或性成熟；最高寿命是最长记录，不是平均值。
 
-## 这组历史数据的边界 {#s-659bc76261}
-这个入口概括本批已写的历史生活史记录，不代表全部接受后代或完整类群生物学。物种页按同名同科及 MSW93／MSW05 同名一对一表关联，当前物种概念等同尚未证明。除最高寿命外，相关字段一般为等权文献平均，输入可含已有平均值、个体值或资料不足时的范围中点；未按样本量加权，底层文献可能重复。最高寿命仅为最长记录，不是一般寿命。成年体重不在本批解读，缺值不从近缘种补写。各页保留原始来源编号；本批未逐条读取底层物种文献，也未确定所有野外、圈养与地点条件。
+## Ernest 汇总资料的边界 {#s-659bc76261}
+Ernest 资料按同名同科及 MSW93／MSW05 一对一映射关联；与当前物种概念是否等同尚未证实。除最高寿命外，数值通常对文献输入等权汇总，输入可为已发表均值、个体值或范围中点；样本量不决定权重，来源研究也可能重复。本路线不解读成年体重。物种页保留原始来源编号，但底层论文及野外、圈养和地点条件未在此统一复核。
 

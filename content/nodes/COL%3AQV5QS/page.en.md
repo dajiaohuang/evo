@@ -1,5 +1,5 @@
-## Find rows through older Parus combinations {#s-0090a78852}
-Pinned COL26.8 organizes this page at Melaniparus carpi (QV5QS). BirdLife 2020 row 6201 and eBird 2021 row 6060 share the name and Avibase ID AVIBASE-CB39188F, with type 1BL to 1eBird; BirdTree row 6028 gives Parus carpi, with type 1BL to 1BT. Read catalogue synonym 75T7T points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-0090a78852}
+Catalogue of Life release COL26.8 records Melaniparus carpi (Macdonald & B. P. Hall, 1957) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-0d6bd9707c}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8 mm, tarsus 17 mm, unflattened wing 78 mm, tail 68.2 mm and hand-wing index 16.8 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

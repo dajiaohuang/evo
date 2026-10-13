@@ -1,4 +1,6 @@
 ## 概览 {#s-9c292747c9}
+COL26.8 将 Paragalago Masters, Génin, Couette, Groves, Nash, Delpero & Pozzi, 2017 记录为属；其直接上级记录为 Galagidae Gray, 1825。
+
 COL26.8 在 Paragalago 属下列出五个接受种：*P. cocos*、*P. granti*、*P. orinus*、*P. rondoensis* 和 *P. zanzibaricus*。Masters 等（2017）根据东部与西部“矮伽拉戈”不是同一演化支的遗传证据，提出以 Paragalago 表示东部类群；2020 年分子研究又支持 *P. zanzibaricus* 复合群中的三条隐蔽谱系。阅读顺序先看肯尼亚与南非局地野外研究，再看隆多森林的历史调查；随后比较 *P. orinus* 在 Mkungwe 的低海拔记录、气候适生度模型，以及仍带 cf. 限定的 Mufindi 记录；最后读坦桑尼亚沿岸种的名称与分类边界。不要把所有地方的“小型夜行伽拉戈”当成同一调查对象。
 
 ## 分类资料 {#s-5c10e807c9}

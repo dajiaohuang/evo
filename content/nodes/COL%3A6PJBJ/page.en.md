@@ -1,18 +1,18 @@
-## Name and this data account {#s-568082744d}
-COL26.8 lists Leptotyphlops mbanjensis in Leptotyphlopidae. Its ReptTraits v1–2 row follows the Reptile Database 2023 name framework and keeps sources for individual fields. The row is a compiled summary, not a state established for every population.
+## COL26.8 name and the ReptTraits row {#s-568082744d}
+COL26.8 records Leptotyphlops mbanjensis as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-5e4aa6e9b0}
-The compiled entry reports a maximum total length (TL) of 134.5 mm. TL includes the tail; snout–vent length (SVL) ends at the vent. This is a reported maximum, not typical size or an absolute limit, and sex-specific figures may combine different studies or localities.
+## Length values in the archived records {#s-5e4aa6e9b0}
+The row reports maximum total length (TL) of 134.5 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-9f98a1669c}
-The microhabitat field is Fossorial, indicating an underground or burrowing association. It is not a full habitat description or an activity schedule.
+## Habitat use and activity labels {#s-9f98a1669c}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015.
 
-## How to read reproductive records {#s-86fb09151e}
-The source classifies the reproductive mode as oviparous (egg-laying). The label does not give clutch size or establish a uniform pattern across populations.
+## Reproductive fields in ReptTraits {#s-86fb09151e}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-af70580758}
-This page summarizes selected fields from one ReptTraits v1–2 row using the Reptile Database 2023 name framework; it is not a complete species account. A row can combine reports from different sexes, ages, places, or populations, and a shared name does not prove that later taxonomic concepts are identical. The reported maximum is a compiled record, not an absolute size limit. Where mass is estimated from length, it is not a direct measurement; differing juvenile-length definitions are not used here. Conservation status, venom, current distribution, and population trends are not updated. Citation labels preserve the workbook's source chain but do not mean every cited study was independently reviewed here.
+## Reading this compiled trait record {#s-af70580758}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-19d722a195}
-The page reports the maximum total length, microhabitat category, and reproductive mode. It has no species-specific source support here for sex-specific length, clutch or litter size and frequency, egg dimensions, diet, active time, foraging mode, or sex determination.
+## Reading this compiled trait record {#s-19d722a195}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

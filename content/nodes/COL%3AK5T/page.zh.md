@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-104dcb27b9}
+## 记录分类与直接上级关系 {#s-104dcb27b9}
+COL26.8 将 Picinae 记录为亚科；其直接上级记录为 Picidae。
+
 本部分有 94 条按固定 COL26.8 归入 Picinae 的测量记录。可先读 Blythipicus pyrrhotis、Blythipicus rubiginosus、Campephilus gayaquilensis、Campephilus guatemalensis 或 Campephilus imperialis。各 AVONET v7 页面保留历史名称和自身取样边界；本路径不表示该亚科覆盖完整。
 
 ## 记录之间有什么差别 {#s-f0535021b6}
@@ -16,8 +18,8 @@
 ## 证据边界 {#s-4165cb815f}
 该路径汇合了几个不同的选定集合：94 条测量档案、43 条生活史导读、120 条同时有食物与觅食层位字段的 EltonTraits 记录、21 条只有一类可用生态字段的记录，以及 5 条有限生态页。没有任何一组覆盖全部接受后代。体重端点是物种级汇编值；生活史资料有中位数、最大记录和历史分类沿用等限制。EltonTraits 权重为半定量转换，部分 ABC 字段可能借用了同属资料。比较前应查看各页出处和范围；这些路由不是完整物种专论或当前保护评估。
 
-## 从有限生态资料开始 {#s-4b86decba5}
-另有 5 页提供有限生态资料：[Campethera scriptoricauda](Campethera/Campethera_scriptoricauda/page.zh.md)、[Dendrocopos noguchii](Dendrocopos/Dendrocopos_noguchii/page.zh.md)、[Mulleripicus fulvus](Mulleripicus/Mulleripicus_fulvus/page.zh.md)、[Piculus litae](Piculus/Piculus_litae/page.zh.md) 和 [Picus rabieri](Picus/Picus_rabieri/page.zh.md)。路径按固定 COL26.8 编排；5 页只计本批已整理记录，不是接受种总数。
+## 记录分类与成员材料 {#s-4b86decba5}
+另有 5 页提供有限生态资料：Campethera scriptoricauda、Dendrocopos noguchii、Mulleripicus fulvus、Piculus litae 和 Picus rabieri。路径按固定 COL26.8 编排；5 页只计本批已整理记录，不是接受种总数。
 
 ## 哪些内容可读，哪些仍未解读 {#s-db70f79cde}
 这 5 页各有栖地、营养生态位、主要活动方式和迁移类别。应按原始字段定义阅读，并区分类别、历史地图和个体观察；相同标签不代表全部后代具有相同生活方式。喙、翼、跗蹠、尾和体重数据虽保留在记录中，本批不作解读，因此不能据此比较类群体型。

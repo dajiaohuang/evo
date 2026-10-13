@@ -11,7 +11,7 @@ The study’s parsimony analysis recovered it as sister to crown Galloanserae. I
 The reported mean body-mass estimate of 394 g is a skeletal-scaling model result, not a measured living animal. Small size and marine depositional context led the authors to suggest possible littoral ecology; burial setting does not directly establish habitat preference. The cited description does not resolve species-specific diet, locomotor performance or a feeding guild.
 
 ## Limits and open questions {#s-7ff60ca0cb}
-These sections are limited to NHMM 2013 008 and the description, comparisons and models in Field et al. (2020). A global range and first and last appearances remain unresolved for lack of sufficient provenance. Diet, flight or other locomotor performance, soft tissues and population variation remain unsupported in this batch. The horizon age does not close the range gap, and competing placements do not establish direct ancestry. This bilingual guide.
+These sections are limited to NHMM 2013 008 and the description, comparisons and models in Field et al. (2020). A global range and first and last appearances remain unresolved for lack of sufficient provenance. Diet, flight or other locomotor performance, soft tissues and population variation are not established by the cited material. The horizon age does not close the range gap, and competing placements do not establish direct ancestry.
 
 ## A three-dimensional skull with competing placements {#s-21d3400db1}
 Holotype NHMM 2013 008 preserves a nearly complete three-dimensional skull with fragmentary postcranial bones from a 66.8–66.7 Ma Belgian horizon. Its cranial features combine galliform-like and anseriform-like states, but parsimony and tip-dated analyses disagree on its exact near-galloanseran position.
@@ -40,7 +40,7 @@ The skull combines galliform-like and anseriform-like features in the authors’
 ## atlas-profile / traits {#s-d3bb4f4afc}
 Parsimony and tip-dated Bayesian analyses recover different near-galloanseran placements.
 
-## A 394 g estimate and a possible littoral setting {#s-41244281fb}
+## A model estimate and possible littoral setting {#s-41244281fb}
 The profile is limited to NHMM 2013 008, its 66.8–66.7 Ma horizon and a 394 g model estimate. Exact crown placement and a possible littoral ecology remain interpretation-dependent; this fossil does not establish the geographic origin of crown birds.
 
 ## Which fossil records this name represents {#s-9698d3f6ef}

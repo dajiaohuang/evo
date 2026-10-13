@@ -8,5 +8,5 @@ Kupsch et al. (2014) observed two groups during the 2011 wet-to-dry-season trans
 The study compared forest access for two groups of the same species; it was not a test that secondary forest is harmful to the species overall. Researchers observed fewer prey-search substrates and lower capture success in secondary forest, while habitat structure, time of day, prey accessibility and mixed-species association remain part of the interpretation.
 
 ## Evidence limits {#s-9a84a182ff}
-Ecological findings come from one Quebrada Blanco site, one 2011 seasonal window and two groups. Both the older genus name and the pinned COL combination are retained in source context. The MDD v2.5 Saguinus subgenus row has no exact join to the COL ID. Not externally reviewed. This page has not been. This page is.
+Ecological findings come from one Quebrada Blanco site, one 2011 seasonal window and two groups. Both the older genus name and the pinned COL combination are retained in source context. The MDD v2.5 Saguinus subgenus row has no exact join to the COL ID.
 

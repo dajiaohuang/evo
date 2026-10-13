@@ -1,4 +1,6 @@
-## PanTHERIA 阅读路径中的一条记录 {#s-a662fe944a}
+## 记录分类与直接上级关系 {#s-a662fe944a}
+COL26.8 将 Malacothrix 记录为属；其直接上级记录为 Dendromurinae。
+
 Catalogue of Life COL26.8 将 Malacothrix 记录为接受的属。该批 PanTHERIA WR05 路径有一条按固定祖先分类归入 Malacothrix 的历史记录。这个数字只统计路径中的来源记录，不是当前接受种分母。
 
 ## 如何阅读体重资料路径 {#s-2c7ebcdda6}

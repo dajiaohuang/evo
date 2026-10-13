@@ -1,5 +1,5 @@
-## Overview {#s-6d192e1a68}
-This page follows the COL26.8 accepted name Oedipomidas oedipus. The selected field papers commonly use the combination Saguinus oedipus, which is retained in their citation titles. The English name is drawn from research titles and the Chinese rendering is editorial. Sources include reproductive records from two Colombian sites, long-term group observations at Colosó and repeated surveys of accessible forest parcels.
+## Social groups, births and regional counts {#s-6d192e1a68}
+The accepted name used here is Oedipomidas oedipus; the selected field papers use Saguinus oedipus. At Colosó, five years of individually marked-group records showed varied social composition: researchers observed monogamous groups and groups with two pregnant females, and both sexes dispersed to neighboring groups. Separate reproductive records from two Colombian sites document births; a later survey covered 43 accessible forest parcels and projected a wider 2012 total only under a similar-density assumption for unsurveyed forest.
 
 ## Research observations {#s-eb362695b3}
 A five-year study at Colosó followed individually marked groups and recorded group composition, stability, birth seasons and dispersal. The researchers observed both monogamous groups and groups with two pregnant females; males and females both dispersed to neighboring groups. These observations describe the study period and reserve, not a single mating or dispersal pattern for every group.

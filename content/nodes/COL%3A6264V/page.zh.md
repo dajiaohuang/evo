@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-d186057b4c}
+## 记录分类与直接上级关系 {#s-d186057b4c}
+COL26.8 将 Pellorneidae 记录为科；其直接上级记录为 Passeriformes。
+
 Pellorneidae 的本批阅读路径包含 25 条有测量来源的物种记录，可从 Gampsorhynchus rufulus、Gampsorhynchus torquatus、Illadopsis albipectus、Illadopsis cleaveri、Illadopsis fulvescens 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-da34242585}
@@ -9,10 +11,10 @@ Pellorneidae 的本批路线包含 1 条历史生活史导读，可从 Pellorneu
 
 ## 证据边界 {#s-059e5958ed}
 本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
 
-## 从有限生态资料开始 {#s-a89118f337}
-Pellorneidae 本批有 3 个有限生态资料页，可从 [Malacocincla perspicillata](Malacocincla/Malacocincla_perspicillata/page.zh.md)、[Pellorneum palustre](Pellorneum/Pellorneum_palustre/page.zh.md)、[Ptilocichla falcata](Ptilocichla/Ptilocichla_falcata/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-a89118f337}
+Pellorneidae 本批有 3 个有限生态资料页，可从 Malacocincla perspicillata、Pellorneum palustre、Ptilocichla falcata 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-150ac9a218}
 栖地类别见 3 页，取食生态位见 3 页，主导活动方式见 3 页，迁移类别见 3 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

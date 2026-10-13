@@ -1,5 +1,5 @@
-## 沿 Caprimulgus 旧名定位 {#s-cc2db0c847}
-本页按COL26.8 Antrostomus ridgwayi（F4N6）、Caprimulgidae（7PQ）组织。BirdLife 2020第608行与eBird 2021第729行同名，eBird两侧Avibase ID同为AVIBASE-C0F335B7，类型1BL to 1eBird。BirdTree第730行记Caprimulgus ridgwayi，类型1BL to 1BT；逐字目录异名QSPY指向接受种F4N6。名称关系提供定位，不证明不同版本物种范围完全相同。
+## COL26.8 中的名称身份 {#s-cc2db0c847}
+《Catalogue of Life》COL26.8（2026-08-20）将 Antrostomus ridgwayi Nelson, 1897 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-4b9fbbbe18}
 形态共 4 只鸟：雌 2、雄 1、性别未定 1；完整测量 3 只。鼻孔前缘至喙尖 7.6 mm、跗蹠 16.8 mm、未压平翼长 150.2 mm、尾长 120 mm、手翼指数 46.9 是历史行均值。总数大于完整数，不称每只鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；指数不是飞行速度，翼长也不是实测飞行能力。

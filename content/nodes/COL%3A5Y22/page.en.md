@@ -1,4 +1,6 @@
-## Compare food, feeding positions and activity periods {#s-99bdd40bce}
+## Recorded classification and direct parent {#s-99bdd40bce}
+COL26.8 records Neamblysomus at genus rank, with Amblysominae as its direct parent.
+
 This route links to 2 historical entries; begin with Neamblysomus julianae, Neamblysomus gunningi. Food-category weights are available for 2, foraging strata for 2, and mammalian activity periods for 2. The counts describe this route, not every accepted descendant. Compare these source-based categories within their field definitions; they do not describe ecology shared by the whole group.
 
 ## Life-history evidence limits {#s-9eb701c925}

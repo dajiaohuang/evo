@@ -16,7 +16,10 @@ records:
     - subjectId: taxon:neoaves
       claimKind: scientific
       claimType: topology
-      statement: Neoaves is a living-bird navigation clade whose earliest branches remain a hard-polytomy hypothesis in the reviewed phylogenomic signal; the route must not be read as a resolved ancestor sequence or a fossil divergence date.
+      statement:
+        page: en
+        section: early-branches
+        part: body
       confidence: contested
       confidenceRationale: Conflicting gene trees are the central empirical result, and the source argues that some short internodes may be unresolvable. Contested confidence records that genuine signal conflict.
       referenceLinks:
@@ -28,7 +31,9 @@ records:
   claim-rationales.zh:
     - 相互冲突的基因树是核心经验结果，来源认为部分短内部枝可能无法解析；有争议置信度记录这种真实信号冲突。
   claim-statements.zh:
-    - 新鸟类是现生鸟类导航支系，其最早分支在所综述的系统基因组信号中仍是硬多分叉假说；该路线不能解读为已解决的祖先序列或化石分化日期。
+    - page: zh
+      section: early-branches
+      part: body
   ranges:
     - entityId: neoaves
       rangeKind: global-composite

@@ -1,5 +1,5 @@
-## 从旧 Nectarinia 名称定位资料 {#s-47b8fdbbfa}
-本页按 COL26.8 的 Cinnyris coccinigastrus（5YV6C）组织。BirdLife 2020 第 5951 行与 eBird 2021 第 2323 行同名，Avibase ID 为 AVIBASE-48EC6C78，匹配为 1BL to 1eBird；BirdTree 第 2316 行记 Nectarinia coccinigaster，匹配为 1BL to 1BT。已读目录异名 462N2 为 Nectarinia coccinigastra (Latham, 1802)，与表名 Nectarinia coccinigaster 拼写不同；保留差异，不称逐字旧名已核实。旧名用于查原资料，不证明所有时期的物种范围相同。
+## COL26.8 中的名称身份 {#s-47b8fdbbfa}
+《Catalogue of Life》COL26.8（2026-08-20）将 Cinnyris coccinigastrus (Latham, 1802) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 喙长、翼与尾的样本范围 {#s-f858633c4a}
 形态共 8 只鸟：雌 3、雄 5、性别未定 0，4 只具完整测量。鼻孔前缘至喙尖 20.1 mm、跗蹠 16.9 mm、未压平翼长 66.8 mm、尾长 42.4 mm、手翼指数 17.1 是历史行汇总均值。Inference=NO 不代表每项字段都有 8 只独立记录；完整测量数不替代逐字段分母。喙长不能单独证明特定花种适配、舌结构或授粉效果；手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度。

@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-0aadaa8ac5}
+## 记录分类与直接上级关系 {#s-0aadaa8ac5}
+COL26.8 将 Monodontidae 记录为科；其直接上级记录为 Odontoceti Flower, 1867。
+
 Monodontidae 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Delphinapterus leucas、Monodon monoceros 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-0b6c3a848c}
@@ -15,7 +17,7 @@ Monodontidae 的本批路线包含 2 个历史条目，可从 Delphinapterus leu
 PanTHERIA、2015 年生活史和 EltonTraits 路线各列有两条历史记录：Delphinapterus leucas 与 Monodon monoceros。两者的 2015 年字段均含妊娠、雌性首次繁殖年龄和最长寿命纪录；EltonTraits 有食物和觅食资料，但没有哺乳类活动时段值。成年体重端点是历史中位数，两个配对名称仍不等于完整的现代科级样本。
 
 ## 沿生活史资料阅读 {#s-259832bffc}
-Monodontidae 本批有 2 个历史生活史资料页，可从 [Delphinapterus leucas](Delphinapterus/Delphinapterus_leucas/page.zh.md)、[Monodon monoceros](Monodon/Monodon_monoceros/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Monodontidae 本批有 2 个历史生活史资料页，可从 Delphinapterus leucas、Monodon monoceros 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-3ec686135d}
 本批妊娠资料见 2 页，雌性首次繁殖年龄见 2 页，最高寿命记录见 2 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

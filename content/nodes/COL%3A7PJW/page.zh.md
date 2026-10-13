@@ -4,7 +4,9 @@
 ## 按材料、树模型和实验层次阅读 {#s-57a9a545ab}
 本入口直接对应的研究物种页为 [Struthio camelus](Struthio_camelus/page.zh.md)。先辨认新增、沿用或参考映射的基因组，再比较物种树与基因树。跨支系功能对读可转到 [Rhea americana](../../../Rheiformes/Rheidae/Rhea/Rhea_americana/page.zh.md) 与 [Eudromia elegans](../../../Tinamiformes/Tinamidae/Eudromia/Eudromia_elegans/page.zh.md) 的鸡胚报告实验；单个候选区域不能替代所有加速区域的验证。最后回到已有形态、生活史或化石出现材料，保留它们各自的单位和样本；本阅读路径不是全类群取样或完整后代目录。
 
-## 按生活史字段选择对读页面 {#s-be97ffc027}
+## 记录分类与直接上级关系 {#s-be97ffc027}
+COL26.8 将 Struthio 记录为属；其直接上级记录为 Struthionidae。
+
 Struthio 的本批路线包含 2 条历史生活史导读，可从 Struthio camelus、Struthio molybdophanes 开始。较多条目具有的字段包括 成年体重（2 条）、雌性成熟字段（源定义为首次受孕年龄）（2 条）、每窝幼体数或卵数（2 条）、产卵至孵化的时间（2 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-4ac78e3488}

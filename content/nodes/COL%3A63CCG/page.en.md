@@ -1,4 +1,6 @@
-## One entry in the PanTHERIA route {#s-d51a822a2d}
+## Recorded classification and direct parent {#s-d51a822a2d}
+COL26.8 records Mystromys at genus rank, with Mystromyinae as its direct parent.
+
 Catalogue of Life COL26.8 records Mystromys as an accepted genus. The PanTHERIA WR05 route in this batch has one authored historical entry grouped under Mystromys by pinned ancestry. This count describes the route’s source record, not the current accepted-species denominator.
 
 ## How to read the body-mass route {#s-9cf767e021}

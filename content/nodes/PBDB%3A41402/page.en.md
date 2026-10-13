@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-a2cedddb1c}
-Lophiparamys is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 3 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Lophiparamys {#s-a2cedddb1c}
+Lophiparamys is listed at rank genus in the PBDB classification route, with Ischyromyidae as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-3c89f2ad23}
 Start with Lophiparamys murinus, Lophiparamys debequensis, Lophiparamys woodi and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 8 selected occurrences from 8 collections; example stratum names are Wind River, Wasatch, DeBeque, San Jose. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-57f48e0eb2}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-57f48e0eb2}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Lophiparamys murinus’s collection record, not a continuous history for Lophiparamys.
 

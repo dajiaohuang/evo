@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-34d7ebe7c3}
-Eufolivora is recorded at rank unranked clade in this batch’s PBDB path. This route offers occurrence guides for 177 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Eufolivora {#s-34d7ebe7c3}
+Eufolivora is listed at rank unranked clade in the PBDB classification route, with Folivora as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-a196cbdc00}
 Start with Nematherium birdi, Nematherium longirostris, Lestodon armatus, Lestodon urumaquensis, Mylodonopsis ibseni and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 849 selected occurrences from 607 collections; example stratum names are Palomares, Santa Cruz, Tarija, Sopas. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-96ad0488ba}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-96ad0488ba}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Nematherium birdi’s collection record, not a continuous history for Eufolivora.
 

@@ -1,7 +1,7 @@
-## Metamynodon’s repeated return to the water’s edge {#s-f0bbf923bf}
-Body shape and sedimentary context can support a semi-aquatic hypothesis, but neither directly records behavior or proves a shared ancestry.
+## Testing water-edge hypotheses in two rhinocerotoids {#s-f0bbf923bf}
+Metamynodon anatomy and channel sandstones, alongside variable Teleoceras isotope evidence, inform separate semi-aquatic hypotheses; none records a swim or proves direct ancestry.
 
-## Metamynodon: a hippo-like rhinocerotoid {#s-66eb442a92}
+## Anatomy behind the Metamynodon comparison {#s-66eb442a92}
 Metamynodon planifrons combines high-set eye sockets, reduced thoracic spines and limb-lever proportions unlike those of more terrestrial amynodontids. These anatomical differences motivate a semi-aquatic comparison; they do not show how often the animal entered the water.
 
 ## Sandstone adds a setting, not an observed habit {#s-3f82f24196}

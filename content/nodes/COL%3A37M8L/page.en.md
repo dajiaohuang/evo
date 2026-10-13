@@ -1,5 +1,5 @@
-## Historical foraging record {#s-fccd779948}
-COL26.8 accepts Dremomys pernyi in Sciuridae. EltonTraits 1.0 contains three ecological field groups for the same name and family. It follows older bird or MSW3 mammal taxonomy, so this match does not settle later splits or synonymy.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-fccd779948}
+The EltonTraits 1.0 record for *Dremomys pernyi* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 20%, fruit 30%, seeds, nuts and spores 30%, other plant material, including fungi 20% (confidence code ABC). The foraging-stratum field assigns the scansorial category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Dremomys pernyi*.
 
 ## Standardized food weights {#s-024999b7bb}
 Nonzero weights are fruit 30%; seeds, nuts and spores 30%; invertebrates 20%; and other plant material, including fungi in the source category, 20%. ABC combines high, reasonable and partial confidence and may draw on a similar congener. These are standardized literature descriptions, not measured intake; zero would not prove a food is never eaten. Nect, Seed and PlantO have broader definitions than their everyday names.
@@ -13,11 +13,13 @@ Daytime feeding activity is marked 1. Multiple activity fields can be 1 together
 ## Source labels for the field groups {#s-1546ad3ce5}
 The groups carry Ref_1 and metadata:Nowak1999 labels. Diet, stratum and activity may rely on different materials; Ref_1 in bird and mammal tables need not identify the same work. The archive preserves strings by file, row, group and reference table. Underlying literature has not been read individually, and labels are not extra observations.
 
-## Life-history evidence limits {#s-556b7b0858}
-This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
+## How to interpret these historical records {#s-556b7b0858}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## Name in the historical table {#s-bd106d8612}
-COL26.8 accepts Dremomys pernyi in Sciuridae. PanTHERIA 1.0 uses the MSW05 entry from its August 2008 table; biological data gathering ended in June 2004. This association does not settle subsequent taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass in the historical table {#s-bd106d8612}
+The August 2008 PanTHERIA row for *Dremomys pernyi* records adult body mass 198.63 g. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Dremomys pernyi*.
 
 ## Consolidated adult mass {#s-c0e74299c5}
 The historical adult body-mass summary is 198.63 g. PanTHERIA adjusts for sex and then takes medians; adult or age-unknown records may contribute, but pregnant females are excluded. It is not a specimen measurement or a species-wide range.

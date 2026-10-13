@@ -1,5 +1,5 @@
-## 沿旧属名区分种与亚种目标 {#s-592e9b2972}
-本页按 COL26.8 的 Sporophila atrirostris（9GBHK）组织。BirdLife 2020 第 8198 行与 eBird 2021 第 9832 行同名，Avibase ID 为 AVIBASE-D57B98B9，类型 1BL to 1eBird；BirdTree 第 9773 行记 Oryzoborus atrirostris，类型 1BL to 1BT。目录异名 74ZGK 指向 Sporophila atrirostris atrirostris (P. L. Sclater & Salvin, 1878)（B77X3，subspecies），该亚种 parentId=9GBHK。这是本页物种下的指名亚种目标，不是逐字旧名直接指向本页接受种；历史行是否覆盖当前整个物种仍未解决。名称关系提供定位，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-592e9b2972}
+《Catalogue of Life》COL26.8（2026-08-20）将 Sporophila atrirostris (P. L. Sclater & Salvin, 1878) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 一只鸟的测量范围 {#s-190ae98316}
 形态共 1 只鸟：雌 0、雄 1、性别未定 0；完整测量 1 只。鼻孔前缘至喙尖 13.1 mm、跗蹠 18.3 mm、未压平翼长 71.5 mm、尾长 60 mm、手翼指数 14.1 是历史行均值。这里只有一只鸟，不能建立雌雄或群体变异分布。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或特定食物的处理能力。

@@ -1,19 +1,58 @@
 ## Which fossil records this name represents {#s-6363d81ce5}
 Mesodma ambigua is accepted in the fixed PBDB mammalia working roster, with database parent Mesodma. This guide uses 5 eligible species-level occurrence records from 5 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-d800aa57ad}
-Collection Ferris Formation (UW V-91031) (Wyoming), region code US, stratum name Ferris; database age bracket 66–63.4 Ma, early interval Puercan. Collection Windy Mudstone (UW V-91004) (Wyoming), region code US, stratum name Ferris; database age bracket 72.2–66 Ma, early interval Lancian. Collection Mantua Lentil (Wyoming), region code US, stratum name Fort Union; database age bracket 66–63.4 Ma, early interval Puercan. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Mesodma ambigua is listed in the PBDB snapshot under taxon txn:48343. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-a0fac8a206}
-Selected occurrences have an outer age envelope of 72.2–63.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Windy Mudstone (UW V-91004), occurrence occ:164469 (72.2–66 Ma); one supplying the younger bound is Ferris Formation (UW V-91031), occurrence occ:164011 (66–63.4 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-d800aa57ad}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-a9559d0d2a}
-Ferris Formation (UW V-91031) has collection-environment label terrestrial indet.; collection preservation-mode label body. Windy Mudstone (UW V-91004) has collection-environment label terrestrial indet.; collection preservation-mode label body. Mantua Lentil has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:164469; PBDB collection col:14796. Locality cnm=Windy Mudstone (UW V-91004); place fields cc2=US, stp=Wyoming, cny=Carbon. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Lancian. Stratigraphic fields sfm=Ferris, sls=Windy, slb=2170, slo=bottom to top. Recorded attribution Eberle and Lillegraven 1998; PBDB reference ref:1419.
 
-## Follow collection records back to references {#s-99bbc1d726}
-Ferris Formation (UW V-91031) carries database reference attribution Eberle and Lillegraven (1998), identifier ref:1419. Windy Mudstone (UW V-91004) carries database reference attribution Eberle and Lillegraven (1998), identifier ref:1419. Mantua Lentil carries database reference attribution Russell (1967), identifier ref:2993. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be early Puercan by some workers
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Hanna Basin
+
+- Occurrence occ:164011; PBDB collection col:14722. Locality cnm=Ferris Formation (UW V-91031); place fields cc2=US, stp=Wyoming, cny=Carbon. Recorded age bounds: eag 66 Ma; lag 63.4 Ma; PBDB interval fields oei=Puercan. Stratigraphic fields sfm=Ferris, sls=Ferris, slb=2327, slo=bottom to top. Recorded attribution Eberle and Lillegraven 1998; PBDB reference ref:1419.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be middle Puercan
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Hanna Basin
+
+- Occurrence occ:164524; PBDB collection col:14808. Locality cnm=Mantua Lentil; place fields cc2=US, stp=Wyoming, cny=Park. Recorded age bounds: eag 66 Ma; lag 63.4 Ma; PBDB interval fields oei=Puercan. Stratigraphic fields sfm=Fort Union, sls=Clark, slb=1, slo=bottom to top. Recorded attribution Russell 1967; PBDB reference ref:2993.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+In a stratigraphically isolated reversed polarity zone interpreted as chron C29r: Butler et al. 1987
+
+Earlier literature referred to this as the 'Polecat Bench Formation'
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Bighorn Basin
+
+## Age bounds on the recorded occurrences {#s-a0fac8a206}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:164469; the smallest recorded lag=63.4 Ma in occ:164011. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-a9559d0d2a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:164469: PBDB taxon-name field tna=Mesodma ambigua; abundance fields abv=6, abu=specimens; PBDB locality-coordinate fields lng=-106.872795, lat=41.947628; paleocoordinate/model fields pm1=gplates, pln=-71.42, pla=52.32.
+- occ:164011: PBDB taxon-name field tna=Mesodma ambigua; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-106.876312, lat=41.939877; paleocoordinate/model fields pm1=gplates, pln=-71.43, pla=52.32.
+- occ:164524: PBDB original-identification field idn=Mesodma ambigua n. sp.; PBDB taxon-name field tna=Mesodma ambigua; material note ocm=see Jepsen 1940; PBDB locality-coordinate fields lng=-109.000000, lat=44.299999; paleocoordinate/model fields pm1=gplates, pln=-72.34, pla=55.09.
+
+## References attached to each record {#s-99bbc1d726}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:164469: Recorded attribution Eberle and Lillegraven 1998; PBDB reference ref:1419.
+- occ:164011: Recorded attribution Eberle and Lillegraven 1998; PBDB reference ref:1419.
+- occ:164524: Recorded attribution Russell 1967; PBDB reference ref:2993.
 
 ## Evidence limits {#s-ca5f70c411}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

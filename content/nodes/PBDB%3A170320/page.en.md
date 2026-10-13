@@ -1,19 +1,33 @@
 ## Which fossil records this name represents {#s-a458fa55f4}
 Kutchisiren cylindrica is accepted in the fixed PBDB mammalia working roster, with database parent Kutchisiren. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-7e5bf4c489}
-Collection Kotada, north (Gujarat), region code IN, stratum name Khari Nadi; database age bracket 23.04–15.98 Ma, early interval Aquitanian and late interval Burdigalian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Kutchisiren cylindrica is listed in the PBDB snapshot under taxon txn:170320. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-6e033d73e2}
-Selected occurrences have an outer age envelope of 23.04–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Kotada, north, occurrence occ:880179 (23.04–15.98 Ma); one supplying the younger bound is Kotada, north, occurrence occ:880179 (23.04–15.98 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-7e5bf4c489}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-eec207a1bf}
-Kotada, north has collection-environment label coastal indet.; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:880179; PBDB collection col:97632. Locality cnm=Kotada, north; place fields cc2=IN, stp=Gujarat, cny=Kutch. Recorded age bounds: eag 23.04 Ma; lag 15.98 Ma; PBDB interval fields oei=Aquitanian, oli=Burdigalian. Stratigraphic fields sfm=Khari Nadi. Recorded attribution Bajpai et al. 2010; PBDB reference ref:33335.
 
-## Follow collection records back to references {#s-6cdf0fa468}
-Kotada, north carries database reference attribution Bajpai et al. (2010), identifier ref:33335. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Aquitanian or Burdigalian
+
+## Age bounds on the recorded occurrences {#s-6e033d73e2}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:880179; the smallest recorded lag=15.98 Ma in occ:880179. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-eec207a1bf}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:880179: PBDB original-identification field idn=Kutchisiren cylindrica n. gen. n. sp.; PBDB taxon-name field tna=Kutchisiren cylindrica; material note ocm==Kotadasiren gracillis, a name that was proposed for this specimen, but never properly described; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=68.912498, lat=23.483334; paleocoordinate/model fields pm1=gplates, pln=69.21, pla=13.46.
+
+## References attached to each record {#s-6cdf0fa468}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:880179: Recorded attribution Bajpai et al. 2010; PBDB reference ref:33335.
 
 ## Evidence limits {#s-e245542418}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

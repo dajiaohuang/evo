@@ -1,4 +1,6 @@
-## Deirochelys 的来源明确条目 {#s-24fd863961}
+## 记录分类与直接上级关系 {#s-24fd863961}
+COL26.8 将 Deirochelys 记录为属；其直接上级记录为 Emydidae。
+
 Deirochelys 的阅读路径收录 1 条带字段出处的同名同科记录，可从 Deirochelys reticularia 开始。页面导航沿用固定版本 COL26.8 名称，ReptTraits 保留 Reptile Database 2023 名称框架；这是一组选读入口，不是完整接受种名录。
 
 ## 比较现有尺寸测量 {#s-982ba35050}

@@ -1,26 +1,24 @@
-## Start with the historical entries {#s-29599ecc0f}
-The local PanTHERIA route for Pan includes 2 usable data accounts. Start with Pan paniscus, Pan troglodytes. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Two PanTHERIA species entries {#s-29599ecc0f}
+The historical PanTHERIA archive contributes two usable entries to this route: Pan paniscus and Pan troglodytes. Their pages retain the archive’s MSW05 names, variable-specific conditions, and missing data. The route follows pinned COL26.8 classification; two archive rows are not the current accepted-species denominator.
 
-## Compare body size and life history {#s-773a1cca0f}
-Among available consolidated adult-mass values in this batch, Pan paniscus records 35119.95 g and Pan troglodytes records 45000 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
+## Two historical adult-mass medians {#s-773a1cca0f}
+PanTHERIA reports sex-adjusted adult-mass medians of 35,119.95 g for Pan paniscus and 45,000 g for Pan troglodytes in this batch. These are historical compiled values, not individual extremes. Other fields cover fetal development, weaning, activity, and group size; body mass alone does not describe the genus’ shared ecology.
 
-## Choose comparison pages by life-history fields {#s-9e8d3e94c9}
-This batch’s Pan route includes 2 historical life-history accounts; start with Pan paniscus, Pan troglodytes. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), conception or fertilization to birth (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
+## Life-history fields in both entries {#s-9e8d3e94c9}
+Both Pan archive entries report adult mass, female age at first conception, offspring per litter or eggs per clutch, and time from conception or fertilization to birth. The count of two describes this route’s records only. Check each field’s event, units, and source conditions before comparison; archive coverage is not a current species roster.
 
-## Compare food, feeding positions and activity periods {#s-078026428d}
-This batch’s Pan route includes 2 historical entries; start with Pan paniscus, Pan troglodytes. Food-category weights are available in 2, foraging strata in 2, and mammalian activity periods in 2. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
+## EltonTraits fields in the two entries {#s-078026428d}
+The same two species have EltonTraits food-category weights, foraging-stratum categories, and mammalian activity codes. Weights are coarse estimates, strata are categories, and activity values are binary. These source-specific entries support comparison of recorded fields, not a single diet or activity pattern for Pan.
 
-## Evidence limits {#s-af2edc4a05}
-This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+## Scope of this genus route {#s-af2edc4a05}
+COL26.8 records the accepted parent placement of Pan troglodytes in Pan for this release; it establishes checklist classification, not a phylogeny or universal consensus. PanTHERIA, the Amniote life-history archive, EltonTraits, and the Ernest life-history table use distinct historical data and name-matching rules. Their selected entries do not establish current species concepts, a complete range, conservation status, or traits shared by every descendant.
 
-## Follow the life-history records {#s-322a314c94}
-This batch offers 2 historical life-history accounts under Pan. Start with [Pan troglodytes](Pan_troglodytes/page.en.md), [Pan paniscus](Pan_paniscus/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Two life-history accounts {#s-322a314c94}
+The Ernest table route links two historical accounts: Pan troglodytes and Pan paniscus. Its two authored entries follow the pinned COL26.8 navigation and do not claim coverage of every accepted species or every Pan life-history trait.
 
-## Distinguish averages from records {#s-cc032ef981}
-Gestation is recorded in 2 accounts, female age at first reproduction in 2 accounts, and maximum lifespan in 1 account. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
+## Read reproduction and longevity fields carefully {#s-cc032ef981}
+Both Ernest accounts report gestation and female age at first reproduction; only one reports maximum lifespan. First reproduction is distinct from first birth and sexual maturity. Maximum lifespan is the longest record, not an average. Source conditions differ among traits, and missing values are not filled from the other species.
 
-## Limits of these historical data {#s-201ff1f027}
-This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
+## Limits of historical Pan data {#s-201ff1f027}
+The Ernest accounts match names and families and use a one-to-one MSW93/MSW05 mapping; equivalence to current species concepts has not been shown. Except for maximum lifespan, values generally give literature inputs equal weight, including published averages, individual values, or range midpoints. Sample size does not determine weight and sources may overlap. Adult mass is outside this Ernest comparison. Original reference numbers remain on the species pages, but underlying papers and wild, captive, and locality conditions were not reviewed consistently here.
 

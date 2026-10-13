@@ -1,32 +1,30 @@
-## Name and this data account {#s-62fba2bf64}
-Pinned COL26.8 accepts Graptemys geographica in Emydidae. This account follows its ReptTraits v1-2 row, which retains the Reptile Database 2023 name framework and sources for individual traits. Because the dataset has one row per species, its categories describe that record rather than every population.
+## COL26.8 name and the ReptTraits row {#s-62fba2bf64}
+COL26.8 records Graptemys geographica as an accepted species. The ReptTraits v1-2 row gives its Family field as Emydidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-9bf24355e9}
-The compiled maximum straight carapace length (SCL) is 270 mm; the female maximum is also 270 mm and the male maximum is 160 mm. SCL measures the shell in a straight line, excluding the head, neck and tail. These are maxima in the reported material, not theoretical limits or typical individual sizes. Sex-specific values may come from different localities or studies, so they do not alone measure sexual dimorphism across a population.
+## Length values in the archived records {#s-9bf24355e9}
+The row reports a maximum straight carapace length (SCL) of 270 mm. ReptTraits attributes this field to Ernst Lovich 2009. The row reports a female maximum straight carapace length (SCL) of 270 mm. ReptTraits attributes this field to Ernst Lovich 2009. The row reports a male maximum straight carapace length (SCL) of 160 mm. ReptTraits attributes this field to Ernst Lovich 2009. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Where and how it is active {#s-76a35e1bbb}
-The row classifies the microhabitat as Aquatic, diet as Carnivorous, activity as Diurnal and foraging mode as active (ACT). These broad categories do not provide a complete habitat inventory or fixed schedule. The diet label does not identify particular prey, and the one-row summary cannot show differences among populations, seasons or life stages.
+## Habitat use and activity labels {#s-76a35e1bbb}
+The microhabitat field classifies the recorded position as Aquatic. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Lindeman 2006. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Stark et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Lindeman 2006.
 
-## How to read reproductive records {#s-ecf8c60802}
-The entry records an oviparous reproductive mode, temperature-dependent sex determination (TSD), a mean of 12 offspring or eggs per litter/clutch, and low and high reported means of 6 and 20. A summary may be the midpoint of reported means or, if means are unavailable, the midpoint of reported extremes; it is not necessarily an arithmetic average of observed clutches. A fractional summary would not represent a fraction of an individual. The low and high fields describe endpoints of reported means, not guaranteed limits for individual clutches. These labels do not establish fetal nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-ecf8c60802}
+The compiled mean for offspring per litter or eggs per clutch is 12. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Behler and King 1979. The lowest value among reported litter or clutch means is 6; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Ernst Lovich 2009. The highest value among reported litter or clutch means is 20; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Ernst Lovich 2009. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records TSD. ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## The 2015 life-history entry and this name {#s-7cae5a3a43}
-Pinned COL26.8 accepts Graptemys geographica in Emydidae. This page presents five focal fields from its same-name 2015 life-history entry beside cited species-level rows with matching name and family. The matches support the association, but historical summaries may still inherit values across taxonomic concepts.
+## A 2015 life-history row for this name {#s-7cae5a3a43}
+COL26.8 records Graptemys geographica as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-8219c618da}
-The historical compilation gives an adult body mass of 1138 g. Its adult records may combine males, females and adults of unspecified sex, so the summary is not a range of individual masses. No birth or hatching mass is included here.
+## Length values in the archived records {#s-8219c618da}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 1138 g. The 2015 archive's field citation is Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
-## Reproduction and developmental timing {#s-d1dd00170e}
-The available fields are female maturity, defined by the source as age at first conception (4382.88 d); offspring per litter or eggs per clutch (12); and time from oviposition to hatching (75 d). Here d means days. The litter/clutch value combines offspring or egg counts, and a fractional summary would not describe one event. The timing values refer to distinct events, not one interchangeable reproductive interval.
+## Reproductive events in the life-history table {#s-d1dd00170e}
+Field-specific archive notes: female maturity field (defined by the source as age at first conception): one direct source citation, with no median count stated; offspring per litter or eggs per clutch: median of 11 recorded source-table values; oviposition to hatching: one direct source citation, with no median count stated. These counts refer to archived table inputs, not individual animals. The female maturity field is 4382.88 d; the archive defines it as age at first conception. The 2015 archive's field citation is IUCN, 2011. The offspring-per-litter or eggs-per-clutch summary is 12; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993; IUCN, 2011. The incubation field is 75 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## A longest record differs from usual lifespan {#s-210409e3b2}
-The archive reports maximum_longevity_y as 19.97 years, the largest record in the collected material under its method. It is not typical lifespan, mean lifespan in the wild, a survival ceiling for every individual or a current record known to be repeatable.
+## Longest lifespan in the archive {#s-210409e3b2}
+The archive's longest-lifespan record is 19.96666667 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is Carey, J.R. and D.S. Judge, 2002; IUCN, 2011.
 
-## How to trace these values to sources {#s-13117ebf23}
-Same-name source rows carry labels including Iverson, Balgooyen, Byrd et al. (1993), IUCN (2011), Reptile Incubation book and De Graaf and Rudis (1983). The archive retains field-specific row numbers, values and labels, with complete reference explanations in the final table. A label may refer to a paper, book or database; row counts are not numbers of measured individuals, and repeated citations are not independent replication.
+## The August 2015 life-history table {#s-13117ebf23}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-5887e033d3}
-This limited account paraphrases the same-name ReptTraits v1-2 row, retaining its Reptile Database 2023 framework and trait-specific sources. One row per species compresses variation in sex, age, locality and populations; a matching name and family do not guarantee the same concept in later taxonomies. A reported maximum is not an absolute length limit, and a reproductive mean is not a fixed clutch count. Many mass values in the dataset are estimated from length equations and are not treated here as measured mass. Juvenile-length fields have differing headers and definitions and are not used in the conclusions. Conservation, venom, current distribution and population trends are not updated; missing fields remain gaps. Citation labels preserve the dataset's source chain and do not imply independent review here of every original work.
-
-The historical component uses same-name records from the 2015 life-history archive. Values are compilation medians or averages of the two middle values, except maximum longevity, which uses the largest record found. They are not measurements of one individual, individual variation ranges, mean wild lifespan or current population surveys. The archive may share or inherit data among historical species and subspecies. Matching name and family, together with same-name source rows, supports the association but does not establish equivalence to COL26.8 concepts or remove all inherited data. Wild or captive conditions are not consistently confirmed, and underlying publications have not been reviewed individually. Diet, behavior, current range, conservation and missing fields require other sources.
+## Separate histories in the two archives {#s-5887e033d3}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

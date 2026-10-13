@@ -4,13 +4,15 @@ The 2022 tree estimates divergence among four Spheniscus entries within roughly 
 ## Follow material scope into comparison pages {#s-ad5e37ccae}
 Begin with the study names and material in [Spheniscus demersus](Spheniscus_demersus/page.en.md), [Spheniscus humboldti](Spheniscus_humboldti/page.en.md), [Spheniscus magellanicus](Spheniscus_magellanicus/page.en.md), [Spheniscus mendiculus](Spheniscus_mendiculus/page.en.md) before comparing glacial curves. Distinguish historical research units first, then the existing morphology, food, reproduction and local studies, retaining each source’s counts, times and methods.
 
-## Local data reading route {#s-5f4691d81c}
+## Recorded classification and direct parent {#s-5f4691d81c}
+COL26.8 records Spheniscus at genus rank, with Spheniscidae Bonaparte, 1831 as its direct parent.
+
 This batch’s Spheniscus route includes 4 measured species records. Start with Spheniscus demersus, Spheniscus humboldti, Spheniscus magellanicus, Spheniscus mendiculus. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-699b158563}
 Compiled mean mass endpoints in this batch are Spheniscus mendiculus at 1921.86 g and Spheniscus humboldti at 4366.39 g. Represented habitat categories include Marine; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-8fb5e7edba}
+## Amniote Life-history archive member records {#s-8fb5e7edba}
 This batch’s Spheniscus route includes 4 historical life-history accounts; start with Spheniscus demersus, Spheniscus humboldti, Spheniscus magellanicus, Spheniscus mendiculus. More frequently represented fields include adult body mass (4 entries), female maturity field (defined by the source as age at first conception) (4 entries), offspring per litter or eggs per clutch (4 entries), oviposition to hatching (4 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-44b10b643a}

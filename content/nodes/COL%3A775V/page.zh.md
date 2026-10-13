@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-803dc9c03d}
+## 记录分类与直接上级关系 {#s-803dc9c03d}
+COL26.8 将 Raphicerus 记录为属；其直接上级记录为 Antilopini。
+
 Raphicerus 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Raphicerus campestris、Raphicerus sharpei 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-c8a83735ba}
@@ -14,7 +16,7 @@ Raphicerus 的本批路线包含 3 个历史条目，可从 Raphicerus melanotis
 各来源包含的历史样本不同：PanTHERIA 有 2 个物种资料页，2015 年生活史路线列出 2 条记录，Ernest 2003 页面关联 1 条资料，EltonTraits 则有 3 个生态条目。PanTHERIA 的成年体重值是经性别调整的中位数；EltonTraits 的食物权重、觅食层位和活动时段是编码描述。Ernest 关联的资料没有最高寿命值，缺项不表示寿命短。历史名称关联和各来源的覆盖范围不能构成 Raphicerus 的完整记述，也不能确定当前物种概念。
 
 ## 沿生活史资料阅读 {#s-287a4855c1}
-Raphicerus 本批有 1 个历史生活史资料页，可从 [Raphicerus campestris](Raphicerus_campestris/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Raphicerus 本批有 1 个历史生活史资料页，可从 Raphicerus campestris 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-93eff07bc5}
 本批妊娠资料见 1 页，雌性首次繁殖年龄见 1 页，最高寿命记录见 0 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

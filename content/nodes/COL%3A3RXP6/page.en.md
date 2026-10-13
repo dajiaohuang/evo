@@ -1,29 +1,29 @@
-## The name and this data account {#s-929e512ad9}
-Lagonosticta nitidula is accepted in COL26.8 within Estrildidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-929e512ad9}
+The AVONET v7 row for Lagonosticta nitidula (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 7.3 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-02170fe6eb}
-Recorded mean beak measurements are 7.3 mm from the anterior nostril edge to the tip, 4.7 mm in width and 5.9 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-02170fe6eb}
+AVONET records culmen length (bill tip to skull base) 10.3 mm; beak length (nostril front edge to tip) 7.3 mm; beak width at the nostril front edge 4.7 mm; beak depth at the nostril front edge 5.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-d136206bb4}
-Mean unflattened wing length from the carpal joint to the longest primary is 52 mm; mean tarsus length is 14.2 mm. Compiled mean mass is 10.7 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-d136206bb4}
+AVONET records unflattened wing length 52 mm; tarsus length 14.2 mm; distance from first secondary tip to longest primary tip 5.5 mm; length to first secondary tip 46.5 mm; hand-wing index 10.4; tail length 41 mm; species-average body mass 10.7 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-2f469f6cc7}
-The dataset assigns habitat Shrubland, trophic niche Granivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-2f469f6cc7}
+AVONET classifies Lagonosticta nitidula as habitat Shrubland (low, bush-dominated vegetation); trophic niche Granivore (source threshold at least 60% from seeds or nuts); trophic level Herbivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-e6f3313e39}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -20.94° to -2.94°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-e6f3313e39}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -20.94° to -2.94°. The mapped range area is 1509814.09 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-e8360543cc}
-Lagonosticta nitidula is accepted in pinned COL26.8 within Estrildidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-e8360543cc}
+EltonTraits 1.0 has a same-name, same-family record for Lagonosticta nitidula covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-310a374dcf}
-The archive’s nonzero food weights are seeds, nuts and spores included in this category 80%; invertebrates 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-310a374dcf}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; seeds or nuts 80%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-342288954c}
-Foraging-stratum weights flagged as species-level in the archive are ground 100%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-342288954c}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-4a6f49ef7f}
-The used groups carry labels Ref_15, Ref_27. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-4a6f49ef7f}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.15.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Clement, P., A. Harris, and J. Davis. 2010. Finches and sparrows. A&C Black.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-dfc9885ee5}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

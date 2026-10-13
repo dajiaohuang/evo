@@ -1,5 +1,5 @@
-## 沿旧 Oceanodroma／Halocyptena 组合查历史行 {#s-11353251c5}
-固定 COL26.8 将 Hydrobates homochroa（DD8SQ）组织。BirdLife 2020 的第 10058 行和 eBird 2021 的第 4916 行使用同名，Avibase ID 为 AVIBASE-04B43245，类型 1BL to 1eBird；BirdTree 第 4893 行记 Oceanodroma homochroa，类型 1BL to 1BT。来源记录的目录异名 48C45，指向本页接受 ID。较早的属名或词尾变化可帮助定位原资料，但不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-11353251c5}
+《Catalogue of Life》COL26.8（2026-08-20）将 Hydrobates homochroa (Coues, 1864) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-9d5d4d09e0}
 形态样本共 4 只鸟：雌 1、雄 2、性别未定 1；完整测量 2 只。鼻孔前缘至喙尖 8.8 mm、跗蹠 21.4 mm、未压平翼长 132.8 mm、尾长 71.5 mm、手翼指数 58.4 是历史行均值。总鸟数多于完整测量套数，因此并非每只鸟都具备每项字段。Inference=NO 不代表每个字段有相同的采样分母。手翼指数为 Kipp 距离／翼长 ×100，不能当作飞行速度；喙长不提供咬合力或具体猎物的处理能力。

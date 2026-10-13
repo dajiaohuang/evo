@@ -1,5 +1,5 @@
-## Find rows through older Dendroica combinations {#s-22c0f59a68}
-Pinned COL26.8 organizes this page at Setophaga delicata (4X3BN). BirdLife 2020 row 6338 and eBird 2021 row 9595 share the name and Avibase ID AVIBASE-180A3B77, with type 1BL to 1eBird; BirdTree row 9534 gives Dendroica delicata, with type 1BL to 1BT. Read catalogue synonym 6CJDL points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-22c0f59a68}
+Catalogue of Life release COL26.8 records Setophaga delicata (Ridgway, 1883) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-73756278d0}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.7 mm, tarsus 18.1 mm, unflattened wing 54.8 mm, tail 51.8 mm and hand-wing index 18 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

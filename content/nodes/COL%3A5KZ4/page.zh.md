@@ -1,4 +1,6 @@
-## 现有资料只涉及一个物种 {#s-413844c1cb}
+## 记录分类与直接上级关系 {#s-413844c1cb}
+COL26.8 将 Mantheyus 记录为属；其直接上级记录为 Draconinae。
+
 COL26.8 将 Mantheyus 作为鬣蜥科中的一个属。这里收录的 ReptTraits v1-2 资料包含 Mantheyus phuwuanensis 一条有出处的物种记录，采用工作簿沿用的 2023 年 Reptile Database 名称框架。读者可以从这条记录认识其中一个物种，但不能把它当作该属全部接受种的数量。
 
 ## 一个已报道最大值不能代表全属 {#s-325470994a}

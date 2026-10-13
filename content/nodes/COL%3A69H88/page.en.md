@@ -1,29 +1,29 @@
-## The name and this data account {#s-a3b688475b}
-Pinned COL26.8 accepts *Celeus castaneus* in Picidae. The measurements and ecological labels below come from AVONET v7, where the species appears under the HBW–BirdLife 2020 name. That source records 5 measured individuals; 4 have a complete morphological set, and the usable sample size can differ from one trait to another.
+## Row-reported mean and sample coverage {#s-a3b688475b}
+The AVONET v7 row for Celeus castaneus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 19.3 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-128db0ec7e}
-The recorded mean beak length is 19.3 mm, measured from the front edge of the nostril to the tip. At that same edge, mean width is 7.9 mm and mean depth is 8 mm. These are three distinct measurements at standardized landmarks, not cutoffs for identifying a bird in the field.
+## Beak measurements at defined landmarks {#s-128db0ec7e}
+AVONET records culmen length (bill tip to skull base) 26.7 mm; beak length (nostril front edge to tip) 19.3 mm; beak width at the nostril front edge 7.9 mm; beak depth at the nostril front edge 8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-62af72a038}
-The mean unflattened wing measurement—from the carpal joint to the longest primary feather—is 125.6 mm, and mean tarsus length is 23.1 mm. A separate compilation gives mean mass as 85.59 g and labels its source category Dunning. The mass figure is a species average from a separate source; it does not mean the measured morphological individuals were all weighed.
+## Wing and body measures use separate sources {#s-62af72a038}
+AVONET records unflattened wing length 125.6 mm; tarsus length 23.1 mm; distance from first secondary tip to longest primary tip 29.8 mm; length to first secondary tip 94 mm; hand-wing index 24; tail length 82.2 mm; species-average body mass 85.59 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-cc3ea1eb4b}
-AVONET assigns the dominant habitat category Forest, trophic-niche category Invertivore and lifestyle category Insessorial. These labels support comparisons among species. They do not mean that the bird uses only forest or eats only invertebrates.
+## Recorded habitat and feeding categories {#s-cc3ea1eb4b}
+AVONET classifies Celeus castaneus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-b128078725}
-The migration field labels this record sedentary. Its historical breeding and resident maps have latitude endpoints of 8.99° and 21.4°. Those maps do not provide a full account of non-breeding movements, a current position or a global occupancy estimate. The geographic summary and the morphological measurements were compiled separately.
+## The migration label has a limited scope {#s-b128078725}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 8.99° to 21.4°. The mapped range area is 396905.38 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-b319de5199}
-EltonTraits 1.0 also contains an older *Celeus castaneus* record in the same family. This page compares that name-and-family match with the currently accepted COL26.8 entry, using two ecological field groups. The record follows an earlier bird or MSW3 mammal taxonomy, so the match does not resolve later splits or synonymies.
+## Scope of the historical trait entry {#s-b319de5199}
+EltonTraits 1.0 has a same-name, same-family record for Celeus castaneus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-4387746100}
-The nonzero food weights are invertebrates 70%; fruit 10%; seeds, nuts and spores grouped together 10%; and other plant material 10%, with fungi included in that last source category. The A code indicates high compiler confidence in the source and diet information. These percentages standardize written descriptions rather than measure the diet directly, and a zero does not prove that a food is never eaten. Labels such as Nect, Seed and PlantO are broader than their everyday names; they do not mean an animal eats only nectar, seeds or plants.
+## Relative weights across food categories {#s-4387746100}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 70%; fruit 10%; seeds or nuts 10%; other plant material 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-33d6d3a642}
-Foraging-position weights marked species-level are 70% in or just above the canopy and 30% in trees or tall bushes from 2 m upward but below the canopy. They estimate relative use while feeding, not nest sites, all habitat or time over an entire day. The source distinguishes surface-water, understory, mid/high, canopy and aerial categories; these are not elevation bands and cannot be used to calculate flight heights or habitat area.
+## Foraging positions are not a time budget {#s-33d6d3a642}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 30%; in the canopy 70%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-052ff8ff68}
-Both selected field groups carry the source label Ref_7. Diet, feeding position and activity can come from different materials, and Ref_7 in a bird reference table does not necessarily identify the same work as Ref_7 in a mammal table. The archive preserves the complete source strings with their file, row, field group and reference table. The underlying books and papers have not been read individually; the labels are not extra independent observations.
+## Sources and field limits {#s-052ff8ff68}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-a7c6321896}
 AVONET v7 is a historical data source. Its morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so the morphological sample counts cannot be assigned to the mass figure. Habitat, diet and migration are broad categories, and the geographic summary covers historical breeding and resident ranges only. A one-to-one historical crosswalk and matching catalogue name support the association used here; they do not prove that species concepts remained equivalent through later splits or lumps. Other sources are needed for reproduction, current populations and conservation status.

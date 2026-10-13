@@ -1,5 +1,5 @@
-## 历史属名与物种概念 {#s-805fda1f43}
-固定 COL26.8 以 Pternistis leucoscepus（4PV6W）组织本页。AVONET v7 BirdLife 2020 第 2520 行与 eBird 2021 对应同名，Avibase ID 为 AVIBASE-90AFDF9E；BirdTree 表对应 Francolinus leucoscepus，原匹配类型为 1BL to 1BT。已读 fr／pt 名称分片未找到本种旧 Francolinus 组合的异名记录，表内对应仍作为历史来源保留。名称关联支持查回历史行，不证明各年代所有物种边界相同。
+## COL26.8 中的名称身份 {#s-805fda1f43}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pternistis leucoscepus (G. R. Gray, 1867) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与推算边界 {#s-d97519f7e5}
 形态共测 4 只（雌 2、雄 2），完整测量 2 只。鼻孔前缘至喙尖均值 20.2 mm，跗蹠 58 mm，未压平翼长 199 mm，手翼指数 22.8。这些是物种行均值，指数按 Kipp 距离／翼长 ×100 定义；不能换成个体范围或飞行速度。

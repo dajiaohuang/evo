@@ -1,5 +1,5 @@
-## 沿旧 Thryothorus 组合查历史行 {#s-ea58d30109}
-本页按 COL26.8 的 Cantorchilus superciliaris（QPN4）组织。BirdLife 2020 第 8450 行与 eBird 2021 第 1665 行同名，Avibase ID 为 AVIBASE-18C1675B，类型 1BL to 1eBird；BirdTree 第 1658 行记 Thryothorus superciliaris，类型 1BL to 1BT。本次读到目录异名 56N85，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-ea58d30109}
+《Catalogue of Life》COL26.8（2026-08-20）将 Cantorchilus superciliaris (Lawrence, 1869) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-6522059778}
 形态共 11 只鸟：雌 3、雄 8、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 15.3 mm、跗蹠 23.7 mm、未压平翼长 66.3 mm、尾长 55.2 mm、手翼指数 12.2 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

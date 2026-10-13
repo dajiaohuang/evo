@@ -1,4 +1,6 @@
-## 从六条有测量来源的记录开始 {#s-8da89cbe71}
+## 记录分类与直接上级关系 {#s-8da89cbe71}
+COL26.8 将 Colaptes 记录为属；其直接上级记录为 Picinae。
+
 COL26.8 的 Colaptes 属下有本批选入的 6 条 AVONET1_BirdLife 有测量来源的记录：Colaptes atricollis、Colaptes auricularis、Colaptes chrysoides、Colaptes fernandinae、Colaptes pitius 和 Colaptes punctigula。本页提供本批记录的阅读路径，不是完整接受后代清单。目录名称沿用固定分类层级，测量值仍受 AVONET v7 的历史采样和分类范围约束。
 
 ## 对照本批数值 {#s-98786a980d}

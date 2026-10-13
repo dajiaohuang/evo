@@ -1,19 +1,39 @@
 ## Which fossil records this name represents {#s-85d69431a4}
 Prototherium ausetanum is accepted in the fixed PBDB mammalia working roster, with database parent Prototherium. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-b77ad8beae}
-Collection Mas Vilageliu, region code ES, stratum name Vic-Manlleu; database age bracket 41.03–37.71 Ma, early interval Bartonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Prototherium ausetanum is listed in the PBDB snapshot under taxon txn:336957. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-65870c5ce8}
-Selected occurrences have an outer age envelope of 41.03–37.71 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Mas Vilageliu, occurrence occ:1316025 (41.03–37.71 Ma); one supplying the younger bound is Mas Vilageliu, occurrence occ:1316025 (41.03–37.71 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-b77ad8beae}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-962e547ed9}
-Mas Vilageliu has collection-environment label marine indet.; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1316025; PBDB collection col:49689. Locality cnm=Mas Vilageliu; place fields cc2=ES. Recorded age bounds: eag 41.03 Ma; lag 37.71 Ma; PBDB interval fields oei=Bartonian. Stratigraphic fields sfm=Vic-Manlleu. Recorded attribution Balaguer and Alba 2016; PBDB reference ref:58204.
 
-## Follow collection records back to references {#s-ba46bf2e92}
-Mas Vilageliu carries database reference attribution Balaguer and Alba (2016), identifier ref:58204. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Ebro Basin
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Tona: 31 T 434901 E–4632452 N
+
+The site of Mas Vilageliu is located 400 m northwest of the Mas Vilageliu farmhouse and 2km southwest of the town of Tona (Barcelona, Catalonia, Spain), at the NE end of the Ebro Basin. In this area, Middle to Late Eocene marine sediments crop out along a SW-NE axis from Igualada to Vic (Serra-Kiel et al., 2003). Specifically, the site is located within the Vic-Manelleu Formation, in a layer consisting of the typical, grayish to bluish marls that are Bartonian in age (Pisera and Busquets, 2002).
+
+
+## Age bounds on the recorded occurrences {#s-65870c5ce8}
+Across these selected PBDB rows, the largest recorded eag=41.03 Ma in occ:1316025; the smallest recorded lag=37.71 Ma in occ:1316025. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-962e547ed9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1316025: PBDB original-identification field idn=Prototherium ausetanum n. sp.; PBDB taxon-name field tna=Prototherium ausetanum; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=2.210000, lat=41.840000; paleocoordinate/model fields pm1=gplates, pln=7.55, pla=35.58.
+
+## References attached to each record {#s-ba46bf2e92}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1316025: Recorded attribution Balaguer and Alba 2016; PBDB reference ref:58204.
 
 ## Evidence limits {#s-d20261d7ef}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

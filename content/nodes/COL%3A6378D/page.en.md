@@ -1,4 +1,6 @@
-## Which trait records are available for the genus? {#s-65ec88bef0}
+## Recorded classification and direct parent {#s-65ec88bef0}
+COL26.8 records Homopus at genus rank, with Testudinidae as its direct parent.
+
 Pinned COL26.8 places Homopus in Testudinidae. The ReptTraits v1-2 material linked here contains two species records with trait-specific citations: Homopus areolatus and Homopus femoralis. The workbook retains its 2023 name framework. These records offer a reading route into the genus, not a complete list of its accepted species.
 
 ## How should the two shell-length records be compared? {#s-55e743fefb}

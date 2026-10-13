@@ -1,18 +1,44 @@
-## Which fossil records this name represents {#s-dccc4441f3}
-Diatryma gigantea is accepted in the fixed PBDB dinosaur working roster, with database parent Diatryma. This guide uses 9 eligible species-level occurrence records from 9 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-dccc4441f3}
+Diatryma gigantea is listed in the PBDB snapshot under taxon txn:70379. This archived guide contains 9 selected occurrence rows, linked to 9 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-3241691722}
-Collection One and One Half Miles Southeast of Dorsey Creek (Wyoming), region code US, stratum name Willwood; database age bracket 56–51.1 Ma, early interval Wasatchian. Collection Elk Creek (410 m) (Wyoming), region code US, stratum name Willwood; database age bracket 56–51.1 Ma, early interval Wasatchian. Collection South Elk Creek (Diatryma steini type locality) (Wyoming), region code US, stratum name Willwood; database age bracket 56–51.1 Ma, early interval Wasatchian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-3241691722}
+The archived guide contains 9 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-7f3a722f1c}
-Selected occurrences have an outer age envelope of 56–51.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:692498; PBDB collection col:74626. Locality cnm=One and One Half Miles Southeast of Dorsey Creek; place fields cc2=US, stp=Wyoming, cny=Big Horn. Recorded age bounds: eag 56 Ma; lag 51.1 Ma; PBDB interval fields oei=Wasatchian. Stratigraphic fields sfm=Willwood. Recorded attribution Sinclair 1928; PBDB reference ref:25094.
 
-## Read preservation setting separately from living habitat {#s-6a22bc3ef7}
-One and One Half Miles Southeast of Dorsey Creek has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. Elk Creek (410 m) has collection-environment label terrestrial indet.; collection preservation-mode label body. South Elk Creek (Diatryma steini type locality) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Lower Gray Bull formation, Lower Eocene" (= Willwood Formation, Wasatchian)
 
-## Follow collection records back to references {#s-9a142cd099}
-One and One Half Miles Southeast of Dorsey Creek carries database reference attribution Sinclair (1928), identifier ref:25094. Elk Creek (410 m) carries database reference attribution Witmer and Rose (1991), identifier ref:28816. South Elk Creek (Diatryma steini type locality) carries database reference attribution Matthew and Granger (1917), identifier ref:28819. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"about one and one half miles southeast of Dorsey Creek and, perhaps, a couple of miles or south south of the old Otto-Basin road"
 
-## Evidence limits {#s-8878b72e18}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:789672; PBDB collection col:15536. Locality cnm=Elk Creek (410 m); place fields cc2=US, stp=Wyoming, cny=Big Horn. Recorded age bounds: eag 56 Ma; lag 51.1 Ma; PBDB interval fields oei=Wasatchian. Stratigraphic fields sfm=Willwood, sls=ElkCr, slb=410, slo=bottom to top. Recorded attribution Witmer and Rose 1991; PBDB reference ref:28816.
+
+- Occurrence occ:789676; PBDB collection col:85438. Locality cnm=South Elk Creek (Diatryma steini type locality); place fields cc2=US, stp=Wyoming, cny=Big Horn. Recorded age bounds: eag 56 Ma; lag 51.1 Ma; PBDB interval fields oei=Wasatchian. Stratigraphic fields sfm=Willwood. Recorded attribution Matthew and Granger 1917; PBDB reference ref:28819.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Lower Eocene, Gray Bull horizon, Wasatch formation"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"S. Elk Creek, Bighorn Basin" (coordinate based on South Fork Elk Creek)
+
+## Age bounds on the recorded occurrences {#s-7f3a722f1c}
+Across these selected PBDB rows, the largest recorded eag=56 Ma in occ:692498; the smallest recorded lag=51.1 Ma in occ:692498. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-6a22bc3ef7}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:692498: PBDB original-identification field idn=Omorhamphus storchii n. gen. n. sp.; PBDB taxon-name field tna=Diatryma gigantea; PBDB locality-coordinate fields lng=-108.150002, lat=44.416668; paleocoordinate/model fields pm1=gplates, pln=-80.06, pla=52.14.
+- occ:789672: PBDB taxon-name field tna=Diatryma gigantea; PBDB locality-coordinate fields lng=-108.000000, lat=44.500000; paleocoordinate/model fields pm1=gplates, pln=-79.86, pla=52.19.
+- occ:789676: PBDB original-identification field idn=Diatryma steini n. sp.; PBDB taxon-name field tna=Diatryma gigantea; PBDB locality-coordinate fields lng=-108.066666, lat=44.299999; paleocoordinate/model fields pm1=gplates, pln=-80.03, pla=52.01.
+
+## References attached to each record {#s-9a142cd099}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:692498: Recorded attribution Sinclair 1928; PBDB reference ref:25094.
+- occ:789672: Recorded attribution Witmer and Rose 1991; PBDB reference ref:28816.
+- occ:789676: Recorded attribution Matthew and Granger 1917; PBDB reference ref:28819.
+
+## What these records can show {#s-8878b72e18}
+This is a guide to 9 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

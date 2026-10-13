@@ -1,44 +1,44 @@
-## The name and this data account {#s-3444a889b6}
-COL26.8 accepts Fregata andrewsi in Fregatidae. AVONET v7 uses the HBW–BirdLife 2020 name and records 4 measured individuals, all with a complete set of measurements. A trait may still have a smaller usable sample.
+## Row-reported mean and sample coverage {#s-3444a889b6}
+The AVONET v7 row for Fregata andrewsi (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 102.4 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-84225ff28e}
-Mean beak length is 102.4 mm from the front edge of the nostril to the tip; mean width is 24.4 mm and depth is 22.2 mm at the nostril edge. These are separate measurements at defined landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-84225ff28e}
+AVONET records culmen length (bill tip to skull base) 124.8 mm; beak length (nostril front edge to tip) 102.4 mm; beak width at the nostril front edge 24.4 mm; beak depth at the nostril front edge 22.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-fdf1aa865d}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 618.8 mm; mean tarsus length is 29.1 mm. The compiled mean mass is 1473.09 g and carries source category Dunning. Mass comes from separate species-average information, so the AVONET measurement count does not mean those birds were weighed.
+## Wing and body measures use separate sources {#s-fdf1aa865d}
+AVONET records unflattened wing length 618.8 mm; tarsus length 29.1 mm; distance from first secondary tip to longest primary tip 386.5 mm; length to first secondary tip 232.2 mm; hand-wing index 62.5; tail length 401.8 mm; species-average body mass 1473.09 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-788b8b2ee0}
-The dataset codes habitat as Marine, trophic niche as Aquatic predator and lifestyle as Aerial. These are broad comparison categories, not evidence that the bird uses only marine habitat or feeds only on one kind of prey.
+## Recorded habitat and feeding categories {#s-788b8b2ee0}
+AVONET classifies Fregata andrewsi as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aerial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-999ad959a8}
-The migration field classifies the record as migratory. Historical breeding and resident maps span latitudes -10.47° to -10.42°. They do not give a full account of non-breeding movements or a current position or global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-999ad959a8}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints -10.47° to -10.42°. The mapped range area is 1.89 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-4da88c61b2}
-Pinned COL26.8 accepts Fregata andrewsi in Fregatidae. The 2015 life-history archive has a same-name entry with six usable fields, each linked to cited species-level rows in the same family. The summaries may include data inherited across historical species or subspecies; a matching name does not remove that possibility.
+## Scope of the historical life-history entry {#s-4da88c61b2}
+The August 2015 database has a same-name, same-family record for Fregata andrewsi. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-91d0116ef2}
-The archive reports adult body mass of 1512.5 g. This field may combine males, females and adults of unspecified sex, so it is not a range of individual masses. No birth or hatching mass is reported here.
+## Compiled adult-mass values {#s-91d0116ef2}
+The August 2015 compilation reports adult body mass 1512.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-e7c9491275}
-The archive reports female maturity at 2191.5 d, defined by its source as age at first conception; 1 offspring per litter or egg per clutch; 47 d from oviposition to hatching; and age at flight capability of 170 d. In some source material, flight capability is represented by leaving the nest. Here, d means days. The litter/clutch field combines young and egg counts. These time fields describe different events, not one complete reproductive cycle.
+## Reproductive fields describe different events {#s-e7c9491275}
+The August 2015 compilation reports female age at first conception (source definition) 2191.5 days; median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 47 days; age at flight capability (some records mark nest departure) 170 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-67e9a87169}
-The archive's maximum_longevity_y field is 45 years, the largest record in its collected material under the source method. It is not a typical or mean wild lifespan, a limit for every individual, or a record shown to be repeatable today.
+## A maximum record is not typical lifespan {#s-67e9a87169}
+The compilation lists 45 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-0c9709d1df}
-The matching sparse rows cite Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Bennett, 1986; and Serrano-Meneses and Szekely, 2006. The source archive keeps each field's row number, value and label, with full reference explanations. A label may point to a paper, book or database. Rows are not measured individuals, and repeated citations are not independent experiments.
+## Sources and field limits {#s-0c9709d1df}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-00a93ad83b}
-Pinned COL26.8 accepts Fregata andrewsi in Fregatidae. EltonTraits 1.0 has a same-name, same-family entry used here for two ecological field groups. Its source follows earlier bird taxonomy or, for mammals, MSW3; a matching name alone does not settle modern splits or synonymies.
+## Scope of the historical trait entry {#s-00a93ad83b}
+EltonTraits 1.0 has a same-name, same-family record for Fregata andrewsi covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-a73012ddc6}
-The nonzero food weights are invertebrates 40%, fish 40%, mammals and birds 10%, and scavenged food or related discarded material 10%. Source code A marks high compiler confidence in the source and diet information. These percentages standardize literature descriptions; they are not direct measurements of diet, and an unlisted food is not proven absent.
+## Relative weights across food categories {#s-a73012ddc6}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 40%; mammals and birds 10%; fish 40%; carrion or refuse 10%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-bd7504bb4f}
-Species-level foraging weights are on or just below the water surface 80% and below the water surface 20%. These are relative weights for feeding positions, not nest sites, all habitat or a daily time budget. The archive's categories have distinct definitions; they are not elevation bands and do not give flight heights or habitat area.
+## Foraging positions are not a time budget {#s-bd7504bb4f}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 20%; around the water surface 80%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-e48d1c3069}
-The selected field groups carry the label Ref_1. Diet, foraging strata and activity may draw on different materials, and Ref_1 in a bird table need not identify the same source as Ref_1 in a mammal table. The archive preserves original labels by file, row, field group and reference table. The underlying works have not been individually read; labels do not add independent observations.
+## Sources and field limits {#s-e48d1c3069}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-8b9ae69600}
 This is a guide to historical AVONET v7 data. Morphology values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass has separate provenance and must not inherit the morphology sample count. Habitat, diet and migration are broad categories; the maps cover historical breeding and resident ranges. Matching historical names support the link to this account but do not prove that the older and COL26.8 species concepts are equivalent. Reproduction, current populations and conservation need other sources.

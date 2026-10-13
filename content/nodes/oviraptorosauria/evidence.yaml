@@ -44,7 +44,10 @@ records:
     - subjectId: taxon:oviraptorosauria
       claimKind: scientific
       claimType: fossil-range
-      statement: Oviraptorosauria is represented by nesting specimen IGM 100/979 from the Upper Cretaceous Djadokhta Formation; this local association does not establish the clade’s origin, complete range or a direct ancestor.
+      statement:
+        page: en
+        section: s-1ea3a2402b
+        part: body
       confidence: high
       confidenceRationale: The specimen, nest and formation are directly described. High confidence applies to the association and provenance, not to clade-wide chronology or behavior.
       referenceLinks:
@@ -56,7 +59,9 @@ records:
   claim-rationales.zh:
     - 标本、巢和地层有直接描述。高置信度适用于关联与出处，不适用于全支系年代或行为。
   claim-statements.zh:
-    - 偷蛋龙类由上白垩统德加多克塔组的巢中标本 IGM 100/979 表示；这一局部关联不建立支系起源、完整范围或直接祖先。
+    - page: zh
+      section: s-7069f06d2f
+      part: body
   ranges:
     - entityId: oviraptorosauria
       rangeKind: global-composite

@@ -1,5 +1,5 @@
-## 沿旧 Garrulax 名称查资料 {#s-2d4c7a0d93}
-本页按 COL26.8 的 Trochalopteron virgatum（596HH）组织。BirdLife 2020 第 4935 行与 eBird 2021 第 10701 行同名，Avibase ID 为 AVIBASE-5046CFCA，匹配为 1BL to 1eBird；BirdTree 第 10634 行记 Garrulax virgatus，匹配为 1BL to 1BT。已读 COL 旧组合 3FBS8 指向本页接受 ID。来源科名写 Leiotrichidae，目录祖先写 Leiothrichidae；两种拼写保留。这些链接定位历史资料，不证明所有年代的分类概念相同。
+## COL26.8 中的名称身份 {#s-2d4c7a0d93}
+《Catalogue of Life》COL26.8（2026-08-20）将 Trochalopteron virgatum Godwin-Austen, 1874 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 完整测量数与喙翼均值 {#s-3aa525c818}
 本行形态共 5 只鸟：雌 2、雄 3、性别未定 0，完整测量 4 只。鼻孔前缘至喙尖 10.1 mm、跗蹠 31.9 mm、未压平翼长 81.5 mm、尾长 102.6 mm、手翼指数 8.3 为历史行汇总数值。Inference=NO 不代表每项字段拥有相同分母，也不能从这些均值补雌雄差异或个体最小—最大值。手翼指数定义为 Kipp 距离／翼长 ×100，不是飞行速度或迁移距离。

@@ -1,15 +1,15 @@
-## An accepted name with compiled traits {#s-2f8809ec45}
-COL26.8 accepts Tropidophorus beccarii in Scincidae. Its ReptTraits v1-2 row links a semi-aquatic habitat category with carnivory, daytime activity, and live-bearing reproduction. These traits come from field-specific sources assembled under the workbook’s 2023 name framework, so this is a record summary, not a complete account of every population.
+## COL26.8 name and the ReptTraits row {#s-2f8809ec45}
+COL26.8 records Tropidophorus beccarii as an accepted species. The ReptTraits v1-2 row gives its Family field as Scincidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Length ends before the tail {#s-48d38fe93e}
-The reported maximum snout–vent length is 98 mm. The measurement stops at the body opening; it does not include the tail. This is the maximum in the cited compilation, not a typical size or a biological limit for every animal.
+## Length values in the archived records {#s-48d38fe93e}
+The row reports a maximum SVL of 98 mm. ReptTraits attributes this field to Meiri 2018.
 
-## A broad water-associated habitat label {#s-973b52146f}
-Microhabitat is classified as semi-aquatic, a broad category linking the record with water and land. The diet is recorded as carnivorous and active time as daytime. These labels do not identify a particular stream, prey, or fixed schedule, and may not capture all places or seasons used.
+## Habitat use and activity labels {#s-973b52146f}
+The microhabitat field classifies the recorded position as semi-aquatic (Semi-Aquatic). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Four is a compiled litter summary {#s-e355a3de9c}
-The reproductive mode is viviparous, meaning the female gives birth to live young. The consolidated litter or clutch value is 4, and both cited mean endpoints are 4. This summary does not prove that every litter contains exactly four young; the mode label does not reveal how embryos are nourished.
+## Reproductive fields in ReptTraits {#s-e355a3de9c}
+The compiled mean for offspring per litter or eggs per clutch is 4. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 4; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 4; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-997730c608}
-The trait row retains ReptTraits’ 2023 name framework, while COL26.8 supplies the accepted placement used here. The same name does not prove that historical and pinned concepts cover identical specimens. One row compresses differences among sexes, ages, localities, and populations. The maximum length and litter summary are not universal bounds or guaranteed counts; current range and conservation status are not updated. Citations preserve the source trail without claiming independent rechecking of every original study.
+## Reading this compiled trait record {#s-997730c608}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

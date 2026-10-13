@@ -1,4 +1,6 @@
-## Historical life-history coverage {#s-db8e9256c3}
+## Recorded classification and direct parent {#s-db8e9256c3}
+COL26.8 records Diopsittaca at genus rank, with Psittacidae as its direct parent.
+
 One historical life-history account is represented here: Diopsittaca nobilis. It includes adult body mass, offspring per litter or eggs per clutch, oviposition-to-hatching time and age at flight capability (which some source material defines as leaving the nest). These fields describe one archive record, not the genus’s full taxonomy or biology.
 
 ## Historical ecology coverage {#s-9759f11640}

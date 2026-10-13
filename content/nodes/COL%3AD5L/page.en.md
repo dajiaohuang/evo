@@ -1,10 +1,10 @@
-## Start with the historical entries {#s-c3f1925e40}
+## Recorded classification and member material {#s-c3f1925e40}
 The local PanTHERIA route for Nandiniidae includes 1 usable data accounts. Start with Nandinia binotata. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-9f63ba31c1}
 Among available consolidated adult-mass values in this batch, Nandinia binotata records 2167.2 g and Nandinia binotata records 2167.2 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-b55594aebb}
+## Amniote Life-history archive member records {#s-b55594aebb}
 This batch’s Nandiniidae route includes 1 historical life-history accounts; start with Nandinia binotata. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), conception or fertilization to birth (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-0e4f5436e7}

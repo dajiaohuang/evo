@@ -4,7 +4,7 @@ How do tooth pressure and bite force describe different parts of feeding perform
 Continue with Gavialis gangeticus (COL 3FFQ3) to compare force and pressure at the measured tooth positions. The Crocodylia group guide provides the wider reading route; the neighboring page retains its own sources and limits.
 
 ## Evidence limits {#s-62f491d2f4}
-A focused comparative biomechanics guide; or a complete diet or behavior account. The experiment used adult collection specimens; its feeding-ecology summary is not a field observation from this experiment.
+This is a focused account of the adult comparative bite-force and tooth-pressure experiment, not a complete diet or behaviour profile. The tested specimens were adults from collections; the feeding-ecology summary draws on earlier studies and is not a field observation from this experiment.
 
 ## Name and this data account {#s-097c448bff}
 Crocodylus johnstoni is accepted in pinned COL26.8 within Crocodylidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.

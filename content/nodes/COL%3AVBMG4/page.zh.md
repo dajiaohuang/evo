@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-5be8e6b24c}
+## 记录分类与直接上级关系 {#s-5be8e6b24c}
+COL26.8 将 Alcelaphini 记录为族；其直接上级记录为 Antilopinae。
+
 Alcelaphini 的本地 PanTHERIA 路径包括 3 条可用数据导读，可从 Connochaetes gnou、Connochaetes taurinus、Damaliscus pygargus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-89639934f0}
@@ -14,7 +16,7 @@ Alcelaphini 的本批路线包含 10 个历史条目，可从 Alcelaphus caama�
 不同来源路线的覆盖范围不同：PanTHERIA 链接 3 条资料，2015 年生活史路线收录 9 条记录，EltonTraits 列出 10 条生态条目。体重比较端点是经性别调整的历史中位数。Ernest 2003 的另一张表中，仅 2 条有最高寿命值；该字段保留的是最长记录，不是典型寿命。EltonTraits 的食物权重和类别是对文献描述的编码汇总，并非摄食量或全天活动的直接测量。历史名称关联有助于组织资料，但不能证明 Alcelaphini 现今成员共享这些特征或确定其当前保护状况。
 
 ## 沿生活史资料阅读 {#s-6e2153abf7}
-Alcelaphini 本批有 3 个历史生活史资料页，可从 [Connochaetes gnou](Connochaetes/Connochaetes_gnou/page.zh.md)、[Connochaetes taurinus](Connochaetes/Connochaetes_taurinus/page.zh.md)、[Damaliscus pygargus](Damaliscus/Damaliscus_pygargus/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Alcelaphini 本批有 3 个历史生活史资料页，可从 Connochaetes gnou、Connochaetes taurinus、Damaliscus pygargus 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-88e213085e}
 本批妊娠资料见 3 页，雌性首次繁殖年龄见 3 页，最高寿命记录见 2 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

@@ -27,6 +27,7 @@ import readingGuides from '../../../data/reading-guides.json'
 import './CatalogPages.css'
 import { LocalTreePanel } from '../tree/LocalTreePanel'
 import { NodeReadingSections } from '../reading/NodeReadingSections'
+import { ReaderInlineText } from '../reading/ReaderInlineText'
 import { ReadingCards } from '../reading/ReadingPages'
 
 const generatedClaimStatementsZh = claimStatementsZh as Record<string, string>
@@ -179,7 +180,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
             {rangeAvailable && <><span>{language === 'zh' ? '对应资料的时间范围' : 'Time range of the represented material'}</span><strong>{formatAge(profile.firstAppearance, t('Present'))}</strong><span>{t('to')}</span><strong>{formatAge(profile.lastAppearance, t('Present'))}</strong></>}
           </div>
         </div>
-        <p className="catalog-dek">{introduction?.text[locale] ?? localizedProfileText(profile, profile.overview, language, t)}</p>
+        <p className="catalog-dek"><ReaderInlineText text={introduction?.text[locale] ?? localizedProfileText(profile, profile.overview, language, t)} /></p>
         <div className="catalog-actions">
           <button className="button button--primary" onClick={() => onNavigate('explore', {
             ...(rangeAvailable ? { age: midpoint.toFixed(1) } : {}),
@@ -258,7 +259,7 @@ function TaxonDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
             <button key={profile.id} onClick={() => onNavigate('taxa', { id: profile.id })}>
               <span>{language === 'zh' ? profile.commonNameZh : profile.commonName}</span>
               <h2><em>{profile.scientificName}</em></h2>
-              <p>{profile.readerSections?.find(section => section.id === 'reading-introduction')?.text[language] ?? localizedProfileText(profile, profile.overview, language, t)}</p>
+              <p><ReaderInlineText text={profile.readerSections?.find(section => section.id === 'reading-introduction')?.text[language] ?? localizedProfileText(profile, profile.overview, language, t)} /></p>
               <small>{t(profile.rank)} · {hasPublishedRange(profile) ? `${formatAge(profile.firstAppearance, t('Present'))}—${formatAge(profile.lastAppearance, t('Present'))}` : t('Unavailable')}</small>
             </button>
           )

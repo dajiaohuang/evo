@@ -1,19 +1,44 @@
 ## Which fossil records this name represents {#s-56586f3d3b}
 Hyperdichobune hammeli is accepted in the fixed PBDB mammalia working roster, with database parent Hyperdichobune. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-8291544cb4}
-Collection Bouxwiller (Alsace Region), region code FR; database age bracket 48.07–41.03 Ma, early interval Lutetian. Collection Eckfeld Maar (NHMM collection) (Eifel), region code DE, stratum name Eifel; database age bracket 48.07–41.03 Ma, early interval MP 13. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Hyperdichobune hammeli is listed in the PBDB snapshot under taxon txn:53723. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9405fe06bf}
-Selected occurrences have an outer age envelope of 48.07–41.03 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Bouxwiller, occurrence occ:336680 (48.07–41.03 Ma); one supplying the younger bound is Bouxwiller, occurrence occ:336680 (48.07–41.03 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-8291544cb4}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-e6be220388}
-Bouxwiller has collection-environment label terrestrial indet.; collection preservation-mode label body. Eckfeld Maar (NHMM collection) has collection-environment label crater lake; collection preservation-mode label mold/impression,adpression,original carbon. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:336680; PBDB collection col:31609. Locality cnm=Bouxwiller; place fields cc2=FR, stp=Alsace Region, cny=Bas-Rhin Departement. Recorded age bounds: eag 48.07 Ma; lag 41.03 Ma; PBDB interval fields oei=Lutetian. Recorded attribution Sudre 1978; PBDB reference ref:8517.
 
-## Follow collection records back to references {#s-91d9fd7d63}
-Bouxwiller carries database reference attribution Sudre (1978), identifier ref:8517. Eckfeld Maar (NHMM collection) carries database reference attribution Franzen (2004), identifier ref:28398. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Collection used as a standard biostratigraphic level ("Niveau repere") for European mammal ages.
+
+- Occurrence occ:785020; PBDB collection col:24201. Locality cnm=Eckfeld Maar (NHMM collection); place fields cc2=DE, stp=Eifel, cny=Eckfeld. Recorded age bounds: eag 48.07 Ma; lag 41.03 Ma; PBDB interval fields oei=MP 13. Stratigraphic fields sfm=Eifel. Recorded attribution Franzen 2004; PBDB reference ref:28398.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The Eifel is the German part of the outcropping Variscan Basement west of the river Rhine and nort of the river Mosel.
+"MP 13... recently dated at 44.3 +/- 0.4 million years BP (Mertz et al. 2000)" (Franzen 2004)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+...in the vicinity of Eckfeld near Manderscheid (Eifel, Germany)
+
+## Age bounds on the recorded occurrences {#s-9405fe06bf}
+Across these selected PBDB rows, the largest recorded eag=48.07 Ma in occ:336680; the smallest recorded lag=41.03 Ma in occ:336680. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-e6be220388}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:336680: PBDB original-identification field idn=Hyperdichobune hammeli n. sp.; PBDB taxon-name field tna=Hyperdichobune hammeli; abundance fields abv=17, abu=specimens; PBDB locality-coordinate fields lng=7.466667, lat=48.816666; paleocoordinate/model fields pm1=gplates, pln=13, pla=41.
+- occ:785020: PBDB taxon-name field tna=Hyperdichobune hammeli; PBDB locality-coordinate fields lng=6.840000, lat=50.099998; paleocoordinate/model fields pm1=gplates, pln=12.55, pla=42.3.
+
+## References attached to each record {#s-91d9fd7d63}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:336680: Recorded attribution Sudre 1978; PBDB reference ref:8517.
+- occ:785020: Recorded attribution Franzen 2004; PBDB reference ref:28398.
 
 ## Evidence limits {#s-554170da24}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -10,47 +10,47 @@ One highlighted continuous 20-minute recording shows a bird first standing with 
 ## Balance trajectories cannot replace muscle recordings {#s-10bbc255da}
 Localized loading and small excursions are consistent with balance requiring little muscle activity, but the authors could not exclude sustained, high muscle coactivation. The study reports no direct muscle-activity or metabolic measurements. Keep the juvenile live-bird force-plate results separate from joint angles measured in adult P. ruber cadavers. Passive support is an experimentally supported candidate mechanism; muscular effort in live birds remains unmeasured.
 
-## The name and this data account {#s-1eaf381e5f}
-COL26.8 accepts Phoenicopterus chilensis in Phoenicopteridae. This AVONET v7 account uses the source’s HBW–BirdLife 2020 name and records with Inference=NO. Four individuals have measurements, and all four have a complete morphological set; the usable sample size can still differ by trait. The historical name is a data link, not proof that the 2020 and COL26.8 species concepts are identical.
+## Row-reported mean and sample coverage {#s-1eaf381e5f}
+The AVONET v7 row for Phoenicopterus chilensis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 79.1 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-50782cc219}
-The AVONET means are 79.1 mm from the front edge of the nostril to the beak tip, 24.4 mm wide at the nostril edge and 35 mm deep at that landmark. Length, width and depth are separate dimensions measured at defined points; none is a field-identification cutoff.
+## Beak measurements at defined landmarks {#s-50782cc219}
+AVONET records culmen length (bill tip to skull base) 106.4 mm; beak length (nostril front edge to tip) 79.1 mm; beak width at the nostril front edge 24.4 mm; beak depth at the nostril front edge 35 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-877b7b2658}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 401.8 mm; mean tarsus length is 245 mm. AVONET’s compiled mean mass is 2277 g and its source category is Dunning. The mass is a separate species-average record, so it does not show that all four morphological specimens were weighed.
+## Wing and body measures use separate sources {#s-877b7b2658}
+AVONET records unflattened wing length 401.8 mm; tarsus length 245 mm; distance from first secondary tip to longest primary tip 175 mm; length to first secondary tip 226.8 mm; hand-wing index 43.5; tail length 136.5 mm; species-average body mass 2277 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-91a4b5b8cf}
-AVONET assigns the habitat category Wetland, trophic-niche category Aquatic predator and lifestyle category Terrestrial. These are dominant categories for cross-species comparison, not evidence that the species uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-91a4b5b8cf}
+AVONET classifies Phoenicopterus chilensis as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-abdb46153f}
-The migration field classifies this record as sedentary. Historical breeding and resident maps extend between latitudes -54.65° and -1.96°. They do not give a complete account of non-breeding movements, a current position or the species’ full global occupancy. The geography and morphological measurements come from separate compilation steps.
+## The migration label has a limited scope {#s-abdb46153f}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -54.65° to -1.96°. The mapped range area is 3269778.02 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-354273c555}
-COL26.8 accepts Phoenicopterus chilensis in Phoenicopteridae. The August 2015 archive’s same-name entry is row 8483 and has seven focal fields supported by cited, same-name and same-family rows in the field-specific sparse tables. Such a match supports this association but does not erase historical species or subspecies inheritance, or establish equivalence to the current COL26.8 concept.
+## Scope of the historical life-history entry {#s-354273c555}
+The August 2015 database has a same-name, same-family record for Phoenicopterus chilensis. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-c6b5eb886e}
-The archive reports adult body mass of 2615 g and birth-or-hatching mass of 85 g. They describe different life stages, not a growth series for the same individuals. The adult summary can combine males, females and adults of unspecified sex; neither value gives a species-wide range of individual masses.
+## Compiled adult-mass values {#s-c6b5eb886e}
+The August 2015 compilation reports adult body mass 2615 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-ceab18a2d1}
-The archive lists female age at first conception as 1825 d, offspring per litter or eggs per clutch as 1, oviposition-to-hatching time as 29.75 d, and fledging age as 68.5 d; d means days. Some source material defines fledging age as leaving the nest. The litter/clutch field combines offspring and egg counts, and any fractional summary would not describe a fraction of an individual from one event. These timing fields refer to different events, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-ceab18a2d1}
+The August 2015 compilation reports female age at first conception (source definition) 1825 days; median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 29.75 days; age at flight capability (some records mark nest departure) 68.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-524cf9e15f}
-The archive’s maximum_longevity_y field is 50 years, the largest lifespan record found under the source method. It is not typical lifespan, mean lifespan in the wild, a survival ceiling for every bird or a current record known to be repeatedly attainable.
+## A maximum record is not typical lifespan {#s-524cf9e15f}
+The compilation lists 50 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-b04df96cd2}
-The archived labels connect adult mass to Dunning, 1992 (a median of 19 source entries), female maturity to de Magalhaes and Costa, 2009 (a median of five), and clutch size to Szekely, Lislevand, and Figuerola, 2007 (a median of seven). Birth weight cites Bennett, 1986; incubation combines Bennett, 1986 and de Magalhaes and Costa, 2009 from a median of six entries; fledging age cites BC Birds - Meyers et al., 2009 from a median of four; maximum longevity cites Wasser, D.E. and P.W. Sherman, 2010. Other labels include Ricklefs, 2010b, Dyke and Kaiser, 2010, Jetz, Sekercioglu, and Bohning-Gaese, 2008, and additional records. A label may point to a paper, book or database; counts of source entries are not measured-individual counts or independent replications.
+## Sources and field limits {#s-b04df96cd2}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-661ec4afa1}
-COL26.8 accepts Phoenicopterus chilensis in Phoenicopteridae. EltonTraits 1.0 contains a historical same-name, same-family record with diet and foraging fields. The compilation follows earlier bird taxonomy (and MSW3 for mammals); a matching name does not resolve later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-661ec4afa1}
+EltonTraits 1.0 has a same-name, same-family record for Phoenicopterus chilensis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-edd58f5adb}
-EltonTraits assigns 100% of the relative food weight to invertebrates. Its A code indicates high compiler confidence in the source and diet information. This percentage is a standardized reading of literature descriptions, not a direct measurement of diet composition; zero in another category would not prove the bird never eats that food. Nect, Seed and PlantO are source categories broader than their everyday names, not evidence of an exclusively nectar-, seed- or plant-based diet.
+## Relative weights across food categories {#s-edd58f5adb}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-daf9b69001}
-The archive flags its species-level foraging-stratum record as 100% on or just below the water surface. This estimates relative use of a feeding position, not a nest site, all habitat or a full-day time budget. Surface-water, understory, mid/high, canopy and aerial are separate source-defined categories, not elevation bands from which to infer flight height or habitat area.
+## Foraging positions are not a time budget {#s-daf9b69001}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-b6d147f91d}
-Both used field groups carry Ref_1, which resolves here to Handbook of the Birds of the World, volume 1 (Del Hoyo, Elliott, Sargatal and Christie, 1992–2011). The same label supports diet and foraging for this record, but reference numbers are table-specific and do not identify one source across bird and mammal tables. The archive retains original strings by file, row, field group and reference table. The underlying book has not been individually reviewed; its citation is not an additional independent observation.
+## Sources and field limits {#s-b6d147f91d}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-01ded61662}
 AVONET v7 reports historical species averages, not identification cutoffs or ranges of individual variation. The four complete morphological sets do not supply the separately sourced mass mean. Habitat, diet and migration are coarse categories; the map summary covers historical breeding and resident ranges. Historical crosswalks and matching names support the record link, not equivalence between HBW–BirdLife 2020 and COL26.8 after taxonomic splits or lumps. Reproduction, present populations and conservation status need other sources.

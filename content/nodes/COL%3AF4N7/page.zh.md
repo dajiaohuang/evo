@@ -1,5 +1,5 @@
-## 沿 Caprimulgus 旧名定位 {#s-0079d0eca4}
-本页按COL26.8 Antrostomus rufus（F4N7）、Caprimulgidae（7PQ）组织。BirdLife 2020第609行与eBird 2021第730行同名，eBird两侧Avibase ID同为AVIBASE-F331D204，类型1BL to 1eBird。BirdTree第731行记Caprimulgus rufus，类型1BL to 1BT；逐字目录异名QSQ3指向接受种F4N7。名称关系提供定位，不证明不同版本物种范围完全相同。
+## COL26.8 中的名称身份 {#s-0079d0eca4}
+《Catalogue of Life》COL26.8（2026-08-20）将 Antrostomus rufus (Boddaert, 1783) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-42a4b6fdff}
 形态共 4 只鸟：雌 0、雄 3、性别未定 1；完整测量 3 只。鼻孔前缘至喙尖 10.1 mm、跗蹠 18.4 mm、未压平翼长 169 mm、尾长 116.2 mm、手翼指数 46.1 是历史行均值。总数大于完整数，不称每只鸟都有整套字段。没有已定雌鸟，仍有一只性别未定鸟，不能称全部为雄鸟或建立雌雄比较。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；指数不是飞行速度，翼长也不是实测飞行能力。

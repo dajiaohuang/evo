@@ -1,4 +1,6 @@
-## 沿 Cettia 旧名读七条历史行 {#s-466d84aea6}
+## 记录分类与直接上级关系 {#s-466d84aea6}
+COL26.8 将 Horornis Hodgson, 1845 记录为属；其直接上级记录为 Cettiidae。
+
 本入口按 COL26.8 Horornis（62V9J）与 Cettiidae（7Y5）组织七条导读；原行科名 Scotocercidae 单独保留。七条 BirdLife／eBird 同名且 Avibase ID 分别相同，关联类型均为一对一；BirdTree 均用 Cettia。六个逐字旧组合有目录异名，brunnescens 的所读分片只找到 Horeites brunnescens，不把它替换成已确认 Cettia 异名。名称对应不证明跨版本物种范围相同。属记录十二个直接子项，本批七页不计完整属覆盖或自然史。
 
 ## 两只雌鸟与性别未定鸟分开读 {#s-292de144c1}
@@ -10,9 +12,9 @@ acanthizoides 四只雌二雄二，完整四只；parens 两只均雌、完整�
 ## 先读性别样本，再比较迁移代码 {#s-972cd16c96}
 先从 parens 的两只雌鸟开始，再读 diphone 的三只未定鸟和 ruficapilla 的一只未定鸟。对读 acanthizoides／brunnescens 的半开放灌丛与部分迁移，再与 diphone 的密集灌丛与留居类别比较；用 fortipes 说明相同森林类别不要求相同迁移代码。回查每条 Cettia 旧名，保留 brunnescens 的逐字异名缺口，不把来源科名改成当前科名。
 
-第1组：[Horornis acanthizoides](Horornis_acanthizoides/page.zh.md)、[Horornis parens](Horornis_parens/page.zh.md)、[Horornis seebohmi](Horornis_seebohmi/page.zh.md)、[Horornis fortipes](Horornis_fortipes/page.zh.md)
+第1组：Horornis acanthizoides、Horornis parens、Horornis seebohmi、Horornis fortipes
 
-第2组：[Horornis ruficapilla](Horornis_ruficapilla/page.zh.md)、[Horornis diphone](Horornis_diphone/page.zh.md)、[Horornis brunnescens](Horornis_brunnescens/page.zh.md)
+第2组：Horornis ruficapilla、Horornis diphone、Horornis brunnescens
 
 ## 证据边界 {#s-84fbdd677e}
 七条所选历史行不计十二个目录直接子项的完整内容；来源 Scotocercidae 与当前 Cettiidae 分开，六逐字 Cettia 异名与 brunnescens 的未确认旧组合分开。两只雌鸟、性别未定鸟、完整测量和独立体重保留分母；不补实测食谱、迁移类型、路线、繁殖、完整自然史。

@@ -1,5 +1,5 @@
-## Separate species and subspecies targets through older genera {#s-84fc2f8cdb}
-Pinned COL26.8 organizes this page at Sporophila fringilloides (9GBHL). BirdLife 2020 row 8209 and eBird 2021 row 9843 share the name and Avibase ID AVIBASE-233E719A, with type 1BL to 1eBird; BirdTree row 9784 gives Dolospingus fringilloides, with type 1BL to 1BT. Exact catalogue synonym 378P8 points to this accepted species. Name relationships locate records without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-84fc2f8cdb}
+Catalogue of Life release COL26.8 records Sporophila fringilloides (Pelzeln, 1870) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-cad53cefa3}
 Morphology comprises 6 birds: 2 female, 4 male and 0 unsexed; 5 complete sets. Nostril-to-tip beak length 10 mm, tarsus 15 mm, unflattened wing 61.3 mm, tail 50.8 mm and hand-wing index 12.7 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular foods.

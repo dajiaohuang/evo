@@ -1,17 +1,17 @@
-## The name in the limited ecology record {#s-c309ea95b8}
-Zosterops luteirostris is accepted in COL26.8 within Zosteropidae. The name and family link it to its historical same-name AVONET v7 record. Two one-to-one crosswalks identify that record but do not resolve species concepts after later splits or lumps.
+## A historical name within this ecology row {#s-c309ea95b8}
+The AVONET row uses historical BirdLife name Zosterops luteirostris. That source label is retained as an association and does not establish identity with a later COL26.8 concept. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-8b2cfa5106}
-The source classifies habitat as tall-tree vegetation with a relatively closed canopy. Its feeding niche draws on multiple resource categories. The primary-lifestyle category describes much time perched above ground on vegetation, rocks or other substrates. Using multiple niches does not imply identical proportions across seasons, regions or individuals. These broad categories cannot replace food lists, behavioural observations or local microhabitat descriptions.
+## Recorded habitat and feeding categories {#s-8b2cfa5106}
+The ecology-only AVONET row classifies Zosterops luteirostris as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-a8f1331200}
-AVONET records migration as sedentary. This is the source’s sedentary label; regional seasonal movements are not separately listed. The record does not supply current routes, schedules or movement distances for every population.
+## The migration label has a limited scope {#s-a8f1331200}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-379bc82575}
-Historical breeding and resident maps span latitudes from -8.11° to -8.04°. The source worksheet associates these fields with BirdLife/HBW 2019.1 maps accessed on 27 March 2020. These endpoints summarize a mapped range; they are neither a locality list nor evidence that every place in it is occupied, and exclude a complete account of non-breeding movements. They do not establish current distribution, survival or conservation status.
+## Mapped range is not a locality list {#s-379bc82575}
+Historical breeding and resident maps span latitude endpoints -8.11° to -8.04°. The mapped range area is 35.16 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-4cb51f8d51}
-All 4 ecological categories have readable records, but they do not amount to a complete account of this species. Historical latitude summaries describe the mapped breeding and resident range only. The source flags no biometric inference, while mass comes from an EltonTraits genus average; this page therefore does not interpret morphology or mass as measurements of this species. The record supplies no complete account of reproduction, growth or conservation. Missing fields do not show that the species lacks those traits.
+## Fields outside this ecology-only view {#s-4cb51f8d51}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
 ## Evidence limits {#s-807eab369b}
 This route offers historical ecological categories and breeding/resident map summaries. AVONET1_BirdLife uses HBW–BirdLife 5.0 names from December 2020. Same-name records, matching families and one-to-one BirdLife/eBird/BirdTree crosswalks link the historical record to COL26.8 but do not establish identical species concepts after taxonomic changes. Ecology fields are coarse literature-derived categories; they summarize source labels rather than provide the underlying species accounts. The source marks no biometric inference, yet mass is an EltonTraits genus average and morphology and mass fields are withheld from interpretation. Historical maps do not assess present distribution, population or conservation.

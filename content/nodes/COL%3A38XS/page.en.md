@@ -1,4 +1,6 @@
-## Compare food, feeding positions and activity periods {#s-f30968a0f3}
+## Recorded classification and direct parent {#s-f30968a0f3}
+COL26.8 records Bauerus at genus rank, with Antrozoini as its direct parent.
+
 This batch’s Bauerus route includes 1 historical entries; start with Bauerus dubiaquercus. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
 ## Life-history evidence limits {#s-a5e9d36eca}

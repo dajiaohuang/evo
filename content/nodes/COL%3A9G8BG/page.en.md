@@ -1,5 +1,5 @@
-## Separate species and subspecies targets through older genera {#s-e356f3901e}
-Pinned COL26.8 organizes this page at Sporophila angolensis (9G8BG). BirdLife 2020 row 8196 and eBird 2021 row 9830 share the name and Avibase ID AVIBASE-8F23E84F, with type 1BL to 1eBird; BirdTree row 9771 gives Oryzoborus angolensis, with type 1BL to 1BT. Exact catalogue synonym 6SZGK points to this accepted species. Name relationships locate records without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-e356f3901e}
+Catalogue of Life release COL26.8 records Sporophila angolensis (Linnaeus, 1766) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-c50249ba96}
 Morphology comprises 31 birds: 12 female, 17 male and 2 unsexed; 4 complete sets. Nostril-to-tip beak length 9.4 mm, tarsus 16 mm, unflattened wing 57.7 mm, tail 51.9 mm and hand-wing index 15.5 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular foods.

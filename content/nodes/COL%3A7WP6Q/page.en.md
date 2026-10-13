@@ -1,5 +1,5 @@
-## Tracing the historical genus name {#s-95d47094fa}
-COL26.8 accepts Psilopogon virens as ID 7WP6Q. The AVONET BirdLife 2020 row 9705 and eBird 2021 row 8672 both use Psilopogon virens with Avibase ID AVIBASE-F5636BF7. BirdTree row 8627 records Megalaima virens and a 1BL to 1BT match; COL older-combination record 7VSWF points to 7WP6Q. These are links between historical name records and the accepted entry, not proof of unchanged species boundaries.
+## A name fixed to COL26.8 {#s-95d47094fa}
+Catalogue of Life release COL26.8 records Psilopogon virens (Boddaert, 1783) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and beak/wing averages {#s-0c0cbc2b8c}
 Eight birds contribute to the AVONET sample—four female, four male and none unsexed—with complete measurements for four. The recorded means are 29.6 mm from nostril to bill tip, 14.5 mm beak width, 33.4 mm tarsus and 138.4 mm unflattened wing; hand-wing index is 21.7. Inference=NO does not make every trait's denominator eight. The index is Kipp's distance divided by wing length, ×100; it is not flight speed, and beak width is not a feeding-performance test.

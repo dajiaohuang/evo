@@ -5,5 +5,5 @@ The Ambodimahabibo description characterized the back, shoulders, and limbs as m
 The type locality and records known to the paper were limited to Ambodimahabibo in northwestern Madagascar, west of the Mahajamba River and south of the Sofia River. The original study called for surveys; local sampling does not establish full range or current occupancy. The guide separates the 2007 biological description from the 2017 correction.
 
 ## Evidence limits {#s-63c4367d9c}
-The guide separates the 2007 biological description from the 2017 nomenclatural correction. Morphology and distribution remain limited-sample records, not a population survey. The Chinese name is editorial, and this guide is.
+The guide separates the 2007 biological description from the 2017 nomenclatural correction. Morphology and distribution remain limited-sample records, not a population survey. The Chinese name is editorial.
 

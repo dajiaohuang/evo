@@ -1,10 +1,10 @@
-## Local data reading route {#s-5c5d913c53}
+## Recorded classification and member material {#s-5c5d913c53}
 This batch’s Cariamiformes route includes 2 measured species records. Start with Cariama cristata, Chunga burmeisteri. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-c456351f0f}
 Compiled mean mass endpoints in this batch are Chunga burmeisteri at 1298 g and Cariama cristata at 1400 g. Represented habitat categories include Shrubland, Woodland; trophic niches include Invertivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-bedfbb4236}
+## Amniote Life-history archive member records {#s-bedfbb4236}
 This batch’s Cariamiformes route includes 1 historical life-history accounts; start with Cariama cristata. More frequently represented fields include adult body mass (1 entries), offspring per litter or eggs per clutch (1 entries), mass at birth or hatching (1 entries), oviposition to hatching (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-492620c99c}

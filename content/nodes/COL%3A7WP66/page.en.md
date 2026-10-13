@@ -1,5 +1,5 @@
-## Tracing the historical genus name {#s-608f1d6f09}
-The pinned COL26.8 record places this account under Psilopogon flavifrons (7WP66). AVONET v7 The BirdLife 2020 row 9688 and eBird 2021 row 8655 use the same name and Avibase ID AVIBASE-FBFB6ED7; BirdTree row 8610 gives Megalaima flavifrons, with match type 1BL to 1BT. Read COL older-combination record 7VSVV points to this accepted ID. These associations locate historical data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-608f1d6f09}
+Catalogue of Life release COL26.8 records Psilopogon flavifrons (Cuvier, 1816) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and beak/wing averages {#s-006660f4b0}
 The morphology sample includes 5 birds: 2 female, 3 male and 0 unsexed; 4 have complete measurement sets. Mean nostril-to-tip beak length is 15.3 mm, beak width 7.7 mm, tarsus 24.6 mm, unflattened wing 88.6 mm and hand-wing index 19.6. Inference=NO does not establish an identical count for every field; complete-set birds and total samples remain separate. The index is Kipp’s distance/wing length ×100, not flight speed, and beak width is not a test of fruit swallowing or pecking performance.

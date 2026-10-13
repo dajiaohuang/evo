@@ -1,15 +1,15 @@
-## Name and this data account {#s-c678d04209}
-Pinned COL26.8 places Chelodina pritchardi in Chelidae. This account follows the corresponding ReptTraits v1-2 entry and its Reptile Database 2023 name framework; one row per species cannot represent every population.
+## COL26.8 name and the ReptTraits row {#s-c678d04209}
+COL26.8 records Chelodina pritchardi as an accepted species. The ReptTraits v1-2 row gives its Family field as Chelidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Where and how it is active {#s-3aa22ca863}
-The entry classifies its microhabitat as aquatic and terrestrial. These labels summarize settings rather than map the full habitat or a fixed schedule; they do not resolve differences among populations, seasons, or life stages.
+## Habitat use and activity labels {#s-3aa22ca863}
+The microhabitat field classifies the recorded position as Aquatic/ground-dwelling (Terrestrial) [source label: Aquatic/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## How to read reproductive records {#s-51a20ff7bb}
-The recorded reproductive mode is oviparous, and the consolidated entry lists two clutches per year. This compiled frequency is not a guarantee for every individual or season. The label does not establish embryo nutrition.
+## Reproductive fields in ReptTraits {#s-51a20ff7bb}
+The row reports 2 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-3b82b277df}
-This supplemental profile does not cover the species' full morphology or ecology. ReptTraits v1-2 condenses sex, age, locality and population variation into a single row under a 2023 taxonomic framework. Reported maxima are not species-wide limits, and compiled reproductive frequency need not apply to every clutch or season. Estimated mass is not a direct weighing. Unrecorded traits, current distribution, conservation, venom and population trends require other sources. Workbook citations preserve its source chain; they do not imply independent review of every underlying study.
+## Reading this compiled trait record {#s-3b82b277df}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-98dee4dc46}
-Three traits have field-specific source labels in this profile. Body length, clutch size, egg dimensions, diet, activity time, foraging mode, and sex determination lack supported values or categories here; no related-species value is substituted.
+## Reading this compiled trait record {#s-98dee4dc46}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,5 +1,5 @@
-## 从旧 Nectarinia 名称定位资料 {#s-253776f265}
-本页按 COL26.8 的 Cinnyris regius（5Z6TR）组织。BirdLife 2020 第 5985 行与 eBird 2021 第 2357 行同名，Avibase ID 为 AVIBASE-F995313F，匹配为 1BL to 1eBird；BirdTree 第 2350 行记 Nectarinia regia，匹配为 1BL to 1BT。已读旧组合 462PF 指向本页接受 ID。旧名用于查原资料，不证明所有时期的物种范围相同。
+## COL26.8 中的名称身份 {#s-253776f265}
+《Catalogue of Life》COL26.8（2026-08-20）将 Cinnyris regius Reichenow, 1893 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 喙长、翼与尾的样本范围 {#s-123de68f44}
 形态共 5 只鸟：雌 2、雄 3、性别未定 0，4 只具完整测量。鼻孔前缘至喙尖 13.4 mm、跗蹠 15.6 mm、未压平翼长 52.7 mm、尾长 44.8 mm、手翼指数 15.9 是历史行汇总均值。Inference=NO 不代表每项字段都有 5 只独立记录；完整测量数不替代逐字段分母。喙长不能单独证明特定花种适配、舌结构或授粉效果；手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度。

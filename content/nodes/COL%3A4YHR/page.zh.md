@@ -1,4 +1,6 @@
-## 概览 {#s-e0fd0669eb}
+## 记录分类与直接上级关系 {#s-e0fd0669eb}
+COL26.8 将 Hoolock Mootnick & Groves, 2005 记录为属；其直接上级记录为 Hylobatidae Gray, 1871。
+
 COL26.8 属级 ID 4YHR 下列有接受种页面 Hoolock hoolock（6MD6Q）、H. leuconedys（3MJBF）与 H. tianxing（3MJBG）。本页是这些物种资料的阅读路径，不是属级生物学综合。
 
 ## 按研究问题选择阅读路径 {#s-979d39857b}

@@ -16,5 +16,7 @@ export const readingGroupOrder: ReadingGroup[]
 export function readingGroup(topic?: string, text?: string): ReadingGroup
 export function orderReadingSections<T extends NodeReadingSection>(sections: T[]): Array<T & { group: ReadingGroup; sourceIds: string[] }>
 export function paragraphParts(text: string): string[]
+export type ReaderInlinePart = { type: 'text' | 'emphasis' | 'code'; text: string }
+export function readerInlineParts(text: string): ReaderInlinePart[]
 export function readingSectionTitle(section: NodeReadingSection, language: 'en' | 'zh'): string
-export function catalogueReadingSections(profile: import('../data-client/types').CatalogueKnowledgeProfile | undefined, dossier: import('../data-client/types').CatalogueSpeciesDossier | undefined): NodeReadingSection[]
+export function catalogueReadingSections(profile: Omit<import('../data-client/types').CatalogueKnowledgeProfile, 'colId'> | undefined, dossier: import('../data-client/types').CatalogueSpeciesDossier | undefined): NodeReadingSection[]

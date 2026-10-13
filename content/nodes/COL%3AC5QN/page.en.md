@@ -5,5 +5,5 @@ Freire Filho and Palmeirim combined existing records with their own surveys to m
 In a 2024 master’s thesis, Carvalho used adapted boat transects along the Mapari River in the mangroves of Humberto de Campos, Maranhão, from August 2023 to January 2024. The thesis reported a relative-abundance estimate of 0.61 per 10 km for Alouatta ululata and modelled habitat use against vegetation cover, distance to agriculture and distance to settlements. Its model suggested a potentially positive association with vegetation cover, no significant effect of proximity to agriculture, and records farther from settlements. This is a local, six-month study and should be read separately from the broader, older distribution model.
 
 ## Evidence limits {#s-c32ca17126}
-Source-linked introduction;. The 2020 potential-distribution model uses historical records and uneven survey coverage; the 2024 master’s thesis covers one municipality and six months of mangrove transects. Neither is a current range-wide census or a complete species dossier.
+The 2020 potential-distribution model uses historical records and uneven survey coverage; the 2024 master’s thesis covers one municipality and six months of mangrove transects. Neither is a current range-wide census or a complete species dossier.
 

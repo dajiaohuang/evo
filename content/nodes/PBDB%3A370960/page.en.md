@@ -1,18 +1,37 @@
-## Which fossil records this name represents {#s-52220698fc}
-Euphagus magnirostris is accepted in the fixed PBDB dinosaur working roster, with database parent Euphagus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-52220698fc}
+Euphagus magnirostris is listed in the PBDB snapshot under taxon txn:370960. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-c059126245}
-Collection Little Box Elder Cave (Wyoming), region code US; database age bracket 0.129–0.0117 Ma, early interval Late Pleistocene. Collection La Brea Tar Pits (general) (California), region code US; database age bracket 0.129–0.0117 Ma, early interval Late Pleistocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-c059126245}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-96152d92de}
-Selected occurrences have an outer age envelope of 0.129–0.0117 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1197452; PBDB collection col:93277. Locality cnm=Little Box Elder Cave; place fields cc2=US, stp=Wyoming, cny=Converse. Recorded age bounds: eag 0.129 Ma; lag 0.0117 Ma; PBDB interval fields oei=Late Pleistocene. Recorded attribution Emslie 1985; PBDB reference ref:50406.
 
-## Read preservation setting separately from living habitat {#s-012c9fb98f}
-Little Box Elder Cave has collection-environment label cave; collection preservation-mode label body. La Brea Tar Pits (general) has collection-environment label tar; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"late Pleistocene (Wisconsin)"
 
-## Follow collection records back to references {#s-d768e0f6e4}
-Little Box Elder Cave carries database reference attribution Emslie (1985), identifier ref:50406. La Brea Tar Pits (general) carries database reference attribution Miller and DeMay (1942), identifier ref:75467. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"18 miles W of Douglas" (coordinate estimated from position of Little Boxelder Reservoir)
 
-## Evidence limits {#s-3b5f40d855}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1550595; PBDB collection col:190077. Locality cnm=La Brea Tar Pits (general); place fields cc2=US, stp=California, cny=Los Angeles. Recorded age bounds: eag 0.129 Ma; lag 0.0117 Ma; PBDB interval fields oei=Late Pleistocene. Recorded attribution Miller and DeMay 1942; PBDB reference ref:75467.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Specimens at La Brea mostly range from 11,500 to 35,000 years old. One of the older pits, pit 77, has a mean calibrated age of 35,370, while a younger pit, pits 61/67, has a mean calibrated age of 11,581 before present. Many other pits fall in between these dates, however, most seem to occur between 20,000–29,000 years ago
+
+## Age bounds on the recorded occurrences {#s-96152d92de}
+Across these selected PBDB rows, the largest recorded eag=0.129 Ma in occ:1197452; the smallest recorded lag=0.0117 Ma in occ:1197452. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-012c9fb98f}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1197452: PBDB taxon-name field tna=Euphagus magnirostris; PBDB locality-coordinate fields lng=-105.683334, lat=42.783333; paleocoordinate/model fields pm1=gplates.
+- occ:1550595: PBDB taxon-name field tna=Euphagus magnirostris; PBDB locality-coordinate fields lng=-118.356445, lat=34.063881; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-d768e0f6e4}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1197452: Recorded attribution Emslie 1985; PBDB reference ref:50406.
+- occ:1550595: Recorded attribution Miller and DeMay 1942; PBDB reference ref:75467.
+
+## What these records can show {#s-3b5f40d855}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

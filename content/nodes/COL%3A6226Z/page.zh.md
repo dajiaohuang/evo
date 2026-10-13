@@ -1,4 +1,4 @@
-## 从已有历史条目开始 {#s-5f02491ace}
+## 记录分类与成员材料 {#s-5f02491ace}
 Prototheria 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Ornithorhynchus anatinus、Tachyglossus aculeatus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-6f0ddcd311}

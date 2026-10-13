@@ -1,4 +1,4 @@
-## 从已有历史条目开始 {#s-a630671e5e}
+## 记录分类与成员材料 {#s-a630671e5e}
 Dicerotinae 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Ceratotherium simum、Diceros bicornis 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-09485b8975}
@@ -16,7 +16,7 @@ Dicerotinae 的本批路线包含 2 个历史条目，可从 Ceratotherium simum
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
 ## 沿生活史资料阅读 {#s-47ed1e34b3}
-Dicerotinae 本批有 2 个历史生活史资料页，可从 [Ceratotherium simum](Ceratotherium/Ceratotherium_simum/page.zh.md)、[Diceros bicornis](Diceros/Diceros_bicornis/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Dicerotinae 本批有 2 个历史生活史资料页，可从 Ceratotherium simum、Diceros bicornis 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-65c8e35db0}
 本批妊娠资料见 2 页，雌性首次繁殖年龄见 2 页，最高寿命记录见 2 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

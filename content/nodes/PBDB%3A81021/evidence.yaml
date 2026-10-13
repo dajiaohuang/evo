@@ -16,7 +16,10 @@ records:
     - subjectId: taxon:vegavis
       claimKind: scientific
       claimType: fossil-range
-      statement: Vegavis is represented by skull AMNH FARB 30899 from the 69.2–68.4 Ma Sandwich Bluff Member interval; that dated individual does not establish a genus-wide or crown-bird first appearance, and crown-waterfowl placement remains model-dependent.
+      statement:
+        page: en
+        section: s-adc162a94c
+        part: body
       confidence: high
       confidenceRationale: The specimen and interval are directly reported. High confidence is limited to that occurrence and keeps disputed topology separate.
       referenceLinks:
@@ -28,7 +31,9 @@ records:
   claim-rationales.zh:
     - 标本与区间有直接报告。高置信度仅限该记录，并把有争议的拓扑分开。
   claim-statements.zh:
-    - 维加鸟由 6920 万至 6840 万年前 Sandwich Bluff 段的头骨 AMNH FARB 30899 表示；该定年个体不建立属级或冠群鸟类首现，其冠群水禽位置仍依赖模型。
+    - page: zh
+      section: s-28c5656481
+      part: body
   ranges:
     - entityId: vegavis
       rangeKind: global-composite

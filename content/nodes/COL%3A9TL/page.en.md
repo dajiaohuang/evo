@@ -1,32 +1,30 @@
-## overview {#s-85dd07d029}
+## Living equids: feet and cheek teeth {#s-85dd07d029}
 Living equids include horses, asses and zebras. An enlarged third digit and hoof support the foot, and high-crowned cheek teeth process abrasive food. This living single-toed condition must not be assigned to every fossil equid.
 
-## Choose comparison pages by life-history fields {#s-1c228c951f}
-This batch’s Equidae route includes 7 historical life-history accounts; start with Equus asinus, Equus caballus, Equus grevyi, Equus hemionus, Equus kiang. More frequently represented fields include adult body mass (7 entries), female maturity field (defined by the source as age at first conception) (7 entries), offspring per litter or eggs per clutch (7 entries), conception or fertilization to birth (7 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
+## Life-history fields in seven accounts {#s-1c228c951f}
+Seven historical Equidae accounts include Equus asinus, E. caballus, E. grevyi, E. hemionus, and E. kiang. Adult mass, the source-defined female age at first conception, offspring per litter or eggs per clutch, and conception or fertilization to birth each appear in all seven entries. The counts describe this selection, not all accepted equids; compare the event, unit, and source conditions on each species page.
 
-## Compare food, feeding positions and activity periods {#s-402f47325a}
-This batch’s Equidae route includes 7 historical entries; start with Equus quagga, Equus zebra, Equus kiang, Equus caballus, Equus asinus. Food-category weights are available in 7, foraging strata in 7, and mammalian activity periods in 7. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
+## Food and activity fields in seven entries {#s-402f47325a}
+A separate historical ecological selection includes Equus quagga, E. zebra, E. kiang, E. caballus, and E. asinus. All seven entries have food-category weights, foraging-stratum fields, and mammalian activity-period codes. The records use coarse or categorical summaries from different sources; they are not direct measurements of each species’ diet or daily schedule, nor traits shared by all Equidae.
 
-## catalogue-profile / limitations {#s-99360307eb}
-Source-linked introductory account;. Quantitative traits, complete ranges, divergence dates and current conservation assessments require separate evidence. Catalogue counts are not counts of living wild biological species.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+## Limits across the three source selections {#s-99360307eb}
+The living-equid overview describes anatomy; it does not provide complete quantitative-trait, range, divergence-time or conservation coverage. The historical life-history subset uses one-to-one same-name and same-family matches with at least three supported fields. EltonTraits is a separate sample requiring at least two usable field groups; estimated weights, activity codes and possible congeneric borrowing do not establish shared Equidae biology.
 
-## Start with the historical entries {#s-ab1db0bc1c}
-The local PanTHERIA route for Equidae includes 3 usable data accounts. Start with Equus kiang, Equus zebra, Equus grevyi. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Three historical PanTHERIA entries {#s-ab1db0bc1c}
+The local PanTHERIA selection contains three usable Equidae accounts: Equus kiang, E. zebra, and E. grevyi. Each preserves its MSW05 name, variable-specific source conditions, and missing values. This historical selection follows a separate pinned COL26.8 navigation and is not the accepted-species denominator.
 
-## Compare body size and life history {#s-388aa16362}
-Among available consolidated adult-mass values in this batch, Equus kiang records 281138.63 g and Equus grevyi records 408000.35 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
+## Adult-mass medians in three entries {#s-388aa16362}
+Among the available sex-adjusted historical adult-mass medians, Equus kiang is 281138.63 g and E. grevyi is 408000.35 g. They summarize separate records, not individual extremes. The same source pages include life-history variables with their own definitions; the mass values alone do not characterize the family’s full body-size range or lifestyle.
 
-## Limits of these historical data {#s-97fe364dc1}
-This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
+## Limits of the PanTHERIA comparison {#s-97fe364dc1}
+This comparison selects historical entries with at least three focal fields, matching names and families, and one-to-one correspondence. It does not cover every accepted descendant. Its endpoints are compiled values rather than individual extremes, and field conditions can differ. The historical records do not establish current species concepts, distributions, or conservation.
 
-## Follow the life-history records {#s-557372db27}
-This batch offers 3 historical life-history accounts under Equidae. Start with [Equus kiang](Equus/Equus_kiang/page.en.md), [Equus grevyi](Equus/Equus_grevyi/page.en.md), [Equus zebra](Equus/Equus_zebra/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Three historical life-history accounts {#s-557372db27}
+Three historical life-history accounts are available here: Equus kiang, E. grevyi, and E. zebra. They are authored same-name entries organized under pinned COL26.8 navigation. The number describes this selection, not the full set of currently accepted Equidae.
 
-## Distinguish averages from records {#s-b0de3b33c7}
-Gestation is recorded in 3 accounts, female age at first reproduction in 2 accounts, and maximum lifespan in 3 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
+## Gestation, first reproduction, and longevity {#s-b0de3b33c7}
+Gestation appears in three accounts, female age at first reproduction in two, and maximum lifespan in three. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is the longest recorded value, not average lifespan. Sources and conditions can differ by trait, missing fields need other evidence, and matching names do not resolve historical species concepts.
 
-## Limits of these historical data {#s-2dccdfd1bf}
-This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
+## How the historical life-history values were assembled {#s-2dccdfd1bf}
+These entries are not a complete account of Equidae. They use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, values generally give literature sources equal weight regardless of sample size; inputs may be published averages, individual values, or range midpoints, and studies may be reused. Maximum lifespan is the longest record, not typical lifespan. Adult mass is not interpreted in this Ernest selection, and missing values are not filled from relatives. Original reference numbers remain, but underlying species literature and every wild, captive, or locality condition were not independently established here.
 

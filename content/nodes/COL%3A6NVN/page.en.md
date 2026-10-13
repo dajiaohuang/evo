@@ -1,4 +1,6 @@
-## Start with two measured species pages {#s-7519f5661d}
+## Recorded classification and direct parent {#s-7519f5661d}
+COL26.8 records Phoenicoparrus at genus rank, with Phoenicopteridae as its direct parent.
+
 This Phoenicoparrus route contains 2 measured species records: Phoenicoparrus andinus and Phoenicoparrus jamesi. The directory follows pinned COL26.8; biological data retain AVONET v7 names and sampling scope.
 
 ## Compare the recorded means and categories {#s-f6b5c0723f}

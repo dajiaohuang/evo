@@ -13,3 +13,6 @@ This introduction is limited to the seven accepted species in pinned COL26.8. Ex
 ## Check samples and captions in a species description {#s-3855c9988d}
 [Tamarinus kulina](Tamarinus_kulina/page.en.md) separates morphological and ddRAD samples and retains differences in type labels and dates. Genomic sampling does not supply a population count.
 
+## Recorded classification {#col26-8-identity}
+In the pinned COL26.8 catalogue, Tamarinus Trouessart, 1904 is recorded as an accepted genus.
+

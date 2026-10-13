@@ -1,15 +1,15 @@
-## A rock-associated, daytime anole {#s-16da538ea5}
-The ReptTraits row describes Anolis agassizi as associated with rocky surfaces, active by day, and carnivorous. It classifies the foraging mode as mixed, though that label does not say how often each behavior occurs. The same record gives a reported maximum snout–vent length of 114 mm and a female maximum of 77.1 mm; the row summarizes cited reports rather than every population.
+## COL26.8 name and the ReptTraits row {#s-16da538ea5}
+COL26.8 records Anolis agassizi as an accepted species. The ReptTraits v1-2 row gives its Family field as Anolidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Length measurements stop at the vent {#s-51e15f7041}
-The record gives a maximum snout–vent length of 114 mm and a female maximum of 77.1 mm. Snout–vent length runs from the tip of the snout to the vent and excludes the tail. These compiled values are not an average size or a growth limit. The measurements may come from different places or studies, so the difference alone cannot quantify size variation between sexes in a population.
+## Length values in the archived records {#s-51e15f7041}
+The row reports a maximum SVL of 114 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 77.1 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Rocks, daytime activity, and mixed foraging {#s-f99f65dae3}
-The entry calls its microhabitat saxicolous, meaning associated with rocky surfaces, and records daytime activity. Its diet is classified as carnivorous, but the field does not name prey. “Mixed” is the workbook’s broad foraging-mode label; it signals more than one mode without describing how frequently each is used. These categories are not a complete habitat map or a fixed schedule, and behavior may vary by population, season, and life stage.
+## Habitat use and activity labels {#s-f99f65dae3}
+The microhabitat field classifies the recorded position as rock-dwelling (Saxicolous). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records Mixed (Mixed). ReptTraits attributes this field to Meiri 2018.
 
-## A clutch summary of one {#s-e4e569f747}
-The workbook describes the species as egg-laying and gives a consolidated clutch or litter mean of 1; the lowest and highest reported means are also 1. These summaries can be midpoints between published means—or between reported extremes when means are unavailable—rather than averages of observed nests. They do not guarantee a single egg in every clutch or show that all populations reproduce alike.
+## Reproductive fields in ReptTraits {#s-e4e569f747}
+The compiled mean for offspring per litter or eggs per clutch is 1. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## What these records cannot establish {#s-c584645d46}
-The row condenses differences in sex, age, locality, and population; the workbook’s 2023 name framework may not match every later taxonomic concept. A reported maximum is not an absolute size limit, and a clutch summary does not predict each nest. These fields do not establish mass, juvenile size, venom, conservation status, current distribution, or population trends. The source labels preserve the workbook’s citation chain, not an independent reassessment of every underlying study.
+## Reading this compiled trait record {#s-c584645d46}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

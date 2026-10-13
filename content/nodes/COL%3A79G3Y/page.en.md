@@ -1,34 +1,33 @@
-## Name and this data account {#s-5f8fe671f3}
-Salvadora hexalepis is accepted in pinned COL26.8 within Colubridae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-5f8fe671f3}
+COL26.8 records Salvadora hexalepis as an accepted species. The ReptTraits v1-2 row gives its Family field as Colubridae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-3568684e34}
-Recorded dimensions are reported maximum total length (TL) 1143 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-3568684e34}
+The row reports maximum total length (TL) of 1143 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-b71d12b497}
-In the entry, microhabitat is Terrestrial; active timing is Diurnal. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-b71d12b497}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Scharf et al. 2015. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Stark et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Rhodin et al. 2011.
 
-## How to read reproductive records {#s-5239f49749}
-the reproductive-mode field uses the original label oviparous; consolidated mean offspring or eggs per litter/clutch 6. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-5239f49749}
+The compiled mean for offspring per litter or eggs per clutch is 6. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to De Magalhaes and Costa 2009, Feldman et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The 2015 life-history entry and this name {#s-14f3d05e73}
-Salvadora hexalepis is accepted in pinned COL26.8 within Colubridae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## A 2015 life-history row for this name {#s-14f3d05e73}
+COL26.8 records Salvadora hexalepis as an accepted species. The August 2015 life-history table has a species-name and family match (Colubridae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-1bf52815da}
-Historical summary values are adult body mass 585 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Length values in the archived records {#s-1bf52815da}
+Field-specific archive notes: adult body mass: median of 3 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 585 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
-## Reproduction and developmental timing {#s-abcb79a91e}
-Available compilation fields are offspring per litter or eggs per clutch 6 offspring/eggs; oviposition to hatching 121.72 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive events in the life-history table {#s-abcb79a91e}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 9 recorded source-table values; oviposition to hatching: median of 5 recorded source-table values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 6; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; Behler, J.L., King, F.W., 1979; Stebbins, R.C., 2003. The incubation field is 121.72 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book; Behler, J.L., King, F.W., 1979.
 
-## A longest record differs from usual lifespan {#s-98ee1e7e1a}
-The archive’s maximum_longevity_y value is 14.3 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## Longest lifespan in the archive {#s-98ee1e7e1a}
+The archive's longest-lifespan record is 14.3 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002.
 
-## How to trace these values to sources {#s-34da848101}
-Same-name sparse rows carry source labels including Boback and Guyer, 2003; Reptile Incubation book; Behler, J.L., King, F.W., 1979; Stebbins, R.C., 2003, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## The August 2015 life-history table {#s-34da848101}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-d39f706d64}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
-This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
+## Separate histories in the two archives {#s-d39f706d64}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 
-## Fields awaiting citation-scope review {#s-2a6d7470f5}
-Citation scope remains unresolved for Foraging mode. Harrington et al. (2018) studied snakes; the Rhodin et al. (2011) checklist concerns turtles. Support for the affected fields in this taxon has not been established here, so they are withheld from definite trait conclusions. Original values, categories and labels remain in the source archive; this does not establish that the values are wrong, and no replacement is inferred. Other chapters retain their own sources.
+## ReptTraits v1-2 field citations {#s-2a6d7470f5}
+ReptTraits v1-2 records a cited source for each reported trait; the citation beside each value belongs to that field.
 

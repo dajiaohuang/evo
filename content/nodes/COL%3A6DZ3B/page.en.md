@@ -1,17 +1,17 @@
-## The 2015 life-history entry and this name {#s-d024a44cc5}
-COL26.8 accepts Egretta gularis in Ardeidae. The historical life-history archive includes a same-name entry; this page compares 6 focal fields, each supported by cited species-level sparse-table rows matching the name and family. The summaries may retain older taxonomic inheritance, which a matching row name alone cannot rule out.
+## Scope of the historical life-history entry {#s-d024a44cc5}
+The August 2015 database has a same-name, same-family record for Egretta gularis. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-21f98daa0e}
-The historical summary lists adult body mass as 400 g. Adult values may combine males, females and adults of unspecified sex, so this is not a species-wide range of individual masses.
+## Compiled adult-mass values {#s-21f98daa0e}
+The August 2015 compilation reports adult body mass 400 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-d6cc0f432d}
-The historical compilation reports female maturity field (defined by the source as age at first conception) 364.23 d; offspring per litter or eggs per clutch 3.75 offspring/eggs; oviposition to hatching 23 d; age at flight capability (leaving the nest in some source material) 43.75 d. Here, d means days. The litter/clutch field merges offspring or egg counts; a fractional summary is not a fraction of an individual in one event. Each timing field refers to its own event; the values do not form one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-d6cc0f432d}
+The August 2015 compilation reports female age at first conception (source definition) 364.234 days; median or interpolated-median number of offspring or eggs per litter/clutch 3.75; oviposition-to-hatching interval 23 days; age at flight capability (some records mark nest departure) 43.75 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-8702382f20}
-The archive reports maximum_longevity_y as 22.34 years, following the source method for the largest collected record. This field is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a currently repeatable record.
+## A maximum record is not typical lifespan {#s-8702382f20}
+The compilation lists 22.34 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-1b6cab83f7}
-Cited sparse rows under the same name carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Bennett, 1986, among others. Field-level provenance retains the raw row number, value and source label; the reference table provides the full citation explanations. A label may point to a primary paper, a book or another database. Citation-row counts do not count measured individuals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-1b6cab83f7}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Life-history evidence limits {#s-fb2c034bf5}
 The life-history values come from same-name records in the 2015 historical archive. The archive reports medians or averages of the two middle values; maximum longevity instead uses the largest record found. These summaries are not direct measurements of one individual, ranges of individual variation, mean wild lifespans or current population surveys. The historical compilation may share or inherit values across species and subspecies. A matching name and family, together with same-name sparse rows, supports the association; it does not establish equivalence to COL26.8 concepts or remove every inherited component from the summaries. The source does not consistently establish wild or captive conditions, and the cited publications are not individually summarized here. Other sources are needed for diet, behavior, current range, conservation and fields not reported here;

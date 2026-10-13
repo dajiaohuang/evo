@@ -10,3 +10,6 @@ These sources support a concise bioacoustic and taxonomic guide, not a genus-wid
 ## Scope of the evidence {#s-6f62af5bbe}
 This is a source-linked reading path, not a genus review. The central study concerns calls and morphology at ten locations; later naming and earlier ecology use different taxonomic frames. The cited material does not establish current genus-wide distribution, population trends or a complete life history. The Chinese genus label is editorial; this guide has not been. This page is.
 
+## Recorded classification {#col26-8-identity}
+In the pinned COL26.8 catalogue, Sciurocheirus Gray, 1872 is recorded as an accepted genus.
+

@@ -1,5 +1,5 @@
-## Find rows through older Aimophila combinations {#s-c58581b61c}
-Pinned COL26.8 organizes this page at Peucaea cassinii (4FF36). BirdLife 2020 row 6484 and eBird 2021 row 7620 share the name and Avibase ID AVIBASE-B58AFD6E, with type 1BL to 1eBird; BirdTree row 7582 gives Aimophila cassinii, with type 1BL to 1BT. The catalogue synonym 666RT read for this batch points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-c58581b61c}
+Catalogue of Life release COL26.8 records Peucaea cassinii (Woodhouse, 1852) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-3db98dbf46}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.8 mm, tarsus 19 mm, unflattened wing 66.6 mm, tail 65.7 mm and hand-wing index 16.4 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

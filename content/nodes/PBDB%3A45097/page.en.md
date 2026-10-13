@@ -1,19 +1,38 @@
 ## Which fossil records this name represents {#s-71ef810159}
 Chumashius balchi is accepted in the fixed PBDB mammalia working roster, with database parent Chumashius. This guide uses 4 eligible species-level occurrence records from 4 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-eec5abf9bf}
-Collection Camp San Onofre (California), region code US, stratum name Santiago; database age bracket 45.9–37 Ma, early interval Uintan and late interval Duchesnean. Collection Pearson Ranch (CIT 146) (California), region code US, stratum name Sespe; database age bracket 39.7–37 Ma, early interval Duchesnean. Collection Pearson Ranch (Bed CS17) (California), region code US, stratum name Sespe; database age bracket 39.7–37 Ma, early interval Duchesnean. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Chumashius balchi is listed in the PBDB snapshot under taxon txn:45097. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-d909f23380}
-Selected occurrences have an outer age envelope of 45.9–37 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Camp San Onofre, occurrence occ:175657 (45.9–37 Ma); one supplying the younger bound is Camp San Onofre, occurrence occ:175657 (45.9–37 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-eec5abf9bf}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-56ba877c10}
-Camp San Onofre has collection-environment label terrestrial indet.; collection preservation-mode label body. Pearson Ranch (CIT 146) has collection-environment label terrestrial indet.; collection preservation-mode label body. Pearson Ranch (Bed CS17) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:175657; PBDB collection col:16533. Locality cnm=Camp San Onofre; place fields cc2=US, stp=California, cny=San Diego. Recorded age bounds: eag 45.9 Ma; lag 37 Ma; PBDB interval fields oei=Uintan, oli=Duchesnean. Stratigraphic fields sfm=Santiago, sls=Sntgo, slb=2, slo=bottom to top. Recorded attribution Golz and Lillegraven 1977; PBDB reference ref:1681.
 
-## Follow collection records back to references {#s-2e94883ecd}
-Camp San Onofre carries database reference attribution Golz and Lillegraven (1977), identifier ref:1681. Pearson Ranch (CIT 146) carries database reference attribution Kelly (1990), identifier ref:2059. Pearson Ranch (Bed CS17) carries database reference attribution Kelly (1990), identifier ref:2059. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:177312; PBDB collection col:16805. Locality cnm=Pearson Ranch (CIT 146); place fields cc2=US, stp=California, cny=Ventura. Recorded age bounds: eag 39.7 Ma; lag 37 Ma; PBDB interval fields oei=Duchesnean. Stratigraphic fields sfm=Sespe, sls=SimiV, slb=25, slo=bottom to top. Recorded attribution Kelly 1990; PBDB reference ref:2059.
+
+- Occurrence occ:177329; PBDB collection col:16807. Locality cnm=Pearson Ranch (Bed CS17); place fields cc2=US, stp=California, cny=Ventura. Recorded age bounds: eag 39.7 Ma; lag 37 Ma; PBDB interval fields oei=Duchesnean. Stratigraphic fields sfm=Sespe, sls=SimiV, slb=28, slo=bottom to top. Recorded attribution Kelly 1990; PBDB reference ref:2059.
+
+## Age bounds on the recorded occurrences {#s-d909f23380}
+Across these selected PBDB rows, the largest recorded eag=45.9 Ma in occ:175657; the smallest recorded lag=37 Ma in occ:175657. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-56ba877c10}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:175657: PBDB taxon-name field tna=Chumashius balchi; material note ocm=Lillegraven 1980; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-117.511307, lat=33.401207; paleocoordinate/model fields pm1=gplates, pln=-97.31, pla=38.28.
+- occ:177312: PBDB taxon-name field tna=Chumashius balchi; PBDB locality-coordinate fields lng=-119.000000, lat=34.299999; paleocoordinate/model fields pm1=gplates, pln=-100.3, pla=38.92.
+- occ:177329: PBDB taxon-name field tna=Chumashius balchi; PBDB locality-coordinate fields lng=-119.000000, lat=34.299999; paleocoordinate/model fields pm1=gplates, pln=-100.3, pla=38.92.
+
+## References attached to each record {#s-2e94883ecd}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:175657: Recorded attribution Golz and Lillegraven 1977; PBDB reference ref:1681.
+- occ:177312: Recorded attribution Kelly 1990; PBDB reference ref:2059.
+- occ:177329: Recorded attribution Kelly 1990; PBDB reference ref:2059.
 
 ## Evidence limits {#s-31c96e71e7}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

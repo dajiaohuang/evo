@@ -1,4 +1,4 @@
-## Local data reading route {#s-42ba0f2ef0}
+## Recorded classification and member material {#s-42ba0f2ef0}
 This batch’s Leptosomiformes route includes 1 measured species records. Start with Leptosomus discolor. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-82d7cc09a8}

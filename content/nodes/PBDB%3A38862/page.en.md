@@ -7,8 +7,8 @@ Start with Triceratops prorsus, Tatankaceratops sacrisonorum, Triceratops horrid
 ## Evidence limits {#s-7f577ca3d6}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## atlas-profile / overview {#s-7be8e12da1}
-More than fifty Triceratops skulls from the Hell Creek Formation can be compared in stratigraphic order. Across the series, horns and the snout change, and the premaxilla’s nasal process lengthens; some skulls combine features that do not fit a simple sequence of separate forms. Researchers still disagree about how much of this variation marks species boundaries, individual growth or evolutionary change.
+## Skull variation through Hell Creek remains disputed {#s-7be8e12da1}
+Hell Creek skulls vary in horns, snout and nasal processes, but the sequence does not resolve species boundaries, growth or evolutionary change.
 
 ## atlas-profile / ecology / diet {#s-14b90a9477}
 The cited studies focus on skulls and stratigraphic position; they do not resolve diet.
@@ -34,9 +34,9 @@ The study documents epinasal elongation and change in the premaxilla’s nasal p
 ## atlas-profile / traits {#s-44d04634c1}
 Some skulls combine cranial characters that are intermediate between named forms.
 
-## atlas-profile / evidenceSummary {#s-59d6c00f9a}
-The skull series directly records cranial variation through the Hell Creek section, including elongation near the nose and changes in the premaxilla’s nasal process. Whether the pattern reflects taxonomy, growth or evolution remains an interpretation; these studies do not resolve ecology.
+## Cranial observations and contested interpretation {#s-59d6c00f9a}
+The Hell Creek series records cranial variation; its taxonomic, growth or evolutionary meaning remains contested, and these studies do not resolve ecology.
 
-## atlas-profile / readerLimitations {#s-d9babfbd11}
+## Taxonomy and growth remain competing explanations {#s-d9babfbd11}
 The Hell Creek skull series records change through stratigraphy, but the interpretation of that variation remains contested among species boundaries, individual growth and evolutionary change. The cited cranial studies do not determine ecology.
 

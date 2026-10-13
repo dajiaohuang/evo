@@ -1,44 +1,44 @@
-## The name and this data account {#s-05373d861c}
-Psilopsiagon aymara is accepted in COL26.8 within Psittacidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-05373d861c}
+The AVONET v7 row for Psilopsiagon aymara (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 10.1 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-6f0dcff98d}
-Recorded mean beak measurements are 10.1 mm from the anterior nostril edge to the tip, 8.2 mm in width and 13.2 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-6f0dcff98d}
+AVONET records culmen length (bill tip to skull base) 12.5 mm; beak length (nostril front edge to tip) 10.1 mm; beak width at the nostril front edge 8.2 mm; beak depth at the nostril front edge 13.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-7a2d69dbb4}
-Mean unflattened wing length from the carpal joint to the longest primary is 96.2 mm; mean tarsus length is 11.7 mm. Compiled mean mass is 30 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-7a2d69dbb4}
+AVONET records unflattened wing length 96.2 mm; tarsus length 11.7 mm; distance from first secondary tip to longest primary tip 39.8 mm; length to first secondary tip 56 mm; hand-wing index 41.5; tail length 103 mm; species-average body mass 30 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-a6fd6f41a8}
-The dataset assigns habitat Shrubland, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-a6fd6f41a8}
+AVONET classifies Psilopsiagon aymara as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-8b88e71484}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -33.3° to -15.64°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-8b88e71484}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -33.3° to -15.64°. The mapped range area is 382901.13 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-fb187198e9}
-The 2015 life-history archive lists three focal fields for Psilopsiagon aymara in Psittacidae, each supported by cited species-level rows with the same name and family. These summaries may still include data inherited across historical taxa; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-fb187198e9}
+The August 2015 database has a same-name, same-family record for Psilopsiagon aymara. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass in the historical account {#s-6eacf814ce}
-Historical summary values are adult body mass 31.41 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-6eacf814ce}
+The August 2015 compilation reports adult body mass 31.41 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-2398424093}
-Available compilation fields are offspring per litter or eggs per clutch 4.95 offspring/eggs. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Missing reproductive and developmental durations are not supplied here.
+## Reproductive fields describe different events {#s-2398424093}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 4.95. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## The longest record differs from usual lifespan {#s-58cbfdc634}
-The life-history archive reports a maximum longevity of 8.5 years, using the largest record found under its method. This is not a typical or mean wild lifespan, a survival ceiling for every individual or a current record that can be assumed repeatable.
+## A maximum record is not typical lifespan {#s-58cbfdc634}
+The compilation lists 8.5 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-4ef7f9c665}
-Same-name sparse rows carry source labels including Dunning, 1992; Schuck-Paima, C., Alonsob, W.J., and E.B. Ottonia, 2008; Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009; Jetz, Sekercioglu, and Bohning-Gaese, 2008, among others. Each field has its own source label, which may identify a paper, book or database. Row counts are not numbers of measured individuals, and repeated citations do not represent independent experimental replication.
+## Sources and field limits {#s-4ef7f9c665}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## EltonTraits record and taxonomic context {#s-afc522902a}
-The EltonTraits 1.0 record associated with Psilopsiagon aymara has two ecological field groups: food weights and foraging strata. Its taxonomy follows an earlier bird classification; a name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-afc522902a}
+EltonTraits 1.0 has a same-name, same-family record for Psilopsiagon aymara covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-357af6c6c6}
-The archive’s nonzero food weights are seeds, nuts and spores included in this category 40%; fruit 30%; other plant material (the source category also includes fungi) 30%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-357af6c6c6}
+EltonTraits 1.0 assigns relative diet weights of fruit 30%; seeds or nuts 40%; other plant material 30%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-2ef11d57ff}
-Foraging-stratum weights flagged as species-level in the archive are ground 50%; understory, edges or shrubs below 2 m 50%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-2ef11d57ff}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 50%; in the understory 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-2e5c4e0382}
-Both groups carry the label Ref_4. Diet, strata and activity can come from different material; the same reference number in bird and mammal tables does not identify the same source. Original source strings are retained with their file, row, field group and reference table. Underlying books and papers have not been individually read, and source labels do not count as new independent observations.
+## Sources and field limits {#s-2e5c4e0382}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-cf917976fb}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-be26433203}
-Kazaklambia convincens is accepted in the fixed PBDB dinosaur working roster, with database parent Kazaklambia. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-be26433203}
+Kazaklambia convincens is listed in the PBDB snapshot under taxon txn:67548. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-b17607c641}
-Collection Syuk-Syuk (PIN) (Ongtustik Qazaqstan), region code KZ, stratum name Dabrazhin; database age bracket 89.8–83.6 Ma, early interval Coniacian and late interval Santonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-b17607c641}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-a669feaae1}
-Selected occurrences have an outer age envelope of 89.8–83.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:520732; PBDB collection col:53133. Locality cnm=Syuk-Syuk (PIN); place fields cc2=KZ, stp=Ongtustik Qazaqstan. Recorded age bounds: eag 89.8 Ma; lag 83.6 Ma; PBDB interval fields oei=Coniacian, oli=Santonian. Stratigraphic fields sfm=Dabrazhin. Recorded attribution Rozhdestvensky 1968; PBDB reference ref:14363.
 
-## Read preservation setting separately from living habitat {#s-21eb86314f}
-Syuk-Syuk (PIN) has collection-environment label deltaic indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+= Dabrazinskaya Svita; possible = Syuksyuk Formation
 
-## Follow collection records back to references {#s-877a748e46}
-Syuk-Syuk (PIN) carries database reference attribution Rozhdestvensky (1968), identifier ref:14363. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+45 km N of Tashkent, 10-12 km north of the Dzhilga (=Zhilga, Djilga), Syuk-Syuk wells in the south of the Chimkent region
 
-## Evidence limits {#s-ab36a21d05}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-a669feaae1}
+Across these selected PBDB rows, the largest recorded eag=89.8 Ma in occ:520732; the smallest recorded lag=83.6 Ma in occ:520732. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-21eb86314f}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:520732: PBDB original-identification field idn=Procheneosaurus convincens n. sp.; PBDB taxon-name field tna=Kazaklambia convincens; material note ocm=PIN 2230; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=69.390282, lat=41.703800; paleocoordinate/model fields pm1=gplates, pln=73.55, pla=34.46.
+
+## References attached to each record {#s-877a748e46}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:520732: Recorded attribution Rozhdestvensky 1968; PBDB reference ref:14363.
+
+## What these records can show {#s-ab36a21d05}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

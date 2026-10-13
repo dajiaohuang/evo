@@ -1,10 +1,12 @@
-## Start with the historical entries {#s-3887d0a5da}
+## Recorded classification and direct parent {#s-3887d0a5da}
+COL26.8 records Phyllostomidae at family rank, with Noctilionoidea as its direct parent.
+
 The local PanTHERIA route for Phyllostomidae includes 65 usable data accounts. Start with Brachyphylla cavernarum, Brachyphylla nana, Desmodus rotundus, Diphylla ecaudata, Chiroderma doriae. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-29b232fc07}
 Among available consolidated adult-mass values in this batch, Ectophylla alba records 5.55 g and Vampyrum spectrum records 171.61 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-d4183a6819}
+## Amniote Life-history archive member records {#s-d4183a6819}
 This batch’s Phyllostomidae route includes 30 historical life-history accounts; start with Anoura caudifer, Anoura geoffroyi, Brachyphylla cavernarum, Brachyphylla nana, Carollia perspicillata. More frequently represented fields include adult body mass (30 entries), offspring per litter or eggs per clutch (30 entries), conception or fertilization to birth (24 entries), age of dependence on food other than maternal milk (20 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-e0d547aea6}
@@ -13,18 +15,18 @@ This batch’s Phyllostomidae route includes 116 historical entries; start with 
 ## Compare food, feeding positions and activity periods {#s-91523e69af}
 This batch’s Phyllostomidae route includes 2 historical entries; start with Lonchorhina inusitata, Tonatia saurophila. Food-category weights are available in 0, foraging strata in 0, and mammalian activity periods in 2. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-225de37ace}
+## Limits attached to these records {#s-225de37ace}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
-This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
+This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-1a3506bdc8}
-The local PanTHERIA route for Phyllostomidae includes 24 usable data accounts. Start with [Chiroderma improvisum](Stenodermatinae/Stenodermatini/Vampyressina/Chiroderma/Chiroderma_improvisum/page.en.md), [Choeroniscus periosus](Glossophaginae/Choeronycterini/Choeronycterina/Choeroniscus/Choeroniscus_periosus/page.en.md), [Lonchophylla bokermanni](Lonchophyllinae/Lonchophyllini/Lonchophylla/Lonchophylla_bokermanni/page.en.md), [Lonchophylla dekeyseri](Lonchophyllinae/Lonchophyllini/Lonchophylla/Lonchophylla_dekeyseri/page.en.md), [Lonchophylla handleyi](Lonchophyllinae/Lonchophyllini/Lonchophylla/Lonchophylla_handleyi/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-1a3506bdc8}
+The local PanTHERIA route for Phyllostomidae includes 24 usable data accounts. Start with Chiroderma improvisum, Choeroniscus periosus, Lonchophylla bokermanni, Lonchophylla dekeyseri, Lonchophylla handleyi. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-f5f6999e56}
 Among available consolidated adult-mass values in this batch, Lonchorhina orinocensis records 9.04 g and Phyllostomus latifolius records 134 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-3cfc13d8cd}
+## PanTHERIA material route {#s-3cfc13d8cd}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 

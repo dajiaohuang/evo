@@ -1,4 +1,4 @@
-## 本地数据阅读路径 {#s-5610bb2267}
+## 记录分类与成员材料 {#s-5610bb2267}
 固定 COL26.8 层级下的 Pelecaniformes 路径收录了 70 条有测量来源的物种记录。可先从 Agamia agami、Ardea cinerea、Ardea cocoi、Ardea goliath、Ardea melanocephala 读起；生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-2749fc5a4b}
@@ -19,8 +19,8 @@ Pelecaniformes 路径收录 4 个历史条目，可从 Tigrisoma fasciatum、Zeb
 多字段路线只纳入名称与科相符、且至少有两类可用取食生态字段的唯一历史条目。这些记录不是完整后代名册，也不把后代的食物类型、估计权重或活动模式当作整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的情况仍需逐页考虑。这些页面不是完整物种专论。
 单字段路线只纳入名称与科相符、且只有一类可用取食生态字段的唯一历史条目。这些记录不是完整后代名册，也不把后代的食物类型、估计权重或活动模式当作整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的情况仍需逐页考虑。这些页面不是完整物种专论。
 
-## 从有限生态资料开始 {#s-f69e0f7886}
-固定 COL26.8 分类路径下，Pelecaniformes有 14 个有限生态资料页，可从 [Ardea humbloti](Ardeidae/Ardea/Ardea_humbloti/page.zh.md)、[Ardea insignis](Ardeidae/Ardea/Ardea_insignis/page.zh.md)、[Ardeola idae](Ardeidae/Ardeola/Ardeola_idae/page.zh.md)、[Ardeola rufiventris](Ardeidae/Ardeola/Ardeola_rufiventris/page.zh.md)、[Ardeola speciosa](Ardeidae/Ardeola/Ardeola_speciosa/page.zh.md) 开始。这个数量只计这里列出的页面，并非全部接受物种。
+## 记录分类与成员材料 {#s-f69e0f7886}
+固定 COL26.8 分类路径下，Pelecaniformes有 14 个有限生态资料页，可从 Ardea humbloti、Ardea insignis、Ardeola idae、Ardeola rufiventris、Ardeola speciosa 开始。这个数量只计这里列出的页面，并非全部接受物种。
 
 ## 哪些内容可读，哪些仍未解读 {#s-2081fd60fd}
 栖地类别、取食生态位、主导活动方式和迁移类别分别见 14、14、14、14 页。阅读时应依照原字段定义，并区分类别、历史地图与个体观察；共同标签不表示所有后代生活方式相同。这里没有解释喙、翼、跗蹠、尾或体重字段，因此不能据此比较类群体型。

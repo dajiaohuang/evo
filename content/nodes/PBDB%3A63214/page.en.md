@@ -1,19 +1,49 @@
 ## Which fossil records this name represents {#s-93cc7d3040}
 Mauicetus parki is accepted in the fixed PBDB mammalia working roster, with database parent Mauicetus. This guide uses 5 eligible species-level occurrence records from 5 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 3 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-db72020996}
-Collection Duntroon. I40/f26A (North Otago), region code NZ, stratum name Otekaike Limestone; database age bracket 27.3–23.04 Ma, early interval Chattian. Collection Milburn Quarry (South Otago), region code NZ, stratum name Milburn Limestone; database age bracket 27.3–23.04 Ma, early interval Chattian. Collection Wharekuri Creek (South Island), region code NZ, stratum name Kokoamu Greensand; database age bracket 27.3–25.2 Ma, early interval Duntroonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Mauicetus parki is listed in the PBDB snapshot under taxon txn:63214. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-411c188407}
-Selected occurrences have an outer age envelope of 27.3–21.7 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Duntroon. I40/f26A, occurrence occ:462846 (27.3–23.04 Ma); one supplying the younger bound is Balfour limestone quarry, occurrence occ:813826 (25.2–21.7 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-db72020996}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-bb1b2ae061}
-Duntroon. I40/f26A has collection-environment label offshore shelf; collection preservation-mode label body,original phosphate. Milburn Quarry has collection-environment label carbonate indet.; collection preservation-mode label body,original phosphate. Wharekuri Creek has collection-environment label offshore shelf; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:462846; PBDB collection col:45661. Locality cnm=Duntroon. I40/f26A; place fields cc2=NZ, stp=North Otago. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Chattian. Stratigraphic fields sfm=Otekaike Limestone. Recorded attribution Marples 1956; PBDB reference ref:15371.
 
-## Follow collection records back to references {#s-4dd07a4eea}
-Duntroon. I40/f26A carries database reference attribution Marples (1956), identifier ref:15371. Milburn Quarry carries database reference attribution Benham (1937), identifier ref:12122. Wharekuri Creek carries database reference attribution Fordyce (1980), identifier ref:12036. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Waitakian, Oligocene
+
+The precise stratigraphic context of OU 11573 is currently unknown, but likely falls within the early Waitakian (Oligocene, 25.2–23.0 Ma [2]). This estimate is supported by s strontium date of 23.8 ± 0.7 Ma for the horizon that yielded OU 22545. (Marx & Fordyce, 2015)
+
+
+- Occurrence occ:813826; PBDB collection col:45666. Locality cnm=Balfour limestone quarry; place fields cc2=NZ, stp=Southland. Recorded age bounds: eag 25.2 Ma; lag 21.7 Ma; PBDB interval fields oei=Waitakian. Recorded attribution Fordyce 1980; PBDB reference ref:12036.
+
+- Occurrence occ:693846; PBDB collection col:45653. Locality cnm=Milburn Quarry; place fields cc2=NZ, stp=South Otago. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Chattian. Stratigraphic fields sfm=Milburn Limestone. Recorded attribution Benham 1937; PBDB reference ref:12122.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Waitakian, Oligocene; the Oligocene portion of the Waitakian is Chattian
+
+The precise stratigraphic context of OU 11573 is currently unknown, but likely falls within the early Waitakian (Oligocene, 25.2–23.0 Ma [2]). This estimate is supported by s strontium date of 23.8 ± 0.7 Ma for the horizon that yielded OU 22545. (Marx & Fordyce, 2015)
+
+## Age bounds on the recorded occurrences {#s-411c188407}
+Across these selected PBDB rows, the largest recorded eag=27.3 Ma in occ:462846; the smallest recorded lag=21.7 Ma in occ:813826. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-bb1b2ae061}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:462846: PBDB taxon-name field tna=Mauicetus parki; PBDB locality-coordinate fields lng=170.713333, lat=-44.867779; paleocoordinate/model fields pm1=gplates, pln=-169.14, pla=-46.7.
+- occ:813826: PBDB original-identification field idn=Lophocephalus parki; PBDB taxon-name field tna=Mauicetus parki; PBDB locality-coordinate fields lng=168.604721, lat=-45.882778; paleocoordinate/model fields pm1=gplates, pln=-173.09, pla=-47.58.
+- occ:693846: PBDB original-identification field idn=Lophocephalus parki n. gen. n. sp.; PBDB taxon-name field tna=Mauicetus parki; material note ocm=Benham (1937) states that the type specimen of Lophocephalus parki is from either the Milburn or Clarendon quarry. It is here arbitrarily assigned to Milburn.; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=169.995560, lat=-46.065834; paleocoordinate/model fields pm1=gplates, pln=-169.88, pla=-47.9.
+
+## References attached to each record {#s-4dd07a4eea}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:462846: Recorded attribution Marples 1956; PBDB reference ref:15371.
+- occ:813826: Recorded attribution Fordyce 1980; PBDB reference ref:12036.
+- occ:693846: Recorded attribution Benham 1937; PBDB reference ref:12122.
 
 ## Evidence limits {#s-ba3e4fec21}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-664ce9b0d9}
+## 记录分类与直接上级关系 {#s-664ce9b0d9}
+COL26.8 将 Leptotyphlopidae 记录为科；其直接上级记录为 Scolecophidia。
+
 Leptotyphlopidae 的 ReptTraits 阅读路径列有 19 条同名同科、带逐性状出处的物种资料。可先看 Epictia albipuncta、Habrophallos collaris、Leptotyphlops conjunctus、Leptotyphlops distanti 或 Leptotyphlops telloi。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架；这 19 条不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-2a9e861e2e}
@@ -14,8 +16,8 @@ Leptotyphlopidae 的 ReptTraits 阅读路径列有 19 条同名同科、带逐�
 ## 部分后代条目的引用缺口 {#s-08f0d908fd}
 这条 ReptTraits 阅读路径中有 1 个已写物种条目的部分字段，其引用范围不足以支持确定性状正文。物种页列出这些字段及对应引用标签；路径计数只代表资料页数量，不代表性状完整度。
 
-## 从有性状记录的物种开始 {#s-00bb341bc8}
-Leptotyphlopidae 的 ReptTraits 阅读路径还列有 123 条同名同科、带逐性状出处的物种资料。可先看 [Epacrophis boulengeri](Leptotyphlopinae/Epacrophis/Epacrophis_boulengeri/page.zh.md)、[Epacrophis drewesi](Leptotyphlopinae/Epacrophis/Epacrophis_drewesi/page.zh.md)、[Epacrophis reticulatus](Leptotyphlopinae/Epacrophis/Epacrophis_reticulatus/page.zh.md)、[Epictia albifrons](Epictinae/Epictia/Epictia_albifrons/page.zh.md) 或 [Epictia alfredschmidti](Epictinae/Epictia/Epictia_alfredschmidti/page.zh.md)。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架；这 123 条不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-00bb341bc8}
+Leptotyphlopidae 的 ReptTraits 阅读路径还列有 123 条同名同科、带逐性状出处的物种资料。可先看 Epacrophis boulengeri、Epacrophis drewesi、Epacrophis reticulatus、Epictia albifrons 或 Epictia alfredschmidti。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架；这 123 条不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-2b2ba6c1e3}
 这些后代页只介绍各自有出处的字段。先看每页缺少哪些资料，再按共同有支持的尺寸、活动、食性或繁殖字段对读。页面数量不代表性状完整；不以近缘种补缺失值，也不将龟类 SCL 与其他类群 SVL 混作同一排名。

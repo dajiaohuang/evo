@@ -1,18 +1,49 @@
-## Which fossil records this name represents {#s-abf9b1fed6}
-Torvosaurus gurneyi is accepted in the fixed PBDB dinosaur working roster, with database parent Torvosaurus. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-abf9b1fed6}
+Torvosaurus gurneyi is listed in the PBDB snapshot under taxon txn:289557. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-2a174da796}
-Collection Praia da Vermelha (Centro), region code PT, stratum name Lourinhã; database age bracket 152.21–149.2 Ma, early interval Late Kimmeridgian. Collection northern Praia da Corva (Lisboa), region code PT, stratum name Lourinhã; database age bracket 152.21–149.2 Ma, early interval Late Kimmeridgian. Collection Praia de Porto Dinheiro cliff (top) (Centro), region code PT, stratum name Lourinhã; database age bracket 152.21–149.2 Ma, early interval Late Kimmeridgian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-2a174da796}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-0e8735273e}
-Selected occurrences have an outer age envelope of 152.21–149.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:639806; PBDB collection col:68904. Locality cnm=Praia da Vermelha; place fields cc2=PT, stp=Centro, cny=Leiria. Recorded age bounds: eag 152.21 Ma; lag 149.2 Ma; PBDB interval fields oei=Late Kimmeridgian. Stratigraphic fields sfm=Lourinhã. Recorded attribution Hendrickx and Mateus 2014; PBDB reference ref:50323.
 
-## Read preservation setting separately from living habitat {#s-2741f62ecb}
-Praia da Vermelha has collection-environment label terrestrial indet.; collection preservation-mode label body. northern Praia da Corva has collection-environment label terrestrial indet.; collection preservation-mode label body. Praia de Porto Dinheiro cliff (top) has collection-environment label estuary/bay; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Praia da Vermelha, Peniche
 
-## Follow collection records back to references {#s-12113e11d9}
-Praia da Vermelha carries database reference attribution Hendrickx and Mateus (2014), identifier ref:50323. northern Praia da Corva carries database reference attribution Hendrickx and Mateus (2014), identifier ref:50323. Praia de Porto Dinheiro cliff (top) carries database reference attribution Ribeiro and Mateus (2018), identifier ref:79459. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1196186; PBDB collection col:154726. Locality cnm=northern Praia da Corva; place fields cc2=PT, stp=Lisboa, cny=Torres Vedras. Recorded age bounds: eag 152.21 Ma; lag 149.2 Ma; PBDB interval fields oei=Late Kimmeridgian. Stratigraphic fields sfm=Lourinhã. Recorded attribution Hendrickx and Mateus 2014; PBDB reference ref:50323.
 
-## Evidence limits {#s-639d58e2c9}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+described as Alcobaça Formation, Lourinhã Group, upper part of Amoreira-Porto Novo Member
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+N edge of Praia da Corva, near Torres Vedras, W coast of central Portugal. Praia de Areia Branca syncline, Bombarral-Alcobaça subbasin, Lusitanian basin
+
+- Occurrence occ:1587043; PBDB collection col:49304. Locality cnm=Praia de Porto Dinheiro cliff (top); place fields cc2=PT, stp=Centro, cny=Lisboa. Recorded age bounds: eag 152.21 Ma; lag 149.2 Ma; PBDB interval fields oei=Late Kimmeridgian. Stratigraphic fields sfm=Lourinhã. Recorded attribution Ribeiro and Mateus 2018; PBDB reference ref:79459.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+= "Formação de Lourinha"; close to boundary with Sobral Fm.
+
+Mateus et al. 2017: includes ostracods pointing to a late Kimmeridgian to early Tithonian age in its middle part (Werner, 1986) and the dinocyst Cribroperidinium granuligerum (Klement) “complex” indicating a mid Kimmeridgian to late Tithonian age for the lower part (Taylor et al., 2013).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near top of coastal cliff along Praia de Porto Dinheiro, Bacia Lusitânica; top of cliff north of the port
+
+## Age bounds on the recorded occurrences {#s-0e8735273e}
+Across these selected PBDB rows, the largest recorded eag=152.21 Ma in occ:639806; the smallest recorded lag=149.2 Ma in occ:639806. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-2741f62ecb}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:639806: PBDB original-identification field idn=Torvosaurus gurneyi n. sp.; PBDB taxon-name field tna=Torvosaurus gurneyi; material note ocm=ML 1100; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-9.358712, lat=39.330112; paleocoordinate/model fields pm1=gplates, pln=8.13, pla=24.33.
+- occ:1196186: PBDB taxon-name field tna=Torvosaurus gurneyi; material note ocm=ALT-SHN.116, maxilla fragment; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-9.358879, lat=39.174553; paleocoordinate/model fields pm1=gplates, pln=8.05, pla=24.19.
+- occ:1587043: PBDB taxon-name field tna=Torvosaurus gurneyi; material note ocm=teeth; PBDB locality-coordinate fields lng=-9.343500, lat=39.216400; paleocoordinate/model fields pm1=gplates, pln=8.09, pla=24.22.
+
+## References attached to each record {#s-12113e11d9}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:639806: Recorded attribution Hendrickx and Mateus 2014; PBDB reference ref:50323.
+- occ:1196186: Recorded attribution Hendrickx and Mateus 2014; PBDB reference ref:50323.
+- occ:1587043: Recorded attribution Ribeiro and Mateus 2018; PBDB reference ref:79459.
+
+## What these records can show {#s-639d58e2c9}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

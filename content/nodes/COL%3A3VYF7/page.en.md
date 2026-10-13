@@ -1,29 +1,29 @@
-## The name and this data account {#s-234f262d13}
-Lonchura montana is accepted in COL26.8 within Estrildidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 1 measured individuals, 1 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-234f262d13}
+The AVONET v7 row for Lonchura montana (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.2 mm. The row records 1 measured individuals, 1 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-6f67784526}
-Recorded mean beak measurements are 9.2 mm from the anterior nostril edge to the tip, 5.9 mm in width and 7.7 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-6f67784526}
+AVONET records culmen length (bill tip to skull base) 12.2 mm; beak length (nostril front edge to tip) 9.2 mm; beak width at the nostril front edge 5.9 mm; beak depth at the nostril front edge 7.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-d90b7ab48b}
-Mean unflattened wing length from the carpal joint to the longest primary is 64.5 mm; mean tarsus length is 17.7 mm. Compiled mean mass is 15.5 g, with source category Updated_literature. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-d90b7ab48b}
+AVONET records unflattened wing length 64.5 mm; tarsus length 17.7 mm; distance from first secondary tip to longest primary tip 13.6 mm; length to first secondary tip 50.9 mm; hand-wing index 21.1; tail length 43 mm; species-average body mass 15.5 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-3bd9d079ae}
-The dataset assigns habitat Grassland, trophic niche Granivore and lifestyle Generalist. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-3bd9d079ae}
+AVONET classifies Lonchura montana as habitat Grassland (open grass-dominated landscapes); trophic niche Granivore (source threshold at least 60% from seeds or nuts); trophic level Herbivore; primary lifestyle Generalist. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-6d3900cede}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -5.36° to -3.39°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-6d3900cede}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -5.36° to -3.39°. The mapped range area is 23554.74 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-2098ed0c5d}
-Lonchura montana is accepted in pinned COL26.8 within Estrildidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-2098ed0c5d}
+EltonTraits 1.0 has a same-name, same-family record for Lonchura montana covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-f814aeb993}
-The archive’s nonzero food weights are seeds, nuts and spores included in this category 100%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-f814aeb993}
+EltonTraits 1.0 assigns relative diet weights of seeds or nuts 100%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-e3cb0473d8}
-Foraging-stratum weights flagged as species-level in the archive are ground 100%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-e3cb0473d8}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-bd5ddddc6e}
-The used groups carry labels Ref_15, Ref_27. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-bd5ddddc6e}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.15.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Clement, P., A. Harris, and J. Davis. 2010. Finches and sparrows. A&C Black.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-5de5d3b089}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

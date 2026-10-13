@@ -1,5 +1,5 @@
-## The accepted name and an older ecological record {#s-9af0d21ee3}
-Micaelamys granti is accepted in COL26.8 within Muridae. EltonTraits 1.0 includes a same-name, same-family entry with two ecological field groups. Its taxonomy reflects earlier bird classifications or MSW3 for mammals; the name match does not resolve later splits or synonymy.
+## Foraging stratum and activity flags in the compilation {#s-9af0d21ee3}
+The EltonTraits 1.0 record for *Micaelamys granti* contains the foraging stratum, activity flags. The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Source comments and compiler confidence remain attached to the foraging category. The archive leaves diet fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Micaelamys granti*.
 
 ## A categorical foraging-stratum value {#s-117b04fd55}
 The entry is assigned G, ground; the source definition also includes some aquatic foraging. Code A records compiler confidence in the source and assignment, while mammalian metadata attributes these stratum assignments collectively to Nowak (1999). G is not a percentage of time or an exclusive location.
@@ -10,8 +10,6 @@ Feeding activity at night is coded 1. Several activity fields may be marked at o
 ## Source labels for the selected fields {#s-e83ca02245}
 The selected groups carry metadata:Nowak1999 and Ref_1. Diet, stratum, and activity can use different materials, and Ref numbers are specific to their reference tables. The archive keeps original strings by file, row, field group, and table. The underlying books and papers have not been individually read; labels do not add observations.
 
-## Scope and withheld diet field {#s-62a100479c}
-This page guides readers through a historical same-name, same-family foraging record in EltonTraits 1.0; it is not a complete species monograph. The older classification does not prove equivalence with COL26.8. Mammalian ABC diet or activity fields may refer to an ecologically similar congener, so they are not all direct observations of M. granti. Underlying books and papers have not been individually reread. Individual, seasonal, and local variation, current range, population, and conservation require other sources.
-
-Diet is withheld under source code D2 because of interpolation, certainty, or source-link limits. The archive retains the original values and specific reasons; they are not used here to make a definite diet claim.
+## How to read the source fields {#s-62a100479c}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 

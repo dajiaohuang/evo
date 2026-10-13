@@ -1,10 +1,10 @@
-## Overview {#s-46d034ce79}
+## Recorded classification and member material {#s-46d034ce79}
 This COL26.8 reading path connects the drill page (species ID 3XTLF) and mandrill page (species ID 3XTLH) under genus ID 62ZM2. It keeps each species’ source material under its accepted identity rather than treating the two pages as one ecological account.
 
 ## Choose a reading path by research question {#s-e857b5e51c}
 Read the drill page for its species-specific life-history record, then the mandrill page for field studies of diet, habitat use and home range at several Gabonese sites. Keep the species identities and sampling contexts distinct.
 
-## Choose comparison pages by life-history fields {#s-42ca3ea40f}
+## Amniote Life-history archive member records {#s-42ca3ea40f}
 This batch’s Mandrillus route includes 2 historical life-history accounts; start with Mandrillus leucophaeus, Mandrillus sphinx. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), conception or fertilization to birth (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-ff6d0dc61b}

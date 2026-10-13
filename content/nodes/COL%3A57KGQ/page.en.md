@@ -1,29 +1,29 @@
-## The name and this data account {#s-b755d1c7aa}
-Touit surdus is accepted in COL26.8 within Psittacidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 6 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-b755d1c7aa}
+The AVONET v7 row for Touit surdus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 15.6 mm. The row records 6 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-f1fc074bf5}
-Recorded mean beak measurements are 15.6 mm from the anterior nostril edge to the tip, 9.7 mm in width and 15 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-f1fc074bf5}
+AVONET records culmen length (bill tip to skull base) 18.9 mm; beak length (nostril front edge to tip) 15.6 mm; beak width at the nostril front edge 9.7 mm; beak depth at the nostril front edge 15 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-e56d2688c4}
-Mean unflattened wing length from the carpal joint to the longest primary is 116.8 mm; mean tarsus length is 10.4 mm. Compiled mean mass is 51 g, with source category Updated_literature. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-e56d2688c4}
+AVONET records unflattened wing length 116.8 mm; tarsus length 10.4 mm; distance from first secondary tip to longest primary tip 48 mm; length to first secondary tip 69.7 mm; hand-wing index 40.9; tail length 46.8 mm; species-average body mass 51 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-25ba1427b5}
-The dataset assigns habitat Forest, trophic niche Frugivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-25ba1427b5}
+AVONET classifies Touit surdus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Frugivore (source threshold at least 60% from fruit); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-1ed5d3d489}
-The migration field classifies this record as partially migratory. Historical breeding and resident maps span latitude endpoints -25.47° to -2.89°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-1ed5d3d489}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -25.47° to -2.89°. The mapped range area is 98992.48 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## EltonTraits record and taxonomic context {#s-29ad1f4c11}
-The EltonTraits 1.0 record associated with Touit surdus has two ecological field groups: food weights and foraging strata. Its taxonomy follows an earlier bird classification; a name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-29ad1f4c11}
+EltonTraits 1.0 has a same-name, same-family record for Touit surdus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-91f9bd2037}
-The archive’s nonzero food weights are fruit 100%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-91f9bd2037}
+EltonTraits 1.0 assigns relative diet weights of fruit 100%. Its dominant five-category label is FruiNect. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-842c176486}
-Foraging-stratum weights flagged as species-level in the archive are trees or high bushes from 2 m upward but below the canopy 50%; understory, edges or shrubs below 2 m 30%; in or just above the canopy 20%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-842c176486}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 30%; in mid-height or high vegetation 50%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-55879fee08}
-Both groups carry the label Ref_4. Diet, strata and activity can come from different material; the same reference number in bird and mammal tables does not identify the same source. Original source strings are retained with their file, row, field group and reference table. Underlying books and papers have not been individually read, and source labels do not count as new independent observations.
+## Sources and field limits {#s-55879fee08}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-c0f172ed3a}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

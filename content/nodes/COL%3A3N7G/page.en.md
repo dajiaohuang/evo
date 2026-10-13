@@ -1,26 +1,28 @@
-## Start with the historical entries {#s-e21050e8f1}
+## Recorded classification and direct parent {#s-e21050e8f1}
+COL26.8 records Chinchilla at genus rank, with Chinchillinae as its direct parent.
+
 The local PanTHERIA route for Chinchilla includes 1 usable data accounts. Start with Chinchilla lanigera. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-af580713b2}
 Among available consolidated adult-mass values in this batch, Chinchilla lanigera records 480.28 g and Chinchilla lanigera records 480.28 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-4ff61ebbbc}
+## Amniote Life-history archive member records {#s-4ff61ebbbc}
 This batch’s Chinchilla route includes 2 historical life-history accounts; start with Chinchilla chinchilla, Chinchilla lanigera. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), conception or fertilization to birth (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-a8a09b29bd}
 This batch’s Chinchilla route includes 2 historical entries; start with Chinchilla chinchilla, Chinchilla lanigera. Food-category weights are available in 1, foraging strata in 2, and mammalian activity periods in 2. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-84496bf36f}
+## Limits attached to these records {#s-84496bf36f}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Follow the life-history records {#s-9af5033c76}
-This batch offers 1 historical life-history account under Chinchilla. Start with [Chinchilla lanigera](Chinchilla_lanigera/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-9af5033c76}
+This batch offers 1 historical life-history account under Chinchilla. Start with Chinchilla lanigera. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-89f86823cd}
 Gestation is recorded in 1 account, female age at first reproduction in 1 account, and maximum lifespan in 0 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-e91b4dd11a}
+## Ernest life-history archive material route {#s-e91b4dd11a}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

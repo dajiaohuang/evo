@@ -1,4 +1,6 @@
-## 目录中的位置 {#s-50275efc9c}
+## 记录分类与直接上级关系 {#s-50275efc9c}
+COL26.8 将 Varanidae 记录为科；其直接上级记录为 Autarchoglossa。
+
 Varanidae 在固定 COL26.8 中记录为接受分类单元，阶元为科，父级为 Autarchoglossa。本页沿用这一目录位置。
 
 ## 从已有样本页面开始 {#s-22dedc727d}
@@ -23,7 +25,7 @@ Varanidae 的本批路线包含 52 条历史生活史导读，可从 Varanus aca
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
-## 从有性状记录的物种开始 {#s-f24689a638}
+## 记录分类与成员材料 {#s-f24689a638}
 Varanidae 的本批 ReptTraits 阅读路径包含 77 条同名同科、有逐性状出处的物种资料，可从 Varanus acanthurus、Varanus albigularis、Varanus bangonorum、Varanus beccarii、Varanus bengalensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-8d66faf86d}
@@ -32,8 +34,8 @@ Varanidae 的本批 ReptTraits 阅读路径包含 77 条同名同科、有逐性
 ## 这组性状资料的边界 {#s-c1dce74a41}
 本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
 
-## 从有性状记录的物种开始 {#s-d441acc339}
-Varanidae 的本批 ReptTraits 阅读路径包含 6 条同名同科、有逐性状出处的物种资料，可从 [Varanus bennetti](Varanus/Varanus_bennetti/page.zh.md)、[Varanus citrinus](Varanus/Varanus_citrinus/page.zh.md)、[Varanus colei](Varanus/Varanus_colei/page.zh.md)、[Varanus ocreatus](Varanus/Varanus_ocreatus/page.zh.md)、[Varanus tsukamotoi](Varanus/Varanus_tsukamotoi/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-d441acc339}
+Varanidae 的本批 ReptTraits 阅读路径包含 6 条同名同科、有逐性状出处的物种资料，可从 Varanus bennetti、Varanus citrinus、Varanus colei、Varanus ocreatus、Varanus tsukamotoi 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-9309f522b9}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

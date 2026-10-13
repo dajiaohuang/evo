@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-9e33c90627}
+## 记录分类与直接上级关系 {#s-9e33c90627}
+COL26.8 将 Melonycterini 记录为族；其直接上级记录为 Pteropodinae。
+
 PanTHERIA 路线有一条可用记录，涉及 Melonycteris melanops。该记录保留原始 MSW05 名称、变量各自的材料条件与缺失情况；这条历史记录不代表当前接受种数量。
 
 ## 比较体型与生活史 {#s-fe7e79ea08}

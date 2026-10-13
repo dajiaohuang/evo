@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-ad025f412e}
-Fostoria dhimbangunmal is accepted in the fixed PBDB dinosaur working roster, with database parent Fostoria. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-ad025f412e}
+Fostoria dhimbangunmal is listed in the PBDB snapshot under taxon txn:398671. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-e086ddd290}
-Collection The Sheepyard, Coocoran Opal Field (New South Wales), region code AU, stratum name Griman Creek; database age bracket 100.5–93.9 Ma, early interval Early Cenomanian and late interval Middle Cenomanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-e086ddd290}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-c28e7313ac}
-Selected occurrences have an outer age envelope of 100.5–93.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1479592; PBDB collection col:206228. Locality cnm=The Sheepyard, Coocoran Opal Field; place fields cc2=AU, stp=New South Wales. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian, oli=Middle Cenomanian. Stratigraphic fields sfm=Griman Creek. Recorded attribution Bell et al. 2019; PBDB reference ref:70776.
 
-## Read preservation setting separately from living habitat {#s-ba7bf3c34a}
-The Sheepyard, Coocoran Opal Field has collection-environment label terrestrial indet.; collection preservation-mode label body,replaced with other. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Radiometric dates for the Wallangulla Sandstone Member at Lightning Ridge indicate a maximum depositional age of 100.2–96.6 Ma
 
-## Follow collection records back to references {#s-6269dd290f}
-The Sheepyard, Coocoran Opal Field carries database reference attribution Bell et al. (2019), identifier ref:70776. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+approximately 10  m underground in an opal mine at the ‘Sheepyard’ opal field approximately 40 km southwest of the town of Lightning Ridge in central northern New South Wales
 
-## Evidence limits {#s-fcce3d7306}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-c28e7313ac}
+Across these selected PBDB rows, the largest recorded eag=100.5 Ma in occ:1479592; the smallest recorded lag=93.9 Ma in occ:1479592. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-ba7bf3c34a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1479592: PBDB original-identification field idn=Fostoria dhimbangunmal n. gen. n. sp.; PBDB taxon-name field tna=Fostoria dhimbangunmal; material note ocm=LRF 3050, AM F128217, 128218; abundance fields abv=4, abu=individuals; PBDB locality-coordinate fields lng=147.630295, lat=-29.686899; paleocoordinate/model fields pm1=gplates, pln=146.84, pla=-70.06.
+
+## References attached to each record {#s-6269dd290f}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1479592: Recorded attribution Bell et al. 2019; PBDB reference ref:70776.
+
+## What these records can show {#s-fcce3d7306}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

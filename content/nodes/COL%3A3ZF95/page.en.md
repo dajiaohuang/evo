@@ -1,41 +1,41 @@
-## The name and this data account {#s-2c50724d86}
-Melierax canorus is accepted in COL26.8 within Accipitridae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-2c50724d86}
+The AVONET v7 row for Melierax canorus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 18.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-749f2cb49b}
-Recorded mean beak measurements are 18.8 mm from the anterior nostril edge to the tip, 11.1 mm in width and 23.8 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-749f2cb49b}
+AVONET records culmen length (bill tip to skull base) 33.5 mm; beak length (nostril front edge to tip) 18.8 mm; beak width at the nostril front edge 11.1 mm; beak depth at the nostril front edge 23.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-0c71b156e0}
-Mean unflattened wing length from the carpal joint to the longest primary is 353 mm; mean tarsus length is 100.6 mm. Compiled mean mass is 663.32 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-0c71b156e0}
+AVONET records unflattened wing length 353 mm; tarsus length 100.6 mm; distance from first secondary tip to longest primary tip 141.5 mm; length to first secondary tip 215.8 mm; hand-wing index 39.7; tail length 230 mm; species-average body mass 663.32 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-c315bc68cd}
-The dataset assigns habitat Shrubland, trophic niche Vertivore and lifestyle Generalist. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-c315bc68cd}
+AVONET classifies Melierax canorus as habitat Shrubland (low, bush-dominated vegetation); trophic niche Vertivore (source threshold at least 60% from terrestrial vertebrates); trophic level Carnivore; primary lifestyle Generalist. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-e3dc0a6adb}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -34.84° to -16.27°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-e3dc0a6adb}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -34.84° to -16.27°. The mapped range area is 2246754.63 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-a066e11b62}
-Melierax canorus is accepted in pinned COL26.8 within Accipitridae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-a066e11b62}
+The August 2015 database has a same-name, same-family record for Melierax canorus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-c36e5fc167}
-Historical summary values are adult body mass 636 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-c36e5fc167}
+The August 2015 compilation reports adult body mass 636 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-26a4334a4c}
-Available compilation fields are offspring per litter or eggs per clutch 1.75 offspring/eggs; oviposition to hatching 37 d; age at flight capability (leaving the nest in some source material) 53 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-26a4334a4c}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 1.75; oviposition-to-hatching interval 37 days; age at flight capability (some records mark nest departure) 53 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-92e969d8f3}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Bennett, 1986; Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-92e969d8f3}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-4a9cbac198}
-Melierax canorus is accepted in pinned COL26.8 within Accipitridae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-4a9cbac198}
+EltonTraits 1.0 has a same-name, same-family record for Melierax canorus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-3fb07086c5}
-The archive’s nonzero food weights are mammals and birds 40%; reptiles and amphibians 40%; invertebrates 10%; scavenged food and related discarded material 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-3fb07086c5}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; mammals and birds 40%; reptiles and amphibians 40%; carrion or refuse 10%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-b4f3e1d045}
-Foraging-stratum weights flagged as species-level in the archive are ground 80%; understory, edges or shrubs below 2 m 10%; trees or high bushes from 2 m upward but below the canopy 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-b4f3e1d045}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 80%; in the understory 10%; in mid-height or high vegetation 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-cba75e151d}
-The used groups carry labels Ref_2. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-cba75e151d}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-d3e021a64f}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

@@ -1,4 +1,6 @@
-## 从测量记录开始阅读 {#s-4d3fd12a31}
+## 记录分类与直接上级关系 {#s-4d3fd12a31}
+COL26.8 将 Zosterops 记录为属；其直接上级记录为 Zosteropidae。
+
 本页汇集 36 条有测量数据的物种记录，可从 Zosterops albogularis、Zosterops atricapilla、Zosterops atriceps、Zosterops atrifrons 和 Zosterops buruensis 开始。目录层级沿固定的 COL26.8 分类排列；生物学数值保留 AVONET v7 的历史名称与采样范围。这是选读资料，不是全部接受种的名录。
 
 ## 比较测量记录 {#s-e8fa652575}
@@ -22,8 +24,8 @@ EltonTraits 阅读路径选取唯一的历史同名同科条目：一组至少�
 
 两张同名一对一历史对应表不能证明后来的拆分或并名前后仍是相同的物种概念。粗略类别不是独立的行为观察，历史地图也不是当前占域或保护评估。形态推算与体重资料保留原出处，本页不将它们解读为所有物种的直接测量。
 
-## 从有限生态资料页开始 {#s-63f0f22907}
-Zosterops 下链接有 19 条历史生态资料，可从 [Zosterops anomalus](Zosterops_anomalus/page.zh.md)、[Zosterops finschii](Zosterops_finschii/page.zh.md)、[Zosterops flavus](Zosterops_flavus/page.zh.md)、[Zosterops gibbsi](Zosterops_gibbsi/page.zh.md) 或 [Zosterops grayi](Zosterops_grayi/page.zh.md) 开始。它们按固定的 COL26.8 分类路径排列；19 条不是全部接受种的总数。
+## 记录分类与成员材料 {#s-63f0f22907}
+Zosterops 下链接有 19 条历史生态资料，可从 Zosterops anomalus、Zosterops finschii、Zosterops flavus、Zosterops gibbsi 或 Zosterops grayi 开始。它们按固定的 COL26.8 分类路径排列；19 条不是全部接受种的总数。
 
 ## 这些记录能说明什么 {#s-1e6b822301}
 资料中有 18 条栖地类别记录、19 条取食生态位记录、19 条主导活动方式记录和 19 条迁移类别记录。应先按来源定义阅读：相同标签是分类字段，不是独立的行为观察，也不能证明整个属具有同一生活方式。历史地图与当前分布资料的范围不同。本页没有据喙、翼、跗蹠、尾和体重字段推断属级体型差异。

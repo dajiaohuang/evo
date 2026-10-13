@@ -1,19 +1,47 @@
 ## Which fossil records this name represents {#s-0d5d7a6213}
 Protungulatum gorgun is accepted in the fixed PBDB mammalia working roster, with database parent Protungulatum. This guide uses 19 eligible species-level occurrence records from 19 collections and 5 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-2de4f2e503}
-Collection Bug Creek West (Montana), region code US, stratum name Hell Creek; database age bracket 66–63.4 Ma, early interval Puercan. Collection Chris's Bonebed (CBB) (Montana), region code US, stratum name Hell Creek; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection Condylarth Flats (Montana), region code US, stratum name Hell Creek; database age bracket 66–63.4 Ma, early interval Puercan. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Protungulatum gorgun is listed in the PBDB snapshot under taxon txn:51117. This archived guide contains 19 selected occurrence rows, linked to 19 distinct PBDB collection IDs and 5 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-05b9b9e5e6}
-Selected occurrences have an outer age envelope of 72.2–63.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Chris's Bonebed (CBB), occurrence occ:163856 (72.2–66 Ma); one supplying the younger bound is Bug Creek West, occurrence occ:163848 (66–63.4 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-2de4f2e503}
+The archived guide contains 19 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-5111712485}
-Bug Creek West has collection-environment label coarse channel fill; collection preservation-mode label body. Chris's Bonebed (CBB) has collection-environment label crevasse splay; collection preservation-mode label body. Condylarth Flats has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:163856; PBDB collection col:14674. Locality cnm=Chris's Bonebed (CBB); place fields cc2=US, stp=Montana, cny=McCone. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Hell Creek. Recorded attribution Lupton et al. 1980; PBDB reference ref:2333.
 
-## Follow collection records back to references {#s-e220fe1050}
-Bug Creek West carries database reference attribution Van Valen (1978), identifier ref:3485. Chris's Bonebed (CBB) carries database reference attribution Lupton et al. (1980), identifier ref:2333. Condylarth Flats carries database reference attribution Lofgren (1995), identifier ref:2255. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+approx 35 m below base of "Z coal", high in Hell Creek Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SW 1/4 of sec 10, T24N, R43E; along Ft. Peck Reservoir, S of Ft. Peck
+
+- Occurrence occ:163848; PBDB collection col:14672. Locality cnm=Bug Creek West; place fields cc2=US, stp=Montana, cny=McCone. Recorded age bounds: eag 66 Ma; lag 63.4 Ma; PBDB interval fields oei=Puercan. Stratigraphic fields sfm=Hell Creek, sls=Hell Creek mixed faunas, slb=2. Recorded attribution Van Valen 1978; PBDB reference ref:3485.
+
+- Occurrence occ:163859; PBDB collection col:14676. Locality cnm=Condylarth Flats; place fields cc2=US, stp=Montana, cny=McCone. Recorded age bounds: eag 66 Ma; lag 63.4 Ma; PBDB interval fields oei=Puercan. Stratigraphic fields sfm=Hell Creek. Recorded attribution Lofgren 1995; PBDB reference ref:2255.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be  Puercan
+
+## Age bounds on the recorded occurrences {#s-05b9b9e5e6}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:163856; the smallest recorded lag=63.4 Ma in occ:163848. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5111712485}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:163856: PBDB taxon-name field tna=Protungulatum gorgun; material note ocm=MPM 4445, 4446; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-106.099998, lat=47.799999; paleocoordinate/model fields pm1=gplates, pln=-64.03, pla=58.34.
+- occ:163848: PBDB taxon-name field tna=Protungulatum gorgun; PBDB locality-coordinate fields lng=-106.099998, lat=47.799999; paleocoordinate/model fields pm1=gplates, pln=-66.46, pla=57.47.
+- occ:163859: PBDB taxon-name field tna=Protungulatum gorgun; PBDB locality-coordinate fields lng=-106.099998, lat=47.799999; paleocoordinate/model fields pm1=gplates, pln=-66.46, pla=57.47.
+
+## References attached to each record {#s-e220fe1050}
+The archived guide links the rows to 5 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:163856: Recorded attribution Lupton et al. 1980; PBDB reference ref:2333.
+- occ:163848: Recorded attribution Van Valen 1978; PBDB reference ref:3485.
+- occ:163859: Recorded attribution Lofgren 1995; PBDB reference ref:2255.
 
 ## Evidence limits {#s-cd30adf53d}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 19 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

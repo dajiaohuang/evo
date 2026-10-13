@@ -130,7 +130,10 @@ records:
     - subjectId: taxon:thalassocnus
       claimKind: scientific
       claimType: fossil-range
-      statement: Thalassocnus is bounded by five named species sampled from successive Pisco Formation horizons over an approximately 8–3 Ma envelope; the sequence supports comparative bone-density change but is not a global genus duration, continuous population or direct ancestor series.
+      statement:
+        page: en
+        section: bone-density-series
+        part: body
       confidence: medium
       confidenceRationale: The specimens and successive horizons are documented. Functional adaptation and lineage continuity remain interpretations.
       referenceLinks:
@@ -142,7 +145,9 @@ records:
   claim-rationales.zh:
     - 标本与连续层位有记录；功能适应与谱系连续性仍属解释。
   claim-statements.zh:
-    - Thalassocnus 由 Pisco 组连续层位中取样的五个具名物种约束，覆盖约 800 万—300 万年前；该序列支持骨密度变化比较，但不是全球属级延续、连续种群或直接祖先序列。
+    - page: zh
+      section: bone-density-series
+      part: body
   ranges:
     - entityId: thalassocnus
       rangeKind: global-composite

@@ -1,44 +1,44 @@
-## Name and AVONET sample {#s-6a82b953cb}
-COL26.8 accepts Ardea cocoi within Ardeidae. AVONET v7 associates this record with the HBW–BirdLife 2020 name. Nine individuals were measured and four had a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-6a82b953cb}
+The AVONET v7 row for Ardea cocoi (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 120.1 mm. The row records 9 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions {#s-de77ac2c77}
-Mean beak length is 120.1 mm from the front edge of the nostril to the tip; width is 18.7 mm and depth 28.2 mm at that edge. These are separate measurements at standardized landmarks, not identification cutoffs.
+## Beak measurements at defined landmarks {#s-de77ac2c77}
+AVONET records culmen length (bill tip to skull base) 146.9 mm; beak length (nostril front edge to tip) 120.1 mm; beak width at the nostril front edge 18.7 mm; beak depth at the nostril front edge 28.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-737f8b2e01}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 466.3 mm; mean tarsus length is 186.4 mm. AVONET’s compiled mean mass is 1752.44 g, sourced to Dunning. This mass comes from separate species-average information, not necessarily from the measured specimens.
+## Wing and body measures use separate sources {#s-737f8b2e01}
+AVONET records unflattened wing length 466.3 mm; tarsus length 186.4 mm; distance from first secondary tip to longest primary tip 147.5 mm; length to first secondary tip 316.5 mm; hand-wing index 31.8; tail length 178.3 mm; species-average body mass 1752.44 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Broad habitat and ecology categories {#s-81d2f8e3d2}
-AVONET assigns Wetland habitat, an Aquatic predator trophic niche and a Terrestrial primary lifestyle. These are broad comparison labels; they do not describe every place or resource used.
+## Recorded habitat and feeding categories {#s-81d2f8e3d2}
+AVONET classifies Ardea cocoi as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and mapped range {#s-87f26ea7e0}
-The migration category is sedentary. Historical breeding and resident maps extend from latitude −47.49° to 12.17°. This is not a complete account of non-breeding movement, current position or occupancy across the range. Geography and morphology come from separate compilation steps.
+## Mapped range is not a locality list {#s-87f26ea7e0}
+Historical breeding and resident maps span latitude endpoints -47.49° to 12.17°. The mapped range area is 14742289.16 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## The August 2015 life-history record {#s-da8b1b02bc}
-The August 2015 archive supplies four focal fields in same-name, same-family, species-level rows with cited sources. This supports a historical association, while inherited taxonomic information may remain in the summaries; the name alone does not establish equivalence to COL26.8.
+## Scope of the historical life-history entry {#s-da8b1b02bc}
+The August 2015 database has a same-name, same-family record for Ardea cocoi. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass in a separate compilation {#s-27c1673e91}
-The life-history archive reports adult body mass of 1585 g. Its adult value may combine males, females and adults of unspecified sex; it is not a range of individual masses. This value belongs to a separate compilation from AVONET’s 1752.44 g mean. No birth or hatching mass is included.
+## Compiled adult-mass values {#s-27c1673e91}
+The August 2015 compilation reports adult body mass 1585 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Clutch size and incubation {#s-5006f50801}
-The compilation reports 3 offspring or eggs per litter or clutch and 25 d from oviposition to hatching; d means days. The field combines offspring and egg counts, so it describes a compilation summary, not a fractional or universal clutch. It does not provide one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-5006f50801}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3; oviposition-to-hatching interval 25 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A maximum record, not a typical lifespan {#s-3cf6ea7c5e}
-The archive’s maximum_longevity_y value is 24.4 years, selected as the largest record under its method. It is not a typical or mean wild lifespan, an individual survival ceiling or a current record known to be repeatedly attainable.
+## A maximum record is not typical lifespan {#s-3cf6ea7c5e}
+The compilation lists 24.4 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## Source labels for the life-history fields {#s-d6725c4f05}
-Same-name rows cite Dunning, 1992; de Magalhaes and Costa, 2009; Bennett, 1986; and Wasser, D.E. and P.W. Sherman, 2010, among others. The archive retains field-level row numbers, values and labels with the full reference explanations. A row count is not a specimen count, and repeated citations are not independent replication.
+## Sources and field limits {#s-d6725c4f05}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## A second ecology compilation {#s-703929c57d}
-EltonTraits 1.0 links a historical Ardea cocoi entry by name and family and provides two usable ecological groups: diet and foraging stratum. Its older taxonomy does not settle later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-703929c57d}
+EltonTraits 1.0 has a same-name, same-family record for Ardea cocoi covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Food weights in the archive {#s-30976e93ff}
-The standardized diet weights are fish 40%, invertebrates 30%, and reptiles and amphibians 30%. Code A indicates high compiler confidence in the source and diet information. These values translate written descriptions; they are not measured diet proportions, and zero would not prove a food is never taken. Source categories such as Nect, Seed and PlantO are broader than everyday labels.
+## Relative weights across food categories {#s-30976e93ff}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 30%; reptiles and amphibians 30%; fish 40%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging at the water surface {#s-14442d9be1}
-The species-level foraging-stratum entry assigns 100% to on or just below the water surface. This is a relative feeding-position weight, not a nest site, a complete habitat description or a time budget. The source’s water, understory, mid/high, canopy and aerial categories have different definitions; they are not elevation bands or measures of flight height.
+## Foraging positions are not a time budget {#s-14442d9be1}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## References behind the EltonTraits groups {#s-25a0954c4c}
-The diet and foraging groups carry the label Ref_1. The archive preserves the source string with its file, row, field group and reference-table location. The label traces source material, not another observation; the underlying work has not been individually reviewed here.
+## Sources and field limits {#s-25a0954c4c}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits across these sources {#s-f6eb7068e7}
 This page joins AVONET v7, the August 2015 life-history archive and EltonTraits 1.0; it is not a complete species monograph. AVONET morphology values are sample means and its mass has separate provenance; its ecological categories are broad and its map is historical. The 2015 archive reports compiled summaries, including adult mass and a maximum longevity record, not measurements of one individual. Taxonomic inheritance may remain, source conditions are not uniformly known, and the underlying publications were not individually reviewed. EltonTraits weights are literature-derived, not direct measurements. Same-name and same-family matches support association, not equivalence to COL26.8. Current range, population, behavior and conservation need other sources.

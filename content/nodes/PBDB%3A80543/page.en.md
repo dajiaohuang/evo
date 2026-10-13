@@ -1,19 +1,41 @@
 ## Which fossil records this name represents {#s-3631c25809}
 Moqueguahippus glycisma is accepted in the fixed PBDB mammalia working roster, with database parent Moqueguahippus. This guide uses 4 eligible species-level occurrence records from 4 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-4b0fc2f6ef}
-Collection Moquegua, Upper Moquega Fm (Moquegua), region code PE, stratum name Upper Moquegua; database age bracket 29–21 Ma, early interval Deseadan. Collection Cerro Mono (Moquegua), region code PE, stratum name Upper Moquegua; database age bracket 29–21 Ma, early interval Deseadan. Collection Cerro Pan de Azúcar (Moquegua), region code PE, stratum name Upper Moquegua; database age bracket 29–21 Ma, early interval Deseadan. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Moqueguahippus glycisma is listed in the PBDB snapshot under taxon txn:80543. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-d1e4d88bb9}
-Selected occurrences have an outer age envelope of 29–21 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Moquegua, Upper Moquega Fm, occurrence occ:571561 (29–21 Ma); one supplying the younger bound is Moquegua, Upper Moquega Fm, occurrence occ:571561 (29–21 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-4b0fc2f6ef}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-82a8a20923}
-Moquegua, Upper Moquega Fm has collection-environment label terrestrial indet.; collection preservation-mode label permineralized. Cerro Mono has collection-environment label terrestrial indet.; collection preservation-mode label permineralized. Cerro Pan de Azúcar has collection-environment label terrestrial indet.; collection preservation-mode label body,permineralized. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:571561; PBDB collection col:59940. Locality cnm=Moquegua, Upper Moquega Fm; place fields cc2=PE, stp=Moquegua. Recorded age bounds: eag 29 Ma; lag 21 Ma; PBDB interval fields oei=Deseadan. Stratigraphic fields sfm=Upper Moquegua. Recorded attribution Shockey et al. 2006; PBDB reference ref:17215.
 
-## Follow collection records back to references {#s-f9e16ea75e}
-Moquegua, Upper Moquega Fm carries database reference attribution Shockey et al. (2006), identifier ref:17215. Cerro Mono carries database reference attribution Shockey et al. (2009), identifier ref:58080. Cerro Pan de Azúcar carries database reference attribution Shockey et al. (2009), identifier ref:58080. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+This collection had a L. Oligocene-E. Miocene age assigned, the upper Moquegua formation has a Deseadan age.
+
+- Occurrence occ:1315071; PBDB collection col:176470. Locality cnm=Cerro Mono; place fields cc2=PE, stp=Moquegua. Recorded age bounds: eag 29 Ma; lag 21 Ma; PBDB interval fields oei=Deseadan. Stratigraphic fields sfm=Upper Moquegua. Recorded attribution Shockey et al. 2009; PBDB reference ref:58080.
+
+- Occurrence occ:1315076; PBDB collection col:176469. Locality cnm=Cerro Pan de Azúcar; place fields cc2=PE, stp=Moquegua. Recorded age bounds: eag 29 Ma; lag 21 Ma; PBDB interval fields oei=Deseadan. Stratigraphic fields sfm=Upper Moquegua. Recorded attribution Shockey et al. 2009; PBDB reference ref:58080.
+
+## Age bounds on the recorded occurrences {#s-d1e4d88bb9}
+Across these selected PBDB rows, the largest recorded eag=29 Ma in occ:571561; the smallest recorded lag=21 Ma in occ:571561. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-82a8a20923}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:571561: PBDB original-identification field idn=Moqueguahippus glycisma n. gen. n. sp.; PBDB taxon-name field tna=Moqueguahippus glycisma; material note ocm=holotype plus some postcrania; PBDB locality-coordinate fields lng=-71.010002, lat=-17.209999; paleocoordinate/model fields pm1=gplates, pln=-64.45, pla=-16.79.
+- occ:1315071: PBDB taxon-name field tna=Moqueguahippus glycisma; material note ocm="MUSM 964 associated postcranials, including left astragalus, distal humerus, left proximal radius, unciform, left Mc III, and proximal end of Mc II (?) found by Walter Aguirre atop the east-west ridge between the two major summits of Cerro Mono at S17u13.8359 and W71u2.0209"; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-71.030281, lat=-17.233610; paleocoordinate/model fields pm1=gplates, pln=-64.47, pla=-16.82.
+- occ:1315076: PBDB original-identification field idn=Moqueguahippus glycisma n. gen. n. sp.; PBDB taxon-name field tna=Moqueguahippus glycisma; material note ocm="Holotype, MUSM 348, left mandible with p1–3 (p4 and m1 missing) and m2–3, discovered by Rossana Quispe and colleagues at Cerro Pan de Azúcar (fig. 1: b on map);"; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-71.011108, lat=-17.214443; paleocoordinate/model fields pm1=gplates, pln=-64.45, pla=-16.8.
+
+## References attached to each record {#s-f9e16ea75e}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:571561: Recorded attribution Shockey et al. 2006; PBDB reference ref:17215.
+- occ:1315071: Recorded attribution Shockey et al. 2009; PBDB reference ref:58080.
+- occ:1315076: Recorded attribution Shockey et al. 2009; PBDB reference ref:58080.
 
 ## Evidence limits {#s-367fd4be37}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

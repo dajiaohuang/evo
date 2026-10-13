@@ -1,4 +1,6 @@
-## Species records with cited traits {#s-e58da90a0e}
+## Recorded classification and direct parent {#s-e58da90a0e}
+COL26.8 records Peltocephalus at genus rank, with Podocnemididae as its direct parent.
+
 This catalogue links one species records for Peltocephalus with matching names, family placement and trait-level citations. Start with Peltocephalus dumerilianus. Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
 
 ## Measures differ among groups {#s-b8e2730313}

@@ -1,5 +1,5 @@
-## 历史属名与物种概念 {#s-c460f9d9e2}
-固定 COL26.8 以 Pternistis swierstrai（4PV76）组织本页。AVONET v7 BirdLife 2020 第 2527 行与 eBird 2021 对应同名，Avibase ID 为 AVIBASE-3A5FE639；BirdTree 表对应 Francolinus swierstrai，原匹配类型为 1BL to 1BT。已读 COL 的旧组合 6JLGB 指向本页接受 ID 4PV76。名称关联支持查回历史行，不证明各年代所有物种边界相同。
+## COL26.8 中的名称身份 {#s-c460f9d9e2}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pternistis swierstrai (Roberts, 1929) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与推算边界 {#s-7bf0342c7b}
 形态共测 1 只（雌 0、雄 1），完整测量 1 只。鼻孔前缘至喙尖均值 15.9 mm，跗蹠 50 mm，未压平翼长 179 mm，手翼指数 19.6。这些是物种行均值，指数按 Kipp 距离／翼长 ×100 定义；不能换成个体范围或飞行速度。本行只有一只雄鸟，不能由这个“均值”推断种内差异。

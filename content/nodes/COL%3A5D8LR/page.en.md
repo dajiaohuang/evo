@@ -1,17 +1,17 @@
-## Sample behind the measurements {#s-108f920554}
-COL26.8 accepts Zosterops atriceps in Zosteropidae. The AVONET v7 record uses its HBW–BirdLife 2020 name and includes 3 measured individuals, all with a complete morphological set. The available sample can still differ by trait.
+## Row-reported mean and sample coverage {#s-108f920554}
+The AVONET v7 row for Zosterops atriceps (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 8.2 mm. The row records 3 measured individuals, 3 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions at defined landmarks {#s-29fddc37dd}
-Mean beak length from the front edge of the nostril to the tip is 8.2 mm; width and depth at that edge average 2.9 mm and 3.5 mm. These are three separate dimensions recorded at standardized landmarks, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-29fddc37dd}
+AVONET records culmen length (bill tip to skull base) 14.2 mm; beak length (nostril front edge to tip) 8.2 mm; beak width at the nostril front edge 2.9 mm; beak depth at the nostril front edge 3.5 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-bf3c6800b9}
-Unflattened wing length, from the carpal joint to the longest primary, averages 58 mm; tarsus length averages 16.1 mm. The compiled mean mass is 12 g, classed as Updated_literature. It comes from separate species-average information, so it is not a weight recorded for each of the three measured birds.
+## Wing and body measures use separate sources {#s-bf3c6800b9}
+AVONET records unflattened wing length 58 mm; tarsus length 16.1 mm; distance from first secondary tip to longest primary tip 8.9 mm; length to first secondary tip 49.1 mm; hand-wing index 15.3; tail length 42 mm; species-average body mass 12 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat and feeding categories {#s-81265d7b7b}
-The record classifies habitat as Forest, trophic niche as Omnivore and primary lifestyle as Insessorial, a chiefly perching way of life. These broad categories support comparisons across species; they do not mean the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-81265d7b7b}
+AVONET classifies Zosterops atriceps as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration label and historical map {#s-0c2c9697a3}
-The migration category is Sedentary. Historical breeding and resident maps span latitude endpoints −1.67° to 2.65°. The map summary omits a complete account of non-breeding movements and does not locate the bird today or show occupancy across the whole range. Geography and morphology were compiled separately.
+## The migration label has a limited scope {#s-0c2c9697a3}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -1.67° to 2.65°. The mapped range area is 23298.99 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
 ## What this record can establish {#s-1bbd8c8d90}
 The measurements are averages for the recorded sample, not identification diagnoses or individual-variation ranges. Mass comes from a separate source and is not tied to the three-bird morphology sample. Habitat, diet and migration are broad categories, and the map covers historical breeding and resident ranges. Historical crosswalks and matching names link this record to COL26.8; they do not prove that the older and current species concepts are equivalent. Reproduction, current populations and conservation status are outside this account.

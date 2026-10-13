@@ -1,27 +1,27 @@
-## Accepted name and profile scope {#s-5b6b61ad07}
-COL26.8 accepts Varanus gilleni in Varanidae. Its ReptTraits v1-2 profile retains the workbook’s Reptile Database 2023 name framework and citations by trait. A separate 2015 life-history archive contributes four older fields; it is treated below as a distinct compilation.
+## COL26.8 name and the ReptTraits row {#s-5b6b61ad07}
+COL26.8 records Varanus gilleni as an accepted species. The ReptTraits v1-2 row gives its Family field as Varanidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Snout–vent length leaves out the tail {#s-af70bc8d75}
-The reported maximum snout–vent length is 194 mm, and the female maximum is 120.3 mm. This measure ends at the body opening, excluding the tail. The maxima may come from different sources or localities, so they do not by themselves show typical size or population-wide sexual dimorphism.
+## Length values in the archived records {#s-af70bc8d75}
+The row reports a maximum SVL of 194 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 120.3 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Tree and ground settings, active by day {#s-c06960106a}
-The profile lists arboreal and terrestrial microhabitats, carnivorous diet, diurnal activity, and foraging mode ACT (active foraging). These are broad categories that can cover more than one setting; they do not identify a specific prey, locality, or daily pattern.
+## Habitat use and activity labels {#s-c06960106a}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/ground-dwelling (Terrestrial) [source label: Arboreal/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Meiri 2018.
 
-## Reproductive mode and reported counts {#s-21f6f11723}
-Reproductive mode is oviparous, or egg-laying. Sex determination is recorded as GSD (ZW/ZZ), a genetic sex-determination category. The profile’s consolidated mean is 4.28 offspring or eggs per litter or clutch, with reported mean endpoints of 1 and 7 and one clutch per year. These are summaries, not fixed counts for every clutch; endpoints refer to reported means rather than necessarily observed extremes.
+## Reproductive fields in ReptTraits {#s-21f6f11723}
+The compiled mean for offspring per litter or eggs per clutch is 4.275. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 7; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The row reports 1 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records GSD (ZW/ZZ). ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## A separate 2015 life-history compilation {#s-636783910d}
-The older archive contributes four focal fields from sparse rows carrying the same name and family: adult mass, birth or hatching mass, clutch or litter size, and incubation. Such rows may retain historical taxonomic inheritance. Their name match supports cautious association, not proof of identity with the pinned COL26.8 concept.
+## A 2015 life-history row for this name {#s-636783910d}
+COL26.8 records Varanus gilleni as an accepted species. The August 2015 life-history table has a species-name and family match (Varanidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Adult and hatchling mass are different fields {#s-f99a40b936}
-The archive summarizes adult body mass as 65 g and birth or hatching mass as 2.97 g. Adult values may combine male, female, or unspecified-sex records. These numbers describe different stages and do not form a growth curve or an individual-mass range.
+## Length values in the archived records {#s-f99a40b936}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated; mass at birth or hatching: a source-level mean based on median inputs. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 65 g. The 2015 archive's field citation is Meiri, 2010. The combined birth-or-hatching mass field is 2.965 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Thompsom and Pianka, 2001; King, D., Green, B., 1999; De Lisle, H.F., 1996.
 
-## A clutch summary and incubation interval {#s-9caec89eef}
-The archive’s litter or clutch summary is 4.28 offspring or eggs, and its oviposition-to-hatching interval is 98 days. The matching numerical summary in ReptTraits appears in another compilation; that agreement is not a second independent measurement. Incubation and clutch size describe different aspects of reproduction.
+## Reproductive events in the life-history table {#s-9caec89eef}
+Field-specific archive notes: offspring per litter or eggs per clutch: a source-level mean based on median inputs; oviposition to hatching: median of 9 recorded source-table values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 4.28; it is not a count from one event. The 2015 archive's field citation is Thompsom and Pianka, 2001; Reptile Incubation book; Fradlova P., Frynta, D., 2010. The incubation field is 98 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Thompsom and Pianka, 2001; Reptile Incubation book; Birchard, G. and D. Marcellini, 1996.
 
-## Tracing the archived references {#s-3f34cbf7d3}
-The historical source labels include Meiri (2010), Thompsom and Pianka (2001), Reptile Incubation book, and Fradlova and Frynta (2010), among others. Field-specific row numbers and citation labels are retained in the archive. A row count is not a count of sampled animals, and repeated references do not create independent experiments.
+## The August 2015 life-history table {#s-3f34cbf7d3}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-9cf1ef4788}
-The profile retains the workbook’s 2023 taxonomy framework; the second source is an August 2015 archive that may share or inherit values across historical species and subspecies. A matching name and family do not prove equivalence with the COL26.8 concept. Archive summaries are not direct measurements of one individual or population ranges; collection conditions are not uniformly identified, and the underlying papers were not individually reviewed here. Current distribution, conservation, venom, and fields absent from these sources remain outside this account.
+## Separate histories in the two archives {#s-9cf1ef4788}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

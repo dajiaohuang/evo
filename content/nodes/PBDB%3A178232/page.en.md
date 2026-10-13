@@ -1,19 +1,60 @@
 ## Which fossil records this name represents {#s-2bbb18a767}
 Riograndia guaibensis is accepted in the fixed PBDB other-synapsida working roster, with database parent Riograndia. This guide uses 4 eligible species-level occurrence records from 4 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-a756bdc72c}
-Collection Agudo, Sacisaurus site (Rio Grande do Sul), region code BR, stratum name Caturrita; database age bracket 227.3–205.7 Ma, early interval Norian. Collection Faxinal do Soturno, Linha São Luiz (Rio Grande do Sul), region code BR, stratum name Caturrita; database age bracket 227.3–205.7 Ma, early interval Norian. Collection 8 km west Candelaria, BR 287, Sesmaria do Pinhal 1 (Rio Grande do Sul), region code BR, stratum name Caturrita; database age bracket 227.3–205.7 Ma, early interval Norian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Riograndia guaibensis is listed in the PBDB snapshot under taxon txn:178232. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-fa7ab124b5}
-Selected occurrences have an outer age envelope of 227.3–205.7 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Agudo, Sacisaurus site, occurrence occ:536061 (227.3–205.7 Ma); one supplying the younger bound is Agudo, Sacisaurus site, occurrence occ:536061 (227.3–205.7 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-a756bdc72c}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-904be8862e}
-Agudo, Sacisaurus site has collection-environment label terrestrial indet.; collection preservation-mode label body. Faxinal do Soturno, Linha São Luiz has collection-environment label fluvial indet.; collection preservation-mode label body. 8 km west Candelaria, BR 287, Sesmaria do Pinhal 1 has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:536061; PBDB collection col:55442. Locality cnm=Agudo, Sacisaurus site; place fields cc2=BR, stp=Rio Grande do Sul. Recorded age bounds: eag 227.3 Ma; lag 205.7 Ma; PBDB interval fields oei=Norian. Stratigraphic fields sfm=Caturrita. Recorded attribution Soares et al. 2011; PBDB reference ref:35591.
 
-## Follow collection records back to references {#s-c35a93087b}
-Agudo, Sacisaurus site carries database reference attribution Soares et al. (2011), identifier ref:35591. Faxinal do Soturno, Linha São Luiz carries database reference attribution Soares et al. (2011), identifier ref:35591. 8 km west Candelaria, BR 287, Sesmaria do Pinhal 1 carries database reference attribution Bonaparte et al. (2001), identifier ref:35281. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper layers of the Santa Maria 2 Sequence of the Santa Maria Supersequence, corresponding lithostratigraphically to the Caturrita Formation. Ictidosauria or Mammaliamorpha Assemblage Zone (= Jachaleria Interval); Riograndia Assemblage Zone, upper strata of the Candelária sequence
+
+Caturrita was originally considered Carnian-Norian in age; however, recent recalibration of the Triassic timescale suggests a Norian age (e.g. Langer et al. 2010; Brusatte et al. 2010. Earth-Science Reviews 101:68-100)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+inside the urban area of Agudo; coordinates given in text appear to be incorrect and locality is based upon town of Agudo
+
+- Occurrence occ:907153; PBDB collection col:55446. Locality cnm=Faxinal do Soturno, Linha São Luiz; place fields cc2=BR, stp=Rio Grande do Sul, cny=Faxinal do Soturno County. Recorded age bounds: eag 227.3 Ma; lag 205.7 Ma; PBDB interval fields oei=Norian. Stratigraphic fields sfm=Caturrita. Recorded attribution Soares et al. 2011; PBDB reference ref:35591.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper layers of the Santa Maria 2 Sequence of the Santa Maria Supersequence, corresponding lithostratigraphically to the Caturrita Formation. Ictidosauria or Mammaliamorpha Assemblage Zone (= Jachaleria Interval)
+
+Caturrita was originally considered Carnian-Norian in age; however, recent recalibration of the Triassic timescale suggests a Norian age (e.g. Langer et al. 2010; Brusatte et al. 2010. Earth-Science Reviews 101:68-100)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coordinates given by de Vivar et al. (2020); slightly different sets of coordinates given for the same locality in different papers. Quarry for road metal located 1.5 km NE from the city of Faxinal do Soturno. Langer et al. (2007) and others refer to this locality as "Linha São Luiz".
+
+- Occurrence occ:923079; PBDB collection col:105530. Locality cnm=8 km west Candelaria, BR 287, Sesmaria do Pinhal 1; place fields cc2=BR, stp=Rio Grande do Sul. Recorded age bounds: eag 227.3 Ma; lag 205.7 Ma; PBDB interval fields oei=Norian. Stratigraphic fields sfm=Caturrita. Recorded attribution Bonaparte et al. 2001; PBDB reference ref:35281.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Locality is from the upper part of the highstand system tract of the Santa Maria Sequence 2, Santa Maria Supersequence of the Rosario do Sul Group, representing  the Caturrita Formation of Norian age (see Langer et al. 2007). Ictidosauria or Mammaliamorpha Assemblage Zone (= Jachaleria Interval)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Outcrop of the Caturrita Formation located 8 kilometers west of Candelaria, in a roadcut on the route (BR 287) to Santa Maria. Coordinates given by Soares et al. (2011)
+
+## Age bounds on the recorded occurrences {#s-fa7ab124b5}
+Across these selected PBDB rows, the largest recorded eag=227.3 Ma in occ:536061; the smallest recorded lag=205.7 Ma in occ:536061. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-904be8862e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:536061: PBDB taxon-name field tna=Riograndia guaibensis; material note ocm=MCN-PV10204, postcanine tooth; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-53.233334, lat=-29.633333; paleocoordinate/model fields pm1=gplates, pln=-6.61, pla=-38.57.
+- occ:907153: PBDB taxon-name field tna=Riograndia guaibensis; material note ocm=UFRGS-PV-0624-T, UFRGS-PV-0833-T, UFRGS-PV-0842-T, UNI-SINOS-4881, skulls and partial skulls; 800-T, 1320-T, 1379-T; abundance fields abv=7, abu=individuals; PBDB locality-coordinate fields lng=-53.446667, lat=-29.562500; paleocoordinate/model fields pm1=gplates, pln=-6.86, pla=-38.53.
+- occ:923079: PBDB original-identification field idn=Riograndia guaibensis n. gen. n. sp.; PBDB taxon-name field tna=Riograndia guaibensis; material note ocm=MCN-PV 2264 (holotype), anterior portion of skull. MCN-PV 2265, MCN-PV 2271, lower jaws. UFRGS-PV-0569-T, UFRGS-PV-0601-T, skulls; abundance fields abv=5, abu=individuals; PBDB locality-coordinate fields lng=-52.845833, lat=-29.685833; paleocoordinate/model fields pm1=gplates, pln=-6.17, pla=-38.56.
+
+## References attached to each record {#s-c35a93087b}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:536061: Recorded attribution Soares et al. 2011; PBDB reference ref:35591.
+- occ:907153: Recorded attribution Soares et al. 2011; PBDB reference ref:35591.
+- occ:923079: Recorded attribution Bonaparte et al. 2001; PBDB reference ref:35281.
 
 ## Evidence limits {#s-bca4363bcd}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

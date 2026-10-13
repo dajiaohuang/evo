@@ -1,5 +1,5 @@
-## 沿旧 Oceanodroma／Halocyptena 组合查历史行 {#s-ae51972580}
-COL26.8 接受 Hydrobates monteiroi（DD8SS）。BirdLife 2020 第 10068 行与 eBird 2021 第 4926 行同名，Avibase ID 为 AVIBASE-3E579E5B，交叉表类型为 1BL to 1eBird。BirdTree 第 4903 行则记作 Oceanodroma monteiroi（1BL to 1BT）。目录异名 48C4F 指向接受 ID。这些名称关联便于查找旧记录，但不能证明不同时期的物种边界完全相同。
+## COL26.8 中的名称身份 {#s-ae51972580}
+《Catalogue of Life》COL26.8（2026-08-20）将 Hydrobates monteiroi (Bolton, A. L. Smith, Gómez-Díaz, Friesen, Medeiros, Bried, Roscales & Furness, 2008) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 一只鸟的测量范围 {#s-8d340f23a8}
 形态资料只有 1 只鸟：雌 0、雄 1、性别未记录 0；该个体有完整测量组。历史行均值为：鼻孔至喙尖 9.7 mm、跗蹠 22.2 mm、未压平翼长 153 mm、尾长 91 mm、手翼指数 43.8。仅有一只鸟，不能据此确定雌雄差异或群体分布。Inference=NO 不能代替逐字段的采样分母。手翼指数是 Kipp 距离除以翼长再乘 100，不是飞行速度；喙长本身不能说明咬合力或处理特定猎物的能力。

@@ -4,13 +4,15 @@ Two Nile-crocodile studies provide the named sensory entry for Crocodylidae. Int
 ## Compare material, stimuli and recording methods {#s-5ca0781963}
 Start with jaw touch and measurement limits on [Alligator mississippiensis](../Alligatoridae/Alligator/Alligator_mississippiensis/page.en.md), compare body distribution and embryonic timing on [Crocodylus niloticus](Crocodylus/Crocodylus_niloticus/page.en.md), then read the multiple stimulus types tested on the jaws of [Caiman crocodilus](../Alligatoridae/Caiman/Caiman_crocodilus/page.en.md). At each step identify the year, juvenile or embryo, site and subset. Local neural activity is not wild preference; undetected salt-solution responses do not establish absence of whole-animal salinity perception. Existing bite-force, movement and life-history routes retain their own ages, units and methods; sensory thresholds do not convert into predation success rates.
 
-## Start with sourced trait records {#s-cd46f7dfd3}
+## Recorded classification and direct parent {#s-cd46f7dfd3}
+COL26.8 records Crocodylidae at family rank, with Crocodylia as its direct parent.
+
 This batch’s ReptTraits route for Crocodylidae includes 14 same-name, same-family entries with trait-specific citations. Start with Crocodylus acutus, Crocodylus intermedius, Crocodylus johnstoni, Crocodylus mindorensis, Crocodylus moreletii. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Different groups require different measures {#s-f2ee57c3fd}
 The shared length column records straight carapace length in turtles and snout–vent length in other groups. They are not combined into a size ranking. On species pages, inspect measurement landmarks, activity and feeding categories, reproductive mode and clutch/litter values, selecting comparable material by source and definition.
 
-## Choose comparison pages by life-history fields {#s-c542cd1c9b}
+## Amniote Life-history archive member records {#s-c542cd1c9b}
 This batch’s Crocodylidae route includes 12 historical life-history accounts; start with Crocodylus acutus, Crocodylus intermedius, Crocodylus mindorensis, Crocodylus moreletii, Crocodylus niloticus. Fields retained within declared class scopes include adult body mass (12 entries), offspring per litter or eggs per clutch (12 entries), oviposition to hatching (12 entries), longest lifespan record in the compilation (12 entries). Counts describe this batch’s coverage, not the complete accepted-species denominator; read events, units and provenance before comparing values.
 
 ## Evidence limits {#s-8ee189e0a4}
@@ -23,12 +25,12 @@ New sensory accounts use material descriptions, selected methods/results/discuss
 ## Citation gaps in some descendant accounts {#s-11f71f4732}
 In this ReptTraits route, some fields in 2 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 
-## Start with sourced trait records {#s-3c6dee8605}
-This batch’s ReptTraits route for Crocodylidae includes 3 same-name, same-family entries with trait-specific citations. Start with [Crocodylus halli](Crocodylus/Crocodylus_halli/page.en.md), [Mecistops leptorhynchus](Mecistops/Mecistops_leptorhynchus/page.en.md), [Osteolaemus osborni](Osteolaemus/Osteolaemus_osborni/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-3c6dee8605}
+This batch’s ReptTraits route for Crocodylidae includes 3 same-name, same-family entries with trait-specific citations. Start with Crocodylus halli, Mecistops leptorhynchus, Osteolaemus osborni. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
-## Choose comparisons by available fields {#s-03af774924}
+## ReptTraits member records {#s-03af774924}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Limits of these trait data {#s-890908015f}
+## ReptTraits material route {#s-890908015f}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

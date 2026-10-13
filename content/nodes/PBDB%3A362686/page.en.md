@@ -1,18 +1,32 @@
-## Which fossil records this name represents {#s-31bff4e518}
-Mierasaurus bobyoungi is accepted in the fixed PBDB dinosaur working roster, with database parent Mierasaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-31bff4e518}
+Mierasaurus bobyoungi is listed in the PBDB snapshot under taxon txn:362686. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-fb979518f5}
-Collection Doelling's Bowl Bonebed (UMNH VP Loc. 1208) (Utah), region code US, stratum name Cedar Mountain; database age bracket 139.1–132.6 Ma, early interval Late Berriasian and late interval Valanginian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-fb979518f5}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-fa8c97bdaa}
-Selected occurrences have an outer age envelope of 139.1–132.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1383087; PBDB collection col:97954. Locality cnm=Doelling's Bowl Bonebed (UMNH VP Loc. 1208); place fields cc2=US, stp=Utah. Recorded age bounds: eag 139.1 Ma; lag 132.6 Ma; PBDB interval fields oei=Late Berriasian, oli=Valanginian. Stratigraphic fields sfm=Cedar Mountain. Recorded attribution Royo-Torres et al. 2017; PBDB reference ref:63702.
 
-## Read preservation setting separately from living habitat {#s-c338ef6b87}
-Doelling's Bowl Bonebed (UMNH VP Loc. 1208) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"The Doelling's Bowl area preserves a particularly thick section of the Yellow Cat Member" ""ankylosaur, iguanodontid, and dromaeosaurid skeletal remains that are all compatible with an Early Cretaceous age"; below marker calcrete and above the "chert interval"
 
-## Follow collection records back to references {#s-ffe7c570ee}
-Doelling's Bowl Bonebed (UMNH VP Loc. 1208) carries database reference attribution Royo-Torres et al. (2017), identifier ref:63702. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Recent work indicates that the lower part of the Yellow Cat Member is late Berriasian-Valanginian (Joeckel et al. 2020)
 
-## Evidence limits {#s-62a3fc9f0b}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Arches National Park near Moab, Utah "Lower Cedar Mountain Formation on the south rim of Doelling's Bowl"
+
+## Age bounds on the recorded occurrences {#s-fa8c97bdaa}
+Across these selected PBDB rows, the largest recorded eag=139.1 Ma in occ:1383087; the smallest recorded lag=132.6 Ma in occ:1383087. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-c338ef6b87}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1383087: PBDB original-identification field idn=Mierasaurus bobyoungi n. gen. n. sp.; PBDB taxon-name field tna=Mierasaurus bobyoungi; material note ocm=UMNH.VP.26004 - holotype; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-109.592781, lat=38.731945; paleocoordinate/model fields pm1=gplates, pln=-44.06, pla=34.44.
+
+## References attached to each record {#s-ffe7c570ee}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1383087: Recorded attribution Royo-Torres et al. 2017; PBDB reference ref:63702.
+
+## What these records can show {#s-62a3fc9f0b}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

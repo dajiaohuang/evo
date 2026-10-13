@@ -7,8 +7,8 @@ Start with Aigialosaurus bucchichi, Aigialosaurus dalmaticus, Carentonosaurus so
 ## Evidence limits {#s-d6a9c28279}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## atlas-profile / overview {#s-5b9de76b13}
-Here, Mosasauroidea names a branch-defined group; Mosasauridae is instead defined around a common ancestor and its descendants. The distinction matters when a tree changes. The fossil and ecological records then answer different questions: two incomplete Dallasaurus skeletons preserve skull, trunk and plesiopedal limbs, while tooth-enamel isotopes from five Maastrichtian taxa are used to compare resource use. Neither sample represents every mosasauroid.
+## Branch and node definitions shape the group {#s-5b9de76b13}
+Mosasauroidea is branch-defined while Mosasauridae is node-defined; Dallasaurus anatomy and isotope studies address separate samples, not all mosasauroids.
 
 ## atlas-profile / ecology / diet {#s-d207de6a88}
 Tooth-enamel isotope values, considered alongside body-size estimates, distinguish resource use among five mosasaur taxa from the Maastrichtian type area. This is evidence for partitioning within that sample, not a single diet that can be assigned across Mosasauroidea.
@@ -34,9 +34,9 @@ Two incomplete Dallasaurus skeletons preserve skull and axial anatomy together w
 ## atlas-profile / traits {#s-36e1f96104}
 The analysis compares plesiopedal and hydropedal limb grades as anatomical conditions; it treats those grades separately from the definition of a family.
 
-## atlas-profile / evidenceSummary {#s-297b9aa4ea}
-Three lines of work are kept distinct here: a nomenclatural analysis clarifies which clade names refer to branches or nodes, Dallasaurus supplies anatomical evidence from two incomplete skeletons, and isotope plus body-size data compare five Maastrichtian taxa. These bounded samples support no universal diet, habitat or guild for the whole group.
+## Separate nomenclature, anatomy and isotope studies {#s-297b9aa4ea}
+Name definitions, two incomplete Dallasaurus skeletons and isotope data from five Maastrichtian taxa answer separate questions, not universal ecology.
 
-## atlas-profile / readerLimitations {#s-305294a774}
+## Limits of the named samples {#s-305294a774}
 The page combines different evidence: name definitions, two incomplete Dallasaurus skeletons and isotope data from five Maastrichtian taxa. These samples inform specific clade, anatomy and resource-use questions; they do not establish one ecology or body-size range for all mosasauroids.
 

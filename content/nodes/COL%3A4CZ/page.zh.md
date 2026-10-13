@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-7d4101694d}
+## 记录分类与直接上级关系 {#s-7d4101694d}
+COL26.8 将 Chrysochloridea 记录为亚目；其直接上级记录为 Afrosoricida。
+
 Chrysochloridea 的本地 PanTHERIA 路径包括 7 条可用数据导读，可从 Eremitalpa granti、Chlorotalpa duthieae、Calcochloris obtusirostris、Chlorotalpa sclateri、Chrysochloris asiatica 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-1b5f3f5490}
@@ -12,17 +14,17 @@ Chrysochloridea 的本批路线包含 18 个历史条目，可从 Carpitalpa are
 
 ## 证据边界 {#s-bfe45381d4}
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
 
-## 从已有历史条目开始 {#s-7f4ca90587}
-Chrysochloridea 的本地 PanTHERIA 路径包括 3 条可用数据导读，可从 [Chrysochloris visagiei](Chrysochloridae/Chrysochlorinae/Chrysochloris/Chrysochloris_visagiei/page.zh.md)、[Cryptochloris wintoni](Chrysochloridae/Chrysochlorinae/Cryptochloris/Cryptochloris_wintoni/page.zh.md)、[Cryptochloris zyli](Chrysochloridae/Chrysochlorinae/Cryptochloris/Cryptochloris_zyli/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-7f4ca90587}
+Chrysochloridea 的本地 PanTHERIA 路径包括 3 条可用数据导读，可从 Chrysochloris visagiei、Cryptochloris wintoni、Cryptochloris zyli 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-d6b9e644a6}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-6737d9fb20}
-Chrysochloridea 本批有 3 个历史生活史资料页，可从 [Chrysochloris stuhlmanni](Chrysochloridae/Chrysochlorinae/Chrysochloris/Chrysochloris_stuhlmanni/page.zh.md)、[Chrysochloris asiatica](Chrysochloridae/Chrysochlorinae/Chrysochloris/Chrysochloris_asiatica/page.zh.md)、[Eremitalpa granti](Chrysochloridae/Chrysochlorinae/Eremitalpa/Eremitalpa_granti/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Chrysochloridea 本批有 3 个历史生活史资料页，可从 Chrysochloris stuhlmanni、Chrysochloris asiatica、Eremitalpa granti 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-f21630adc5}
 本批妊娠资料见 0 页，雌性首次繁殖年龄见 0 页，最高寿命记录见 0 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

@@ -1,5 +1,5 @@
-## Read this historical record through food and foraging position {#s-62b27f0994}
-Pinned COL26.8 accepts Diplogale hosei in Viverridae. This section reads the same-name, same-family EltonTraits 1.0 record through 3 ecological field groups with source information. The source uses earlier bird taxonomy or MSW3 taxonomy for mammals. Matching names do not settle modern splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-62b27f0994}
+The EltonTraits 1.0 record for *Diplogale hosei* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 60%, unspecified vertebrates 40% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Diplogale hosei*.
 
 ## Relative weights of food categories {#s-6475ea246f}
 Nonzero food weights in the archive are invertebrates 60%; unspecified vertebrates 40%. The ABC confidence code combines high, reasonable and partial confidence. Some estimates may draw on an ecologically similar congener, so ABC is not evidence of direct observation in this species. The percentages translate verbal descriptions to a common scale; they do not measure diet composition. A zero does not prove an item is never eaten. Nect, Seed and PlantO cover broader categories than their everyday names suggest; they do not mean the animal eats only nectar, seeds or plants.
@@ -13,11 +13,13 @@ The archive marks night-time feeding activity as 1. Several fields can be 1 toge
 ## Trace each field group to its source labels {#s-bd01160b20}
 The source labels for the field groups used here are Ref_1, metadata:Nowak1999. Diet, strata and activity may draw on different material. A Ref number in the bird reference table does not identify the same source as that number in the mammal table. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
-## Life-history evidence limits {#s-84073f8a21}
-This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
+## How to interpret these historical records {#s-84073f8a21}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## Name and historical material {#s-f5aa168cef}
-Pinned COL26.8 accepts Diplogale hosei in Viverridae. PanTHERIA 1.0 places this profile in the MSW05 entry from its August 2008 table; biological data gathering for the table ended in June 2004. Matching names do not settle later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult head–body length in the historical table {#s-f5aa168cef}
+The August 2008 PanTHERIA row for *Diplogale hosei* records adult head–body length 599.13 mm. Adult head–body length is a sex-adjusted median. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Diplogale hosei*.
 
 ## How body size was consolidated {#s-e194d3f131}
 The historical table reports: adult head–body length 599.13 mm. Sex was adjusted before the median was calculated. Head–body length excludes the tail. Values are not direct measurements of one specimen or a species-wide size range.

@@ -1,4 +1,6 @@
-## 测量记录与阅读起点 {#s-be3c0c8e59}
+## 记录分类与直接上级关系 {#s-be3c0c8e59}
+COL26.8 将 Pelecanus 记录为属；其直接上级记录为 Pelecanidae。
+
 AVONET v7 为八条 Pelecanus 物种记录提供测量数据。可从 Pelecanus conspicillatus、Pelecanus crispus、Pelecanus erythrorhynchos、Pelecanus occidentalis 和 Pelecanus onocrotalus 开始阅读。导航按固定 COL26.8 组织，生物学数值保留来源中的历史名称和采样范围。
 
 ## 记录之间有什么差别 {#s-e60758d2fb}

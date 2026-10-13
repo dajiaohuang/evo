@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-76e0530352}
+## 记录分类与直接上级关系 {#s-76e0530352}
+COL26.8 将 Crossarchus 记录为属；其直接上级记录为 Mungotinae。
+
 Crossarchus 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Crossarchus alexandri 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-1805b496af}
@@ -14,8 +16,8 @@ Crossarchus 的本批路线包含 4 个历史条目，可从 Crossarchus platyce
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 主要 PanTHERIA 资料为 Crossarchus alexandri，另有一条受限 PanTHERIA 路线涉及 C. ansorgei。2015 年生活史路线列出 3 个名称——C. alexandri、C. obscurus 和 C. platycephalus；EltonTraits 覆盖 4 个名称，另含 C. ansorgei。这些是不同历史样本；体重值和各字段仍须与其来源和名称关联对应。
 
-## 从已有历史条目开始 {#s-79144ad1c8}
-Crossarchus 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 [Crossarchus ansorgei](Crossarchus_ansorgei/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-79144ad1c8}
+Crossarchus 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Crossarchus ansorgei 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-c4f041f04e}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。

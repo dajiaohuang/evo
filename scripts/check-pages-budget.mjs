@@ -29,7 +29,7 @@ const deploymentFailure = pagesDeploymentBudgetFailure(current.edition, totalByt
 if (deploymentFailure) failures.push(deploymentFailure)
 console.log(`Checking ${current.edition ?? 'unspecified'} artifact; Pages total deployment limit ${current.edition === 'full-web' ? 'not applicable' : '650 MiB'}. All per-resource limits remain active.`)
 
-const shards = files.filter((path) => /[/\\](occurrences|maps|catalogue|packages)[/\\].+\.(json|jsonl|ndjson)\.gz$/.test(path))
+const shards = files.filter((path) => /[/\\](occurrences|maps|catalogue|packages|pbdb)[/\\].+\.(json|jsonl|ndjson)\.gz$/.test(path))
 for (const path of shards) if (statSync(path).size > 8 * 1024 * 1024) failures.push(`${relativePath(path)} exceeds the 8 MiB shard limit`)
 
 const observationShards = files.filter((path) => path.startsWith(join(releaseRoot, 'maps', 'observations')) && path.endsWith('.json.gz'))
@@ -97,7 +97,7 @@ if (!existsSync(swPath)) {
   const precachedFiles = files.filter((path) => serviceWorker.includes(relativePath(path)))
   const precacheBytes = size(precachedFiles)
   if (precacheBytes > 10 * 1024 * 1024) failures.push(`precache is ${(precacheBytes / 1024 / 1024).toFixed(2)} MiB; limit is 10 MiB`)
-  if (/data\/(?:releases\/[^/]+\/)?(packages|occurrences|maps|catalogue|downloads)\//.test(serviceWorker)) failures.push('service worker precaches package, occurrence, map, catalogue or download data')
+  if (/data\/(?:releases\/[^/]+\/)?(packages|occurrences|maps|catalogue|pbdb|downloads)\//.test(serviceWorker)) failures.push('service worker precaches package, occurrence, map, catalogue, PBDB or download data')
 }
 
 const runtimeFiles = files.filter((path) => path.startsWith(releaseRoot) && !relativePath(path).endsWith('build-metrics.json'))

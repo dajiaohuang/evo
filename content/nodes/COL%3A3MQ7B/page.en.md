@@ -1,5 +1,5 @@
-## Find rows through older Cettia combinations {#s-03f5a69a5c}
-Pinned COL26.8 organizes this page at Horornis ruficapilla (3MQ7B). BirdLife 2020 row 7419 and eBird 2021 row 4909 share the name and Avibase ID AVIBASE-8CC7FC93, with type 1BL to 1eBird; BirdTree row 4886 gives Cettia ruficapilla, with type 1BL to 1BT. Catalogue synonym T782, read in this batch, points to this accepted ID. Source family Scotocercidae and current COL Cettiidae remain separate; genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-03f5a69a5c}
+Catalogue of Life release COL26.8 records Horornis ruficapilla (E. P. Ramsay, 1875) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-7d8a745adb}
 Morphology comprises 4 birds: 2 female, 1 male and 1 unsexed; 4 complete sets. Nostril-to-tip beak length 8.8 mm, tarsus 23.2 mm, unflattened wing 57.2 mm, tail 51.2 mm and hand-wing index 15.2 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

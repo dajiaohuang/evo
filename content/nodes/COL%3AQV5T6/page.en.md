@@ -1,5 +1,5 @@
-## Find rows through older Parus combinations {#s-d20e1cceec}
-Pinned COL26.8 organizes this page at Melaniparus griseiventris (QV5T6). BirdLife 2020 row 6206 and eBird 2021 row 6065 share the name and Avibase ID AVIBASE-CC1DF030, with type 1BL to 1eBird; BirdTree row 6033 gives Parus griseiventris, with type 1BL to 1BT. Read catalogue synonym 75SW6 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-d20e1cceec}
+Catalogue of Life release COL26.8 records Melaniparus griseiventris (Reichenow, 1882) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-9c467bd7f5}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 6.9 mm, tarsus 16.6 mm, unflattened wing 77.2 mm, tail 55.5 mm and hand-wing index 19.1 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

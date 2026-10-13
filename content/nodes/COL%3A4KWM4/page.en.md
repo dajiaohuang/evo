@@ -1,41 +1,41 @@
-## The name and this data account {#s-efc47cc6bb}
-COL26.8 accepts Poicephalus rueppellii within Psittacidae. AVONET v7 records measurements under the HBW–BirdLife 2020 name: 5 individuals were measured, and 4 have a complete set of measurements. Sample sizes can still differ among traits.
+## Row-reported mean and sample coverage {#s-efc47cc6bb}
+The AVONET v7 row for Poicephalus rueppellii (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 20.9 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-5bc885d668}
-Recorded mean beak measurements are 20.9 mm from the anterior nostril edge to the tip, 13.7 mm in width and 24.5 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-5bc885d668}
+AVONET records culmen length (bill tip to skull base) 26.1 mm; beak length (nostril front edge to tip) 20.9 mm; beak width at the nostril front edge 13.7 mm; beak depth at the nostril front edge 24.5 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-ee77d34405}
-Mean unflattened wing length from the carpal joint to the longest primary is 145 mm; mean tarsus length is 16.2 mm. Compiled mean mass is 116 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-ee77d34405}
+AVONET records unflattened wing length 145 mm; tarsus length 16.2 mm; distance from first secondary tip to longest primary tip 58.3 mm; length to first secondary tip 89.2 mm; hand-wing index 39.5; tail length 72.2 mm; species-average body mass 116 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-9269816d70}
-The dataset assigns habitat Shrubland, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-9269816d70}
+AVONET classifies Poicephalus rueppellii as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-7ada51ea7d}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -24.98° to -8.4°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-7ada51ea7d}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -24.98° to -8.4°. The mapped range area is 597941.08 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-9444d0e50d}
-COL26.8 accepts Poicephalus rueppellii within Psittacidae. The 2015 life-history archive also has a same-name, same-family entry; 3 selected fields have matching species-level source rows. Older records can include values inherited across historical species or subspecies, so matching names do not establish identical species concepts.
+## Scope of the historical life-history entry {#s-9444d0e50d}
+The August 2015 database has a same-name, same-family record for Poicephalus rueppellii. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-503fc15f3c}
-The historical compilation reports adult body mass 116.75 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. The selected record provides no birth- or hatching-mass value.
+## Compiled adult-mass values {#s-503fc15f3c}
+The August 2015 compilation reports adult body mass 116.75 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-2e902d13df}
-Available compilation fields are offspring per litter or eggs per clutch 3.45 offspring/eggs. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Missing reproductive and developmental durations are not supplied here.
+## Reproductive fields describe different events {#s-2e902d13df}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.45. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-063a0341e1}
-The largest lifespan record in the archive is 34.3 years. It is a maximum in the collected historical material, not a typical lifespan, a wild-population average, or a limit every individual can reach.
+## A maximum record is not typical lifespan {#s-063a0341e1}
+The compilation lists 34.3 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-8b7e88d1fc}
-The source labels include Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Bennett, 1986. Each value can be traced to its raw row, field-specific label, and the archive’s reference notes. A label may refer to a paper, book, or another database; row counts do not count measured animals, and repeated citations do not represent independent replication.
+## Sources and field limits {#s-8b7e88d1fc}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## What one ecological field can tell us {#s-c4b687258a}
-Poicephalus rueppellii is accepted in pinned COL26.8 within Psittacidae. The historical comparison draws on one ecological field group in the same-name, same-family EltonTraits 1.0 record. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-c4b687258a}
+EltonTraits 1.0 has a same-name, same-family record for Poicephalus rueppellii covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-1d48c5c14c}
-The archive’s nonzero food weights are other plant material (the source category also includes fungi) 30%; fruit 20%; nectar, pollen and plant exudates 20%; seeds, nuts and spores included in this category 20%; invertebrates 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-1d48c5c14c}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; fruit 20%; nectar 20%; seeds or nuts 20%; other plant material 30%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Trace each field group to its source labels {#s-f44fad5ac9}
-The source labels for these fields are Ref_4. Diet, feeding position, and activity may draw on different works, so the same Ref number in bird and mammal tables does not identify the same source. The archive links each label to its file, row, field group, and reference table; these labels are not independent observations.
+## Sources and field limits {#s-f44fad5ac9}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-4735e8e613}
 AVONET v7 summarizes historical samples and species-level values. Morphology is averaged across the listed birds; it is neither an identification diagnosis nor a range of individual measurements. Body mass comes from a separate source and does not use the morphology sample count. Habitat, diet and migration are broad categories, while mapped geography covers historical breeding and resident ranges. Matching names across BirdLife, eBird, BirdTree and COL26.8 supports a crosswalk but does not settle species boundaries after splits or mergers. Reproduction, present populations and conservation require other evidence.

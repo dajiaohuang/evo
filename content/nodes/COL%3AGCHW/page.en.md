@@ -1,29 +1,29 @@
-## A historical seven-field life-history record {#s-62477442a6}
-COL26.8 accepts *Ardea herodias* in Ardeidae. A historical life-history record supplies seven focal fields, each linked to cited species-level sparse-table rows with the same name and family. Those matches support the association, but compiled values may still inherit data across historical taxonomic boundaries.
+## Scope of the historical life-history entry {#s-62477442a6}
+The August 2015 database has a same-name, same-family record for Ardea herodias. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-33ea9cf00a}
-Historical summary values are adult body mass 2388.67 g; mass at birth or hatching 50 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+## Compiled adult-mass values {#s-33ea9cf00a}
+The August 2015 compilation reports adult body mass 2388.666667 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-5fbe6c5c35}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 669 d; offspring per litter or eggs per clutch 4 offspring/eggs; oviposition to hatching 28 d; age at flight capability (leaving the nest in some source material) 60 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-5fbe6c5c35}
+The August 2015 compilation reports female age at first conception (source definition) 669 days; median or interpolated-median number of offspring or eggs per litter/clutch 4; oviposition-to-hatching interval 28 days; age at flight capability (some records mark nest departure) 60 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-0010b4a381}
-The maximum_longevity_y field is 24.5 years, the largest record in the collected material under the source method. It is not typical or mean wild lifespan, a survival ceiling for every individual, or evidence that the record remains current or repeatable.
+## A maximum record is not typical lifespan {#s-0010b4a381}
+The compilation lists 24.5 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-3fae98d5e7}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; and Bennett, 1986. Associated source details retain field-specific row numbers, values, labels and full reference explanations. A label may identify a primary paper, book or another database. Row counts are not measured-individual counts, and repeated citations do not constitute independent experimental replication.
+## Sources and field limits {#s-3fae98d5e7}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Food and foraging-position records {#s-1c8536f7e8}
-COL26.8 accepts *Ardea herodias* in Ardeidae. EltonTraits 1.0 also includes a same-name, same-family record with two ecological field groups. Its bird taxonomy is historical; the name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-1c8536f7e8}
+EltonTraits 1.0 has a same-name, same-family record for Ardea herodias covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-1b4c4fa19c}
-The nonzero food-category weights are fish 50%, invertebrates 30%, mammals and birds 10%, and reptiles and amphibians 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions; they are not measured diet composition, and a zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply an exclusive diet of nectar, seeds or plants.
+## Relative weights across food categories {#s-1b4c4fa19c}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 30%; mammals and birds 10%; reptiles and amphibians 10%; fish 50%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-c11ab74970}
-The species-level foraging-stratum weights are 60% at or just below the water surface and 40% on the ground. They estimate relative use of feeding positions, not nest sites, all habitat or a whole-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-c11ab74970}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 60%; on the ground 40%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-5f352773a6}
-The two field groups carry the source label Ref_1. Diet, foraging stratum and activity may come from different material, and the same reference number in bird and mammal bibliographies does not necessarily identify the same work. The linked source details preserve the original citation strings. The underlying books and papers have not been individually read, and a source label is not an additional independent observation.
+## Sources and field limits {#s-5f352773a6}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-f1e5ea7c0e}
 The life-history values come from historical same-name records in the 2015 compilation. They are medians or averages of the two middle values, except maximum longevity, which uses the largest reported record. They are not measurements of one individual, ranges of individual variation, mean wild lifespans or current population surveys. The compilation may share or inherit data across historical species and subspecies; name and family matches support this association but do not establish equivalence with COL26.8 concepts or remove all inherited components. Wild or captive conditions are not uniformly known, and the cited publications have not been individually reviewed.

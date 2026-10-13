@@ -4,7 +4,9 @@
 ## 从材料范围读到比较页面 {#s-8d3cc715b3}
 从 [Megadyptes antipodes](Megadyptes_antipodes/page.zh.md) 的研究名称与材料开始，随后比较各自冰期曲线。先区分历史研究单元，再读已有的形态、食物、繁殖和地方研究；不同来源的计数、时间与方法分别保留。
 
-## 本地数据阅读路径 {#s-b0097936d1}
+## 记录分类与直接上级关系 {#s-b0097936d1}
+COL26.8 将 Megadyptes 记录为属；其直接上级记录为 Spheniscidae Bonaparte, 1831。
+
 Megadyptes 的本批阅读路径包含 1 条有测量来源的物种记录，可从 Megadyptes antipodes 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-e5cca0ecab}

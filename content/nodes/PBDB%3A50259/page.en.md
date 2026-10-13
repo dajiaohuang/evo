@@ -1,19 +1,45 @@
 ## Which fossil records this name represents {#s-acadc9633f}
 Baiomys minimus is accepted in the fixed PBDB mammalia working roster, with database parent Baiomys. This guide uses 5 eligible species-level occurrence records from 5 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-5683967718}
-Collection Mendevil Ranch (Arizona), region code US, stratum name St. David; database age bracket 4.7–1.4 Ma, early interval Blancan. Collection Post Ranch (Arizona), region code US, stratum name St. David; database age bracket 4.7–1.4 Ma, early interval Blancan. Collection McRae Wash (Arizona), region code US; database age bracket 4.7–1.4 Ma, early interval Blancan. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Baiomys minimus is listed in the PBDB snapshot under taxon txn:50259. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-77d61b5377}
-Selected occurrences have an outer age envelope of 4.7–1.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Mendevil Ranch, occurrence occ:192986 (4.7–1.4 Ma); one supplying the younger bound is Mendevil Ranch, occurrence occ:192986 (4.7–1.4 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-5683967718}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-4cd7019e1b}
-Mendevil Ranch has collection-environment label terrestrial indet.; collection preservation-mode label body. Post Ranch has collection-environment label lacustrine indet.; collection preservation-mode label body. McRae Wash has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:192986; PBDB collection col:19624. Locality cnm=Mendevil Ranch; place fields cc2=US, stp=Arizona, cny=Cochise. Recorded age bounds: eag 4.7 Ma; lag 1.4 Ma; PBDB interval fields oei=Blancan. Stratigraphic fields sfm=St. David, sls=SPedr, slb=2, slo=bottom to top. Recorded attribution Johnson et al. 1975; PBDB reference ref:2040.
 
-## Follow collection records back to references {#s-d933b7d7ac}
-Mendevil Ranch carries database reference attribution Johnson et al. (1975), identifier ref:2040. Post Ranch carries database reference attribution Gazin (1942), identifier ref:1603. McRae Wash carries database reference attribution Johnson et al. (1975), identifier ref:2040. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:193033; PBDB collection col:19628. Locality cnm=Post Ranch; place fields cc2=US, stp=Arizona, cny=Cochise. Recorded age bounds: eag 4.7 Ma; lag 1.4 Ma; PBDB interval fields oei=Blancan. Stratigraphic fields sfm=St. David, sls=SPedr, slb=1, slo=bottom to top. Recorded attribution Gazin 1942; PBDB reference ref:1603.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Sigmodon medius datum" of Johnson et al. 1975
+dated at 3.1 +/- 0.7 Ma (FT on zircon) and in combination with paleomag firmly tied to chron C2An.3n, avg age 3.44 Ma: see Johnson et al. 1975
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"2 miles south... of Benson [basis of coordinate]" (Brattstrom 1955)
+
+- Occurrence occ:193109; PBDB collection col:19638. Locality cnm=McRae Wash; place fields cc2=US, stp=Arizona, cny=Cochise. Recorded age bounds: eag 4.7 Ma; lag 1.4 Ma; PBDB interval fields oei=Blancan. Stratigraphic fields sls=SPedr, slb=5, slo=bottom to top. Recorded attribution Johnson et al. 1975; PBDB reference ref:2040.
+
+## Age bounds on the recorded occurrences {#s-77d61b5377}
+Across these selected PBDB rows, the largest recorded eag=4.7 Ma in occ:192986; the smallest recorded lag=1.4 Ma in occ:192986. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-4cd7019e1b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:192986: PBDB taxon-name field tna=Baiomys minimus; PBDB locality-coordinate fields lng=-110.199997, lat=32.000000; paleocoordinate/model fields pm1=gplates, pln=-109.21, pla=32.8.
+- occ:193033: PBDB taxon-name field tna=Baiomys minimus; PBDB locality-coordinate fields lng=-110.300003, lat=31.966667; paleocoordinate/model fields pm1=gplates, pln=-109.31, pla=32.77.
+- occ:193109: PBDB taxon-name field tna=Baiomys minimus; PBDB locality-coordinate fields lng=-110.199997, lat=32.000000; paleocoordinate/model fields pm1=gplates, pln=-109.21, pla=32.8.
+
+## References attached to each record {#s-d933b7d7ac}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:192986: Recorded attribution Johnson et al. 1975; PBDB reference ref:2040.
+- occ:193033: Recorded attribution Gazin 1942; PBDB reference ref:1603.
+- occ:193109: Recorded attribution Johnson et al. 1975; PBDB reference ref:2040.
 
 ## Evidence limits {#s-3d4b851aa4}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -15,7 +15,9 @@
 
 推荐阅读路径：先读 Groeneveld 等人与 Lei 等人的相反分类解释，再看 Thiele、Lei、Frasier 和 McLain 等人的地点限定描述；之后用 Dausmann 的肥尾侏狐猴冬眠研究、Lahann 的大侏狐猴局地研究，以及 Blanco 等人对克罗斯利与西布里侏狐猴的同地比较理解生态差异。Hending 等人 2023 年汇集 1964—2020 年记录，但只对九个名录种中的三个建立生态位模型，因为另外六种的出现点不足；未建模不能解释为未分布。
 
-## 按生活史字段选择对读页面 {#s-88b7ce8071}
+## 记录分类与直接上级关系 {#s-88b7ce8071}
+COL26.8 将 Cheirogaleus É. Geoffroy Saint-Hilaire, 1812 记录为属；其直接上级记录为 Cheirogaleidae Gray, 1873。
+
 Cheirogaleus 的本批路线包含 4 条历史生活史导读，可从 Cheirogaleus crossleyi、Cheirogaleus major、Cheirogaleus medius、Cheirogaleus sibreei 开始。较多条目具有的字段包括 成年体重（4 条）、雌性成熟字段（源定义为首次受孕年龄）（4 条）、每窝幼体数或卵数（4 条）、受孕或受精至出生的时间（4 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-cbf8bbd73e}

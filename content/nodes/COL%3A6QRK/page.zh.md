@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-1bc1f1c5ae}
+## 记录分类与直接上级关系 {#s-1bc1f1c5ae}
+COL26.8 将 Pipilo 记录为属；其直接上级记录为 Passerellidae。
+
 固定分类版本 COL26.8 将 *Pipilo* 记录为属。本页关联的 AVONET v7 材料含3条物种测量记录：*Pipilo chlorurus*、*Pipilo erythrophthalmus*、*Pipilo ocai*。这里保留历史资料中的原名，作为阅读数据的起点；它不是该分类单元完整的成员清单，也不表示所有后代共有同样特征。
 
 ## 记录之间有什么差别 {#s-889090f271}

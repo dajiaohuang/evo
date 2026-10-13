@@ -1,4 +1,6 @@
-## Local data reading route {#s-fa5fe7a902}
+## Recorded classification and direct parent {#s-fa5fe7a902}
+COL26.8 records Sericossypha at genus rank, with Thraupidae as its direct parent.
+
 This batch’s Sericossypha route includes 1 measured species records. Start with Sericossypha albocristata. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-7eed1dcec1}
@@ -7,7 +9,7 @@ Compiled mean mass endpoints in this batch are Sericossypha albocristata at 114 
 ## Compare food, feeding positions and activity periods {#s-a76ccac0f4}
 This batch’s Sericossypha route includes 1 historical entries; start with Sericossypha albocristata. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-a6a5bf470e}
+## Limits attached to these records {#s-a6a5bf470e}
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 

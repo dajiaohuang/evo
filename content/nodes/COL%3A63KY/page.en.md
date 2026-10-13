@@ -1,4 +1,6 @@
-## One Nesoromys ecology record in this batch {#s-02abc58169}
+## Recorded classification and direct parent {#s-02abc58169}
+COL26.8 records Nesoromys at genus rank, with Murinae as its direct parent.
+
 The batch has one historical Nesoromys entry, N. ceramicus. Food-category weights are available in that record; no foraging-stratum or mammalian activity fields appear here. The zero counts describe this batch’s coverage, not ecological absence, the accepted-species total, or traits shared across the group.
 
 ## Scope of the group summary {#s-4b4b3e59fc}

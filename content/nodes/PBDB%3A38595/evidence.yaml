@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:spinosauridae
       claimKind: scientific
       claimType: taxonomy
-      statement: Spinosauridae is represented by Hone and Holtz’s revision of named and fragmentary material; subfamily assignments and ecological signals are evidence-weighted hypotheses, not a complete family range or uniform semiaquatic ecology.
+      statement:
+        page: en
+        section: s-2381a61c2f
+        part: body
       confidence: medium
       confidenceRationale: The review explicitly separates diagnostic material from weak referrals and discusses competing ecological evidence. Medium confidence follows those limits.
       referenceLinks:
@@ -27,7 +30,10 @@ records:
     - subjectId: taxon:spinosauridae
       claimKind: scientific
       claimType: fossil-range
-      statement: Spinosauridae is displayed at 145–93.9 Ma only as the review's taxonomically qualified fossil coverage, not exact family FAD/LAD. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      statement:
+        page: en
+        section: review-window
+        part: body
       confidence: medium
       confidenceRationale: Spinosauridae uses Hone, D.W.E.; Holtz, T.R. (2017) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Named and fragmentary spinosaurid material reviewed by Hone and Holtz; broader endpoints remain unclaimed.
       referenceLinks:
@@ -45,8 +51,12 @@ records:
     - 综述明确区分诊断性材料与薄弱归入，并讨论相互竞争的生态证据；中等置信度遵循这些限制。
     - Spinosauridae 采用 Hone, D.W.E.; Holtz, T.R.（2017）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Named and fragmentary spinosaurid material reviewed by Hone and Holtz；更宽泛端点保持未声明。
   claim-statements.zh:
-    - 棘龙科由 Hone 与 Holtz 对具名和破碎材料的修订表示；亚科归属与生态信号是按证据权重建立的假说，不是完整科级范围或统一半水生生态。
-    - Spinosauridae 仅以 145–93.9 Ma 展示为综述经分类学限定的化石覆盖，而非精确科级首现或末现。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - page: zh
+      section: s-a633f179ee
+      part: body
+    - page: zh
+      section: review-window
+      part: body
   ranges:
     - entityId: spinosauridae
       rangeKind: global-composite

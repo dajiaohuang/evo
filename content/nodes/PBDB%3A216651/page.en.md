@@ -1,19 +1,49 @@
 ## Which fossil records this name represents {#s-697fc41772}
 Purbeckodon batei is accepted in the fixed PBDB other-synapsida working roster, with database parent Purbeckodon. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-daed2af930}
-Collection Sunnydown Farm Quarry (clay: upper horizon; equivalent to DB 102/103 ) (England), region code UK, stratum name Lulworth; database age bracket 143.1–139.1 Ma, early interval Early Berriasian and late interval Middle Berriasian. Collection Sunnydown Farm Quarry (lower clay) (England), region code UK, stratum name Lulworth; database age bracket 143.1–139.1 Ma, early interval Early Berriasian and late interval Middle Berriasian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Purbeckodon batei is listed in the PBDB snapshot under taxon txn:216651. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-a66027502e}
-Selected occurrences have an outer age envelope of 143.1–139.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Sunnydown Farm Quarry (clay: upper horizon; equivalent to DB 102/103 ), occurrence occ:1011411 (143.1–139.1 Ma); one supplying the younger bound is Sunnydown Farm Quarry (clay: upper horizon; equivalent to DB 102/103 ), occurrence occ:1011411 (143.1–139.1 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-daed2af930}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-3c7686c175}
-Sunnydown Farm Quarry (clay: upper horizon; equivalent to DB 102/103 ) has collection-environment label lacustrine - small; collection preservation-mode label body. Sunnydown Farm Quarry (lower clay) has collection-environment label wet floodplain; collection preservation-mode label body,trace. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1011411; PBDB collection col:28401. Locality cnm=Sunnydown Farm Quarry (clay: upper horizon; equivalent to DB 102/103 ); place fields cc2=UK, stp=England, cny=Dorset. Recorded age bounds: eag 143.1 Ma; lag 139.1 Ma; PBDB interval fields oei=Early Berriasian, oli=Middle Berriasian. Stratigraphic fields sfm=Lulworth, sls=Durlston, slb=DB 102/103, slo=bottom to top. Recorded attribution Butler et al. 2012; PBDB reference ref:39707.
 
-## Follow collection records back to references {#s-f9a10da0c7}
-Sunnydown Farm Quarry (clay: upper horizon; equivalent to DB 102/103 ) carries database reference attribution Butler et al. (2012), identifier ref:39707. Sunnydown Farm Quarry (lower clay) carries database reference attribution Butler et al. (2012), identifier ref:39707. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Uppermost Lulworth Beds of Casey 1963, lying just below the Cinder Member, the base of which currently marks the Jr/K boundary in Southern England. Section originally published by Ensom 1985. Correlated with horizon DB102 in Durlston Bay.
+Ensom & Sigogneau-Russell (1998, p. 35): The upper horizon lies at the junction of a clay, locally termed the 'Sly', which immediately underlies the 'Cap' bed, 2.6 m below the base of the Cinder Member. This clay-limestone interface can be equated confidently with beds DB 102/103 in Durlston Bay (CLements 1993).
+Cherty Freshwater Mbr now = top of Worbarrow Tout Mbr.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Sunnydown Farm Quarry, near Langton Matravers (SY 9822 7880)
+
+- Occurrence occ:1011412; PBDB collection col:28995. Locality cnm=Sunnydown Farm Quarry (lower clay); place fields cc2=UK, stp=England, cny=Dorset. Recorded age bounds: eag 143.1 Ma; lag 139.1 Ma; PBDB interval fields oei=Early Berriasian, oli=Middle Berriasian. Stratigraphic fields sfm=Lulworth. Recorded attribution Butler et al. 2012; PBDB reference ref:39707.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Originally reported as Tithonian, 1 m approx. below layer containing multituberculates (Sunnydown Farm Quarry, clay). Sigogneau-Russel and Ensom, 1998 consider it to be Early Cretaceous, and elevate the Purebeck Limestone to a group, and the Lulworth to a Formation. Formation now considered Berriasian (MTC).  Correlated to DB 98-100.
+Cherty Freshwater Mbr now = top of Worbarrow Tour Mbr.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Sunnydown Farm Quarry, near Langton Matravers (SY 9822 7880)
+
+## Age bounds on the recorded occurrences {#s-a66027502e}
+Across these selected PBDB rows, the largest recorded eag=143.1 Ma in occ:1011411; the smallest recorded lag=139.1 Ma in occ:1011411. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-3c7686c175}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1011411: PBDB taxon-name field tna=Purbeckodon batei; material note ocm=DORCM GS 743, broken upper molar; DORCM GS 746, ?last upper molar; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-1.966667, lat=50.599998; paleocoordinate/model fields pm1=gplates, pln=16.16, pla=33.
+- occ:1011412: PBDB original-identification field idn=Purbeckodon batei n. gen. n. sp.; PBDB taxon-name field tna=Purbeckodon batei; material note ocm=DORCM GS 701, holotype left upper molar; upper molars: DORCM GS 698, DORCM GS 699, DORCM GS 700; abundance fields abv=4, abu=specimens; PBDB locality-coordinate fields lng=-1.966667, lat=50.599998; paleocoordinate/model fields pm1=gplates, pln=16.16, pla=33.
+
+## References attached to each record {#s-f9a10da0c7}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1011411: Recorded attribution Butler et al. 2012; PBDB reference ref:39707.
+- occ:1011412: Recorded attribution Butler et al. 2012; PBDB reference ref:39707.
 
 ## Evidence limits {#s-eac0d178bf}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

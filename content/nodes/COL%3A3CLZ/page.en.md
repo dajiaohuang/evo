@@ -4,7 +4,9 @@ This COL26.8 genus guide connects the Southern Muriqui (B. arachnoides) and Nort
 ## Choose a reading path by research question {#s-396ff6ca07}
 Read the southern muriqui page for the local composition and seasonality of feeding records. Then read the northern muriqui page for long-term population change and the way an abrupt demographic shift changed model projections. Compare their sampling unit, timescale and outcome rather than combining the results into one genus profile.
 
-## Choose comparison pages by life-history fields {#s-bbbb277e98}
+## Recorded classification and direct parent {#s-bbbb277e98}
+COL26.8 records Brachyteles Spix, 1823 at genus rank, with Atelinae Gray, 1825 as its direct parent.
+
 This batch’s Brachyteles route includes 2 historical life-history accounts; start with Brachyteles arachnoides, Brachyteles hypoxanthus. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), conception or fertilization to birth (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-3b58f0b0fc}

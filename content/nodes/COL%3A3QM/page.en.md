@@ -1,10 +1,10 @@
-## Local data reading route {#s-c57de5b273}
+## Recorded classification and member material {#s-c57de5b273}
 This batch’s Otidiformes route includes 14 measured species records. Start with Ardeotis arabs, Ardeotis australis, Ardeotis kori, Ardeotis nigriceps, Eupodotis caerulescens. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-a5c1f8fa53}
 Compiled mean mass endpoints in this batch are Eupodotis senegalensis at 585 g and Ardeotis kori at 7994.16 g. Represented habitat categories include Grassland, Desert, Shrubland; trophic niches include Omnivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-30f8ea4eda}
+## Amniote Life-history archive member records {#s-30f8ea4eda}
 This batch’s Otidiformes route includes 7 historical life-history accounts; start with Ardeotis australis, Ardeotis kori, Chlamydotis macqueenii, Chlamydotis undulata, Houbaropsis bengalensis. More frequently represented fields include adult body mass (7 entries), offspring per litter or eggs per clutch (7 entries), oviposition to hatching (7 entries), female maturity field (defined by the source as age at first conception) (5 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-f48b5ca203}

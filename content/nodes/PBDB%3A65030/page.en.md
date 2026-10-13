@@ -1,19 +1,44 @@
 ## Which fossil records this name represents {#s-5b06b855c1}
 Metaxytherium krahuletzi is accepted in the fixed PBDB mammalia working roster, with database parent Metaxytherium. This guide uses 20 eligible species-level occurrence records from 20 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-c289bbc9b5}
-Collection Langau, region code AT; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Collection Safenwil-Striegel, region code CH; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Collection Magenwil (Aargau), region code CH; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Metaxytherium krahuletzi is listed in the PBDB snapshot under taxon txn:65030. This archived guide contains 20 selected occurrence rows, linked to 20 distinct PBDB collection IDs and 6 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-946dae1c2b}
-Selected occurrences have an outer age envelope of 20.45–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Langau, occurrence occ:608442 (20.45–15.98 Ma); one supplying the younger bound is Langau, occurrence occ:608442 (20.45–15.98 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-c289bbc9b5}
+The archived guide contains 20 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-629821ec43}
-Langau has collection-environment label marine indet.. Safenwil-Striegel has collection-environment label marine indet.. Magenwil has collection-environment label marine indet.; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:608442; PBDB collection col:65037. Locality cnm=Langau; place fields cc2=AT. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Recorded attribution Zapfe 1953; PBDB reference ref:18729.
 
-## Follow collection records back to references {#s-7e86ed4b53}
-Langau carries database reference attribution Zapfe (1953), identifier ref:18729. Safenwil-Striegel carries database reference attribution Pilleri (1987), identifier ref:18736. Magenwil carries database reference attribution Meyer (1837), identifier ref:23495. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:608563; PBDB collection col:65057. Locality cnm=Safenwil-Striegel; place fields cc2=CH. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Recorded attribution Pilleri 1987; PBDB reference ref:18736.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Canton of Aargau
+
+- Occurrence occ:608607; PBDB collection col:46525. Locality cnm=Magenwil; place fields cc2=CH, stp=Aargau. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Recorded attribution Meyer 1837; PBDB reference ref:23495.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Canton of Aargau
+
+## Age bounds on the recorded occurrences {#s-946dae1c2b}
+Across these selected PBDB rows, the largest recorded eag=20.45 Ma in occ:608442; the smallest recorded lag=15.98 Ma in occ:608442. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-629821ec43}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:608442: PBDB taxon-name field tna=Metaxytherium krahuletzi; PBDB locality-coordinate fields lng=15.714722, lat=48.831390; paleocoordinate/model fields pm1=gplates, pln=17.74, pla=45.28.
+- occ:608563: PBDB original-identification field idn=Metaxytherium krahuletzi excelsum; PBDB taxon-name field tna=Metaxytherium krahuletzi; PBDB locality-coordinate fields lng=7.969444, lat=47.316666; paleocoordinate/model fields pm1=gplates, pln=10.39, pla=43.97.
+- occ:608607: PBDB original-identification field idn=Manatus studeri n. sp.; PBDB taxon-name field tna=Metaxytherium krahuletzi; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=8.230833, lat=47.411945; paleocoordinate/model fields pm1=gplates, pln=10.65, pla=44.05.
+
+## References attached to each record {#s-7e86ed4b53}
+The archived guide links the rows to 6 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:608442: Recorded attribution Zapfe 1953; PBDB reference ref:18729.
+- occ:608563: Recorded attribution Pilleri 1987; PBDB reference ref:18736.
+- occ:608607: Recorded attribution Meyer 1837; PBDB reference ref:23495.
 
 ## Evidence limits {#s-0d80dfbbf8}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 20 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

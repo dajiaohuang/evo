@@ -107,13 +107,20 @@ records:
       morphology:
         status: partially-supported
         claims:
-          - text: The study examined 2 adult Molossus specimens and reports a mean forearm length of 45.5 mm, classified as large under its stated length bands. The sample is restricted to adults and this single quantitative size indicator; it does not establish the species’ full morphology or sex- and age-related variation.
+          - text:
+              page: en
+              section: plos-morphology
+              part: body
             originalLanguage: en
             sourceIds:
               - plos-molossus-2025
             locator: Methods > Taxonomic sampling (adult sampling criteria and species sample sizes); Results > Variability of sizes and shapes in Molossus, paragraph beginning “The species also differ in forearm measurements”.
             placeTimeScope: Adult specimens included in the 2025 study’s Neotropical sample; species-level specimen localities were not abstracted here. Forearm length is reported in millimetres as a proxy for body size, using the authors’ size categories.
             lifeStatus: Study specimens only; the paper does not provide a complete wild, captive, or domesticated status audit for every specimen.
+            textZh:
+              page: zh
+              section: plos-morphology
+              part: body
         gaps:
           - Sex-specific values, age beyond the adult-only criterion, geographic variation, diagnostic characters, and a complete species-level character account were not assessed.
       lifeHistory:
@@ -129,13 +136,20 @@ records:
       evolution:
         status: partially-supported
         claims:
-          - text: The mitochondrial COI + cyt b tree places M. currentium in the paper’s strongly supported clade with M. fluminensis, M. bondae, M. aztecus, M. sinaloae, M. rufus, and M. pretiosus.
+          - text:
+              page: en
+              section: plos-mitochondrial-clade
+              part: body
             originalLanguage: en
             sourceIds:
               - plos-molossus-2025
             locator: Results > Phylogeny and phylogenetic signal; Fig. 6 (Bayesian tree inferred from mitochondrial COI and cytochrome b sequences).
             placeTimeScope: The study’s sampled Molossus tree, based on mitochondrial COI and cytochrome b; clade support and sampling are as reported by the authors. This is one study’s phylogenetic result, not a synthesis of all available evidence.
             lifeStatus: Evolutionary inference for the nominal species in the study’s sampled tree; no population-level or fossil-specimen claim is made.
+            textZh:
+              page: zh
+              section: plos-mitochondrial-clade
+              part: body
         gaps:
           - Nuclear-genome, population-level, and broader comparative phylogenies were not reviewed; no independent replication or conflict search was performed.
       distribution:

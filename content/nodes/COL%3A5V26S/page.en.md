@@ -1,15 +1,15 @@
-## Name and this data account {#s-5f5ebd7595}
-COL26.8 places Anilios ligatus in Typhlopidae. Its ReptTraits v1–2 row follows the Reptile Database 2023 name framework and preserves field-level sources; this is a compiled summary rather than a population-wide description.
+## COL26.8 name and the ReptTraits row {#s-5f5ebd7595}
+COL26.8 records Anilios ligatus as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-8a607b88b8}
-The recorded maximum total length (TL) is 500 mm. TL includes the tail; snout–vent length (SVL) ends at the vent. This compiled maximum is not typical size or an absolute limit.
+## Length values in the archived records {#s-8a607b88b8}
+The row reports maximum total length (TL) of 500 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-c848efee06}
-The row records a Fossorial microhabitat, Carnivorous diet, Nocturnal activity, and ACT foraging mode. Fossorial indicates an underground or burrowing association; Carnivorous does not identify prey. The categories do not give a complete habitat or activity schedule.
+## Habitat use and activity labels {#s-c848efee06}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Cogger 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## How to read reproductive records {#s-3571a6261b}
-The source classifies reproduction as oviparous (egg-laying). It gives no clutch size and does not establish a uniform pattern across populations.
+## Reproductive fields in ReptTraits {#s-3571a6261b}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-1c98fb0c8e}
-This page summarizes selected fields from a ReptTraits v1–2 row under the Reptile Database 2023 name framework; it is not a complete species account. A row may combine records from different sexes, ages, places, or populations, and a shared name does not establish identical later taxonomic concepts. A maximum is a compiled measurement, not an absolute size limit. Reproductive labels do not give clutch size; workbook averages summarize source records rather than every clutch. Estimated mass and differing juvenile-length definitions are not used here as direct observations. Conservation, venom, current distribution, and population trends are not updated. Citation labels preserve the workbook's source chain but do not mean every original study was independently reviewed here.
+## Reading this compiled trait record {#s-1c98fb0c8e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

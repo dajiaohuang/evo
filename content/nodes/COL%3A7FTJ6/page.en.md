@@ -1,35 +1,33 @@
-## Name and source records {#s-220e56872d}
-Vipera renardi is an accepted species in pinned COL26.8. The ReptTraits v1-2 record uses the workbook’s Reptile Database 2023 name framework; a separate entry for the same name appears in the August 2015 life-history archive. Their values come from different compilations and methods, and the name match does not prove that the taxonomic concepts are equivalent.
+## COL26.8 name and the ReptTraits row {#s-220e56872d}
+COL26.8 records Vipera renardi as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## One reported length measurement {#s-52f8fa3385}
-ReptTraits reports a maximum total length (TL) of 710 mm. Total length includes the tail, unlike snout–vent length (SVL), which ends at the vent. The maximum summarizes material in the workbook; it is not typical adult size or a biological growth limit.
+## Length values in the archived records {#s-52f8fa3385}
+The row reports maximum total length (TL) of 710 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Microhabitat and diet fields {#s-e9ceb9cdaa}
-The workbook codes microhabitat as “Fossorial” and diet as “Carnivorous.” These categories point to burrowing or underground activity and animal-based food, but do not name a site, substrate or prey item. They are two summary fields, not a full description of habitat or feeding across seasons and populations. The cited sources are Gearty et al. (2021) for microhabitat and Harrington et al. (2018) for diet.
+## Habitat use and activity labels {#s-e9ceb9cdaa}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Gearty et al. 2021. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records AMB (ambush or sit-and-wait foraging). ReptTraits attributes this field to Rhodin et al. 2011.
 
-## Reproductive and sex-determination fields {#s-70ed7d2054}
-ReptTraits records the mode as viviparous, sex determination as genetic (GSD, ZW/ZZ), and 10 in its combined offspring-per-litter or eggs-per-clutch field. The field combines two kinds of records across the dataset, so the value should be read with its source and event context; it does not mean every litter has exactly ten young. These labels do not establish fetal nutrition or a uniform condition across every population.
+## Reproductive fields in ReptTraits {#s-70ed7d2054}
+The compiled mean for offspring per litter or eggs per clutch is 10. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to De Magalhaes and Costa 2009, Feldman et al. 2015. The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records GSD (ZW/ZZ). ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## The 2015 life-history entry and this name {#s-c12ea0b628}
-The 2015 archive has a Vipera renardi row with three summaries retained here: adult body mass, litter or clutch size, and maximum longevity. This is a historical compilation associated by name and family. That match supports reading the archived fields together, but does not prove equivalence with COL26.8 or remove inherited historical data.
+## A 2015 life-history row for this name {#s-c12ea0b628}
+COL26.8 records Vipera renardi as an accepted species. The August 2015 life-history table has a species-name and family match (Viperidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-c46a562f98}
-The archive reports adult body mass as 180.5 g, drawing on Boback and Guyer (2003). This is a compiled summary, not an individual range or a measurement of every adult; the reader entry does not list sex and locality for each contributing value.
+## Length values in the archived records {#s-c46a562f98}
+Field-specific archive notes: adult body mass: a mean of cited source values. The archive reports adult body mass as 180.5 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
-## Reproduction and developmental timing {#s-f1e0a13fed}
-The archive’s combined litter-or-clutch field is 10. Its source record gives a median across nine cited values, including IUCN (2011) and Street (1979). This historical summary is not a count observed in every litter or a recent population survey.
+## Reproductive events in the life-history table {#s-f1e0a13fed}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 9 recorded source-table values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 10; it is not a count from one event. The 2015 archive's field citation is IUCN, 2011; Street, D., 1979. The archive retains a conception or fertilization to birth value in this row, classified as reptiles, but its own class-scope note excludes reptiles for this event field. The retained value is not interpreted here as a species event.
 
-## A longest record differs from usual lifespan {#s-9aa34234b3}
-The archive lists maximum longevity as 19 years, using the largest record found and citing de Magalhaes and Costa (2009). It is a compiled maximum, not typical lifespan, mean wild lifespan, or a current survival record.
+## Longest lifespan in the archive {#s-9aa34234b3}
+The archive's longest-lifespan record is 19 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002.
 
-## How to trace these values to sources {#s-0cf40ac4da}
-The ReptTraits citations are field-specific: Feldman et al. (2016) for total length, Gearty et al. (2021) for microhabitat, Harrington et al. (2018) for diet, Zimin et al. (2022) for reproductive mode, Nemesházi and Bókony (2023) for sex determination, and De Magalhaes and Costa (2009) plus Feldman et al. (2015) for litter/clutch size. The 2015 archive preserves separate row references for mass, litter/clutch size and longevity, including Boback and Guyer (2003), IUCN (2011), Street (1979) and de Magalhaes and Costa (2009). These reference chains are not independent replication; the underlying works have not all been re-reviewed here.
+## The August 2015 life-history table {#s-0cf40ac4da}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-2cb711fb77}
-The ReptTraits row follows the workbook’s 2023 name framework and compresses information to one row per species, leaving sex, age, locality and population variation unresolved. The 710 mm value is a reported maximum. The reproductive and diet fields describe coded categories, not every individual or event. The cited fields do not establish current range, venom, conservation status or population trends; missing fields remain gaps.
+## Separate histories in the two archives {#s-2cb711fb77}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 
-The life-history summaries come from the August 2015 archive. Its methods report medians or averages of two middle values, except that maximum longevity uses the largest record found. These are not measurements of one individual or current population surveys. Historical species and subspecies data may be shared or inherited; matching name and family do not prove equivalence with the pinned COL26.8 concept. The cited publications were not individually reviewed here. The archive also contains a gestation_d value of 730.48 days; Supplemental Table 9 limits gestation to mammals and incubation to reptiles, so the value and its source remain archived but are not interpreted here as a species event.
-
-## Fields awaiting citation-scope review {#s-c7e0c60c28}
-Support for the Foraging mode field remains unresolved: its citation, Rhodin et al. (2011), is a turtle checklist. The mismatch in study scope means this field is not presented as an established trait here. Its original value, category and source label remain in the archive; this does not show that the value is wrong, and no replacement is inferred. The other chapters retain their own cited evidence.
+## ReptTraits v1-2 field citations {#s-c7e0c60c28}
+ReptTraits v1-2 records a cited source for each reported trait; the citation beside each value belongs to that field.
 

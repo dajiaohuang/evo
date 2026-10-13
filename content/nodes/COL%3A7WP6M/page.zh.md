@@ -1,5 +1,5 @@
-## 旧属名如何查回历史行 {#s-2db687b016}
-固定 COL26.8 以 Psilopogon pulcherrimus（7WP6M）列为本页对象。AVONET v7 BirdLife 2020 的第 9701 行和 eBird 2021 的第 8668 行使用同名，Avibase ID 为 AVIBASE-6F858890；BirdTree 第 8623 行记作 Megalaima pulcherrima，匹配类型为 1BL to 1BT。已读 COL 旧组合 7VSW9 指向本页接受 ID。这些关联用于定位历史资料，不把所有年代物种边界视为完全相同。
+## COL26.8 中的名称身份 {#s-2db687b016}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon pulcherrimus (Sharpe, 1888) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与喙翼均值 {#s-66db21f875}
 形态样本共测 4 只：雌 2、雄 2、性别未定 0，其中 4 只具完整测量。鼻孔前缘至喙尖均值 16 mm，喙宽 8.1 mm，跗蹠 24.6 mm，未压平翼长 91.5 mm，手翼指数 16.7。Inference=NO 不表示每项字段都测了同样数量；完整测量鸟数与总样本分开。指数定义为 Kipp 距离／翼长 ×100，不是飞行速度，喙宽也不是吞果或啄食能力实验。

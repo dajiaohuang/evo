@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-5fe874a5be}
+## 记录分类与直接上级关系 {#s-5fe874a5be}
+COL26.8 将 Bulweria 记录为属；其直接上级记录为 Procellariidae。
+
 这里有两个 Bulweria 物种页面含测量记录：Bulweria bulwerii 和 Bulweria fallax。目录层级按固定 COL26.8 组织，生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-33b9e24c30}

@@ -1,9 +1,12 @@
-## Organize fossil records by source classification {#s-4df3a9c4d2}
-Basilosaurus is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 2 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## How PBDB organizes fossil occurrences {#s-4df3a9c4d2}
+PBDB groups the selected fossil-occurrence records for *Basilosaurus* under its recorded classification path and links them to collections, strata, age brackets, and references. This hierarchy organizes database records; it remains distinct from COL taxonomy and is not a phylogenetic hypothesis.
 
-## Compare collections, strata and age brackets {#s-bd59a49079}
-Start with Basilosaurus isis, Basilosaurus cetoides and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 61 selected occurrences from 60 collections; example stratum names are Birket Qarun, Gehannam, Wadi Esh-Shallala, Qasr el-Sagha. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Basilosaurus species and formation records {#s-bd59a49079}
+The occurrence route includes *Basilosaurus isis* and *B. cetoides* with records from named collections and strata such as Birket Qarun, Gehannam, Wadi Esh-Shallala and Qasr el-Sagha. Check each collection’s age bracket and identification before comparing records. Occurrence and collection totals are not measures of ancient abundance.
 
-## Evidence limits {#s-7ed6950b79}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## How to interpret the displayed age brackets {#s-7ed6950b79}
+These PBDB age brackets bound the registered occurrences shown here. They do not by themselves establish a taxon’s global first or last appearance or a clade’s origin or extinction.
+
+## A named hind-limb specimen from Birket Qarun {#hind-limb-specimen}
+The atlas bounds *Basilosaurus* with sampled *B. isis* material from the Birket Qarun Formation, including hind-limb specimen UM 93231. The broad formation envelope is approximately 37.7–35 Ma; it is a formation-level sample bound, not a global range for the genus or a direct date on that specimen.
 

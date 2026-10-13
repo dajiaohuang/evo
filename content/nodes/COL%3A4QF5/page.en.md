@@ -1,4 +1,6 @@
-## Start with two measured species pages {#s-9dfed18ee1}
+## Recorded classification and direct parent {#s-9dfed18ee1}
+COL26.8 records Gorsachius at genus rank, with Ardeidae as its direct parent.
+
 This Gorsachius route contains 2 measured species records: Gorsachius goisagi and Gorsachius melanolophus. The directory follows pinned COL26.8, while biological values retain AVONET v7 names and sampling limits.
 
 ## Compare the recorded means and categories {#s-ac420fb6e6}

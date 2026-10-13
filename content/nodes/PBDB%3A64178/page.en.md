@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-716651a103}
 Dorcatherium guntianum is accepted in the fixed PBDB mammalia working roster, with database parent Dorcatherium. This guide uses 15 eligible species-level occurrence records from 15 collections and 12 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-96f4160842}
-Collection Birosse, a Castelnau-d'Arbieu (Midi-Pyrenees Region), region code FR; database age bracket 15.98–13.82 Ma, early interval MN 5. Collection Le Moune, a Castelnau-d'Arbieu (Midi-Pyrenees Region), region code FR; database age bracket 15.98–13.82 Ma, early interval MN 5. Collection Ziemetshausen 1b (Bayern), region code DE; database age bracket 15.98–13.82 Ma, early interval Langhian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Dorcatherium guntianum is listed in the PBDB snapshot under taxon txn:64178. This archived guide contains 15 selected occurrence rows, linked to 15 distinct PBDB collection IDs and 12 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-c87372461a}
-Selected occurrences have an outer age envelope of 20.45–7.246 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Grand Morier, assemblage no. 6, occurrence occ:1374068 (20.45–7.246 Ma); one supplying the younger bound is Grand Morier, assemblage no. 6, occurrence occ:1374068 (20.45–7.246 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-96f4160842}
+The archived guide contains 15 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-0d224111e0}
-Birosse, a Castelnau-d'Arbieu has collection-environment label terrestrial indet.; collection preservation-mode label body. Le Moune, a Castelnau-d'Arbieu has collection-environment label terrestrial indet.; collection preservation-mode label body. Ziemetshausen 1b has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1374068; PBDB collection col:187580. Locality cnm=Grand Morier, assemblage no. 6; place fields cc2=FR. Recorded age bounds: eag 20.45 Ma; lag 7.246 Ma; PBDB interval fields oei=Burdigalian, oli=Tortonian. Recorded attribution Gagnaison 2017; PBDB reference ref:62965.
 
-## Follow collection records back to references {#s-07c117359f}
-Birosse, a Castelnau-d'Arbieu carries database reference attribution Bulot et al. (1992), identifier ref:8616. Le Moune, a Castelnau-d'Arbieu carries database reference attribution Bulot et al. (1992), identifier ref:8616. Ziemetshausen 1b carries database reference attribution Heissig (1989), identifier ref:11994. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+located in the heart of the Ligerian Basin, 40 kilometers West from the city of Tours
+
+- Occurrence occ:339836; PBDB collection col:32071. Locality cnm=Birosse, a Castelnau-d'Arbieu; place fields cc2=FR, stp=Midi-Pyrenees Region, cny=Gers Departement. Recorded age bounds: eag 15.98 Ma; lag 13.82 Ma; PBDB interval fields oei=MN 5. Recorded attribution Bulot et al. 1992; PBDB reference ref:8616.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The fossiliferous horizon is sandwitched between the 'Calcaire d'Auch' and the 'Calcaire inferieur de l'Astarac'
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+NW of the center of Castelnau-d"Arbieu. The site is 700m away from the collection 'Le Moune'
+
+- Occurrence occ:339877; PBDB collection col:32072. Locality cnm=Le Moune, a Castelnau-d'Arbieu; place fields cc2=FR, stp=Midi-Pyrenees Region, cny=Gers Departement. Recorded age bounds: eag 15.98 Ma; lag 13.82 Ma; PBDB interval fields oei=MN 5. Recorded attribution Bulot et al. 1992; PBDB reference ref:8616.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The fossiliferous level is sandwitched between the 'Calcaire d'Auch' and the 'Calcaire inferieur de l'Astarac'
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+700 m SE from the collection Birosse, near Castelnau-d'Arbieu.
+
+## Age bounds on the recorded occurrences {#s-c87372461a}
+Across these selected PBDB rows, the largest recorded eag=20.45 Ma in occ:1374068; the smallest recorded lag=7.246 Ma in occ:1374068. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-0d224111e0}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1374068: PBDB taxon-name field tna=Dorcatherium guntianum; PBDB locality-coordinate fields lng=0.328056, lat=47.325832; paleocoordinate/model fields pm1=gplates, pln=2.58, pla=44.96.
+- occ:339836: PBDB taxon-name field tna=Dorcatherium guntianum; PBDB locality-coordinate fields lng=0.700000, lat=43.868057; paleocoordinate/model fields pm1=gplates, pln=2.88, pla=41.32.
+- occ:339877: PBDB taxon-name field tna=Dorcatherium guntianum; PBDB locality-coordinate fields lng=0.700278, lat=43.866669; paleocoordinate/model fields pm1=gplates, pln=2.88, pla=41.31.
+
+## References attached to each record {#s-07c117359f}
+The archived guide links the rows to 12 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1374068: Recorded attribution Gagnaison 2017; PBDB reference ref:62965.
+- occ:339836: Recorded attribution Bulot et al. 1992; PBDB reference ref:8616.
+- occ:339877: Recorded attribution Bulot et al. 1992; PBDB reference ref:8616.
 
 ## Evidence limits {#s-61c4f66b2e}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 15 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

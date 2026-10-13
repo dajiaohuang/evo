@@ -1,19 +1,48 @@
 ## Which fossil records this name represents {#s-f9a697912e}
 Cryptoclidus eurymerus is accepted in the fixed PBDB sauropterygia working roster, with database parent Cryptoclidus. This guide uses 6 eligible species-level occurrence records from 5 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-0e9885a070}
-Collection Peterborough area, Leeds Collection (England), region code UK, stratum name Oxford Clay; database age bracket 165.3–161.5 Ma, early interval Middle Callovian. Collection Clapham brickyard (England), region code UK, stratum name Oxford Clay; database age bracket 165.3–161.5 Ma, early interval Late Callovian. Collection Weymouth Oxford Clay Formation (non-specific locality data) (England), region code UK, stratum name Oxford Clay; database age bracket 165.3–154.8 Ma, early interval Callovian and late interval Oxfordian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Cryptoclidus eurymerus is listed in the PBDB snapshot under taxon txn:171308. This archived guide contains 6 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 6 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-2c737ec6b8}
-Selected occurrences have an outer age envelope of 165.3–154.8 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Peterborough area, Leeds Collection, occurrence occ:990823 (165.3–161.5 Ma); one supplying the younger bound is Weymouth Oxford Clay Formation (non-specific locality data), occurrence occ:1110923 (165.3–154.8 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-0e9885a070}
+The archived guide contains 6 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-28e21fa9c9}
-Peterborough area, Leeds Collection has collection-environment label offshore; collection preservation-mode label body. Clapham brickyard has collection-environment label marine indet.; collection preservation-mode label body. Weymouth Oxford Clay Formation (non-specific locality data) has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:990823; PBDB collection col:109800. Locality cnm=Peterborough area, Leeds Collection; place fields cc2=UK, stp=England, cny=Cambridgeshire. Recorded age bounds: eag 165.3 Ma; lag 161.5 Ma; PBDB interval fields oei=Middle Callovian. Stratigraphic fields sfm=Oxford Clay. Recorded attribution Brown 1981; PBDB reference ref:33993.
 
-## Follow collection records back to references {#s-469e9378d9}
-Peterborough area, Leeds Collection carries database reference attribution Brown (1981), identifier ref:33993. Clapham brickyard carries database reference attribution Phillips (1871), identifier ref:23773. Weymouth Oxford Clay Formation (non-specific locality data) carries database reference attribution Delair (1960), identifier ref:31216. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"The Peterborough Member (Sigiloceras enodatum (Sigiloceras calloviense Zone)–Kosmoceras phaeinum (Peltoceras athleta Zone) ammonite Subzone: late Early–early Late Callovian, Middle Jurassic, previously termed the ‘lower Oxford Clay’"
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+The exact locations of many early specimens are unknown but were excavated from the many clay pits around the city.
+
+- Occurrence occ:1110923; PBDB collection col:140700. Locality cnm=Weymouth Oxford Clay Formation (non-specific locality data); place fields cc2=UK, stp=England, cny=Dorset. Recorded age bounds: eag 165.3 Ma; lag 154.8 Ma; PBDB interval fields oei=Callovian, oli=Oxfordian. Stratigraphic fields sfm=Oxford Clay. Recorded attribution Delair 1960; PBDB reference ref:31216.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+This collection is a proxy for historical pterosaur material collected from the Kimmeridge Clay in the Weymouth area, for which locality data is not available
+
+- Occurrence occ:990824; PBDB collection col:119503. Locality cnm=Clapham brickyard; place fields cc2=UK, stp=England, cny=Bedfordshire. Recorded age bounds: eag 165.3 Ma; lag 161.5 Ma; PBDB interval fields oei=Late Callovian. Stratigraphic fields sfm=Oxford Clay. Recorded attribution Phillips 1871; PBDB reference ref:23773.
+
+## Age bounds on the recorded occurrences {#s-2c737ec6b8}
+Across these selected PBDB rows, the largest recorded eag=165.3 Ma in occ:990823; the smallest recorded lag=154.8 Ma in occ:1110923. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-28e21fa9c9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:990823: PBDB taxon-name field tna=Cryptoclidus eurymerus; material note ocm=15+ individuals listed by Brown (1981): BMNH R2860 (neotype almost complete skeleton), R2412, R2416, R2417, R2616, R2862, R3538, R3703, R3730, R8621, HMGV (Hunterian Museum, Glasgow) V1091, V1104, V1807, V1809, V1835; abundance fields abv=15, abu=individuals; PBDB locality-coordinate fields lng=-0.233333, lat=52.566666; paleocoordinate/model fields pm1=gplates, pln=18.56, pla=35.95.
+- occ:1110923: PBDB original-identification field idn=Cryptocleidus eurymerus; PBDB taxon-name field tna=Cryptoclidus eurymerus; material note ocm=Dorsal vertebrae in the BMNH (no specific details given); PBDB locality-coordinate fields lng=-2.453889, lat=50.608891; paleocoordinate/model fields pm1=gplates, pln=16.68, pla=33.62.
+- occ:990824: PBDB original-identification field idn=Cryptoclidus eurymerus n. sp.; PBDB taxon-name field tna=Cryptoclidus eurymerus; material note ocm=Holotype (lost); abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-0.495000, lat=52.165001; paleocoordinate/model fields pm1=gplates, pln=18.44, pla=35.53.
+
+## References attached to each record {#s-469e9378d9}
+The archived guide links the rows to 6 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:990823: Recorded attribution Brown 1981; PBDB reference ref:33993.
+- occ:1110923: Recorded attribution Delair 1960; PBDB reference ref:31216.
+- occ:990824: Recorded attribution Phillips 1871; PBDB reference ref:23773.
 
 ## Evidence limits {#s-5db893ea36}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 312-item sauropterygia working roster, retain the current same name and a complete parent chain to the recorded Sauropterygia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 6 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

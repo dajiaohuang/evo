@@ -1,15 +1,15 @@
-## Name and trait record {#s-748ef2f33a}
-COL26.8 places *Atheris desaixi* in Viperidae. Its ReptTraits v1-2 row uses the Reptile Database 2023 name framework and cites each trait separately. The row compiles reports about the species; it does not describe one uniform condition across all populations.
+## COL26.8 name and the ReptTraits row {#s-748ef2f33a}
+COL26.8 records Atheris desaixi as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Total length {#s-1a85113784}
-The reported maximum total length (TL) is 700 mm. Total length includes the tail, unlike snout–vent length (SVL). The compiled maximum is the largest value in the cited records, not a growth limit or typical individual size. Sex-specific measurements may come from different places or studies, so they do not by themselves quantify sexual dimorphism within a population.
+## Length values in the archived records {#s-1a85113784}
+The row reports maximum total length (TL) of 700 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Activity and feeding {#s-0ed16ec710}
-The row records an Arboreal microhabitat, a Carnivorous diet, Nocturnal activity and AMB foraging mode (ambush). These broad categories do not give a complete habitat list, name prey or set a fixed daily schedule. The source record may combine observations from different populations, seasons or life stages.
+## Habitat use and activity labels {#s-0ed16ec710}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Spawls et al. 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records AMB (ambush or sit-and-wait foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## Reproductive mode {#s-842b7a7997}
-The cited reproductive-mode field is labelled viviparous, or live-bearing. This row provides no litter-size summary, so the mode label does not establish a typical litter count, fetal nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-842b7a7997}
+The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-e68cbe2abd}
-The row can combine reports that differ by sex, age, locality or population. Its Reptile Database 2023 name framework does not by itself prove equivalence to the COL26.8 concept. The maximum length is not an absolute species limit. Mass fields may be estimated from length equations, and juvenile-length definitions differ; neither is presented here as a measurement. This account does not update venom, conservation status, current distribution or population trends. Trait citations preserve the source chain but do not mean that every underlying work was independently checked here.
+## Reading this compiled trait record {#s-e68cbe2abd}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

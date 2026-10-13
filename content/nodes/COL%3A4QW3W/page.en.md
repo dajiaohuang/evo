@@ -1,26 +1,26 @@
-## The 2015 life-history entry and this name {#s-828c2ee50c}
-COL26.8 accepts Pyrrhura leucotis within Psittacidae. The 2015 life-history archive also has a same-name, same-family entry; 3 selected fields have matching species-level source rows. Older records can include values inherited across historical species or subspecies, so matching names do not establish identical species concepts.
+## Scope of the historical life-history entry {#s-828c2ee50c}
+The August 2015 database has a same-name, same-family record for Pyrrhura leucotis. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-ae8849ff5c}
-The historical compilation reports adult body mass 56.7 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. The selected record provides no birth- or hatching-mass value.
+## Compiled adult-mass values {#s-ae8849ff5c}
+The August 2015 compilation reports adult body mass 56.7 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-b80db8b77a}
-Available compilation fields are offspring per litter or eggs per clutch 6.7 offspring/eggs. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Missing reproductive and developmental durations are not supplied here.
+## Reproductive fields describe different events {#s-b80db8b77a}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 6.7. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-8540517b1a}
-The largest lifespan record in the archive is 18.5 years. It is a maximum in the collected historical material, not a typical lifespan, a wild-population average, or a limit every individual can reach.
+## A maximum record is not typical lifespan {#s-8540517b1a}
+The compilation lists 18.5 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-db30249d50}
-Same-name sparse rows carry source labels including Schuck-Paima, C., Alonsob, W.J., and E.B. Ottonia, 2008; Jetz, Sekercioglu, and Bohning-Gaese, 2008; de Magalhaes and Costa, 2009. The source archive retains field-specific row numbers, values and labels, alongside the table’s full reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-db30249d50}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## What one ecological field can tell us {#s-eebfc3de08}
-Pyrrhura leucotis is accepted in pinned COL26.8 within Psittacidae. The historical comparison draws on one ecological field group in the same-name, same-family EltonTraits 1.0 record. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-eebfc3de08}
+EltonTraits 1.0 has a same-name, same-family record for Pyrrhura leucotis covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-1711f5c567}
-The archive’s nonzero food weights are fruit 30%; seeds, nuts and spores included in this category 30%; other plant material (the source category also includes fungi) 30%; invertebrates 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-1711f5c567}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; fruit 30%; seeds or nuts 30%; other plant material 30%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Trace each field group to its source labels {#s-c698fa361d}
-The source labels for these fields are Ref_4. Diet, feeding position, and activity may draw on different works, so the same Ref number in bird and mammal tables does not identify the same source. The archive links each label to its file, row, field group, and reference table; these labels are not independent observations.
+## Sources and field limits {#s-c698fa361d}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-48bcb6f39b}
 The 2015 life-history archive gathers historical same-name entries. Except for longevity, values summarize the compilation’s median or the mean of the two middle values; longevity is the largest record found. These summaries are not direct measurements of one animal, individual ranges, wild-lifespan averages or current population surveys. The compilation can carry values across historical species and subspecies, and matching names or families do not establish equivalence to COL26.8. Wild or captive conditions are not consistently identified. These records do not supply diet, behaviour, current range, conservation information or missing life-history fields.

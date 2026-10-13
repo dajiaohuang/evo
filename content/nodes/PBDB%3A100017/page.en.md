@@ -1,18 +1,27 @@
-## Which fossil records this name represents {#s-9029eed01f}
-Buteo typhoius is accepted in the fixed PBDB dinosaur working roster, with database parent Buteo. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-9029eed01f}
+Buteo typhoius is listed in the PBDB snapshot under taxon txn:100017. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-b22c416001}
-Collection Stenomylus Quarry (Nebraska), region code US, stratum name Harrison; database age bracket 23.1–18.5 Ma, early interval Harrisonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-b22c416001}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-a55da7ac4d}
-Selected occurrences have an outer age envelope of 23.1–18.5 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:692404; PBDB collection col:17845. Locality cnm=Stenomylus Quarry; place fields cc2=US, stp=Nebraska, cny=Sioux. Recorded age bounds: eag 23.1 Ma; lag 18.5 Ma; PBDB interval fields oei=Harrisonian. Stratigraphic fields sfm=Harrison, sls=PineR, slb=13, slo=bottom to top. Recorded attribution Wetmore 1928; PBDB reference ref:25081.
 
-## Read preservation setting separately from living habitat {#s-6e10c5739e}
-Stenomylus Quarry has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+5 mi SE of Agate and 1.5 mi ESE of Carnegie Hill
 
-## Follow collection records back to references {#s-e4abc00442}
-Stenomylus Quarry carries database reference attribution Wetmore (1928), identifier ref:25081. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+## Age bounds on the recorded occurrences {#s-a55da7ac4d}
+Across these selected PBDB rows, the largest recorded eag=23.1 Ma in occ:692404; the smallest recorded lag=18.5 Ma in occ:692404. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
 
-## Evidence limits {#s-819c084b86}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Material and coordinate fields {#s-6e10c5739e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:692404: PBDB taxon-name field tna=Buteo typhoius; material note ocm=H. J. Cook collection; PBDB locality-coordinate fields lng=-103.800003, lat=42.400002; paleocoordinate/model fields pm1=gplates, pln=-93.3, pla=47.08.
+
+## References attached to each record {#s-e4abc00442}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:692404: Recorded attribution Wetmore 1928; PBDB reference ref:25081.
+
+## What these records can show {#s-819c084b86}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

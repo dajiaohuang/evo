@@ -1,5 +1,5 @@
-## Find rows through older Basileuterus combinations {#s-0bb26334f4}
-Pinned COL26.8 organizes this page at Myiothlypis flaveola (45339). BirdLife 2020 row 6309 and eBird 2021 row 6592 share the name and Avibase ID AVIBASE-40BD9900, with type 1BL to 1eBird; BirdTree row 6568 gives Basileuterus flaveolus, with type 1BL to 1BT. Catalogue synonym 68CX5, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-0bb26334f4}
+Catalogue of Life release COL26.8 records Myiothlypis flaveola S. F. Baird, 1865 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-e839cb5e86}
 Morphology comprises 21 birds: 8 female, 9 male and 4 unsexed; 4 complete sets. Nostril-to-tip beak length 8.7 mm, tarsus 20.4 mm, unflattened wing 66.3 mm, tail 59.7 mm and hand-wing index 12.5 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

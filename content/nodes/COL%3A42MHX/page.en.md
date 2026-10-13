@@ -5,5 +5,5 @@ Garbino, Silva and Davis reported two additional records under the historical na
 The same short paper presented the first sonogram analysis of the long call and compared note duration and frequency with Cebuella pygmaea and Mico argentatus. This is a call-structure comparison, not a broad communication survey.
 
 ## Evidence limits {#s-f864c2a9a0}
-Source-linked introduction;. This page follows COL26.8 as Mico humilis, while the field article used Callibella humilis. MDD records Callibella as a subgenus and notes differing generic treatments. The range statement comes from two records, not a current full-range assessment.
+This page follows COL26.8 as Mico humilis, while the field article used Callibella humilis. MDD records Callibella as a subgenus and notes differing generic treatments. The range statement comes from two records, not a current full-range assessment.
 

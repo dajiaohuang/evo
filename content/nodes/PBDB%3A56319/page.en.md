@@ -1,18 +1,47 @@
-## Which fossil records this name represents {#s-24893803e6}
-Albertosaurus sarcophagus is accepted in the fixed PBDB dinosaur working roster, with database parent Albertosaurus. This guide uses 15 eligible species-level occurrence records from 15 collections and 8 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-24893803e6}
+Albertosaurus sarcophagus is listed in the PBDB snapshot under taxon txn:56319. This archived guide contains 15 selected occurrence rows, linked to 15 distinct PBDB collection IDs and 8 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-6cac9ca11c}
-Collection east bank Red Deer River, GSC (NMC 5601) (Alberta), region code CA, stratum name Scollard; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection 2 miles below Tolman Ferry (150 ft level) [AMNH] (Alberta), region code CA, stratum name Horseshoe Canyon; database age bracket 72.2–66 Ma, early interval Early Maastrichtian. Collection 2.5 miles above Bleriot ferry, Red Deer River (ROM) (Alberta), region code CA, stratum name Horseshoe Canyon; database age bracket 72.2–66 Ma, early interval Early Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-6cac9ca11c}
+The archived guide contains 15 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-4271de5316}
-Selected occurrences have an outer age envelope of 83.6–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:517552; PBDB collection col:52485. Locality cnm=right bank, Sand Creek (50 ft level) [AMNH]; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Campanian. Stratigraphic fields sfm=Oldman. Recorded attribution Erickson et al. 2004; PBDB reference ref:34553.
 
-## Read preservation setting separately from living habitat {#s-70e36c576e}
-east bank Red Deer River, GSC (NMC 5601) has collection-environment label terrestrial indet.; collection preservation-mode label body. 2 miles below Tolman Ferry (150 ft level) [AMNH] has collection-environment label terrestrial indet.; collection preservation-mode label body. 2.5 miles above Bleriot ferry, Red Deer River (ROM) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+R bank Sand Creek, 50 ft above river, near Red Deer River, Little Sandhill Creek basin
 
-## Follow collection records back to references {#s-a8c5e9629c}
-east bank Red Deer River, GSC (NMC 5601) carries database reference attribution Osborn (1905), identifier ref:9259. 2 miles below Tolman Ferry (150 ft level) [AMNH] carries database reference attribution Russell (1970), identifier ref:4205. 2.5 miles above Bleriot ferry, Red Deer River (ROM) carries database reference attribution Parks (1928), identifier ref:12347. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:139255; PBDB collection col:11898. Locality cnm=east bank Red Deer River, GSC (NMC 5601); place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Scollard. Recorded attribution Osborn 1905; PBDB reference ref:9259.
 
-## Evidence limits {#s-676973f47c}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper part of Edmonton Formation ("Edmonton B")
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+unknown section, township 33, range 22, W 4th meridian; east bank of Red Deer River, about 21 mi above mouth of Kneehills Creek (= Knee Hills Creek) between Morrin and Tolman bridges
+
+- Occurrence occ:139256; PBDB collection col:11899. Locality cnm=2 miles below Tolman Ferry (150 ft level) [AMNH]; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Early Maastrichtian. Stratigraphic fields sfm=Horseshoe Canyon. Recorded attribution Russell 1970; PBDB reference ref:4205.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper part of formation ("Edmonton B"); 350 feet below top
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+section 12?, township 33, range 22, W 4th meridian; 150 feet above east bank of Red Deer River, 2 miles below Tolman Ferry
+
+## Age bounds on the recorded occurrences {#s-4271de5316}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:517552; the smallest recorded lag=66 Ma in occ:139255. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-70e36c576e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:517552: PBDB taxon-name field tna=Albertosaurus sarcophagus; material note ocm=AMNH 5428 = USNM 12814; field no. 25; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-111.616669, lat=50.688000; paleocoordinate/model fields pm1=gplates, pln=-65.73, pla=60.66.
+- occ:139255: PBDB taxon-name field tna=Albertosaurus sarcophagus; material note ocm=NMC 5601, skull w/associated postcrania; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-112.981903, lat=51.804600; paleocoordinate/model fields pm1=gplates, pln=-68.27, pla=63.96.
+- occ:139256: PBDB taxon-name field tna=Albertosaurus sarcophagus; material note ocm=AMNH 5222; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-112.981903, lat=51.819099; paleocoordinate/model fields pm1=gplates, pln=-68.26, pla=63.97.
+
+## References attached to each record {#s-a8c5e9629c}
+The archived guide links the rows to 8 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:517552: Recorded attribution Erickson et al. 2004; PBDB reference ref:34553.
+- occ:139255: Recorded attribution Osborn 1905; PBDB reference ref:9259.
+- occ:139256: Recorded attribution Russell 1970; PBDB reference ref:4205.
+
+## What these records can show {#s-676973f47c}
+This is a guide to 15 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

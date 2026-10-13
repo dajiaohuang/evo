@@ -1,4 +1,6 @@
-## Historical life-history route {#s-6802ebd569}
+## Recorded classification and direct parent {#s-6802ebd569}
+COL26.8 records Eoglaucomys at genus rank, with Pteromyini as its direct parent.
+
 This batch’s Eoglaucomys route has one usable life-history account: Eoglaucomys fimbriatus. Pages retain the MSW05 name, variable conditions and gaps. Pinned COL26.8 guides navigation; historical row counts are not the current accepted-species denominator.
 
 ## Ecological route fields {#s-d42f877a2b}

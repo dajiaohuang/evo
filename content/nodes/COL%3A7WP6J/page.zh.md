@@ -1,5 +1,5 @@
-## 历史资料中的名称 {#s-be4826a202}
-固定 COL26.8 条目为 Psilopogon mystacophanos（7WP6J）。AVONET v7 的 BirdLife 2020 第 9698 行与 eBird 2021 第 8665 行使用该名称及 Avibase ID AVIBASE-85DECE79。BirdTree 第 8620 行则记为 Megalaima mystacophanos，匹配类型为 1BL to 1BT；COL 已读旧组合记录 7VSW6 指向接受条目。这些对应关系用于定位历史行，不证明各来源一直采用相同物种边界。
+## COL26.8 中的名称身份 {#s-be4826a202}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon mystacophanos (Temminck, 1824) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量个体提供的信息 {#s-5249dd1ecf}
 形态记录包含 6 只鸟：雌 2 只、雄 3 只、性别未记 1 只，其中 4 只有完整测量组。均值为鼻孔前缘至喙尖 30 mm、喙宽 14.9 mm、跗蹠 25.2 mm、未压平翼长 95.2 mm。手翼指数为 15.8，计算方式为 Kipp 距离除以翼长再乘 100，是翼部比例指标，不是飞行速度。Inference=NO 不表示每个字段样本数相同；喙宽也不是果实处理或啄食表现的实验。

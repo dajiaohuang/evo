@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-0cde6cbd1e}
-Pinned COL26.8 organizes this page as Pternistis leucoscepus (4PV6W). AVONET v7 BirdLife 2020 row 2520 and eBird 2021 agree in name, with Avibase ID AVIBASE-90AFDF9E; BirdTree gives Francolinus leucoscepus, with match type 1BL to 1BT. No synonym record for this species’ older Francolinus combination was found in the fr/pt shards read here; the workbook link remains a historical source mapping. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-0cde6cbd1e}
+Catalogue of Life release COL26.8 records Pternistis leucoscepus (G. R. Gray, 1867) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-662c3a844e}
 Morphology covers 4 birds (2 female, 2 male); 2 have complete measurement sets. Mean nostril-to-tip beak length is 20.2 mm, tarsus 58 mm, unflattened wing 199 mm and hand-wing index 22.8. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

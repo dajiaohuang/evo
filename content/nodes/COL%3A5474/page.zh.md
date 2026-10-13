@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-feb48bb779}
+## 记录分类与直接上级关系 {#s-feb48bb779}
+COL26.8 将 Indicator 记录为属；其直接上级记录为 Indicatoridae。
+
 本批有 9 条 AVONET 形态测量物种记录归于 Indicator。可先从 Indicator archipelagicus、Indicator exilis、Indicator indicator、Indicator maculatus 和 Indicator meliphilus 进入。固定 COL26.8 层级用于导航，测量仍保留 AVONET v7 的历史名称与取样范围。
 
 ## 记录之间有什么差别 {#s-b18ff07957}

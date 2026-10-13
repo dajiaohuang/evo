@@ -5,5 +5,5 @@ A captive study tracked female pygmy slow lorises before and after they moved fr
 After group housing, the females had lower fecal cortisol levels; one female that showed stereotypic behavior while housed alone no longer showed it after moving to a group enclosure. The study discusses these changes in a captive-welfare context and did not observe the species' social organization in the wild.
 
 ## Evidence limits {#s-e37b2f46f5}
-This is a local captive-welfare guide, not a comprehensive pygmy slow loris account, and is. It concerns a limited number of captive females and cannot establish wild social organization, species-wide cortisol patterns, habitat, or diet.
+This is a local captive-welfare study, not a comprehensive pygmy slow loris account. It concerns a limited number of captive females and cannot establish wild social organization, species-wide cortisol patterns, habitat, or diet.
 

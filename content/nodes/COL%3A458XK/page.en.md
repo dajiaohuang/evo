@@ -1,18 +1,18 @@
-## Three source-backed fields {#s-61b57aeadb}
-Pinned COL26.8 accepts Myriopholis albiventer in Leptotyphlopidae. Its limited ReptTraits v1-2 row supplies maximum total length, microhabitat and reproductive mode, each with a citation tied to the field. The workbook retains The Reptile Database’s 2023 naming; name and family alignment do not prove current concept equivalence.
+## COL26.8 name and the ReptTraits row {#s-61b57aeadb}
+COL26.8 records Myriopholis albiventer as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Reported maximum TL {#s-081dcc1334}
-The maximum total length (TL) in this row is 128 mm, sourced to Feldman et al. (2016). TL includes the tail; snout–vent length (SVL) is measured to the vent. This compiled maximum is not a mean or a limit for every individual.
+## Length values in the archived records {#s-081dcc1334}
+The row reports maximum total length (TL) of 128 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Microhabitat category {#s-7c51eb8430}
-The entry classifies microhabitat as “fossorial,” cited to Feldman (2015). In the workbook this is one of several categories, alongside arboreal, cryptic, saxicolous, semi-aquatic and terrestrial positions. It is not a detailed habitat or site record.
+## Habitat use and activity labels {#s-7c51eb8430}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015.
 
-## Reproductive-mode label {#s-770b826f45}
-The reproductive-mode field is “oviparous,” with Zimin et al. (2022) cited for the label. This row has no clutch count or egg measurement, so it does not supply those details.
+## Reproductive fields in ReptTraits {#s-770b826f45}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## What the row cannot resolve {#s-bfa84a36e6}
-This single row cannot describe the species’ full morphology, ecology or population variation. Its maximum TL is compiled, and no sex-specific length is given. The citations retain the workbook source chain; they do not claim independent review of each cited study.
+## Reading this compiled trait record {#s-bfa84a36e6}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Remaining fields {#s-40ec38ee37}
-No source-backed reader value is established here for SVL or sex-specific lengths, offspring counts, clutch frequency, egg dimensions, diet, active time, foraging mode or sex determination. These fields remain open for M. albiventer; relatives and blank entries cannot fill them.
+## Reading this compiled trait record {#s-40ec38ee37}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

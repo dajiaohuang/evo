@@ -25,18 +25,48 @@ Leptostomia begaaensis 的正模 FSAC-KK 5075 是缺少尖端的前部上颌吻�
 ## 这个名称对应哪些化石记录 {#s-f6062fa2e0}
 2026-10-02 的 PBDB 快照将 Leptostomia begaaensis 记录为 Leptostomia 下的接受名。所选导读包含 1 条种级出现记录，关联 1 个采集记录和 1 个来源引文编号。这些是数据库计数单位，不等于化石标本数或古代个体数。
 
+PBDB 出现记录补充:
+Leptostomia begaaensis 在 PBDB 快照中对应分类条目 txn:426086。这份存档导读包含 1 条选取的出现记录，关联 1 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## 从具名采集地和地层开始 {#s-c3ebe5e0d6}
 采集记录 Aferdou N'Chaft（Drâa-Tafilalet），地区代码 MA，地层名称 Ifezouane；数据库年代范围 100.5–93.9 Ma，早端地质时段 Early Cenomanian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+
+PBDB 出现记录补充:
+存档导读包含 1 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:1526669；PBDB 采集记录 col:209058。 地点字段 cnm=Aferdou N'Chaft；地点分区字段 cc2=MA，stp=Drâa-Tafilalet，cny=Errachidia。 记录年代界：eag 100.5 Ma; lag 93.9 Ma；PBDB 年代区间字段 oei=Early Cenomanian。 地层字段 sfm=Ifezouane。 记录署名 Smith et al. 2020；PBDB 引文编号 ref:73818。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+upper Ifezouane Formation, Kem Kem Group
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Aferdou N’ Chaft, a small collection of outliers of the Kem Kem Plateau some 4 km S of the oasis of Hassi El Begaa in the southern Tafilalt of SE Morocco
 
 ## 这些记录的年代边界 {#s-46f57eb2ef}
 本页所选出现记录的年代外包区间为 100.5–93.9 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；宽年代范围不能给出精确标本年龄。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=100.5 Ma，见 occ:1526669；最小记录 lag=93.9 Ma，见 occ:1526669。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 保存环境与生活环境分开阅读 {#s-2a21e0e83c}
 Aferdou N'Chaft 的采集环境标签为 河流沉积环境，类型未定（fluvial indet.）；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1526669：PBDB 原鉴定字段 idn=Leptostomia begaaensis n. gen. n. sp.；PBDB 分类名称字段 tna=Leptostomia begaaensis；材料说明字段 ocm=FSAC-KK 5075 - holotype; paratype: FSAC-KK 5076；丰度字段 abv=2，abu=specimens；PBDB 地点坐标字段 lng=-3.870278，lat=30.897499；古坐标／模型字段 pm1=gplates，pln=7.54，pla=25.24。
 
 ## 沿采集记录追到文献 {#s-f9198ffc72}
 Aferdou N’Chaft 的数据库引文为 Smith et al.（2020）、ref:73818。五位作者的原始描述是另一来源；期刊记录为第 118 卷、2021 年 2 月，关联引文仍保留作者稿版本。2023 年 Leptostomia 介绍讨论了颌骨片段及其解释。这些来源保留各自的数据库年份与出版日期。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1526669：记录署名 Smith et al. 2020；PBDB 引文编号 ref:73818。
+
 ## 资料边界 {#s-9bff39e3d9}
 这份叙述依据两段不完整颌骨以及已发表的形态、年代、成熟度和可能功能比较。同种归属并不能证明标本来自同一个体；科级位置、探食行为与远距触觉仍有不确定性。缺失长度不是完整颌骨的实测值，数据库年代范围也不是物种起源或灭绝的直接日期。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 1 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

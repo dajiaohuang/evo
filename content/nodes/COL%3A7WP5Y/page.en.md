@@ -1,5 +1,5 @@
-## Tracing the historical genus name {#s-8fe5dd362a}
-Pinned COL26.8 places this page at Psilopogon chrysopogon (7WP5Y). AVONET v7 BirdLife 2020 row 9681 and eBird 2021 row 8648 use the same name and Avibase ID AVIBASE-FA4F17DB; BirdTree row 8603 gives Megalaima chrysopogon, with match type 1BL to 1BT. Read COL older-combination record 7VSVQ points to this accepted ID. These associations locate historical data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-8fe5dd362a}
+Catalogue of Life release COL26.8 records Psilopogon chrysopogon (Temminck, 1824) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and beak/wing averages {#s-5797c297a8}
 Morphology covers 5 birds: 1 female, 3 male and 1 unsexed; 4 have complete measurement sets. Mean nostril-to-tip beak length is 37.6 mm, beak width 15.8 mm, tarsus 31.5 mm, unflattened wing 124.7 mm and hand-wing index 18.8. Inference=NO does not establish an identical count for every field; complete-set birds and total samples remain separate. The index is Kipp’s distance/wing length ×100, not flight speed, and beak width is not a test of fruit swallowing or pecking performance.

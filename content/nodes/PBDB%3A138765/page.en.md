@@ -20,23 +20,54 @@ The smallest juveniles lack a premaxillary crest, which the authors link to grow
 The revision notes overlapping age ranges and considers the two forms possibly contemporaneous, but neither is known from the exact same locality as the other. Some specimens are located only to the Chaoyang area, with weak control of their precise beds. Better locality and sediment data would be needed to test niche separation; the current record does not demonstrate different diets, social behaviour or a shared habitat.
 
 ## Read juvenile-model identities with their study date {#s-8ac2774157}
-A 2021 flight study treated IVPP V-14377, the Nemicolopterus holotype, as a near-hatching S. dongi. The 2023 revision considers it too young for a reliable assignment to either S. dongi or Huaxiadraco corollatus and retains it as indeterminate Sinopterinae. Flight models using the 2021 identification therefore do not establish uncontested, species-specific hatchling performance. Compare preservation and synonymy in [S. gui](../Sinopterus_gui/page.en.md), then the separate model inputs for [Pterodaustro guinazui](../../../../../../Lophocratia/Pterodaustro/Pterodaustro_guinazui/page.en.md).
+A 2021 flight study treated IVPP V-14377, the Nemicolopterus holotype, as a near-hatching S. dongi. The 2023 revision considers it too young for a reliable assignment to either S. dongi or Huaxiadraco corollatus and retains it as indeterminate Sinopterinae. Flight models using the 2021 identification therefore do not establish uncontested, species-specific hatchling performance. Compare preservation and synonymy in S. gui, then the separate model inputs for Pterodaustro guinazui.
 
 ## Which fossil records this name represents {#s-aa300500ca}
 PBDB lists Sinopterus dongi as a species under Sinopterus. The selected sample contains two occurrence records from two collections, linked to two references. These counts describe database records, not fossils or animals.
 
+PBDB occurrence record excerpt:
+Sinopterus dongi is listed in the PBDB snapshot under taxon txn:138765. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## Begin with named collections and strata {#s-9bc7209cbc}
 PBDB lists two collections in Liaoning, China: Lamagou, Dongdadao, Chaoyang and Chaoyang pterosaurs (PROXY). Both carry region code CN, the Jiufotang stratum and an age bracket of 121.4–113.2 Ma, labelled Aptian. These entries describe the selected collections, not the species’ complete distribution.
+
+PBDB occurrence record excerpt:
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:837506; PBDB collection col:92898. Locality cnm=Lamagou, Dongdadao, Chaoyang; place fields cc2=CN, stp=Liaoning. Recorded age bounds: eag 121.4 Ma; lag 113.2 Ma; PBDB interval fields oei=Aptian. Stratigraphic fields sfm=Jiufotang. Recorded attribution Wang and Zhou 2002; PBDB reference ref:31347.
+
+- Occurrence occ:837511; PBDB collection col:92652. Locality cnm=Chaoyang pterosaurs (PROXY); place fields cc2=CN, stp=Liaoning. Recorded age bounds: eag 121.4 Ma; lag 113.2 Ma; PBDB interval fields oei=Aptian. Stratigraphic fields sfm=Jiufotang. Recorded attribution Lü et al. 2006; PBDB reference ref:31355.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+This is a proxy location for all Jiufotang Formation pterosaurs for which the locality is given only as "Chaoyang City"
 
 ## Age bounds of these records {#s-22eb9df665}
 The selected collections have an outer age bracket of 121.4–113.2 Ma, where Ma means millions of years ago. This is not a continuous record or a direct date for the species’ origin or extinction.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=121.4 Ma in occ:837506; the smallest recorded lag=113.2 Ma in occ:837506. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## Read preservation setting separately from living habitat {#s-58e231810f}
 PBDB labels both collections lacustrine indeterminate. Lamagou, Dongdadao, Chaoyang has preservation labels body, adpression and soft parts; Chaoyang pterosaurs (PROXY) has body and adpression. These describe collection records, not the animal’s full habitat or every specimen’s condition.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:837506: PBDB original-identification field idn=Sinopterus dongi n. gen. n. sp.; PBDB taxon-name field tna=Sinopterus dongi; material note ocm=IVPP V13363, nearly complete articulated skeleton; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=120.044724, lat=41.434444; paleocoordinate/model fields pm1=gplates, pln=131.23, pla=40.34.
+- occ:837511: PBDB taxon-name field tna=Sinopterus dongi; material note ocm=D2525, skeleton without skull; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=120.441666, lat=41.566666; paleocoordinate/model fields pm1=gplates, pln=131.57, pla=40.54.
 
 ## Follow collection records back to references {#s-7a2e520fcc}
 PBDB links Lamagou, Dongdadao, Chaoyang to Wang and Zhou (2002; ref:31347), and Chaoyang pterosaurs (PROXY) to Lü et al. (2006; ref:31355). These are abbreviated database attributions; the shared records retain their source links, but the citations do not by themselves confirm every specimen identification.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:837506: Recorded attribution Wang and Zhou 2002; PBDB reference ref:31347.
+- occ:837511: Recorded attribution Lü et al. 2006; PBDB reference ref:31355.
+
 ## Evidence limits {#s-806f97628f}
 This page brings together selected findings from the 2023 revision and two PBDB collections. The synonymies and growth interpretations apply to the specimens analyzed; the morphometric sample excludes incomplete BPV-077 and a very young specimen. IVPP V-14377 remains disputed between the 2021 and 2023 assignments. The two database collections are not a complete range or a full species monograph.
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

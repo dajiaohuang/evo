@@ -1,5 +1,5 @@
-## 沿旧 Zoothera 名称查历史资料 {#s-9b1f48b086}
-本页按 COL26.8 的 Geokichla wardii（3FPZS）组织。AVONET v7 BirdLife 2020 第 8566 行与 eBird 2021 第 4327 行同名，Avibase ID 为 AVIBASE-AC0C3921；BirdTree 第 4309 行记作 Zoothera wardii，匹配类型为 1BL to 1BT。已读 COL 旧组合 5D7PN 指向本页接受 ID。这些来源关联用于查资料，不证明所有时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-9b1f48b086}
+《Catalogue of Life》COL26.8（2026-08-20）将 Geokichla wardii (Blyth, 1843) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量鸟数与喙翼数值 {#s-ec7848a1ad}
 形态共测 5 只：雌 0、雄 4、性别未定 1；4 只具完整测量。鼻孔前缘至喙尖 15.5 mm、跗蹠 27.2 mm、未压平翼长 113.6 mm、手翼指数 33.7 是该历史行的汇总数值。Inference=NO 不代表所有字段都测了相同数量；完整测量鸟数不替代每项字段分母。手翼指数定义为 Kipp 距离／翼长 ×100，不是飞行速度、迁移距离或本种全域的能力测验。

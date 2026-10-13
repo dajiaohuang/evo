@@ -1,44 +1,44 @@
-## The name and this data account {#s-1e139a105c}
-Falco rusticolus is accepted in COL26.8 within Falconidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-1e139a105c}
+The AVONET v7 row for Falco rusticolus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 22 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-886100a8b6}
-Recorded mean beak measurements are 22 mm from the anterior nostril edge to the tip, 16.3 mm in width and 19.2 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-886100a8b6}
+AVONET records culmen length (bill tip to skull base) 36 mm; beak length (nostril front edge to tip) 22 mm; beak width at the nostril front edge 16.3 mm; beak depth at the nostril front edge 19.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-52077d9ed2}
-Mean unflattened wing length from the carpal joint to the longest primary is 368 mm; mean tarsus length is 56.7 mm. Compiled mean mass is 1431.72 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-52077d9ed2}
+AVONET records unflattened wing length 368 mm; tarsus length 56.7 mm; distance from first secondary tip to longest primary tip 174.2 mm; length to first secondary tip 193.2 mm; hand-wing index 47.5; tail length 201.8 mm; species-average body mass 1431.72 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-b816cc4d5c}
-The dataset assigns habitat Grassland, trophic niche Vertivore and lifestyle Aerial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-b816cc4d5c}
+AVONET classifies Falco rusticolus as habitat Grassland (open grass-dominated landscapes); trophic niche Vertivore (source threshold at least 60% from terrestrial vertebrates); trophic level Carnivore; primary lifestyle Aerial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-f99c473b20}
-The migration field classifies this record as migratory. Historical breeding and resident maps span latitude endpoints 50.88° to 83.11°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-f99c473b20}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints 50.88° to 83.11°. The mapped range area is 8809463.94 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-ecb6861b0e}
-Falco rusticolus is accepted in pinned COL26.8 within Falconidae. This page compares the same-name historical life-history entry using 7 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-ecb6861b0e}
+The August 2015 database has a same-name, same-family record for Falco rusticolus. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-7710717803}
-Historical summary values are adult body mass 1415.75 g; mass at birth or hatching 52.08 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+## Compiled adult-mass values {#s-7710717803}
+The August 2015 compilation reports adult body mass 1415.75 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-319042af54}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 728.47 d; offspring per litter or eggs per clutch 3.61 offspring/eggs; oviposition to hatching 35 d; age at flight capability (leaving the nest in some source material) 47.75 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-319042af54}
+The August 2015 compilation reports female age at first conception (source definition) 728.468 days; median or interpolated-median number of offspring or eggs per litter/clutch 3.61; oviposition-to-hatching interval 35 days; age at flight capability (some records mark nest departure) 47.75 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-5e4fa978d9}
-The archive’s maximum_longevity_y value is 13.5 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-5e4fa978d9}
+The compilation lists 13.5 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-7df017f4c6}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Bennett, 1986, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-7df017f4c6}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-e5c666320f}
-Falco rusticolus is accepted in pinned COL26.8 within Falconidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-e5c666320f}
+EltonTraits 1.0 has a same-name, same-family record for Falco rusticolus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-cddbc1eef7}
-The archive’s nonzero food weights are mammals and birds 100%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-cddbc1eef7}
+EltonTraits 1.0 assigns relative diet weights of mammals and birds 100%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-f23b56e998}
-Foraging-stratum weights flagged as species-level in the archive are ground 70%; understory, edges or shrubs below 2 m 10%; trees or high bushes from 2 m upward but below the canopy 10%; air well above vegetation or other structures 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-f23b56e998}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 70%; in the understory 10%; in mid-height or high vegetation 10%; in the air 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-eb158a3f60}
-The used groups carry labels Ref_2. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-eb158a3f60}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-5d87965437}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

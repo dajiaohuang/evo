@@ -1,4 +1,6 @@
-## 这里有哪些 Cerastes 性状记录？ {#s-6bb5595e06}
+## 记录分类与直接上级关系 {#s-6bb5595e06}
+COL26.8 将 Cerastes 记录为属；其直接上级记录为 Viperinae。
+
 固定版 COL26.8 将 Cerastes 归入 Viperidae。ReptTraits v1-2 在该属下收有 3 条同名同科的物种记录：Cerastes cerastes、C. gasperettii 和 C. vipera。工作簿沿用其 2023 年名称框架；这 3 条记录只说明本组资料覆盖，不是该属接受种总数。
 
 ## 已报道的体长测量什么？ {#s-8d03678a75}

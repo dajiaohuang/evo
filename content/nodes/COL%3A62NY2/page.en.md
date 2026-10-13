@@ -1,9 +1,11 @@
-## Local data reading route {#s-b7c267a4eb}
+## Recorded classification and direct parent {#s-b7c267a4eb}
+COL26.8 records Coryphaspiza at genus rank, with Thraupidae as its direct parent.
+
 This batch’s Coryphaspiza route includes 1 measured species records. Start with Coryphaspiza melanotis. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-4e7e21ffef}
 Compiled mean mass endpoints in this batch are Coryphaspiza melanotis at 15.7 g and Coryphaspiza melanotis at 15.7 g. Represented habitat categories include Grassland; trophic niches include Omnivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Evidence limits {#s-3477dfda7b}
+## Limits attached to these records {#s-3477dfda7b}
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
 

@@ -1,4 +1,6 @@
 ## 概览 {#s-aa15065dd8}
+COL26.8 将 Galagoides A. Smith, 1833 记录为属；其直接上级记录为 Galagidae Gray, 1825。
+
 COL26.8 的固定灵长类名录在 Galagoides 下列出 demidoff、kumbirensis 与 thomasi 三个接受种。这里按对应 COL ID 组织入口；属名和成员表是固定版本的导航口径，不裁决更广泛的婴猴分类方案。
 
 ## 按研究问题选择阅读路径 {#s-1bf8bb2acc}

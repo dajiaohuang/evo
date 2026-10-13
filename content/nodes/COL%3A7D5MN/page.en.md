@@ -1,15 +1,15 @@
-## The species record {#s-516b10fd51}
-COL26.8 places *Trimeresurus nebularis* in Viperidae. Its ReptTraits v1-2 species row uses the Reptile Database 2023 name framework and gives individual sources for its traits. The row brings together reports rather than describing a uniform condition across all populations.
+## COL26.8 name and the ReptTraits row {#s-516b10fd51}
+COL26.8 records Trimeresurus nebularis as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What the length measures {#s-9fff4b257f}
-The reported maximum total length (TL) is 1,002 mm. Total length includes the tail; snout–vent length (SVL) runs from the snout to the vent. This is the largest value in the cited records, not a growth limit or typical individual size. Values for different sexes may come from different places or studies, so they do not by themselves measure sexual dimorphism within a population.
+## Length values in the archived records {#s-9fff4b257f}
+The row reports maximum total length (TL) of 1002 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Activity and feeding records {#s-bad6f34ccd}
-The row records an Arboreal microhabitat, a Carnivorous diet and Nocturnal activity. These are broad categories, not a complete habitat list or fixed daily schedule. The diet label does not identify prey, and reports may differ among populations, seasons or life stages.
+## Habitat use and activity labels {#s-bad6f34ccd}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018.
 
-## The reproductive-mode label {#s-994fa11bcb}
-The cited reproductive-mode field is labelled viviparous, or live-bearing. This entry supplies no litter-size summary alongside that label, so it does not establish a typical count, fetal nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-994fa11bcb}
+The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## How far the record reaches {#s-c78b969c5f}
-The row combines reports that may differ by sex, age, locality and population. Its Reptile Database 2023 name framework does not by itself prove equivalence to the COL26.8 concept. The reported maximum is not an absolute species limit. Mass values in the dataset may be estimated from length equations, and differing juvenile-length definitions are not used here as measurements. This record does not update venom, conservation status, current distribution or population trends. Its source labels preserve the citation chain but do not mean that every underlying work was independently checked for this account.
+## Reading this compiled trait record {#s-c78b969c5f}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

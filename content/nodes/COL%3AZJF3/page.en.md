@@ -1,5 +1,5 @@
-## Find historical rows through older Serinus combinations {#s-07e6ef1e96}
-Pinned COL26.8 organizes this page at Crithagra rothschildi (ZJF3). BirdLife 2020 row 4037 and eBird 2021 row 2931 share the name and Avibase ID AVIBASE-C121E620, with type 1BL to 1eBird; BirdTree row 2915 gives Serinus rothschildi, with type 1BL to 1BT. Read catalogue synonym 4WV7N points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-07e6ef1e96}
+Catalogue of Life release COL26.8 records Crithagra rothschildi (Ogilvie-Grant, 1902) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-ba2f19f0f6}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8 mm, tarsus 15.1 mm, unflattened wing 64.8 mm, tail 50.3 mm and hand-wing index 16.1 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

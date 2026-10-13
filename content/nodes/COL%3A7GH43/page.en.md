@@ -1,30 +1,30 @@
-## Feeding height in the EltonTraits record {#s-8c66d50272}
-COL26.8 places *Zosterops kuehni* in Zosteropidae. An older same-name, same-family record in EltonTraits 1.0 provides a foraging-height estimate. The archive follows earlier bird taxonomy; matching names link the records but do not settle later species splits or synonymy.
+## Scope of the historical trait entry {#s-8c66d50272}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops kuehni covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-33e6e2d7a2}
-The archive labels this estimate as species-level: 70% of foraging is assigned to the canopy or just above it, and 30% to trees or tall bushes from 2 m up to the canopy. These percentages describe relative use of feeding positions in the source account. They do not locate nests, measure the whole day, or describe all habitat. The categories are not elevation bands and cannot be used to infer flight height or habitat area.
+## Foraging positions are not a time budget {#s-33e6e2d7a2}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 30%; in the canopy 70%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-cc65500fb8}
-The archive links this foraging estimate to reference label Ref_41. EltonTraits keeps separate source tables for birds and mammals, so a repeated number in those tables would not identify the same work. The reference label and original row are retained in the source record; the cited underlying work has not been independently checked here, and the label is not a second observation.
+## Sources and field limits {#s-cc65500fb8}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Coates, B. J., K. David, and D. Gardner. 1997. A guide to the birds of Wallacea: Sulawesi, the Moluccas, and Lesser Sunda Islands, Indonesia. Dove Publications.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-2c22809aef}
 The foraging-height estimate is the only EltonTraits field group interpreted here. The record withholds diet under code D1 because of uncertainty, interpolation or source-link limitations; those underlying values are not used to fill in a diet for this species. EltonTraits percentages are standardized from literature descriptions, not direct measurements of intake or time budgets. The archive’s matching name and family do not prove equivalence between its older species concept and COL26.8. The cited literature has not been individually reread, and local, seasonal and individual variation, current distribution, population size and conservation status are outside this account.
 
-## A second historical ecology record {#s-e77328f4c6}
-AVONET v7 also contains a same-name, same-family record for *Z. kuehni*, here linked to the COL26.8 entry. The AVONET name belongs to the older HBW–BirdLife taxonomy; the name match and crosswalks do not demonstrate that the two taxonomies define the same species after later splits or lumps.
+## A historical ecology record {#s-e77328f4c6}
+AVONET v7 links Zosterops kuehni with the historical BirdLife name Zosterops kuehni. This ecology-only row covers broad habitat, feeding, lifestyle and migration categories; the specific fields follow. Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Habitat, feeding and activity position {#s-b5005cfd8b}
-AVONET describes the habitat as tall-tree vegetation with a relatively closed canopy. It records feeding across multiple food niches and a primary lifestyle of perching above ground on vegetation, rocks or other supports. These categories do not specify the same resources or proportions in every season, region or individual; they summarize the source record rather than replace local habitat or feeding observations.
+## Recorded habitat and feeding categories {#s-b5005cfd8b}
+The ecology-only AVONET row classifies Zosterops kuehni as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## The scope of the migration category {#s-db13e3b5a4}
-The migration field is coded as sedentary. The table does not list regional seasonal movements, routes or distances, so the category should not be read as a complete movement history for every population.
+## The migration label has a limited scope {#s-db13e3b5a4}
+Migration code 1 classifies the record as sedentary. This category does not describe the full timing or route of every seasonal movement.
 
-## Latitude in historical breeding and resident maps {#s-950fd2f668}
-The historical breeding and resident maps span latitude endpoints from −3.8° to −3.5°. The worksheet attributes these limits to BirdLife/HBW 2019.1 maps accessed on 27 March 2020. They mark a mapped range, not a list of verified localities or continuous occupancy, and do not include the full non-breeding movements or define the current range.
+## Mapped range is not a locality list {#s-950fd2f668}
+Historical breeding and resident maps span latitude endpoints -3.8° to -3.5°. The mapped range area is 794.7 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## What still needs other sources {#s-c3fa5040b0}
-All four ecological categories have entries, but they provide only a broad historical profile. The AVONET source does not flag biometric inference; its mass value comes from an EltonTraits mass–length model. This account does not interpret body measurements or mass as observations of *Z. kuehni*. It also lacks sources for reproduction, growth and conservation status; those gaps do not imply absence of the traits.
+## Fields outside this ecology-only view {#s-c3fa5040b0}
+Morphometric and body-mass values are outside this AVONET ecology-only account's scope; their absence here does not assert that the source record lacks them. Its migration code and breeding/resident maps also do not provide a current locality or a complete account of non-breeding movements.
 
-## Limits of these historical data {#s-cdb724b42f}
-Together, the two datasets offer historical ecology and mapped range summaries, not a full species account. AVONET uses HBW–BirdLife 5.0 names from December 2020; same-name, same-family records and BirdLife/eBird/BirdTree crosswalks support an association but cannot establish concept equivalence with COL26.8. AVONET categories were compiled from literature that has not been reread here. The historical maps cover breeding and resident ranges only. Morphology and mass remain uninterpreted, and neither dataset provides current occupancy, population or conservation assessments.
+## Limits of this historical ecology record {#s-cdb724b42f}
+The AVONET row uses a historical BirdLife name and broad ecology fields. Those fields remain attached to their source record; the historical name does not settle later COL26.8 splits, lumps or synonymy. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 

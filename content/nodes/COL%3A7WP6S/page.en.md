@@ -1,5 +1,5 @@
-## Tracing the historical genus name {#s-0b5f160f7f}
-Pinned COL26.8 places this page at Psilopogon zeylanicus (7WP6S). AVONET v7 BirdLife 2020 row 9707 and eBird 2021 row 8674 use the same name and Avibase ID AVIBASE-15471F21; BirdTree row 8629 gives Megalaima zeylanica, with match type 1BL to 1BT. Read COL older-combination record 7VSWH points to this accepted ID. These associations locate historical data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-0b5f160f7f}
+Catalogue of Life release COL26.8 records Psilopogon zeylanicus (J. F. Gmelin, 1788) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and beak/wing averages {#s-5953ebd683}
 Morphology covers 5 birds: 2 female, 3 male and 0 unsexed; 4 have complete measurement sets. Mean nostril-to-tip beak length is 25.5 mm, beak width 12.2 mm, tarsus 28.5 mm, unflattened wing 108.8 mm and hand-wing index 18. Inference=NO does not establish an identical count for every field; complete-set birds and total samples remain separate. The index is Kipp’s distance/wing length ×100, not flight speed, and beak width is not a test of fruit swallowing or pecking performance.

@@ -1,15 +1,15 @@
-## A 140 mm maximum and a fuller reproductive entry {#s-103a6d045b}
-COL26.8 accepts Aspidoscelis stictogrammus in Teiidae. The ReptTraits row records a 140 mm maximum, terrestrial daytime activity, active foraging and an egg-laying mode. Its clutch summary also includes a yearly frequency estimate, making the aggregation method important to interpretation.
+## COL26.8 name and the ReptTraits row {#s-103a6d045b}
+COL26.8 records Aspidoscelis stictogrammus as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The 140 mm maximum excludes the tail {#s-1a635c6c7e}
-The reported maximum snout–vent length is 140 mm. This measure ends at the body opening rather than the tail tip and is not total length. It is a compiled reported maximum, not an average or a growth ceiling for every animal.
+## Length values in the archived records {#s-1a635c6c7e}
+The row reports a maximum SVL of 140 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Active daytime foraging on land {#s-e17c5f0213}
-The row labels the microhabitat terrestrial, the diet carnivorous, the active period diurnal and foraging mode active. These broad categories suggest a land-based daytime search for food but do not identify prey or specify how behavior varies through the year.
+## Habitat use and activity labels {#s-e17c5f0213}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Meiri 2018.
 
-## Clutch and yearly summaries describe different quantities {#s-b03453c0da}
-The reproductive mode is oviparous. The consolidated clutch/litter field is 6.5, with reported means from 3 to 10; the separate annual field is 1.5 clutches per year. Decimal values summarize records and do not mean fractional eggs or half a clutch in a particular year. Endpoints are not necessarily actual clutch extremes.
+## Reproductive fields in ReptTraits {#s-b03453c0da}
+The compiled mean for offspring per litter or eggs per clutch is 6.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 3; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 10; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The row reports 1.5 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Read the historical row within its scope {#s-325cb1dce1}
-ReptTraits preserves a 2023 name framework, while COL26.8 provides this page’s accepted placement. One-row summaries compress population, age and sex differences and matching names do not prove concept identity. This page does not update distribution or conservation status.
+## Reading this compiled trait record {#s-325cb1dce1}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

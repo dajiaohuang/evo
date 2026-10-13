@@ -1,41 +1,41 @@
-## Name, classification and sample {#s-b2b32c5b05}
-COL26.8 accepts Indicator indicator in Indicatoridae. AVONET v7 uses its HBW–BirdLife 2020 name: 10 individuals were measured, with a complete morphological set for 4. Trait-specific sample counts can differ.
+## Row-reported mean and sample coverage {#s-b2b32c5b05}
+The AVONET v7 row for Indicator indicator (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 8.3 mm. The row records 10 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions {#s-55d67b5188}
-The mean beak measurements are 8.3 mm from the anterior nostril edge to the tip, 4.9 mm wide and 5.6 mm deep at that edge. Each describes a different standardized dimension; none is a field-identification threshold.
+## Beak measurements at defined landmarks {#s-55d67b5188}
+AVONET records culmen length (bill tip to skull base) 17.6 mm; beak length (nostril front edge to tip) 8.3 mm; beak width at the nostril front edge 4.9 mm; beak depth at the nostril front edge 5.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-df6c173e72}
-Mean unflattened wing length from carpal joint to longest primary is 108.5 mm; mean tarsus is 16.3 mm. Dunning is the source category for the separate compiled mean mass of 50.4 g, not evidence that AVONET specimens were weighed.
+## Wing and body measures use separate sources {#s-df6c173e72}
+AVONET records unflattened wing length 108.5 mm; tarsus length 16.3 mm; distance from first secondary tip to longest primary tip 28.1 mm; length to first secondary tip 81 mm; hand-wing index 25.7; tail length 70.1 mm; species-average body mass 50.4 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Ecological categories {#s-1a3b240390}
-The dataset labels habitat Shrubland, trophic niche Invertivore and lifestyle Insessorial. They are broad comparison categories, not exclusive habitat, prey or activity claims.
+## Recorded habitat and feeding categories {#s-1a3b240390}
+AVONET classifies Indicator indicator as habitat Shrubland (low, bush-dominated vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and mapped range {#s-3c2e08c607}
-The migration field is sedentary. Historical breeding and resident maps span latitude endpoints -34.84° and 16.9°. The endpoints do not cover all non-breeding movements or estimate present position or global occupancy; map and morphology were compiled separately.
+## Mapped range is not a locality list {#s-3c2e08c607}
+Historical breeding and resident maps span latitude endpoints -34.84° to 16.9°. The mapped range area is 11206655.87 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## The 2015 life-history entry {#s-1c421a1f04}
-Pinned COL26.8 places Indicator indicator in Indicatoridae. The historical 2015 account contributes 3 focal fields supported by cited species-level sparse rows that match name and family. The compilation may retain inherited historical taxonomy; matching rows do not remove it.
+## Scope of the historical life-history entry {#s-1c421a1f04}
+The August 2015 database has a same-name, same-family record for Indicator indicator. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass in the historical compilation {#s-c8ae422208}
-The 2015 archive reports adult body mass of 51.4 g. Adult entries can combine males, females and sex-unspecified records, so the summary is not a species-wide range of individual masses. Birth or hatching mass is not added here.
+## Compiled adult-mass values {#s-c8ae422208}
+The August 2015 compilation reports adult body mass 51.4 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Clutch and flight timing {#s-1040817cbb}
-The available compilation fields are 4 offspring/eggs per litter or clutch and 40 d for age at flight capability; some source material describes leaving the nest. d means days. The litter/clutch summary combines unlike counts, so a fractional average would not mean a fractional animal; the timing fields refer to different events.
+## Reproductive fields describe different events {#s-1040817cbb}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 4; age at flight capability (some records mark nest departure) 40 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## Source trail {#s-18ae546d91}
-Same-name sparse rows cite Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Boback and Guyer, 2003; and Bennett, 1986. The batch archive retains field-level row numbers, values and labels with complete reference explanations. A label can point to a paper, book or database; row counts are not specimen counts, and repeated citations are not independent replications.
+## Sources and field limits {#s-18ae546d91}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Two EltonTraits field groups {#s-313a4ed917}
-A same-name, same-family EltonTraits 1.0 record is associated with Indicator indicator under pinned COL26.8. Two supported ecological field groups are interpreted here. Earlier bird taxonomy and MSW3 mammal taxonomy do not resolve modern splits or synonyms.
+## Scope of the historical trait entry {#s-313a4ed917}
+EltonTraits 1.0 has a same-name, same-family record for Indicator indicator covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative food weights {#s-7d2ff14f12}
-Nonzero weights are nectar, pollen and plant exudates 60%, invertebrates 20% and fruit 20%. Code A indicates high compiler confidence in the source and diet information. These are standardized readings of descriptions, not measured diet shares; zero does not show that a category is never eaten. Nect, Seed and PlantO are broader source categories than their ordinary labels.
+## Relative weights across food categories {#s-7d2ff14f12}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; fruit 20%; nectar 60%. Its dominant five-category label is FruiNect. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Feeding positions {#s-ac292cca9d}
-Species-level strata weights are understory, edges or shrubs below 2 m 50%, and trees or high bushes from 2 m upward but below the canopy 50%. They estimate feeding-position use, not nests, all habitat or a full-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have distinct source definitions; they do not measure elevation, flight height or habitat area.
+## Foraging positions are not a time budget {#s-ac292cca9d}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 50%; in mid-height or high vegetation 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Source labels by field group {#s-8993a3d186}
-The selected groups carry Ref_7. Diet, strata and activity can draw on different material; the same Ref number in bird and mammal tables does not identify one shared source. Original strings are preserved by file, row, group and reference table. Underlying books and papers were not individually read; labels are not new observations.
+## Sources and field limits {#s-8993a3d186}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-b1eb35151c}
 AVONET v7 values are historical species averages for the stated samples, not individual ranges or identification criteria. The Dunning mass estimate has a separate denominator. Habitat, diet and migration are broad categories; mapped latitudes refer only to historical breeding and resident ranges. Name matches and crosswalks link records without proving equivalence to COL26.8. Reproduction, current populations and conservation need other sources.

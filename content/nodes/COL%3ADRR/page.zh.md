@@ -1,4 +1,4 @@
-## 从已有历史条目开始 {#s-b82387eac9}
+## 记录分类与成员材料 {#s-b82387eac9}
 Otariidae 的本地 PanTHERIA 路径包括 9 条可用数据导读，可从 Callorhinus ursinus、Eumetopias jubatus、Neophoca cinerea、Phocarctos hookeri、Arctocephalus forsteri 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-66004a8403}
@@ -20,7 +20,7 @@ Otariidae 的本批路线包含 3 个历史条目，可从 Phocarctos hookeri、
 本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
 ## 沿生活史资料阅读 {#s-51103f51d4}
-Otariidae 本批有 8 个历史生活史资料页，可从 [Arctocephalus galapagoensis](Arctocephalus/Arctocephalus_galapagoensis/page.zh.md)、[Arctocephalus tropicalis](Arctocephalus/Arctocephalus_tropicalis/page.zh.md)、[Arctocephalus forsteri](Arctocephalus/Arctocephalus_forsteri/page.zh.md)、[Arctocephalus gazella](Arctocephalus/Arctocephalus_gazella/page.zh.md)、[Arctocephalus pusillus](Arctocephalus/Arctocephalus_pusillus/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Otariidae 本批有 8 个历史生活史资料页，可从 Arctocephalus galapagoensis、Arctocephalus tropicalis、Arctocephalus forsteri、Arctocephalus gazella、Arctocephalus pusillus 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-4162f692e9}
 本批妊娠资料见 8 页，雌性首次繁殖年龄见 6 页，最高寿命记录见 6 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

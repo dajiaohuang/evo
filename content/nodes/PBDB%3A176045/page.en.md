@@ -1,19 +1,33 @@
 ## Which fossil records this name represents {#s-69e30d0dfb}
 Omphalosaurus nettarhynchus is accepted in the fixed PBDB ichthyosauriformes working roster, with database parent Omphalosaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-d11cf5b586}
-Collection Humboldt Range area (Nevada), region code US, stratum name Prida; database age bracket 248.6–247 Ma, early interval Spathian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Omphalosaurus nettarhynchus is listed in the PBDB snapshot under taxon txn:176045. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-5e797cfd07}
-Selected occurrences have an outer age envelope of 248.6–247 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Humboldt Range area, occurrence occ:1419019 (248.6–247 Ma); one supplying the younger bound is Humboldt Range area, occurrence occ:1419019 (248.6–247 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-d11cf5b586}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-be1dca539c}
-Humboldt Range area has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1419019; PBDB collection col:196634. Locality cnm=Humboldt Range area; place fields cc2=US, stp=Nevada. Recorded age bounds: eag 248.6 Ma; lag 247 Ma; PBDB interval fields oei=Spathian. Stratigraphic fields sfm=Prida. Recorded attribution Mazin and Bucher 1987; PBDB reference ref:66896.
 
-## Follow collection records back to references {#s-4e256df921}
-Humboldt Range area carries database reference attribution Mazin and Bucher (1987), identifier ref:66896. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Exact location information inaccessible
+
+## Age bounds on the recorded occurrences {#s-5e797cfd07}
+Across these selected PBDB rows, the largest recorded eag=248.6 Ma in occ:1419019; the smallest recorded lag=247 Ma in occ:1419019. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-be1dca539c}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1419019: PBDB original-identification field idn=Omphalosaurus nettarhynchus n. sp.; PBDB taxon-name field tna=Omphalosaurus nettarhynchus; material note ocm=MGL 45452, tooth-bearing mandibular symphysis; PBDB locality-coordinate fields lng=-118.126663, lat=40.508610; paleocoordinate/model fields pm1=gplates, pln=-37.57, pla=25.9.
+
+## References attached to each record {#s-4e256df921}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1419019: Recorded attribution Mazin and Bucher 1987; PBDB reference ref:66896.
 
 ## Evidence limits {#s-8db75d4d69}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 182-item ichthyosauriformes working roster, retain the current same name and a complete parent chain to the recorded Ichthyosauriformes storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,19 +1,36 @@
 ## Which fossil records this name represents {#s-6fc907fb18}
 Maiaspondylus lindoei is accepted in the fixed PBDB ichthyosauriformes working roster, with database parent Maiaspondylus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-9d21fe4ee0}
-Collection Hay River (Northwest Territories), region code CA, stratum name Loon River; database age bracket 110.1–106.3 Ma, early interval Middle Albian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Maiaspondylus lindoei is listed in the PBDB snapshot under taxon txn:176522. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-f635e5e602}
-Selected occurrences have an outer age envelope of 110.1–106.3 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Hay River, occurrence occ:915715 (110.1–106.3 Ma); one supplying the younger bound is Hay River, occurrence occ:915715 (110.1–106.3 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-9d21fe4ee0}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-edda4b7548}
-Hay River has collection-environment label marine indet.; collection preservation-mode label body,adpression. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:915715; PBDB collection col:94490. Locality cnm=Hay River; place fields cc2=CA, stp=Northwest Territories. Recorded age bounds: eag 110.1 Ma; lag 106.3 Ma; PBDB interval fields oei=Middle Albian. Stratigraphic fields sfm=Loon River. Recorded attribution Maxwell and Caldwell 2006; PBDB reference ref:35064.
 
-## Follow collection records back to references {#s-b72d626264}
-Hay River carries database reference attribution Maxwell and Caldwell (2006), identifier ref:35064. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"New biostratigraphic data and correlation with the Spirit River Formation indicate that the lower Loon River Formation is of Early to Middle Albian age. In contrast, the Peace River-upper Loon River interval is thicker to the north. Initial mapping of discontinuities within the upper Loon River Formation indicates that it may consist of a series of northward offlapping sedimentary wedges. New U-Pb and 40Ar/39Ar ages for two bentonite beds, age-diagnostic dinocysts, and foraminifera of the Haplophragmoides multiplum Subzone indicate a Middle Albian age for the basal part of the upper Loon River Formation and confirm wireline-log correlation with the basal Harmon Member of the Peace River Formation to the south. The age of the uppermost part of the upper Loon River Formation is less certain. Foraminifera indicative of the Late Albian Miliammina manitobensis Zone and Late Albian dinocysts in samples from the overlying Shaftesbury Formation provide an upper age limit, and these strata may be as young as Upper Albian." (Hathway et al., 2013). Based on the location of the collection relative to the mapped area of the formation, it likely comes from the middle part of the upper Loon River Formation.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"from an outcrop" at "60º01' N, 116º57' W"
+
+## Age bounds on the recorded occurrences {#s-f635e5e602}
+Across these selected PBDB rows, the largest recorded eag=110.1 Ma in occ:915715; the smallest recorded lag=106.3 Ma in occ:915715. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-edda4b7548}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:915715: PBDB original-identification field idn=Maiaspondylus lindoei n. gen. n. sp.; PBDB taxon-name field tna=Maiaspondylus lindoei; material note ocm=UALVP 45635 and 45639–45643; possibly the name ascribed to the 'Ophthalmosauria indet.' above; abundance fields abv=6, abu=individuals; PBDB locality-coordinate fields lng=-116.949997, lat=60.016666; paleocoordinate/model fields pm1=gplates, pln=-61.84, pla=67.92.
+
+## References attached to each record {#s-b72d626264}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:915715: Recorded attribution Maxwell and Caldwell 2006; PBDB reference ref:35064.
 
 ## Evidence limits {#s-ce625e68fe}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 182-item ichthyosauriformes working roster, retain the current same name and a complete parent chain to the recorded Ichthyosauriformes storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

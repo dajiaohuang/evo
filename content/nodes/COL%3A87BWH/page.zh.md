@@ -13,7 +13,7 @@ Chelonioidea 的本批路线包含 7 条历史生活史导读，可从 Caretta c
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
-## 从有性状记录的物种开始 {#s-135d0e9a52}
+## 记录分类与成员材料 {#s-135d0e9a52}
 Chelonioidea 的本批 ReptTraits 阅读路径包含 7 条同名同科、有逐性状出处的物种资料，可从 Caretta caretta、Chelonia mydas、Dermochelys coriacea、Eretmochelys imbricata、Lepidochelys kempii 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-15351cec20}

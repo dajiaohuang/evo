@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:titanosauria
       claimKind: scientific
       claimType: topology
-      statement: Titanosauria is represented by the Patagotitan specimen set and its sampled sauropod matrix placement; the result constrains that taxon and a body-mass analysis, not the complete clade range, origin or ancestor chain.
+      statement:
+        page: en
+        section: patagotitan-sample
+        part: body
       confidence: medium
       confidenceRationale: The specimens, geochronology and matrix are direct, but broader body-mass evolution and placement depend on comparative models and sampling.
       referenceLinks:
@@ -27,7 +30,10 @@ records:
     - subjectId: taxon:titanosauria
       claimKind: scientific
       claimType: fossil-range
-      statement: Titanosauria is displayed at 101.8–101.4 Ma only as the directly dated Patagotitan quarry window, not the first or last appearance of Titanosauria. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      statement:
+        page: en
+        section: quarry-window
+        part: body
       confidence: medium
       confidenceRationale: Titanosauria uses Carballido, J.L.; Pol, D.; Otero, A.; Cerda, I.A.; Salgado, L.; Garrido, A.C.; Ramezani, J.; Cúneo, N.R.; Krause, J.M. (2017) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Cerro Barcino Formation Patagotitan quarry, Patagonia; broader endpoints remain unclaimed.
       referenceLinks:
@@ -45,8 +51,12 @@ records:
     - 标本、地质年代和矩阵是直接证据，但更广的体重演化及位置依赖比较模型和取样。
     - Titanosauria 采用 Carballido, J.L.; Pol, D.; Otero, A.; Cerda, I.A.; Salgado, L.; Garrido, A.C.; Ramezani, J.; Cúneo, N.R.; Krause, J.M.（2017）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Cerro Barcino Formation Patagotitan quarry, Patagonia；更宽泛端点保持未声明。
   claim-statements.zh:
-    - 泰坦巨龙类由巴塔哥巨龙标本集合及其在取样蜥脚类矩阵中的位置表示；结果约束该类群和体重分析，而非完整支系范围、起源或祖先链。
-    - Titanosauria 仅以 101.8–101.4 Ma 展示为直接测年的 Patagotitan 采石场窗口，而非泰坦巨龙类首现或末现。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - page: zh
+      section: patagotitan-sample
+      part: body
+    - page: zh
+      section: quarry-window
+      part: body
   ranges:
     - entityId: titanosauria
       rangeKind: global-composite

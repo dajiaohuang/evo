@@ -1,10 +1,12 @@
-## 从 Zentrygon 分开完整数与性别覆盖 {#s-c3962af8d4}
+## 记录分类与直接上级关系 {#s-c3962af8d4}
+COL26.8 将 Columbinae 记录为亚科；其直接上级记录为 Columbidae。
+
 另增八条 Zentrygon 历史形态与生态导读；旧 Geotrygon 组合在已读分片均有异名对应。frenata十五只完整四只、lawrencii四只完整但无已定雄鸟、carrikeri两只全雄分别保留；文献体重不与形态分母混合。既有测量／生活史／食性层位／单字段／生态入口分别为77／31／81与14／11条资料，不相加作去重接受种数。
 
 ## 沿旧名、性别与食性字段对读 {#s-ef45a6edc1}
-从 [Zentrygon](Zentrygon/page.zh.md) 两组入口，先比较 frenata、lawrencii、carrikeri 的完整数和性别覆盖，再对读 goldmani／linearis 的 Granivore 生态位与其余六条 Omnivore，共同 Herbivore 营养级另读。旧 Geotrygon 名称支持查资料，不补统一食谱、繁殖、当前地图或Columbinae完整自然史。
+从 Zentrygon 两组入口，先比较 frenata、lawrencii、carrikeri 的完整数和性别覆盖，再对读 goldmani／linearis 的 Granivore 生态位与其余六条 Omnivore，共同 Herbivore 营养级另读。旧 Geotrygon 名称支持查资料，不补统一食谱、繁殖、当前地图或Columbinae完整自然史。
 
-## 本地数据阅读路径 {#s-e610b28082}
+## 记录分类与成员材料 {#s-e610b28082}
 Columbinae 的本批阅读路径包含 77 条有测量来源的物种记录，可从 Columba albinucha、Columba albitorques、Columba arquatrix、Columba delegorguei、Columba elphinstonii 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-1184eb5d65}
@@ -21,13 +23,13 @@ Columbinae 的本批路线包含 14 个历史条目，可从 Patagioenas specios
 
 ## 证据边界 {#s-88daeae6df}
 本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
-本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
+本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
 另增八条 Zentrygon 历史导读：旧名、性别覆盖与完整测量、独立文献体重和食性字段分开；不计完整接受后代。
 
-## 从有限生态资料开始 {#s-6196ad1d42}
-Columbinae 本批有 11 个有限生态资料页，可从 [Columba argentina](Columba/Columba_argentina/page.zh.md)、[Columba bollii](Columba/Columba_bollii/page.zh.md)、[Columba hodgsonii](Columba/Columba_hodgsonii/page.zh.md)、[Columba junoniae](Columba/Columba_junoniae/page.zh.md)、[Columba malherbii](Columba/Columba_malherbii/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-6196ad1d42}
+Columbinae 本批有 11 个有限生态资料页，可从 Columba argentina、Columba bollii、Columba hodgsonii、Columba junoniae、Columba malherbii 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-b32fdec015}
 栖地类别见 11 页，取食生态位见 11 页，主导活动方式见 11 页，迁移类别见 11 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

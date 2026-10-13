@@ -1,29 +1,29 @@
-## The name and this data account {#s-eb3d63a642}
-COL26.8 accepts *Andigena nigrirostris* in Ramphastidae. AVONET v7 uses the HBW–BirdLife 2020 name and records 12 measured individuals, of which 4 have a complete morphological set. The number contributing to a particular trait may differ.
+## Row-reported mean and sample coverage {#s-eb3d63a642}
+The AVONET v7 row for Andigena nigrirostris (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 80.7 mm. The row records 12 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-1b8676b5fb}
-At standardized landmarks, mean beak length from the anterior edge of the nostril to the tip is 80.7 mm. At that edge, mean width is 27.7 mm and depth is 30.9 mm. These are separate dimensions, not thresholds for identifying a bird in the field.
+## Beak measurements at defined landmarks {#s-1b8676b5fb}
+AVONET records culmen length (bill tip to skull base) 88.5 mm; beak length (nostril front edge to tip) 80.7 mm; beak width at the nostril front edge 27.7 mm; beak depth at the nostril front edge 30.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-d116a1c376}
-Mean unflattened wing length—from carpal joint to longest primary—is 167.3 mm, and mean tarsus length is 40.1 mm. A separate compilation reports mean mass of 350 g (source category Dunning). That species-average mass does not mean the morphological specimens were each weighed.
+## Wing and body measures use separate sources {#s-d116a1c376}
+AVONET records unflattened wing length 167.3 mm; tarsus length 40.1 mm; distance from first secondary tip to longest primary tip 19.4 mm; length to first secondary tip 142.4 mm; hand-wing index 12; tail length 185.3 mm; species-average body mass 350 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-1f9e8dbc43}
-The dataset's dominant labels are Forest habitat, Frugivore trophic niche and Insessorial lifestyle. They support comparison among species, but do not mean the bird uses only forest or eats only fruit.
+## Recorded habitat and feeding categories {#s-1f9e8dbc43}
+AVONET classifies Andigena nigrirostris as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Frugivore (source threshold at least 60% from fruit); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-d16a462e87}
-The migration field labels the record sedentary. Historical breeding and resident maps span latitude endpoints −5.08° and 9.73°. They do not show every non-breeding movement or establish a current position or global occupancy. The geography and morphology were compiled separately.
+## The migration label has a limited scope {#s-d16a462e87}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -5.08° to 9.73°. The mapped range area is 110031.99 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-ca6b07762c}
-EltonTraits 1.0 contains an older *Andigena nigrirostris* record in the same family. Its two selected ecological groups provide a historical comparison with the accepted COL26.8 entry. The source follows earlier bird or MSW3 mammal taxonomy; the shared name does not resolve later splits or synonymies.
+## Scope of the historical trait entry {#s-ca6b07762c}
+EltonTraits 1.0 has a same-name, same-family record for Andigena nigrirostris covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-3e9c730767}
-The nonzero food weights are fruit 50%, a combined seeds, nuts and spores category 30%, and invertebrates 20%. Code A indicates high compiler confidence in the source and diet information. The percentages standardize written descriptions rather than measure diet directly; zero does not prove a food is never eaten. Nect, Seed and PlantO are wider source categories than their everyday names and do not imply exclusive feeding on nectar, seeds or plants.
+## Relative weights across food categories {#s-3e9c730767}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; fruit 50%; seeds or nuts 30%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-6e859dfdf7}
-The archive marks its feeding-position weights as species-level: 80% within or just above the canopy and 20% in trees or tall bushes from 2 m upward but below it. These estimate relative position use while feeding, not nest sites, all habitat or time over an entire day. Surface-water, understory, mid/high, canopy and aerial positions have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-6e859dfdf7}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 20%; in the canopy 80%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-2366604140}
-The selected groups carry the label Ref_7. Diet, feeding position and activity may rely on different material, and Ref_7 in a bird table is not necessarily the same work as Ref_7 in a mammal table. The archive retains each complete source string with its file, row, field group and reference table. The underlying books and papers have not been read individually; labels do not add independent observations.
+## Sources and field limits {#s-2366604140}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-fcf17f1228}
 AVONET v7 summarizes historical data rather than a complete species account. Its morphological figures are sample averages, not identification diagnoses or individual-variation ranges. Mass comes from separately cited literature or weighing sources, so the morphology sample counts cannot be applied to it. Habitat, diet and migration are broad categories, and the geography covers historical breeding and resident ranges only. A one-to-one crosswalk with an older name plus the catalogue match supports the association here; it does not prove species concepts remained equivalent after later splits or lumps. Reproduction, current populations and conservation require other sources.

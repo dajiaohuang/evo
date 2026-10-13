@@ -1,44 +1,44 @@
-## The name and this data account {#s-8db05218b6}
-Amazona albifrons is an accepted Psittacidae species in COL26.8. AVONET v7 records 12 measured birds under the HBW–BirdLife 2020 name; 4 have a complete morphological set. Usable counts can vary across traits.
+## Row-reported mean and sample coverage {#s-8db05218b6}
+The AVONET v7 row for Amazona albifrons (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 25.9 mm. The row records 12 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-7f69728f63}
-Mean beak length is 25.9 mm from the front edge of the nostril to the tip. At that edge, mean width is 14.8 mm and depth is 25.2 mm. These are separate measurements at defined landmarks, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-7f69728f63}
+AVONET records culmen length (bill tip to skull base) 30.2 mm; beak length (nostril front edge to tip) 25.9 mm; beak width at the nostril front edge 14.8 mm; beak depth at the nostril front edge 25.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-66a7fc5920}
-Mean unflattened wing length from carpal joint to longest primary is 169.4 mm; mean tarsus length is 18 mm. A separate compilation gives mean mass as 206 g (Dunning category); it does not show that all measured birds were weighed.
+## Wing and body measures use separate sources {#s-66a7fc5920}
+AVONET records unflattened wing length 169.4 mm; tarsus length 18 mm; distance from first secondary tip to longest primary tip 59.5 mm; length to first secondary tip 117 mm; hand-wing index 33.7; tail length 80.6 mm; species-average body mass 206 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-911562f811}
-AVONET assigns Woodland habitat, Omnivore trophic niche and Insessorial lifestyle. These broad comparison labels do not mean that the species uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-911562f811}
+AVONET classifies Amazona albifrons as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-b959a6d96c}
-The migration field classifies this record as sedentary. Historical breeding and resident maps reach latitude endpoints of 9.55° and 27.8°. They do not cover all non-breeding movements or estimate current global occupancy. These maps and the morphology data come from separate compilation steps.
+## The migration label has a limited scope {#s-b959a6d96c}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 9.55° to 27.8°. The mapped range area is 544425.16 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-ccd9242303}
-In pinned COL26.8, Amazona albifrons is accepted within Psittacidae. The three life-history fields below come from a historical record with the same name and family, supported by cited species-level rows. Older taxonomic groupings may have passed information into the compilation, so a matching name does not rule out inherited data.
+## Scope of the historical life-history entry {#s-ccd9242303}
+The August 2015 database has a same-name, same-family record for Amazona albifrons. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-d2ed252f27}
-The historical adult body-mass summary is 209 g. Adult records may combine males, females and birds of unspecified sex; this value is not a range of individual masses. Birth or hatching mass is not included.
+## Compiled adult-mass values {#s-d2ed252f27}
+The August 2015 compilation reports adult body mass 209 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-b8450d93cb}
-The available compilation gives 3.95 offspring or eggs per litter/clutch. This field combines young and egg counts, so the fractional summary does not mean a single event produced part of an individual. No missing reproductive or developmental durations are filled in here.
+## Reproductive fields describe different events {#s-b8450d93cb}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.95. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-84e9ba24da}
-The archive records 25.3 years for maximum_longevity_y, the largest value found using its method. This is not a typical or average wild lifespan, an individual survival limit, or proof of a current record that can be repeated.
+## A maximum record is not typical lifespan {#s-84e9ba24da}
+The compilation lists 25.3 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-7160130604}
-The matching rows carry labels including Dunning, 1992; de Magalhaes and Costa, 2009; Schuck-Paima, C., Alonsob, W.J., and E.B. Ottonia, 2008; and Wasser, D.E. and P.W. Sherman, 2010, among others. The archive retains field-specific row numbers, values and labels with the reference table's full explanations. A label may point to a paper, book or database. Row counts are not numbers of birds measured, and repeated citations are not independent experiments.
+## Sources and field limits {#s-7160130604}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-d74b4f55d8}
-In pinned COL26.8, Amazona albifrons is accepted within Psittacidae. The EltonTraits 1.0 comparison uses two ecological field groups from a historical same-name, same-family record, retaining its source information. Its taxonomy follows an earlier bird classification or MSW3 for mammals, so matching names do not settle modern splits or synonymy.
+## Scope of the historical trait entry {#s-d74b4f55d8}
+EltonTraits 1.0 has a same-name, same-family record for Amazona albifrons covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-fc5e0527df}
-EltonTraits gives nonzero food weights of 50% for the category including seeds, nuts and spores, 30% for other plant material (a source category that also includes fungi), and 20% for fruit. Code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; a zero does not prove a food is never eaten. Nect, Seed and PlantO cover more than their everyday names suggest.
+## Relative weights across food categories {#s-fc5e0527df}
+EltonTraits 1.0 assigns relative diet weights of fruit 20%; seeds or nuts 50%; other plant material 30%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-a468275cf8}
-The archive flags these as species-level stratum weights: understory, edges or shrubs below 2 m, 50%; trees or tall bushes from 2 m upward but below the canopy, 50%. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. The source's water, understory, mid/high, canopy and aerial labels have distinct definitions; they are not elevation ranges or measures of flight height or habitat area.
+## Foraging positions are not a time budget {#s-a468275cf8}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 50%; in mid-height or high vegetation 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-50f1781c7c}
-The selected groups carry the label Ref_4. Diet, strata and activity may use different material, and the same reference number in bird and mammal tables does not identify the same source. The archive keeps complete citation strings by file, row, field group and reference table. The underlying books and papers have not been reviewed individually; these labels are not new observations.
+## Sources and field limits {#s-50f1781c7c}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-1d7dd41b0f}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages from the listed samples, not diagnostic limits or individual variation ranges. Mass comes from separately cited literature or weighing sources, so the morphology sample counts do not apply to it. Habitat, diet and migration are broad categories; the map covers historical breeding and resident ranges. A one-to-one historical crosswalk and matching name support the association but do not prove equivalence between later taxonomic concepts. Other sources are needed for reproduction, present populations and conservation.

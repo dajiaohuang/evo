@@ -1,5 +1,5 @@
-## Find rows through older Cettia combinations {#s-3353b4df2a}
-Pinned COL26.8 organizes this page at Horornis acanthizoides (3MQ6Z). BirdLife 2020 row 7409 and eBird 2021 row 4898 share the name and Avibase ID AVIBASE-0A91A181, with type 1BL to 1eBird; BirdTree row 4875 gives Cettia acanthizoides, with type 1BL to 1BT. Catalogue synonym T77M, read in this batch, points to this accepted ID. Source family Scotocercidae and current COL Cettiidae remain separate; genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-3353b4df2a}
+Catalogue of Life release COL26.8 records Horornis acanthizoides (J. Verreaux, 1871) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-3d170c1c48}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 5.6 mm, tarsus 19.8 mm, unflattened wing 51.1 mm, tail 46.8 mm and hand-wing index 12.9 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-b3b13d6afb}
-Pinned COL26.8 organizes this page as Pternistis hartlaubi (4PV6R). AVONET v7 BirdLife 2020 row 2515 and eBird 2021 agree in name, with Avibase ID AVIBASE-56FA0FE6; BirdTree gives Francolinus hartlaubi, with match type 1BL to 1BT. Read COL older-combination record 6JLDP points to accepted ID 4PV6R. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-b3b13d6afb}
+Catalogue of Life release COL26.8 records Pternistis hartlaubi (Barboza du Bocage, 1869) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-fd1ba69ba9}
 Morphology covers 5 birds (0 female, 5 male); 4 have complete measurement sets. Mean nostril-to-tip beak length is 18.1 mm, tarsus 35.3 mm, unflattened wing 144.6 mm and hand-wing index 18.5. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed. Only one sex is represented here, leaving size differences between sexes unsupported.

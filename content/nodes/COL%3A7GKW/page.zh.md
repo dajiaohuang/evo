@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-d70fa4570a}
+## 记录分类与直接上级关系 {#s-d70fa4570a}
+COL26.8 将 Sibon 记录为属；其直接上级记录为 Dipsadinae。
+
 Sibon 的本批 ReptTraits 阅读路径包含 15 条同名同科、有逐性状出处的物种资料，可从 Sibon annulatus、Sibon anthracops、Sibon argus、Sibon carri、Sibon dimidiatus 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-3409b601cf}
@@ -7,8 +9,8 @@ Sibon 的本批 ReptTraits 阅读路径包含 15 条同名同科、有逐性状�
 ## 证据边界 {#s-b79ee56928}
 本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
 
-## 从有性状记录的物种开始 {#s-d1a06de6fa}
-Sibon 的本批 ReptTraits 阅读路径包含 4 条同名同科、有逐性状出处的物种资料，可从 [Sibon canopy](Sibon_canopy/page.zh.md)、[Sibon irmelindicaprioae](Sibon_irmelindicaprioae/page.zh.md)、[Sibon marleyae](Sibon_marleyae/page.zh.md)、[Sibon vieirai](Sibon_vieirai/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-d1a06de6fa}
+Sibon 的本批 ReptTraits 阅读路径包含 4 条同名同科、有逐性状出处的物种资料，可从 Sibon canopy、Sibon irmelindicaprioae、Sibon marleyae、Sibon vieirai 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-e2cd645670}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

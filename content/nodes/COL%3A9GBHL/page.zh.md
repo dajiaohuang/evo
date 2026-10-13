@@ -1,5 +1,5 @@
-## 沿旧属名区分种与亚种目标 {#s-0d139f622e}
-本页按 COL26.8 的 Sporophila fringilloides（9GBHL）组织。BirdLife 2020 第 8209 行与 eBird 2021 第 9843 行同名，Avibase ID 为 AVIBASE-233E719A，类型 1BL to 1eBird；BirdTree 第 9784 行记 Dolospingus fringilloides，类型 1BL to 1BT。本次逐字目录异名 378P8 指向本页接受种。名称关系提供定位，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-0d139f622e}
+《Catalogue of Life》COL26.8（2026-08-20）将 Sporophila fringilloides (Pelzeln, 1870) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-5eaedb4cdb}
 形态共 6 只鸟：雌 2、雄 4、性别未定 0；完整测量 5 只。鼻孔前缘至喙尖 10 mm、跗蹠 15 mm、未压平翼长 61.3 mm、尾长 50.8 mm、手翼指数 12.7 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或特定食物的处理能力。

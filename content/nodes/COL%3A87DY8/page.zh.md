@@ -1,4 +1,6 @@
-## 接受的目录记录 {#s-92eb4d6c8c}
+## 记录分类与直接上级关系 {#s-92eb4d6c8c}
+COL26.8 将 Chelus 记录为属；其直接上级记录为 Chelidae。
+
 Chelus 是 COL26.8 接受的属（COL 87DY8），位于 Chelidae 科、Pleurodira 亚目之下。固定版本记录用于确定分类阅读路径；它本身不描述属内所有物种或其生物学。
 
 ## 基于标本的神经解剖阅读路径 {#s-4253740a8e}
@@ -7,7 +9,7 @@ Martín-Jiménez 和 Pérez-García（2021）将 Chelus fimbriata 作为龟类�
 ## 证据边界 {#s-359aac0a21}
 该研究报告一具 Chelus fimbriata 头骨，并非分类修订或完整属级专著。它不能确定种内变异、种群数量、当前分布或保护状况。页面未复制图表。
 
-## 从有性状记录的物种开始 {#s-3c5c24a1d0}
+## 记录分类与成员材料 {#s-3c5c24a1d0}
 Chelus 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 Chelus fimbriata、Chelus orinocensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-525d967de7}

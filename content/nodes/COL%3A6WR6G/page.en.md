@@ -1,41 +1,41 @@
-## The name and this data account {#s-f3edd600d5}
-AVONET v7 lists *Ramphastos sulfuratus* under the HBW–BirdLife 2020 name. The record includes 19 measured individuals, 8 in a complete morphological set; trait means may use different sample sizes.
+## Row-reported mean and sample coverage {#s-f3edd600d5}
+The AVONET v7 row for Ramphastos sulfuratus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 132.3 mm. The row records 19 measured individuals, 8 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-3abea62713}
-Mean beak length is 132.3 mm from the anterior nostril edge to the tip; width at that landmark is 33.7 mm and depth 45.8 mm. These standardized measurements are not identification thresholds.
+## Beak measurements at defined landmarks {#s-3abea62713}
+AVONET records culmen length (bill tip to skull base) 129.2 mm; beak length (nostril front edge to tip) 132.3 mm; beak width at the nostril front edge 33.7 mm; beak depth at the nostril front edge 45.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-a62c96bd90}
-Mean unflattened wing length (carpal joint to longest primary) is 200.4 mm; mean tarsus is 48.7 mm. AVONET separately lists mean mass of 409.69 g in the Dunning category, not a weight for every morphological specimen.
+## Wing and body measures use separate sources {#s-a62c96bd90}
+AVONET records unflattened wing length 200.4 mm; tarsus length 48.7 mm; distance from first secondary tip to longest primary tip 29.6 mm; length to first secondary tip 170.3 mm; hand-wing index 14.8; tail length 163.1 mm; species-average body mass 409.69 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-b0d62a69f3}
-AVONET codes habitat Forest, trophic niche Frugivore and lifestyle Insessorial (perching-associated). These broad categories do not imply exclusive forest use or an exclusively fruit diet.
+## Recorded habitat and feeding categories {#s-b0d62a69f3}
+AVONET classifies Ramphastos sulfuratus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Frugivore (source threshold at least 60% from fruit); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-b26cebe368}
-The migration field is sedentary. Historical breeding and resident maps span 6.94°–21.79° latitude; they do not describe all non-breeding movement or current occupancy.
+## The migration label has a limited scope {#s-b26cebe368}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 6.94° to 21.79°. The mapped range area is 679911.57 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-fbbcfe35cb}
-The 2015 life-history archive contains a same-name, same-family entry. Four focal fields used here have support in cited species-level rows. The historical association does not remove possible taxonomic inheritance.
+## Scope of the historical life-history entry {#s-fbbcfe35cb}
+The August 2015 database has a same-name, same-family record for Ramphastos sulfuratus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-8c20a3f85f}
-The archive reports adult body mass of 430 g. Adult summaries may combine sexes or records with sex unspecified; this is a compilation value, not a range of individual masses. It comes from a separate archive from AVONET's 409.69 g mean.
+## Compiled adult-mass values {#s-8c20a3f85f}
+The August 2015 compilation reports adult body mass 430 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-87c24a0034}
-Reported reproductive summaries are 3.25 eggs or offspring per litter or clutch, 16.5 days from laying to hatching, and 47 days to flight capability. Some source material defines the last as leaving the nest. Fractional brood values summarize records rather than a single event.
+## Reproductive fields describe different events {#s-87c24a0034}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.25; oviposition-to-hatching interval 16.5 days; age at flight capability (some records mark nest departure) 47 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-2e4051a641}
-Source labels in same-name rows include Dunning (1992), Boback and Guyer (2003), Pereira, Daily and Roughgarden (2004), and Boyer, Cartron and Brown (2009), among others. Batch records preserve row locators, values and full reference explanations; repeated labels are not independent replication.
+## Sources and field limits {#s-2e4051a641}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-940081afce}
-EltonTraits 1.0 contains a historical entry matching this name and family. This page uses its diet and species-level foraging groups; the older taxonomy does not settle later species concepts.
+## Scope of the historical trait entry {#s-940081afce}
+EltonTraits 1.0 has a same-name, same-family record for Ramphastos sulfuratus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-edbacf745c}
-Non-zero diet weights are fruit 60%, invertebrates 20%, mammals and birds 10%, and reptiles and amphibians 10%. Confidence code A indicates high compiler confidence. These relative percentages standardize literature descriptions rather than measure diet composition.
+## Relative weights across food categories {#s-edbacf745c}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; mammals and birds 10%; reptiles and amphibians 10%; fruit 60%. Its dominant five-category label is FruiNect. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-1e460e8af1}
-Species-level foraging weights are trees or tall bushes from 2 m to below the canopy 60%, and in or just above the canopy 40%. They describe relative use of feeding positions, not nesting, all habitat or daily time use; strata are not elevations or flight heights.
+## Foraging positions are not a time budget {#s-1e460e8af1}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 60%; in the canopy 40%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-5511cbbc19}
-The selected EltonTraits groups cite Ref_7, identified as *Handbook of the Birds of the World*, volume 7. Diet and foraging fields may draw on different source material despite the shared label. The book has not been individually reviewed here; the label records provenance.
+## Sources and field limits {#s-5511cbbc19}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-b326456b34}
 This page combines historical AVONET, 2015 life-history and EltonTraits records. AVONET measurements are sample-based species averages and mass is separately sourced; habitat and migration are broad codes, with map endpoints describing historical breeding/resident geography. Life-history values are archive summaries, not independent measurements of one individual; historical taxa may share inherited data, and the name match does not prove current concept equivalence. EltonTraits percentages standardize literature descriptions rather than directly measure feeding. Underlying works have not all been reviewed; current range, population, conservation and complete biology require separate evidence.

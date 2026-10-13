@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-074cdd13f6}
-Pinned COL26.8 organizes this page at Cinnyris superbus (5Z75L). BirdLife 2020 row 5993 and eBird 2021 row 2365 share the name and Avibase ID AVIBASE-7C8BC7CF, with type 1BL to 1eBird; BirdTree row 2358 gives Nectarinia superba, with type 1BL to 1BT. Read older-combination record 462PV points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-074cdd13f6}
+Catalogue of Life release COL26.8 records Cinnyris superbus (Shaw, 1812) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-303def5552}
 Morphology covers 7 birds: 2 female, 5 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 26.9 mm, tarsus 19.7 mm, unflattened wing 72.4 mm, tail 45.6 mm and hand-wing index 19.5 are historical row means. Inference=NO does not establish 7 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

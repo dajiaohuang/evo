@@ -1,4 +1,6 @@
-## Four historical Myomyscus entries in this batch {#s-90f7644426}
+## Recorded classification and direct parent {#s-90f7644426}
+COL26.8 records Myomyscus at genus rank, with Murinae as its direct parent.
+
 The batch contains four historical Myomyscus records; examples include M. angolensis, M. yemeni, M. verreauxii, and M. brockmani. Food-category weights appear in three records, while foraging-stratum and mammalian activity fields appear in four each. These counts describe this batch’s coverage, not the accepted-species total or traits shared across the group.
 
 ## Limits of this group-level route {#s-5cb06b7af4}

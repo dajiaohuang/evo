@@ -1,4 +1,6 @@
-## 从有测量记录的页面开始 {#s-da91f00eb1}
+## 记录分类与直接上级关系 {#s-da91f00eb1}
+COL26.8 将 Picidae 记录为科；其直接上级记录为 Piciformes。
+
 本批有 121 条 Picidae 物种测量记录，可从 Blythipicus pyrrhotis、B. rubiginosus、Campephilus gayaquilensis、C. guatemalensis 和 C. imperialis 开始。页面层级按固定 COL26.8 组织；数值仍对应 AVONET v7 的历史名称和样本范围。
 
 ## 跨物种端点不等于个体范围 {#s-3f675379cb}
@@ -17,7 +19,7 @@
 测量、生活史和两条 EltonTraits 路线都只纳入本批作者整理的历史条目，不包括全部接受后代。不同物种的体重端点比较的是汇编均值，不是个体范围。生活史中位数、最大寿命记录和历史分类继承各有统计与分类边界；生态权重是对来源描述的半定量转换，若涉及同属材料会在物种页说明。科级入口不代表后代共享繁殖、食性或行为。每个物种页仍需单独核对来源、样本和分类限制。
 
 ## 有限的生态与地理页面 {#s-781a23e14b}
-本批有 7 页提供有限的 AVONET 生态与地理信息。可先读 [Campethera scriptoricauda](Picinae/Campethera/Campethera_scriptoricauda/page.zh.md)、[Dendrocopos noguchii](Picinae/Dendrocopos/Dendrocopos_noguchii/page.zh.md)、[Mulleripicus fulvus](Picinae/Mulleripicus/Mulleripicus_fulvus/page.zh.md)、[Piculus litae](Picinae/Piculus/Piculus_litae/page.zh.md) 或 [Picumnus cinnamomeus](Picumninae/Picumnus/Picumnus_cinnamomeus/page.zh.md)。导航沿用固定 COL26.8；7 只是本批已写页面数，不是全科接受种分母。
+本批有 7 页提供有限的 AVONET 生态与地理信息。可先读 Campethera scriptoricauda、Dendrocopos noguchii、Mulleripicus fulvus、Piculus litae 或 Picumnus cinnamomeus。导航沿用固定 COL26.8；7 只是本批已写页面数，不是全科接受种分母。
 
 ## 可读的类别与未解释的测量 {#s-a895e6c609}
 这 7 页均记录栖地、营养生态位、主导活动方式和迁移类别。阅读时应按原字段定义，并区分粗分类、历史地图和个体观察。相同标签不能推广到所有后代。本批保留但不解读喙、翼、跗蹠、尾和体重字段，因此不能据此建立科级体型比较。

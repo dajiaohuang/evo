@@ -1,14 +1,14 @@
-## The 2015 life-history entry and this name {#s-738a73a09e}
-Chrysocolaptes strictus is accepted in pinned COL26.8 within Picidae. The 2015 life-history compilation has a same-name entry with four focal fields supported by cited species-level rows in the same family. Historical summaries may inherit information across taxonomic accounts, so the name match does not remove that possibility.
+## Scope of the historical life-history entry {#s-738a73a09e}
+The August 2015 database has a same-name, same-family record for Chrysocolaptes strictus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-93865a5ea3}
-The adult-mass summary is 170.92 g. Such a compilation can combine males, females and adults of unspecified sex; it does not give a species-wide range of individual masses. No birth or hatching mass is reported among the four fields presented here.
+## Compiled adult-mass values {#s-93865a5ea3}
+The August 2015 compilation reports adult body mass 170.9166667 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-83b9ce34fa}
-Available compilation fields are offspring per litter or eggs per clutch 3.2 offspring/eggs; oviposition to hatching 14.75 d; age at flight capability (leaving the nest in some source material) 25 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-83b9ce34fa}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3.2; oviposition-to-hatching interval 14.75 days; age at flight capability (some records mark nest departure) 25 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-e7b3533a59}
-The same-name rows carry labels including Dunning, 1992; Boback and Guyer, 2003; Bennett, 1986; and Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009. A label may refer to a primary paper, book or another database. Sparse-row counts are not counts of measured individuals, and repeated citations do not constitute independent experimental replication.
+## Sources and field limits {#s-e7b3533a59}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-64368f3e9a}
 The 2015 life-history values are compilation summaries: medians or averages of the two middle values, except maximum longevity, which uses the largest record found. They are not measurements of a single individual, ranges of individual variation, mean wild lifespans or current population surveys. Historical species and subspecies accounts can share or inherit data; the matching name and family support the association but do not establish equivalence to COL26.8 concepts or remove every inherited component. Wild versus captive conditions are not consistently identified. Diet, behavior, current range, conservation and missing fields require other sources.

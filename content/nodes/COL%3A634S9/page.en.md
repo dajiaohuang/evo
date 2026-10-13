@@ -1,4 +1,6 @@
-## PanTHERIA route accounts {#s-0551443c8e}
+## Recorded classification and direct parent {#s-0551443c8e}
+COL26.8 records Funisciurus at genus rank, with Protoxerini as its direct parent.
+
 Five usable accounts in this batch are Funisciurus anerythrus, F. congicus, F. isabella, F. lemniscatus and F. pyrropus. Pages retain MSW05 names, field conditions and gaps; pinned COL26.8 organizes the route, not a current species denominator.
 
 ## Adult-mass endpoints {#s-ff2e4af775}
@@ -14,7 +16,7 @@ Nine historical entries include F. substriatus, F. pyrropus, F. leucogenys, F. l
 These PanTHERIA, life-history and ecology routes cover batch entries meeting their own field and historical-name thresholds, not every descendant. Endpoints are summaries, not individual extremes; source conditions vary. The routes do not establish shared group biology or current taxonomy, range and conservation. Historical inheritance, maximum-record and semiquantitative limits remain page-specific.
 
 ## Other PanTHERIA pages {#s-262be7702a}
-Four usable accounts are [F. bayonii](Funisciurus_bayonii/page.en.md), [F. carruthersi](Funisciurus_carruthersi/page.en.md), [F. leucogenys](Funisciurus_leucogenys/page.en.md) and [F. substriatus](Funisciurus_substriatus/page.en.md). Pages preserve MSW05 names, conditions and gaps; the count is not a current species total.
+Four usable accounts are F. bayonii, F. carruthersi, F. leucogenys and F. substriatus. Pages preserve MSW05 names, conditions and gaps; the count is not a current species total.
 
 ## Other body-mass endpoints {#s-4195936bd5}
 The available medians range from F. bayonii at 134.99 g to F. carruthersi at 276.85 g after sex adjustment. They are not individual extremes or evidence of a common descendant lifestyle.
@@ -23,7 +25,7 @@ The available medians range from F. bayonii at 134.99 g to F. carruthersi at 276
 This view includes batch entries with at least one focal field, same-name/family matching and one-to-one historical correspondence. It is not every descendant; endpoints are summaries and field conditions differ. Current concepts, distribution and conservation need other evidence.
 
 ## Life-history pages {#s-2a21f20e9e}
-Four pages are [F. anerythrus](Funisciurus_anerythrus/page.en.md), [F. lemniscatus](Funisciurus_lemniscatus/page.en.md), [F. pyrropus](Funisciurus_pyrropus/page.en.md) and [F. congicus](Funisciurus_congicus/page.en.md). The links cover authored same-name accounts in this batch only.
+Four pages are F. anerythrus, F. lemniscatus, F. pyrropus and F. congicus. The links cover authored same-name accounts in this batch only.
 
 ## Timing and lifespan fields {#s-4ca5540b5d}
 Gestation appears in one account, female age at first reproduction in none, and maximum lifespan in one. First reproduction differs from first birth and sexual maturity; maximum lifespan is not average lifespan. Conditions vary and missing fields require other sources.

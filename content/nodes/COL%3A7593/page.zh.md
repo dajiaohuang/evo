@@ -1,4 +1,6 @@
-## 这里有两个物种的尺寸记录 {#s-6930147b2f}
+## 记录分类与直接上级关系 {#s-6930147b2f}
+COL26.8 将 Ptyctolaemus 记录为属；其直接上级记录为 Draconinae。
+
 COL26.8 将 Ptyctolaemus 列在鬣蜥科中。这里的 ReptTraits v1-2 资料包含 Ptyctolaemus collicristatus 和 Ptyctolaemus gularis 两条有出处的记录，沿用工作簿采用的 2023 年 Reptile Database 名称框架。它们可以作为比较已报道体长的起点，但不是该属全部接受种的数量。
 
 ## 两个物种的已报道最大值 {#s-1d3b685cf1}

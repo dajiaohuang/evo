@@ -1,5 +1,5 @@
-## Tracing the historical genus name {#s-aa6a3f2c4f}
-Pinned COL26.8 places this page at Psilopogon haemacephalus (7WP68). AVONET v7 BirdLife 2020 row 9690 and eBird 2021 row 8657 use the same name and Avibase ID AVIBASE-2B7AC50E; BirdTree row 8612 gives Megalaima haemacephala, with match type 1BL to 1BT. Read COL older-combination record 7VSVX points to this accepted ID. These associations locate historical data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-aa6a3f2c4f}
+Catalogue of Life release COL26.8 records Psilopogon haemacephalus (P. L. S. Müller, 1776) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and beak/wing averages {#s-86518d6509}
 Morphology covers 11 birds: 4 female, 5 male and 2 unsexed; 8 have complete measurement sets. Mean nostril-to-tip beak length is 14.8 mm, beak width 9.3 mm, tarsus 19.2 mm, unflattened wing 80.6 mm and hand-wing index 25.1. The source marks this row Inference=NO, but that flag does not establish the same sample count for every field; complete-set birds and total samples remain separate. The index is Kipp’s distance divided by wing length ×100, not flight speed; beak width is not a test of fruit swallowing or pecking performance.

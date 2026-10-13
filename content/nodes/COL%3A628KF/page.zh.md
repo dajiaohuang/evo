@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-6127b06a1a}
+## 记录分类与直接上级关系 {#s-6127b06a1a}
+COL26.8 将 Hemigalinae 记录为亚科；其直接上级记录为 Viverridae。
+
 Hemigalinae 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Cynogale bennettii、Hemigalus derbyanus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-a03bc50a26}
@@ -14,14 +16,14 @@ Hemigalinae 的本批路线包含 4 个历史条目，可从 Chrotogale owstoni�
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 两段 PanTHERIA 路线列出不同组合：一条含 Cynogale bennettii 和 Hemigalus derbyanus，受限路线含 Diplogale hosei 和 Chrotogale owstoni。2015 年生活史路线列出 3 个名称，EltonTraits 则列出 4 个，并多含 D. hosei。这些计数描述来源各异的历史样本；字段可用性和汇编中位数仍应与各自条目对应。
 
-## 从已有历史条目开始 {#s-042fdf4e6c}
-Hemigalinae 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 [Diplogale hosei](Diplogale/Diplogale_hosei/page.zh.md)、[Chrotogale owstoni](Chrotogale/Chrotogale_owstoni/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-042fdf4e6c}
+Hemigalinae 的本地 PanTHERIA 路径包括 2 条可用数据导读，可从 Diplogale hosei、Chrotogale owstoni 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-0b80335f58}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-5247ce497a}
-Hemigalinae 本批有 3 个历史生活史资料页，可从 [Chrotogale owstoni](Chrotogale/Chrotogale_owstoni/page.zh.md)、[Cynogale bennettii](Cynogale/Cynogale_bennettii/page.zh.md)、[Hemigalus derbyanus](Hemigalus/Hemigalus_derbyanus/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Hemigalinae 本批有 3 个历史生活史资料页，可从 Chrotogale owstoni、Cynogale bennettii、Hemigalus derbyanus 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-2ad624cbcc}
 本批妊娠资料见 1 页，雌性首次繁殖年龄见 0 页，最高寿命记录见 1 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

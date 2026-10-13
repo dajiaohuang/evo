@@ -1,5 +1,5 @@
-## Find rows through older Thryothorus combinations {#s-b18b4a7cda}
-Pinned COL26.8 organizes this page at Pheugopedius felix (4G3KG). BirdLife 2020 row 8487 and eBird 2021 row 7740 share the name and Avibase ID AVIBASE-5F71C217, with type 1BL to 1eBird; BirdTree row 7703 gives Thryothorus felix, with type 1BL to 1BT. Read catalogue synonym 56N7H points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-b18b4a7cda}
+Catalogue of Life release COL26.8 records Pheugopedius felix (P. L. Sclater, 1860) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-ea35121258}
 Morphology comprises 4 birds: 0 female, 4 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 10.6 mm, tarsus 21 mm, unflattened wing 57.2 mm, tail 56.2 mm and hand-wing index 6.3 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. All birds are male, leaving female sampling and sex comparison unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

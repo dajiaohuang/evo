@@ -1,5 +1,5 @@
-## 历史 Anas 组合与固定目录名 {#s-2e30b50262}
-本页按固定 COL26.8 的 Spatula querquedula（9HKHG）组织。AVONET v7 的 BirdLife 2020 第 402 行与 eBird 2021 对应均同名，Avibase ID 为 AVIBASE-F577BA0F；BirdTree 对应表用 Anas querquedula，标为 1BL to 1BT。固定 COL 异名 VJFBB 指向接受 ID 9HKHG。名称对应不等于已验证各年代所有物种边界。
+## COL26.8 中的名称身份 {#s-2e30b50262}
+《Catalogue of Life》COL26.8（2026-08-20）将 Spatula querquedula (Linnaeus, 1758) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 喙、翼与文献体重的不同分母 {#s-afc828caeb}
 形态共测 6 只（雌 3、雄 3），完整测量 4 只。鼻孔前缘至喙尖均值 30 mm，鼻孔前缘处喙宽 13.8 mm，未压平翼长 188.2 mm，手翼指数 56.1。这些是物种均值；指数按 Kipp 距离／翼长 ×100 定义，不能当作飞行速度。体重 325.6 g 另取 Dunning 文献汇编，不能给它套用形态样本数。Inference=NO 保留为原表的非推算标记，不补未读原始材料中的个体范围。

@@ -1,18 +1,40 @@
-## Which fossil records this name represents {#s-fb3421648e}
-Niobrarasaurus coleii is accepted in the fixed PBDB dinosaur working roster, with database parent Niobrarasaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-fb3421648e}
+Niobrarasaurus coleii is listed in the PBDB snapshot under taxon txn:65207. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-b49d734e8e}
-Collection tributary of Smoky Hill River (Kansas), region code US, stratum name Niobrara; database age bracket 89.8–85.7 Ma, early interval Late Coniacian. Collection northeastern Lane County (Kansas), region code US, stratum name Niobrara; database age bracket 85.7–83.6 Ma, early interval Middle Santonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-b49d734e8e}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-ff658b2ccf}
-Selected occurrences have an outer age envelope of 89.8–83.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:487783; PBDB collection col:49040. Locality cnm=tributary of Smoky Hill River; place fields cc2=US, stp=Kansas, cny=Gove. Recorded age bounds: eag 89.8 Ma; lag 85.7 Ma; PBDB interval fields oei=Late Coniacian. Stratigraphic fields sfm=Niobrara, sls=Smoky Hill Chalk, slb=2, slo=bottom to top. Recorded attribution Mehl 1936; PBDB reference ref:51966.
 
-## Read preservation setting separately from living habitat {#s-fd9a1696a5}
-tributary of Smoky Hill River has collection-environment label marine indet.; collection preservation-mode label body. northeastern Lane County has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+low in formation, below Hattin's Marker Unit 3. 195 ft above bae of the member.
 
-## Follow collection records back to references {#s-50475611ac}
-tributary of Smoky Hill River carries database reference attribution Mehl (1936), identifier ref:51966. northeastern Lane County carries database reference attribution Everhart and Hamm (2005), identifier ref:13087. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+sec 16, T15S, R26W, Gove Co., in the watershed of an unnamed tributary of the Smoky Hill River; ca. 11 mi. S and a little E of Hackberry.
 
-## Evidence limits {#s-e25a938e43}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:487789; PBDB collection col:49045. Locality cnm=northeastern Lane County; place fields cc2=US, stp=Kansas, cny=Lane. Recorded age bounds: eag 85.7 Ma; lag 83.6 Ma; PBDB interval fields oei=Middle Santonian. Stratigraphic fields sfm=Niobrara, sls=Smoky Hill Chalk, slb=8, slo=bottom to top. Recorded attribution Everhart and Hamm 2005; PBDB reference ref:13087.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+just about Hattin's (1982) Marker Unit 8, which is 80 m above contact with Fort Hays Limestone Member
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+extreme NE Lane Co.
+
+## Age bounds on the recorded occurrences {#s-ff658b2ccf}
+Across these selected PBDB rows, the largest recorded eag=89.8 Ma in occ:487783; the smallest recorded lag=83.6 Ma in occ:487789. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-fd9a1696a5}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:487783: PBDB original-identification field idn=Hierosaurus coleii n. sp.; PBDB taxon-name field tna=Niobrarasaurus coleii; material note ocm=FHSM VP-14855 (MU 650 VP); abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-100.214104, lat=38.748001; paleocoordinate/model fields pm1=gplates, pln=-58.89, pla=44.93.
+- occ:487789: PBDB taxon-name field tna=Niobrarasaurus coleii; material note ocm=FHSM VP-13985; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-100.279900, lat=38.680000; paleocoordinate/model fields pm1=gplates, pln=-59.7, pla=45.32.
+
+## References attached to each record {#s-50475611ac}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:487783: Recorded attribution Mehl 1936; PBDB reference ref:51966.
+- occ:487789: Recorded attribution Everhart and Hamm 2005; PBDB reference ref:13087.
+
+## What these records can show {#s-e25a938e43}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

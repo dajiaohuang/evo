@@ -1,11 +1,13 @@
-## A route through one included record {#s-3098a8dbe6}
+## Recorded classification and direct parent {#s-3098a8dbe6}
+COL26.8 records Tigriornis at genus rank, with Ardeidae as its direct parent.
+
 This batch links *Tigriornis* to one historical entry, *T. leucolopha*. Diet weights are available for 1 entry, foraging strata for 1, and mammalian activity periods for 0. These are batch availability counts, not accepted-species totals or ecological traits shared across the genus. Read each record against its source definitions; the counts themselves do not describe ecology.
 
 ## Limits of the historical route {#s-2ad3695987}
 This route covers same-name, same-family historical entries in this batch with at least two usable foraging field groups. It is not a complete descendant catalogue, and one descendant’s food types, estimated weights or activity codes cannot be assigned to the whole genus. EltonTraits uses semiquantitative readings of literature descriptions and historical taxonomy; mammalian ABC fields may also draw on a congener. This is a limited ecology account, not a complete species monograph.
 
 ## The included species account {#s-4de0f2c768}
-The batch provides 1 limited ecology account under *Tigriornis*: [*Tigriornis leucolopha*](Tigriornis_leucolopha/page.en.md). The count refers to this batch’s authored entry, not to every species accepted under the pinned COL26.8 genus path.
+The batch provides 1 limited ecology account under *Tigriornis*: *Tigriornis leucolopha*. The count refers to this batch’s authored entry, not to every species accepted under the pinned COL26.8 genus path.
 
 ## Recorded ecology and unanalysed measurements {#s-473d8da000}
 The batch has 1 entry each for habitat, trophic niche, primary lifestyle and migration. These are category records for the included descendant, not evidence of a shared genus-wide lifestyle. Beak, wing, tarsus, tail and mass fields are not interpreted here; they do not support a body-size comparison for the genus.

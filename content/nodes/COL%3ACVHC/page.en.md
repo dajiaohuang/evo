@@ -1,5 +1,5 @@
-## One historical record, two genus names {#s-e68ced6a86}
-Pinned COL26.8 organizes this page as Ammospiza leconteii (CVHC). AVONET v7 BirdLife 2020 row 6374 uses the same name, as does its one-to-one eBird 2021 crosswalk; the BirdTree crosswalk gives Ammodramus leconteii, labelled 1BL to 1BT. Pinned COL’s older-combination record CTL4 points to accepted ID CVHC. These associations support reading the historical row without verifying all taxonomic boundaries across dates.
+## A name fixed to COL26.8 {#s-e68ced6a86}
+Catalogue of Life release COL26.8 records Ammospiza leconteii (Audubon, 1844) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Beak, wing and tail in a small sample {#s-0d1ad37454}
 Morphology covers 6 measured birds (3 female, 3 male), of which 6 have complete measurements. Species averages are 7.1 mm from the nostril’s anterior edge to the beak tip, 17.3 mm tarsus, 53 mm unflattened wing and 52 mm tail. These are not individual size bounds. Hand-wing index is 18.8, defined through Kipp’s distance/wing length ×100, rather than flight distance or speed. Dividing rounded species-average lengths cannot replace the reported index.

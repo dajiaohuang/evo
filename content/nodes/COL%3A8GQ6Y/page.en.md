@@ -1,15 +1,15 @@
-## Accepted name and source record {#s-a9bc728325}
-COL26.8 accepts Pholidoscelis dorsalis in Teiidae. Its ReptTraits v1-2 entry retains the workbook’s Reptile Database 2023 name framework and citations for each trait. One row per species summarizes the compiled record; it does not make every population uniform.
+## COL26.8 name and the ReptTraits row {#s-a9bc728325}
+COL26.8 records Pholidoscelis dorsalis as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A maximum that stops before the tail {#s-b873cc2c40}
-The reported maximum snout–vent length is 117 mm. This measurement runs from the snout to the body opening, leaving out the tail. It is a cited maximum, not an average or absolute growth limit, and the record does not give a sex-specific maximum.
+## Length values in the archived records {#s-b873cc2c40}
+The row reports a maximum SVL of 117 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Ground habitat and a mixed diet {#s-d8ccac18b1}
-The profile classifies microhabitat as terrestrial, diet as omnivorous, active time as diurnal, and foraging mode as ACT (active foraging). Omnivorous means the record includes both animal and plant foods, but it names no particular prey or plant. These broad labels do not describe a precise site or routine, and may not capture variation across seasons and life stages.
+## Habitat use and activity labels {#s-d8ccac18b1}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as plant- and animal-eating (Omnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Meiri 2018.
 
-## Egg laying without a clutch count {#s-3532891659}
-Reproductive mode is recorded as oviparous, or egg-laying. The cited fields do not provide a mean clutch size, smallest or largest clutch, or annual clutch count. The label therefore describes the recorded mode, not reproductive output or a pattern established for every population.
+## Reproductive fields in ReptTraits {#s-3532891659}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-f7c38bf24f}
-This page paraphrases the same-name ReptTraits v1-2 record under its 2023 name framework. A matching name and family do not demonstrate that later classifications use an identical concept. One row compresses variation among sex, age, locality, and population. A reported maximum is not a species boundary; estimated mass and juvenile-length fields with inconsistent definitions are not used as measurements. Conservation, venom, current range, and population trends are not updated, and missing fields remain gaps. Dataset citation labels preserve source links but do not mean every original work was independently checked.
+## Reading this compiled trait record {#s-f7c38bf24f}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

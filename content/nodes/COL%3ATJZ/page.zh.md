@@ -1,4 +1,6 @@
-## 按生活史字段选择对读页面 {#s-a3799d22c2}
+## 记录分类与直接上级关系 {#s-a3799d22c2}
+COL26.8 将 Amblysomus 记录为属；其直接上级记录为 Amblysominae。
+
 Amblysomus 的本批路线包含 5 条历史生活史导读，可从 Amblysomus corriae、Amblysomus hottentotus、Amblysomus marleyi、Amblysomus robustus、Amblysomus septentrionalis 开始。较多条目具有的字段包括 成年体重（5 条）、每窝幼体数或卵数（5 条）、出生或孵化时体重（5 条）、汇编中最长寿命记录（5 条）。这些计数描述所列历史资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-f570cf3c14}

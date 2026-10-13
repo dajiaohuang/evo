@@ -1,11 +1,11 @@
-## What one ecological field can tell us {#s-cc17fbb4d5}
-*Veniliornis frontalis* is accepted in pinned COL26.8 within Picidae. EltonTraits 1.0 provides one supported ecological group for this historical same-name, same-family record: foraging position. The older taxonomy does not prove equivalence to a current species concept.
+## Scope of the historical trait entry {#s-cc17fbb4d5}
+EltonTraits 1.0 has a same-name, same-family record for Veniliornis frontalis covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-e734f2a269}
-EltonTraits marks the foraging record as species-level. Relative weights are understory, edges or shrubs below 2 m 50%, ground 30%, and trees or tall bushes from 2 m to below the canopy 20%. They describe feeding positions, not nesting, all habitat or daily time budgets; these strata are not elevations or flight heights.
+## Foraging positions are not a time budget {#s-e734f2a269}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 30%; in the understory 50%; in mid-height or high vegetation 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-48c50591dd}
-The selected field group cites Ref_7, identified as *Handbook of the Birds of the World*, volume 7. This label records the source association, not an additional observation. The book has not been individually reviewed here.
+## Sources and field limits {#s-48c50591dd}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-32b8d626ee}
 Only the species-level foraging-stratum group is supported. Diet is withheld under source code D1 because of uncertainty/interpolation, unresolved source labels or unusable category values; no diet is inferred from the foraging weights. EltonTraits weights standardize literature descriptions rather than report direct measurements. The record is historical and same-name/same-family matching does not establish current taxonomic equivalence. Other diet, activity, range, population and conservation information requires separate sources.

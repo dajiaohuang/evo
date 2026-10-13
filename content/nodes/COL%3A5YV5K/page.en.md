@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-dd64dceb35}
-Pinned COL26.8 organizes this page at Cinnyris rufipennis (5YV5K). BirdLife 2020 row 5988 and eBird 2021 row 2360 share the name and Avibase ID AVIBASE-E3B9A841, with type 1BL to 1eBird; BirdTree row 2353 gives Nectarinia rufipennis, with type 1BL to 1BT. Read older-combination record 462PL points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-dd64dceb35}
+Catalogue of Life release COL26.8 records Cinnyris rufipennis (Jensen, 1983) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-7e50532df3}
 Morphology covers 4 birds: 2 female, 2 male and 0 unsexed; 1 bird has a complete measurement set. Nostril-to-tip beak length 14.9 mm, tarsus 17.4 mm, unflattened wing 54.2 mm, tail 35 mm and hand-wing index 16.3 are historical row means. Inference=NO does not establish 4 independent records in every field; complete sets do not supply each field’s denominator. Only one bird has a complete set, not all four. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

@@ -1,4 +1,6 @@
-## One historical ecological record in the route {#s-b8e084d20a}
+## Recorded classification and direct parent {#s-b8e084d20a}
+COL26.8 records Srilankamys at genus rank, with Murinae as its direct parent.
+
 The Srilankamys branch represented here has one historical entry, Srilankamys ohiensis. That entry has no usable food-category weight, one foraging-stratum record, and one mammalian activity record. These counts describe available historical entries, not the full accepted-species denominator or ecology shared across the group.
 
 ## Limits of the group-level summary {#s-8e7e438e3e}

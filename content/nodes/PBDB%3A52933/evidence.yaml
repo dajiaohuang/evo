@@ -185,6 +185,28 @@ records:
           scope:
             zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
             en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+      - id: pbdbVolgadracoMemberOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          title: PBDB archived occurrence records — Volgadraco bogolubovi
+          locator: data/sources/snapshots/pterosaur-occurrence-guides-2026-10-02-occurrences.json.gz; occ:795258, occ:1211867; recorded fml=Pteranodontidae
+          readingTargets:
+            - name: Volgadraco bogolubovi
+              pbdbTaxonId: txn:140493
+              canonicalPath: content/nodes/PBDB%3A140493
+          scope:
+            en: Two archived occurrence records for this named member; these records do not define the complete family range.
+            zh: 该具名成员的两条存档出现记录；这些记录不界定整个科的完整时间分布。
     limitations:
       zh:
         page: zh

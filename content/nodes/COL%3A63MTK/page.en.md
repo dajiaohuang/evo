@@ -1,4 +1,6 @@
-## Locate eight historical rows through Thryothorus {#s-13f19a1e02}
+## Recorded classification and direct parent {#s-13f19a1e02}
+COL26.8 records Pheugopedius at genus rank, with Troglodytidae as its direct parent.
+
 Eight historical Pheugopedius rows retain same-name eBird and older Thryothorus BirdTree one-to-one links. Exact catalogue synonyms for all eight older combinations point to their accepted IDs without establishing identical historical and current species boundaries. The two existing life-history routes retain a separate scope and are not added to these eight as deduplicated accepted species.
 
 ## Separate thirty-three birds from four complete sets {#s-0236dd701e}
@@ -10,11 +12,11 @@ All eight have Invertivore, Carnivore, Insessorial and migration 1: read food ni
 ## Compare complete sets and sex coverage before habitat codes {#s-86b540dc97}
 Begin with thirty-three birds and four complete sets at genibarbis; compare four all-male complete sets at felix with two females and two males at eisenmanni. Read the unsexed birds at mystacalis without calling its sample all male. Locate crosswalks through Thryothorus names, then compare Forest/density 3 at fasciatoventris with Woodland/density 1 at felix. Two link groups retain each page’s source limits.
 
-Group 1: [Pheugopedius fasciatoventris](Pheugopedius_fasciatoventris/page.en.md), [Pheugopedius felix](Pheugopedius_felix/page.en.md), [Pheugopedius atrogularis](Pheugopedius_atrogularis/page.en.md), [Pheugopedius mystacalis](Pheugopedius_mystacalis/page.en.md)
+Group 1: Pheugopedius fasciatoventris, Pheugopedius felix, Pheugopedius atrogularis, Pheugopedius mystacalis
 
-Group 2: [Pheugopedius genibarbis](Pheugopedius_genibarbis/page.en.md), [Pheugopedius coraya](Pheugopedius_coraya/page.en.md), [Pheugopedius maculipectus](Pheugopedius_maculipectus/page.en.md), [Pheugopedius eisenmanni](Pheugopedius_eisenmanni/page.en.md)
+Group 2: Pheugopedius genibarbis, Pheugopedius coraya, Pheugopedius maculipectus, Pheugopedius eisenmanni
 
-## Choose comparison pages by life-history fields {#s-70e5b9d6cf}
+## Amniote Life-history archive member records {#s-70e5b9d6cf}
 This batch’s Pheugopedius route includes 2 historical life-history accounts; start with Pheugopedius rutilus, Pheugopedius sclateri. More frequently represented fields include adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), age at flight capability (leaving the nest in some source material) (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Life-history evidence limits {#s-7ad889a635}

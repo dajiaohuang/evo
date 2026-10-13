@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-d2a92949da}
+## 记录分类与直接上级关系 {#s-d2a92949da}
+COL26.8 将 Jynx 记录为属；其直接上级记录为 Jynginae。
+
 固定 COL26.8 层级下的 Jynx 路径收录了 2 条有测量来源的物种记录。可先从 Jynx ruficollis、Jynx torquilla 读起；生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-3410e5fa86}

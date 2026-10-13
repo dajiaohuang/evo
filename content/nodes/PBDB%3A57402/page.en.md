@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-837d76857d}
-Plateosaurus erlenbergiensis is accepted in the fixed PBDB dinosaur working roster, with database parent Plateosaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-837d76857d}
+Plateosaurus erlenbergiensis is listed in the PBDB snapshot under taxon txn:57402. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-3fdd1ef70e}
-Collection Bl. 7220, Erlenberg (Baden-Württemberg), region code DE, stratum name Trossingen; database age bracket 205.7–201.4 Ma, early interval Rhaetian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-3fdd1ef70e}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-286e587b06}
-Selected occurrences have an outer age envelope of 205.7–201.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:486407; PBDB collection col:48690. Locality cnm=Bl. 7220, Erlenberg; place fields cc2=DE, stp=Baden-Württemberg. Recorded age bounds: eag 205.7 Ma; lag 201.4 Ma; PBDB interval fields oei=Rhaetian. Stratigraphic fields sfm=Trossingen. Recorded attribution Huene 1905; PBDB reference ref:16920.
 
-## Read preservation setting separately from living habitat {#s-fbe5b54754}
-Bl. 7220, Erlenberg has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+10 m below Lias boundary, Knollenmergel, upper Middle Keuper, upper Norian
 
-## Follow collection records back to references {#s-6cfe7f8385}
-Bl. 7220, Erlenberg carries database reference attribution Huene (1905), identifier ref:16920. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Erlenberg, beween Stuttgart (6 km S) and Vaihingen, Bl. 7220, from a railway cutting at 35-08540, 54-00850
 
-## Evidence limits {#s-7acb9c8e88}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-286e587b06}
+Across these selected PBDB rows, the largest recorded eag=205.7 Ma in occ:486407; the smallest recorded lag=201.4 Ma in occ:486407. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-fbe5b54754}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:486407: PBDB original-identification field idn=Plateosaurus erlenbergiensis n. sp.; PBDB taxon-name field tna=Plateosaurus erlenbergiensis; abundance fields abv=2, abu=individuals; PBDB locality-coordinate fields lng=9.100000, lat=48.733299; paleocoordinate/model fields pm1=gplates, pln=18.56, pla=35.21.
+
+## References attached to each record {#s-6cfe7f8385}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:486407: Recorded attribution Huene 1905; PBDB reference ref:16920.
+
+## What these records can show {#s-7acb9c8e88}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

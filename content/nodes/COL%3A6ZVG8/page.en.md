@@ -1,5 +1,5 @@
-## Three EltonTraits field groups {#s-2d93cbff3d}
-Stochomys longicaudatus is accepted in pinned COL26.8 within Muridae. Three ecological field groups come from its same-name, same-family EltonTraits 1.0 entry. That archive follows earlier bird taxonomy or MSW3 for mammals; historical name matching cannot decide modern splits or synonyms.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-2d93cbff3d}
+The EltonTraits 1.0 record for *Stochomys longicaudatus* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 10%, fruit 80%, other plant material, including fungi 10% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Stochomys longicaudatus*.
 
 ## Fruit dominates the standardized food weights {#s-040dab530e}
 EltonTraits assigns 80% to fruit, 10% to invertebrates, and 10% to other plant material, including fungi. The percentages standardize written accounts rather than measure diet composition. ABC combines high, reasonable, and partial confidence; some estimates may use an ecologically similar congener, so direct observation of this species is not assured. A zero weight does not prove never eaten; labels such as Nect, Seed, and PlantO have broad source definitions.
@@ -13,11 +13,15 @@ The archive marks feeding activity at night with 1. Other periods may also carry
 ## Reference labels remain field-specific {#s-045f614100}
 The ecological fields carry Ref_1 and metadata:Nowak1999 labels. Diet, strata, and activity can come from different materials; a matching Ref number across bird and mammal reference tables does not mean the same source. The archive preserves strings by file, row, field group, and reference table. Underlying works have not been individually read, so these labels do not count as new observations.
 
-## What the EltonTraits fields do not establish {#s-e108306955}
-EltonTraits 1.0 is a historical same-name, same-family guide, not a monograph; its taxonomic concepts are not automatically equivalent to COL26.8. Food and avian-stratum percentages are coarse weights standardized from literature descriptions, not direct measurements of stomach contents, intake, energy, or observation time. Avian A/B codes retain source and proportional uncertainty. Mammalian ABC diet or activity fields may borrow from a congener, so not all are direct observations of this species. Genus/family typical values, non-species-level avian strata, and split records needing individual review do not establish a definite conclusion. Underlying sources have not been reread; individual, seasonal, and local variation and current range, population, and conservation need other evidence.
+## How to interpret these historical records {#s-e108306955}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## The name in historical PanTHERIA {#s-cd6fdcb76e}
-Stochomys longicaudatus is accepted in pinned COL26.8 within Muridae. The PanTHERIA 1.0 entry uses the MSW05 name in the August 2008 table; its biological data gathering ended in June 2004. This historical link does not settle later taxonomy.
+Ernest’s historical compilation generally gives equal-weight averages across listed sources, with possible reuse of the same primary source. The cited books and papers remain provenance; they do not become new direct observations here.
+
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass and litter size in the historical table {#s-cd6fdcb76e}
+The August 2008 PanTHERIA row for *Stochomys longicaudatus* records adult body mass 70.95 g; litter-size summary 2.38 offspring. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. A fractional litter-size value is a compiled summary, not a literal fractional litter. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Stochomys longicaudatus*.
 
 ## One consolidated adult-mass value {#s-112d1d7eb9}
 The historical adult body-mass summary is 70.95 g. PanTHERIA adjusts for sex, then reports a median. Inputs can include adult or age-unspecified animals but exclude pregnant females. This summary is not an individual measurement or a species-wide range.
@@ -37,8 +41,8 @@ This is the historical PanTHERIA 1.0 WR05/2008 entry. Continuous traits are gene
 ## Eight focal fields are unreported in this table {#s-9730124c53}
 Two of the ten focal life-history fields have usable positive values. The unreported fields are adult head–body length, adult forearm length, active fetal-growth interval, weaning-age measure, sexual-maturity age, interbirth interval, social-group size, and individual home-range area. These are gaps in the historical table, not evidence that the species lacks the traits. Extrapolations and relatives do not replace them; activity and map sections retain their own scope.
 
-## The Ernest record and its taxonomic basis {#s-1ea3f72bf5}
-Stochomys longicaudatus is accepted in pinned COL26.8 within Muridae. This section follows the same-name, same-family record in Ernest’s 2003 table, which uses Wilson and Reeder (1993). Names alone do not resolve later splits and lumps.
+## Litter size in the historical table {#s-1ea3f72bf5}
+The 2003 Ernest life-history compilation lists litter size 3 offspring for its historical *Stochomys longicaudatus* row. These are compilation values; the selected record does not identify a single sample or uniformly documented wild/captive conditions.  The MSW93/MSW05 name correspondence does not establish equivalence to the pinned COL26.8 concept for *Stochomys longicaudatus*.
 
 ## Three offspring per litter on average {#s-ade204d5f1}
 Ernest’s compilation reports an average of 3 offspring born per litter. Litter size counts offspring born, excluding estimates based only on embryo counts or reproductive scars. The integer average does not imply every litter has three offspring.
@@ -47,5 +51,5 @@ Ernest’s compilation reports an average of 3 offspring born per litter. Litter
 Of eight Ernest fields other than adult mass, one has an interpreted positive value. The unreported fields are active gestation, newborn mass, age at milk independence, mass at milk independence, female age at first reproduction, maximum recorded lifespan, and litters per female per year. Missing values do not show the traits are absent, and relatives or other tables do not supply replacements. This is not a complete account of diet, behavior, distribution, or conservation.
 
 ## Limits of Ernest’s historical compilation {#s-0a50fe52ea}
-This is a same-name entry in Ernest’s 2003 life-history compilation, not a complete monograph; taxonomy follows Wilson and Reeder (1993). A conservative link also uses PanTHERIA’s one-to-one MSW93/MSW05 same-name table, but equivalence to COL26.8 remains unproven. Except for maximum lifespan, the source generally averages literature values. Inputs can be individual records, published averages, or range midpoints when other values are lacking. Sources receive equal weight rather than sample-size weighting, and duplicate primary studies cannot be ruled out. Summaries are not local population parameters, universal schedules, or current conservation information. Eight fields beyond adult mass are interpreted here; original adult mass remains in the source row without a new comparison, and cited species entries were not individually read.
+This is a same-name entry in Ernest’s 2003 life-history compilation, not a complete monograph; taxonomy follows Wilson and Reeder (1993). A conservative link also uses PanTHERIA’s one-to-one MSW93/MSW05 same-name table, but equivalence to COL26.8 remains unproven. Except for maximum lifespan, the source generally averages literature values. Inputs can be individual records, published averages, or range midpoints when other values are lacking. Sources receive equal weight rather than sample-size weighting, and duplicate primary studies cannot be ruled out. Summaries are not local population parameters, universal schedules, or current conservation information. Eight fields beyond adult mass are interpreted here; original adult mass remains in the source row without a new comparison
 

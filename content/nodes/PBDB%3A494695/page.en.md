@@ -1,19 +1,59 @@
 ## Which fossil records this name represents {#s-8228fc995f}
 Simonimys genovefae is accepted in the fixed PBDB mammalia working roster, with database parent Simonimys. This guide uses 6 eligible species-level occurrence records from 6 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-25e2b75b3c}
-Collection Koru Fauna Locality 29, region code KE, stratum name Legetet; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Collection Moroto II (UPE collections), region code UG; database age bracket 23.04–11.63 Ma, early interval Early Miocene and late interval Middle Miocene. Collection Songhor (1989-1990 collections), region code KE; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Simonimys genovefae is listed in the PBDB snapshot under taxon txn:494695. This archived guide contains 6 selected occurrence rows, linked to 6 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-5c4c7cec1d}
-Selected occurrences have an outer age envelope of 23.04–11.63 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Moroto II (UPE collections), occurrence occ:786300 (23.04–11.63 Ma); one supplying the younger bound is Moroto II (UPE collections), occurrence occ:786300 (23.04–11.63 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-25e2b75b3c}
+The archived guide contains 6 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-84e687f2ed}
-Koru Fauna Locality 29 has collection-environment label "floodplain"; collection preservation-mode label body. Moroto II (UPE collections) has collection-environment label fluvial indet.; collection preservation-mode label body. Songhor (1989-1990 collections) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:786300; PBDB collection col:28293. Locality cnm=Moroto II (UPE collections); place fields cc2=UG. Recorded age bounds: eag 23.04 Ma; lag 11.63 Ma; PBDB interval fields oei=Early Miocene, oli=Middle Miocene. Recorded attribution Pickford et al. 2003; PBDB reference ref:28475.
 
-## Follow collection records back to references {#s-deaeda3b84}
-Koru Fauna Locality 29 carries database reference attribution Pickford and Andrews (1981), identifier ref:7625. Moroto II (UPE collections) carries database reference attribution Pickford et al. (2003), identifier ref:28475. Songhor (1989-1990 collections) carries database reference attribution Nengo and Rae (1992), identifier ref:29413. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Age constrained by being within Brachyodus range
+see comment on Moroto II concerning age assignment
+
+Moroto II and II fauna are Early Miocene–Middle Miocene in age (Pickford et al. 2003; Grossman et al. 2014; Pickford et al. 2017)
+
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+five nearby "fossilferous exposures" from "12 km north of Moroto Mountain, east Uganda" (Pickford et al. 2003)
+coordinate is for the primate locality that yields most of the new collections
+
+- Occurrence occ:292655; PBDB collection col:27858. Locality cnm=Koru Fauna Locality 29; place fields cc2=KE. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Stratigraphic fields sfm=Legetet. Recorded attribution Pickford and Andrews 1981; PBDB reference ref:7625.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Koru, Tinderet region, western Kenya
+
+- Occurrence occ:802838; PBDB collection col:87341. Locality cnm=Songhor (1989-1990 collections); place fields cc2=KE. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Recorded attribution Nengo and Rae 1992; PBDB reference ref:29413.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+the member "consists of ten beds of volcanic material dated to younger than 19.9 +/- 0.6 Ma" (i.e., Burdigalian)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+coordinate based on Songhor
+
+## Age bounds on the recorded occurrences {#s-5c4c7cec1d}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:786300; the smallest recorded lag=11.63 Ma in occ:786300. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-84e687f2ed}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:786300: PBDB taxon-name field tna=Simonimys genovefae; PBDB locality-coordinate fields lng=34.714443, lat=2.672222; paleocoordinate/model fields pm1=gplates, pln=34.22, pla=-2.34.
+- occ:292655: PBDB taxon-name field tna=Simonimys genovefae; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=35.266666, lat=-0.183333; paleocoordinate/model fields pm1=gplates, pln=34.75, pla=-5.49.
+- occ:802838: PBDB taxon-name field tna=Simonimys genovefae; PBDB locality-coordinate fields lng=35.216667, lat=-0.050000; paleocoordinate/model fields pm1=gplates, pln=34.7, pla=-5.35.
+
+## References attached to each record {#s-deaeda3b84}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:786300: Recorded attribution Pickford et al. 2003; PBDB reference ref:28475.
+- occ:292655: Recorded attribution Pickford and Andrews 1981; PBDB reference ref:7625.
+- occ:802838: Recorded attribution Nengo and Rae 1992; PBDB reference ref:29413.
 
 ## Evidence limits {#s-3469ec55c5}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 6 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

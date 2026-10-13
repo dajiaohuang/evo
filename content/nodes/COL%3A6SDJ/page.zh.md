@@ -11,6 +11,8 @@ Naturalis 的三个伶猴案例展示模式工作不同于简单重复旧标签�
 先读 [Plecturocebus bernhardi](Plecturocebus_bernhardi/page.zh.md) 的正模、副模、颜色组合与单件颅骨测量，再比较已报告地点和待确认延伸。回到 [Plecturocebus stephennashi](Plecturocebus_stephennashi/page.zh.md) 的未知精确来源，以及 [Plecturocebus discolor](Plecturocebus_discolor/page.zh.md) 的历史名称／现代修订问题；三页的材料和名称限制不同。现有生活史条目仍按各自样本和单位阅读，不用骨架、潜在食源树种或鸣叫叙述补造密度与食谱。
 
 ## 概览 {#s-8c3cc997be}
+COL26.8 将 Plecturocebus Byrne, Rylands, Carneiro, Lynch Alfaro et al., 2016 记录为属；其直接上级记录为 Callicebinae Pocock, 1925。
+
 本导读的分类入口固定为 COL26.8 属级 ID 6SDJ。Byrne 等（2016）综合分子、形态与生物地理证据，提出将绢毛猴分为 Plecturocebus、Callicebus 与 Cheracebus 三属；后续研究继续调整属内种界。类群名称适合作为导航入口，但不意味着每个种的分类处理都已稳定。
 
 ## 按研究问题选择阅读路径 {#s-9ed553cd93}

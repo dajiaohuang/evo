@@ -1,4 +1,4 @@
-## 本地数据阅读路径 {#s-193302fbe5}
+## 记录分类与成员材料 {#s-193302fbe5}
 Cuculiformes 的本批阅读路径包含 89 条有测量来源的物种记录，可从 Cacomantis castaneiventris、Cacomantis flabelliformis、Cacomantis merulinus、Cacomantis passerinus、Cacomantis sonneratii 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-9b526dac98}
@@ -19,8 +19,8 @@ Cuculiformes 的本批路线包含 7 个历史条目，可从 Cuculus clamosus�
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
-## 从有限生态资料开始 {#s-d1367986f5}
-Cuculiformes 本批有 8 个有限生态资料页，可从 [Carpococcyx viridis](Cuculidae/Carpococcyx/Carpococcyx_viridis/page.zh.md)、[Centropus celebensis](Cuculidae/Centropus/Centropus_celebensis/page.zh.md)、[Centropus chalybeus](Cuculidae/Centropus/Centropus_chalybeus/page.zh.md)、[Centropus nigrorufus](Cuculidae/Centropus/Centropus_nigrorufus/page.zh.md)、[Cuculus clamosus](Cuculidae/Cuculus/Cuculus_clamosus/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-d1367986f5}
+Cuculiformes 本批有 8 个有限生态资料页，可从 Carpococcyx viridis、Centropus celebensis、Centropus chalybeus、Centropus nigrorufus、Cuculus clamosus 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-4e06de4478}
 栖地类别见 8 页，取食生态位见 8 页，主导活动方式见 8 页，迁移类别见 8 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

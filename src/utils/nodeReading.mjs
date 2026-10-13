@@ -25,8 +25,52 @@ export function paragraphParts(text) {
   return text.split(/\n\s*\n/).map(part => part.trim()).filter(Boolean)
 }
 
+export function readerInlineParts(text) {
+  const parts = []
+  let plain = ''
+  const flush = () => {
+    if (plain) parts.push({ type: 'text', text: plain })
+    plain = ''
+  }
+  const escaped = index => {
+    let slashes = 0
+    for (let cursor = index - 1; cursor >= 0 && text[cursor] === '\\'; cursor--) slashes++
+    return slashes % 2 === 1
+  }
+
+  for (let index = 0; index < text.length;) {
+    const marker = text[index]
+    if ((marker !== '*' && marker !== '`') || escaped(index) || text[index - 1] === marker || text[index + 1] === marker) {
+      plain += marker
+      index++
+      continue
+    }
+    let end = text.indexOf(marker, index + 1)
+    while (end >= 0 && escaped(end)) end = text.indexOf(marker, end + 1)
+    if (end <= index + 1 || text[end + 1] === marker) {
+      plain += marker
+      index++
+      continue
+    }
+    const content = text.slice(index + 1, end)
+    const invalidContent = content.includes('\n') || (marker === '*' && (/^\s|\s$/.test(content)))
+    if (invalidContent) {
+      plain += marker
+      index++
+      continue
+    }
+    flush()
+    parts.push({ type: marker === '*' ? 'emphasis' : 'code', text: content })
+    index = end + 1
+  }
+  flush()
+  return parts
+}
+
 export function readingSectionTitle(section, language) {
   if (section.title?.[language]) return section.title[language]
+  const fallbackLanguage = language === 'en' ? 'zh' : 'en'
+  if (!section.text[language] && section.text[fallbackLanguage] && section.title?.[fallbackLanguage]) return section.title[fallbackLanguage]
   const zh = language === 'zh'
   const topic = (section.topic ?? '').toLowerCase().replaceAll(/[_ -]/g, '')
   const text = section.text[language] ?? ''
@@ -60,7 +104,7 @@ export function catalogueReadingSections(profile, dossier) {
   } else for (const [topic, facet] of Object.entries(dossier?.facets ?? {})) {
     for (const [index, claim] of (facet.claims ?? []).entries()) {
       sections.push({
-        id: `study-${topic}-${index}`, topic,
+        id: `study-${topic}-${index}`, topic, title: claim.title,
         text: { ...(claim.text ? { en: claim.text } : {}), ...(claim.textZh ? { zh: claim.textZh } : {}) },
         sourceIds: claim.sourceIds.map(id => `study:${id}`), locator: claim.locator,
         context: [claim.placeTimeScope, claim.lifeStatus].filter(Boolean), limitations: facet.gaps ?? [],

@@ -138,7 +138,10 @@ records:
     - subjectId: taxon:angelarctocyon
       claimKind: scientific
       claimType: fossil-range
-      statement: Angelarctocyon australis is bounded by holotype TMM 41850-1 and referred jaw material from the Chambers Tuff within an approximately 42–38 Ma sample envelope; this is not a global genus duration or direct ancestor interval.
+      statement:
+        page: en
+        section: s-c31f928d96
+        part: body
       confidence: medium
       confidenceRationale: Named material and formation context are direct; genus reassignment and basal family placement come from comparative scoring.
       referenceLinks:
@@ -150,7 +153,9 @@ records:
   claim-rationales.zh:
     - 具名材料与地层背景属于直接证据；属级重归和基干科位置来自比较编码。
   claim-statements.zh:
-    - Angelarctocyon australis 由 Chambers Tuff 的正模 TMM 41850-1 与归入颌骨材料约束，处于约 4200 万—3800 万年前的样本区间；这不是全球属级延续或直接祖先区间。
+    - page: zh
+      section: s-be614bea48
+      part: body
   ranges:
     - entityId: angelarctocyon
       rangeKind: global-composite

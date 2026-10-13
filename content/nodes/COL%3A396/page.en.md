@@ -1,10 +1,10 @@
-## Local data reading route {#s-572b7e582b}
+## Recorded classification and member material {#s-572b7e582b}
 This batch’s Gaviiformes route includes 5 measured species records. Start with Gavia adamsii, Gavia arctica, Gavia immer, Gavia pacifica, Gavia stellata. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-8f1bfd4ed2}
 Compiled mean mass endpoints in this batch are Gavia stellata at 1486 g and Gavia immer at 4956.81 g. Represented habitat categories include Wetland; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-568134a4be}
+## Amniote Life-history archive member records {#s-568134a4be}
 This batch’s Gaviiformes route includes 5 historical life-history accounts; start with Gavia adamsii, Gavia arctica, Gavia immer, Gavia pacifica, Gavia stellata. More frequently represented fields include adult body mass (5 entries), female maturity field (defined by the source as age at first conception) (5 entries), offspring per litter or eggs per clutch (5 entries), mass at birth or hatching (5 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-b87e90a4a2}

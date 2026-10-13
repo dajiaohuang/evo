@@ -1,29 +1,27 @@
-## Name and the two data sources {#s-4d7106e8e5}
-Pinned COL26.8 lists Pseudocerastes persicus in Viperidae. The ReptTraits v1-2 entry follows the Reptile Database 2023 name framework and cites sources by trait. Other sections summarize a historical life-history record from the August 2015 archive, which has its own source labels and compilation method.
+## COL26.8 name and the ReptTraits row {#s-4d7106e8e5}
+COL26.8 records Pseudocerastes persicus as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What do the reported lengths measure? {#s-ca51547575}
-The reported maximum snout-to-vent length (SVL) is 625 mm, and the reported maximum total length (TL) is 1080 mm. SVL ends at the vent; total length also includes the tail. These compiled maxima describe reported material, not a theoretical growth limit or typical individual size. Female and male values may come from different localities or studies, so they cannot by themselves measure sexual dimorphism within one population.
+## Length values in the archived records {#s-ca51547575}
+The row reports a maximum SVL of 625 mm. ReptTraits attributes this field to Feldman & Meiri 2013. The row reports maximum total length (TL) of 1080 mm. ReptTraits attributes this field to Feldman & Meiri 2013. This row records TL and SVL in separate fields; the captured definitions provide no conversion between them.
 
-## Where and when is it active? {#s-84a6c134db}
-The entry lists the microhabitat as terrestrial and activity as nocturnal. These categories do not describe every habitat or a fixed schedule. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-84a6c134db}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Scharf et al. 2015. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Feldman et al. 2015.
 
-## What does the ReptTraits reproductive record show? {#s-90071601d1}
-The ReptTraits row labels the species as oviparous, or egg-laying, and reports a compiled mean of 15 offspring or eggs per litter or clutch. This is a summary, not a count for every reproductive event. The workbook may use midpoints of reported means, or extrema when means are unavailable; a fractional summary is not a fraction of an individual. “Lowest” and “highest” fields are endpoints of reported means, not guaranteed clutch extremes. The label does not establish a pattern shared by all populations.
+## Reproductive fields in ReptTraits {#s-90071601d1}
+The compiled mean for offspring per litter or eggs per clutch is 15. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Feldman et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## How the historical life-history entry is linked {#s-748fcb4647}
-The August 2015 life-history archive has a historical entry under the same name. Three fields in that entry have cited species-level sparse-table rows associated with the same name and family. The archived summaries may still inherit data across historical taxonomic concepts; a matching name does not remove that possibility.
+## A 2015 life-history row for this name {#s-748fcb4647}
+COL26.8 records Pseudocerastes persicus as an accepted species. The August 2015 life-history table has a species-name and family match (Viperidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## What the archive reports about incubation {#s-f8f7999bb8}
-The archive reports 15 offspring or eggs per litter or clutch and 17 d from oviposition to hatching; d means days. The litter/clutch field combines offspring and egg counts, so its value is a compilation summary rather than the count from one observed event. Incubation describes a different event and is not interchangeable with a general reproductive cycle.
+## Reproductive events in the life-history table {#s-f8f7999bb8}
+Field-specific archive notes: offspring per litter or eggs per clutch: one direct source citation, with no median count stated; oviposition to hatching: one direct source citation, with no median count stated. The offspring-per-litter or eggs-per-clutch summary is 15; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book. The incubation field is 17 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## What the longevity value represents {#s-1c9407ef06}
-The archive's maximum_longevity_y field is 17.1 years, the largest record in its collected material under the source method. It is not a typical lifespan, a mean wild lifespan, a survival limit for every individual, or a current record known to be repeatedly attainable.
+## Longest lifespan in the archive {#s-1c9407ef06}
+The archive's longest-lifespan record is 17.1 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002.
 
-## Where the historical source labels lead {#s-35139ad80a}
-The same-name sparse rows carry labels including Reptile Incubation book; de Magalhaes and Costa, 2009; and Carey, J.R. and D.S. Judge, 2002. The archive preserves each field's source-row number, value and label, alongside the final table's reference explanations. A label may refer to a paper, book or another database. Row counts are not counts of measured individuals, and repeated citations do not represent independent experimental replication.
+## The August 2015 life-history table {#s-35139ad80a}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-ceba72863c}
-The ReptTraits values follow its Reptile Database 2023 name framework. A one-row summary can conceal differences by sex, age, locality and population, and the historical name may not match later taxonomic concepts. A reported maximum is not a biological upper limit, and reproductive means do not describe every clutch. Length-based mass estimates are not measured weights; juvenile-length fields are excluded because their headers and definitions vary. ReptTraits provides no current information here on conservation, venom, distribution or population trends. Its citation labels trace the workbook's sources but do not independently establish every cited paper's findings.
-
-The August 2015 archive reports compilation medians or averages of the two middle values, except for maximum longevity, which uses the largest record found. These summaries are not measurements of one individual, ranges of individual variation, mean wild lifespans or current population surveys. Historical species and subspecies entries may share or inherit data. Same name, family and sparse-row citations support the association, but do not establish equivalence with COL26.8 or remove all inherited components. Wild or captive conditions are not uniformly confirmed, and the underlying publications were not individually reviewed for this summary. Diet, behavior, current range, conservation and blank fields need other sources.
+## Separate histories in the two archives {#s-ceba72863c}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

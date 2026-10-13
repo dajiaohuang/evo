@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-c26f6062e8}
+## 记录分类与直接上级关系 {#s-c26f6062e8}
+COL26.8 将 Connochaetes 记录为属；其直接上级记录为 Alcelaphini。
+
 PanTHERIA 的 Connochaetes 本地路线包含 2 条可用历史记录：Connochaetes gnou 与 Connochaetes taurinus。条目保留来源中的 MSW05 名称，各字段也各有适用范围；记录数不是 COL26.8 当前接受种的总数。
 
 ## 比较体型与生活史 {#s-30340d8cc1}
@@ -14,7 +16,7 @@ EltonTraits 在这条路线中有 2 条历史记录；食物类别权重、取�
 PanTHERIA 汇总的是较早的 MSW05 表格，同名关联没有解决后来的分类变化。生活史数值是历史平均值或中位数，最高寿命则取已报告的最大记录；资料条件和分类继承并不统一。EltonTraits 将文献描述转换为宽泛类别和相对权重，因此这些数值不是对每只动物的直接测量。本路线只呈现本批已有的记录与字段。
 
 ## 沿生活史资料阅读 {#s-5f4da1d480}
-这里链接 Ernest（2003）的 2 个生活史页面：[Connochaetes gnou](Connochaetes_gnou/page.zh.md) 与 [Connochaetes taurinus](Connochaetes_taurinus/page.zh.md)。链接按固定 COL26.8 路径组织；历史记录数不是全属普查。
+这里链接 Ernest（2003）的 2 个生活史页面：Connochaetes gnou 与 Connochaetes taurinus。链接按固定 COL26.8 路径组织；历史记录数不是全属普查。
 
 ## 先区分平均值与纪录 {#s-09fa42e1b6}
 妊娠时长和雌性首次繁殖年龄各见于 2 条记录，最高寿命记录见于 1 条。首次繁殖指可能受孕的年龄，不是首次生产或性成熟年龄；最长寿命也不是平均寿命。

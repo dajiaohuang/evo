@@ -1,5 +1,5 @@
-## 沿旧 Thryothorus 组合查历史行 {#s-9725e0a9e8}
-本页按 COL26.8 的 Pheugopedius mystacalis（4G3KK）组织。BirdLife 2020 第 8490 行与 eBird 2021 第 7743 行同名，Avibase ID 为 AVIBASE-A5AADBF7，类型 1BL to 1eBird；BirdTree 第 7706 行记 Thryothorus mystacalis，类型 1BL to 1BT。本次读到目录异名 56N7T，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-9725e0a9e8}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pheugopedius mystacalis (P. L. Sclater, 1860) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-8bf51b3503}
 形态共 6 只鸟：雌 0、雄 3、性别未定 3；完整测量 4 只。鼻孔前缘至喙尖 11.7 mm、跗蹠 24.3 mm、未压平翼长 64.5 mm、尾长 59.3 mm、手翼指数 9.1 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。没有已定雌鸟，仍有性别未定鸟，不能称全部为雄鸟或建立雌雄比较。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

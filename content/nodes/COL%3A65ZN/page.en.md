@@ -1,4 +1,6 @@
-## Choose comparison pages by life-history fields {#s-3064d59bda}
+## Recorded classification and direct parent {#s-3064d59bda}
+COL26.8 records Nycticeius at genus rank, with Nycticeiini as its direct parent.
+
 The life-history route contains three historical accounts: Nycticeius aenobarbus, N. cubanus and N. humeralis. Each has an adult-mass value, an age-at-first-conception field, offspring per litter and an age for dependence on food other than maternal milk. These counts describe this batch’s coverage, not the complete accepted-species denominator; check the event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-9d90864c70}

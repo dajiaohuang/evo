@@ -1,19 +1,56 @@
 ## Which fossil records this name represents {#s-35ecf43658}
 Georgiacetus vogtlensis is accepted in the fixed PBDB mammalia working roster, with database parent Georgiacetus. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-99d2fd3bb4}
-Collection Vogtle Electric Generating Plant (Georgia), region code US, stratum name Blue Bluff; database age bracket 41.03–37.71 Ma, early interval Bartonian. Collection Coffeeville Landing, north (Alabama), region code US, stratum name Lisbon; database age bracket 41.03–37.71 Ma, early interval Bartonian. Collection Newton (Mississippi), region code US, stratum name Cook Mountain; database age bracket 41.03–37.71 Ma, early interval Bartonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Georgiacetus vogtlensis is listed in the PBDB snapshot under taxon txn:63123. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-3a444f24bf}
-Selected occurrences have an outer age envelope of 41.03–37.71 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Vogtle Electric Generating Plant, occurrence occ:68135 (41.03–37.71 Ma); one supplying the younger bound is Vogtle Electric Generating Plant, occurrence occ:68135 (41.03–37.71 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-99d2fd3bb4}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-88e6497375}
-Vogtle Electric Generating Plant has collection-environment label deep subtidal shelf; collection preservation-mode label body,original calcite. Coffeeville Landing, north has collection-environment label offshore; collection preservation-mode label body,original phosphate. Newton has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:68135; PBDB collection col:4868. Locality cnm=Vogtle Electric Generating Plant; place fields cc2=US, stp=Georgia, cny=Burke. Recorded age bounds: eag 41.03 Ma; lag 37.71 Ma; PBDB interval fields oei=Bartonian. Stratigraphic fields sfm=Blue Bluff. Recorded attribution Hulbert et al. 1998; PBDB reference ref:289.
 
-## Follow collection records back to references {#s-39a0b7a8f4}
-Vogtle Electric Generating Plant carries database reference attribution Hulbert et al. (1998), identifier ref:289. Coffeeville Landing, north carries database reference attribution Uhen (2008), identifier ref:28136. Newton carries database reference attribution Uhen (2008), identifier ref:28136. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Hulbert et al (1998) state that the age is latest Lutetian or Bartonian, NP 16. Geisler & Beatty (2010) state that it it Lutetian. The presence of Dictyococcites bisectus (aka Reticulofenestra bisecta) indicates that it is Bartonian.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+south of water intake station, Vogtle Electric Generating Plant
+
+- Occurrence occ:780514; PBDB collection col:83980. Locality cnm=Coffeeville Landing, north; place fields cc2=US, stp=Alabama, cny=Clarke. Recorded age bounds: eag 41.03 Ma; lag 37.71 Ma; PBDB interval fields oei=Bartonian. Stratigraphic fields sfm=Lisbon. Recorded attribution Uhen 2008; PBDB reference ref:28136.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper Lisbon
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coffeeville Landing, east/left bank of Tombigbee River, Coffeeville, AL, north of US 84 bridge
+
+- Occurrence occ:780516; PBDB collection col:83981. Locality cnm=Newton; place fields cc2=US, stp=Mississippi. Recorded age bounds: eag 41.03 Ma; lag 37.71 Ma; PBDB interval fields oei=Bartonian. Stratigraphic fields sfm=Cook Mountain. Recorded attribution Uhen 2008; PBDB reference ref:28136.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+early Bartonian
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+intersection of Interstate 20 and Mississippi Highway 15, near Newton, Mississippi
+
+## Age bounds on the recorded occurrences {#s-3a444f24bf}
+Across these selected PBDB rows, the largest recorded eag=41.03 Ma in occ:68135; the smallest recorded lag=37.71 Ma in occ:68135. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-88e6497375}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:68135: PBDB original-identification field idn=Georgiacetus vogtlensis n. gen. n. sp.; PBDB taxon-name field tna=Georgiacetus vogtlensis; PBDB locality-coordinate fields lng=-81.760559, lat=33.143333; paleocoordinate/model fields pm1=gplates, pln=-61.49, pla=35.55.
+- occ:780514: PBDB taxon-name field tna=Georgiacetus vogtlensis; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-88.099998, lat=31.756390; paleocoordinate/model fields pm1=gplates, pln=-68.28, pla=35.43.
+- occ:780516: PBDB taxon-name field tna=Georgiacetus vogtlensis; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-89.139725, lat=32.338890; paleocoordinate/model fields pm1=gplates, pln=-71.73, pla=36.19.
+
+## References attached to each record {#s-39a0b7a8f4}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:68135: Recorded attribution Hulbert et al. 1998; PBDB reference ref:289.
+- occ:780514: Recorded attribution Uhen 2008; PBDB reference ref:28136.
+- occ:780516: Recorded attribution Uhen 2008; PBDB reference ref:28136.
 
 ## Evidence limits {#s-2011c9bf20}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

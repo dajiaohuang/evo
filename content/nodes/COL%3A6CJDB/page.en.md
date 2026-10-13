@@ -1,44 +1,44 @@
-## The name and this data account {#s-fdadb31ba6}
-Dendrocopos major is accepted in COL26.8 within Picidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 12 measured individuals, 5 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-fdadb31ba6}
+The AVONET v7 row for Dendrocopos major (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 21.8 mm. The row records 12 measured individuals, 5 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-e136ae80a5}
-Recorded mean beak measurements are 21.8 mm from the anterior nostril edge to the tip, 9.3 mm in width and 8.7 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-e136ae80a5}
+AVONET records culmen length (bill tip to skull base) 27.9 mm; beak length (nostril front edge to tip) 21.8 mm; beak width at the nostril front edge 9.3 mm; beak depth at the nostril front edge 8.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-b0da5d3fd3}
-Mean unflattened wing length from the carpal joint to the longest primary is 136.2 mm; mean tarsus length is 23.9 mm. Compiled mean mass is 74.94 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-b0da5d3fd3}
+AVONET records unflattened wing length 136.2 mm; tarsus length 23.9 mm; distance from first secondary tip to longest primary tip 40.8 mm; length to first secondary tip 98.5 mm; hand-wing index 29.3; tail length 88 mm; species-average body mass 74.94 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-0d9d15ec0c}
-The dataset assigns habitat Woodland, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-0d9d15ec0c}
+AVONET classifies Dendrocopos major as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-6ab38208e7}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 18.16° to 68.6°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-6ab38208e7}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 18.16° to 68.6°. The mapped range area is 24413724.29 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-9b764c3a09}
-Dendrocopos major is accepted in pinned COL26.8 within Picidae. The 2015 life-history compilation has a same-name entry with five focal fields supported by cited species-level rows in the same family. Historical summaries may inherit information across taxonomic accounts, so the name match does not remove that possibility.
+## Scope of the historical life-history entry {#s-9b764c3a09}
+The August 2015 database has a same-name, same-family record for Dendrocopos major. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-8321d15451}
-The adult-mass summary is 76.5 g. Such a compilation can combine males, females and adults of unspecified sex; it does not give a species-wide range of individual masses. No birth or hatching mass is reported among the five fields presented here.
+## Compiled adult-mass values {#s-8321d15451}
+The August 2015 compilation reports adult body mass 76.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-6449f01932}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 365 d; offspring per litter or eggs per clutch 5.7 offspring/eggs; oviposition to hatching 13.5 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-6449f01932}
+The August 2015 compilation reports female age at first conception (source definition) 365 days; median or interpolated-median number of offspring or eggs per litter/clutch 5.7; oviposition-to-hatching interval 13.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-61b4c48dff}
-The reported maximum_longevity_y value is 12.7 years, using the largest record under the source method. It is not a typical lifespan, mean wild lifespan, survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-61b4c48dff}
+The compilation lists 12.7 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-a160bb0a35}
-The five life-history fields carry labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; and Wasser, D.E. and P.W. Sherman, 2010. A label may refer to a primary paper, book or another database. Sparse-row counts are not counts of measured individuals, and repeated citations do not constitute independent experimental replication.
+## Sources and field limits {#s-a160bb0a35}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-7d0550d99d}
-Dendrocopos major is accepted in pinned COL26.8 within Picidae. EltonTraits 1.0 links a same-name record in the same family and supplies food and foraging-stratum fields for comparison. Its taxonomy follows an earlier bird classification; a name match does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-7d0550d99d}
+EltonTraits 1.0 has a same-name, same-family record for Dendrocopos major covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-73e8428ba2}
-The nonzero food weights are invertebrates 50%, seeds, nuts and spores 30% as one source category, mammals and birds 10%, and scavenged food with related discarded material 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-73e8428ba2}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; mammals and birds 10%; carrion or refuse 10%; seeds or nuts 30%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-7e074b5526}
-The species-level foraging-stratum weights are 40% in trees or high bushes from 2 m upward but below the canopy, 30% in or just above the canopy, 20% in understory, edges or shrubs below 2 m, and 10% in air well above vegetation or other structures. They estimate relative use of feeding positions, not nest sites, all habitat or a whole-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-7e074b5526}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 20%; in mid-height or high vegetation 40%; in the canopy 30%; in the air 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-aa02da8815}
-Both reported groups carry the source label Ref_7. Diet, strata and activity can draw on different material, and the same Ref number in bird and mammal reference tables does not identify the same source. The original source strings identify their file, row, field group and reference table. The underlying books and papers have not been individually read, so these labels are not additional independent observations.
+## Sources and field limits {#s-aa02da8815}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-aad5886f50}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

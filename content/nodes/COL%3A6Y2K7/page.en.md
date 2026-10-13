@@ -1,29 +1,29 @@
-## The name and this data account {#s-8de6e943c2}
-COL26.8 accepts *Sasia abnormis* in Picidae. AVONET v7 records it under the HBW–BirdLife 2020 name and lists 10 measured individuals; 5 have a complete morphological set. Trait-specific samples may be smaller.
+## Row-reported mean and sample coverage {#s-8de6e943c2}
+The AVONET v7 row for Sasia abnormis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 11.5 mm. The row records 10 measured individuals, 5 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-3c7b673191}
-Mean beak length from the anterior edge of the nostril to the tip is 11.5 mm; mean width and depth at that edge are 4.1 mm and 4.9 mm. These are distinct standardized measurements, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-3c7b673191}
+AVONET records culmen length (bill tip to skull base) 13.9 mm; beak length (nostril front edge to tip) 11.5 mm; beak width at the nostril front edge 4.1 mm; beak depth at the nostril front edge 4.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-c5caceedb0}
-Unflattened wing length, measured from the carpal joint to the longest primary, averages 52.4 mm; tarsus length averages 13.7 mm. A separate compilation gives mean mass as 9.2 g (source category Dunning). The mass average is independent of the morphology sample and does not mean every measured bird was weighed.
+## Wing and body measures use separate sources {#s-c5caceedb0}
+AVONET records unflattened wing length 52.4 mm; tarsus length 13.7 mm; distance from first secondary tip to longest primary tip 5.1 mm; length to first secondary tip 47 mm; hand-wing index 9.7; tail length 22.7 mm; species-average body mass 9.2 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-33c7862fe3}
-The dominant AVONET categories are Forest habitat, Invertivore trophic niche and Insessorial lifestyle. They are comparison labels, not claims of exclusive habitat or food use.
+## Recorded habitat and feeding categories {#s-33c7862fe3}
+AVONET classifies Sasia abnormis as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-c00d36ccf1}
-The migration field labels the record sedentary. Historical breeding and resident maps have latitude endpoints −7.61° and 17.86°. They do not show every non-breeding movement or indicate a current position or global occupancy. Geography and morphology were assembled separately.
+## The migration label has a limited scope {#s-c00d36ccf1}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -7.61° to 17.86°. The mapped range area is 1159649.15 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-84eca3e0f6}
-EltonTraits 1.0 contains an older *Sasia abnormis* record in the same family. The two selected ecological fields are compared here with the accepted COL26.8 entry. The dataset follows an earlier bird or MSW3 mammal taxonomy, so the name match does not settle later splits or synonymies.
+## Scope of the historical trait entry {#s-84eca3e0f6}
+EltonTraits 1.0 has a same-name, same-family record for Sasia abnormis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-9dd0afa140}
-The archive gives invertebrates the only nonzero food weight: 100%. Code A indicates high compiler confidence in the source and diet information. This standardized reading of written descriptions is not a measured diet; zero does not prove that a food is never eaten. Nect, Seed and PlantO are broader source categories than their everyday names and do not imply a diet limited to nectar, seeds or plants.
+## Relative weights across food categories {#s-9dd0afa140}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-98633079bd}
-The species-level feeding-position weights are 80% in understory, edges or shrubs below 2 m, and 20% in trees or tall bushes from 2 m upward but below the canopy. These figures estimate relative use while feeding, not nest sites, all habitat or a whole-day time budget. Surface-water, understory, mid/high, canopy and aerial positions have distinct source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-98633079bd}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 80%; in mid-height or high vegetation 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-02c2f72adb}
-The selected groups carry Ref_7 labels. Diet, feeding position and activity may draw on different material, and the same number in bird and mammal reference tables does not necessarily refer to the same work. The archive keeps complete source strings with file, row, field group and reference table. The underlying books and papers have not been read individually; source labels are not extra independent observations.
+## Sources and field limits {#s-02c2f72adb}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-493f8cae1f}
 AVONET v7 gives historical comparisons rather than a complete species account. The morphological measurements are sample averages, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources, so the morphology sample count cannot be transferred to it. Habitat, diet and migration are broad categories; the mapped geography covers historical breeding and resident ranges only. A one-to-one crosswalk to an older name plus the catalogue match supports this association, but does not show that species concepts remained equivalent after splits or lumps. Reproduction, current populations and conservation status require other sources.

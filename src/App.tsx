@@ -22,6 +22,8 @@ const BackendCatalogueTaxonPage = lazy(() => import('./components/catalogue/Back
   .then((module) => ({ default: module.BackendCatalogueTaxonPage })))
 const TaxonPage = lazy(() => import('./components/catalog/CatalogPages')
   .then((module) => ({ default: module.TaxonPage })))
+const PbdbTaxonPage = lazy(() => import('./components/catalogue/PbdbTaxonPage')
+  .then((module) => ({ default: module.PbdbTaxonPage })))
 const EventPage = lazy(() => import('./components/catalog/CatalogPages')
   .then((module) => ({ default: module.EventPage })))
 const StoriesPage = lazy(() => import('./components/catalog/CatalogPages')
@@ -74,6 +76,7 @@ export default function App() {
       home: language === 'zh' ? '古地图与生命故事 — Evo Atlas' : 'Paleomap and stories of life — Evo Atlas',
       catalog: 'Catalog — Evo Atlas',
       registry: 'Catalogue taxon — Evo Atlas',
+      pbdb: 'PBDB taxon — Evo Atlas',
       explore: 'Explore — Evo Atlas',
       research: 'Research — Evo Atlas',
       info: language === 'zh' ? '资料与方法 — Evo Atlas' : 'Information and methods — Evo Atlas',
@@ -143,6 +146,7 @@ export default function App() {
     ? <BackendCatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
     : <CatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'research') page = <ResearchHubPage onNavigate={navigate} />
+  else if (route === 'pbdb') page = <PbdbTaxonPage id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'info') page = <InformationPage params={routeState.params} onNavigate={navigate} />
   else if (route === 'taxa') page = <TaxonPage id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'events') page = <EventPage id={routeState.params.get('id')} onNavigate={navigate} />

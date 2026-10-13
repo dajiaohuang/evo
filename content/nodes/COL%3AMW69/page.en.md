@@ -1,29 +1,29 @@
-## Name, lineage and sample {#s-a0d34812de}
-COL26.8 accepts Brachygalba salmoni in Galbulidae. AVONET v7 lists it under the HBW–BirdLife 2020 name: 7 individuals were measured, and all 7 have a complete morphological set. Counts usable for a particular trait may differ.
+## Row-reported mean and sample coverage {#s-a0d34812de}
+The AVONET v7 row for Brachygalba salmoni (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 40.1 mm. The row records 7 measured individuals, 7 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions {#s-fc00c338ff}
-Mean length from the anterior nostril edge to the tip is 40.1 mm; width is 3.4 mm and depth at that edge is 4.5 mm. These are separate measurements at standardized landmarks, not identification cutoffs.
+## Beak measurements at defined landmarks {#s-fc00c338ff}
+AVONET records culmen length (bill tip to skull base) 47.8 mm; beak length (nostril front edge to tip) 40.1 mm; beak width at the nostril front edge 3.4 mm; beak depth at the nostril front edge 4.5 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-21c67ee12a}
-Mean unflattened wing length, from carpal joint to longest primary, is 70.3 mm; mean tarsus is 10.9 mm. A separately compiled mean mass is 17.2 g (source category Dunning); this does not show that every morphology specimen was weighed.
+## Wing and body measures use separate sources {#s-21c67ee12a}
+AVONET records unflattened wing length 70.3 mm; tarsus length 10.9 mm; distance from first secondary tip to longest primary tip 18.9 mm; length to first secondary tip 51.5 mm; hand-wing index 26.8; tail length 52.9 mm; species-average body mass 17.2 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Ecological categories {#s-bd82301d5c}
-AVONET records Forest habitat, Invertivore trophic niche and Insessorial lifestyle. These are broad comparison labels, not exclusive habitat or diet claims.
+## Recorded habitat and feeding categories {#s-bd82301d5c}
+AVONET classifies Brachygalba salmoni as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and mapped range {#s-93030c6313}
-The migration entry is sedentary. Historical breeding and resident maps span latitudes 6.77° to 10.3°. They are not a complete record of non-breeding movements or an estimate of present position or global occupancy; geography and morphology were compiled separately.
+## Mapped range is not a locality list {#s-93030c6313}
+Historical breeding and resident maps span latitude endpoints 6.77° to 10.3°. The mapped range area is 50824.86 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## Two EltonTraits field groups {#s-808dbaf572}
-The same-name, same-family EltonTraits 1.0 record is associated with Brachygalba salmoni in pinned COL26.8. This page interprets 2 supported ecological field groups. The source uses historical bird taxonomy (and MSW3 for mammals); matching names do not resolve later splits or synonyms.
+## Scope of the historical trait entry {#s-808dbaf572}
+EltonTraits 1.0 has a same-name, same-family record for Brachygalba salmoni covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Food-category weights {#s-1a5662d02c}
-The only nonzero food weight shown is invertebrates 100%. Code A marks high compiler confidence in source and diet information. These standardized weights interpret written descriptions; they are not measured diet proportions, and zero does not prove a food is never eaten. Nect, Seed and PlantO are broader source categories than their everyday labels.
+## Relative weights across food categories {#s-1a5662d02c}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 100%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Feeding positions {#s-fc81195ab9}
-Species-level strata weights are canopy or just above it 60%, understory/edges/shrubs below 2 m 20%, and trees or high bushes from 2 m up but below the canopy 20%. They estimate relative feeding-position use, not nest sites, whole-habitat use or time budgets. Surface-water, understory, mid/high, canopy and aerial categories have distinct definitions; they do not measure elevation, flight height or habitat area.
+## Foraging positions are not a time budget {#s-fc81195ab9}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 20%; in mid-height or high vegetation 20%; in the canopy 60%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Source labels {#s-525046cd43}
-The selected field groups carry Ref_7. Diet, stratum and activity may come from different material, and the same Ref number in bird and mammal tables need not name the same source. The archive retains the original strings with file, row, field group and reference table. The underlying books and papers were not individually read; labels do not add independent observations.
+## Sources and field limits {#s-525046cd43}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-6dc7719624}
 AVONET v7 values are historical species averages for the listed samples, not individual ranges or identification criteria. The Dunning mass estimate has a separate denominator from the morphology sample. Habitat, diet and migration are broad categories; the mapped latitudes describe historical breeding and resident ranges only. Crosswalks and matching names link records but do not prove historical concepts equal COL26.8. Reproduction, current populations and conservation need other sources.

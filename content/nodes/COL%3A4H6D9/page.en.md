@@ -1,18 +1,18 @@
-## A limited, source-linked entry {#s-99f0b64958}
-COL26.8 accepts Phyllodactylus rutteni within Phyllodactylidae. The limited ReptTraits v1-2 row uses the workbook’s Reptile Database 2023 name framework. This page interprets three supported labels; it is not a complete account of the species.
+## COL26.8 name and the ReptTraits row {#s-99f0b64958}
+COL26.8 records Phyllodactylus rutteni as an accepted species. The ReptTraits v1-2 row gives its Family field as Phyllodactylidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The maximum leaves out the tail {#s-9c247d0e70}
-The reported maximum snout–vent length (SVL) is 51.1 mm. SVL is measured from snout to vent, excluding the tail. This is a compiled maximum, not a typical size or an absolute growth limit; the entry supplies no separate male or female maximum.
+## Length values in the archived records {#s-9c247d0e70}
+The row reports a maximum SVL of 51.1 mm. ReptTraits attributes this field to Meiri 2018.
 
-## One label for tree use {#s-29fcbc36f6}
-The supported microhabitat label is arboreal, or associated with trees. This entry does not establish diet, activity time or foraging mode. One habitat label cannot map the species’ full range of settings or variation among populations, seasons and life stages.
+## Habitat use and activity labels {#s-29fcbc36f6}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018.
 
-## Egg-laying is recorded; clutch size is not {#s-1af6da63cd}
-The source labels the reproductive mode oviparous, meaning egg-laying. No clutch or litter number is supported here, so the number of eggs per event remains unknown. The mode label alone does not describe embryo nutrition or show that every population is alike.
+## Reproductive fields in ReptTraits {#s-1af6da63cd}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Other fields remain unsupported {#s-415d5be44e}
-The source-linked entry does not establish sex-specific or total length, clutch counts or frequency, egg dimensions, diet, activity time, foraging mode or sex-determination mechanism. These fields need species-level sources; relatives and blank entries cannot fill them.
+## Reading this compiled trait record {#s-415d5be44e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## How to use this record {#s-b6771c7d5a}
-This supplement offers limited trait material rather than complete morphology or ecology. It follows the same-name ReptTraits v1-2 row and its 2023 name framework; one row compresses age, sex, place and population variation, and matching name and family do not prove equivalence with later concepts. The length is a reported maximum, not a species-wide ceiling. Current conservation, venom, distribution and population trends are not updated here; citations retain the source chain without implying that every original work was independently reread for this page.
+## Reading this compiled trait record {#s-b6771c7d5a}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

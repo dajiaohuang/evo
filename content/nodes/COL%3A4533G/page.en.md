@@ -1,5 +1,5 @@
-## Find rows through older Basileuterus combinations {#s-43ca542d3b}
-Pinned COL26.8 organizes this page at Myiothlypis nigrocristata (4533G). BirdLife 2020 row 6316 and eBird 2021 row 6599 share the name and Avibase ID AVIBASE-3D4F2A70, with type 1BL to 1eBird; BirdTree row 6575 gives Basileuterus nigrocristatus, with type 1BL to 1BT. Catalogue synonym 5WCWR, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-43ca542d3b}
+Catalogue of Life release COL26.8 records Myiothlypis nigrocristata (Lafresnaye, 1840) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-e9b9d34954}
 Morphology comprises 13 birds: 5 female, 6 male and 2 unsexed; 4 complete sets. Nostril-to-tip beak length 8.1 mm, tarsus 22.5 mm, unflattened wing 61.5 mm, tail 58.2 mm and hand-wing index 9.6 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

@@ -1,10 +1,8 @@
-## A middle ear still linked to the jaw {#s-640cd37021}
-Near-complete holotype IVPP V16051 preserves a detached ectotympanic and malleus alongside ossified Meckel’s cartilage. The ectotympanic forms part of the middle ear, the malleus is one of its small sound-transmitting bones, and Meckel’s cartilage runs along the lower jaw in mammals. Their arrangement makes the specimen unusually informative about how the mammalian ear and jaw were related.
+## A detached middle-ear element beside jaw cartilage {#s-640cd37021}
+Near-complete holotype IVPP V16051 preserves a detached ectotympanic and malleus alongside ossified Meckel's cartilage. The ectotympanic forms part of the middle ear, the malleus transmits sound, and Meckel's cartilage runs along the lower jaw in mammals. Their preserved arrangement documents an ear–jaw connection in this specimen, not soft-tissue motion or a universal transition stage.
 
-The preserved cartilage supports a transitional anatomical interpretation: ear elements had become distinct, yet a connection to the dentary remained. That combination is a character state in one fossil, not a direct observation of soft-tissue motion or proof that Liaoconodon was the ancestor of later mammals.
-
-## atlas-profile / overview {#s-fecf65d69f}
-Near-complete holotype IVPP V16051 preserves a detached ectotympanic and malleus linked to the dentary by ossified Meckel’s cartilage, documenting one anatomical mosaic rather than a universal transition stage.
+## Meckel's cartilage links a detached ear to the jaw {#s-fecf65d69f}
+Near-complete holotype IVPP V16051 preserves a detached ectotympanic and malleus beside ossified Meckel's cartilage. The combination records separated ear bones and a remaining connection to the dentary in one fossil; it does not directly show soft-tissue motion or prove direct ancestry.
 
 ## atlas-profile / ecology / diet {#s-ad98411cc5}
 Animal-feeding diet inferred from eutriconodont dentition
@@ -30,6 +28,6 @@ Ossified Meckel’s cartilage linking ear and dentary
 ## atlas-profile / traits {#s-7a5dffbc93}
 Near-complete articulated postcranial skeleton
 
-## atlas-profile / evidenceSummary {#s-3e1a9c5048}
-The holotype directly supports the anatomical observations, but the stabilizing function of the ossified cartilage and its evolutionary significance remain interpretations rather than observed performance or ancestry.
+## One holotype supports the anatomical mosaic {#s-3e1a9c5048}
+IVPP V16051 directly supports the described ear and jaw anatomy. A stabilizing function for the ossified cartilage and its evolutionary significance remain interpretations, not observed performance or ancestry.
 

@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-09df6c4029}
+## 记录分类与直接上级关系 {#s-09df6c4029}
+COL26.8 将 Galbalcyrhynchus 记录为属；其直接上级记录为 Galbulidae。
+
 固定 COL26.8 层级下的 Galbalcyrhynchus 路径收录了 2 条有测量来源的物种记录。可先从 Galbalcyrhynchus leucotis、Galbalcyrhynchus purusianus 读起；生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-3ba3c07dde}

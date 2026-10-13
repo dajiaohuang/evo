@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:hippopotamidae
       claimKind: scientific
       claimType: taxonomy
-      statement: A review and 37-character cladistic analysis of 15 living and fossil hippopotamid taxa revises several historical assignments while retaining Hippopotamidae as the study’s focal family; the resulting membership is a sampled taxonomic hypothesis, not a complete fossil duration.
+      statement:
+        page: en
+        section: systematic-review
+        part: body
       confidence: medium
       confidenceRationale: The systematic review provides a family-wide morphology audit and explicit cladistic sample. Its revisions and limited taxon set are retained.
       referenceLinks:
@@ -26,7 +29,9 @@ records:
   claim-rationales.zh:
     - 系统综述提供科级形态审计与明确支序取样；主张保留其修订结果和有限类群集。
   claim-statements.zh:
-    - 一项覆盖 15 个现生与化石河马科类群、使用 37 个性状的综述与支序分析修订了若干历史归类，同时保留河马科为研究焦点；所得成员关系是取样分类假说，不是完整化石延续范围。
+    - page: zh
+      section: systematic-review
+      part: body
   ranges:
     - entityId: hippopotamidae
       rangeKind: global-composite

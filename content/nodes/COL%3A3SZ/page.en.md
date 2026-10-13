@@ -1,10 +1,10 @@
-## Local data reading route {#s-e87eb78f16}
+## Recorded classification and member material {#s-e87eb78f16}
 This batch’s Phaethontiformes route includes 3 measured species records. Start with Phaethon aethereus, Phaethon lepturus, Phaethon rubricauda. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-78d54b647e}
 Compiled mean mass endpoints in this batch are Phaethon lepturus at 328.04 g and Phaethon aethereus at 749.99 g. Represented habitat categories include Marine; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-e8ec9e7302}
+## Amniote Life-history archive member records {#s-e8ec9e7302}
 This batch’s Phaethontiformes route includes 3 historical life-history accounts; start with Phaethon aethereus, Phaethon lepturus, Phaethon rubricauda. More frequently represented fields include adult body mass (3 entries), offspring per litter or eggs per clutch (3 entries), oviposition to hatching (3 entries), age at flight capability (leaving the nest in some source material) (3 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-21099f60de}

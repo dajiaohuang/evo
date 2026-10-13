@@ -1,15 +1,15 @@
-## What this entry covers {#s-f408a1b129}
-Pinned COL26.8 accepts Epictia bakewelli in Leptotyphlopidae. This page interprets two fields from its limited ReptTraits v1-2 entry: microhabitat and reproductive mode, each with its own source. The workbook follows The Reptile Database’s 2023 name framework; a same-name, same-family match does not establish that its historical taxon concept is identical to the current one.
+## COL26.8 name and the ReptTraits row {#s-f408a1b129}
+COL26.8 records Epictia bakewelli as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Microhabitat category {#s-64fdfe866c}
-The entry labels its microhabitat “fossorial” and attributes that field to IUCN (2023). In the workbook, microhabitat is a category that can also be arboreal, cryptic, saxicolous, semi-aquatic, terrestrial or a combination. This label does not provide a habitat-type description, elevation or a detailed account of where individuals were observed.
+## Habitat use and activity labels {#s-64fdfe866c}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## Reproductive-mode category {#s-d72aa0c463}
-The entry records “oviparous,” attributed to Zimin et al. (2022). The workbook’s reproductive-mode field distinguishes oviparous, viviparous and mixed reports (ovoviviparous). This row supplies no clutch or egg measurements, so the category does not give offspring counts or egg dimensions.
+## Reproductive fields in ReptTraits {#s-d72aa0c463}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Limits of this row {#s-26cb07cadd}
-This is a two-field account of a compiled row, not a complete description of the species or its populations. The entry does not support conclusions here about body mass, juvenile size, diet, activity schedule, venom, conservation, current range or population trend. Its source labels preserve the workbook’s citation chain; they do not mean this project independently reread every cited study.
+## Reading this compiled trait record {#s-26cb07cadd}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Fields this page leaves open {#s-cfc6cae2ab}
-No reader-facing value is established here for SVL or sex-specific length, total length, clutch or litter counts, eggs per clutch, egg dimensions, diet, active time, foraging mode or sex-determining mechanism. These fields remain open for this species; values from relatives or blank cells cannot fill them.
+## Reading this compiled trait record {#s-cfc6cae2ab}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,5 +1,5 @@
 ## Follow shared bonebeds to the two pterosaurs {#s-38e90b29ea}
-Open the accumulation and growth sections of [Caiuajara dobruskii](../../../../../../../../../../../Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Caiuajara/Caiuajara_dobruskii/page.en.md), then the associated holotype and two histological samples of [Keresdrakon vilsoni](../../../../../../../../../../../Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Tapejaromorpha/Keresdrakon/Keresdrakon_vilsoni/page.en.md). The 2019 study reports repeated close association of all three in bonebeds A–C. This supports its coexistence interpretation without independently establishing simultaneous death, particular prey or a single individual for every holotype bone. Pterosaur material cannot fill missing dinosaur skull regions or complete its skeleton.
+Open the accumulation and growth sections of Caiuajara dobruskii, then the associated holotype and two histological samples of Keresdrakon vilsoni. The 2019 study reports repeated close association of all three in bonebeds A–C. This supports its coexistence interpretation without independently establishing simultaneous death, particular prey or a single individual for every holotype bone. Pterosaur material cannot fill missing dinosaur skull regions or complete its skeleton.
 
 ## The coexistence route retains a hypothetical food web {#s-23a486cde0}
 The 2019 study discusses possible scavenging or small-prey feeding by Keresdrakon and possible predation on Caiuajara by Vespersaurus. These proposed links are not an observed food chain. The separately presented 2020 histology study does not turn growth marks into evidence of particular prey. Compare preservation, growth and feeding hypotheses across the three pages while retaining each study’s material assignment, date and evidence strength.
@@ -46,23 +46,41 @@ Referred crown MPCO.V 0020c is not directly associated with the holotype but com
 ## Relationships vary with incomplete sampling {#s-b9d80230d2}
 The 2019 analysis supports placement within Noasaurinae, while internal relationships remain limited by missing material and unstable entries. A sister relationship with Velocisaurus appears only in a further reduced consensus after taxa are pruned, and that node retains low support. This page distinguishes complete and reduced results. Directory parents organize material without replacing matrix reanalysis or review of all later classifications.
 
-## Which fossil records this name represents {#s-be1ec2d5b4}
-Vespersaurus paranaensis is accepted in the fixed PBDB dinosaur working roster, with database parent Vespersaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-be1ec2d5b4}
+Vespersaurus paranaensis is listed in the PBDB snapshot under taxon txn:388270. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-783b80f563}
-Collection Cemitério dos Pterossauros Quarry (Paraná), region code BR, stratum name Goio-Erê; database age bracket 121.4–72.2 Ma, early interval Aptian and late interval Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-783b80f563}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-c524864483}
-Selected occurrences have an outer age envelope of 121.4–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1639163; PBDB collection col:160057. Locality cnm=Cemitério dos Pterossauros Quarry; place fields cc2=BR, stp=Paraná. Recorded age bounds: eag 121.4 Ma; lag 72.2 Ma; PBDB interval fields oei=Aptian, oli=Campanian. Stratigraphic fields sfm=Goio-Erê. Recorded attribution Langer et al. 2019; PBDB reference ref:69278.
 
-## Read preservation setting separately from living habitat {#s-f6b3336d2f}
-Cemitério dos Pterossauros Quarry has collection-environment label interdune; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The age of the fossil-bearing layer is uncertain, ranging from Aptian-Albian to Turonian-Campanian (see Kellner et al. 2019). 3 fossiliferous levels separated by 25 m, with bones apparently in each.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Cemitério dos Pterossauros Quarry, in an outcrop along a rural road about 2 km N of Cruzeiro do Oeste municipality, Paraná State; "exposed at the overbanks of a secondary road (53° 03′ 53″W, 26° 45′ 34″S) about 2 km north of Cruzeiro do Oeste, Paraná, Brazil" (Fig. 1, Langer et al., 2019).
+
+## Age bounds on the recorded occurrences {#s-c524864483}
+Across these selected PBDB rows, the largest recorded eag=121.4 Ma in occ:1639163; the smallest recorded lag=72.2 Ma in occ:1639163. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-f6b3336d2f}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1639163: PBDB original-identification field idn=Vespersaurus paranaensis n. gen. n. sp.; PBDB taxon-name field tna=Vespersaurus paranaensis; material note ocm=MPCO.V 0065d, postcranial remains, possibly belonging to one individual, incl. 3 trunk (MPCO.V 0065d10a-c), 3 sacral (MPCO.V 0065d6-8), & 3 tail (MPCO.V 0065d4-5,9) vertebrae, partial L ilium (MPCO.V 0065d11) & ischium (MPCO.V 0065d2), partial articulated R pes (MPCO.V 0065d1); 5 femora (CP.V 4136, 4142, 4206, 4264, 2277; 6 tibiae (CP.V 4312a, 4203, 4140, 4000, 4130, 2385); abundance fields abv=12, abu=individuals; PBDB locality-coordinate fields lng=-53.064720, lat=-26.776112; paleocoordinate/model fields pm1=gplates, pln=-27.49, pla=-29.84.
 
 ## Follow collection records back to references {#s-fab7199d71}
 The database retains Langer et al. (2019), ref:69278, while shared references retain the eleven original-description authors, selected reading scope and the 2021 material comparison. A further reference records the seven authors, DOI and complete main-text reading of the 2020 histology study. Images, Morphobank slides, remaining 2019 anatomy, supplementary matrices and later mechanics remain uninspected or incomplete, without independent specimen reassignment or age recalculation.
+
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1639163: Recorded attribution Langer et al. 2019; PBDB reference ref:69278.
 
 ## Evidence limits {#s-5756fb1a17}
 Selected original anatomy, later material comparison and the complete 2020 histology main text retain separate scopes. Material referrals, the one-individual holotype premise, isolated tooth, functional monodactyly and track maker remain conditional; eleven bones do not provide complete paired individuals. Ages depend on extrapolation, neonatal assumptions and counting conventions, with femoral–tibial maturity disagreement unresolved. Article stratigraphy remains beside fixed broad database ages. All anatomy, images, slide repositories, supplementary matrices and later studies remain incompletely collected, without independent identification, age recalculation or mechanical review. A full monograph and reader-visible delivery remain pending.
 
 The comparative route additionally uses the already-read 2019 shared-bonebed and 2020 dinosaur-histology main texts. Samples and models apply to their respective taxa; cross-links do not complete the site fauna or all developmental research.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

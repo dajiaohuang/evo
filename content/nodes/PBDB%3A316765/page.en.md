@@ -1,19 +1,42 @@
 ## Which fossil records this name represents {#s-e74b93ccb5}
 Agilodocodon scansorius is accepted in the fixed PBDB other-synapsida working roster, with database parent Agilodocodon. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-c5e95662dd}
-Collection Daohugou (IVPP collection) (Nei Mongol), region code CN, stratum name Tiaojishan; database age bracket 165.3–161.5 Ma, early interval Early Callovian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Agilodocodon scansorius is listed in the PBDB snapshot under taxon txn:316765. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-d9009ad81e}
-Selected occurrences have an outer age envelope of 165.3–161.5 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Daohugou (IVPP collection), occurrence occ:1259504 (165.3–161.5 Ma); one supplying the younger bound is Daohugou (IVPP collection), occurrence occ:1259504 (165.3–161.5 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-c5e95662dd}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-6247b1e696}
-Daohugou (IVPP collection) has collection-environment label lacustrine - large; collection preservation-mode label body,mold/impression,adpression,soft parts,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1259504; PBDB collection col:27891. Locality cnm=Daohugou (IVPP collection); place fields cc2=CN, stp=Nei Mongol. Recorded age bounds: eag 165.3 Ma; lag 161.5 Ma; PBDB interval fields oei=Early Callovian. Stratigraphic fields sfm=Tiaojishan. Recorded attribution Meng et al. 2015; PBDB reference ref:54581.
 
-## Follow collection records back to references {#s-579a28e2e5}
-Daohugou (IVPP collection) carries database reference attribution Meng et al. (2015), identifier ref:54581. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Zhou et al (2013): "The Daohugou site in the Tiaojishan Formation of Inner Mongolia, China; the locality was directly dated to be 165–164 million years (Myr) old".
+
+Older information: "possible dates [range] from Middle Jurassic to Early Cretaceous. However, published radioisotopic [both 40Ar/39Ar and zircon U-Pb] dating results span... 152 to 168 Myr" = Bathonian to Kimmeridgian (Zhang et al. 2008). Also referred to as Haifanggou Formation
+
+"Several recent isotope datings, using both 40 Ar/39Ar and SHRIMP U-Pb methods, have indicated that the age of the (underlying) ignimbrite is between the late Middle Jurassic and early Late Jurassic, or 159-164 Ma. Therefore, the Daohugou Bed cannot be older than this age, and is not comparable to the Middle Jurassic Jiulongshan Formation" (Wang et al. 2005). Unit is older than overlying Yixian Formation. Age is therefore constrained to Callovian-Barremian
+
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Daohugou, Ningcheng county, eastern Nei Mongol (west of Liaoning province), northeastern China. 41°18.979 ′N, longitude 119°14.318′E
+
+## Age bounds on the recorded occurrences {#s-d9009ad81e}
+Across these selected PBDB rows, the largest recorded eag=165.3 Ma in occ:1259504; the smallest recorded lag=161.5 Ma in occ:1259504. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-6247b1e696}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1259504: PBDB original-identification field idn=Agilodocodon scansorius n. gen. n. sp.; PBDB taxon-name field tna=Agilodocodon scansorius; material note ocm=Beijing Museum of Natural History PM001138A, and PM001138B; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=119.238609, lat=41.316387; paleocoordinate/model fields pm1=gplates, pln=130.48, pla=48.9.
+
+## References attached to each record {#s-579a28e2e5}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1259504: Recorded attribution Meng et al. 2015; PBDB reference ref:54581.
 
 ## Evidence limits {#s-880d2e75b6}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

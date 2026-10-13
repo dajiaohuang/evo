@@ -1,29 +1,29 @@
-## The name and this data account {#s-b7cdf5b616}
-Pterocles senegallus is accepted in COL26.8 within Pteroclidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-b7cdf5b616}
+The AVONET v7 row for Pterocles senegallus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-3cfea34a53}
-Recorded mean beak measurements are 9.8 mm from the anterior nostril edge to the tip, 5.2 mm in width and 6.2 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-3cfea34a53}
+AVONET records culmen length (bill tip to skull base) 19.4 mm; beak length (nostril front edge to tip) 9.8 mm; beak width at the nostril front edge 5.2 mm; beak depth at the nostril front edge 6.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-76875a7dcf}
-Mean unflattened wing length from the carpal joint to the longest primary is 194 mm; mean tarsus length is 21.9 mm. Compiled mean mass is 263.36 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-76875a7dcf}
+AVONET records unflattened wing length 194 mm; tarsus length 21.9 mm; distance from first secondary tip to longest primary tip 129.5 mm; length to first secondary tip 65.8 mm; hand-wing index 66.3; tail length 114 mm; species-average body mass 263.36 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-19ba00c45f}
-The dataset assigns habitat Desert, trophic niche Granivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-19ba00c45f}
+AVONET classifies Pterocles senegallus as habitat Desert (open arid landscapes); trophic niche Granivore (source threshold at least 60% from seeds or nuts); trophic level Herbivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-61c4cc1f2b}
-The migration field classifies this record as partially migratory. Historical breeding and resident maps span latitude endpoints 7.95° to 36.05°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-61c4cc1f2b}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints 7.95° to 36.05°. The mapped range area is 9258740.38 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-ad3dce2b12}
-Pterocles senegallus is accepted in pinned COL26.8 within Pteroclidae. This page compares the same-name historical life-history entry using 3 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-ad3dce2b12}
+The August 2015 database has a same-name, same-family record for Pterocles senegallus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-a878e4dea5}
-Historical summary values are adult body mass 263.5 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-a878e4dea5}
+The August 2015 compilation reports adult body mass 263.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-b13c55d034}
-Available compilation fields are offspring per litter or eggs per clutch 2.74 offspring/eggs; oviposition to hatching 30 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-b13c55d034}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2.74; oviposition-to-hatching interval 30 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-c15645e086}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Bennett, 1986; Dyke and Kaiser, 2010, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-c15645e086}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-41b23b2860}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

@@ -13,11 +13,11 @@ NCPALEO1902 - brick quarry has collection-environment label fluvial indet.; coll
 ## Follow collection records back to references {#s-e4b3905e6e}
 NCPALEO1902 - brick quarry carries database reference attribution Zanno et al. (2015), identifier ref:55470. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
 
-## Evidence limits {#s-782d14914b}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 672-item crocodylomorph working roster, retain the current same name and a complete parent chain to the recorded Crocodylomorpha storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Scope of the PBDB occurrence guide {#s-782d14914b}
+This guide uses PBDB occurrence records dated 2026-10-02 from the fixed 672-item crocodylomorph working roster. Entries retain the recorded name and ancestor chain to the Crocodylomorpha anchor and include eligible species-level records without uncertain-identification qualifiers. PBDB accepted-name links can connect older combinations, but they do not decide specimen identification or merge this concept with a same-name COL taxon. Collection sites, age intervals, depositional labels and collection-level preservation fields describe different things; they do not provide a complete range, exact origin or extinction dates, a species-wide ecology, abundance or the condition of every specimen.
 
-## atlas-profile / overview {#s-77fc47859e}
-Carnufex carolinensis is represented by the partial, skeletally immature holotype NCSM 21558 and a referred humerus, NCSM 21623. The study reconstructs an animal about 3 m long and places it among higher-tier terrestrial predators of the Pekin Formation assemblage.
+## A named holotype and a predator interpretation {#s-77fc47859e}
+NCSM 21558 and referred humerus NCSM 21623 underlie a ~3 m reconstruction and terrestrial-predator interpretation, not adult size or observed hunting.
 
 ## atlas-profile / ecology / diet {#s-adcff193c3}
 Faunivory is inferred from serrated, recurved teeth rather than directly observed feeding
@@ -43,8 +43,8 @@ The reconstructed skull is slender and ornamented, with an estimated length grea
 ## atlas-profile / traits {#s-fe4c73c042}
 Premaxillary teeth are elongate, serrated and slightly recurved
 
-## atlas-profile / evidenceSummary {#s-a17375cb41}
-The bones, Chatham County horizon and approximately 231 Ma age are direct records. Total length, predator role and crocodylomorph placement are study interpretations; tooth shape suggests faunivory but does not show feeding.
+## Observed bones and interpreted conclusions {#s-a17375cb41}
+Bones and horizon are observations; total length, predator role and placement are interpretations, and tooth shape alone does not show feeding.
 
 ## The named bones and their age {#s-29212a8176}
 NCSM 21558 preserves parts of the skull, vertebral column, ribs and left humerus; NCSM 21623 is a referred humerus. The fossils come from the Pekin Formation in Chatham County, dated to about 231 Ma in the cited account.

@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-3aa5f48174}
-Pinned COL26.8 organizes this page at Cinnyris comorensis (5Z76C). BirdLife 2020 row 5952 and eBird 2021 row 2324 share the name and Avibase ID AVIBASE-0D9CEEA0, with type 1BL to 1eBird; BirdTree row 2317 gives Nectarinia comorensis, with type 1BL to 1BT. Read older-combination record 462N3 points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-3aa5f48174}
+Catalogue of Life release COL26.8 records Cinnyris comorensis W. Peters, 1864 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-d8d2855fe8}
 Morphology covers 4 birds: 2 female, 2 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 15.2 mm, tarsus 17.4 mm, unflattened wing 53.6 mm, tail 36.8 mm and hand-wing index 17 are historical row means. Inference=NO does not establish 4 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

@@ -1,5 +1,5 @@
-## Find rows through older Dendroica combinations {#s-208d4f935e}
-Pinned COL26.8 organizes this page at Setophaga plumbea (6YLVD). BirdLife 2020 row 6356 and eBird 2021 row 9613 share the name and Avibase ID AVIBASE-F630DE1F, with type 1BL to 1eBird; BirdTree row 9553 gives Dendroica plumbea, with type 1BL to 1BT. Read catalogue synonym 6CJGG points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-208d4f935e}
+Catalogue of Life release COL26.8 records Setophaga plumbea (Lawrence, 1877) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-650d4908ea}
 Morphology comprises 6 birds: 3 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8.2 mm, tarsus 20.3 mm, unflattened wing 61.3 mm, tail 57.6 mm and hand-wing index 19.5 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

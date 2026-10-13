@@ -1,19 +1,47 @@
 ## Which fossil records this name represents {#s-a6f28a466e}
 Valenopsalis joyneri is accepted in the fixed PBDB mammalia working roster, with database parent Valenopsalis. This guide uses 7 eligible species-level occurrence records from 7 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 7 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-abb48e834c}
-Collection Bad Mouth Turtle (Montana), region code US, stratum name Hell Creek; database age bracket 66–63.4 Ma, early interval Puercan. Collection Bug Creek Anthills (Montana), region code US, stratum name Hell Creek; database age bracket 66–63.4 Ma, early interval Puercan. Collection Bug Creek West (Montana), region code US, stratum name Hell Creek; database age bracket 66–63.4 Ma, early interval Puercan. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Valenopsalis joyneri is listed in the PBDB snapshot under taxon txn:44971. This archived guide contains 7 selected occurrence rows, linked to 7 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9ef9995018}
-Selected occurrences have an outer age envelope of 72.2–63.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Chris's Bonebed (CBB), occurrence occ:163855 (72.2–66 Ma); one supplying the younger bound is Bad Mouth Turtle, occurrence occ:163771 (66–63.4 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-abb48e834c}
+The archived guide contains 7 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-33e1172e0e}
-Bad Mouth Turtle has collection-environment label terrestrial indet.; collection preservation-mode label body. Bug Creek Anthills has collection-environment label terrestrial indet.; collection preservation-mode label body. Bug Creek West has collection-environment label coarse channel fill; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:163855; PBDB collection col:14674. Locality cnm=Chris's Bonebed (CBB); place fields cc2=US, stp=Montana, cny=McCone. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Hell Creek. Recorded attribution Lupton et al. 1980; PBDB reference ref:2333.
 
-## Follow collection records back to references {#s-1f9d014aa3}
-Bad Mouth Turtle carries database reference attribution Lofgren (1995), identifier ref:2255. Bug Creek Anthills carries database reference attribution Archibald and Clemens (1984), identifier ref:962. Bug Creek West carries database reference attribution Archibald and Clemens (1984), identifier ref:962. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+approx 35 m below base of "Z coal", high in Hell Creek Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SW 1/4 of sec 10, T24N, R43E; along Ft. Peck Reservoir, S of Ft. Peck
+
+- Occurrence occ:163771; PBDB collection col:14660. Locality cnm=Bad Mouth Turtle; place fields cc2=US, stp=Montana, cny=McCone. Recorded age bounds: eag 66 Ma; lag 63.4 Ma; PBDB interval fields oei=Puercan. Stratigraphic fields sfm=Hell Creek, sls=Hell Creek mixed faunas, slb=2. Recorded attribution Lofgren 1995; PBDB reference ref:2255.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be  Puercan
+
+- Occurrence occ:163842; PBDB collection col:14671. Locality cnm=Bug Creek Anthills; place fields cc2=US, stp=Montana, cny=McCone. Recorded age bounds: eag 66 Ma; lag 63.4 Ma; PBDB interval fields oei=Puercan. Stratigraphic fields sfm=Hell Creek, sls=Hell Creek mixed faunas, slb=2. Recorded attribution Archibald and Clemens 1984; PBDB reference ref:962.
+
+## Age bounds on the recorded occurrences {#s-9ef9995018}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:163855; the smallest recorded lag=63.4 Ma in occ:163771. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-33e1172e0e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:163855: PBDB original-identification field idn=Catopsalis joyneri; PBDB taxon-name field tna=Valenopsalis joyneri; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-106.099998, lat=47.799999; paleocoordinate/model fields pm1=gplates, pln=-64.03, pla=58.34.
+- occ:163771: PBDB original-identification field idn=Catopsalis joyneri; PBDB taxon-name field tna=Valenopsalis joyneri; PBDB locality-coordinate fields lng=-106.099998, lat=47.799999; paleocoordinate/model fields pm1=gplates, pln=-66.46, pla=57.47.
+- occ:163842: PBDB original-identification field idn=Catopsalis joyneri n. sp.; PBDB taxon-name field tna=Valenopsalis joyneri; PBDB locality-coordinate fields lng=-106.099998, lat=47.799999; paleocoordinate/model fields pm1=gplates, pln=-66.46, pla=57.47.
+
+## References attached to each record {#s-1f9d014aa3}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:163855: Recorded attribution Lupton et al. 1980; PBDB reference ref:2333.
+- occ:163771: Recorded attribution Lofgren 1995; PBDB reference ref:2255.
+- occ:163842: Recorded attribution Archibald and Clemens 1984; PBDB reference ref:962.
 
 ## Evidence limits {#s-f6fee97d21}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 7 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

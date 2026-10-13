@@ -7,8 +7,8 @@ Start with Palaeotherium robustum, Palaeotherium magnum, Palaeotherium castrense
 ## Evidence limits {#s-aedb18d560}
 This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
 
-## La Débruge tooth wear and the Grande Coupure {#s-82267c90ce}
-This Palaeotherium account separates dental evidence from the genus’s regional history. Wear in the sampled Palaeotherium medium from La Débruge is consistent with leaf browsing and a smaller fruit or abrasive-seed component; separate British records place regional losses near the Grande Coupure, not a global extinction instant.
+## Separate a tooth-wear sample from regional history {#s-82267c90ce}
+The Palaeotherium medium sample from La Débruge records wear consistent with leaf browsing and a smaller fruit or abrasive-seed component. British range records describe a separate regional history near the Grande Coupure; they do not turn local losses into a global genus extinction date.
 
 ## atlas-profile / ecology / diet {#s-3702bd017f}
 In sampled Palaeotherium medium, dental wear supports leaf browsing with a smaller fruit or abrasive-seed component.
@@ -34,6 +34,6 @@ Worn cusps include both sharp and rounded forms.
 ## atlas-profile / traits {#s-8e955a2b9c}
 Wear facets are consistent with both shearing and grinding plant foods.
 
-## One species sample and separate British range records {#s-5d810ad86c}
-Joomun and colleagues analyze dental wear in one species and locality; Hooker and colleagues provide a separate British regional range chart. Neither source gives a complete global genus history, and the local last appearances do not date a single global extinction.
+## Two sources answer different questions {#s-5d810ad86c}
+Joomun and colleagues study dental wear in one species and locality. Hooker and colleagues chart British regional occurrences. Together they do not establish a complete global Palaeotherium range or a single extinction boundary.
 

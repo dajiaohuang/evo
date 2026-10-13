@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-2286b29f04}
-Pinned COL26.8 organizes this page as Pternistis griseostriatus (4PV6Q). AVONET v7 BirdLife 2020 row 2514 and eBird 2021 agree in name, with Avibase ID AVIBASE-7A8E73BF; BirdTree gives Francolinus griseostriatus, with match type 1BL to 1BT. Read COL older-combination record 6JLDR points to accepted ID 4PV6Q. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-2286b29f04}
+Catalogue of Life release COL26.8 records Pternistis griseostriatus (Ogilvie-Grant, 1890) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-ec1eeff38a}
 Morphology covers 4 birds (3 female, 1 male); 4 have complete measurement sets. Mean nostril-to-tip beak length is 14.5 mm, tarsus 39.5 mm, unflattened wing 151.5 mm and hand-wing index 16.4. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

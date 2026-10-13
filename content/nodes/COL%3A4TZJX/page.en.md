@@ -8,5 +8,5 @@ Rowland et al. (2024) used line transects and distance sampling in the adjacent 
 This page follows the COL26.8 accepted species ID 4TZJX, Saimiri macrodon. Some field papers retain the trinomial S. cassiquiarensis macrodon. The source combination is preserved, and similar epithets are not treated as proof that checklists use identical species concepts.
 
 ## Evidence limits {#s-5296e4366c}
-The ecological evidence comes from one thesis study area near Iquitos, Peru, and distance sampling in two Indigenous territories; it does not represent the full range. The COL26.8 accepted name and the trinomial used by some papers are both retained. The exact MDD join supplies only the English label; the Chinese name is editorial. This page is.
+The ecological evidence comes from one thesis study area near Iquitos, Peru, and distance sampling in two Indigenous territories; it does not represent the full range. The COL26.8 accepted name and the trinomial used by some papers are both retained. The exact MDD join supplies only the English label; the Chinese name is editorial.
 

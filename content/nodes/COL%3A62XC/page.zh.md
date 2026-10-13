@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-c9f6e73d76}
+## 记录分类与直接上级关系 {#s-c9f6e73d76}
+COL26.8 将 Neotragus 记录为属；其直接上级记录为 Neotragini。
+
 PanTHERIA 的 Neotragus 路线有 3 条可用历史记录：Neotragus batesi、Neotragus moschatus 和 Neotragus pygmaeus。条目保留 MSW05 名称及各字段缺口；3 是本路线的记录数，不是现代物种分母。
 
 ## 比较体型与生活史 {#s-4c193ee368}
@@ -14,7 +16,7 @@ EltonTraits 这条路线有 3 条历史记录，食物类别权重、取食层�
 PanTHERIA 与生活史路线只覆盖选定的历史记录，并非所有现生后代。生活史汇编以旧资料取平均或中位数，可能在历史分类单元间继承数据；最高寿命则保留最大纪录。EltonTraits 类别依据文献编码，权重不是摄食量测量，ABC 字段也可能参考近缘种。旧名称关联不能证明与 COL26.8 概念等同。
 
 ## 沿生活史资料阅读 {#s-77d010816b}
-Ernest（2003）路线链接 2 个历史页面：[Neotragus batesi](Neotragus_batesi/page.zh.md) 与 [Neotragus moschatus](Neotragus_moschatus/page.zh.md)。这两条已写记录不是全属完整名录。
+Ernest（2003）路线链接 2 个历史页面：Neotragus batesi 与 Neotragus moschatus。这两条已写记录不是全属完整名录。
 
 ## 先区分平均值与纪录 {#s-ef773bcd78}
 妊娠时长和雌性首次繁殖年龄各见于 2 条记录，最高寿命见于 1 条。首次繁殖指可能受孕的年龄，不是首次生产或性成熟；最长寿命是纪录，不是平均值。

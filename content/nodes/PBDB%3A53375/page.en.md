@@ -1,18 +1,49 @@
-## Which fossil records this name represents {#s-8b4462b230}
-Torvosaurus tanneri is accepted in the fixed PBDB dinosaur working roster, with database parent Torvosaurus. This guide uses 7 eligible species-level occurrence records from 7 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-8b4462b230}
+Torvosaurus tanneri is listed in the PBDB snapshot under taxon txn:53375. This archived guide contains 7 selected occurrence rows, linked to 7 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-33db3638c8}
-Collection Dry Mesa Quarry [BYU] (Colorado), region code US, stratum name Morrison; database age bracket 152.21–145.06 Ma, early interval Late Kimmeridgian and late interval Early Tithonian. Collection Meyer Site 2, Garden Park (Colorado), region code US, stratum name Morrison; database age bracket 154.8–149.2 Ma, early interval Kimmeridgian. Collection Nail Quarry, Como Bluff (Wyoming), region code US, stratum name Morrison; database age bracket 154.8–143.1 Ma, early interval Kimmeridgian and late interval Tithonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-33db3638c8}
+The archived guide contains 7 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-c9a50bd7bf}
-Selected occurrences have an outer age envelope of 154.8–143.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:482007; PBDB collection col:48171. Locality cnm=Meyer Site 2, Garden Park; place fields cc2=US, stp=Colorado, cny=Fremont. Recorded age bounds: eag 154.8 Ma; lag 149.2 Ma; PBDB interval fields oei=Kimmeridgian. Stratigraphic fields sfm=Morrison. Recorded attribution Hanson and Makovicky 2013; PBDB reference ref:49550.
 
-## Read preservation setting separately from living habitat {#s-cc41ca257e}
-Dry Mesa Quarry [BYU] has collection-environment label "channel"; collection preservation-mode label body. Meyer Site 2, Garden Park has collection-environment label terrestrial indet.; collection preservation-mode label body. Nail Quarry, Como Bluff has collection-environment label wet floodplain; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Garden Park, N of Cañon City, Fremont Co., CO.
 
-## Follow collection records back to references {#s-5901be91c6}
-Dry Mesa Quarry [BYU] carries database reference attribution Galton and Jensen (1979), identifier ref:12264. Meyer Site 2, Garden Park carries database reference attribution Hanson and Makovicky (2013), identifier ref:49550. Nail Quarry, Como Bluff carries database reference attribution Bakker et al. (1992), identifier ref:13292. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:491435; PBDB collection col:49627. Locality cnm=Nail Quarry, Como Bluff; place fields cc2=US, stp=Wyoming, cny=Albany. Recorded age bounds: eag 154.8 Ma; lag 143.1 Ma; PBDB interval fields oei=Kimmeridgian, oli=Tithonian. Stratigraphic fields sfm=Morrison, sls=Nail-Louise, slb=48, slo=bottom to top. Recorded attribution Bakker et al. 1992; PBDB reference ref:13292.
 
-## Evidence limits {#s-b7a8219699}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Talking Rocks Member" near middle of formation; located just above caliche boundary in Unit B.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+a few km E of Louise Quarry, near Como Bluff; T. 22 N ., R. 77 W ., Sec. 1
+
+- Occurrence occ:465143; PBDB collection col:45975. Locality cnm=Dry Mesa Quarry [BYU]; place fields cc2=US, stp=Colorado, cny=Montrose. Recorded age bounds: eag 152.21 Ma; lag 145.06 Ma; PBDB interval fields oei=Late Kimmeridgian, oli=Early Tithonian. Stratigraphic fields sfm=Morrison. Recorded attribution Galton and Jensen 1979; PBDB reference ref:12264.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper part of Morrison, near base of member; 30-45 m below base of overlying Cedar Mountain Fm.
+The base of the quarry is about 1 metre above the "clay change". "Sediments near the clay change were dated at 150.3 +/- 0.26 Ma based on Ar40/Ar39 data from plagioclase crystals. Therefore the quarry must be younger than that, close to 150.2 +/- 0.5 Ma. More recent U-Pb dates from this part of the Morrison resulted in 151.2 +/- 1.2 Ma" (Smith et al. 2010. JVP 30:1466). These radiometric dates bracket the Kimmeridgian/Tithonian boundary, and so a late Kimmeridgian-early Tithonian age is entered.
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+E 1/2, NW corner, Sec 23, T50N, R14W, Montrose Co., Colorado; also listed as "Mesa County, 35 miles west of Delta, Colorado" (ref 12262). Quarry on E rim of canyon of the E fork of Escalante Creek, on W slope of Dry Mesa, in the SE corner of Mesa Co.
+
+## Age bounds on the recorded occurrences {#s-c9a50bd7bf}
+Across these selected PBDB rows, the largest recorded eag=154.8 Ma in occ:482007; the smallest recorded lag=143.1 Ma in occ:491435. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-cc41ca257e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:482007: PBDB taxon-name field tna=Torvosaurus tanneri; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-105.210602, lat=38.516800; paleocoordinate/model fields pm1=gplates, pln=-39.35, pla=25.3.
+- occ:491435: PBDB original-identification field idn=Edmarka rex n. gen. n. sp.; PBDB taxon-name field tna=Torvosaurus tanneri; material note ocm=TATE 1002, 1005-6; abundance fields abv=5, abu=specimens; PBDB locality-coordinate fields lng=-106.002220, lat=41.893055; paleocoordinate/model fields pm1=gplates, pln=-40.45, pla=28.57.
+- occ:465143: PBDB original-identification field idn=Torvosaurus tanneri n. gen. n. sp.; PBDB taxon-name field tna=Torvosaurus tanneri; material note ocm=67 specimens; abundance fields abv=3, abu=individuals; PBDB locality-coordinate fields lng=-108.397202, lat=38.583099; paleocoordinate/model fields pm1=gplates, pln=-43.92, pla=25.94.
+
+## References attached to each record {#s-5901be91c6}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:482007: Recorded attribution Hanson and Makovicky 2013; PBDB reference ref:49550.
+- occ:491435: Recorded attribution Bakker et al. 1992; PBDB reference ref:13292.
+- occ:465143: Recorded attribution Galton and Jensen 1979; PBDB reference ref:12264.
+
+## What these records can show {#s-b7a8219699}
+This is a guide to 7 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-074b7a2c8d}
+## 记录分类与直接上级关系 {#s-074b7a2c8d}
+COL26.8 将 Lutrogale 记录为属；其直接上级记录为 Lutrinae。
+
 Lutrogale 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Lutrogale perspicillata 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-d13e12d7ff}
@@ -15,7 +17,7 @@ Lutrogale 的本批路线包含 1 个历史条目，可从 Lutrogale perspicilla
 PanTHERIA、2015 年生活史汇编和 EltonTraits 各列有一条 Lutrogale perspicillata 历史记录，但字段各有来源定义。2015 年资料记录妊娠和一项最长寿命值，没有雌性首次繁殖年龄；EltonTraits 提供食物、觅食和活动类别。唯一成年体重值是历史中位数，不是范围；这些路线不能证明资料覆盖完整，也不能证明当前物种概念等同。
 
 ## 沿生活史资料阅读 {#s-381551e0a4}
-Lutrogale 本批有 1 个历史生活史资料页，可从 [Lutrogale perspicillata](Lutrogale_perspicillata/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Lutrogale 本批有 1 个历史生活史资料页，可从 Lutrogale perspicillata 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-7196bd842c}
 本批妊娠资料见 1 页，雌性首次繁殖年龄见 0 页，最高寿命记录见 1 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

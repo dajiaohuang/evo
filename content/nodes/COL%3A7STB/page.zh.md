@@ -1,4 +1,6 @@
-## 固定目录中的接受属 {#s-a9319cc610}
+## 记录分类与直接上级关系 {#s-a9319cc610}
+COL26.8 将 Tarentola 记录为属；其直接上级记录为 Phyllodactylidae。
+
 固定版本 COL26.8 将 Tarentola 记录为 Phyllodactylidae 下的接受属。本页沿用这一分类位置；不会仅凭目录标签推断每个后代均为现生种。
 
 ## 一条研究路线从 Tarentola mauritanica 开始 {#s-377582ca38}
@@ -20,7 +22,7 @@ Tarentola crombiei 的已报道最大吻肛长（SVL）为 57.8 mm，T. gigas �
 2015 年生活史档案为 Tarentola 提供 14 条记录。可从 T. angustimentalis、T. annularis、T. boavistensis、T. boettgeri 和 T. chazaliae 开始。14 条均有每窝幼体或卵数，以及产卵至孵化间隔；其中 13 条有档案的最长寿命字段，7 条有成年体重。这些是本路线的页面计数，不是全属分母。比较前应确认每个字段的事件、单位与来源。
 
 ## 另有六页采用有限性状路线 {#s-c546a848da}
-另有六页使用有限 ReptTraits 路线，包括 [Tarentola albertschwartzi](Tarentola_albertschwartzi/page.zh.md)、[T. bocagei](Tarentola_bocagei/page.zh.md)、[T. caboverdiana](Tarentola_caboverdiana/page.zh.md)、[T. hoggarensis](Tarentola_hoggarensis/page.zh.md) 和 [T. nicolauensis](Tarentola_nicolauensis/page.zh.md)。这些页面保留各自的性状来源和工作簿 2023 年名称框架，但不能组成全属名录。
+另有六页使用有限 ReptTraits 路线，包括 Tarentola albertschwartzi、T. bocagei、T. caboverdiana、T. hoggarensis 和 T. nicolauensis。这些页面保留各自的性状来源和工作簿 2023 年名称框架，但不能组成全属名录。
 
 ## 另两个最大值也来自不同物种 {#s-208e928882}
 Tarentola raziana 的已报道最大 SVL 为 49.3 mm，T. albertschwartzi 为 137 mm。两个值属于不同物种，不构成属级范围或个体变异幅度。活动、食性和繁殖仍须按各自来源比较。

@@ -1,5 +1,5 @@
-## Find rows through older Schistocichla／Myrmeciza combinations {#s-55b6e5a404}
-Pinned COL26.8 organizes this page at Myrmelastes humaythae (R8FZK). BirdLife 2020 row 7791 and eBird 2021 row 6631 share the name and Avibase ID AVIBASE-345A6DFB, with type 1BL to 1eBird; BirdTree row 6606 gives Schistocichla humaythae, with type 1BL to 1BT. Catalogue synonym 4V999, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-55b6e5a404}
+Catalogue of Life release COL26.8 records Myrmelastes humaythae (Hellmayr, 1907) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-77fb270c8d}
 Morphology comprises 8 birds: 4 female, 4 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 12.7 mm, tarsus 25.6 mm, unflattened wing 68.4 mm, tail 53 mm and hand-wing index 9.2 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

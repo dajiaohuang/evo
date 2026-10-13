@@ -1,11 +1,11 @@
-## 按来源分类组织化石记录 {#s-a6e634c4a4}
-Adapiformes 是本批 PBDB 路径中的 下目（infraorder） 分类名称。其下本批可读 92 个固定工作名录物种的出现导读；这里使用数据库记录的父级路径编排资料，不以资料条目数量评定类群演化重要性，也不把这一路径视为唯一系统发育方案。本路线只列本批非现生化石种条目，不能由此断言整个类群已经灭绝。
+## PBDB 如何组织化石出现记录 {#s-a6e634c4a4}
+PBDB 按其记录的分类路径组织 *Adapiformes* 的所选化石出现记录，并链接采集记录、地层、年代区间和引文。该数据库层级用于整理记录，与 COL 分类分开记录，也不是系统发育假说。
 
-## 从采集地、地层和年代对读 {#s-d9438a0481}
-可以从 Caenopithecus lemuroides、Masradapis tahai、Afradapis longicristatus、Namadapis interdictus、Darwinius masillae 开始，对照各页具名采集记录和原引文。本路线所含的全部本批物种合计有 618 条所选出现记录、540 个采集记录，地层名示例为 Birket Qarun、Messel、Jebel Qatrani、Caijiachong。先读每个采集地自己的年代区间和鉴定限定，再看不同地点之间是否可比；出现、采集和物种数量不能混用为古种群规模。
+## 跨化石地点的具名适应型灵长类记录 {#s-d9438a0481}
+这条路线包括 *Caenopithecus lemuroides*、*Masradapis tahai*、*Afradapis longicristatus*、*Namadapis interdictus* 和 *Darwinius masillae* 等条目。其出现记录关联 Birket Qarun、Messel、Jebel Qatrani 和 Caijiachong 等采集地与地层。应结合各记录核对地点年代和鉴定；这些条目不估算古代种群规模。
 
-## 资料边界 {#s-953e72f40a}
-此路线只介绍本批已写物种出现记录，不是完整后代名册或统一生态总结。记录数不是标本、个体、种群或采样强度的可比测量；年代外包区间不是实际起源与灭绝时间。PBDB 分类路径用于资料编排，与 COL 和其他系统发育方案保持来源区分；。
+## 如何理解页面所示年代区间 {#s-953e72f40a}
+这些 PBDB 年代区间限定此处所示的已登记出现记录。它们本身不能确定某分类单元的全球首现或末现，也不能确定类群的起源或灭绝时间。
 
 ## 早期灵长类化石检验不同亲缘假说 {#s-96b95e3eb4}
 适应型灵长类 Adapiformes 的研究涉及牙齿、头骨和后颅骨解剖。系统综述比较了不同分析如何把这些早期真灵长类置于现生懒猴类和类人猿的亲缘关系中；结果并未支持一条毫无争议的祖先谱系。

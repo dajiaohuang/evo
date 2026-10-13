@@ -1,4 +1,6 @@
-## Maxomys 支系的 PanTHERIA 历史条目 {#s-42d66e0a6f}
+## 记录分类与直接上级关系 {#s-42d66e0a6f}
+COL26.8 将 Maxomys 记录为属；其直接上级记录为 Murinae。
+
 本批中，Maxomys 的 PanTHERIA 路线包含三条可用记录：Maxomys rajah、M. surifer 和 M. whiteheadi。各条目保留原始 MSW05 名称、变量适用条件和缺失字段。页面导航采用 COL26.8 分类，但旧表记录数不代表当前接受种总数。
 
 ## 成年体重的两个端点 {#s-bedaaf84ca}
@@ -18,7 +20,7 @@
 生态路线仅包括本批同名同科、至少有两组可用字段的唯一历史条目。它不是所有后代的名录；单条记录中的食物类型、估计权重和活动标记不能推广到整个 Maxomys。文献描述换算、旧分类以及 ABC 字段可能借用同属材料等限制，仍应逐页核对。这些记录不能替代物种专论。
 
 ## 第二条路线中的 PanTHERIA 记录 {#s-a069332a72}
-本批另一条 PanTHERIA 路线有六条可用记录，页面链接到 [Maxomys alticola](Maxomys_alticola/page.zh.md)、[Maxomys baeodon](Maxomys_baeodon/page.zh.md)、[Maxomys bartelsii](Maxomys_bartelsii/page.zh.md)、[Maxomys inas](Maxomys_inas/page.zh.md) 和 [Maxomys ochraceiventer](Maxomys_ochraceiventer/page.zh.md)。各页保留 MSW05 中的原名及字段缺失；COL26.8 仅用于导航，不是旧数据的种数分母。
+本批另一条 PanTHERIA 路线有六条可用记录，页面链接到 Maxomys alticola、Maxomys baeodon、Maxomys bartelsii、Maxomys inas 和 Maxomys ochraceiventer。各页保留 MSW05 中的原名及字段缺失；COL26.8 仅用于导航，不是旧数据的种数分母。
 
 ## 第二条路线中的体重值 {#s-252306a279}
 本批成年体重汇总值中，Maxomys bartelsii 为 88.46 g，M. panglima 为 158.96 g。它们是经性别调整的历史中位数端点，不是所有个体的体重极值。单看体型差异，不能据此认定后代共有一种生活方式。

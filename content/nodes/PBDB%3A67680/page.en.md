@@ -16,21 +16,39 @@ The updated 2018 matrix places Hulsanpes sister to Mahakala, together with Halsz
 ## Foot function is not a measured running performance {#s-b8357ebb47}
 The authors interpret metatarsal flanges in Hulsanpes and Mahakala as reducing relative torsion and dislocation, proposing some cursorial adaptation. Ecological contrasts with Halszkaraptor remain anatomical hypotheses without measured speed or activity observations. The paper also discusses published Mahakala lengths of 82 versus 52 mm, adopting 52 mm and interpreting 82 mm as a typographical error. That is its assessment, without remeasurement of the specimen here. Braincase and foot remains alone do not determine swimming, year-round habitat or diet.
 
-## Which fossil records this name represents {#s-8ba1f01dcc}
-Hulsanpes perlei is accepted in the fixed PBDB dinosaur working roster, with database parent Hulsanpes. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-8ba1f01dcc}
+Hulsanpes perlei is listed in the PBDB snapshot under taxon txn:67680. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-b70d75c247}
-Collection Khulsan, site 2 [PMPE] (Omnogov), region code MN, stratum name Baruungoyot; database age bracket 83.6–72.2 Ma, early interval Middle Campanian and late interval Late Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-b70d75c247}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-e4388f2743}
-Selected occurrences have an outer age envelope of 83.6–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1341984; PBDB collection col:181415. Locality cnm=Khulsan, site 2 [PMPE]; place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Middle Campanian, oli=Late Campanian. Stratigraphic fields sfm=Baruungoyot. Recorded attribution Osmolska 1982; PBDB reference ref:10138.
 
-## Read preservation setting separately from living habitat {#s-02d9328e16}
-Khulsan, site 2 [PMPE] has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Lower Nemegt Beds"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near 1971 PMPE camp
+
+## Age bounds on the recorded occurrences {#s-e4388f2743}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:1341984; the smallest recorded lag=72.2 Ma in occ:1341984. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-02d9328e16}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1341984: PBDB original-identification field idn=Hulsanpes perlei n. gen. n. sp.; PBDB taxon-name field tna=Hulsanpes perlei; material note ocm="fragmentary skeleton of a small theropod dinosaur"; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=101.125427, lat=43.499592; paleocoordinate/model fields pm1=gplates, pln=96.69, pla=38.01.
 
 ## Follow collection records back to references {#s-aa7874e2d3}
 Database ref:10138 retains its Osmolska (1982) attribution. This page separately reads Cau and Madzia’s 2018 holotype redescription, binding ZPAL MgD-I/173 and the authors’ interpretations as an independent source. The complete 1982 description was not separately read here. Full occurrences, collections and identifications remain archived, without direct examination or remeasurement of the physical specimen.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1341984: Recorded attribution Osmolska 1982; PBDB reference ref:10138.
+
 ## Evidence limits {#s-d7a98fae73}
 This page combines fixed occurrences with a 2018 redescription of one fragmentary holotype. Braincase identifications remain partly tentative and foot bones cover limited anatomy. Estimated lengths, immaturity, affinities and cursorial adaptation have separate scopes, without establishing adult size, exact age, speed or whole-species ecology. The full 1982 paper and all later material are not assembled, and neither matrices nor disputed bone lengths were independently reanalyzed. Database ages and depositional labels are not death dates or direct habitat records. This is not a complete monograph.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

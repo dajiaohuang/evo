@@ -1,18 +1,62 @@
 ## 接受名称与记录数量 {#s-8bc1d2cd57}
 PBDB 接受的名称为 Pteranodon longiceps，数据库父级为 Pteranodon。所选资料包含 23 条种级出现记录，涉及 22 个采集记录和 7 个引文编号。这些是数据库记录数量，不是标本或动物个体数量。 其中一条记录将原始鉴定或组合名与接受名相连；数据库中的名称关联不构成额外出现记录。
 
+PBDB 出现记录补充:
+Pteranodon longiceps 在 PBDB 快照中对应分类条目 txn:52932。这份存档导读包含 23 条选取的出现记录，关联 22 个不同的 PBDB 采集记录编号和 7 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## 所选采集地与地层 {#s-dfd4b84d17}
 具名采集记录示例：采集记录 near Elkader（Kansas），地区代码 US，地层名称 Niobrara；数据库年代范围 85.7–83.6 Ma，早端地质时段 Santonian。采集记录 3 mi NE Monument Rocks（Kansas），地区代码 US，地层名称 Niobrara；数据库年代范围 85.7–83.6 Ma，早端地质时段 Santonian。采集记录 2 miles NE of Penokee（Kansas），地区代码 US，地层名称 Niobrara；数据库年代范围 85.7–83.6 Ma，早端地质时段 Santonian。每条记录保留采集地、地区代码及该采集记录所载的年代范围或地质时段；这份列表不能代表物种的完整分布。
+
+PBDB 出现记录补充:
+存档导读包含 23 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
+
+- 出现记录 occ:785636；PBDB 采集记录 col:84697。 地点字段 cnm=near Elkader；地点分区字段 cc2=US，stp=Kansas，cny=Logan。 记录年代界：eag 85.7 Ma; lag 83.6 Ma；PBDB 年代区间字段 oei=Santonian。 地层字段 sfm=Niobrara。 记录署名 Miller 1971；PBDB 引文编号 ref:28405。
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+"near Elkader.. The exact location (section and township) of discovery are unknown" (coordinate based on Elkader)
+
+- 出现记录 occ:851146；PBDB 采集记录 col:94635。 地点字段 cnm=Brown Ranch, SDSM V614；地点分区字段 cc2=US，stp=South Dakota，cny=Pennington。 记录年代界：eag 83.6 Ma; lag 72.2 Ma；PBDB 年代区间字段 oei=Early Campanian。 地层字段 sfm=Pierre Shale。 记录署名 Hargrave 2007；PBDB 引文编号 ref:32230。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+0.74 m below the base of the 2nd bentonite stringer
+
+- 出现记录 occ:841086；PBDB 采集记录 col:93234。 地点字段 cnm=3 mi NE Monument Rocks；地点分区字段 cc2=US，stp=Kansas，cny=Gove。 记录年代界：eag 85.7 Ma; lag 83.6 Ma；PBDB 年代区间字段 oei=Santonian。 地层字段 sfm=Niobrara。 记录署名 Marsh 1876；PBDB 引文编号 ref:7807。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+from between 2 m above Marker Unit 15 and Marker Unit 16; upper part of member
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+west side of the first drainage east of Monument Rocks
 
 ## 所选记录的年代边界 {#s-8d6db2082c}
 所选记录的年代外包区间为 85.7–72.2 Ma（百万年前）。它组合了最宽的早端和晚端边界，不代表连续化石记录，也不是直接测得的物种起源、灭绝或寿命。各采集记录的年代范围仍应分别阅读；本页不推定更精确的标本年龄。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=85.7 Ma，见 occ:785636；最小记录 lag=72.2 Ma，见 occ:851146。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 采集环境与保存方式 {#s-f61feb2360}
 采集字段记载如下：near Elkader 的采集环境标签为 离岸沉积环境，类型未定（offshore indet.）；集合保存方式标签为 实体化石、压印保存（body,adpression）。3 mi NE Monument Rocks 的采集环境标签为 离岸沉积环境，类型未定（offshore indet.）；集合保存方式标签为 实体化石（body）。2 miles NE of Penokee 的采集环境标签为 离岸沉积环境，类型未定（offshore indet.）；集合保存方式标签为 实体化石（body）。这些标签描述的是采集地或集合层级，不直接确定翼龙生前栖地或每件化石的保存状态。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:785636：PBDB 原鉴定字段 idn=Pteranodon (Longicepia) longiceps；PBDB 分类名称字段 tna=Pteranodon longiceps；材料说明字段 ocm=Sternberg Memorial Museum 11402, partial skull and postcranial remains；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=-100.866669，lat=38.799999；古坐标／模型字段 pm1=gplates，pln=-61.64，pla=46.77。
+- occ:851146：PBDB 分类名称字段 tna=Pteranodon longiceps；材料说明字段 ocm=SDSM 69042, two manual phalanges；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=-102.250000，lat=43.883331；古坐标／模型字段 pm1=gplates，pln=-60.43，pla=52.1。
+- occ:841086：PBDB 原鉴定字段 idn=Pteranodon longiceps n. gen. n. sp.；PBDB 分类名称字段 tna=Pteranodon longiceps；材料说明字段 ocm=YPM 1177, skull and atlas-axis, postcranial fragments；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=-100.724998，lat=38.823612；古坐标／模型字段 pm1=gplates，pln=-61.48，pla=46.75。
 
 ## 采集记录关联的文献 {#s-96d8acbd69}
 near Elkader 的数据库引文署名为 Miller（1971），编号 ref:28405。3 mi NE Monument Rocks 的数据库引文署名为 Marsh（1876），编号 ref:7807。2 miles NE of Penokee 的数据库引文署名为 Miller（1971），编号 ref:31602。这些数据库署名用于定位来源，不是论文摘要，也不一定是该物种的原始描述。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 7 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:785636：记录署名 Miller 1971；PBDB 引文编号 ref:28405。
+- occ:851146：记录署名 Hargrave 2007；PBDB 引文编号 ref:32230。
+- occ:841086：记录署名 Marsh 1876；PBDB 引文编号 ref:7807。
+
 ## 资料卡范围 {#s-901d2addda}
 本卡片整理截至 2026-10-02 查询的 PBDB 部分出现记录，不是物种专论。接受名和数据库父级用于组织记录，但不能裁定全部标本鉴定或分类争议。出现、采集和引文数量代表不同单位。采集记录的年代范围及环境、保存标签不能确定完整分布、确切起源或灭绝时间、全物种生态、种群数量或每件标本的保存状态。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 23 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

@@ -1,5 +1,5 @@
-## Find rows through older Porzana or Amaurornis combinations {#s-e09a8c96d2}
-Pinned COL26.8 organizes this page at Zapornia flavirostra (CPPDH). BirdLife 2020 row 2734 and eBird 2021 row 11173 share the name and Avibase ID AVIBASE-148F0B01, with type 1BL to 1eBird; BirdTree row 11110 gives Amaurornis flavirostra, with type 1BL to 1BT. Read catalogue synonym CK9T points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-e09a8c96d2}
+Catalogue of Life release COL26.8 records Zapornia flavirostra (Swainson, 1837) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-824d90fb54}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 12.5 mm, tarsus 40.4 mm, unflattened wing 98.8 mm, tail 41 mm and hand-wing index 17.7 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

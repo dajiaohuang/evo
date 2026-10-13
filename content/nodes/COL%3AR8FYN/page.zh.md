@@ -1,5 +1,5 @@
-## 沿旧 Schistocichla／Myrmeciza 组合查历史行 {#s-fe5d5b3076}
-本页按 COL26.8 的 Myrmelastes brunneiceps（R8FYN）组织。BirdLife 2020 第 7789 行与 eBird 2021 第 6629 行同名，Avibase ID 为 AVIBASE-B4F54E3D，类型 1BL to 1eBird；BirdTree 第 6604 行记 Schistocichla brunneiceps，类型 1BL to 1BT。本次读到目录异名 4V997，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-fe5d5b3076}
+《Catalogue of Life》COL26.8（2026-08-20）将 Myrmelastes brunneiceps (J. T. Zimmer, 1931) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-0495142cc8}
 形态共 7 只鸟：雌 3、雄 4、性别未定 0；完整测量 2 只。鼻孔前缘至喙尖 11 mm、跗蹠 25.5 mm、未压平翼长 66.2 mm、尾长 54.7 mm、手翼指数 8 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

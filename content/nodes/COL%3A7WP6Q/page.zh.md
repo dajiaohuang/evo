@@ -1,5 +1,5 @@
-## 旧属名如何查回历史行 {#s-ad0d7cff52}
-COL26.8 接受 Psilopogon virens，目录 ID 为 7WP6Q。AVONET 的 BirdLife 2020 第 9705 行与 eBird 2021 第 8672 行均使用 Psilopogon virens，Avibase ID 为 AVIBASE-F5636BF7。BirdTree 第 8627 行记作 Megalaima virens，匹配类型为 1BL to 1BT；COL 旧组合记录 7VSWF 指回 7WP6Q。这些是历史名称记录与接受条目之间的对应，不证明各时期物种边界始终相同。
+## COL26.8 中的名称身份 {#s-ad0d7cff52}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon virens (Boddaert, 1783) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与喙翼均值 {#s-1c99c029cc}
 AVONET 形态样本共 8 只：雌 4、雄 4、性别未定 0，其中 4 只具完整测量组。记录均值包括鼻孔前缘至喙尖 29.6 mm、喙宽 14.5 mm、跗蹠 33.4 mm、未压平翼长 138.4 mm；手翼指数为 21.7。Inference=NO 不表示每个性状都以 8 只为分母。指数按 Kipp 距离除以翼长再乘 100 计算，不是飞行速度；喙宽也不是取食表现测试。

@@ -1,14 +1,14 @@
-## Read this historical record through food and foraging position {#s-3a0e3de5ce}
-Veniliornis mixtus is accepted in pinned COL26.8 within Picidae. EltonTraits 1.0 links a same-name record in the same family, with both food and foraging-stratum estimates. Its bird source uses an earlier classification; the name match does not settle later splits or synonym disputes.
+## Scope of the historical trait entry {#s-3a0e3de5ce}
+EltonTraits 1.0 has a same-name, same-family record for Veniliornis mixtus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-a0d74f7ba0}
-The archive’s nonzero food weights are invertebrates 50%; seeds, nuts and spores included in this category 50%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-a0d74f7ba0}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; seeds or nuts 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-bb32c994fc}
-Foraging-stratum weights flagged as species-level in the archive are understory, edges or shrubs below 2 m 50%; trees or high bushes from 2 m upward but below the canopy 50%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-bb32c994fc}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 50%; in mid-height or high vegetation 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-0c50039947}
-The linked food and stratum records carry the label Ref_7. Diet, strata and activity can come from different material, and a matching Ref number in bird and mammal reference tables need not identify the same source. The label locates a catalogue reference; it is not an additional observation. The underlying books and papers have not been individually read here.
+## Sources and field limits {#s-0c50039947}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-f07ebe03f7}
 These historical EltonTraits estimates are not a complete account of the species. A shared name and family do not prove that the source's earlier species concept matches COL26.8. The percentages summarize literature descriptions; they are not direct measurements of food intake, energy or time spent at a height. The underlying sources have not been read individually for this page, so Ref_7 identifies a citation rather than independent confirmation. Seasonal and local variation, present-day range, population trends and conservation status require other sources.

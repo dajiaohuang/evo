@@ -5,5 +5,5 @@ Silva and colleagues surveyed the Marmelos–Aripuanã interfluve during 2012–
 Distance sampling estimated density at 8.31 individuals/km²; extrapolation gave 258,218 animals (95% confidence interval 150,705–441,860). A business-as-usual scenario projected loss of about 10,000 km², or 33% of the modeled range, over three generations (about 18 years). The authors recommended Vulnerable at publication. These dated estimates and scenario are not a current census or status reassessment.
 
 ## Evidence limits {#s-d146f18840}
-Source-linked introduction;. Density, population size, extent and forest-loss projection are estimates tied to 2012–2015 fieldwork and the paper's assumptions. The recommendation is the authors' dated recommendation, not a present-day reassessment.
+Density, population size, extent and forest-loss projection are estimates tied to 2012–2015 fieldwork and the paper's assumptions. The recommendation is the authors' dated recommendation, not a present-day reassessment.
 

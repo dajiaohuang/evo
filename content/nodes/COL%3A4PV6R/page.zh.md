@@ -1,5 +1,5 @@
-## 历史属名与物种概念 {#s-132c688f85}
-固定 COL26.8 以 Pternistis hartlaubi（4PV6R）组织本页。AVONET v7 BirdLife 2020 第 2515 行与 eBird 2021 对应同名，Avibase ID 为 AVIBASE-56FA0FE6；BirdTree 表对应 Francolinus hartlaubi，原匹配类型为 1BL to 1BT。已读 COL 的旧组合 6JLDP 指向本页接受 ID 4PV6R。名称关联支持查回历史行，不证明各年代所有物种边界相同。
+## COL26.8 中的名称身份 {#s-132c688f85}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pternistis hartlaubi (Barboza du Bocage, 1869) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与推算边界 {#s-65f4d82a40}
 形态共测 5 只（雌 0、雄 5），完整测量 4 只。鼻孔前缘至喙尖均值 18.1 mm，跗蹠 35.3 mm，未压平翼长 144.6 mm，手翼指数 18.5。这些是物种行均值，指数按 Kipp 距离／翼长 ×100 定义；不能换成个体范围或飞行速度。本行只含一个性别，不能补写雌雄大小差异。

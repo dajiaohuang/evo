@@ -1,4 +1,6 @@
-## 目录中的位置 {#s-0d5ae22d85}
+## 记录分类与直接上级关系 {#s-0d5ae22d85}
+COL26.8 将 Timon 记录为属；其直接上级记录为 Lacertidae。
+
 Timon 在固定 COL26.8 中记录为接受分类单元，阶元为属，父级为 Lacertidae。本页沿用这一目录位置。
 
 ## 从已有样本页面开始 {#s-4c9ed81e85}
@@ -14,7 +16,7 @@ Timon 的本批路线包含 4 条历史生活史导读，可从 Timon lepidus、
 本导读仅覆盖列出的研究阅读路径，本批次没有覆盖其他接受后代。论文中的 Podarcis wagleriana 与 Agama impalearis 已有单独物种页，保留样本原名及来源支持的 Podarcis waglerianus 与 Agama bibronii 对应。Takydromus sp. 没有鉴定到种，不计为物种页面。
 本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
 
-## 从有性状记录的物种开始 {#s-9d54d756e0}
+## 记录分类与成员材料 {#s-9d54d756e0}
 Timon 的本批 ReptTraits 阅读路径包含 6 条同名同科、有逐性状出处的物种资料，可从 Timon kurdistanicus、Timon lepidus、Timon nevadensis、Timon pater、Timon princeps 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-0a38cc32e9}

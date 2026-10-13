@@ -1,4 +1,6 @@
-## 四种有测量记录的物种 {#s-058120bbd5}
+## 记录分类与直接上级关系 {#s-058120bbd5}
+COL26.8 将 Anhingidae 记录为科；其直接上级记录为 Suliformes。
+
 固定 COL26.8 中的 Anhingidae 路径在本批包含 4 种有 AVONET v7 测量记录的物种：Anhinga anhinga、Anhinga melanogaster、Anhinga novaehollandiae 和 Anhinga rufa。数值仍沿用 AVONET 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-642710a086}

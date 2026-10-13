@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:aves
       claimKind: scientific
       claimType: fossil-range
-      statement: "The 150–0 Ma Aves route is an avialan-to-living-bird navigation anthology: referred Archaeopteryx material supplies a Late Jurassic fossil anchor, but Archaeopteryx is outside crown Neornithes and the endpoint is not crown-Aves origination."
+      statement:
+        page: en
+        section: fossil-anthology
+        part: body
       confidence: medium
       confidenceRationale: The Painten specimen has explicit locality, horizon and anatomical locators. The atlas entity deliberately groups Archaeopteryx and Neornithes for browsing, so the range is labelled as an anthology rather than a single crown definition.
       referenceLinks:
@@ -27,7 +30,9 @@ records:
   claim-rationales.zh:
     - Painten 标本具有明确产地、层位与解剖定位；图谱实体为浏览而同时容纳 Archaeopteryx 与 Neornithes，因此范围明确标作证据选集，而非单一冠群定义。
   claim-statements.zh:
-    - 150–0 Ma 的鸟类路线是从鸟翼类化石到现生鸟的导航选集：归入 Archaeopteryx 的材料提供晚侏罗世锚点，但 Archaeopteryx 位于现生鸟冠群之外，该端点不是鸟冠群起源。
+    - page: zh
+      section: fossil-anthology
+      part: body
   ranges:
     - entityId: aves
       rangeKind: global-composite

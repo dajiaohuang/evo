@@ -1,5 +1,5 @@
-## Name and historical material {#s-48fbfd7cc9}
-Pinned COL26.8 accepts Capra ibex in Bovidae. The linked PanTHERIA row uses the MSW05 name in its August 2008 table, based on biological data gathered through June 2004; that historical match does not resolve later taxonomic changes.
+## Adult body mass and litter size in the historical table {#s-48fbfd7cc9}
+The August 2008 PanTHERIA row for *Capra ibex* records adult body mass 69546.83 g; litter-size summary 1.11 offspring. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. A fractional litter-size value is a compiled summary, not a literal fractional litter. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Capra ibex*.
 
 ## How body size was consolidated {#s-f11e6f4c6e}
 PanTHERIA gives an adult-mass median of 69546.83 g after adjustment for sex. A median is the middle value after sorting the observations. The mass can combine adults and animals of unspecified age, but pregnant females are excluded; this row has no head-to-body or forearm length value.
@@ -13,8 +13,8 @@ The entry classifies feeding as plant-based, with 2 diet resource classes and 1 
 ## Home range and mapped distribution {#s-a851c80791}
 The historical range-map area is 145098.13 km², with latitude endpoints from 43.76° to 47.9°. A map boundary is not a list of occupied localities, and its full area should not be read as continuously occupied. It does not supply a current distribution or population estimate.
 
-## The 2015 life-history entry and this name {#s-433f9713c9}
-The August 2015 life-history archive links 7 cited fields to this same-name, same-family record. Its historical match supports the association, but summarized values may include data inherited across older taxa and do not prove equivalence to the current COL26.8 concept.
+## Body mass and life-history values in the compilation {#s-433f9713c9}
+The August 2015 Amniote Database entry for *Capra ibex* reports adult body mass 77000 g; mass at birth or hatching 2791.43 g; female age at first conception 817.77 d; offspring per litter or eggs per clutch 1.18; conception or fertilization to birth 169 d; age of dependence on food other than maternal milk 228.27 d; longest lifespan record in the compilation 22.3 y. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. The female-maturity field is defined as age at first conception, not first birth. Gestation is the source-defined interval from conception or fertilization to birth. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Maximum longevity is the longest record found, not a mean or typical lifespan. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Capra ibex*.
 
 ## Different stages in the mass fields {#s-c0fffa2302}
 The archive reports adult mass of 77000 g and birth mass of 2791.43 g. The adult figure can combine sexes and animals whose sex was not recorded; birth mass describes a different stage. They are not successive measurements of the same animals.
@@ -28,8 +28,8 @@ The archive’s maximum-longevity value is 22.3 years, the largest record retain
 ## How to trace these values to sources {#s-d56b5e11c1}
 The source rows include labels such as Jones et al. (2009), de Magalhaes and Costa (2009), Ernest et al. (2003), and Ricklefs (2010b). The archive preserves each field’s row, value, and label; a label may refer to a book or database as well as a paper. Rows are not numbers of measured animals, and repeated citations are not independent studies.
 
-## Read this historical record through food and foraging position {#s-06ebc7ed00}
-The EltonTraits 1.0 row matches the pinned COL26.8 name and family and covers 3 ecological field groups, but follows earlier mammal taxonomy. Matching names do not resolve later species splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-06ebc7ed00}
+The EltonTraits 1.0 record for *Capra ibex* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of other plant material, including fungi 100% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark twilight and daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Capra ibex*.
 
 ## Relative weights of food categories {#s-6c5400c233}
 EltonTraits assigns 100% to other plant material, a category that includes fungi. This is a relative weight standardized from written descriptions, not measured diet composition. The ABC code groups confidence levels and can include a related species’ estimate, so it is not necessarily direct observation of Capra ibex.
@@ -43,15 +43,17 @@ The archive marks twilight and daytime activity as 1. These codes can overlap an
 ## Trace each field group to its source labels {#s-80db45d14f}
 The selected source groups carry Ref_1 and metadata:Nowak1999 labels. Diet, feeding position, and activity can come from different materials; a Ref number shared between bird and mammal tables need not point to the same work. Original labels and row locations remain in the source archive; the underlying works were not individually reread.
 
-## Evidence limits {#s-c69b8fb585}
-PanTHERIA’s WR05/2008 values are historical summaries. Continuous measures are generally medians, sometimes adjusted by a general linear model (GLM) for sex or method; extrapolated *_EXT fields are not used to fill gaps. Source conditions can be wild, captive, provisioned, or unspecified. The MSW93/MSW05 crosswalk and COL name/family match support an association, not identical species concepts; current range, survival, and conservation need other sources.
+## How to interpret these historical records {#s-c69b8fb585}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-The 2015 life-history archive reports medians or averages of the two middle values, except maximum longevity, which keeps the largest record. It can inherit values across historical species and subspecies; conditions are not uniformly stated, and underlying publications were not individually reviewed. These are not individual ranges or current population surveys.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-EltonTraits 1.0 converts literature descriptions into broad categories and relative weights, not direct measurements of diet or time use. Its ABC fields may use evidence from a related species, and its taxonomy does not settle current species boundaries. Local variation and present distribution or conservation require additional sources.
+Ernest’s historical compilation generally gives equal-weight averages across listed sources, with possible reuse of the same primary source. The cited books and papers remain provenance; they do not become new direct observations here.
 
-## The name in the historical life-history record {#s-0e4abb4a39}
-Ernest’s 2003 compilation records Capra ibex under Wilson and Reeder’s 1993 taxonomy. A separate one-to-one MSW93/MSW05 name crosswalk also supports the historical link, but neither source match proves that the concept equals current COL26.8.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Age at first reproduction in the historical table {#s-0e4abb4a39}
+The 2003 Ernest life-history compilation lists gestation 5.6 months; mass at birth 2791.43 g; age at weaning 7.5 months; age at first reproduction 29.24 months; litter size 1.25 offspring; litters per year 0.75 litters/year for its historical *Capra ibex* row. These are compilation values; the selected record does not identify a single sample or uniformly documented wild/captive conditions. The source field is age at first reproduction, distinct from age at first conception. The MSW93/MSW05 name correspondence does not establish equivalence to the pinned COL26.8 concept for *Capra ibex*.
 
 ## Gestation and first reproduction {#s-48d7ffdf4e}
 The compiled averages are 5.6 months for active gestation and 29.24 months for female age at first reproduction. Gestation excludes delayed implantation. First reproduction means age when conception is possible; if a source gives first-birth age, the method subtracts gestation. It differs from sexual maturity and first birth.

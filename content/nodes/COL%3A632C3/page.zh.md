@@ -1,5 +1,7 @@
-## 从已有历史条目开始 {#s-f8d9a9b6e4}
-Elasmodontomys 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 [Elasmodontomys obliquus](Elasmodontomys_obliquus/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与直接上级关系 {#s-f8d9a9b6e4}
+COL26.8 将 Elasmodontomys 记录为属；其直接上级记录为 Heptaxodontinae。
+
+Elasmodontomys 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Elasmodontomys obliquus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 证据边界 {#s-2be3b41f6f}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。

@@ -1,18 +1,44 @@
-## Which fossil records this name represents {#s-a8e314d9c9}
-Tyto noeli is accepted in the fixed PBDB dinosaur working roster, with database parent Tyto. This guide uses 4 eligible species-level occurrence records from 4 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-a8e314d9c9}
+Tyto noeli is listed in the PBDB snapshot under taxon txn:373820. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-ed094638b5}
-Collection Cueva El Abrón Level VII (Pinar del Rio), region code CU; database age bracket 0.129–0.0117 Ma, early interval Late Pleistocene. Collection Rat Pocket, Gun Shop Cliff, Two Foot Bay (Barbuda), region code AG; database age bracket 0.129–0 Ma, early interval Late Pleistocene and late interval Holocene. Collection Cueva del Túnel, La Salud (Mayabeque), region code CU; database age bracket 0.129–0 Ma, early interval Late Pleistocene and late interval Holocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-ed094638b5}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-3ee57d2bf3}
-Selected occurrences have an outer age envelope of 0.129–0 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:837019; PBDB collection col:92812. Locality cnm=Cueva El Abrón Level VII; place fields cc2=CU, stp=Pinar del Rio. Recorded age bounds: eag 0.129 Ma; lag 0.0117 Ma; PBDB interval fields oei=Late Pleistocene. Recorded attribution Suárez and Díaz-Franco 2003; PBDB reference ref:31330.
 
-## Read preservation setting separately from living habitat {#s-5c528e17ca}
-Cueva El Abrón Level VII has collection-environment label cave; collection preservation-mode label body,coprolite. Rat Pocket, Gun Shop Cliff, Two Foot Bay has collection-environment label cave; collection preservation-mode label body. Cueva del Túnel, La Salud has collection-environment label cave; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"late Pleistocene. Radiometric date (14C) from a sample of long bones of... Tyto noeli Arredondo, directly in association with the type material [of Phyllops silvai]... gave an age of 17,406 +/- 161 rcybp. Calibration (95% confidence interval) of the same sample gave ages from 20,050 to 21,747 ybp...The excavated site is more than 2 m in depth, with eight layers... Fossils of Phyllops silvai [and associated taxa] were recovered at layer VII (1.00 to 1.60 m depth...)"
 
-## Follow collection records back to references {#s-19dbe86996}
-Cueva El Abrón Level VII carries database reference attribution Suárez and Díaz-Franco (2003), identifier ref:31330. Rat Pocket, Gun Shop Cliff, Two Foot Bay carries database reference attribution Steadman and Hilgartner (1999), identifier ref:66341. Cueva del Túnel, La Salud carries database reference attribution Arredondo (1972), identifier ref:66345. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Cueva El Abrón, western tip of Sierra de La Güira... Municipality of Los Palacios... a half-moon shape cavity no longer than 21 m with a very high ceiling, where clastic material (roof fall) is abundant on the surface"
 
-## Evidence limits {#s-6ebd733096}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1411997; PBDB collection col:195072. Locality cnm=Rat Pocket, Gun Shop Cliff, Two Foot Bay; place fields cc2=AG, stp=Barbuda. Recorded age bounds: eag 0.129 Ma; lag 0 Ma; PBDB interval fields oei=Late Pleistocene, oli=Holocene. Recorded attribution Steadman and Hilgartner 1999; PBDB reference ref:66341.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Unstratified; late Quaternary, probably late Pleistocene or early Holocene. Because the deposit lacked organic materials, such as charcoal or unmineralized bone for radiocarbon dating, we were unable to refine the chronology of this site beyond being late Quaternary.
+
+- Occurrence occ:1412020; PBDB collection col:153777. Locality cnm=Cueva del Túnel, La Salud; place fields cc2=CU, stp=Mayabeque. Recorded age bounds: eag 0.129 Ma; lag 0 Ma; PBDB interval fields oei=Late Pleistocene, oli=Holocene. Recorded attribution Arredondo 1972; PBDB reference ref:66345.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+La Salud
+
+## Age bounds on the recorded occurrences {#s-3ee57d2bf3}
+Across these selected PBDB rows, the largest recorded eag=0.129 Ma in occ:837019; the smallest recorded lag=0 Ma in occ:1411997. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5c528e17ca}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:837019: PBDB taxon-name field tna=Tyto noeli; PBDB locality-coordinate fields lng=-83.466667, lat=22.666668; paleocoordinate/model fields pm1=gplates.
+- occ:1411997: PBDB original-identification field idn=Tyto neddi n. sp.; PBDB taxon-name field tna=Tyto noeli; abundance fields abv=6, abu=specimens; PBDB locality-coordinate fields lng=-61.766998, lat=17.667000; paleocoordinate/model fields pm1=gplates.
+- occ:1412020: PBDB original-identification field idn=Tyto noeli n. sp.; PBDB taxon-name field tna=Tyto noeli; PBDB locality-coordinate fields lng=-82.419998, lat=22.875000; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-19dbe86996}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:837019: Recorded attribution Suárez and Díaz-Franco 2003; PBDB reference ref:31330.
+- occ:1411997: Recorded attribution Steadman and Hilgartner 1999; PBDB reference ref:66341.
+- occ:1412020: Recorded attribution Arredondo 1972; PBDB reference ref:66345.
+
+## What these records can show {#s-6ebd733096}
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

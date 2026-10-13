@@ -1,5 +1,5 @@
-## Find rows through older Collocalia combinations {#s-915896f11d}
-Pinned COL26.8 organizes this page at Aerodramus bartschi (64Z4N). BirdLife 2020 row 505 and eBird 2021 row 191 share the name and Avibase ID AVIBASE-F8E58F0F, with type 1BL to 1eBird; BirdTree row 196 gives Collocalia bartschi, with type 1BL to 1BT. Read catalogue synonym X4NZ points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates. Historical Order1=Caprimulgiformes remains distinct from Apodiformes in this COL path.
+## A name fixed to COL26.8 {#s-915896f11d}
+Catalogue of Life release COL26.8 records Aerodramus bartschi (Mearns, 1909) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-5ab9fe37c9}
 Morphology comprises 3 birds: 2 female, 1 male and 0 unsexed; 2 complete sets. Nostril-to-tip beak length 2.4 mm, tarsus 8.3 mm, unflattened wing 88.7 mm, tail 41.3 mm and hand-wing index 60.5 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

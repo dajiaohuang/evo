@@ -1,5 +1,5 @@
-## Find rows through older Carduelis/Serinus combinations {#s-de96adfe4e}
-Pinned COL26.8 organizes this page at Spinus xanthogastrus (4Z664). BirdLife 2020 row 4168 and eBird 2021 row 9801 share the name and Avibase ID AVIBASE-8E56A1C6, with type 1BL to 1eBird; BirdTree row 9742 gives Carduelis xanthogastra, with type 1BL to 1BT. Read catalogue synonym R6JZ points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-de96adfe4e}
+Catalogue of Life release COL26.8 records Spinus xanthogastrus (Du Bus de Gisignies, 1855) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-2937ba06c9}
 Morphology comprises 9 birds: 3 female, 4 male and 2 unsexed; 4 complete sets. Nostril-to-tip beak length 7.8 mm, tarsus 13.5 mm, unflattened wing 65.2 mm, tail 40.5 mm and hand-wing index 29.1 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

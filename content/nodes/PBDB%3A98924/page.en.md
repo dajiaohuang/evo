@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-f2a012e896}
-Charadriimorphae is recorded at rank superorder in this batch’s PBDB path. This route offers occurrence guides for 140 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Charadriimorphae {#s-f2a012e896}
+Charadriimorphae is listed at rank superorder in the PBDB classification route, with Telmatorae as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-b781e38bdb}
 Start with Zheroia kurochkini, Songzia heidangkouensis, Songzia acutunguis, Morsoravis sedilis, Parvigrus pohli and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 333 selected occurrences from 251 collections; example stratum names are Yangxi, Fur, Campagne-Calavon, Sarmiento. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-03c622b3c6}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-03c622b3c6}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Zheroia kurochkini’s collection record, not a continuous history for Charadriimorphae.
 

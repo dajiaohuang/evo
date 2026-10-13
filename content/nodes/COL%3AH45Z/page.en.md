@@ -1,15 +1,15 @@
-## The accepted name and its record {#s-2db3f42863}
-COL26.8 accepts Asaccus barani within Phyllodactylidae. Its ReptTraits v1-2 row retains the workbook’s Reptile Database 2023 name framework and sources for individual traits. The row combines cited reports, so it is not a fixed description of every population.
+## COL26.8 name and the ReptTraits row {#s-2db3f42863}
+COL26.8 records Asaccus barani as an accepted species. The ReptTraits v1-2 row gives its Family field as Phyllodactylidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A maximum measured to the vent {#s-0340a4b133}
-The compilation reports a maximum snout–vent length (SVL) of 56.5 mm and a female maximum of 46.9 mm. SVL runs from snout to vent and excludes the tail. The figures are reported maxima, not typical sizes or growth limits. Their sex-specific sources may differ in place or study, so they do not alone establish size dimorphism within one population.
+## Length values in the archived records {#s-0340a4b133}
+The row reports a maximum SVL of 56.5 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 46.9 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Only the time of activity is recorded {#s-ebb4aafb73}
-Activity is classified as nocturnal. The record gives no microhabitat or diet value, so it cannot show where the animals were observed or what they ate. A time-of-activity label is not a full schedule and may not capture differences among seasons, localities or life stages.
+## Habitat use and activity labels {#s-ebb4aafb73}
+The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## A clutch average of 1.5 {#s-68573a1276}
-The source labels reproduction as oviparous, or egg-laying, and gives a consolidated offspring/egg value of 1.5 per clutch or litter. A fractional value is a summary, not a clutch containing half an egg. Depending on what the source reports, the summary may be based on midpoints of published means or extremes rather than an arithmetic average of individual clutches. It does not establish embryo nutrition or uniformity across populations.
+## Reproductive fields in ReptTraits {#s-68573a1276}
+The compiled mean for offspring per litter or eggs per clutch is 1.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The row is not a population survey {#s-54575bda32}
-This page paraphrases the same-name ReptTraits v1-2 entry under its 2023 naming framework. One row compresses differences in sex, age, locality and population; the name-and-family match does not prove equivalence with later taxonomic concepts. The maximum length is not a species-wide ceiling, and 1.5 is not a fixed clutch size. Other workbook mass values may be estimates from length equations, and juvenile-length definitions vary; neither is treated here as direct measurement. Conservation, venom, current distribution and population trends are not updated, and the retained citation chain does not mean every original study was independently reread for this page.
+## Reading this compiled trait record {#s-54575bda32}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

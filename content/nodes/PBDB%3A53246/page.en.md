@@ -1,11 +1,11 @@
-## Organize fossil records by source classification {#s-9c9ed2f7c1}
-Ambulocetidae is recorded at rank family in this batch’s PBDB path. This route offers occurrence guides for 3 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## How PBDB organizes fossil occurrences {#s-9c9ed2f7c1}
+PBDB groups the selected fossil-occurrence records for *Ambulocetidae* under its recorded classification path and links them to collections, strata, age brackets, and references. This hierarchy organizes database records; it remains distinct from COL taxonomy and is not a phylogenetic hypothesis.
 
-## Compare collections, strata and age brackets {#s-1c8fefac09}
-Start with Ambulocetus natans, Himalayacetus subathuensis, Gandakasia potens and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 5 selected occurrences from 5 collections; example stratum names are Kuldana, Subathu. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Compare each occurrence with its collection {#s-1c8fefac09}
+The route includes *Ambulocetus natans*, *Himalayacetus subathuensis* and *Gandakasia potens*, with records linked to named collections, strata and age brackets. Check the identification and source attached to each occurrence before comparing localities; collection and occurrence records are not population counts.
 
-## Evidence limits {#s-fabf74c4a3}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## How to interpret the displayed age brackets {#s-fabf74c4a3}
+These PBDB age brackets bound the registered occurrences shown here. They do not by themselves establish a taxon’s global first or last appearance or a clade’s origin or extinction.
 
 ## Amphibious anatomy helps test whale transitions {#s-a8aaa22593}
 Ambulocetidae is represented in the cited synthesis as a sampled Eocene whale family whose anatomy has been interpreted in relation to life in water and on land. Comparisons of its fossils help researchers examine locomotor change during early cetacean evolution.

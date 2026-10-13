@@ -1,26 +1,26 @@
-## The name and this data account {#s-5a1cd5301b}
-Megapodius laperouse is accepted in COL26.8 within Megapodiidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-5a1cd5301b}
+The AVONET v7 row for Megapodius laperouse (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 10.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-2ba05e0986}
-Recorded mean beak measurements are 10.8 mm from the anterior nostril edge to the tip, 5.2 mm in width and 6.8 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-2ba05e0986}
+AVONET records culmen length (bill tip to skull base) 22.3 mm; beak length (nostril front edge to tip) 10.8 mm; beak width at the nostril front edge 5.2 mm; beak depth at the nostril front edge 6.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-0e8db02e04}
-Mean unflattened wing length from the carpal joint to the longest primary is 167 mm; mean tarsus length is 51.5 mm. Compiled mean mass is 308 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-0e8db02e04}
+AVONET records unflattened wing length 167 mm; tarsus length 51.5 mm; distance from first secondary tip to longest primary tip 51.8 mm; length to first secondary tip 113.4 mm; hand-wing index 31.4; tail length 55.4 mm; species-average body mass 308 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-4fd0f3abd6}
-The dataset assigns habitat Forest, trophic niche Omnivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-4fd0f3abd6}
+AVONET classifies Megapodius laperouse as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-ca12dab203}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 6.89° to 20.54°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-ca12dab203}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 6.89° to 20.54°. The mapped range area is 838.35 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-b9cf73d437}
-Megapodius laperouse is accepted in pinned COL26.8 within Megapodiidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-b9cf73d437}
+EltonTraits 1.0 has a same-name, same-family record for Megapodius laperouse covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-0268923cdd}
-Foraging-stratum weights flagged as species-level in the archive are ground 100%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-0268923cdd}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-5ff7739e95}
-The used groups carry labels Ref_2. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-5ff7739e95}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Handbook of the Birds of the World vol.2.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-405c1ab35f}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

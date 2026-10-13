@@ -1,5 +1,5 @@
-## Find rows through older Puffinus combinations {#s-e7fac14bab}
-Pinned COL26.8 organizes this page at Ardenna bulleri (D5KCX). BirdLife 2020 row 10083 and eBird 2021 row 929 share the name and Avibase ID AVIBASE-83F9C058, with type 1BL to 1eBird; BirdTree row 931 gives Puffinus bulleri, with type 1BL to 1BT. Catalogue synonym 4QFXK, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-e7fac14bab}
+Catalogue of Life release COL26.8 records Ardenna bulleri (Salvin, 1888) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-ef63eaa88a}
 Morphology comprises 4 birds: 1 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 32.5 mm, tarsus 48.6 mm, unflattened wing 276.2 mm, tail 109 mm and hand-wing index 59.1 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

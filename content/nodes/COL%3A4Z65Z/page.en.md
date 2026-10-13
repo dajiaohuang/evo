@@ -1,5 +1,5 @@
-## Find rows through older Carduelis/Serinus combinations {#s-01aae09447}
-Pinned COL26.8 organizes this page at Spinus thibetanus (4Z65Z). BirdLife 2020 row 4165 and eBird 2021 row 9798 share the name and Avibase ID AVIBASE-B9024775, with type 1BL to 1eBird; BirdTree row 9739 gives Serinus thibetanus, with type 1BL to 1BT. Read catalogue synonym 4WV7X points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-01aae09447}
+Catalogue of Life release COL26.8 records Spinus thibetanus (Hume, 1872) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-c7ad659c55}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.1 mm, tarsus 12 mm, unflattened wing 68.9 mm, tail 42.9 mm and hand-wing index 36 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

@@ -1,5 +1,5 @@
-## 沿旧 Zoothera 名称查历史资料 {#s-b9a548aec5}
-本页按 COL26.8 的 Geokichla oberlaenderi（3FPZK）组织。AVONET v7 BirdLife 2020 第 8559 行与 eBird 2021 第 4320 行同名，Avibase ID 为 AVIBASE-05BC1F90；BirdTree 第 4301 行记作 Zoothera oberlaenderi，匹配类型为 1BL to 1BT。已读 COL 旧组合 7GGQW 指向本页接受 ID。这些来源关联用于查资料，不证明所有时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-b9a548aec5}
+《Catalogue of Life》COL26.8（2026-08-20）将 Geokichla oberlaenderi Sassi, 1914 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量鸟数与喙翼数值 {#s-c0ebe88517}
 形态共测 1 只：雌 1、雄 0、性别未定 0；1 只具完整测量。鼻孔前缘至喙尖 10.7 mm、跗蹠 26.9 mm、未压平翼长 96.5 mm、手翼指数 23.4 是该历史行的汇总数值。这里只有一只鸟，不能用它建立群体变异、雌雄差异或个体范围。手翼指数定义为 Kipp 距离／翼长 ×100，不是飞行速度、迁移距离或本种全域的能力测验。

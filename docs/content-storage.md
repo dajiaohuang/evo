@@ -123,3 +123,20 @@ than generated JSON, compressed data, or source manifests. Runtime keeps its
 existing compressed JSON delivery format; the full Markdown corpus is not
 bundled into the application. The flat builder accepts only the current schema
 and does not dual-read tree-path content.
+
+Each export descriptor and its canonical dependencies determine projection-cache
+reuse. Changing one descriptor rebuilds its affected export; shared codecs and
+the bibliography invalidate all dependent exports. Successful checks cache their
+verified result inside `.git` for subsequent build steps.
+
+The public site opens the map workspace. Ordinary PBDB accounts use the exact
+recorded `txn:` identity through `#/pbdb`, with a compressed identity index and
+lazy content shards. Several material contexts for one recorded ID remain
+separate accounts. A physical key or same-name COL entry never selects a PBDB
+account. Related-reading controls use recorded source targets and the explicit
+COL release or supported PBDB index.
+
+The full-web publication generator reuses that runtime index for its links;
+it does not reopen all canonical nodes. Standalone PBDB HTML exports are derived
+from the same records and retain source contexts, passage bindings and rights.
+They are exports, while CI and Pages deployment follow the map workspace build.

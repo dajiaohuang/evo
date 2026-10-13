@@ -1,4 +1,6 @@
-## Caretta 的接受种 {#s-be37992394}
+## 记录分类与直接上级关系 {#s-be37992394}
+COL26.8 将 Caretta 记录为属；其直接上级记录为 Cheloniidae。
+
 COL26.8（2026 年 8 月 20 日发布）接受 Caretta 属（COL 3HH4），归入 Cheloniidae 科（COL 83J），位于 Chelonioidea 与 Cryptodira 之下。该固定属概念的接受后代只有 Caretta caretta（Linnaeus，1758；COL 69BHK），且无更下级后代。这里是该固定属概念的完整清单。
 
 ## 沿着标本与性状证据阅读 {#s-cbdf1495d4}

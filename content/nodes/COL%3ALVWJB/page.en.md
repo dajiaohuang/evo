@@ -1,5 +1,5 @@
-## Find rows through older Turdoides combinations {#s-b5177c1fc7}
-Pinned COL26.8 organizes this page at Argya squamiceps (LVWJB). BirdLife 2020 row 4826 and eBird 2021 row 957 share the name and Avibase ID AVIBASE-E99FE2FE, with type 1BL to 1eBird; BirdTree row 958 gives Turdoides squamiceps, with type 1BL to 1BT. Read catalogue synonym 59PKH points to this accepted ID. Source family Leiotrichidae and catalogue Leiothrichidae retain their spellings. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-b5177c1fc7}
+Catalogue of Life release COL26.8 records Argya squamiceps (Cretzschmar, 1827) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-28a937d0f5}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 15.5 mm, tarsus 30.7 mm, unflattened wing 109.8 mm, tail 143.2 mm and hand-wing index 12.1 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

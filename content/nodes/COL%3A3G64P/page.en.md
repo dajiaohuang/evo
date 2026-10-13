@@ -1,29 +1,29 @@
-## The name and this data account {#s-0e48543df4}
-COL26.8 accepts Glaucidium tephronotum in Strigidae. AVONET v7 uses the HBW–BirdLife 2020 name and records 4 measured individuals, all with a complete set of measurements. A trait may still have a smaller usable sample.
+## Row-reported mean and sample coverage {#s-0e48543df4}
+The AVONET v7 row for Glaucidium tephronotum (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.6 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-33118e334d}
-Mean beak length is 9.6 mm from the front edge of the nostril to the tip; mean width is 5.5 mm and depth is 9.8 mm at the nostril edge. These are separate measurements at defined landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-33118e334d}
+AVONET records culmen length (bill tip to skull base) 16 mm; beak length (nostril front edge to tip) 9.6 mm; beak width at the nostril front edge 5.5 mm; beak depth at the nostril front edge 9.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-9607a948fc}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 102.8 mm; mean tarsus length is 22.3 mm. The compiled mean mass is 87.39 g and carries source category Dunning. Mass comes from separate species-average information, so the AVONET measurement count does not mean those birds were weighed.
+## Wing and body measures use separate sources {#s-9607a948fc}
+AVONET records unflattened wing length 102.8 mm; tarsus length 22.3 mm; distance from first secondary tip to longest primary tip 11.3 mm; length to first secondary tip 91.4 mm; hand-wing index 11; tail length 65 mm; species-average body mass 87.39 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-9e6a6346d6}
-The dataset codes habitat as Forest, trophic niche as Invertivore and lifestyle as Insessorial, meaning mainly perched on vegetation or another support. These are broad categories for cross-species comparison; they do not mean the owl uses only forest or eats only invertebrates.
+## Recorded habitat and feeding categories {#s-9e6a6346d6}
+AVONET classifies Glaucidium tephronotum as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-16fc4d5cd1}
-The migration field classifies the record as sedentary. Historical breeding and resident maps span latitudes -5.86° to 8.69°. They do not give a full account of non-breeding movements or a current position or global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-16fc4d5cd1}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -5.86° to 8.69°. The mapped range area is 2054685.26 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-e56524e780}
-Pinned COL26.8 accepts Glaucidium tephronotum in Strigidae. EltonTraits 1.0 has a same-name, same-family entry used here for two ecological field groups. Its source follows earlier bird taxonomy or, for mammals, MSW3; a matching name alone does not settle modern splits or synonymies.
+## Scope of the historical trait entry {#s-e56524e780}
+EltonTraits 1.0 has a same-name, same-family record for Glaucidium tephronotum covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-a8f3396574}
-The nonzero food weights are invertebrates 80% and mammals and birds 20%. Source code A marks high compiler confidence in the source and diet information. The percentages standardize literature descriptions; they are not direct measurements of diet, and an unlisted food is not proven absent.
+## Relative weights across food categories {#s-a8f3396574}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; mammals and birds 20%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-7e18e1bb4f}
-Species-level foraging weights are understory, edges or shrubs below 2 m 30%; trees or high bushes from 2 m upward but below the canopy 30%; ground 20%; and in or just above the canopy 20%. These are relative weights for feeding positions, not nest sites, all habitat or a daily time budget. The archive's categories have distinct definitions; they are not elevation bands and do not give flight heights or habitat area.
+## Foraging positions are not a time budget {#s-7e18e1bb4f}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 20%; in the understory 30%; in mid-height or high vegetation 30%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-da916cddcb}
-The selected field groups carry the label Ref_5. Diet, foraging strata and activity may draw on different materials, and Ref_5 in a bird table need not identify the same source as Ref_5 in a mammal table. The archive preserves original labels by file, row, field group and reference table. The underlying works have not been individually read; labels do not add independent observations.
+## Sources and field limits {#s-da916cddcb}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-14df7f5537}
 This is a guide to historical AVONET v7 data. Morphology values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass has separate provenance and must not inherit the morphology sample count. Habitat, diet and migration are broad categories; the maps cover historical breeding and resident ranges. Matching historical names support the link to this account but do not prove that the older and COL26.8 species concepts are equivalent. Reproduction, current populations and conservation need other sources.

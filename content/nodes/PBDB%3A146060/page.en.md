@@ -1,18 +1,41 @@
-## Which fossil records this name represents {#s-e2f458fc4c}
-Psilopterus lemoinei is accepted in the fixed PBDB dinosaur working roster, with database parent Psilopterus. This guide uses 13 eligible species-level occurrence records from 12 collections and 7 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-e2f458fc4c}
+Psilopterus lemoinei is listed in the PBDB snapshot under taxon txn:146060. This archived guide contains 13 selected occurrence rows, linked to 12 distinct PBDB collection IDs and 7 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-1981225a55}
-Collection Monte Leon Fm - Monte Leon, region code AR, stratum name Monte Leon; database age bracket 23.04–15.98 Ma, early interval Early Miocene. Collection Santa Cruz Formation (Santa Cruz), region code AR, stratum name Santa Cruz; database age bracket 17.5–16.3 Ma, early interval Santacrucian. Collection Estancia Halliday (Santa Cruz), region code AR, stratum name Santa Cruz; database age bracket 17.5–16.3 Ma, early interval Santacrucian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-1981225a55}
+The archived guide contains 13 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-4c9672552d}
-Selected occurrences have an outer age envelope of 23.04–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:810659; PBDB collection col:66154. Locality cnm=Monte Leon Fm - Monte Leon; place fields cc2=AR. Recorded age bounds: eag 23.04 Ma; lag 15.98 Ma; PBDB interval fields oei=Early Miocene. Stratigraphic fields sfm=Monte Leon. Recorded attribution Moreno and Mercerat 1891; PBDB reference ref:29788.
 
-## Read preservation setting separately from living habitat {#s-679f3e4d1d}
-Monte Leon Fm - Monte Leon has collection-environment label marine indet.; collection preservation-mode label body. Santa Cruz Formation has collection-environment label terrestrial indet.; collection preservation-mode label body. Estancia Halliday has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+STRATIGRAPHIC RELATIONS: From Monte Leon Fm, which is unconformably overlain by the Santa Cruz Fm (Late Miocene) and unconformably overlies the San Julian Fm (Early Oligocene). AGE: Stated in text to be Oligocene in age. Recent chronostratigraphic revision by Del Rio (2004) places the Monte Leon Fm in the Early Miocene. STRATIGRAPHIC POSITION: Upper levels of the Monte Leon Fm.
 
-## Follow collection records back to references {#s-c7df57e4e1}
-Monte Leon Fm - Monte Leon carries database reference attribution Moreno and Mercerat (1891), identifier ref:29788. Santa Cruz Formation carries database reference attribution Moreno and Mercerat (1891), identifier ref:29788. Estancia Halliday carries database reference attribution Degrange et al. (2012), identifier ref:58178. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SPECIFIC LOCATION: Monte Leon, near Puerto Entrada, Santa Cruz Province, Argentina. LAT/LONG: estimated based on Monte Leon.
 
-## Evidence limits {#s-fd6f7db967}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:810671; PBDB collection col:27313. Locality cnm=Santa Cruz Formation; place fields cc2=AR, stp=Santa Cruz. Recorded age bounds: eag 17.5 Ma; lag 16.3 Ma; PBDB interval fields oei=Santacrucian. Stratigraphic fields sfm=Santa Cruz. Recorded attribution Moreno and Mercerat 1891; PBDB reference ref:29788.
+
+- Occurrence occ:1315679; PBDB collection col:176589. Locality cnm=Estancia Halliday; place fields cc2=AR, stp=Santa Cruz. Recorded age bounds: eag 17.5 Ma; lag 16.3 Ma; PBDB interval fields oei=Santacrucian. Stratigraphic fields sfm=Santa Cruz. Recorded attribution Degrange et al. 2012; PBDB reference ref:58178.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Mashall, 1976: On the north bank of Río Gallegos, directly north (5km) of town of Río Gallegos. This locality is essentially mid-way between Felton's Estancia to the west and Cabo Been to the east.
+
+## Age bounds on the recorded occurrences {#s-4c9672552d}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:810659; the smallest recorded lag=15.98 Ma in occ:810659. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-679f3e4d1d}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:810659: PBDB original-identification field idn=Patagornis lemoinei n. sp.; PBDB taxon-name field tna=Psilopterus lemoinei; PBDB locality-coordinate fields lng=-68.916664, lat=-50.233334; paleocoordinate/model fields pm1=gplates, pln=-65.97, pla=-49.64.
+- occ:810671: PBDB original-identification field idn=Psilopterus australis n. sp.; PBDB taxon-name field tna=Psilopterus lemoinei; PBDB locality-coordinate fields lng=-70.000000, lat=-50.000000; paleocoordinate/model fields pm1=gplates, pln=-67.65, pla=-49.34.
+- occ:1315679: PBDB taxon-name field tna=Psilopterus lemoinei; material note ocm=AMNH 9257, skull, humerus, vertebral column, pelvis, left hindlimb; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-69.233330, lat=-51.583332; paleocoordinate/model fields pm1=gplates, pln=-67.04, pla=-50.95.
+
+## References attached to each record {#s-c7df57e4e1}
+The archived guide links the rows to 7 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:810659: Recorded attribution Moreno and Mercerat 1891; PBDB reference ref:29788.
+- occ:810671: Recorded attribution Moreno and Mercerat 1891; PBDB reference ref:29788.
+- occ:1315679: Recorded attribution Degrange et al. 2012; PBDB reference ref:58178.
+
+## What these records can show {#s-fd6f7db967}
+This is a guide to 13 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

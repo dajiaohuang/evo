@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-4f94b3db9d}
+## 记录分类与直接上级关系 {#s-4f94b3db9d}
+COL26.8 将 Folivora Delsuc, Catzeflis, Stanhope & Douzery, 2001 记录为亚目；其直接上级记录为 Pilosa Flower, 1883。
+
 Folivora 的本地 PanTHERIA 路径包括 5 条可用数据导读，可从 Bradypus torquatus、Bradypus tridactylus、Bradypus variegatus、Choloepus didactylus、Choloepus hoffmanni 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-870b018755}
@@ -12,11 +14,11 @@ Folivora 的本批路线包含 6 个历史条目，可从 Bradypus pygmaeus、Br
 
 ## 证据边界 {#s-bdbdc4570e}
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
 
 ## 沿生活史资料阅读 {#s-842f45bb33}
-Folivora 本批有 5 个历史生活史资料页，可从 [Bradypus torquatus](Bradypodidae/Bradypus/Bradypus_torquatus/page.zh.md)、[Bradypus variegatus](Bradypodidae/Bradypus/Bradypus_variegatus/page.zh.md)、[Bradypus tridactylus](Bradypodidae/Bradypus/Bradypus_tridactylus/page.zh.md)、[Choloepus hoffmanni](Megalonychidae/Choloepus/Choloepus_hoffmanni/page.zh.md)、[Choloepus didactylus](Megalonychidae/Choloepus/Choloepus_didactylus/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Folivora 本批有 5 个历史生活史资料页，可从 Bradypus torquatus、Bradypus variegatus、Bradypus tridactylus、Choloepus hoffmanni、Choloepus didactylus 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-c76bfcc758}
 本批妊娠资料见 4 页，雌性首次繁殖年龄见 4 页，最高寿命记录见 4 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

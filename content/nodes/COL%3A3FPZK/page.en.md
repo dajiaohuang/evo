@@ -1,5 +1,5 @@
-## Tracing the historical Zoothera name {#s-bcf1edbb8f}
-Pinned COL26.8 organizes this page at Geokichla oberlaenderi (3FPZK). AVONET v7 BirdLife 2020 row 8559 and eBird 2021 row 4320 share the name and Avibase ID AVIBASE-05BC1F90; BirdTree row 4301 gives Zoothera oberlaenderi, with match type 1BL to 1BT. Read COL older-combination record 7GGQW points to this accepted ID. These links locate data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-bcf1edbb8f}
+Catalogue of Life release COL26.8 records Geokichla oberlaenderi Sassi, 1914 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured birds and beak/wing values {#s-caf6fdcc2e}
 Morphology covers 1 bird: 1 female, 0 male and 0 unsexed; 1 bird has a complete measurement set. Nostril-to-tip beak length 10.7 mm, tarsus 26.9 mm, unflattened wing 96.5 mm and hand-wing index 23.4 are summaries in this historical row. One bird cannot establish population variation, sex differences or individual ranges. The index is Kipp’s distance/wing length ×100, not flight speed, migration distance or a range-wide performance test.

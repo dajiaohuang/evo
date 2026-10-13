@@ -1,5 +1,5 @@
-## Find rows through older Oceanodroma／Halocyptena combinations {#s-4e9c952737}
-Pinned COL26.8 organizes this page at Hydrobates monorhis (DD8SP). BirdLife 2020 row 10067 and eBird 2021 row 4925 share the name and Avibase ID AVIBASE-80DE8670, with type 1BL to 1eBird; BirdTree row 4902 gives Oceanodroma monorhis, with type 1BL to 1BT. Read catalogue synonym 74FFQ points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-4e9c952737}
+Catalogue of Life release COL26.8 records Hydrobates monorhis (Swinhoe, 1867) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-a9a83a449e}
 Morphology comprises 5 birds: 1 female, 3 male and 1 unsexed; 4 complete sets. Nostril-to-tip beak length 9.5 mm, tarsus 23.2 mm, unflattened wing 152.6 mm, tail 71.6 mm and hand-wing index 58.4 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

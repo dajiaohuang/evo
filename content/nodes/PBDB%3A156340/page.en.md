@@ -1,19 +1,46 @@
 ## Which fossil records this name represents {#s-68eed6715d}
 Enhydriodon sivalensis is accepted in the fixed PBDB mammalia working roster, with database parent Enhydriodon. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-799ea59263}
-Collection Siwalik Hills, region code PK, stratum name Pinjor; database age bracket 3.6–0.774 Ma, early interval Late Pliocene and late interval Early Pleistocene. Collection Saketi, region code IN, stratum name Pinjor; database age bracket 3.6–2.58 Ma, early interval Late Pliocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Enhydriodon sivalensis is listed in the PBDB snapshot under taxon txn:156340. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-6ccc783e60}
-Selected occurrences have an outer age envelope of 3.6–0.774 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Siwalik Hills, occurrence occ:831960 (3.6–0.774 Ma); one supplying the younger bound is Siwalik Hills, occurrence occ:831960 (3.6–0.774 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-799ea59263}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-33c82c54d9}
-Siwalik Hills has collection-environment label fluvial indet.; collection preservation-mode label body. Saketi has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:831960; PBDB collection col:92070. Locality cnm=Siwalik Hills; place fields cc2=PK. Recorded age bounds: eag 3.6 Ma; lag 0.774 Ma; PBDB interval fields oei=Late Pliocene, oli=Early Pleistocene. Stratigraphic fields sfm=Pinjor. Recorded attribution Pickford 2007; PBDB reference ref:30980.
 
-## Follow collection records back to references {#s-d1e905bb14}
-Siwalik Hills carries database reference attribution Pickford (2007), identifier ref:30980. Saketi carries database reference attribution Pickford (2007), identifier ref:30980. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"[The Siwalik Hills], also known as the Chandigarh region, has yielded abundant mammalian and reptilian faunas and is considered to be part of the Upper Siwalik (Patnaik & Nanda 2010; Nanda, 2013; Nanda et al. 2016), where two biostratigraphical intervals are currently recognized: the oldest is the Saketi Formation (an equivalent of the Tatrot Formation according to Verma (1988) and Nanda (2002)), which is considered to be upper Pliocene in age, with the Elephas planifrons Interval Zone dated between 3.6 and 2.6 Ma according to Nanda (2002)... The other biostratigraphical interval is the overlying member, known as the Pinjor Formation and is considered early Pleistocene with the Equus sivalensis Interval Zone dated between 2.6 and 0.6 Ma according to Nanda (2002)." (Martin 2019)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Co-ordinates based on the town of Chandrigarh, locality information in Pickford (2007) is vague
+
+- Occurrence occ:831961; PBDB collection col:92072. Locality cnm=Saketi; place fields cc2=IN. Recorded age bounds: eag 3.6 Ma; lag 2.58 Ma; PBDB interval fields oei=Late Pliocene. Stratigraphic fields sfm=Pinjor. Recorded attribution Pickford 2007; PBDB reference ref:30980.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+middle to late Pliocene
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+coordinates are very much estimated
+
+## Age bounds on the recorded occurrences {#s-6ccc783e60}
+Across these selected PBDB rows, the largest recorded eag=3.6 Ma in occ:831960; the smallest recorded lag=0.774 Ma in occ:831960. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-33c82c54d9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:831960: PBDB taxon-name field tna=Enhydriodon sivalensis; abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=76.783333, lat=30.733334; paleocoordinate/model fields pm1=gplates, pln=77.24, pla=28.5.
+- occ:831961: PBDB taxon-name field tna=Enhydriodon sivalensis; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=77.196388, lat=30.694721; paleocoordinate/model fields pm1=gplates, pln=77.54, pla=29.01.
+
+## References attached to each record {#s-d1e905bb14}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:831960: Recorded attribution Pickford 2007; PBDB reference ref:30980.
+- occ:831961: Recorded attribution Pickford 2007; PBDB reference ref:30980.
 
 ## Evidence limits {#s-a8d582f8f5}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

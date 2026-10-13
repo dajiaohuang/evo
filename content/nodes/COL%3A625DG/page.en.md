@@ -1,17 +1,19 @@
-## Local data reading route {#s-4108f77be8}
+## Recorded classification and direct parent {#s-4108f77be8}
+COL26.8 records Gruidae at family rank, with Gruiformes as its direct parent.
+
 This batch’s Gruidae route includes 7 measured species records. Start with Balearica pavonina, Balearica regulorum, Grus americana, Grus grus, Grus japonensis. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-afbc2249f6}
 Compiled mean mass endpoints in this batch are Balearica pavonina at 3590 g and Grus japonensis at 8785.99 g. Represented habitat categories include Wetland; trophic niches include Omnivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-3043fb0be9}
+## Amniote Life-history archive member records {#s-3043fb0be9}
 This batch’s Gruidae route includes 10 historical life-history accounts; start with Balearica pavonina, Balearica regulorum, Grus americana, Grus carunculata, Grus grus. More frequently represented fields include adult body mass (10 entries), offspring per litter or eggs per clutch (10 entries), age at flight capability (leaving the nest in some source material) (10 entries), female maturity field (defined by the source as age at first conception) (9 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-60aea48568}
 This batch’s Gruidae route includes 9 historical entries; start with Balearica pavonina, Balearica regulorum, Grus virgo, Grus paradisea, Grus grus. Food-category weights are available in 9, foraging strata in 9, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-35960bc3b9}
+## Limits attached to these records {#s-35960bc3b9}
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 

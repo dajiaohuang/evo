@@ -1,15 +1,15 @@
-## A catalogue name and a species row {#s-db19f22935}
-Catalogue of Life COL26.8 accepts Aprasia rostrata in Pygopodidae, the family of legless lizards. The profile follows its ReptTraits v1-2 species row and the workbook’s Reptile Database 2023 name framework, with citations attached to individual traits. As one row combines reports, it summarizes cited information rather than establishing a uniform state across populations.
+## COL26.8 name and the ReptTraits row {#s-db19f22935}
+COL26.8 records Aprasia rostrata as an accepted species. The ReptTraits v1-2 row gives its Family field as Pygopodidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Length measured to the vent {#s-c8e4df9659}
-The largest reported snout–vent length is 126 mm; the largest female value is 107 mm. Snout–vent length (SVL) runs from the snout to the vent and excludes the tail. These compiled maxima are neither typical body sizes nor theoretical growth limits. Sex-specific records may come from different places or studies, so their difference alone cannot quantify size dimorphism within a population.
+## Length values in the archived records {#s-c8e4df9659}
+The row reports a maximum SVL of 126 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 107 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Underground setting and night activity {#s-d31e68dacd}
-The workbook classifies the microhabitat as fossorial, meaning adapted to digging or underground life, the diet as carnivorous and activity as nocturnal. These broad labels do not give a complete habitat map or fixed schedule. “Carnivorous” does not name prey, and the record may not capture variation by place, season or life stage.
+## Habitat use and activity labels {#s-d31e68dacd}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg-laying and clutch summaries {#s-330c3bfe8f}
-The source records an oviparous, or egg-laying, mode and a consolidated count of 2 offspring or eggs per litter or clutch. The lowest and highest reported clutch or litter means are also 2. The summary can be a midpoint among reported means, or a midpoint of reported extremes if means are unavailable. The low and high entries mark reported mean endpoints, not necessarily the smallest and largest clutches directly observed. These labels do not establish embryo nutrition or uniformity across populations.
+## Reproductive fields in ReptTraits {#s-330c3bfe8f}
+The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-274e4396d9}
-This account paraphrases one ReptTraits row, under the workbook’s 2023 name framework and trait-specific citations. The row compresses differences in sex, age, locality and population; name and family matches do not guarantee equivalence with later taxonomic concepts. The maximum length is not an absolute species limit, and the clutch summary is not a fixed count for every nest. The record does not support conclusions here about body mass, juvenile length, conservation, venom, current range or population trends. Citation labels preserve the trail to sources but do not mean the project independently reviewed every underlying work.
+## Reading this compiled trait record {#s-274e4396d9}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

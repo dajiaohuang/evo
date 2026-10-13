@@ -1,7 +1,7 @@
 ## Overview {#s-fed95a04b8}
 This page follows COL26.8 accepted species ID 4F78C. MDD v2.5 supplies the display name Central African Potto and records the former combination Perodicticus potto edwardsi. The older usage is retained as source history, not used to change the pinned catalogue identity.
 
-## Research observations {#s-ea016e93ee}
+## A pooled behavior inventory across ten sites {#s-ea016e93ee}
 Across ten sites in Angola, Cameroon, Kenya, Nigeria, Rwanda and Uganda, Luhrs et al. compared central and eastern pottos and reported 51 P. edwardsi. Across both species, they coded all 21 postures and 42 of 50 behaviours in an established lorisid ethogram; eating, locomotion, freezing, resting and sniffing were commonly recorded. The 51 animals are study observations, not a population estimate.
 
 ## Scope of the evidence {#s-dea44fb0c5}

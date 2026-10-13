@@ -1,44 +1,44 @@
-## The name and this data account {#s-d3f7600b0f}
-Ara ararauna is accepted in COL26.8 within Psittacidae. AVONET v7 records 13 measured birds under its HBW–BirdLife 2020 name, 8 with a complete morphological set. Trait-specific usable counts may differ.
+## Row-reported mean and sample coverage {#s-d3f7600b0f}
+The AVONET v7 row for Ara ararauna (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 61.9 mm. The row records 13 measured individuals, 8 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-afda83d83c}
-Mean beak length is 61.9 mm from the front edge of the nostril to the tip. At that edge, mean width is 30.2 mm and depth is 55.1 mm. These are separate measurements at defined landmarks, not identification thresholds.
+## Beak measurements at defined landmarks {#s-afda83d83c}
+AVONET records culmen length (bill tip to skull base) 66 mm; beak length (nostril front edge to tip) 61.9 mm; beak width at the nostril front edge 30.2 mm; beak depth at the nostril front edge 55.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-a6dbb7cb73}
-Mean unflattened wing length from carpal joint to longest primary is 381.3 mm; mean tarsus length is 31.9 mm. A separate source compilation gives mean mass as 1125 g (Dunning category), without implying that every measured bird was weighed.
+## Wing and body measures use separate sources {#s-a6dbb7cb73}
+AVONET records unflattened wing length 381.3 mm; tarsus length 31.9 mm; distance from first secondary tip to longest primary tip 115.4 mm; length to first secondary tip 264.6 mm; hand-wing index 30.1; tail length 492.5 mm; species-average body mass 1125 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-6ede11a41b}
-AVONET assigns Forest habitat, Omnivore trophic niche and Insessorial lifestyle. These broad comparison categories do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-6ede11a41b}
+AVONET classifies Ara ararauna as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-cca21ccb37}
-The migration field marks the record as sedentary. Historical breeding and resident maps reach latitude endpoints of -23.47° and 11.32°. They do not give a full account of non-breeding movements or current global occupancy. The geographic and morphological data were compiled separately.
+## The migration label has a limited scope {#s-cca21ccb37}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -23.47° to 11.32°. The mapped range area is 7780066.73 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-5fba102106}
-In pinned COL26.8, Ara ararauna is accepted within Psittacidae. Five life-history fields here come from a historical record with the same name and family and are supported by cited species-level rows. The compilation may carry information across older taxonomic groupings, so a matching name does not rule out inherited data.
+## Scope of the historical life-history entry {#s-5fba102106}
+The August 2015 database has a same-name, same-family record for Ara ararauna. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-54659a413d}
-The historical compilation gives an adult body-mass summary of 1125 g. Adult records may combine males, females and birds with unspecified sex; the summary is not a range of individual masses. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-54659a413d}
+The August 2015 compilation reports adult body mass 1125 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-92b7defdd2}
-The compilation reports 2 offspring or eggs per litter/clutch, 25 d from egg laying to hatching and 91 d to flight capability (some sources record leaving the nest). Here, d means days. Litter and clutch counts share one field, so a fractional summary would not describe part of an offspring in one event. The times refer to different events, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-92b7defdd2}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2; oviposition-to-hatching interval 25 days; age at flight capability (some records mark nest departure) 91 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-eb177fe144}
-The archive gives 43 years for maximum_longevity_y, the largest value found under its method. It is not a typical or average wild lifespan, a limit for every individual, or proof of a current record that can be repeated.
+## A maximum record is not typical lifespan {#s-eb177fe144}
+The compilation lists 43 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-66a1524a83}
-The matching rows carry labels including Dunning, 1992; de Magalhaes and Costa, 2009; Ricklefs, 2010b; and Schuck-Paima, C., Alonsob, W.J., and E.B. Ottonia, 2008, among others. The archive preserves field-specific row numbers, values and labels with the reference table's full explanations. A label may point to a paper, book or database. Row counts are not numbers of animals measured, and repeated citations are not independent experiments.
+## Sources and field limits {#s-66a1524a83}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-e6c057444a}
-In pinned COL26.8, Ara ararauna is accepted within Psittacidae. Two ecological groups here come from the same-name, same-family EltonTraits 1.0 record, with its source information retained. The source follows an earlier bird taxonomy or MSW3 for mammals; matching names do not settle modern splits or synonymy.
+## Scope of the historical trait entry {#s-e6c057444a}
+EltonTraits 1.0 has a same-name, same-family record for Ara ararauna covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-9b3f5ae578}
-EltonTraits assigns nonzero food weights of 30% each to fruit, the category including seeds, nuts and spores, and other plant material (which also includes fungi); nectar, pollen and plant exudates account for 10%. Code A indicates high compiler confidence in the source and diet information. These are standardized estimates from descriptions, not measured diet shares; a zero does not prove a food is never eaten. Nect, Seed and PlantO have broader meanings than their everyday names.
+## Relative weights across food categories {#s-9b3f5ae578}
+EltonTraits 1.0 assigns relative diet weights of fruit 30%; nectar 10%; seeds or nuts 30%; other plant material 30%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-047bd1b448}
-The archive flags these species-level foraging-stratum weights: trees or tall bushes from 2 m upward but below the canopy, 60%; in or just above the canopy, 40%. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. Water, understory, mid/high, canopy and aerial labels have distinct source definitions; they are not elevation ranges or measures of flight height or habitat area.
+## Foraging positions are not a time budget {#s-047bd1b448}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 60%; in the canopy 40%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-7dfad6b6e0}
-The selected groups carry label Ref_4. Diet, strata and activity may draw on different material, and Ref_4 in bird and mammal tables does not identify the same source. The archive retains complete citation strings by file, row, field group and reference table. The underlying books and papers have not been reviewed individually; citation labels are not additional observations.
+## Sources and field limits {#s-7dfad6b6e0}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-a1a01d047b}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages for the listed samples, not diagnostic limits or ranges of individual variation. Mass comes from separate literature or weighing sources, so the morphology sample counts do not apply to it. Habitat, diet and migration are broad categories; maps cover historical breeding and resident ranges only. A one-to-one historical crosswalk and matching name support the association but do not prove equivalence between later taxonomic concepts. Reproduction, current populations and conservation require other sources.

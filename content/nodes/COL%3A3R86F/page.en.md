@@ -1,15 +1,15 @@
-## Name and this data account {#s-42cded8ba4}
-Kinosternon leucostomum is accepted in pinned COL26.8 within Kinosternidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-42cded8ba4}
+COL26.8 records Kinosternon leucostomum as an accepted species. The ReptTraits v1-2 row gives its Family field as Kinosternidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Where and how it is active {#s-915687526f}
-In the entry, microhabitat is Arboreal/Saxicolous/Terrestrial; active timing is Nocturnal. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-915687526f}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/rock-dwelling (Saxicolous)/ground-dwelling (Terrestrial) [source label: Arboreal/Saxicolous/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Stark et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Stark et al. 2018.
 
-## How to read reproductive records {#s-c5b0d101db}
-The reproductive-mode field uses the original label oviparous; sex determination is recorded as TSD. These source labels do not establish fetal nutrition or uniformity across all populations. Uninterpreted clutch/litter numbers remain gaps.
+## Reproductive fields in ReptTraits {#s-c5b0d101db}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022. The sex-determining-mechanism field records TSD. ReptTraits attributes this field to Nemesházi & Bókony 2023.
 
-## Evidence limits {#s-fc85335e8f}
-This supplemental account uses limited trait material and does not count as complete morphology or ecology. This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-fc85335e8f}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-3be43e9b5c}
-This batch interprets 4 traits with field-specific source labels. Uninterpreted fields: Maximum length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum female length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum male length ("SVL", mm)/straight carapace length for turtles ("SCL", mm); Maximum total length ("TL", mm); Mean number of offspring per litter or number of eggs per clutch; Smallest clutch size; Largest clutch size; Number of litters or clutches produced per year; Egg length (mm); Egg width (mm); Diet; Foraging mode. A supported value/category and source combination is not established here for these fields; relatives and blank entries do not fill species facts.
+## Reading this compiled trait record {#s-3be43e9b5c}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

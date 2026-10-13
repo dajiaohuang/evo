@@ -11,5 +11,5 @@ At Lawachara National Park, Naher and colleagues followed one group consisting o
 The Hollongapar and Lawachara studies use different sites, group samples and observation designs. Their local dietary observations can be read side by side, but they should not be pooled into one population estimate, universal home range or complete account of the species.
 
 ## Evidence limits {#s-d267a3ac60}
-Ecological evidence is limited to two locally observed groups at Hollongapar and one group at Lawachara; the studies do not establish a range-wide diet, current distribution, population size or trend. Estimates retain each paper’s sampling and home-range method. The Chinese display name is editorial. This page is.
+Ecological evidence is limited to two locally observed groups at Hollongapar and one group at Lawachara; the studies do not establish a range-wide diet, current distribution, population size or trend. Estimates retain each paper’s sampling and home-range method. The Chinese display name is editorial.
 

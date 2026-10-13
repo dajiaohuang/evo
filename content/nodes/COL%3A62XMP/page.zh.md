@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-c9e925fe94}
+## 记录分类与直接上级关系 {#s-c9e925fe94}
+COL26.8 将 Laniocera 记录为属；其直接上级记录为 Tityridae。
+
 Laniocera 的本批阅读路径包含 2 条有测量来源的物种记录，可从 Laniocera hypopyrra、Laniocera rufescens 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-047f53f274}

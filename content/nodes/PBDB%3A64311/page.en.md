@@ -1,18 +1,51 @@
-## Which fossil records this name represents {#s-f3166f5f75}
-Isisaurus colberti is accepted in the fixed PBDB dinosaur working roster, with database parent Isisaurus. This guide uses 4 eligible species-level occurrence records from 4 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 2 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-f3166f5f75}
+Isisaurus colberti is listed in the PBDB snapshot under taxon txn:64311. This archived guide contains 4 selected occurrence rows, linked to 4 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-2a20b424f9}
-Collection Dongargaon Hill (Maharashtra), region code IN, stratum name Lameta; database age bracket 72.2–66 Ma, early interval Maastrichtian. Collection Nala Basti, DL-7 (Zubra Gambrak) (Balochistan), region code PK, stratum name Vitakri; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection Sangiali Kali Kakor, DL-1 (eastern) (Balochistan), region code PK, stratum name Vitakri; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-2a20b424f9}
+The archived guide contains 4 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-a49f1950cd}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:139260; PBDB collection col:11604. Locality cnm=Dongargaon Hill; place fields cc2=IN, stp=Maharashtra, cny=Chandrapur. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Maastrichtian. Stratigraphic fields sfm=Lameta. Recorded attribution Jain and Bandyopadhyay 1997; PBDB reference ref:4177.
 
-## Read preservation setting separately from living habitat {#s-c579bc9e2e}
-Dongargaon Hill has collection-environment label crevasse splay; collection preservation-mode label body. Nala Basti, DL-7 (Zubra Gambrak) has collection-environment label fluvial indet.; collection preservation-mode label body. Sangiali Kali Kakor, DL-1 (eastern) has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Deccan II phase
+C30n
 
-## Follow collection records back to references {#s-55ba0b3bf4}
-Dongargaon Hill carries database reference attribution Jain and Bandyopadhyay (1997), identifier ref:4177. Nala Basti, DL-7 (Zubra Gambrak) carries database reference attribution Malkani (2020), identifier ref:76866. Sangiali Kali Kakor, DL-1 (eastern) carries database reference attribution Malkani (2020), identifier ref:76866. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+16 km south-east from Pisdura, Wardha Valley, Chadrapur district, Maharashtra state, India. In the Nand-Dongargaon Basin
 
-## Evidence limits {#s-73fd04f8a0}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1563671; PBDB collection col:79427. Locality cnm=Nala Basti, DL-7 (Zubra Gambrak); place fields cc2=PK, stp=Balochistan, cny=Barkhan. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Vitakri. Recorded attribution Malkani 2020; PBDB reference ref:76866.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"... found from the red, maroon and greenish grey mud/clays/paleosol zone of upper  of Pab Formation, just below or on the (K-T) boundary of Mesozoic (Cretaceous) and Cenozoic (Tertiary/Paleocene)... [found] in the Central periphery of Sulaiman range..."
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Nala Basti (Zubra) = Basti Nala (Zubra) Gumbrak, Central Sulaiman Range, Barkhan District, Balochistan. Sites on peak and southern limb.
+
+- Occurrence occ:1563672; PBDB collection col:78055. Locality cnm=Sangiali Kali Kakor, DL-1 (eastern); place fields cc2=PK, stp=Balochistan, cny=Barkham. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Vitakri. Recorded attribution Malkani 2020; PBDB reference ref:76866.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"... upper Pab Formation, just below or on the boundary of Mesozoic (Cretaceous) and Cenozoic (Tertiary/Paleocene)."
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+eastern site along Kali Kakor stream near Sangiali village, Vitakri area, Central Sulaiman Range, Barkhan District, Balochistan. 3 subsites - eastern, western, and southern.
+
+## Age bounds on the recorded occurrences {#s-a49f1950cd}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:139260; the smallest recorded lag=66 Ma in occ:139260. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-c579bc9e2e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:139260: PBDB original-identification field idn=Titanosaurus colberti n. sp.; PBDB taxon-name field tna=Isisaurus colberti; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=80.366669, lat=21.183332; paleocoordinate/model fields pm1=gplates, pln=71.76, pla=-32.86.
+- occ:1563671: PBDB taxon-name field tna=Isisaurus colberti; material note ocm=MSM-235-7, MSM-296-7; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=69.494720, lat=29.711666; paleocoordinate/model fields pm1=gplates, pln=66.26, pla=-19.69.
+- occ:1563672: PBDB taxon-name field tna=Isisaurus colberti; material note ocm=R distal humerus MSM-262-1; R distal femur MSM-232-1; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=69.399170, lat=29.700001; paleocoordinate/model fields pm1=gplates, pln=66.17, pla=-19.66.
+
+## References attached to each record {#s-55ba0b3bf4}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:139260: Recorded attribution Jain and Bandyopadhyay 1997; PBDB reference ref:4177.
+- occ:1563671: Recorded attribution Malkani 2020; PBDB reference ref:76866.
+- occ:1563672: Recorded attribution Malkani 2020; PBDB reference ref:76866.
+
+## What these records can show {#s-73fd04f8a0}
+This is a guide to 4 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

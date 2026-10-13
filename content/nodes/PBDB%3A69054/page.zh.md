@@ -1,19 +1,59 @@
 ## 这个名称对应哪些化石记录 {#s-d45573adcd}
 Crosbysaurus harrisae 在固定 PBDB 其他爬行类化石工作名录中为接受种，数据库父级为 Crosbysaurus。本页导读 6 条可用种级出现记录，涉及 5 个采集记录和 2 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
-## 从具名采集地和地层开始 {#s-c7c9a9f46a}
-采集记录  Dinosaur Wash, PFV 122, Dying Grounds（Arizona），地区代码 US，地层名称 Chinle；数据库年代范围 227.3–205.7 Ma，早端地质时段 Norian。采集记录 NMMNH L-2739, Sixmile Spring（New Mexico），地区代码 US，地层名称 Bluewater Creek；数据库年代范围 227.3–205.7 Ma，早端地质时段 Norian。采集记录 NMMNH L-1312, Lower Kalgary（Texas），地区代码 US，地层名称 Tecovas；数据库年代范围 227.3–205.7 Ma，早端地质时段 Norian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+PBDB 出现记录补充:
+Crosbysaurus harrisae 在 PBDB 快照中对应分类条目 txn:69054。这份存档导读包含 6 条选取的出现记录，关联 5 个不同的 PBDB 采集记录编号和 2 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 这些记录的年代边界 {#s-9177e898cf}
-本页所选出现记录的年代外包区间为 227.3–205.7 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
-外包区间早端可追到  Dinosaur Wash, PFV 122, Dying Grounds 的出现记录 occ:572552（227.3–205.7 Ma）；晚端可追到  Dinosaur Wash, PFV 122, Dying Grounds 的出现记录 occ:572552（227.3–205.7 Ma）。这些端点来自采集记录的年代界，并非物种存续端点。
+## 具名地点与采集记录 {#s-c7c9a9f46a}
+存档导读包含 6 条出现记录。此页突出显示至多三条：先列出承载最大 eag／最小 lag 年代界的记录，若有空位再列一条来源响应中的记录。完整来源行仍保存在档案中；下方不是全部记录清单。
 
-## 保存环境与生活环境分开阅读 {#s-58b2e7cfe8}
- Dinosaur Wash, PFV 122, Dying Grounds 的采集环境标签为 fine channel fill；集合保存方式标签为 实体化石（body）。NMMNH L-2739, Sixmile Spring 的采集环境标签为 pond；集合保存方式标签为 实体化石（body）。NMMNH L-1312, Lower Kalgary 的采集环境标签为 fine channel fill；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+- 出现记录 occ:572552；PBDB 采集记录 col:48547。 地点字段 cnm=Dinosaur Wash, PFV 122, Dying Grounds；地点分区字段 cc2=US，stp=Arizona，cny=Apache。 记录年代界：eag 227.3 Ma; lag 205.7 Ma；PBDB 年代区间字段 oei=Norian。 地层字段 sfm=Chinle。 记录署名 Heckert 2004；PBDB 引文编号 ref:17273。
 
-## 沿采集记录追到文献 {#s-b56f7aaba2}
- Dinosaur Wash, PFV 122, Dying Grounds 的数据库引文署名为 Heckert（2004），编号 ref:17273。NMMNH L-2739, Sixmile Spring 的数据库引文署名为 Heckert（2004），编号 ref:17273。NMMNH L-1312, Lower Kalgary 的数据库引文署名为 Heckert（2004），编号 ref:17273。这些是数据库中录入来源的简略署名，不是已经补齐的完整作者表，也不一定是本种原始描述。完整原行、采集 ID、接受与原鉴定名称和引文 ID 留在独立来源档案中；没有宣称已逐篇复核原论文或标本。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+"stratigraphically several meters lower than PFV 121"; Parker & Irmis (2005: fig. 8) show this high in the Blue Mesa Member. Upper Blue MEsa Mbr. is dated at 220.1 Ma.
+Irmis et al. 2011: The SMC date of 218.1 ± 0.7 Ma (Fig. 2) indicates that the uppermost Blue Mesa Member of the Chinle Formation and overlying strata are mid-Norian or younger in age based on the most recent Late Triassic timescale (Furin et al., 2006; Mundil et al., 2010; Muttoni et al., 2004, 2010).
+Kent et al. 2019:  Magnetozones PF5r to PF10n in the underlying 65‐m‐thick section of the mudstone‐dominated Blue Mesa and Mesa Redondo members plausibly correlate to chrons E13r to E9n,
+
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+southern part of Petrified Forest National Monument, near base of Blue Mesa, in the Dying Grounds area. NOT the same as PFV 121 in Murry papers (typographical error).  Sec 23, T18N, R24E.
+
+- 出现记录 occ:572593；PBDB 采集记录 col:55248。 地点字段 cnm=NMMNH L-2739, Sixmile Spring；地点分区字段 cc2=US，stp=New Mexico，cny=McKinley。 记录年代界：eag 227.3 Ma; lag 205.7 Ma；PBDB 年代区间字段 oei=Norian。 地层字段 sfm=Bluewater Creek。 记录署名 Heckert 2004；PBDB 引文编号 ref:17273。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Adamanian LVF; radiometric dates suggest that the Chinle is entirely Norian in age. Also known as the Bluewater Creek Member of the Chinle Formation. Near base of formation.
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+near Fort Wingate
+
+- 出现记录 occ:572595；PBDB 采集记录 col:55248。 地点字段 cnm=NMMNH L-2739, Sixmile Spring；地点分区字段 cc2=US，stp=New Mexico，cny=McKinley。 记录年代界：eag 227.3 Ma; lag 205.7 Ma；PBDB 年代区间字段 oei=Norian。 地层字段 sfm=Bluewater Creek。 记录署名 Heckert 2004；PBDB 引文编号 ref:17273。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Adamanian LVF; radiometric dates suggest that the Chinle is entirely Norian in age. Also known as the Bluewater Creek Member of the Chinle Formation. Near base of formation.
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+near Fort Wingate
+
+## 出现记录的年代界 {#s-9177e898cf}
+在这组 PBDB 记录中，最大记录 eag=227.3 Ma，见 occ:572552；最小记录 lag=205.7 Ma，见 occ:572552。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-58b2e7cfe8}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:572552：PBDB 分类名称字段 tna=Crosbysaurus harrisae；材料说明字段 ocm=PEFO 20336；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=-109.765282，lat=34.943333；古坐标／模型字段 pm1=gplates，pln=-37.59，pla=10.43。
+- occ:572593：PBDB 分类名称字段 tna=Crosbysaurus harrisae；材料说明字段 ocm=NMMNH P-18402, tooth；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=-108.487221，lat=35.424168；古坐标／模型字段 pm1=gplates，pln=-36.45，pla=10.69。
+- occ:572595：PBDB 分类名称字段 tna=Crosbysaurus harrisae；材料说明字段 ocm=NMMNH P-18403, 18404, teeth；丰度字段 abv=2，abu=specimens；PBDB 地点坐标字段 lng=-108.487221，lat=35.424168；古坐标／模型字段 pm1=gplates，pln=-36.45，pla=10.69。
+
+## 各记录所附的引文 {#s-b56f7aaba2}
+存档导读把这些记录关联到 2 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:572552：记录署名 Heckert 2004；PBDB 引文编号 ref:17273。
+- occ:572593：记录署名 Heckert 2004；PBDB 引文编号 ref:17273。
+- occ:572595：记录署名 Heckert 2004；PBDB 引文编号 ref:17273。
 
 ## 资料边界 {#s-db2befdbeb}
 本批是 2026-10-02 PBDB 出现记录导读，不是完整物种专论。只纳入固定 429 项其他爬行类化石工作名录中，当前名称一致、父链可追到已记录 Reptilia 存储锚点、且有可用无疑问限定种级出现记录的条目。数据库接受名可能连接旧组合；这种数据库对应关系不裁决实际标本鉴定或所有分类争议，也不与 COL 同名概念合并。采集地点、地层区间、沉积环境和集合保存方式各有不同含义：它们不能直接推出完整分布、起源或灭绝时刻、该物种的固定生态、生物数量或每件标本的保存状态。原始描述、重描述、形态、食性和行为材料尚未逐项补齐；。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 6 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

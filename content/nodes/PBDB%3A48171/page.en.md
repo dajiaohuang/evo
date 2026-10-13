@@ -1,19 +1,38 @@
 ## Which fossil records this name represents {#s-d434930eac}
 Parapliohippus carrizoensis is accepted in the fixed PBDB mammalia working roster, with database parent Parapliohippus. This guide uses 24 eligible species-level occurrence records from 23 collections and 10 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 7 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-e73c4d1aef}
-Collection Massacre Lake RV-7043 (Nevada), region code US; database age bracket 18.5–16.3 Ma, early interval Hemingfordian. Collection Alvord Mountain (USGS D321) (California), region code US, stratum name Barstow; database age bracket 16.3–12.5 Ma, early interval Barstovian. Collection Cache Peak (LACM(CIT) 499) (California), region code US, stratum name Bopesta; database age bracket 18.5–12.5 Ma, early interval Hemingfordian and late interval Barstovian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Parapliohippus carrizoensis is listed in the PBDB snapshot under taxon txn:48171. This archived guide contains 24 selected occurrence rows, linked to 23 distinct PBDB collection IDs and 10 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-3672328663}
-Selected occurrences have an outer age envelope of 23.04–5.333 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is CIT 315/324, occurrence occ:191433 (23.04–5.333 Ma); one supplying the younger bound is CIT 315/324, occurrence occ:191433 (23.04–5.333 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-e73c4d1aef}
+The archived guide contains 24 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-9cadcd4057}
-Massacre Lake RV-7043 has collection-environment label terrestrial indet.; collection preservation-mode label body. Alvord Mountain (USGS D321) has collection-environment label terrestrial indet.; collection preservation-mode label body. Cache Peak (LACM(CIT) 499) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:191433; PBDB collection col:19294. Locality cnm=CIT 315/324; place fields cc2=US, stp=California, cny=San Luis Obispo. Recorded age bounds: eag 23.04 Ma; lag 5.333 Ma; PBDB interval fields oei=Miocene. Stratigraphic fields sls=Calie, slb=2, slo=bottom to top. Recorded attribution Alroy 2002; PBDB reference ref:6294.
 
-## Follow collection records back to references {#s-45f9693c2f}
-Massacre Lake RV-7043 carries database reference attribution Morea (1981), identifier ref:2608. Alvord Mountain (USGS D321) carries database reference attribution Alroy (2002), identifier ref:6294. Cache Peak (LACM(CIT) 499) carries database reference attribution Alroy (2002), identifier ref:6294. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:189963; PBDB collection col:18962. Locality cnm=Massacre Lake RV-7043; place fields cc2=US, stp=Nevada, cny=Washoe. Recorded age bounds: eag 18.5 Ma; lag 16.3 Ma; PBDB interval fields oei=Hemingfordian. Recorded attribution Morea 1981; PBDB reference ref:2608.
+
+- Occurrence occ:190948; PBDB collection col:19137. Locality cnm=Alvord Mountain (USGS D321); place fields cc2=US, stp=California, cny=San Bernardino. Recorded age bounds: eag 16.3 Ma; lag 12.5 Ma; PBDB interval fields oei=Barstovian. Stratigraphic fields sfm=Barstow, sls=Alvrd, slb=2, slo=bottom to top. Recorded attribution Alroy 2002; PBDB reference ref:6294.
+
+## Age bounds on the recorded occurrences {#s-3672328663}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:191433; the smallest recorded lag=5.333 Ma in occ:191433. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-9cadcd4057}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:191433: PBDB taxon-name field tna=Parapliohippus carrizoensis; PBDB locality-coordinate fields lng=-120.000000, lat=35.099998; paleocoordinate/model fields pm1=gplates, pln=-113.8, pla=37.56.
+- occ:189963: PBDB original-identification field idn=Merychippus carrizoensis; PBDB taxon-name field tna=Parapliohippus carrizoensis; PBDB locality-coordinate fields lng=-119.699997, lat=41.700001; paleocoordinate/model fields pm1=gplates, pln=-112.96, pla=46.54.
+- occ:190948: PBDB taxon-name field tna=Parapliohippus carrizoensis; PBDB locality-coordinate fields lng=-117.000000, lat=34.799999; paleocoordinate/model fields pm1=gplates, pln=-111.81, pla=38.82.
+
+## References attached to each record {#s-45f9693c2f}
+The archived guide links the rows to 10 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:191433: Recorded attribution Alroy 2002; PBDB reference ref:6294.
+- occ:189963: Recorded attribution Morea 1981; PBDB reference ref:2608.
+- occ:190948: Recorded attribution Alroy 2002; PBDB reference ref:6294.
 
 ## Evidence limits {#s-6066dc4255}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 24 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

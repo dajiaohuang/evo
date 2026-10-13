@@ -1,14 +1,14 @@
-## The 2015 life-history entry and this name {#s-7f5c836a6d}
-The 2015 life-history archive lists three focal fields for Pyrrhura lucianii in Psittacidae, each supported by cited species-level rows with the same name and family. These summaries may still include data inherited across historical taxa; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-7f5c836a6d}
+The August 2015 database has a same-name, same-family record for Pyrrhura lucianii. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass in the historical account {#s-a44e98bc11}
-Historical summary values are adult body mass 63.05 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-a44e98bc11}
+The August 2015 compilation reports adult body mass 63.05 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-7393169b24}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 363.47 d; offspring per litter or eggs per clutch 4 offspring/eggs; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-7393169b24}
+The August 2015 compilation reports female age at first conception (source definition) 363.468 days; median or interpolated-median number of offspring or eggs per litter/clutch 4. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-37ff3ba9c4}
-Same-name sparse rows carry source labels including Dunning, 1992; Schuck-Paima, C., Alonsob, W.J., and E.B. Ottonia, 2008; Bennett, 1986; Jetz, Sekercioglu, and Bohning-Gaese, 2008. Each field has its own source label, which may identify a paper, book or database. Row counts are not numbers of measured individuals, and repeated citations do not represent independent experimental replication.
+## Sources and field limits {#s-37ff3ba9c4}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Life-history evidence limits {#s-3ab85bcea1}
 The 2015 life-history archive summarizes its historical same-name records using compilation medians or averages of the two middle values. These are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the summaries. Wild or captive conditions are not uniformly confirmed, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources.

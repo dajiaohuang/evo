@@ -11,5 +11,5 @@ The same 2015 paper compiled earlier literature, specimens and author records to
 The English name follows the source’s Mount Kilimanjaro Guereza, and the Chinese common name is an editorial rendering; the accepted species identity follows COL26.8.
 
 ## Evidence limits {#s-6f3487b6b0}
-Core field records come from short rapid surveys at two Kenyan forests in 2014; the range map depends on historical records compiled by that paper. The source uses subspecies rank, while this page follows the pinned COL26.8 species identity and retains that rank difference. No current abundance or conservation category is asserted.. This page is.
+Core field records come from short rapid surveys at two Kenyan forests in 2014; the range map depends on historical records compiled by that paper. The source uses subspecies rank, while this page follows the pinned COL26.8 species identity and retains that rank difference. No current abundance or conservation category is asserted..
 

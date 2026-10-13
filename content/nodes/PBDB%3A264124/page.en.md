@@ -1,19 +1,48 @@
 ## Which fossil records this name represents {#s-067f85c040}
 Jimusaria sinkianensis is accepted in the fixed PBDB other-synapsida working roster, with database parent Jimusaria. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-f5fbe63172}
-Collection Northern foot of Tienshan, Ürümqi (Xinjiang), region code CN, stratum name Guodikeng; database age bracket 254.14–251.902 Ma, early interval Changhsingian. Collection Taoshuyuanzi (Xinjiang), region code CN, stratum name Guodikeng; database age bracket 254.14–251.902 Ma, early interval Changhsingian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Jimusaria sinkianensis is listed in the PBDB snapshot under taxon txn:264124. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-41052e1e67}
-Selected occurrences have an outer age envelope of 254.14–251.902 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Northern foot of Tienshan, Ürümqi, occurrence occ:1326586 (254.14–251.902 Ma); one supplying the younger bound is Northern foot of Tienshan, Ürümqi, occurrence occ:1326586 (254.14–251.902 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-f5fbe63172}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-8643826ffd}
-Northern foot of Tienshan, Ürümqi has collection-environment label terrestrial indet.; collection preservation-mode label body. Taoshuyuanzi has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1326586; PBDB collection col:178200. Locality cnm=Northern foot of Tienshan, Ürümqi; place fields cc2=CN, stp=Xinjiang, cny=Ürümqi. Recorded age bounds: eag 254.14 Ma; lag 251.902 Ma; PBDB interval fields oei=Changhsingian. Stratigraphic fields sfm=Guodikeng. Recorded attribution Yuan and Young 1934; PBDB reference ref:58989.
 
-## Follow collection records back to references {#s-a3937dba99}
-Northern foot of Tienshan, Ürümqi carries database reference attribution Yuan and Young (1934), identifier ref:58989. Taoshuyuanzi carries database reference attribution Sun (1973), identifier ref:24315. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The Guodikeng Formation crosses the PTB and is Changhsingian to Induan in age. This occurrence is from the Permian part of the formation.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Locality situated "At the northern foot of the Tienshan, east of Tihua (Urumtsi)", according to Yuan and Young, 1934.
+
+Coordinates for the Tianshan Forest Park, at the northern foot of the Tianshan range and east of Ürümqi (Urumtsi).
+
+- Occurrence occ:1326587; PBDB collection col:178201. Locality cnm=Taoshuyuanzi; place fields cc2=CN, stp=Xinjiang, cny=Turfan. Recorded age bounds: eag 254.14 Ma; lag 251.902 Ma; PBDB interval fields oei=Changhsingian. Stratigraphic fields sfm=Guodikeng. Recorded attribution Sun 1973; PBDB reference ref:24315.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The Guodikeng Formation crosses the PTB and is Changhsingian to Induan in age. This occurrence is from the Permian part of the formation.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Taoshuyuanzi, 30 km northwest of Turfan Basin
+
+## Age bounds on the recorded occurrences {#s-41052e1e67}
+Across these selected PBDB rows, the largest recorded eag=254.14 Ma in occ:1326586; the smallest recorded lag=251.902 Ma in occ:1326586. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-8643826ffd}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1326586: PBDB original-identification field idn=Dicynodon sinkianensis n. sp.; PBDB taxon-name field tna=Jimusaria sinkianensis; material note ocm=IVPP RV 341407, a complete skull and lower jaw and some phalanges; PBDB locality-coordinate fields lng=87.837219, lat=43.829723; paleocoordinate/model fields pm1=gplates.
+- occ:1326587: PBDB original-identification field idn=Jimusaria taoshuyuanensis n. sp.; PBDB taxon-name field tna=Jimusaria sinkianensis; material note ocm=IVPP V 3240.1, 3230.2, two anterior parts of skulls, IVPP V 3240.3, a well preserved ventral surface of skull; PBDB locality-coordinate fields lng=89.166664, lat=42.916668; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-a3937dba99}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1326586: Recorded attribution Yuan and Young 1934; PBDB reference ref:58989.
+- occ:1326587: Recorded attribution Sun 1973; PBDB reference ref:24315.
 
 ## Evidence limits {#s-77aa1eb17c}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

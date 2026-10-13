@@ -1,15 +1,15 @@
-## A specimen anchors the family’s story {#s-71e07d9964}
-The name Phorusrhacidae is connected here to Llallawavis scagliai, a terror bird from Playa Los Lobos in Argentina. Its skull and other anatomy were placed in a morphology matrix to test relationships within the family. The study also reconstructed sensory features, but those reconstructions and the deeper family tree are interpretations built from the sampled material.
+## Llallawavis scagliai in a family-level matrix {#s-71e07d9964}
+The Playa Los Lobos specimen Llallawavis scagliai supplies a named fossil for this Phorusrhacidae account. Researchers coded its skull and other anatomy in a morphology matrix to test relationships within terror birds. The same study reconstructed sensory features; those capabilities and deeper family relationships are interpretations of sampled material, not direct observations or a complete ancestor chain.
 
-## Read the time interval as a sample {#s-286be2d03c}
-The displayed 3.6–2.6 million-year interval belongs to the sampled Llallawavis specimen, not to the family’s complete history. It is a dated window for one fossil occurrence, not the first and last appearance of all terror birds.
+## 3.6–2.6 Ma dates the sampled Llallawavis occurrence {#s-286be2d03c}
+The source-bounded Pliocene interval 3.6–2.6 Ma belongs to the sampled Llallawavis specimen from Playa Los Lobos, Argentina. It is one dated fossil window, not Phorusrhacidae’s global first or last appearance, family origin or extinction, or continuous duration.
 
-## Organize fossil records by source classification {#s-15eec376fb}
-Phorusrhacidae is recorded at rank family in this batch’s PBDB path. This route offers occurrence guides for 22 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Phorusrhacidae in the PBDB hierarchy {#s-15eec376fb}
+PBDB records Phorusrhacidae at family rank and organizes selected fossil-species occurrence guides beneath it. This is a navigation path through records, not a complete family membership list or a phylogenetic result. The route’s fossil-only entries do not mean that every relevant member or ancestor is represented.
 
-## Compare collections, strata and age brackets {#s-b25d3cda8b}
-Start with Andrewsornis abbotti, Patagornis marshi, Paraphysornis brasiliensis, Titanis walleri, Phorusrhacos longissimus and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 71 selected occurrences from 43 collections; example stratum names are Sarmiento, Santa Cruz, Cerro Boleadoras, Tremembé. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Selected fossil records and named strata {#s-b25d3cda8b}
+The selected record guides include Andrewsornis abbotti, Patagornis marshi, Paraphysornis brasiliensis, Titanis walleri and Phorusrhacos longissimus. Sarmiento, Santa Cruz, Cerro Boleadoras and Tremembé are named strata in this set. Read each collection’s age bracket and identification with its source before comparing sites; occurrence and collection records do not measure ancient population size.
 
-## Evidence limits {#s-98254fb10f}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What selected PBDB records can establish {#s-98254fb10f}
+The selected occurrence guides organize named fossil records; they do not measure specimens, individuals, populations or sampling intensity. Their outer age bounds are not Phorusrhacidae’s actual origin or extinction. PBDB parent paths help navigate the records and remain distinct from COL classification and research phylogenies.
 

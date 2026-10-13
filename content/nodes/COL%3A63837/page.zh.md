@@ -1,4 +1,6 @@
-## 概览 {#s-4e94292d62}
+## 记录分类与直接上级关系 {#s-4e94292d62}
+COL26.8 将 Lagothrix É. Geoffroy Saint-Hilaire in Humboldt, 1812 记录为属；其直接上级记录为 Atelinae Gray, 1825。
+
 本 COL26.8 导读连接 Lagothrix 属的两个阅读页：L. lagothricha（种级 ID 6NTWV）和 L. flavicauda（6NTWY）。两页记录来自不同物种、国家和方法，因此在阅读路径中保持分开。
 
 ## 按研究问题选择阅读路径 {#s-dabd2a9c9d}

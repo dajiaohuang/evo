@@ -1,4 +1,6 @@
-## PanTHERIA route accounts {#s-a55cc770e9}
+## Recorded classification and direct parent {#s-a55cc770e9}
+COL26.8 records Petinomys at genus rank, with Pteromyini as its direct parent.
+
 This batch’s Petinomys PanTHERIA route has three usable accounts: Petinomys genibarbis, P. setosus and P. vordermanni. Each retains historical MSW05 naming, variable conditions and gaps. Pinned COL26.8 guides navigation; counts are not the current accepted-species denominator.
 
 ## Adult-mass comparison endpoints {#s-b02b0e8832}
@@ -14,13 +16,13 @@ Eight historical entries occur in this route, including P. crinitus, P. vorderma
 These routes cover only this batch’s historical entries under their stated thresholds, not all descendants. Life-history pages require same-name/family matching and one-to-one historical correspondence; summaries are not individual extremes and source conditions vary. Ecological entries require at least two usable field groups; food types, weights and activity do not imply group-wide traits. Current species concepts, distribution and conservation remain unresolved.
 
 ## One focal-field PanTHERIA account {#s-4d03beb562}
-The local PanTHERIA route has one account, [Petinomys fuscocapillus](Petinomys_fuscocapillus/page.en.md). It retains the original MSW05 name, field-specific conditions and missing data. Historical rows are not current accepted-species counts.
+The local PanTHERIA route has one account, Petinomys fuscocapillus. It retains the original MSW05 name, field-specific conditions and missing data. Historical rows are not current accepted-species counts.
 
 ## PanTHERIA comparison limits {#s-2d8a302efb}
 This view includes batch entries with at least one focal field, matching name/family and one-to-one historical correspondence. It does not include every descendant; endpoints are historical summaries, and variable conditions differ. Consult species pages and original definitions; current concepts, range and conservation are not established here.
 
 ## Four life-history pages {#s-ebf2417b10}
-The batch has four Petinomys life-history accounts: [P. genibarbis](Petinomys_genibarbis/page.en.md), [P. setosus](Petinomys_setosus/page.en.md), [P. vordermanni](Petinomys_vordermanni/page.en.md) and [P. fuscocapillus](Petinomys_fuscocapillus/page.en.md). These links cover authored same-name entries in this batch, not every accepted species.
+The batch has four Petinomys life-history accounts: P. genibarbis, P. setosus, P. vordermanni and P. fuscocapillus. These links cover authored same-name entries in this batch, not every accepted species.
 
 ## Different meanings of timing and longevity {#s-bc6aa72b0a}
 Gestation appears in one account; female age at first reproduction and maximum lifespan appear in none. First reproduction is not first birth or sexual maturity, and maximum lifespan is not mean lifespan. Source conditions differ; missing fields need other evidence.

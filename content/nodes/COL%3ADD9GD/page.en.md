@@ -1,5 +1,5 @@
-## Find rows through older Schizoeaca／Oreophylax combinations {#s-5d8ae4da9e}
-Pinned COL26.8 organizes this page at Asthenes griseomurina (DD9GD). BirdLife 2020 row 4193 and eBird 2021 row 1038 share the name and Avibase ID AVIBASE-A2B9B8CE, with type 1BL to 1eBird; BirdTree row 1039 gives Schizoeaca griseomurina, with type 1BL to 1BT. Read catalogue synonym 6Y96G points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-5d8ae4da9e}
+Catalogue of Life release COL26.8 records Asthenes griseomurina (P. L. Sclater, 1882) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-71d06ea768}
 Morphology comprises 7 birds: 2 female, 5 male and 0 unsexed; 3 complete sets. Nostril-to-tip beak length 9.1 mm, tarsus 24.6 mm, unflattened wing 59.1 mm, tail 107.3 mm and hand-wing index 10.2 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

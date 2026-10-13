@@ -1,19 +1,68 @@
 ## Which fossil records this name represents {#s-752374e9df}
 Galileomys antelucanus is accepted in the fixed PBDB mammalia working roster, with database parent Galileomys. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-f3f7d221fb}
-Collection Gran Barranca - southern cliff of lake Colhué Huapí (Chubut), region code AR, stratum name Sarmiento; database age bracket 21–17.5 Ma, early interval Colhuehuapian. Collection Southern Cliff of lower Chubut River Valley, near Gaiman (Chubut), region code AR, stratum name Sarmiento; database age bracket 21–17.5 Ma, early interval Colhuehuapian. Collection Bryn Gwyn (Sarmiento Fm) (Chubut), region code AR, stratum name Sarmiento; database age bracket 21–17.5 Ma, early interval Colhuehuapian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Galileomys antelucanus is listed in the PBDB snapshot under taxon txn:264014. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-d055888f15}
-Selected occurrences have an outer age envelope of 21–17.5 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Gran Barranca - southern cliff of lake Colhué Huapí, occurrence occ:1115211 (21–17.5 Ma); one supplying the younger bound is Gran Barranca - southern cliff of lake Colhué Huapí, occurrence occ:1115211 (21–17.5 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-f3f7d221fb}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-b999031b08}
-Gran Barranca - southern cliff of lake Colhué Huapí has collection-environment label terrestrial indet.; collection preservation-mode label body. Southern Cliff of lower Chubut River Valley, near Gaiman has collection-environment label paralic indet.; collection preservation-mode label body. Bryn Gwyn (Sarmiento Fm) has collection-environment label terrestrial indet.; collection preservation-mode label body,replaced with phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1115211; PBDB collection col:141368. Locality cnm=Gran Barranca - southern cliff of lake Colhué Huapí; place fields cc2=AR, stp=Chubut. Recorded age bounds: eag 21 Ma; lag 17.5 Ma; PBDB interval fields oei=Colhuehuapian. Stratigraphic fields sfm=Sarmiento. Recorded attribution Vucetich and Kramarz 2003; PBDB reference ref:45974.
 
-## Follow collection records back to references {#s-77aa5c4bd4}
-Gran Barranca - southern cliff of lake Colhué Huapí carries database reference attribution Vucetich and Kramarz (2003), identifier ref:45974. Southern Cliff of lower Chubut River Valley, near Gaiman carries database reference attribution Vucetich et al. (2010), identifier ref:57933. Bryn Gwyn (Sarmiento Fm) carries database reference attribution McGrath et al. (2023), identifier ref:85330. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Busker, et al. 2019: Colhuehuapian SALMA (early Miocene) (Flynn and Swisher, 1995; Simpson, 1940; Vucetich et al., 2010b).
+
+Novo et al 2018: The Colhue-Huapi Member of the Sarmiento Formation is, early Miocene (Burdigalian Age) (see Simpson 1964; Madden & Scarano 2010 and references therein), approximately 20.0-20.2 Ma (Ré et al. 2010).
+
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Southern cliff of Lake Colhué Huapí
+
+Busker, et al. 2019: Gran Barranca is placed near Lake Colhue Huapi (southeastern Chubut Province, Madden et al., 2010)
+
+- Occurrence occ:1314970; PBDB collection col:27311. Locality cnm=Southern Cliff of lower Chubut River Valley, near Gaiman; place fields cc2=AR, stp=Chubut. Recorded age bounds: eag 21 Ma; lag 17.5 Ma; PBDB interval fields oei=Colhuehuapian. Stratigraphic fields sfm=Sarmiento. Recorded attribution Vucetich et al. 2010; PBDB reference ref:57933.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+JA: originally entered as early Miocene but Colhuehuapian according to Kay et al. 2008, who also state that the terrestrial fossils are from "just above the Bryn Gwyn Member"
+
+Busker, et al. 2019: the base of the Trelew Member in La Cantera (see Bown and Fleagle, 1993; Kay et al., 2008; Kramarz, 1998)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+JA: coordinate based on Gaiman
+
+Busker, et al. 2019: located in the base of the Trelew Member in La Cantera (see Bown and Fleagle, 1993; Kay et al., 2008; Kramarz, 1998)
+
+- Occurrence occ:1629322; PBDB collection col:145897. Locality cnm=Bryn Gwyn (Sarmiento Fm); place fields cc2=AR, stp=Chubut. Recorded age bounds: eag 21 Ma; lag 17.5 Ma; PBDB interval fields oei=Colhuehuapian. Stratigraphic fields sfm=Sarmiento. Recorded attribution McGrath et al. 2023; PBDB reference ref:85330.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Kramarz and Paz 2013: base of the Trelew Member of the Sarmiento Formation. All these deposits have been assigned to the Colhuehuapense Mammal Age (early Miocene) (Vucetich et al., 2010), although recently Kramarz et al. (2011) suggested that the mammal-bearing deposits of the Cerro Bandera Formation outcropping in the Barda Negra de Neuquén could be somewhat older than those of Bryn Gwyn and Paso Córdova
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+lower Chubut River valley, at Bryn Gwyn (Loma Blanca), in the southern cliffs of the lower Chubut River Valley, eastern Chubut Province, Patagonia.
+
+Kramarz and Paz 2013: in “La Cantera” (Bown and Fleagle, 1993), Bryn Gwyn, south bank of the Lower valley of the Chubut River, Province of Chubut (Figure 1) (Simpson, 1935; Mendía and Bayarsky, 1981; Fleagle and Bown, 1983; Bown and Fleagle, 1993; Scasso and Bellosi, 2004).
+
+## Age bounds on the recorded occurrences {#s-d055888f15}
+Across these selected PBDB rows, the largest recorded eag=21 Ma in occ:1115211; the smallest recorded lag=17.5 Ma in occ:1115211. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-b999031b08}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1115211: PBDB original-identification field idn=Galileomys antelucanus n. gen. n. sp.; PBDB taxon-name field tna=Galileomys antelucanus; PBDB locality-coordinate fields lng=-68.709167, lat=-45.674721; paleocoordinate/model fields pm1=gplates, pln=-65.57, pla=-45.09.
+- occ:1314970: PBDB taxon-name field tna=Galileomys antelucanus; PBDB locality-coordinate fields lng=-65.483330, lat=-43.283333; paleocoordinate/model fields pm1=gplates, pln=-62.19, pla=-42.83.
+- occ:1629322: PBDB taxon-name field tna=Galileomys antelucanus; PBDB locality-coordinate fields lng=-65.419441, lat=-43.301945; paleocoordinate/model fields pm1=gplates, pln=-62.13, pla=-42.85.
+
+## References attached to each record {#s-77aa5c4bd4}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1115211: Recorded attribution Vucetich and Kramarz 2003; PBDB reference ref:45974.
+- occ:1314970: Recorded attribution Vucetich et al. 2010; PBDB reference ref:57933.
+- occ:1629322: Recorded attribution McGrath et al. 2023; PBDB reference ref:85330.
 
 ## Evidence limits {#s-6c7ce5f3a4}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

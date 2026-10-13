@@ -1,5 +1,5 @@
-## Find rows through older Cettia combinations {#s-8757a3b0b4}
-Pinned COL26.8 organizes this page at Horornis fortipes (3MQ78). BirdLife 2020 row 7416 and eBird 2021 row 4906 share the name and Avibase ID AVIBASE-16508376, with type 1BL to 1eBird; BirdTree row 4883 gives Cettia fortipes, with type 1BL to 1BT. Catalogue synonym T77W, read in this batch, points to this accepted ID. Source family Scotocercidae and current COL Cettiidae remain separate; genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-8757a3b0b4}
+Catalogue of Life release COL26.8 records Horornis fortipes Hodgson, 1845 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-93bf5ca540}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 6.8 mm, tarsus 21.1 mm, unflattened wing 52.7 mm, tail 44.2 mm and hand-wing index 11.3 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

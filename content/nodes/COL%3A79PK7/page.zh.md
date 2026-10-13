@@ -1,5 +1,5 @@
-## 同名历史行与不同科名分开 {#s-ce2bfdfd96}
-本页按 COL26.8 的 Sarothrura pulchra（79PK7）组织。BirdLife 2020 第 2726 行、eBird 2021 第 9386 行与 BirdTree 第 9331 行同名，Avibase ID 为 AVIBASE-6EF64F69；类型分别为 1BL to 1eBird 和 1BL to 1BT。同名关联用于定位历史资料，不证明物种范围跨版本完全相同。原行 Family1=Rallidae，本页按已记录 COL 祖先链置于 Sarothruridae；不覆盖原资料科名，也不由拼写差异推出亲缘关系。
+## COL26.8 中的名称身份 {#s-ce2bfdfd96}
+《Catalogue of Life》COL26.8（2026-08-20）将 Sarothrura pulchra (J. E. Gray, 1829) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-b6860619d2}
 形态共 5 只鸟：雌 2、雄 3、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 8.3 mm、跗蹠 31.5 mm、未压平翼长 80.6 mm、尾长 41 mm、手翼指数 10.4 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

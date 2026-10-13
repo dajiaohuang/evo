@@ -1,9 +1,12 @@
-## PBDB hierarchy for Juramaia {#s-a0dc067972}
-In the PBDB parent hierarchy, Juramaia is recorded at genus rank. This guide links 1 fossil-species entries from the selected page set. The count describes this guide, not every descendant, and a list of extinct records does not mean that the whole group is extinct. A PBDB parent path is a database classification, not a phylogenetic hypothesis.
+## PBDB hierarchy for this selected guide {#s-a0dc067972}
+In the 2026-10-02 PBDB parent hierarchy, Juramaia is recorded at genus rank. This selected guide has one fossil-species entry, Juramaia sinensis. The PBDB path organizes the occurrence records; it is not a phylogenetic hypothesis or a complete descendant catalogue.
 
-## Collections in this selected guide {#s-3eb7151a9a}
-The guide begins with Juramaia sinensis. Across the selected species pages, 1 occurrence records map to 1 collections; named stratum examples include Tiaojishan. Each collection record retains its own age interval and identification qualifications, so comparisons belong at that record level. Occurrences and collections are not counts of specimens or populations.
+## One selected occurrence and collection {#s-3eb7151a9a}
+The selected Juramaia sinensis guide connects one occurrence record to one collection record; Tiaojishan is the named stratum context. Read that collection’s age bracket and identification qualification as database fields. One occurrence and one collection are not counts of specimens, individuals, or populations.
 
-## What the selected fossil records do not establish {#s-d595064505}
-This selection covers a subset of fossil records, not a complete descendant catalogue or a shared ecological profile. Occurrence and collection totals do not measure specimens, individuals, populations or sampling effort; pooled outer age bounds are not the group origin or extinction. PBDB parent paths organize these records separately from COL classification and phylogenetic hypotheses.
+## Limits of the PBDB selection {#s-d595064505}
+This page summarizes a selected PBDB occurrence, not a complete genus range or ecology account. Database hierarchy and collection fields do not settle the provenance of the holotype described in separate paleontological studies. The PBDB entry and the conditional holotype age below are distinct evidence contexts; neither gives a complete range or direct ancestry.
+
+## A conditional age attribution for the holotype {#holotype-attribution}
+Luo et al. (2011) attributed holotype BMNH PM1343B to the Tiaojishan Formation of Liaoning, China, at approximately 161–159 Ma. The collection provenance is uncertain, and a later tip-dating analysis reports a younger signal under its model. The interval is therefore a contested, source-bounded attribution, not a secure global first appearance or calibration point.
 

@@ -1,9 +1,12 @@
-## The fossil behind the record {#s-9af62a8261}
-Spinosaurus aegyptiacus specimen FSAC-KK 11888 preserves a deep, flexible tail. Physical models of that tail were tested for aquatic propulsion, supporting a hypothesis about swimming performance. The result links a fossil structure to an experiment rather than directly observing the animal in water.
+## Spinosaurus in the PBDB hierarchy {#s-9af62a8261}
+PBDB records Spinosaurus at genus rank and links selected occurrence pages for Spinosaurus aegyptiacus and S. mirabilis. The parent path organizes database taxa; it does not test evolutionary relationships.
 
-## Read the occurrence in context {#s-8ac3285a7a}
-This PBDB route collects selected Spinosaurus occurrences. The tail study concerns FSAC-KK 11888 and its Cenomanian specimen interval, 100.5–93.9 million years ago. When comparing records, keep the species identification, locality, formation and age with the specimen rather than treating each database row as a complete account of the genus.
+## Spinosaurus occurrences and their record fields {#s-8ac3285a7a}
+These selected PBDB entries belong to two named species. Read the identification, collection, formation and age fields with each occurrence row; the database path is a route through records, not a single specimen or a whole-genus ecological account.
 
-## Evidence limits {#s-c49d9298b0}
-The experiment supports the possibility that the tail could generate aquatic thrust under the tested conditions. It does not directly show how a living Spinosaurus behaved, resolve every part of whole-body swimming, or establish one ecology for the whole genus. The specimen interval is not the complete genus range.
+## FSAC-KK 11888 in the Cenomanian window {#s-c49d9298b0}
+FSAC-KK 11888 comes from the Cenomanian specimen-bearing interval 100.5–93.9 Ma in Morocco’s Kem Kem Group. This window locates the material used by the tail study; it is not the complete Spinosaurus range, a global first or last appearance, or a direct-ancestor date.
+
+## Testing the Spinosaurus tail in physical models {#tail-experiment}
+Spinosaurus aegyptiacus specimen FSAC-KK 11888 preserves a deep, flexible tail. Researchers tested physical models of that tail for aquatic propulsion, and the experiment supports a hypothesis about swimming performance. The result concerns a fossil structure under model conditions; it is not an observation of a living Spinosaurus swimming. Soft tissue, full-body dynamics and behavior still require reconstruction, so the experiment does not establish one ecology for the genus.
 

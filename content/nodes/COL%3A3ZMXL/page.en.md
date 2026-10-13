@@ -1,5 +1,5 @@
-## Life-history fields linked to the accepted name {#s-ae0291682d}
-Melomys rubicola is accepted in COL26.8 within Muridae. Five focal fields in the 2015 archive have same-name, same-family support from cited species-level sparse rows. This is a historical association; older taxonomic inheritance may remain in the summaries.
+## Body mass and life-history values in the compilation {#s-ae0291682d}
+The August 2015 Amniote Database entry for *Melomys rubicola* reports adult body mass 94 g; female age at first conception 172.31456 d; offspring per litter or eggs per clutch 2.35; conception or fertilization to birth 37.6984 d; age of dependence on food other than maternal milk 35.67044 d. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. The female-maturity field is defined as age at first conception, not first birth. Gestation is the source-defined interval from conception or fertilization to birth. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Melomys rubicola*.
 
 ## Adult body mass {#s-b50318f174}
 The life-history archive reports adult body mass of 94 g. Adult records may combine males, females, and animals whose sex was not stated; the value is not a species-wide range. Birth or hatching mass is not included.
@@ -10,8 +10,8 @@ The compiled female-maturity value is 172.31 d, defined by the source as age at 
 ## Citations and archived rows {#s-4f513cfb4d}
 Matching sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009, and Ernest et al., 2003. Field-level row numbers, values, and labels are preserved with the summary table’s complete reference notes. Labels may point to papers, books, or databases. Row counts are not sample sizes, and repeated citations do not provide independent replication.
 
-## An EltonTraits record with two field groups {#s-534fcc36f6}
-EltonTraits 1.0 has a same-name, same-family entry for Melomys rubicola with two ecological field groups. The source uses earlier bird taxonomy or MSW3 for mammals. The match does not settle later splits or synonym disputes.
+## Foraging stratum and activity flags in the compilation {#s-534fcc36f6}
+The EltonTraits 1.0 record for *Melomys rubicola* contains the foraging stratum, activity flags. The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Source comments and compiler confidence remain attached to the foraging category. The archive leaves diet fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Melomys rubicola*.
 
 ## Foraging-stratum category {#s-810e663706}
 The record is assigned G, ground; the source definition also includes some aquatic foraging. Code A indicates compiler confidence in the source and assignment, with mammalian stratum metadata attributed collectively to Nowak (1999). This category is not a time percentage or exclusive location.
@@ -22,15 +22,15 @@ Feeding activity at night is marked 1. Multiple activity fields can be marked to
 ## Source labels for the ecological fields {#s-d368003279}
 The selected groups carry metadata:Nowak1999 and Ref_1. Diet, stratum, and activity may draw on different sources, and Ref numbers are specific to their tables. Original strings remain archived with file, row, field group, and table. The underlying works have not been individually read; labels are not additional observations.
 
-## Limits on life-history and foraging evidence {#s-83dfe7f48e}
-Life-history values are historical same-name records from the 2015 archive. They are compilation medians or averages of two middle records, except maximum longevity, which uses the largest record found. They are not individual measurements, variation ranges, mean wild lifespans, or current population surveys. The compilation can inherit data across historic species and subspecies. Name, family, and matching sparse rows support the association but do not prove equivalence to COL26.8 or remove every inherited component. Wild or captive conditions are not consistently known, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation, and missing fields need other sources.
+## How to interpret these historical records {#s-83dfe7f48e}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-EltonTraits 1.0 is a historical same-name, same-family foraging record rather than a complete species account. Its historical concept is not established as equivalent to COL26.8. Mammalian ABC activity or diet fields can include a congener judged ecologically similar; not every value is a direct observation of M. rubicola. The underlying books and papers have not been reread individually. Individual, seasonal, and local variation and current range, population, or conservation require other evidence.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-Diet is withheld under source code D1 because of interpolation, certainty, or source-link limits. Its original values and specific reasons remain in the source archive and are not used to state a definite diet.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
 
-## The PanTHERIA name and collection period {#s-594490aa93}
-This page also uses the PanTHERIA 1.0 MSW05 entry from the August 2008 table; biological data gathering for that source ended in June 2004. The name is associated with COL26.8 for navigation, not as a resolution of subsequent taxonomic changes.
+## Adult body mass and adult head–body length in the historical table {#s-594490aa93}
+The August 2008 PanTHERIA row for *Melomys rubicola* records adult body mass 100 g; adult head–body length 147.42 mm. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Melomys rubicola*.
 
 ## Historical size summaries {#s-445d4a5773}
 The PanTHERIA entry reports adult body mass of 100 g and adult head–body length of 147.42 mm. These values are medians after sex adjustment. Mass may include adults or animals of unspecified age but excludes pregnant females; head–body length excludes the tail. They are not one specimen’s measurements or a species-wide range.

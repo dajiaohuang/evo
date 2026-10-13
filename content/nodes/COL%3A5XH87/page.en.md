@@ -1,14 +1,14 @@
-## Read this historical record through food and foraging position {#s-133bc27be5}
-COL26.8 accepts Celeus grammicus in Picidae. EltonTraits 1.0 contains a same-name, same-family record with diet and foraging fields. Its bird taxonomy is historical; matching names connect the records but do not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-133bc27be5}
+EltonTraits 1.0 has a same-name, same-family record for Celeus grammicus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-818ddc1f85}
-The archive divides the relative diet weight evenly: invertebrates 50% and fruit 50%. Code A indicates high compiler confidence in the cited source and diet information, but the percentages standardize descriptions rather than measure diet composition. Zero-coded alternatives do not prove an item is never eaten, and some archive categories are broader than their everyday names.
+## Relative weights across food categories {#s-818ddc1f85}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; fruit 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-04172e8d29}
-The archive marks the stratum record as species-level: 80% is assigned to trees or high bushes from 2 m upward but below the canopy, and 20% to the canopy or just above it. These weights describe relative feeding positions, not nest sites, total habitat use or time across the day. The source defines water, understory, mid/high, canopy and aerial categories separately; they are not elevation bands or flight-height measures.
+## Foraging positions are not a time budget {#s-04172e8d29}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 80%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-0291dae7b8}
-Both selected EltonTraits groups carry Ref_7 in the archive's bird-source table. It is the listed source pointer for the diet and stratum coding, not an extra observation. The underlying book and papers have not been individually read, so the page retains the archive's coarse-weight interpretation.
+## Sources and field limits {#s-0291dae7b8}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits of the foraging record {#s-bd9e8cbc89}
 This is an account of one historical EltonTraits 1.0 record, not a complete species monograph. Name and family matching do not establish that the historical and COL26.8 species concepts are equivalent. The diet and stratum percentages are coarse, literature-derived relative weights rather than direct measurements of intake or activity time. Code A describes compiler confidence in source information, not precision of the proportions. The underlying references were not individually read; current range, population, seasonal variation and conservation need other sources.

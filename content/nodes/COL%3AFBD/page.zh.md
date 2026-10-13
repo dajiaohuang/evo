@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-a39f87d29f}
+## 记录分类与直接上级关系 {#s-a39f87d29f}
+COL26.8 将 Psittacidae 记录为科；其直接上级记录为 Psittaciformes。
+
 这里整理的 AVONET v7 资料包含 114 种鹦鹉科鸟类的测量记录，使用来源中的历史名称。例子有 Amazona aestiva、A. agilis、A. albifrons、A. amazonica 和 A. arausiaca。页面层级按固定 COL26.8 组织，生物学数值仍保留原来源名称与采样范围。
 
 ## 记录之间有什么差别 {#s-ae4270aebf}
@@ -18,8 +20,8 @@
 生活史阅读路径有 80 条同名、同科且至少三个焦点字段有来源支持的历史记录，不是完整后代名册。汇编摘要、最长寿命记录和历史分类继承仍受来源限制；科级入口不表示繁殖或生活史相同。
 两字段生态组有 111 条同时包含食物和取食层位资料的历史记录；单字段组有 15 条，其中 14 条有食物资料、1 条有层位资料。两组均非完整后代名册，也不能据此推断科内共有特征。半定量转换、历史分类与可能借用同属材料的限制仍逐页适用。
 
-## 从有限生态资料开始 {#s-7ac2788b5c}
-这里有 13 个有限生态资料页，包括 [Alipiopsitta xanthops](Alipiopsitta/Alipiopsitta_xanthops/page.zh.md)、[Amazona kawalli](Amazona/Amazona_kawalli/page.zh.md)、[Poicephalus crassus](Poicephalus/Poicephalus_crassus/page.zh.md)、[Pyrilia aurantiocephala](Pyrilia/Pyrilia_aurantiocephala/page.zh.md) 和 [Pyrilia pyrilia](Pyrilia/Pyrilia_pyrilia/page.zh.md)。页面沿固定 COL26.8 分类组织；这只是已写资料的数量，不是全部接受种数。
+## 记录分类与成员材料 {#s-7ac2788b5c}
+这里有 13 个有限生态资料页，包括 Alipiopsitta xanthops、Amazona kawalli、Poicephalus crassus、Pyrilia aurantiocephala 和 Pyrilia pyrilia。页面沿固定 COL26.8 分类组织；这只是已写资料的数量，不是全部接受种数。
 
 ## 哪些内容可读，哪些仍未解读 {#s-7d35a50a85}
 13 个有限生态资料页均记录了栖地、取食生态位、主导活动方式和迁移类别。这些是来源定义的分类，不是个体观察，也不能证明所有后代具有相同生活方式。喙、翼、跗蹠、尾与体重字段在这里仍未解读，不能用于建立科级体型比较。

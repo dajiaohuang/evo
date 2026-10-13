@@ -1,5 +1,5 @@
-## Find rows through older Carduelis/Serinus combinations {#s-fc7875ccfc}
-Pinned COL26.8 organizes this page at Spinus uropygialis (4Z663). BirdLife 2020 row 4167 and eBird 2021 row 9800 share the name and Avibase ID AVIBASE-53959D67, with type 1BL to 1eBird; BirdTree row 9741 gives Carduelis uropygialis, with type 1BL to 1BT. Read catalogue synonym R6JY points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-fc7875ccfc}
+Catalogue of Life release COL26.8 records Spinus uropygialis (P. L. Sclater, 1862) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-8062ef5814}
 Morphology comprises 5 birds: 2 female, 2 male and 1 unsexed; 4 complete sets. Nostril-to-tip beak length 7.7 mm, tarsus 16.2 mm, unflattened wing 80.4 mm, tail 50 mm and hand-wing index 35.2 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

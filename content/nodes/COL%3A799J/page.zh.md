@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-e48ce72522}
+## 记录分类与直接上级关系 {#s-e48ce72522}
+COL26.8 将 Rhogeessa 记录为属；其直接上级记录为 Antrozoini。
+
 Rhogeessa 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Rhogeessa parvula 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-715ee2087b}
@@ -9,10 +11,10 @@ Rhogeessa 的本批路线包含 9 个历史条目，可从 Rhogeessa gracilis、
 
 ## 证据边界 {#s-431aa1037e}
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
 
-## 从已有历史条目开始 {#s-db6b07122e}
-Rhogeessa 的本地 PanTHERIA 路径包括 5 条可用数据导读，可从 [Rhogeessa minutilla](Rhogeessa_minutilla/page.zh.md)、[Rhogeessa mira](Rhogeessa_mira/page.zh.md)、[Rhogeessa alleni](Rhogeessa_alleni/page.zh.md)、[Rhogeessa genowaysi](Rhogeessa_genowaysi/page.zh.md)、[Rhogeessa gracilis](Rhogeessa_gracilis/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-db6b07122e}
+Rhogeessa 的本地 PanTHERIA 路径包括 5 条可用数据导读，可从 Rhogeessa minutilla、Rhogeessa mira、Rhogeessa alleni、Rhogeessa genowaysi、Rhogeessa gracilis 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-fabee910a6}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。

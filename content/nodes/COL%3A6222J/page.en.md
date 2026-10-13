@@ -1,10 +1,10 @@
-## Local data reading route {#s-4c6a04b843}
+## Recorded classification and member material {#s-4c6a04b843}
 This batch’s Eurypygiformes route includes 2 measured species records. Start with Eurypyga helias, Rhynochetos jubatus. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-6e70abaf4c}
 Compiled mean mass endpoints in this batch are Eurypyga helias at 210 g and Rhynochetos jubatus at 859.99 g. Represented habitat categories include Wetland, Forest; trophic niches include Aquatic predator, Invertivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-9a3a85f4fc}
+## Amniote Life-history archive member records {#s-9a3a85f4fc}
 This batch’s Eurypygiformes route includes 2 historical life-history accounts; start with Eurypyga helias, Rhynochetos jubatus. More frequently represented fields include adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), oviposition to hatching (2 entries), female maturity field (defined by the source as age at first conception) (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-36d47e17b5}

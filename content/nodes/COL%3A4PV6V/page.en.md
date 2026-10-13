@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-33b965f5ee}
-Pinned COL26.8 organizes this page as Pternistis jacksoni (4PV6V). AVONET v7 BirdLife 2020 row 2519 and eBird 2021 agree in name, with Avibase ID AVIBASE-A7E59764; BirdTree gives Francolinus jacksoni, with match type 1BL to 1BT. Read COL older-combination record 6JLFM points to accepted ID 4PV6V. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-33b965f5ee}
+Catalogue of Life release COL26.8 records Pternistis jacksoni (Ogilvie-Grant, 1891) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-62fac2b5b6}
 Morphology covers 5 birds (2 female, 3 male); 4 have complete measurement sets. Mean nostril-to-tip beak length is 14.1 mm, tarsus 64.5 mm, unflattened wing 212.4 mm and hand-wing index 18. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

@@ -1,5 +1,5 @@
-## Find rows through older Schistocichla／Myrmeciza combinations {#s-045c359508}
-Pinned COL26.8 organizes this page at Myrmelastes brunneiceps (R8FYN). BirdLife 2020 row 7789 and eBird 2021 row 6629 share the name and Avibase ID AVIBASE-B4F54E3D, with type 1BL to 1eBird; BirdTree row 6604 gives Schistocichla brunneiceps, with type 1BL to 1BT. Catalogue synonym 4V997, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-045c359508}
+Catalogue of Life release COL26.8 records Myrmelastes brunneiceps (J. T. Zimmer, 1931) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-1a52d702d4}
 Morphology comprises 7 birds: 3 female, 4 male and 0 unsexed; 2 complete sets. Nostril-to-tip beak length 11 mm, tarsus 25.5 mm, unflattened wing 66.2 mm, tail 54.7 mm and hand-wing index 8 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

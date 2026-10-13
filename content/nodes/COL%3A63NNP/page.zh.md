@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-bd2a526641}
+## 记录分类与直接上级关系 {#s-bd2a526641}
+COL26.8 将 Poliocephalus 记录为属；其直接上级记录为 Podicipedidae。
+
 固定 COL26.8 中的 Poliocephalus 路线包含两条有测量来源的 AVONET v7 物种记录：Poliocephalus poliocephalus 和 Poliocephalus rufopectus。属级页面是通往这些条目的阅读入口，不是其全部接受后代的名录。测量资料保留 AVONET 的历史名称和采样范围。
 
 ## 记录之间有什么差别 {#s-3728e856f7}

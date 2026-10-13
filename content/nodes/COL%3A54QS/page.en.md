@@ -1,4 +1,6 @@
-## Available historical Iomys page {#s-faa36fcda9}
+## Recorded classification and direct parent {#s-faa36fcda9}
+COL26.8 records Iomys at genus rank, with Pteromyini as its direct parent.
+
 The local PanTHERIA route has one usable account, Iomys horsfieldii. It retains the original MSW05 name, variable conditions and missingness. Navigation follows pinned COL26.8, not a current species denominator.
 
 ## Repeated adult-mass endpoint {#s-b5ddd80dbe}

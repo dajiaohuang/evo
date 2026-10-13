@@ -7,20 +7,20 @@ When breeding was out of sync with the caterpillar food peak, nestlings were lig
 ## physiology {#s-4db5e8dc35}
 In each study year, offspring of parents with higher corticosterone were lighter; yet in 2009 parental corticosterone was positively associated with the number of young fledged. The study therefore does not support treating corticosterone as a simple, general measure of breeding success. The authors emphasize interpreting this physiological measure alongside environmental conditions in each year.
 
-## The 2015 life-history entry and this name {#s-cfb2da5e22}
-Cyanistes caeruleus is accepted in pinned COL26.8 within Paridae. This page compares the same-name historical life-history entry using 6 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-cfb2da5e22}
+The August 2015 database has a same-name, same-family record for Cyanistes caeruleus. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-0a90bb4ee5}
-Historical summary values are adult body mass 11.2 g; mass at birth or hatching 0.81 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+## Compiled adult-mass values {#s-0a90bb4ee5}
+The August 2015 compilation reports adult body mass 11.2 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-ffdfe4a177}
-Available compilation fields are female maturity field (defined by the source as age at first conception) 365 d; offspring per litter or eggs per clutch 8 offspring/eggs; oviposition to hatching 13.5 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-ffdfe4a177}
+The August 2015 compilation reports female age at first conception (source definition) 365 days; median or interpolated-median number of offspring or eggs per litter/clutch 8; oviposition-to-hatching interval 13.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-68bbbdc97f}
-The archive’s maximum_longevity_y value is 14.6 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+## A maximum record is not typical lifespan {#s-68bbbdc97f}
+The compilation lists 14.6 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-81b78be9ce}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; de Magalhaes and Costa, 2009; Boback and Guyer, 2003, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-81b78be9ce}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## catalogue-profile / limitations {#s-1a6b6a1b5a}
 This is a local, single-study guide and is. The three years of observations came from one Scottish nest-box population and report associations; they do not establish that corticosterone or weather caused reproductive outcomes, or define general patterns across the blue tit's range, other life stages, or different years.

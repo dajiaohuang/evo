@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-a7141d883e}
+## 记录分类与直接上级关系 {#s-a7141d883e}
+COL26.8 将 Nilssonia 记录为属；其直接上级记录为 Trionychidae。
+
 Nilssonia 的 ReptTraits 阅读路径包含 3 条同名同科、有逐性状出处的物种资料，可从 Nilssonia gangetica、Nilssonia leithii 或 Nilssonia nigricans 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-7676475294}
@@ -14,8 +16,8 @@ Nilssonia 路线包含 1 条历史生活史导读：Nilssonia gangetica。现有
 ## 部分后代条目的引用缺口 {#s-9142b2bc85}
 已写出的唯一物种资料中，部分字段的引用范围尚未确认。这些字段不作确定性状陈述，并仍在物种页列出对应字段与引用标签；路径数量仅计资料页面，不代表性状完整覆盖。
 
-## 从有性状记录的物种开始 {#s-3fbd898230}
-Nilssonia 的 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 [Nilssonia formosa](Nilssonia_formosa/page.zh.md) 或 [Nilssonia hurum](Nilssonia_hurum/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-3fbd898230}
+Nilssonia 的 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 Nilssonia formosa 或 Nilssonia hurum 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-6526ce86e4}
 后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

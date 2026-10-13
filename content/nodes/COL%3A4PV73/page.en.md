@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-b56f92eb83}
-Pinned COL26.8 organizes this page as Pternistis rufopictus (4PV73). AVONET v7 BirdLife 2020 row 2524 and eBird 2021 agree in name, with Avibase ID AVIBASE-DB3EB527; BirdTree gives Francolinus rufopictus, with match type 1BL to 1BT. Read COL older-combination record 6JLGJ points to accepted ID 4PV73. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-b56f92eb83}
+Catalogue of Life release COL26.8 records Pternistis rufopictus Reichenow, 1887 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-993c4c114e}
 Morphology covers 4 birds (2 female, 2 male); 3 have complete measurement sets. Mean nostril-to-tip beak length is 20.9 mm, tarsus 58.4 mm, unflattened wing 201.8 mm and hand-wing index 19.1. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

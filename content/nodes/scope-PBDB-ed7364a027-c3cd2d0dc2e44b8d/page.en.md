@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-79d92febc2}
-Yutyrannus is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 1 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Yutyrannus in the PBDB parent path {#s-79d92febc2}
+*Yutyrannus* is the genus-level label in this Paleobiology Database (PBDB) parent path. This fixed working roster includes an occurrence guide for one species, *Yutyrannus huali*. The recorded parents organize database records; they are not a phylogenetic hypothesis or a complete list of descendants.
 
-## Compare collections, strata and age brackets {#s-44c6a59b1c}
-Start with Yutyrannus huali and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 1 selected occurrence from 1 collection; example stratum names are Yixian. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Reading the included species record {#s-44c6a59b1c}
+For *Yutyrannus huali*, this route includes one selected occurrence from one collection, with Yixian as the recorded stratum name. Before comparing it with another record, check that collection’s age bracket, accepted and original identifications, and linked references. Occurrence and collection counts describe records, not specimens, individuals, or populations.
 
-## Evidence limits {#s-19431ecb53}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## Limits of this fossil-record route {#s-19431ecb53}
+This page follows occurrence guides included in the current batch; it is not a complete descendant catalogue or an ecological account of the genus. Occurrence counts describe PBDB rows, not animal abundance or sampling effort. Keep the database’s recorded parent path separate from COL concepts and phylogenetic analyses.
 

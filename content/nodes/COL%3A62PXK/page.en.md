@@ -1,10 +1,12 @@
-## Start with the historical entries {#s-803b7f67f9}
+## Recorded classification and direct parent {#s-803b7f67f9}
+COL26.8 records Ctenomys at genus rank, with Ctenomyidae as its direct parent.
+
 The local PanTHERIA route for Ctenomys includes 4 usable data accounts. Start with Ctenomys haigi, Ctenomys opimus, Ctenomys peruanus, Ctenomys torquatus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-259154b2c8}
 Among available consolidated adult-mass values in this batch, Ctenomys haigi records 164 g and Ctenomys peruanus records 488.36 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-5cc0f7b43c}
+## Amniote Life-history archive member records {#s-5cc0f7b43c}
 This batch’s Ctenomys route includes 16 historical life-history accounts; start with Ctenomys azarae, Ctenomys bergi, Ctenomys fochi, Ctenomys fodax, Ctenomys haigi. More frequently represented fields include adult body mass (16 entries), conception or fertilization to birth (16 entries), female maturity field (defined by the source as age at first conception) (15 entries), longest lifespan record in the compilation (13 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-a2ddea4dd7}
@@ -13,27 +15,27 @@ This batch’s Ctenomys route includes 42 historical entries; start with Ctenomy
 ## Compare food, feeding positions and activity periods {#s-ada8fb2590}
 This batch’s Ctenomys route includes 13 historical entries; start with Ctenomys juris, Ctenomys fodax, Ctenomys goodfellowi, Ctenomys lami, Ctenomys fochi. Food-category weights are available in 0, foraging strata in 13, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-d75017254d}
+## Limits attached to these records {#s-d75017254d}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
-This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
+This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-ede516ab49}
-The local PanTHERIA route for Ctenomys includes 21 usable data accounts. Start with [Ctenomys argentinus](Ctenomys_argentinus/page.en.md), [Ctenomys australis](Ctenomys_australis/page.en.md), [Ctenomys azarae](Ctenomys_azarae/page.en.md), [Ctenomys bonettoi](Ctenomys_bonettoi/page.en.md), [Ctenomys conoveri](Ctenomys_conoveri/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-ede516ab49}
+The local PanTHERIA route for Ctenomys includes 21 usable data accounts. Start with Ctenomys argentinus, Ctenomys australis, Ctenomys azarae, Ctenomys bonettoi, Ctenomys conoveri. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-7473070edb}
 Among available consolidated adult-mass values in this batch, Ctenomys lewisi records 117.2 g and Ctenomys conoveri records 859.99 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-ca2908e8c5}
+## PanTHERIA material route {#s-ca2908e8c5}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Follow the life-history records {#s-9eaacb1efb}
-This batch offers 4 historical life-history accounts under Ctenomys. Start with [Ctenomys torquatus](Ctenomys_torquatus/page.en.md), [Ctenomys haigi](Ctenomys_haigi/page.en.md), [Ctenomys peruanus](Ctenomys_peruanus/page.en.md), [Ctenomys opimus](Ctenomys_opimus/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-9eaacb1efb}
+This batch offers 4 historical life-history accounts under Ctenomys. Start with Ctenomys torquatus, Ctenomys haigi, Ctenomys peruanus, Ctenomys opimus. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-27517add24}
 Gestation is recorded in 2 accounts, female age at first reproduction in 0 accounts, and maximum lifespan in 0 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-e3b08ae8cf}
+## Ernest life-history archive material route {#s-e3b08ae8cf}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

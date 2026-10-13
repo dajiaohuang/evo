@@ -117,7 +117,10 @@ records:
     - subjectId: taxon:gustafsonia
       claimKind: scientific
       claimType: fossil-range
-      statement: Gustafsonia cognita is bounded by CT-reconstructed holotype cranium TMM 40209-200 from the Chambers Tuff within an approximately 38–36.6 Ma sample envelope; the interval is not a global family first appearance or direct ancestry date.
+      statement:
+        page: en
+        section: holotype-record
+        part: body
       confidence: medium
       confidenceRationale: The holotype and geological setting are direct. Basal amphicyonid placement and geographic origin remain analysis-dependent.
       referenceLinks:
@@ -129,7 +132,9 @@ records:
   claim-rationales.zh:
     - 正模与地质背景属于直接证据；基干 Amphicyonidae 位置和地理起源仍依赖分析。
   claim-statements.zh:
-    - Gustafsonia cognita 由 Chambers Tuff 的 CT 重建正模头骨 TMM 40209-200 约束，处于约 3800 万—3660 万年前的样本区间；该区间不是全球科级首现或直接祖先日期。
+    - page: zh
+      section: holotype-record
+      part: body
   ranges:
     - entityId: gustafsonia
       rangeKind: global-composite

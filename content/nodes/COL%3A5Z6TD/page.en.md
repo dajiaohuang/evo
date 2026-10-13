@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-d5a7c64359}
-Pinned COL26.8 organizes this page at Cinnyris loveridgei (5Z6TD). BirdLife 2020 row 5968 and eBird 2021 row 2340 share the name and Avibase ID AVIBASE-85666B49, with type 1BL to 1eBird; BirdTree row 2333 gives Nectarinia loveridgei, with type 1BL to 1BT. Read older-combination record 462NQ points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-d5a7c64359}
+Catalogue of Life release COL26.8 records Cinnyris loveridgei Hartert, 1922 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-ef9b01834e}
 Morphology covers 5 birds: 2 female, 3 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 19 mm, tarsus 17.8 mm, unflattened wing 56.7 mm, tail 39.8 mm and hand-wing index 14.1 are historical row means. Inference=NO does not establish 5 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

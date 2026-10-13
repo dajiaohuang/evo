@@ -4,11 +4,21 @@ import { basename, dirname, join } from 'node:path'
 import ts from 'typescript'
 import { staticPathSegment } from '../src/utils/staticPath.mjs'
 import { orderReadingSections, paragraphParts } from '../src/utils/nodeReading.mjs'
+import { readerInlineHtml } from '../src/utils/readerInlineHtml.mjs'
 import { readJson, rootDir } from './data-lib.mjs'
 import { generateReadingMaps, readingMapCss } from './generate-reading-maps.mjs'
 import { generateCatalogueChanges, catalogueChangesCss } from './generate-catalogue-changes.mjs'
 import { directoryTools, readingHome, readingDiscoveryCss } from './reading-discovery.mjs'
 import { generateReadingGuides, readingGuideCards, readingGuideCss } from './reading-guides.mjs'
+import { readPbdbReaderRecords } from './pbdb-reader.mjs'
+import {
+  buildPbdbTaxonomyIndex,
+  groupPbdbReaderPages,
+  pbdbReaderDirectoryItems,
+  pbdbReaderPath,
+  renderPbdbReaderBody,
+  renderPbdbSourceTargets,
+} from './pbdb-static-reader.mjs'
 
 const staticPages = process.env.EVO_STATIC_PAGES === 'true'
 const distRoot = join(rootDir, staticPages ? 'dist-pages' : 'dist')
@@ -48,6 +58,28 @@ const claims = readJson('data/evidence/claims.json').filter((claim) => {
 const claimStatementsZh = readJson('data/evidence/claim-statements.zh.json')
 const chineseTranslations = loadChineseTranslations()
 const allReferences = readJson('data/references.json')
+const allReferenceById = new Map(allReferences.map((reference) => [reference.id, reference]))
+const pbdbSupportedIds = new Set()
+const pbdbReaderPages = staticPages
+  ? groupPbdbReaderPages((function* () {
+    for (const record of readPbdbReaderRecords(rootDir)) {
+      pbdbSupportedIds.add(record.pbdbTaxonId)
+      yield record
+    }
+  })(), manifest.datasetVersion)
+  : []
+if (!staticPages) {
+  // Full-web delivery already contains the verified exact-ID index. Reuse it
+  // rather than reopening the entire canonical corpus for related links.
+  const current = readJson('dist/data/current.json')
+  if (!current.pbdbReader) throw new Error('PBDB reader delivery is missing from the current runtime')
+  const reader = readJson(`dist/data/${current.pbdbReader.manifest.url}`)
+  const index = readJson(`dist/data/${reader.index.url}`)
+  if (reader.datasetVersion !== current.datasetVersion || index.length !== reader.records) throw new Error('PBDB reading index does not match the current runtime')
+  for (const record of index) pbdbSupportedIds.add(record.pbdbTaxonId)
+}
+const pbdbTaxonomyIndex = staticPages ? buildPbdbTaxonomyIndex(pbdbReaderPages) : new Map()
+const pbdbDirectoryItems = staticPages ? pbdbReaderDirectoryItems(pbdbReaderPages) : []
 const timeScale = readJson('data/time-scale.json')
 const media = readJson('data/media.json').filter((asset) => !coreContentEdition || previewTaxonIds.has(asset.taxonId))
 const periodUnits = timeScale.units.filter((unit) => unit.itp === 'period')
@@ -347,11 +379,20 @@ function renderReaderArticle(profile, language, { kind = 'taxon', sources: sourc
       const source = sources.get(sourceId)
       if (!source) return language === 'zh' ? '该段的来源信息暂不可用。' : 'Source details for this passage are unavailable.'
       const title = escapeHtml(readerText(source.title, language))
-      return source.url ? '<a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + title + ' ↗</a>' : '<strong>' + title + '</strong>'
-    }).filter(Boolean).join(' · ')
+      const link = source.url ? '<a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + title + ' ↗</a>' : '<strong>' + title + '</strong>'
+      const field = (label, value) => value ? '<p><strong>' + label + '</strong>' + escapeHtml(value) + '</p>' : ''
+      return '<div class="reader-citation-item">' + link
+        + field(language === 'zh' ? '段落定位：' : 'Passage locator: ', section.locator)
+        + field(language === 'zh' ? '来源定位：' : 'Source locator: ', source.locator)
+        + field(language === 'zh' ? '范围：' : 'Scope: ', readerText(source.scope, language))
+        + field(language === 'zh' ? '版本：' : 'Version: ', source.version)
+        + field(language === 'zh' ? '权利人：' : 'Rights holder: ', source.rightsHolder)
+        + renderPbdbSourceTargets(source, { language, basePath, staticEdition: staticPages, supportedIds: pbdbSupportedIds })
+        + '</div>'
+    }).filter(Boolean).join('')
     const availableLanguage = section.text[language] ? language : section.text.en ? 'en' : 'zh'
     const fallback = availableLanguage === language ? '' : '<p class="notice">' + (language === 'zh' ? '以下保留现有原语言内容。' : 'The available source-language account is retained below.') + '</p>'
-    return '<article class="reader-section" id="reader-' + escapeHtml(section.id) + '"><h2>' + escapeHtml(readerText(section.title, language)) + '</h2>' + fallback + '<div lang="' + availableLanguage + '"><p>' + paragraphParts(readerText(section.text, language)).map(escapeHtml).join('</p><p>') + '</p></div>' + (citations ? '<details class="reader-citations"><summary>' + (language === 'zh' ? '本段的来源与材料' : 'Sources and material for this passage') + '</summary>' + citations + '</details>' : '') + '</article>'
+    return '<article class="reader-section" id="reader-' + escapeHtml(section.id) + '"><h2>' + escapeHtml(readerText(section.title, language)) + '</h2>' + fallback + '<div lang="' + availableLanguage + '"><p>' + paragraphParts(readerText(section.text, language)).map(readerInlineHtml).join('</p><p>') + '</p></div>' + (citations ? '<details class="reader-citations"><summary>' + (language === 'zh' ? '本段的来源与材料' : 'Sources and material for this passage') + '</summary>' + citations + '</details>' : '') + '</article>'
   }).join('')
   const limitations = profile.readerLimitations?.[language]
     ? '<p class="reader-limitations">' + escapeHtml(profile.readerLimitations[language]) + '</p>'
@@ -362,7 +403,10 @@ function renderReaderArticle(profile, language, { kind = 'taxon', sources: sourc
     const title = escapeHtml(readerText(source.title, language))
     const link = source.url ? '<a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + title + '</a>' : '<strong>' + title + '</strong>'
     const scope = readerText(source.scope, language)
-    return '<li>' + link + (scope ? ' — ' + escapeHtml(scope) : '') + '</li>'
+    const details = [source.locator && (language === 'zh' ? '来源定位：' : 'Source locator: ') + source.locator, source.version, source.rightsHolder]
+      .filter(Boolean).map(value => '<span>' + escapeHtml(value) + '</span>').join(' · ')
+    const targets = renderPbdbSourceTargets(source, { language, basePath, staticEdition: staticPages, supportedIds: pbdbSupportedIds })
+    return '<li>' + link + (scope ? ' — ' + escapeHtml(scope) : '') + (details ? '<p>' + details + '</p>' : '') + targets + '</li>'
   }).join('')
   return '<section class="reader-article" id="' + (kind === 'event' ? 'event-account' : 'species-introduction') + '"><div class="reader-sections">' + sectionHtml + '</div>' + relatedHtml + '<details class="reader-scope"><summary>' + (language === 'zh' ? '来源范围与尚未覆盖的问题' : 'Source scope and remaining questions') + '</summary>' + limitations + '<ul>' + sourceHtml + '</ul></details></section>'
 }
@@ -532,6 +576,7 @@ let mediaPageCount = 0
 let datasetPageCount = 0
 let indexPageCount = 0
 const comparisonPageCount = coreContentEdition ? 0 : generateCatalogueChanges({ write, pageHtml, basePath, baseUrl, repositoryUrl, sitemapUrls })
+let pbdbPageCount = 0
 
 for (const entity of entities) {
   const profile = profileByEntityId.get(entity.id)
@@ -765,6 +810,50 @@ writeCollectionIndex({
   descriptionZh: '全部已注册类群与导航概念，提供来源和证据边界。',
   items: taxonDirectoryEntities.map((entity) => ({ path: `taxa/${staticPathSegment(entity.id)}/`, titleEn: `${entity.names.en} · ${entity.names.scientific}`, titleZh: `${entity.names.zh} · ${entity.names.scientific}`, metaEn: entity.rank, metaZh: localize('zh', entity.rank) })),
 })
+if (staticPages) {
+  for (const record of pbdbReaderPages) {
+    const id = record.pbdbTaxonId
+    const englishPath = pbdbReaderPath(id, 'en')
+    const chinesePath = pbdbReaderPath(id, 'zh')
+    sitemapUrls.add(`${baseUrl}/${englishPath}`)
+    for (const language of ['en', 'zh']) {
+      const path = language === 'en' ? englishPath : chinesePath
+      const alternatePath = language === 'en' ? chinesePath : englishPath
+      const { title, description, body } = renderPbdbReaderBody(record, {
+        language,
+        references: allReferenceById,
+        supportedIds: pbdbSupportedIds,
+        taxonomyIndex: pbdbTaxonomyIndex,
+        basePath,
+        staticEdition: true,
+      })
+      write(`${path}index.html`, pageHtml({
+        language,
+        title,
+        description,
+        path,
+        alternatePath,
+        type: 'Taxon',
+        jsonLd: { identifier: id, name: title, taxonRank: record.identity?.rank },
+        breadcrumbs: [
+          { label: labels[language].home, url: `${basePath}/${language === 'zh' ? 'zh/' : ''}` },
+          { label: language === 'zh' ? 'PBDB 分类阅读' : 'PBDB taxon readers', url: `${basePath}/${language === 'zh' ? 'zh/' : ''}pbdb/` },
+          { label: title, url: `${baseUrl}/${path}` },
+        ],
+        body,
+      }))
+    }
+    pbdbPageCount += 1
+  }
+  writeCollectionIndex({
+    kind: 'pbdb',
+    titleEn: 'PBDB taxon readers',
+    titleZh: 'PBDB 分类阅读',
+    descriptionEn: 'Bilingual source-scoped readers keyed only by recorded PBDB taxon identifiers. Classification links follow recorded PBDB parent IDs and do not imply direct ancestry.',
+    descriptionZh: '按已记录 PBDB 分类标识组织的双语来源阅读页。分类链接仅沿用记录的 PBDB 上级标识符，不表示直接祖先关系。',
+    items: pbdbDirectoryItems,
+  })
+}
 writeCollectionIndex({ kind: 'events', titleEn: 'Evolutionary events', titleZh: '演化事件', descriptionEn: staticPages ? 'Bounded evolutionary transitions with claims, sources and uncertainty.' : 'Bounded evolutionary transitions with claims, sources, uncertainty and reproducible Explorer handoffs.', descriptionZh: staticPages ? '具有主张、来源和不确定性说明的演化转折。' : '具有主张、来源、不确定性和可复现探索器入口的演化转折。', items: events.map((event) => ({ path: `events/${event.id}/`, titleEn: event.title, titleZh: event.titleZh, metaEn: `${event.startAge}–${event.endAge} Ma · ${event.category}`, metaZh: `${event.startAge}–${event.endAge} Ma · ${localize('zh', event.category)}` })) })
 writeCollectionIndex({ kind: 'stories', titleEn: 'Guided stories', titleZh: '引导故事', descriptionEn: staticPages ? 'Published editorial narratives with named evidence claims and references.' : 'Published editorial narratives whose steps resolve to claims and reproducible Explorer states.', descriptionZh: staticPages ? '标明证据主张与参考文献的已发布编辑叙事。' : '每一步均解析到主张和可复现探索器状态的已发布编辑叙事。', items: stories.map((story) => ({ path: `stories/${story.id}/`, titleEn: story.title, titleZh: story.titleZh, metaEn: `${story.durationMinutes} min · ${story.steps.length} steps`, metaZh: `${story.durationMinutes} 分钟 · ${story.steps.length} 步` })) })
 if (!pagesPreview) {
@@ -796,6 +885,7 @@ if (staticPages) {
   const mapFrame = JSON.parse(readFileSync(join(distRoot, 'map/manifest.json'), 'utf8')).frames.find(frame => frame.slug === 'cambrian')
   const collections = [
     ['map', 'Lightweight map', '轻量地图', 13],
+    ['pbdb', 'PBDB taxon readers', 'PBDB 分类阅读', pbdbPageCount],
     ['taxa', 'Taxa and evidence', '类群与证据', entities.length],
     ['events', 'Evolutionary events', '演化事件', events.length],
     ['stories', 'Guided stories', '引导故事', stories.length],
@@ -861,7 +951,7 @@ for (const release of releaseHistory.releases.filter((entry) => entry.datasetVer
 }
 }
 
-write('static.css', staticCss + (staticPages ? readingMapCss : '') + `\n.skip-link{position:absolute;top:-100px;left:12px;padding:12px;background:var(--bg);z-index:2}.skip-link:focus{top:0}:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.claim code{overflow-wrap:anywhere}.page{overflow-wrap:anywhere}` + (staticPages ? `\nheader.site{height:auto;min-height:64px;gap:24px;flex-wrap:wrap}header.site nav a,.language a{display:inline-flex;align-items:center;min-height:44px}.edition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.edition-grid a{display:block;padding:20px;border:1px solid var(--line);text-decoration:none}.edition-grid strong,.edition-grid span{display:block}.edition-grid span{color:var(--muted);font-size:13px}@media(max-width:700px){header.site nav{display:flex;order:3;width:100%;flex-wrap:wrap;gap:6px 18px}.edition-grid{grid-template-columns:1fr}.page{padding-top:30px}h1{font-size:clamp(36px,10vw,64px)}}` : ''))
+write('static.css', staticCss + (staticPages ? readingMapCss : '') + `\n.pbdb-identities{display:grid;gap:14px;padding-left:20px}.pbdb-identities dl,.pbdb-source-fields{display:grid;grid-template-columns:minmax(110px,170px) minmax(0,1fr);gap:6px 12px}.pbdb-identities dt,.pbdb-source-fields dt{color:var(--muted)}.pbdb-identities dd,.pbdb-source-fields dd{margin:0;overflow-wrap:anywhere}.pbdb-source{margin:16px 0}.pbdb-related{margin:12px 0}.pbdb-related ul,.pbdb-members{padding-left:22px}.pbdb-account,.pbdb-taxonomy{margin:24px 0}@media(max-width:600px){.pbdb-identities dl,.pbdb-source-fields{grid-template-columns:1fr;gap:2px}.pbdb-identities dd,.pbdb-source-fields dd{margin-bottom:8px}}\n.skip-link{position:absolute;top:-100px;left:12px;padding:12px;background:var(--bg);z-index:2}.skip-link:focus{top:0}:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.claim code{overflow-wrap:anywhere}.page{overflow-wrap:anywhere}` + (staticPages ? `\nheader.site{height:auto;min-height:64px;gap:24px;flex-wrap:wrap}header.site nav a,.language a{display:inline-flex;align-items:center;min-height:44px}.edition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.edition-grid a{display:block;padding:20px;border:1px solid var(--line);text-decoration:none}.edition-grid strong,.edition-grid span{display:block}.edition-grid span{color:var(--muted);font-size:13px}@media(max-width:700px){header.site nav{display:flex;order:3;width:100%;flex-wrap:wrap;gap:6px 18px}.edition-grid{grid-template-columns:1fr}.page{padding-top:30px}h1{font-size:clamp(36px,10vw,64px)}}` : ''))
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...sitemapUrls].sort().map((url) => `  <url><loc>${xmlEscape(url)}</loc><lastmod>${manifest.generatedAt}</lastmod></url>`).join('\n')}\n</urlset>\n`)
 write('robots.txt', `User-agent: *\nAllow: ${basePath}/\nSitemap: ${baseUrl}/sitemap.xml\n`)
 const feedEntryPath = coreContentEdition ? 'methods/' : `datasets/${manifest.datasetVersion}/`
@@ -870,7 +960,7 @@ write('feed.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://w
 write('404.html', `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><link rel="stylesheet" href="${basePath}/static.css"><title>Page not found — Evo Atlas</title></head><body><main class="page"><span class="eyebrow">404 / Evo Atlas</span><h1>Evidence page not found.</h1><p class="dek">This static entry does not exist in the published dataset. You can continue in the catalog or Explorer.</p><div class="actions"><a class="button" href="${basePath}/#/catalog">Open catalog</a><a class="button secondary" href="${basePath}/#/explore">Open Explorer</a></div></main></body></html>`)
 if (staticPages) write('404.html', pageHtml({ language: 'en', title: 'Page not found', description: 'This static reading page does not exist.', path: '404.html', alternatePath: 'zh/', robots: 'noindex,follow', body: `<span class="eyebrow">404 / EVO ATLAS</span><h1>Page not found</h1><p class="dek">This address is not part of the static reading edition. / 此地址不属于静态阅读版。</p><div class="actions"><a class="button" href="${basePath}/">Browse in English</a><a class="button secondary" href="${basePath}/zh/">浏览中文内容</a></div>` }))
 const pageCounts = {
-  ...(staticPages ? { home: 2, apps: 2, maps: readingMapCount } : {}),
+  ...(staticPages ? { home: 2, apps: 2, maps: readingMapCount, pbdbReaders: pbdbPageCount } : {}),
   taxa: taxonPageCount,
   events: eventPageCount,
   stories: storyPageCount,

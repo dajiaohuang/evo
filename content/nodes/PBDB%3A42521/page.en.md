@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-7a5c54b8b0}
-Camelus is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 4 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Camelus {#s-7a5c54b8b0}
+Camelus is listed at rank genus in the PBDB classification route, with Camelini as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-97edaaf3c3}
 Start with Camelus thomasi, Camelus grattardi, Camelus knoblochi, Camelus sivalensis and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 12 selected occurrences from 12 collections; example stratum names are Shungura, Tatrot, Pinjor. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-2703444a2d}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-2703444a2d}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Camelus thomasi’s collection record, not a continuous history for Camelus.
 

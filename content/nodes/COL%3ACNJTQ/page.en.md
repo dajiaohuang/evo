@@ -1,4 +1,6 @@
-## Read Chrysococcyx and Rhamphomantis separately {#s-d13ad45ebc}
+## Recorded classification and direct parent {#s-d13ad45ebc}
+COL26.8 records Chalcites Lesson, 1830 at genus rank, with Cuculidae as its direct parent.
+
 Six historical guides follow COL26.8 Chalcites (CNJTQ) in Cuculidae (8S7). All eBird names are Chrysococcyx and respective Avibase IDs match; BirdTree has five Chrysococcyx and one Rhamphomantis megarhynchus. meyerii differs between tables as meyerii/meyeri; synonyms CQ6RV/CNKT3 both point to CNJV8. megarhynchus synonyms CNKSY/4S2PW for the two genera both point to CNJV7. Name relationships do not prove concept identity. Eight immediate catalogue children and six pages do not complete genus content.
 
 ## Separate the limits of one female and one male {#s-f2573d501a}
@@ -10,8 +12,8 @@ Six Invertivore/Carnivore/migration 1 rows retain five Insessorial and Generalis
 ## Separate crosswalk names before single-bird comparisons {#s-b956d4b169}
 Begin with meyerii spelling and the two older genera at megarhynchus, then read the separate limits of single female ruficollis and single male megarhynchus. Compare four complete lucidus/meyerii birds with five/four complete basalis/osculans, then forest density and Generalist at basalis.
 
-[Chalcites ruficollis](Chalcites_ruficollis/page.en.md), [Chalcites lucidus](Chalcites_lucidus/page.en.md), [Chalcites basalis](Chalcites_basalis/page.en.md), [Chalcites meyerii](Chalcites_meyerii/page.en.md), [Chalcites megarhynchus](Chalcites_megarhynchus/page.en.md), [Chalcites osculans](Chalcites_osculans/page.en.md)
+Chalcites ruficollis, Chalcites lucidus, Chalcites basalis, Chalcites meyerii, Chalcites megarhynchus, Chalcites osculans
 
-## Evidence limits {#s-7810241116}
+## Limits attached to these records {#s-7810241116}
 Six historical guides do not complete eight immediate catalogue children. Older crosswalk names, spellings, single female or male birds, complete sets, independent mass and ecological codes retain their boundaries without brood parasitism, hosts, breeding, current maps.
 

@@ -1,18 +1,46 @@
-## Which fossil records this name represents {#s-8f05bd427f}
-Velociraptor mongoliensis is accepted in the fixed PBDB dinosaur working roster, with database parent Velociraptor. This guide uses 9 eligible species-level occurrence records from 8 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-8f05bd427f}
+Velociraptor mongoliensis is listed in the PBDB snapshot under taxon txn:54554. This archived guide contains 9 selected occurrence rows, linked to 8 distinct PBDB collection IDs and 6 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-9f5011e2b3}
-Collection Toogreeg Shire [PMPE] (Omnogov), region code MN, stratum name Djadokhta; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Collection Ukhaa Tolgod (AMNH) (Omnogov), region code MN, stratum name Djadokhta; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Collection Tögrögiin Shiree [AMNH] (Omnogov), region code MN, stratum name Djadokhta; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-9f5011e2b3}
+The archived guide contains 9 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-f8c22d7eff}
-Selected occurrences have an outer age envelope of 83.6–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:220090; PBDB collection col:22685. Locality cnm=Toogreeg Shire [PMPE]; place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Djadokhta. Recorded attribution Barsbold 1974; PBDB reference ref:63431.
 
-## Read preservation setting separately from living habitat {#s-a17aa8ffa4}
-Toogreeg Shire [PMPE] has collection-environment label dune; collection preservation-mode label body. Ukhaa Tolgod (AMNH) has collection-environment label eolian indet.; collection preservation-mode label body. Tögrögiin Shiree [AMNH] has collection-environment label eolian indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: time_unit, ETE age comment: . radiometric intage_min; several localities in the outcrop area with no specific stratigraphic information given
 
-## Follow collection records back to references {#s-1fd342aa25}
-Toogreeg Shire [PMPE] carries database reference attribution Barsbold (1974), identifier ref:63431. Ukhaa Tolgod (AMNH) carries database reference attribution Dashzeveg et al. (1995), identifier ref:5757. Tögrögiin Shiree [AMNH] carries database reference attribution Norell and Makovicky (1999), identifier ref:18147. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Toogreeg Shire, 50 km W of Bayn Dzak, Omnogov
 
-## Evidence limits {#s-e4340e620f}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:389058; PBDB collection col:37184. Locality cnm=Ukhaa Tolgod (AMNH); place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Djadokhta. Recorded attribution Dashzeveg et al. 1995; PBDB reference ref:5757.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Age is not well constrained for the Djadokhta Formation (Clark et al. 2001). "Fossil vertebrate sites occur in the uppermost 65 m of a section..." see Fig. 1b, Dashzeveg et al. (1995).
+
+Dashzeveg et al. 2005: The quick stratigraphic succession of normal and reversed magnetozones suggests, but does not clearly establish, that the sediments may have been deposited during the rapid sequence of polarity changes in the late part of the Campanian between about 75 to 71 Ma.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Ukhaa Tolgod "is in the Nemegt Basins of the southwestern Gobi desert, about 10 km northwest of the village of Davs and 3 km southeast of Gilbent mountain (Fig 1a). It comprises several low hills, cliffs and gullies extending for about 7 km along a broad wash. The main concentration of specimens occurs in an amphitheatre (4 sq km) that marks the upper reaches of the wash." (Dashzeveg et al. 1995) Lat long is for Nemegt Mountains.
+
+- Occurrence occ:594445; PBDB collection col:51033. Locality cnm=Tögrögiin Shiree [AMNH]; place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Djadokhta. Recorded attribution Norell and Makovicky 1999; PBDB reference ref:18147.
+
+## Age bounds on the recorded occurrences {#s-f8c22d7eff}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:220090; the smallest recorded lag=72.2 Ma in occ:220090. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-a17aa8ffa4}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:220090: PBDB taxon-name field tna=Velociraptor mongoliensis; material note ocm=GI SPS 100/25; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=103.333336, lat=44.250000; paleocoordinate/model fields pm1=gplates, pln=98.4, pla=39.15.
+- occ:389058: PBDB taxon-name field tna=Velociraptor mongoliensis; PBDB locality-coordinate fields lng=100.901947, lat=43.664444; paleocoordinate/model fields pm1=gplates, pln=96.43, pla=38.13.
+- occ:594445: PBDB taxon-name field tna=Velociraptor mongoliensis; material note ocm=IGM 100/985; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=103.266670, lat=44.216667; paleocoordinate/model fields pm1=gplates, pln=98.35, pla=39.1.
+
+## References attached to each record {#s-1fd342aa25}
+The archived guide links the rows to 6 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:220090: Recorded attribution Barsbold 1974; PBDB reference ref:63431.
+- occ:389058: Recorded attribution Dashzeveg et al. 1995; PBDB reference ref:5757.
+- occ:594445: Recorded attribution Norell and Makovicky 1999; PBDB reference ref:18147.
+
+## What these records can show {#s-e4340e620f}
+This is a guide to 9 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

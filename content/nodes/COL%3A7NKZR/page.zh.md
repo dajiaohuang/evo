@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-f301c4740a}
+## 记录分类与直接上级关系 {#s-f301c4740a}
+COL26.8 将 Semnornithidae 记录为科；其直接上级记录为 Piciformes。
+
 这里有两个 Semnornithidae 物种页面含测量记录：Semnornis frantzii 和 Semnornis ramphastinus。目录层级按固定 COL26.8 组织，生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-2362a83426}

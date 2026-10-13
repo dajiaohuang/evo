@@ -174,13 +174,20 @@ records:
       lifeHistory:
         status: partially-supported
         claims:
-          - text: For independent polar bears aged at least two years in a western Hudson Bay case study, an age-structured Jolly–Seber model with quadratic age-dependent survival estimated median survival above 0.95 for ages 7–22, followed by decline at older ages. The model estimated near-zero survival above age 30, but observed ages in the analyzed sample ranged from 2 to 30 years; estimates beyond that range are model results rather than direct observations.
+          - text:
+              page: en
+              section: hostetter-survival
+              part: body
             sourceIds:
               - hostetter2021
             locator: Methods, Case study; Results, Case study and Fig. 3; Abstract.
             placeTimeScope: Western Hudson Bay, Canada; 2012–2018; annual capture–recapture sampling in fall (August–September). The analyzed histories cover 296 independent bears and 427 capture events; observed ages ranged from 2 to 30 years.
             lifeStatus: Free-ranging individuals marked during helicopter surveys; the study analyzed independent females and males aged at least two years. No captive or domesticated bears are represented.
             originalLanguage: en
+            textZh:
+              page: zh
+              section: hostetter-survival
+              part: body
         gaps:
           - The authors describe the analyzed records as a subset and simplified model case study, not an estimate of the status of the entire western Hudson Bay subpopulation or a management assessment.
           - The model's older-age survival values beyond the observed age range are extrapolations; individual and temporal variation in several demographic processes was simplified.

@@ -1,4 +1,6 @@
-## 属内有哪些性状记录？ {#s-f9d10fb6dc}
+## 记录分类与直接上级关系 {#s-f9d10fb6dc}
+COL26.8 将 Homopus 记录为属；其直接上级记录为 Testudinidae。
+
 Homopus 在固定版 COL26.8 中归入 Testudinidae。本页关联的 ReptTraits v1-2 资料只有两条带逐性状来源的物种记录：Homopus areolatus 与 Homopus femoralis；工作簿保留 2023 年的名称框架。这两条记录提供了属内的阅读入口，不是该属完整的接受种名录。
 
 ## 两条背甲长度记录如何比较？ {#s-3215be1e05}

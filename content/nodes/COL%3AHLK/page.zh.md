@@ -1,4 +1,6 @@
-## 本地 PanTHERIA 记录 {#s-bd11ec3dd5}
+## 记录分类与直接上级关系 {#s-bd11ec3dd5}
+COL26.8 将 Tupaiidae 记录为科；其直接上级记录为 Scandentia。
+
 本批次有四条可用记录：Tupaia longipes、T. minor、T. montana 和 T. tana。页面保留历史 MSW05 名称、野外条件和缺项。固定版本 COL26.8 用于导航；历史行数不是当前物种总数。
 
 ## 成体体重端点 {#s-ac39ce3835}
@@ -14,7 +16,7 @@
 PanTHERIA、生活史和生态视图只覆盖达到各自批次证据与名称匹配阈值的记录，并非每个后代类群。端点是历史汇总值，野外条件也各不相同；路径计数不是当前物种分母。食物、权重和活动不能证明全科共有的性状。历史分类继承和来源定义仍然有效；当前分类概念、分布与保护状况需要其他证据。
 
 ## 其他 PanTHERIA 记录 {#s-22c86377a8}
-八个可用页面包括 [Dendrogale melanura](Dendrogale/Dendrogale_melanura/page.zh.md)、[D. murina](Dendrogale/Dendrogale_murina/page.zh.md)、[Anathana ellioti](Anathana/Anathana_ellioti/page.zh.md)、[Tupaia dorsalis](Tupaia/Tupaia_dorsalis/page.zh.md) 和 [T. gracilis](Tupaia/Tupaia_gracilis/page.zh.md)。每页保留 MSW05 名称、条件差异和缺失信息。
+八个可用页面包括 Dendrogale melanura、D. murina、Anathana ellioti、Tupaia dorsalis 和 T. gracilis。每页保留 MSW05 名称、条件差异和缺失信息。
 
 ## 其他体重端点 {#s-c87f859057}
 按性别调整后的可用中位数端点为 Dendrogale murina 的 49.99 g 和 Tupaia nicobarica 的 170.25 g。这些是汇编统计值，不是个体极值，也不代表整个后代类群的共同性状。
@@ -23,7 +25,7 @@ PanTHERIA、生活史和生态视图只覆盖达到各自批次证据与名称�
 此视图仅包括至少有一个重点字段、名称/科匹配且具有一对一历史对应关系的批次记录。它不覆盖所有后代类群；端点为汇总值，条件也有差异。当前分类概念、分布和保护状况需要其他证据。
 
 ## 三个生活史页面 {#s-531cb11d34}
-本批次有三条记录：[Tupaia montana](Tupaia/Tupaia_montana/page.zh.md)、[T. minor](Tupaia/Tupaia_minor/page.zh.md) 和 [T. tana](Tupaia/Tupaia_tana/page.zh.md)。这些链接只涵盖此处已编写的同名页面，不代表整个类群。
+本批次有三条记录：Tupaia montana、T. minor 和 T. tana。这些链接只涵盖此处已编写的同名页面，不代表整个类群。
 
 ## 时间字段与记录 {#s-63c4558178}
 一条记录列有妊娠期；没有记录列出雌性首次繁殖年龄或最大寿命。首次繁殖并非首次产仔或性成熟，最大寿命也不等于平均寿命。来源条件各异；缺失性状需要其他证据。

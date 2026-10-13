@@ -1,4 +1,6 @@
-## Species records with cited traits {#s-7d4b3507d9}
+## Recorded classification and direct parent {#s-7d4b3507d9}
+COL26.8 records Kinixys at genus rank, with Testudinidae as its direct parent.
+
 This catalogue links 6 species records for Kinixys with matching names, family placement and trait-level citations. Start with Kinixys belliana, Kinixys erosa, Kinixys homeana, Kinixys lobatsiana, Kinixys natalensis. Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
 
 ## Compare like measurements {#s-87a2a0eaa0}
@@ -12,7 +14,7 @@ The linked entries here include only records with at least four sourced focal tr
 The life-history route covers historical entries with matching names and family placement and at least three source-supported focal fields; it is not a complete descendant catalogue. Compilation medians, maximum-lifespan records and inherited historical taxonomy have limits. A genus-level route does not imply that all descendants share a reproductive mode or life history. These entries do not provide a complete biological account or current status assessment.
 
 ## Species records with cited traits {#s-cab80aa271}
-This catalogue links 2 species records for Kinixys with matching names, family placement and trait-level citations. Start with [Kinixys nogueyi](Kinixys_nogueyi/page.en.md), [Kinixys zombensis](Kinixys_zombensis/page.en.md). Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
+This catalogue links 2 species records for Kinixys with matching names, family placement and trait-level citations. Start with Kinixys nogueyi, Kinixys zombensis. Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
 
 ## Available trait comparisons {#s-56784d4b75}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.

@@ -1,5 +1,5 @@
-## Find rows through older Puffinus combinations {#s-6bbbb85c22}
-Pinned COL26.8 organizes this page at Ardenna gravis (D5KCG). BirdLife 2020 row 10086 and eBird 2021 row 932 share the name and Avibase ID AVIBASE-8B879DFA, with type 1BL to 1eBird; BirdTree row 934 gives Puffinus gravis, with type 1BL to 1BT. Catalogue synonym 4QFXQ, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-6bbbb85c22}
+Catalogue of Life release COL26.8 records Ardenna gravis (O'Reilly, 1818) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-7e14c23a64}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 36.3 mm, tarsus 58.1 mm, unflattened wing 317.8 mm, tail 112.8 mm and hand-wing index 61.9 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

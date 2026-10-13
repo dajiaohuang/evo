@@ -26,23 +26,65 @@
 2014 年研究用修改后的形态矩阵分析无序、等权性状，得到十八棵同等简约树及其严格共识，将 Ikrandraco 放在 Pteranodontoidea 内、Anhangueria 外但近缘的位置。这是基于该研究完整性状矩阵的结果，不能用单一下颌或头冠特征代替。下方 PBDB 父级路径属于另一套数据库分类，并非此系统发育分析的一部分。
 
 ## 对读下颌骨冠与大型比较头部 {#s-f32e98e05a}
-返回 [Ikrandraco 属](../page.zh.md)，区分 2014 年骨骼描述与 2020 年名称更正，再对读 [Tropeognathus 比较标本](../../../Pteranodontia/Ornithocheiroidea/Anhangueridae/Tropeognathinae/Tropeognathus/Tropeognathus_mesembrinus/page.zh.md) 的头部保存与功能假说。两者的头冠位置、保存完整度和鉴定背景不同；近缘或相似沉积环境不能把食谱、体型或行为相互移用。
+返回 Ikrandraco 属，区分 2014 年骨骼描述与 2020 年名称更正，再对读 Tropeognathus 比较标本 的头部保存与功能假说。两者的头冠位置、保存完整度和鉴定背景不同；近缘或相似沉积环境不能把食谱、体型或行为相互移用。
 
 ## 这个名称对应哪些化石记录 {#s-7e85bcf825}
 Paleobiology Database（PBDB）接受 Ikrandraco avatar，并将 Ikrandraco 列为记录中的父级。所选数据库材料包括来自 Lamadong 和 Sihedang 的两条种级出现记录，涉及两个采集地和一个引文编号。这些数量描述记录，不是标本或动物个体数量。
 
+PBDB 出现记录补充:
+Ikrandraco avatar 在 PBDB 快照中对应分类条目 txn:340925。这份存档导读包含 2 条选取的出现记录，关联 2 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## 从具名采集地和地层开始 {#s-a632b5465f}
 Lamadong, Jianchang 和 Sihedang, Lingyuan 均记录在中国 Liaoning（地区代码 CN），地层为 Jiufotang。两个采集地各自有 121.4–113.2 Ma 的 PBDB 年代范围，早端对应 Aptian。这两个地点是所选记录，不构成本种完整分布图。
+
+PBDB 出现记录补充:
+存档导读包含 2 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:1328956；PBDB 采集记录 col:105772。 地点字段 cnm=Lamadong, Jianchang；地点分区字段 cc2=CN，stp=Liaoning，cny=Jianchang。 记录年代界：eag 121.4 Ma; lag 113.2 Ma；PBDB 年代区间字段 oei=Aptian。 地层字段 sfm=Jiufotang。 记录署名 Wang et al. 2014；PBDB 引文编号 ref:59181。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+"part of, or laterally equivalent to, the Lower Cretaaceous Yixian Formation, but more data are needed to confirm this" (Hu et al. 2011)
+
+Li et al. (2014) state that "Recent fieldwork confirmed the outcrops of fossil beds exposed in Lamadong Village mainly belong to the Jiufotang Formation (X. L. Wang, personal commun.)".
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Lamadong town, Jianchang county
+
+- 出现记录 occ:1328957；PBDB 采集记录 col:135798。 地点字段 cnm=Sihedang, Lingyuan；地点分区字段 cc2=CN，stp=Liaoning。 记录年代界：eag 121.4 Ma; lag 113.2 Ma；PBDB 年代区间字段 oei=Aptian。 地层字段 sfm=Jiufotang。 记录署名 Wang et al. 2014；PBDB 引文编号 ref:59181。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+Sihedang beds of the third member of the Jiufotang Formation
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+near Liuligou, Sihedang Township, Lingyuan City, western Liaoning Province
 
 ## 这些记录的年代边界 {#s-9b03ec0ed2}
 所选记录共有的数据库年代范围为 121.4–113.2 Ma（Ma 表示百万年前）。宽区间不表示其中每段时间都有连续记录，不是两件标本的直接年龄，也不能确定本种起源或灭绝。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=121.4 Ma，见 occ:1328956；最小记录 lag=113.2 Ma，见 occ:1328956。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 保存环境与生活环境分开阅读 {#s-29848b1326}
 PBDB 将两个采集地的环境都标为 “lacustrine indet.”（湖泊环境，类型未定），保存方式都标为 “body, adpression, soft parts”（实体化石、压印保存、软组织）。这些采集层级标签不能确定本种栖地或食性，也不能描述每件化石的保存状态。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1328956：PBDB 原鉴定字段 idn=Ikrandraco avatar n. gen. n. sp.；PBDB 分类名称字段 tna=Ikrandraco avatar；材料说明字段 ocm=IVPP V18199；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=119.690002，lat=40.654999；古坐标／模型字段 pm1=gplates，pln=131.14，pla=39.52。
+- occ:1328957：PBDB 分类名称字段 tna=Ikrandraco avatar；材料说明字段 ocm=IVPP V18406；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=119.495834，lat=40.912777；古坐标／模型字段 pm1=gplates，pln=130.87，pla=39.74。
 
 ## 沿采集记录追到文献 {#s-5bfe8c60da}
 采集记录引用 Wang et al.（2014），数据库编号 ref:59181。2014 年形态描述和 2020 年名称更正也分别列为来源：前者描述化石，后者裁定名称可用性。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1328956：记录署名 Wang et al. 2014；PBDB 引文编号 ref:59181。
+- occ:1328957：记录署名 Wang et al. 2014；PBDB 引文编号 ref:59181。
+
 ## 资料边界 {#s-33a7b3b7b1}
 形态描述和名称更正提供的是选定材料与分析，不是逐件重述所有标本。掠水、角质覆盖、喉囊和气囊功能仍属假说。有一处图注写 IVPP V18046，而正文将归入标本标为 IVPP V18406；这里保留这项未解决的编号差异。数据库接受名、采集记录与宽年代范围按其自身来源呈现，与形态解释分开。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 2 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

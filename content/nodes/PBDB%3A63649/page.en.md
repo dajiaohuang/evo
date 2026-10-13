@@ -1,19 +1,47 @@
 ## Which fossil records this name represents {#s-11983e6e82}
 Haptosphenus placodon is accepted in the fixed PBDB squamata working roster, with database parent Haptosphenus. This guide uses 10 eligible species-level occurrence records from 10 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-e65b6833f3}
-Collection Bug Creek Anthills (Montana), region code US, stratum name Hell Creek; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection Lull 2 Quarry (UCMP V-5620) (Wyoming), region code US, stratum name Lance; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection Bushy Tailed Blowout (Wyoming), region code US, stratum name Lance; database age bracket 72.2–66 Ma, early interval Lancian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Haptosphenus placodon is listed in the PBDB snapshot under taxon txn:63649. This archived guide contains 10 selected occurrence rows, linked to 10 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-a0cb0bffb1}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Bug Creek Anthills, occurrence occ:149332 (72.2–66 Ma); one supplying the younger bound is Bug Creek Anthills, occurrence occ:149332 (72.2–66 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-e65b6833f3}
+The archived guide contains 10 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-b56caa46fe}
-Bug Creek Anthills has collection-environment label coarse channel fill; collection preservation-mode label body. Lull 2 Quarry (UCMP V-5620) has collection-environment label terrestrial indet.; collection preservation-mode label body. Bushy Tailed Blowout has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:149332; PBDB collection col:13142. Locality cnm=Bug Creek Anthills; place fields cc2=US, stp=Montana, cny=McCone County. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Hell Creek. Recorded attribution Estes et al. 1969; PBDB reference ref:4381.
 
-## Follow collection records back to references {#s-21cdbb821a}
-Bug Creek Anthills carries database reference attribution Estes et al. (1969), identifier ref:4381. Lull 2 Quarry (UCMP V-5620) carries database reference attribution Estes (1964), identifier ref:803. Bushy Tailed Blowout carries database reference attribution Estes (1964), identifier ref:803. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper 1/3 of formation, 80 ft below coal bed
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+NW 1/4 and SW 1/4, Sec. 9, T 22 N, R 43 E. Near Fort Peck Reservoir
+
+- Occurrence occ:464148; PBDB collection col:14585. Locality cnm=Lull 2 Quarry (UCMP V-5620); place fields cc2=US, stp=Wyoming, cny=Niobrara. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Lance. Recorded attribution Estes 1964; PBDB reference ref:803.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Lance Creek; *not* the same as Hatcher No. 2. In S side of small canyon near head of a tributary of Buck Creek, 1200 yds N70°E of benchmark N-100.
+
+- Occurrence occ:487828; PBDB collection col:14519. Locality cnm=Bushy Tailed Blowout; place fields cc2=US, stp=Wyoming, cny=Niobrara. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Lancian. Stratigraphic fields sfm=Lance. Recorded attribution Estes 1964; PBDB reference ref:803.
+
+## Age bounds on the recorded occurrences {#s-a0cb0bffb1}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:149332; the smallest recorded lag=66 Ma in occ:149332. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-b56caa46fe}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:149332: PBDB taxon-name field tna=Haptosphenus placodon; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-106.099998, lat=47.799999; paleocoordinate/model fields pm1=gplates, pln=-64.03, pla=58.34.
+- occ:464148: PBDB original-identification field idn=Haptosphenus placodon n. gen. n. sp.; PBDB taxon-name field tna=Haptosphenus placodon; material note ocm=UCMP 46035, 49946-49947, 49949-49950, 50031; abundance fields abv=6, abu=specimens; PBDB locality-coordinate fields lng=-104.637001, lat=43.116329; paleocoordinate/model fields pm1=gplates, pln=-66.02, pla=53.68.
+- occ:487828: PBDB taxon-name field tna=Haptosphenus placodon; material note ocm=UCMP 49844-49846, 54201, 54209; abundance fields abv=5, abu=specimens; PBDB locality-coordinate fields lng=-104.566704, lat=43.150002; paleocoordinate/model fields pm1=gplates, pln=-65.92, pla=53.69.
+
+## References attached to each record {#s-21cdbb821a}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:149332: Recorded attribution Estes et al. 1969; PBDB reference ref:4381.
+- occ:464148: Recorded attribution Estes 1964; PBDB reference ref:803.
+- occ:487828: Recorded attribution Estes 1964; PBDB reference ref:803.
 
 ## Evidence limits {#s-ba8a3c8931}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 1010-item squamata working roster, retain the current same name and a complete parent chain to the recorded Squamata storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 10 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

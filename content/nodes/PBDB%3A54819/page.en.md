@@ -1,18 +1,44 @@
-## Which fossil records this name represents {#s-06f7c60823}
-Pectinodon bakkeri is accepted in the fixed PBDB dinosaur working roster, with database parent Pectinodon. This guide uses 5 eligible species-level occurrence records from 5 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-06f7c60823}
+Pectinodon bakkeri is listed in the PBDB snapshot under taxon txn:54819. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-40709f53cc}
-Collection Mammal Quarry No. 2 (UCMP V-5815) (Wyoming), region code US, stratum name Lance; database age bracket 72.2–66 Ma, early interval Lancian. Collection Lull 2 Quarry (UCMP V-5620) (Wyoming), region code US, stratum name Lance; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection Altman Blowout (Wyoming), region code US, stratum name Lance; database age bracket 72.2–66 Ma, early interval Lancian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-40709f53cc}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-3ab4386d26}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:464433; PBDB collection col:14566. Locality cnm=Mammal Quarry No. 2 (UCMP V-5815); place fields cc2=US, stp=Wyoming, cny=Niobrara. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Lancian. Stratigraphic fields sfm=Lance. Recorded attribution Carpenter 1982; PBDB reference ref:12202.
 
-## Read preservation setting separately from living habitat {#s-9324147a00}
-Mammal Quarry No. 2 (UCMP V-5815) has collection-environment label terrestrial indet.; collection preservation-mode label body. Lull 2 Quarry (UCMP V-5620) has collection-environment label terrestrial indet.; collection preservation-mode label body. Altman Blowout has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+on W side of an erosional remnant near center of large blowout on crest of ridge, 150 yds N of road (from which point the Johnson Ranch is 0.4 mi. away). 200 yds N80°E of benchmark Q-100.
 
-## Follow collection records back to references {#s-dd2c4cab06}
-Mammal Quarry No. 2 (UCMP V-5815) carries database reference attribution Carpenter (1982), identifier ref:12202. Lull 2 Quarry (UCMP V-5620) carries database reference attribution Carpenter (1982), identifier ref:12202. Altman Blowout carries database reference attribution Larson and Currie (2013), identifier ref:48570. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:464498; PBDB collection col:14585. Locality cnm=Lull 2 Quarry (UCMP V-5620); place fields cc2=US, stp=Wyoming, cny=Niobrara. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Lance. Recorded attribution Carpenter 1982; PBDB reference ref:12202.
 
-## Evidence limits {#s-8e08502a78}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Lance Creek; *not* the same as Hatcher No. 2. In S side of small canyon near head of a tributary of Buck Creek, 1200 yds N70°E of benchmark N-100.
+
+- Occurrence occ:483646; PBDB collection col:14505. Locality cnm=Altman Blowout; place fields cc2=US, stp=Wyoming, cny=Niobrara. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Lancian. Stratigraphic fields sfm=Lance. Recorded attribution Larson and Currie 2013; PBDB reference ref:48570.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+from a single blowout
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Altman property, on the Lance Creek-Crazy Woman Creek divide, east of the Lance Creek-Hampshire road, 17.3 miles by road north of Lance Creek"; coordinate based on Lance Creek (not the town) - changed to coordinates from UCMP database
+
+## Age bounds on the recorded occurrences {#s-3ab4386d26}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:464433; the smallest recorded lag=66 Ma in occ:464433. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-9324147a00}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:464433: PBDB taxon-name field tna=Pectinodon bakkeri; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-104.494713, lat=43.128948; paleocoordinate/model fields pm1=gplates, pln=-65.85, pla=53.65.
+- occ:464498: PBDB taxon-name field tna=Pectinodon bakkeri; material note ocm=UCMP 125240-125247, 187059, 187063, 187065-9, 187073-6; abundance fields abv=19, abu=specimens; PBDB locality-coordinate fields lng=-104.637001, lat=43.116329; paleocoordinate/model fields pm1=gplates, pln=-66.02, pla=53.68.
+- occ:483646: PBDB taxon-name field tna=Pectinodon bakkeri; material note ocm=UCMP 186886, 214059; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-104.533333, lat=43.183334; paleocoordinate/model fields pm1=gplates, pln=-65.86, pla=53.71.
+
+## References attached to each record {#s-dd2c4cab06}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:464433: Recorded attribution Carpenter 1982; PBDB reference ref:12202.
+- occ:464498: Recorded attribution Carpenter 1982; PBDB reference ref:12202.
+- occ:483646: Recorded attribution Larson and Currie 2013; PBDB reference ref:48570.
+
+## What these records can show {#s-8e08502a78}
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

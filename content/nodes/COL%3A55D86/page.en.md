@@ -1,29 +1,29 @@
-## The name and this data account {#s-bbf2a957c8}
-In the pinned COL26.8 checklist, Tephrozosterops stalkeri is an accepted species in Zosteropidae. AVONET v7 records it under the HBW–BirdLife 2020 name. Two individuals were measured, and one had a complete set of morphological measurements, so the usable sample can differ from one trait to another.
+## Row-reported mean and sample coverage {#s-bbf2a957c8}
+The AVONET v7 row for Tephrozosterops stalkeri (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.8 mm. The row records 2 measured individuals, 1 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-f5a4dbe147}
-The recorded mean beak length, measured from the front edge of the nostril to the tip, is 9.8 mm. At the nostril edge, mean width is 3.8 mm and depth is 3.7 mm. These standardized measurements describe three dimensions; they are not identification thresholds.
+## Beak measurements at defined landmarks {#s-f5a4dbe147}
+AVONET records culmen length (bill tip to skull base) 15.3 mm; beak length (nostril front edge to tip) 9.8 mm; beak width at the nostril front edge 3.8 mm; beak depth at the nostril front edge 3.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-518f8e3032}
-Mean unflattened wing length, from the carpal joint to the longest primary feather, is 68 mm; mean tarsus length is 17 mm. The compiled mean mass is 17.74 g and is attributed to the Dunning source category. That mass estimate comes from separate species-average information, so it does not show that each bird measured for morphology was weighed.
+## Wing and body measures use separate sources {#s-518f8e3032}
+AVONET records unflattened wing length 68 mm; tarsus length 17 mm; distance from first secondary tip to longest primary tip 8.3 mm; length to first secondary tip 59.6 mm; hand-wing index 12.2; tail length 48 mm; species-average body mass 17.74 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-db073f2447}
-The dataset classifies the habitat as Forest, the feeding niche as Omnivore, and the lifestyle as Insessorial, its category for a perching way of life. These broad labels support comparisons across species; they do not mean the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-db073f2447}
+AVONET classifies Tephrozosterops stalkeri as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-2ddff4b0b7}
-The migration field labels the record sedentary. Historical breeding and resident maps extend from latitude -3.41° to -2.89°. They do not describe all non-breeding movements and are not a current location or a global occupancy estimate. The geographic summary and morphological measurements were compiled separately.
+## The migration label has a limited scope {#s-2ddff4b0b7}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -3.41° to -2.89°. The mapped range area is 3179 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## A separate historical record of diet and foraging {#s-a5dab25c20}
-EltonTraits 1.0 also has a historical record with this name and family. This page uses two ecological field groups from that record. Its taxonomy follows an earlier bird classification; for mammals, the dataset uses MSW3. A matching name does not settle later species splits or synonym disputes.
+## Scope of the historical trait entry {#s-a5dab25c20}
+EltonTraits 1.0 has a same-name, same-family record for Tephrozosterops stalkeri covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-17daafb3ea}
-The nonzero food-category weights are 40% for seeds, nuts and spores included in that category, 30% for invertebrates, and 30% for fruit. Source code A records the compilers’ high confidence in the source and diet information. The percentages standardize written descriptions; they are not measured proportions of food eaten, and a zero does not show that an item is never eaten. Archive labels such as Nect, Seed and PlantO cover more than their everyday names suggest, so they do not mean the diet consists only of nectar, seeds or plants.
+## Relative weights across food categories {#s-17daafb3ea}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 30%; fruit 30%; seeds or nuts 40%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-cad21a02b3}
-The archive marks these foraging-stratum weights as species-level: understory, edges or shrubs below 2 m, 40%; trees or tall bushes from 2 m upward but below the canopy, 40%; and in or just above the canopy, 20%. They estimate relative use of feeding positions, not nest sites, all habitat or time spent over a full day. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions. They are not elevation bands and cannot be used to estimate flight height or habitat area.
+## Foraging positions are not a time budget {#s-cad21a02b3}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 40%; in mid-height or high vegetation 40%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Source labels behind the ecological fields {#s-8034658d58}
-The field groups use source labels Ref_13 and Ref_41. Diet, foraging position and activity may come from different works, and the same Ref number in the bird and mammal tables does not identify the same source. The underlying books and papers have not been read individually; source labels are not additional independent observations.
+## Sources and field limits {#s-8034658d58}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Coates, B. J., K. David, and D. Gardner. 1997. A guide to the birds of Wallacea: Sulawesi, the Moluccas, and Lesser Sunda Islands, Indonesia. Dove Publications.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-210f2f8f6b}
 The AVONET values are a historical compilation. Morphological values are species averages for the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so the morphology sample counts do not apply to it. Habitat, diet and migration are broad categories; the geographic summary covers historical breeding and resident ranges only. Historical name crosswalks and the matching checklist name link the records but do not prove that their species concepts remained equivalent after later splits or lumps. Reproduction, current populations and conservation status are not covered here.

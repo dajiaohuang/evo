@@ -4,33 +4,30 @@
 ## 当前阅读路径 {#s-39a91c4c41}
 在当前工作区，Cryptodira 阅读路径可进入 Chelonioidea 及其两个科级导读。Dermochelyidae 已连接到 Dermochelys coriacea；Cheloniidae 已连接五属六个接受种，并附有范围有限的样本研究导读。这些是目前已整理的路径，并不覆盖 Cryptodira 的所有科和种；其余覆盖仍待补充。
 
-## 按生活史字段选择对读页面 {#s-9a83754374}
-Cryptodira 的本批路线包含 152 条历史生活史导读，可从 Carettochelys insculpta、Caretta caretta、Chelonia mydas、Eretmochelys imbricata、Lepidochelys kempii 开始。按声明的类群范围保留的字段包括 每窝幼体数或卵数（152 条）、产卵至孵化的时间（144 条）、成年体重（136 条）、汇编中最长寿命记录（135 条）。这些计数描述本批资料覆盖，不是完整接受种分母；应先看事件、单位与出处，再比较数值。
+## 如何比较生活史记录 {#s-9a83754374}
+Cryptodira 本批历史生活史路线包含 152 条资料。在声明的分类范围内，字段覆盖为：每窝幼体数或卵数 152 条、产卵至孵化时间 144 条、成年体重 136 条、汇编中最长寿命记录 135 条。这些是本批覆盖数，不是完整接受种分母；比较前应核对事件、单位和来源。可从 Carettochelys insculpta、Caretta caretta、Chelonia mydas、Eretmochelys imbricata 和 Lepidochelys kempii 入手。
 
-## 证据边界 {#s-723abc8cda}
-本页是固定目录版本的分类导读，不是亚目专论。本地阅读路径尚不完整，研究深度也不均一。页面不从化石数据库推断现生状态，不声称已列尽 COL 后代，也不提供分布、种群或保护评估。
-本路线包含原始筛选后写入的同名同科历史条目；部分在撤下字段范围疑点后低于原焦点字段门槛，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+## 历史生活史样本的边界 {#s-723abc8cda}
+这是选录的历史样本，不是 COL26.8 后代普查。资料包括初次筛选后编入的同名同科条目；部分字段因分类范围疑点而撤下后，条目低于原焦点字段门槛。数值仍沿用原研究的名称、取样和字段定义。群级路径不表示所有后代共享同一繁殖方式或生活史；部分字段不能作为 Cryptodira 的确定事件解读。
 
-本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
+## 另一条 ReptTraits 性状对读路径 {#s-139f9bdf3f}
+ReptTraits v1-2 提供另一条逐性状有出处的 Cryptodira 路径，包含 192 条同名同科资料。可从 Aldabrachelys gigantea、Amyda cartilaginea、Apalone ferox、Apalone mutica 和 Apalone spinifera 入手。分类导航沿用固定 COL26.8，工作簿保留其 2023 年名称框架；192 是路径条目数，不是完整接受种总数。
 
-## 从有性状记录的物种开始 {#s-139f9bdf3f}
-Cryptodira 的本批 ReptTraits 阅读路径包含 192 条同名同科、有逐性状出处的物种资料，可从 Aldabrachelys gigantea、Amyda cartilaginea、Apalone ferox、Apalone mutica、Apalone spinifera 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 两个物种的已报道尺寸记录 {#s-d3bcc3d507}
+选录记录中，Apalone spinifera 的最大直线背甲长（SCL）为 54 mm，Dermochelys coriacea 为 2700 mm。它们来自不同物种，不是种内变异范围。比较前应核对各自的字段定义和来源。
 
-## 比较前先看测量定义 {#s-d3bcc3d507}
-本批已有尺寸记录中，Apalone spinifera 的已报道最大直线背甲长（SCL）为 54 mm，Dermochelys coriacea 为 2700 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。
+## 选录性状资料的边界 {#s-32ed7715c8}
+本路线收录有焦点性状来源且名称、科级位置与 COL 相符的选录条目，并非完整后代名录。汇编最大值不是个体平均或鉴定阈值；背甲长与吻肛长是不同测量。历史一行式资料也无法解决所有分类修订或种群差异。
 
-## 这组性状资料的边界 {#s-32ed7715c8}
-本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
+## 引用范围不明确的性状字段 {#s-b0e13205a4}
+这条 ReptTraits 路径中，28 个已编录物种资料的部分字段引用范围尚未明确。这些字段不用于确定的性状陈述；物种页保留字段名和引用标签。28 计的是带范围疑点的资料条目，不是未完成页面数。
 
-## 部分后代条目的引用缺口 {#s-b0e13205a4}
-这条 ReptTraits 阅读路径中有 28 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
+## 另一组 ReptTraits 物种页 {#s-24462ec90f}
+有限的 ReptTraits 路径包含 64 条同名同科且逐性状有出处的 Cryptodira 资料，阅读目标包括 Actinemys pallida、Amyda ornata、Batagur affinis、Batagur dhongoka 和 Batagur trivittata。工作簿保留其 2023 年名称框架，分类导航沿用固定 COL26.8；该数量不是完整接受种数。
 
-## 从有性状记录的物种开始 {#s-24462ec90f}
-Cryptodira 的本批 ReptTraits 阅读路径包含 64 条同名同科、有逐性状出处的物种资料，可从 [Actinemys pallida](Testudinoidea/Emydidae/Actinemys/Actinemys_pallida/page.zh.md)、[Amyda ornata](Trionychoidea/Trionychidae/Amyda/Amyda_ornata/page.zh.md)、[Batagur affinis](Testudinoidea/Geoemydidae/Batagur/Batagur_affinis/page.zh.md)、[Batagur dhongoka](Testudinoidea/Geoemydidae/Batagur/Batagur_dhongoka/page.zh.md)、[Batagur trivittata](Testudinoidea/Geoemydidae/Batagur/Batagur_trivittata/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 这条路径中的已报道尺寸记录 {#s-701459563c}
+选录记录包括 Chersobius boulengeri 的最大直线背甲长（SCL）100 mm，以及 Chitra vandijki 的 1000 mm。它们来自不同物种，不是曲颈龟类个体的最小与最大值。每个数值都应与测量定义和来源一起阅读。
 
-## 比较前先看测量定义 {#s-701459563c}
-本批已有尺寸记录中，Chersobius boulengeri 的已报道最大直线背甲长（SCL）为 100 mm，Chitra vandijki 为 1000 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。
-
-## 这组性状资料的边界 {#s-44cb97308e}
-本导读只概括本批至少一个焦点性状有逐字段出处、仅按可用字段介绍且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
+## 有限 ReptTraits 路径的边界 {#s-44cb97308e}
+本路线仅概括有焦点性状来源且名称、科级位置与 COL 相符的选录条目，不是完整后代名录。已报道最大尺寸不是个体平均或鉴定阈值；龟类背甲长不能与其他类群的吻肛长互换。历史一行式资料仍有分类与种群范围限制。
 

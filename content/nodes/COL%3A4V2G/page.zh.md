@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-707d46d9b1}
+## 记录分类与直接上级关系 {#s-707d46d9b1}
+COL26.8 将 Hemicircus 记录为属；其直接上级记录为 Picumninae。
+
 固定 COL26.8 层级下的 Hemicircus 路径收录了 1 条有测量来源的物种记录。可先从 Hemicircus canente 读起；生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-3e978381f7}

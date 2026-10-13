@@ -1,18 +1,47 @@
-## Which fossil records this name represents {#s-080189f966}
-Gobihadros mongoliensis is accepted in the fixed PBDB dinosaur working roster, with database parent Gobihadros. This guide uses 6 eligible species-level occurrence records from 6 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-080189f966}
+Gobihadros mongoliensis is listed in the PBDB snapshot under taxon txn:385122. This archived guide contains 6 selected occurrence rows, linked to 6 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-a556c3b8bc}
-Collection Bayshin Tsav I (HMNS-GIN) (Omnogov), region code MN, stratum name Baynshire; database age bracket 93.9–83.6 Ma, early interval Late Turonian and late interval Late Santonian. Collection Bayshin Tsav V [HMNS-GIN] (Omnogov), region code MN, stratum name Baynshire; database age bracket 93.9–83.6 Ma, early interval Late Turonian and late interval Late Santonian. Collection Khoolai Tsav [HMNS-GIN] (Omnogov), region code MN, stratum name Baynshire; database age bracket 100.5–83.6 Ma, early interval Cenomanian and late interval Santonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-a556c3b8bc}
+The archived guide contains 6 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-8bd5e632ab}
-Selected occurrences have an outer age envelope of 100.5–83.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1269314; PBDB collection col:168800. Locality cnm=Khoolai Tsav [HMNS-GIN]; place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 100.5 Ma; lag 83.6 Ma; PBDB interval fields oei=Cenomanian, oli=Santonian. Stratigraphic fields sfm=Baynshire. Recorded attribution Tsogtbaatar et al. 2019; PBDB reference ref:68688.
 
-## Read preservation setting separately from living habitat {#s-3fac0203e6}
-Bayshin Tsav I (HMNS-GIN) has collection-environment label fine channel fill; collection preservation-mode label body. Bayshin Tsav V [HMNS-GIN] has collection-environment label fine channel fill; collection preservation-mode label body. Khoolai Tsav [HMNS-GIN] has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Khoolai Tsav (= Khoorai Tsav, Khuurai Tsav), 3 km SW of Bayshin Tsav. 43-29-17 N, 107-43-48 E
 
-## Follow collection records back to references {#s-0287ef7b44}
-Bayshin Tsav I (HMNS-GIN) carries database reference attribution Tsogtbaatar et al. (2019), identifier ref:68688. Bayshin Tsav V [HMNS-GIN] carries database reference attribution Tsogtbaatar et al. (2019), identifier ref:68688. Khoolai Tsav [HMNS-GIN] carries database reference attribution Tsogtbaatar et al. (2019), identifier ref:68688. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1093937; PBDB collection col:137858. Locality cnm=Bayshin Tsav I (HMNS-GIN); place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 93.9 Ma; lag 83.6 Ma; PBDB interval fields oei=Late Turonian, oli=Late Santonian. Stratigraphic fields sfm=Baynshire. Recorded attribution Tsogtbaatar et al. 2019; PBDB reference ref:68688.
 
-## Evidence limits {#s-1bf6979c1b}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Baynshire Suite = Bayn Shire = Baynshiree. Cenomanian to Santonian date is based upon palaeomagnetic analyses (see Watabe et al. 2009)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+At BTs-I, at a cliff facing to the south and extending with E-W trend
+
+- Occurrence occ:1093941; PBDB collection col:137859. Locality cnm=Bayshin Tsav V [HMNS-GIN]; place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 93.9 Ma; lag 83.6 Ma; PBDB interval fields oei=Late Turonian, oli=Late Santonian. Stratigraphic fields sfm=Baynshire. Recorded attribution Tsogtbaatar et al. 2019; PBDB reference ref:68688.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Baynshire Suite = Bayn Shire = Baynshiree. Cenomanian to Santonian date is based upon palaeomagnetic analyses (see Watabe et al. 2009)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+SE side of Bayshin Tsav outcrops
+
+## Age bounds on the recorded occurrences {#s-8bd5e632ab}
+Across these selected PBDB rows, the largest recorded eag=100.5 Ma in occ:1269314; the smallest recorded lag=83.6 Ma in occ:1093937. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-3fac0203e6}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1269314: PBDB taxon-name field tna=Gobihadros mongoliensis; material note ocm=040807 KLT CHZ, 040808 KLT BD, "derived"; abundance fields abv=3, abu=individuals; PBDB locality-coordinate fields lng=107.730003, lat=43.488056; paleocoordinate/model fields pm1=gplates, pln=112.16, pla=41.32.
+- occ:1093937: PBDB original-identification field idn=Gobihadros mongoliensis n. gen. n. sp.; PBDB taxon-name field tna=Gobihadros mongoliensis; material note ocm=one hadrosaur skeleton; 940625 BTs I, 940628 BTs-I, 950730 BTs-I PJ-1, 2, 010725/010726 BTs-I, 930818 BTs-I; abundance fields abv=20, abu=individuals; PBDB locality-coordinate fields lng=107.762497, lat=43.504166; paleocoordinate/model fields pm1=gplates, pln=112.18, pla=41.34.
+- occ:1093941: PBDB taxon-name field tna=Gobihadros mongoliensis; material note ocm=articuated hadrosaur caudal vertebrae; 010724 BTs-V; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=107.779167, lat=43.483334; paleocoordinate/model fields pm1=gplates, pln=112.2, pla=41.32.
+
+## References attached to each record {#s-0287ef7b44}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1269314: Recorded attribution Tsogtbaatar et al. 2019; PBDB reference ref:68688.
+- occ:1093937: Recorded attribution Tsogtbaatar et al. 2019; PBDB reference ref:68688.
+- occ:1093941: Recorded attribution Tsogtbaatar et al. 2019; PBDB reference ref:68688.
+
+## What these records can show {#s-1bf6979c1b}
+This is a guide to 6 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## Choose comparison pages by life-history fields {#s-3b25fe4b3d}
+## Recorded classification and direct parent {#s-3b25fe4b3d}
+COL26.8 records Lama at genus rank, with Lamini as its direct parent.
+
 This batch’s Lama route includes 1 historical life-history account: Lama glama. In this entry, adult body mass, female age at first conception, litter or clutch size, and time from conception or fertilization to birth each appear in 1 record. These counts describe the material in this batch, not the number of accepted species in the genus. Check a field’s event, unit, and source before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-154f3915bd}

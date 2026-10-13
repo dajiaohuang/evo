@@ -1,5 +1,5 @@
-## Find rows through older Phalacrocorax combinations {#s-0e22f5e7e0}
-Pinned COL26.8 organizes this page at Leucocarbo colensoi (725KH). BirdLife 2020 row 10930 and eBird 2021 row 5558 share the name and Avibase ID AVIBASE-3B5B61A0, with type 1BL to 1eBird; BirdTree row 5531 gives Phalacrocorax colensoi, with type 1BL to 1BT. Catalogue synonym 4FQQF, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-0e22f5e7e0}
+Catalogue of Life release COL26.8 records Leucocarbo colensoi (Buller, 1888) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-e81658b7df}
 Morphology comprises 4 birds: 3 female, 1 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 43.5 mm, tarsus 60.8 mm, unflattened wing 273.5 mm, tail 124.2 mm and hand-wing index 36 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

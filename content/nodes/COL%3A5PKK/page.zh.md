@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-52afe07a81}
+## 记录分类与直接上级关系 {#s-52afe07a81}
+COL26.8 将 Mesembrinibis 记录为属；其直接上级记录为 Threskiornithidae。
+
 本批 Mesembrinibis 的 AVONET 路线包含 1 条有测量来源的物种记录：Mesembrinibis cayennensis。固定 COL26.8 将其归在本属下，AVONET 则保留该记录的历史名称与取样范围。
 
 ## 记录之间有什么差别 {#s-637be76ee5}

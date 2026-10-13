@@ -1,5 +1,5 @@
-## Find historical rows through older Serinus combinations {#s-f99a14b53c}
-Pinned COL26.8 organizes this page at Crithagra scotops (ZJF5). BirdLife 2020 row 4039 and eBird 2021 row 2933 share the name and Avibase ID AVIBASE-994D87C2, with type 1BL to 1eBird; BirdTree row 2917 gives Serinus scotops, with type 1BL to 1BT. Read catalogue synonym 4WV7Q points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-f99a14b53c}
+Catalogue of Life release COL26.8 records Crithagra scotops Sundevall, 1850 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-5343981658}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 8.2 mm, tarsus 16 mm, unflattened wing 69 mm, tail 54.4 mm and hand-wing index 20.6 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

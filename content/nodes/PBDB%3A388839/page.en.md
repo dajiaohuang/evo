@@ -1,19 +1,36 @@
 ## Which fossil records this name represents {#s-6f79312510}
 Remigiomontanus robustus is accepted in the fixed PBDB other-synapsida working roster, with database parent Remigiomontanus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-d352f515a2}
-Collection Remigiusberg Quarry (Rhineland-Palatinate), region code DE, stratum name Remigiusberg; database age bracket 303.7–293.52 Ma, early interval Gzhelian and late interval Asselian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Remigiomontanus robustus is listed in the PBDB snapshot under taxon txn:388839. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-7838c4856b}
-Selected occurrences have an outer age envelope of 303.7–293.52 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Remigiusberg Quarry, occurrence occ:1475024 (303.7–293.52 Ma); one supplying the younger bound is Remigiusberg Quarry, occurrence occ:1475024 (303.7–293.52 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-d352f515a2}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-ce5ca81ef6}
-Remigiusberg Quarry has collection-environment label lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1475024; PBDB collection col:109702. Locality cnm=Remigiusberg Quarry; place fields cc2=DE, stp=Rhineland-Palatinate, cny=Kusel. Recorded age bounds: eag 303.7 Ma; lag 293.52 Ma; PBDB interval fields oei=Gzhelian, oli=Asselian. Stratigraphic fields sfm=Remigiusberg, sls=quarry profile, slb=26, slo=bottom to top. Recorded attribution Spindler et al. 2019; PBDB reference ref:69357.
 
-## Follow collection records back to references {#s-a8d674cc9e}
-Remigiusberg Quarry carries database reference attribution Spindler et al. (2019), identifier ref:69357. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"The Remigiusberg quarry belongs to the continental Carboniferous–Permian Lorraine–Saar–Nahe Basin, which is one of the largest intramontane basins of the European Variscides (Schäfer, 1986)." [...] "Radioisotopic dates from volcanic tuff beds of the Remigiusberg and immediately overlying Altenglan formations suggest that the sediments exposed at the Remigiusberg quarry cover the Carboniferous–Permian boundary with a minimum age of 298.7 ± 0.4 Ma" Werneburg et al. (2024)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+UGKU L-71, Remigiusberg-Rammelskopf quarry at the northeastern rim of the Remigiusberg (387631 E, 5487527 N, UTM 32U, WGS 84), about 1 km northeast of Haschbach, Kusel county, western Rhineland–Palatinate, Saar-Nahe Basin, Germany (Voigt et al. 2014: fig. 1). The Remigiusberg quarry is a large, active, open-cast mine, producing subvolcanic rock for the production of road and railroad gravel.
+
+## Age bounds on the recorded occurrences {#s-7838c4856b}
+Across these selected PBDB rows, the largest recorded eag=303.7 Ma in occ:1475024; the smallest recorded lag=293.52 Ma in occ:1475024. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-ce5ca81ef6}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1475024: PBDB original-identification field idn=Remigiomontanus robustus n. gen. n. sp.; PBDB taxon-name field tna=Remigiomontanus robustus; material note ocm=Holotype—UGKU 1997, largely complete trunk skeleton, caudal fragments, and a few phalanges, associated with freshwater shark coprolites and teeth. Referred specimens (same horizon as holotype, but some 150 m away from it)—UGKU 2546 and 2551, dorsal spine fragments; UGKU 2552, dorsal rib.; PBDB locality-coordinate fields lng=7.434722, lat=49.924442; paleocoordinate/model fields pm1=gplates, pln=19.03, pla=4.57.
+
+## References attached to each record {#s-a8d674cc9e}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1475024: Recorded attribution Spindler et al. 2019; PBDB reference ref:69357.
 
 ## Evidence limits {#s-aab80afa6e}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 827-item other-synapsida working roster, retain the current same name and a complete parent chain to the recorded Synapsida storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

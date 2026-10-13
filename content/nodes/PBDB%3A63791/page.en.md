@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-5ae4a12bc7}
-Spinostropheus gautieri is accepted in the fixed PBDB dinosaur working roster, with database parent Spinostropheus. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 2 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-5ae4a12bc7}
+Spinostropheus gautieri is listed in the PBDB snapshot under taxon txn:63791. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-138137d6f6}
-Collection In Abangarit-Tamesna (Agadez), region code NE, stratum name Echkar; database age bracket 106.3–93.9 Ma, early interval Late Albian and late interval Early Cenomanian. Collection Oued Timmersöi, west of In Tedreft (Agadez), region code NE; database age bracket 143.1–121.4 Ma, early interval Early Berriasian and late interval Late Barremian. Collection Fako (lower) (Agadez), region code NE, stratum name Tiourarén; database age bracket 161.5–143.1 Ma, early interval Late Jurassic. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-138137d6f6}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-14da1042d4}
-Selected occurrences have an outer age envelope of 161.5–93.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:260836; PBDB collection col:25221. Locality cnm=In Abangarit-Tamesna; place fields cc2=NE, stp=Agadez. Recorded age bounds: eag 106.3 Ma; lag 93.9 Ma; PBDB interval fields oei=Late Albian, oli=Early Cenomanian. Stratigraphic fields sfm=Echkar. Recorded attribution Lapparent 1960; PBDB reference ref:7056.
 
-## Read preservation setting separately from living habitat {#s-634b834533}
-In Abangarit-Tamesna has collection-environment label deltaic indet.; collection preservation-mode label body. Oued Timmersöi, west of In Tedreft has collection-environment label terrestrial indet.; collection preservation-mode label body. Fako (lower) has collection-environment label levee; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"upper part of the Continental Intercalaire, a little below the Cenomanian-Turonian" limestone
 
-## Follow collection records back to references {#s-06bab32ae8}
-In Abangarit-Tamesna carries database reference attribution Lapparent (1960), identifier ref:7056. Oued Timmersöi, west of In Tedreft carries database reference attribution Lapparent (1960), identifier ref:7056. Fako (lower) carries database reference attribution Sereno et al. (2004), identifier ref:16632. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+area W of In Abangarit (= Iguidi), in the S part of the Tamesna region
 
-## Evidence limits {#s-08d98d5243}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:260899; PBDB collection col:25226. Locality cnm=Oued Timmersöi, west of In Tedreft; place fields cc2=NE, stp=Agadez. Recorded age bounds: eag 143.1 Ma; lag 121.4 Ma; PBDB interval fields oei=Early Berriasian, oli=Late Barremian. Recorded attribution Lapparent 1960; PBDB reference ref:7056.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"lower part of the 'Continental Intercalaire'"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+15 km W of Tedreft well, on the eastern side of the Oued (Wadi) Timmersöi (= Ti-m-Meghsoi)
+
+- Occurrence occ:1606766; PBDB collection col:59643. Locality cnm=Fako (lower); place fields cc2=NE, stp=Agadez. Recorded age bounds: eag 161.5 Ma; lag 143.1 Ma; PBDB interval fields oei=Late Jurassic. Stratigraphic fields sfm=Tiourarén. Recorded attribution Sereno et al. 2004; PBDB reference ref:16632.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Previously considered Bathonian–Callovian, but theropod remains suggest a Late Jurassic age for the fossiliferous horizons of the Tacuarembó Formation (see Serrano-Martínez et al. 2015 and Soto et al. 2020).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Fako, ESE of In Gall
+
+## Age bounds on the recorded occurrences {#s-14da1042d4}
+Across these selected PBDB rows, the largest recorded eag=161.5 Ma in occ:1606766; the smallest recorded lag=93.9 Ma in occ:260836. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-634b834533}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:260836: PBDB original-identification field idn=Elaphrosaurus gautieri; PBDB taxon-name field tna=Spinostropheus gautieri; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=5.797784, lat=17.708801; paleocoordinate/model fields pm1=gplates, pln=11.14, pla=10.42.
+- occ:260899: PBDB original-identification field idn=Elaphrosaurus gautieri n. sp.; PBDB taxon-name field tna=Spinostropheus gautieri; abundance fields abv=2, abu=individuals; PBDB locality-coordinate fields lng=6.381111, lat=19.317499; paleocoordinate/model fields pm1=gplates, pln=13.35, pla=2.5.
+- occ:1606766: PBDB taxon-name field tna=Spinostropheus gautieri; material note ocm=MNN TIG6; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=7.309167, lat=16.632500; paleocoordinate/model fields pm1=gplates, pln=11.64, pla=-1.52.
+
+## References attached to each record {#s-06bab32ae8}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:260836: Recorded attribution Lapparent 1960; PBDB reference ref:7056.
+- occ:260899: Recorded attribution Lapparent 1960; PBDB reference ref:7056.
+- occ:1606766: Recorded attribution Sereno et al. 2004; PBDB reference ref:16632.
+
+## What these records can show {#s-08d98d5243}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

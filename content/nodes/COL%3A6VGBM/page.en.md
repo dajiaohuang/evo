@@ -1,15 +1,15 @@
-## The accepted name and cited row {#s-9c09a2bcee}
-COL26.8 accepts Phyllodactylus gerrhopygus in Phyllodactylidae. The ReptTraits v1-2 row follows the workbook’s Reptile Database 2023 name framework and cites traits individually. One row gathers reports; it cannot stand for every population.
+## COL26.8 name and the ReptTraits row {#s-9c09a2bcee}
+COL26.8 records Phyllodactylus gerrhopygus as an accepted species. The ReptTraits v1-2 row gives its Family field as Phyllodactylidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The 56 mm measure excludes the tail {#s-4a73e586fd}
-The reported maximum snout–vent length (SVL) is 56 mm, and the female maximum is 42.7 mm. SVL ends at the vent, not the tail. These compiled maxima do not show typical size or a growth ceiling. The sex-specific records may come from different places or studies, so their difference alone does not quantify dimorphism within a population.
+## Length values in the archived records {#s-4a73e586fd}
+The row reports a maximum SVL of 56 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 42.7 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Ground habitat, carnivory and day–night activity {#s-68f2c25580}
-The row records terrestrial microhabitat, a carnivorous diet and cathemeral activity, meaning activity can occur by day and by night. It does not name prey or give a schedule. These broad categories do not cover every locality, season or life stage.
+## Habitat use and activity labels {#s-68f2c25580}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as active across day and night (Cathemeral); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## A 1.5 clutch summary, bounded by reported means {#s-a7fd036409}
-The source labels the mode oviparous, or egg-laying. Its consolidated offspring/egg value is 1.5, with the lowest and highest reported means of 1 and 2. A fractional summary can be a midpoint of reported means or, when those are absent, of reported extremes; it is not a clutch containing half an egg or necessarily an average of observed clutches. The endpoints are not guaranteed individual extremes, and these labels do not establish embryo nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-a7fd036409}
+The compiled mean for offspring per litter or eggs per clutch is 1.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## A summary is not a population survey {#s-af07e676eb}
-This page paraphrases a same-name ReptTraits v1-2 row under its 2023 naming framework. The row compresses differences in sex, age, locality and population; name and family do not prove equivalence with later concepts. The maximum length and clutch statistic are compiled reports, not species-wide limits or fixed outcomes. This page does not update conservation, venom, current range or population trends, and its citations do not mean every original source was independently reread here.
+## Reading this compiled trait record {#s-af07e676eb}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

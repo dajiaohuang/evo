@@ -1,4 +1,6 @@
-## Local data reading route {#s-2a5fbbd4b3}
+## Recorded classification and direct parent {#s-2a5fbbd4b3}
+COL26.8 records Pseudelaenia at genus rank, with Tyrannidae as its direct parent.
+
 This batch’s Pseudelaenia route includes 1 measured species records. Start with Pseudelaenia leucospodia. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-91d15111c9}
@@ -7,7 +9,7 @@ Compiled mean mass endpoints in this batch are Pseudelaenia leucospodia at 11.9 
 ## Compare food, feeding positions and activity periods {#s-fa9956845e}
 This batch’s Pseudelaenia route includes 1 historical entries; start with Pseudelaenia leucospodia. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-cbfc36d71b}
+## Limits attached to these records {#s-cbfc36d71b}
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 

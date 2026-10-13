@@ -1,4 +1,6 @@
-## A route through measured records {#s-331fbb13d0}
+## Recorded classification and direct parent {#s-331fbb13d0}
+COL26.8 records Zosterops at genus rank, with Zosteropidae as its direct parent.
+
 The measured-data collection presents 36 species records. Start with Zosterops albogularis, Zosterops atricapilla, Zosterops atriceps, Zosterops atrifrons, and Zosterops buruensis. The hierarchy follows the pinned COL26.8 classification; biological values retain AVONET v7 historical names and sampling scope. These records are a selection, not a complete list of accepted descendants.
 
 ## Compare the measured records {#s-e74822ab2b}
@@ -22,8 +24,8 @@ The EltonTraits routes select unique historical entries with same-name and same-
 
 The two one-to-one, same-name historical crosswalks do not establish that species concepts remained equivalent after later splits or synonymies. Coarse categories are not independent behavioral observations, and historical maps are not current occupancy or conservation assessments. Morphological inferences and mass sources retain their original provenance; this guide does not treat them as direct measurements of every species.
 
-## Start with the limited ecology accounts {#s-f2347b8eb1}
-Nineteen historical ecology accounts are linked under Zosterops. Begin with [Zosterops anomalus](Zosterops_anomalus/page.en.md), [Zosterops finschii](Zosterops_finschii/page.en.md), [Zosterops flavus](Zosterops_flavus/page.en.md), [Zosterops gibbsi](Zosterops_gibbsi/page.en.md), or [Zosterops grayi](Zosterops_grayi/page.en.md). Their placement follows pinned COL26.8 navigation; the count is not the total number of accepted species.
+## Recorded classification and member material {#s-f2347b8eb1}
+Nineteen historical ecology accounts are linked under Zosterops. Begin with Zosterops anomalus, Zosterops finschii, Zosterops flavus, Zosterops gibbsi, or Zosterops grayi. Their placement follows pinned COL26.8 navigation; the count is not the total number of accepted species.
 
 ## What these records do and do not show {#s-5053bf26a1}
 The accounts report habitat categories in 18 records, trophic niches in 19, primary lifestyle in 19, and migration in 19. Check each source definition: shared labels are categories, not independent behavior observations or proof of one lifestyle across the genus. Historical maps also have a different scope from current range data. Beak, wing, tarsus, tail, and mass fields have not been interpreted here as a body-size comparison for the genus.

@@ -13,7 +13,9 @@ Cat Ba 基因组研究给 poliocephalus 新增四个野生个体序列，并复�
 ## 概览 {#s-b69dfd9d5f}
 本阅读路径连接不同证据类型，而非覆盖属内全部物种。先读越南 Van Long 德拉库尔叶猴的饮食、广西 Fusui 白头叶猴的栖地与家域、吉婆岛叶猴的喀斯特坡面使用、西阿萨姆金叶猴的样线调查，以及西苏门答腊一群巽他银叶猴的季节食谱。随后比较银叶猴群的线粒体研究：*T. auratus*、*T. germaini*、*T. margarita* 与 *T. mauritius* 被列为五个谱系中的成员；同一研究把马来半岛群体命名为亚种 *T. cristatus selangorensis*，而 COL26.8 在此采用接受种 *T. selangorensis*。再把 *T. barbei* 的单只动物园标本描述，与 *T. phayrei* 的馆藏线粒体分析和 *T. popa* 的模式标本描述并读，并将论文的分类提案与固定目录身份分开。最后读无量山 *T. crepusculus* 的林层使用和阿萨姆 2019–2020 年 *T. pileatus* 林斑占域调查。地点、样本、年份和方法都不同，不能拼接成属级生态通则或完整系统树。 最后比较四项局地研究：老挝 *T. laotum* 的保护区样线记录、马来西亚 *T. obscurus* 的摄食样本、越南 *T. hatinhensis* 的粪便条形码饮食，以及云南 *T. shortridgei* 的访谈和野外调查。再读 *T. ebenus* 的名称史与稀少记录，以及 依据原始组合与正模标本对照阅读 COL26.8 *T. melamerus* 和 MDD *T. melamera*。不同地点、时期、样本单位与名称处理不能拼成属级分布、种群现状或统一食性规律。
 
-## 按生活史字段选择对读页面 {#s-1562ca4edd}
+## 记录分类与直接上级关系 {#s-1562ca4edd}
+COL26.8 将 Trachypithecus Reichenbach, 1862 记录为属；其直接上级记录为 Presbytini Gray, 1825。
+
 Trachypithecus 的本批路线包含 12 条历史生活史导读，可从 Trachypithecus barbei、Trachypithecus cristatus、Trachypithecus delacouri、Trachypithecus ebenus、Trachypithecus francoisi 开始。较多条目具有的字段包括 成年体重（12 条）、汇编中最长寿命记录（12 条）、雌性成熟字段（源定义为首次受孕年龄）（11 条）、转而依靠非母乳食物的年龄（11 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-cfe6afb0ca}
@@ -26,7 +28,7 @@ Trachypithecus 的本批路线包含 15 个历史条目，可从 Trachypithecus 
 新增段落据 2024 年论文摘要、采样／系统关系／多样性与 ROH／选择及非同义变异结果、北部系统关系、高钙及潜在咸水适应讨论，和采样、比对、系统／基因流、ROH、选择扫描方法选段；未全读全部引言、遗传负荷章节、补充表／矩阵／视频或原复用项目，未查看图像像素和重跑原始读段／统计。完整 23 作者引文按 Crossref 记录。新四个 Cat Ba 个体与复用的单个 ebenus 样本分别计量，生理机制为初步候选；ebenus 名称／野外概念联接仍不足，首轮缺口未关闭，无完整种志。
 本次新增段落据原研究采样、重测序及 CACNA1C 功能结果／方法选段，以及补充 PDF 第 3、18、19 页的采样说明和完整表 S16；已查看第 19 页表格图像。其余补充章节、视频、工作簿、原始读段和实物未审阅，未重跑统计。完整 21 作者引文记录在线 2019-12-21 与卷期 2020-04-01 两个日期。2019B001 的动物园来源与 Laos 国家标签不补出缺失的野外地点或模式／照片联接；分类缺口保持开放，未作完整种志。
 
-## 从已有历史条目开始 {#s-bc725eff9c}
+## 记录分类与成员材料 {#s-bc725eff9c}
 Trachypithecus 的本地 PanTHERIA 路径包括 4 条可用数据导读，可从 Trachypithecus auratus、Trachypithecus geei、Trachypithecus obscurus、Trachypithecus phayrei 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-15de7a949d}
@@ -36,7 +38,7 @@ Trachypithecus 的本地 PanTHERIA 路径包括 4 条可用数据导读，可从
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-5086ca8178}
-Trachypithecus 本批有 3 个历史生活史资料页，可从 [Trachypithecus geei](Trachypithecus_geei/page.zh.md)、[Trachypithecus obscurus](Trachypithecus_obscurus/page.zh.md)、[Trachypithecus phayrei](Trachypithecus_phayrei/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Trachypithecus 本批有 3 个历史生活史资料页，可从 Trachypithecus geei、Trachypithecus obscurus、Trachypithecus phayrei 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-8794e46bcb}
 本批妊娠资料见 2 页，雌性首次繁殖年龄见 1 页，最高寿命记录见 0 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

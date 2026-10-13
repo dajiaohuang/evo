@@ -1,15 +1,17 @@
-## Start with sourced trait records {#s-1327a30545}
+## Recorded classification and direct parent {#s-1327a30545}
+COL26.8 records Uromastyx at genus rank, with Uromastycinae as its direct parent.
+
 This batch’s ReptTraits route for Uromastyx includes 15 same-name, same-family entries with trait-specific citations. Start with Uromastyx acanthinura, Uromastyx aegyptia, Uromastyx alfredschmidti, Uromastyx benti, Uromastyx dispar. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-2554443643}
 Among size records in this batch, Uromastyx macfadyeni has a reported maximum snout–vent length (SVL) of 122 mm and Uromastyx aegyptia 418 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Choose comparison pages by life-history fields {#s-7a2d1e4272}
+## Amniote Life-history archive member records {#s-7a2d1e4272}
 This batch’s Uromastyx route includes 7 historical life-history accounts; start with Uromastyx acanthinura, Uromastyx aegyptia, Uromastyx benti, Uromastyx dispar, Uromastyx macfadyeni. More frequently represented fields include offspring per litter or eggs per clutch (7 entries), oviposition to hatching (7 entries), longest lifespan record in the compilation (7 entries), adult body mass (4 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
-## Evidence limits {#s-83cf912be1}
+## Limits attached to these records {#s-83cf912be1}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history.
 
 ## Citation gaps in some descendant accounts {#s-12e0464e4b}
 In this ReptTraits route, some fields in 1 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.

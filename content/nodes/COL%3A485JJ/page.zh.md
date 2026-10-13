@@ -1,4 +1,4 @@
-## 分布与栖地 {#s-f5e957ab2c}
+## 模式产地与正模标本 {#s-f5e957ab2c}
 MDD 当前显示名为 Bornean Slow Loris，记载的模式地点在印度尼西亚西加里曼丹 Sanggau 区 Sakaiam 河，正模为 USNM:MAMM:142234。模式地点只定位最初命名材料，不是完整现今分布。
 
 ## 分类资料 {#s-1f56be235f}

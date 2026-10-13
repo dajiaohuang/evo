@@ -1,4 +1,6 @@
-## Start with the one measured species page {#s-d7e0d662cd}
+## Recorded classification and direct parent {#s-d7e0d662cd}
+COL26.8 records Pilherodius at genus rank, with Ardeidae as its direct parent.
+
 This Pilherodius route contains 1 measured species record: Pilherodius pileatus. The directory follows pinned COL26.8; its biological values retain AVONET v7 names and sampling limits.
 
 ## Read the single record on its own terms {#s-fed5979d1f}

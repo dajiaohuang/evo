@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-d9dd9fad24}
-Pinned COL26.8 organizes this page at Cinnyris neergaardi (5YV5Q). BirdLife 2020 row 5978 and eBird 2021 row 2350 share the name and Avibase ID AVIBASE-942E8A93, with type 1BL to 1eBird; BirdTree row 2343 gives Nectarinia neergardi, with type 1BL to 1BT. Read catalogue synonym 462P2, Nectarinia neergaardi (Grant, 1908), differs in spelling from crosswalk name Nectarinia neergardi; the discrepancy is retained without declaring an exact old-name match confirmed. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-d9dd9fad24}
+Catalogue of Life release COL26.8 records Cinnyris neergaardi Grant, 1908 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-33016ece63}
 Morphology covers 6 birds: 2 female, 2 male and 2 unsexed; 5 birds have complete measurement sets. Nostril-to-tip beak length 12 mm, tarsus 15.7 mm, unflattened wing 50.8 mm, tail 35.3 mm and hand-wing index 13 are historical row means. Inference=NO does not establish 6 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

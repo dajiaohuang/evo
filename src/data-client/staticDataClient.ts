@@ -1,5 +1,7 @@
 import { gunzipSync, strFromU8 } from 'fflate'
 import { compareCatalogueRecords, createRuntimeRowIndex, type RuntimeRowQuery, type RuntimeRowResult } from './runtimeQueries'
+import { isPbdbTaxonId, pbdbClassificationId } from '../utils/pbdbIdentity.mjs'
+import type { PbdbReaderIndexEntry, PbdbReaderManifest, PbdbReaderRecord } from './pbdbReaderTypes'
 import type {
   CurrentRuntimeManifest,
   CatalogueHierarchyChildRecord,
@@ -1201,6 +1203,40 @@ export async function loadCatalogueKnowledge(id: string): Promise<import('./type
   return records.find(record => record.colId === id) ?? null
 }
 
+export async function loadPbdbReaderManifest(): Promise<PbdbReaderManifest | null> {
+  const current = await loadCurrentManifest()
+  if (!current.pbdbReader) return null
+  const manifest = await loadRuntimeFile<PbdbReaderManifest>(current.pbdbReader.manifest)
+  if (manifest.schemaVersion !== 1 || manifest.datasetVersion !== current.datasetVersion || manifest.records !== current.pbdbReader.records) throw new Error('PBDB reader release mismatch')
+  return manifest
+}
+
+export async function loadPbdbReaderIndex(): Promise<PbdbReaderIndexEntry[]> {
+  const manifest = await loadPbdbReaderManifest()
+  if (!manifest) return []
+  const entries = await loadRuntimeFile<PbdbReaderIndexEntry[]>(manifest.index)
+  if (entries.length !== manifest.records || entries.some(entry => !isPbdbTaxonId(entry.pbdbTaxonId)
+    || pbdbClassificationId(entry.identity.classification) !== entry.pbdbTaxonId)
+    || new Set(entries.map(entry => entry.pbdbTaxonId)).size !== entries.length) throw new Error('Invalid PBDB reader index')
+  return entries
+}
+
+export async function loadPbdbReader(id: string): Promise<PbdbReaderRecord | null> {
+  if (!isPbdbTaxonId(id)) return null
+  const manifest = await loadPbdbReaderManifest()
+  if (!manifest) return null
+  const index = await loadPbdbReaderIndex()
+  if (!index.some(entry => entry.pbdbTaxonId === id)) return null
+  const prefix = await catalogueRoutePrefix(id)
+  const urls = manifest.routes[prefix]
+  if (!urls?.length || urls.some(url => !manifest.files.some(file => file.url === url))) throw new Error('PBDB reader route is incomplete')
+  const rows = await loadCatalogueRoute<PbdbReaderRecord>(manifest.routes, manifest.files, id)
+  const matches = rows.filter(row => row.pbdbTaxonId === id)
+  if (matches.length !== 1 || pbdbClassificationId(matches[0].identity.classification) !== id
+    || matches[0].contexts?.some(context => context.pbdbTaxonId !== id || pbdbClassificationId(context.identity.classification) !== id)) throw new Error('PBDB reader record identity mismatch')
+  return matches[0]
+}
+
 export async function loadCatalogueMesoDescriptions(id: string): Promise<import('./types').CatalogueMesoDescriptionRecord | null> {
   const manifest = await loadCatalogueManifest()
   const collection = manifest.mesoDescriptions
@@ -1451,9 +1487,12 @@ export async function searchStaticData(query: string, limit = 16, signal?: Abort
   const normalized = query.trim().toLocaleLowerCase()
   if (!normalized) return []
   const current = await loadCurrentManifest()
-  const pages = await Promise.all([current.core.search, ...loadedPackageSearch.values()].map((file) =>
-    loadWithWorker<RuntimeRowResult<RuntimeSearchEntry>>(file, { kind: 'content', text: normalized, limit }, signal)))
-  const entries = pages.flatMap((page) => page.records)
+  const [pbdb, pages] = await Promise.all([loadPbdbReaderIndex(), Promise.all([current.core.search, ...loadedPackageSearch.values()].map((file) =>
+    loadWithWorker<RuntimeRowResult<RuntimeSearchEntry>>(file, { kind: 'content', text: normalized, limit }, signal)))])
+  const pbdbMatches: RuntimeSearchEntry[] = pbdb.filter(entry => isPbdbTaxonId(normalized) ? entry.pbdbTaxonId === normalized
+    : `${entry.identity.scientificName ?? ''} ${entry.identity.displayName ?? ''} ${(entry.sourceContexts ?? []).map(identity => identity.scientificName ?? '').join(' ')}`.toLocaleLowerCase().includes(normalized))
+    .slice(0, limit).map(entry => ({ id: entry.pbdbTaxonId, kind: 'profile', title: entry.identity.scientificName ?? entry.pbdbTaxonId, route: `#/pbdb?id=${encodeURIComponent(entry.pbdbTaxonId)}`, terms: [entry.pbdbTaxonId] }))
+  const entries = [...pbdbMatches, ...pages.flatMap((page) => page.records)]
   const seen = new Set<string>()
   return entries.filter((entry) => {
     const key = `${entry.kind}:${entry.id}`

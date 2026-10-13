@@ -1644,8 +1644,26 @@ export interface CatalogueKnowledgeProfile {
   rank: string
   sourceDatasetId: string | null
   name: { zh: string; en: string }
-  sections: Array<{ topic: string; text: { zh: string; en: string }; sourceIds: string[] }>
-  sources: Array<{ id: string; title: string | { zh: string; en: string }; url: string; scope?: { zh: string; en: string } }>
+  sections: Array<Omit<NodeReadingSection, 'id'> & { topic: string }>
+  sources: Array<{
+    id: string
+    title: string | { zh?: string; en?: string }
+    url?: string
+    scope?: string | { zh?: string; en?: string }
+    locator?: string
+    version?: string
+    publishedAt?: string
+    accessedAt?: string
+    license?: string
+    licenseVersion?: string
+    licenseUrl?: string
+    licenseAppliesTo?: string
+    licenseAssessment?: string
+    rights?: string
+    rightsHolder?: string
+    attribution?: string
+    readingTargets?: Array<{ name: string; colId?: string; release?: string; pbdbTaxonId?: string }>
+  }>
   limitations: { zh: string; en: string }
 }
 
@@ -1654,10 +1672,10 @@ export interface CatalogueSpeciesDossier {
   readerSources?: TaxonProfileReaderSource[]
   identity: { method: string; scope: string; sourceIds?: string[] }
   lifeStatusScope: { wild: string; domesticated: string; fossil: string }
-  sources: Array<{ id: string; title: string; url: string; stableId?: string; version: string; publishedAt?: string; accessedAt?: string; locator: string; license: string; licenseVersion?: string; licenseUrl?: string; rightsHolder?: string; licenseAppliesTo?: string; attribution?: string; licenseAssessment?: 'item-level-verified' | 'aggregate-declaration-only' | 'identity-only' | 'unknown'; scope: string }>
+  sources: Array<{ id: string; title: string; url: string; stableId?: string; version: string; publishedAt?: string; accessedAt?: string; locator: string; license: string; licenseVersion?: string; licenseUrl?: string; rights?: string; rightsHolder?: string; licenseAppliesTo?: string; attribution?: string; licenseAssessment?: 'item-level-verified' | 'aggregate-declaration-only' | 'identity-only' | 'unknown'; scope: string }>
   facets: Record<string, {
     status: 'supported' | 'partially-supported' | 'conflicted' | 'not-assessed'
-    claims?: Array<{ text?: string; textZh?: string; originalLanguage?: string; sourceIds: string[]; locator: string; placeTimeScope: string; lifeStatus: string }>
+    claims?: Array<{ title?: Partial<Record<'en' | 'zh', string>>; text?: string; textZh?: string; originalLanguage?: string; sourceIds: string[]; locator: string; placeTimeScope: string; lifeStatus: string }>
     gaps?: string[]
   }>
 }
@@ -1857,6 +1875,7 @@ export interface CatalogueRuntimeManifest {
 }
 
 export interface CurrentRuntimeManifest {
+  pbdbReader?: { manifest: RuntimeFile; records: number }
   schemaVersion: number
   datasetVersion: string
   appVersion: string
@@ -1919,6 +1938,7 @@ export interface CurrentRuntimeManifest {
   }
   downloads: { available: boolean; template?: string }
   budgets: {
+    pbdbReaderCompressedBytes?: number
     coreCompressedBytes: number
     coreLimitBytes: number
     shardLimitBytes: number

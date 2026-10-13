@@ -1,5 +1,5 @@
-## 逐表保留 Locustella、Bradypterus 与 Helopsaltes {#s-8bc28befa1}
-本页按 COL26.8 的 Locustella pryeri（6QLJT）组织。BirdLife 2020 第 4996 行记 Locustella pryeri；eBird 2021 第 5661 行记 Helopsaltes pryeri，两表 Avibase ID 均为 AVIBASE-0150666B，类型 1BL to 1eBird。BirdTree 第 5632 行记 Locustella pryeri，类型 1BL to 1BT。BirdTree 与本页接受名相同。本次所读 hel 分片未确认这个逐字 Helopsaltes 名称；名称表关联不替代目录异名证据。名称对应帮助定位历史资料，不证明跨版本的物种范围相同。
+## COL26.8 中的名称身份 {#s-8bc28befa1}
+《Catalogue of Life》COL26.8（2026-08-20）将 Locustella pryeri (Seebohm, 1884) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-2fe0f4540f}
 形态共 4 只鸟：雌 2、雄 2、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 6.7 mm、跗蹠 20.6 mm、未压平翼长 52.2 mm、尾长 52.8 mm、手翼指数 18.9 是历史行均值。完整数与总数相等，仍不提供个体变异范围。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

@@ -107,37 +107,58 @@ records:
       morphology:
         status: partially-supported
         claims:
-          - text: The authors provide an amended diagnosis from two known specimens (the female holotype and an adult male collected in 2018) and compare it with congeners. Reported diagnostic measurements include forearm length 43.3–44.5 mm, ear length about 27.5 mm, and medial ear-lobe width about 4.5 mm; the authors describe dark bicolored dorsal fur and a low interaural skin band that fades toward the centre. These are account-level characters, not estimates of within-population variation.
+          - text:
+              page: en
+              section: ha-diagnosis
+              part: body
             originalLanguage: en
             sourceIds:
               - zookeys-treatment
             locator: Species account > Diagnosis and Description, pp. 280–281; Materials examined; Tables 1–2. Measurements are reported by the authors.
             placeTimeScope: Nominal species diagnosis based on two known specimens from southern Brazil; measurements include adult specimens, with the second record an adult male. Sex-specific and population-level variation is not established.
             lifeStatus: Wild-caught and historical museum specimens only; no captive or domesticated biology is included.
+            textZh:
+              page: zh
+              section: ha-diagnosis
+              part: body
         gaps:
           - Diagnosis and measurements are limited to two known specimens; sex, age, seasonal, geographic, and within-population variation are not established.
       lifeHistory:
         status: partially-supported
         claims:
-          - text: The adult male collected in November 2018 was captured about four hours after sunset, at approximately 23:00, and the authors report it had been foraging along a forest-fragment edge beside grassland. This is one event and does not describe the species’ life cycle or reproductive behavior.
+          - text:
+              page: en
+              section: ha-single-observation
+              part: body
             originalLanguage: en
             sourceIds:
               - zookeys-treatment
             locator: Results, paragraph beginning “On 21 November 2018, we captured an adult male”; Fig. 1; specimen MN 91624.
             placeTimeScope: Single adult male observation at Cerro Chato Farm, Palmas, Paraná, Brazil, 21 November 2018; captured at ca. 23:00. No seasonal or population-level behavior is inferred.
             lifeStatus: One field observation of a wild adult male; no captive observations.
+            textZh:
+              page: zh
+              section: ha-single-observation
+              part: body
         gaps:
           - No reproductive cycle, mating, parental care, development, lifespan, seasonality, or repeated behavior observations were assessed.
       ecology:
         status: partially-supported
         claims:
-          - text: The 2018 specimen was captured at the edge of a forest fragment adjacent to grassland within a protected area containing natural grasslands and small, isolated moist Araucaria-forest fragments. Across the two known records, the authors describe the species as associated with dense rainforest, Araucaria and riparian forests, and grasslands; this is a two-locality account, not a complete habitat inventory or interaction network.
+          - text:
+              page: en
+              section: ha-habitat-record
+              part: body
             originalLanguage: en
             sourceIds:
               - zookeys-treatment
             locator: Methods > field survey setting; Results, paragraph describing Cerro Chato Farm; species account > Distribution; Fig. 2.
             placeTimeScope: Cerro Chato Farm, Palmas Grasslands Wildlife Refuge, Paraná, Brazil; observation date 21 November 2018; 1208 m elevation. The broader habitat summary is limited to the two localities known to the authors.
             lifeStatus: One field record from a wild adult male plus the type locality; no generalization to unsampled populations.
+            textZh:
+              page: zh
+              section: ha-habitat-record
+              part: body
         gaps:
           - Host, prey, predator, parasite, symbiont, roost, and habitat-selection evidence were not comprehensively reviewed; the capture setting is one locality only.
       evolution:
@@ -148,13 +169,20 @@ records:
       distribution:
         status: partially-supported
         claims:
-          - text: "As reported in 2023, H. alienus was known from two localities in southern Brazil: the female holotype from Joinville, Santa Catarina, at sea level, and the adult male collected at Palmas, Paraná, at 1208 m. The authors report the new locality as extending the documented distribution about 280 km west at the same latitude."
+          - text:
+              page: en
+              section: ha-two-localities
+              part: body
             originalLanguage: en
             sourceIds:
               - zookeys-treatment
             locator: Species account > Materials examined and Distribution, p. 280; Results; Fig. 3; Appendix I.
             placeTimeScope: The treatment’s literature and specimen records available through 2023; Joinville, Santa Catarina, and Palmas, Paraná, Brazil. The two points do not establish a complete global or national range.
             lifeStatus: Wild locality and museum-voucher records; no native/introduced range classification was undertaken.
+            textZh:
+              page: zh
+              section: ha-two-localities
+              part: body
         gaps:
           - Only two historical/documented localities were known to the authors; no global database search, range-boundary modelling, native/introduced classification, or sampling-completeness analysis was performed.
       fossil:

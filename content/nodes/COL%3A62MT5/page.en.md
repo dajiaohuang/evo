@@ -1,4 +1,6 @@
-## Start with the six measured records {#s-c71ed575ca}
+## Recorded classification and direct parent {#s-c71ed575ca}
+COL26.8 records Colaptes at genus rank, with Picinae as its direct parent.
+
 COL26.8 places six selected AVONET1_BirdLife measured records under Colaptes: Colaptes atricollis, Colaptes auricularis, Colaptes chrysoides, Colaptes fernandinae, Colaptes pitius, and Colaptes punctigula. This is a route through the batch’s records, not a complete list of accepted descendants. The names follow the pinned catalogue hierarchy while measurements retain AVONET v7’s historical sampling and taxonomic scope.
 
 ## Compare the values within this sample {#s-b539548d97}

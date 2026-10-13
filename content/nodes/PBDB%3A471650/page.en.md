@@ -1,19 +1,36 @@
 ## Which fossil records this name represents {#s-cc75d100b3}
 Hainosaurus boubker is accepted in the fixed PBDB squamata working roster, with database parent Hainosaurus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-b2d6c2673a}
-Collection Sidi Chennane [upper Couche III] (general) (Khouribga), region code MA, stratum name Couche III; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Hainosaurus boubker is listed in the PBDB snapshot under taxon txn:471650. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-5af115299b}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Sidi Chennane [upper Couche III] (general), occurrence occ:1625953 (72.2–66 Ma); one supplying the younger bound is Sidi Chennane [upper Couche III] (general), occurrence occ:1625953 (72.2–66 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-b2d6c2673a}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-c13f99d8cd}
-Sidi Chennane [upper Couche III] (general) has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1625953; PBDB collection col:215206. Locality cnm=Sidi Chennane [upper Couche III] (general); place fields cc2=MA, stp=Khouribga. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Couche III. Recorded attribution Rempert et al. 2022; PBDB reference ref:84651.
 
-## Follow collection records back to references {#s-1076e3a531}
-Sidi Chennane [upper Couche III] (general) carries database reference attribution Rempert et al. (2022), identifier ref:84651. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper Couche III
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Office Chérifien des Phosphates mines at Sidi Chennane, Khouribga Province, Morocco
+
+## Age bounds on the recorded occurrences {#s-5af115299b}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:1625953; the smallest recorded lag=66 Ma in occ:1625953. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-c13f99d8cd}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1625953: PBDB original-identification field idn=Hainosaurus boubker n. sp.; PBDB taxon-name field tna=Hainosaurus boubker; material note ocm=VANPS 13.0120 & 13.0121 - syntypes; referred specimens: VANPS 13.0122, 13.0124, 13.0125, 13.0165; abundance fields abv=6, abu=specimens; PBDB locality-coordinate fields lng=-6.230000, lat=32.832222; paleocoordinate/model fields pm1=gplates, pln=2.52, pla=20.91.
+
+## References attached to each record {#s-1076e3a531}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1625953: Recorded attribution Rempert et al. 2022; PBDB reference ref:84651.
 
 ## Evidence limits {#s-efb036ec96}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 1010-item squamata working roster, retain the current same name and a complete parent chain to the recorded Squamata storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

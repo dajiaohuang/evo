@@ -16,21 +16,51 @@ Using the reduced hand, foot anatomy and avialan placement, the 2015 authors pro
 ## Known and unknown parts of the reconstruction {#s-594b4e6f85}
 Figure 7 of the 2015 paper marks known bones in white and unknown parts in grey, explicitly as a speculative reconstruction. Head anatomy, teeth and plumage are not directly preserved in this specimen. The authors infer feathers by comparison and interpret reduced forelimbs as potentially secondary flightlessness. A complete image does not fill the material gaps or directly demonstrate flight in its ancestors.
 
-## Which fossil records this name represents {#s-b525276e79}
-Balaur bondoc is accepted in the fixed PBDB dinosaur working roster, with database parent Balaur. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-b525276e79}
+Balaur bondoc is listed in the PBDB snapshot under taxon txn:170643. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-b56378697b}
-Collection Tuştea-Oltoane nesting site (Hunedoara), region code RO, stratum name Densuș-Ciula; database age bracket 72.2–66 Ma, early interval Early Maastrichtian. Collection Sebeş Glod A (SbG/A) (Alba), region code RO, stratum name Sebeş; database age bracket 72.2–66 Ma, early interval Early Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-b56378697b}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-e8c08cd044}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:513933; PBDB collection col:13334. Locality cnm=Tuştea-Oltoane nesting site; place fields cc2=RO, stp=Hunedoara. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Early Maastrichtian. Stratigraphic fields sfm=Densuș-Ciula. Recorded attribution Csiki et al. 2010; PBDB reference ref:33802.
 
-## Read preservation setting separately from living habitat {#s-e36c1389f2}
-Tuştea-Oltoane nesting site has collection-environment label dry floodplain; collection preservation-mode label body. Sebeş Glod A (SbG/A) has collection-environment label "floodplain"; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Close to the base of the Densuș-Ciula succession, in the basal part of the ‘middle member’, and are thus most probably of earliest to early Maastrichtian in age (Csiki-Sava et al., 2016). This age assessment is congruent with the 71.3+/-1.6 Ma K-Ar radiometric age reported by Bojar et al. (2011) from a tuff layer situated slightly to the west (Botfalvai et al. 2021)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+northern part of Hateg Basin, 4.5 km east of Valioara, Romania. In a vertical escarpment of Oltoane Hill (= Ultoane), Tustea Village, Hateg Basin, Hunedoara County
+
+- Occurrence occ:882032; PBDB collection col:97813. Locality cnm=Sebeş Glod A (SbG/A); place fields cc2=RO, stp=Alba. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Early Maastrichtian. Stratigraphic fields sfm=Sebeş. Recorded attribution Csiki et al. 2010; PBDB reference ref:33802.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower third of the Sebes Formation
+
+early Maastrichtian (see Csiki-Sava et al. 2016 and Ţabără et al. 2022)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Sebes Glod locality, ca. 2.5 km N of town of Sebes,
+
+## Age bounds on the recorded occurrences {#s-e8c08cd044}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:513933; the smallest recorded lag=66 Ma in occ:513933. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-e36c1389f2}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:513933: PBDB taxon-name field tna=Balaur bondoc; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=22.845142, lat=45.603615; paleocoordinate/model fields pm1=gplates, pln=28.73, pla=25.32.
+- occ:882032: PBDB original-identification field idn=Balaur bondoc n. gen. n. sp.; PBDB taxon-name field tna=Balaur bondoc; material note ocm=EME PV.313; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=23.570463, lat=45.993664; paleocoordinate/model fields pm1=gplates, pln=29.44, pla=25.36.
 
 ## Follow collection records back to references {#s-47be0e8432}
 Both PBDB collections cite Csiki et al. (2010), reference ref:33802. This page separately uses the original specimen, locality and diagnosis sections, alongside the 2015 reassessment by Cau, Brougham and Naish. The rest of the original paper and its supplement were not fully obtained in this batch. Occurrence, collection and identification records remain in their source archive; physical specimens were not inspected.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:513933: Recorded attribution Csiki et al. 2010; PBDB reference ref:33802.
+- occ:882032: Recorded attribution Csiki et al. 2010; PBDB reference ref:33802.
+
 ## Evidence limits {#s-a09a68de97}
 This specimen and taxonomic-dispute guide combines selected original-description sections, the 2015 re-scoring study and fixed PBDB occurrences. The holotype lacks a skull; diet and flightlessness remain interpretations, and this batch does not adjudicate competing affinities. The entire original paper, supplements and later research are not assembled. Record intervals do not precisely date individuals.
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

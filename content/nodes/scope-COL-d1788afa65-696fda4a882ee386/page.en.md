@@ -1,5 +1,5 @@
-## atlas-profile / overview {#s-d4e9c8af2b}
-The selected Papio anubis studies follow a captive growth cohort, long-term wild pregnancy records, a Lake Manyara survey-method comparison and a small comparative-genomic sample. Each answers a different question; together they are not a species-wide account.
+## Selected studies of the olive baboon {#s-d4e9c8af2b}
+COL26.8 accepts Papio anubis. The selected sources cover one captive growth cohort, long-term pregnancy records at Gombe, a Lake Manyara survey-method comparison and a small comparative-genomic panel. These studies answer separate questions rather than describe the species as a whole.
 
 ## atlas-profile / ecology / diet {#s-e75884ec67}
 Not assessed in the selected core studies.
@@ -19,30 +19,30 @@ Not assessed in the selected core studies.
 ## atlas-profile / traits {#s-12abf68987}
 In one seven-year captive cohort, measured size and shape were similar at birth; later differences in growth rate and duration produced substantial size differences while measured body shape remained similar.
 
-## atlas-profile / evidenceSummary {#s-5351bc6593}
-These studies describe separate captive, wild and genomic samples. They do not estimate a global range, formal conservation status, a full diet or movement pattern, or a complete evolutionary history.
+## Evidence from captive, wild and genomic samples {#s-5351bc6593}
+The evidence includes a seven-year captive cohort, 732 pregnancies among 175 Gombe females, road-transect estimates compared with a sleeping-site upper limit, and a 12-animal panel with 4,645 Alu indicator loci. These samples do not establish global range, current conservation status, full diet or movement, or complete evolutionary history.
 
-## Body, life and relationships {#s-0b10a0860a}
-Growth from infancy to adulthood was followed for seven years in one captive olive-baboon cohort. Wild pregnancy records and sleeping-site surveys offer two other windows: reproductive associations and evidence that road transects can overestimate density. Different material describes different parts of life.
+## Growth, pregnancy and survey methods {#s-0b10a0860a}
+The captive cohort measured growth from infancy to adulthood. Gombe records describe pregnancy outcomes and their associations with rainfall and rank; Lake Manyara compares two density-estimation approaches. These materials cover different aspects of life and do not yield one species-wide estimate.
 
-## A name does not supply its range {#s-77a6db01a5}
-COL26.8 accepts the name Papio anubis. The studies here come from a captive station in France, long-term wild records at Gombe, a survey-method study at Lake Manyara and a comparative genomic sample. They illuminate different questions and do not describe every population.
+## Four study settings, four evidence scales {#s-77a6db01a5}
+COL26.8 accepts the name Papio anubis. The studies come from a captive station in France, long-term wild records at Gombe, a survey-method study at Lake Manyara and a comparative-genomic panel. Each has its own population, method and limits; together they do not describe every population.
 
-## Growth from infancy in a captive cohort {#s-a90f02f286}
-A seven-year longitudinal study at the CNRS primatology station followed 14 females and 16 males from at least two months of age to adulthood. Measured size and shape were similar at birth; later differences in growth rate and duration produced substantial size differences while the measured body-shape pattern remained similar. This is a captive cohort, not a wild growth curve.
+## Growth measured in one captive cohort {#s-a90f02f286}
+A seven-year longitudinal study at the CNRS primatology station followed 14 females and 16 males from at least two months of age to adulthood. Size and shape were similar at birth; later differences in growth rate and duration produced substantial size differences while measured body-shape patterns remained similar. This is not a wild growth curve.
 
-## Miscarriage records at Gombe {#s-7a693fa852}
-Gombe records from 1972–2002 covered 732 pregnancies among 175 females of known rank; 65 pregnancies ended in miscarriage. The study found that rank-related patterns varied with rainfall and the immigration of males that rose rapidly to the highest rank. When mean rainfall over two years fell below about 1,100 mm, the rank-linked pattern largely disappeared. These observational associations are not a species-wide miscarriage rate or proof of cause.
+## Gombe miscarriages and changing rank associations {#s-7a693fa852}
+Gombe records from 1972–2002 covered 732 pregnancies among 175 females of known rank; 65 ended in miscarriage. Rank-related patterns varied with rainfall and immigration of males that rose rapidly to top rank. When mean rainfall over two years fell below about 1,100 mm, the rank-linked pattern largely disappeared. These are observational associations, not a species-wide rate or proof of cause.
 
-## Why road surveys can overestimate density {#s-80abe58c41}
-At Lake Manyara, Tanzania, road-transect surveys from 2011–2019 produced density estimates more than three times an upper limit derived from sleeping-site counts and average group size. The authors pointed to baboons’ use of roads as a possible source of bias. This is a warning about one survey method at one site, not an estimate of the park’s total population or its trend.
+## Road transects versus a sleeping-site upper limit {#s-80abe58c41}
+At Lake Manyara, road-transect surveys from 2011–2019 produced density estimates more than three times an upper limit derived from sleeping-site counts and average group size. The authors identified baboons' road use as a possible source of bias. This method comparison is not an estimate of total park population or trend.
 
-## A 12-animal comparative genomic panel {#s-c727b40afd}
-A Papio phylogeny study sampled two animals from each of six extant baboon species, 12 individuals in total. Within that panel, the authors identified 4,645 Alu insertion sites as P. anubis indicator loci under their method. This result describes a comparative sample and a particular marker system; it does not summarize genetic variation within the species or settle its complete evolutionary history.
+## A comparative panel of 12 baboons {#s-c727b40afd}
+A phylogeny study sampled two animals from each of six extant baboon species, 12 individuals total. Within that panel, the authors identified 4,645 Alu insertion sites as P. anubis indicator loci under their method. This marker result does not summarize within-species variation or settle the full evolutionary history.
 
-## What these studies leave open {#s-b09d76f209}
-The studies do not establish a full current distribution, formal conservation status, a species-wide wild diet or locomotion synthesis, or a complete fossil and evolutionary history. Those questions require evidence beyond the selected samples.
+## Limits of these study samples {#s-b09d76f209}
+The selected sources do not establish a full current distribution, formal conservation status, a species-wide wild diet or locomotion synthesis, or a complete fossil and evolutionary history. Each result remains bounded by the sample and method described.
 
-## atlas-profile / readerLimitations {#s-40c85cb4fb}
-The selected studies connect captive growth, wild reproductive records, a survey-method comparison and a small genomic panel. They do not establish a full distribution, formal conservation status, a species-wide ecological synthesis or the complete evolutionary history.
+## What this evidence does not establish {#s-40c85cb4fb}
+Captive growth, wild pregnancy records, a survey-method comparison and a small genomic panel do not establish a complete distribution, formal conservation status, species-wide ecological synthesis or the full evolutionary history.
 

@@ -1,5 +1,5 @@
-## Find rows through older Carduelis/Serinus combinations {#s-d33237b424}
-Pinned COL26.8 organizes this page at Spinus notatus (4Z65S). BirdLife 2020 row 4158 and eBird 2021 row 9791 share the name and Avibase ID AVIBASE-47188991, with type 1BL to 1eBird; BirdTree row 9732 gives Carduelis notata, with type 1BL to 1BT. Read catalogue synonym R6JN points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-d33237b424}
+Catalogue of Life release COL26.8 records Spinus notatus (Du Bus de Gisignies, 1847) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-1511defd46}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 9.7 mm, tarsus 13 mm, unflattened wing 65.2 mm, tail 40.2 mm and hand-wing index 30.9 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

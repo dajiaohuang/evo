@@ -1,11 +1,11 @@
-## Organize fossil records by source classification {#s-f3f3598174}
-Smilodon is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 4 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Smilodon in the PBDB genus path {#s-f3f3598174}
+PBDB records Smilodon at genus rank, and this selected route links occurrence guides for four fossil species. The database parent chain organizes records; it is not a phylogeny or a complete genus catalogue. The fossil-only selection does not by itself establish how complete the genus list is.
 
-## Compare collections, strata and age brackets {#s-ff217757ae}
-Start with Smilodon gracilis, Smilodon populator, Smilodon riggii, Smilodon fatalis and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 93 selected occurrences from 90 collections; example stratum names are Palm Spring, Bermont, Mesa, Chui. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Ninety-three occurrences from ninety collections {#s-ff217757ae}
+The selected pages cover Smilodon gracilis, S. populator, S. riggii, and S. fatalis. Across those species pages, the guide contains 93 occurrences from 90 collections; Palm Spring, Bermont, Mesa, and Chui are example stratum names. Each occurrence retains its own age bracket and identification qualifications. These totals describe database records, not specimens, individuals, or populations.
 
-## Evidence limits {#s-ed78a4a3dc}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## Limits of the PBDB occurrence route {#s-ed78a4a3dc}
+This PBDB route is a selected set of fossil occurrence records, not a complete genus catalogue or ecological summary. Counts do not measure specimens, individuals, populations, or sampling effort; outer age bounds do not date the group’s actual origin or extinction. The recorded parent path organizes database records and remains separate from COL classification and phylogenetic hypotheses.
 
 ## One mitochondrial genome places one saber-toothed cat {#s-1a578e2e2e}
 A partial mitochondrial genome from one Smilodon populator fossil places that sampled lineage with Homotherium within the machairodont cats, apart from the living felid lineages included in the comparison. This is a result about one extinct specimen and its inherited mitochondrial DNA.

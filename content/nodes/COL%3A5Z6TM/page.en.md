@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-e4e653c49d}
-Pinned COL26.8 organizes this page at Cinnyris tsavoensis (5Z6TM). BirdLife 2020 row 5995 and eBird 2021 row 2367 share the name and Avibase ID AVIBASE-17DE4B1F, with type 1BL to 1eBird; BirdTree row 2360 gives Nectarinia tsavoensis, with type 1BL to 1BT. The read shards did not yield this exact older combination; a one-to-one crosswalk is not presented as a confirmed COL synonym. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-e4e653c49d}
+Catalogue of Life release COL26.8 records Cinnyris tsavoensis Someren, 1922 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-48698fd9c9}
 Morphology covers 5 birds: 2 female, 3 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 12.1 mm, tarsus 14.2 mm, unflattened wing 52.2 mm, tail 41.8 mm and hand-wing index 12.4 are historical row means. Inference=NO does not establish 5 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

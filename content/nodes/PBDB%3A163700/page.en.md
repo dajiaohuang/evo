@@ -58,18 +58,48 @@ In the 2021 matrix, T. navigans falls within Tapejarinae in an unresolved polyto
 ## Which fossil records this name represents {#s-b37f2389fd}
 Within the fixed PBDB roster, Tupandactylus navigans is accepted under Tupandactylus. This extract contains one qualifying species-level occurrence, one collection and one reference identifier; these are separate database counts, not fossils or individual animals. The occurrence row preserves the link between the original identification or combination and the accepted name, so a recombination is not counted as a second discovery.
 
+PBDB occurrence record excerpt:
+Tupandactylus navigans is listed in the PBDB snapshot under taxon txn:163700. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## Begin with named collections and strata {#s-77c33c8d45}
 The selected row names Nova Olinda quarries (Ceara), region code BR, and the Crato stratum; its database bracket is 119.57–113.2 Ma, with Late Aptian as the early interval. These labels follow the source wording. They locate the catalogue record, not the species’ full distribution; a recorded locality does not establish absence elsewhere.
+
+PBDB occurrence record excerpt:
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:849621; PBDB collection col:77891. Locality cnm=Nova Olinda quarries; place fields cc2=BR, stp=Ceara. Recorded age bounds: eag 119.57 Ma; lag 113.2 Ma; PBDB interval fields oei=Late Aptian. Stratigraphic fields sfm=Crato. Recorded attribution Frey et al. 2003; PBDB reference ref:32116.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+in the lower 20m of the section
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+from the stone quarries south of Nova Olinda
 
 ## Age bounds of these records {#s-9113700cf7}
 The selected record’s outer age bracket is 119.57–113.2 Ma. It combines the oldest early and youngest late limits in the extract, not a continuous presence or a measured origin, extinction or lifespan. The collection keeps its own broad interval; this page neither narrows it to a specimen age nor revises the source dating.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=119.57 Ma in occ:849621; the smallest recorded lag=113.2 Ma in occ:849621. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## Read preservation setting separately from living habitat {#s-ebcf192b83}
 The Nova Olinda collection has a lacustrine - large environment label and body, replaced with pyrite, replaced with limonite preservation labels. These are collection-level database descriptions. A depositional setting does not establish diet or habitat, and the listed preservation modes do not describe every fossil individually; blank source fields remain blank.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:849621: PBDB original-identification field idn=Tapejara navigans n. sp.; PBDB taxon-name field tna=Tupandactylus navigans; material note ocm=SMNK 2344 (holotype), 2343, skulls; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-39.700001, lat=-7.125000; paleocoordinate/model fields pm1=gplates, pln=2.59, pla=-4.99.
 
 ## Follow collection records back to references {#s-0070cd0741}
 The PBDB collection row cites Frey et al. (2003), ref:32116. Beccari et al. (2021) is a separate source for GP/2E 9266 and its anatomy; the references support different evidence. Their presence here does not reidentify the specimen or supply new measurements for every preserved or missing part.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:849621: Recorded attribution Frey et al. 2003; PBDB reference ref:32116.
+
 ## Evidence limits {#s-7a5d110365}
 This page pairs a bilingual guide to selected passages of the 2021 associated-skeleton study with the fixed PBDB occurrence record. The exact specimen locality and horizon remain unknown. The paper calls the geological setting Aptian but labels the systematic horizon Albian; this internal discrepancy is retained rather than harmonized, and PBDB age brackets are not revised. This pass read previously unvisited anatomical subsections and selected headers, relevant taxon rows, character definitions and commands in both official supplements. Original descriptions, images and supplements are not fully assembled or inspected; the specimen, raw CT and matrix were not independently checked, measured or rerun. Diet, flight, sexual dimorphism and maturity remain author interpretations. The guide adds shoulder girdle, forearm, wrist/metacarpus, pelvis, legs/feet and measurement-table coverage, but does not remeasure scans; the Table 4 wing-phalanx side discrepancy remains unresolved and reader-facing delivery is pending. A complete matrix audit and tree rerun are still outstanding, so missing scores and an unresolved branching pattern are not treated as settled species relationships.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-2bd48dc3c9}
+## 记录分类与直接上级关系 {#s-2bd48dc3c9}
+COL26.8 将 Tragelaphini 记录为族；其直接上级记录为 Bovinae。
+
 Tragelaphini 的本地 PanTHERIA 路径包括 6 条可用数据导读，可从 Tragelaphus scriptus、Tragelaphus spekii、Taurotragus derbianus、Taurotragus oryx、Tragelaphus buxtoni 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-adf54359a9}
@@ -14,7 +16,7 @@ Tragelaphini 的本批路线包含 6 个历史条目，可从 Taurotragus oryx�
 PanTHERIA、2015 年生活史路线和 EltonTraits 在此各汇总 6 条历史记录，但 Ernest 2003 表格的字段覆盖不同：妊娠和首次繁殖年龄见于 5 条资料，最高寿命见于 4 条。最高寿命字段保留最长记录，不代表典型寿命。成年体重比较端点是经性别调整的历史中位数；EltonTraits 权重和类别则是对文献描述的编码。各来源样本不能构成 Tragelaphini 的完整记述，也不能证明历史名称与当前每个物种概念完全对应。
 
 ## 沿生活史资料阅读 {#s-2093c16a52}
-Tragelaphini 本批有 6 个历史生活史资料页，可从 [Taurotragus derbianus](Taurotragus/Taurotragus_derbianus/page.zh.md)、[Taurotragus oryx](Taurotragus/Taurotragus_oryx/page.zh.md)、[Tragelaphus buxtoni](Tragelaphus/Tragelaphus_buxtoni/page.zh.md)、[Tragelaphus eurycerus](Tragelaphus/Tragelaphus_eurycerus/page.zh.md)、[Tragelaphus spekii](Tragelaphus/Tragelaphus_spekii/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Tragelaphini 本批有 6 个历史生活史资料页，可从 Taurotragus derbianus、Taurotragus oryx、Tragelaphus buxtoni、Tragelaphus eurycerus、Tragelaphus spekii 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-7e619251ba}
 本批妊娠资料见 5 页，雌性首次繁殖年龄见 5 页，最高寿命记录见 4 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-b83b276bfe}
+## 记录分类与直接上级关系 {#s-b83b276bfe}
+COL26.8 将 Cephalopyrus 记录为属；其直接上级记录为 Paridae Vigors, 1825。
+
 固定分类版本 COL26.8 将 *Cephalopyrus* 记录为属。本页关联的 AVONET v7 材料含1条物种测量记录：*Cephalopyrus flammiceps*。这里保留历史资料中的原名，作为阅读数据的起点；它不是该分类单元完整的成员清单，也不表示所有后代共有同样特征。
 
 ## 记录之间有什么差别 {#s-76cb91ad56}

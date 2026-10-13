@@ -1,19 +1,30 @@
 ## Which fossil records this name represents {#s-9d3de59d43}
 Mesogaulus ballensis is accepted in the fixed PBDB mammalia working roster, with database parent Mesogaulus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-1b9ee74906}
-Collection Rabbitt Creek (Montana), region code US, stratum name Deep River; database age bracket 23.04–5.333 Ma, early interval Miocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Mesogaulus ballensis is listed in the PBDB snapshot under taxon txn:48352. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-87e84c62fb}
-Selected occurrences have an outer age envelope of 23.04–5.333 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Rabbitt Creek, occurrence occ:190208 (23.04–5.333 Ma); one supplying the younger bound is Rabbitt Creek, occurrence occ:190208 (23.04–5.333 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-1b9ee74906}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-726456007b}
-Rabbitt Creek has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:190208; PBDB collection col:19012. Locality cnm=Rabbitt Creek; place fields cc2=US, stp=Montana, cny=Meagher. Recorded age bounds: eag 23.04 Ma; lag 5.333 Ma; PBDB interval fields oei=Miocene. Stratigraphic fields sfm=Deep River. Recorded attribution McGrew 1939; PBDB reference ref:2511.
 
-## Follow collection records back to references {#s-a2b1701c8c}
-Rabbitt Creek carries database reference attribution McGrew (1939), identifier ref:2511. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+## Age bounds on the recorded occurrences {#s-87e84c62fb}
+Across these selected PBDB rows, the largest recorded eag=23.04 Ma in occ:190208; the smallest recorded lag=5.333 Ma in occ:190208. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-726456007b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:190208: PBDB original-identification field idn=Mesogaulus ballensis n. sp.; PBDB taxon-name field tna=Mesogaulus ballensis; material note ocm=DUPLICATE REF 2511 or 2512 or 2513; PBDB locality-coordinate fields lng=-111.000000, lat=46.500000; paleocoordinate/model fields pm1=gplates, pln=-105.02, pla=50.04.
+
+## References attached to each record {#s-a2b1701c8c}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:190208: Recorded attribution McGrew 1939; PBDB reference ref:2511.
 
 ## Evidence limits {#s-265ac9b9c2}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

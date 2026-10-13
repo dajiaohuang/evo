@@ -1,19 +1,43 @@
 ## Which fossil records this name represents {#s-7bb30645bc}
 Eupodophis descouensi is accepted in the fixed PBDB squamata working roster, with database parent Eupodophis. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-bbc25a872f}
-Collection en Nammoûra, upper quarry (unit 3b) (Kesrouâne), region code LB; database age bracket 100.5–93.9 Ma, early interval Early Cenomanian and late interval Middle Cenomanian. Collection Haqel (MSNM collection), region code LB; database age bracket 100.5–93.9 Ma, early interval Late Cenomanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Eupodophis descouensi is listed in the PBDB snapshot under taxon txn:80941. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9dd97f2cd2}
-Selected occurrences have an outer age envelope of 100.5–93.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is en Nammoûra, upper quarry (unit 3b), occurrence occ:573497 (100.5–93.9 Ma); one supplying the younger bound is en Nammoûra, upper quarry (unit 3b), occurrence occ:573497 (100.5–93.9 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-bbc25a872f}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-83e27e01ad}
-en Nammoûra, upper quarry (unit 3b) has collection-environment label lagoonal/restricted shallow subtidal; collection preservation-mode label body,adpression,soft parts. Haqel (MSNM collection) has collection-environment label lagoonal/restricted shallow subtidal; collection preservation-mode label body,soft parts. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:573497; PBDB collection col:60285. Locality cnm=en Nammoûra, upper quarry (unit 3b); place fields cc2=LB, stp=Kesrouâne. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian, oli=Middle Cenomanian. Stratigraphic fields sls=Nammoûra, slb=3b, slo=bottom to top. Recorded attribution Rage and Escuillié 2000; PBDB reference ref:17339.
 
-## Follow collection records back to references {#s-d5ec39f500}
-en Nammoûra, upper quarry (unit 3b) carries database reference attribution Rage and Escuillié (2000), identifier ref:17339. Haqel (MSNM collection) carries database reference attribution Rieppel and Head (2004), identifier ref:14462. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+en Nammoûra has several names in the literature, including al Nammoûra, al Gabour, Aïn el Gârboûr.  Two quarries (upper and lower) in the valley of en Gârboûr, on S side.
+
+- Occurrence occ:573884; PBDB collection col:60311. Locality cnm=Haqel (MSNM collection); place fields cc2=LB. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Late Cenomanian. Recorded attribution Rieppel and Head 2004; PBDB reference ref:14462.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The precise age of Hâqel and Hjoûla varies according to different authors. ln his comprehensive sedimentological study Hückel (1970) divided the Cenomanian Limestones into seven units and concluded that Hâqel (unite V) and Hjoûla (unite IV) were deposited during the later Lower Cenomanian. Owing to the occurrence of the ammonite Allocrioceras annulatum as a member of the Metoicoceras geslinianum Zone, Wippich & Lehmann (2004) confirmed the conclusions of Hemleben (1977) and dated Hâqel and Hjoûla as Upper Cenomanian (Fig. 2). Dalla Vecchia et al. (2002) considered Hâqel and Hjoûla as lower Upper Cenomanian, because Nammoûra (another fossil-rich locality a few kilometres in the South of Hjoûla and slightly younger than Hâqel and Hjoûla) is dated as Middle Cenomanian.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coordinates for town of Haqel
+
+## Age bounds on the recorded occurrences {#s-9dd97f2cd2}
+Across these selected PBDB rows, the largest recorded eag=100.5 Ma in occ:573497; the smallest recorded lag=93.9 Ma in occ:573497. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-83e27e01ad}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:573497: PBDB original-identification field idn=Podophis descouensi n. gen. n. sp.; PBDB taxon-name field tna=Eupodophis descouensi; material note ocm=2 specimens described in Rieppel and Head (2004); abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=35.650002, lat=34.066666; paleocoordinate/model fields pm1=gplates, pln=41.9, pla=16.64.
+- occ:573884: PBDB taxon-name field tna=Eupodophis descouensi; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=35.750000, lat=34.166668; paleocoordinate/model fields pm1=gplates, pln=41.4, pla=15.36.
+
+## References attached to each record {#s-d5ec39f500}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:573497: Recorded attribution Rage and Escuillié 2000; PBDB reference ref:17339.
+- occ:573884: Recorded attribution Rieppel and Head 2004; PBDB reference ref:14462.
 
 ## Evidence limits {#s-03d863589a}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 1010-item squamata working roster, retain the current same name and a complete parent chain to the recorded Squamata storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

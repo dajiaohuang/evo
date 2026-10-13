@@ -4,13 +4,13 @@ The 2019 genome comparison includes Rhea americana and R. pennata. Their differi
 ## Read by material, tree model and experimental level {#s-5b0591d6ad}
 Study species directly represented at this entry are [Rhea americana](Rheidae/Rhea/Rhea_americana/page.en.md), [Rhea pennata](Rheidae/Rhea/Rhea_pennata/page.en.md). First distinguish added, reused and reference-mapped genomes, then compare species trees with gene trees. For a cross-lineage functional comparison, turn to the chicken reporter assays on [Rhea americana](Rheidae/Rhea/Rhea_americana/page.en.md) and [Eudromia elegans](../Tinamiformes/Tinamidae/Eudromia/Eudromia_elegans/page.en.md); one candidate region cannot validate every accelerated element. Return to existing morphology, life history or fossil occurrences with their own units and samples. This route is neither exhaustive group sampling nor a complete descendant catalogue.
 
-## Local data reading route {#s-ab4e00faa8}
+## Recorded classification and member material {#s-ab4e00faa8}
 This route presents one measured species record under Rheiformes. Start with Rhea americana. Its hierarchy follows pinned COL26.8, while the measurements retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-40a3f7fb86}
 Only one measured species record under Rheiformes has a compiled mean-mass value: Rhea americana, 23000 g. Recorded habitat categories are Grassland, and trophic niches include Omnivore. These categories describe that record, not traits established for every descendant.
 
-## Choose comparison pages by life-history fields {#s-a69bcf7df4}
+## Amniote Life-history archive member records {#s-a69bcf7df4}
 The Rheiformes route links to 2 historical life-history accounts; begin with Rhea americana, Rhea pennata. The more frequently represented fields are adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), oviposition to hatching (2 entries), female maturity field (defined by the source as age at first conception) (one entry). These counts describe records on this route, not every accepted descendant. Check each field’s event, unit, and source before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-1dd561a2b9}

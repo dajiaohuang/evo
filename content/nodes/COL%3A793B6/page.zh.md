@@ -1,5 +1,5 @@
-## 从 Rallina 旧组合定位当前页面 {#s-22129619eb}
-本页按 COL26.8 Rallicula mayri（793B6）及 Sarothruridae（CPHSJ）组织。BirdLife 2020 第 2698 行使用本页种名，原科名 Rallidae；eBird 2021 第 9078 行与 BirdTree 第 9024 行都记 Rallina mayri。关联类型分别为 1BL to 1eBird、1BL to 1BT；eBird 两侧 Avibase ID 同为 AVIBASE-8F99953C。逐字目录异名 4RB9J 指向接受种 793B6。旧属名和旧科名保留为来源记录，名称关联不证明历史与当前物种范围完全相同。
+## COL26.8 中的名称身份 {#s-22129619eb}
+《Catalogue of Life》COL26.8（2026-08-20）将 Rallicula mayri E. J. O. Hartert, 1930 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-997f995426}
 形态共 4 只鸟：雌 2、雄 2、性别未定 0；完整测量 3 只。鼻孔前缘至喙尖 15.5 mm、跗蹠 34.3 mm、未压平翼长 109.4 mm、尾长 66.8 mm、手翼指数 6.3 是历史行均值。总数大于完整数，不称每只鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；低指数不能据此判定不能飞，翼长也不是实测飞行能力。

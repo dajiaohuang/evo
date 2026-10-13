@@ -1,4 +1,6 @@
-## 从 2 条测量物种页开始 {#s-9ddf447e09}
+## 记录分类与直接上级关系 {#s-9ddf447e09}
+COL26.8 将 Phoenicoparrus 记录为属；其直接上级记录为 Phoenicopteridae。
+
 Phoenicoparrus 本路线有 2 条测量物种记录：Phoenicoparrus andinus 和 Phoenicoparrus jamesi。目录沿用固定 COL26.8 层级；生物学资料保留 AVONET v7 名称与取样范围。
 
 ## 比较记录均值与类别 {#s-7a7a753e85}

@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-d799d8f8b4}
 Phalarodon nordenskioeldii is accepted in the fixed PBDB ichthyosauriformes working roster, with database parent Phalarodon. This guide uses 3 eligible species-level occurrence records from 3 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-a5179d5561}
-Collection Wapiti Lake, Locality D (British Columbia), region code CA, stratum name Sulphur Mountain; database age bracket 250.8–248.6 Ma, early interval Smithian. Collection Wapiti Lake, locality B (British Columbia), region code CA, stratum name Sulphur Mountain; database age bracket 250.8–248.6 Ma, early interval Smithian. Collection Wapiti Lake, locality T (British Columbia), region code CA, stratum name Sulphur Mountain; database age bracket 247–237 Ma, early interval Anisian and late interval Ladinian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Phalarodon nordenskioeldii is listed in the PBDB snapshot under taxon txn:172832. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-e0ba948c6d}
-Selected occurrences have an outer age envelope of 250.8–237 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Wapiti Lake, Locality D, occurrence occ:1419118 (250.8–248.6 Ma); one supplying the younger bound is Wapiti Lake, locality T, occurrence occ:1419120 (247–237 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-a5179d5561}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-bfb7e7ab38}
-Wapiti Lake, Locality D has collection-environment label marine indet.; collection preservation-mode label body,mold/impression. Wapiti Lake, locality B has collection-environment label marine indet.; collection preservation-mode label body. Wapiti Lake, locality T has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1419118; PBDB collection col:105083. Locality cnm=Wapiti Lake, Locality D; place fields cc2=CA, stp=British Columbia. Recorded age bounds: eag 250.8 Ma; lag 248.6 Ma; PBDB interval fields oei=Smithian. Stratigraphic fields sfm=Sulphur Mountain. Recorded attribution Nicholls et al. 1999; PBDB reference ref:66910.
 
-## Follow collection records back to references {#s-62b11a3e6f}
-Wapiti Lake, Locality D carries database reference attribution Nicholls et al. (1999), identifier ref:66910. Wapiti Lake, locality B carries database reference attribution Nicholls et al. (1999), identifier ref:66910. Wapiti Lake, locality T carries database reference attribution Nicholls et al. (1999), identifier ref:66910. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"the Lower Triassic Vega-Phroso Siltstone Member of the Sulphur Mountain Formation (Lower–Middle Triassic)" (Cuthbertson et al. 2013, p. 832)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"south-east of Wapiti Lake in east-central British Columbia" "east-central British Columbia from the south end of a cirque designated as D locality (54˚ 31' 10"N, 120˚ 43'19"W)" (Cuthbertson et al. 2013, p. 832) "The specimens were collected along Ganoid Ridge, south east of Wapiti Lake in eastern British Columbia... [at] "B" cirque near Wapiti Lake, British Columbia, 54˚31'10"N, 120˚43'19"W "
+
+- Occurrence occ:1419119; PBDB collection col:152277. Locality cnm=Wapiti Lake, locality B; place fields cc2=CA, stp=British Columbia. Recorded age bounds: eag 250.8 Ma; lag 248.6 Ma; PBDB interval fields oei=Smithian. Stratigraphic fields sfm=Sulphur Mountain. Recorded attribution Nicholls et al. 1999; PBDB reference ref:66910.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+The specimens were collected along Ganoid Ridge, south east of Wapiti Lake in eastern British Columbia... from "B" cirque (localities D and B, Figure 1) near Wapiti Lake, British Columbia, 54031'10"N, 120043'19"W.
+
+- Occurrence occ:1419120; PBDB collection col:152278. Locality cnm=Wapiti Lake, locality T; place fields cc2=CA, stp=British Columbia. Recorded age bounds: eag 247 Ma; lag 237 Ma; PBDB interval fields oei=Anisian, oli=Ladinian. Stratigraphic fields sfm=Sulphur Mountain. Recorded attribution Nicholls et al. 1999; PBDB reference ref:66910.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+One specimen (TMP 88.99.21), collected at locality T, yielded two species of conodonts: Neogondolella constricta and Enantiognathus ziegleri. These suggest a correlation of late Anisian to early Ladinian (C. Ryley, personal commun.).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Along Ganoid Ridge, south east of Wapiti Lake in eastern British Columbia... 54031'10"N, 120043'19"W
+
+## Age bounds on the recorded occurrences {#s-e0ba948c6d}
+Across these selected PBDB rows, the largest recorded eag=250.8 Ma in occ:1419118; the smallest recorded lag=237 Ma in occ:1419120. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-bfb7e7ab38}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1419118: PBDB taxon-name field tna=Phalarodon nordenskioeldii; material note ocm=TMP 89.127.7, articulated anterior skeleton, including partial skull and lower jaws, pectoral girdle, humerus, cervicals and anterior dorsals, neural spines, ribs and gastralia; TMP 89.127.14, caudal vertebrae; TMP 89.127.15, posterior skull, preserved in dorsal view, lower jaw with teeth, anterior dorsal vertebrae, humerus; TMP 89.127.21, dentary, lower jaw elements, teeth; TMP 89.127.23, dentary, teeth; TMP 89.127.25, dorsal vertebrae; TMP 89.127.26, posterior dorsal vertebrae, femur, fibula, astragalus; TMP 89.127.28, dentary, teeth; TMP 9l.l22.1, incomplete skull, mandible, anterior vertebral column, girdle elements; TMP 9l.l22.4, dentary, teeth; TMP 91.122.5, mid-dorsal vertebrae; TMP 91.122.9, dentaries, teeth; PBDB locality-coordinate fields lng=-120.721947, lat=54.519444; paleocoordinate/model fields pm1=gplates, pln=-32.1, pla=39.25.
+- occ:1419119: PBDB taxon-name field tna=Phalarodon nordenskioeldii; material note ocm=TMP 89.129.1, skull and lower jaws, cervical and anterior dorsal vertebrae, scattered ribs; TMP 89.129.2, maxilla with teeth, isolated posterior dentary tooth, scattered centra, neural spines and ribs; TMP 91. 120.2, vertebrae; TMP 91.120.7, maxilla; TMP 91.120.8, skull elements; TMP 91.120.16, incomplete skull and cervicals; PBDB locality-coordinate fields lng=-120.721947, lat=54.519444; paleocoordinate/model fields pm1=gplates, pln=-32.1, pla=39.25.
+- occ:1419120: PBDB taxon-name field tna=Phalarodon nordenskioeldii; material note ocm=TMP 88.99.17, caudal vertebrae; TMP 88.99.18, posterior dorsal, anterior caudal vertebrae; TMP 89.126.4, anterior dorsal vertebrae, ribs, gastralia, coracoid, scapula, humerus; TMP 89.126.5, incomplete postcranial skeleton including posterior dorsal, sacral and anterior caudal vertebrae, ribs, gastralia, and left hind limb; TMP 89.126.7, internal view of left side of skull, scattered elements from right side of skull, disarticulated mandible, ribs; TMP 89.126.9, incomplete skull; TMP 89.126.1 1, posterior skull, cervical and anterior dorsal vertebrae; TMP 89.126.12, mandibular elements, teeth; TMP 89.126.17, dorsal skull roof; TMP 91.123.6, orbital region of skull; PBDB locality-coordinate fields lng=-120.721947, lat=54.519444; paleocoordinate/model fields pm1=gplates, pln=-34.06, pla=38.19.
+
+## References attached to each record {#s-62b11a3e6f}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1419118: Recorded attribution Nicholls et al. 1999; PBDB reference ref:66910.
+- occ:1419119: Recorded attribution Nicholls et al. 1999; PBDB reference ref:66910.
+- occ:1419120: Recorded attribution Nicholls et al. 1999; PBDB reference ref:66910.
 
 ## Evidence limits {#s-70c27ccacb}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 182-item ichthyosauriformes working roster, retain the current same name and a complete parent chain to the recorded Ichthyosauriformes storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

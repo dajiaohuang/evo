@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-a1ed564a7c}
+## 记录分类与直接上级关系 {#s-a1ed564a7c}
+COL26.8 将 Gecinulus 记录为属；其直接上级记录为 Picinae。
+
 固定 COL26.8 层级下的 Gecinulus 路径收录了 2 条有测量来源的物种记录。可先从 Gecinulus grantia、Gecinulus viridis 读起；生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-90c056afd3}

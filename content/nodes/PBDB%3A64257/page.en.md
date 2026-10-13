@@ -1,18 +1,42 @@
-## Which fossil records this name represents {#s-459906b5f7}
-Kerberosaurus manakini is accepted in the fixed PBDB dinosaur working roster, with database parent Kerberosaurus. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-459906b5f7}
+Kerberosaurus manakini is listed in the PBDB snapshot under taxon txn:64257. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-1174367f80}
-Collection Blagoveschensk (Amur), region code RU, stratum name Udurchukan; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Collection Kundur (Amur), region code RU, stratum name Udurchukan; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-1174367f80}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-369c414a92}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:474146; PBDB collection col:47029. Locality cnm=Blagoveschensk; place fields cc2=RU, stp=Amur, cny=Blagoveschensk. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Udurchukan. Recorded attribution Bolotsky and Godefroit 2004; PBDB reference ref:12514.
 
-## Read preservation setting separately from living habitat {#s-e4b196d588}
-Blagoveschensk has collection-environment label crevasse splay; collection preservation-mode label body. Kundur has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Wodehousia spinata-Aquilapollenities subtilis palynozone; lower part of group, Unit 2 of formation
 
-## Follow collection records back to references {#s-6a256c9792}
-Blagoveschensk carries database reference attribution Bolotsky and Godefroit (2004), identifier ref:12514. Kundur carries database reference attribution Godefroit et al. (2012), identifier ref:41883. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+on a hillside along the upper part of Nagornaia Street, W of Blagorveschensk city (but within city limits), Amur region, Far Eastern Russia. Amur-Zeya Basin.
 
-## Evidence limits {#s-e2e6e52297}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1044068; PBDB collection col:38134. Locality cnm=Kundur; place fields cc2=RU, stp=Amur, cny=Arkharinskii. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Udurchukan. Recorded attribution Godefroit et al. 2012; PBDB reference ref:41883.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Godefroit et al. (2012): "Udurchukan Formation (Wodehouseia spinata - Aquilapollenites subtilis palynozone), ?Late Maastrichtian, Late Cretaceous"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Kundur locality, near town of Obluch'e, Arkharinskii district, Amur region, Yevreyskaya Avtonomnyy Oblast, Russia. On the Vladivostok-Moscow highway (Chita-Khabarovsk highway), 10 km SE of Kundur village
+
+Godefroit et al. (2012): "Kundur (N 49deg 04' 57.5"; E 130deg 51' 34.1"), Amur Region, Far Eastern Russia."
+
+## Age bounds on the recorded occurrences {#s-369c414a92}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:474146; the smallest recorded lag=66 Ma in occ:474146. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-e4b196d588}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:474146: PBDB original-identification field idn=Kerberosaurus manakini n. gen. n. sp.; PBDB taxon-name field tna=Kerberosaurus manakini; material note ocm=AEHM 1/319; PBDB locality-coordinate fields lng=127.475830, lat=50.270000; paleocoordinate/model fields pm1=gplates, pln=114.51, pla=48.85.
+- occ:1044068: PBDB original-identification field idn=Kundurosaurus nagornyi n. gen. n. sp.; PBDB taxon-name field tna=Kerberosaurus manakini; material note ocm=AENM 2/921 (holotype), a partial, disarticulated skull; AENM 2/45, 2/46, jugals; AENM 2/ 83, 2/84, 2/86, maxillae; AENM 2/57, 2/58, nasals; AENM 2/ 48, postorbital; AENM 2/19, quadrate; AENM 2/121, 2/928 partial braincases; AEHM 2/846, 2/902, dentaries; AENM 2/ 906, scapula; AENM 2/913, sternal; AENM 2/117, 2/903, 2/ 907, 2/908, humeri; AENM 2/905, ulna; AENM 2/904, radius; AENM 2/922, nearly complete pelvic girdle and associated sacral elements; abundance fields abv=23, abu=specimens; PBDB locality-coordinate fields lng=130.859451, lat=49.082779; paleocoordinate/model fields pm1=gplates, pln=118.25, pla=48.53.
+
+## References attached to each record {#s-6a256c9792}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:474146: Recorded attribution Bolotsky and Godefroit 2004; PBDB reference ref:12514.
+- occ:1044068: Recorded attribution Godefroit et al. 2012; PBDB reference ref:41883.
+
+## What these records can show {#s-e2e6e52297}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

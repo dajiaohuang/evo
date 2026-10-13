@@ -1,5 +1,5 @@
-## Find historical rows through older Serinus combinations {#s-91f404ff07}
-Pinned COL26.8 organizes this page at Crithagra koliensis (6BGMN). BirdLife 2020 row 4028 and eBird 2021 row 2922 share the name and Avibase ID AVIBASE-5E456730, with type 1BL to 1eBird; BirdTree row 2906 gives Serinus koliensis, with type 1BL to 1BT. Read catalogue synonym 4WV76 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-91f404ff07}
+Catalogue of Life release COL26.8 records Crithagra koliensis (C. H. B. Grant & Mackworth-Praed, 1952) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-ba641c63fb}
 Morphology comprises 4 birds: 1 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.6 mm, tarsus 14 mm, unflattened wing 62 mm, tail 46.5 mm and hand-wing index 21.4 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

@@ -7,7 +7,9 @@
 ## 概览 {#s-6b022891f1}
 这条阅读路径现已连接固定 COL26.8 Piliocolobus 名录中的全部 17 个种级 ID。可先读西部类型的 Taï 取食研究、尼日尔三角洲调查，以及依据历史记录推断沃尔德伦红疣猴是否灭绝的论文；再比较基桑加尼快速评估、Lac Télé 淹水森林空地相机记录、稀疏的塞姆利基记录和 Salonga 单群食谱研究；最后阅读已链接的东非局地调查与森林碎片研究。两页保留分类交叉表差异；lulindicus 条目仅为资料不足的分类史记录，waldronae 则总结历史推断而非经确认的当前出现记录。不得把局地样本合并成当前属级分布或状态。
 
-## 按生活史字段选择对读页面 {#s-d2c7d2f358}
+## 记录分类与直接上级关系 {#s-d2c7d2f358}
+COL26.8 将 Piliocolobus Rochebrune, 1877 记录为属；其直接上级记录为 Colobini Jerdon, 1867。
+
 Piliocolobus 的本批路线包含 9 条历史生活史导读，可从 Piliocolobus badius、Piliocolobus foai、Piliocolobus gordonorum、Piliocolobus kirkii、Piliocolobus pennantii 开始。较多条目具有的字段包括 成年体重（9 条）、雌性成熟字段（源定义为首次受孕年龄）（9 条）、每窝幼体数或卵数（9 条）、受孕或受精至出生的时间（9 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-182c3c1a88}

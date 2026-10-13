@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-13e567b03d}
-Pinned COL26.8 organizes this page at Trochalopteron chrysopterum (596GZ). BirdLife 2020 row 4920 and eBird 2021 row 10686 share the name and Avibase ID AVIBASE-3467E0CF, with match type 1BL to 1eBird; BirdTree row 10619 gives Garrulax chrysopterus, with type 1BL to 1BT. The read tro/ga shards did not yield this exact older combination; a one-to-one crosswalk is not presented as a confirmed COL synonym. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-13e567b03d}
+Catalogue of Life release COL26.8 records Trochalopteron chrysopterum (Gould, 1835) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-34137d618f}
 The morphology row covers 5 birds: 2 female, 3 male and 0 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 12.5 mm, tarsus 37.7 mm, unflattened wing 102.1 mm, tail 114.2 mm and hand-wing index 4.6 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

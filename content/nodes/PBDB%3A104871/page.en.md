@@ -1,9 +1,9 @@
-## Organize fossil records by source classification {#s-fa6e0222db}
-Neotominae is recorded at rank subfamily in this batch’s PBDB path. This route offers occurrence guides for 106 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## Recorded parent of Neotominae {#s-fa6e0222db}
+Neotominae is listed at rank subfamily in the PBDB classification route, with Cricetidae as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
 
 ## Compare collections, strata and age brackets {#s-6bc7c083b0}
 Start with Pseudomyscus bathygnathus, Baiomys brachygnathus, Baiomys minimus, Baiomys mowi, Baiomys kolbi and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 427 selected occurrences from 282 collections; example stratum names are Ash Hollow, St. David, Gila Conglomerate, San Timoteo. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## Evidence limits {#s-8a4a85cd4a}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## What the occurrence ages can show {#s-8a4a85cd4a}
+How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Pseudomyscus bathygnathus’s collection record, not a continuous history for Neotominae.
 

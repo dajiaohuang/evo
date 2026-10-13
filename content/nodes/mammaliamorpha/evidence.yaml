@@ -67,3 +67,52 @@ records:
           locator: 1–78; Higher-taxon definitions; character analysis; discussion of basal mammaliamorph relationships
         - referenceId: ics-2026-06
           locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+  atlas-profile:
+    scientificName: Mammaliamorpha
+    name:
+      en: Mammaliamorpha
+      zh: Mammaliamorpha
+    rank: clade
+    sections:
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: mammaliamorph-topology
+            part: title
+          zh:
+            page: zh
+            section: mammaliamorph-topology
+            part: title
+        text:
+          en:
+            page: en
+            section: mammaliamorph-topology
+            part: body
+          zh:
+            page: zh
+            section: mammaliamorph-topology
+            part: body
+        claimIds:
+          - claim:taxon:mammaliamorpha:topology
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: mammaliamorph-range
+            part: title
+          zh:
+            page: zh
+            section: mammaliamorph-range
+            part: title
+        text:
+          en:
+            page: en
+            section: mammaliamorph-range
+            part: body
+          zh:
+            page: zh
+            section: mammaliamorph-range
+            part: body
+        claimIds:
+          - claim:taxon:mammaliamorpha:source-bounded-range-rc49

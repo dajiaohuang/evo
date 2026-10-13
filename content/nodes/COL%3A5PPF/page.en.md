@@ -1,4 +1,6 @@
-## Species records with cited traits {#s-9f4534a882}
+## Recorded classification and direct parent {#s-9f4534a882}
+COL26.8 records Mesoclemmys at genus rank, with Chelidae as its direct parent.
+
 This catalogue links 5 species records for Mesoclemmys with matching names, family placement and trait-level citations. Start with Mesoclemmys dahli, Mesoclemmys gibba, Mesoclemmys nasuta, Mesoclemmys perplexa, Mesoclemmys vanderhaegei. Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
 
 ## Compare like measurements {#s-1521ffaa33}
@@ -15,7 +17,7 @@ The life-history route covers historical entries with matching names and family 
 Some fields in 2 species accounts have citation labels that cannot be linked to those fields with enough certainty. Those values are not presented here as established traits; their labels remain with the species entries. The count refers to accounts, not complete trait coverage.
 
 ## Species records with cited traits {#s-edd68af6b5}
-This catalogue links 4 species records for Mesoclemmys with matching names, family placement and trait-level citations. Start with [Mesoclemmys raniceps](Mesoclemmys_raniceps/page.en.md), [Mesoclemmys tuberculata](Mesoclemmys_tuberculata/page.en.md), [Mesoclemmys wermuthi](Mesoclemmys_wermuthi/page.en.md), [Mesoclemmys zuliae](Mesoclemmys_zuliae/page.en.md). Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
+This catalogue links 4 species records for Mesoclemmys with matching names, family placement and trait-level citations. Start with Mesoclemmys raniceps, Mesoclemmys tuberculata, Mesoclemmys wermuthi, Mesoclemmys zuliae. Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
 
 ## Available trait comparisons {#s-e037d84dca}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.

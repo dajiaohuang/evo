@@ -1,5 +1,5 @@
-## Research overview {#s-75ee5761dd}
-The familiar “wolf-sized Pakicetus” reconstruction combines skull H-GSP 96231 with vertebrae and limb bones catalogued separately from H-GSP Locality 62. The skull’s ear region and the weight-bearing limbs support an early whale with substantial terrestrial locomotor ability.
+## A locality composite of skull and postcrania {#s-75ee5761dd}
+The cited account of *Pakicetus attocki* combines skull H-GSP 96231 with vertebrae and limb bones catalogued separately from H-GSP Locality 62 at Ganda Kas. These are unassociated specimens, not a single “wolf-sized” skeleton. Cetacean-like features in the skull’s ear region and weight-bearing, running-associated postcrania support a terrestrial early-whale interpretation.
 
 ## atlas-profile / ecology / diet {#s-cdf964798d}
 Diet is unresolved from the described skeleton and teeth; the study does not attribute prey remains to the sample
@@ -25,14 +25,12 @@ Weight-bearing limbs and running adaptations in separately catalogued postcrania
 ## atlas-profile / traits {#s-c3b2909354}
 Locality-composite reconstruction combining multiple individuals
 
-## What this evidence can establish {#s-7c3d5fe02e}
-The skull and postcranial bones come from the same locality but are not one associated skeleton. Their anatomy supports a terrestrial body-plan interpretation; it does not establish a specific shoreline habitat, and Pakicetus is not presented here as a direct ancestor.
+## Same locality, separate specimens {#s-7c3d5fe02e}
+The skull and postcranial bones from H-GSP Locality 62 are not one associated skeleton. Their anatomy supports a terrestrial body-plan interpretation, but does not establish a shoreline habitat or make *Pakicetus* a direct ancestor.
 
-## A skull and separate postcranial bones {#s-75110c7a6c}
-The basicranial region of skull H-GSP 96231 has cetacean-like ear features. Separately catalogued postcranial material preserves weight-bearing limb bones and features associated with running.
+## The ear region and load-bearing postcrania {#s-75110c7a6c}
+Skull H-GSP 96231 has cetacean-like features in its basicranial ear region. Separately catalogued postcranial material from the locality preserves weight-bearing limb bones and features associated with running. The reconstruction combines these unassociated specimens rather than one skeleton.
 
-The reconstruction combines several unassociated specimens from the same locality.
-
-## A terrestrial interpretation from a locality composite {#s-5274800b02}
-Limb proportions and osteology support a terrestrial locomotor interpretation, not an observed gait. The locality and formation do not establish a shoreline microhabitat, and the cited study does not assign prey remains to the sample. “Wolf-sized” is an author comparison for a locality composite, not a mass measurement; the terrestrial early-cetacean interpretation is bounded to the named sample.
+## What the locality composite can support {#s-5274800b02}
+Limb proportions and osteology support a terrestrial, running-adapted interpretation, but gait and performance were not observed. The locality and formation do not establish a shoreline microhabitat, and the cited study does not assign prey remains to the sample. “Wolf-sized” is an author comparison for this composite, not a mass measurement.
 

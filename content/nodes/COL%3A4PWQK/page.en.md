@@ -1,26 +1,26 @@
-## The 2015 life-history entry and this name {#s-fdb8f1adb2}
-COL26.8 accepts *Pteroglossus torquatus* in Ramphastidae. The 2015 life-history archive has an older record with the same name and family. Three fields are included here because cited, species-level sparse-table rows support them, but their summaries may still inherit older taxonomic data; matching row names do not remove that possibility.
+## Scope of the historical life-history entry {#s-fdb8f1adb2}
+The August 2015 database has a same-name, same-family record for Pteroglossus torquatus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-3e30153e53}
-The historical adult-mass summary is 193.75 g. Its source can combine males, females and adults whose sex was not specified, so the value is not a range of individual masses across the species. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-3e30153e53}
+The August 2015 compilation reports adult body mass 193.75 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-f7dcc64c19}
-The compilation reports 3 offspring or eggs per litter/clutch and an age of 44 d for flight capability (described as leaving the nest in some sources); d means days. The litter/clutch field combines offspring and egg counts. A fractional summary would not mean an event produced part of an individual, and the timing fields refer to different events rather than one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-f7dcc64c19}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3; age at flight capability (some records mark nest departure) 44 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-53b8c32389}
-The same-name rows cite Dunning (1992); Boback and Guyer (2003); Pereira, H.M., Daily, G.C. and J. Roughgarden (2004); Boyer, A.G., Cartron, J-L.E., and J.H. Brown (2009); and other works. The source archive preserves raw row numbers, values and field-specific labels, along with each reference's full explanation. A label can refer to a primary paper, book or another database. Row counts are not counts of measured animals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-53b8c32389}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-91a426fde7}
-The EltonTraits 1.0 archive also has an older *Pteroglossus torquatus* record in Ramphastidae. The two selected ecological groups allow comparison with the accepted COL26.8 entry, while retaining the source's earlier bird or MSW3 mammal taxonomy. A matching name does not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-91a426fde7}
+EltonTraits 1.0 has a same-name, same-family record for Pteroglossus torquatus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-df54a4007f}
-The nonzero food weights are fruit 70%, invertebrates 10%, mammals and birds 10%, and reptiles and amphibians 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-df54a4007f}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; mammals and birds 10%; reptiles and amphibians 10%; fruit 70%. Its dominant five-category label is FruiNect. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-baf65085d0}
-The species-level foraging-stratum weights are 80% in or just above the canopy and 20% in trees or high bushes from 2 m upward but below the canopy. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-baf65085d0}
+EltonTraits 1.0 records relative foraging-stratum weights of in mid-height or high vegetation 20%; in the canopy 80%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-4c5958b36e}
-The selected groups carry source label Ref_7. Diet, strata and activity can come from different materials; the same Ref number in bird and mammal reference tables does not identify the same source. The source archive retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, so source labels do not count as new independent observations.
+## Sources and field limits {#s-4c5958b36e}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.7.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-37832908a0}
 This page uses historical same-name records from the 2015 life-history archive. Values are compilation medians or averages of the two middle values, except maximum longevity, which uses the largest record found. They are not measurements of one individual, ranges of individual variation, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family, together with same-name sparse rows, supports the association here but does not establish equivalence to COL26.8 concepts or remove all inherited components. Wild or captive conditions are not uniformly confirmed, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;

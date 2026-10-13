@@ -1,44 +1,44 @@
-## Identity, classification and sample {#s-ceba6006ad}
-COL26.8 accepts *Pelecanus crispus* in Pelecanidae. The measurements and ecological fields here come from AVONET v7 under the HBW–BirdLife 2020 name. Five birds were measured, four with a complete morphological set; usable sample sizes may differ by trait.
+## Row-reported mean and sample coverage {#s-ceba6006ad}
+The AVONET v7 row for Pelecanus crispus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 377 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak dimensions at the nostril edge {#s-790fdb6274}
-The compiled means are 377 mm from the anterior edge of the nostril to the tip, 50.6 mm wide and 48.5 mm deep at that edge. These are distinct measurements at standardized landmarks, describing the sampled data rather than field-identification thresholds.
+## Beak measurements at defined landmarks {#s-790fdb6274}
+AVONET records culmen length (bill tip to skull base) 414 mm; beak length (nostril front edge to tip) 377 mm; beak width at the nostril front edge 50.6 mm; beak depth at the nostril front edge 48.5 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing and tarsus measurements; separate mass source {#s-826d9624eb}
-Mean unflattened wing length—from the carpal joint to the longest primary feather—is 687 mm; mean tarsus length, the measured leg segment above the foot, is 115.2 mm. A separate species-average source labelled Dunning reports 9512.09 g. This does not mean all morphological specimens were weighed.
+## Wing and body measures use separate sources {#s-826d9624eb}
+AVONET records unflattened wing length 687 mm; tarsus length 115.2 mm; distance from first secondary tip to longest primary tip 297.5 mm; length to first secondary tip 390.2 mm; hand-wing index 43.3; tail length 197.9 mm; species-average body mass 9512.09 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Broad habitat and feeding categories {#s-a559912235}
-AVONET assigns the record to Wetland habitat, an Aquatic predator trophic niche, and an Aquatic lifestyle. These are standardized dominant categories for cross-species comparison, not claims of exclusive habitat use or food.
+## Recorded habitat and feeding categories {#s-a559912235}
+AVONET classifies Pelecanus crispus as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aquatic. These broad source categories do not imply exclusive habitat or diet.
 
-## Historical migration and latitude endpoints {#s-c53f670d6f}
-The migration field classifies the record as partially migratory. Historical breeding and resident maps have latitude endpoints of 30° and 57.39°. They do not give complete non-breeding movements, a current location or a global occupancy estimate. The geography and measurements come from separate compilation steps.
+## Mapped range is not a locality list {#s-c53f670d6f}
+Historical breeding and resident maps span latitude endpoints 30° to 57.39°. The mapped range area is 3326029.46 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## A second, historical life-history source {#s-9371aa9ced}
-The pinned COL26.8 record places *Pelecanus crispus* in Pelecanidae. A separate comparison uses seven focal fields from the 2015 life-history archive, each supported by cited same-name, same-family species-level sparse-table rows (rows with selected fields, not complete records). Historical taxonomic inheritance may remain in those summaries.
+## Scope of the historical life-history entry {#s-9371aa9ced}
+The August 2015 database has a same-name, same-family record for Pelecanus crispus. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult and hatchling mass are separate summaries {#s-28197598c4}
-The archive reports adult body mass of 8700 g and birth or hatching mass of 110 g. The adult value can combine males, females and adults of unspecified sex; the hatchling value concerns another life stage. Neither gives an individual-mass range or follows the same birds over time.
+## Compiled adult-mass values {#s-28197598c4}
+The August 2015 compilation reports adult body mass 8700 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Maturity, clutch and developmental timing {#s-f92f533c28}
-The compilation lists female maturity at 1001.8 d, which the source defines as age at first conception; 2.75 offspring or eggs per litter or clutch; 30.5 d from laying to hatching; and 90 d to flight capability (called leaving the nest in some source material). “d” means days. The fractional clutch summary is an average, not a fraction of an animal in one event; the age and timing fields describe different events.
+## Reproductive fields describe different events {#s-f92f533c28}
+The August 2015 compilation reports female age at first conception (source definition) 1001.802 days; median or interpolated-median number of offspring or eggs per litter/clutch 2.75; oviposition-to-hatching interval 30.5 days; age at flight capability (some records mark nest departure) 90 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record is not a typical lifespan {#s-a351ed38e8}
-The archive’s maximum_longevity_y field is 35.3 years, the largest record found under its method. It is not typical lifespan, average wild lifespan, a survival limit for every bird or a current record shown to be repeatable.
+## A maximum record is not typical lifespan {#s-a351ed38e8}
+The compilation lists 35.3 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## Reference labels and underlying rows {#s-c06f89816f}
-Same-name rows carry labels including Dunning, 1992; de Magalhaes and Costa, 2009; Ricklefs, 2010b; and Bennett, 1986, among others. The batch preserves field-level raw row numbers, values and labels, plus the summary table’s full reference explanations. A label may identify a paper, book or database; row counts are not numbers of measured birds, and repeated citations are not independent replication.
+## Sources and field limits {#s-c06f89816f}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Foraging data in another historical framework {#s-e07cf68923}
-EltonTraits 1.0 supplies a historical same-name, same-family record with two sourced ecological field groups. Its taxonomy follows earlier bird classifications or MSW3 (the third edition of *Mammal Species of the World*). The name match does not settle modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-e07cf68923}
+EltonTraits 1.0 has a same-name, same-family record for Pelecanus crispus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Food weights are standardized estimates {#s-3dfb5d941b}
-Fish is the only nonzero food category in the archive, at 100%. Source code A indicates high compiler confidence in the source and diet information. The percentage standardizes a verbal description rather than measuring diet composition; zero weights do not show that a food is never eaten. Nect, Seed and PlantO are broader source labels than their everyday meanings.
+## Relative weights across food categories {#s-3dfb5d941b}
+EltonTraits 1.0 assigns relative diet weights of fish 100%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## A feeding stratum is not a time budget {#s-afdd855d80}
-The species-level foraging-stratum weight is 100% below the water surface. It estimates relative use of feeding positions, not time spent underwater, nest sites or the full habitat. Surface-water, understory, mid/high, canopy and aerial categories have distinct source definitions; they do not specify elevation, dive depth or habitat area.
+## Foraging positions are not a time budget {#s-afdd855d80}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Follow field labels to their source tables {#s-e1448afe75}
-The selected groups use Ref_1. Diet, stratum and activity may draw on different materials, and Ref_1 in a bird table need not identify the same source as Ref_1 in a mammal table. This batch keeps original citation strings by file, row, field group and reference table. The underlying books and papers were not individually read here; labels are not additional observations.
+## Sources and field limits {#s-e1448afe75}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-a43964932d}
 This page guides readers through historical AVONET v7 data. Morphology values are averages for the listed samples, not diagnoses or individual-variation ranges. Mass comes from separate sources, so the morphological sample count cannot be assigned to either mass figure. Habitat, diet and migration are coarse categories; geography covers historical breeding and resident ranges. Historical crosswalks and a matching catalogue name support the association, not equivalence of concepts after later splits or lumps. Reproduction, current populations and conservation need other sources.

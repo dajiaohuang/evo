@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-68bb9e06fd}
+## 记录分类与直接上级关系 {#s-68bb9e06fd}
+COL26.8 将 Acutotyphlops 记录为属；其直接上级记录为 Typhlopidae。
+
 Acutotyphlops 的 ReptTraits 阅读路径列有 5 条同名同科、带逐性状出处的物种资料：Acutotyphlops banaorum、Acutotyphlops infralabialis、Acutotyphlops kunuaensis、Acutotyphlops solomonis 和 Acutotyphlops subocularis。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架；这 5 条不是该类群全部接受种数量。
 
 ## 不同类群需要不同尺度 {#s-eb1bb00c32}

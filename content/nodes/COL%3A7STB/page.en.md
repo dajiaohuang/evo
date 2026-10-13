@@ -1,4 +1,6 @@
-## An accepted genus in the pinned catalogue {#s-bc51e35131}
+## Recorded classification and direct parent {#s-bc51e35131}
+COL26.8 records Tarentola at genus rank, with Phyllodactylidae as its direct parent.
+
 COL26.8 records Tarentola as an accepted genus within Phyllodactylidae. The page follows that pinned placement; it does not use the catalogue label to infer whether every descendant is living or extinct.
 
 ## One research route names Tarentola mauritanica {#s-8bc61b0f26}
@@ -20,7 +22,7 @@ This route selects batch entries with at least four sourced focal traits, includ
 The 2015 life-history archive contributes 14 Tarentola records. Start with T. angustimentalis, T. annularis, T. boavistensis, T. boettgeri and T. chazaliae. All 14 have offspring-or-egg counts and oviposition-to-hatching intervals; 13 have the archive’s longest-lifespan field, and 7 have adult body mass. These are page counts in this route, not the genus-wide denominator. Each value should be read with its event, unit and source.
 
 ## Six additional pages use a limited trait route {#s-ab057de8bc}
-Six further pages use a limited ReptTraits route. They include [Tarentola albertschwartzi](Tarentola_albertschwartzi/page.en.md), [T. bocagei](Tarentola_bocagei/page.en.md), [T. caboverdiana](Tarentola_caboverdiana/page.en.md), [T. hoggarensis](Tarentola_hoggarensis/page.en.md) and [T. nicolauensis](Tarentola_nicolauensis/page.en.md). They retain the workbook’s 2023 name framework and their own trait sources, but do not complete the genus roster.
+Six further pages use a limited ReptTraits route. They include Tarentola albertschwartzi, T. bocagei, T. caboverdiana, T. hoggarensis and T. nicolauensis. They retain the workbook’s 2023 name framework and their own trait sources, but do not complete the genus roster.
 
 ## Another pair of maxima, from different species {#s-91b54dd5a1}
 Tarentola raziana has a reported maximum SVL of 49.3 mm, while T. albertschwartzi has 137 mm. These records refer to separate species and are not a genus-wide range or a measure of individual variation. Activity, diet and reproduction require field-specific comparisons.

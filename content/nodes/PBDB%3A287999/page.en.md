@@ -1,18 +1,27 @@
-## Which fossil records this name represents {#s-45ee9b3b0c}
-Australornis lovei is accepted in the fixed PBDB dinosaur working roster, with database parent Australornis. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-45ee9b3b0c}
+Australornis lovei is listed in the PBDB snapshot under taxon txn:287999. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-29f90e30d5}
-Collection Waipara River M34/f453, region code NZ, stratum name Waipara Greensand; database age bracket 61.66–56 Ma, early interval Selandian and late interval Thanetian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-29f90e30d5}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-cfe1607ad0}
-Selected occurrences have an outer age envelope of 61.66–56 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1191790; PBDB collection col:68822. Locality cnm=Waipara River M34/f453; place fields cc2=NZ. Recorded age bounds: eag 61.66 Ma; lag 56 Ma; PBDB interval fields oei=Selandian, oli=Thanetian. Stratigraphic fields sfm=Waipara Greensand. Recorded attribution Mayr and Scofield 2014; PBDB reference ref:49921.
 
-## Read preservation setting separately from living habitat {#s-43df06ff9c}
-Waipara River M34/f453 has collection-environment label coastal indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"a well-preserved calcareous nannofossil assemblage... [indicates] that the age is high in the lower Teurian local stage" and "no younger" than lower Selandian, with an exact estimate of "60.5-61.6 Ma"
 
-## Follow collection records back to references {#s-9b11a1c02a}
-Waipara River M34/f453 carries database reference attribution Mayr and Scofield (2014), identifier ref:49921. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+## Age bounds on the recorded occurrences {#s-cfe1607ad0}
+Across these selected PBDB rows, the largest recorded eag=61.66 Ma in occ:1191790; the smallest recorded lag=56 Ma in occ:1191790. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
 
-## Evidence limits {#s-b14a871f58}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Material and coordinate fields {#s-43df06ff9c}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1191790: PBDB original-identification field idn=Australornis lovei n. gen. n. sp.; PBDB taxon-name field tna=Australornis lovei; material note ocm=CM 2010.108.2 - holotype (extremitas omalis of right coracoid, caudal portion of right scapula, right humerus lacking distal end, proximal end of right ulna, fragments of the shaft of a radius, and the left os carpi radiale); PBDB locality-coordinate fields lng=172.600006, lat=-43.066666; paleocoordinate/model fields pm1=gplates, pln=-151.52, pla=-48.23.
+
+## References attached to each record {#s-9b11a1c02a}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1191790: Recorded attribution Mayr and Scofield 2014; PBDB reference ref:49921.
+
+## What these records can show {#s-b14a871f58}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,18 +1,32 @@
-## Which fossil records this name represents {#s-36c93d0fce}
-Protathlitis cinctorrensis is accepted in the fixed PBDB dinosaur working roster, with database parent Protathlitis. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-36c93d0fce}
+Protathlitis cinctorrensis is listed in the PBDB snapshot under taxon txn:472224. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-81921ab89e}
-Collection ANA quarry, Cinctorres (Castellón), region code ES, stratum name Arcillas de Morella; database age bracket 125.77–121.4 Ma, early interval Late Barremian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-81921ab89e}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-7210bc2bd2}
-Selected occurrences have an outer age envelope of 125.77–121.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1274459; PBDB collection col:169162. Locality cnm=ANA quarry, Cinctorres; place fields cc2=ES, stp=Castellón, cny=Els Ports. Recorded age bounds: eag 125.77 Ma; lag 121.4 Ma; PBDB interval fields oei=Late Barremian. Stratigraphic fields sfm=Arcillas de Morella. Recorded attribution Santos-Cubedo et al. 2023; PBDB reference ref:84796.
 
-## Read preservation setting separately from living habitat {#s-248c9fa0ea}
-ANA quarry, Cinctorres has collection-environment label delta plain; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+37 m above base of formation
 
-## Follow collection records back to references {#s-3313c00714}
-ANA quarry, Cinctorres carries database reference attribution Santos-Cubedo et al. (2023), identifier ref:84796. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Villanueva-Amadoz et al. 2015: A Barremian age for this formation is established by its position below the Barremian – Aptian boundary, recently located based on ammonoids in the overlying Forcall Formation from the same sub-basin.
 
-## Evidence limits {#s-d3cb515e33}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+1500 m N of the town of Cinctorres, near Mas Roig
+
+## Age bounds on the recorded occurrences {#s-7210bc2bd2}
+Across these selected PBDB rows, the largest recorded eag=125.77 Ma in occ:1274459; the smallest recorded lag=121.4 Ma in occ:1274459. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-248c9fa0ea}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1274459: PBDB original-identification field idn=Protathlitis cinctorrensis n. gen. n. sp.; PBDB taxon-name field tna=Protathlitis cinctorrensis; material note ocm=8ANA-109, 3ANA83, 4ANA43, 4ANA69, 4ANA76, 5ANA78, 4ANA-11; abundance fields abv=7, abu=specimens; PBDB locality-coordinate fields lng=-0.217791, lat=40.582836; paleocoordinate/model fields pm1=gplates, pln=22.81, pla=26.63.
+
+## References attached to each record {#s-3313c00714}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1274459: Recorded attribution Santos-Cubedo et al. 2023; PBDB reference ref:84796.
+
+## What these records can show {#s-d3cb515e33}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -22,22 +22,37 @@ Intact gastrolith masses inside some ribcages, carbonized stomach contents and s
 ## Read stratigraphic age separately from age at death {#s-4c45734ad8}
 The paper discusses an approximately 92 Ma maximum age for the Ulansuhai Formation from dating underlying volcanic rocks and uses a Late Cretaceous designation. The occurrence guide retains PBDB’s 93.9–89.8 Ma/Turonian database interval. No dating is recalculated, and the underlying-rock maximum is not a precise death date for the bonebed. Geological time in millions of years and individual ages inferred from growth lines operate at different scales. Juvenile proportions in a catastrophic event inform the group present then, without directly determining ordinary juvenile mortality, a complete survivorship curve or species-wide population structure.
 
-## Which fossil records this name represents {#s-5475ec97c5}
-Sinornithomimus dongi is accepted in the fixed PBDB dinosaur working roster, with database parent Sinornithomimus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-5475ec97c5}
+Sinornithomimus dongi is listed in the PBDB snapshot under taxon txn:68342. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-29243f4bfd}
-Collection Suhongtu, Ulan Suhai (MHIDP) (Nei Mongol), region code CN, stratum name Ulansuhai; database age bracket 93.9–89.8 Ma, early interval Turonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-29243f4bfd}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-64f94955ee}
-Selected occurrences have an outer age envelope of 93.9–89.8 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:536615; PBDB collection col:55529. Locality cnm=Suhongtu, Ulan Suhai (MHIDP); place fields cc2=CN, stp=Nei Mongol. Recorded age bounds: eag 93.9 Ma; lag 89.8 Ma; PBDB interval fields oei=Turonian. Stratigraphic fields sfm=Ulansuhai. Recorded attribution Kobayashi and Lü 2003; PBDB reference ref:14984.
 
-## Read preservation setting separately from living habitat {#s-e0eb3616e9}
-Suhongtu, Ulan Suhai (MHIDP) has collection-environment label pond; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+maximum age 92 Ma based on underlying volcanic rocks; Faunal assignment to Aptian-Albian, but dating of underlying beds suggests maximum age is Turonian
 
-## Follow collection records back to references {#s-52cdb48e5b}
-Suhongtu, Ulan Suhai (MHIDP) carries database reference attribution Kobayashi and Lü (2003), identifier ref:14984. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. This occurrence inventory alone does not establish review of every cited paper or specimen; the newly read 2008 study is discussed above.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+30 km NW of Suhongtu, near Ulan Suhai, Alashanzuo Banner, near the boundary of China and Mongolia, in the western part of the Nei Mongol Autonomous Region (aka North Alashan Geological Region); NW of Bayan Mod
+
+## Age bounds on the recorded occurrences {#s-64f94955ee}
+Across these selected PBDB rows, the largest recorded eag=93.9 Ma in occ:536615; the smallest recorded lag=89.8 Ma in occ:536615. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-e0eb3616e9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:536615: PBDB original-identification field idn=Sinornithomimus dongi n. gen. n. sp.; PBDB taxon-name field tna=Sinornithomimus dongi; material note ocm=IVPP-V11797-10; abundance fields abv=14, abu=individuals; PBDB locality-coordinate fields lng=103.877220, lat=41.286110; paleocoordinate/model fields pm1=gplates, pln=108.58, pla=38.29.
+
+## References attached to each record {#s-52cdb48e5b}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:536615: Recorded attribution Kobayashi and Lü 2003; PBDB reference ref:14984.
 
 ## Evidence limits {#s-5ddcaae0a1}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
 New text uses the 2008 published article’s scientific text (pp. 567–576), two tables and five figure captions. Table 1 on p. 570, Figure 3 on p. 571 and Figure 4 on p. 573 were also visually inspected; other images, actual specimens and original thin sections were not examined, and dating/orientation analyses were not rerun. Fourteen earlier individuals, thirteen new skeletons and three histological samples remain separate denominators. The 2003 original description and other works cited by this article were not freshly reviewed individually here. Annual assumptions/minimum ages, mass mortality interpretations and breeding hypotheses remain distinct.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,10 +1,15 @@
-## Choose comparison pages by life-history fields {#s-2ae15e4b52}
-This batch’s Homo route includes one historical life-history account; start with Homo sapiens. More frequently represented fields include adult body mass (1 entry), female maturity field (defined by the source as age at first conception) (1 entry), offspring per litter or eggs per clutch (1 entry), conception or fertilization to birth (1 entry). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
+## One historical life-history account {#s-2ae15e4b52}
+The Amniote archive route contains one historical Homo account: Homo sapiens. Its recorded fields include adult mass, age at first conception, offspring per litter or eggs per clutch, and conception or fertilization-to-birth duration. These are fields in a 2015 compilation, not a complete genus profile or a statement about every member of Homo.
 
-## Compare food, feeding positions and activity periods {#s-cec308e96a}
-This batch’s Homo route includes one historical entry; start with Homo sapiens. Food-category weights are available in 0, foraging strata in 1, and mammalian activity periods in 1. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
+## What EltonTraits does and does not record {#s-cec308e96a}
+The single EltonTraits entry has no food-category weight, but it does include foraging stratum and activity-period fields. These are categorical or binary summaries of literature, not direct measurements of diet or a daily time budget. The entry describes this source record only.
 
-## Life-history evidence limits {#s-1253727fef}
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+## Scope of the two historical routes {#s-1253727fef}
+The Amniote archive and EltonTraits are separate historical datasets with their own field definitions and taxonomy. One same-name Homo sapiens entry is not complete coverage of the genus, and historical name matching does not establish current species concepts. EltonTraits categories are semi-quantitative and its activity fields are codes; the absence of a food weight is not evidence that a food type is absent.
+
+## The dated Dmanisi skull sample {#dmanisi-skull-sample}
+At Dmanisi, Georgia, adult skulls D4500 and D2600 are associated with layer B1y, dated to approximately 1.85–1.77 Ma in the cited study. This documents a named assemblage and interval. It is a source-bounded sample, not Homo’s global first appearance, origin, full temporal range, or living continuation.
+
+## Skull 5 and early Homo variation {#dmanisi-skull-five}
+The Dmanisi Skull 5 analysis documents variation within this assemblage. The paper’s interpretation of one evolving early-Homo lineage is a taxonomic hypothesis, not a settled ancestry claim. The observation does not collapse all early Homo taxa into one lineage or identify a direct ancestor.
 

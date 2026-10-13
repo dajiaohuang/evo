@@ -9,7 +9,9 @@
 
 2012 年一项比较研究测量了当时认可的 23 种现生鳄类、共 83 只性成熟个体。研究在上颌后部的主要磨牙位点报告的类群代表咬合力，从库氏凯门鳄的 900 N 到湾鳄的 8,983 N。跨种比较中，体质量是咬合力的主要解释变量；系统发育校正后的模型 R² 为 0.87。吻部相对比例只解释体质量标准化后剩余变异的一小部分，因此宽吻本身不能直接当作更大咬力的替代量；恒河鳄是相对咬力偏低的例外。样本与分类口径属于 2012 年研究，固定 COL26.8 鳄目分支有 27 个接受种；未把后来区分的谱系或旧名下未分开的样本强行映射到新种。
 
-## 按生活史字段选择对读页面 {#s-f3436d2c49}
+## 记录分类与直接上级关系 {#s-f3436d2c49}
+COL26.8 将 Crocodylia 记录为目；其直接上级记录为 Reptilia Laurenti, 1768。
+
 Crocodylia 的本批路线包含 21 条历史生活史导读，可从 Alligator mississippiensis、Alligator sinensis、Caiman crocodilus、Caiman latirostris、Caiman yacare 开始。按声明的类群范围保留的字段包括 成年体重（21 条）、每窝幼体数或卵数（21 条）、产卵至孵化的时间（21 条）、汇编中最长寿命记录（21 条）。这些计数描述本批资料覆盖，不是完整接受种分母；应先看事件、单位与出处，再比较数值。
 
 ## 证据范围 {#s-87297bb513}
@@ -35,7 +37,7 @@ Crocodylia 的本批路线包含 21 条历史生活史导读，可从 Alligator 
 ## Gavialidae 阅读索引 {#s-b2ec41f493}
 固定版本的 Gavialidae 分支有 2 个接受种：Gavialis gangeticus（COL 3FFQ3）；Tomistoma schlegelii（COL 57D4X）。本分支为各条记录保留双语专题研究导读；此名单不表示完整种志已经完成。
 
-## 从有性状记录的物种开始 {#s-24e9531da6}
+## 记录分类与成员材料 {#s-24e9531da6}
 Crocodylia 的本批 ReptTraits 阅读路径包含 23 条同名同科、有逐性状出处的物种资料，可从 Alligator mississippiensis、Alligator sinensis、Caiman crocodilus、Caiman latirostris、Caiman yacare 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 不同类群需要不同尺度 {#s-aef7d7042a}
@@ -47,8 +49,8 @@ Crocodylia 的本批 ReptTraits 阅读路径包含 23 条同名同科、有逐�
 ## 部分后代条目的引用缺口 {#s-06f7dd8c09}
 这条 ReptTraits 阅读路径中有 3 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-c5e16379da}
-Crocodylia 的本批 ReptTraits 阅读路径包含 3 条同名同科、有逐性状出处的物种资料，可从 [Crocodylus halli](Crocodylidae/Crocodylus/Crocodylus_halli/page.zh.md)、[Mecistops leptorhynchus](Crocodylidae/Mecistops/Mecistops_leptorhynchus/page.zh.md)、[Osteolaemus osborni](Crocodylidae/Osteolaemus/Osteolaemus_osborni/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-c5e16379da}
+Crocodylia 的本批 ReptTraits 阅读路径包含 3 条同名同科、有逐性状出处的物种资料，可从 Crocodylus halli、Mecistops leptorhynchus、Osteolaemus osborni 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-a0f96a82b3}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

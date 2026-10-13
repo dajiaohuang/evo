@@ -1,4 +1,6 @@
-## 目录中的位置 {#s-4741e31a7c}
+## 记录分类与直接上级关系 {#s-4741e31a7c}
+COL26.8 将 Scincidae 记录为科；其直接上级记录为 Autarchoglossa。
+
 Scincidae 在固定 COL26.8 中记录为接受分类单元，阶元为科，父级为 Autarchoglossa。本页沿用这一目录位置。
 
 ## 从已有样本页面开始 {#s-52e14ffbd0}
@@ -16,7 +18,7 @@ Scincidae 的本批路线包含 52 条历史生活史导读，可从 Ablepharus 
 
 本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
 
-## 从有性状记录的物种开始 {#s-b5efb9932d}
+## 记录分类与成员材料 {#s-b5efb9932d}
 Scincidae 的本批 ReptTraits 阅读路径包含 1218 条同名同科、有逐性状出处的物种资料，可从 Ablepharus alaicus、Ablepharus bivittatus、Ablepharus budaki、Ablepharus chernovi、Ablepharus deserti 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-5e4f1cdd0a}
@@ -28,8 +30,8 @@ Scincidae 的本批 ReptTraits 阅读路径包含 1218 条同名同科、有逐�
 ## 部分后代条目的引用缺口 {#s-a3713121a9}
 这条 ReptTraits 阅读路径中有 4 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-5d333aefb9}
-Scincidae 的本批 ReptTraits 阅读路径包含 431 条同名同科、有逐性状出处的物种资料，可从 [Ablepharus darvazi](Eugongylinae/Ablepharus/Ablepharus_darvazi/page.zh.md)、[Ablepharus eremchenkoi](Eugongylinae/Ablepharus/Ablepharus_eremchenkoi/page.zh.md)、[Ablepharus mahabharatus](Eugongylinae/Ablepharus/Ablepharus_mahabharatus/page.zh.md)、[Ablepharus tragbulensis](Eugongylinae/Ablepharus/Ablepharus_tragbulensis/page.zh.md)、[Acontias bicolor](Acontiinae/Acontias/Acontias_bicolor/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-5d333aefb9}
+Scincidae 的本批 ReptTraits 阅读路径包含 431 条同名同科、有逐性状出处的物种资料，可从 Ablepharus darvazi、Ablepharus eremchenkoi、Ablepharus mahabharatus、Ablepharus tragbulensis、Acontias bicolor 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-0c81584d83}
 本批已有尺寸记录中，Scincella macrotis 的已报道最大吻肛长（SVL）为 24 mm，Eumecia johnstoni 为 263 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

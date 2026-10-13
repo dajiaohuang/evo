@@ -1,15 +1,15 @@
-## A more detailed trait row, still a summary {#s-0cb961f1b6}
-COL26.8 accepts Aspidoscelis gularis in Teiidae. The compiled record pairs two length maxima with terrestrial, carnivorous and diurnal categories, active foraging and an egg-laying mode. Each trait has its own cited source, so the row should not be read as a single field observation.
+## COL26.8 name and the ReptTraits row {#s-0cb961f1b6}
+COL26.8 records Aspidoscelis gularis as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## 115 mm from snout to body opening {#s-3e640815fe}
-The reported maximum snout–vent length is 115 mm; the female maximum is 77.4 mm. Snout–vent length excludes the tail. These compiled maxima are not typical body sizes, and the sex-specific figures alone cannot show differences within one population.
+## Length values in the archived records {#s-3e640815fe}
+The row reports a maximum SVL of 115 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 77.4 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Active searching, without a prey list {#s-2039ce68b3}
-The row labels the microhabitat terrestrial, diet carnivorous, activity diurnal and foraging mode active. In plain language it describes a daytime animal that searches for food on land, but it does not name prey or establish an exact routine.
+## Habitat use and activity labels {#s-2039ce68b3}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Meiri 2018.
 
-## A 3.69 clutch mean in a 1–8 summary {#s-d9970075dd}
-Reproduction is labelled oviparous. The consolidated clutch/litter figure is 3.69, and the cited reported means span 1 to 8. A decimal is an aggregate, not part of a real clutch; the endpoints summarize reported means rather than guaranteed biological extremes.
+## Reproductive fields in ReptTraits {#s-d9970075dd}
+The compiled mean for offspring per litter or eggs per clutch is 3.6900000000000004. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 1; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 8; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The limits of the compiled profile {#s-cb9411bd2b}
-The row retains ReptTraits’ 2023 name framework, while COL26.8 provides the pinned classification here; name agreement alone does not settle concept equivalence. Sex, age, locality and populations are compressed together. This page does not update current range or conservation status.
+## Reading this compiled trait record {#s-cb9411bd2b}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

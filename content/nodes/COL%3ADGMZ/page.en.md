@@ -1,29 +1,29 @@
-## The name and this data account {#s-4a73dc37d5}
-Anas andium is accepted in COL26.8 within Anatidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-4a73dc37d5}
+The AVONET v7 row for Anas andium (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 32.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-2262e64080}
-Recorded mean beak measurements are 32.8 mm from the anterior nostril edge to the tip, 14.8 mm in width and 12.6 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-2262e64080}
+AVONET records culmen length (bill tip to skull base) 40.1 mm; beak length (nostril front edge to tip) 32.8 mm; beak width at the nostril front edge 14.8 mm; beak depth at the nostril front edge 12.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-12c9977a21}
-Mean unflattened wing length from the carpal joint to the longest primary is 224.2 mm; mean tarsus length is 31.8 mm. Compiled mean mass is 434 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-12c9977a21}
+AVONET records unflattened wing length 224.2 mm; tarsus length 31.8 mm; distance from first secondary tip to longest primary tip 101.7 mm; length to first secondary tip 124.8 mm; hand-wing index 44.9; tail length 82.2 mm; species-average body mass 434 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-12f824ec32}
-The dataset assigns habitat Wetland, trophic niche Herbivore aquatic and lifestyle Aquatic. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-12f824ec32}
+AVONET classifies Anas andium as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Herbivore aquatic (source threshold at least 60% from aquatic plant material); trophic level Omnivore; primary lifestyle Aquatic. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-738216a571}
-The migration field classifies this record as partially migratory. Historical breeding and resident maps span latitude endpoints -4.95° to 9.92°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-738216a571}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -4.95° to 9.92°. The mapped range area is 410562.88 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-8ac9653b8a}
-Anas andium is accepted in pinned COL26.8 within Anatidae. This page compares the same-name historical life-history entry using 4 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-8ac9653b8a}
+The August 2015 database has a same-name, same-family record for Anas andium. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-b847a1f316}
-Historical summary values are adult body mass 420.25 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-b847a1f316}
+The August 2015 compilation reports adult body mass 420.25 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-19b77fefeb}
-Available compilation fields are offspring per litter or eggs per clutch 6.4 offspring/eggs; oviposition to hatching 23.5 d; age at flight capability (leaving the nest in some source material) 46 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-19b77fefeb}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 6.400728863; oviposition-to-hatching interval 23.5 days; age at flight capability (some records mark nest departure) 46 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-0507871c42}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Boback and Guyer, 2003; Bennett, 1986, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-0507871c42}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-f73dacb44b}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

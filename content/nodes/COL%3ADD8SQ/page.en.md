@@ -1,5 +1,5 @@
-## Find rows through older Oceanodroma／Halocyptena combinations {#s-1dedad3789}
-The pinned COL26.8 record places this account under Hydrobates homochroa (DD8SQ). The BirdLife 2020 row 10058 and eBird 2021 row 4916 share the name; their Avibase ID is AVIBASE-04B43245, with type 1BL to 1eBird; BirdTree row 4893 gives Oceanodroma homochroa, with type 1BL to 1BT. The catalogue synonym 48C45 points to this accepted ID. Older genus names and changed endings help locate source rows; they do not show that species boundaries stayed identical over time.
+## A name fixed to COL26.8 {#s-1dedad3789}
+Catalogue of Life release COL26.8 records Hydrobates homochroa (Coues, 1864) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-f86566213c}
 The morphology sample includes 4 birds: 1 female, 2 male and 1 unsexed; 2 complete sets. Nostril-to-tip beak length 8.8 mm, tarsus 21.4 mm, unflattened wing 132.8 mm, tail 71.5 mm and hand-wing index 58.4 are historical row means. The total number of birds exceeds the number of complete sets, so not every bird has every field. Inference=NO does not give every field the same sample denominator. The hand-wing index is Kipp’s distance divided by wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

@@ -1,5 +1,5 @@
-## Overview {#s-f1c70a31a5}
-This page follows accepted COL26.8 species ID N2VC. MDD v2.5 supplies the display name Northern Muriqui. The highlighted demographic study uses long-term individual histories from one isolated population in a roughly 1,000-ha protected forest at Caratinga, Minas Gerais, Brazil.
+## A population turns from growth to decline {#s-f1c70a31a5}
+At Caratinga, decades of records from one isolated population in a roughly 1,000-ha protected forest reveal a reversal: mortality rose after 2015, and the population declined from 2016 through 2022 without a comparable shift in fertility. Statistical tests did not explain the sustained decline with climate or yellow-fever variables. The study’s long-range projections also change when the post-2016 demographic shift is included.
 
 ## Population research {#s-a47309688d}
 The individual-based dataset spans 1983–2022. The population grew from about 50 animals to more than 350 by 2015, then declined from 2016 through 2022 as mortality rose while fertility showed no comparable shift. Age- and sex-structured projections to 2060 were about 500 individuals using the earlier demographic profile and about 200 when the post-2016 change was included; these are model outputs, not current counts. The authors tested climate and yellow-fever variables but could not explain the sustained decline statistically.

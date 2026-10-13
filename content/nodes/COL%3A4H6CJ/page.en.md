@@ -1,15 +1,15 @@
-## A source-linked species entry {#s-7395f01243}
-COL26.8 accepts Phyllodactylus palmeus in Phyllodactylidae. The ReptTraits v1-2 row follows the workbook’s Reptile Database 2023 name framework and retains sources by trait. It gathers cited observations into one entry rather than describing every population as identical.
+## COL26.8 name and the ReptTraits row {#s-7395f01243}
+COL26.8 records Phyllodactylus palmeus as an accepted species. The ReptTraits v1-2 row gives its Family field as Phyllodactylidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The recorded maximum omits the tail {#s-7600f305cc}
-The maximum reported snout–vent length (SVL) is 76 mm. SVL is measured from snout to vent, not to the tail tip. This compiled maximum is neither a typical size nor an absolute growth limit.
+## Length values in the archived records {#s-7600f305cc}
+The row reports a maximum SVL of 76 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Tree, rock and ground settings {#s-1f18d7bf2a}
-The entry lists arboreal, saxicolous (rock-associated) and terrestrial microhabitats, and classifies activity as nocturnal. The combination records several settings but is not a complete habitat map or a fixed timetable. The source gives no diet value, and the summary cannot show how use differs among localities, seasons or life stages.
+## Habitat use and activity labels {#s-1f18d7bf2a}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/rock-dwelling (Saxicolous)/ground-dwelling (Terrestrial) [source label: Arboreal/Saxicolous/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Two in the clutch summary {#s-ae50e0a7ef}
-The source labels reproduction oviparous, or egg-laying. Its consolidated offspring/egg value is 2, and the lowest and highest reported means are also 2. A summary may use midpoints of reported means or, when those are absent, of reported extremes; it is not necessarily an average of individually observed clutches. The endpoints are not guaranteed clutch extremes, and these labels do not establish embryo nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-ae50e0a7ef}
+The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## A compiled record, not a full range study {#s-808f0dc957}
-This account paraphrases the same-name ReptTraits v1-2 row and its 2023 naming framework. A single row compresses variation in sex, age, locality and population; a matching name and family do not prove equivalence with later concepts. The reported maximum and clutch summary are not species-wide limits or fixed outcomes. The entry does not update current distribution, conservation or population trends, and preserving its citations does not mean every source was independently reread here.
+## Reading this compiled trait record {#s-808f0dc957}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

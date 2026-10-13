@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-6ded24c17b}
+## 记录分类与直接上级关系 {#s-6ded24c17b}
+COL26.8 将 Anolis 记录为属；其直接上级记录为 Anolidae。
+
 Anolis 的本批 ReptTraits 阅读路径包含 367 条同名同科、有逐性状出处的物种资料，可从 Anolis acutus、Anolis aeneus、Anolis aequatorialis、Anolis agassizi、Anolis agueroi 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-bf4b184662}
@@ -7,8 +9,8 @@ Anolis 的本批 ReptTraits 阅读路径包含 367 条同名同科、有逐性�
 ## 证据边界 {#s-0388de32a8}
 本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
 
-## 从有性状记录的物种开始 {#s-fd3a95de53}
-Anolis 的本批 ReptTraits 阅读路径包含 47 条同名同科、有逐性状出处的物种资料，可从 [Anolis antioquiae](Anolis_antioquiae/page.zh.md)、[Anolis apollinaris](Anolis_apollinaris/page.zh.md)、[Anolis arenal](Anolis_arenal/page.zh.md)、[Anolis australis](Anolis_australis/page.zh.md)、[Anolis binotatus](Anolis_binotatus/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-fd3a95de53}
+Anolis 的本批 ReptTraits 阅读路径包含 47 条同名同科、有逐性状出处的物种资料，可从 Anolis antioquiae、Anolis apollinaris、Anolis arenal、Anolis australis、Anolis binotatus 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-7ed629086a}
 本批已有尺寸记录中，Anolis pygmaeus 的已报道最大吻肛长（SVL）为 35 mm，Anolis danieli 为 125 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

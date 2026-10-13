@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-14f2088a3d}
+## 记录分类与直接上级关系 {#s-14f2088a3d}
+COL26.8 将 Lasionycteris 记录为属；其直接上级记录为 Eptesicini Volleth & Heller, 1994。
+
 PanTHERIA 路径有一条可用记录，涉及 Lasionycteris noctivagans。该记录保留原始 MSW05 名称、变量各自的材料条件与缺失情况。分类导航沿用固定 COL26.8；这条历史记录不代表当前接受种数量。
 
 ## 比较体型与生活史 {#s-f0467c16fa}

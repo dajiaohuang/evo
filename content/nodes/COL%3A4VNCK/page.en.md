@@ -8,5 +8,5 @@ Ambrose’s 2003 comparison identified a Makandé-region loud-call profile south
 The 2003 paper studied galagos under the then-broad name Galago alleni and predicted three species-level forms; the 2013 account formalized the Makandé form. This page does not expand the type locality or acoustic records into a continuous range or a complete natural-history account.
 
 ## Evidence limits {#s-19dc4e5765}
-Evidence is centered on the acoustic comparison and short species account; it does not establish abundance, trend or full natural history. The acoustic paper used the historical broad name Galago alleni, and this guide preserves its proposed interpretation rather than presenting it as a range-wide field survey. The Chinese name is editorial. This page is.
+Evidence is centered on the acoustic comparison and short species account; it does not establish abundance, trend or full natural history. The acoustic paper used the historical broad name Galago alleni, and this guide preserves its proposed interpretation rather than presenting it as a range-wide field survey. The Chinese name is editorial.
 

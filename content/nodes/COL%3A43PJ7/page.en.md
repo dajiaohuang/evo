@@ -1,15 +1,15 @@
-## Two entries in the row {#s-a63e08c248}
-Pinned COL26.8 places Mitophis asbolepis in Leptotyphlopidae. The limited ReptTraits v1-2 row records a fossorial microhabitat, sourced to Feldman (2015), and oviparous reproductive mode, sourced to Zimin et al. (2022). The workbook name follows The Reptile Database (2023); the name and family match does not establish that the historical concept is unchanged.
+## COL26.8 name and the ReptTraits row {#s-a63e08c248}
+COL26.8 records Mitophis asbolepis as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The microhabitat entry {#s-a2a8f4bbb5}
-“Fossorial” is the microhabitat category recorded for this species. The workbook also uses arboreal, cryptic, saxicolous, semi-aquatic and terrestrial categories, sometimes in combination. The Feldman (2015) citation supports this label; it does not give a separate habitat-type or locality account.
+## Habitat use and activity labels {#s-a2a8f4bbb5}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015.
 
-## The reproductive entry {#s-dd3ccde1c9}
-The row labels reproductive mode “oviparous,” with Zimin et al. (2022) as its source. No clutch count or egg measurement is supplied with this entry, so those reproductive details remain unreported here.
+## Reproductive fields in ReptTraits {#s-dd3ccde1c9}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Scope of these observations {#s-dfcddd4683}
-These two categorical fields do not describe the species’ full ecology or reproduction. They do not establish where individuals live, when they are active, or how clutch size varies. Their citations retain the dataset’s source chain; this page does not claim independent review of every underlying study.
+## Reading this compiled trait record {#s-dfcddd4683}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Other species details {#s-5655f5fcae}
-The row offers no supported size, offspring count, egg dimension, diet, active-time or foraging value, or sex-determining category. Those details are not established for Mitophis asbolepis by this account; relatives and blank fields cannot supply them.
+## Reading this compiled trait record {#s-5655f5fcae}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

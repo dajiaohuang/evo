@@ -1,5 +1,5 @@
-## Trace the older Garrulax name {#s-fd946df3c3}
-Pinned COL26.8 organizes this page at Trochalopteron elliotii (596H2). BirdLife 2020 row 4921 and eBird 2021 row 10687 share the name and Avibase ID AVIBASE-9CBD5A5C, with match type 1BL to 1eBird; BirdTree row 10620 gives Garrulax elliotii, with type 1BL to 1BT. Read COL older-combination record 3FBQX points to this accepted ID. The source spells the family Leiotrichidae and the catalogue ancestor Leiothrichidae; both spellings are retained. These links locate historical data without proving identical taxonomic concepts across dates.
+## A name fixed to COL26.8 {#s-fd946df3c3}
+Catalogue of Life release COL26.8 records Trochalopteron elliotii J. Verreaux, 1871 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Complete sets and beak/wing means {#s-4f73c09ae7}
 The morphology row covers 5 birds: 2 female, 3 male and 0 unsexed, with 4 complete measurement sets. Nostril-to-tip beak length 9.8 mm, tarsus 36.5 mm, unflattened wing 96.6 mm, tail 130.7 mm and hand-wing index 6.1 are historical row summaries. Inference=NO does not establish equal field denominators, sex differences or individual minimum–maximum bounds. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed or migration distance.

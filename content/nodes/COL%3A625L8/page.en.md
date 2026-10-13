@@ -1,10 +1,12 @@
-## Start with the measured records {#s-6e797e0f52}
+## Recorded classification and direct parent {#s-6e797e0f52}
+COL26.8 records Picidae at family rank, with Piciformes as its direct parent.
+
 This batch has 121 Picidae species records with measurements. Five entry points are Blythipicus pyrrhotis, B. rubiginosus, Campephilus gayaquilensis, C. guatemalensis and C. imperialis. The page hierarchy follows pinned COL26.8, while the measurements remain tied to AVONET v7's historical names and samples.
 
 ## Range across records, not within a species {#s-ee8d98aec4}
 Across the batch, the smallest and largest compiled mean masses are 8.94 g for Picumnus aurifrons and 700 g for Campephilus imperialis. These are endpoints across species means, not individual mass limits. Represented habitat classes include Forest, Woodland, Shrubland, Rock and Grassland; trophic-niche classes include Invertivore, Omnivore, Frugivore and Granivore. They help readers choose comparisons and do not define traits shared by the family or list every descendant.
 
-## Follow life-history fields with their units {#s-932b5a51b8}
+## Amniote Life-history archive member records {#s-932b5a51b8}
 There are 48 historical life-history accounts in this batch. Useful starting pages include Campephilus principalis, Chrysocolaptes erythrocephalus, C. guttacristatus, C. haematribon and C. lucidus. Adult mass and offspring per litter or eggs per clutch appear in all 48; oviposition-to-hatching duration appears in 43; age at flight capability appears in 40, although some sources record leaving the nest instead. These are batch coverage counts, not a complete family denominator. Check each event, unit and source before comparing values; several life-history fields are medians, while maximum longevity is the largest recorded value.
 
 ## Records with both diet and foraging fields {#s-86132d06e1}
@@ -17,7 +19,7 @@ Another 31 historical entries have just one usable ecology group. Starting point
 The measured route, life-history route and two EltonTraits routes cover authored records in this batch, not every accepted descendant. Mass endpoints compare compiled means across records, not individuals within a species. Life-history medians and maximum-longevity records retain their distinct meanings and possible inheritance from older taxonomies. EltonTraits weights translate literature descriptions into coarse categories; any congeneric borrowing is noted on the relevant species page. A family route does not establish shared reproduction, diet or behavior. Read the source, sample and taxonomic limits on each species page.
 
 ## A smaller ecology and geography route {#s-5bc2a671e6}
-Seven entries in this batch provide a limited AVONET ecology and geography account. Start with [Campethera scriptoricauda](Picinae/Campethera/Campethera_scriptoricauda/page.en.md), [Dendrocopos noguchii](Picinae/Dendrocopos/Dendrocopos_noguchii/page.en.md), [Mulleripicus fulvus](Picinae/Mulleripicus/Mulleripicus_fulvus/page.en.md), [Piculus litae](Picinae/Piculus/Piculus_litae/page.en.md) or [Picumnus cinnamomeus](Picumninae/Picumnus/Picumnus_cinnamomeus/page.en.md). COL26.8 supplies navigation; seven is the count of authored entries here, not of all accepted Picidae.
+Seven entries in this batch provide a limited AVONET ecology and geography account. Start with Campethera scriptoricauda, Dendrocopos noguchii, Mulleripicus fulvus, Piculus litae or Picumnus cinnamomeus. COL26.8 supplies navigation; seven is the count of authored entries here, not of all accepted Picidae.
 
 ## Read the available ecology categories cautiously {#s-b9e092a66f}
 All seven limited entries have habitat, trophic niche, primary lifestyle and migration categories. Read those fields by their source definitions, and keep coarse classes separate from maps and direct observations. A shared label across these seven records does not establish a trait for every descendant. Their beak, wing, tarsus, tail and mass fields are intentionally uninterpreted and cannot support a family size comparison.

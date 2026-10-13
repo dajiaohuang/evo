@@ -1,9 +1,9 @@
-## 名称与目录分类等级 {#s-1b8d937ead}
-PBDB 分类层级将 Santanadactylus 列为属级；所选索引在这一名称下链接 2 个物种名。
+## Santanadactylus：PBDB 分类路径 {#s-1b8d937ead}
+PBDB 分类层级将 Santanadactylus 列为属级；所选索引在这一名称下链接 2 个物种名。所选出现记录提供成员记录的入口，不构成本属整体形态或生态的综述。
 
-## 已列名物种与采集地 {#s-f0833110c6}
+## 与 Santanadactylus 关联的成员材料 {#s-f0833110c6}
 已列名的例子包括 Santanadactylus spixi、Santanadactylus brasilensis。所选目录行包含 2 条出现记录、1 个采集记录，所列地层包括 Romualdo。这些是数据库条目数，不是化石个体数或古种群规模。
 
-## 目录记录能说明什么 {#s-964da19e4d}
+## Santanadactylus 所选记录的范围限制 {#s-964da19e4d}
 本页呈现 2026-10-02 核对的 PBDB 所选出现记录。上级路径是数据库分类目录，不是系统发育分析或完整后代名录；条目数不表示生物丰度或生态重要性。
 

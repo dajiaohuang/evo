@@ -1,44 +1,44 @@
-## The name and this data account {#s-f7aa059110}
-Pelecanus onocrotalus is accepted in COL26.8 within Pelecanidae. AVONET v7 reports the historical HBW–BirdLife 2020 name with 5 measured individuals, 4 of them having a complete morphological set. Trait-specific sample sizes can differ, and this name match does not establish modern taxonomic concept equivalence.
+## Row-reported mean and sample coverage {#s-f7aa059110}
+The AVONET v7 row for Pelecanus onocrotalus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 341.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-2d98ca5ceb}
-The mean beak length is 341.8 mm from the anterior nostril edge to the tip; mean width and depth at that edge are 54.4 mm and 49.1 mm. The three measurements describe different dimensions at standardized landmarks, not identification cutoffs.
+## Beak measurements at defined landmarks {#s-2d98ca5ceb}
+AVONET records culmen length (bill tip to skull base) 359 mm; beak length (nostril front edge to tip) 341.8 mm; beak width at the nostril front edge 54.4 mm; beak depth at the nostril front edge 49.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-aa4a0a58a3}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 646.4 mm; mean tarsus length is 128.5 mm. The separate compiled mass mean is 9,322.31 g, labelled Dunning. It is not a mass measurement assigned to each of the five morphology records.
+## Wing and body measures use separate sources {#s-aa4a0a58a3}
+AVONET records unflattened wing length 646.4 mm; tarsus length 128.5 mm; distance from first secondary tip to longest primary tip 266.8 mm; length to first secondary tip 366.8 mm; hand-wing index 42.1; tail length 160.8 mm; species-average body mass 9322.31 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-9b1376929c}
-The AVONET row is categorized as Wetland for habitat, Aquatic predator for trophic niche and Aquatic for lifestyle. These broad labels help compare records; they do not define every habitat, food item or behavior of this species.
+## Recorded habitat and feeding categories {#s-9b1376929c}
+AVONET classifies Pelecanus onocrotalus as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aquatic. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-678fc8e9dc}
-The movement category is partially migratory. Historical breeding and resident maps span latitude endpoints −34.84° to 54.73°. These map limits omit a full account of non-breeding movements and are not a current occupancy map; geography and body measurements come from separate source steps.
+## The migration label has a limited scope {#s-678fc8e9dc}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -34.84° to 54.73°. The mapped range area is 810182.64 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-fe027f13c2}
-The 2015 archive contributes six focal fields from a historical same-name life-history entry at species level. Matching name and family support the link, but the compilation may inherit values from older species or subspecies concepts.
+## Scope of the historical life-history entry {#s-fe027f13c2}
+The August 2015 database has a same-name, same-family record for Pelecanus onocrotalus. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-592ea877a0}
-The archived adult body-mass summary is 9,520 g. It can combine males, females and adults of unspecified sex, so it is not an individual range. This account has no selected birth or hatching mass.
+## Compiled adult-mass values {#s-592ea877a0}
+The August 2015 compilation reports adult body mass 9520 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-eccf0d1438}
-The other available summaries are female age at first conception, 1,272.14 days; clutch or litter size, 2 eggs or offspring; laying to hatching, 32.5 days; and age at flight capability, 72.5 days. The source uses “female maturity” for first conception; these timings refer to different events, not one reproductive interval.
+## Reproductive fields describe different events {#s-eccf0d1438}
+The August 2015 compilation reports female age at first conception (source definition) 1272.138 days; median or interpolated-median number of offspring or eggs per litter/clutch 2; oviposition-to-hatching interval 32.5 days; age at flight capability (some records mark nest departure) 72.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-84799468c7}
-The recorded maximum_longevity_y value is 51 years, the largest value retained by the source method. It describes a maximum record in the collection, not a typical lifespan, mean wild lifespan or a guarantee for individuals.
+## A maximum record is not typical lifespan {#s-84799468c7}
+The compilation lists 51 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-c8ce607a01}
-Source labels on same-name rows include Dunning (1992), Szekely, Lislevand, and Figuerola (2007), de Magalhaes and Costa (2009), Ricklefs (2010b) and others. The archive preserves field-specific row numbers, values and reference explanations; its row count is not a count of measured birds, and a repeated label is not independent replication.
+## Sources and field limits {#s-c8ce607a01}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-65557dcebc}
-EltonTraits 1.0 links a historical same-name, same-family record to this accepted COL26.8 name. Its older bird taxonomy does not settle later splits or synonyms; the section reports only the source-defined food and foraging groups.
+## Scope of the historical trait entry {#s-65557dcebc}
+EltonTraits 1.0 has a same-name, same-family record for Pelecanus onocrotalus covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-1832f8c8b2}
-Fish accounts for all of the archive’s nonzero food weight (100%); code A marks high compiler confidence in the source and diet information. The weight standardizes literature descriptions rather than measuring the bird’s diet, and zero weight for other categories does not prove they are never eaten.
+## Relative weights across food categories {#s-1832f8c8b2}
+EltonTraits 1.0 assigns relative diet weights of fish 100%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-8da99d1bdf}
-The species-level foraging record assigns 100% to below the water surface. This is a relative feeding-position weight, not a measure of depth, dive duration, nest location or whole-day activity.
+## Foraging positions are not a time budget {#s-8da99d1bdf}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-80f4b622b0}
-Both retained EltonTraits groups carry Ref_1, recorded as Handbook of the Birds of the World volume 1. The archive links that label to the selected fields; the underlying book has not been independently reviewed here, and the label does not add a separate observation.
+## Sources and field limits {#s-80f4b622b0}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-3c97f7aece}
 AVONET v7 gives species means under the historical HBW–BirdLife name: morphology is based on five measured individuals, while mass is a separately sourced compilation value. Habitat, trophic niche, lifestyle and movement are broad categories; the historical map endpoints do not describe current occupancy. A same-name link does not prove equivalence to the COL26.8 concept.

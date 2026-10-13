@@ -1,4 +1,6 @@
-## Three entries in the historical ecological route {#s-e25d17886d}
+## Recorded classification and direct parent {#s-e25d17886d}
+COL26.8 records Eospalax at genus rank, with Myospalacinae as its direct parent.
+
 Catalogue of Life COL26.8 records Eospalax as an accepted genus. The EltonTraits 1.0 route in this batch contains three historical entries grouped under that pinned ancestry: Eospalax fontanierii, Eospalax rothschildi, and Eospalax smithii. Its field-group summary counts three diet entries, three foraging entries, and three activity entries. These are counts in this historical compilation, not the genus’s complete species list or evidence that its members share one diet or activity pattern. The methods metadata describes semiquantitative translation and interpolation, so read these as coded historical fields.
 
 ## Limits of the route {#s-966e2fd481}

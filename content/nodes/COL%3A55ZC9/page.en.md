@@ -1,29 +1,29 @@
-## The 2015 life-history entry and this name {#s-8627167087}
-Thalassarche cauta is accepted in pinned COL26.8 within Diomedeidae. The 2015 life-history archive contains a record under the same name, with five focal fields supported by cited species-level rows from the same family. The name links the records but does not remove older species or subspecies data that may have been inherited in the summaries.
+## Scope of the historical life-history entry {#s-8627167087}
+The August 2015 database has a same-name, same-family record for Thalassarche cauta. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass in the archive {#s-6af640ef54}
-The archive reports an adult body-mass summary of 4,012.5 g. The record may combine males, females and adults of unspecified sex; it does not give the species’ range of individual masses. No birth-or-hatching mass is available in this account.
+## Compiled adult-mass values {#s-6af640ef54}
+The August 2015 compilation reports adult body mass 4012.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-3d8c9a9f70}
-The archive reports one offspring or egg per litter or clutch, 69 days from laying to hatching, and 144.59 days to flight capability. Some source material defines the last event as leaving the nest. The litter/clutch field combines offspring and egg counts, so its summary does not describe a fraction of an individual. The time values refer to different events, not one interchangeable reproductive interval.
+## Reproductive fields describe different events {#s-3d8c9a9f70}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 69 days; age at flight capability (some records mark nest departure) 144.59 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-ddfb272ba8}
-The archive reports maximum longevity as 40 years, selected as the largest record in its collected material. This is not typical or mean wild lifespan, a limit that applies to every bird, or a claim that the record is currently repeatable.
+## A maximum record is not typical lifespan {#s-ddfb272ba8}
+The compilation lists 40 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-7ba6645542}
-The cited rows include Dunning (1992), Szekely, Lislevand and Figuerola (2007), Bennett (1986), and Serrano-Meneses and Szekely (2006), among other sources. The archive retains each field’s original row number, value and source label, alongside its reference explanations. A label may identify a paper, book or another database; row counts are not measured-bird counts, and repeated citations are not independent experiments.
+## Sources and field limits {#s-7ba6645542}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-47f0eb31df}
-Thalassarche cauta is accepted in pinned COL26.8 within Diomedeidae. EltonTraits 1.0 contains a historical record with the same name and family; the following sections describe its diet and feeding-position fields. Its taxonomy predates the current catalogue, so a name match cannot resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-47f0eb31df}
+EltonTraits 1.0 has a same-name, same-family record for Thalassarche cauta covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-361e3cbf12}
-EltonTraits assigns 60% of the food weight to invertebrates and 40% to fish. Diet code A indicates high compiler confidence in the source and diet information. These weights standardize literature descriptions rather than measure diet directly; a zero for another category would not prove it is never eaten.
+## Relative weights across food categories {#s-361e3cbf12}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 60%; fish 40%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-75bf66763c}
-The archive marks this foraging-stratum record as species-level: 80% is assigned to feeding on or just below the water surface and 20% below the surface. These weights describe relative feeding positions, not nest sites, total habitat use or an all-day activity budget. The categories follow the source definitions; they do not describe elevation, flight height or habitat area.
+## Foraging positions are not a time budget {#s-75bf66763c}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 20%; around the water surface 80%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-bc42e0a0a6}
-Both EltonTraits field groups cite Ref_1, the Handbook of the Birds of the World volume 1 entry recorded by the archive. References attach to field groups; their labels identify provenance rather than additional observations. The underlying book entry has not been independently reviewed here.
+## Sources and field limits {#s-bc42e0a0a6}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-e8bcae57ec}
 The 2015 life-history values are compilation summaries, not measurements of one bird, individual-variation ranges, mean wild lifespan or a current population survey. They are medians or averages of the two middle values, except maximum longevity, which uses the largest record found. Historical species and subspecies may share inherited data; matching name and family do not remove that inheritance or prove equivalence to the current COL26.8 concept. Wild or captive conditions are not consistently known, and the original publications have not been reviewed individually. Diet, behavior, current range and conservation need other sources.

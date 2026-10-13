@@ -1,41 +1,41 @@
-## The name and this data account {#s-60dd09cbf7}
-Amazona ochrocephala is an accepted Psittacidae species in COL26.8. AVONET v7 records 9 measured birds under the HBW–BirdLife 2020 name; 4 have a complete morphological set. Usable counts may vary by trait.
+## Row-reported mean and sample coverage {#s-60dd09cbf7}
+The AVONET v7 row for Amazona ochrocephala (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 32.6 mm. The row records 9 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-123e1758de}
-Mean beak length is 32.6 mm from the front edge of the nostril to the tip. At the nostril edge, mean width is 19.7 mm and depth is 32.9 mm. These are separate measurements at set landmarks, not identification thresholds.
+## Beak measurements at defined landmarks {#s-123e1758de}
+AVONET records culmen length (bill tip to skull base) 38.3 mm; beak length (nostril front edge to tip) 32.6 mm; beak width at the nostril front edge 19.7 mm; beak depth at the nostril front edge 32.9 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-2f79bbbd68}
-Mean unflattened wing length from carpal joint to longest primary is 212.9 mm, and mean tarsus length is 22 mm. A separate compilation gives mean mass as 476.94 g (Dunning category); the morphology sample does not imply that every bird was weighed.
+## Wing and body measures use separate sources {#s-2f79bbbd68}
+AVONET records unflattened wing length 212.9 mm; tarsus length 22 mm; distance from first secondary tip to longest primary tip 60.8 mm; length to first secondary tip 154.8 mm; hand-wing index 28.3; tail length 116.5 mm; species-average body mass 476.94 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-d8b675bbd5}
-AVONET assigns Forest habitat, Omnivore trophic niche and Insessorial lifestyle. These broad comparison categories do not mean the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-d8b675bbd5}
+AVONET classifies Amazona ochrocephala as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-5255a9d513}
-The migration field classifies the record as sedentary. Historical breeding and resident maps reach latitude endpoints of -17.01° and 12.46°. They do not cover all non-breeding movements or estimate current global occupancy. These maps and the morphology data were compiled separately.
+## The migration label has a limited scope {#s-5255a9d513}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -17.01° to 12.46°. The mapped range area is 6626117.83 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-cdf6e82f1e}
-In pinned COL26.8, Amazona ochrocephala is accepted within Psittacidae. The five life-history fields here come from a historical record with the same name and family and are backed by cited species-level rows. Older taxonomy may have carried data into this compilation, so the name match does not rule out inheritance.
+## Scope of the historical life-history entry {#s-cdf6e82f1e}
+The August 2015 database has a same-name, same-family record for Amazona ochrocephala. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-a6f7c0a477}
-The historical compilation gives an adult body-mass summary of 432.16 g. It may combine male, female and sex-unspecified adult records, so it is not an individual mass range. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-a6f7c0a477}
+The August 2015 compilation reports adult body mass 432.16 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-fef2799f80}
-The compilation lists 3 offspring or eggs per litter/clutch, 29 d from egg laying to hatching and 60 d to flight capability (some sources record leaving the nest). Here, d means days. The litter/clutch field combines young and egg counts, so a fractional summary would not describe part of an individual in one event. These times describe different events, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-fef2799f80}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3; oviposition-to-hatching interval 29 days; age at flight capability (some records mark nest departure) 60 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-eb5226b35a}
-The archive gives 56 years for maximum_longevity_y, the largest record found under its method. This is not a typical or average wild lifespan, an individual survival limit, or proof of a current record that can be repeated.
+## A maximum record is not typical lifespan {#s-eb5226b35a}
+The compilation lists 56 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-be04410a91}
-The matching source rows carry labels including Dunning, 1992; de Magalhaes and Costa, 2009; Ricklefs, 2010b; and Schuck-Paima, C., Alonsob, W.J., and E.B. Ottonia, 2008, among others. The archive keeps each field's original row number, value and label, alongside the full reference explanations. A label may point to a paper, book or database. Row counts are not animal counts, and repeated citations are not independent experiments.
+## Sources and field limits {#s-be04410a91}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## What one ecological field can tell us {#s-698d801afc}
-In pinned COL26.8, Amazona ochrocephala is accepted within Psittacidae. This page reads one ecological field group from the same-name, same-family EltonTraits 1.0 record and retains its source labels. The source follows earlier bird taxonomy or MSW3 for mammals, so a name match does not settle modern splits or synonymy.
+## Scope of the historical trait entry {#s-698d801afc}
+EltonTraits 1.0 has a same-name, same-family record for Amazona ochrocephala covering diet weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-d6c81a10b5}
-EltonTraits gives nonzero food weights of fruit 40%, the category that includes seeds, nuts and spores 30%, and other plant material 30% (this source category also includes fungi). Code A indicates high compiler confidence in the source and diet information. The percentages standardize verbal descriptions, not measured diet shares; a zero does not prove a food is never eaten. Nect, Seed and PlantO are broader categories than their everyday names suggest.
+## Relative weights across food categories {#s-d6c81a10b5}
+EltonTraits 1.0 assigns relative diet weights of fruit 40%; seeds or nuts 30%; other plant material 30%. Its dominant five-category label is PlantSeed. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Trace each field group to its source labels {#s-2478c1e741}
-The selected group carries label Ref_4. Diet, strata and activity may draw on different material, and the same reference number in bird and mammal tables does not identify the same source. The archive preserves full citation strings by file, row, field group and reference table. The underlying books and papers have not been reviewed individually; labels are not additional observations.
+## Sources and field limits {#s-2478c1e741}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.4.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-5c2b48c785}
 This page interprets historical AVONET v7 data. Morphological values are species averages for the listed samples, not diagnostic limits or individual variation ranges. Mass comes from separate literature or weighing sources, so the morphology sample counts do not apply to it. Habitat, diet and migration are broad categories; the maps cover historical breeding and resident ranges. A historical one-to-one crosswalk and matching name support the association but do not establish equivalence between later taxonomic concepts. Other sources are needed for reproduction, current populations and conservation.

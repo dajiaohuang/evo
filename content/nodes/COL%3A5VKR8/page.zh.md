@@ -1,5 +1,5 @@
-## 沿 Caprimulgus 旧名定位 {#s-adc44a5be9}
-本页按COL26.8 Antrostomus saturatus（5VKR8）、Caprimulgidae（7PQ）组织。BirdLife 2020第611行与eBird 2021第732行同名，eBird两侧Avibase ID同为AVIBASE-67D59645，类型1BL to 1eBird。BirdTree第733行记Caprimulgus saturatus，类型1BL to 1BT；逐字目录异名QSQ8指向接受种5VKR8。名称关系提供定位，不证明不同版本物种范围完全相同。
+## COL26.8 中的名称身份 {#s-adc44a5be9}
+《Catalogue of Life》COL26.8（2026-08-20）将 Antrostomus saturatus Salvin, 1870 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-a311250fa0}
 形态共 4 只鸟：雌 2、雄 2、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 5.7 mm、跗蹠 16 mm、未压平翼长 144.5 mm、尾长 109.2 mm、手翼指数 47.8 是历史行均值。完整数与总数相等，仍不提供个体变异范围。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；指数不是飞行速度，翼长也不是实测飞行能力。

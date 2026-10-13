@@ -1,5 +1,5 @@
-## 沿旧 Schizoeaca／Oreophylax 组合查历史行 {#s-8637ac65a4}
-本页按 COL26.8 的 Asthenes harterti（DD9G2）组织。BirdLife 2020 第 4194 行与 eBird 2021 第 1039 行同名，Avibase ID 为 AVIBASE-B1A9C628，类型 1BL to 1eBird；BirdTree 第 1040 行记 Schizoeaca harterti，类型 1BL to 1BT。本次读到目录异名 79X6G，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-8637ac65a4}
+《Catalogue of Life》COL26.8（2026-08-20）将 Asthenes harterti (Berlepsch, 1901) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-fdc64807ff}
 形态共 11 只鸟：雌 2、雄 8、性别未定 1；完整测量 1 只。鼻孔前缘至喙尖 9.3 mm、跗蹠 22.5 mm、未压平翼长 52 mm、尾长 100.8 mm、手翼指数 12.8 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。只有一只具有完整测量；它不是形态总鸟数，也不证明每个字段只取一只。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

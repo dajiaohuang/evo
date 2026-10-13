@@ -1,5 +1,5 @@
-## Locate records through older Pomatorhinus names {#s-13dad5c5ed}
-Pinned COL26.8 organizes this page at Erythrogenys hypoleucos (NRMRB) in Timaliidae (H9M). BirdLife 2020 row 8335 and eBird 2021 row 3771 share the name; both eBird sides share Avibase ID AVIBASE-1928C4DD, with type 1BL to 1eBird. BirdTree row 3755 gives Pomatorhinus hypoleucos, type 1BL to 1BT; exact catalogue synonym 6W6LK points to accepted species NRMRB. Name links locate records without proving identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-13dad5c5ed}
+Catalogue of Life release COL26.8 records Erythrogenys hypoleucos (Blyth, 1844) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-c19fde635b}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 30.3 mm, tarsus 37.3 mm, unflattened wing 105.4 mm, tail 93.8 mm and hand-wing index 6.2 are historical row means. Totals exceed complete sets; not every bird has all fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

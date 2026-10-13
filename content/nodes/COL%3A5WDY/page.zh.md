@@ -1,4 +1,6 @@
-## 本批的四条 Myomyscus 历史记录 {#s-5298438191}
+## 记录分类与直接上级关系 {#s-5298438191}
+COL26.8 将 Myomyscus 记录为属；其直接上级记录为 Murinae。
+
 本批有四条 Myomyscus 历史记录，例如 M. angolensis、M. yemeni、M. verreauxii 和 M. brockmani。三条记录含食物类别权重，觅食层位和哺乳类活动字段各见于四条。计数只说明本批资料覆盖，不是接受种总数，也不代表整个类群共有这些特征。
 
 ## 类群导读的边界 {#s-9b29dee20d}

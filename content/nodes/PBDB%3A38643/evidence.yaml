@@ -16,7 +16,10 @@ records:
     - subjectId: taxon:mussaurus
       claimKind: scientific
       claimType: fossil-range
-      statement: Mussaurus is represented by hatchling, yearling and adult specimens from the Patagonian sample used for its ontogenetic models; these individuals do not establish complete genus endpoints or an evolutionary ladder.
+      statement:
+        page: en
+        section: growth-series
+        part: body
       confidence: high
       confidenceRationale: The specimen set and locality context are explicit. High confidence applies to the sampled growth series, while stance reconstruction remains a model.
       referenceLinks:
@@ -28,7 +31,9 @@ records:
   claim-rationales.zh:
     - 标本集合和地点背景明确。高置信度适用于取样生长序列，姿态重建仍是模型。
   claim-statements.zh:
-    - 鼠龙由用于个体发育模型的巴塔哥尼亚幼体、一岁个体和成体标本表示；这些个体不建立完整属级端点或演化阶梯。
+    - page: zh
+      section: growth-series
+      part: body
   ranges:
     - entityId: mussaurus
       rangeKind: global-composite

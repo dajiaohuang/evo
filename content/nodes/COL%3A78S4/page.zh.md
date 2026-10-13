@@ -7,7 +7,9 @@ COL26.8 在 Rhinopithecus 属下列出五个接受种：R. bieti、R. roxellana�
 ## 如何理解这些资料 {#s-44f9719606}
 这是一条连接五个名录接受种与若干地方研究的阅读路径，不是属级生态综述或系统发育结论。任何数量、移动或栖地结果都只对应其明确的研究地和时期；。
 
-## 按生活史字段选择对读页面 {#s-46155aeafc}
+## 记录分类与直接上级关系 {#s-46155aeafc}
+COL26.8 将 Rhinopithecus A. Milne-Edwards, 1872 记录为属；其直接上级记录为 Presbytini Gray, 1825。
+
 Rhinopithecus 的本批路线包含 4 条历史生活史导读，可从 Rhinopithecus avunculus、Rhinopithecus bieti、Rhinopithecus brelichi、Rhinopithecus roxellana 开始。较多条目具有的字段包括 成年体重（4 条）、受孕或受精至出生的时间（4 条）、每窝幼体数或卵数（3 条）、汇编中最长寿命记录（3 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-6492641e58}

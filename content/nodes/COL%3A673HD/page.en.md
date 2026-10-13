@@ -1,29 +1,29 @@
-## The name and this data account {#s-0863ad0dea}
-Anisognathus notabilis is accepted in COL26.8 within Thraupidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-0863ad0dea}
+The AVONET v7 row for Anisognathus notabilis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 13 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-44d9e0425a}
-Recorded mean beak measurements are 13 mm from the anterior nostril edge to the tip, 6 mm in width and 7.5 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-44d9e0425a}
+AVONET records culmen length (bill tip to skull base) 22.4 mm; beak length (nostril front edge to tip) 13 mm; beak width at the nostril front edge 6 mm; beak depth at the nostril front edge 7.5 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-6a88307caa}
-Mean unflattened wing length from the carpal joint to the longest primary is 99.9 mm; mean tarsus length is 23.2 mm. Compiled mean mass is 57.3 g, with source category Updated_literature. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-6a88307caa}
+AVONET records unflattened wing length 99.9 mm; tarsus length 23.2 mm; distance from first secondary tip to longest primary tip 22.4 mm; length to first secondary tip 77.4 mm; hand-wing index 22.5; tail length 75.2 mm; species-average body mass 57.3 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-79c36317e1}
-The dataset assigns habitat Forest, trophic niche Frugivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-79c36317e1}
+AVONET classifies Anisognathus notabilis as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Frugivore (source threshold at least 60% from fruit); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-3fb6a5b76f}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -4.54° to 5.56°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-3fb6a5b76f}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -4.54° to 5.56°. The mapped range area is 18610.62 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-d1330364ec}
-Anisognathus notabilis is accepted in pinned COL26.8 within Thraupidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-d1330364ec}
+EltonTraits 1.0 has a same-name, same-family record for Anisognathus notabilis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-557baf0be0}
-The archive’s nonzero food weights are fruit 100%. Source code B indicates reasonable source confidence with potentially uncertain relative proportions. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-557baf0be0}
+EltonTraits 1.0 assigns relative diet weights of fruit 100%. Its dominant five-category label is FruiNect. Code B marks a reasonably reliable source, though relative proportions may be uncertain. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-0ebfb93c00}
-Foraging-stratum weights flagged as species-level in the archive are trees or high bushes from 2 m upward but below the canopy 70%; understory, edges or shrubs below 2 m 20%; in or just above the canopy 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-0ebfb93c00}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 20%; in mid-height or high vegetation 70%; in the canopy 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-8c4d15409a}
-The used groups carry labels Ref_21. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-8c4d15409a}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: The Tanagers. 1999. By Morton Isler. Smithsonian Press.; foraging: The Tanagers. 1999. By Morton Isler. Smithsonian Press.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-2b3470f9ff}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

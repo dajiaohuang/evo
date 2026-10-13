@@ -11,5 +11,5 @@ A museum-based craniodental study measured 290 Galagoides skulls. Specimens bear
 Early Gabonese nocturnal-primate work predates the gradual clarification of dwarf-galago species boundaries. Later Gabon work discusses demidoff and thomasi as sympatric populations; broad names in older sources should not automatically be assigned to every present COL species record.
 
 ## Evidence limits {#s-74f946711d}
-This is a guide to Moca records on Bioko and craniodental identification, not a complete species account. The available sources do not support a complete range, range-wide diet, population trend or current conservation assessment here; close-relative data are not substituted. This page is.
+This is a guide to Moca records on Bioko and craniodental identification, not a complete species account. The available sources do not support a complete range, range-wide diet, population trend or current conservation assessment here; close-relative data are not substituted.
 

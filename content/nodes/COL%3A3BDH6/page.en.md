@@ -8,5 +8,5 @@ Yirga et al. reported two groups during a preliminary 28-hour survey at Anbesa C
 Gippoliti’s review places documented records in the Blue Nile basin of western Ethiopia and adjoining Sudan, but emphasizes their scarcity and calls for field surveys. It discusses the type region and a few Ethiopian sites; it does not provide a modern range-wide survey, population count or genetic test of the proposed boundaries.
 
 ## Evidence limits {#s-8837d91e5e}
-The 2010 group records were published under the broad name E. patas; their later placement with E. poliophaeus is Gippoliti’s interpretation, not the original authors’ species identification. The 2017 proposal relies on morphology, photographs and sparse locality history, and explicitly calls for more fieldwork. The 2019 IUCN evidence was Data Deficient. The Chinese common name is editorial. This page is.
+The 2010 group records were published under the broad name E. patas; their later placement with E. poliophaeus is Gippoliti’s interpretation, not the original authors’ species identification. The 2017 proposal relies on morphology, photographs and sparse locality history, and explicitly calls for more fieldwork. The 2019 IUCN evidence was Data Deficient. The Chinese common name is editorial.
 

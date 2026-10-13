@@ -1,15 +1,15 @@
-## The accepted species in its source row {#s-89fc9f435d}
-COL26.8 accepts Phyllodactylus ventralis in Phyllodactylidae. Its ReptTraits v1-2 row follows the workbook’s Reptile Database 2023 name framework and retains sources by trait. The row gathers cited reports; it is not a uniform description of every population.
+## COL26.8 name and the ReptTraits row {#s-89fc9f435d}
+COL26.8 records Phyllodactylus ventralis as an accepted species. The ReptTraits v1-2 row gives its Family field as Phyllodactylidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A maximum measured to the vent {#s-e64c1a91de}
-The reported maximum snout–vent length (SVL) is 75 mm, and the female maximum is 62.3 mm. SVL runs from snout to vent, excluding the tail. These compiled maxima are not typical sizes or growth limits; the sex-specific reports may come from different places or studies, so their difference alone cannot establish a population’s size dimorphism.
+## Length values in the archived records {#s-e64c1a91de}
+The row reports a maximum SVL of 75 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 62.3 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Tree-associated, carnivorous and nocturnal labels {#s-38407c5e51}
-The row lists an arboreal microhabitat, a carnivorous diet and nocturnal activity. These are broad labels for the cited reports, not a complete habitat map or fixed schedule. “Carnivorous” does not identify prey, and the row does not show how traits vary among localities, seasons or life stages.
+## Habitat use and activity labels {#s-38407c5e51}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## The source records egg-laying only {#s-414f1d30c9}
-The reproductive-mode label is oviparous, meaning egg-laying. No clutch or litter count is supported in this entry, so it does not tell how many eggs are laid per event. The mode alone does not establish embryo nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-414f1d30c9}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The row is not a population survey {#s-a7a951873e}
-This page paraphrases the same-name ReptTraits v1-2 row under its 2023 naming framework. A single row compresses age, sex, place and population variation; matching name and family do not prove equivalence with later concepts. The length is a compiled maximum, and the reproductive mode gives no clutch size. Conservation, venom, current distribution and population trends are not updated here; retained citations preserve the source chain without implying that every original study was independently reread for this page.
+## Reading this compiled trait record {#s-a7a951873e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

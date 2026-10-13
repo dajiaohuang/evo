@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-f797a05531}
-Pinned COL26.8 organizes this page at Cinnyris humbloti (5YV5C). BirdLife 2020 row 5963 and eBird 2021 row 2335 share the name and Avibase ID AVIBASE-308AEC0F, with type 1BL to 1eBird; BirdTree row 2328 gives Nectarinia humbloti, with type 1BL to 1BT. Read older-combination record 462NH points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-f797a05531}
+Catalogue of Life release COL26.8 records Cinnyris humbloti Milne-Edwards & Oustalet, 1885 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-9db03c2605}
 Morphology covers 5 birds: 2 female, 3 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 14.4 mm, tarsus 15.2 mm, unflattened wing 50.2 mm, tail 33.4 mm and hand-wing index 17.3 are historical row means. Inference=NO does not establish 5 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-652c8d0953}
-Pinned COL26.8 organizes this page as Pternistis capensis (4PV6L). AVONET v7 BirdLife 2020 row 2510 and eBird 2021 agree in name, with Avibase ID AVIBASE-6405CD29; BirdTree gives Francolinus capensis, with match type 1BL to 1BT. Read COL older-combination record 6JLDZ points to accepted ID 4PV6L. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-652c8d0953}
+Catalogue of Life release COL26.8 records Pternistis capensis (J. F. Gmelin, 1789) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-d01fe73958}
 Morphology covers 4 birds (2 female, 2 male); 4 have complete measurement sets. Mean nostril-to-tip beak length is 18.3 mm, tarsus 62.4 mm, unflattened wing 205.8 mm and hand-wing index 21.6. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed.

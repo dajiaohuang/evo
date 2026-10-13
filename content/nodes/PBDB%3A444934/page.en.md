@@ -19,21 +19,39 @@ The 2021 paper relates the gracile skull, downturned dentary, simplified occlusa
 ## Relationships retain low support and polytomies {#s-8a9cc8fd99}
 The 2021 analysis places Berthasaura near early branches of Noasauridae. With full sampling, the consensus is poorly resolved and most nodes have low support; basal polytomies remain after unstable taxa are removed. It is not recovered as a close relative of Vespersaurus from the same site. Shared classification and locality do not establish a closest-sister relationship. This page retains the fixed database parent and the original analysis date and scope, without rerunning the matrix or deciding every later classification scheme.
 
-## Which fossil records this name represents {#s-e96dd7ea16}
-Berthasaura leopoldinae is accepted in the fixed PBDB dinosaur working roster, with database parent Berthasaura. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-e96dd7ea16}
+Berthasaura leopoldinae is listed in the PBDB snapshot under taxon txn:444934. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-ca6e969bbd}
-Collection Cemitério dos Pterossauros Quarry (Paraná), region code BR, stratum name Goio-Erê; database age bracket 121.4–72.2 Ma, early interval Aptian and late interval Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-ca6e969bbd}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-76df7a25a6}
-Selected occurrences have an outer age envelope of 121.4–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1583175; PBDB collection col:160057. Locality cnm=Cemitério dos Pterossauros Quarry; place fields cc2=BR, stp=Paraná. Recorded age bounds: eag 121.4 Ma; lag 72.2 Ma; PBDB interval fields oei=Aptian, oli=Campanian. Stratigraphic fields sfm=Goio-Erê. Recorded attribution de Souza et al. 2021; PBDB reference ref:78692.
 
-## Read preservation setting separately from living habitat {#s-3dcd75b157}
-Cemitério dos Pterossauros Quarry has collection-environment label interdune; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The age of the fossil-bearing layer is uncertain, ranging from Aptian-Albian to Turonian-Campanian (see Kellner et al. 2019). 3 fossiliferous levels separated by 25 m, with bones apparently in each.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Cemitério dos Pterossauros Quarry, in an outcrop along a rural road about 2 km N of Cruzeiro do Oeste municipality, Paraná State; "exposed at the overbanks of a secondary road (53° 03′ 53″W, 26° 45′ 34″S) about 2 km north of Cruzeiro do Oeste, Paraná, Brazil" (Fig. 1, Langer et al., 2019).
+
+## Age bounds on the recorded occurrences {#s-76df7a25a6}
+Across these selected PBDB rows, the largest recorded eag=121.4 Ma in occ:1583175; the smallest recorded lag=72.2 Ma in occ:1583175. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-3dcd75b157}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1583175: PBDB original-identification field idn=Berthasaura leopoldinae n. gen. n. sp.; PBDB taxon-name field tna=Berthasaura leopoldinae; material note ocm=MN 7821-V, nearly complete disarticulated skeleton, incl. partial skull & lower jaw; MPCO. V 0121, dentary; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-53.064720, lat=-26.776112; paleocoordinate/model fields pm1=gplates, pln=-27.49, pla=-29.84.
 
 ## Follow collection records back to references {#s-ed7d8af4b5}
 The database retains de Souza et al. (2021), ref:78692. A new shared reference records all seven original-description authors, DOI and actual selected reading scope. The later dentary study was read only as publisher front matter and abstract, not full text or specimen review. Remaining original postcranial text, images, supplements and later histology remain unread.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1583175: Recorded attribution de Souza et al. 2021; PBDB reference ref:78692.
+
 ## Evidence limits {#s-5e25442dc0}
 This page adds selected 2021 original-description passages and a short later-abstract notice. The original horizon says Aptian–Albian, while the fixed PBDB row retains its own broad age bracket; these are not silently harmonized. Remaining postcranial text, images, supplementary matrices and later full texts remain unread. No independent specimen inspection, scanning, measurement or phylogenetic rerun occurred. Holotype size, maturity and toothless condition do not represent all growth stages. Diet and behavior lack direct observation; a full monograph remain pending.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

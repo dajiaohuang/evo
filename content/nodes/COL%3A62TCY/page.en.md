@@ -1,4 +1,6 @@
-## Choose comparison pages by life-history fields {#s-7b59387d58}
+## Recorded classification and direct parent {#s-7b59387d58}
+COL26.8 records Eudorcas at genus rank, with Antilopini as its direct parent.
+
 This batch’s Eudorcas route includes 3 historical life-history accounts; start with Eudorcas rufifrons, Eudorcas rufina, Eudorcas thomsonii. More frequently represented fields include adult body mass (3 entries), offspring per litter or eggs per clutch (3 entries), conception or fertilization to birth (3 entries), longest lifespan record in the compilation (3 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-d95f61170a}

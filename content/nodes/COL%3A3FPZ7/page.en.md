@@ -1,5 +1,5 @@
-## Tracing the historical Zoothera name {#s-051e8d4d8f}
-Pinned COL26.8 organizes this page at Geokichla cinerea (3FPZ7). AVONET v7 BirdLife 2020 row 8547 and eBird 2021 row 4308 share the name and Avibase ID AVIBASE-552E29B1; BirdTree row 4289 gives Zoothera cinerea, with match type 1BL to 1BT. Read COL older-combination record 7GH2V points to this accepted ID. These links locate data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-051e8d4d8f}
+Catalogue of Life release COL26.8 records Geokichla cinerea Bourns & Worcester, 1894 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured birds and beak/wing values {#s-2c58f2e109}
 Morphology covers 4 birds: 2 female, 2 male and 0 unsexed; 4 birds have complete measurement sets. Nostril-to-tip beak length 13.6 mm, tarsus 31.1 mm, unflattened wing 114.2 mm and hand-wing index 29.4 are summaries in this historical row. Inference=NO does not establish equal counts across fields; complete-set birds do not supply every field’s denominator. The index is Kipp’s distance/wing length ×100, not flight speed, migration distance or a range-wide performance test.

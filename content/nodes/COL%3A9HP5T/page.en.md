@@ -1,5 +1,5 @@
-## Historical Anas combination and the pinned name {#s-98f687ce0f}
-This page follows pinned COL26.8 Spatula hottentota (9HP5T). AVONET v7 BirdLife 2020 row 399 and the eBird 2021 crosswalk use the same name and Avibase ID AVIBASE-FA831F65; BirdTree gives Anas hottentota, labelled 1BL to 1BT. Pinned COL synonym DGNT points to accepted ID 9HP5T. Name links do not verify every species boundary across dates.
+## A name fixed to COL26.8 {#s-98f687ce0f}
+Catalogue of Life release COL26.8 records Spatula hottentota (Eyton, 1838) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Beak, wing and compiled mass have different denominators {#s-2cc8f3547a}
 Morphology covers 5 birds (2 female and 3 male), with 4 complete measurements. Mean nostril-to-tip beak length is 27.1 mm, beak width at the nostrils 12.7 mm, unflattened wing 147 mm and hand-wing index 42.4. These are species averages; the index is defined by Kipp’s distance/wing length ×100, not flight speed. Mass 276.36 g comes separately from Dunning’s literature compilation and cannot inherit the morphology sample size. Inference=NO retains the workbook’s non-inference flag without supplying individual bounds from unread raw material.

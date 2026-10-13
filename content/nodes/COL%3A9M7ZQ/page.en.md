@@ -1,29 +1,29 @@
-## The name and this data account {#s-8016a4640b}
-Polyplectron katsumatae is accepted in COL26.8 within Phasianidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-8016a4640b}
+The AVONET v7 row for Polyplectron katsumatae (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 10.4 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-813c850c35}
-Recorded mean beak measurements are 10.4 mm from the anterior nostril edge to the tip, 5.5 mm in width and 6.7 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-813c850c35}
+AVONET records culmen length (bill tip to skull base) 24.3 mm; beak length (nostril front edge to tip) 10.4 mm; beak width at the nostril front edge 5.5 mm; beak depth at the nostril front edge 6.7 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-344fed5a50}
-Mean unflattened wing length from the carpal joint to the longest primary is 162.2 mm; mean tarsus length is 56 mm. Compiled mean mass is 467.84 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-344fed5a50}
+AVONET records unflattened wing length 162.2 mm; tarsus length 56 mm; distance from first secondary tip to longest primary tip 28.4 mm; length to first secondary tip 133.8 mm; hand-wing index 17.6; tail length 173 mm; species-average body mass 467.84 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-f53a082506}
-The dataset assigns habitat NA, trophic niche Omnivore and lifestyle Terrestrial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-f53a082506}
+AVONET classifies Polyplectron katsumatae as trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-3d3bfb08a7}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 18.42° to 19.32°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-3d3bfb08a7}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 18.42° to 19.32°. The mapped range area is 2165.64 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-def96580e8}
-Polyplectron katsumatae is accepted in pinned COL26.8 within Phasianidae. This page compares the same-name historical life-history entry using 3 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## Scope of the historical life-history entry {#s-def96580e8}
+The August 2015 database has a same-name, same-family record for Polyplectron katsumatae. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-a592eec7aa}
-Historical summary values are adult body mass 685 g. Adult mass can combine males, females and adults of unspecified sex and does not provide a species-wide range of individual masses. Birth/hatching mass is not added to this account here.
+## Compiled adult-mass values {#s-a592eec7aa}
+The August 2015 compilation reports adult body mass 685 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-f0ee49486f}
-Available compilation fields are offspring per litter or eggs per clutch 2 offspring/eggs; oviposition to hatching 21 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+## Reproductive fields describe different events {#s-f0ee49486f}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 2; oviposition-to-hatching interval 21 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-408ff1182a}
-Same-name sparse rows carry source labels including Dunning, 1992; Boback and Guyer, 2003; Bennett, 1986; Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-408ff1182a}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Evidence limits {#s-9ae214833c}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

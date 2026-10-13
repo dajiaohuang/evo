@@ -1,5 +1,5 @@
-## Same-name links retain different family names {#s-3cc440ff29}
-Pinned COL26.8 organizes this page at Agapornis pullarius (65MFS). BirdLife 2020 row 10204, eBird 2021 row 259 and BirdTree row 261 share the name; the eBird Avibase ID is AVIBASE-1E2EC99C, with types 1BL to 1eBird and 1BL to 1BT respectively. Source family Psittacidae and catalogue Psittaculidae remain separate; a family allocation change is not rewritten as a name mismatch. The accepted name is present in the read ag shard. Same-name one-to-one links do not prove identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-3cc440ff29}
+Catalogue of Life release COL26.8 records Agapornis pullarius (Linnaeus, 1758) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-a77d74407f}
 Morphology comprises 8 birds: 2 female, 6 male and 0 unsexed; 8 complete sets. Nostril-to-tip beak length 14.1 mm, tarsus 11.7 mm, unflattened wing 90.4 mm, tail 41.1 mm and hand-wing index 39.4 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

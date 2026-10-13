@@ -1,4 +1,6 @@
-## Species records with cited traits {#s-289489f7fa}
+## Recorded classification and direct parent {#s-289489f7fa}
+COL26.8 records Orlitia at genus rank, with Geoemydidae as its direct parent.
+
 This catalogue links one species records for Orlitia with matching names, family placement and trait-level citations. Start with Orlitia borneensis. Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
 
 ## Compare like measurements {#s-47ab305b34}

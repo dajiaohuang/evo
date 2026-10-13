@@ -1,4 +1,4 @@
-## 从已有历史条目开始 {#s-ae66251199}
+## 记录分类与成员材料 {#s-ae66251199}
 Sciuromorpha 的本地 PanTHERIA 路径包括 58 条可用数据导读，可从 Callosciurus adamsi、Callosciurus baluensis、Callosciurus caniceps、Callosciurus nigrovittatus、Callosciurus notatus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-87124e72da}
@@ -19,8 +19,8 @@ Sciuromorpha 的本批路线包含 5 个历史条目，可从 Spermophilus palli
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
-## 从已有历史条目开始 {#s-fe0cb4d416}
-Sciuromorpha 的本地 PanTHERIA 路径包括 40 条可用数据导读，可从 [Callosciurus melanogaster](Sciuridae/Callosciurinae/Callosciurus/Callosciurus_melanogaster/page.zh.md)、[Atlantoxerus getulus](Sciuridae/Xerinae/Xerini/Atlantoxerus/Atlantoxerus_getulus/page.zh.md)、[Eupetaurus cinereus](Sciuridae/Sciurinae/Pteromyini/Eupetaurus/Eupetaurus_cinereus/page.zh.md)、[Exilisciurus concinnus](Sciuridae/Callosciurinae/Exilisciurus/Exilisciurus_concinnus/page.zh.md)、[Dremomys everetti](Sciuridae/Callosciurinae/Dremomys/Dremomys_everetti/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-fe0cb4d416}
+Sciuromorpha 的本地 PanTHERIA 路径包括 40 条可用数据导读，可从 Callosciurus melanogaster、Atlantoxerus getulus、Eupetaurus cinereus、Exilisciurus concinnus、Dremomys everetti 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-37ae5313f0}
 本批可用的成年体重汇总值中，Exilisciurus concinnus 为 27.72 g，Petaurista philippensis 为 1675.83 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
@@ -29,7 +29,7 @@ Sciuromorpha 的本地 PanTHERIA 路径包括 40 条可用数据导读，可从 
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-3a6eb7c6d1}
-Sciuromorpha 本批有 45 个历史生活史资料页，可从 [Ammospermophilus harrisii](Sciuridae/Xerinae/Marmotini/Ammospermophilus/Ammospermophilus_harrisii/page.zh.md)、[Ammospermophilus nelsoni](Sciuridae/Xerinae/Marmotini/Ammospermophilus/Ammospermophilus_nelsoni/page.zh.md)、[Ammospermophilus interpres](Sciuridae/Xerinae/Marmotini/Ammospermophilus/Ammospermophilus_interpres/page.zh.md)、[Ammospermophilus leucurus](Sciuridae/Xerinae/Marmotini/Ammospermophilus/Ammospermophilus_leucurus/page.zh.md)、[Callosciurus caniceps](Sciuridae/Callosciurinae/Callosciurus/Callosciurus_caniceps/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Sciuromorpha 本批有 45 个历史生活史资料页，可从 Ammospermophilus harrisii、Ammospermophilus nelsoni、Ammospermophilus interpres、Ammospermophilus leucurus、Callosciurus caniceps 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-a1f856cc40}
 本批妊娠资料见 20 页，雌性首次繁殖年龄见 12 页，最高寿命记录见 11 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

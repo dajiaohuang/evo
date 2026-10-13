@@ -1,5 +1,5 @@
-## 旧属名如何查回历史行 {#s-80babc4459}
-固定 COL26.8 以 Psilopogon rafflesii（7WP6N）组织本页。AVONET v7 BirdLife 2020 第 9703 行与 eBird 2021 第 8670 行同名，Avibase ID 为 AVIBASE-39972C74；BirdTree 第 8625 行记作 Megalaima rafflesii，匹配类型为 1BL to 1BT。已读 COL 旧组合 7VSWB 指向本页接受 ID。这些关联用于定位历史资料，不把所有年代物种边界视为完全相同。
+## COL26.8 中的名称身份 {#s-80babc4459}
+《Catalogue of Life》COL26.8（2026-08-20）将 Psilopogon rafflesii (R. Lesson, 1839) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与喙翼均值 {#s-e7596f3958}
 形态共测 5 只：雌 2、雄 3、性别未定 0，其中 4 只具完整测量。鼻孔前缘至喙尖均值 34.2 mm，喙宽 16.8 mm，跗蹠 26.9 mm，未压平翼长 116.6 mm，手翼指数 18。Inference=NO 不表示每项字段都测了同样数量；完整测量鸟数与总样本分开。指数定义为 Kipp 距离／翼长 ×100，不是飞行速度，喙宽也不是吞果或啄食能力实验。

@@ -1,18 +1,32 @@
-## Which fossil records this name represents {#s-799cbd7054}
-Falcarius utahensis is accepted in the fixed PBDB dinosaur working roster, with database parent Falcarius. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-799cbd7054}
+Falcarius utahensis is listed in the PBDB snapshot under taxon txn:65780. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-12585d0455}
-Collection Crystal Geyser Quarry (UMNH VP Loc. 157) (Utah), region code US, stratum name Cedar Mountain; database age bracket 143.1–132.6 Ma, early interval Berriasian and late interval Valanginian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-12585d0455}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-5edc32969a}
-Selected occurrences have an outer age envelope of 143.1–132.6 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:495801; PBDB collection col:50052. Locality cnm=Crystal Geyser Quarry (UMNH VP Loc. 157); place fields cc2=US, stp=Utah, cny=Grand. Recorded age bounds: eag 143.1 Ma; lag 132.6 Ma; PBDB interval fields oei=Berriasian, oli=Valanginian. Stratigraphic fields sfm=Cedar Mountain. Recorded attribution Kirkland et al. 2005; PBDB reference ref:13444.
 
-## Read preservation setting separately from living habitat {#s-db9ceaa831}
-Crystal Geyser Quarry (UMNH VP Loc. 157) has collection-environment label spring; collection preservation-mode label body,concretion. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+base of member, fossils from basal units 1-3; date from sandy unit just above bonebed
 
-## Follow collection records back to references {#s-5d08d03146}
-Crystal Geyser Quarry (UMNH VP Loc. 157) carries database reference attribution Kirkland et al. (2005), identifier ref:13444. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Joeckel et al. 2019: Of the 10 samples collected from the Yellow Cat Member for U–Pb zircon geochronology, nine are from mudstones and one is from a fine- to medium- grained sandstone at the base of the Yellow Cat Member (Table 1). Table 1 summarizes the Concordia ages, weighted mean ages and youngest single-grain ages from these samples. The youngest single-grain ages (Dickinson & Gehrels 2009) from all but one of the mudstones span a 206Pb/238U age range from 133.7 + 2.7 to 139.5 + 3.1 Ma (at 2σ uncertainty), within the Valanginian Stage of the Lower Creta- ceous. The remaining mudstone sample, which has a distinct sand component, and the sandstone sample from the base of the Yellow Cat Member have youngest single zircon grains with ages of 142.5 + 2.7 and 141.9 + 3.9 Ma that both fall into the preceding Berriasian Stage.
 
-## Evidence limits {#s-134046b4e7}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+approx. 16 km S (also described as 12 mi SE) of Green River, E-central Utah
+
+## Age bounds on the recorded occurrences {#s-5edc32969a}
+Across these selected PBDB rows, the largest recorded eag=143.1 Ma in occ:495801; the smallest recorded lag=132.6 Ma in occ:495801. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-db9ceaa831}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:495801: PBDB original-identification field idn=Falcarius utahensis n. gen. n. sp.; PBDB taxon-name field tna=Falcarius utahensis; material note ocm=MNI, perhaps actually hundreds in total; abundance fields abv=10, abu=individuals; PBDB locality-coordinate fields lng=-110.100243, lat=38.909088; paleocoordinate/model fields pm1=gplates, pln=-44.42, pla=34.75.
+
+## References attached to each record {#s-5d08d03146}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:495801: Recorded attribution Kirkland et al. 2005; PBDB reference ref:13444.
+
+## What these records can show {#s-134046b4e7}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

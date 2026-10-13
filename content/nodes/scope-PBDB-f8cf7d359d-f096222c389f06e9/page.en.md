@@ -1,5 +1,5 @@
-## UCMP 85202 and a Paleogene-only placement {#s-087e3565d1}
-Lycophocyon hutchisoni is represented by holotype cranium UCMP 85202 and associated southern Californian skull, jaw and postcranial material from about 46.2–42 Ma. A broad morphology analysis leaves nearby carnivoramorphan relationships unresolved; a Paleogene-only subset places it among caniforms outside crown Canoidea.
+## UCMP 85202 and a bounded southern California sample {#s-087e3565d1}
+Holotype cranium UCMP 85202 is associated with skull, jaw and postcranial material from southern California, dated about 46.2–42 Ma. A broad morphology analysis leaves nearby carnivoramorphan relationships unresolved; a Paleogene-only subset places the genus among caniforms outside crown Canoidea.
 
 ## atlas-profile / ecology / diet {#s-0d4d25f335}
 A six-variable discriminant model predicts carnivory for the holotype with 83% posterior probability; this is a model result, not observed feeding.
@@ -25,6 +25,6 @@ Associated SDSNH specimens add cranial, mandibular and selected postcranial bone
 ## atlas-profile / traits {#s-e8e60e0d93}
 The phylogenetic sample combines named cranial and postcranial material.
 
-## A specimen-bounded diet model and range {#s-ee27c827e9}
-The specimen set and southern Californian horizon bound this account. Caniform placement and the 83% dietary classification depend on a morphological matrix and comparative model; neither establishes direct ancestry, a complete range or observed behaviour.
+## A model and a matrix answer different questions {#s-ee27c827e9}
+A six-variable discriminant model predicts carnivory for the holotype with 83% posterior probability, and a tooth-based regression estimates about 6 kg. Both are model outputs. The broader placement depends on the sampled morphology matrix; these results do not establish observed feeding, direct ancestry or a complete genus range.
 

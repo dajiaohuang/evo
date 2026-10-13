@@ -5,5 +5,5 @@ In 2011, Lhota et al. recorded Miller's Langur at two mineral springs 4.2 km apa
 The mineral springs provided opportunities for direct observations; the paper noted group composition and used cameras to supplement evidence of visits. Observations concentrated at two sites cannot be converted into forest-wide density and did not resolve the species' wider range boundaries.
 
 ## Evidence limits {#s-288631d431}
-The main field evidence comes from two Wehea mineral springs in 2011; the original paper used a pre-split name. This page. This page is.
+The field records are from two mineral springs 4.2 km apart in Wehea Forest in 2011, under the paper’s pre-split name. Spring-centered observation and camera trapping do not estimate forest-wide density or resolve the species’ full range.
 

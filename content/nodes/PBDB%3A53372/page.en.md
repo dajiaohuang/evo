@@ -1,18 +1,55 @@
-## Which fossil records this name represents {#s-0b7e07262a}
-Spinosaurus aegyptiacus is accepted in the fixed PBDB dinosaur working roster, with database parent Spinosaurus. This guide uses 14 eligible species-level occurrence records from 13 collections and 7 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-0b7e07262a}
+Spinosaurus aegyptiacus is listed in the PBDB snapshot under taxon txn:53372. This archived guide contains 14 selected occurrence rows, linked to 13 distinct PBDB collection IDs and 7 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-af61f955e2}
-Collection Gebel el Dist (7p) (Matruh), region code EG, stratum name Baharîje; database age bracket 100.5–93.9 Ma, early interval Early Cenomanian. Collection south slope, Gebel Maisara (7p) (Matruh), region code EG, stratum name Baharîje; database age bracket 100.5–93.9 Ma, early interval Early Cenomanian. Collection Ain Murûn (Matruh), region code EG, stratum name Baharîje; database age bracket 100.5–93.9 Ma, early interval Early Cenomanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-af61f955e2}
+The archived guide contains 14 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-b6bb7bc4fd}
-Selected occurrences have an outer age envelope of 106.3–93.9 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:519800; PBDB collection col:52887. Locality cnm=Tafilalt region (NMC/CMN); place fields cc2=MA, stp=Drâa-Tafilalet, cny=Errachidia. Recorded age bounds: eag 106.3 Ma; lag 93.9 Ma; PBDB interval fields oei=Late Albian, oli=Early Cenomanian. Recorded attribution Russell 1996; PBDB reference ref:13037.
 
-## Read preservation setting separately from living habitat {#s-57c8be4187}
-Gebel el Dist (7p) has collection-environment label marginal marine indet.; collection preservation-mode label body. south slope, Gebel Maisara (7p) has collection-environment label terrestrial indet.; collection preservation-mode label body. Ain Murûn has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Ifezoune or Auofous formation
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
 
-## Follow collection records back to references {#s-60289be6be}
-Gebel el Dist (7p) carries database reference attribution Stromer (1915), identifier ref:7054. south slope, Gebel Maisara (7p) carries database reference attribution Stromer (1915), identifier ref:7054. Ain Murûn carries database reference attribution Ibrahim et al. (2014), identifier ref:70593. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+area of Tafilalt, N and S of Taouz, includes several marked fossil sites but none are specified in text, nor are any tied to specific occurrences.
 
-## Evidence limits {#s-23045c3d5e}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:259976; PBDB collection col:25127. Locality cnm=Gebel el Dist (7p); place fields cc2=EG, stp=Matruh. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian. Stratigraphic fields sfm=Baharîje, sls=Gebel el Dist, slb=7p, slo=top to bottom. Recorded attribution Stromer 1915; PBDB reference ref:7054.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+p (or "7p") is the lowest layer at the site
+
+also known as Bahariya Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+3 km north of Gebel el Dist, in the plain at the base of the Baharîje Valley, Baharîje Oasis, near Marsa Matruh, Egypt
+
+- Occurrence occ:489656; PBDB collection col:49330. Locality cnm=south slope, Gebel Maisara (7p); place fields cc2=EG, stp=Matruh. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian. Stratigraphic fields sfm=Baharîje, slo=top to bottom. Recorded attribution Stromer 1915; PBDB reference ref:7054.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+layer p = 7p
+
+also known as Bahariya Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+S slope of Gebel Maisara (?Gebel Ma'sera), approx. 1/4 up slope, in the plain at the base of the Baharîje Valley, Baharîje Oasis, near Marsa Matruh, Egypt
+
+## Age bounds on the recorded occurrences {#s-b6bb7bc4fd}
+Across these selected PBDB rows, the largest recorded eag=106.3 Ma in occ:519800; the smallest recorded lag=93.9 Ma in occ:259976. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-57c8be4187}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:519800: PBDB original-identification field idn=Spinosaurus marrocanus n. sp.; PBDB taxon-name field tna=Spinosaurus aegyptiacus; material note ocm=NMC 50791, 50832, 50833, 41768, 50813; abundance fields abv=5, abu=specimens; PBDB locality-coordinate fields lng=-3.983300, lat=30.900000; paleocoordinate/model fields pm1=gplates, pln=7.98, pla=26.04.
+- occ:259976: PBDB original-identification field idn=Spinosaurus aegyptiacus n. gen. n. sp.; PBDB taxon-name field tna=Spinosaurus aegyptiacus; material note ocm=BSP 1915; type and additional vertebrae from same layer and area; abundance fields abv=2, abu=individuals; PBDB locality-coordinate fields lng=28.914782, lat=28.431120; paleocoordinate/model fields pm1=gplates, pln=34.83, pla=12.94.
+- occ:489656: PBDB taxon-name field tna=Spinosaurus aegyptiacus; abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=28.926096, lat=28.379345; paleocoordinate/model fields pm1=gplates, pln=34.83, pla=12.88.
+
+## References attached to each record {#s-60289be6be}
+The archived guide links the rows to 7 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:519800: Recorded attribution Russell 1996; PBDB reference ref:13037.
+- occ:259976: Recorded attribution Stromer 1915; PBDB reference ref:7054.
+- occ:489656: Recorded attribution Stromer 1915; PBDB reference ref:7054.
+
+## What these records can show {#s-23045c3d5e}
+This is a guide to 14 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,15 +1,15 @@
-## Name and the scope of these measurements {#s-52c36bac55}
-COL26.8 accepts Cyrtodactylus gialaiensis in Gekkonidae. ReptTraits v1-2 links this name to maximum and female maximum snout–vent measurements, three microhabitat labels, nocturnal activity and oviparity. Each value keeps its own cited source in the workbook’s Reptile Database 2023 framework; the combined row is not a census of every population.
+## COL26.8 name and the ReptTraits row {#s-52c36bac55}
+COL26.8 records Cyrtodactylus gialaiensis as an accepted species. The ReptTraits v1-2 row gives its Family field as Gekkonidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Two reported maxima, measured without the tail {#s-363cb82e11}
-The overall maximum SVL is 62.8 mm and the female maximum is 56.3 mm. Snout–vent length runs from the snout to the vent, excluding the tail. These are compiled maxima, not typical sizes; since sex-specific records can draw on different samples or places, the two values alone cannot measure population-level sexual dimorphism.
+## Length values in the archived records {#s-363cb82e11}
+The row reports a maximum SVL of 62.8 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 56.3 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Three microhabitats and a nocturnal label {#s-3b5af139f6}
-The row lists arboreal, saxicolous (rock-associated) and terrestrial microhabitats, with active time classified as nocturnal. It does not say how frequently the gecko uses each setting or specify a daily schedule. Diet is not interpreted here, so these categories do not identify prey or establish a complete ecological profile.
+## Habitat use and activity labels {#s-3b5af139f6}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/rock-dwelling (Saxicolous)/ground-dwelling (Terrestrial) [source label: Arboreal/Saxicolous/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Oviparity is recorded; clutch size is not {#s-5078629d5f}
-The reproductive-mode field is labelled oviparous. No supported mean or range of eggs per clutch is supplied in this account, so egg number and laying frequency remain open. A reproductive-mode label alone cannot fill those gaps or show that all populations reproduce in the same way.
+## Reproductive fields in ReptTraits {#s-5078629d5f}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## A source-linked summary, not a full species account {#s-74e3016dd0}
-The traits paraphrase the same-name ReptTraits v1-2 row, which uses a 2023 taxonomic framework; the match does not prove equivalence with the pinned COL26.8 concept. One row compresses age, sex, locality and population differences. Missing fields are not evidence about mass, juvenile length, venom, conservation, present distribution or population trend, and the citations preserve the chain rather than document a new review of every source.
+## Reading this compiled trait record {#s-74e3016dd0}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-407dc75327}
 Ichthyosaurus acutirostris is accepted in the fixed PBDB ichthyosauriformes working roster, with database parent Ichthyosaurus. This guide uses 6 eligible species-level occurrence records from 5 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 4 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-4f498df2ac}
-Collection alum quarry, Kettleness (England), region code UK, stratum name Whitby Mudstone; database age bracket 184.2–182.9 Ma, early interval Early Toarcian. Collection Loftus (England), region code UK, stratum name Alum Shale; database age bracket 184.2–182.9 Ma, early interval Early Toarcian. Collection Whitby, marine reptiles (England), region code UK, stratum name Alum Shale; database age bracket 184.2–174.7 Ma, early interval Falciferum and late interval Bifrons. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Ichthyosaurus acutirostris is listed in the PBDB snapshot under taxon txn:171446. This archived guide contains 6 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-493dd9ee94}
-Selected occurrences have an outer age envelope of 184.2–174.7 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is alum quarry, Kettleness, occurrence occ:821646 (184.2–182.9 Ma); one supplying the younger bound is Whitby, marine reptiles, occurrence occ:821658 (184.2–174.7 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-4f498df2ac}
+The archived guide contains 6 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-11277bb098}
-alum quarry, Kettleness has collection-environment label offshore; collection preservation-mode label body. Loftus has collection-environment label offshore; collection preservation-mode label body. Whitby, marine reptiles has collection-environment label offshore; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:821646; PBDB collection col:90448. Locality cnm=alum quarry, Kettleness; place fields cc2=UK, stp=England, cny=North Yorkshire. Recorded age bounds: eag 184.2 Ma; lag 182.9 Ma; PBDB interval fields oei=Early Toarcian. Stratigraphic fields sfm=Whitby Mudstone. Recorded attribution Benton and Taylor 1984; PBDB reference ref:30422.
 
-## Follow collection records back to references {#s-19b4f18a8a}
-alum quarry, Kettleness carries database reference attribution Benton and Taylor (1984), identifier ref:30422. Loftus carries database reference attribution Benton and Taylor (1984), identifier ref:30422. Whitby, marine reptiles carries database reference attribution Benton and Taylor (1984), identifier ref:30422. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+alum quarry at Kettleness
+
+- Occurrence occ:821658; PBDB collection col:90459. Locality cnm=Whitby, marine reptiles; place fields cc2=UK, stp=England, cny=North Yorkshire. Recorded age bounds: eag 184.2 Ma; lag 174.7 Ma; PBDB interval fields oei=Falciferum, oli=Bifrons. Stratigraphic fields sfm=Alum Shale. Recorded attribution Benton and Taylor 1984; PBDB reference ref:30422.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+bifrons and falciferum zones, Alum Shale and Jet Rock Formations
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+from the coast near Whitby, mostly from Saltwick
+
+- Occurrence occ:821648; PBDB collection col:90458. Locality cnm=Loftus; place fields cc2=UK, stp=England, cny=Redcar and Cleveland. Recorded age bounds: eag 184.2 Ma; lag 182.9 Ma; PBDB interval fields oei=Early Toarcian. Stratigraphic fields sfm=Alum Shale. Recorded attribution Benton and Taylor 1984; PBDB reference ref:30422.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Cement Shale" and "Main Alum Shale" beds of the Alum Shale Formation
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+alum quarries, Lofthus (Lofthouse)
+
+## Age bounds on the recorded occurrences {#s-493dd9ee94}
+Across these selected PBDB rows, the largest recorded eag=184.2 Ma in occ:821646; the smallest recorded lag=174.7 Ma in occ:821658. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-11277bb098}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:821646: PBDB original-identification field idn=Leptopterygius acutirostris; PBDB taxon-name field tna=Ichthyosaurus acutirostris; PBDB locality-coordinate fields lng=-0.700000, lat=54.533333; paleocoordinate/model fields pm1=gplates, pln=16.46, pla=42.89.
+- occ:821658: PBDB original-identification field idn=Leptopterygius acutirostris; PBDB taxon-name field tna=Ichthyosaurus acutirostris; PBDB locality-coordinate fields lng=-0.600000, lat=54.483334; paleocoordinate/model fields pm1=gplates, pln=19.29, pla=42.21.
+- occ:821648: PBDB original-identification field idn=Leptopterygius acutirostris; PBDB taxon-name field tna=Ichthyosaurus acutirostris; PBDB locality-coordinate fields lng=-0.883333, lat=54.549999; paleocoordinate/model fields pm1=gplates, pln=16.31, pla=42.87.
+
+## References attached to each record {#s-19b4f18a8a}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:821646: Recorded attribution Benton and Taylor 1984; PBDB reference ref:30422.
+- occ:821658: Recorded attribution Benton and Taylor 1984; PBDB reference ref:30422.
+- occ:821648: Recorded attribution Benton and Taylor 1984; PBDB reference ref:30422.
 
 ## Evidence limits {#s-7aaee5d34d}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 182-item ichthyosauriformes working roster, retain the current same name and a complete parent chain to the recorded Ichthyosauriformes storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 6 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

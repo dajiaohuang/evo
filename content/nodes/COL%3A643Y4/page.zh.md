@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-fdac543ac4}
+## 记录分类与直接上级关系 {#s-fdac543ac4}
+COL26.8 将 Rousettus 记录为属；其直接上级记录为 Rousettini。
+
 PanTHERIA 路线有五条可用记录：Rousettus amplexicaudatus、R. celebensis、R. madagascariensis、R. obliviosus 和 R. spinalatus。各记录保留原始 MSW05 名称、变量各自的材料条件与缺失情况。分类导航沿用固定 COL26.8；这些历史行不代表当前接受种数量。
 
 ## 比较体型与生活史 {#s-b903db91d5}

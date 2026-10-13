@@ -1,4 +1,6 @@
-## Catalogue placement {#s-cf6142dfbd}
+## Recorded classification and direct parent {#s-cf6142dfbd}
+COL26.8 records Varanus at genus rank, with Varanidae as its direct parent.
+
 Varanus is recorded as an accepted genus in COL26.8, placed under Varanidae. This page follows that fixed catalogue placement.
 
 ## Start with the sampled species {#s-16b8a660d4}
@@ -13,7 +15,7 @@ The local cranial-study route covers Varanus acanthurus, Varanus exanthematicus,
 ## Study grouping and classification {#s-906d391f24}
 The paper treats Varanus, Lanthanotus and Heloderma as a functional comparison group and discusses possible non-monophyly. This page navigates the pinned COL classification rather than creating an accepted taxon for that study grouping. Results concern bite, shake and pull responses at standardized volume.
 
-## Choose comparison pages by life-history fields {#s-4914748cda}
+## Amniote Life-history archive member records {#s-4914748cda}
 This batch’s Varanus route includes 52 historical life-history accounts; start with Varanus acanthurus, Varanus albigularis, Varanus beccarii, Varanus bengalensis, Varanus bogerti. Fields retained within declared class scopes include offspring per litter or eggs per clutch (52 entries), oviposition to hatching (52 entries), adult body mass (50 entries), mass at birth or hatching (46 entries). Counts describe this batch’s coverage, not the complete accepted-species denominator; read events, units and provenance before comparing values.
 
 ## Evidence limits {#s-6c79b776e0}
@@ -23,21 +25,21 @@ This route includes historical same-name, same-family entries authored after ini
 
 Some descendant entries have class-scope cautions in source fields. Those values are withheld from event interpretations, while original records remain; consult species pages for the specific limits.
 
-## Start with sourced trait records {#s-fb7a9d68b9}
+## Recorded classification and member material {#s-fb7a9d68b9}
 This batch’s ReptTraits route for Varanus includes 77 same-name, same-family entries with trait-specific citations. Start with Varanus acanthurus, Varanus albigularis, Varanus bangonorum, Varanus beccarii, Varanus bengalensis. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-27315bce81}
 Among size records in this batch, Varanus sparnus has a reported maximum snout–vent length (SVL) of 116.4 mm and Varanus komodoensis 1570 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Limits of these trait data {#s-7cde21c8f5}
+## ReptTraits material route {#s-7cde21c8f5}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 
-## Start with sourced trait records {#s-2a7b27df1f}
-This batch’s ReptTraits route for Varanus includes 6 same-name, same-family entries with trait-specific citations. Start with [Varanus bennetti](Varanus_bennetti/page.en.md), [Varanus citrinus](Varanus_citrinus/page.en.md), [Varanus colei](Varanus_colei/page.en.md), [Varanus ocreatus](Varanus_ocreatus/page.en.md), [Varanus tsukamotoi](Varanus_tsukamotoi/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-2a7b27df1f}
+This batch’s ReptTraits route for Varanus includes 6 same-name, same-family entries with trait-specific citations. Start with Varanus bennetti, Varanus citrinus, Varanus colei, Varanus ocreatus, Varanus tsukamotoi. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
-## Choose comparisons by available fields {#s-454073293f}
+## ReptTraits member records {#s-454073293f}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Limits of these trait data {#s-3bd252c48d}
+## ReptTraits material route {#s-3bd252c48d}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

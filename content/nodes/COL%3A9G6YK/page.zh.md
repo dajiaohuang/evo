@@ -1,16 +1,18 @@
-## 从 Peucaea 比较同生态位的不同营养级 {#s-6854112b51}
+## 记录分类与直接上级关系 {#s-6854112b51}
+COL26.8 将 Passerellidae 记录为科；其直接上级记录为 Passeriformes。
+
 新增八条 Peucaea 历史导读，Aimophila 旧组合均有逐字目录异名。cassinii／botterii 同为 Invertivore，但营养级为 Omnivore／Carnivore，活动为 Generalist／Terrestrial；sumichrasti／ruficauda 同记 Omnivore 生态位与 Herbivore 营养级。全部五只雌二雄三、完整四只，Dunning 体重独立。此前73测量、5有限生态与4 Ammospiza导读各保留原范围，不与八条相加作为去重接受种数；这些组合不推全科特征。
 
 ## 沿 Peucaea 入口比较食性和部分迁移 {#s-3c72fcf715}
-进入 [Peucaea](Peucaea/page.zh.md) 两组阅读路径，先看相同生态位的不同营养级，再看 aestivalis／cassinii／botterii 的迁移2与其余迁移1。相同部分迁移代码不确定哪种移动发生；Generalist 不等于 Omnivore。回查五只总鸟数、四只完整与旧名，保留原来源范围，不补全科行为、当前地图。
+进入 Peucaea 两组阅读路径，先看相同生态位的不同营养级，再看 aestivalis／cassinii／botterii 的迁移2与其余迁移1。相同部分迁移代码不确定哪种移动发生；Generalist 不等于 Omnivore。回查五只总鸟数、四只完整与旧名，保留原来源范围，不补全科行为、当前地图。
 
 ## Ammospiza 的开放环境比较 {#s-e09f09c14c}
 新增的四种 Ammospiza 历史行提供一组开放环境比较：leconteii 的草地／种子生态位，与 caudacuta、nelsoni、maritima 的湿地／无脊椎动物生态位。maritima 为部分迁移，其余三行为迁移；它们不是整科所有种的生活方式。物种级页把小样本形态均值、文献体重和粗生态代码分开阅读。
 
 ## 沿属页读回原表 {#s-948306ae24}
-从 [Ammospiza](Ammospiza/page.zh.md) 进入四种，先读旧属名对应，再比较喙、翼、体重和迁移。历史 BirdTree 的 Ammodramus 名称不宜直接与本页其他 Ammodramus 接受种合并；属名改变与物种概念核对是不同工作。已读 COL 异名支持其中三个旧组合；nelsoni 的旧名仍只按来源表对应保留。
+从 Ammospiza 进入四种，先读旧属名对应，再比较喙、翼、体重和迁移。历史 BirdTree 的 Ammodramus 名称不宜直接与本页其他 Ammodramus 接受种合并；属名改变与物种概念核对是不同工作。已读 COL 异名支持其中三个旧组合；nelsoni 的旧名仍只按来源表对应保留。
 
-## 本地数据阅读路径 {#s-5ae57e2a2d}
+## 记录分类与成员材料 {#s-5ae57e2a2d}
 Passerellidae 的本批阅读路径包含 73 条有测量来源的物种记录，可从 Aimophila notosticta、Aimophila rufescens、Aimophila ruficeps、Ammodramus aurifrons、Ammodramus humeralis 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-b6d2c614bf}
@@ -21,8 +23,8 @@ Passerellidae 的本批阅读路径包含 73 条有测量来源的物种记录�
 另增四条 Ammospiza 历史记录导读，旧属名及未解决的 nelsoni 异名对应单独保留；不改变此前批次的条目数或范围。
 另增八条 Peucaea 历史导读，Aimophila 旧名、食物生态位与营养级及部分迁移分别读；不计全科覆盖、完整自然史。
 
-## 从有限生态资料开始 {#s-c9eac7d653}
-Passerellidae 本批有 5 个有限生态资料页，可从 [Arremonops tocuyensis](Arremonops/Arremonops_tocuyensis/page.zh.md)、[Atlapetes flaviceps](Atlapetes/Atlapetes_flaviceps/page.zh.md)、[Atlapetes forbesi](Atlapetes/Atlapetes_forbesi/page.zh.md)、[Atlapetes rufigenis](Atlapetes/Atlapetes_rufigenis/page.zh.md)、[Junco insularis](Junco/Junco_insularis/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-c9eac7d653}
+Passerellidae 本批有 5 个有限生态资料页，可从 Arremonops tocuyensis、Atlapetes flaviceps、Atlapetes forbesi、Atlapetes rufigenis、Junco insularis 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-1dacc5086c}
 栖地类别见 5 页，取食生态位见 5 页，主导活动方式见 5 页，迁移类别见 5 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

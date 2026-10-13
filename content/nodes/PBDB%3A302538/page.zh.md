@@ -1,8 +1,8 @@
 ## 从多阶段骨床转向另一种翼龙 {#s-24bf8ba5fc}
-读完本种骨床与冠饰成长后，进入 [Keresdrakon vilsoni](../../../../../../Tapejaromorpha/Keresdrakon/Keresdrakon_vilsoni/page.zh.md) 的长颌、骨骼鉴别和组织样本。2019 年研究把两者在 A–C 骨床的反复关联作为共存依据，同时提醒较大 Caiuajara 与较小 Keresdrakon 的孤立头后骨可能难以区分。比较时先看诊断部位与保存状态，不能只用骨骼大小决定归属。
+读完本种骨床与冠饰成长后，进入 Keresdrakon vilsoni 的长颌、骨骼鉴别和组织样本。2019 年研究把两者在 A–C 骨床的反复关联作为共存依据，同时提醒较大 Caiuajara 与较小 Keresdrakon 的孤立头后骨可能难以区分。比较时先看诊断部位与保存状态，不能只用骨骼大小决定归属。
 
 ## 把形态成长与年龄反推分别比较 {#s-421aa6ed94}
-再读 [Vespersaurus paranaensis](../../../../../../../../../../Dinosauromorpha/Dinosauriformes/Dinosauria/Theropoda/Neotheropoda/Averostra/Ceratosauria/Noasauridae/Noasaurinae/Vespersaurus/Vespersaurus_paranaensis/page.zh.md) 的股骨与胫骨组织学。本种冠饰和融合序列、Keresdrakon 的两件组织样本、恐龙的十一件后肢骨，所记录的身体部位和取样方法不同。恐龙研究假定的新生骨尺寸及股骨／胫骨年龄分歧不能移入本种；三页也没有被合并为同一个遗址的统一成长曲线。
+再读 Vespersaurus paranaensis 的股骨与胫骨组织学。本种冠饰和融合序列、Keresdrakon 的两件组织样本、恐龙的十一件后肢骨，所记录的身体部位和取样方法不同。恐龙研究假定的新生骨尺寸及股骨／胫骨年龄分歧不能移入本种；三页也没有被合并为同一个遗址的统一成长曲线。
 
 ## 一处骨床提供多个成长阶段 {#s-bbe04091f6}
 Caiuajara dobruskii 来自巴西 Paraná 的 Cruzeiro do Oeste。2014 年原始描述以部分骨架 CP.V 1449 为正模，并利用同地点大量颅骨与身体材料比较大小不同的个体。骨床因此能提供超出单件头骨的成长资料，但多数骨骼混杂，不能把每一根骨头都还原到一个确定个体。2022 年研究加入头骨 CP.V 8175 等材料，继续检视头骨保存与变异。
@@ -31,20 +31,50 @@ Caiuajara dobruskii 来自巴西 Paraná 的 Cruzeiro do Oeste。2014 年原始�
 ## 这个名称对应哪些化石记录 {#s-e3d7043c72}
 Caiuajara dobruskii 在固定 PBDB 翼龙工作名录中为接受种，数据库父级为 Caiuajara。本页导读 1 条可用种级出现记录，涉及 1 个采集记录和 1 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
 
+PBDB 出现记录补充:
+Caiuajara dobruskii 在 PBDB 快照中对应分类条目 txn:302538。这份存档导读包含 1 条选取的出现记录，关联 1 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## 从具名采集地和地层开始 {#s-fb0f731e66}
 采集记录 Cemitério dos Pterossauros Quarry（Paraná），地区代码 BR，地层名称 Goio-Erê；数据库年代范围 121.4–72.2 Ma，早端地质时段 Aptian、晚端时段 Campanian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+
+PBDB 出现记录补充:
+存档导读包含 1 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:1221869；PBDB 采集记录 col:160057。 地点字段 cnm=Cemitério dos Pterossauros Quarry；地点分区字段 cc2=BR，stp=Paraná。 记录年代界：eag 121.4 Ma; lag 72.2 Ma；PBDB 年代区间字段 oei=Aptian，oli=Campanian。 地层字段 sfm=Goio-Erê。 记录署名 Manzig et al. 2014；PBDB 引文编号 ref:52235。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+The age of the fossil-bearing layer is uncertain, ranging from Aptian-Albian to Turonian-Campanian (see Kellner et al. 2019). 3 fossiliferous levels separated by 25 m, with bones apparently in each.
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Cemitério dos Pterossauros Quarry, in an outcrop along a rural road about 2 km N of Cruzeiro do Oeste municipality, Paraná State; "exposed at the overbanks of a secondary road (53° 03′ 53″W, 26° 45′ 34″S) about 2 km north of Cruzeiro do Oeste, Paraná, Brazil" (Fig. 1, Langer et al., 2019).
 
 ## 这些记录的年代边界 {#s-fbb7ead88b}
 本页所选出现记录的年代外包区间为 121.4–72.2 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=121.4 Ma，见 occ:1221869；最小记录 lag=72.2 Ma，见 occ:1221869。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 保存环境与生活环境分开阅读 {#s-200816a319}
 Cemitério dos Pterossauros Quarry 的采集环境标签为 interdune；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
 
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1221869：PBDB 原鉴定字段 idn=Caiuajara dobruskii n. gen. n. sp.；PBDB 分类名称字段 tna=Caiuajara dobruskii；材料说明字段 ocm=CP.V 1449 - holotype (partial skeleton incl. skull & lower jaw, cervical vertebrae, wing elements); CP.V 865, anterior portion of skull, posterior portion of lower jaw, R jugal, vertebrae, ribs, metatarsals; CP.V 867, rostral end of skull & long bones; CP.V 868, rostral end of skull, wing elements, other postcrania; CP.V 869, incomplete skeleton w/partial vertebral column (posterior cervicals, dorsals to first five caudals), R humerus, radius & ulna, carpal elements, coracoid, sternum, some wing phalanges, gastralia, pelvic elements, R femur; CP.V 870, incomplete postcrania, w/humeri & pectoral girdle; CP.V 871, fused R scapulocoracoid, incomplete long bones; CP.V 872, partial skeleton incl. fragmentary skull, lower jaw, R humerus, radius, ulna, carpals, cervical vertebrae, other long bones; CP.V 873, rostral end of skull, manual phalanges; CP.V 999, partial skull; CP.V 1001, incomplete skull w/elongated premaxillary crest & lower jaw, postcranial elements of at least 3 individuals, wing bones (w/humeri), cervical vertebrae, pelvic elements; CP.V 1003, incomplete skull & the rostral tip of lower jaw; CP.V 1004, rostral end of skull; CP.V 1005, incomplete skull w/elongated premaxillary crest & complete lower jaw; CP.V 1006, partial skull w/anterior rostral end missing, w/large premaxillary crest & several postcranial bones; CP.V 1023, anterior portion of skull, several postcranial elements; CP.V 1024, skull and several postcranial bones of at least three small individuals; CP.V 1025, femur; CP.V 1026, femur; CP.V 1450, at least 14 small individuals; CP.V 2003, skull & lower jaw assoc. w/wing bones; UEPG/ DEGEO/MP-4151, 2 skulls on one slab & postcranial elements; UEPG/DEGEO/MP-4152, rostrum and several postcranial elements；丰度字段 abv=23，abu=specimens；PBDB 地点坐标字段 lng=-53.064720，lat=-26.776112；古坐标／模型字段 pm1=gplates，pln=-27.49，pla=-29.84。
+
 ## 沿采集记录追到文献 {#s-d7cdd07519}
 数据库继续保留 Manzig et al.（2014）、ref:52235 的原署名。现已实际读取 2014 年原始描述主要正文，并以独立共享引文记录全部十位作者；另记录 2022 年头骨重描述六位作者及选读范围。补充标本清单、矩阵、图像与后续研究仍未读齐，没有独立检查或重新鉴定标本。
+
+PBDB 出现记录补充:
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1221869：记录署名 Manzig et al. 2014；PBDB 引文编号 ref:52235。
 
 ## 资料边界 {#s-097a679386}
 本页结合 2014 年原始描述主要正文、2022 年头骨研究选段与固定 PBDB 出现资料。论文按当时地层对比讨论年龄争议，未在这里压缩为精确年代或改写数据库宽区间。未读齐全部补充资料、2022 年解剖分节、后续骨组织学与所有分类文献，也未独立检查标本、重计个体或重算矩阵。群居、幼年飞行、性二型、食性和死因各有推断限制；完整专论仍未完成。
 
 比较路线另复用已读 2019 年共同骨床与 2020 年恐龙组织学主文；其取样和模型仅用于相应成员，没有据横向链接完成全部遗址动物或所有成长研究。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 1 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

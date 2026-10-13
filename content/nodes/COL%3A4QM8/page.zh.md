@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-8e44a64444}
+## 记录分类与直接上级关系 {#s-8e44a64444}
+COL26.8 将 Grallaria 记录为属；其直接上级记录为 Grallariidae。
+
 Grallaria 的本批阅读路径包含 27 条有测量来源的物种记录，可从 Grallaria albigula、Grallaria alleni、Grallaria andicolus、Grallaria bangsi、Grallaria blakei 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-a4c8205efd}
@@ -7,8 +9,8 @@ Grallaria 的本批阅读路径包含 27 条有测量来源的物种记录，可
 ## 证据边界 {#s-d842483294}
 本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
 
-## 从有限生态资料开始 {#s-661c158b49}
-Grallaria 本批有 2 个有限生态资料页，可从 [Grallaria chthonia](Grallaria_chthonia/page.zh.md)、[Grallaria griseonucha](Grallaria_griseonucha/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-661c158b49}
+Grallaria 本批有 2 个有限生态资料页，可从 Grallaria chthonia、Grallaria griseonucha 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-d10dccbd24}
 栖地类别见 2 页，取食生态位见 2 页，主导活动方式见 2 页，迁移类别见 2 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

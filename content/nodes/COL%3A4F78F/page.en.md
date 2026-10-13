@@ -1,4 +1,4 @@
-## Overview {#s-d41c99e15d}
+## Accepted identity and former subspecies treatment {#s-d41c99e15d}
 This page follows COL26.8 accepted species ID 4F78F. MDD v2.5 supplies the display name East African Potto and notes its former treatment as a subspecies of P. potto. The page keeps the pinned COL identity while preserving older combinations when reading the literature.
 
 ## Research observations {#s-a4d68f0855}

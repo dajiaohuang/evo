@@ -1,5 +1,5 @@
-## A foraging record under the accepted name {#s-45b205a91a}
-Millardia kathleenae is accepted in COL26.8 within Muridae. EltonTraits 1.0 provides a same-name, same-family entry with three ecological field groups, under earlier bird taxonomy or MSW3 for mammals. This is a historical match, not a resolution of later splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-45b205a91a}
+The EltonTraits 1.0 record for *Millardia kathleenae* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of seeds, nuts and spores 70%, other plant material, including fungi 30% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Millardia kathleenae*.
 
 ## Food weights in the historical entry {#s-bf96ea138b}
 The nonzero weights are 70% for seeds, nuts, and spores, and 30% for other plant material, a category that includes fungi. EltonTraits ABC combines high, reasonable, and partial confidence; compilers may draw on an ecologically similar congener. These standardized literature weights are not measured diet proportions, and a zero does not establish that a food is never eaten. Nect, Seed, and PlantO are broad source categories.
@@ -13,6 +13,6 @@ Night feeding is marked 1. Activity fields may overlap and are not proportions o
 ## How to read the source labels {#s-2a2e2dbf81}
 The selected groups carry Ref_1 and metadata:Nowak1999. Their sources may differ, and a Ref number is meaningful within its own reference table. Original citation strings are kept with the file, row, field group, and table. The underlying books and papers have not been individually read, so the labels are not independent observations.
 
-## What the EltonTraits entry can show {#s-1cbd102f3c}
-This is a guide to a historical same-name, same-family record in EltonTraits 1.0, not a full monograph. Matching names and classification do not establish equivalence with COL26.8. The food weights standardize literature descriptions; they do not measure stomach contents, intake, energy, or observation time. Mammalian ABC fields may include a congener considered ecologically similar, so not every diet or activity value is a direct observation of M. kathleenae. Underlying books and papers have not been individually reread. Individual, seasonal, and local variation, current range, population, and conservation need further sources.
+## How to read the source fields {#s-1cbd102f3c}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 

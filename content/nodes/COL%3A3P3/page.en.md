@@ -1,10 +1,10 @@
-## Local data reading route {#s-d083608d87}
+## Recorded classification and member material {#s-d083608d87}
 This batch’s Nyctibiiformes route includes 6 measured species records. Start with Nyctibius aethereus, Nyctibius grandis, Nyctibius griseus, Nyctibius jamaicensis, Nyctibius leucopterus. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-d9e4099766}
 Compiled mean mass endpoints in this batch are Nyctibius leucopterus at 86.4 g and Nyctibius grandis at 547 g. Represented habitat categories include Forest; trophic niches include Invertivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-1debee9884}
+## Amniote Life-history archive member records {#s-1debee9884}
 This batch’s Nyctibiiformes route includes 2 historical life-history accounts; start with Nyctibius griseus, Nyctibius jamaicensis. More frequently represented fields include adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), oviposition to hatching (2 entries), age at flight capability (leaving the nest in some source material) (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-6b8b039c1e}

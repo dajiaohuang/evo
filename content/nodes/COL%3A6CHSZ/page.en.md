@@ -1,15 +1,15 @@
-## A pinned classification and a summarized row {#s-970b2c4de4}
-Catalogue of Life’s pinned COL26.8 accepts Delma labialis in Pygopodidae, the family of legless lizards. This profile uses one ReptTraits v1-2 row, under the workbook’s Reptile Database 2023 name framework and trait-specific citations. The row combines reports; it does not establish that every population has the same characteristics.
+## COL26.8 name and the ReptTraits row {#s-970b2c4de4}
+COL26.8 records Delma labialis as an accepted species. The ReptTraits v1-2 row gives its Family field as Pygopodidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Maximum snout-to-vent length {#s-b8badcea70}
-The largest reported snout–vent length is 126 mm, with a largest female value of 123 mm. Snout–vent length (SVL) measures from the snout to the vent, excluding the tail. The figures are compiled maxima, not typical sizes or limits on growth. If records for each sex come from different places or studies, their difference alone cannot measure size dimorphism in a population.
+## Length values in the archived records {#s-b8badcea70}
+The row reports a maximum SVL of 126 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 123 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Ground-dwelling and day-active labels {#s-601105a376}
-The workbook classifies the microhabitat as terrestrial, the diet as omnivorous and activity as diurnal. These broad labels describe ground-associated habitat, a varied diet and daytime activity, but they are not a full habitat map or rigid daily schedule. “Omnivorous” does not identify particular foods, and the entry may not represent every population or life stage.
+## Habitat use and activity labels {#s-601105a376}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as plant- and animal-eating (Omnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg-laying and the reported clutch figure {#s-eb5c7c2fb3}
-The source labels the reproductive mode oviparous, or egg-laying, and reports a consolidated count of 1 offspring or egg per litter or clutch. The workbook can calculate this type of summary from midpoints of reported means, or from reported extremes when means are missing; it is not necessarily an arithmetic average of observed clutches. It is not a guarantee that every clutch contains one egg. The reproductive label does not establish embryo nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-eb5c7c2fb3}
+The compiled mean for offspring per litter or eggs per clutch is 1. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-9205ecd32d}
-This account summarizes one ReptTraits row under its 2023 name framework, with the source of each trait retained. A row compresses variation in sex, age, place and population; matching names and family do not guarantee identity with later taxonomic concepts. The maximum length is not an absolute species limit, and the reproductive summary is not a fixed count in every nest. Many database mass entries rely on length equations; this page does not present them as direct measurements. Conservation, venom, present distribution and population trends are not updated; missing fields remain gaps. Source labels preserve the citation trail but do not mean the project independently reviewed each cited work.
+## Reading this compiled trait record {#s-9205ecd32d}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

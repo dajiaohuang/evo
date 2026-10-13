@@ -1,19 +1,44 @@
 ## Which fossil records this name represents {#s-576d49e5e2}
 Metanoiamys paradoxus is accepted in the fixed PBDB mammalia working roster, with database parent Metanoiamys. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-c239f7ad29}
-Collection Flagstaff Rim I (Wyoming), region code US, stratum name White River; database age bracket 37–33.9 Ma, early interval Chadronian. Collection Flagstaff Rim II (Wyoming), region code US, stratum name White River; database age bracket 37–33.9 Ma, early interval Chadronian. Collection Arner Ranch ant mounds (Nebraska), region code US, stratum name Chadron; database age bracket 37–31.8 Ma, early interval Late Chadronian and late interval Orellan. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Metanoiamys paradoxus is listed in the PBDB snapshot under taxon txn:333576. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-0fc357c0be}
-Selected occurrences have an outer age envelope of 37–31.8 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Flagstaff Rim I, occurrence occ:1308506 (37–33.9 Ma); one supplying the younger bound is Arner Ranch ant mounds, occurrence occ:1629792 (37–31.8 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-c239f7ad29}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-b5f5fc396b}
-Flagstaff Rim I has collection-environment label terrestrial indet.; collection preservation-mode label body. Flagstaff Rim II has collection-environment label terrestrial indet.; collection preservation-mode label body. Arner Ranch ant mounds has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1308506; PBDB collection col:16960. Locality cnm=Flagstaff Rim I; place fields cc2=US, stp=Wyoming, cny=Natrona. Recorded age bounds: eag 37 Ma; lag 33.9 Ma; PBDB interval fields oei=Chadronian. Stratigraphic fields sfm=White River, sls=WRGWY, slb=1, slo=bottom to top. Recorded attribution Emry and Korth 2012; PBDB reference ref:57381.
 
-## Follow collection records back to references {#s-ee8a02e2a2}
-Flagstaff Rim I carries database reference attribution Emry and Korth (2012), identifier ref:57381. Flagstaff Rim II carries database reference attribution Emry and Korth (2012), identifier ref:57381. Arner Ranch ant mounds carries database reference attribution Korth et al. (2022), identifier ref:85344. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1308507; PBDB collection col:16961. Locality cnm=Flagstaff Rim II; place fields cc2=US, stp=Wyoming, cny=Natrona. Recorded age bounds: eag 37 Ma; lag 33.9 Ma; PBDB interval fields oei=Chadronian. Stratigraphic fields sfm=White River, sls=WRGWY, slb=2, slo=bottom to top. Recorded attribution Emry and Korth 2012; PBDB reference ref:57381.
+
+- Occurrence occ:1629792; PBDB collection col:230806. Locality cnm=Arner Ranch ant mounds; place fields cc2=US, stp=Nebraska. Recorded age bounds: eag 37 Ma; lag 31.8 Ma; PBDB interval fields oei=Late Chadronian, oli=Orellan. Stratigraphic fields sfm=Chadron. Recorded attribution Korth et al. 2022; PBDB reference ref:85344.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"All of the ant mounds sampled in this study rest upon rocks of the Big Cottonwood Creek Member. Detailed study of fossils previously collected in and around Toadstool Geological Park a few miles north of the present study area placed the stratigraphic position of the faunal transition between the Chadronian and Orellan biochrons at two meters above the UPW (±5 meters: Zanazzi et al., 2009). That same study determined that the late Chadronian (Ch4) to middle Chadronian (Ch3) subdivision transision occurred 18 meters below the UPW (±2 meters: Zanazzi et al., 2009), which is below the stratigraphic positions of all the ant mounds sampled in this study. Thus, the stratigraphic distribution of these ant mounds spans rocks that may preserve fossils deposited across the Chadronian-Orellan boundary, with the oldest fossils contributed from a late Chadronian fauna." (Korth et al. 2022)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"The specimens in this study were collected from ant mounds situated on private property approximately four miles southeast of Toadstool Geological Park and Campground in Sioux County, Nebraska and eleven miles northwest of the city of Crawford, Nebraska. The study area is part of the property referred to as the Arner Ranch in prior publications (e.g., Alf, 1962)." (Korth et al. 2022)
+
+## Age bounds on the recorded occurrences {#s-0fc357c0be}
+Across these selected PBDB rows, the largest recorded eag=37 Ma in occ:1308506; the smallest recorded lag=31.8 Ma in occ:1629792. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-b5f5fc396b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1308506: PBDB taxon-name field tna=Metanoiamys paradoxus; material note ocm=Dry Hole Quarry; possibly type locality; PBDB locality-coordinate fields lng=-107.099998, lat=43.200001; paleocoordinate/model fields pm1=gplates, pln=-90.2, pla=49.33.
+- occ:1308507: PBDB taxon-name field tna=Metanoiamys paradoxus; material note ocm=B Minus 44’ Quarry; possibly type locality; PBDB locality-coordinate fields lng=-107.099998, lat=43.200001; paleocoordinate/model fields pm1=gplates, pln=-90.2, pla=49.33.
+- occ:1629792: PBDB taxon-name field tna=Metanoiamys paradoxus; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=-103.648888, lat=42.753613; paleocoordinate/model fields pm1=gplates, pln=-87.07, pla=48.38.
+
+## References attached to each record {#s-ee8a02e2a2}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1308506: Recorded attribution Emry and Korth 2012; PBDB reference ref:57381.
+- occ:1308507: Recorded attribution Emry and Korth 2012; PBDB reference ref:57381.
+- occ:1629792: Recorded attribution Korth et al. 2022; PBDB reference ref:85344.
 
 ## Evidence limits {#s-91ef9f82a9}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

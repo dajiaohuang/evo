@@ -1,15 +1,15 @@
-## Three traits outline a brief profile {#s-1a2ab2ba16}
-COL26.8 accepts Tytthoscincus temengorensis in the skink family Scincidae. The cited row records maximum snout–vent length, terrestrial microhabitat and daytime activity. That combination provides a concise starting point, while leaving feeding and reproductive biology unresolved in this account.
+## COL26.8 name and the ReptTraits row {#s-1a2ab2ba16}
+COL26.8 records Tytthoscincus temengorensis as an accepted species. The ReptTraits v1-2 row gives its Family field as Scincidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A 35.5 mm maximum measured without the tail {#s-b5e33413b6}
-The reported maximum snout–vent length is 35.5 mm. Because the measure ends at the body opening, it excludes the tail and is not total length. It is a compiled maximum rather than an average or a limit applying to every individual.
+## Length values in the archived records {#s-b5e33413b6}
+The row reports a maximum SVL of 35.5 mm. ReptTraits attributes this field to Meiri 2018.
 
-## A ground category and a daylight category {#s-d11d36b691}
-The workbook labels the microhabitat terrestrial and the active period diurnal. In plain terms, its cited profile is ground-associated and daytime-active. Those broad categories do not identify a particular habitat or fix the species’ schedule across seasons and life stages.
+## Habitat use and activity labels {#s-d11d36b691}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Questions not answered by this row {#s-400697017a}
-The sources linked here do not establish diet, foraging, reproductive mode, or clutch/litter figures. The missing combinations of values and citations are gaps in this account, not claims that the traits are absent; data from related species are not substituted.
+## Reading this compiled trait record {#s-400697017a}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Scope of the compiled name record {#s-04cf78e3b2}
-The trait row retains the workbook’s 2023 name framework, whereas COL26.8 supplies the pinned accepted placement; name agreement alone does not prove equivalent taxonomic concepts. A single row also compresses differences among sex, age, locality and populations. The maximum is not a species-wide size ceiling, and this page does not update range or conservation status.
+## Reading this compiled trait record {#s-04cf78e3b2}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

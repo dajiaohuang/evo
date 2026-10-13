@@ -1,5 +1,5 @@
-## A historical life-history entry for the accepted name {#s-d969a7af44}
-Melomys bougainville is accepted in COL26.8 within Muridae. The 2015 archive links this name to three focal life-history fields, each supported by cited species-level sparse-table rows with matching name and family. That supports a historical comparison, while possible inheritance across older taxonomic concepts remains unresolved.
+## Body mass and life-history values in the compilation {#s-d969a7af44}
+The August 2015 Amniote Database entry for *Melomys bougainville* reports adult body mass 60.1 g; offspring per litter or eggs per clutch 2.085; age of dependence on food other than maternal milk 20 d. These are compilation summaries rather than measurements of one animal. Reported non-longevity values are database medians or interpolated medians. The litter/clutch field can combine offspring and egg counts; a decimal is a compilation summary, not a fractional reproductive event. Wild or captive conditions are not uniformly established in the archive, and historical inheritance can remain in a same-name row; the association does not establish equivalence to the pinned COL26.8 concept for *Melomys bougainville*.
 
 ## Adult body mass {#s-3aa9a8dea0}
 The historical summary reports adult body mass of 60.1 g. Its records may combine males, females, and adults of unspecified sex, so the value is not a species-wide range. Birth or hatching mass is not reported here.
@@ -10,8 +10,8 @@ The compilation reports 2.09 offspring/eggs for its combined litter-or-clutch fi
 ## Following the life-history sources {#s-dcb8be8fbb}
 The same-name sparse rows include labels for Jones, K., Bielby, J., Cardillo, M. et al., 2009, and Ernest et al., 2003. The archive preserves field-level row numbers, values, and labels, along with the complete explanations in the summary table. A label can refer to a paper, book, or database; row counts are not animal sample sizes, and repeated citations are not independent experiments.
 
-## A separate foraging-ecology entry {#s-94fd618eaa}
-EltonTraits 1.0 links a same-name, same-family record to Melomys bougainville and supplies two ecological field groups. Its source uses earlier bird taxonomy or MSW3 for mammals. The match makes the record useful for historical comparison but does not resolve later splits or synonymy.
+## Foraging stratum and activity flags in the compilation {#s-94fd618eaa}
+The EltonTraits 1.0 record for *Melomys bougainville* contains the foraging stratum, activity flags. The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Source comments and compiler confidence remain attached to the foraging category. The archive leaves diet fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Melomys bougainville*.
 
 ## Foraging-stratum category {#s-31604da735}
 The entry is assigned G, ground; the source definition also includes some aquatic foraging. Code A records compiler confidence in the source and assignment, and metadata attributes mammalian stratum assignments collectively to Nowak (1999). This is a category, not a time share or an exclusive foraging location.
@@ -22,15 +22,15 @@ The archive marks night feeding as 1. Activity fields can be marked together, so
 ## Source labels by field group {#s-22b65e01d9}
 The selected groups carry metadata:Nowak1999 and Ref_1. Diet, stratum, and activity can draw on different material, and a Ref number is specific to its reference table. The archive retains the original strings by file, row, field group, and table. Underlying books and papers have not been individually read, so the labels do not represent additional observations.
 
-## How to interpret the three source records {#s-90de8efb23}
-The life-history values come from same-name records in the 2015 archive. They are compilation medians or averages of the two middle values, except maximum longevity, which uses the largest record found. They are not measurements of one individual, individual variation ranges, mean wild lifespans, or current population surveys. The source may inherit data across historical species and subspecies. Name, family, and matching sparse rows support the association but do not prove equivalence to COL26.8 or remove every inherited value. Wild or captive conditions are not consistently known, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation, and missing fields need other sources.
+## How to interpret these historical records {#s-90de8efb23}
+These life-history values are compilation summaries that may inherit older species or subspecies records. Source conditions are not uniform, and a historical same-name match does not establish equivalence with the pinned COL26.8 concept.
 
-The EltonTraits 1.0 entry is a historical same-name, same-family foraging record, not a full species account. Its older concept is not shown to be equivalent to COL26.8. Food descriptions are converted into coarse weights rather than measured intake; mammalian ABC activity or diet fields can also draw on an ecologically similar congener. This page does not treat every field as direct observation of the species. Underlying works have not been individually reread, and individual, seasonal, and local variation or current status requires other evidence.
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-The diet field is withheld under source code D1 because of interpolation, certainty, or source-link limits. The archive retains the original values and specific reasons; they are not used here to make a definite diet claim.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
 
-## Name and date range of the PanTHERIA entry {#s-c076a94e55}
-This page also draws on the PanTHERIA 1.0 MSW05 entry in the August 2008 table; its biological data gathering ended in June 2004. The historical name is associated with the COL26.8 name for navigation, but the match does not settle later taxonomic changes.
+## Adult body mass and adult head–body length in the historical table {#s-c076a94e55}
+The August 2008 PanTHERIA row for *Melomys bougainville* records adult body mass 85.99 g; adult head–body length 146.44 mm. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Melomys bougainville*.
 
 ## Consolidated body-size values {#s-2673578d43}
 The historical entry reports adult body mass of 85.99 g and adult head–body length of 146.44 mm. These are medians after sex adjustment. Mass may include adults or animals of unspecified age but excludes pregnant females; head–body length does not include the tail. Neither value is a measurement of one specimen or a species-wide size range.

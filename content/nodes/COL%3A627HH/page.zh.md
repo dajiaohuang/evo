@@ -1,4 +1,6 @@
-## 接受的分类记录 {#s-1379d3abc6}
+## 记录分类与直接上级关系 {#s-1379d3abc6}
+COL26.8 将 Podocnemididae 记录为科；其直接上级记录为 Pelomedusoidea。
+
 Podocnemididae 是 COL26.8 中 Pelomedusoidea 下的接受科（COL 627HH）。该固定版本记录支持科级阅读路径。
 
 ## 当前本地样本 {#s-d5a2360612}
@@ -11,7 +13,7 @@ Podocnemididae 的本批路线包含 6 条历史生活史导读，可从 Peltoce
 本页是部分科级阅读路径，不是完整后代名录或科级专著。所引个别头骨不能代表 Podocnemididae 的全部物种或种群。
 本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
 
-## 从有性状记录的物种开始 {#s-4975dccfff}
+## 记录分类与成员材料 {#s-4975dccfff}
 Podocnemididae 的本批 ReptTraits 阅读路径包含 6 条同名同科、有逐性状出处的物种资料，可从 Peltocephalus dumerilianus、Podocnemis erythrocephala、Podocnemis expansa、Podocnemis lewyana、Podocnemis sextuberculata 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-d017ffb108}
@@ -23,8 +25,8 @@ Podocnemididae 的本批 ReptTraits 阅读路径包含 6 条同名同科、有�
 ## 部分后代条目的引用缺口 {#s-4ddf507a05}
 这条 ReptTraits 阅读路径中有 2 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-074d414ca8}
-Podocnemididae 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 [Erymnochelys madagascariensis](Erymnochelys/Erymnochelys_madagascariensis/page.zh.md)、[Podocnemis vogli](Podocnemis/Podocnemis_vogli/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-074d414ca8}
+Podocnemididae 的本批 ReptTraits 阅读路径包含 2 条同名同科、有逐性状出处的物种资料，可从 Erymnochelys madagascariensis、Podocnemis vogli 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-94e0674a20}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

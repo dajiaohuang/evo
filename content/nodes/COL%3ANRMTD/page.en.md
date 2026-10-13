@@ -1,5 +1,5 @@
-## Locate records through older Pomatorhinus names {#s-2193c72f3a}
-Pinned COL26.8 organizes this page at Erythrogenys mcclellandi (NRMTD) in Timaliidae (H9M). BirdLife 2020 row 8336 and eBird 2021 row 3772 share the name; both eBird sides share Avibase ID AVIBASE-894AED25, with type 1BL to 1eBird. BirdTree row 3756 gives Pomatorhinus mcclellandi, type 1BL to 1BT; exact catalogue synonym 4LQWV points to accepted species NRMTD. Name links locate records without proving identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-2193c72f3a}
+Catalogue of Life release COL26.8 records Erythrogenys mcclellandi (Godwin-Austen, 1870) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-d0ab6ca306}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 20.4 mm, tarsus 32.4 mm, unflattened wing 82.2 mm, tail 85 mm and hand-wing index 4.4 are historical row means. Totals exceed complete sets; not every bird has all fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

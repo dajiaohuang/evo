@@ -1,5 +1,5 @@
-## 历史属名与物种概念 {#s-86155f4042}
-固定 COL26.8 以 Pternistis hildebrandti（4PV6T）组织本页。AVONET v7 BirdLife 2020 第 2517 行与 eBird 2021 对应同名，Avibase ID 为 AVIBASE-F5A73AAA；BirdTree 表对应 Francolinus hildebrandti，原匹配类型为 1BL to 1BT。已读 fr／pt 名称分片未找到本种旧 Francolinus 组合的异名记录，表内对应仍作为历史来源保留。名称关联支持查回历史行，不证明各年代所有物种边界相同。
+## COL26.8 中的名称身份 {#s-86155f4042}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pternistis hildebrandti (Cabanis, 1878) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与推算边界 {#s-e090ff2d97}
 形态共测 8 只（雌 4、雄 4），完整测量 4 只。鼻孔前缘至喙尖均值 15.6 mm，跗蹠 43.5 mm，未压平翼长 177.3 mm，手翼指数 16.8。这些是物种行均值，指数按 Kipp 距离／翼长 ×100 定义；不能换成个体范围或飞行速度。

@@ -1,5 +1,5 @@
-## Locate records through older Caprimulgus names {#s-08741a6755}
-Pinned COL26.8 organizes this page at Antrostomus salvini (F4N9) in Caprimulgidae (7PQ). BirdLife 2020 row 610 and eBird 2021 row 731 share the name; both eBird sides share Avibase ID AVIBASE-100B2E32, with type 1BL to 1eBird. BirdTree row 732 gives Caprimulgus salvini, type 1BL to 1BT; exact catalogue synonym QSQ7 points to accepted species F4N9. Name links locate records without proving identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-08741a6755}
+Catalogue of Life release COL26.8 records Antrostomus salvini (Hartert, 1892) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-01a5181b3a}
 Morphology comprises 4 birds: 1 female, 2 male and 1 unsexed; 4 complete sets. Nostril-to-tip beak length 7.6 mm, tarsus 15.4 mm, unflattened wing 169 mm, tail 120.8 mm and hand-wing index 44.6 are historical row means. Complete and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; the index is not flight speed, and wing length is not measured flight ability.

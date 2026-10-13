@@ -1,5 +1,5 @@
-## 历史属名与物种概念 {#s-4ad1b056cb}
-固定 COL26.8 以 Pternistis afer（4PV6G）组织本页。AVONET v7 BirdLife 2020 第 2505 行与 eBird 2021 对应同名，Avibase ID 为 AVIBASE-5FA94F66；BirdTree 表对应 Francolinus afer，原匹配类型为 1BL to 1BT。已读 COL 的旧组合 PC2SK 指向本页接受 ID 4PV6G。名称关联支持查回历史行，不证明各年代所有物种边界相同。
+## COL26.8 中的名称身份 {#s-4ad1b056cb}
+《Catalogue of Life》COL26.8（2026-08-20）将 Pternistis afer (P. L. S. Müller, 1776) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 测量样本与推算边界 {#s-a268cf2498}
 形态共测 4 只（雌 2、雄 2），完整测量 2 只。鼻孔前缘至喙尖均值 16.4 mm，跗蹠 49.1 mm，未压平翼长 170.2 mm，手翼指数 19.5。这些是物种行均值，指数按 Kipp 距离／翼长 ×100 定义；不能换成个体范围或飞行速度。

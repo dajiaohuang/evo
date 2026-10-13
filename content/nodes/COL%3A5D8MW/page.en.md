@@ -1,44 +1,44 @@
-## The name and this data account {#s-7ced38d277}
-COL26.8 accepts Zosterops lateralis within Zosteropidae. AVONET v7 links its measurements and ecology to the HBW–BirdLife 2020 name. Its record includes 22 measured individuals, 10 with a complete morphological set; each trait may have a smaller usable sample.
+## Row-reported mean and sample coverage {#s-7ced38d277}
+The AVONET v7 row for Zosterops lateralis (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 6.8 mm. The row records 22 measured individuals, 10 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-4df6fa856a}
-The mean beak length is 6.8 mm from the front edge of the nostril to the tip; mean width is 2.8 mm and depth 3.1 mm at that edge. These are separate measurements at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-4df6fa856a}
+AVONET records culmen length (bill tip to skull base) 12.7 mm; beak length (nostril front edge to tip) 6.8 mm; beak width at the nostril front edge 2.8 mm; beak depth at the nostril front edge 3.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-ba6ba24219}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 59 mm; mean tarsus length is 16.4 mm. The separately compiled mean mass is 12.68 g, sourced to Dunning. It is not a claim that all 22 morphological specimens were weighed.
+## Wing and body measures use separate sources {#s-ba6ba24219}
+AVONET records unflattened wing length 59 mm; tarsus length 16.4 mm; distance from first secondary tip to longest primary tip 15.2 mm; length to first secondary tip 44.8 mm; hand-wing index 25.3; tail length 42.2 mm; species-average body mass 12.68 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-aa966b9efe}
-AVONET assigns Shrubland as habitat, Omnivore as trophic niche and Insessorial as primary lifestyle. These are broad comparison categories; they do not imply exclusive use of one habitat or food.
+## Recorded habitat and feeding categories {#s-aa966b9efe}
+AVONET classifies Zosterops lateralis as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-e05ef122d9}
-The migration category is sedentary. Historical breeding and resident maps span latitude −52.61° to −11.74°. This is not a complete account of non-breeding movement, current position or occupancy throughout the range. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-e05ef122d9}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -52.61° to -11.74°. The mapped range area is 2701109.16 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-6bd3ea8490}
-The August 2015 life-history archive has six usable focal fields in same-name, same-family, species-level rows with cited sources. The name supports a historical association, but taxonomic inheritance within that archive may remain in the summaries; it does not establish equivalence to the current COL26.8 concept.
+## Scope of the historical life-history entry {#s-6bd3ea8490}
+The August 2015 database has a same-name, same-family record for Zosterops lateralis. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-443e386445}
-The archive reports adult body mass as 12.4 g, a median drawn from compiled source records. The adult field may combine males, females and adults of unspecified sex; it is not a range of individual masses. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-443e386445}
+The August 2015 compilation reports adult body mass 12.39583334 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-5abec9315f}
-The source-defined female maturity field is 363.47 d (age at first conception); litter or clutch size is 3.15 offspring or eggs; oviposition-to-hatching time is 11.5 d; and age at flight capability is 12 d (some source material defines this as leaving the nest). Here, d means days. A fractional summary is not a fraction of an individual, and the timing fields describe different events rather than one reproductive cycle.
+## Reproductive fields describe different events {#s-5abec9315f}
+The August 2015 compilation reports female age at first conception (source definition) 363.468 days; median or interpolated-median number of offspring or eggs per litter/clutch 3.15; oviposition-to-hatching interval 11.5 days; age at flight capability (some records mark nest departure) 12 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-ca1e96cab1}
-The archive’s maximum_longevity_y value is 8.17 years, selected as the largest record under its method. It is not a typical or mean wild lifespan, a ceiling for every individual or a current record known to be repeatedly attainable.
+## A maximum record is not typical lifespan {#s-ca1e96cab1}
+The compilation lists 8.166666667 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-17a8dd978d}
-The same-name rows cite Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; Bennett, 1986; and Jetz, Sekercioglu, and Bohning-Gaese, 2008. The archive retains field-specific row numbers, values and source labels, along with the final table’s full reference explanations. A label may point to a paper, book or database; row counts are not specimen counts, and repeated citations are not independent replication.
+## Sources and field limits {#s-17a8dd978d}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-36a9398635}
-EltonTraits 1.0 contains a historical Zosterops lateralis entry associated by name and family with the COL26.8 record. Two ecological groups are usable: diet and foraging stratum. Its earlier taxonomy cannot resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-36a9398635}
+EltonTraits 1.0 has a same-name, same-family record for Zosterops lateralis covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-45b24dfcb1}
-The standardized diet weights are invertebrates 40%, fruit 30%, nectar, pollen and plant exudates 20%, and other plant material 10% (the source’s PlantO category also includes fungi). Code A means the compilers rated the source and diet information highly. These weights translate written descriptions; they are not measured diet proportions, and a zero would not prove a food is never eaten. Nect, Seed and PlantO are broader source categories than their everyday labels.
+## Relative weights across food categories {#s-45b24dfcb1}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 40%; fruit 30%; nectar 20%; other plant material 10%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-87c2e03c9c}
-The species-level feeding-position weights are 50% for understory, edges or shrubs below 2 m; 20% for trees or tall bushes from 2 m upward but below the canopy; 20% in or just above the canopy; and 10% on the ground. They describe relative use, not nest sites, all habitat or time budgets. The source’s water, understory, mid/high, canopy and aerial classes have distinct definitions; they are not elevation bands or measures of flight height or habitat area.
+## Foraging positions are not a time budget {#s-87c2e03c9c}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 10%; in the understory 50%; in mid-height or high vegetation 20%; in the canopy 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-341da651a3}
-Diet fields cite Ref_13 and foraging-stratum fields cite Ref_37. The archive retains each source string with its file, row, field group and reference table. A label traces material; it is not another observation, and the underlying books and papers have not been individually reviewed here.
+## Sources and field limits {#s-341da651a3}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.13.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Longmore, W. 1991. Honeyeaters & Their Allies of Australia. Angus & Robertson North Ryde.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits of these compiled sources {#s-bd194b043a}
 This page brings together three historical data sources, not a complete species monograph. AVONET measurements are species means from the stated sample, not diagnoses or individual ranges; its mass comes from a separate source. The August 2015 life-history archive reports compiled summaries, including medians and a maximum record, and may retain inherited taxonomic data; source conditions are not uniformly confirmed and original papers were not individually reviewed. EltonTraits percentages are coarse literature-derived weights, not direct measurements. Same-name and same-family matches support association, not equivalence to COL26.8. Geography covers historical breeding and resident ranges only. Current range, population and conservation require other sources.

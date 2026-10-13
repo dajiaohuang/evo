@@ -10,3 +10,6 @@ These evidence types answer different questions: marker comparisons describe rel
 ## Scope of the evidence {#s-d890b99003}
 This is a short reading path anchored to the fixed COL26.8 genus ID, not a complete genus review. Evidence comes from local observations, interviews and limited molecular markers with different periods and sampling frames; it cannot establish genus-wide ecology or current conservation status. The Chinese display name retains the Latin genus name; the guide. This page is.
 
+## Recorded classification {#col26-8-identity}
+In the pinned COL26.8 catalogue, Allochrocebus Elliot, 1913 is recorded as an accepted genus.
+

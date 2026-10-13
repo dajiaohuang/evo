@@ -1,32 +1,30 @@
-## Name and the two data sources {#s-f4a72f83d3}
-Pinned COL26.8 lists Echis leucogaster in Viperidae. The ReptTraits v1-2 entry follows the Reptile Database 2023 name framework and cites sources by trait. Separate sections summarize a historical life-history record from the August 2015 archive, which uses its own source labels and compilation method.
+## COL26.8 name and the ReptTraits row {#s-f4a72f83d3}
+COL26.8 records Echis leucogaster as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What does the reported length measure? {#s-e353b74c26}
-The reported maximum total length (TL) is 870 mm. Total length includes the tail; snout-to-vent length (SVL) ends at the vent. This compiled maximum describes reported material, not a theoretical growth limit or typical individual size. Female and male values may come from different localities or studies, so they cannot by themselves measure sexual dimorphism within one population.
+## Length values in the archived records {#s-e353b74c26}
+The row reports maximum total length (TL) of 870 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and when is it active? {#s-9f8e6d4873}
-The entry lists the microhabitat as terrestrial and the activity pattern as cathemeral, meaning activity is recorded across day and night. These categories do not describe every habitat or a fixed schedule; populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-9f8e6d4873}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Scharf et al. 2015. The active-time field classifies activity as active across day and night (Cathemeral); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018.
 
-## What does the ReptTraits reproductive record show? {#s-e46f0f82a6}
-The ReptTraits row labels the species as oviparous, or egg-laying, and reports a compiled mean of 14 offspring or eggs per litter or clutch. This is a summary, not a count for every reproductive event. The workbook may use midpoints of reported means, or extrema when means are unavailable; a fractional summary is not a fraction of an individual. “Lowest” and “highest” fields are endpoints of reported means, not guaranteed clutch extremes. The reproductive label does not establish a pattern shared by all populations.
+## Reproductive fields in ReptTraits {#s-e46f0f82a6}
+The compiled mean for offspring per litter or eggs per clutch is 14. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Feldman et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## How the historical life-history entry is linked {#s-056601e56a}
-The August 2015 life-history archive has a historical entry under the same name. Four fields in that entry have cited species-level sparse-table rows associated with the same name and family. The archived summaries may still inherit data across historical taxonomic concepts; a matching name does not remove that possibility.
+## A 2015 life-history row for this name {#s-056601e56a}
+COL26.8 records Echis leucogaster as an accepted species. The August 2015 life-history table has a species-name and family match (Viperidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## What the archive reports about adult mass {#s-e8d92e7f22}
-The archive reports adult body mass as 142 g. That value may combine males, females and adults of unspecified sex; it does not give a range of individual masses. The entry contains no birth or hatching mass.
+## Length values in the archived records {#s-e8d92e7f22}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 142 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
-## What the archive reports about litter size and incubation {#s-7f7bcbb547}
-The archive reports 14 offspring or eggs per litter or clutch and 41 d from oviposition to hatching; d means days. The litter/clutch field combines offspring and egg counts, so its value is a compilation summary rather than a count from one event. The incubation interval describes a different event and is not interchangeable with a general reproductive cycle.
+## Reproductive events in the life-history table {#s-7f7bcbb547}
+Field-specific archive notes: offspring per litter or eggs per clutch: one direct source citation, with no median count stated; oviposition to hatching: a mean of cited source values. The offspring-per-litter or eggs-per-clutch summary is 14; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book. The incubation field is 41 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## What the longevity value represents {#s-a80e49259e}
-The archive's maximum_longevity_y field is 23.8 years, the largest record in its collected material under the source method. It is not a typical lifespan, a mean wild lifespan, a survival limit for every individual, or a current record known to be repeatedly attainable.
+## Longest lifespan in the archive {#s-a80e49259e}
+The archive's longest-lifespan record is 23.8 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002.
 
-## Where the historical source labels lead {#s-c4aa9e8e93}
-The same-name sparse rows carry labels including Boback and Guyer, 2003; Reptile Incubation book; de Magalhaes and Costa, 2009; and Carey, J.R. and D.S. Judge, 2002. The archive preserves each field's source-row number, value and label, alongside the final table's reference explanations. A label may refer to a paper, book or another database. Row counts are not counts of measured individuals, and repeated citations do not represent independent experimental replication.
+## The August 2015 life-history table {#s-c4aa9e8e93}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-3669690235}
-The ReptTraits values follow its Reptile Database 2023 name framework. A one-row summary can conceal differences by sex, age, locality and population, and the historical name may not match later taxonomic concepts. A reported maximum is not a biological upper limit, and reproductive means do not describe every litter. Length-based mass estimates are not measured weights; juvenile-length fields are excluded because their headers and definitions vary. ReptTraits provides no current information here on conservation, venom, distribution or population trends. Its citation labels trace the workbook's sources but do not independently establish every cited paper's findings.
-
-The August 2015 archive reports compilation medians or averages of the two middle values, except for maximum longevity, which uses the largest record found. These summaries are not measurements of one individual, ranges of individual variation, mean wild lifespans or current population surveys. Historical species and subspecies entries may share or inherit data. Same name, family and sparse-row citations support the association, but do not establish equivalence with COL26.8 or remove all inherited components. Wild or captive conditions are not uniformly confirmed, and the underlying publications were not individually reviewed for this summary. Diet, behavior, current range, conservation and blank fields need other sources.
+## Separate histories in the two archives {#s-3669690235}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

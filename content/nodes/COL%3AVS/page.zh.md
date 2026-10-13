@@ -1,45 +1,42 @@
-## overview {#s-15edaf1973}
+## 食肉目是分类群，不是饮食清单 {#s-15edaf1973}
 “食肉目”不是饮食清单：目内成员的食性多样，熊、浣熊和鳍足类的裂齿也发生了不同程度的改变；而蝙蝠、有袋类和鲸豚等目外哺乳动物同样会捕食。读这个名称时，应把分类身份与实际食谱分开。
 
-## 按生活史字段选择对读页面 {#s-91f5675fed}
-Carnivora 的本批路线包含 206 条历史生活史导读，可从 Ailurus fulgens、Canis aureus、Canis latrans、Canis lupus、Canis simensis 开始。较多条目具有的字段包括 成年体重（206 条）、每窝幼体数或卵数（205 条）、汇编中最长寿命记录（202 条）、受孕或受精至出生的时间（183 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+## 选录记录中的生活史字段 {#s-91f5675fed}
+食肉目生活史选录包含 206 条历史记录，例子有 Ailurus fulgens、Canis aureus、C. latrans、C. lupus 和 C. simensis。成年体重见于 206 条记录，每窝幼体数或每窝卵数见于 205 条，最高寿命记录见于 202 条，受孕或受精至出生时间见于 183 条。这些数字描述选录中的字段覆盖，不是全部接受种分母；比较前应核对事件、单位和出处。
 
-## 沿食物、取食位置和活动时段对读 {#s-84bff76308}
-Carnivora 的本批路线包含 242 个历史条目，可从 Acinonyx jubatus、Caracal caracal、Catopuma badia、Catopuma temminckii、Felis catus 开始。其中 239 条可读食物类别权重，241 条可读取食层位，229 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+## 较大选录中的食物与活动字段 {#s-84bff76308}
+另一条生态路线包含 242 条历史记录，例子有 Acinonyx jubatus、Caracal caracal、Catopuma badia、C. temminckii 和 Felis catus。239 条有食物类别权重，241 条有取食层位，229 条有活动时段代码。这些是标准化或类别型来源汇总，不是对每只动物食谱或每日作息的直接测量，也不是整个食肉目共有的性状。
 
-## 沿食物、取食位置和活动时段对读 {#s-ff206541ec}
-Carnivora 的本批路线包含 4 个历史条目，可从 Leopardus tigrinus、Phocarctos hookeri、Zalophus japonicus、Zalophus wollebaeki 开始。其中 1 条可读食物类别权重，3 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+## 四条生态记录的字段覆盖较少 {#s-ff206541ec}
+较小的一组历史记录有 4 条，包括 Leopardus tigrinus、Phocarctos hookeri、Zalophus japonicus 和 Z. wollebaeki。其中 1 条有食物类别权重，3 条有取食层位，此子集中 0 条有活动时段记录。字段空缺只描述来源覆盖，不能说明这些物种缺少相应活动模式。
 
-## catalogue-profile / limitations {#s-e41a294303}
-这是有来源的入门概述。ADW 页面由作者和编辑编写，所列参考文献与分类叙述有年代边界；本条不据此推导现行分类、数量或演化时间。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
-本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+## 来源与选录范围的限制 {#s-e41a294303}
+ADW 来源的导读是教育性内容，不能确定当前分类、类群数量或演化年代。生活史选录采用历史同名、同科且一对一对应的匹配，并要求至少 3 个有来源支持的字段。EltonTraits 另有至少两类与恰好一类可用字段组的不同选录；估算权重、活动代码及可能借用同属资料的情况仍是记录级限制，不能证明 Carnivora 共有某种生态。
 
-## 从已有历史条目开始 {#s-0b6ae84ebc}
-Carnivora 的本地 PanTHERIA 路径包括 123 条可用数据导读，可从 Canis latrans、Canis simensis、Callorhinus ursinus、Atelocynus microtis、Atilax paludinosus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 123 条 PanTHERIA 历史记录 {#s-0b6ae84ebc}
+本地 PanTHERIA 路线包含 123 条可用 Carnivora 记录，例子有 Canis latrans、C. simensis、Callorhinus ursinus、Atelocynus microtis 和 Atilax paludinosus。各条目保留 MSW05 名称、各字段对应的来源条件与缺失值；这组历史选录不是当前 COL26.8 物种分母。
 
-## 比较体型与生活史 {#s-d6dbdde420}
-本批可用的成年体重汇总值中，Helogale parvula 为 281.83 g，Mirounga leonina 为 1600000 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
+## Carnivora 路线中的两个成年体重中位数 {#s-d6dbdde420}
+现有成年体重的经性别调整历史中位数中，Helogale parvula 为 281.83 g，Mirounga leonina 为 1600000 g。它们汇总自不同来源记录，不是个体极值。胚胎发育、断乳、活动和群体字段各有定义；单凭体重不能确定食肉目共有一种生活方式。
 
-## 这组历史数据的边界 {#s-6aadada7f2}
-本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
+## 这组 PanTHERIA 比较的范围 {#s-6aadada7f2}
+这项比较纳入至少有三个焦点字段、名称与科级位置相符且历史一对一对应的条目，不代表所有接受后代。端点是汇总值而非个体极值，不同字段的材料条件可能不同；这些历史记录不能确定当前物种概念、分布或保护状况。
 
-## 从已有历史条目开始 {#s-a1e6a0c9aa}
-Carnivora 的本地 PanTHERIA 路径包括 28 条可用数据导读，可从 [Genetta johnstoni](Feliformia/Viverridae/Genettinae/Genetta/Genetta_johnstoni/page.zh.md)、[Diplogale hosei](Feliformia/Viverridae/Hemigalinae/Diplogale/Diplogale_hosei/page.zh.md)、[Galerella flavescens](Feliformia/Herpestidae/Herpestinae/Galerella/Galerella_flavescens/page.zh.md)、[Galictis cuja](Caniformia/Mustelidae/Ictonychinae/Galictis/Galictis_cuja/page.zh.md)、[Genetta abyssinica](Feliformia/Viverridae/Genettinae/Genetta/Genetta_abyssinica/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 另一组 PanTHERIA 历史记录 {#s-a1e6a0c9aa}
+另一条本地 PanTHERIA 路线包含 28 条可用 Carnivora 历史记录，例子有 Genetta johnstoni、Diplogale hosei、Galerella flavescens、Galictis cuja 和 Genetta abyssinica。各条目保留 MSW05 名称与字段对应的来源条件；28 是这条历史路线的记录数，不是当前 COL26.8 接受种数量。
 
-## 比较体型与生活史 {#s-c2f0a93cb5}
-本批可用的成年体重汇总值中，Lyncodon patagonicus 为 225 g，Viverra civettina 为 12061.27 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
+## 另一组选录中的成年体重中位数 {#s-c2f0a93cb5}
+现有成年体重的经性别调整历史中位数中，Lyncodon patagonicus 为 225 g，Viverra civettina 为 12061.27 g。它们汇总自不同来源条目，不是个体极值，也不呈现 Carnivora 的全部体型变异。
 
-## 这组历史数据的边界 {#s-bb1838c2c8}
-本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
+## 另一条 PanTHERIA 路线的范围 {#s-bb1838c2c8}
+这组资料包含至少有一个焦点字段、同名同科且历史一对一对应的条目，不包括全部接受后代。成年体重端点汇总自不同条目；这些历史数据不能确定当前物种概念、分布或保护状况。
 
-## 沿生活史资料阅读 {#s-69a01c771d}
-Carnivora 本批有 101 个历史生活史资料页，可从 [Atelocynus microtis](Caniformia/Canidae/Atelocynus/Atelocynus_microtis/page.zh.md)、[Canis simensis](Caniformia/Canidae/Canis/Canis_simensis/page.zh.md)、[Canis latrans](Caniformia/Canidae/Canis/Canis_latrans/page.zh.md)、[Cerdocyon thous](Caniformia/Canidae/Cerdocyon/Cerdocyon_thous/page.zh.md)、[Chrysocyon brachyurus](Caniformia/Canidae/Chrysocyon/Chrysocyon_brachyurus/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+## Ernest 汇编中的生活史记录 {#s-69a01c771d}
+Ernest 的历史汇编中有 101 条关联至 Carnivora 的生活史记录，例子包括 Atelocynus microtis、Canis simensis、C. latrans、Cerdocyon thous 和 Chrysocyon brachyurus。它们是已编写的历史名称匹配记录，按固定版本 COL26.8 分类导航组织，不是本目全部当前接受种。
 
-## 先区分平均值与纪录 {#s-67292f99b0}
-本批妊娠资料见 89 页，雌性首次繁殖年龄见 72 页，最高寿命记录见 77 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。
+## 妊娠、首次繁殖与最高寿命 {#s-67292f99b0}
+89 条记录有妊娠资料，72 条有雌性首次繁殖年龄，77 条有最高寿命。首次繁殖不同于首次生产或性成熟；最高寿命不是平均寿命。不同性状的来源条件可能不同，缺失字段需要其他证据，同名匹配也不能解决历史物种概念变化。
 
-## 这组历史数据的边界 {#s-34baee4ed1}
-这个入口概括本批已写的历史生活史记录，不代表全部接受后代或完整类群生物学。物种页按同名同科及 MSW93／MSW05 同名一对一表关联，当前物种概念等同尚未证明。除最高寿命外，相关字段一般为等权文献平均，输入可含已有平均值、个体值或资料不足时的范围中点；未按样本量加权，底层文献可能重复。最高寿命仅为最长记录，不是一般寿命。成年体重不在本批解读，缺值不从近缘种补写。各页保留原始来源编号；本批未逐条读取底层物种文献，也未确定所有野外、圈养与地点条件。
+## Ernest 历史数值的汇编方式 {#s-34baee4ed1}
+这些条目不是完整的类群生物学，也不是全部接受后代名录。物种页依据名称、科级位置及 MSW93／MSW05 同名一对一表关联；与当前物种概念等同尚未证明。除最高寿命外，数值通常对文献来源等权平均，不按样本量加权；输入可能是已发表平均值、个体值或范围中点，底层研究也可能重复。最高寿命是最长记录，不是典型寿命。本组选录不解读成年体重，也不从近缘种填补缺值。页面保留原始来源编号，但此处没有逐篇核验底层物种文献，也未逐项确定野外、圈养或地点条件。
 

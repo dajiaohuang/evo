@@ -1,5 +1,5 @@
-## 沿旧 Serinus 组合查历史行 {#s-a77f22c6e9}
-本页按 COL26.8 的 Crithagra ankoberensis（6BGL2）组织。BirdLife 2020 第 4012 行与 eBird 2021 第 2906 行同名，Avibase ID 为 AVIBASE-F422B222，类型 1BL to 1eBird；BirdTree 第 2890 行记 Serinus ankoberensis，类型 1BL to 1BT。本次读到目录异名 4WV6F，指向本页接受 ID。属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-a77f22c6e9}
+《Catalogue of Life》COL26.8（2026-08-20）将 Crithagra ankoberensis (Ash, 1979) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 一只鸟的测量范围 {#s-41de49a3cd}
 形态共 1 只鸟：雌 0、雄 1、性别未定 0；完整测量 1 只。鼻孔前缘至喙尖 6.8 mm、跗蹠 14.4 mm、未压平翼长 73 mm、尾长 55 mm、手翼指数 25.5 是历史行均值。这里只有一只鸟，不能建立雌雄或群体变异分布。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体种子的处理能力。

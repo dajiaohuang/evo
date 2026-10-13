@@ -1,18 +1,30 @@
-## Which fossil records this name represents {#s-85a307fd8a}
-Ypupiara lopai is accepted in the fixed PBDB dinosaur working roster, with database parent Ypupiara. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-85a307fd8a}
+Ypupiara lopai is listed in the PBDB snapshot under taxon txn:444042. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-c7ad72399b}
-Collection Price Quarry 1 (Caieira quarry) (Minas Gerais), region code BR, stratum name Serra da Galga; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-c7ad72399b}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-eb12aa2da6}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1581445; PBDB collection col:51628. Locality cnm=Price Quarry 1 (Caieira quarry); place fields cc2=BR, stp=Minas Gerais. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Serra da Galga. Recorded attribution Brum et al. 2021; PBDB reference ref:78575.
 
-## Read preservation setting separately from living habitat {#s-d6edf5ed15}
-Price Quarry 1 (Caieira quarry) has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Previously described as the Serra da Galga Member of the Marília Formation, but Serra da Galga now raised to the rank of formation (Soares et al. 2021)
 
-## Follow collection records back to references {#s-7bb245cffc}
-Price Quarry 1 (Caieira quarry) carries database reference attribution Brum et al. (2021), identifier ref:78575. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near the Peirópolis station of the Mogiana railroad, 19 km E of Uberaba, abandoned quarry from São Luís farm, Veadinho Hill, about 2 km N of Peirópolis = "Serra do Veadinho outcrop 1" of Novas et al. 2008
 
-## Evidence limits {#s-96ff68ed34}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+## Age bounds on the recorded occurrences {#s-eb12aa2da6}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:1581445; the smallest recorded lag=66 Ma in occ:1581445. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-d6edf5ed15}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1581445: PBDB original-identification field idn=Ypupiara lopai n. gen. n. sp.; PBDB taxon-name field tna=Ypupiara lopai; material note ocm=Holotype: DGM 921-R, consisting of a partial preantorbital portion of a right maxillary, with three teeth in loci, and a partial posterior portion of a right dentary.; PBDB locality-coordinate fields lng=-47.738335, lat=-19.720278; paleocoordinate/model fields pm1=gplates, pln=-29.96, pla=-23.89.
+
+## References attached to each record {#s-7bb245cffc}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1581445: Recorded attribution Brum et al. 2021; PBDB reference ref:78575.
+
+## What these records can show {#s-96ff68ed34}
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

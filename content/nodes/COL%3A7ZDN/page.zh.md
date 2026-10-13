@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-ac877e211d}
+## 记录分类与直接上级关系 {#s-ac877e211d}
+COL26.8 将 Tricholaema 记录为属；其直接上级记录为 Lybiidae。
+
 本部分包含 6 个具有 AVONET 测量资料的 Tricholaema 物种页面：T. diademata、T. frontata、T. hirsuta、T. lacrymosa、T. leucomelas 和 T. melanocephala。路径按固定 COL26.8 排列，各页保留 AVONET 历史名称和自身取样信息。
 
 ## 记录之间有什么差别 {#s-d24f12f8b7}

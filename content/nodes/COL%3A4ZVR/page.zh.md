@@ -1,4 +1,6 @@
-## 三个物种名，两条尺寸记录 {#s-13e4262795}
+## 记录分类与直接上级关系 {#s-13e4262795}
+COL26.8 将 Hydrosaurus 记录为属；其直接上级记录为 Hydrosaurinae。
+
 COL26.8 将 Hydrosaurus 作为鬣蜥科中的一个属。这里的 ReptTraits v1-2 资料列出 H. amboinensis、H. pustulatus 和 H. weberi，沿用工作簿采用的 2023 年 Reptile Database 名称框架。下文有其中两个物种的尺寸值；这三条资料只是选录，不是该属的完整物种数。
 
 ## 按测量范围比较 {#s-1d2ed3e797}

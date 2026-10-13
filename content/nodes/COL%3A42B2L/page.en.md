@@ -1,26 +1,26 @@
-## The name and this data account {#s-e09c8f8086}
-Metallura iracunda is accepted in COL26.8 within Trochilidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 5 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-e09c8f8086}
+The AVONET v7 row for Metallura iracunda (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 11.1 mm. The row records 5 measured individuals, 5 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-e82e8caa30}
-Recorded mean beak measurements are 11.1 mm from the anterior nostril edge to the tip, 0.9 mm in width and 1 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-e82e8caa30}
+AVONET records culmen length (bill tip to skull base) 14.4 mm; beak length (nostril front edge to tip) 11.1 mm; beak width at the nostril front edge 0.9 mm; beak depth at the nostril front edge 1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-b4eab6e9a6}
-Mean unflattened wing length from the carpal joint to the longest primary is 58.1 mm; mean tarsus length is 5.6 mm. Compiled mean mass is 3.9 g, with source category Updated_literature. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-b4eab6e9a6}
+AVONET records unflattened wing length 58.1 mm; tarsus length 5.6 mm; distance from first secondary tip to longest primary tip 37.3 mm; length to first secondary tip 20.8 mm; hand-wing index 64.1; tail length 41 mm; species-average body mass 3.9 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-b2696e27a6}
-The dataset assigns habitat Grassland, trophic niche Nectarivore and lifestyle Aerial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-b2696e27a6}
+AVONET classifies Metallura iracunda as habitat Grassland (open grass-dominated landscapes); trophic niche Nectarivore (source threshold at least 60% from nectar); trophic level Herbivore; primary lifestyle Aerial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-881c7d2288}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 9.61° to 10.63°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-881c7d2288}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints 9.61° to 10.63°. The mapped range area is 1650.98 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-ebd918ca9c}
-Metallura iracunda is accepted in pinned COL26.8 within Trochilidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-ebd918ca9c}
+EltonTraits 1.0 has a same-name, same-family record for Metallura iracunda covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-2dfd2e4471}
-Foraging-stratum weights flagged as species-level in the archive are trees or high bushes from 2 m upward but below the canopy 60%; in or just above the canopy 30%; understory, edges or shrubs below 2 m 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-2dfd2e4471}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 10%; in mid-height or high vegetation 60%; in the canopy 30%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-8c4d628b9e}
-The used groups carry labels Ref_5. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-8c4d628b9e}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-b4e0386138}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

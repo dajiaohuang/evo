@@ -8,5 +8,5 @@ The paper records animals or characteristic duet calls near Gimpu, Lempelero, To
 The description combines eight collected specimens with observations and recordings from a limited western-Central-Sulawesi study area; it is not a modern range survey.
 
 ## Evidence limits {#s-8af1157772}
-The cited description is based on a small specimen series and a bounded field area; current range limits and broader ecology are not established here. This page is.
+The cited description is based on a small specimen series and a bounded field area; current range limits and broader ecology are not established here.
 

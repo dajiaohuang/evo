@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-ab4b149793}
+## 记录分类与直接上级关系 {#s-ab4b149793}
+COL26.8 将 Picumninae 记录为亚科；其直接上级记录为 Picidae。
+
 Picumninae 的本批阅读路径包含 25 条有测量来源的物种记录，可从 Hemicircus canente、Nesoctites micromegas、Picumnus albosquamatus、Picumnus aurifrons、Picumnus castelnau 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-c1a5b49dcc}
@@ -16,8 +18,8 @@ Picumninae 的本批路线包含 9 个历史条目，可从 Picumnus aurifrons�
 ## 证据边界 {#s-e832c8aeff}
 本入口仅概括本批已写入资料，不代表 Picumninae 的全部后代。二十五条测量记录来自所选 AVONET 数据；三条生活史资料、具有至少两类或仅一类可用字段的 EltonTraits 条目，以及两条仅含生态内容的记录，分别属于不同历史子集。计数与体重端点只描述本批：汇编均值不是个体范围，后代资料或共享类别不能证明整个亚科的共同性状。生活史字段保留原汇编中位数、最长寿命最大记录及历史分类继承。EltonTraits 权重是半定量估计，且可能借用同属材料；生态类别和历史地图不代表当前行为、占域或保护状态。各物种页保留具体的取样、分类、来源和暂不解读字段限制；底层研究资料尚未逐一复核。完整物种专论和当前状态仍需其他来源。
 
-## 从有限生态资料开始 {#s-6ec9c6cff6}
-Picumninae 本批有 2 个有限生态资料页，可从 [Picumnus cinnamomeus](Picumnus/Picumnus_cinnamomeus/page.zh.md)、[Picumnus fuscus](Picumnus/Picumnus_fuscus/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-6ec9c6cff6}
+Picumninae 本批有 2 个有限生态资料页，可从 Picumnus cinnamomeus、Picumnus fuscus 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-70512a4a06}
 栖地类别见 2 页，取食生态位见 2 页，主导活动方式见 2 页，迁移类别见 2 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

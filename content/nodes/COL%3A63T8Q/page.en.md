@@ -1,4 +1,6 @@
-## Local data reading route {#s-32694e92a8}
+## Recorded classification and direct parent {#s-32694e92a8}
+COL26.8 records Scotopelia at genus rank, with Striginae as its direct parent.
+
 This route presents 3 measured species records under Scotopelia. Start with Scotopelia bouvieri, Scotopelia peli, Scotopelia ussheri. Its hierarchy follows pinned COL26.8, while the measurements retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-1eb56f482f}
@@ -10,6 +12,6 @@ This route links to 2 historical entries; begin with Scotopelia peli, Scotopelia
 ## Compare food, feeding positions and activity periods {#s-199bdeeb64}
 This batch’s Scotopelia route includes one historical entry; start with Scotopelia ussheri. Food-category weights are available in 0, foraging strata in 1, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-6cdf3e9a3b}
+## Limits attached to these records {#s-6cdf3e9a3b}
 AVONET v7 contributes historical sample-based morphology and mass summaries, not individual ranges. EltonTraits 1.0 converts literature descriptions into relative food and foraging categories; these weights are not direct diet or behaviour measurements. Source counts and field definitions are distinct for Scotopelia. These records do not cover every accepted descendant, establish current distribution or conservation, or prove that historical names have the same boundaries as COL26.8.
 

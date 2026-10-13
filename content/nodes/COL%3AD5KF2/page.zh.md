@@ -1,5 +1,5 @@
-## 沿旧 Oceanodroma／Halocyptena 组合查历史行 {#s-60ae9453b5}
-COL26.8 接受 Hydrobates furcatus（D5KF2）。BirdLife 2020 第 10057 行和 eBird 2021 第 4915 行同名，Avibase ID 为 AVIBASE-DD814006，交叉表类型为 1BL to 1eBird。BirdTree 第 4892 行则记作 Oceanodroma furcata（1BL to 1BT）。目录异名 48C44 指向接受 ID。这些名称关联便于查找旧记录，但不能证明不同时期的物种边界完全相同。
+## COL26.8 中的名称身份 {#s-60ae9453b5}
+《Catalogue of Life》COL26.8（2026-08-20）将 Hydrobates furcatus (J. F. Gmelin, 1789) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-b4f9be980d}
 形态资料涉及 5 只鸟：雌 2、雄 3、性别未记录 0；其中 4 只有完整测量组。历史行均值为：鼻孔至喙尖 10.1 mm、跗蹠 25.3 mm、未压平翼长 155.6 mm、尾长 90 mm、手翼指数 60.8。由于完整测量组只有 4 份，并非每只鸟都贡献每项数据。Inference=NO 不能代替各字段的采样分母。手翼指数是 Kipp 距离除以翼长再乘 100，不是飞行速度；喙长本身也不能说明咬合力或处理特定猎物的能力。

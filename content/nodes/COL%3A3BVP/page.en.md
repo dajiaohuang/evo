@@ -1,18 +1,20 @@
-## Start with sourced trait records {#s-b0b31012b3}
+## Recorded classification and direct parent {#s-b0b31012b3}
+COL26.8 records Bothrops at genus rank, with Crotalinae as its direct parent.
+
 This batch’s ReptTraits route for Bothrops includes 18 same-name, same-family entries with trait-specific citations. Start with Bothrops alcatraz, Bothrops alternatus, Bothrops asper, Bothrops atrox, Bothrops barnetti. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-fbb2567dd4}
 Only Bothrops moojeni has a usable record in this batch’s shared length column: reported maximum snout–vent length (SVL) 618 mm. One compiled species record does not establish a cross-species size range, individual average or group size limit. Other descendants retain missing or unresolved size support.
 
-## Evidence limits {#s-fd147913ef}
+## Limits attached to these records {#s-fd147913ef}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 
-## Start with sourced trait records {#s-301dfb8c69}
-This batch’s ReptTraits route for Bothrops includes 29 same-name, same-family entries with trait-specific citations. Start with [Bothrops ammodytoides](Bothrops_ammodytoides/page.en.md), [Bothrops ayerbei](Bothrops_ayerbei/page.en.md), [Bothrops bilineatus](Bothrops_bilineatus/page.en.md), [Bothrops brazili](Bothrops_brazili/page.en.md), [Bothrops cotiara](Bothrops_cotiara/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-301dfb8c69}
+This batch’s ReptTraits route for Bothrops includes 29 same-name, same-family entries with trait-specific citations. Start with Bothrops ammodytoides, Bothrops ayerbei, Bothrops bilineatus, Bothrops brazili, Bothrops cotiara. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
-## Choose comparisons by available fields {#s-ac23be0dbf}
+## ReptTraits member records {#s-ac23be0dbf}
 These descendant pages interpret only their own sourced fields. Inspect what each page lacks, then compare jointly supported size, activity, diet or reproductive fields. Counts do not establish trait completeness, and missing values are not filled from relatives. Turtle SCL and other taxa’s SVL remain different measurements.
 
-## Limits of these trait data {#s-4af12e7851}
+## ReptTraits material route {#s-4af12e7851}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

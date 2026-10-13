@@ -1,19 +1,56 @@
 ## Which fossil records this name represents {#s-35ada2d2e3}
 Pseudotragus gentryi is accepted in the fixed PBDB mammalia working roster, with database parent Pseudotragus. This guide uses 8 eligible species-level occurrence records from 8 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-092b753536}
-Collection BPRP K038, region code KE, stratum name Ngorora; database age bracket 13.82–11.63 Ma, early interval Serravallian. Collection loc. 2/11, region code KE, stratum name Ngorora; database age bracket 13.82–11.63 Ma, early interval Serravallian. Collection loc. 2/56, region code KE, stratum name Ngorora; database age bracket 13.82–11.63 Ma, early interval Serravallian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Pseudotragus gentryi is listed in the PBDB snapshot under taxon txn:374854. This archived guide contains 8 selected occurrence rows, linked to 8 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-49438f257e}
-Selected occurrences have an outer age envelope of 13.82–11.63 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is BPRP K038, occurrence occ:218473 (13.82–11.63 Ma); one supplying the younger bound is BPRP K038, occurrence occ:218473 (13.82–11.63 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-092b753536}
+The archived guide contains 8 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-2d7d979851}
-BPRP K038 has collection-environment label fluvial-lacustrine indet.. loc. 2/11 has collection-environment label fluvial-lacustrine indet.. loc. 2/56 has collection-environment label fluvial indet.. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:218473; PBDB collection col:22287. Locality cnm=BPRP K038; place fields cc2=KE. Recorded age bounds: eag 13.82 Ma; lag 11.63 Ma; PBDB interval fields oei=Serravallian. Stratigraphic fields sfm=Ngorora. Recorded attribution Hill 1995; PBDB reference ref:5577.
 
-## Follow collection records back to references {#s-e9bfd7dd1a}
-BPRP K038 carries database reference attribution Hill (1995), identifier ref:5577. loc. 2/11 carries database reference attribution Thomas (1981), identifier ref:5579. loc. 2/56 carries database reference attribution Thomas (1981), identifier ref:5579. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: composite, ETE age comment: Max age = 12.71 +/- .38 Ma;Min age = 10-8 Ma radiometric intage_max,
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+lat/lg assig fr typ sec Kabarsero
+
+- Occurrence occ:227918; PBDB collection col:22285. Locality cnm=loc. 2/11; place fields cc2=KE. Recorded age bounds: eag 13.82 Ma; lag 11.63 Ma; PBDB interval fields oei=Serravallian. Stratigraphic fields sfm=Ngorora. Recorded attribution Thomas 1981; PBDB reference ref:5579.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: composite, ETE age comment: Max age = 12.71 +/- .38 Ma;Min age = 10-8 Ma radiometric intage_max,
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+lat/lg assig fr typ sec at Kabarsero
+
+- Occurrence occ:227932; PBDB collection col:22294. Locality cnm=loc. 2/56; place fields cc2=KE. Recorded age bounds: eag 13.82 Ma; lag 11.63 Ma; PBDB interval fields oei=Serravallian. Stratigraphic fields sfm=Ngorora. Recorded attribution Thomas 1981; PBDB reference ref:5579.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+ETE dating method: composite, ETE age comment: Max age = 12.71 +/- .38 Ma;Min age = 10-8 Ma radiometric intage_max,
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+lat/lg assig fr typ sec Kabarsero
+
+## Age bounds on the recorded occurrences {#s-49438f257e}
+Across these selected PBDB rows, the largest recorded eag=13.82 Ma in occ:218473; the smallest recorded lag=11.63 Ma in occ:218473. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-2d7d979851}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:218473: PBDB taxon-name field tna=Pseudotragus gentryi; PBDB locality-coordinate fields lng=35.849998, lat=0.900000; paleocoordinate/model fields pm1=gplates, pln=35.49, pla=-2.93.
+- occ:227918: PBDB taxon-name field tna=Pseudotragus gentryi; material note ocm=ETE number of identifiable specimens; species: sp. nov.; abundance fields abv=10, abu=specimens; PBDB locality-coordinate fields lng=35.849998, lat=0.900000; paleocoordinate/model fields pm1=gplates, pln=35.49, pla=-2.93.
+- occ:227932: PBDB taxon-name field tna=Pseudotragus gentryi; material note ocm=ETE number of identifiable specimens; species: sp. nov.; abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=35.849998, lat=0.900000; paleocoordinate/model fields pm1=gplates, pln=35.49, pla=-2.93.
+
+## References attached to each record {#s-e9bfd7dd1a}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:218473: Recorded attribution Hill 1995; PBDB reference ref:5577.
+- occ:227918: Recorded attribution Thomas 1981; PBDB reference ref:5579.
+- occ:227932: Recorded attribution Thomas 1981; PBDB reference ref:5579.
 
 ## Evidence limits {#s-ea350f30b0}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 8 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

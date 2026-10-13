@@ -1,15 +1,15 @@
-## Name and trait record {#s-09b84e3124}
-COL26.8 places *Bitis atropos* in Viperidae. Its ReptTraits v1-2 row keeps the Reptile Database 2023 name framework and records a maximum length, a terrestrial microhabitat, cathemeral activity, a reproductive mode and a litter-size summary. Each field has its own cited source; the row compiles reports rather than describing every population uniformly.
+## COL26.8 name and the ReptTraits row {#s-09b84e3124}
+COL26.8 records Bitis atropos as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Total length {#s-135839f6f9}
-The reported maximum total length (TL) is 550 mm. Total length includes the tail, unlike snout–vent length (SVL). This compiled maximum is the largest cited value, not a growth limit or typical size. Sex-specific measurements may come from different places or studies, so they do not by themselves quantify sexual dimorphism within a population.
+## Length values in the archived records {#s-135839f6f9}
+The row reports maximum total length (TL) of 550 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Microhabitat and activity {#s-bcbde06947}
-The row records a Terrestrial microhabitat and Cathemeral active time, a category for activity across day and night. These labels are broad; they do not give a complete habitat description or a fixed daily schedule. The records may vary among populations, seasons and life stages.
+## Habitat use and activity labels {#s-bcbde06947}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Scharf et al. 2015. The active-time field classifies activity as active across day and night (Cathemeral); it is the dataset's timing category. ReptTraits attributes this field to Slavens and Slavens 1999.
 
-## Reproduction {#s-134bc354ae}
-The reproductive-mode field is labelled viviparous, or live-bearing, and the consolidated mean is 10 offspring per litter. The dataset may calculate a litter summary from the midpoint of reported means, or from endpoints when means are unavailable; it is not necessarily an arithmetic average of observed litters. These values do not establish a fixed litter size, fetal nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-134bc354ae}
+The compiled mean for offspring per litter or eggs per clutch is 10. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Slavens and Slavens 1999. The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-c46318a526}
-The row combines reports that may differ by sex, age, locality and population. Its Reptile Database 2023 name framework does not by itself prove equivalence to the COL26.8 concept. Maximum length is not an absolute species limit, and the litter mean is not a fixed count for each litter. Mass fields may be estimated from length equations; juvenile-length definitions also differ, so neither is presented here as a measurement. This account does not update venom, conservation status, current distribution or population trends. Trait citations preserve the source chain but do not mean that every underlying work was independently checked here.
+## Reading this compiled trait record {#s-c46318a526}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

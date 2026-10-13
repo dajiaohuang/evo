@@ -4,7 +4,9 @@ The 2019 study reuses a Struthio camelus genome and recovers ostrich as the earl
 ## Read by material, tree model and experimental level {#s-d825bac1ee}
 Study species directly represented at this entry are [Struthio camelus](Struthio/Struthio_camelus/page.en.md). First distinguish added, reused and reference-mapped genomes, then compare species trees with gene trees. For a cross-lineage functional comparison, turn to the chicken reporter assays on [Rhea americana](../../Rheiformes/Rheidae/Rhea/Rhea_americana/page.en.md) and [Eudromia elegans](../../Tinamiformes/Tinamidae/Eudromia/Eudromia_elegans/page.en.md); one candidate region cannot validate every accelerated element. Return to existing morphology, life history or fossil occurrences with their own units and samples. This route is neither exhaustive group sampling nor a complete descendant catalogue.
 
-## Choose comparison pages by life-history fields {#s-4757bfad50}
+## Recorded classification and direct parent {#s-4757bfad50}
+COL26.8 records Struthionidae at family rank, with Struthioniformes as its direct parent.
+
 This batch’s Struthionidae route includes 2 historical life-history accounts; start with Struthio camelus, Struthio molybdophanes. More frequently represented fields include adult body mass (2 entries), female maturity field (defined by the source as age at first conception) (2 entries), offspring per litter or eggs per clutch (2 entries), oviposition to hatching (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-23ced882ad}

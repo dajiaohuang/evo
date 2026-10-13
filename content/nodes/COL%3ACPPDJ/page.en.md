@@ -1,5 +1,5 @@
-## Find rows through older Porzana or Amaurornis combinations {#s-93d3a62c99}
-Pinned COL26.8 organizes this page at Zapornia fusca (CPPDJ). BirdLife 2020 row 2735 and eBird 2021 row 11174 share the name and Avibase ID AVIBASE-14C2B730, with type 1BL to 1eBird; BirdTree row 11111 gives Porzana fusca, with type 1BL to 1BT. Read catalogue synonym 4M2R2 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-93d3a62c99}
+Catalogue of Life release COL26.8 records Zapornia fusca (Linnaeus, 1766) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-9409887ede}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 12.1 mm, tarsus 31 mm, unflattened wing 94.5 mm, tail 42.5 mm and hand-wing index 22.2 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

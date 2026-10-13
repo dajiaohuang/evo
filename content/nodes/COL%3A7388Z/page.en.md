@@ -1,26 +1,26 @@
-## The name and this data account {#s-ab4c6c1b49}
-Megascops koepckeae is accepted in COL26.8 within Strigidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-ab4c6c1b49}
+The AVONET v7 row for Megascops koepckeae (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 10.9 mm. The row records 4 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-ac999a76dd}
-Recorded mean beak measurements are 10.9 mm from the anterior nostril edge to the tip, 7.6 mm in width and 11.1 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-ac999a76dd}
+AVONET records culmen length (bill tip to skull base) 21.6 mm; beak length (nostril front edge to tip) 10.9 mm; beak width at the nostril front edge 7.6 mm; beak depth at the nostril front edge 11.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-dac4d30019}
-Mean unflattened wing length from the carpal joint to the longest primary is 171.2 mm; mean tarsus length is 35.2 mm. Compiled mean mass is 116.93 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-dac4d30019}
+AVONET records unflattened wing length 171.2 mm; tarsus length 35.2 mm; distance from first secondary tip to longest primary tip 42.4 mm; length to first secondary tip 128.9 mm; hand-wing index 24.7; tail length 89.5 mm; species-average body mass 116.93 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-d8eaa82687}
-The dataset assigns habitat Forest, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-d8eaa82687}
+AVONET classifies Megascops koepckeae as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-9ee64690ba}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -14.53° to -5.73°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-9ee64690ba}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -14.53° to -5.73°. The mapped range area is 160334.46 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-e51e409d7f}
-Megascops koepckeae is accepted in pinned COL26.8 within Strigidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-e51e409d7f}
+EltonTraits 1.0 has a same-name, same-family record for Megascops koepckeae covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-aaeb5e7eff}
-Foraging-stratum weights flagged as species-level in the archive are understory, edges or shrubs below 2 m 50%; ground 40%; air well above vegetation or other structures 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-aaeb5e7eff}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 40%; in the understory 50%; in the air 10%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-64ffe2fda5}
-The represented foraging-stratum field cites Ref_5. Diet, strata and activity can draw on different material, and a Ref number in a bird table does not identify the same source as that number in a mammal table. A reference label points to source material; it is not an additional independent observation.
+## Sources and field limits {#s-64ffe2fda5}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-fb24c1af82}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

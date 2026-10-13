@@ -46,3 +46,31 @@ records:
         - referenceId: froehlich-1999-basal-perissodactyls
           locator: pp. 140–159; morphological matrix and cladistic topology; no complete Ancylopoda range synthesis
       evidenceLevel: withheld-no-range-evidence
+  atlas-profile:
+    scientificName: Ancylopoda
+    name:
+      en: Ancylopoda
+      zh: Ancylopoda
+    rank: suborder
+    sections:
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: ancylopoda-matrix
+            part: title
+          zh:
+            page: zh
+            section: ancylopoda-matrix
+            part: title
+        text:
+          en:
+            page: en
+            section: ancylopoda-matrix
+            part: body
+          zh:
+            page: zh
+            section: ancylopoda-matrix
+            part: body
+        claimIds:
+          - claim:taxon:ancylopoda:basal-topology

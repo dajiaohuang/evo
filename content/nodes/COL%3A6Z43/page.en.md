@@ -1,4 +1,6 @@
-## Start with two measured species pages {#s-4cb60d494d}
+## Recorded classification and direct parent {#s-4cb60d494d}
+COL26.8 records Pseudibis at genus rank, with Threskiornithidae as its direct parent.
+
 This Pseudibis route contains 2 measured species records: Pseudibis davisoni and Pseudibis papillosa. The directory follows pinned COL26.8; biological data retain AVONET v7 names and sampling limits.
 
 ## Compare the recorded means and categories {#s-1a3f7fa294}

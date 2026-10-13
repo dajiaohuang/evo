@@ -1,5 +1,5 @@
-## Locate the current page through older Rallina names {#s-3ee44595ea}
-Pinned COL26.8 organizes this page at Rallicula rubra (4RB9B) in Sarothruridae (CPHSJ). BirdLife 2020 row 2699 uses this species name and source family Rallidae; eBird 2021 row 9079 and BirdTree row 9025 both give Rallina rubra. Match types are 1BL to 1eBird and 1BL to 1BT; both eBird sides share Avibase ID AVIBASE-0934B6E1. Exact catalogue synonym 4RB9K points to accepted species 4RB9B. Older genus and family names remain source records; name links do not prove identical historical and current species boundaries.
+## A name fixed to COL26.8 {#s-3ee44595ea}
+Catalogue of Life release COL26.8 records Rallicula rubra Schlegel, 1871 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-1f413ec7c0}
 Morphology comprises 2 birds: 1 female, 0 male and 1 unsexed; 2 complete sets. Nostril-to-tip beak length 12.9 mm, tarsus 37.5 mm, unflattened wing 92.5 mm, tail 59 mm and hand-wing index 5.8 are historical row means. Complete and total counts agree without supplying individual variation bounds. No sexed male is present and one bird is unsexed; an all-female sample or a female–male comparison is unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; a low value does not establish flightlessness, and wing length is not measured flight ability.

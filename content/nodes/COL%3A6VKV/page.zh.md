@@ -1,7 +1,9 @@
 ## 概览 {#s-ab09bf5d1d}
 本阅读路径连接十九个 COL26.8 叶猴属物种页，不是完整属级名录或系统发育。新增阅读顺序从纳土纳岛和明打威群岛的野外研究入门，再比较分种前写作的西伯鲁岛记录，再比较苏门答腊 melalophos 与 mitrata 两篇使用时期分类名不同的局地研究。随后转到婆罗洲：何氏叶猴的森林类型比较、白额叶猴的流域调查、栗红叶猴跨地点食谱与地面活动、沙捞越叶猴的短期亚种研究。接着读苏门答腊黑白叶猴与黑叶猴的人类改造景观记录，再并读东苏门答腊与马来半岛带叶猴的线粒体证据；以 Bintan pale-thighed langur、托马斯叶猴及婆罗洲米勒叶猴和沙巴灰叶猴收尾。Meyer 等人的属级线粒体研究纳入九种，末端谱系多有支持但深部关系未完全解析，作者指出仍需核基因资料。各研究地点、年份、样本和分类概念不同；阅读顺序用于比较证据，不拼成统一物种范围。
 
-## 按生活史字段选择对读页面 {#s-9b854fabd0}
+## 记录分类与直接上级关系 {#s-9b854fabd0}
+COL26.8 将 Presbytis Eschscholtz, 1821 记录为属；其直接上级记录为 Presbytini Gray, 1825。
+
 Presbytis 的本批路线包含 7 条历史生活史导读，可从 Presbytis chrysomelas、Presbytis femoralis、Presbytis melalophos、Presbytis natunae、Presbytis rubicunda 开始。较多条目具有的字段包括 成年体重（7 条）、每窝幼体数或卵数（7 条）、汇编中最长寿命记录（7 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-1ac1a86ae6}
@@ -12,7 +14,7 @@ Presbytis 的本批路线包含 11 个历史条目，可从 Presbytis frontata�
 本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
 本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
 
-## 从已有历史条目开始 {#s-0f09e9a49d}
+## 记录分类与成员材料 {#s-0f09e9a49d}
 Presbytis 的本地 PanTHERIA 路径包括 6 条可用数据导读，可从 Presbytis comata、Presbytis hosei、Presbytis melalophos、Presbytis potenziani、Presbytis rubicunda 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-43d2157379}
@@ -21,14 +23,14 @@ Presbytis 的本地 PanTHERIA 路径包括 6 条可用数据导读，可从 Pres
 ## 这组历史数据的边界 {#s-d8421f2a14}
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
-## 从已有历史条目开始 {#s-bc5e48dacc}
-Presbytis 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 [Presbytis frontata](Presbytis_frontata/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-bc5e48dacc}
+Presbytis 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Presbytis frontata 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-2d94af2a04}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-29dfa25dc3}
-Presbytis 本批有 4 个历史生活史资料页，可从 [Presbytis comata](Presbytis_comata/page.zh.md)、[Presbytis rubicunda](Presbytis_rubicunda/page.zh.md)、[Presbytis potenziani](Presbytis_potenziani/page.zh.md)、[Presbytis melalophos](Presbytis_melalophos/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Presbytis 本批有 4 个历史生活史资料页，可从 Presbytis comata、Presbytis rubicunda、Presbytis potenziani、Presbytis melalophos 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-a3ad3287f4}
 本批妊娠资料见 0 页，雌性首次繁殖年龄见 0 页，最高寿命记录见 0 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

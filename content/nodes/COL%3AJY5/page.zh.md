@@ -1,4 +1,6 @@
-## PanTHERIA 的本地数据入口 {#s-43d2bf9b66}
+## 记录分类与直接上级关系 {#s-43d2bf9b66}
+COL26.8 将 Mystromyinae 记录为亚科；其直接上级记录为 Nesomyidae。
+
 Mystromyinae 的本地 PanTHERIA 路径中只有一条可用数据记录：Mystromys albicaudatus。该记录保留其历史 MSW05 名称、各变量特定的数据条件和缺失字段。导航依据固定版本 COL26.8；这个历史行不代表当前接受种的分母。
 
 ## 唯一记录的成年体重中位数 {#s-6f9c407063}

@@ -34,7 +34,7 @@ Toothed jaws and a long bony tail
 ## atlas-profile / traits {#s-f673ee278d}
 Pectoral geometry is compatible with short-burst active flight in one biomechanical comparison
 
-## atlas-profile / evidenceSummary {#s-774ec7b6f3}
+## The oldest referred specimen and model limits {#s-774ec7b6f3}
 The oldest referred specimen extends the recorded genus range into the earliest Tithonian Painten Formation and documents anatomical variation. Synchrotron comparison supports active-flight capacity, not the performance of living crown birds.
 
 ## Feathers accompany distinctive skeletal anatomy {#s-42edae7d14}
@@ -43,6 +43,6 @@ Referred fossils are small-bodied paravians preserving asymmetrical flight feath
 ## Wing geometry supports a bounded flight inference {#s-f21cd65468}
 Synchrotron analyses found wing-bone geometry compatible with short-burst active flight in the tested comparison, supporting aerial capacity; this is a bounded model result, not observed behaviour or endurance. The skeletal record also supports terrestrial capacity, but this comparison does not measure how Archaeopteryx moved on land.
 
-## atlas-profile / readerLimitations / en {#s-ac1ed72b0a}
+## Solnhofen fossils and the habitat limit {#s-ac1ed72b0a}
 The described sample comes from Bavarian lithographic limestones in the Solnhofen archipelago. That depositional setting does not establish daily habitat; the cited work does not resolve diet or a feeding guild, and the flight model is not a performance measure for crown birds.
 

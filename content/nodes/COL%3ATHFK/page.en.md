@@ -1,5 +1,5 @@
-## Read this historical record through food and foraging position {#s-39b1e4b57d}
-COL26.8 accepts Chalinolobus nigrogriseus in Vespertilionidae. The same-name, same-family EltonTraits 1.0 entry covers 3 ecological field groups with source information. Its taxonomy follows an earlier bird arrangement or MSW3 mammal classification, so a name match does not settle modern splits or synonyms.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-39b1e4b57d}
+The EltonTraits 1.0 record for *Chalinolobus nigrogriseus* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 100% (confidence code ABC). The foraging-stratum field assigns the aerial category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Chalinolobus nigrogriseus*.
 
 ## Relative weights of food categories {#s-62ad826101}
 Invertebrates are the archive’s only food category with a nonzero weight: 100%. Diet code ABC groups high, reasonable, and partial confidence; estimates may use an ecologically similar congener, so they are not necessarily direct observations of this species. The percentages standardize literature descriptions rather than measure diet composition, and zero does not prove an item is never eaten. Nect, Seed, and PlantO cover broader categories than their everyday names; they do not show that the bat eats only nectar, seeds, or plants.
@@ -13,11 +13,13 @@ The archive marks nocturnal feeding activity as 1. Other activity fields can als
 ## Trace each field group to its source labels {#s-f402204e29}
 The source labels are Ref_1 and metadata:Nowak1999. Diet, foraging stratum, and activity may draw on different materials; a matching reference number in bird and mammal tables does not by itself identify the same source. The archive retains the original strings by file, row, field group, and reference table. The underlying books and papers have not been read individually, so a label is not a new observation.
 
-## Life-history evidence limits {#s-e99d646c84}
-EltonTraits 1.0 is a guide to historical same-name, same-family records, not a complete species monograph. Matching names and classification do not establish equivalence to COL26.8. Across the dataset, food and avian-stratum percentages are coarse weights standardized from literature descriptions rather than direct measures; for this mammal, ABC diet and activity codes can also draw on an ecologically similar congener. Not every field is therefore a direct observation of this species. Genus/family typical values, avian strata without species-level attribution, and split records needing review do not fill definite conclusions. The underlying books and papers have not been read individually. Individual, seasonal, and local variation, current range, population, and conservation require other sources.
+## How to interpret these historical records {#s-e99d646c84}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## Name and historical material {#s-6cd34bc78d}
-COL26.8 accepts Chalinolobus nigrogriseus in Vespertilionidae. The historical measurements come from the PanTHERIA 1.0 entry under MSW05, in the table issued in August 2008; biological data collection ended in June 2004. The name association does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass in the historical table {#s-6cd34bc78d}
+The August 2008 PanTHERIA row for *Chalinolobus nigrogriseus* records adult body mass 8.79 g. Adult body mass is a sex-adjusted median. The mass field may include adults or age-unspecified animals but excludes pregnant females. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Chalinolobus nigrogriseus*.
 
 ## How body size was consolidated {#s-843900e68b}
 The historical adult body-mass summary is 8.79 g and adult forearm length is 34.99 mm. The compilation adjusts these fields for sex and then reports medians. Mass may include adults or animals of unspecified age, but excludes pregnant females. Forearm length runs from elbow to wrist. These are summaries, not measurements of one specimen or a species-wide size range.

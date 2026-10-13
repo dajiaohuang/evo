@@ -4,3 +4,6 @@ Across the 2 Cebuella rows in Supplementary Table S1, range-map overlaps sum to:
 ## Scope of the evidence {#s-9c458c1598}
 This is a genus-level guide to the matrix in Supplementary Table S1 of Mourthé et al. (2022), not a complete natural-history or range review. Range-map overlap is not point-level field confirmation; main-text Table 2 has inconsistent 80/81 totals and 57%/58% reporting. This guide is.
 
+## Recorded classification {#col26-8-identity}
+In the pinned COL26.8 catalogue, Cebuella Gray, 1866 is recorded as an accepted genus.
+

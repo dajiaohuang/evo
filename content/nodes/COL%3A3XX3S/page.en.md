@@ -1,29 +1,29 @@
-## The name and this data account {#s-c50b6432fb}
-Manucodia ater is accepted in COL26.8 within Paradisaeidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 10 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-c50b6432fb}
+The AVONET v7 row for Manucodia ater (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 21.6 mm. The row records 10 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-7acba30dd7}
-Recorded mean beak measurements are 21.6 mm from the anterior nostril edge to the tip, 9.3 mm in width and 12.2 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-7acba30dd7}
+AVONET records culmen length (bill tip to skull base) 40.2 mm; beak length (nostril front edge to tip) 21.6 mm; beak width at the nostril front edge 9.3 mm; beak depth at the nostril front edge 12.2 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-404b7efacf}
-Mean unflattened wing length from the carpal joint to the longest primary is 179.1 mm; mean tarsus length is 40.4 mm. Compiled mean mass is 228.01 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-404b7efacf}
+AVONET records unflattened wing length 179.1 mm; tarsus length 40.4 mm; distance from first secondary tip to longest primary tip 18 mm; length to first secondary tip 161.6 mm; hand-wing index 10; tail length 146.8 mm; species-average body mass 228.01 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-02ccf0dc35}
-The dataset assigns habitat Forest, trophic niche Frugivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-02ccf0dc35}
+AVONET classifies Manucodia ater as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Frugivore (source threshold at least 60% from fruit); trophic level Herbivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-ec3b01b507}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -11.66° to 0.04°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-ec3b01b507}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -11.66° to 0.04°. The mapped range area is 136828.14 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-92ca92d022}
-Manucodia ater is accepted in pinned COL26.8 within Paradisaeidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-92ca92d022}
+EltonTraits 1.0 has a same-name, same-family record for Manucodia ater covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-7f22236dab}
-The archive’s nonzero food weights are fruit 70%; invertebrates 10%; nectar, pollen and plant exudates 10%; other plant material (the source category also includes fungi) 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-7f22236dab}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 10%; fruit 70%; nectar 10%; other plant material 10%. Its dominant five-category label is FruiNect. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-06620730c4}
-Foraging-stratum weights flagged as species-level in the archive are in or just above the canopy 70%; trees or high bushes from 2 m upward but below the canopy 20%; understory, edges or shrubs below 2 m 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-06620730c4}
+EltonTraits 1.0 records relative foraging-stratum weights of in the understory 10%; in mid-height or high vegetation 20%; in the canopy 70%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-4e42286c34}
-The used groups carry labels Ref_14, Ref_40. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-4e42286c34}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.14.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Frith, C. B., B. M. Beehler, and J. Diamond. 1998. The birds of paradise. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-285167e562}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

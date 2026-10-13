@@ -1,5 +1,5 @@
-## Locate the current page through older Rallina names {#s-d39cc3b8f9}
-Pinned COL26.8 organizes this page at Rallicula leucospila (4RB99) in Sarothruridae (CPHSJ). BirdLife 2020 row 2697 uses this species name and source family Rallidae; eBird 2021 row 9077 and BirdTree row 9023 both give Rallina leucospila. Match types are 1BL to 1eBird and 1BL to 1BT; both eBird sides share Avibase ID AVIBASE-545ECAD4. Exact catalogue synonym 4RB9H points to accepted species 4RB99. Older genus and family names remain source records; name links do not prove identical historical and current species boundaries.
+## A name fixed to COL26.8 {#s-d39cc3b8f9}
+Catalogue of Life release COL26.8 records Rallicula leucospila (Salvadori, 1876) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate sex counts from complete sets {#s-b6ae0e8de3}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 13.1 mm, tarsus 36.3 mm, unflattened wing 106.8 mm, tail 64 mm and hand-wing index 1.3 are historical row means. Complete and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100; a low value does not establish flightlessness, and wing length is not measured flight ability.

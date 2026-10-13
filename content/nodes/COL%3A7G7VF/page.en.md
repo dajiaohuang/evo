@@ -1,32 +1,32 @@
-## Xenopeltis unicolor in the pinned checklist {#s-c66d1ffceb}
-The pinned COL26.8 checklist accepts Xenopeltis unicolor as a species. Its ReptTraits v1-2 row follows the Reptile Database 2023 name framework. One row condenses the cited material, so the values describe the compiled entry rather than a uniform state across every sex, place, season or population.
+## COL26.8 name and the ReptTraits row {#s-c66d1ffceb}
+COL26.8 records Xenopeltis unicolor as an accepted species. The ReptTraits v1-2 row gives its Family field as Xenopeltidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A reported length for Xenopeltis unicolor {#s-c19b13347b}
-The cited record reports compiled maximum total length (TL) 1330 mm. TL also includes the tail. These are reported endpoints, not typical sizes or biological limits. Sex-specific values may come from different studies or places and do not by themselves show a consistent size difference between males and females.
+## Length values in the archived records {#s-c19b13347b}
+The row reports maximum total length (TL) of 1330 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Activity categories in the trait record {#s-424eabe6df}
-The entry records microhabitat is Fossorial/Terrestrial, active time is Nocturnal. These broad categories do not give a full habitat, prey list or daily timetable. Multiple positions may be recorded. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-424eabe6df}
+The microhabitat field classifies the recorded position as burrowing (Fossorial)/ground-dwelling (Terrestrial) [source label: Fossorial/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Murphy et al. 2003. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Stark et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Rhodin et al. 2011.
 
-## Reproductive records for Xenopeltis unicolor {#s-972280cac9}
-The source labels the reproductive mode oviparous.  The compiled litter/clutch summary is 10 offspring or eggs.  Summaries may use midpoints of reported means, or extrema when means are absent; they are not necessarily averages of observed clutches.  These labels do not establish fetal nutrition or uniformity across populations.
+## Reproductive fields in ReptTraits {#s-972280cac9}
+The compiled mean for offspring per litter or eggs per clutch is 10. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Slavens and Slavens, 1999, Feldman et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Historical entries associated with Xenopeltis unicolor {#s-235518d454}
-A separate 2015 life-history archive contains 4 focal fields under Xenopeltis unicolor. Same-name, same-family rows support the association, but historical summaries can carry taxonomic inheritance; the name alone does not make its concept identical to pinned COL26.8.
+## A 2015 life-history row for this name {#s-235518d454}
+COL26.8 records Xenopeltis unicolor as an accepted species. The August 2015 life-history table has a species-name and family match (Xenopeltidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Mass records at different life stages {#s-81de79a38e}
-The 2015 archive reports adult body mass 753 g. Adult summaries may combine sexes or unspecified-sex records; adult and hatchling values are different life stages, not a growth series for the same animals.
+## Length values in the archived records {#s-81de79a38e}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated. The archive reports adult body mass as 753 g. The 2015 archive's field citation is Boback and Guyer, 2003.
 
-## Counts and timing in the 2015 archive {#s-521d5dffc1}
-The archive reports litter/clutch 12 offspring or eggs; egg laying to hatching 76 d. Here d means days. Counts and intervals describe different events; a decimal clutch summary is not a fractional animal in one event.
+## Reproductive events in the life-history table {#s-521d5dffc1}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 3 recorded source-table values; oviposition to hatching: one direct source citation, with no median count stated. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 12; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; O'Shea, M., 2007. The incubation field is 76 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book.
 
-## The longest lifespan record {#s-91d910e4a8}
-The archive's longest collected lifespan record is 12.1 years. It is the largest value found under the source method, not a typical lifespan, wild-population average, universal limit or current record known to recur.
+## Longest lifespan in the archive {#s-91d910e4a8}
+The archive's longest-lifespan record is 12.1 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002.
 
-## Following the field citations {#s-222985b8b3}
-The archived rows attribute fields to Boback and Guyer, 2003; Reptile Incubation book; O'Shea, M., 2007; de Magalhaes and Costa, 2009, among others. A label may name a paper, book or database; repeated citations are not independent observations. Field locators and reference notes preserve the source trail.
+## The August 2015 life-history table {#s-222985b8b3}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-1bf982ed8c}
-The ReptTraits v1-2 row uses its 2023 taxonomic framework and cites sources for individual traits. A single row compresses variation across sex, age, locality and populations; the same name and family do not guarantee equivalence to a later taxonomic concept. A reported maximum length is not an absolute species limit, and reproductive means are not fixed counts for every clutch. Many body-mass entries are estimated from length equations rather than measured mass. Juvenile-length fields use differing labels and definitions, so those values are not directly comparable without their source definitions. The compilation does not provide a current assessment of conservation, venom, geographic distribution or population trends; blank fields indicate unreported data. Some citation labels are inherited through the dataset source chain: they locate reported records but do not represent independent observations. A separate 2015 life-history compilation supplies historical values: these are medians or averages of the two middle records, except maximum longevity, which uses the largest record found. They are not direct measurements of one animal, individual-variation ranges, average wild lifespans or current population surveys. Historical species and subspecies may share or inherit data. Same-name, same-family rows support the association but do not make an older concept equivalent to COL26.8 or remove all inheritance uncertainty.
+## Separate histories in the two archives {#s-1bf982ed8c}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 
 ## Why one trait label is withheld {#s-33ddae761e}
 Foraging mode is withheld for Xenopeltis unicolor because its citation scope is unresolved: Harrington et al. (2018) studied snakes, while Rhodin et al. (2011) concerns turtles. Original values and labels remain in the source record; the mismatch does not show the value is false, and no substitute is inferred.

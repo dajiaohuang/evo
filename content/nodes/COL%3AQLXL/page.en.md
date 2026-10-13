@@ -1,3 +1,21 @@
+## Sex-mediated shape differences in a small cranial sample {#cl-crania}
+A study of a small sample of modern Israeli gray-wolf crania found no statistically significant sexual size dimorphism but did detect sex-mediated cranial shape dimorphism using outline and image analyses. The authors caution that the sample is small; this result does not describe all populations.
+
+## Feeding and pup provisioning during pup rearing {#cl-pup-provisioning}
+In the Greater Voyageurs Ecosystem study, gray-wolf feeding and pup-provisioning behavior was tracked through the April–August pup-rearing season; breeding individuals changed their feeding and provisioning behavior as pups matured and prey abundance changed. The result describes one regional field study, not the full reproductive cycle or lifespan.
+
+## Feeding in one boreal ecosystem {#cl-boreal-feeding}
+In a southern boreal Minnesota ecosystem, gray-wolf feeding and return-to-homesite behavior varied with breeding status and prey conditions during pup rearing; the study describes deer fawns and beavers as important seasonal prey in that study system. The findings do not establish a global diet or species-wide prey relationship.
+
+## A mitochondrial demographic test {#cl-mito-history}
+A worldwide mitochondrial control-region analysis found that a bottleneck scenario around the Pleistocene–Holocene boundary, approximately 12,000 years ago, was significantly supported for North American wolves; simplified Eurasian demographic histories were not similarly resolved. This is a marker- and sample-bounded demographic result, not a species-wide phylogeny.
+
+## Historical range and genetic sample localities {#cl-range-record}
+The 2016 study describes the wolf's historical Late Quaternary range as spanning most of the Northern Hemisphere and reports contemporary genetic samples from Scandinavia, Russia/Siberia, Iran, China, North America, and Greenland. These are a historical-range statement and study localities, not a current global occupancy map.
+
+## Two ancient DNA-positive wolf remains {#cl-ancient-remains}
+The study analyzed two DNA-positive Late Pleistocene wolf remains recovered from permafrost sites on Siberia's Taimyr Peninsula and reported calibrated radiocarbon ages of approximately 35,000 and 42,000 years before present. These two remains do not constitute a complete fossil catalogue.
+
 ## The 2015 life-history entry and this name {#s-f1836418dc}
 Canis lupus is accepted in pinned COL26.8 within Canidae. This page compares the same-name historical life-history entry using 7 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
 

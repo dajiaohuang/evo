@@ -1,44 +1,44 @@
-## The name and this data account {#s-be6f21baa7}
-Tinamus solitarius is accepted in COL26.8 within Tinamidae. AVONET v7 records measurements under its HBW–BirdLife 2020 name. The source lists 6 measured individuals, 4 with a complete morphological set; trait-specific sample sizes can differ.
+## Row-reported mean and sample coverage {#s-be6f21baa7}
+The AVONET v7 row for Tinamus solitarius (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 11.4 mm. The row records 6 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-5faef3fbbb}
-Mean beak measurements are 11.4 mm from the anterior edge of the nostril to the tip, 5.8 mm wide and 6 mm deep at that edge. They describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-5faef3fbbb}
+AVONET records culmen length (bill tip to skull base) 37.9 mm; beak length (nostril front edge to tip) 11.4 mm; beak width at the nostril front edge 5.8 mm; beak depth at the nostril front edge 6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-f8fdf5905a}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 261.5 mm; mean tarsus length is 73.1 mm. The compiled mean body mass is 1386.41 g, with source category Dunning. Mass comes from a separate species-average source; these morphology records do not show that every bird was weighed.
+## Wing and body measures use separate sources {#s-f8fdf5905a}
+AVONET records unflattened wing length 261.5 mm; tarsus length 73.1 mm; distance from first secondary tip to longest primary tip 35.1 mm; length to first secondary tip 223.7 mm; hand-wing index 13.7; tail length 156.2 mm; species-average body mass 1386.41 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-4bcf3a9933}
-The dataset records Forest as the habitat, Omnivore as the trophic niche and Terrestrial as the lifestyle. These are dominant categories for cross-species comparison, not claims that this bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-4bcf3a9933}
+AVONET classifies Tinamus solitarius as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Herbivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-c75eb941f4}
-The migration field classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -29.81° to -7.93°. They do not give a complete account of non-breeding movements or a current position or global occupancy estimate. Geography and morphology come from different compilation steps.
+## The migration label has a limited scope {#s-c75eb941f4}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -29.81° to -7.93°. The mapped range area is 1069608.94 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-3a8c81d0e7}
-Tinamus solitarius is accepted in pinned COL26.8 within Tinamidae. This page compares its same-name historical life-history entry using 5 focal fields, each supported by cited species-level sparse-table rows with a matching name and family. The summaries may still include historical taxonomic inheritance; the row name alone does not remove it.
+## Scope of the historical life-history entry {#s-3a8c81d0e7}
+The August 2015 database has a same-name, same-family record for Tinamus solitarius. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-d83363cf56}
-The historical summary reports adult body mass of 1337.25 g. This field may combine males, females and adults of unspecified sex, and it does not provide a species-wide range of individual masses. Birth or hatching mass is not included in this account.
+## Compiled adult-mass values {#s-d83363cf56}
+The August 2015 compilation reports adult body mass 1337.25 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-9549f24b2f}
-The compilation reports 6 offspring or eggs per litter or clutch, 19.5 d from oviposition to hatching, and age at flight capability at 5 d; some source material uses leaving the nest for the last field. Here d means days. The litter/clutch field combines offspring and egg counts, so a fractional summary would not mean one event produced a fraction of an individual. The time fields describe different events, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-9549f24b2f}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 6; oviposition-to-hatching interval 19.5 days; age at flight capability (some records mark nest departure) 5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-d13f24456e}
-The archive's maximum_longevity_y value is 15 years, using the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current record that can be repeatedly attained.
+## A maximum record is not typical lifespan {#s-d13f24456e}
+The compilation lists 15 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-b8c5eeb9b1}
-Same-name sparse rows carry source labels including Dunning, 1992; de Magalhaes and Costa, 2009; Bennett, 1986; and Davies, S.J.J.F., 2002, among others. The batch archive retains raw row numbers, values and labels for each field, as well as the final table's complete reference explanations. A label may identify a primary paper, book or another database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## Sources and field limits {#s-b8c5eeb9b1}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-61adc032cb}
-This page compares the same-name, same-family EltonTraits 1.0 entry through 2 ecological field groups with source information. The source uses earlier bird or MSW3 mammal taxonomy; matching names do not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-61adc032cb}
+EltonTraits 1.0 has a same-name, same-family record for Tinamus solitarius covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-8a620298fe}
-The archive's nonzero food weights are fruit 40%, invertebrates 20%, seeds, nuts and spores included in this category 20%, and other plant material 20%; the source's other-plant category also includes fungi. Source code A indicates high compiler confidence in the source and diet information. The percentages standardize verbal descriptions rather than measure diet composition, and a zero does not prove a food is never eaten. Nect, Seed and PlantO are broader than their everyday names and do not show exclusive feeding on nectar, seeds or plants.
+## Relative weights across food categories {#s-8a620298fe}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; fruit 40%; seeds or nuts 20%; other plant material 20%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-08cf543709}
-Foraging-stratum weights marked as species-level are ground 100%. They estimate relative use of feeding positions, not nest sites, all habitat or a full-day time budget. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot establish flight heights or habitat area.
+## Foraging positions are not a time budget {#s-08cf543709}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-985a3aad2a}
-The used field groups carry the label Ref_1. Diet, strata and activity can draw on different materials; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains original strings by file, row, field group and reference table. The underlying books and papers have not been read individually; source labels are not independent observations.
+## Sources and field limits {#s-985a3aad2a}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-7472b2d5d7}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so morphology sample counts cannot be applied to it. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name support the association used here, but do not prove that species concepts remained equivalent after later splits or lumps. Reproduction, current populations and conservation status require other sources.

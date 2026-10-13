@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-395d59308e}
-Pinned COL26.8 organizes this page as Pternistis harwoodi (4PV6S). AVONET v7 BirdLife 2020 row 2516 and eBird 2021 agree in name, with Avibase ID AVIBASE-02D73B4A; BirdTree gives Francolinus harwoodi, with match type 1BL to 1BT. Read COL older-combination record 6JLFH points to accepted ID 4PV6S. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-395d59308e}
+Catalogue of Life release COL26.8 records Pternistis harwoodi (Blundell & Lovat, 1899) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-f3a7045eb7}
 The row contains one male morphology bird and no complete measurement set. Its Inference=YES flag names only tail length as inferred, with bicalcaratus as the reference species. Nostril-to-tip beak 16.7 mm, tarsus 48.2 mm, unflattened wing 175 mm and hand-wing index 10.9 are not listed as inferred in this row; they remain single-sample historical values rather than bounds on within-species variation. Tail 61.5 mm is borrowed/inferred, not a measured tail for this male.

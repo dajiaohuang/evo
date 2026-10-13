@@ -1,4 +1,6 @@
-## Overview {#s-ed3a2703ac}
+## Recorded classification and direct parent {#s-ed3a2703ac}
+COL26.8 records Lagothrix É. Geoffroy Saint-Hilaire in Humboldt, 1812 at genus rank, with Atelinae Gray, 1825 as its direct parent.
+
 This COL26.8 guide links two reader pages in genus Lagothrix: L. lagothricha (species ID 6NTWV) and L. flavicauda (6NTWY). Their records come from different species, countries and methods, so they remain separate in the reader path.
 
 ## Choose a reading path by research question {#s-8858f2ab60}

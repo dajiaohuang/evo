@@ -1,4 +1,6 @@
-## One entry in the PanTHERIA route {#s-e8f98335d1}
+## Recorded classification and direct parent {#s-e8f98335d1}
+COL26.8 records Malacothrix at genus rank, with Dendromurinae as its direct parent.
+
 Catalogue of Life COL26.8 records Malacothrix as an accepted genus. The PanTHERIA WR05 route in this batch has one authored historical entry grouped under Malacothrix by pinned ancestry. This count describes the route’s source record, not the current accepted-species denominator.
 
 ## How to read the body-mass route {#s-a2779b971c}

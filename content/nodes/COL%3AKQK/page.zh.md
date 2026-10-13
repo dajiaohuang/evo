@@ -4,7 +4,9 @@
 ## 沿模式状态读六种材料 {#s-57695e152f}
 从 [Piliocolobus lulindicus](Piliocolobus/Piliocolobus_lulindicus/page.zh.md) 的正模／额外雄性之别开始，再比较 [Piliocolobus foai](Piliocolobus/Piliocolobus_foai/page.zh.md) 的 kabambarei 单模定型、[Piliocolobus bouvieri](Piliocolobus/Piliocolobus_bouvieri/page.zh.md) 的 likualae 副模和 [Piliocolobus oustaleti](Piliocolobus/Piliocolobus_oustaleti/page.zh.md) 的 umbrinus 多部位记录。最后读 [Piliocolobus preussi](Piliocolobus/Piliocolobus_preussi/page.zh.md) 与 [Piliocolobus gordonorum](Piliocolobus/Piliocolobus_gordonorum/page.zh.md) 的皮张与历史损失。2024 年目录的材料身份解释有助于追踪名称，但不是旧名野外观察对应固定 COL 概念的独立分析；lulindicus 的分类／生态归属缺口仍开放。
 
-## 从已有历史条目开始 {#s-0386fea84c}
+## 记录分类与直接上级关系 {#s-0386fea84c}
+COL26.8 将 Colobini Jerdon, 1867 记录为族；其直接上级记录为 Colobinae Jerdon, 1867。
+
 Colobini 的本地 PanTHERIA 路径包括 4 条可用数据导读，可从 Colobus angolensis、Colobus guereza、Colobus satanas、Procolobus verus 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-0731d6b0e6}
@@ -23,7 +25,7 @@ Colobini 的本批路线包含 15 个历史条目，可从 Colobus angolensis、
 新增段落依据 Turni 2024 年柏林灵长类模式目录首页、采集者表与方法（PDF 1–3 页）及红疣猴条目（PDF 27–28 页，印刷页 177–178）；已查看后两页版面。未全读 44 页、重新阅读 1900／1914 年原描述、检查标本实物／原标签或查询实时库存。目录有效名、历史原名、部位号与固定 COL26.8 概念分别保留，不从类型身份推出野外归属、食性、种群数量或保育趋势；lulindicus 首轮缺口仍开放，无完整种志。
 
 ## 沿生活史资料阅读 {#s-799a98a582}
-Colobini 本批有 4 个历史生活史资料页，可从 [Colobus angolensis](Colobus/Colobus_angolensis/page.zh.md)、[Colobus satanas](Colobus/Colobus_satanas/page.zh.md)、[Colobus guereza](Colobus/Colobus_guereza/page.zh.md)、[Procolobus verus](Procolobus/Procolobus_verus/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Colobini 本批有 4 个历史生活史资料页，可从 Colobus angolensis、Colobus satanas、Colobus guereza、Procolobus verus 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-2d1f9ffef9}
 本批妊娠资料见 2 页，雌性首次繁殖年龄见 1 页，最高寿命记录见 1 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

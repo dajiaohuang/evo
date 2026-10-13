@@ -1,5 +1,5 @@
-## Historical genus names and species concepts {#s-122b7b0926}
-Pinned COL26.8 organizes this page as Pternistis bicalcaratus (4PV6J). AVONET v7 BirdLife 2020 row 2508 and eBird 2021 agree in name, with Avibase ID AVIBASE-D8267ADE; BirdTree gives Francolinus bicalcaratus, with match type 1BL to 1BT. Read COL older-combination record 6JLDV points to accepted ID 4PV6J. These names lead back to historical rows without proving all species boundaries identical across dates.
+## A name fixed to COL26.8 {#s-122b7b0926}
+Catalogue of Life release COL26.8 records Pternistis bicalcaratus (Linnaeus, 1766) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and inference limits {#s-46f4ea066a}
 Morphology covers 4 birds (0 female, 4 male); 4 have complete measurement sets. Mean nostril-to-tip beak length is 17.4 mm, tarsus 53 mm, unflattened wing 170.5 mm and hand-wing index 24.3. These are species-row averages; the index is defined by Kipp’s distance/wing length ×100, not individual bounds or flight speed. Only one sex is represented here, leaving size differences between sexes unsupported.

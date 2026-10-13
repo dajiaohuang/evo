@@ -1,4 +1,6 @@
-## 有测量记录的物种页 {#s-1c78bef26a}
+## 记录分类与直接上级关系 {#s-1c78bef26a}
+COL26.8 将 Tyto 记录为属；其直接上级记录为 Tytoninae。
+
 这里有 3 种 Tyto 的测量记录：Tyto capensis、Tyto longimembris 和 Tyto soumagnei。目录路径按固定 COL26.8 组织，生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-a250c10114}
@@ -16,8 +18,8 @@
 ## 证据边界 {#s-b27f73e6b8}
 此入口仅覆盖这里呈现的 Tyto 资料，不含所有接受种。3 种有测量记录；其体重端点比较不同物种的汇编均值，不是某种个体的最小值与最大值。9 条历史生活史记录、8 条至少有两类可用生态字段的记录、5 条只有取食层位的记录，以及 4 个有限生态资料页采用不同纳入条件，不能合并成一个分母。生活史汇总仍受中位数或中间值均值算法、最大寿命取最大记录，以及历史分类间可能存在数据继承等限制。生态标签与权重是粗略且依赖来源的证据，不是整个属共有的特征；同名对应也不证明历史与当前物种概念等同。有限生态页还保留形态和体重推算的特定限制。每个物种页分别说明采样、分类与生物学边界。
 
-## 从有限生态资料开始 {#s-18da50790b}
-这里有 4 个 Tyto 有限生态资料页：[Tyto aurantia](Tyto_aurantia/page.zh.md)、[Tyto inexspectata](Tyto_inexspectata/page.zh.md)、[Tyto nigrobrunnea](Tyto_nigrobrunnea/page.zh.md) 和 [Tyto rosenbergii](Tyto_rosenbergii/page.zh.md)。计数描述这些页面，不是全部接受种的分母；导航沿固定 COL26.8 分类组织。
+## 记录分类与成员材料 {#s-18da50790b}
+这里有 4 个 Tyto 有限生态资料页：Tyto aurantia、Tyto inexspectata、Tyto nigrobrunnea 和 Tyto rosenbergii。计数描述这些页面，不是全部接受种的分母；导航沿固定 COL26.8 分类组织。
 
 ## 哪些内容可读，哪些仍未解读 {#s-d757b16aee}
 四个有限生态资料页都记录了栖地、取食生态位、主要活动方式和迁移类别。阅读时应结合来源原定义，并区分类别、历史地图与个体观察；不能把相同标签当作所有后代共有的生活方式。这里不解读喙、翼、跗蹠、尾和体重字段，因此不能用它们建立属内体型比较。

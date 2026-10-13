@@ -1,18 +1,18 @@
-## Name and this data account {#s-5b63b3d2f4}
-COL26.8 places Letheobia leucosticta in Typhlopidae. Its ReptTraits v1–2 row follows the Reptile Database 2023 name framework and keeps sources for individual fields. This compiled entry does not describe every population.
+## COL26.8 name and the ReptTraits row {#s-5b63b3d2f4}
+COL26.8 records Letheobia leucosticta as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-3659993114}
-The maximum total length (TL) in the row is 230 mm. TL includes the tail; snout–vent length (SVL) ends at the vent. This is a reported maximum, not typical size or an absolute limit.
+## Length values in the archived records {#s-3659993114}
+The row reports maximum total length (TL) of 230 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-c71b7cf508}
-The microhabitat field is Fossorial, indicating an underground or burrowing association. It does not provide a full habitat description or daily activity pattern.
+## Habitat use and activity labels {#s-c71b7cf508}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## How to read reproductive records {#s-c24eabb64f}
-The source classifies the reproductive mode as oviparous (egg-laying). This label gives no clutch size and does not establish a uniform pattern across populations.
+## Reproductive fields in ReptTraits {#s-c24eabb64f}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-a161e4c271}
-This page summarizes a few sourced fields from one ReptTraits v1–2 row using the Reptile Database 2023 name framework; it is not a complete species account. A row may combine observations from different ages, places, or populations, and a shared name does not prove that later taxonomic concepts are identical. The listed maximum is a compiled report, not an absolute size limit. The reproductive label does not give clutch size. Mass may be estimated from length in the workbook, and differing juvenile-length definitions are not treated here as direct observations. Conservation, venom, current distribution, and population trends are not updated. The citation labels preserve the workbook's source chain; they do not indicate that every original study was independently reviewed.
+## Reading this compiled trait record {#s-a161e4c271}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-31dc3addd6}
-This account covers maximum total length, microhabitat, and reproductive mode. It does not interpret sex-specific length, clutch or litter counts and frequency, egg dimensions, diet, activity time, foraging mode, or sex determination without species-specific source support.
+## Reading this compiled trait record {#s-31dc3addd6}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

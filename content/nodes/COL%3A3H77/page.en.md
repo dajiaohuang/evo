@@ -1,4 +1,6 @@
-## Local data reading route {#s-d4ccb1c698}
+## Recorded classification and direct parent {#s-d4ccb1c698}
+COL26.8 records Capsiempis at genus rank, with Tyrannidae as its direct parent.
+
 This batch’s Capsiempis route includes 1 measured species records. Start with Capsiempis flaveola. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-93bb780be4}
@@ -7,7 +9,7 @@ Compiled mean mass endpoints in this batch are Capsiempis flaveola at 7.7 g and 
 ## Compare food, feeding positions and activity periods {#s-6fd33e9a84}
 This batch’s Capsiempis route includes 1 historical entries; start with Capsiempis flaveola. Food-category weights are available in 1, foraging strata in 1, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-2e3399b247}
+## Limits attached to these records {#s-2e3399b247}
 This guide summarizes only this batch’s directly measured records with one-to-one historical crosswalks and matching catalogue name and family. It does not cover every accepted descendant. Mass endpoints compare compiled means across records, not minimum and maximum individuals of a species. Each species page retains taxonomic, sampling and other biological limits.
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 

@@ -1,29 +1,29 @@
-## Measurement sample {#s-acf79ba914}
-COL26.8 places *Egretta eulophotes* in Ardeidae. AVONET v7 uses the HBW–BirdLife 2020 name and records five measured individuals, four with a complete morphological set. The usable number can differ across traits, so the reported values are source averages rather than a range for individual egrets.
+## Row-reported mean and sample coverage {#s-acf79ba914}
+The AVONET v7 row for Egretta eulophotes (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 65.8 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak measurements {#s-3eb2e029fe}
-Mean beak length from the front edge of the nostril to the tip is 65.8 mm. At that landmark, mean width is 9.8 mm and depth is 13 mm. These separate dimensions use standardized measurement points, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-3eb2e029fe}
+AVONET records culmen length (bill tip to skull base) 80.4 mm; beak length (nostril front edge to tip) 65.8 mm; beak width at the nostril front edge 9.8 mm; beak depth at the nostril front edge 13 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing and lower-leg measurements {#s-9f673cda7f}
-Mean unflattened wing length, from the carpal joint to the longest primary feather, is 250.6 mm; mean tarsus length, the lower-leg segment measured here, is 81.6 mm. A separate compilation gives mean mass as 461.83 g. Its sample is not the five measured individuals, so the figure does not show that each one was weighed.
+## Wing and body measures use separate sources {#s-9f673cda7f}
+AVONET records unflattened wing length 250.6 mm; tarsus length 81.6 mm; distance from first secondary tip to longest primary tip 89.5 mm; length to first secondary tip 156 mm; hand-wing index 36.4; tail length 86.4 mm; species-average body mass 461.83 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Coastal feeding categories {#s-4927f2da39}
-AVONET groups the habitat as coastal, the feeding niche as aquatic predator, and the primary lifestyle as terrestrial. These are broad comparison categories, not evidence that the bird uses only coastal habitat or a complete description of its feeding behaviour.
+## Recorded habitat and feeding categories {#s-4927f2da39}
+AVONET classifies Egretta eulophotes as habitat Coastal (intertidal and nearby coastal habitats); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and mapped latitude {#s-ad48b02d34}
-The migration field is coded as migratory. Historical breeding and resident maps span latitude endpoints from 25.35° to 43.51°. Those limits describe the mapped range only; they do not trace all non-breeding movements or establish present-day occupancy. The map and the body measurements come from different compilation steps.
+## Mapped range is not a locality list {#s-ad48b02d34}
+Historical breeding and resident maps span latitude endpoints 25.35° to 43.51°. The mapped range area is 114002.97 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## Food and feeding position {#s-295d576820}
-EltonTraits 1.0 also contains an older same-name, same-family record for *E. eulophotes*. Its taxonomy predates COL26.8, so the matching name supports comparison but does not resolve later species splits or synonymy.
+## Scope of the historical trait entry {#s-295d576820}
+EltonTraits 1.0 has a same-name, same-family record for Egretta eulophotes covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Food weights in the source record {#s-54c8920f22}
-The record assigns relative food weights of 60% to invertebrates and 40% to fish. EltonTraits code A indicates high compiler confidence in the source and diet information. These percentages standardize descriptions from literature; they are not measured food intake, and categories with no listed weight are not proof of foods never eaten.
+## Relative weights across food categories {#s-54c8920f22}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 60%; fish 40%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## The recorded feeding position {#s-837ba2b676}
-The archive marks its feeding-position estimate as species-level and assigns 100% to the water surface or just below it. This is a relative category in the source record, not a statement that the bird feeds there at every meal or spends its whole day there. It does not locate nests or describe all habitat.
+## Foraging positions are not a time budget {#s-837ba2b676}
+EltonTraits 1.0 records relative foraging-stratum weights of around the water surface 100%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Reference for the feeding estimates {#s-ad47beab4e}
-Both food and feeding-position entries are linked to volume 1 of *Handbook of the Birds of the World*. The book has not been independently checked for this account; the percentages remain EltonTraits’ standardized summaries rather than new observations.
+## Sources and field limits {#s-ad47beab4e}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Limits of the historical sources {#s-9b6b9dd230}
 AVONET’s body measurements are averages from a small sample with trait-specific counts; its separate mass source, broad ecological categories and historical breeding/resident maps have different scopes. The older HBW–BirdLife name and crosswalks support association with COL26.8 but do not prove concept equivalence. EltonTraits converts literature descriptions into food and feeding-position weights rather than direct measurements. Its source works were not individually reread here. Current range, movement, population, conservation and local feeding variation need other evidence.

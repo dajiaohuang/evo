@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-75e5264548}
+## 记录分类与直接上级关系 {#s-75e5264548}
+COL26.8 将 Ornithorhynchus 记录为属；其直接上级记录为 Ornithorhynchidae Gray, 1825。
+
 现有 PanTHERIA 资料页为 Ornithorhynchus anatinus。页面保留原始 MSW05 名称、不同变量的来源条件和缺失字段；分类导航沿用固定 COL26.8，历史条目数不是当前接受种分母。
 
 ## 比较体型与生活史 {#s-ca38c26e15}

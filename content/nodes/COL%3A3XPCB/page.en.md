@@ -1,5 +1,5 @@
-## Which records does this name match? {#s-2752670219}
-Mallomys aroaensis is an accepted species in Muridae in the pinned COL26.8 catalogue. This account brings together two older data sources: PanTHERIA 1.0 uses an MSW05 classification entry from its 2008 table, with biological data gathering reported through June 2004; EltonTraits 1.0 supplies a same-name, same-family foraging record. A name match explains how these historical entries are associated with this page; it does not erase later taxonomic changes.
+## Adult body mass, adult head–body length and litter size in the historical table {#s-2752670219}
+The August 2008 PanTHERIA row for *Mallomys aroaensis* records adult body mass 1663.99 g; adult head–body length 405.75 mm; litter-size summary 1.02 offspring. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. A fractional litter-size value is a compiled summary, not a literal fractional litter. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Mallomys aroaensis*.
 
 ## Summary values for adult mass and head–body length {#s-51afa20450}
 The PanTHERIA entry reports adult body mass of 1663.99 g and adult head–body length of 405.75 mm. Both values were adjusted for sex differences and then consolidated as medians. The mass field can include adults or animals of unspecified age but excludes pregnant females. Head–body length excludes the tail. These are summaries of historical records, not measurements of one animal or a range of individual sizes across the species.
@@ -13,8 +13,8 @@ The entry classifies feeding as herbivorous, with one diet category and three ha
 ## What the historical range map shows {#s-cce3988876}
 The historical range map yields an area of 110553.66 km² and mapped latitude endpoints of −10.21° to −1.05°. This is a summary of a mapped range, not evidence that every part is continuously occupied; the endpoints are not a list of localities. They do not replace a current distribution survey or population estimate.
 
-## A second historical foraging record {#s-d80bc37fac}
-EltonTraits 1.0 includes a historical entry with the same name and family, and this account uses two groups of its foraging-ecology fields with source information. Across the dataset, bird entries use earlier bird taxonomy and mammal entries follow MSW3. Name and family support an association between entries, but do not settle later splits or synonym disputes.
+## Diet weights and foraging stratum in the compilation {#s-d80bc37fac}
+The EltonTraits 1.0 record for *Mallomys aroaensis* contains the diet weights, foraging stratum. The selected diet fields give literature-standardized relative weights of other plant material, including fungi 100% (confidence code ABC). The foraging-stratum field assigns the arboreal category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The archive leaves activity fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Mallomys aroaensis*.
 
 ## How to read the diet weight {#s-5368853f6c}
 EltonTraits lists “other plant material” as the only nonzero food category, at 100%; the source category also includes fungi. Its ABC confidence code pools high, reasonable and partial confidence, and some estimates may borrow from a congener judged ecologically similar by the compilers. The percentage standardizes literature descriptions; it is not a direct measurement of this species’ diet composition, intake or energy share. A zero category would not prove an item is never eaten.
@@ -25,10 +25,8 @@ The entry assigns the mammalian foraging stratum Ar (arboreal) and uses A for co
 ## What the source labels establish {#s-5471b2ece2}
 The field labels include Ref_1 and metadata:Nowak1999. Diet, stratum and activity can draw on different material. Bird and mammal tables number references separately, so Ref_1 in one table need not be the same source as Ref_1 in the other. These are source attributions from the datasets; they do not make every field a direct observation of this species or repeated citations independent observations.
 
-## What these historical records can show {#s-bcee824078}
-PanTHERIA values summarize historical records; some continuous traits were adjusted for sex or measurement definitions before median consolidation. Missing values are not filled from *_EXT extrapolations. The conditions represented can vary by field, including wild, captive, provisioned or unspecified records, as can source level: primary, secondary or extrapolated. These values are not an individual range, population census or species diagnosis. Matching names in MSW93/MSW05 and COL26.8 do not establish that the historical and current taxonomic concepts are identical, and these tables do not establish the species’ current range, survival or conservation status.
+## How to interpret these historical records {#s-bcee824078}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-The EltonTraits food weight is a standardized reading of literature descriptions, not a direct measurement of diet. Its ABC code may include estimates borrowed from an ecologically similar congener, so not every field is a direct observation of this species. Underlying cited books and papers are not individually read here; the entries are presented as dataset attributions, not as separate observations. Individual, seasonal and local variation are not represented by these summary fields.
-
-No activity period is stated here. The source’s D1 activity field was withheld because its interpolation, confidence or source association did not support a definite schedule.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
 

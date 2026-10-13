@@ -1,4 +1,6 @@
-## 有来源支持的物种记录 {#s-e63e32036b}
+## 记录分类与直接上级关系 {#s-e63e32036b}
+COL26.8 将 Peltocephalus 记录为属；其直接上级记录为 Podocnemididae。
+
 目录列出 1 条Peltocephalus物种资料，均为同名同科且逐性状有出处；可从 Peltocephalus dumerilianus 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
 
 ## 不同类群的测量方式 {#s-6cb4062c51}

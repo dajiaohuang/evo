@@ -1,5 +1,5 @@
-## Find rows through older Basileuterus combinations {#s-c44a002226}
-Pinned COL26.8 organizes this page at Myiothlypis fraseri (743ND). BirdLife 2020 row 6310 and eBird 2021 row 6593 share the name and Avibase ID AVIBASE-A04DCB6C, with type 1BL to 1eBird; BirdTree row 6569 gives Basileuterus fraseri, with type 1BL to 1BT. Catalogue synonym 68D8T, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-c44a002226}
+Catalogue of Life release COL26.8 records Myiothlypis fraseri (P. L. Sclater, 1884) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-31bd3045c8}
 Morphology comprises 6 birds: 2 female, 2 male and 2 unsexed; 4 complete sets. Nostril-to-tip beak length 8.5 mm, tarsus 20.1 mm, unflattened wing 65 mm, tail 55.7 mm and hand-wing index 13.7 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

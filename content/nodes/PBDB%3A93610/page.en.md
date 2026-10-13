@@ -1,19 +1,41 @@
 ## Which fossil records this name represents {#s-41ae32997b}
 Lantanotherium sanmigueli is accepted in the fixed PBDB mammalia working roster, with database parent Lantanotherium. This guide uses 6 eligible species-level occurrence records from 6 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-86fdbf5ac7}
-Collection Schernham, region code AT; database age bracket 9.67–8.725 Ma, early interval MN 10. Collection Richardhof-Wald, region code AT; database age bracket 9.67–8.725 Ma, early interval MN 10. Collection Richardhof-Golfplatz (Niederösterreich), region code AT; database age bracket 11.1–9.67 Ma, early interval MN 9. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Lantanotherium sanmigueli is listed in the PBDB snapshot under taxon txn:93610. This archived guide contains 6 selected occurrence rows, linked to 6 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-726bb1eb14}
-Selected occurrences have an outer age envelope of 11.63–5.333 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Plakias, occurrence occ:1350721 (11.63–5.333 Ma); one supplying the younger bound is Plakias, occurrence occ:1350721 (11.63–5.333 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-86fdbf5ac7}
+The archived guide contains 6 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-b5f0b76083}
-Schernham has collection-environment label terrestrial indet.. Richardhof-Wald has collection-environment label terrestrial indet.. Richardhof-Golfplatz has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1350721; PBDB collection col:183151. Locality cnm=Plakias; place fields cc2=GR, stp=Crete. Recorded age bounds: eag 11.63 Ma; lag 5.333 Ma; PBDB interval fields oei=Late Miocene. Recorded attribution de Bruijn et al. 2012; PBDB reference ref:61130.
 
-## Follow collection records back to references {#s-5bad0fdc34}
-Schernham carries database reference attribution Ziegler (2006), identifier ref:19062. Richardhof-Wald carries database reference attribution Ziegler (2006), identifier ref:19062. Richardhof-Golfplatz carries database reference attribution Ziegler (2006), identifier ref:19062. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Besides this collection, Kuss also collected material in the 70's which are most probably from the same strata
+
+- Occurrence occ:621702; PBDB collection col:66946. Locality cnm=Schernham; place fields cc2=AT. Recorded age bounds: eag 9.67 Ma; lag 8.725 Ma; PBDB interval fields oei=MN 10. Recorded attribution Ziegler 2006; PBDB reference ref:19062.
+
+- Occurrence occ:621703; PBDB collection col:66945. Locality cnm=Richardhof-Wald; place fields cc2=AT. Recorded age bounds: eag 9.67 Ma; lag 8.725 Ma; PBDB interval fields oei=MN 10. Recorded attribution Ziegler 2006; PBDB reference ref:19062.
+
+## Age bounds on the recorded occurrences {#s-726bb1eb14}
+Across these selected PBDB rows, the largest recorded eag=11.63 Ma in occ:1350721; the smallest recorded lag=5.333 Ma in occ:1350721. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-b5f0b76083}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1350721: PBDB taxon-name field tna=Lantanotherium sanmigueli; abundance fields abv=3, abu=specimens; PBDB locality-coordinate fields lng=24.404444, lat=35.182777; paleocoordinate/model fields pm1=gplates.
+- occ:621702: PBDB taxon-name field tna=Lantanotherium sanmigueli; PBDB locality-coordinate fields lng=13.610556, lat=48.177776; paleocoordinate/model fields pm1=gplates, pln=14.68, pla=46.48.
+- occ:621703: PBDB taxon-name field tna=Lantanotherium sanmigueli; PBDB locality-coordinate fields lng=16.270832, lat=48.059723; paleocoordinate/model fields pm1=gplates, pln=17.25, pla=46.33.
+
+## References attached to each record {#s-5bad0fdc34}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1350721: Recorded attribution de Bruijn et al. 2012; PBDB reference ref:61130.
+- occ:621702: Recorded attribution Ziegler 2006; PBDB reference ref:19062.
+- occ:621703: Recorded attribution Ziegler 2006; PBDB reference ref:19062.
 
 ## Evidence limits {#s-87b0d3edbf}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 6 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

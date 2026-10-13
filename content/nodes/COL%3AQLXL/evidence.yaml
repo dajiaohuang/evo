@@ -236,73 +236,115 @@ records:
       morphology:
         status: partially-supported
         claims:
-          - text: A study of a small sample of modern Israeli gray-wolf crania found no statistically significant sexual size dimorphism but did detect sex-mediated cranial shape dimorphism using outline and image analyses. The authors caution that the sample is small; this result does not describe all populations.
+          - text:
+              page: en
+              section: cl-crania
+              part: body
             originalLanguage: en
             sourceIds:
               - macleod2020GrayWolfCrania
             locator: Abstract, Background and Results; Fig. 1 description.
             placeTimeScope: Modern cranial specimens from Israel; small sample analyzed in a 2020 study.
             lifeStatus: Skeletal collection specimens; the claim does not classify the original living specimens as wild or captive.
+            textZh:
+              page: zh
+              section: cl-crania
+              part: body
         gaps:
           - Diagnostic external morphology, age- and sex-stratified body measurements, geographic variation, and broader population sampling have not been assessed in this dossier.
       lifeHistory:
         status: partially-supported
         claims:
-          - text: In the Greater Voyageurs Ecosystem study, gray-wolf feeding and pup-provisioning behavior was tracked through the April–August pup-rearing season; breeding individuals changed their feeding and provisioning behavior as pups matured and prey abundance changed. The result describes one regional field study, not the full reproductive cycle or lifespan.
+          - text:
+              page: en
+              section: cl-pup-provisioning
+              part: body
             originalLanguage: en
             sourceIds:
               - gable2023WolfProvisioningVoyageurs
             locator: Abstract; Introduction; Methods, Study area; Results on breeding status and ordinal day.
             placeTimeScope: Greater Voyageurs Ecosystem, Minnesota, USA; pup-rearing seasons April–August in the study period.
             lifeStatus: Free-ranging wolves observed through GPS collar and field investigations; captive animals were not assessed.
+            textZh:
+              page: zh
+              section: cl-pup-provisioning
+              part: body
         gaps:
           - Gestation, birth outcomes, lifespan, age-specific survival, and population-wide reproductive rates are not covered.
       ecology:
         status: partially-supported
         claims:
-          - text: In a southern boreal Minnesota ecosystem, gray-wolf feeding and return-to-homesite behavior varied with breeding status and prey conditions during pup rearing; the study describes deer fawns and beavers as important seasonal prey in that study system. The findings do not establish a global diet or species-wide prey relationship.
+          - text:
+              page: en
+              section: cl-boreal-feeding
+              part: body
             originalLanguage: en
             sourceIds:
               - gable2023WolfProvisioningVoyageurs
             locator: Abstract; Methods, Study area; Results on prey abundance, handling time, and homesite returns.
             placeTimeScope: Greater Voyageurs Ecosystem, Minnesota, USA; regional study during April–August.
             lifeStatus: Free-ranging wolves and locally available wild prey in a field study.
+            textZh:
+              page: zh
+              section: cl-boreal-feeding
+              part: body
         gaps:
           - Habitat use, interspecific interactions, diet across the full range, and seasonal differences outside this regional study remain unassessed.
       evolution:
         status: partially-supported
         claims:
-          - text: A worldwide mitochondrial control-region analysis found that a bottleneck scenario around the Pleistocene–Holocene boundary, approximately 12,000 years ago, was significantly supported for North American wolves; simplified Eurasian demographic histories were not similarly resolved. This is a marker- and sample-bounded demographic result, not a species-wide phylogeny.
+          - text:
+              page: en
+              section: cl-mito-history
+              part: body
             originalLanguage: en
             sourceIds:
               - ersmark2016WolfPhylogeography
             locator: Discussion §§459–462; study aims and sampling in §§354–360.
             placeTimeScope: North American and Eurasian ancient and contemporary wolf mitochondrial control-region samples; the authors identify uneven ancient geographic sampling as a limitation.
             lifeStatus: Contemporary wolf tissue and ancient wolf remains; no captive or domesticated population inference is made.
+            textZh:
+              page: zh
+              section: cl-mito-history
+              part: body
         gaps:
           - A complete species phylogeny, genome-wide selection history, and population-specific divergence estimates are not assessed here.
       distribution:
         status: partially-supported
         claims:
-          - text: The 2016 study describes the wolf's historical Late Quaternary range as spanning most of the Northern Hemisphere and reports contemporary genetic samples from Scandinavia, Russia/Siberia, Iran, China, North America, and Greenland. These are a historical-range statement and study localities, not a current global occupancy map.
+          - text:
+              page: en
+              section: cl-range-record
+              part: body
             originalLanguage: en
             sourceIds:
               - ersmark2016WolfPhylogeography
             locator: Introduction §336; Materials and methods, Samples §358.
             placeTimeScope: Historical Late Quaternary range statement and modern sample localities reported in a 2016 study.
             lifeStatus: Contemporary samples were from wild wolves except two captive Mexican wolf samples; the article's range statement is not a present-day survey.
+            textZh:
+              page: zh
+              section: cl-range-record
+              part: body
         gaps:
           - Current distribution, extirpations, introduced or free-ranging domestic-dog populations, precise boundaries, and unsampled regions require dedicated dated range evidence.
       fossil:
         status: partially-supported
         claims:
-          - text: The study analyzed two DNA-positive Late Pleistocene wolf remains recovered from permafrost sites on Siberia's Taimyr Peninsula and reported calibrated radiocarbon ages of approximately 35,000 and 42,000 years before present. These two remains do not constitute a complete fossil catalogue.
+          - text:
+              page: en
+              section: cl-ancient-remains
+              part: body
             originalLanguage: en
             sourceIds:
               - ersmark2016WolfPhylogeography
             locator: Materials and methods, Samples §359; ancient-sample analyses discussed in §§459–462.
             placeTimeScope: Two specimens from Taimyr Peninsula permafrost, Siberia; approximately 35 and 42 thousand calibrated radiocarbon years before present.
             lifeStatus: Ancient remains; not living animals.
+            textZh:
+              page: zh
+              section: cl-ancient-remains
+              part: body
         gaps:
           - Specimen catalogue numbers, full taxonomic reassessment, depositional contexts, and the broader fossil record across the species' range are not covered.
       conservation:

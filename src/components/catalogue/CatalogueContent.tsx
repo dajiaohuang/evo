@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react'
 import { loadCatalogueKnowledge, loadCatalogueSanbiDescriptions, loadCatalogueFoaDescriptions, loadCatalogueMesoDescriptions, loadCatalogueMossDescriptions, loadCatalogueMossChinaDescriptions, loadCatalogueFnaDescriptions, loadCatalogueBrazilFloraDescriptions, loadCatalogueTurkeyDescriptions, loadCatalogueFloraChinaDescriptions, loadCataloguePakistanDescriptions, loadCatalogueFdacDescriptions, loadCataloguePlaziDescriptions, loadCatalogueNicaraguaDescriptions, loadCataloguePanamaDescriptions } from '../../data-client/staticDataClient'
 import type { CatalogueKnowledgeRecord, CatalogueRuntimeManifest } from '../../data-client/types'
+import type { AppRoute } from '../../utils/routing'
 import { CatalogueKnowledge } from './CatalogueKnowledge'
 import { MbgFloraDescriptions } from './MbgFloraDescriptions'
 
-export function CatalogueContent({ id, rank, manifest, zh }: { id: string; rank: string; manifest: CatalogueRuntimeManifest; zh: boolean }) {
+export function CatalogueContent({ id, rank, manifest, zh, onNavigate }: { id: string; rank: string; manifest: CatalogueRuntimeManifest; zh: boolean; onNavigate?: (route: AppRoute, params?: Record<string, string>) => void }) {
   const [sanbi, setSanbi] = useState<Awaited<ReturnType<typeof loadCatalogueSanbiDescriptions>>>(null)
   const [sanbiError, setSanbiError] = useState(false)
   const [foa, setFoa] = useState<Awaited<ReturnType<typeof loadCatalogueFoaDescriptions>>>(null)
@@ -72,7 +73,7 @@ export function CatalogueContent({ id, rank, manifest, zh }: { id: string; rank:
     return () => { cancelled = true }
   }, [id, rank, manifest])
   return <>
-    {manifest.knowledge && <CatalogueKnowledge record={knowledge} status={knowledgeStatus} zh={zh} />}
+    {manifest.knowledge && <CatalogueKnowledge record={knowledge} status={knowledgeStatus} zh={zh} release={manifest.releaseAlias} onNavigate={onNavigate} />}
     {nicaraguaError && <p role="status">{zh ? '尼加拉瓜植物志暂时无法加载。' : 'Flora of Nicaragua could not be loaded.'}</p>}
     {nicaragua && manifest.nicaraguaDescriptions && <MbgFloraDescriptions record={nicaragua} source={manifest.nicaraguaDescriptions.source} zh={zh} />}
     {panamaError && <p role="status">{zh ? '巴拿马植物志暂时无法加载。' : 'Flora of Panama could not be loaded.'}</p>}

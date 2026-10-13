@@ -8,5 +8,5 @@ Génin et al. (2016) reported preliminary observations from 2011–2014 at Tembe
 The South African study recorded the incremental loud call and distinguished it from more conserved alarm calls; the authors used the loud call for field identification. Recordings from one region do not represent the full vocal variation of the species.
 
 ## Evidence limits {#s-d2f595eb97}
-The main field details come from a local sample across 24 survey nights at two South African sites; they do not establish species-wide sleeping-group structure, habitat preference or population trends. Source-linked bilingual draft;.
+The main field details come from a local sample across 24 survey nights at two South African sites; they do not establish species-wide sleeping-group structure, habitat preference or population trends.
 

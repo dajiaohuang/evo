@@ -1,4 +1,6 @@
-## 有来源支持的物种记录 {#s-37bd004c99}
+## 记录分类与直接上级关系 {#s-37bd004c99}
+COL26.8 将 Kinixys 记录为属；其直接上级记录为 Testudinidae。
+
 目录列出 6 条Kinixys物种资料，均为同名同科且逐性状有出处；可从 Kinixys belliana、Kinixys erosa、Kinixys homeana、Kinixys lobatsiana、Kinixys natalensis 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
 
 ## 比较前先确认测量方式 {#s-92e563cad6}
@@ -12,7 +14,7 @@
 生活史入口仅链接到至少有三个带出处支持焦点字段、且同名同科的历史条目；它们不构成完整后代名录。原汇编中的中位数、最长寿命记录和历史分类沿用各有局限。属级入口不表示所有后代拥有相同繁殖方式或生活史，这些页面也未提供该类群的完整生物学概况或当前状态评估。
 
 ## 有来源支持的物种记录 {#s-0f41bf843e}
-目录列出 2 条Kinixys物种资料，均为同名同科且逐性状有出处；可从 [Kinixys nogueyi](Kinixys_nogueyi/page.zh.md)、[Kinixys zombensis](Kinixys_zombensis/page.zh.md) 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
+目录列出 2 条Kinixys物种资料，均为同名同科且逐性状有出处；可从 Kinixys nogueyi、Kinixys zombensis 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
 
 ## 可比较的性状字段 {#s-911ec54318}
 这组资料后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

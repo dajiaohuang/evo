@@ -1,5 +1,5 @@
-## Find rows through older Thryothorus combinations {#s-6cb358d7af}
-Pinned COL26.8 organizes this page at Pheugopedius mystacalis (4G3KK). BirdLife 2020 row 8490 and eBird 2021 row 7743 share the name and Avibase ID AVIBASE-A5AADBF7, with type 1BL to 1eBird; BirdTree row 7706 gives Thryothorus mystacalis, with type 1BL to 1BT. Read catalogue synonym 56N7T points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-6cb358d7af}
+Catalogue of Life release COL26.8 records Pheugopedius mystacalis (P. L. Sclater, 1860) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-41e1fdb686}
 Morphology comprises 6 birds: 0 female, 3 male and 3 unsexed; 4 complete sets. Nostril-to-tip beak length 11.7 mm, tarsus 24.3 mm, unflattened wing 64.5 mm, tail 59.3 mm and hand-wing index 9.1 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. No sexed female is present, but unsexed birds remain; an all-male sample or sex comparison is unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

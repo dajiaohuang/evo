@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-0d4d6170e5}
+## 记录分类与直接上级关系 {#s-0d4d6170e5}
+COL26.8 将 Melanoperdix 记录为属；其直接上级记录为 Phasianidae。
+
 Melanoperdix 的本批阅读路径包含 1 条有测量来源的物种记录，可从 Melanoperdix niger 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-89f35eda1c}

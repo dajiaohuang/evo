@@ -1,5 +1,5 @@
-## Read this historical record through food and foraging position {#s-22c5515216}
-Blanfordimys afghanus is accepted in pinned COL26.8 within Cricetidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Foraging stratum and activity flags in the compilation {#s-22c5515216}
+The EltonTraits 1.0 record for *Blanfordimys afghanus* contains the foraging stratum, activity flags. The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark twilight and daytime activity (confidence code ABC); the flags are not proportions of a daily time budget. Source comments and compiler confidence remain attached to the foraging category. The archive leaves diet fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Blanfordimys afghanus*.
 
 ## Mammalian foraging-stratum assignment {#s-2c863dae41}
 The entry is assigned G: ground category (the source definition includes some aquatic foraging); code A records compiler confidence in source and assignment. Metadata collectively attributes mammalian stratum assignments to Nowak (1999). This is a category assignment, not a percentage of time among strata, and does not mean the species acts only there.
@@ -10,12 +10,13 @@ The archive marks feeding activity during twilight, daytime as 1. Several fields
 ## Trace each field group to its source labels {#s-8b91fcb297}
 The used groups carry labels metadata:Nowak1999, Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
 
-## Life-history evidence limits {#s-d1e07cc75e}
-This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
-This page withholds diet (source code D2) because of interpolation, certainty or source-link limits. Specific reasons and original values remain in the source archive; they do not fill definite ecological conclusions.
+## How to interpret these historical records {#s-d1e07cc75e}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## Name and historical material {#s-6e4e72b793}
-Blanfordimys afghanus is accepted in pinned COL26.8 within Cricetidae. This page uses the PanTHERIA 1.0 MSW05 entry from the August 2008 table, whose biological data gathering ended in June 2004. The name association does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Litter size in the historical table {#s-6e4e72b793}
+The August 2008 PanTHERIA row for *Blanfordimys afghanus* records litter-size summary 3.4 offspring. These are compiled historical table values, not measurements of one specimen or a range describing every individual. A fractional litter-size value is a compiled summary, not a literal fractional litter. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Blanfordimys afghanus*.
 
 ## Reproductive and developmental timing {#s-2156d5abd2}
 Available historical fields are offspring per litter 3.4 offspring. Fractional offspring counts are summaries rather than literal non-integer litters. Relevant fields retain the original treatment of measurement definitions; summaries are not a timetable shared by every population.

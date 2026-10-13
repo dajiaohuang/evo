@@ -1,11 +1,13 @@
-## 属名之下只有有限的关联条目 {#s-7c15b4d2f2}
+## 记录分类与直接上级关系 {#s-7c15b4d2f2}
+COL26.8 将 Contomastix 记录为属；其直接上级记录为 Teiidae。
+
 COL26.8 接受 Contomastix 为 Teiidae 的一个属。本页引导读者查看两条较完整的种级记录 Contomastix lacertoides 与 Contomastix vacariensis，以及下方四条性状范围较窄的记录。这些是本页已撰写的条目，并非该属全部接受种数量。
 
 ## 两个不同物种的最大值 {#s-1ff0ab168b}
 所引尺寸记录给出的最大吻肛长为：Contomastix lacertoides 76.9 毫米，C. vacariensis 81.8 毫米。吻肛长止于身体开口，不包括尾巴。两数比较的是两个物种各自汇编的最大值，不是同一物种内变异范围，也不是全组实际个体的两端。
 
 ## 四个较有限的页面各自保留范围 {#s-bf26e4fbca}
-[Contomastix celata](Contomastix_celata/page.zh.md)、[Contomastix leachei](Contomastix_leachei/page.zh.md)、[Contomastix serrana](Contomastix_serrana/page.zh.md) 和 [Contomastix vittata](Contomastix_vittata/page.zh.md) 的记录各有逐字段引用。应按每页真正支持的性状阅读；一个物种的缺项不从另一个物种补入。
+Contomastix celata、Contomastix leachei、Contomastix serrana 和 Contomastix vittata 的记录各有逐字段引用。应按每页真正支持的性状阅读；一个物种的缺项不从另一个物种补入。
 
 ## 另一对体长记录 {#s-f09c381141}
 Contomastix serrana 的已报最大吻肛长为 63.3 毫米，C. vittata 为 76 毫米。这是两个物种各自的记录，不是 Contomastix 属的体长范围。比较活动、食性和繁殖时也须先确认字段相同且来源可比。

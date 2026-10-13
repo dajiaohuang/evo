@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-5af28a1760}
-Pterodromoides minoricensis is accepted in the fixed PBDB dinosaur working roster, with database parent Pterodromoides. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-5af28a1760}
+Pterodromoides minoricensis is listed in the PBDB snapshot under taxon txn:83356. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-8827badf65}
-Collection Punta Nati, Site 6 (Balearic Islands), region code ES; database age bracket 5.333–3.6 Ma, early interval Early Pliocene. Collection Lee Creek Mine, Yorktown Formation (North Carolina), region code US, stratum name Yorktown; database age bracket 5.333–3.6 Ma, early interval Zanclean. Collection Punta Nati, Site 3 (Balearic Islands), region code ES; database age bracket 5.333–2.58 Ma, early interval Pliocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-8827badf65}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-326aca3998}
-Selected occurrences have an outer age envelope of 5.333–2.58 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:594326; PBDB collection col:62897. Locality cnm=Punta Nati, Site 6; place fields cc2=ES, stp=Balearic Islands, cny=Ciutadella. Recorded age bounds: eag 5.333 Ma; lag 3.6 Ma; PBDB interval fields oei=Early Pliocene. Recorded attribution Segui et al. 2001; PBDB reference ref:18141.
 
-## Read preservation setting separately from living habitat {#s-0f2dd0622e}
-Punta Nati, Site 6 has collection-environment label fissure fill; collection preservation-mode label body. Lee Creek Mine, Yorktown Formation has collection-environment label estuary/bay; collection preservation-mode label body,original phosphate. Punta Nati, Site 3 has collection-environment label karst indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The endemic condition of the fauna makes a determination of the age of Nuralagus rex–Cheirogaster sites difficult. Nevertheless, both the close relationship of the leporid and the dormouse with continental Late Miocene Alilepus sp. and Muscardinus sp., respectively, and the karstification of the fissures in Late Miocene reef deposits allow a tentative estimation as Late Neogene (Lower Pliocene) for this fauna.
 
-## Follow collection records back to references {#s-e0a3b1e3ed}
-Punta Nati, Site 6 carries database reference attribution Segui et al. (2001), identifier ref:18141. Lee Creek Mine, Yorktown Formation carries database reference attribution Olson and Rasmussen (2001), identifier ref:18140. Punta Nati, Site 3 carries database reference attribution Segui et al. (2001), identifier ref:18141. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+UTM 570.530 N, 4.433.860 E
 
-## Evidence limits {#s-8903803c72}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+- Occurrence occ:594465; PBDB collection col:52582. Locality cnm=Lee Creek Mine, Yorktown Formation; place fields cc2=US, stp=North Carolina, cny=Beaufort. Recorded age bounds: eag 5.333 Ma; lag 3.6 Ma; PBDB interval fields oei=Zanclean. Stratigraphic fields sfm=Yorktown. Recorded attribution Olson and Rasmussen 2001; PBDB reference ref:18140.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+most fossils "are derived from the lower beds of the Yorktown Formation" (McLellan 1983) and the "total thickness of the Yorktown exposure is 15 m" (Snyder et al. 1983)
+
+Strontium dating places the base of the Yorktown Formation at 4.9 Ma [55]. The top of the Yorktown Formation at Lee Creek Mine is no younger than the middle of the Orionina vaughani ostracod assemblage zone, originally dated to ca. 3.7 Ma [53]. This is roughly in agreement with the top of nannoplankton zone NN14 (3.9 Ma) [20, 54], the second of the three nannoplankton zones correlating with the Orionina vaughani zone [53]. Taken together, these observations indicate an age bracket of 4.9–3.9 Ma. (Marx & Fordyce, 2015). middle Zanclean–early Piacenzian
+
+- Occurrence occ:1085607; PBDB collection col:136227. Locality cnm=Punta Nati, Site 3; place fields cc2=ES, stp=Balearic Islands, cny=Ciutadella. Recorded age bounds: eag 5.333 Ma; lag 2.58 Ma; PBDB interval fields oei=Pliocene. Recorded attribution Segui et al. 2001; PBDB reference ref:18141.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+The few evidence availabe points to an age between Upper Miocene and Pleistocene, i.e., most likely, Pliocene (Bailon et al., 2002).
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Punta Nati area, northwestern corner of Menorca Island. This is one of the sites between the lighthouse of Punta Nati and the Cala es Pous. UTM 570.580 N, 4.433.920 E (Seguí, 2001).
+
+## Age bounds on the recorded occurrences {#s-326aca3998}
+Across these selected PBDB rows, the largest recorded eag=5.333 Ma in occ:594326; the smallest recorded lag=2.58 Ma in occ:1085607. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-0f2dd0622e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:594326: PBDB original-identification field idn=Pterodromoides minoricensis n. gen. n. sp.; PBDB taxon-name field tna=Pterodromoides minoricensis; material note ocm=incomplete cranium (IPS 11826 = holotype), fragment of humerus (IPS 12137 = paratype), two fragments of longbones (IPS 11830 and 12123); abundance fields abv=4, abu=specimens; PBDB locality-coordinate fields lng=3.825500, lat=40.049999; paleocoordinate/model fields pm1=gplates.
+- occ:594465: PBDB taxon-name field tna=Pterodromoides minoricensis; PBDB locality-coordinate fields lng=-76.817497, lat=35.359722; paleocoordinate/model fields pm1=gplates, pln=-75.1, pla=35.91.
+- occ:1085607: PBDB taxon-name field tna=Pterodromoides minoricensis; material note ocm=3 fragments of postcranial bones (CBQ 1189, CBQ 1227 = paratypes, and CBQ 1210); abundance fields abv=3, abu=fragments; PBDB locality-coordinate fields lng=3.824444, lat=40.050556; paleocoordinate/model fields pm1=gplates.
+
+## References attached to each record {#s-e0a3b1e3ed}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:594326: Recorded attribution Segui et al. 2001; PBDB reference ref:18141.
+- occ:594465: Recorded attribution Olson and Rasmussen 2001; PBDB reference ref:18140.
+- occ:1085607: Recorded attribution Segui et al. 2001; PBDB reference ref:18141.
+
+## What these records can show {#s-8903803c72}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

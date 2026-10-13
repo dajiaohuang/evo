@@ -1,19 +1,49 @@
 ## Which fossil records this name represents {#s-3a1fa78582}
 Ammospermophilus junturensis is accepted in the fixed PBDB mammalia working roster, with database parent Ammospermophilus. This guide uses 7 eligible species-level occurrence records from 7 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-4e26bad979}
-Collection Poison Ivy Quarry (Nebraska), region code US, stratum name Ash Hollow; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Collection Pratt Quarry (Nebraska), region code US, stratum name Ash Hollow; database age bracket 12.5–9.4 Ma, early interval Late Clarendonian. Collection Black Butte (UO 2334) (Oregon), region code US, stratum name Juntura; database age bracket 12.5–9.4 Ma, early interval Clarendonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Ammospermophilus junturensis is listed in the PBDB snapshot under taxon txn:45143. This archived guide contains 7 selected occurrence rows, linked to 7 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-9201f4b06a}
-Selected occurrences have an outer age envelope of 12.5–9.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Poison Ivy Quarry, occurrence occ:186608 (12.5–9.4 Ma); one supplying the younger bound is Poison Ivy Quarry, occurrence occ:186608 (12.5–9.4 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-4e26bad979}
+The archived guide contains 7 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-95ef6235b6}
-Poison Ivy Quarry has collection-environment label terrestrial indet.; collection preservation-mode label body. Pratt Quarry has collection-environment label "channel"; collection preservation-mode label body. Black Butte (UO 2334) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:186608; PBDB collection col:18324. Locality cnm=Poison Ivy Quarry; place fields cc2=US, stp=Nebraska, cny=Antelope. Recorded age bounds: eag 12.5 Ma; lag 9.4 Ma; PBDB interval fields oei=Clarendonian. Stratigraphic fields sfm=Ash Hollow, sls=ValAH, slb=5, slo=bottom to top. Recorded attribution Korth 1997; PBDB reference ref:2133.
 
-## Follow collection records back to references {#s-11b9735f1e}
-Poison Ivy Quarry carries database reference attribution Korth (1997), identifier ref:2133. Pratt Quarry carries database reference attribution Korth (1998), identifier ref:2136. Black Butte (UO 2334) carries database reference attribution Alroy (2002), identifier ref:6294. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:186650; PBDB collection col:18327. Locality cnm=Pratt Quarry; place fields cc2=US, stp=Nebraska, cny=Brown. Recorded age bounds: eag 12.5 Ma; lag 9.4 Ma; PBDB interval fields oei=Late Clarendonian. Stratigraphic fields sfm=Ash Hollow, sls=ValAH, slb=6, slo=bottom to top. Recorded attribution Korth 1998; PBDB reference ref:2136.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+said to be late Clarendonian
+although Rudnick does not indicate the formation, this is clearly the same as Pratt Quarry of Skinner and Johnson 1984
+
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"6.5 km north of Johnston... NE1/4, SW1/4, section 30. T. 3/N. [= 31, R.23W" (Parmley and Holman 2007) near Plum Creek
+
+- Occurrence occ:189310; PBDB collection col:18818. Locality cnm=Black Butte (UO 2334); place fields cc2=US, stp=Oregon, cny=Malheur. Recorded age bounds: eag 12.5 Ma; lag 9.4 Ma; PBDB interval fields oei=Clarendonian. Stratigraphic fields sfm=Juntura, sls=MlhrN, slb=2, slo=bottom to top. Recorded attribution Alroy 2002; PBDB reference ref:6294.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"The Juntura Formation outcrops in the basin and around the town of the same name in southeastern Oregon. The Buck Mountain Basalts from the lower part of the formation have been dated to 12.5 Ma (late Barstovian–early Clarendonian; Camp et al., 2003), and the formation is overlain unconformably by the 9.5 Ma Devine Canyon Ashflow Tuff (late Clarendonian; Hooper et al., 2002). The fossiliferous units of the Juntura Formation (the Juntura fauna of Russell, 1956, equivalent to the Black Butte local fauna of Shotwell, 1963) are from its uppermost part and are composed primarily of light-colored volcaniclastic sediments (Bowen et al., 1963). Based on taxonomic composition, Shotwell and Russell (1963) assigned the fauna to the late Clarendonian (10–9 Ma; Tedford et al., 2004)." (Orcutt & Hopkins 2011)
+
+## Age bounds on the recorded occurrences {#s-9201f4b06a}
+Across these selected PBDB rows, the largest recorded eag=12.5 Ma in occ:186608; the smallest recorded lag=9.4 Ma in occ:186608. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-95ef6235b6}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:186608: PBDB taxon-name field tna=Ammospermophilus junturensis; PBDB locality-coordinate fields lng=-98.000000, lat=42.299999; paleocoordinate/model fields pm1=gplates, pln=-92.69, pla=44.87.
+- occ:186650: PBDB taxon-name field tna=Ammospermophilus junturensis; PBDB locality-coordinate fields lng=-100.050003, lat=42.633331; paleocoordinate/model fields pm1=gplates, pln=-94.8, pla=45.3.
+- occ:189310: PBDB taxon-name field tna=Ammospermophilus junturensis; PBDB locality-coordinate fields lng=-117.500000, lat=43.599998; paleocoordinate/model fields pm1=gplates, pln=-111.49, pla=46.16.
+
+## References attached to each record {#s-11b9735f1e}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:186608: Recorded attribution Korth 1997; PBDB reference ref:2133.
+- occ:186650: Recorded attribution Korth 1998; PBDB reference ref:2136.
+- occ:189310: Recorded attribution Alroy 2002; PBDB reference ref:6294.
 
 ## Evidence limits {#s-817b19d106}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 7 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

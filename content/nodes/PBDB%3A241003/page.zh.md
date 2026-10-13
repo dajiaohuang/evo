@@ -23,23 +23,53 @@
 无齿喙形及类比促使作者讨论食果、食种子或杂食，以及传播早期被子植物种子的可能。论文明确缺少胃内容等直接证据，地理和时间重合也不足以确认相互作用或共同演化。本种没有在此获得确定菜单、某种果实关系或已证传播行为；无齿本身不等于已经证实植食。
 
 ## 把欧洲下颌与中国材料对读 {#s-0f617485fd}
-阅读 [Eopteranodon lii](../../Eopteranodon/Eopteranodon_lii/page.zh.md) 的上下颌重识别，再看 [Sinopterus dongi](../../Neoazhdarchia/Tapejaroidea/Tapejaridae/Sinopterus/Sinopterus_dongi/page.zh.md) 的成长、冠饰和分类比较。2012 年欧洲描述与 2023 年中国材料重评是两项不同研究，不能拼成确定祖先链；现有证据也没有提供完整成长序列或直接食性证据。
+阅读 Eopteranodon lii 的上下颌重识别，再看 Sinopterus dongi 的成长、冠饰和分类比较。2012 年欧洲描述与 2023 年中国材料重评是两项不同研究，不能拼成确定祖先链；现有证据也没有提供完整成长序列或直接食性证据。
 
 ## PBDB 名称与出现记录数 {#s-2cd9becf47}
 在 2026-10-02 核对的 PBDB 快照中，Europejara olcadesorum 列在 Europejara 之下。所选条目包括 1 条出现记录、1 个采集记录和 1 个引文编号；这些是目录数量，不是化石标本或动物个体数。
 
+PBDB 出现记录补充:
+Europejara olcadesorum 在 PBDB 快照中对应分类条目 txn:241003。这份存档导读包含 1 条选取的出现记录，关联 1 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## 具名采集记录与年代 {#s-29896f01e4}
 PBDB 记录位于西班牙 Castilla-La Mancha 的 Las Hoyas (MCCM collection)（地区代码 ES），地层为 La Huérguina 组。数据库年代区间为 125.77–121.4 Ma，归入 Late Barremian。这个选定记录不构成本种完整分布清单。
+
+PBDB 出现记录补充:
+存档导读包含 1 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:1053536；PBDB 采集记录 col:28006。 地点字段 cnm=Las Hoyas (MCCM collection)；地点分区字段 cc2=ES，stp=Castilla-La Mancha，cny=Cuenca。 记录年代界：eag 125.77 Ma; lag 121.4 Ma；PBDB 年代区间字段 oei=Late Barremian。 地层字段 sfm=La Huérguina，sls=Las Hoyas，slb=3，slo=bottom to top。 记录署名 Vullo et al. 2012；PBDB 引文编号 ref:42229。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+also called "Calizas de La Huérgina Formation" or "La Huérgina Limestones Formations"
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+La Cierva township, 20 km E of Cuenca, in the Castellana Branch of the Iberian Range
 
 ## 年代外包区间的含义 {#s-14ddc5f0eb}
 所选 PBDB 记录的年代外包区间为 125.77–121.4 Ma。这个区间合并数据库记录的最早与最晚边界；中间可能存在空缺，也不能确定物种起源、灭绝或个体寿命。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=125.77 Ma，见 occ:1053536；最小记录 lag=121.4 Ma，见 occ:1053536。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 采集环境与保存方式 {#s-edf7272665}
 PBDB 将 Las Hoyas 标记为湖泊环境（lacustrine - large），并列出实体化石、压印、痕迹和软组织等保存方式。这些是采集地或集合层级的标签，不能确定本种的食性或栖地，也不逐一描述每件化石。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1053536：PBDB 原鉴定字段 idn=Europejara olcadesorum n. gen. n. sp.；PBDB 分类名称字段 tna=Europejara olcadesorum；材料说明字段 ocm=MCCM-LH 9413, jaws and post-orbital elements of the skull preserved on part and counterpart slabs；丰度字段 abv=1，abu=specimens；PBDB 地点坐标字段 lng=-1.880849，lat=40.064526；古坐标／模型字段 pm1=gplates，pln=21.31，pla=26.91。
 
 ## 采集记录所列引文 {#s-5f4b3b90bd}
 PBDB 将这条采集记录的引文简写为 Vullo et al.（2012），ref:42229。另一个参考文献条目保留了七位作者的完整引文；出现记录和完整论文引文是不同条目。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1053536：记录署名 Vullo et al. 2012；PBDB 引文编号 ref:42229。
+
 ## 资料边界 {#s-a742ee8737}
 本页结合 2012 年原始描述与 2026-10-02 的一条 PBDB 采集记录。头骨和颌骨不完整，完整翼骨与上颌冠没有保存，因此翼展和冠形属于复原。无齿与颌部形态可以引出食性假说，却不能直接证明菜单或种子传播行为；最早已知地点也不能确定本种真正的地理起源。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 1 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

@@ -5,5 +5,5 @@ Records compiled by Iqbal et al. place the Black-and-white Langur between the In
 The study confirmed feeding on rubber-tree leaves in rubber-plantation settings and recorded mango leaves and other plants. The authors inferred that the langur can persist in some degraded forest, but observations at particular sites do not show that all plantations are suitable habitat.
 
 ## Evidence limits {#s-48a8b6cfb0}
-Distribution and feeding evidence comes from a 2016–2022 locality compilation and local observations; no current population trend is inferred. This page. This page is.
+Iqbal et al. compiled published and unpublished locality records from January 2016 to April 2022. Rubber-tree, mango and other plant feeding was recorded at particular sites; it does not show that all plantations are suitable habitat. The compilation is not continuous monitoring and does not estimate a current population trend.
 

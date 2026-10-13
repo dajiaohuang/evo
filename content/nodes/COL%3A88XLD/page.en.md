@@ -1,15 +1,15 @@
-## Name and this data account {#s-6921a535c3}
-Pinned COL26.8 accepts Graptemys sabinensis in Emydidae. This account follows its ReptTraits v1-2 row, which retains the Reptile Database 2023 name framework and trait-specific sources. As the dataset summarizes each species in one row, its categories describe that record rather than every population.
+## COL26.8 name and the ReptTraits row {#s-6921a535c3}
+COL26.8 records Graptemys sabinensis as an accepted species. The ReptTraits v1-2 row gives its Family field as Emydidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-389ce88f5c}
-The compiled maximum straight carapace length (SCL) is 250 mm; the female maximum is also 250 mm and the male maximum is 120 mm. SCL measures the shell in a straight line, excluding the head, neck and tail. These are maxima in the reported material, not theoretical limits or typical individual sizes. Sex-specific values may come from different localities or studies and do not alone measure sexual dimorphism across a population.
+## Length values in the archived records {#s-389ce88f5c}
+The row reports a maximum straight carapace length (SCL) of 250 mm. ReptTraits attributes this field to Lindeman 2013. The row reports a female maximum straight carapace length (SCL) of 250 mm. ReptTraits attributes this field to Lindeman 2013. The row reports a male maximum straight carapace length (SCL) of 120 mm. ReptTraits attributes this field to Lindeman 2013. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Where and how it is active {#s-2d427b79a2}
-The row classifies the microhabitat as Aquatic, diet as Omnivorous and foraging mode as active (ACT). These are broad categories, not a complete habitat inventory or fixed schedule. They do not identify particular foods or show differences among populations, seasons or life stages.
+## Habitat use and activity labels {#s-2d427b79a2}
+The microhabitat field classifies the recorded position as Aquatic. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Lindeman 2013. The diet field classifies the entry as plant- and animal-eating (Omnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Lindeman 2013. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Lindeman 2013.
 
-## How to read reproductive records {#s-b8f9123997}
-The entry records an oviparous reproductive mode and a consolidated value of 3 litters or clutches per year. This annual count is a dataset summary, not a guarantee that every individual or population produces the same number. Other reproductive measures are not interpreted here.
+## Reproductive fields in ReptTraits {#s-b8f9123997}
+The row reports 3 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-372c6aed1c}
-This limited trait account paraphrases the same-name ReptTraits v1-2 row, retaining its Reptile Database 2023 framework and individual trait sources. One row per species compresses variation in sex, age, locality and populations; a matching name and family do not guarantee the same concept in later taxonomies. A reported maximum is not an absolute length limit. Many mass values in the dataset are estimated from length equations and are not presented here as measured mass. Juvenile-length fields have differing headers and definitions and are not used in the conclusions. Conservation, venom, current distribution and population trends are not updated; missing fields remain gaps. Citation labels preserve the dataset's source chain and do not imply independent review here of every original work.
+## Reading this compiled trait record {#s-372c6aed1c}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

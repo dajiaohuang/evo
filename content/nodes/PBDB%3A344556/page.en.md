@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-9a063bcdea}
 Marymus dalanae is accepted in the fixed PBDB mammalia working roster, with database parent Marymus. This guide uses 3 eligible species-level occurrence records from 3 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-ba42ad0430}
-Collection Z113 (Baluchistan), region code PK, stratum name Chitarwata; database age bracket 23.04–20.45 Ma, early interval Aquitanian. Collection Z139 (Baluchistan), region code PK, stratum name Chitarwata; database age bracket 27.3–15.98 Ma, early interval Late Oligocene and late interval Early Miocene. Collection Z150 (Baluchistan), region code PK, stratum name Chitarwata; database age bracket 27.3–15.98 Ma, early interval Late Oligocene and late interval Early Miocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Marymus dalanae is listed in the PBDB snapshot under taxon txn:344556. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-7e39d5380b}
-Selected occurrences have an outer age envelope of 27.3–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Z139, occurrence occ:1334889 (27.3–15.98 Ma); one supplying the younger bound is Z139, occurrence occ:1334889 (27.3–15.98 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-ba42ad0430}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-aab67cf217}
-Z113 has collection-environment label terrestrial indet.; collection preservation-mode label body. Z139 has collection-environment label terrestrial indet.; collection preservation-mode label body. Z150 has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1334888; PBDB collection col:179933. Locality cnm=Z113; place fields cc2=PK, stp=Baluchistan. Recorded age bounds: eag 23.04 Ma; lag 20.45 Ma; PBDB interval fields oei=Aquitanian. Stratigraphic fields sfm=Chitarwata. Recorded attribution Flynn 2007; PBDB reference ref:59701.
 
-## Follow collection records back to references {#s-b0c114422e}
-Z113 carries database reference attribution Flynn (2007), identifier ref:59701. Z139 carries database reference attribution Flynn (2007), identifier ref:59701. Z150 carries database reference attribution Flynn (2007), identifier ref:59701. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Base of the upper unit of the Chitarwata Formation in section B of Lindsay et al. (2005), who give alternative interpretations of age. The site is 25mbelow reversed rock strata considered to represent the top of either Chron C8r or C6Br; the age would be interpolated as about 27 Ma or 23.5 Ma.
+
+Antoine et al. 2013: "Given the faunal content and favored correlation to GPTS (see figure 16.4), this assemblage is tentatively correlated to the earliest Neogene standard age, the Aquitanian, and roughly correlated with the Xiejian Chinese Land Mammal Age (CLMA) and the Agenian European Land Mammal Age (ELMA), MN1–2."
+
+
+- Occurrence occ:1334889; PBDB collection col:179934. Locality cnm=Z139; place fields cc2=PK, stp=Baluchistan. Recorded age bounds: eag 27.3 Ma; lag 15.98 Ma; PBDB interval fields oei=Late Oligocene, oli=Early Miocene. Stratigraphic fields sfm=Chitarwata. Recorded attribution Flynn 2007; PBDB reference ref:59701.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Section E of Lindsay et al. (2005), 4 km west of section B. The level of Z139 approximates that of Z113 (near the base of the upper part of the Chitarwata Formation)
+
+Z139 is near the boundary of the lower Bugti member and Upper member of the Chitarwata formation, see Antoine et al. 2013
+
+- Occurrence occ:1334890; PBDB collection col:179935. Locality cnm=Z150; place fields cc2=PK, stp=Baluchistan. Recorded age bounds: eag 27.3 Ma; lag 15.98 Ma; PBDB interval fields oei=Late Oligocene, oli=Early Miocene. Stratigraphic fields sfm=Chitarwata. Recorded attribution Flynn 2007; PBDB reference ref:59701.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Z150 is 30 m higher than Z139, and interpolated as being equivalent to
+normally magnetized sediments of section B, Chron C8n or C6Bn, 26.5 (Métais et al. 2009) or 23 Ma in alternative interpretations (Antoine et al. 2013)
+
+## Age bounds on the recorded occurrences {#s-7e39d5380b}
+Across these selected PBDB rows, the largest recorded eag=27.3 Ma in occ:1334889; the smallest recorded lag=15.98 Ma in occ:1334889. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-aab67cf217}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1334888: PBDB original-identification field idn=Marymus dalanae n. gen. n. sp.; PBDB taxon-name field tna=Marymus dalanae; material note ocm=Z2353 - holotype; hypodigm: Z756, Z765, Z766, Z1099 and Z2354-2375; PBDB locality-coordinate fields lng=70.333336, lat=30.083332; paleocoordinate/model fields pm1=gplates, pln=71.65, pla=18.9.
+- occ:1334889: PBDB taxon-name field tna=Marymus dalanae; material note ocm=Z2196-2205; PBDB locality-coordinate fields lng=70.333336, lat=30.083332; paleocoordinate/model fields pm1=gplates, pln=71.65, pla=18.9.
+- occ:1334890: PBDB taxon-name field tna=Marymus dalanae; material note ocm=Z2172-2174; PBDB locality-coordinate fields lng=70.333336, lat=30.083332; paleocoordinate/model fields pm1=gplates, pln=71.65, pla=18.9.
+
+## References attached to each record {#s-b0c114422e}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1334888: Recorded attribution Flynn 2007; PBDB reference ref:59701.
+- occ:1334889: Recorded attribution Flynn 2007; PBDB reference ref:59701.
+- occ:1334890: Recorded attribution Flynn 2007; PBDB reference ref:59701.
 
 ## Evidence limits {#s-7e8c0a8da1}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

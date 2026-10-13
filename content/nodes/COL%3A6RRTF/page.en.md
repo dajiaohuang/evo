@@ -1,15 +1,15 @@
-## Name and this data account {#s-42f08164ed}
-Myriopholis yemenica is accepted in pinned COL26.8 within Leptotyphlopidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-42f08164ed}
+COL26.8 records Myriopholis yemenica as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-9a5cb69795}
-Recorded dimensions are reported maximum total length (TL) 910 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-9a5cb69795}
+The row reports maximum total length (TL) of 910 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where the record places it {#s-8b37d2dcd7}
-The entry codes microhabitat as fossorial. The category is not an exhaustive habitat list or fixed schedule; some records combine positions such as arboreal and terrestrial. Populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-8b37d2dcd7}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Feldman 2015.
 
-## Evidence limits {#s-52c39ef9ed}
-The entry summarizes limited trait material rather than a complete account of morphology or ecology. It follows the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
+## Reading this compiled trait record {#s-52c39ef9ed}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-d5379f05ff}
-The entry has 2 traits with field-specific source labels. Other fields without a supported value/category and source combination are: maximum SVL (mm; SCL for turtles), maximum female SVL (mm; SCL for turtles), maximum male SVL (mm; SCL for turtles), mean litter or clutch size, smallest clutch size, largest clutch size, litters or clutches per year, egg length (mm), egg width (mm), diet, active time, foraging mode, reproductive mode, and sex-determining mechanism (GSD or TSD). Relatives and blank entries do not fill species facts.
+## Reading this compiled trait record {#s-d5379f05ff}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

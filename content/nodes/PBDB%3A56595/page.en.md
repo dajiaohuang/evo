@@ -1,18 +1,52 @@
-## Which fossil records this name represents {#s-6f4d367de4}
-Massospondylus carinatus is accepted in the fixed PBDB dinosaur working roster, with database parent Massospondylus. This guide uses 10 eligible species-level occurrence records from 10 collections and 6 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-6f4d367de4}
+Massospondylus carinatus is listed in the PBDB snapshot under taxon txn:56595. This archived guide contains 10 selected occurrence rows, linked to 10 distinct PBDB collection IDs and 6 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-292e3ca8b4}
-Collection Rooidraai, Golden Gate Highlands National Park (BPI) (Free State), region code ZA, stratum name Elliot; database age bracket 201.4–192.9 Ma, early interval Hettangian and late interval Sinemurian. Collection Mana Pools Camp site (Mashonaland West), region code ZW, stratum name Upper Karroo Sandstone; database age bracket 201.4–174.7 Ma, early interval Early Jurassic. Collection Thecodontosaurus site, Ladybrand townlands (zone B/4) (Free State), region code ZA, stratum name Clarens; database age bracket 192.9–184.2 Ma, early interval Pliensbachian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-292e3ca8b4}
+The archived guide contains 10 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-d6b72aa57c}
-Selected occurrences have an outer age envelope of 201.4–174.7 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:150174; PBDB collection col:13326. Locality cnm=Rooidraai, Golden Gate Highlands National Park (BPI); place fields cc2=ZA, stp=Free State, cny=Bethlehem. Recorded age bounds: eag 201.4 Ma; lag 192.9 Ma; PBDB interval fields oei=Hettangian, oli=Sinemurian. Stratigraphic fields sfm=Elliot. Recorded attribution Reisz et al. 2010; PBDB reference ref:38488.
 
-## Read preservation setting separately from living habitat {#s-3ee7989151}
-Rooidraai, Golden Gate Highlands National Park (BPI) has collection-environment label terrestrial indet.; collection preservation-mode label body,original phosphate. Mana Pools Camp site has collection-environment label fluvial indet.; collection preservation-mode label body. Thecodontosaurus site, Ladybrand townlands (zone B/4) has collection-environment label terrestrial indet.; collection preservation-mode label body,cast. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"approximately 3-4 m below the very marked contact between the Elliot Formation (Red Bed Stage) and very silty sandstone of the lower Clarens Formation (Cave Sandstone Stage) ... the horizon which yielded the eggs overlies which can be termed the Tritylodon assemblage zone." Upper part of formation, equivalent to Massospondylus Range Zone.
 
-## Follow collection records back to references {#s-d51e6ea2fb}
-Rooidraai, Golden Gate Highlands National Park (BPI) carries database reference attribution Reisz et al. (2010), identifier ref:38488. Mana Pools Camp site carries database reference attribution Cooper (1981), identifier ref:10538. Thecodontosaurus site, Ladybrand townlands (zone B/4) carries database reference attribution Cooper (1981), identifier ref:10538. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+in the Golden Gate Highlands National Park. 17 km east of Clarens, along road connecting Clarens and Phuthaditjhaba. Rooidraai, a roadside exposure along the R712; 28° 30′ 29.10′′ S 28° 37′ 22.11′′ E
 
-## Evidence limits {#s-d75ec748e1}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:367656; PBDB collection col:34777. Locality cnm=Mana Pools Camp site; place fields cc2=ZW, stp=Mashonaland West. Recorded age bounds: eag 201.4 Ma; lag 174.7 Ma; PBDB interval fields oei=Early Jurassic. Stratigraphic fields sfm=Upper Karroo Sandstone. Recorded attribution Cooper 1981; PBDB reference ref:10538.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+described as "Upper Karroo sediments/System", and "Upper Trias," possible correlated with Forest Sandstone near Bulawayo.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"well below the 2000' contour" on topo map; Mana Pools Camp, overlooking gorge in Angwa River, downstream of confluence with Maura River, less than 10 miles from the foot of the Zambezi escarpment, Sipololo district (now Mashonaland West), Rhodesia (Zimbabwe).
+
+- Occurrence occ:385293; PBDB collection col:36702. Locality cnm=Thecodontosaurus site, Ladybrand townlands (zone B/4); place fields cc2=ZA, stp=Free State, cny=Ladybrand. Recorded age bounds: eag 192.9 Ma; lag 184.2 Ma; PBDB interval fields oei=Pliensbachian. Stratigraphic fields sfm=Clarens. Recorded attribution Cooper 1981; PBDB reference ref:10538.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+= Cave Sandstone
+
+Bordy et al. 2020
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Ladybrand, (Orange) Free State
+
+## Age bounds on the recorded occurrences {#s-d6b72aa57c}
+Across these selected PBDB rows, the largest recorded eag=201.4 Ma in occ:150174; the smallest recorded lag=174.7 Ma in occ:367656. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-3ee7989151}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:150174: PBDB taxon-name field tna=Massospondylus carinatus; abundance fields abv=7, abu=individuals; PBDB locality-coordinate fields lng=28.623056, lat=-28.509443; paleocoordinate/model fields pm1=gplates, pln=16.95, pla=-42.91.
+- occ:367656: PBDB taxon-name field tna=Massospondylus carinatus; PBDB locality-coordinate fields lng=30.100000, lat=-16.233334; paleocoordinate/model fields pm1=gplates, pln=22.43, pla=-29.84.
+- occ:385293: PBDB taxon-name field tna=Massospondylus carinatus; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=27.450001, lat=-29.200001; paleocoordinate/model fields pm1=gplates, pln=13.33, pla=-41.07.
+
+## References attached to each record {#s-d51e6ea2fb}
+The archived guide links the rows to 6 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:150174: Recorded attribution Reisz et al. 2010; PBDB reference ref:38488.
+- occ:367656: Recorded attribution Cooper 1981; PBDB reference ref:10538.
+- occ:385293: Recorded attribution Cooper 1981; PBDB reference ref:10538.
+
+## What these records can show {#s-d75ec748e1}
+This is a guide to 10 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

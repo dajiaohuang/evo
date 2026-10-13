@@ -1,5 +1,5 @@
-## One supported EltonTraits group {#s-e4a8ca5b0c}
-Tryphomys adustus is accepted in pinned COL26.8 within Muridae. This page follows one ecological field group in the same-name, same-family EltonTraits 1.0 record. The archive follows earlier bird taxonomy or MSW3 for mammals, so its name match cannot settle modern splits or synonyms.
+## Foraging stratum in a one-field record {#s-e4a8ca5b0c}
+The one-field EltonTraits 1.0 record for *Tryphomys adustus* contains the foraging stratum. The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Source comments and compiler confidence remain attached to the foraging category. The archive leaves diet, activity fields uninterpreted where source support is uncertain, interpolated, or unresolved; absence is not a zero. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Tryphomys adustus*.
 
 ## A ground-stratum category {#s-6f5ffc967f}
 The mammalian assignment is G, the ground category, which includes some aquatic foraging in the source definition. Code A records compiler confidence in its source and assignment. Metadata attributes mammalian strata collectively to Nowak (1999). This label is not a time percentage or proof of exclusive use.
@@ -7,11 +7,13 @@ The mammalian assignment is G, the ground category, which includes some aquatic 
 ## The retained source label {#s-697fff462d}
 This stratum field carries the metadata:Nowak1999 label. Diet, stratum, and activity can rely on different material; a shared Ref number across bird and mammal reference tables would not identify one common source. The archive retains original strings by file, row, field group, and reference table. Underlying publications have not been individually read, so labels are traceability aids rather than added observations.
 
-## Limits of the single supported field {#s-a4280e2c1c}
-The page interprets the supported stratum assignment; it does not infer the missing diet or activity fields. EltonTraits is a historical same-name, same-family guide, not a full monograph, and its species concepts are not automatically equivalent to COL26.8. Food and avian-stratum percentages are standardized literature weights rather than direct measures of stomach contents, intake, energy, or observation time; avian A/B codes retain source and proportional uncertainty. Mammalian ABC diet or activity can rely on a congener. Genus/family typical values, non-species-level avian strata, and split records needing review do not establish definite claims. Underlying sources have not been reread. Individual, seasonal, and local variation, current range, population, and conservation require other evidence. Diet and activity codes D2 are withheld because of interpolation, certainty, or source-link limits; their archived values do not support definite ecology conclusions.
+## How to interpret these historical records {#s-a4280e2c1c}
+This one-field record supports only the selected group; omitted fields remain unspecified, not zero.
 
-## The historical name in PanTHERIA {#s-4faa69b961}
-Tryphomys adustus is accepted in pinned COL26.8 within Muridae. PanTHERIA 1.0 associates it with an MSW05 entry in the August 2008 table; biological data gathering for that release ended in June 2004. This name link does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult head–body length in the historical table {#s-4faa69b961}
+The August 2008 PanTHERIA row for *Tryphomys adustus* records adult head–body length 152.5 mm. Adult head–body length is a sex-adjusted median. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Tryphomys adustus*.
 
 ## A consolidated adult head–body length {#s-30e2b86cc7}
 The historical summary reports adult head–body length of 152.5 mm. The source adjusts for sex and summarizes with medians; head–body length excludes the tail. This compiled value is not a single specimen measurement or a species-wide range.

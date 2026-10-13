@@ -1,18 +1,18 @@
-## Name and records {#s-5b3737a0e3}
-COL26.8 places *Trimeresurus septentrionalis* in Viperidae. The ReptTraits v1-2 row uses the Reptile Database 2023 name framework. It records a maximum total length, three broad activity or feeding categories, and a reproductive-mode label; the entries are compiled reports, not a uniform profile of every population.
+## COL26.8 name and the ReptTraits row {#s-5b3737a0e3}
+COL26.8 records Trimeresurus septentrionalis as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What the length measures {#s-bd31fa92b8}
-The reported maximum total length (TL) is 730 mm. Total length includes the tail; snout–vent length (SVL) measures from snout to vent. This is the largest value in the cited records, not a growth limit or typical individual size. Sex-specific values may come from different places or studies, so they do not by themselves measure sexual dimorphism within a population.
+## Length values in the archived records {#s-bd31fa92b8}
+The row reports maximum total length (TL) of 730 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Recorded habitat and activity {#s-3a7b633be4}
-The row records an Arboreal microhabitat, a Carnivorous diet and Nocturnal activity. These broad categories do not give a full habitat list, identify prey or set a fixed daily schedule. Reports may differ among populations, seasons and life stages.
+## Habitat use and activity labels {#s-3a7b633be4}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Gearty et al. 2021. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records AMB (ambush or sit-and-wait foraging). ReptTraits attributes this field to Rhodin et al. 2011.
 
-## The reproductive-mode label {#s-e96a5f7bd3}
-The row labels the reproductive mode viviparous, or live-bearing. It supplies no litter-size summary here, so the label does not establish a typical count, fetal nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-e96a5f7bd3}
+The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-c9efe74e51}
-The row combines reports that may differ by sex, age, locality and population. Its Reptile Database 2023 name framework does not by itself prove equivalence to the COL26.8 concept. Maximum length is not an absolute species limit. Mass values may be estimated from length equations, and juvenile-length definitions differ; neither is presented here as a measured trait. This account does not update venom, conservation status, current distribution or population trends. Source labels preserve the citation chain but do not mean that every underlying work was independently checked for this summary.
+## Reading this compiled trait record {#s-c9efe74e51}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Fields awaiting citation-scope review {#s-b45f7d5105}
-The row's AMB foraging-mode value is not used as a species conclusion: its cited source is Rhodin et al. (2011), a turtle checklist, so support for that field in this snake remains unresolved. The source archive retains the value and citation; this does not show that AMB is wrong. Diet and active-time values retain their separate Harrington et al. (2018) citations.
+## ReptTraits v1-2 field citations {#s-b45f7d5105}
+ReptTraits v1-2 records a cited source for each reported trait; the citation beside each value belongs to that field.
 

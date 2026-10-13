@@ -1,15 +1,15 @@
-## Ground use and daytime activity anchor the record {#s-0441ef3cd2}
-COL26.8 accepts Ameiva aggerecusans in Teiidae. In the cited ReptTraits row, a 99.3 mm maximum snout–vent length sits beside terrestrial and diurnal categories and an egg-laying label. These are separate compiled traits, not a field account of one population.
+## COL26.8 name and the ReptTraits row {#s-0441ef3cd2}
+COL26.8 records Ameiva aggerecusans as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The 99.3 mm maximum excludes the tail {#s-cb1c97fe04}
-The largest listed snout–vent length is 99.3 mm. The measure ends at the body opening rather than the tail tip, so it is not total length. A compiled maximum does not describe typical size or a species-wide growth ceiling.
+## Length values in the archived records {#s-cb1c97fe04}
+The row reports a maximum SVL of 99.3 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Terrestrial and diurnal are broad labels {#s-27a6f4c54f}
-The row classifies the microhabitat as terrestrial and activity as diurnal, meaning during daylight. These categories suggest a ground-associated daytime profile but do not specify prey, a precise site, or a fixed routine.
+## Habitat use and activity labels {#s-27a6f4c54f}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg laying with a summary of six {#s-7d17cecee1}
-Reproduction is labelled oviparous, meaning that eggs are laid. The consolidated clutch/litter field is 6. It summarizes cited records and should not be read as a guaranteed count in every clutch; no endpoint range is supplied here.
+## Reproductive fields in ReptTraits {#s-7d17cecee1}
+The compiled mean for offspring per litter or eggs per clutch is 6. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## A compiled row, not a population portrait {#s-a606387545}
-The ReptTraits entry keeps a 2023 name framework, while COL26.8 supplies the accepted placement shown here; name agreement alone does not establish identical taxonomic concepts. One row compresses sex, age, locality and population differences. This page does not update the species’ range or conservation status.
+## Reading this compiled trait record {#s-a606387545}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

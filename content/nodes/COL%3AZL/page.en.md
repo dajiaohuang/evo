@@ -1,10 +1,10 @@
-## Local data reading route {#s-07a8078824}
+## Recorded classification and member material {#s-07a8078824}
 This batch’s Coraciiformes route includes 103 measured species records. Start with Actenoides concretus, Actenoides hombroni, Actenoides lindsayi, Alcedo atthis, Alcedo hercules. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-d6421da684}
 Compiled mean mass endpoints in this batch are Todus mexicanus at 5.9 g and Dacelo novaeguineae at 333.8 g. Represented habitat categories include Forest, Riverine, Wetland, Woodland, Shrubland; trophic niches include Invertivore, Aquatic predator, Omnivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-7151a17dee}
+## Amniote Life-history archive member records {#s-7151a17dee}
 This batch’s Coraciiformes route includes 42 historical life-history accounts; start with Alcedo atthis, Ceryle rudis, Chloroceryle amazona, Chloroceryle americana, Dacelo novaeguineae. More frequently represented fields include adult body mass (42 entries), offspring per litter or eggs per clutch (42 entries), age at flight capability (leaving the nest in some source material) (36 entries), oviposition to hatching (28 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-deee85d760}
@@ -19,12 +19,12 @@ This route covers this batch’s historical same-name, same-family entries with 
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Start with the limited ecology records {#s-fd3095587a}
-This batch offers 11 limited ecology accounts under Coraciiformes. Start with [Alcedo coerulescens](Alcedinidae/Alcedininae/Alcedo/Alcedo_coerulescens/page.en.md), [Caridonax fulgidus](Alcedinidae/Halcyoninae/Caridonax/Caridonax_fulgidus/page.en.md), [Tanysiptera carolinae](Alcedinidae/Halcyoninae/Tanysiptera/Tanysiptera_carolinae/page.en.md), [Tanysiptera ellioti](Alcedinidae/Halcyoninae/Tanysiptera/Tanysiptera_ellioti/page.en.md), [Todiramphus enigma](Alcedinidae/Halcyoninae/Todiramphus/Todiramphus_enigma/page.en.md). Records follow pinned COL26.8 navigation; the count covers this batch’s authored entries rather than all accepted species.
+## Recorded classification and member material {#s-fd3095587a}
+This batch offers 11 limited ecology accounts under Coraciiformes. Start with Alcedo coerulescens, Caridonax fulgidus, Tanysiptera carolinae, Tanysiptera ellioti, Todiramphus enigma. Records follow pinned COL26.8 navigation; the count covers this batch’s authored entries rather than all accepted species.
 
 ## What is readable and what remains uninterpreted {#s-f39ec78b6d}
 Recorded category counts are 11 for habitat, 11 for feeding niche, 11 for primary lifestyle, and 11 for migration. Read the original definitions and distinguish categories, historical maps and individual observations. Shared labels do not establish a lifestyle for every descendant. Beak, wing, tarsus, tail and mass fields remain uninterpreted in this batch and do not establish a group size comparison.
 
-## Limits of these historical data {#s-9c3f192536}
+## AVONET material route {#s-9c3f192536}
 This entry covers this batch’s limited historical ecology records, not every accepted descendant. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
 

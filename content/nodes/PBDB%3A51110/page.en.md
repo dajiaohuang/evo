@@ -1,19 +1,44 @@
 ## Which fossil records this name represents {#s-e51602ab57}
 Prototomus phobos is accepted in the fixed PBDB mammalia working roster, with database parent Prototomus. This guide uses 40 eligible species-level occurrence records from 40 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-ca4678e1cf}
-Collection East Alheit Pocket (Colorado), region code US, stratum name Wasatch; database age bracket 56–51.1 Ma, early interval Wasatchian. Collection FG-20 (Wyoming), region code US, stratum name Willwood; database age bracket 56–51.1 Ma, early interval Wasatchian. Collection FG-25 (Wyoming), region code US, stratum name Willwood; database age bracket 56–51.1 Ma, early interval Wasatchian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Prototomus phobos is listed in the PBDB snapshot under taxon txn:51110. This archived guide contains 40 selected occurrence rows, linked to 40 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-964c9e1c0e}
-Selected occurrences have an outer age envelope of 56–51.1 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is East Alheit Pocket, occurrence occ:168949 (56–51.1 Ma); one supplying the younger bound is East Alheit Pocket, occurrence occ:168949 (56–51.1 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-ca4678e1cf}
+The archived guide contains 40 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-7d7156ccd8}
-East Alheit Pocket has collection-environment label terrestrial indet.; collection preservation-mode label body. FG-20 has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. FG-25 has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:168949; PBDB collection col:15485. Locality cnm=East Alheit Pocket; place fields cc2=US, stp=Colorado, cny=Moffat. Recorded age bounds: eag 56 Ma; lag 51.1 Ma; PBDB interval fields oei=Wasatchian. Stratigraphic fields sfm=Wasatch, sls=Alhet, slb=1, slo=bottom to top. Recorded attribution Polly 1993; PBDB reference ref:2785.
 
-## Follow collection records back to references {#s-3d4b10de58}
-East Alheit Pocket carries database reference attribution Polly (1993), identifier ref:2785. FG-20 carries database reference attribution Gingerich and Deutsch (1989), identifier ref:1666. FG-25 carries database reference attribution Gingerich and Deutsch (1989), identifier ref:1666. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:170653; PBDB collection col:15587. Locality cnm=FG-20; place fields cc2=US, stp=Wyoming, cny=Big Horn. Recorded age bounds: eag 56 Ma; lag 51.1 Ma; PBDB interval fields oei=Wasatchian. Stratigraphic fields sfm=Willwood, sls=Foster Gulch - Y U Bench, slb=105, slo=bottom to top. Recorded attribution Gingerich and Deutsch 1989; PBDB reference ref:1666.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Gilmore Hill NE, T54N, R97W, Sect. 22
+
+- Occurrence occ:170661; PBDB collection col:15589. Locality cnm=FG-25; place fields cc2=US, stp=Wyoming, cny=Big Horn. Recorded age bounds: eag 56 Ma; lag 51.1 Ma; PBDB interval fields oei=Wasatchian. Stratigraphic fields sfm=Willwood, sls=Coon Creek, slb=95, slo=bottom to top. Recorded attribution Gingerich and Deutsch 1989; PBDB reference ref:1666.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Gilmore Hill NE, T54N, R97W, Sect. 26
+
+## Age bounds on the recorded occurrences {#s-964c9e1c0e}
+Across these selected PBDB rows, the largest recorded eag=56 Ma in occ:168949; the smallest recorded lag=51.1 Ma in occ:168949. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-7d7156ccd8}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:168949: PBDB taxon-name field tna=Prototomus phobos; PBDB locality-coordinate fields lng=-108.099998, lat=40.599998; paleocoordinate/model fields pm1=gplates, pln=-81.69, pla=48.47.
+- occ:170653: PBDB taxon-name field tna=Prototomus phobos; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-108.529800, lat=44.643501; paleocoordinate/model fields pm1=gplates, pln=-80.38, pla=52.44.
+- occ:170661: PBDB taxon-name field tna=Prototomus phobos; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-108.501572, lat=44.625332; paleocoordinate/model fields pm1=gplates, pln=-80.35, pla=52.42.
+
+## References attached to each record {#s-3d4b10de58}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:168949: Recorded attribution Polly 1993; PBDB reference ref:2785.
+- occ:170653: Recorded attribution Gingerich and Deutsch 1989; PBDB reference ref:1666.
+- occ:170661: Recorded attribution Gingerich and Deutsch 1989; PBDB reference ref:1666.
 
 ## Evidence limits {#s-1348f306c1}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 40 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,5 +1,5 @@
-## 同名关联保留不同科名 {#s-835a203698}
-本页按 COL26.8 的 Agapornis swindernianus（65MFP）组织。BirdLife 2020 第 10206 行、eBird 2021 第 261 行及 BirdTree 第 263 行同名；eBird Avibase ID 为 AVIBASE-D44EE47D，类型分别1BL to 1eBird与1BL to 1BT。来源科名 Psittacidae、目录 Psittaculidae 分别保留，不把科级分配变化改写成名称不匹配。目录接受名来自已读 ag 分片；同名一对一关系不证明跨年代物种范围完全相同。
+## COL26.8 中的名称身份 {#s-835a203698}
+《Catalogue of Life》COL26.8（2026-08-20）将 Agapornis swindernianus (Kuhl, 1820) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-c42227c5d3}
 形态共 5 只鸟：雌 1、雄 4、性别未定 0；完整测量 4 只。鼻孔前缘至喙尖 13.4 mm、跗蹠 11.2 mm、未压平翼长 92.6 mm、尾长 35.2 mm、手翼指数 41.3 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

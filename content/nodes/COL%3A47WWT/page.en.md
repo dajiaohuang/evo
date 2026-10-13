@@ -1,5 +1,5 @@
-## An older foraging record {#s-86242456a6}
-Notomys amplus is accepted in COL26.8 within Muridae. EltonTraits 1.0 contains a same-name, same-family entry with three ecological field groups, based on earlier bird taxonomy or MSW3 for mammals. This association supports a historical comparison, not a resolution of later splits or synonymy.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-86242456a6}
+The EltonTraits 1.0 record for *Notomys amplus* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of fruit 40%, seeds, nuts and spores 30%, other plant material, including fungi 30% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Notomys amplus*.
 
 ## Food-category weights {#s-3eb6cf2c23}
 The nonzero weights are fruit 40%, seeds, nuts, and spores 30%, and other plant material 30%, a category that includes fungi. ABC combines high, reasonable, and partial confidence; compilers may borrow from a similar congener. These weights standardize descriptions rather than measure diet, and zero does not mean never eaten. Nect, Seed, and PlantO are broad source categories.
@@ -13,11 +13,13 @@ The archive marks night feeding as 1. Multiple activity periods can be marked to
 ## Following the source labels {#s-aee99395fe}
 The selected field groups carry Ref_1 and metadata:Nowak1999. Diet, stratum, and activity can come from different materials, and source numbers belong to their respective tables. The archive retains original strings by file, row, group, and table. The underlying works have not been individually read; the labels are not additional observations.
 
-## Scope of the ecological comparison {#s-4f0eae9d8b}
-This is a guide to a historical same-name, same-family foraging record in EltonTraits 1.0, not a full species account. The older name and classification do not prove concept equivalence with COL26.8. Food weights are coarse literature-derived estimates, not direct measures of stomach contents, intake, energy, or observation time. Mammalian ABC diet or activity fields may include a congener judged ecologically similar; not every value is a direct observation of N. amplus. The underlying books and papers have not been individually reread. Individual, seasonal, and local variation, present range, population, and conservation require other sources.
+## How to interpret these historical records {#s-4f0eae9d8b}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## PanTHERIA name and data period {#s-461cd5aa96}
-This page also uses the PanTHERIA 1.0 MSW05 entry from the August 2008 table; biological data gathering ended in June 2004. The historical name is linked with COL26.8 for navigation, but that link does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass and adult head–body length in the historical table {#s-461cd5aa96}
+The August 2008 PanTHERIA row for *Notomys amplus* records adult body mass 89.99 g; adult head–body length 145.05 mm. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Notomys amplus*.
 
 ## Consolidated size values {#s-03c9cc4dce}
 The PanTHERIA record reports adult body mass of 89.99 g and adult head–body length of 145.05 mm. These are medians after sex adjustment. Mass may include adults or animals of unspecified age but excludes pregnant females; head–body length excludes the tail. Neither is a measurement of one specimen or a species-wide size range.

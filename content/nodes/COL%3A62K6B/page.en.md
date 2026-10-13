@@ -13,7 +13,9 @@ Mourthé et al. (2022) Supplementary Table S1 lists six Cebus taxa: C. albifrons
 ## Overview {#s-cd005c8f73}
 COL26.8 lists 15 accepted Cebus species: C. aequatorialis, C. albifrons, C. brunneus, C. capucinus, C. castaneus, C. cesarae, C. cuscinus, C. imitator, C. kaapori, C. leucocephalus, C. malitiosus, C. olivaceus, C. unicolor, C. versicolor and C. yuracus. MDD v2.5 places six northern or Peruvian names from this batch among C. albifrons synonyms and associates C. brunneus with C. olivaceus; each profile continues to follow its pinned COL identity. Read the three local field-study pages first: western Ecuador C. aequatorialis, C. cuscinus at Los Amigos in Peru, and C. versicolor at Selva de Florencia in Colombia. Then compare the taxonomic histories and evidence gaps for C. cesarae, C. malitiosus and C. leucocephalus, followed by the type-specimen issue for C. brunneus. Return to the existing pages for C. albifrons, C. capucinus, C. castaneus, C. imitator, C. kaapori, C. olivaceus, C. unicolor and C. yuracus. The Mourthé et al. (2022) range-map matrix covers only six taxa and is not a complete genus distribution study.
 
-## Choose comparison pages by life-history fields {#s-824b1064bd}
+## Recorded classification and direct parent {#s-824b1064bd}
+COL26.8 records Cebus Erxleben, 1777 at genus rank, with Cebinae Bonaparte, 1831 as its direct parent.
+
 This batch’s Cebus route includes 4 historical life-history accounts; start with Cebus albifrons, Cebus capucinus, Cebus kaapori, Cebus olivaceus. More frequently represented fields include adult body mass (4 entries), female maturity field (defined by the source as age at first conception) (4 entries), offspring per litter or eggs per clutch (4 entries), conception or fertilization to birth (4 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-196adc1eab}
@@ -25,25 +27,25 @@ This route covers this batch’s historical same-name, same-family entries with 
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 New 2018 sample-tracing text uses the read molecular sampling, tree methods, Cebus results and discussion passages of the published SciELO article, figure 4 caption, and Supplementary Table S1 pages 10, 12 and 13; layouts on pages 10 and 12 were visually examined. Other table pages were not fully reviewed row by row. Figure 4 pixels, other supplements, raw GenBank sequences and museum specimens were not independently examined, and analyses were not rerun. The 2012 article was not obtained on this pass, so no fresh review of it is claimed. Historical sample names, sequence associations, type diagnoses and current COL identities remain distinct. These links do not complete independent field ecology or species delimitation; first-round primate gaps remain open.
 
-## Start with the historical entries {#s-346559d1fa}
+## Recorded classification and member material {#s-346559d1fa}
 The local PanTHERIA route for Cebus includes one usable data account. Start with Cebus capucinus. This entry retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-7ddc2ab2dd}
 This batch has one usable adult-mass entry, Cebus capucinus at 3005.99 g: a historical median adjusted for sex. One entry cannot compare mass endpoints between species. Read its fetal development, weaning, activity and group fields with their definitions and sources.
 
-## Limits of these historical data {#s-36ad0a469e}
+## PanTHERIA material route {#s-36ad0a469e}
 This guide covers this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. With one usable mass entry, there is no comparison between historical entries. Fields can use different source conditions; consult species pages and original PanTHERIA definitions. These values do not establish current species concepts, ranges or conservation status.
 
 ## Read four disputed names in the handbook {#s-6988f4e279}
 Compare the four 2019 EAZA pelage summaries first: pale, orange-centered cesarae; darker leucocephalus with reddish extremities; the V-shaped crown patch of brunneus; and the pale anterior area extending onto the shoulders in malitiosus. Then read each species page for historical names, missing size-sample details and taxonomic discussion. Diet, reproduction or behavior remain poorly documented. General capuchin habits cannot fill those gaps: the brunneus diet suggestion is inferential, and malitiosus pelage cannot be assigned to its name-bearing skull. This is a source-bounded comparison route, not an identification key or combined ecology account.
 
-## Follow the life-history records {#s-5751cae7fb}
-This batch offers 1 historical life-history account under Cebus. Start with [Cebus capucinus](Cebus_capucinus/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-5751cae7fb}
+This batch offers 1 historical life-history account under Cebus. Start with Cebus capucinus. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-b876579859}
 Gestation is recorded in 1 account, female age at first reproduction in 1 account, and maximum lifespan in 1 account. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-511fa8ef32}
+## Ernest life-history archive material route {#s-511fa8ef32}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 
 ## Read the taxonomic dispute from its type record {#s-5a379db7b7}

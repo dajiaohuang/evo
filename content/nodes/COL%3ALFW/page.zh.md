@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-f330ced3d3}
+## 记录分类与直接上级关系 {#s-f330ced3d3}
+COL26.8 将 Stenodermatina 记录为亚族；其直接上级记录为 Stenodermatini。
+
 Stenodermatina 的本地 PanTHERIA 路径包括 5 条可用数据导读，可从 Centurio senex、Pygoderma bilabiatum、Stenoderma rufum、Ametrida centurio、Ardops nichollsi 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-af8c29873d}
@@ -11,8 +13,8 @@ Stenodermatina 的本批路线包含 8 个历史条目，可从 Centurio senex�
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 PanTHERIA 主路线列有 5 条资料，另一条路线另列 Phyllops falcatus、Sphaeronycteris toxophyllum 和 Ariteus flavescens。EltonTraits 覆盖 8 个名称，其中 7 条含食物类别权重，8 条含觅食层位和活动字段。这些是不同历史样本，不是部族完整名册；各字段仍须与所属路线及来源定义对应。
 
-## 从已有历史条目开始 {#s-8a2e995ed9}
-Stenodermatina 的本地 PanTHERIA 路径包括 3 条可用数据导读，可从 [Phyllops falcatus](Phyllops/Phyllops_falcatus/page.zh.md)、[Sphaeronycteris toxophyllum](Sphaeronycteris/Sphaeronycteris_toxophyllum/page.zh.md)、[Ariteus flavescens](Ariteus/Ariteus_flavescens/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-8a2e995ed9}
+Stenodermatina 的本地 PanTHERIA 路径包括 3 条可用数据导读，可从 Phyllops falcatus、Sphaeronycteris toxophyllum、Ariteus flavescens 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-47821cc82d}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。

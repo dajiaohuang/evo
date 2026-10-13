@@ -1,5 +1,5 @@
-## Find rows through older Parus combinations {#s-3a79648ec2}
-Pinned COL26.8 organizes this page at Melaniparus fasciiventer (QV5RV). BirdLife 2020 row 6203 and eBird 2021 row 6062 share the name and Avibase ID AVIBASE-57C44300, with type 1BL to 1eBird; BirdTree row 6030 gives Parus fasciiventer, with type 1BL to 1BT. Read catalogue synonym 7657T points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-3a79648ec2}
+Catalogue of Life release COL26.8 records Melaniparus fasciiventer (Reichenow, 1893) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-cd9130062d}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.8 mm, tarsus 17.2 mm, unflattened wing 77.8 mm, tail 59 mm and hand-wing index 17 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

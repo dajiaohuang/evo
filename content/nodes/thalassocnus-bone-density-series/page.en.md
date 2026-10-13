@@ -1,3 +1,3 @@
-## Bone density through the Thalassocnus series {#s-55ddb2c129}
-Across five successive Thalassocnus species spanning about four million years, bone microstructure changes through a sequence used to test an inferred transition toward more aquatic life. The fossils document skeletal change across the sampled series; habitat and behavior remain interpretations drawn from those changes.
+## How bone compactness changed across Thalassocnus {#s-55ddb2c129}
+CT slices and thin sections from five stratigraphically successive Thalassocnus species show increasing compactness in ribs and limb bones across roughly four million years. Researchers use this sampled pattern to test progressive adaptation to aquatic life. It compares different species in a stratigraphic sequence; it does not follow one animal through time or establish a direct ancestor chain. Hydrostatic control and marine grazing remain functional interpretations.
 

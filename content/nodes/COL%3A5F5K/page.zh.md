@@ -1,5 +1,7 @@
-## 从有性状记录的物种开始 {#s-a27deb5f6e}
-Liopholidophis 的本批 ReptTraits 阅读路径包含 8 条同名同科、有逐性状出处的物种资料，可从 [Liopholidophis baderi](Liopholidophis_baderi/page.zh.md)、[Liopholidophis dimorphus](Liopholidophis_dimorphus/page.zh.md)、[Liopholidophis dolicocercus](Liopholidophis_dolicocercus/page.zh.md)、[Liopholidophis grandidieri](Liopholidophis_grandidieri/page.zh.md)、[Liopholidophis oligolepis](Liopholidophis_oligolepis/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与直接上级关系 {#s-a27deb5f6e}
+COL26.8 将 Liopholidophis 记录为属；其直接上级记录为 Pseudoxyrhophiidae。
+
+Liopholidophis 的本批 ReptTraits 阅读路径包含 8 条同名同科、有逐性状出处的物种资料，可从 Liopholidophis baderi、Liopholidophis dimorphus、Liopholidophis dolicocercus、Liopholidophis grandidieri、Liopholidophis oligolepis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-75b351354a}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

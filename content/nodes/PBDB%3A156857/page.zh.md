@@ -40,18 +40,55 @@ MHIN-UNSL-GEO-V 237、MHIN-UNSL-GEO-V 241 与胚胎 MMP 1168 三件材料，为�
 ## 这个名称对应哪些化石记录 {#s-6639df1230}
 固定 PBDB 名录将 Pterodaustro guinazui 记为 Pterodaustro 属下的接受种。本次摘录含 2 条可用种级出现记录、2 个采集记录和 2 个引文编号。这些是不同层次的数据库计数，不是标本或动物数量。
 
+PBDB 出现记录补充:
+Pterodaustro guinazui 在 PBDB 快照中对应分类条目 txn:156857。这份存档导读包含 2 条选取的出现记录，关联 2 个不同的 PBDB 采集记录编号和 2 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
+
 ## 从具名采集地和地层开始 {#s-c49a8fe07d}
 一条记录来自 AR 地区的 Loma del Pterodaustro，地层 Lagarcito，年代范围为 113.2–100.5 Ma，早端区间为 Albian。另一条来自 AR 地区 San Luis 的 Hualtarán, Quebrada Larga，地层 La Cruz，年代为 121.4–113.2 Ma，早端区间为 Aptian。地点和地层名称保留来源写法；这些选定地点不代表物种完整分布，也不能证明别处没有本种。
+
+PBDB 出现记录补充:
+存档导读包含 2 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
+
+- 出现记录 occ:220153；PBDB 采集记录 col:22710。 地点字段 cnm=Loma del Pterodaustro；地点分区字段 cc2=AR。 记录年代界：eag 113.2 Ma; lag 100.5 Ma；PBDB 年代区间字段 oei=Albian。 地层字段 sfm=Lagarcito。 记录署名 Fox 1997；PBDB 引文编号 ref:5800。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+ETE dating method: time_unit, ETE age comment: . radiometric intage_min
+
+- 出现记录 occ:796321；PBDB 采集记录 col:86514。 地点字段 cnm=Hualtarán, Quebrada Larga；地点分区字段 cc2=AR，stp=San Luis，cny=Belgrano。 记录年代界：eag 121.4 Ma; lag 113.2 Ma；PBDB 年代区间字段 oei=Aptian。 地层字段 sfm=La Cruz。 记录署名 Bonaparte and Sánchez 1975；PBDB 引文编号 ref:29145。
+
+PBDB 存档字段 scm 原文（未翻译或解释）：
+pre-dates the Albian Lagarcitos Fm. & listed as Aptian by Codorniu & Gasparini (2007); fossils in upper third of La Cruz Fm.
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Hualtarán, Quebrada Larga, approx. 1.5 km W of Puesto Agüero
 
 ## 这些记录的年代边界 {#s-4e60cb55fe}
 两条所选记录合并后的年代外界为 121.4–100.5 Ma。这个范围连接最早的早界与最晚的晚界，并不表示连续存在，也不测量起源、灭绝或个体寿命。每个采集地仍保留各自宽年代范围；本页未将其缩为单件标本年代，也未改写来源解释。
 
+PBDB 出现记录补充:
+在这组 PBDB 记录中，最大记录 eag=121.4 Ma，见 occ:796321；最小记录 lag=100.5 Ma，见 occ:220153。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
 ## 保存环境与生活环境分开阅读 {#s-ade3ca988a}
 Loma del Pterodaustro 和 Hualtarán, Quebrada Larga 两条记录的采集环境标签均为 alluvial fan，保存方式均为 body。这是数据库对采集环境和化石组合的描述，不能据此确定食性或栖地，也不表示每件化石都有相同保存特征；来源空缺字段继续留空。
+
+PBDB 出现记录补充:
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:220153：PBDB 原鉴定字段 idn=Pterodaustro guinazui n. gen. n. sp.；PBDB 分类名称字段 tna=Pterodaustro guinazui；PBDB 地点坐标字段 lng=-66.993797，lat=-32.501301；古坐标／模型字段 pm1=gplates，pln=-27.47，pla=-29.06。
+- occ:796321：PBDB 原鉴定字段 idn=Puntanipterus globosus n. gen. n. sp.；PBDB 分类名称字段 tna=Pterodaustro guinazui；材料说明字段 ocm=PVL 3869 (holotype), tibiotarsus and fibula；丰度字段 abv=1，abu=individuals；PBDB 地点坐标字段 lng=-66.966667，lat=-32.466671；古坐标／模型字段 pm1=gplates，pln=-25.06，pla=-28.96。
 
 ## 沿采集记录追到文献 {#s-38d72cb17a}
 Loma del Pterodaustro 记录引 Fox（1997），ref:5800；Hualtarán, Quebrada Larga 引 Bonaparte and Sánchez（1975），ref:29145。这些是数据库简略署名，不是完整作者表，也不一定是物种最初描述。采集编号与完整来源行保存在档案中；本页未声称独立复核论文或化石。
 
+PBDB 出现记录补充:
+存档导读把这些记录关联到 2 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:220153：记录署名 Fox 1997；PBDB 引文编号 ref:5800。
+- occ:796321：记录署名 Bonaparte and Sánchez 1975；PBDB 引文编号 ref:29145。
+
 ## 资料边界 {#s-a16752f7cc}
 本页并列部分 PBDB 出现记录、2021 年幼体飞行模型、2008 年生长研究和 2023 年下颌组织学研究。MIC-V55 的十一张切片全部来自同一标本。牙齿附着与替换、食性、性成熟和早期飞行均由有限化石或模型推断，并非直接观察；飞行预测依赖论文设定的参数。本页是证据导读，不是完整物种专论，因此采集数量和年代外包区间仍受数据库样本范围限制。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 2 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

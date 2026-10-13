@@ -1,5 +1,5 @@
-## Locate data through older Nectarinia names {#s-ba31da4204}
-Pinned COL26.8 organizes this page at Cinnyris sovimanga (5YV5L). BirdLife 2020 row 5991 and eBird 2021 row 2363 share the name and Avibase ID AVIBASE-D7C2EAB8, with type 1BL to 1eBird; BirdTree row 2356 gives Nectarinia sovimanga, with type 1BL to 1BT. Read older-combination record 462PS points to this accepted ID. Older names locate sources without proving identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-ba31da4204}
+Catalogue of Life release COL26.8 records Cinnyris sovimanga (Gmelin, 1788) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Sample scope for beak, wing and tail {#s-cba26013c7}
 Morphology covers 7 birds: 3 female, 4 male and 0 unsexed; 6 birds have complete measurement sets. Nostril-to-tip beak length 15.7 mm, tarsus 15.1 mm, unflattened wing 51.4 mm, tail 36.7 mm and hand-wing index 14.1 are historical row means. Inference=NO does not establish 7 independent records in every field; complete sets do not supply each field’s denominator. Beak length alone does not establish adaptation to particular flower species, tongue structure or pollination effects. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed.

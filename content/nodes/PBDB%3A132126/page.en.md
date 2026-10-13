@@ -1,18 +1,50 @@
-## Which fossil records this name represents {#s-424754c9b1}
-Atrociraptor marshalli is accepted in the fixed PBDB dinosaur working roster, with database parent Atrociraptor. This guide uses 5 eligible species-level occurrence records from 5 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-424754c9b1}
+Atrociraptor marshalli is listed in the PBDB snapshot under taxon txn:132126. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-4a07c315a1}
-Collection Albertosaurus Bonebed, Dry Island Buffalo Jump (Alberta), region code CA, stratum name Horseshoe Canyon; database age bracket 72.2–66 Ma, early interval Early Maastrichtian. Collection 5 km west of Royal Tyrrell Museum (Alberta), region code CA, stratum name Horseshoe Canyon; database age bracket 72.2–66 Ma, early interval Early Maastrichtian. Collection Morrin Bridge (Alberta), region code CA, stratum name Horseshoe Canyon; database age bracket 83.6–66 Ma, early interval Late Campanian and late interval Early Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-4a07c315a1}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-727f2fc07c}
-Selected occurrences have an outer age envelope of 83.6–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1181798; PBDB collection col:152270. Locality cnm=Morrin Bridge; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 66 Ma; PBDB interval fields oei=Late Campanian, oli=Early Maastrichtian. Stratigraphic fields sfm=Horseshoe Canyon. Recorded attribution Larson and Currie 2013; PBDB reference ref:48570.
 
-## Read preservation setting separately from living habitat {#s-326ff90a9a}
-Albertosaurus Bonebed, Dry Island Buffalo Jump has collection-environment label coarse channel fill; collection preservation-mode label body,soft parts. 5 km west of Royal Tyrrell Museum has collection-environment label terrestrial indet.; collection preservation-mode label body. Morrin Bridge has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+at the level of coal zones 8–9
 
-## Follow collection records back to references {#s-3e2da5222d}
-Albertosaurus Bonebed, Dry Island Buffalo Jump carries database reference attribution Larson et al. (2010), identifier ref:43426. 5 km west of Royal Tyrrell Museum carries database reference attribution Currie and Varricchio (2004), identifier ref:31419. Morrin Bridge carries database reference attribution Larson and Currie (2013), identifier ref:48570. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near Morrin Bridge. TRMP database for Albertosaurus specimen: sec. 34, T30N, R21W, W 4th meridian.
 
-## Evidence limits {#s-bf9c5314ce}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:796112; PBDB collection col:55363. Locality cnm=Albertosaurus Bonebed, Dry Island Buffalo Jump; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Early Maastrichtian. Stratigraphic fields sfm=Horseshoe Canyon. Recorded attribution Larson et al. 2010; PBDB reference ref:43426.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+from transition between Units 4 and 5, HCF "B", should be top of Tolman Mb.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Coordinates taken from collection # 52468, near Dry Island, Alberta
+
+- Occurrence occ:837817; PBDB collection col:92963. Locality cnm=5 km west of Royal Tyrrell Museum; place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Early Maastrichtian. Stratigraphic fields sfm=Horseshoe Canyon. Recorded attribution Currie and Varricchio 2004; PBDB reference ref:31419.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+about 5 m above Daly Coal Seam #7
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+5 km W of the Royal Tyrrell Museum; UTM 12U, 372125 E, 5708055 N
+
+## Age bounds on the recorded occurrences {#s-727f2fc07c}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:1181798; the smallest recorded lag=66 Ma in occ:796112. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-326ff90a9a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1181798: PBDB taxon-name field tna=Atrociraptor marshalli; material note ocm=TMP 1965.016.0150; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-112.901711, lat=51.652496; paleocoordinate/model fields pm1=gplates, pln=-66.77, pla=62.62.
+- occ:796112: PBDB taxon-name field tna=Atrociraptor marshalli; material note ocm=TMP 1999.050.0117, 2003.45.52, 2000.45.35, 2000.45.203, 2003.45.49; abundance fields abv=6, abu=specimens; PBDB locality-coordinate fields lng=-112.883331, lat=51.995834; paleocoordinate/model fields pm1=gplates, pln=-67.94, pla=64.1.
+- occ:837817: PBDB original-identification field idn=Atrociraptor marshalli n. gen. n. sp.; PBDB taxon-name field tna=Atrociraptor marshalli; material note ocm=TMP 95.166.1; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-112.842682, lat=51.509140; paleocoordinate/model fields pm1=gplates, pln=-68.42, pla=63.66.
+
+## References attached to each record {#s-3e2da5222d}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1181798: Recorded attribution Larson and Currie 2013; PBDB reference ref:48570.
+- occ:796112: Recorded attribution Larson et al. 2010; PBDB reference ref:43426.
+- occ:837817: Recorded attribution Currie and Varricchio 2004; PBDB reference ref:31419.
+
+## What these records can show {#s-bf9c5314ce}
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

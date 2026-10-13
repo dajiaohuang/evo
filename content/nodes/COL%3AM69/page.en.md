@@ -1,22 +1,24 @@
-## Start with sourced trait records {#s-01addd8e0c}
+## Recorded classification and direct parent {#s-01addd8e0c}
+COL26.8 records Acanthodactylus at genus rank, with Lacertidae as its direct parent.
+
 This batch’s ReptTraits route for Acanthodactylus includes 33 same-name, same-family entries with trait-specific citations. Start with Acanthodactylus aegyptius, Acanthodactylus aureus, Acanthodactylus bedriagai, Acanthodactylus beershebensis, Acanthodactylus blanci. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-ca4b57864f}
 Among size records in this batch, Acanthodactylus khamirensis has a reported maximum snout–vent length (SVL) of 48.4 mm and Acanthodactylus schmidti 105 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Choose comparison pages by life-history fields {#s-d54d4ef588}
+## Amniote Life-history archive member records {#s-d54d4ef588}
 This batch’s Acanthodactylus route includes 11 historical life-history accounts; start with Acanthodactylus bedriagai, Acanthodactylus boskianus, Acanthodactylus dumerilii, Acanthodactylus erythrurus, Acanthodactylus hardyi. More frequently represented fields include adult body mass (11 entries), offspring per litter or eggs per clutch (11 entries), longest lifespan record in the compilation (10 entries), mass at birth or hatching (9 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
-## Evidence limits {#s-811abf17d2}
+## Limits attached to these records {#s-811abf17d2}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history.
 
-## Start with sourced trait records {#s-d1f153a4a1}
-This batch’s ReptTraits route for Acanthodactylus includes 8 same-name, same-family entries with trait-specific citations. Start with [Acanthodactylus ahmaddisii](Acanthodactylus_ahmaddisii/page.en.md), [Acanthodactylus arabicus](Acanthodactylus_arabicus/page.en.md), [Acanthodactylus boueti](Acanthodactylus_boueti/page.en.md), [Acanthodactylus harranensis](Acanthodactylus_harranensis/page.en.md), [Acanthodactylus nilsoni](Acanthodactylus_nilsoni/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+## Recorded classification and member material {#s-d1f153a4a1}
+This batch’s ReptTraits route for Acanthodactylus includes 8 same-name, same-family entries with trait-specific citations. Start with Acanthodactylus ahmaddisii, Acanthodactylus arabicus, Acanthodactylus boueti, Acanthodactylus harranensis, Acanthodactylus nilsoni. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-5f88fd3a50}
 Among size records in this batch, Acanthodactylus taghitensis has a reported maximum snout–vent length (SVL) of 55 mm and Acanthodactylus harranensis 94.8 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
 
-## Limits of these trait data {#s-d226eeadf0}
+## ReptTraits material route {#s-d226eeadf0}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 

@@ -1,5 +1,5 @@
-## 历史 Anas 组合与固定目录名 {#s-51be5801d7}
-本页按固定 COL26.8 的 Spatula cyanoptera（9HKY4）组织。AVONET v7 的 BirdLife 2020 第 397 行与 eBird 2021 对应均同名，Avibase ID 为 AVIBASE-0E599E6C；BirdTree 对应表用 Anas cyanoptera，标为 1BL to 1BT。已读 ana／sp 名称分片未找到该旧组合的异名对应，旧名只作为工作簿内的历史映射保留。名称对应不等于已验证各年代所有物种边界。
+## COL26.8 中的名称身份 {#s-51be5801d7}
+《Catalogue of Life》COL26.8（2026-08-20）将 Spatula cyanoptera (Vieillot, 1816) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 喙、翼与文献体重的不同分母 {#s-a2684adbd6}
 形态共测 6 只（雌 3、雄 3），完整测量 4 只。鼻孔前缘至喙尖均值 33.8 mm，鼻孔前缘处喙宽 16 mm，未压平翼长 187.5 mm，手翼指数 51。这些是物种均值；指数按 Kipp 距离／翼长 ×100 定义，不能当作飞行速度。体重 377.45 g 另取 Dunning 文献汇编，不能给它套用形态样本数。Inference=NO 保留为原表的非推算标记，不补未读原始材料中的个体范围。

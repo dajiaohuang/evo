@@ -1,5 +1,5 @@
-## 分别沿两表旧名定位 {#s-3849255528}
-本页按COL26.8 Chalcites ruficollis（CNJVP）、Cuculidae（8S7）组织。BirdLife 2020第2097行使用本页名；eBird 2021第1998行记Chrysococcyx ruficollis，BirdTree第1988行记Chrysococcyx ruficollis，类型分别1BL to 1eBird／1BL to 1BT。eBird两侧Avibase ID同为AVIBASE-4049465F。两表旧名对应同一逐字异名5YNLH，指向接受种CNJVP。名称提供定位，不证明历史与当前整个物种范围完全相同。
+## COL26.8 中的名称身份 {#s-3849255528}
+《Catalogue of Life》COL26.8（2026-08-20）将 Chalcites ruficollis (Salvadori, 1876) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 性别计数与完整测量分开 {#s-7b9dcb9502}
 形态共 1 只鸟：雌 1、雄 0、性别未定 0；完整测量 1 只。鼻孔前缘至喙尖 11 mm、跗蹠 17.9 mm、未压平翼长 95 mm、尾长 62 mm、手翼指数 38.1 是历史行均值。完整数与总数相等，仍不提供个体变异范围。这里只有一只雌鸟，不能建立雌雄差别或群体变异分布。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100；指数不是飞行速度，翼长也不是实测飞行能力。

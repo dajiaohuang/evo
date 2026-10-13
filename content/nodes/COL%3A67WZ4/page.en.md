@@ -1,15 +1,15 @@
-## Name and data behind this account {#s-500129c495}
-Pinned COL26.8 lists Atheris ceratophora in Viperidae. Its ReptTraits v1-2 entry follows the Reptile Database 2023 name framework and cites sources by trait. One row per species summarizes cited reports rather than a condition shared by every population.
+## COL26.8 name and the ReptTraits row {#s-500129c495}
+COL26.8 records Atheris ceratophora as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## What does the reported length measure? {#s-dbc2449aab}
-The reported maximum total length (TL) is 550 mm. Total length includes the tail; snout-to-vent length (SVL) ends at the vent. This compiled maximum describes reported material, not a theoretical growth limit or typical individual size. Female and male values may come from different localities or studies, so they cannot by themselves measure sexual dimorphism within one population.
+## Length values in the archived records {#s-dbc2449aab}
+The row reports maximum total length (TL) of 550 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how does it find food? {#s-533203cd13}
-The entry lists the microhabitat as arboreal/terrestrial (trees and ground), diet as carnivorous, and activity as nocturnal. Its foraging-mode code, AMB, means ambush or sit-and-wait foraging. These categories do not give a complete habitat or prey list or a fixed schedule; populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-533203cd13}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/ground-dwelling (Terrestrial) [source label: Arboreal/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Spawls et al. 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records AMB (ambush or sit-and-wait foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## What does the reproductive record show? {#s-8ed0a30f5a}
-The reproductive-mode field labels the species as viviparous, or live-bearing. ReptTraits may summarize litter or clutch size using midpoints of reported means, or extrema when means are unavailable; the result is not necessarily an arithmetic average of observed litters or clutches. A fractional mean summarizes records, not part of an individual litter. The “lowest” and “highest” fields are endpoints of reported means, not guaranteed smallest and largest litters or clutches. These labels do not establish fetal nutrition or a pattern shared by all populations.
+## Reproductive fields in ReptTraits {#s-8ed0a30f5a}
+The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-ec48d968c1}
-This profile draws on one ReptTraits v1-2 row classified under the Reptile Database 2023 framework. A row can hide differences by sex, age, locality and population, and its historical name may not map exactly to later concepts. A reported maximum is not a biological upper limit, and reproductive means do not describe every litter. Length-based mass estimates are not measured weights; juvenile-length fields are excluded because their headers and definitions vary. The cited record gives no current conservation, venom, distribution or population-trend information. Source labels trace the workbook's citations but do not independently establish every cited paper's findings.
+## Reading this compiled trait record {#s-ec48d968c1}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,15 +1,15 @@
-## Organize fossil records by source classification {#s-61df2e51eb}
-Mammuthus is recorded at rank genus in this batch’s PBDB path. This route offers occurrence guides for 16 species in the fixed working roster. Recorded database parents organize the material; entry counts do not establish evolutionary importance, and this path is not treated as the only phylogenetic scheme. This route lists only this batch’s non-extant fossil species records; it does not imply that the entire group is extinct.
+## PBDB route through 16 fossil species guides {#s-61df2e51eb}
+The 2026-10-02 PBDB path records *Mammuthus* at genus rank and links 16 selected non-extant fossil-species guides to 416 occurrences from 405 collections. These are database coverage counts, not counts of specimens, individuals, populations, or comparable sampling effort.
 
-## Compare collections, strata and age brackets {#s-c7013b6a5a}
-Start with Mammuthus lamarmorae, Mammuthus subplanifrons, Mammuthus africanavus, Mammuthus creticus, Mammuthus trogontherii and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 416 selected occurrences from 405 collections; example stratum names are Sagantole, Varswater, Chiwondo, Adu-Asa. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Start with named species and collections {#s-c7013b6a5a}
+Useful entry points include *Mammuthus lamarmorae*, *M. subplanifrons*, *M. africanavus*, *M. creticus*, and *M. trogontherii*. Example strata include Sagantole, Varswater, Chiwondo, and Adu-Asa. Read each collection’s age bracket, identification qualifier, and cited reference separately; occurrence and collection totals are database units, not ancient-animal or population counts.
 
-## Evidence limits {#s-d41ae6cc3b}
-This route introduces occurrence records for species authored in this batch, not a complete descendant catalogue or a common ecological summary. Record counts are not comparable measurements of specimens, individuals, populations or sampling intensity; outer age bounds are not actual origin and extinction times. PBDB classification paths organize the material while remaining distinct from COL and other phylogenetic schemes.
+## Limits of the fossil-record route {#s-d41ae6cc3b}
+This is a selected PBDB occurrence guide, not a complete *Mammuthus* species catalogue or ecology account. PBDB ancestry is a database classification path; its collection-age brackets do not establish the genus’s global first or last appearance or direct ancestry. The separate genome-sample interval is discussed below.
 
-## Placement in the sampled analyses {#s-4a70be76f2}
-Genome-scale comparisons of sampled mammoths, living elephants and mastodon place Mammuthus within a reticulate elephantid history with introgression and incomplete lineage sorting; the sampled genomes do not establish the genus’s full fossil duration or one bifurcating ancestor tree.
+## What sampled elephant genomes show {#s-4a70be76f2}
+Palkopoulou et al. (2018) compared sampled mammoths with living elephants and mastodon. Their genome-scale analyses support a reticulate elephantid history involving introgression and incomplete lineage sorting. The sampled genomes describe those lineages and relationships; they do not set Mammuthus’ full fossil duration or establish one simple bifurcating ancestor tree.
 
-## The dated record and its limits {#s-156e034794}
-Mammuthus is displayed at 0.14–0.004 Ma only as the dated genomic specimen envelope, not the full fossil duration of Mammuthus. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+## The genomic specimen window is not the genus range {#s-156e034794}
+Palkopoulou et al. (2018) supports a dated genomic-specimen envelope of 0.14–0.004 Ma in this record. It describes sampled material, not the full fossil duration of *Mammuthus*. This genome sample is separate from the PBDB occurrence records.
 

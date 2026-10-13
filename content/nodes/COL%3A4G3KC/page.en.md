@@ -1,5 +1,5 @@
-## Find rows through older Thryothorus combinations {#s-39deadfd86}
-Pinned COL26.8 organizes this page at Pheugopedius coraya (4G3KC). BirdLife 2020 row 8483 and eBird 2021 row 7736 share the name and Avibase ID AVIBASE-FB669B0D, with type 1BL to 1eBird; BirdTree row 7699 gives Thryothorus coraya, with type 1BL to 1BT. Read catalogue synonym 56N7D points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-39deadfd86}
+Catalogue of Life release COL26.8 records Pheugopedius coraya (Gmelin, 1789) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-85f57117fe}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 11.7 mm, tarsus 22.1 mm, unflattened wing 62.8 mm, tail 57.4 mm and hand-wing index 11.6 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

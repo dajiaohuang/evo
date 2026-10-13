@@ -1,18 +1,34 @@
-## Which fossil records this name represents {#s-90da5f884d}
-Kosmoceratops richardsoni is accepted in the fixed PBDB dinosaur working roster, with database parent Kosmoceratops. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-90da5f884d}
+Kosmoceratops richardsoni is listed in the PBDB snapshot under taxon txn:243367. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-c1a17893ab}
-Collection UMNH VP Loc. 1323 (Utah), region code US, stratum name Kaiparowits; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Collection UMNH VP 890, GS-ENM (Utah), region code US, stratum name Kaiparowits; database age bracket 83.6–72.2 Ma, early interval Late Campanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-c1a17893ab}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-f1c88eff7a}
-Selected occurrences have an outer age envelope of 83.6–72.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:882009; PBDB collection col:97804. Locality cnm=UMNH VP Loc. 1323; place fields cc2=US, stp=Utah, cny=Kane. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Kaiparowits. Recorded attribution Levitt 2013; PBDB reference ref:86073.
 
-## Read preservation setting separately from living habitat {#s-1ce9ecad68}
-UMNH VP Loc. 1323 has collection-environment label pond; collection preservation-mode label body,original aragonite. UMNH VP 890, GS-ENM has collection-environment label "channel"; collection preservation-mode label body,soft parts. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+unspecified locality within Grand Staircase-Escalante National Monument
 
-## Follow collection records back to references {#s-303d40cfc5}
-UMNH VP Loc. 1323 carries database reference attribution Levitt (2013), identifier ref:86073. UMNH VP 890, GS-ENM carries database reference attribution Sampson et al. (2010), identifier ref:42508. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:1066330; PBDB collection col:131868. Locality cnm=UMNH VP 890, GS-ENM; place fields cc2=US, stp=Utah, cny=Garfield. Recorded age bounds: eag 83.6 Ma; lag 72.2 Ma; PBDB interval fields oei=Late Campanian. Stratigraphic fields sfm=Kaiparowits. Recorded attribution Sampson et al. 2010; PBDB reference ref:42508.
 
-## Evidence limits {#s-cbc8eac6dd}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Based on Google Earth placemark for Grand Staircase-Escalante National Monument.
+
+## Age bounds on the recorded occurrences {#s-f1c88eff7a}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:882009; the smallest recorded lag=72.2 Ma in occ:882009. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-1ce9ecad68}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:882009: PBDB taxon-name field tna=Kosmoceratops richardsoni; material note ocm=UMNH VP 21339; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-111.700996, lat=37.532001; paleocoordinate/model fields pm1=gplates, pln=-74.48, pla=48.7.
+- occ:1066330: PBDB original-identification field idn=Kosmoceratops richardsoni n. gen. n. sp.; PBDB taxon-name field tna=Kosmoceratops richardsoni; material note ocm=UMNH VP 17000; "Kaiparowits new taxon A"; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-111.856476, lat=37.624817; paleocoordinate/model fields pm1=gplates, pln=-74.62, pla=48.82.
+
+## References attached to each record {#s-303d40cfc5}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:882009: Recorded attribution Levitt 2013; PBDB reference ref:86073.
+- occ:1066330: Recorded attribution Sampson et al. 2010; PBDB reference ref:42508.
+
+## What these records can show {#s-cbc8eac6dd}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

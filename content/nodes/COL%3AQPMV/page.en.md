@@ -1,5 +1,5 @@
-## Find rows through older Thryothorus combinations {#s-ea6d06d888}
-Pinned COL26.8 organizes this page at Cantorchilus guarayanus (QPMV). BirdLife 2020 row 8443 and eBird 2021 row 1657 share the name and Avibase ID AVIBASE-9CC8A7D9, with type 1BL to 1eBird; BirdTree row 1651 gives Thryothorus guarayanus, with type 1BL to 1BT. Catalogue synonym 56N7L, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-ea6d06d888}
+Catalogue of Life release COL26.8 records Cantorchilus guarayanus (Orbigny & Lafresnaye, 1837) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-61d299fd23}
 Morphology comprises 3 birds: 1 female, 1 male and 1 unsexed; 3 complete sets. Nostril-to-tip beak length 9.9 mm, tarsus 21.6 mm, unflattened wing 53.3 mm, tail 45 mm and hand-wing index 11.5 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

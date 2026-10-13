@@ -1,15 +1,15 @@
-## Name and this data account {#s-165b36a4ee}
-COL26.8 accepts Anilios zonula in Typhlopidae. The ReptTraits v1–2 row uses the Reptile Database 2023 name framework and preserves field sources; it is a limited compilation, not a complete species account.
+## COL26.8 name and the ReptTraits row {#s-165b36a4ee}
+COL26.8 records Anilios zonula as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Where and how it is active {#s-25c2183080}
-The microhabitat field is Fossorial, indicating an underground or burrowing association. It does not describe the full habitat or activity pattern.
+## Habitat use and activity labels {#s-25c2183080}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to IUCN 2023.
 
-## How to read reproductive records {#s-8e8dbd4de8}
-The source classifies reproduction as oviparous (egg-laying). No clutch count is supplied, and the label does not establish uniformity across populations.
+## Reproductive fields in ReptTraits {#s-8e8dbd4de8}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-55b114b377}
-This page summarizes selected fields from a ReptTraits v1–2 row under the Reptile Database 2023 name framework; it is not a complete species account. A row may combine records from different sexes, ages, places, or populations, and a shared name does not establish identical later taxonomic concepts. A maximum is a compiled measurement, not an absolute size limit. Reproductive labels do not give clutch size; workbook averages summarize source records rather than every clutch. Estimated mass and differing juvenile-length definitions are not used here as direct observations. Conservation, venom, current distribution, and population trends are not updated. Citation labels preserve the workbook's source chain but do not mean every original study was independently reviewed here.
+## Reading this compiled trait record {#s-55b114b377}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## Traits not interpreted here {#s-b7e04306dd}
-This row supports the microhabitat and reproductive category only. It gives no species-specific sourced value here for length, clutch frequency, egg dimensions, diet, activity, foraging, or sex determination.
+## Reading this compiled trait record {#s-b7e04306dd}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

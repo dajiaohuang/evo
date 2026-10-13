@@ -1,19 +1,34 @@
 ## Which fossil records this name represents {#s-921353b29f}
 Hilarcotherium miyou is accepted in the fixed PBDB mammalia working roster, with database parent Hilarcotherium. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-bb04e98106}
-Collection STRI Loc. 470058 (Castilletes Fm) (Guajira), region code CO, stratum name Castilletes; database age bracket 20.45–15.98 Ma, early interval Burdigalian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Hilarcotherium miyou is listed in the PBDB snapshot under taxon txn:366961. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-b48ddafd90}
-Selected occurrences have an outer age envelope of 20.45–15.98 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is STRI Loc. 470058 (Castilletes Fm), occurrence occ:1394711 (20.45–15.98 Ma); one supplying the younger bound is STRI Loc. 470058 (Castilletes Fm), occurrence occ:1394711 (20.45–15.98 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-bb04e98106}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-082072f07b}
-STRI Loc. 470058 (Castilletes Fm) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1394711; PBDB collection col:190377. Locality cnm=STRI Loc. 470058 (Castilletes Fm); place fields cc2=CO, stp=Guajira. Recorded age bounds: eag 20.45 Ma; lag 15.98 Ma; PBDB interval fields oei=Burdigalian. Stratigraphic fields sfm=Castilletes, sls=Patajau norte, slb=28, slo=bottom to top. Recorded attribution Carrillo et al. 2018; PBDB reference ref:64928.
 
-## Follow collection records back to references {#s-f6e4224144}
-STRI Loc. 470058 (Castilletes Fm) carries database reference attribution Carrillo et al. (2018), identifier ref:64928. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+A mean age of 16.2 Ma (range of 16.33 ± 0.11 Ma–16.07 ± 0.10 month year) is calculated
+for beds in the Patajau Valley near the base of the formation, on the basis of 87Sr/86Sr ratios (Moreno et al. 2015)
+
+## Age bounds on the recorded occurrences {#s-b48ddafd90}
+Across these selected PBDB rows, the largest recorded eag=20.45 Ma in occ:1394711; the smallest recorded lag=15.98 Ma in occ:1394711. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-082072f07b}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1394711: PBDB original-identification field idn=Hilarcotherium miyou n. sp.; PBDB taxon-name field tna=Hilarcotherium miyou; PBDB locality-coordinate fields lng=-71.323608, lat=11.950556; paleocoordinate/model fields pm1=gplates, pln=-65.71, pla=12.6.
+
+## References attached to each record {#s-f6e4224144}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1394711: Recorded attribution Carrillo et al. 2018; PBDB reference ref:64928.
 
 ## Evidence limits {#s-cbe6f3e515}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

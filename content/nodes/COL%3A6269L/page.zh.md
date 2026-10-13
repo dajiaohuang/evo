@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-d7d039275b}
+## 记录分类与直接上级关系 {#s-d7d039275b}
+COL26.8 将 Phocoenidae 记录为科；其直接上级记录为 Odontoceti Flower, 1867。
+
 Phocoenidae 的本地 PanTHERIA 路径包括 4 条可用数据导读，可从 Neophocaena phocaenoides、Phocoena phocoena、Phocoena sinus、Phocoenoides dalli 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 比较体型与生活史 {#s-deebc2114d}
@@ -12,17 +14,17 @@ Phocoenidae 的本批路线包含 6 个历史条目，可从 Neophocaena phocaen
 
 ## 证据边界 {#s-433a55220e}
 本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
 
-## 从已有历史条目开始 {#s-6ccbeabf64}
-Phocoenidae 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 [Phocoena spinipinnis](Phocoena/Phocoena_spinipinnis/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## 记录分类与成员材料 {#s-6ccbeabf64}
+Phocoenidae 的本地 PanTHERIA 路径包括 1 条可用数据导读，可从 Phocoena spinipinnis 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
 
 ## 这组历史数据的边界 {#s-4613e9e51f}
 本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
 
 ## 沿生活史资料阅读 {#s-dc9f844df8}
-Phocoenidae 本批有 4 个历史生活史资料页，可从 [Neophocaena phocaenoides](Neophocaena/Neophocaena_phocaenoides/page.zh.md)、[Phocoena sinus](Phocoena/Phocoena_sinus/page.zh.md)、[Phocoena phocoena](Phocoena/Phocoena_phocoena/page.zh.md)、[Phocoenoides dalli](Phocoenoides/Phocoenoides_dalli/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+Phocoenidae 本批有 4 个历史生活史资料页，可从 Neophocaena phocaenoides、Phocoena sinus、Phocoena phocoena、Phocoenoides dalli 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
 
 ## 先区分平均值与纪录 {#s-ce3d5e96ff}
 本批妊娠资料见 3 页，雌性首次繁殖年龄见 3 页，最高寿命记录见 3 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。

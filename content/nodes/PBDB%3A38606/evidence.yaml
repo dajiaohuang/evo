@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:tyrannosauridae
       claimKind: scientific
       claimType: taxonomy
-      statement: Tyrannosauridae is represented by a systematic synthesis of its sampled anatomy, growth and biomechanics; family-wide patterns are review-bounded and do not turn Tyrannosaurus into a proxy for every member or set exact range endpoints.
+      statement:
+        page: en
+        section: s-329b664fcd
+        part: body
       confidence: medium
       confidenceRationale: The review integrates several independent specimen studies, while behavior and lineage-wide generalization remain inferential. Medium confidence preserves heterogeneity.
       referenceLinks:
@@ -27,7 +30,10 @@ records:
     - subjectId: taxon:tyrannosauridae
       claimKind: scientific
       claimType: fossil-range
-      statement: Tyrannosauridae is displayed at 84–66 Ma only as the review-bounded sampled family record, not exact global origination or extinction. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      statement:
+        page: en
+        section: s-review-window-8466-en
+        part: body
       confidence: medium
       confidenceRationale: Tyrannosauridae uses Brusatte, S.L.; Norell, M.A.; Carr, T.D.; Erickson, G.M.; Hutchinson, J.R.; Balanoff, A.M.; Bever, G.S.; Choiniere, J.N.; Makovicky, P.J.; Xu, X. (2010) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Late Cretaceous tyrannosaurid sample synthesized by Brusatte et al.; broader endpoints remain unclaimed.
       referenceLinks:
@@ -45,8 +51,12 @@ records:
     - 综述整合多项独立标本研究，而行为及全支系概括仍属推断；中等置信度保留异质性。
     - Tyrannosauridae 采用 Brusatte, S.L.; Norell, M.A.; Carr, T.D.; Erickson, G.M.; Hutchinson, J.R.; Balanoff, A.M.; Bever, G.S.; Choiniere, J.N.; Makovicky, P.J.; Xu, X.（2010）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Late Cretaceous tyrannosaurid sample synthesized by Brusatte et al.；更宽泛端点保持未声明。
   claim-statements.zh:
-    - 暴龙科由对取样解剖、生长和生物力学的系统综合表示；科级格局受综述范围限制，不把霸王龙当作每个成员的替身，也不设定精确范围端点。
-    - Tyrannosauridae 仅以 84–66 Ma 展示为综述限定的科级采样记录，而非精确全球起源或灭绝。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+    - page: zh
+      section: s-5a1e3cf36a
+      part: body
+    - page: zh
+      section: s-review-window-8466-zh
+      part: body
   ranges:
     - entityId: tyrannosauridae
       rangeKind: global-composite

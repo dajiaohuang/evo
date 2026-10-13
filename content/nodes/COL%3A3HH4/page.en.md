@@ -1,4 +1,6 @@
-## Accepted species in Caretta {#s-b5e1a7cdc0}
+## Recorded classification and direct parent {#s-b5e1a7cdc0}
+COL26.8 records Caretta at genus rank, with Cheloniidae as its direct parent.
+
 COL26.8, published 20 August 2026, accepts Caretta (COL 3HH4) in Cheloniidae (COL 83J), within Chelonioidea and Cryptodira. The accepted descendants contain one species, Caretta caretta (Linnaeus, 1758; COL 69BHK), and no further descendants. This is the complete list for that pinned genus concept.
 
 ## Following the specimen and character evidence {#s-79d6f86480}
@@ -10,7 +12,7 @@ The route links 1 historical life-history accounts; begin with Caretta caretta. 
 ## Evidence limits {#s-cc27e59b1f}
 The cited study reports specimen morphology and methods. It does not establish collection localities or dates, broader geography, diet, behavior, body size, reproduction, population trends or current conservation status. It makes no claim about global first or last appearance, ancestry or fossil range. The described characters do not capture variation across all ages or populations.
 
-## Selected sourced accounts for Caretta {#s-a1339dd8c0}
+## Recorded classification and member material {#s-a1339dd8c0}
 The Caretta reading route contains 1 same-name, same-family records with trait-specific citations. Begin with Caretta caretta. Its links follow pinned COL26.8 names while ReptTraits retains the Reptile Database 2023 framework; this is a selected route, not a complete accepted-species list.
 
 ## Comparing the available size measures {#s-0bdf411eb7}

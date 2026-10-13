@@ -1,5 +1,5 @@
-## Find rows through older Carduelis/Serinus combinations {#s-a8e8c7972e}
-Pinned COL26.8 organizes this page at Spinus atriceps (4Z65K). BirdLife 2020 row 4151 and eBird 2021 row 9784 share the name and Avibase ID AVIBASE-AD3AEB2F, with type 1BL to 1eBird; BirdTree row 9725 gives Carduelis atriceps, with type 1BL to 1BT. Read catalogue synonym R6J3 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-a8e8c7972e}
+Catalogue of Life release COL26.8 records Spinus atriceps (Salvin, 1863) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-b7c0b97b74}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 9 mm, tarsus 13.4 mm, unflattened wing 67.2 mm, tail 42.9 mm and hand-wing index 32 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular seeds.

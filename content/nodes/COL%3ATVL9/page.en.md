@@ -1,29 +1,27 @@
-## Name and this data account {#s-a2f8efda36}
-Pinned COL26.8 accepts Chelonoidis denticulatus in Testudinidae. This account follows its ReptTraits v1-2 row, retaining the Reptile Database 2023 name framework and trait-specific sources. Because the dataset has one row per species, its categories describe that record rather than every population.
+## COL26.8 name and the ReptTraits row {#s-a2f8efda36}
+COL26.8 records Chelonoidis denticulatus as an accepted species. The ReptTraits v1-2 row gives its Family field as Testudinidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-80f70c277a}
-The recorded maximum straight carapace length (SCL) is 940 mm. SCL measures the shell in a straight line, excluding the head, neck and tail. This is a maximum in the reported material, not a theoretical limit or typical individual size. Sex-specific maxima, when available, may come from different localities or studies and cannot alone quantify sexual dimorphism across a population.
+## Length values in the archived records {#s-80f70c277a}
+The row reports a maximum straight carapace length (SCL) of 940 mm. ReptTraits attributes this field to Vinke 2008.
 
-## Where and how it is active {#s-69adc8a3f2}
-The row classifies the microhabitat as Terrestrial, diet as Omnivorous and activity as Cathemeral. These are broad categories, not a full habitat or food inventory or fixed schedule. They do not identify particular foods or show variation among populations, seasons or life stages.
+## Habitat use and activity labels {#s-69adc8a3f2}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Stark et al. 2018. The diet field classifies the entry as plant- and animal-eating (Omnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Vinke 2008. The active-time field classifies activity as active across day and night (Cathemeral); it is the dataset's timing category. ReptTraits attributes this field to Stark et al. 2018.
 
-## How to read reproductive records {#s-15964c1c05}
-The entry records an oviparous reproductive mode, a mean of 6.5 offspring or eggs per litter/clutch, low and high reported means of 6 and 16, 4 litters or clutches per year, and egg length of 60 mm. A clutch/litter summary may be the midpoint of reported means or, when means are unavailable, the midpoint of reported extremes; it is not necessarily an arithmetic average of observed clutches. The fractional mean is a dataset summary, not a count from one event. Low and high values are endpoints of reported means, not guaranteed individual-clutch limits. These fields do not establish fetal nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-15964c1c05}
+The compiled mean for offspring per litter or eggs per clutch is 6.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Vinke 2008. The lowest value among reported litter or clutch means is 6; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Vinke 2008. The highest value among reported litter or clutch means is 16; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Vinke 2008. The row reports 4 litters or clutches per year. ReptTraits attributes this field to Scharf et al. 2015. The recorded egg length is 60 mm. ReptTraits attributes this field to Vinke 2008. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The 2015 life-history entry and this name {#s-b649d76d33}
-Pinned COL26.8 accepts Chelonoidis denticulatus in Testudinidae. This page presents three focal fields from its same-name 2015 life-history entry alongside cited species-level rows with matching name and family. The matches support the association, but historical summaries may still inherit data across taxonomic concepts.
+## A 2015 life-history row for this name {#s-b649d76d33}
+COL26.8 records Chelonoidis denticulatus as an accepted species. The August 2015 life-history table has a species-name and family match (Testudinidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Reproduction and developmental timing {#s-b9c893b986}
-The available fields are offspring per litter or eggs per clutch (6.5) and time from oviposition to hatching (136.98 d). Here d means days. The litter/clutch field combines offspring or egg counts; the fraction is a summary, not a count from one event. The timing value refers to oviposition and hatching, not a general reproductive interval.
+## Reproductive events in the life-history table {#s-b9c893b986}
+Field-specific archive notes: offspring per litter or eggs per clutch: a source-level mean based on median inputs; oviposition to hatching: median of 4 recorded source-table values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 6.5; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; BC Reptiles - Wilson, 2003; BC Reptiles - Ferronato and Morales, 2012. The incubation field is 136.98 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Reptile Incubation book; BC Reptiles - Wilson, 2003.
 
-## A longest record differs from usual lifespan {#s-94cf59618f}
-The archive reports maximum_longevity_y as 70 years, the largest record in the collected material under its method. It is not typical lifespan, mean lifespan in the wild, a survival ceiling for every individual or a current record known to be repeatable.
+## Longest lifespan in the archive {#s-94cf59618f}
+The archive's longest-lifespan record is 70 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Carey, J.R. and D.S. Judge, 2002; BC Reptiles - Tacutu, R., T. Craig, A. Budovsky et al. 2013.
 
-## How to trace these values to sources {#s-6bfc4fe3da}
-Same-name source rows carry labels including Reptile Incubation book, BC Reptiles - Wilson (2003), BC Reptiles - Ferronato and Morales (2012), and de Magalhaes and Costa (2009). The archive retains field-specific row numbers, values and labels, with complete reference explanations in its final table. A label may refer to a paper, book or database; row counts are not numbers of measured individuals, and repeated citations are not independent replication.
+## The August 2015 life-history table {#s-6bfc4fe3da}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-65618c7e41}
-This is a limited trait account based on the same-name ReptTraits v1-2 row, retaining the Reptile Database 2023 framework and individual trait sources. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure later taxonomic concepts are equivalent. A reported maximum is not an absolute length limit, and a reproductive mean is not a fixed clutch count. Many dataset mass values are estimated from length equations and are not treated here as measured mass. Juvenile-length fields have differing headers and definitions and are not used in the conclusions. Conservation, venom, current distribution and population trends are not updated; missing values remain gaps. Citation labels preserve the source chain but do not imply independent review here of every original work.
-
-The historical component uses same-name records from the 2015 life-history archive. Values are compilation medians or averages of the two middle values, except maximum longevity, which uses the largest record found. They are not measurements of one individual, individual variation ranges, mean wild lifespan or current population surveys. The archive may share or inherit data among historical species and subspecies. Matching name and family, together with same-name source rows, supports the association but does not establish equivalence to COL26.8 concepts or remove all inherited data. Wild or captive conditions are not consistently confirmed, and underlying publications have not been reviewed individually. Diet, behavior, current range, conservation and missing fields require other sources.
+## Separate histories in the two archives {#s-65618c7e41}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

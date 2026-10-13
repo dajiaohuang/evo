@@ -1,5 +1,5 @@
-## Find rows through older Cettia combinations {#s-a4c6d5add1}
-Pinned COL26.8 organizes this page at Horornis parens (6MDDL). BirdLife 2020 row 7418 and eBird 2021 row 4908 share the name and Avibase ID AVIBASE-DFE28E09, with type 1BL to 1eBird; BirdTree row 4885 gives Cettia parens, with type 1BL to 1BT. Catalogue synonym T77Z, read in this batch, points to this accepted ID. Source family Scotocercidae and current COL Cettiidae remain separate; genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-a4c6d5add1}
+Catalogue of Life release COL26.8 records Horornis parens (Mayr, 1935) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-b9b24ea83e}
 Morphology comprises 2 birds: 2 female, 0 male and 0 unsexed; 2 complete sets. Nostril-to-tip beak length 9.2 mm, tarsus 22.6 mm, unflattened wing 51.5 mm, tail 43 mm and hand-wing index 8.9 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. No sexed male is present, so a female–male comparison is unsupported. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

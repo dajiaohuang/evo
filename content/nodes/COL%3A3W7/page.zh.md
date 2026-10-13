@@ -1,35 +1,36 @@
-## 从已有历史条目开始 {#s-39a51afb1b}
-Primates 的本地 PanTHERIA 路径包括 78 条可用数据导读，可从 Ateles paniscus、Cercocebus galeritus、Cercopithecus ascanius、Cercopithecus cephus、Cercopithecus erythrogaster 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## PanTHERIA 中跨类群的历史灵长类条目 {#s-39a51afb1b}
+PanTHERIA 路线关联 *Ateles paniscus*、*Cercocebus galeritus*、*Cercopithecus ascanius*、*C. cephus* 和 *C. erythrogaster* 等历史条目。各记录保留 MSW05 名称、变量条件与缺项。当前导航按 COL26.8 组织；这组档案筛选不是现代物种普查。
 
 ## 比较体型与生活史 {#s-df8b553dcf}
 本批可用的成年体重汇总值中，Microcebus rufus 为 48.39 g，Pan troglodytes 为 45000 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
 
-## 按生活史字段选择对读页面 {#s-f044e95e33}
-Primates 的本批路线包含 231 条历史生活史导读，可从 Aotus azarae、Aotus lemurinus、Aotus trivirgatus、Aotus vociferans、Alouatta caraya 开始。较多条目具有的字段包括 成年体重（231 条）、每窝幼体数或卵数（224 条）、汇编中最长寿命记录（224 条）、受孕或受精至出生的时间（200 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+## 生活史字段需要分别定义 {#s-f044e95e33}
+生活史路线关联 *Aotus azarae*、*A. lemurinus*、*A. trivirgatus*、*A. vociferans* 和 *Alouatta caraya* 等条目。成年体重、每窝幼体或卵数、最高寿命和受孕至出生间隔是不同字段。比较物种前应核对各自的事件、单位和来源。
 
-## 沿食物、取食位置和活动时段对读 {#s-4eeebc18db}
-Primates 的本批路线包含 267 个历史条目，可从 Allocebus trichotis、Cheirogaleus crossleyi、Cheirogaleus major、Cheirogaleus medius、Cheirogaleus minusculus 开始。其中 230 条可读食物类别权重，267 条可读取食层位，265 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+## EltonTraits 将描述转换为类别 {#s-4eeebc18db}
+EltonTraits 路线包括 *Allocebus trichotis*、*Cheirogaleus crossleyi*、*C. major*、*C. medius* 和 *C. minusculus* 等条目。食物权重对文字描述作标准化；取食层位和活动时段使用不同类别或代码。这些字段概括文献资料，不是所有灵长类共有的生态。
 
-## 证据边界 {#s-1621d0a617}
-本导读只概括本批具有至少三个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+## 历史路线不能定义整个灵长目 {#s-1621d0a617}
+PanTHERIA、2015 年生活史档案和 EltonTraits 各自采用不同的历史名称关联、筛选规则和变量转换。它们不能证明当前物种概念等同，也不能构成整个灵长目的完整描述。中位数和最高寿命纪录是汇总，不是个体范围或典型值；缺值不表示性状不存在。 EltonTraits 属半定量资料，部分哺乳类 ABC 字段可能借用同属信息。2015 年羊膜动物档案中，除最高寿命外的数值为中位数或插补中位数；最高寿命是所收录的最长记录，不是平均值。
 
-## 从已有历史条目开始 {#s-c3b2d3961d}
-Primates 的本地 PanTHERIA 路径包括 9 条可用数据导读，可从 [Ateles chamek](Haplorrhini/Simiiformes/Atelidae/Atelinae/Ateles/Ateles_chamek/page.zh.md)、[Cercopithecus sclateri](Haplorrhini/Simiiformes/Cercopithecoidea/Cercopithecidae/Cercopithecinae/Cercopithecini/Cercopithecus/Cercopithecus_sclateri/page.zh.md)、[Euoticus pallidus](Strepsirrhini/Lorisiformes/Galagidae/Euoticus/Euoticus_pallidus/page.zh.md)、[Galago gallarum](Strepsirrhini/Lorisiformes/Galagidae/Galago/Galago_gallarum/page.zh.md)、[Pithecia aequatorialis](Haplorrhini/Simiiformes/Pitheciidae/Pitheciinae/Pithecia/Pithecia_aequatorialis/page.zh.md) 开始。各页保留原始 MSW05 名称、不同变量的材料条件与记录缺失；分类导航沿用固定 COL26.8，不能把历史表格行数当作当前接受种分母。
+## PanTHERIA 的另一条路线 {#s-c3b2d3961d}
+PanTHERIA 的另一组筛选关联 *Ateles chamek*、*Cercopithecus sclateri*、*Euoticus pallidus*、*Galago gallarum* 和 *Pithecia aequatorialis* 等历史记录。 MSW05 名称、字段条件和缺值随档案保留。这条路线有独立筛选，并非现今物种的完整名录。
 
 ## 比较体型与生活史 {#s-356eb4a601}
 本批可用的成年体重汇总值中，Arctocebus aureus 为 234.16 g，Ateles chamek 为 7053.92 g。这些是经性别调整的历史中位数端点。可以继续比较各页的胚胎发育、断乳、活动与群体字段，但应先看字段定义；体型差异本身不说明所有后代共有的生活方式。
 
-## 这组历史数据的边界 {#s-6b81c7d185}
-本导读只概括本批具有至少一个焦点字段、同名同科且历史一对一对应的资料条目，不代表全部接受后代。比较端点是不同历史条目的汇总值，不是类群的个体极值。不同字段可含不同资料条件；参考物种页与 PanTHERIA 的原始变量定义。当前物种概念、分布与保护状况没有由这些历史数值确定。
+## 稀疏记录仍是有限样本 {#s-6b81c7d185}
+这组 PanTHERIA 筛选保留自身的历史名称与科级关联规则，并包含焦点资料有限的条目。成年体重值来自不同记录的汇总，不是灵长目的个体极值。这组资料不能确定现代物种概念、分布或保护状况。
 
-## 沿生活史资料阅读 {#s-6c25d77f57}
-Primates 本批有 47 个历史生活史资料页，可从 [Callimico goeldii](Haplorrhini/Simiiformes/Callitrichidae/Callimico/Callimico_goeldii/page.zh.md)、[Callithrix flaviceps](Haplorrhini/Simiiformes/Callitrichidae/Callithrix/Callithrix_flaviceps/page.zh.md)、[Callithrix jacchus](Haplorrhini/Simiiformes/Callitrichidae/Callithrix/Callithrix_jacchus/page.zh.md)、[Leontopithecus rosalia](Haplorrhini/Simiiformes/Callitrichidae/Leontopithecus/Leontopithecus_rosalia/page.zh.md)、[Cebus capucinus](Haplorrhini/Simiiformes/Cebidae/Cebinae/Cebus/Cebus_capucinus/page.zh.md) 开始。入口按固定 COL26.8 分类组织；资料行数只计算本批已写的同名条目，不是这个类群的完整接受种分母。
+## 按物种阅读生活史资料 {#s-6c25d77f57}
+生活史路线包括 *Callimico goeldii*、*Callithrix flaviceps*、*C. jacchus*、*Leontopithecus rosalia* 和 *Cebus capucinus* 等物种页。各条目保留历史名称和来源字段。路线按 COL26.8 导航组织，但不涵盖所有现今接受的灵长类。
 
-## 先区分平均值与纪录 {#s-402125fc09}
-本批妊娠资料见 34 页，雌性首次繁殖年龄见 28 页，最高寿命记录见 19 页。首次繁殖不是首次生产或性成熟；最高寿命不是平均寿命。不同性状可来自不同资料条件，缺字段的物种仍需其他来源；同名关联没有解决历史分类概念变化。
+## 首次繁殖与最高寿命不同 {#s-402125fc09}
+生活史档案区分妊娠期、雌性首次繁殖年龄和最高寿命。首次繁殖不同于首次生产或性成熟；最高寿命是搜集到的最长纪录，不是平均值。来源条件可能不同，缺失字段需要其他证据。
 
-## 这组历史数据的边界 {#s-a53085572e}
-这个入口概括本批已写的历史生活史记录，不代表全部接受后代或完整类群生物学。物种页按同名同科及 MSW93／MSW05 同名一对一表关联，当前物种概念等同尚未证明。除最高寿命外，相关字段一般为等权文献平均，输入可含已有平均值、个体值或资料不足时的范围中点；未按样本量加权，底层文献可能重复。最高寿命仅为最长记录，不是一般寿命。成年体重不在本批解读，缺值不从近缘种补写。各页保留原始来源编号；本批未逐条读取底层物种文献，也未确定所有野外、圈养与地点条件。
+## 历史生活史值的汇总方式 {#s-a53085572e}
+物种条目使用 MSW93／MSW05 名称对照表关联，不能证明与当前概念等同。除最高寿命外，数值通常对文献来源等权汇总；输入可能是已发表平均值、个体值或范围中点，研究也可能重复。这条路线不解读成年体重，也不从近缘种补缺；各来源的野外、圈养和地点条件未逐项确定。
+
+## 冠群灵长类分子钟估计受校准影响 {#clock-estimate}
+一项覆盖 372 个物种的松弛分子钟分析，在所选自相关模型与校准策略 A 下估计冠群灵长类为 7920 万—7000 万年前；另一校准策略得到更年轻的区间。这些是受模型影响的后验估计，不是化石出现记录或冠群起源的精确观测。
 

@@ -1,14 +1,14 @@
-## The 2015 life-history entry and this name {#s-48d5b1289c}
-*Pteroglossus sanguineus* is accepted in pinned COL26.8 within Ramphastidae. The 2015 archive has a same-name, same-family entry; three focal fields used here are supported by cited species-level rows. This historical match does not remove possible taxonomic inheritance.
+## Scope of the historical life-history entry {#s-48d5b1289c}
+The August 2015 database has a same-name, same-family record for Pteroglossus sanguineus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, age at flight capability (some records mark nest departure); values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-7892b0a7ec}
-The archive summarizes adult body mass as 226.5 g. The value may combine male, female and sex-unspecified records; it is a compiled summary, not a range of individual masses.
+## Compiled adult-mass values {#s-7892b0a7ec}
+The August 2015 compilation reports adult body mass 226.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-ed60cda7d0}
-Reported reproductive fields are 3 offspring or eggs per litter or clutch and 44 days to flight capability. Some source material defines the latter as leaving the nest. These fields refer to different measures and do not describe a full reproductive cycle.
+## Reproductive fields describe different events {#s-ed60cda7d0}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 3; age at flight capability (some records mark nest departure) 44 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-65199754b7}
-Same-name source labels include Dunning (1992), Boback and Guyer (2003), Pereira, Daily and Roughgarden (2004), Boyer, Cartron and Brown (2009), and Bennett (1986), among others. The batch archive preserves field-specific row locators, values and full reference explanations; row counts are not measured animals.
+## Sources and field limits {#s-65199754b7}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
 ## Life-history evidence limits {#s-7771b14572}
 These are summaries from the 2015 historical life-history archive, not a current field survey. Values are compilation medians or averages of the two middle values, not independent measurements of one individual; the archive may inherit data across historical species and subspecies. Matching name, family and cited rows support the association but do not establish equivalence to the present COL26.8 concept or remove inherited components. Wild or captive status is not consistently known, and underlying publications have not been individually reviewed. Ecology, current range, population and conservation require other sources.

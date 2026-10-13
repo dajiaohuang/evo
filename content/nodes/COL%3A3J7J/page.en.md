@@ -4,13 +4,15 @@ The 2019 study adds Dromaius novaehollandiae and Casuarius casuarius genomes, as
 ## Read by material, tree model and experimental level {#s-45f01998d8}
 Study species directly represented at this entry are [Casuarius casuarius](Casuarius_casuarius/page.en.md). First distinguish added, reused and reference-mapped genomes, then compare species trees with gene trees. For a cross-lineage functional comparison, turn to the chicken reporter assays on [Rhea americana](../../../Rheiformes/Rheidae/Rhea/Rhea_americana/page.en.md) and [Eudromia elegans](../../../Tinamiformes/Tinamidae/Eudromia/Eudromia_elegans/page.en.md); one candidate region cannot validate every accelerated element. Return to existing morphology, life history or fossil occurrences with their own units and samples. This route is neither exhaustive group sampling nor a complete descendant catalogue.
 
-## Local data reading route {#s-a1a26459b4}
+## Recorded classification and direct parent {#s-a1a26459b4}
+COL26.8 records Casuarius at genus rank, with Casuariidae as its direct parent.
+
 This batch’s Casuarius route includes 3 measured species records. Start with Casuarius bennetti, Casuarius casuarius, Casuarius unappendiculatus. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-17bac14b78}
 Compiled mean mass endpoints in this batch are Casuarius bennetti at 34999.99 g and Casuarius unappendiculatus at 46073.85 g. Represented habitat categories include Forest; trophic niches include Frugivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-75ab35ccc7}
+## Amniote Life-history archive member records {#s-75ab35ccc7}
 This batch’s Casuarius route includes 3 historical life-history accounts; start with Casuarius bennetti, Casuarius casuarius, Casuarius unappendiculatus. More frequently represented fields include adult body mass (3 entries), offspring per litter or eggs per clutch (3 entries), longest lifespan record in the compilation (3 entries), female maturity field (defined by the source as age at first conception) (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-c90f6096e4}

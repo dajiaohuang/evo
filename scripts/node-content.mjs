@@ -650,6 +650,39 @@ function resolvePageReferences(value, pages, label) {
   return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, resolvePageReferences(child, pages, label)]))
 }
 
+function deriveReadingTitles(records, rawRecords, pages) {
+  const sections = records['catalogue-profile']?.sections
+  const facets = records['catalogue-dossier']?.facets
+  if (!Array.isArray(sections) && !isObject(facets)) return
+  const rawSections = rawRecords['catalogue-profile']?.sections ?? []
+  const headings = Object.fromEntries(LOCALES.map(locale => [locale, new Map(pages[locale].map(section => [section.key, section.title]))]))
+  const derive = (record, pointers, label) => {
+    const explicitTitle = record.title
+    if (explicitTitle !== undefined && !isObject(explicitTitle)) return
+    const titles = isObject(explicitTitle) ? { ...explicitTitle } : {}
+    for (const locale of LOCALES) {
+      if (Object.hasOwn(titles, locale)) continue
+      const bodyPointer = pointers?.[locale]
+      if (!pageRefCandidate(bodyPointer)) continue
+      const reference = validatePageRefObject(bodyPointer, `${label} ${locale} body`)
+      if (reference.part !== 'body') continue
+      titles[locale] = headings[reference.page].get(reference.section)
+    }
+    if (Object.keys(titles).length) record.title = titles
+  }
+  for (const [index, section] of (Array.isArray(sections) ? sections : []).entries()) {
+    if (isObject(section) && isObject(section.text)) derive(section, rawSections[index]?.text, 'catalogue-profile section')
+  }
+  for (const [topic, facet] of Object.entries(facets ?? {})) {
+    if (!isObject(facet) || !Array.isArray(facet.claims)) continue
+    const rawClaims = rawRecords['catalogue-dossier']?.facets?.[topic]?.claims ?? []
+    for (const [index, claim] of facet.claims.entries()) {
+      if (!isObject(claim)) continue
+      derive(claim, { en: rawClaims[index]?.text, zh: rawClaims[index]?.textZh }, `catalogue-dossier ${topic} claim`)
+    }
+  }
+}
+
 /** Read one new-format node and restore runtime business records. */
 export function readNodeContent(directoryKey, root = process.cwd()) {
   const stored = loadStoredNode(directoryKey, root)
@@ -657,6 +690,9 @@ export function readNodeContent(directoryKey, root = process.cwd()) {
   const references = readReferenceDocument(root)
   const refs = validateNodeReferenceBindings({ records, relationships: stored.node.relationships }, references)
   const resolved = resolvePageReferences(records, stored.pages, directoryKey)
+  // Derive presentation fields on the resolved copy, avoiding another full
+  // clone of potentially large evidence records while leaving stored data intact.
+  deriveReadingTitles(resolved, records, stored.pages)
   const hydrated = hydrateRecordSources(resolved, refs)
   return {
     identity: structuredClone(stored.node.identity),

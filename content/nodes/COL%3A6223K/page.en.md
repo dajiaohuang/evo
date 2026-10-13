@@ -1,10 +1,10 @@
-## Local data reading route {#s-19acd43130}
+## Recorded classification and member material {#s-19acd43130}
 This batch’s Gruiformes route includes 63 measured species records. Start with Aramus guarauna, Balearica pavonina, Balearica regulorum, Grus americana, Grus grus. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-12c454c82f}
 Compiled mean mass endpoints in this batch are Laterallus exilis at 33.53 g and Grus japonensis at 8785.99 g. Represented habitat categories include Wetland, Forest, Woodland, Grassland; trophic niches include Aquatic predator, Omnivore, Frugivore, Herbivore aquatic, Invertivore. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-341377c8d8}
+## Amniote Life-history archive member records {#s-341377c8d8}
 This batch’s Gruiformes route includes 43 historical life-history accounts; start with Balearica pavonina, Balearica regulorum, Grus americana, Grus carunculata, Grus grus. More frequently represented fields include adult body mass (43 entries), offspring per litter or eggs per clutch (43 entries), oviposition to hatching (40 entries), longest lifespan record in the compilation (27 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-042da734af}
@@ -19,12 +19,12 @@ This route covers this batch’s historical same-name, same-family entries with 
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Start with the limited ecology records {#s-f224bfdd1d}
-This batch offers 11 limited ecology accounts under Gruiformes. Start with [Heliopais personatus](Heliornithidae/Heliopais/Heliopais_personatus/page.en.md), [Amaurornis isabellina](Rallidae/Amaurornis/Amaurornis_isabellina/page.en.md), [Aramidopsis plateni](Rallidae/Aramidopsis/Aramidopsis_plateni/page.en.md), [Coturnicops exquisitus](Rallidae/Coturnicops/Coturnicops_exquisitus/page.en.md), [Gymnocrex rosenbergii](Rallidae/Gymnocrex/Gymnocrex_rosenbergii/page.en.md). Records follow pinned COL26.8 navigation; the count covers this batch’s authored entries rather than all accepted species.
+## Recorded classification and member material {#s-f224bfdd1d}
+This batch offers 11 limited ecology accounts under Gruiformes. Start with Heliopais personatus, Amaurornis isabellina, Aramidopsis plateni, Coturnicops exquisitus, Gymnocrex rosenbergii. Records follow pinned COL26.8 navigation; the count covers this batch’s authored entries rather than all accepted species.
 
 ## What is readable and what remains uninterpreted {#s-eb38b57640}
 Recorded category counts are 10 for habitat, 11 for feeding niche, 11 for primary lifestyle, and 11 for migration. Read the original definitions and distinguish categories, historical maps and individual observations. Shared labels do not establish a lifestyle for every descendant. Beak, wing, tarsus, tail and mass fields remain uninterpreted in this batch and do not establish a group size comparison.
 
-## Limits of these historical data {#s-17cca592ec}
+## AVONET material route {#s-17cca592ec}
 This entry covers this batch’s limited historical ecology records, not every accepted descendant. COL26.8 navigation, same-name same-family association and two one-to-one same-name crosswalks do not remove later concept differences. Coarse categories are not independent behavioural observations, and historical maps are not current occupancy or conservation assessments. Original morphological inference and mass sources are retained without being interpreted as direct measurements of the species.
 

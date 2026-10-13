@@ -1,26 +1,26 @@
-## The name and this data account {#s-81c853f453}
-Lanius souzae is accepted in COL26.8 within Laniidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 11 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-81c853f453}
+The AVONET v7 row for Lanius souzae (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.8 mm. The row records 11 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-5ccfe19b08}
-Recorded mean beak measurements are 9.8 mm from the anterior nostril edge to the tip, 6.1 mm in width and 7.4 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-5ccfe19b08}
+AVONET records culmen length (bill tip to skull base) 17.3 mm; beak length (nostril front edge to tip) 9.8 mm; beak width at the nostril front edge 6.1 mm; beak depth at the nostril front edge 7.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-686be484e2}
-Mean unflattened wing length from the carpal joint to the longest primary is 81.9 mm; mean tarsus length is 22.5 mm. Compiled mean mass is 26.3 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-686be484e2}
+AVONET records unflattened wing length 81.9 mm; tarsus length 22.5 mm; distance from first secondary tip to longest primary tip 18 mm; length to first secondary tip 63.7 mm; hand-wing index 22; tail length 82.1 mm; species-average body mass 26.3 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-21bcbb71c0}
-The dataset assigns habitat Woodland, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-21bcbb71c0}
+AVONET classifies Lanius souzae as habitat Woodland (medium-height tree-dominated vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-2d44d39dd8}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -19° to -0.88°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-2d44d39dd8}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -19° to -0.88°. The mapped range area is 1679903.36 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## What one ecological field can tell us {#s-ddf1e9603b}
-Lanius souzae is accepted in pinned COL26.8 within Laniidae. This page compares the same-name, same-family EltonTraits 1.0 record through one ecological field group with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-ddf1e9603b}
+EltonTraits 1.0 has a same-name, same-family record for Lanius souzae covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Foraging strata differ from whole-day activity {#s-cf9a3eab4c}
-Foraging-stratum weights flagged as species-level in the archive are ground 50%; understory, edges or shrubs below 2 m 50%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-cf9a3eab4c}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 50%; in the understory 50%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-a53acf901c}
-The used groups carry labels Ref_34. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-a53acf901c}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Harris, T. 2000. Shrikes & Bush-shrikes: Including wood-shrikes, helmet-shrikes, flycatcher-shrikes, philentomas, batises and wattle-eyes. A&C Black.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-8105e80922}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

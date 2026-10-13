@@ -1,18 +1,44 @@
-## Which fossil records this name represents {#s-fb508af8a1}
-Montanoceratops cerorhynchus is accepted in the fixed PBDB dinosaur working roster, with database parent Montanoceratops. This guide uses 3 eligible species-level occurrence records from 3 collections and 3 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-fb508af8a1}
+Montanoceratops cerorhynchus is listed in the PBDB snapshot under taxon txn:52829. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 3 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-d7522b9324}
-Collection 3.5 miles below Tolman Ferry (175 ft level) (Alberta), region code CA, stratum name Horseshoe Canyon; database age bracket 83.6–66 Ma, early interval Late Campanian and late interval Early Maastrichtian. Collection 3 miles west of Buffalo Lake (Montana), region code US, stratum name St. Mary River; database age bracket 72.2–66 Ma, early interval Early Maastrichtian. Collection Little Rocky Coulee (MOR SM-033) (Montana), region code US, stratum name St. Mary River; database age bracket 72.2–66 Ma, early interval Early Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-d7522b9324}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-261a93a066}
-Selected occurrences have an outer age envelope of 83.6–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:513436; PBDB collection col:51965. Locality cnm=3.5 miles below Tolman Ferry (175 ft level); place fields cc2=CA, stp=Alberta. Recorded age bounds: eag 83.6 Ma; lag 66 Ma; PBDB interval fields oei=Late Campanian, oli=Early Maastrichtian. Stratigraphic fields sfm=Horseshoe Canyon. Recorded attribution Makovicky 2001; PBDB reference ref:13878.
 
-## Read preservation setting separately from living habitat {#s-34f7ce5f69}
-3.5 miles below Tolman Ferry (175 ft level) has collection-environment label terrestrial indet.; collection preservation-mode label body. 3 miles west of Buffalo Lake has collection-environment label terrestrial indet.; collection preservation-mode label body. Little Rocky Coulee (MOR SM-033) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+3.5 mi below Tolman Ferry, Red Deer River, 53.4 m above river level, E bank
 
-## Follow collection records back to references {#s-2affba24a1}
-3.5 miles below Tolman Ferry (175 ft level) carries database reference attribution Makovicky (2001), identifier ref:13878. 3 miles west of Buffalo Lake carries database reference attribution Brown and Schlaikjer (1942), identifier ref:14769. Little Rocky Coulee (MOR SM-033) carries database reference attribution Chinnery and Weishampel (1998), identifier ref:14768. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:534238; PBDB collection col:55266. Locality cnm=3 miles west of Buffalo Lake; place fields cc2=US, stp=Montana, cny=Glacier. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Early Maastrichtian. Stratigraphic fields sfm=St. Mary River. Recorded attribution Brown and Schlaikjer 1942; PBDB reference ref:14769.
 
-## Evidence limits {#s-0916413477}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field scm (source-language text; not translated or interpreted):
+lower part of St. Mary River Fm.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+3 mi W of Buffalo Lake, MT, 45 mi W of Sweet Grass, on Blackfeet Indian Reservation
+
+- Occurrence occ:534253; PBDB collection col:55267. Locality cnm=Little Rocky Coulee (MOR SM-033); place fields cc2=US, stp=Montana, cny=Glacier. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Early Maastrichtian. Stratigraphic fields sfm=St. Mary River. Recorded attribution Chinnery and Weishampel 1998; PBDB reference ref:14768.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+on property of the Hutterite Big Sky colony, Little Rocky Coulee, a few meters from the presumed type site
+
+## Age bounds on the recorded occurrences {#s-261a93a066}
+Across these selected PBDB rows, the largest recorded eag=83.6 Ma in occ:513436; the smallest recorded lag=66 Ma in occ:513436. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-34f7ce5f69}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:513436: PBDB taxon-name field tna=Montanoceratops cerorhynchus; material note ocm=AMNH 5244, braincase; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-113.005402, lat=51.790298; paleocoordinate/model fields pm1=gplates, pln=-66.76, pla=62.77.
+- occ:534238: PBDB original-identification field idn=Leptoceratops cerorhynchus n. sp.; PBDB taxon-name field tna=Montanoceratops cerorhynchus; material note ocm="a dwarf type of horned dinosaur"; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-112.735832, lat=48.858055; paleocoordinate/model fields pm1=gplates, pln=-70.92, pla=61.27.
+- occ:534253: PBDB taxon-name field tna=Montanoceratops cerorhynchus; material note ocm=MOR 542; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-112.432220, lat=48.699165; paleocoordinate/model fields pm1=gplates, pln=-70.7, pla=61.04.
+
+## References attached to each record {#s-2affba24a1}
+The archived guide links the rows to 3 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:513436: Recorded attribution Makovicky 2001; PBDB reference ref:13878.
+- occ:534238: Recorded attribution Brown and Schlaikjer 1942; PBDB reference ref:14769.
+- occ:534253: Recorded attribution Chinnery and Weishampel 1998; PBDB reference ref:14768.
+
+## What these records can show {#s-0916413477}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

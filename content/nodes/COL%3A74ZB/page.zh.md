@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-872db7e526}
+## 记录分类与直接上级关系 {#s-872db7e526}
+COL26.8 将 Ptilinopus 记录为属；其直接上级记录为 Raphinae。
+
 Ptilinopus 的本批阅读路径包含 22 条有测量来源的物种记录，可从 Ptilinopus aurantiifrons、Ptilinopus coralensis、Ptilinopus coronulatus、Ptilinopus dupetithouarsii、Ptilinopus eugeniae 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-40f85688b6}
@@ -15,12 +17,12 @@ Ptilinopus 的本批路线包含 13 个历史条目，可从 Ptilinopus cinctus�
 
 ## 证据边界 {#s-4747991b7b}
 本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
-本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
-本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
-本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
+本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。
 
-## 从有限生态资料开始 {#s-b759cffded}
-Ptilinopus 本批有 7 个有限生态资料页，可从 [Ptilinopus arcanus](Ptilinopus_arcanus/page.zh.md)、[Ptilinopus chalcurus](Ptilinopus_chalcurus/page.zh.md)、[Ptilinopus dohertyi](Ptilinopus_dohertyi/page.zh.md)、[Ptilinopus granulifrons](Ptilinopus_granulifrons/page.zh.md)、[Ptilinopus hyogastrus](Ptilinopus_hyogastrus/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+## 记录分类与成员材料 {#s-b759cffded}
+Ptilinopus 本批有 7 个有限生态资料页，可从 Ptilinopus arcanus、Ptilinopus chalcurus、Ptilinopus dohertyi、Ptilinopus granulifrons、Ptilinopus hyogastrus 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
 
 ## 哪些内容可读，哪些仍未解读 {#s-8afb140e98}
 栖地类别见 7 页，取食生态位见 7 页，主导活动方式见 7 页，迁移类别见 7 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。

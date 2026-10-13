@@ -26,23 +26,54 @@ The original diagnosis calls the animal medium to large, using roughly 3–8 m t
 The 2018 authors support a non-tapejarid azhdarchoid attribution while leaving finer relationships unresolved. They already discuss the possibility that the Alanqa type is a rostrum and that the two names represent upper and lower jaws of one or closely related species. The 2020 study retains possible synonymy and requires more complete material to confirm or reject it. Similar morphology and occurrence in the same deposits establish neither one individual nor one species; fixed PBDB names and parent chains are retained without merging records.
 
 ## Compare jaws without turning depositional setting into diet {#s-1a00f2a62b}
-Compare the straight margins and type reinterpretation of [Alanqa saharica](../../../Azhdarchidae/Alanqa/Alanqa_saharica/page.en.md) with the upcurve and ventral groove of Xericeps. The 2018 paper relates continental deposition and differing jaws to possible terrestrial feeding, while explicitly stating that fragmentary jaws cannot readily establish diet and that ecological roles need more complete remains. Read collection names and broad ages separately in the retained database records; the modern desert and name etymology do not establish the ancient habitat.
+Compare the straight margins and type reinterpretation of Alanqa saharica with the upcurve and ventral groove of Xericeps. The 2018 paper relates continental deposition and differing jaws to possible terrestrial feeding, while explicitly stating that fragmentary jaws cannot readily establish diet and that ecological roles need more complete remains. Read collection names and broad ages separately in the retained database records; the modern desert and name etymology do not establish the ancient habitat.
 
 ## Which fossil records this name represents {#s-d0bd059865}
 The Paleobiology Database (PBDB) accepts Xericeps curvirostris under the recorded parent Xericeps. The selected database entry contains one eligible species-level occurrence from Aferdou N'Chaft and links one reference identifier. This record supplements the jaw material discussed above; it does not count every fossil referred in the literature.
 
+PBDB occurrence record excerpt:
+Xericeps curvirostris is listed in the PBDB snapshot under taxon txn:363920. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## Begin with named collections and strata {#s-ef882ffbab}
 Aferdou N'Chaft is recorded in Drâa-Tafilalet, Morocco (region code MA). PBDB assigns the collection an age bracket of 100.5–93.9 Ma, with Early Cenomanian as the early interval. This is one database locality; it does not define the full species distribution.
+
+PBDB occurrence record excerpt:
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:1385606; PBDB collection col:96223. Locality cnm=Aferdou N'Chaft; place fields cc2=MA, stp=Drâa-Tafilalet, cny=Errachidia. Recorded age bounds: eag 100.5 Ma; lag 93.9 Ma; PBDB interval fields oei=Early Cenomanian. Recorded attribution Martill et al. 2018; PBDB reference ref:64004.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Fossils were collected from an "approximately 2m thick horizon"; age of the Kem Kem is poorly constrained, but a Cenomanian age is supported by vertebrate biostratigraphy
+See revised palaeontology and geology of the Kem Kem beds in Ibrahim et al. 2020
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+near the village of Begaa and 10 km north-east of Taouz; longitude coordinates are given in the text as east, but this appears to be an error
 
 ## Age bounds of these records {#s-4da0842b5e}
 The selected occurrence has a database age bracket of 100.5–93.9 Ma (Ma means millions of years ago). This broad interval is not a direct date for the jaw or a measurement of the species’ origin, extinction or lifespan. It remains distinct from the published ?Albian–Cenomanian horizon interpretations for the holotype.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=100.5 Ma in occ:1385606; the smallest recorded lag=93.9 Ma in occ:1385606. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## Read preservation setting separately from living habitat {#s-39efa70018}
 PBDB labels the Aferdou N'Chaft collection environment “fluvial indet.” and preservation mode “body.” These collection-level labels do not determine Xericeps’ habitat or diet and do not describe the condition of every fossil.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1385606: PBDB original-identification field idn=Xericeps curvirostris n. gen. n. sp.; PBDB taxon-name field tna=Xericeps curvirostris; material note ocm=FSAC-KK 10700 (holotype), dentary; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=-3.870278, lat=30.897499; paleocoordinate/model fields pm1=gplates, pln=7.54, pla=25.24.
 
 ## Follow collection records back to references {#s-adf8718314}
 The database collection record cites Martill et al. (2018), ref:64004. The accompanying reading also uses selected passages from the original description and later discussions published in 2020 and 2023. The original description appeared online in 2017 and in a 2018 volume; the page preserves that publication history while keeping the later jaw and horizon interpretations distinct.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1385606: Recorded attribution Martill et al. 2018; PBDB reference ref:64004.
+
 ## Evidence limits {#s-4309cd1965}
 The page compares selected passages rather than presenting a full review of every specimen, image, supplement, matrix or later study. Sources differ over upper-versus-lower-jaw identity, an earlier analysis and the type horizon; those disagreements remain open here. No new specimen identification, measurement or classification is proposed, and the PBDB record retains its own count, age and parent chain.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

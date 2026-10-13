@@ -1,5 +1,5 @@
-## The accepted name and its historical links {#s-0ab5329889}
-Pinned COL26.8 organizes this page at Hydrobates hornbyi (DD8SN). BirdLife 2020 row 10059 and eBird 2021 row 4917 share the name and Avibase ID AVIBASE-5F5C5FD3, with type 1BL to 1eBird; BirdTree row 4894 gives Oceanodroma hornbyi, with type 1BL to 1BT. Read catalogue synonym 48C46 points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-0ab5329889}
+Catalogue of Life release COL26.8 records Hydrobates hornbyi (G. R. Gray, 1854) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Four sampled birds and their complete measurement sets {#s-7985bb5a89}
 Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 10.6 mm, tarsus 25 mm, unflattened wing 163.2 mm, tail 81.5 mm and hand-wing index 58.3 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

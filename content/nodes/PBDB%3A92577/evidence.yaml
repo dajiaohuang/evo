@@ -118,7 +118,10 @@ records:
     - subjectId: taxon:altiatlasius
       claimKind: scientific
       claimType: fossil-range
-      statement: Altiatlasius is directly represented by a small isolated-tooth hypodigm including holotype THR 141 from Adrar Mgorn 1 within a broad approximately 59.2–56 Ma Thanetian envelope; tooth loci and crown-primate placement remain disputed.
+      statement:
+        page: en
+        section: tooth-hypodigm
+        part: body
       confidence: low
       confidenceRationale: The specimens and locality are documented, but dental association, tooth position and higher placement remain uncertain; the range is not a direct date or global FAD.
       referenceLinks:
@@ -130,7 +133,9 @@ records:
   claim-rationales.zh:
     - 标本与地点有记录，但牙齿组合、牙位及高阶位置仍不确定；该范围不是直接测年或全球首现。
   claim-statements.zh:
-    - Altiatlasius 的直接证据是一小套孤立牙齿组合，其中包括 Adrar Mgorn 1 的正模 THR 141，处于约 5920 万—5600 万年前的宽泛赞尼特期区间；牙位与冠群灵长类位置仍有争议。
+    - page: zh
+      section: tooth-hypodigm
+      part: body
   ranges:
     - entityId: altiatlasius
       rangeKind: global-composite

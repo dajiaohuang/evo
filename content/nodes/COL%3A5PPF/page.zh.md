@@ -1,4 +1,6 @@
-## 有来源支持的物种记录 {#s-22b1366e46}
+## 记录分类与直接上级关系 {#s-22b1366e46}
+COL26.8 将 Mesoclemmys 记录为属；其直接上级记录为 Chelidae。
+
 目录列出 5 条Mesoclemmys物种资料，均为同名同科且逐性状有出处；可从 Mesoclemmys dahli、Mesoclemmys gibba、Mesoclemmys nasuta、Mesoclemmys perplexa、Mesoclemmys vanderhaegei 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
 
 ## 比较前先确认测量方式 {#s-afea0b2ffa}
@@ -15,7 +17,7 @@
 这条 ReptTraits 阅读路径中有 2 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
 ## 有来源支持的物种记录 {#s-b7bf767253}
-目录列出 4 条Mesoclemmys物种资料，均为同名同科且逐性状有出处；可从 [Mesoclemmys raniceps](Mesoclemmys_raniceps/page.zh.md)、[Mesoclemmys tuberculata](Mesoclemmys_tuberculata/page.zh.md)、[Mesoclemmys wermuthi](Mesoclemmys_wermuthi/page.zh.md)、[Mesoclemmys zuliae](Mesoclemmys_zuliae/page.zh.md) 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
+目录列出 4 条Mesoclemmys物种资料，均为同名同科且逐性状有出处；可从 Mesoclemmys raniceps、Mesoclemmys tuberculata、Mesoclemmys wermuthi、Mesoclemmys zuliae 开始。分类导航使用固定版 COL26.8，ReptTraits v1-2 工作簿沿用 2023 年名称框架。这些链接不是该类群全部接受种的名录。
 
 ## 可比较的性状字段 {#s-5f227ac3a0}
 这组资料后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

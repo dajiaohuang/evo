@@ -1,18 +1,42 @@
-## Which fossil records this name represents {#s-c2689ee290}
-Saurolophus angustirostris is accepted in the fixed PBDB dinosaur working roster, with database parent Saurolophus. This guide uses 12 eligible species-level occurrence records from 12 collections and 7 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-c2689ee290}
+Saurolophus angustirostris is listed in the PBDB snapshot under taxon txn:64295. This archived guide contains 12 selected occurrence rows, linked to 12 distinct PBDB collection IDs and 7 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-6f1a4be76b}
-Collection Altan Ula IV, general [PMPE] (Omnogov), region code MN, stratum name Nemegt; database age bracket 72.2–66 Ma, early interval Maastrichtian. Collection foot of Nemegtu Mountain [SMPE] (PIN coll. 551) (Omnogov), region code MN, stratum name Nemegt; database age bracket 72.2–66 Ma, early interval Maastrichtian. Collection Gurilin Tsav [HMNS-GIN] (Omnogov), region code MN, stratum name Nemegt; database age bracket 72.2–66 Ma, early interval Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-6f1a4be76b}
+The archived guide contains 12 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Age bounds of these records {#s-f701aa9d60}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:387401; PBDB collection col:37020. Locality cnm=Altan Ula IV, general [PMPE]; place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Maastrichtian. Stratigraphic fields sfm=Nemegt. Recorded attribution Kielan-Jaworowska and Barsbold 1972; PBDB reference ref:9899.
 
-## Read preservation setting separately from living habitat {#s-5667a60521}
-Altan Ula IV, general [PMPE] has collection-environment label terrestrial indet.; collection preservation-mode label body. foot of Nemegtu Mountain [SMPE] (PIN coll. 551) has collection-environment label terrestrial indet.; collection preservation-mode label body. Gurilin Tsav [HMNS-GIN] has collection-environment label fluvial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Altan Ula IV - no specifics given, 50 km W of Nemegt, Omnogov
 
-## Follow collection records back to references {#s-5b6292d2be}
-Altan Ula IV, general [PMPE] carries database reference attribution Kielan-Jaworowska and Barsbold (1972), identifier ref:9899. foot of Nemegtu Mountain [SMPE] (PIN coll. 551) carries database reference attribution Rozhdestvensky (1952), identifier ref:24890. Gurilin Tsav [HMNS-GIN] carries database reference attribution Tsogtbaatar and Chinzorig (2007), identifier ref:80572. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+- Occurrence occ:520879; PBDB collection col:53227. Locality cnm=foot of Nemegtu Mountain [SMPE] (PIN coll. 551); place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Maastrichtian. Stratigraphic fields sfm=Nemegt. Recorded attribution Rozhdestvensky 1952; PBDB reference ref:24890.
 
-## Evidence limits {#s-9cd3db9bbe}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+at foot of Nemegtu Mtn.
+
+- Occurrence occ:1058791; PBDB collection col:127670. Locality cnm=Gurilin Tsav [HMNS-GIN]; place fields cc2=MN, stp=Omnogov. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Maastrichtian. Stratigraphic fields sfm=Nemegt. Recorded attribution Tsogtbaatar and Chinzorig 2007; PBDB reference ref:80572.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+N: 43-51-0914; E: 100-08-2508; A: 1033m
+Gurilin Tsav, Nemegt Basin. Eggs found in SE area of the locality, at the end of the "peninsula-like cliff"
+
+## Age bounds on the recorded occurrences {#s-f701aa9d60}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:387401; the smallest recorded lag=66 Ma in occ:387401. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5667a60521}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:387401: PBDB taxon-name field tna=Saurolophus angustirostris; material note ocm=small, incomplete skeleton with good skull; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=100.456665, lat=43.601665; paleocoordinate/model fields pm1=gplates, pln=93.77, pla=36.49.
+- occ:520879: PBDB original-identification field idn=Saurolophus angustirostris n. sp.; PBDB taxon-name field tna=Saurolophus angustirostris; material note ocm=PIN 551-8; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=101.275002, lat=43.491669; paleocoordinate/model fields pm1=gplates, pln=94.52, pla=36.55.
+- occ:1058791: PBDB taxon-name field tna=Saurolophus angustirostris; material note ocm=isolated maxilla, skull fragments; skin impression; field no. 980808 GT WTB; abundance fields abv=6, abu=specimens; PBDB locality-coordinate fields lng=100.140282, lat=43.852501; paleocoordinate/model fields pm1=gplates, pln=93.41, pla=36.67.
+
+## References attached to each record {#s-5b6292d2be}
+The archived guide links the rows to 7 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:387401: Recorded attribution Kielan-Jaworowska and Barsbold 1972; PBDB reference ref:9899.
+- occ:520879: Recorded attribution Rozhdestvensky 1952; PBDB reference ref:24890.
+- occ:1058791: Recorded attribution Tsogtbaatar and Chinzorig 2007; PBDB reference ref:80572.
+
+## What these records can show {#s-9cd3db9bbe}
+This is a guide to 12 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

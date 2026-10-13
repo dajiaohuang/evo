@@ -1,19 +1,46 @@
 ## Which fossil records this name represents {#s-92fcb3d95b}
 Anatolostylops zhaii is accepted in the fixed PBDB mammalia working roster, with database parent Anatolostylops. This guide uses 2 eligible species-level occurrence records from 2 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-c7f26734ff}
-Collection Nuhetingboerhe (Nomogen) (Nei Mongol), region code CN, stratum name Nomogen; database age bracket 56–48.07 Ma, early interval Early Eocene. Collection Huheboerhe (NM-3) (Nei Mongol), region code CN, stratum name Nomogen; database age bracket 56–48.07 Ma, early interval Bumbanian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Anatolostylops zhaii is listed in the PBDB snapshot under taxon txn:336375. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-2ed37273fd}
-Selected occurrences have an outer age envelope of 56–48.07 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Nuhetingboerhe (Nomogen), occurrence occ:1314681 (56–48.07 Ma); one supplying the younger bound is Nuhetingboerhe (Nomogen), occurrence occ:1314681 (56–48.07 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-c7f26734ff}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-0b6f18d5f9}
-Nuhetingboerhe (Nomogen) has collection-environment label terrestrial indet.; collection preservation-mode label body. Huheboerhe (NM-3) has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1314681; PBDB collection col:176327. Locality cnm=Nuhetingboerhe (Nomogen); place fields cc2=CN, stp=Nei Mongol. Recorded age bounds: eag 56 Ma; lag 48.07 Ma; PBDB interval fields oei=Early Eocene. Stratigraphic fields sfm=Nomogen. Recorded attribution Wang et al. 2008; PBDB reference ref:58042.
 
-## Follow collection records back to references {#s-45e3e85af9}
-Nuhetingboerhe (Nomogen) carries database reference attribution Wang et al. (2008), identifier ref:58042. Huheboerhe (NM-3) carries database reference attribution Wang et al. (2008), identifier ref:58042. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Upper part of the Nomogen Formation, Gomphos-bearing bed; NM-3
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Erlian Basin
+
+- Occurrence occ:1314682; PBDB collection col:72202. Locality cnm=Huheboerhe (NM-3); place fields cc2=CN, stp=Nei Mongol. Recorded age bounds: eag 56 Ma; lag 48.07 Ma; PBDB interval fields oei=Bumbanian. Stratigraphic fields sfm=Nomogen, sls=Huheboerhe, slb=10. Recorded attribution Wang et al. 2008; PBDB reference ref:58042.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+NM-3
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"along the Huheboerhe cliff, an area near the Camp Margetts area of the CAE"; this area is called Wulanboerhe and not Huheboerhe according to Ni et al. 2007
+
+## Age bounds on the recorded occurrences {#s-2ed37273fd}
+Across these selected PBDB rows, the largest recorded eag=56 Ma in occ:1314681; the smallest recorded lag=48.07 Ma in occ:1314681. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-0b6f18d5f9}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1314681: PBDB original-identification field idn=Anatolostylops zhaii n. sp.; PBDB taxon-name field tna=Anatolostylops zhaii; material note ocm=IVPP V 14657 - type; referred material: IVPP V 14633 and V 14658; PBDB locality-coordinate fields lng=111.000000, lat=40.000000; paleocoordinate/model fields pm1=gplates, pln=106.91, pla=38.62.
+- occ:1314682: PBDB taxon-name field tna=Anatolostylops zhaii; material note ocm=IVPP V 14634, V 14635 and V 14659; PBDB locality-coordinate fields lng=110.750000, lat=43.366669; paleocoordinate/model fields pm1=gplates, pln=106.08, pla=42.39.
+
+## References attached to each record {#s-45e3e85af9}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1314681: Recorded attribution Wang et al. 2008; PBDB reference ref:58042.
+- occ:1314682: Recorded attribution Wang et al. 2008; PBDB reference ref:58042.
 
 ## Evidence limits {#s-0e0d1edaeb}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

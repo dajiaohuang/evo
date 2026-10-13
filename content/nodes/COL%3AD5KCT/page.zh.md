@@ -1,5 +1,5 @@
-## 沿旧 Puffinus 组合查历史行 {#s-1f9d7639ce}
-COL26.8 接受 Ardenna pacifica（D5KCT）。BirdLife 2020 第 10088 行与 eBird 2021 第 934 行同名，Avibase ID 为 AVIBASE-E94A7272，交叉表类型为 1BL to 1eBird。BirdTree 第 936 行则记作 Puffinus pacificus（1BL to 1BT）。目录异名 S3BHW 指向接受 ID。这些名称变化便于追查旧资料，但不能证明不同时期的物种边界相同。
+## COL26.8 中的名称身份 {#s-1f9d7639ce}
+《Catalogue of Life》COL26.8（2026-08-20）将 Ardenna pacifica (J. F. Gmelin, 1789) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-b5f43d7f22}
 形态资料涉及 5 只鸟：雌 2、雄 2、性别未记录 1；其中 4 只有完整测量组。历史行均值为：鼻孔至喙尖 30.7 mm、跗蹠 46.9 mm、未压平翼长 296.8 mm、尾长 130.4 mm、手翼指数 61.4。完整测量组少于鸟只总数，并非每只鸟都贡献每项数据。Inference=NO 不能代替逐字段的采样分母。手翼指数是 Kipp 距离除以翼长再乘 100，不是飞行速度；喙长本身不能说明咬合力或处理特定猎物的能力。

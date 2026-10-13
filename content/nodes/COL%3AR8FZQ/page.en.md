@@ -1,5 +1,5 @@
-## Find rows through older Schistocichla／Myrmeciza combinations {#s-717a1f1040}
-Pinned COL26.8 organizes this page at Myrmelastes hyperythrus (R8FZQ). BirdLife 2020 row 7792 and eBird 2021 row 6632 share the name and Avibase ID AVIBASE-85D49ECB, with type 1BL to 1eBird; BirdTree row 6607 gives Myrmeciza hyperythra, with type 1BL to 1BT. Catalogue synonym 6S5BH, read in this batch, points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-717a1f1040}
+Catalogue of Life release COL26.8 records Myrmelastes hyperythrus (P. L. Sclater, 1855) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-e13ddacc40}
 Morphology comprises 9 birds: 4 female, 5 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 14.4 mm, tarsus 29.2 mm, unflattened wing 76.8 mm, tail 56.2 mm and hand-wing index 6.1 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

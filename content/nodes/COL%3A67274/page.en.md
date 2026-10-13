@@ -1,30 +1,27 @@
-## Name and this data account {#s-89b8a8ff11}
-Anilios nigrescens is accepted in pinned COL26.8 within Typhlopidae. This account uses its ReptTraits v1-2 record, retaining the Reptile Database 2023 name framework and trait-specific sources. The dataset consolidates information into one row per species; this describes the cited record rather than a uniform state of all populations.
+## COL26.8 name and the ReptTraits row {#s-89b8a8ff11}
+COL26.8 records Anilios nigrescens as an accepted species. The ReptTraits v1-2 row gives its Family field as Typhlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-94e6889301}
-Recorded dimensions are reported maximum total length (TL) 750 mm. SVL runs from snout to vent and differs from total length including the tail. Compiled maxima are reported material, not theoretical growth limits or typical individual size. Sex-specific values may come from different localities or studies and alone cannot quantify population sexual dimorphism.
+## Length values in the archived records {#s-94e6889301}
+The row reports maximum total length (TL) of 750 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Where and how it is active {#s-23cba09ce3}
-In the entry, microhabitat is Fossorial; diet is Carnivorous; active timing is Nocturnal; foraging mode is ACT. These categories summarize activity and resource use rather than an exhaustive habitat list or fixed schedule. Positions such as arboreal and terrestrial can be combined. A carnivorous category does not specify prey, and populations, seasons and life stages may differ.
+## Habitat use and activity labels {#s-23cba09ce3}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Cogger 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Harrington et al. 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Harrington et al. 2018. The foraging-mode field records ACT (active foraging). ReptTraits attributes this field to Stuginski et al. 2017.
 
-## How to read reproductive records {#s-61a73ba762}
-the reproductive-mode field uses the original label oviparous; consolidated mean offspring or eggs per litter/clutch 14.1; egg length 26.5 mm. Clutch/litter summaries can use midpoints of reported means or, when means are unavailable, extrema; they are not necessarily arithmetic averages of observed clutches. Fractions do not describe non-integer young in a litter. The lowest/highest fields are defined as endpoints of reported means rather than guaranteed smallest/largest individual clutches. Reproductive and sex-determination labels do not establish fetal nutrition or uniformity across all populations.
+## Reproductive fields in ReptTraits {#s-61a73ba762}
+The compiled mean for offspring per litter or eggs per clutch is 14.1. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Greer 1997. The recorded egg length is 26.5 mm. ReptTraits attributes this field to De Magalhaes and Costa 2009. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The 2015 life-history entry and this name {#s-d9aa91a72d}
-Anilios nigrescens is accepted in pinned COL26.8 within Typhlopidae. This page compares the same-name historical life-history entry retaining 3 focal fields within the declared scope, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+## A 2015 life-history row for this name {#s-d9aa91a72d}
+COL26.8 records Anilios nigrescens as an accepted species. The August 2015 life-history table has a species-name and family match (Typhlopidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-081cba855c}
-Historical summary values are adult body mass 161 g; mass at birth or hatching 1.13 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+## Length values in the archived records {#s-081cba855c}
+Field-specific archive notes: adult body mass: one direct source citation, with no median count stated; mass at birth or hatching: median of 6 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 161 g. The 2015 archive's field citation is Boback and Guyer, 2003. The combined birth-or-hatching mass field is 1.13 g; the source groups birth and hatching in this field. The 2015 archive's field citation is Greer, A.E, 1997.
 
-## Reproduction and developmental timing {#s-df6b627160}
-Retained compilation fields are offspring per litter or eggs per clutch 14.1 offspring/eggs. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Missing reproductive and developmental durations are not supplied here.
+## Reproductive events in the life-history table {#s-df6b627160}
+Field-specific archive notes: offspring per litter or eggs per clutch: median of 6 recorded source-table values. These counts refer to archived table inputs, not individual animals. The offspring-per-litter or eggs-per-clutch summary is 14.1; it is not a count from one event. The 2015 archive's field citation is Reptile Incubation book; Greer, A.E, 1997. The archive retains a conception or fertilization to birth value in this row, classified as reptiles, but its own class-scope note excludes reptiles for this event field. The retained value is not interpreted here as a species event.
 
-## How to trace these values to sources {#s-17cf97e255}
-Same-name sparse rows carry source labels including Boback and Guyer, 2003; Reptile Incubation book; Greer, A.E, 1997. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+## The August 2015 life-history table {#s-17cf97e255}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-892ae9033a}
-This account paraphrases the same-name ReptTraits v1-2 entry, retaining its 2023 taxonomic framework and sources for individual traits. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure equivalent later concepts. Reported maximum length is not an absolute species limit, and reproductive means are not fixed counts in every clutch. Many mass entries are estimated from length equations and are not presented here as measured mass. Juvenile-length headers and definitions differ and are also omitted from reader conclusions. Conservation, venom, current distribution and population trends are not updated here; unrecorded fields remain gaps. Dataset citation labels preserve the source chain and do not imply that this project independently reread every original work.
-This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
-
-The compilation contains gestation_d, outside the class scopes declared in Supplemental Table 9. Original values and reference labels remain in the source archive; without underlying-source review they are not interpreted as the corresponding reproductive or developmental events for this species. After withholding these fields, the entry falls below the original focal-field threshold and is retained as a limited-data and gap account.
+## Separate histories in the two archives {#s-892ae9033a}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

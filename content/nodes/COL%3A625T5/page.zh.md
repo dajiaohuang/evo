@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-334b30a3ce}
+## 记录分类与直接上级关系 {#s-334b30a3ce}
+COL26.8 将 Pelecanidae 记录为科；其直接上级记录为 Pelecaniformes。
+
 固定 COL26.8 层级下的 Pelecanidae 路径收录了 8 条有测量来源的物种记录。可先从 Pelecanus conspicillatus、Pelecanus crispus、Pelecanus erythrorhynchos、Pelecanus occidentalis、Pelecanus onocrotalus 读起；生物学数值保留 AVONET v7 的历史名称与采样范围。
 
 ## 记录之间有什么差别 {#s-49223dee55}

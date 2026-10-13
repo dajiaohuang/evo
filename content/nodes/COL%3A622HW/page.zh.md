@@ -1,4 +1,6 @@
-## 从 5 个测量物种页开始 {#s-cde7066c6f}
+## 记录分类与直接上级关系 {#s-cde7066c6f}
+COL26.8 将 Bucconidae 记录为科；其直接上级记录为 Piciformes。
+
 Bucconidae 本路线包含 28 条测量物种记录。可从 Bucco capensis、Chelidoptera tenebrosa、Hapaloptila castanea、Malacoptila fulvogularis 和 Malacoptila fusca 开始。导航沿用固定 COL26.8；生物学资料保留 AVONET v7 名称与取样范围。
 
 ## 比较汇编均值与类别 {#s-b84b7d5f13}

@@ -1,18 +1,36 @@
 ## Which fossil records this name represents {#s-56ec397a55}
 Arabemys crassiscutata is accepted in the fixed PBDB pantestudines working roster, with database parent Arabemys. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-391cd95d23}
-Collection Lina Member (Shale), region code SA, stratum name Aruma; database age bracket 59.24–48.07 Ma, early interval Late Paleocene and late interval Early Eocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Arabemys crassiscutata is listed in the PBDB snapshot under taxon txn:80840. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-daa3ea5839}
-Selected occurrences have an outer age envelope of 59.24–48.07 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+## Named localities and collection records {#s-391cd95d23}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-8b11b0fd5a}
-Lina Member (Shale) has collection-environment label marginal marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:388727; PBDB collection col:37182. Locality cnm=Lina Member (Shale); place fields cc2=SA. Recorded age bounds: eag 59.24 Ma; lag 48.07 Ma; PBDB interval fields oei=Late Paleocene, oli=Early Eocene. Stratigraphic fields sfm=Aruma. Recorded attribution Tong et al. 1999; PBDB reference ref:17285.
 
-## Follow collection records back to references {#s-6b3c5a3d15}
-Lina Member (Shale) carries database reference attribution Tong et al. (1999), identifier ref:17285. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+beds from the "upper 5 m" of the member, but not in the "topmost dolomite bed"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"north and northeast of Linah town over a distance of more than 30 km"
+
+## Age bounds on the recorded occurrences {#s-daa3ea5839}
+Across these selected PBDB rows, the largest recorded eag=59.24 Ma in occ:388727; the smallest recorded lag=48.07 Ma in occ:388727. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-8b11b0fd5a}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:388727: PBDB original-identification field idn=Arabemys crassiscutata n. gen. n. sp.; PBDB taxon-name field tna=Arabemys crassiscutata; material note ocm=said to be a new genus; PBDB locality-coordinate fields lng=43.738888, lat=28.761110; paleocoordinate/model fields pm1=gplates, pln=42.79, pla=10.08.
+
+## References attached to each record {#s-6b3c5a3d15}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:388727: Recorded attribution Tong et al. 1999; PBDB reference ref:17285.
 
 ## Evidence limits {#s-245a8d9976}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 1150-item pantestudines working roster, retain the current same name and a complete parent chain to the recorded Pantestudines storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

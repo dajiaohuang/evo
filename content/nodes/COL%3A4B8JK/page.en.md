@@ -1,44 +1,44 @@
-## The name and this data account {#s-b84a5e4339}
-COL26.8 accepts Otus semitorques in Strigidae. AVONET v7 uses the HBW–BirdLife 2020 name and records 5 measured individuals, 4 with a complete set of measurements. A trait may still have a smaller usable sample.
+## Row-reported mean and sample coverage {#s-b84a5e4339}
+The AVONET v7 row for Otus semitorques (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 12 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-1326cafc02}
-Mean beak length is 12 mm from the front edge of the nostril to the tip; mean width is 6.9 mm and depth is 12.1 mm at the nostril edge. These are separate measurements at defined landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-1326cafc02}
+AVONET records culmen length (bill tip to skull base) 22.3 mm; beak length (nostril front edge to tip) 12 mm; beak width at the nostril front edge 6.9 mm; beak depth at the nostril front edge 12.1 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-d9d4780d6c}
-Mean unflattened wing length, from the carpal joint to the longest primary, is 178.4 mm; mean tarsus length is 37.2 mm. The compiled mean mass is 121.53 g and carries source category Dunning. Mass comes from separate species-average information, so the AVONET measurement count does not mean those birds were weighed.
+## Wing and body measures use separate sources {#s-d9d4780d6c}
+AVONET records unflattened wing length 178.4 mm; tarsus length 37.2 mm; distance from first secondary tip to longest primary tip 56.2 mm; length to first secondary tip 122.8 mm; hand-wing index 31.4; tail length 89.6 mm; species-average body mass 121.53 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-134d9f704c}
-The dataset codes habitat as Forest, trophic niche as Invertivore and lifestyle as Insessorial, meaning mainly perched on vegetation or another support. These are broad categories for cross-species comparison; they do not mean the owl uses only forest or eats only invertebrates.
+## Recorded habitat and feeding categories {#s-134d9f704c}
+AVONET classifies Otus semitorques as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-71d0f973a6}
-The migration field classifies the record as partially migratory. Historical breeding and resident maps span latitudes 24.25° to 54.42°. They do not give a full account of non-breeding movements or a current position or global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-71d0f973a6}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints 24.25° to 54.42°. The mapped range area is 1982105.07 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-6db23a161c}
-Pinned COL26.8 accepts Otus semitorques in Strigidae. The 2015 life-history archive has a same-name entry with three usable fields, each linked to cited species-level rows in the same family. Those summaries may retain data inherited across historical species or subspecies; the matching name does not remove that possibility.
+## Scope of the historical life-history entry {#s-6db23a161c}
+The August 2015 database has a same-name, same-family record for Otus semitorques. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-1fccc0fdba}
-The archive reports adult body mass of 116.5 g. This field may combine males, females and adults of unspecified sex, so it is not a range of individual masses. No birth or hatching mass is reported here.
+## Compiled adult-mass values {#s-1fccc0fdba}
+The August 2015 compilation reports adult body mass 116.5 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-17bc151e9c}
-The archive reports 4 offspring per litter or eggs per clutch. Its field combines young and egg counts; where a compiled summary is fractional, that does not mean one event produced part of an individual. No reproductive or developmental duration is available here.
+## Reproductive fields describe different events {#s-17bc151e9c}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 4. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-3f33642c6b}
-The archive's maximum_longevity_y field is 14.5 years, the largest record in its collected material under the source method. It is not a typical or mean wild lifespan, a limit for every individual, or a record shown to be repeatable today.
+## A maximum record is not typical lifespan {#s-3f33642c6b}
+The compilation lists 14.5 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-54c8697e90}
-The matching sparse rows cite Dunning, 1992; Bennett, 1986; Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009; and Jetz, Sekercioglu, and Bohning-Gaese, 2008. The source archive keeps each field's row number, value and label, with full reference explanations. A label may point to a paper, book or database. Rows are not measured individuals, and repeated citations are not independent experiments.
+## Sources and field limits {#s-54c8697e90}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-eaa18e59fb}
-Pinned COL26.8 accepts Otus semitorques in Strigidae. EltonTraits 1.0 has a same-name, same-family entry used here for two ecological field groups. Its source follows earlier bird taxonomy or, for mammals, MSW3; a matching name alone does not settle modern splits or synonymies.
+## Scope of the historical trait entry {#s-eaa18e59fb}
+EltonTraits 1.0 has a same-name, same-family record for Otus semitorques covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-a0985f10ba}
-The nonzero food weights are invertebrates 70%, mammals and birds 20%, and reptiles and amphibians 10%. Source code A marks high compiler confidence in the source and diet information. The percentages standardize literature descriptions; they are not direct measurements of diet, and an unlisted food is not proven absent.
+## Relative weights across food categories {#s-a0985f10ba}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 70%; mammals and birds 20%; reptiles and amphibians 10%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-927af9f0dd}
-Species-level foraging weights are ground 40%, understory, edges or shrubs below 2 m 40%, and trees or high bushes from 2 m upward but below the canopy 20%. These estimate relative use of feeding positions, not nest sites, all habitat or time spent through the day. The archive's categories have distinct definitions; they are not elevation bands and do not give flight heights or habitat area.
+## Foraging positions are not a time budget {#s-927af9f0dd}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 40%; in the understory 40%; in mid-height or high vegetation 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-c131b9361e}
-The selected field groups carry the label Ref_5. Diet, foraging strata and activity may draw on different materials, and Ref_5 in a bird table need not identify the same source as Ref_5 in a mammal table. The archive preserves original labels by file, row, field group and reference table. The underlying works have not been individually read; labels do not add independent observations.
+## Sources and field limits {#s-c131b9361e}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-9add7c9421}
 This is a guide to historical AVONET v7 data. Morphology values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass has separate provenance and must not inherit the morphology sample count. Habitat, diet and migration are broad categories; the maps cover historical breeding and resident ranges. Matching historical names support the link to this account but do not prove that the older and COL26.8 species concepts are equivalent. Reproduction, current populations and conservation need other sources.

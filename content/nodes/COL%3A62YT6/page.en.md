@@ -1,4 +1,6 @@
-## Species records with cited traits {#s-f6446e5e3d}
+## Recorded classification and direct parent {#s-f6446e5e3d}
+COL26.8 records Melanochelys at genus rank, with Geoemydidae as its direct parent.
+
 This catalogue links 2 species records for Melanochelys with matching names, family placement and trait-level citations. Start with Melanochelys tricarinata, Melanochelys trijuga. Classification navigation follows COL26.8; the ReptTraits v1-2 workbook retains its 2023 name framework. This count is not the group’s full accepted-species total.
 
 ## Compare like measurements {#s-f4092bc2f5}

@@ -1,15 +1,15 @@
-## Four fields in the compiled row {#s-b08a526ae0}
-Pinned COL26.8 accepts Rena dulcis in Leptotyphlopidae. Its ReptTraits v1-2 row provides maximum total length, microhabitat, reproductive mode and a compiled clutch-size mean. The workbook uses The Reptile Database’s 2023 naming; name and family alignment do not establish that the historical and current concepts are identical.
+## COL26.8 name and the ReptTraits row {#s-b08a526ae0}
+COL26.8 records Rena dulcis as an accepted species. The ReptTraits v1-2 row gives its Family field as Leptotyphlopidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Maximum total length {#s-f27c132eae}
-The row reports maximum total length (TL) of 283 mm, with Feldman et al. (2016) as its source. TL includes the tail; snout–vent length (SVL) ends at the vent. This is a compiled reported maximum, not a typical size or an absolute limit for every individual.
+## Length values in the archived records {#s-f27c132eae}
+The row reports maximum total length (TL) of 283 mm. ReptTraits attributes this field to Feldman et al. 2016.
 
-## Microhabitat category {#s-e14c838566}
-The microhabitat field is “fossorial,” cited to Murphy et al. (2003). The workbook uses microhabitat categories including fossorial, arboreal, cryptic, saxicolous, semi-aquatic and terrestrial, sometimes combined. This field does not specify habitat type, elevation or an observation locality.
+## Habitat use and activity labels {#s-e14c838566}
+The microhabitat field classifies the recorded position as burrowing (Fossorial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Murphy et al. 2003.
 
-## Mode and clutch-size summary {#s-d34ab12abf}
-The row records “oviparous,” citing Zimin et al. (2022), and a consolidated mean of 4.5 eggs per clutch, sourced to De Magalhaes and Costa (2009) and Feldman et al. (2015). In this dataset, the summary can be a midpoint of reported means or, where those are unavailable, a midpoint of reported extrema; it is not necessarily the arithmetic mean of observed clutches. The fractional value describes a compiled summary, not part of an egg, and the low/high fields mark reported means rather than guaranteed clutch extremes.
+## Reproductive fields in ReptTraits {#s-d34ab12abf}
+The compiled mean for offspring per litter or eggs per clutch is 4.5. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to De Magalhaes and Costa 2009, Feldman et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Limits of the summary {#s-22dba0e2a3}
-The row combines cited measurements and summaries, not observations of every individual or population. It does not provide sex-specific lengths or document current distribution, conservation status or population trend. The source labels preserve the workbook’s citation chain; they do not mean this project independently reread every cited study.
+## Reading this compiled trait record {#s-22dba0e2a3}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

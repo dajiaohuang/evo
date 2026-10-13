@@ -1,4 +1,6 @@
-## Start with the historical entries {#s-9c4fb61bdf}
+## Recorded classification and direct parent {#s-9c4fb61bdf}
+COL26.8 records Deomyinae at subfamily rank, with Muridae as its direct parent.
+
 The local PanTHERIA route for Deomyinae includes 1 usable data accounts. Start with Uranomys ruddi. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-94206dd13b}
@@ -7,22 +9,22 @@ Among available consolidated adult-mass values in this batch, Uranomys ruddi rec
 ## Compare food, feeding positions and activity periods {#s-ac142015a4}
 This batch’s Deomyinae route includes 2 historical entries; start with Deomys ferrugineus, Uranomys ruddi. Food-category weights are available in 2, foraging strata in 2, and mammalian activity periods in 2. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-a844f1064f}
+## Limits attached to these records {#s-a844f1064f}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-6b6fdf617a}
-The local PanTHERIA route for Deomyinae includes one usable data account. Start with [Deomys ferrugineus](Deomys/Deomys_ferrugineus/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-6b6fdf617a}
+The local PanTHERIA route for Deomyinae includes one usable data account. Start with Deomys ferrugineus. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
-## Limits of these historical data {#s-23fbc5b961}
+## PanTHERIA material route {#s-23fbc5b961}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Follow the life-history records {#s-7baed08410}
-This batch offers 1 historical life-history account under Deomyinae. Start with [Uranomys ruddi](Uranomys/Uranomys_ruddi/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-7baed08410}
+This batch offers 1 historical life-history account under Deomyinae. Start with Uranomys ruddi. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-725d1e20ff}
 Gestation is recorded in 0 accounts, female age at first reproduction in 0 accounts, and maximum lifespan in 0 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-000d1781e6}
+## Ernest life-history archive material route {#s-000d1781e6}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

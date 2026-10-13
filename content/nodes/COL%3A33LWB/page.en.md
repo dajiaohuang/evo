@@ -1,15 +1,15 @@
-## A name and a short list of sourced traits {#s-f2b7d25601}
-COL26.8 accepts Cyrtodactylus halmahericus in Gekkonidae. The linked ReptTraits v1-2 row reports maximum SVL, arboreal and saxicolous microhabitats, nocturnal activity and oviparity. Its field-specific citations sit within the workbook’s Reptile Database 2023 name framework, and the row summarizes reports rather than every population.
+## COL26.8 name and the ReptTraits row {#s-f2b7d25601}
+COL26.8 records Cyrtodactylus halmahericus as an accepted species. The ReptTraits v1-2 row gives its Family field as Gekkonidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The 73 mm maximum excludes the tail {#s-aa4b5d2d48}
-The reported maximum snout–vent length is 73 mm. This measurement ends at the vent, not the tail tip. It is a maximum collected in the cited record, not a representative adult size or growth limit; no separate sex-specific comparison is established here.
+## Length values in the archived records {#s-aa4b5d2d48}
+The row reports a maximum SVL of 73 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Arboreal and rock-associated settings {#s-80e7e2187f}
-The microhabitat field combines arboreal and saxicolous (rock-associated) categories, and the activity field says nocturnal. Those labels do not describe the relative use of trees and rock or specify exact activity hours. Diet is not supplied here, and the labels should not be expanded into prey or seasonal behavior claims.
+## Habitat use and activity labels {#s-80e7e2187f}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/rock-dwelling (Saxicolous) [source label: Arboreal/Saxicolous]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as night-active (Nocturnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## A reproductive label without a clutch count {#s-94daa64fb7}
-The workbook records the reproductive mode as oviparous. It gives no supported clutch-size mean in this page, so the number of eggs or clutches per year cannot be read from the mode label. The report also does not establish that the same pattern applies across populations.
+## Reproductive fields in ReptTraits {#s-94daa64fb7}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Where this compilation stops {#s-7b6baae904}
-This page is tied to a same-name ReptTraits v1-2 row under its 2023 framework; matching names do not settle whether historical and pinned COL26.8 concepts are equivalent. A species-level row cannot preserve all differences among sexes, ages, localities and populations. No mass, juvenile length, venom, conservation status, current range or trend is inferred from absent fields.
+## Reading this compiled trait record {#s-7b6baae904}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

@@ -1,4 +1,6 @@
-## One PanTHERIA account {#s-ed57f54476}
+## Recorded classification and direct parent {#s-ed57f54476}
+COL26.8 records Aplodontia at genus rank, with Aplodontiidae as its direct parent.
+
 The local PanTHERIA route includes one usable data account: Aplodontia rufa. The account retains its historical MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; the historical row is not the current accepted-species denominator.
 
 ## One adult-mass value at both endpoints {#s-45bb806774}

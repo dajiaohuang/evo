@@ -1,15 +1,15 @@
-## Name placement and one-row account {#s-600a802d9f}
-COL26.8 accepts Tropidophorus hainanus in Scincidae. The ReptTraits v1-2 row records a semi-aquatic microhabitat alongside length, diet, activity, and reproductive traits. Since the workbook combines trait-specific citations in a one-row summary and retains a 2023 name framework, the values should be read as a compiled record rather than one monitored population.
+## COL26.8 name and the ReptTraits row {#s-600a802d9f}
+COL26.8 records Tropidophorus hainanus as an accepted species. The ReptTraits v1-2 row gives its Family field as Scincidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Two maxima measured to the body opening {#s-02eda4fc6d}
-The reported maximum snout–vent length is 57.8 mm; the female maximum is 46.7 mm. Snout–vent length excludes the tail. These maxima may represent different studies or localities, so their difference alone does not establish population-wide sexual dimorphism or describe a typical individual.
+## Length values in the archived records {#s-02eda4fc6d}
+The row reports a maximum SVL of 57.8 mm. ReptTraits attributes this field to Meiri 2018. The row reports a female maximum SVL of 46.7 mm. ReptTraits attributes this field to Meiri 2018. The row gives no matched sample ranges, sample sizes, or localities for these maxima; they do not establish population-level sexual dimorphism.
 
-## Water and land in the habitat category {#s-b7e4019756}
-The microhabitat is labelled semi-aquatic, a broad association with water and land rather than a named waterbody. The cited row also categorizes the diet as carnivorous and activity as daytime. It does not identify prey, a daily schedule, or the full set of habitats used.
+## Habitat use and activity labels {#s-b7e4019756}
+The microhabitat field classifies the recorded position as semi-aquatic (Semi-Aquatic). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as animal-eating (Carnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as day-active (Diurnal); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Live-bearing and a four-young summary {#s-0d6eda19b2}
-The reproductive field says viviparous: females give birth to live young. The compiled litter or clutch summary is 4, with the reported mean endpoints also at 4. This is a summary of cited records, not proof that every litter has four young; the mode label does not specify embryo nutrition.
+## Reproductive fields in ReptTraits {#s-0d6eda19b2}
+The compiled mean for offspring per litter or eggs per clutch is 4. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 4; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 4; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records live-bearing (viviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-1235e1838a}
-The ReptTraits row uses the workbook’s 2023 name framework, while the pinned COL26.8 entry supplies the accepted placement. Matching names do not establish that the historical and pinned concepts cover identical material. A single row compresses sex, age, locality, and population variation. The length and litter values are reports, not species limits or fixed counts; this page does not update range or conservation status. Citation labels retain the source chain without claiming that every underlying paper was independently revisited.
+## Reading this compiled trait record {#s-1235e1838a}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

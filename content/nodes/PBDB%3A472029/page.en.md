@@ -1,18 +1,48 @@
 ## Which fossil records this name represents {#s-f205a5656f}
 The fixed PBDB roster accepts Quetzalcoatlus lawsoni under Quetzalcoatlus. This page follows 1 eligible species-level occurrence record across 1 collection and 1 reference identifier. These count database occurrences, collections and citations separately; none is a specimen or animal count.
 
+PBDB occurrence record excerpt:
+Quetzalcoatlus lawsoni is listed in the PBDB snapshot under taxon txn:472029. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
+
 ## Begin with named collections and strata {#s-f98682fc4e}
 The selected PBDB occurrence is anchored in one collection: Collection Pterodactyl Ridge, Amaral site (Texas), region code US, stratum name Javelina; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Read the locality and stratum as source labels. One recorded place is a positive occurrence, not a complete range or evidence that the animal was absent elsewhere.
+
+PBDB occurrence record excerpt:
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
+
+- Occurrence occ:832534; PBDB collection col:92247. Locality cnm=Pterodactyl Ridge, Amaral site; place fields cc2=US, stp=Texas, cny=Brewster. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Javelina. Recorded attribution Andres and Langston 2021; PBDB reference ref:84754.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Bones occur in several concentrations, which are very closely spaced stratigraphically, if not on a single horizon"
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+No exact locality details given beyond Big Bend National Park
 
 ## Age bounds of these records {#s-ad5e21b677}
 The combined outer age bracket for these selected records is 72.2–66 Ma. It joins the oldest early bound to the youngest late bound; it does not imply continuous presence, the species’ actual origin or extinction, or an individual lifespan. Each collection keeps its own broad bracket, without narrowing or revising the source dating.
 
+PBDB occurrence record excerpt:
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:832534; the smallest recorded lag=66 Ma in occ:832534. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
 ## Read preservation setting separately from living habitat {#s-b8a6f50461}
 Pterodactyl Ridge, Amaral site has collection-environment label fluvial indet.; collection preservation-mode label body. These are collection-level depositional and preservation labels. They help describe the fossil context, but do not determine the living animal’s diet or habitat, and do not mean every specimen preserves every listed feature. Empty source fields remain empty.
+
+PBDB occurrence record excerpt:
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:832534: PBDB original-identification field idn=Quetzalcoatlus lawsoni n. sp.; PBDB taxon-name field tna=Quetzalcoatlus lawsoni; material note ocm="new species;" More than 200 bones including four partial skulls (TMM 41961-1, 41954-62, 42161-1, 42422-30) and mandibles (TMM 41961-1, 41544-14/22, 41954-5, 42161-2). Probably represents a new taxon; abundance fields abv=200, abu=elements; PBDB locality-coordinate fields lng=-103.250000, lat=29.250000; paleocoordinate/model fields pm1=gplates, pln=-72.05, pla=40.38.
 
 ## Follow collection records back to references {#s-bbd0f49d23}
 Pterodactyl Ridge, Amaral site carries database reference attribution Andres and Langston (2021), identifier ref:84754. Treat these as the database’s abbreviated source attributions, not a completed author list or proof that each citation is the original description. Collection IDs and full source rows remain in the source archive; the papers and specimens have not been independently rereviewed here.
 
+PBDB occurrence record excerpt:
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:832534: Recorded attribution Andres and Langston 2021; PBDB reference ref:84754.
+
 ## Evidence limits {#s-4ff05c9f53}
 This is a dated guide to the PBDB occurrence extract checked on 2026-10-02, not a species monograph. The entries come from a fixed 276-name pterosaur roster and retain a matching current name, a complete parent path to the stored Pterosauria anchor, and usable species-level records without uncertain-identification qualifiers. A database link to an older combination does not resolve specimen identity, settle every taxonomic dispute or merge a same-name COL concept. Locality, stratum, age bracket, depositional setting and collection-level preservation describe different things; they cannot establish a complete distribution, actual origin or extinction, ecology, abundance, or the preservation of every specimen. Original descriptions and later revisions are not synthesized here.
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

@@ -1,14 +1,14 @@
-## Read this historical record through food and foraging position {#s-b5e23b6b2a}
-Thraupis ornata is accepted in pinned COL26.8 within Thraupidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-b5e23b6b2a}
+EltonTraits 1.0 has a same-name, same-family record for Thraupis ornata covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-5f8c512ba1}
-The archive’s nonzero food weights are fruit 80%; invertebrates 20%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-5f8c512ba1}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 20%; fruit 80%. Its dominant five-category label is FruiNect. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-8f7d8e8be4}
-Foraging-stratum weights flagged as species-level in the archive are in or just above the canopy 60%; trees or high bushes from 2 m upward but below the canopy 20%; ground 10%; understory, edges or shrubs below 2 m 10%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-8f7d8e8be4}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 10%; in the understory 10%; in mid-height or high vegetation 20%; in the canopy 60%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-cf3fb82e43}
-The used groups carry labels Ref_21. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+## Sources and field limits {#s-cf3fb82e43}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: The Tanagers. 1999. By Morton Isler. Smithsonian Press.; foraging: The Tanagers. 1999. By Morton Isler. Smithsonian Press.. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-6932ece728}
 This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.

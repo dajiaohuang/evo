@@ -62,7 +62,7 @@ export default defineConfig(({ mode }) => {
               },
             },
             {
-              urlPattern: ({ url, sameOrigin }) => sameOrigin && /^\/evo\/data\/releases\/[^/]+\/(?:packages|package-search-index|occurrences|maps|catalogue)\//.test(url.pathname),
+              urlPattern: ({ url, sameOrigin }) => sameOrigin && /^\/evo\/data\/releases\/[^/]+\/(?:packages|package-search-index|occurrences|maps|catalogue|pbdb)\//.test(url.pathname),
               handler: 'CacheFirst',
               options: {
                 cacheName: `evo-runtime-data-${datasetVersion}`,

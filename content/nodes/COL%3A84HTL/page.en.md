@@ -5,5 +5,5 @@ The paper described Grewcock's sportive lemur as medium-sized, with a type-serie
 The paper then knew the species from the Anjiamangirana region, south of the Mahajamba River and north of the Maevarano and Sofia rivers; the southern limit still needed survey. Sampling in this one region does not establish current range-wide occupancy or abundance.
 
 ## Evidence limits {#s-20a5cac406}
-The source is a 2006 description whose range and variation are bounded by the sampling then available; it gives no present-day abundance or conservation trend. The COL26.8 accepted name is retained. The Chinese common name is editorial; this guide is.
+The 2006 description bounds range and variation by the sampling then available; it gives no present-day abundance or conservation trend. COL26.8's accepted name is retained, and the Chinese common name is an editorial translation.
 

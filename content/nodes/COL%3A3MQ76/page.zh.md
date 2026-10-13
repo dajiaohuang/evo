@@ -1,5 +1,5 @@
-## 沿旧 Cettia 组合查历史行 {#s-9f8c23aa63}
-本页按 COL26.8 的 Horornis diphone（3MQ76）组织。BirdLife 2020 第 7414 行与 eBird 2021 第 4903 行同名，Avibase ID 为 AVIBASE-7D1FD35D，类型 1BL to 1eBird；BirdTree 第 4880 行记 Cettia diphone，类型 1BL to 1BT。本次读到目录异名 69MPL，指向本页接受 ID。来源科名 Scotocercidae 与当前 COL Cettiidae 分别保留；属名或词尾变化用于定位原资料，不证明不同时期的物种范围完全相同。
+## COL26.8 中的名称身份 {#s-9f8c23aa63}
+《Catalogue of Life》COL26.8（2026-08-20）将 Horornis diphone (Kittlitz, 1830) 记录为接受种。此卡片保留该版本的名称身份；名称条目本身不描述形态或生态。
 
 ## 总鸟数与完整测量分开 {#s-620cb9f73c}
 形态共 5 只鸟：雌 0、雄 2、性别未定 3；完整测量 4 只。鼻孔前缘至喙尖 8.3 mm、跗蹠 25 mm、未压平翼长 60.6 mm、尾长 59.8 mm、手翼指数 14.3 是历史行均值。总数大于完整测量数，不称所有鸟都有整套字段。没有已定雌鸟，仍有性别未定鸟，不能称全部为雄鸟或建立雌雄比较。Inference=NO 不替代逐字段采样分母。手翼指数为 Kipp 距离／翼长 ×100，不是飞行速度；喙长不提供咬合力或具体猎物的处理能力。

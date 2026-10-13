@@ -1,10 +1,12 @@
-## Start with the historical entries {#s-0239a59c3f}
+## Recorded classification and direct parent {#s-0239a59c3f}
+COL26.8 records Gerbillinae at subfamily rank, with Muridae as its direct parent.
+
 The local PanTHERIA route for Gerbillinae includes 7 usable data accounts. Start with Desmodilliscus braueri, Desmodillus auricularis, Pachyuromys duprasi, Rhombomys opimus, Tatera indica. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-344329dc89}
 Among available consolidated adult-mass values in this batch, Desmodilliscus braueri records 10 g and Tatera indica records 138.28 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-934c9cf44b}
+## Amniote Life-history archive member records {#s-934c9cf44b}
 This batch’s Gerbillinae route includes 13 historical life-history accounts; start with Desmodilliscus braueri, Desmodillus auricularis, Pachyuromys duprasi, Psammomys obesus, Psammomys vexillaris. More frequently represented fields include adult body mass (13 entries), offspring per litter or eggs per clutch (13 entries), longest lifespan record in the compilation (12 entries), conception or fertilization to birth (9 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-3fe999a845}
@@ -13,27 +15,27 @@ This batch’s Gerbillinae route includes 19 historical entries; start with Psam
 ## Compare food, feeding positions and activity periods {#s-504895d9af}
 This batch’s Gerbillinae route includes 3 historical entries; start with Taterillus tranieri, Ammodillus imbellis, Brachiones przewalskii. Food-category weights are available in 0, foraging strata in 3, and mammalian activity periods in 0. First distinguish sources, coarse weights and categorical/binary codes, then compare records. Counts describe this batch’s data, not the complete accepted-species denominator or ecology shared by the whole group.
 
-## Evidence limits {#s-292771265e}
+## Limits attached to these records {#s-292771265e}
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
-This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
-This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
+This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
+This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits.
 
-## Start with the historical entries {#s-560b3e9a91}
-The local PanTHERIA route for Gerbillinae includes 5 usable data accounts. Start with [Microdillus peeli](Microdillus/Microdillus_peeli/page.en.md), [Sekeetamys calurus](Sekeetamys/Sekeetamys_calurus/page.en.md), [Ammodillus imbellis](Ammodillus/Ammodillus_imbellis/page.en.md), [Taterillus arenarius](Taterillus/Taterillus_arenarius/page.en.md), [Taterillus emini](Taterillus/Taterillus_emini/page.en.md). Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
+## Recorded classification and member material {#s-560b3e9a91}
+The local PanTHERIA route for Gerbillinae includes 5 usable data accounts. Start with Microdillus peeli, Sekeetamys calurus, Ammodillus imbellis, Taterillus arenarius, Taterillus emini. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-8dd1261c63}
 Among available consolidated adult-mass values in this batch, Taterillus arenarius records 47 g and Sekeetamys calurus records 56.61 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Limits of these historical data {#s-10e1bfc19c}
+## PanTHERIA material route {#s-10e1bfc19c}
 This guide covers only this batch’s entries with at least one focal field, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
-## Follow the life-history records {#s-cf7484a63c}
-This batch offers 9 historical life-history accounts under Gerbillinae. Start with [Desmodilliscus braueri](Desmodilliscus/Desmodilliscus_braueri/page.en.md), [Desmodillus auricularis](Desmodillus/Desmodillus_auricularis/page.en.md), [Pachyuromys duprasi](Pachyuromys/Pachyuromys_duprasi/page.en.md), [Rhombomys opimus](Rhombomys/Rhombomys_opimus/page.en.md), [Sekeetamys calurus](Sekeetamys/Sekeetamys_calurus/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-cf7484a63c}
+This batch offers 9 historical life-history accounts under Gerbillinae. Start with Desmodilliscus braueri, Desmodillus auricularis, Pachyuromys duprasi, Rhombomys opimus, Sekeetamys calurus. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-491efcbef5}
 Gestation is recorded in 7 accounts, female age at first reproduction in 4 accounts, and maximum lifespan in 4 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-a871602398}
+## Ernest life-history archive material route {#s-a871602398}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

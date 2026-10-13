@@ -5,5 +5,5 @@ The accepted name Lepilemur sahamalaza was formally established in the 2017 prin
 The correction paper restricted the known distribution to the type locality on the Sahamalaza Peninsula and proposed the Sambirano River as a possible northern limit; further fieldwork was needed. The Ankarafa morphology sample was about 25 km southeast of the type locality, which does not establish continuous occupancy.
 
 ## Evidence limits {#s-8cc0e5d268}
-The morphology comparison uses a small sample and range boundaries remain for field confirmation. The correction addresses nomenclatural availability and spelling, not a complete ecological study. The Chinese name is editorial, and this guide is.
+The morphology comparison uses a small sample and range boundaries remain for field confirmation. The correction addresses nomenclatural availability and spelling, not a complete ecological study. The Chinese name is editorial, and
 

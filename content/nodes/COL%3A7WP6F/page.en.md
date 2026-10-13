@@ -1,5 +1,5 @@
-## Tracing the historical genus name {#s-91e806b7cf}
-Pinned COL26.8 places this page at Psilopogon lineatus (7WP6F). AVONET v7 BirdLife 2020 row 9695 and eBird 2021 row 8662 use the same name and Avibase ID AVIBASE-4EBAE936; BirdTree row 8617 gives Megalaima lineata, with match type 1BL to 1BT. Read COL older-combination record 7VSW4 points to this accepted ID. These associations locate historical data without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-91e806b7cf}
+Catalogue of Life release COL26.8 records Psilopogon lineatus (Vieillot, 1816) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Measured samples and beak/wing averages {#s-79a9d93063}
 Morphology covers 10 birds: 3 female, 5 male and 2 unsexed; 8 have complete measurement sets. Mean nostril-to-tip beak length is 22.6 mm, beak width 11.9 mm, tarsus 28.5 mm, unflattened wing 125.6 mm and hand-wing index 19. Inference=NO does not establish an identical count for every field; complete-set birds and total samples remain separate. The index is Kipp’s distance/wing length ×100, not flight speed, and beak width is not a test of fruit swallowing or pecking performance.

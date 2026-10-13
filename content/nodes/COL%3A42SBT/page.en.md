@@ -8,5 +8,5 @@ The paper designated an adult female collected in 2007 as the holotype and linke
 The name manitatra comes from Malagasy for “range expansion.” It records the authors' naming rationale for the taxon's geographic pattern, not a demonstrated expansion process or migration route. Current MDD treatment includes this name within *M. murinus*.
 
 ## Evidence limits {#s-694e178c43}
-COL26.8 accepts this name, while the local MDD exact-name crosswalk has no matching entry; the page preserves the pinned COL identity and 2016 sample-based conclusions without claiming global taxonomic consensus. No current full-range or conservation assessment is included; the common-name label is editorial and not externally reviewed. The current MDD page records a broader name treatment; this page follows the pinned COL26.8 ID and presents both treatments. The page is.
+COL26.8 accepts this name, while the local MDD exact-name crosswalk has no matching entry; the page preserves the pinned COL identity and 2016 sample-based conclusions without claiming global taxonomic consensus. No current full-range or conservation assessment is included; the common-name label is editorial. The current MDD page records a broader name treatment; this page follows the pinned COL26.8 ID and presents both treatments.
 

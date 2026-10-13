@@ -1,29 +1,29 @@
-## The 2015 life-history entry and this name {#s-7cb2342784}
-COL26.8 accepts *Thalassarche chlororhynchos* in Diomedeidae. The 2015 life-history archive has an older record with the same name and family. Six fields are included because cited species-level sparse-table rows support them, although the summaries may still inherit older taxonomic data.
+## Scope of the historical life-history entry {#s-7cb2342784}
+The August 2015 database has a same-name, same-family record for Thalassarche chlororhynchos. Its reported fields are adult body mass, female age at first conception (source definition), median or interpolated-median litter/clutch count, oviposition-to-hatching interval, age at flight capability (some records mark nest departure), longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-76f9b8f902}
-The historical adult-mass summary is 2115 g. Its source can combine males, females and adults whose sex was not specified, so the value is not a range of individual masses across the species. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-76f9b8f902}
+The August 2015 compilation reports adult body mass 2115 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-a64ca29a14}
-The compilation reports 3323.78 d to female maturity (defined by the source as age at first conception), 1 offspring or egg per litter/clutch, 75.5 d from oviposition to hatching, and 100.5 d to flight capability (some sources describe leaving the nest); d means days. The litter/clutch field combines offspring and egg counts. Each timing value refers to a different event, not one interchangeable reproductive cycle.
+## Reproductive fields describe different events {#s-a64ca29a14}
+The August 2015 compilation reports female age at first conception (source definition) 3323.775 days; median or interpolated-median number of offspring or eggs per litter/clutch 1; oviposition-to-hatching interval 75.5 days; age at flight capability (some records mark nest departure) 100.5 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## A longest record differs from usual lifespan {#s-86bba8ba8c}
-The archive's maximum_longevity_y field is 37 years, the largest record found under the source method. It does not represent typical or mean wild lifespan, a survival limit for every individual or a current record that can be repeatedly attained.
+## A maximum record is not typical lifespan {#s-86bba8ba8c}
+The compilation lists 37 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## How to trace these values to sources {#s-fe832d54c9}
-The same-name rows cite Dunning (1992); Bennett (1986); Dyke and Kaiser (2010); Jouventin and Dobson (2002); and other works. The archive preserves raw row numbers, values and field-specific labels alongside each reference's full explanation. A label can refer to a paper, book or another database. Row counts are not measured individuals, and repeated citations are not independent experimental replications.
+## Sources and field limits {#s-fe832d54c9}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-efee9768f6}
-EltonTraits 1.0 also contains an older *Thalassarche chlororhynchos* record in Diomedeidae. The two selected ecological groups allow comparison with the COL26.8 entry while retaining the source's earlier bird or MSW3 mammal taxonomy. A matching name does not settle later splits or synonym disputes.
+## Scope of the historical trait entry {#s-efee9768f6}
+EltonTraits 1.0 has a same-name, same-family record for Thalassarche chlororhynchos covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-a1d800b289}
-The nonzero food weights are invertebrates 50% and fish 50%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and do not imply a diet limited to nectar, seeds or plants.
+## Relative weights across food categories {#s-a1d800b289}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; fish 50%. Its dominant five-category label is Omnivore. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-7fdef4878d}
-The archive's species-level foraging-stratum weights are 80% on or just below the water surface and 20% below it. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-7fdef4878d}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 20%; around the water surface 80%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-37f7fa43b4}
-The selected groups carry source label Ref_1. Diet, strata and activity can come from different materials; the same Ref number in bird and mammal reference tables does not identify the same source. The archive retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read, so source labels do not count as new independent observations.
+## Sources and field limits {#s-37f7fa43b4}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-2373d80735}
 This page uses historical same-name records from the 2015 life-history archive. Values are compilation medians or averages of the two middle values, except maximum longevity, which is the largest record found. They are not measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family, together with same-name sparse rows, supports the association but does not establish equivalence to COL26.8 concepts or remove every inherited component. Wild or captive conditions are not uniformly confirmed, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources.

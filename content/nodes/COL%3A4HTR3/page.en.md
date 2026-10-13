@@ -1,4 +1,4 @@
-## Ecological evidence {#s-c3933d6310}
+## Diet and density across six Kibale sites {#s-c3933d6310}
 A three-year study compared red colobus diet, density and activity across six areas in or near Kibale National Park, Uganda. Reported local density ranged from 0.70 to 7.41 groups per km², and feeding patterns differed sharply among sites with different tree communities. The spread illustrates local variation within the study, not the species’ overall density.
 
 ## The 2015 life-history entry and this name {#s-27ef83dc26}

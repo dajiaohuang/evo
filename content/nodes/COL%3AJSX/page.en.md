@@ -1,4 +1,6 @@
-## Five PanTHERIA accounts in this route {#s-64cf345171}
+## Recorded classification and direct parent {#s-64cf345171}
+COL26.8 records Leithiinae at subfamily rank, with Gliridae as its direct parent.
+
 The local PanTHERIA route has 5 usable historical accounts: Eliomys quercinus, Dryomys laniger, D. nitedula, Muscardinus avellanarius and Selevinia betpakdalaensis. Each retains its MSW05 name, variable-specific conditions and missing fields. Navigation follows pinned COL26.8; historical rows are not the accepted-species denominator.
 
 ## Adult-mass medians at the two endpoints {#s-dcdbc5880c}

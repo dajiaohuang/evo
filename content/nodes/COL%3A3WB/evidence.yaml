@@ -15,7 +15,10 @@ records:
     - subjectId: taxon:proboscidea
       claimKind: scientific
       claimType: topology
-      statement: Proboscidea is represented in the mammal-wide phylogenetic framework by sampled living elephant lineages and taxonomically completed species placements, while extinct proboscideans require separate fossil evidence; the tree does not date the order’s origin.
+      statement:
+        page: en
+        section: s-af50f3f3b6
+        part: body
       confidence: medium
       confidenceRationale: The primary mammal tree supports living higher placement, and the wording explicitly separates its molecular scope from the fossil record.
       referenceLinks:
@@ -27,7 +30,9 @@ records:
   claim-rationales.zh:
     - 一手哺乳动物树支持现生高阶位置；措辞明确将其分子范围与化石记录分开。
   claim-statements.zh:
-    - 在哺乳动物全局系统发育框架中，Proboscidea 由取样的现生象类谱系和分类补全的物种位置代表，而灭绝长鼻类需要独立化石证据；该树不测定目级起源。
+    - page: zh
+      section: s-e92c336988
+      part: body
   ranges:
     - entityId: proboscidea
       rangeKind: global-composite

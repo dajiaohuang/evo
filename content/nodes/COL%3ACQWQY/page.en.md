@@ -1,5 +1,5 @@
-## Find historical rows through Phylloscartes in both crosswalks {#s-d3c4dbbe3a}
-Pinned COL26.8 organizes this page at Pogonotriccus lanyoni (CQWQY). BirdLife 2020 row 9035 uses the page name; eBird 2021 row 8338 gives Phylloscartes lanyoni, type 1BL to 1eBird, with both Avibase IDs equal to AVIBASE-565C6A2F; BirdTree row 8300 gives Phylloscartes lanyoni, type 1BL to 1BT. Catalogue synonym VN7QK, read in this batch, points to this accepted ID. Both crosswalks retain the same older generic combination, without a same-name eBird claim. Name and identifier correspondence does not establish identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-d3c4dbbe3a}
+Catalogue of Life release COL26.8 records Pogonotriccus lanyoni (G. R. Graves, 1988) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-abd8329c2c}
 Morphology comprises 3 birds: 2 female, 1 male and 0 unsexed; 3 complete sets. Nostril-to-tip beak length 6.6 mm, tarsus 14.2 mm, unflattened wing 50.5 mm, tail 45.5 mm and hand-wing index 16.8 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

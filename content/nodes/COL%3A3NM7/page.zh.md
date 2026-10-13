@@ -1,7 +1,9 @@
 ## 概览 {#s-2b74d6da8c}
 本阅读路径覆盖固定 COL26.8 灵长类名录中的七个 Chlorocebus 种级 ID：六篇新研究导读和既有的 C. sabaeus 页面。先读贝尔山猴在连续森林与残片间的食谱比较，再对照格里维猴和坦塔鲁斯猴的局地取食研究；随后阅读草原绿猴三群猴的游戏研究、Liuwa–Mussuma 景观中马布鲁克猴的相机陷阱记录，以及德赖斯猴的相机调查和分类说明；最后回到几内亚比绍的既有绿猴出现记录导读。各研究的时间、方法和证据类型不同；本路径不是全属生态综合或分类修订。
 
-## 按生活史字段选择对读页面 {#s-f0e3904ec7}
+## 记录分类与直接上级关系 {#s-f0e3904ec7}
+COL26.8 将 Chlorocebus Gray, 1870 记录为属；其直接上级记录为 Cercopithecini。
+
 Chlorocebus 的本批路线包含 6 条历史生活史导读，可从 Chlorocebus aethiops、Chlorocebus cynosuros、Chlorocebus djamdjamensis、Chlorocebus pygerythrus、Chlorocebus sabaeus 开始。较多条目具有的字段包括 成年体重（6 条）、雌性成熟字段（源定义为首次受孕年龄）（6 条）、每窝幼体数或卵数（6 条）、受孕或受精至出生的时间（6 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
 
 ## 沿食物、取食位置和活动时段对读 {#s-449701f5c9}

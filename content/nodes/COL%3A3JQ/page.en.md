@@ -1,4 +1,4 @@
-## Local data reading route {#s-f5d0feaead}
+## Recorded classification and member material {#s-f5d0feaead}
 This batch’s Mesitornithiformes route includes 3 measured species records. Start with Mesitornis unicolor, Mesitornis variegatus, Monias benschi. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-60c901377d}

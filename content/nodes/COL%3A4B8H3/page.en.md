@@ -1,41 +1,41 @@
-## Three historical records under one name {#s-f9ec810dad}
-COL26.8 accepts Otus fuliginosus in Strigidae. AVONET v7 lists 1 measured individual with 1 complete measurement set under the HBW–BirdLife 2020 name. The 2015 life-history archive and EltonTraits also contain historical records under this name; those matches do not prove that every source used the same species concept.
+## Row-reported mean and sample coverage {#s-f9ec810dad}
+The AVONET v7 row for Otus fuliginosus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 13.8 mm. The row records 1 measured individuals, 1 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Beak measurements from one individual {#s-679843612e}
-The AVONET record gives beak length as 13.8 mm from the front edge of the nostril to the tip, width as 7.3 mm and depth as 11.8 mm at the nostril edge. These are distinct measurements from a one-individual record, not field-identification cutoffs or a range of variation.
+## Beak measurements at defined landmarks {#s-679843612e}
+AVONET records culmen length (bill tip to skull base) 22.4 mm; beak length (nostril front edge to tip) 13.8 mm; beak width at the nostril front edge 7.3 mm; beak depth at the nostril front edge 11.8 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and a separately sourced mass {#s-0acf213823}
-The unflattened wing measurement, from the carpal joint to the longest primary, is 140.9 mm; tarsus length is 27.2 mm. The AVONET mass entry is 92 g, labelled Updated_literature. Mass comes from a separate source, so it does not show that the measured bird was weighed.
+## Wing and body measures use separate sources {#s-0acf213823}
+AVONET records unflattened wing length 140.9 mm; tarsus length 27.2 mm; distance from first secondary tip to longest primary tip 32.3 mm; length to first secondary tip 108.5 mm; hand-wing index 22.9; tail length 72.2 mm; species-average body mass 92 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Three broad AVONET ecology categories {#s-29788c8583}
-AVONET records Forest for habitat, Invertivore for trophic niche and Insessorial for primary lifestyle. The trophic-niche value is retained as a source label but is not interpreted here as a direct diet observation. Insessorial describes spending much time perched above ground on vegetation or other substrates. These broad categories do not mean that the owl uses only forest or feeds exclusively on invertebrates.
+## Recorded habitat and feeding categories {#s-29788c8583}
+AVONET classifies Otus fuliginosus as habitat Forest (tall, mostly closed-canopy vegetation); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Migration and historical map endpoints {#s-1984677dd7}
-The migration field labels the record sedentary. Historical breeding and resident maps span latitude endpoints 8.47° to 11.43°. They do not give a complete account of non-breeding movements or show current positions or global occupancy. The maps and measurements come from separate compilation steps.
+## Mapped range is not a locality list {#s-1984677dd7}
+Historical breeding and resident maps span latitude endpoints 8.47° to 11.43°. The mapped range area is 8606.99 km²; the source distinguishes it from extent of occurrence. These map fields are not a current locality or a complete account of non-breeding movements.
 
-## A separate entry in the 2015 life-history archive {#s-d0596f60a6}
-The August 2015 life-history archive has a same-name, same-family entry with 3 usable fields, each linked to a cited species-level row. These compiled summaries may inherit data across historical species or subspecies; a matching row name does not remove that limitation or establish equivalence with COL26.8.
+## Scope of the historical life-history entry {#s-d0596f60a6}
+The August 2015 database has a same-name, same-family record for Otus fuliginosus. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, longest lifespan record in the compilation; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Adult mass in the older compilation {#s-fdc8388e76}
-The archive reports adult body mass as 112 g, a median summary from 5 source values. The field may combine males, females and adults of unspecified sex, so it is not a species-wide range of individual masses. No birth or hatching mass is included here. This is a different compilation from AVONET's 92 g mass entry above.
+## Compiled adult-mass values {#s-fdc8388e76}
+The August 2015 compilation reports adult body mass 112 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## A combined litter-or-clutch field {#s-a3ef5a20cc}
-The combined litter-or-clutch field is 4 offspring or eggs, reported as the median of 3 source values. Because the field combines young per litter with eggs per clutch, it is not a count from one specified reproductive event. The archive does not provide reproductive or developmental durations here.
+## Reproductive fields describe different events {#s-a3ef5a20cc}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 4. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## The longest record is not a typical lifespan {#s-80051a0f6e}
-The archive's maximum_longevity_y value is 14.5 years, selected as the largest record found under its method. It is not a typical lifespan, mean lifespan in the wild, a limit for every individual or a record known to be repeatedly attainable today.
+## A maximum record is not typical lifespan {#s-80051a0f6e}
+The compilation lists 14.5 years as its largest longevity record. This is not typical lifespan or a survival limit for every individual.
 
-## The source labels behind the summaries {#s-10ee69ca8e}
-Source labels on the same-name rows include Dunning, 1992; Bennett, 1986; Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009; and Jetz, Sekercioglu, and Bohning-Gaese, 2008. The archive preserves each field's row number, value and label, as well as the reference table's full explanation. A label may point to a paper, book or another database. Row counts are not counts of measured birds, and repeated citations are not independent experiments.
+## Sources and field limits {#s-10ee69ca8e}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## One usable EltonTraits field group {#s-8d02330fd5}
-EltonTraits 1.0 contains one usable ecology field group for its historical same-name, same-family record of Otus fuliginosus. Its taxonomy may predate COL26.8; matching names do not resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-8d02330fd5}
+EltonTraits 1.0 has a same-name, same-family record for Otus fuliginosus covering foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative use of three feeding positions {#s-6c00aa64a3}
-The species-level foraging weights are 40% for the ground, 40% for understory, edges or shrubs below 2 m, and 20% for trees or tall bushes from 2 m upward but below the canopy. These estimate relative use of feeding positions, not nest sites, all habitat or time spent across the day. The source defines surface-water, understory, mid/high, canopy and aerial categories separately; they are not elevation bands and cannot be converted into flight heights or habitat area.
+## Foraging positions are not a time budget {#s-6c00aa64a3}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 40%; in the understory 40%; in mid-height or high vegetation 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Follow the EltonTraits citation label {#s-3946d2467d}
-The selected EltonTraits foraging group carries Ref_5 in the bird-source table, which identifies Handbook of the Birds of the World, volume 5 (1992–2011). Diet, foraging and activity may cite different material, and the same Ref number in bird and mammal tables need not identify the same source. The archive retains file, row, field-group and reference-table labels for tracing. The cited volume was not read here; a source label is not another observation.
+## Sources and field limits {#s-3946d2467d}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: foraging: Handbook of the Birds of the World vol.5.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-9ef5f5b935}
 AVONET v7 contains one measured individual with a complete measurement set, so its values do not describe a range of individual variation. The separate 92 g mass entry is not assigned the measurement sample size. Habitat, trophic niche and migration are broad categories; the map shows historical breeding and resident ranges. The historical one-to-one crosswalks support an association but do not prove the older and COL26.8 species concepts are equivalent. The trophic-niche label is retained but not interpreted; reproduction, current populations and conservation status need other sources.

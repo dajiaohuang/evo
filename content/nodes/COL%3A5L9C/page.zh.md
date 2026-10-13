@@ -1,4 +1,6 @@
-## 一个范围有限的属级阅读路线 {#s-7e3d83fd5e}
+## 记录分类与直接上级关系 {#s-7e3d83fd5e}
+COL26.8 将 Margaretamys 记录为属；其直接上级记录为 Murinae。
+
 固定版 COL26.8 将 Margaretamys 记录为接受属。本页链接的历史 EltonTraits 阅读路线指向三个名称条目：Margaretamys beccarii、Margaretamys elegans 和 Margaretamys parvus。三条都有觅食层位字段；这条路线没有食物类别权重或哺乳类活动时段字段。计数只描述这里收集的记录，不是该属成员的完整名册。路线中缺少某字段，也不表示动物没有相应行为。
 
 ## 本页能说明和不能说明的内容 {#s-31c6fad2eb}

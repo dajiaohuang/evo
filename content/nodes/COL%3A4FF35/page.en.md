@@ -1,5 +1,5 @@
-## Find rows through older Aimophila combinations {#s-549af4e728}
-Pinned COL26.8 organizes this page at Peucaea carpalis (4FF35). BirdLife 2020 row 6483 and eBird 2021 row 7619 share the name and Avibase ID AVIBASE-FC84F301, with type 1BL to 1eBird; BirdTree row 7581 gives Aimophila carpalis, with type 1BL to 1BT. The catalogue synonym 65V45 read for this batch points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-549af4e728}
+Catalogue of Life release COL26.8 records Peucaea carpalis Coues, 1873 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-8450bc7824}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 7.5 mm, tarsus 17.9 mm, unflattened wing 60.2 mm, tail 64.2 mm and hand-wing index 13.5 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

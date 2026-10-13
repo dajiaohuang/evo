@@ -1,5 +1,5 @@
-## Find rows through older Schizoeaca／Oreophylax combinations {#s-da887f2ad7}
-Pinned COL26.8 organizes this page at Asthenes perijana (DD9G8). BirdLife 2020 row 4206 and eBird 2021 row 1051 share the name and Avibase ID AVIBASE-2EC35E39, with type 1BL to 1eBird; BirdTree row 1052 gives Schizoeaca perijana, with type 1BL to 1BT. Read catalogue synonym VN7JB points to this accepted ID. Genus and ending changes locate sources without establishing identical species boundaries across dates.
+## A name fixed to COL26.8 {#s-da887f2ad7}
+Catalogue of Life release COL26.8 records Asthenes perijana (W. H. Phelps Jr, 1977) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-20eed51b00}
 Morphology comprises 6 birds: 3 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 9.5 mm, tarsus 22.6 mm, unflattened wing 59.4 mm, tail 110 mm and hand-wing index 11.9 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

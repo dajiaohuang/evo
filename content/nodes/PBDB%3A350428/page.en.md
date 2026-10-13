@@ -1,19 +1,44 @@
 ## Which fossil records this name represents {#s-aae36371e7}
 Palaeotherium lautricense is accepted in the fixed PBDB mammalia working roster, with database parent Palaeotherium. This guide uses 6 eligible species-level occurrence records from 6 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-36ee3defc4}
-Collection Montespieu, region code FR; database age bracket 41.03–37.71 Ma, early interval Bartonian. Collection Lautrec Propriété Caussé (Occitanie), region code FR, stratum name Castrais; database age bracket 41.03–37.71 Ma, early interval Bartonian. Collection La Millette (Midi-Pyrenees Region), region code FR; database age bracket 41.03–37.71 Ma, early interval Bartonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Palaeotherium lautricense is listed in the PBDB snapshot under taxon txn:350428. This archived guide contains 6 selected occurrence rows, linked to 6 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-c1aa132525}
-Selected occurrences have an outer age envelope of 41.03–37.71 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Montespieu, occurrence occ:1356620 (41.03–37.71 Ma); one supplying the younger bound is Montespieu, occurrence occ:1356620 (41.03–37.71 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-36ee3defc4}
+The archived guide contains 6 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-e81c503b2d}
-Montespieu has collection-environment label terrestrial indet.; collection preservation-mode label body. Lautrec Propriété Caussé has collection-environment label terrestrial indet.; collection preservation-mode label body. La Millette has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1356620; PBDB collection col:183349. Locality cnm=Montespieu; place fields cc2=FR. Recorded age bounds: eag 41.03 Ma; lag 37.71 Ma; PBDB interval fields oei=Bartonian. Recorded attribution Remy 2015; PBDB reference ref:61562.
 
-## Follow collection records back to references {#s-a29b0d3467}
-Montespieu carries database reference attribution Remy (2015), identifier ref:61562. Lautrec Propriété Caussé carries database reference attribution Remy (2015), identifier ref:61562. La Millette carries database reference attribution Remy (2015), identifier ref:61562. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Formation des Molasses de Saix et de Lautrec, Grès de Puech Auriol et de Venès
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Montespieu (locality close to Lautrec), Tarn, France
+
+- Occurrence occ:1356621; PBDB collection col:184178. Locality cnm=Lautrec Propriété Caussé; place fields cc2=FR, stp=Occitanie, cny=Tarn. Recorded age bounds: eag 41.03 Ma; lag 37.71 Ma; PBDB interval fields oei=Bartonian. Stratigraphic fields sfm=Castrais. Recorded attribution Remy 2015; PBDB reference ref:61562.
+
+- Occurrence occ:1356622; PBDB collection col:184166. Locality cnm=La Millette; place fields cc2=FR, stp=Midi-Pyrenees Region, cny=Tarn. Recorded age bounds: eag 41.03 Ma; lag 37.71 Ma; PBDB interval fields oei=Bartonian. Recorded attribution Remy 2015; PBDB reference ref:61562.
+
+## Age bounds on the recorded occurrences {#s-c1aa132525}
+Across these selected PBDB rows, the largest recorded eag=41.03 Ma in occ:1356620; the smallest recorded lag=37.71 Ma in occ:1356620. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-e81c503b2d}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1356620: PBDB original-identification field idn=Palaeotherium lautricense n. sp.; PBDB taxon-name field tna=Palaeotherium lautricense; material note ocm=MHNT PAL.2010.0.51; PBDB locality-coordinate fields lng=2.222222, lat=43.555000; paleocoordinate/model fields pm1=gplates, pln=7.29, pla=36.87.
+- occ:1356621: PBDB taxon-name field tna=Palaeotherium lautricense; PBDB locality-coordinate fields lng=2.139722, lat=43.706944; paleocoordinate/model fields pm1=gplates, pln=7.22, pla=37.03.
+- occ:1356622: PBDB taxon-name field tna=Palaeotherium lautricense; PBDB locality-coordinate fields lng=2.200000, lat=43.616669; paleocoordinate/model fields pm1=gplates, pln=7.27, pla=36.94.
+
+## References attached to each record {#s-a29b0d3467}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1356620: Recorded attribution Remy 2015; PBDB reference ref:61562.
+- occ:1356621: Recorded attribution Remy 2015; PBDB reference ref:61562.
+- occ:1356622: Recorded attribution Remy 2015; PBDB reference ref:61562.
 
 ## Evidence limits {#s-9bbc23fd3c}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 6 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

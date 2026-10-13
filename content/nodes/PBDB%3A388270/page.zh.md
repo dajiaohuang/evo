@@ -1,5 +1,5 @@
 ## 沿共同骨床转向两种翼龙 {#s-ace1c19eb8}
-打开 [Caiuajara dobruskii](../../../../../../../../../../../Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Neoazhdarchia/Tapejaroidea/Tapejaridae/Tapejarinae/Caiuajara/Caiuajara_dobruskii/page.zh.md) 的聚集与成长章节，再读 [Keresdrakon vilsoni](../../../../../../../../../../../Pterosauromorpha/Pterosauria/Pterodactyloidea/Azhdarchoidea/Tapejaromorpha/Keresdrakon/Keresdrakon_vilsoni/page.zh.md) 的关联正模与两件组织样本。2019 年研究报告三者在 A–C 骨床反复紧密关联；共同保存支持作者的共存解释，却没有独立确认同时死亡、具体捕食对象或正模骨骼全部属于单一个体。两种翼龙各自的材料范围不能补成本种缺失的头骨或完整骨架。
+打开 Caiuajara dobruskii 的聚集与成长章节，再读 Keresdrakon vilsoni 的关联正模与两件组织样本。2019 年研究报告三者在 A–C 骨床反复紧密关联；共同保存支持作者的共存解释，却没有独立确认同时死亡、具体捕食对象或正模骨骼全部属于单一个体。两种翼龙各自的材料范围不能补成本种缺失的头骨或完整骨架。
 
 ## 共存路线保留食物网假说 {#s-e4ae92d601}
 2019 年原研究讨论 Keresdrakon 可能食腐或捕食小动物，以及 Vespersaurus 可能捕食 Caiuajara；这些可能联系并非已观察的食物链。本页另列 2020 年骨组织研究，但生长标记不能直接证明吃过哪种动物。读者可沿三页比较保存、成长与取食推测，仍须保留每项研究自己的材料归属、年代与证据强度。
@@ -46,23 +46,41 @@ CP.V 2385 与 CP.V 4130 的外层皮质具有外基础系统（EFS），即多�
 ## 亲缘结果随不完整取样而变 {#s-5441367741}
 2019 年分析支持本种在 Noasaurinae 内的位置，但内部关系受到缺失材料与不稳定条目的限制。只有进一步删去部分条目后，缩减共识树才得到与 Velocisaurus 的姐妹群关系，这个节点支持仍低。本页保留原论文完整与缩减结果的区别，目录父链用于组织资料，没有替代矩阵重算或全部后续分类审查。
 
-## 这个名称对应哪些化石记录 {#s-8071471e15}
-Vespersaurus paranaensis 在固定 PBDB 恐龙及其鸟类分支工作名录中为接受种，数据库父级为 Vespersaurus。本页导读 1 条可用种级出现记录，涉及 1 个采集记录和 1 个引文编号。出现、采集和引文数量是三个层次，不等同于标本或个体数量。
+## 这组记录包含什么 {#s-8071471e15}
+Vespersaurus paranaensis 在 PBDB 快照中对应分类条目 txn:388270。这份存档导读包含 1 条选取的出现记录，关联 1 个不同的 PBDB 采集记录编号和 1 个不同的 PBDB 引文编号。出现记录与采集记录是不同单位；这两个数量都不等于标本数或个体数。此页聚焦一个具体问题：这些记录各自连到哪些地点、年代界、材料说明和引文？
 
-## 从具名采集地和地层开始 {#s-5dad8aee15}
-采集记录 Cemitério dos Pterossauros Quarry（Paraná），地区代码 BR，地层名称 Goio-Erê；数据库年代范围 121.4–72.2 Ma，早端地质时段 Aptian、晚端时段 Campanian。地点名、地区代码和地层名按来源保留；这不是整个物种的分布清单，地区出现也不证明其他地区缺席。
+## 具名地点与采集记录 {#s-5dad8aee15}
+存档导读包含 1 条出现记录，以下列出全部记录。每个 occ: 编号标识一条出现记录；col: 标识其关联的采集记录。
 
-## 这些记录的年代边界 {#s-0d4d078b2d}
-本页所选出现记录的年代外包区间为 121.4–72.2 Ma，Ma 表示百万年前。这个外界是所选记录早端最大值与晚端最小值的组合，不是所有时刻都有连续记录，也不是直接测得的物种起源、灭绝或个体寿命。每个采集记录保留自己的宽区间；本页未将宽时段压缩成精确标本年龄，未改写原研究的测年解释。
+- 出现记录 occ:1639163；PBDB 采集记录 col:160057。 地点字段 cnm=Cemitério dos Pterossauros Quarry；地点分区字段 cc2=BR，stp=Paraná。 记录年代界：eag 121.4 Ma; lag 72.2 Ma；PBDB 年代区间字段 oei=Aptian，oli=Campanian。 地层字段 sfm=Goio-Erê。 记录署名 Langer et al. 2019；PBDB 引文编号 ref:69278。
 
-## 保存环境与生活环境分开阅读 {#s-8e62ea4fd3}
-Cemitério dos Pterossauros Quarry 的采集环境标签为 interdune；集合保存方式标签为 实体化石（body）。这些是数据库对采集地和集合的记录，不据沉积环境给本种确定食性或栖地，也不把集合标签当作每件化石的保存描述。来源未填的字段继续为空。
+PBDB 存档字段 scm 原文（未翻译或解释）：
+The age of the fossil-bearing layer is uncertain, ranging from Aptian-Albian to Turonian-Campanian (see Kellner et al. 2019). 3 fossiliferous levels separated by 25 m, with bones apparently in each.
+
+PBDB 存档字段 ggc 原文（未翻译或解释）：
+Cemitério dos Pterossauros Quarry, in an outcrop along a rural road about 2 km N of Cruzeiro do Oeste municipality, Paraná State; "exposed at the overbanks of a secondary road (53° 03′ 53″W, 26° 45′ 34″S) about 2 km north of Cruzeiro do Oeste, Paraná, Brazil" (Fig. 1, Langer et al., 2019).
+
+## 出现记录的年代界 {#s-0d4d078b2d}
+在这组 PBDB 记录中，最大记录 eag=121.4 Ma，见 occ:1639163；最小记录 lag=72.2 Ma，见 occ:1639163。这些数值是具名数据库记录的年代界，不代表两者之间存在连续记录，也不是该物种的起源、灭绝或个体寿命日期。每条记录各自的 eag 与 lag 值见上文。
+
+## 材料与坐标字段 {#s-8e62ea4fd3}
+此页区分出现记录编号、采集记录编号和材料说明。PBDB 采集记录编号不是单件标本编号。来源行提供的鉴定、材料、丰度及坐标／模型字段照录如下；采集层级的说明不被扩展成对每件化石的断言。
+
+- occ:1639163：PBDB 原鉴定字段 idn=Vespersaurus paranaensis n. gen. n. sp.；PBDB 分类名称字段 tna=Vespersaurus paranaensis；材料说明字段 ocm=MPCO.V 0065d, postcranial remains, possibly belonging to one individual, incl. 3 trunk (MPCO.V 0065d10a-c), 3 sacral (MPCO.V 0065d6-8), & 3 tail (MPCO.V 0065d4-5,9) vertebrae, partial L ilium (MPCO.V 0065d11) & ischium (MPCO.V 0065d2), partial articulated R pes (MPCO.V 0065d1); 5 femora (CP.V 4136, 4142, 4206, 4264, 2277; 6 tibiae (CP.V 4312a, 4203, 4140, 4000, 4130, 2385)；丰度字段 abv=12，abu=individuals；PBDB 地点坐标字段 lng=-53.064720，lat=-26.776112；古坐标／模型字段 pm1=gplates，pln=-27.49，pla=-29.84。
 
 ## 沿采集记录追到文献 {#s-e77f72bc00}
 固定数据库保留 Langer et al.（2019）、ref:69278；共享引文保留原始描述十一位作者与选读范围，以及 2021 年材料比较讨论。另增 2020 年组织学七位作者、DOI 与完整主文读阅范围。图像、Morphobank 切片、2019 年其余解剖、补充矩阵及后续力学尚未检查或读齐，没有独立标本重归属或年龄重算。
+
+PBDB 出现记录补充:
+存档导读把这些记录关联到 1 个不同的 PBDB 引文编号，保留外部 ref: 命名空间。下列具名记录各自保留数据库署名、年份和引文编号；这些署名不等于完整文献综述。
+
+- occ:1639163：记录署名 Langer et al. 2019；PBDB 引文编号 ref:69278。
 
 ## 资料边界 {#s-0b717d76b2}
 原始描述选读、后续材料比较及 2020 年组织学主文各保留范围。材料归属、正模单一个体假定、孤立牙齿、功能单趾与造迹者仍有未决条件；十一件骨不提供完整配对个体。组织年龄依赖外推、新生尺寸与计数约定，股骨／胫骨成熟分歧未消除。原论文地层解释与固定数据库宽区间并列；全部解剖、图像、切片库、补充矩阵及后续研究尚未汇齐，未独立鉴定、年龄重算或力学复核。完整专论与读者端交付仍未完成。
 
 比较路线另复用已读 2019 年共同骨床与 2020 年恐龙组织学主文；其取样和模型仅用于相应成员，没有据横向链接完成全部遗址动物或所有成长研究。
+
+PBDB 出现记录补充:
+此页导读的是 2026-10-02 快照中的 1 条 PBDB 选取出现记录，不是物种专论。地点和年代区间描述的是数据库记录，不能据此推出完整地理分布、连续存在的时间范围、生态、行为或种群大小。采集记录编号、出现记录编号、标本说明及来源明确给出的丰度单位彼此区分。地点坐标字段与古坐标／模型字段仍按不同来源字段保留。所列引文署名不代表已完成全文审读。
 

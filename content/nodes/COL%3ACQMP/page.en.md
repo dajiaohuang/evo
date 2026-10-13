@@ -1,18 +1,18 @@
-## Three traits define the available account {#s-12481aa0e3}
-The COL26.8 catalogue accepts Ameivula xacriaba in Teiidae. The linked ReptTraits record supports a maximum snout–vent length, a terrestrial microhabitat label and an oviparous mode. It does not establish a full profile of this species’ daily life.
+## COL26.8 name and the ReptTraits row {#s-12481aa0e3}
+COL26.8 records Ameivula xacriaba as an accepted species. The ReptTraits v1-2 row gives its Family field as Teiidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## The 70.2 mm maximum leaves out the tail {#s-94ac365b8d}
-The reported maximum snout–vent length is 70.2 mm, measured from snout to body opening rather than tail tip. This is a maximum in compiled material, not a typical size or the limit of growth for every individual.
+## Length values in the archived records {#s-94ac365b8d}
+The row reports a maximum SVL of 70.2 mm. ReptTraits attributes this field to Meiri 2018.
 
-## A terrestrial category without a named habitat {#s-67b88ed0ce}
-The row classifies its microhabitat as terrestrial. That broad label suggests land use but does not identify vegetation, substrate, locality or daily activity; the corresponding diet and activity fields are not established here.
+## Habitat use and activity labels {#s-67b88ed0ce}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018.
 
-## Egg laying, without clutch counts {#s-4c76affca1}
-The reproductive-mode field is oviparous, or egg-laying. No clutch/litter number is supported by the field-specific citations used here, so the account leaves reproductive output open rather than borrowing a value from a related species.
+## Reproductive fields in ReptTraits {#s-4c76affca1}
+The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Only a few other fields are supported {#s-cdd1a07126}
-This record does not establish sex-specific or total length, diet, daily activity, foraging, or clutch/litter details. Those gaps define the scope of this page; they do not mean the animal lacks the traits.
+## Reading this compiled trait record {#s-cdd1a07126}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 
-## A deliberately narrow record {#s-4756cad39f}
-The trait row retains the workbook’s 2023 taxonomic framework, while COL26.8 supplies the accepted placement. Matching names do not settle equivalence of historical and current concepts. This one-row account also compresses sex, age, locality and population differences; current range and conservation are not updated.
+## Reading this compiled trait record {#s-4756cad39f}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

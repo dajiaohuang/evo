@@ -1,18 +1,36 @@
 ## Which fossil records this name represents {#s-d7641bec61}
 Turnersuchus hingleyae is accepted in the fixed PBDB crocodylomorph working roster, with database parent Turnersuchus. This guide uses 1 eligible species-level occurrence record from 1 collection and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-046bf3650b}
-Collection 1km west of Charmouth Heritage Coast Centre (England), region code UK, stratum name Charmouth Mudstone; database age bracket 192.9–184.2 Ma, early interval Pliensbachian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Turnersuchus hingleyae is listed in the PBDB snapshot under taxon txn:467626. This archived guide contains 1 selected occurrence rows, linked to 1 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-cbff6dc32b}
-Selected occurrences have an outer age envelope of 192.9–184.2 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+## Named localities and collection records {#s-046bf3650b}
+The archived guide contains 1 occurrence row; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-0b80500362}
-1km west of Charmouth Heritage Coast Centre has collection-environment label marine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1620006; PBDB collection col:229115. Locality cnm=1km west of Charmouth Heritage Coast Centre; place fields cc2=UK, stp=England, cny=Charmouth. Recorded age bounds: eag 192.9 Ma; lag 184.2 Ma; PBDB interval fields oei=Pliensbachian. Stratigraphic fields sfm=Charmouth Mudstone. Recorded attribution Wilberg et al. 2023; PBDB reference ref:83838.
 
-## Follow collection records back to references {#s-5ea20c103d}
-1km west of Charmouth Heritage Coast Centre carries database reference attribution Wilberg et al. (2023), identifier ref:83838. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+"Uptonia jamesoni chronozone of the Belemnite Marl Member of the Charmouth Mudstone (Lower Jurassic, Pliensbachian)." - Wilberg et al. (2023)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+"Recovered as eroded material adjacent to the beach approximately one kilometer west of the Charmouth Heritage Coast Centre, Charmouth, Bridport DT6 6LL, U.K." - Wilberg et al. (2023)
+
+## Age bounds on the recorded occurrences {#s-cbff6dc32b}
+Across these selected PBDB rows, the largest recorded eag=192.9 Ma in occ:1620006; the smallest recorded lag=184.2 Ma in occ:1620006. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-0b80500362}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1620006: PBDB original-identification field idn=Turnersuchus hingleyae n. gen. n. sp.; PBDB taxon-name field tna=Turnersuchus hingleyae; material note ocm=Holotype: LYMPH 2021/45, partial skull, partial mandible, cervical and dorsal vertebrae in articulation and isolated caudal vertebrae, cervical and dorsal ribs, right pectoral girdle (right scapula and partial right coracoid), partial right humerus, ulna, partial tibia, one dorsal osteoderm; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=-2.921145, lat=50.734440; paleocoordinate/model fields pm1=gplates, pln=13.6, pla=39.
+
+## References attached to each record {#s-5ea20c103d}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1620006: Recorded attribution Wilberg et al. 2023; PBDB reference ref:83838.
 
 ## Evidence limits {#s-10610c17b2}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 672-item crocodylomorph working roster, retain the current same name and a complete parent chain to the recorded Crocodylomorpha storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 1 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

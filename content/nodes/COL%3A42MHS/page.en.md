@@ -5,5 +5,5 @@ A 2023 south-central Amazonia account used two previously reported localities an
 The same paper proposed from locality records and regional geomorphology that the Acarí River headwaters might be a contact zone for the Acarí marmoset, Mico chrysoleucos and M. melanurus, where hybridization could occur. It did not report observed hybrids or gene flow; the authors called for further surveys, specimens and samples to establish whether the contact zone exists.
 
 ## Evidence limits {#s-fe4fbf7209}
-Source-linked introduction;. The range is a regional delineation based on a few occurrence records; the possible contact zone and hybridization remain hypotheses without documented hybrids or gene flow.
+. The range is a regional delineation based on a few occurrence records; the possible contact zone and hybridization remain hypotheses without documented hybrids or gene flow.
 

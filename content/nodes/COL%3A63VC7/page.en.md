@@ -1,4 +1,6 @@
-## Start with sourced trait records {#s-b5edf8cd6d}
+## Recorded classification and direct parent {#s-b5edf8cd6d}
+COL26.8 records Tenuidactylus at genus rank, with Gekkonidae as its direct parent.
+
 This batch’s ReptTraits route for Tenuidactylus includes 8 same-name, same-family entries with trait-specific citations. Start with Tenuidactylus bogdanovi, Tenuidactylus caspius, Tenuidactylus dadunensis, Tenuidactylus elongatus, Tenuidactylus fedtschenkoi. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
 
 ## Read the definition before comparing {#s-5ec66427a0}
@@ -7,10 +9,10 @@ Among size records in this batch, Tenuidactylus dadunensis has a reported maximu
 ## Citation gaps in some descendant accounts {#s-9576ae3747}
 In this ReptTraits route, some fields in 1 authored species accounts await citation-scope review. Affected fields are withheld from definite trait prose and listed on the species pages with their citation labels. Route counts represent data accounts, not complete trait coverage.
 
-## Choose comparison pages by life-history fields {#s-94b2382a9f}
+## Amniote Life-history archive member records {#s-94b2382a9f}
 This batch’s Tenuidactylus route includes 2 historical life-history accounts; start with Tenuidactylus caspius, Tenuidactylus fedtschenkoi. More frequently represented fields include adult body mass (2 entries), offspring per litter or eggs per clutch (2 entries), mass at birth or hatching (2 entries), oviposition to hatching (2 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
-## Evidence limits {#s-1e8985d1aa}
+## Limits attached to these records {#s-1e8985d1aa}
 This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
-This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history. Complete biology and current status remain unfinished;
+This route covers this batch’s historical same-name, same-family entries with at least three source-supported focal fields, not a complete descendant catalogue. Compilation medians, maximum-lifespan records and historical taxonomic inheritance retain their limits. A group route does not imply that all descendants share a reproductive mode or life history.
 

@@ -1,29 +1,29 @@
-## Name and sample {#s-e79a28ab74}
-COL26.8 accepts Pterodroma baraui in Procellariidae. The AVONET v7 measurements use the dataset’s HBW–BirdLife 2020 name. AVONET records one measured individual, with a complete morphological set for one bird; the usable count can still differ from trait to trait.
+## Row-reported mean and sample coverage {#s-e79a28ab74}
+The AVONET v7 row for Pterodroma baraui (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 24.8 mm. The row records 1 measured individuals, 1 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-2f706e799f}
-The recorded mean beak length is 24.8 mm, measured from the front edge of the nostril to the tip. At that same landmark, mean width is 9 mm and mean depth is 9.6 mm. These are separate measurements at standardized points, not field-identification thresholds.
+## Beak measurements at defined landmarks {#s-2f706e799f}
+AVONET records culmen length (bill tip to skull base) 32.1 mm; beak length (nostril front edge to tip) 24.8 mm; beak width at the nostril front edge 9 mm; beak depth at the nostril front edge 9.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-2d298a97e4}
-Mean unflattened wing length, from the wrist joint to the longest primary feather, is 269 mm; mean tarsus length is 35 mm. The compiled mean mass is 400 g and carries the source category Dunning. Mass comes from a separate species-average source, so it does not show that the bird measured for morphology was weighed.
+## Wing and body measures use separate sources {#s-2d298a97e4}
+AVONET records unflattened wing length 269 mm; tarsus length 35 mm; distance from first secondary tip to longest primary tip 156 mm; length to first secondary tip 113 mm; hand-wing index 58; tail length 113 mm; species-average body mass 400 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-76f8c83076}
-AVONET assigns this record to the Marine habitat, Aquatic predator trophic niche and Aerial lifestyle categories. These broad labels help compare species; they do not mean the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-76f8c83076}
+AVONET classifies Pterodroma baraui as habitat Marine (marine or near-shore waters); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aerial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-dfb4dba7b8}
-The migration field classifies the record as partially migratory. Historical breeding and resident maps extend between latitude endpoints −44.37° and 4.93°. They do not show all non-breeding movements or current global occupancy. The map and the morphological measurements come from separate compilation steps.
+## The migration label has a limited scope {#s-dfb4dba7b8}
+Migration code 2 classifies the record as partly migratory. Historical breeding and resident maps span latitude endpoints -44.37° to 4.93°. The mapped range area is 26305029.88 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## A second, historical ecology record {#s-8259f6bda4}
-EltonTraits 1.0 also has a record under this name and family, with source information for diet and foraging position. It follows historical bird taxonomy. A matching name does not settle modern species splits or synonym disputes, so this is a comparison of records rather than proof that their species concepts are identical.
+## Scope of the historical trait entry {#s-8259f6bda4}
+EltonTraits 1.0 has a same-name, same-family record for Pterodroma baraui covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-4c812abc30}
-The archive assigns 80% of the food weight to invertebrates and 20% to fish. Source code B means the source is considered reasonably reliable, while the relative proportions may still be uncertain. The percentages standardize verbal descriptions; they are not measured diet composition. A zero in another category would not prove that the bird never eats it, and broad fields such as Nect, Seed and PlantO cannot be read as exclusive diets of nectar, seeds or plants.
+## Relative weights across food categories {#s-4c812abc30}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 80%; fish 20%. Its dominant five-category label is Invertebrate. Code B marks a reasonably reliable source, though relative proportions may be uncertain. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-e30fccc49b}
-The archive marks these foraging-stratum values as species-level: 80% on or just below the water surface and 20% below it. They estimate the relative use of feeding positions, not nest sites, all habitat or time spent throughout the day. The source’s surface-water, understory, mid/high, canopy and aerial categories have different definitions; they are not elevation bands and cannot show flight height or habitat area.
+## Foraging positions are not a time budget {#s-e30fccc49b}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 20%; around the water surface 80%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-6dd373c6d1}
-Both field groups carry the label Ref_1. Diet, foraging position and activity can draw on different material, and the same reference number in bird and mammal tables need not mean the same source. The record preserves the original strings with their file, row, field group and reference table. The underlying books and papers were not individually read for this account; a source label is not an additional observation.
+## Sources and field limits {#s-6dd373c6d1}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-6ef4952e32}
 The AVONET measurements are averages from the listed sample, not identification diagnoses or ranges of individual variation. Mass comes from separate species-average information, so the morphology sample count does not apply to it. Habitat, diet and migration are broad categories; the map covers historical breeding and resident ranges. The name crosswalk links historical records but does not prove that their species concepts remained equivalent through later splits or lumps. Reproduction, current populations and conservation status need other sources.

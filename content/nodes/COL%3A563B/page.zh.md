@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-fb9fb0dc9f}
+## 记录分类与直接上级关系 {#s-fb9fb0dc9f}
+COL26.8 将 Jacamaralcyon 记录为属；其直接上级记录为 Galbulidae。
+
 本批 Jacamaralcyon 的 AVONET 路线有一条测量物种记录：Jacamaralcyon tridactyla。固定 COL26.8 将其归入本属；AVONET 保留该记录的历史名称与范围。
 
 ## 记录之间有什么差别 {#s-25e3f113cc}

@@ -1,5 +1,5 @@
-## An older record of feeding and activity {#s-36c9b98847}
-COL26.8 accepts Maxomys alticola in the family Muridae. EltonTraits 1.0 has an older same-name, same-family entry with fields for diet, foraging position and activity. Its taxonomy follows an earlier scheme; the name match does not settle later splits or synonym disputes.
+## Diet weights, foraging stratum and activity flags in the compilation {#s-36c9b98847}
+The EltonTraits 1.0 record for *Maxomys alticola* contains the diet weights, foraging stratum, activity flags. The selected diet fields give literature-standardized relative weights of invertebrates 10%, unspecified vertebrates 10%, fruit 30%, seeds, nuts and spores 20%, other plant material, including fungi 30% (confidence code ABC). The foraging-stratum field assigns the ground category (compiler confidence code A). This is a category assignment, not a share of time or proof of exclusive use. Activity flags mark night activity (confidence code ABC); the flags are not proportions of a daily time budget. Diet weights standardize literature descriptions rather than measure food intake; mammalian ABC entries can include inference from a congener. Source comments and compiler confidence remain attached to the foraging category. The historical same-name entry does not establish that every field is a direct observation of the pinned COL26.8 concept for *Maxomys alticola*.
 
 ## Weights assigned to food descriptions {#s-1c805402df}
 EltonTraits assigns 30% to fruit, 30% to other plant material (including fungi in the source category), 20% to seeds, nuts and spores, 10% to invertebrates and 10% to unspecified vertebrates. These weights standardize written descriptions; they are not measured shares of food intake. The ABC code combines high, reasonable and partial confidence, and an estimate may use a related species in the same genus judged ecologically similar. The weights therefore are not all direct observations of Maxomys alticola. A zero weight would not prove that a food is never eaten.
@@ -13,11 +13,13 @@ EltonTraits marks nocturnal activity as 1. Several activity fields can be 1 toge
 ## Following the EltonTraits source labels {#s-6468088b76}
 The fields carry the labels Ref_1 and metadata:Nowak1999. Diet, position and activity can come from different material, and a Ref number in the bird table does not necessarily identify the same work as that number in the mammal table. Original labels are retained by file, row and field group. The underlying books and papers have not been individually read, so these labels are trace information, not additional observations.
 
-## Life-history evidence limits {#s-64f3ae08a2}
-This page reads two historical sources with different scopes. EltonTraits 1.0 converts literature descriptions into food weights and categorical fields; its ABC diet or activity codes can include material from a related species in the same genus. These are not all direct observations of Maxomys alticola, and the underlying books and papers have not been individually read. PanTHERIA 1.0 reports consolidated measurements from its 2008 table. Neither table establishes that its older taxonomic concept is equivalent to COL26.8. The map-derived values are not a current distribution or population estimate. Current ecology and conservation require other sources.
+## How to interpret these historical records {#s-64f3ae08a2}
+EltonTraits fields summarize selected literature-derived categories; unselected or withheld groups remain unspecified, and missing values are not zeros.
 
-## A second historical dataset {#s-733e98bfa1}
-PanTHERIA 1.0 links this record through the MSW05 name in its August 2008 table; MSW05 is a historical mammal classification. Its biological data gathering ended in June 2004. This name association does not resolve later taxonomic changes.
+PanTHERIA values come from a historical MSW05 entry. Its supplied MSW93/MSW05 name crosswalk does not establish equivalence with the pinned COL26.8 concept.
+
+## Adult body mass and adult head–body length in the historical table {#s-733e98bfa1}
+The August 2008 PanTHERIA row for *Maxomys alticola* records adult body mass 158.96 g; adult head–body length 167.5 mm. Adult body mass and head–body length are sex-adjusted medians. The mass field may include adults or age-unspecified animals but excludes pregnant females. Head–body length excludes the tail. The MSW93/MSW05 historical name crosswalk does not establish equivalence with the pinned COL26.8 concept for *Maxomys alticola*.
 
 ## Consolidated body-size values {#s-20d27248bb}
 The table reports adult body mass of 158.96 g and adult head–body length of 167.5 mm. The values were adjusted for sex and then summarized by medians. The mass field can include adults or animals of unspecified age but excludes pregnant females; head–body length excludes the tail. These are historical summaries, not measurements of one specimen or the limits of a species-wide range.

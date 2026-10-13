@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-60d3ca510c}
+## 记录分类与直接上级关系 {#s-60d3ca510c}
+COL26.8 将 Graydidascalus 记录为属；其直接上级记录为 Psittacidae。
+
 AVONET v7 资料中有一种 Graydidascalus 鸟类的测量记录：G. brachyurus。页面层级按固定 COL26.8 组织，生物学数值仍保留原来源名称与采样范围。
 
 ## 记录之间有什么差别 {#s-fd1074268c}

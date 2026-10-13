@@ -1,19 +1,53 @@
 ## Which fossil records this name represents {#s-55726f923d}
 Argyromys cicigei is accepted in the fixed PBDB mammalia working roster, with database parent Argyromys. This guide uses 3 eligible species-level occurrence records from 3 collections and 1 reference identifier. Occurrences, collections and references are different units, not specimen or individual counts.
 
-## Begin with named collections and strata {#s-b063bb2347}
-Collection Ulantatal (UTL1) (Nei Mongol), region code CN, stratum name Ulantatal; database age bracket 33.9–27.3 Ma, early interval Early Oligocene. Collection Ulantatal (UTL7) (Nei Mongol), region code CN, stratum name Ulantatal; database age bracket 27.3–23.04 Ma, early interval Late Oligocene. Collection Taatsiin Gol West, TGW-A/2a, region code MN, stratum name Hsanda Gol; database age bracket 27.3–23.04 Ma, early interval Late Oligocene. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Argyromys cicigei is listed in the PBDB snapshot under taxon txn:351504. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 1 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-38fd999b60}
-Selected occurrences have an outer age envelope of 33.9–23.04 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Ulantatal (UTL1), occurrence occ:1308155 (33.9–27.3 Ma); one supplying the younger bound is Ulantatal (UTL7), occurrence occ:1308175 (27.3–23.04 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-b063bb2347}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Read preservation setting separately from living habitat {#s-8a312c36ce}
-Ulantatal (UTL1) has collection-environment label terrestrial indet.; collection preservation-mode label body. Ulantatal (UTL7) has collection-environment label terrestrial indet.; collection preservation-mode label body. Taatsiin Gol West, TGW-A/2a has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:1308155; PBDB collection col:175406. Locality cnm=Ulantatal (UTL1); place fields cc2=CN, stp=Nei Mongol. Recorded age bounds: eag 33.9 Ma; lag 27.3 Ma; PBDB interval fields oei=Early Oligocene. Stratigraphic fields sfm=Ulantatal. Recorded attribution López-Guerrero et al. 2017; PBDB reference ref:62009.
 
-## Follow collection records back to references {#s-8996423eda}
-Ulantatal (UTL1) carries database reference attribution López-Guerrero et al. (2017), identifier ref:62009. Ulantatal (UTL7) carries database reference attribution López-Guerrero et al. (2017), identifier ref:62009. Taatsiin Gol West, TGW-A/2a carries database reference attribution López-Guerrero et al. (2017), identifier ref:62009. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Ulan I (late Early Oligocene)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+The Ulantatal area is about 60 km north of the small town of Bayanhaote, Alxa Zuoqi, Inner Mongolia
+
+- Occurrence occ:1308175; PBDB collection col:175411. Locality cnm=Ulantatal (UTL7); place fields cc2=CN, stp=Nei Mongol. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Late Oligocene. Stratigraphic fields sfm=Ulantatal. Recorded attribution López-Guerrero et al. 2017; PBDB reference ref:62009.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Ulan II (late Oligocene)
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+The Ulantatal area is about 60 km north of the small town of Bayanhaote, Alxa Zuoqi, Inner Mongolia
+
+- Occurrence occ:1360492; PBDB collection col:180971. Locality cnm=Taatsiin Gol West, TGW-A/2a; place fields cc2=MN. Recorded age bounds: eag 27.3 Ma; lag 23.04 Ma; PBDB interval fields oei=Late Oligocene. Stratigraphic fields sfm=Hsanda Gol. Recorded attribution López-Guerrero et al. 2017; PBDB reference ref:62009.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Biozone C sensu Höck et al. 1999
+
+## Age bounds on the recorded occurrences {#s-38fd999b60}
+Across these selected PBDB rows, the largest recorded eag=33.9 Ma in occ:1308155; the smallest recorded lag=23.04 Ma in occ:1308175. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-8a312c36ce}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1308155: PBDB taxon-name field tna=Argyromys cicigei; material note ocm=IVPP V17652.1; PBDB locality-coordinate fields lng=105.569443, lat=39.195831; paleocoordinate/model fields pm1=gplates, pln=102.57, pla=36.98.
+- occ:1308175: PBDB taxon-name field tna=Argyromys cicigei; material note ocm=IVPP V17653.1; PBDB locality-coordinate fields lng=105.569443, lat=39.195831; paleocoordinate/model fields pm1=gplates, pln=102.67, pla=37.07.
+- occ:1360492: PBDB original-identification field idn=Argyromys cicigei n. sp.; PBDB taxon-name field tna=Argyromys cicigei; material note ocm=NHMW 2015/0312/0001 - type; referred material: NHMW 2015/0312/0002-0013; PBDB locality-coordinate fields lng=101.243332, lat=45.385834; paleocoordinate/model fields pm1=gplates, pln=98.02, pla=43.3.
+
+## References attached to each record {#s-8996423eda}
+The archived guide links the rows to 1 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1308155: Recorded attribution López-Guerrero et al. 2017; PBDB reference ref:62009.
+- occ:1308175: Recorded attribution López-Guerrero et al. 2017; PBDB reference ref:62009.
+- occ:1360492: Recorded attribution López-Guerrero et al. 2017; PBDB reference ref:62009.
 
 ## Evidence limits {#s-956ffe6011}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

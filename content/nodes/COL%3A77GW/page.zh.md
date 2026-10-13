@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-6f2642d599}
+## 记录分类与直接上级关系 {#s-6f2642d599}
+COL26.8 将 Redunca 记录为属；其直接上级记录为 Reduncini。
+
 PanTHERIA 的 Redunca 路线包含 3 条可用历史记录：Redunca arundinum、Redunca fulvorufula 和 Redunca redunca。条目保留来源中的 MSW05 名称及各字段覆盖范围；这 3 条不是现代物种分母。
 
 ## 比较体型与生活史 {#s-830f0f94ce}
@@ -14,7 +16,7 @@ EltonTraits 收录 3 条 Redunca 历史记录，每条都有食物类别权重�
 PanTHERIA、生活史和 EltonTraits 路线都只覆盖选定的历史条目，并非所有现生后代。生活史数值除最长寿命纪录外均为平均或中位数；历史分类单元之间可能继承数据，来源条件也各异。EltonTraits 代码概括文献描述，可能参考同属种的字段不等于对每个名称对象的直接观察。历史名称关联不能证明与当前 COL26.8 概念相同。
 
 ## 沿生活史资料阅读 {#s-fd64177718}
-Ernest（2003）路线链接 3 条历史记录：[Redunca arundinum](Redunca_arundinum/page.zh.md)、[Redunca redunca](Redunca_redunca/page.zh.md) 和 [Redunca fulvorufula](Redunca_fulvorufula/page.zh.md)。这些是本批已写的页面。
+Ernest（2003）路线链接 3 条历史记录：Redunca arundinum、Redunca redunca 和 Redunca fulvorufula。这些是本批已写的页面。
 
 ## 先区分平均值与纪录 {#s-1d69c1e480}
 妊娠时长见于 3 条记录，雌性首次繁殖年龄见于 2 条，最高寿命见于 2 条。首次繁殖指可能受孕的年龄；最长寿命是纪录而不是平均值。

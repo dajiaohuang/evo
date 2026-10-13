@@ -1,14 +1,14 @@
-## Read this historical record through food and foraging position {#s-2dcd023ce6}
-COL26.8 accepts Pterodroma hasitata within Procellariidae. EltonTraits 1.0 records 2 ecological field groups under an earlier bird classification or the MSW3 mammal taxonomy. The name match supports a historical comparison, but does not settle later splits or synonymies.
+## Scope of the historical trait entry {#s-2dcd023ce6}
+EltonTraits 1.0 has a same-name, same-family record for Pterodroma hasitata covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-3953f5bb7c}
-The archive’s nonzero food weights are invertebrates 50%; fish 50%. Source code B indicates reasonable source confidence with potentially uncertain relative proportions. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+## Relative weights across food categories {#s-3953f5bb7c}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 50%; fish 50%. Its dominant five-category label is Omnivore. Code B marks a reasonably reliable source, though relative proportions may be uncertain. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-f1a5c88304}
-Foraging-stratum weights flagged as species-level in the archive are on or just below the water surface 80%; below the water surface 20%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+## Foraging positions are not a time budget {#s-f1a5c88304}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 20%; around the water surface 80%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-4a66d7d38d}
-The source labels for these fields are Ref_1. Diet, feeding position, and activity may draw on different works, so the same Ref number in bird and mammal tables does not identify the same source. The archive links each label to its file, row, field group, and reference table; these labels are not independent observations.
+## Sources and field limits {#s-4a66d7d38d}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Life-history evidence limits {#s-ea35cbcbc9}
 EltonTraits 1.0 compiles historical foraging descriptions under earlier names and family assignments. A same-name, same-family match supports comparison with the COL26.8 record but does not prove that the historical and current species concepts are identical. Food and bird foraging-stratum percentages are standardized relative weights from descriptions, not measurements of intake, stomach contents, energy use or time budgets. Bird A/B diet codes retain uncertainty in source and relative proportions; mammal ABC food or activity fields may draw on a congener judged ecologically similar. Genus- or family-level typical values, non-species-level strata and records affected by taxonomic splits do not support species-level conclusions. These data describe the listed fields, not complete ecology, current distribution, population or conservation status.

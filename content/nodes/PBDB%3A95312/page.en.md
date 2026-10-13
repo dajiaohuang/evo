@@ -12,8 +12,8 @@ Three imaged fossils anchor this route through early lepidosaur history. Megachi
 
 The cited analyses place Megachirella and Bellairsia on the squamate stem and Taytalura among early-diverging stem lepidosauromorphs. A stem placement means a fossil lies on the branch leading toward a living group, outside that group’s crown; it does not identify a direct ancestor. The route records anatomy and matrix-dependent relationships, not a shared diet or habitat for Lepidosauria.
 
-## atlas-profile / overview {#s-e5e678a0f6}
-The lepidosaur route links CT-resolved specimens that illuminate early lepidosauriform and squamate anatomy: Megachirella is recovered on the squamate stem, Taytalura as an early-diverging stem lepidosauromorph, and Bellairsia on the squamate stem in the cited analyses. Each placement is matrix- and specimen-bounded.
+## Three imaged fossils on two stem branches {#s-e5e678a0f6}
+CT-resolved Megachirella and Bellairsia fall on the squamate stem, while Taytalura is an early stem lepidosauromorph; placements depend on matrix.
 
 ## atlas-profile / ecology / diet {#s-d900edd523}
 No taxon-wide diet is established by the cited skull and skeleton studies; this field remains unresolved.
@@ -39,6 +39,6 @@ Taytalura PVSJ 698 preserves a three-dimensionally exposed skull with CT-resolve
 ## atlas-profile / traits {#s-75d6a68551}
 Bellairsia NMS G.2022.1.1 was examined with synchrotron tomography and tested as a stem squamate
 
-## atlas-profile / evidenceSummary {#s-1f8fb280f2}
-Simões et al., Martínez et al. and Tałanda et al. provide named specimens, imaging methods and explicit analytical placements across the lepidosaur route. The profile does not convert any stem specimen into a direct ancestor, crown FAD or global ecological history.
+## Three fossils and matrix-dependent positions {#s-1f8fb280f2}
+Named specimens and imaging studies support these matrix-dependent positions, not direct ancestors, crown first appearances or global ecological histories.
 

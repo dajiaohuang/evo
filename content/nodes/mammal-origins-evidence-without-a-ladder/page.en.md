@@ -1,24 +1,24 @@
-## Seven evidence boundaries from synapsids to mammals {#s-611fea733d}
-Follow named specimens, CT datasets, character matrices and living experiments while keeping anatomy, topology, function, crown membership and time explicitly separate.
+## Seven records test different questions about mammal origins {#s-611fea733d}
+A neural spine, partial snout, CT-scanned jaws, separate Jurassic fossils and living developmental experiments each illuminate one part of the evidence. Together they are not a row of direct ancestors.
 
-## One referred spine, not a finished sail {#s-888d32dfb9}
-ROM VP 83326 records striking neural-spine elongation in a referred early synapsid. Missing surrounding anatomy prevents the specimen from fixing whole-body proportions, function or a lineage-wide first appearance.
+## A tall spine survives; most of the skeleton does not {#s-888d32dfb9}
+ROM VP 83326 was referred to Echinerpeton by comparison with paratype RM 10057 and the type-series casts and photographs. Its neural spine is at least 7 cm tall and about 2.3 mm wide, but the centrum and most of the skeleton are missing; the 308.5–305.5 Ma interval dates the formation envelope, not this specimen, and proposed display or heat-regulation functions remain hypotheses.
 
-## A fragment enters a character matrix {#s-6aa3674429}
-The partial snout IVPP V15424 was recovered beside the remaining sampled therapsids in one 71-character analysis. That topology is reproducible evidence, not direct ancestry or a precisely dated origin event.
+## A partial snout enters a 71-character test {#s-6aa3674429}
+The partial snout IVPP V15424 was scored in a 71-character analysis and grouped with the other sampled therapsids. That topology is a result of the matrix, not direct ancestry; the Dashankou sequence lacks reliable radiometric control, so its broad 274.4–264.28 Ma display interval cannot fix a precise therapsid origin.
 
-## Two cynodont samples reject a simple ladder {#s-d1b1dfc854}
-Riograndia has dentary–squamosal contact while the nine-specimen Brasilodon sample lacks it. The distribution supports iterative acquisition, and contact alone neither creates a crown mammal nor proves modern joint function.
+## Two jaw samples break the one-way story {#s-d1b1dfc854}
+Micro-CT comparisons of 26 specimens found dentary–squamosal contact in Riograndia, while the nine sampled Brasilodon specimens lack it. The distribution supports repeated acquisition of this contact; it is not a complete mammalian jaw joint, proof of modern joint function or a crown-mammal label.
 
-## Crown membership is a tested topology {#s-5eb9901b86}
-CT anatomy and wear from MCZ7/95A–B and MCZ10/G95 reshaped a published matrix that placed Haramiyavia outside crown Mammalia. The placement belongs to that analysis, while the jaw surface only indirectly supports auditory anatomy.
+## CT anatomy changes a matrix, not the fossil {#s-5eb9901b86}
+CT scans of mandibles MCZ7/95A–B and maxilla MCZ10/G95, plus reconstructed tooth wear, informed a revised character matrix that placed Late Triassic Haramiyavia outside crown Mammalia. The placement belongs to that analysis; a postdentary trough supports an ear interpretation, but the auditory bones are not preserved in articulation.
 
-## Separate fossils show separate mosaics {#s-674cf01d3f}
-Dianoconodon and Feredocodon preserve different jaw–ear combinations across two formations and times. Their comparison supports a load shift, but it is not a continuous transformation series or an ancestor–descendant pair.
+## Two Jurassic fossils preserve different jaw–ear combinations {#s-674cf01d3f}
+Dianoconodon holotype IVPP V4257 and Feredocodon paratype IMMNH-PV01925 come from separate formations and times within a combined 201.4–161.5 Ma envelope. Their jaw and postdentary anatomy supports a comparative shift in load-bearing before full ear detachment, but the fossils are neither a continuous series nor an ancestor–descendant pair.
 
-## Detached bones can retain a cartilage link {#s-7c22a8664d}
-IVPP V16051 preserves ectotympanic and malleus elements separated from direct dentary contact yet connected by ossified Meckel's cartilage. One articulated skeleton documents a mosaic, not a universal evolutionary stage.
+## Detached ear bones retain a cartilage connection {#s-7c22a8664d}
+The articulated Liaoconodon holotype IVPP V16051 preserves ectotympanic and malleus elements apart from direct dentary contact, still linked by ossified Meckel’s cartilage. This one skeleton records a striking anatomical mosaic; the proposed stabilizing role is a functional hypothesis, not a universal mammal stage.
 
-## Living development tests a mechanism, not ancestry {#s-d0001ac4b6}
-Mouse genetics and opossum inhibition experiments show that disrupting clast-cell activity can retain a jaw–ear cartilage connection. They illuminate a possible mechanism without replaying a particular fossil or proving its ancient cause.
+## Living experiments test a mechanism, not ancient ancestry {#s-d0001ac4b6}
+In c-Fos mutant mice and clast-cell inhibition experiments in Monodelphis, disrupting cartilage resorption let Meckel’s cartilage persist or ossify and retain a jaw–ear connection. These perturbations identify a developmental mechanism in living mammals; they do not replay a fossil’s development or prove the same cellular cause in deep time.
 

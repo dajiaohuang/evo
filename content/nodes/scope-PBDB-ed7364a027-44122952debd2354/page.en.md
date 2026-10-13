@@ -1,5 +1,5 @@
-## Research overview {#s-2724a7bdb2}
-Yutyrannus huali is represented by three nearly complete skeletons from the Yixian Formation, spanning two growth stages. Their preserved anatomy and long filamentous integument inform a sampled tyrannosauroid comparison, not a direct-ancestor claim.
+## Three Yixian skeletons ground the study {#s-2724a7bdb2}
+The study describes three nearly complete *Yutyrannus huali* skeletons from the Yixian Formation, representing two growth stages. The specimens preserve long filamentous integument, a three-fingered hand, and a typical theropod foot. Their basal tyrannosauroid placement is a result of the study’s sampled analysis, not a direct-ancestor claim.
 
 ## atlas-profile / ecology / diet {#s-283478f0d7}
 Not directly resolved by the cited description
@@ -25,14 +25,12 @@ The described anatomy includes a three-fingered manus and a typical theropod pes
 ## atlas-profile / traits {#s-fb0638a10b}
 Long filamentous integumentary structures are preserved on the named specimen sample
 
-## What this evidence can establish {#s-7f2073c6d8}
-The named skeletons preserve filamentous structures, but they do not reveal their original colour, full-body coverage or whether they served insulation or display. Behaviour and locomotor performance are not directly observed; the phylogenetic placement depends on the taxa and characters included in the study.
+## Limits of anatomical and phylogenetic inference {#s-7f2073c6d8}
+The named skeletons preserve filamentous integument, but do not reveal its original colour, full-body coverage, or whether it provided insulation or display. The fossils do not directly record behaviour or locomotor performance. The phylogenetic placement depends on the taxa and characters included in the study’s analysis.
 
-## Three skeletons and preserved filaments {#s-0b92ad3512}
-Three nearly complete skeletons represent two ontogenetic stages. The described anatomy includes a three-fingered hand and a typical theropod foot.
+## Skeletons, hands, feet, and preserved filaments {#s-0b92ad3512}
+Three nearly complete skeletons from the Yixian Formation represent two ontogenetic stages. The described anatomy includes a three-fingered hand and a typical theropod foot. Long filamentous integument is preserved on the named specimens. These observations apply to the cited sample.
 
-The named specimens preserve long filamentous integument.
-
-## Body size and ecology stay sample-bounded {#s-e3ff97903f}
-The cited description reports large body size for the named skeleton sample, but not whole-population size variation. It does not resolve diet or habitat preference; hand and foot anatomy are not direct observations of locomotor behaviour, and no ecological guild is assigned from this specimen and matrix study.
+## Ecological claims stop at the named sample {#s-e3ff97903f}
+The cited description reports large body size for the named skeleton sample but does not establish population-wide variation. Diet and broader habitat preference remain unresolved; hand and foot anatomy do not directly record locomotion. The specimen and matrix study assigns no ecological guild.
 

@@ -1,5 +1,5 @@
-## Find historical rows through Phylloscartes in both crosswalks {#s-e5f652baf1}
-Pinned COL26.8 organizes this page at Pogonotriccus ophthalmicus (CQWQZ). BirdLife 2020 row 9036 uses the page name; eBird 2021 row 8339 gives Phylloscartes ophthalmicus, type 1BL to 1eBird, with both Avibase IDs equal to AVIBASE-060A7FB7; BirdTree row 8301 gives Phylloscartes ophthalmicus, type 1BL to 1BT. Catalogue synonym RX7R4, read in this batch, points to this accepted ID. Both crosswalks retain the same older generic combination, without a same-name eBird claim. Name and identifier correspondence does not establish identical species boundaries across versions.
+## A name fixed to COL26.8 {#s-e5f652baf1}
+Catalogue of Life release COL26.8 records Pogonotriccus ophthalmicus Taczanowski, 1874 as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-c94f2f3a53}
 Morphology comprises 17 birds: 6 female, 9 male and 2 unsexed; 4 complete sets. Nostril-to-tip beak length 6.2 mm, tarsus 15.3 mm, unflattened wing 59.6 mm, tail 56.6 mm and hand-wing index 16.5 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

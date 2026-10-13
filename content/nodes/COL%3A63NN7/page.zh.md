@@ -1,4 +1,6 @@
-## 本地数据阅读路径 {#s-ea91e97055}
+## 记录分类与直接上级关系 {#s-ea91e97055}
+COL26.8 将 Pogoniulus 记录为属；其直接上级记录为 Lybiidae。
+
 本部分目录为 7 个 Pogoniulus 物种页面关联了 AVONET 测量资料。可先对读 Pogoniulus atroflavus、P. chrysoconus、P. leucomystax、P. pusillus 和 P. scolopaceus。阅读路径按固定 COL26.8 排列，各物种页仍保留自身 AVONET v7 历史名称和取样信息。
 
 ## 记录之间有什么差别 {#s-89639be684}

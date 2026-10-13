@@ -1,41 +1,41 @@
-## The name and this data account {#s-1b17eddf7b}
-Nothoprocta cinerascens is accepted in COL26.8 within Tinamidae. AVONET v7 reports measurements under its HBW–BirdLife 2020 name. The source lists 5 measured individuals, 4 with a complete morphological set; individual traits may have different sample sizes.
+## Row-reported mean and sample coverage {#s-1b17eddf7b}
+The AVONET v7 row for Nothoprocta cinerascens (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 18.7 mm. The row records 5 measured individuals, 4 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-caf9785bb2}
-Mean beak measurements are 18.7 mm from the anterior edge of the nostril to the tip, 7.5 mm wide and 7.4 mm deep at that edge. The three values describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-caf9785bb2}
+AVONET records culmen length (bill tip to skull base) 32.8 mm; beak length (nostril front edge to tip) 18.7 mm; beak width at the nostril front edge 7.5 mm; beak depth at the nostril front edge 7.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-317fd4a328}
-Mean unflattened wing length, measured from the carpal joint to the longest primary, is 180.8 mm; mean tarsus length is 38.8 mm. The compiled mean mass is 523.89 g, with source category Dunning. Mass comes from a separate species-average source, so these morphological samples do not show that every bird was weighed.
+## Wing and body measures use separate sources {#s-317fd4a328}
+AVONET records unflattened wing length 180.8 mm; tarsus length 38.8 mm; distance from first secondary tip to longest primary tip 49.4 mm; length to first secondary tip 130.3 mm; hand-wing index 27.5; tail length 61.6 mm; species-average body mass 523.89 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-22a71032a9}
-The dataset lists Shrubland as the habitat, Omnivore as the trophic niche and Terrestrial as the lifestyle. These are dominant comparison categories, not claims that the bird uses only one habitat or food type.
+## Recorded habitat and feeding categories {#s-22a71032a9}
+AVONET classifies Nothoprocta cinerascens as habitat Shrubland (low, bush-dominated vegetation); trophic niche Omnivore (source threshold at least 60% from multiple food niches); trophic level Omnivore; primary lifestyle Terrestrial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-bcaf0c4be8}
-The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints -41.17° to -18.88°. They do not cover every non-breeding movement or show a current position or global occupancy estimate. Geography and morphology come from separate compilation steps.
+## The migration label has a limited scope {#s-bcaf0c4be8}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -41.17° to -18.88°. The mapped range area is 1208917.27 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## The 2015 life-history entry and this name {#s-86280b71d7}
-Nothoprocta cinerascens is accepted in pinned COL26.8 within Tinamidae. This page compares a same-name historical life-history record through 3 focal fields, each supported by cited species-level sparse-table rows with matching name and family. The summaries may still reflect historical taxonomic inheritance; a matching row name does not remove it.
+## Scope of the historical life-history entry {#s-86280b71d7}
+The August 2015 database has a same-name, same-family record for Nothoprocta cinerascens. Its reported fields are adult body mass, median or interpolated-median litter/clutch count, oviposition-to-hatching interval; values below follow the source's median or interpolated-median interpretation and are not measurements of one bird. The maximum_longevity_y field is a maximum record, not a median. The historical compilation can retain taxonomic inheritance; a same-name, same-family match does not establish equivalence with COL26.8.
 
-## Different stages in the mass fields {#s-4ef1b4dbc2}
-The historical summary gives adult body mass as 526 g. This field can combine males, females and adults of unspecified sex, so it is not a species-wide range of individual masses. Birth or hatching mass is not included here.
+## Compiled adult-mass values {#s-4ef1b4dbc2}
+The August 2015 compilation reports adult body mass 526 grams. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median.
 
-## Reproduction and developmental timing {#s-f3b5573acc}
-The available compilation fields report 9 offspring or eggs per litter or clutch and 19 d from oviposition to hatching; d means days. The litter/clutch field combines counts of offspring or eggs, and a fractional summary would not mean that one event produced a fraction of an individual. The timing fields refer to different events and are not interchangeable parts of one reproductive cycle.
+## Reproductive fields describe different events {#s-f3b5573acc}
+The August 2015 compilation reports median or interpolated-median number of offspring or eggs per litter/clutch 9; oviposition-to-hatching interval 19 days. The source describes these life-history values as median or interpolated-median summaries, not measurements of one bird; maximum_longevity_y is a maximum, not a median. Timing fields use their source definitions and refer to different events; they are not interchangeable.
 
-## How to trace these values to sources {#s-15da0bdf7e}
-Same-name sparse rows carry source labels including Dunning, 1992; Szekely, Lislevand, and Figuerola, 2007; BC Birds - Lancaster, D.A., 1964; and Davies, S.J.J.F., 2002, among others. The batch archive retains each field's raw row number, value and label, plus the final table's full reference explanations. A label may point to a paper, book or other database. Row counts are not numbers of measured animals, and repeated citations are not independent replication.
+## Sources and field limits {#s-15da0bdf7e}
+Field-specific same-name sparse-table rows and citations support the reported values, but historical taxonomic inheritance can remain. -999 is a missing code, not zero.
 
-## Read this historical record through food and foraging position {#s-d15f53d26f}
-This page compares the same-name, same-family EltonTraits 1.0 record using 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+## Scope of the historical trait entry {#s-d15f53d26f}
+EltonTraits 1.0 has a same-name, same-family record for Nothoprocta cinerascens covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-61c401b0ac}
-The archive's nonzero food weights are invertebrates 60%, fruit 20%, and seeds, nuts and spores included in this category 20%. Source code A indicates high compiler confidence in the source and diet information. The percentages standardize verbal descriptions rather than measure diet composition; a zero does not prove a food is never eaten. Nect, Seed and PlantO cover more than their everyday names and do not imply exclusive feeding on nectar, seeds or plants.
+## Relative weights across food categories {#s-61c401b0ac}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 60%; fruit 20%; seeds or nuts 20%. Its dominant five-category label is Invertebrate. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-04f9561c1a}
-Foraging-stratum weights flagged as species-level are ground 80% and understory, edges or shrubs below 2 m 20%. They estimate relative use of feeding positions, not nest sites, all habitat or an entire day's activity. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevation ranges and cannot establish flight heights or habitat area.
+## Foraging positions are not a time budget {#s-04f9561c1a}
+EltonTraits 1.0 records relative foraging-stratum weights of on the ground 80%; in the understory 20%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-bd94e6ce03}
-The used field groups carry the label Ref_1. Diet, strata and activity can draw on different materials; the same Ref number in bird and mammal reference tables does not identify the same source. The batch archive retains original strings by file, row, field group and reference table. The underlying books and papers have not been read individually; source labels do not count as independent observations.
+## Sources and field limits {#s-bd94e6ce03}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-0c75ff0db5}
 This page guides readers through historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass comes from separately cited literature or weighing sources, so its sample size cannot be inferred from the morphology sample. Habitat, diet and migration are coarse categories; the geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name support the association used here but do not prove that species concepts remained equivalent after later splits or lumps. Reproduction, current populations and conservation status require other sources.

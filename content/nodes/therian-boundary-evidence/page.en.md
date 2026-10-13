@@ -1,6 +1,6 @@
-## Three fossils mark a therian evidence route {#s-a493ecd728}
-This atlas route links separate fossils used to discuss early therian mammals: Juramaia, Eomaia and Ambolestes. Together they span about 161–124.1 million years ago, but the route is a way to compare evidence, not a taxonomic clade or a continuous lineage.
+## Three separate fossils in a therian evidence route {#s-a493ecd728}
+This atlas route brings together separate studies of Juramaia, Eomaia, and Ambolestes to compare evidence relevant to early therians. Their selected records span about 161–124.1 Ma. That interval belongs to the navigation route, not a taxonomic clade, continuous lineage, or sequence of direct ancestors.
 
-## The oldest point carries a provenance question {#s-2d96269939}
-The older endpoint depends on the disputed provenance of Juramaia. The three fossils should therefore be read as separate samples; the route does not arrange them into a direct ancestor sequence.
+## The older bound inherits a provenance dispute {#s-2d96269939}
+The older end depends on the attributed age and disputed collection provenance of Juramaia. The three fossils remain separate samples with separate references and analyses. Read them side by side; the route does not resolve the provenance issue or arrange the fossils as ancestors and descendants.
 

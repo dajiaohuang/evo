@@ -1,5 +1,5 @@
-## Separate matching names from family spelling {#s-a23e899d05}
-Pinned COL26.8 organizes this page at Sarothrura insularis (6XPK7). BirdLife 2020 row 2724, eBird 2021 row 9384 and BirdTree row 9329 share the name, with Avibase ID AVIBASE-258E8923; link types are 1BL to 1eBird and 1BL to 1BT. Matching names locate historical sources without establishing identical species boundaries across versions. The source has Family1=Rallidae; the recorded COL ancestry places this page in Sarothruridae. Retain the original family spelling without inferring relationships from its difference.
+## A name fixed to COL26.8 {#s-a23e899d05}
+Catalogue of Life release COL26.8 records Sarothrura insularis (Sharpe, 1870) as the accepted species name (published 2026-08-20). This card preserves that version's identity; the name entry alone does not describe anatomy or ecology.
 
 ## Separate total birds from complete sets {#s-a6830ecb8a}
 Morphology comprises 5 birds: 2 female, 3 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 5 mm, tarsus 21.6 mm, unflattened wing 70.2 mm, tail 45.2 mm and hand-wing index 14.7 are historical row means. Total birds exceed complete sets; not every bird has a full set of fields. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.

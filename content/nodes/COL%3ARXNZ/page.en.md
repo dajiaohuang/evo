@@ -1,15 +1,15 @@
-## Name and this data account {#s-0ae7a9da73}
-COL26.8 accepts Causus resimus in Viperidae. Its ReptTraits v1-2 entry follows the Reptile Database 2023 name framework and retains citations for individual traits. The species row summarizes compiled records rather than a state established for every population.
+## COL26.8 name and the ReptTraits row {#s-0ae7a9da73}
+COL26.8 records Causus resimus as an accepted species. The ReptTraits v1-2 row gives its Family field as Viperidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Distinguish the measured length {#s-2e11f3390c}
-The compiled records give a maximum snout–vent length (SVL) of 531.7 mm and maximum total length (TL) of 750 mm. SVL measures from the snout to the vent; TL includes the tail. These reported maxima describe source material, not typical size or an absolute growth limit. Values for different sexes may come from separate studies or places and do not establish size differences within a population.
+## Length values in the archived records {#s-2e11f3390c}
+The row reports a maximum SVL of 531.7 mm. ReptTraits attributes this field to Feldman & Meiri 2013. The row reports maximum total length (TL) of 750 mm. ReptTraits attributes this field to Feldman & Meiri 2013. This row records TL and SVL in separate fields; the captured definitions provide no conversion between them.
 
-## Where and how it is active {#s-bbb9fdaeb0}
-The entry records terrestrial microhabitat and cathemeral activity, a category indicating activity across both day and night. These labels do not give a complete habitat list or a fixed schedule, and the compiled row does not establish whether populations or life stages share the same pattern.
+## Habitat use and activity labels {#s-bbb9fdaeb0}
+The microhabitat field classifies the recorded position as ground-dwelling (Terrestrial). It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Gearty et al. 2021. The active-time field classifies activity as active across day and night (Cathemeral); it is the dataset's timing category. ReptTraits attributes this field to Feldman et al. 2015.
 
-## How to read reproductive records {#s-62e29c03bb}
-The entry labels reproductive mode as oviparous and reports a consolidated mean of 8 offspring or eggs per litter or clutch. Such summaries may be midpoints of reported means, or of reported extremes when means are unavailable; they are not necessarily averages of observed clutches. The dataset defines its lowest and highest values as endpoints of reported means, not as the smallest and largest actual clutches. These labels do not establish embryo nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-62e29c03bb}
+The compiled mean for offspring per litter or eggs per clutch is 8. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Feldman et al. 2015. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-b689d6070e}
-ReptTraits v1-2 preserves its 2023 taxonomic framework and field-specific sources, but one row per species compresses differences in sex, age, locality, and population. A shared name or family does not ensure that later taxonomic concepts match. Reported maxima and reproductive summaries describe compiled records, not every individual or clutch. Some mass values in the dataset are estimates from length equations, and juvenile-length fields use differing labels and definitions; this account does not treat either as a direct species measurement. It does not establish conservation status, venom, current range, or population trends.
+## Reading this compiled trait record {#s-b689d6070e}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

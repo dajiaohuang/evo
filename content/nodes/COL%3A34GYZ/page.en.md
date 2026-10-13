@@ -1,15 +1,15 @@
-## A catalogue placement and a trait row {#s-e872b13ed9}
-Catalogue of Life’s pinned COL26.8 accepts Delma concinna in Pygopodidae, the family of legless lizards. The traits below come from its ReptTraits v1-2 row, using the workbook’s Reptile Database 2023 name framework and citations for individual fields. One row condenses reports, so it describes the cited record rather than a guaranteed state across all populations.
+## COL26.8 name and the ReptTraits row {#s-e872b13ed9}
+COL26.8 records Delma concinna as an accepted species. The ReptTraits v1-2 row gives its Family field as Pygopodidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## A maximum measured without the tail {#s-8a6024bdd2}
-The largest reported snout–vent length is 112 mm. This measurement runs from snout to vent and excludes the tail. It is the maximum in compiled reports, not typical size or a theoretical limit on growth. A maximum by itself does not reveal the range of sizes among individuals.
+## Length values in the archived records {#s-8a6024bdd2}
+The row reports a maximum SVL of 112 mm. ReptTraits attributes this field to Meiri 2018.
 
-## Tree and ground settings, day and night {#s-649e95c639}
-The record combines arboreal and terrestrial settings and labels the diet omnivorous. It classifies activity as cathemeral: activity is recorded across both day and night rather than confined to one daylight or nighttime period. These are broad categories, not a complete habitat map or fixed schedule. “Omnivorous” does not list foods, and different populations or life stages may vary.
+## Habitat use and activity labels {#s-649e95c639}
+The microhabitat field classifies the recorded position as tree-dwelling (Arboreal)/ground-dwelling (Terrestrial) [source label: Arboreal/Terrestrial]. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to Meiri 2018. The diet field classifies the entry as plant- and animal-eating (Omnivorous); this category does not identify particular prey or foods. ReptTraits attributes this field to Meiri 2018. The active-time field classifies activity as active across day and night (Cathemeral); it is the dataset's timing category. ReptTraits attributes this field to Meiri 2018.
 
-## Egg-laying and a two-count summary {#s-5131e9db4b}
-The source marks the reproductive mode as oviparous, or egg-laying, and gives a consolidated count of 2 offspring or eggs per litter or clutch. The lowest and highest reported clutch or litter means are also 2. The consolidated figure may be a midpoint among reported means, or of reported extremes if means are unavailable. These are summaries rather than a promise of exactly two eggs in every clutch; the endpoints are not necessarily the smallest and largest nests observed. The labels do not establish embryo nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-5131e9db4b}
+The compiled mean for offspring per litter or eggs per clutch is 2. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Meiri et al. 2020. The lowest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The highest value among reported litter or clutch means is 2; the field does not make it the smallest or largest individual litter. ReptTraits attributes this field to Meiri 2018. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## Evidence limits {#s-425931de77}
-This profile paraphrases one ReptTraits row under the workbook’s 2023 name framework, with source citations retained by trait. A one-row summary compresses differences in sex, age, place and population; matching names and family do not guarantee equivalence with later taxonomic concepts. The maximum length is a compiled report, not a species limit, and the reproductive count is not fixed for every nest. Mass entries may be length-based estimates, so none is presented here as a direct measurement. Conservation, venom, current range and population trends are not updated; absent fields remain gaps. Citation labels retain the source trail but do not mean the project independently checked every underlying study.
+## Reading this compiled trait record {#s-425931de77}
+ReptTraits compiles separately cited fields into a species-level row. Its values may come from different source materials, localities, or study samples and should not be treated as observations from one animal.
 

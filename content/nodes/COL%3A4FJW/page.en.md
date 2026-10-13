@@ -4,13 +4,15 @@ The study separates New Zealand E. minor, the Banks Peninsula BAN entry and Aust
 ## Follow material scope into comparison pages {#s-6de19debaf}
 Begin with the study names and material in [Eudyptula minor](Eudyptula_minor/page.en.md) before comparing glacial curves. Distinguish historical research units first, then the existing morphology, food, reproduction and local studies, retaining each source’s counts, times and methods.
 
-## Local data reading route {#s-57526437e4}
+## Recorded classification and direct parent {#s-57526437e4}
+COL26.8 records Eudyptula at genus rank, with Spheniscidae Bonaparte, 1831 as its direct parent.
+
 This batch’s Eudyptula route includes 1 measured species records. Start with Eudyptula minor. The hierarchy follows pinned COL26.8; biological values retain AVONET v7 historical names and sampling scope.
 
 ## Differences between records {#s-c0d5d344e3}
 Compiled mean mass endpoints in this batch are Eudyptula minor at 1107.82 g and Eudyptula minor at 1107.82 g. Represented habitat categories include Marine; trophic niches include Aquatic predator. These examples guide comparisons rather than defining shared traits or an exhaustive descendant list.
 
-## Choose comparison pages by life-history fields {#s-e47d7e7ca5}
+## Amniote Life-history archive member records {#s-e47d7e7ca5}
 This batch’s Eudyptula route includes 1 historical life-history accounts; start with Eudyptula minor. More frequently represented fields include adult body mass (1 entries), female maturity field (defined by the source as age at first conception) (1 entries), offspring per litter or eggs per clutch (1 entries), oviposition to hatching (1 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-22e42a812d}

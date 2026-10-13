@@ -1,18 +1,37 @@
-## Which fossil records this name represents {#s-d1f8f6fcbe}
-Petrustitan hungaricus is accepted in the fixed PBDB dinosaur working roster, with database parent Petrustitan. This guide uses 2 eligible species-level occurrence records from 2 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In one record, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
+## What this record set contains {#s-d1f8f6fcbe}
+Petrustitan hungaricus is listed in the PBDB snapshot under taxon txn:64333. This archived guide contains 2 selected occurrence rows, linked to 2 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-2ff86a292f}
-Collection Szentpéterfalva, Hateg Basin (Hunedoara), region code RO, stratum name Sînpetru; database age bracket 72.2–66 Ma, early interval Early Maastrichtian. Collection Râpa Mocioconilor (Hunedoara), region code RO, stratum name Sînpetru; database age bracket 72.2–66 Ma, early interval Late Maastrichtian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-2ff86a292f}
+The archived guide contains 2 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-065104845d}
-Selected occurrences have an outer age envelope of 72.2–66 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:803989; PBDB collection col:59410. Locality cnm=Szentpéterfalva, Hateg Basin; place fields cc2=RO, stp=Hunedoara. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Early Maastrichtian. Stratigraphic fields sfm=Sînpetru. Recorded attribution Huene 1932; PBDB reference ref:29483.
 
-## Read preservation setting separately from living habitat {#s-b6bd3d021e}
-Szentpéterfalva, Hateg Basin has collection-environment label fluvial indet.; collection preservation-mode label body. Râpa Mocioconilor has collection-environment label "channel"; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Ţabără and Slimani, 2019: The Sînpetru Formation was first assigned to the upper Maastrichtian on the basis of the presence of the pollen Pseudopapilopollis praesubhercynicus (see Antonescu et al., 1983). This assignment was later questioned by Van Itterbeeck et al. (2005), who suggested a lower/upper Maastrichtian boundary interval. Palaeomagnetic studies indicate that the Sînpetru Formation was laid down between the beginning of Chron 32n.1 and the end of Chron 31n (68.7–71.5 Ma) (Panaiotu and Panaiotu, 2010). The age of this formation is more difficult to establish due to its low content in palynomorphs and long-ranging taxa such as Deltoidospora minor, Gleicheniidites senonicus and Laevigatosporites ovatus. All taxa identified by us from the Sînpetru Formation were also previously recorded from the same deposits by Van Itterbeeck et al. (2005) and Csiki et al. (2008). Therefore, we agree the early/late Maastrichtian age of this formation, as suggested by Van Itterbeeck et al. (2005) on the basis of a more conclusive palynological content.
 
-## Follow collection records back to references {#s-c6513a9465}
-Szentpéterfalva, Hateg Basin carries database reference attribution Huene (1932), identifier ref:29483. Râpa Mocioconilor carries database reference attribution Díez Díaz et al. (2025), identifier ref:91282. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+on the Nopcsa family estate near Sînpetru (Szentpéterfalva), in the southern Carpathian Mtns., near Hunedoara, Hateg Basin
 
-## Evidence limits {#s-abc2fcf0bb}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+- Occurrence occ:1570413; PBDB collection col:14454. Locality cnm=Râpa Mocioconilor; place fields cc2=RO, stp=Hunedoara. Recorded age bounds: eag 72.2 Ma; lag 66 Ma; PBDB interval fields oei=Late Maastrichtian. Stratigraphic fields sfm=Sînpetru. Recorded attribution Díez Díaz et al. 2025; PBDB reference ref:91282.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+includes sites 1 and 2; R side of Sânpetru, near Sacel
+
+## Age bounds on the recorded occurrences {#s-065104845d}
+Across these selected PBDB rows, the largest recorded eag=72.2 Ma in occ:803989; the smallest recorded lag=66 Ma in occ:803989. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-b6bd3d021e}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:803989: PBDB original-identification field idn=Magyarosaurus hungaricus n. sp.; PBDB taxon-name field tna=Petrustitan hungaricus; material note ocm=BMNH R3833; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=22.916668, lat=45.549999; paleocoordinate/model fields pm1=gplates, pln=28.75, pla=25.25.
+- occ:1570413: PBDB taxon-name field tna=Petrustitan hungaricus; material note ocm=vertebra; abundance fields abv=2, abu=specimens; PBDB locality-coordinate fields lng=22.920700, lat=45.556301; paleocoordinate/model fields pm1=gplates, pln=28.75, pla=25.25.
+
+## References attached to each record {#s-c6513a9465}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:803989: Recorded attribution Huene 1932; PBDB reference ref:29483.
+- occ:1570413: Recorded attribution Díez Díaz et al. 2025; PBDB reference ref:91282.
+
+## What these records can show {#s-abc2fcf0bb}
+This is a guide to 2 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

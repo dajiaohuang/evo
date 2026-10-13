@@ -1,4 +1,6 @@
-## 本批有三个物种的性状记录 {#s-64db5191bb}
+## 记录分类与直接上级关系 {#s-64db5191bb}
+COL26.8 将 Thecadactylus 记录为属；其直接上级记录为 Phyllodactylidae。
+
 本批有三个物种的 ReptTraits 记录按固定 Catalogue of Life COL26.8 的分类归在 Thecadactylus 之下：Thecadactylus oskrobapreinorum、T. rapicauda 和 T. solimoensis。页面导航采用该固定分类，性状记录则保留工作簿的 Reptile Database 2023 名称框架。这条路径只覆盖本批资料，不是该属全部接受种的计数。
 
 ## 两个体长例子来自不同物种 {#s-73658f8676}

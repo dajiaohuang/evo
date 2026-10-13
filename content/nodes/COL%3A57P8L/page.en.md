@@ -1,31 +1,27 @@
-## Name and this data account {#s-67fdcfddfc}
-Pinned COL26.8 accepts Trachemys ornata in Emydidae. This account follows its ReptTraits v1-2 row, retaining the Reptile Database 2023 name framework and trait-specific sources. Because the dataset has one row per species, its categories describe that record rather than every population.
+## COL26.8 name and the ReptTraits row {#s-67fdcfddfc}
+COL26.8 records Trachemys ornata as an accepted species. The ReptTraits v1-2 row gives its Family field as Emydidae under the Reptile Database 2023 name framework. This association uses an exact accepted-name match and matching family; it does not establish that historical and current taxonomic concepts are identical.
 
-## Where and how it is active {#s-3859f6bec1}
-The row classifies the microhabitat as Aquatic. This broad category is not a complete habitat inventory or a fixed schedule; the one-row summary does not show differences among populations, seasons or life stages.
+## Habitat use and activity labels {#s-3859f6bec1}
+The microhabitat field classifies the recorded position as Aquatic. It is a habitat-use category, not a full description of every setting used. ReptTraits attributes this field to The Reptile Database 2023.
 
-## How to read reproductive records {#s-f8b846cf26}
-The entry records an oviparous reproductive mode, a consolidated mean of 8.4 offspring or eggs per litter/clutch, and 2 litters or clutches per year. A clutch/litter summary may be the midpoint of reported means or, when means are unavailable, the midpoint of reported extremes; it is not necessarily an arithmetic average of observed clutches. The annual count is a dataset summary, not a guarantee for each individual or population. These records do not establish fetal nutrition or uniformity among populations.
+## Reproductive fields in ReptTraits {#s-f8b846cf26}
+The compiled mean for offspring per litter or eggs per clutch is 8.4. It is a mean summary, not the count from one litter or clutch. ReptTraits attributes this field to Iverson et al. 1993. The row reports 2 litters or clutches per year. ReptTraits attributes this field to Behler and King 1979 & Stebbins 2003. The reproductive-mode field records egg-laying (oviparous); this is the source's category label. ReptTraits attributes this field to Zimin et al. 2022.
 
-## The 2015 life-history entry and this name {#s-fe8b667745}
-Pinned COL26.8 accepts Trachemys ornata in Emydidae. This page presents five in-scope fields from its same-name 2015 life-history entry alongside cited species-level rows with matching name and family. The matches support the association, but historical summaries may still inherit data across taxonomic concepts.
+## A 2015 life-history row for this name {#s-fe8b667745}
+COL26.8 records Trachemys ornata as an accepted species. The August 2015 life-history table has a species-name and family match (Emydidae) in its historical archive. Its association note warns that values may be inherited through older species or subspecies records.
 
-## Different stages in the mass fields {#s-28bca4885a}
-The historical compilation gives an adult body mass of 1854 g. Its adult records may combine males, females and adults of unspecified sex, so the summary is not a range of individual masses. No birth or hatching mass is included here.
+## Length values in the archived records {#s-28bca4885a}
+Field-specific archive notes: adult body mass: median of 6 recorded source-table values. These counts refer to archived table inputs, not individual animals. The archive reports adult body mass as 1854 g. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Ricklefs, 2010b; Iverson, J., Balgooyen, C., Byrd, K. et al., 1993.
 
-## Reproduction and developmental timing {#s-bf814ade0c}
-The retained fields are female maturity, defined by the source as age at first conception (2920 d); offspring per litter or eggs per clutch (8.4); and time from oviposition to hatching (60.43 d). Here d means days. The litter/clutch value combines offspring or egg counts; its fraction is a summary, not a count from one event. The timing values refer to distinct events, not one interchangeable reproductive interval.
+## Reproductive events in the life-history table {#s-bf814ade0c}
+Field-specific archive notes: female maturity field (defined by the source as age at first conception): a source-level mean based on median inputs; offspring per litter or eggs per clutch: median of 22 recorded source-table values; oviposition to hatching: a source-level mean based on median inputs. These counts refer to archived table inputs, not individual animals. The female maturity field is 2920 d; the archive defines it as age at first conception. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Ricklefs, 2010b; IUCN, 2011. The offspring-per-litter or eggs-per-clutch summary is 8.4; it is not a count from one event. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Heppell, 1998; Reptile Incubation book. The incubation field is 60.43 d, defined as oviposition to hatching; its start and end events differ from gestation. The 2015 archive's field citation is Ricklefs, 2010b; Reptile Incubation book; Birchard, G. and D. Marcellini, 1996. The archive retains a conception or fertilization to birth value in this row, classified as reptiles, but its own class-scope note excludes reptiles for this event field. The retained value is not interpreted here as a species event.
 
-## A longest record differs from usual lifespan {#s-74f14d68b6}
-The archive reports maximum_longevity_y as 75 years, the largest record in the collected material under its method. It is not typical lifespan, mean lifespan in the wild, a survival ceiling for every individual or a current record known to be repeatable.
+## Longest lifespan in the archive {#s-74f14d68b6}
+The archive's longest-lifespan record is 75 y. Its method treats this field as the maximum record, not a median or typical lifespan. The 2015 archive's field citation is de Magalhaes and Costa, 2009; Ricklefs, 2010b; Germano, 1992.
 
-## How to trace these values to sources {#s-d29cb1f460}
-Same-name source rows include labels such as de Magalhaes and Costa (2009), Ricklefs (2010b), Iverson, Balgooyen and Byrd et al. (1993), and IUCN (2011). The archive retains field-specific row numbers, values and labels, with complete reference explanations in its final table. A label may refer to a paper, book or database; row counts are not numbers of measured individuals, and repeated citations are not independent replication.
+## The August 2015 life-history table {#s-d29cb1f460}
+The field citations appear beside the corresponding values above; the archive preserves their separate source links.
 
-## Evidence limits {#s-55b8a780c7}
-This is a limited trait account based on the same-name ReptTraits v1-2 row, retaining the Reptile Database 2023 framework and individual trait sources. One row per species compresses variation in sex, age, locality and populations; matching name and family do not ensure later taxonomic concepts are equivalent. A reported maximum is not an absolute length limit, and a reproductive mean is not a fixed clutch count. Many dataset mass values are estimated from length equations and are not treated here as measured mass. Juvenile-length fields have differing headers and definitions and are not used in the conclusions. Conservation, venom, current distribution and population trends are not updated; missing values remain gaps. Citation labels preserve the source chain but do not imply independent review here of every original work.
-
-The historical component uses same-name records from the 2015 life-history archive. Values are compilation medians or averages of the two middle values, except maximum longevity, which uses the largest record found. They are not measurements of one individual, individual variation ranges, mean wild lifespan or current population surveys. The archive may share or inherit data among historical species and subspecies. Matching name and family, together with same-name source rows, supports the association but does not establish equivalence to COL26.8 concepts or remove all inherited data. Wild or captive conditions are not consistently confirmed, and underlying publications have not been reviewed individually. Diet, behavior, current range, conservation and missing fields require other sources.
-
-The archive also contains gestation_d, a field outside the class scopes declared in Supplemental Table 9. Its values and reference labels remain in the source archive; without review of the underlying sources, this page does not interpret them as a reproductive or developmental event for this species.
+## Separate histories in the two archives {#s-55b8a780c7}
+ReptTraits combines separately cited traits in a species-level row. The 2015 life-history archive can transfer records between historical species and subspecies. The two tables have separate source histories; their values need not describe one shared specimen or population.
 

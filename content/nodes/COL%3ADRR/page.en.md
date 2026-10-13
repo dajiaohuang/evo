@@ -1,10 +1,10 @@
-## Start with the historical entries {#s-0ee53d8055}
+## Recorded classification and member material {#s-0ee53d8055}
 The local PanTHERIA route for Otariidae includes 9 usable data accounts. Start with Callorhinus ursinus, Eumetopias jubatus, Neophoca cinerea, Phocarctos hookeri, Arctocephalus forsteri. Each retains its original MSW05 name, variable-specific conditions and missing data. Navigation follows pinned COL26.8; historical table rows are not the current accepted-species denominator.
 
 ## Compare body size and life history {#s-a800a57f27}
 Among available consolidated adult-mass values in this batch, Arctocephalus galapagoensis records 39448.04 g and Eumetopias jubatus records 382466.74 g. These are endpoints of historical medians adjusted for sex. Continue to fetal development, weaning, activity and group fields after reading their definitions; body-size differences alone do not establish a shared lifestyle for all descendants.
 
-## Choose comparison pages by life-history fields {#s-b9eb0b87e7}
+## Amniote Life-history archive member records {#s-b9eb0b87e7}
 This batch’s Otariidae route includes 14 historical life-history accounts; start with Arctocephalus australis, Arctocephalus forsteri, Arctocephalus galapagoensis, Arctocephalus gazella, Arctocephalus philippii. More frequently represented fields include adult body mass (14 entries), offspring per litter or eggs per clutch (14 entries), conception or fertilization to birth (14 entries), age of dependence on food other than maternal milk (14 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
 
 ## Compare food, feeding positions and activity periods {#s-c10a1a8de1}
@@ -19,12 +19,12 @@ This route covers this batch’s historical same-name, same-family entries with 
 This route includes only this batch’s unique same-name, same-family historical entries with at least two usable ecological field groups. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 This route includes only this batch’s unique same-name, same-family historical entries with exactly one usable ecological field group. It is not a complete descendant catalogue and does not turn descendant food types, estimated weights or activity patterns into traits shared by the whole group. Semiquantitative conversion, historical taxonomy and possible congeneric borrowing in ABC fields retain their per-page limits. Complete species monographs remain unfinished.
 
-## Follow the life-history records {#s-f5affb9cf0}
-This batch offers 8 historical life-history accounts under Otariidae. Start with [Arctocephalus galapagoensis](Arctocephalus/Arctocephalus_galapagoensis/page.en.md), [Arctocephalus tropicalis](Arctocephalus/Arctocephalus_tropicalis/page.en.md), [Arctocephalus forsteri](Arctocephalus/Arctocephalus_forsteri/page.en.md), [Arctocephalus gazella](Arctocephalus/Arctocephalus_gazella/page.en.md), [Arctocephalus pusillus](Arctocephalus/Arctocephalus_pusillus/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+## Recorded classification and member material {#s-f5affb9cf0}
+This batch offers 8 historical life-history accounts under Otariidae. Start with Arctocephalus galapagoensis, Arctocephalus tropicalis, Arctocephalus forsteri, Arctocephalus gazella, Arctocephalus pusillus. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-7705fcceea}
 Gestation is recorded in 8 accounts, female age at first reproduction in 6 accounts, and maximum lifespan in 6 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.
 
-## Limits of these historical data {#s-29bbee4bdb}
+## Ernest life-history archive material route {#s-29bbee4bdb}
 This entry covers this batch’s authored historical life-history records, not every accepted descendant or complete group biology. Species accounts use matching names and families plus a one-to-one MSW93/MSW05 same-name table; equivalence to current species concepts remains unproven. Except for maximum lifespan, relevant fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample sizes do not determine weights, and underlying literature may be reused. Maximum lifespan is only the longest record, not typical lifespan. Adult mass is not interpreted in this batch, and relatives do not fill missing fields. Original reference numbers remain on each page; underlying species literature and all wild, captive and locality conditions were not individually established here.
 

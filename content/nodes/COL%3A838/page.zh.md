@@ -1,4 +1,6 @@
-## 接受的目录记录 {#s-497814c3bc}
+## 记录分类与直接上级关系 {#s-497814c3bc}
+COL26.8 将 Chelidae 记录为科；其直接上级记录为 Cheloidea。
+
 Chelidae 是 COL26.8 接受的科（COL 838），隶属 Pleurodira 亚目。该固定分类记录为阅读路径提供稳定定位，不表示本地物种内容已完整覆盖。
 
 ## 当前本地研究路径 {#s-ba373cc900}
@@ -11,7 +13,7 @@ Chelidae 的本批路线包含 29 条历史生活史导读，可从 Acanthochely
 本页是基于分类信息的科级入口及不完整的本地阅读路径，并非科级专著或完整名录。Chelus 头骨样本不能代表整个科。页面不推断科级生物学、分布或保护状况。
 本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
 
-## 从有性状记录的物种开始 {#s-35b9c1a08c}
+## 记录分类与成员材料 {#s-35b9c1a08c}
 Chelidae 的本批 ReptTraits 阅读路径包含 40 条同名同科、有逐性状出处的物种资料，可从 Acanthochelys macrocephala、Acanthochelys pallidipectoris、Acanthochelys radiolata、Acanthochelys spixii、Chelodina burrungandjii 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-758de63c85}
@@ -23,8 +25,8 @@ Chelidae 的本批 ReptTraits 阅读路径包含 40 条同名同科、有逐性�
 ## 部分后代条目的引用缺口 {#s-b1c25a38a0}
 这条 ReptTraits 阅读路径中有 7 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-ef7cecceef}
-Chelidae 的本批 ReptTraits 阅读路径包含 26 条同名同科、有逐性状出处的物种资料，可从 [Chelodina canni](Chelodina/Chelodina_canni/page.zh.md)、[Chelodina gunaleni](Chelodina/Chelodina_gunaleni/page.zh.md)、[Chelodina ipudinapi](Chelodina/Chelodina_ipudinapi/page.zh.md)、[Chelodina kuchlingi](Chelodina/Chelodina_kuchlingi/page.zh.md)、[Chelodina kurrichalpongo](Chelodina/Chelodina_kurrichalpongo/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-ef7cecceef}
+Chelidae 的本批 ReptTraits 阅读路径包含 26 条同名同科、有逐性状出处的物种资料，可从 Chelodina canni、Chelodina gunaleni、Chelodina ipudinapi、Chelodina kuchlingi、Chelodina kurrichalpongo 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-c2c89f7866}
 本批已有尺寸记录中，Chelodina gunaleni 的已报道最大直线背甲长（SCL）为 239 mm，Elseya branderhorsti 为 400 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。

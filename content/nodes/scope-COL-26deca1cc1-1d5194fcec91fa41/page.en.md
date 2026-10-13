@@ -1,5 +1,5 @@
-## overview {#s-6b334a8a75}
-Living members include horses, rhinoceroses and tapirs. The weight-bearing axis passes through the third digit; this does not mean every foot has an odd number of toes, since tapir forefeet have four. Plant food is processed by hindgut fermentation.
+## The third digit carries the weight-bearing axis {#s-6b334a8a75}
+Living members include horses, rhinoceroses and tapirs. In the cited account, the weight-bearing axis passes through the third digit; this does not mean every foot has an odd number of toes, because tapir forefeet have four. Plant food is processed by hindgut fermentation.
 
 ## Choose comparison pages by life-history fields {#s-2ca5cc3298}
 This batch’s Perissodactyla route includes 14 historical life-history accounts; start with Equus asinus, Equus caballus, Equus grevyi, Equus hemionus, Equus kiang. More frequently represented fields include adult body mass (14 entries), female maturity field (defined by the source as age at first conception) (14 entries), offspring per litter or eggs per clutch (14 entries), conception or fertilization to birth (14 entries). Counts describe this batch’s data coverage, not the complete accepted-species denominator. Read each field’s event, unit and provenance before comparing values.
@@ -22,7 +22,7 @@ Among available consolidated adult-mass values in this batch, Tapirus pinchaque 
 This guide covers only this batch’s entries with at least three focal fields, matching name and family, and one-to-one historical correspondence. It does not cover every accepted descendant. Comparison endpoints are consolidated values of historical entries rather than individual extremes of the group. Fields can use different source conditions; consult species pages and the original variable definitions. Current species concepts, distribution and conservation are not established by these historical values.
 
 ## Follow the life-history records {#s-a62c9f6e97}
-This batch offers 10 historical life-history accounts under Perissodactyla. Start with [Equus kiang](Equidae/Equus/Equus_kiang/page.en.md), [Equus grevyi](Equidae/Equus/Equus_grevyi/page.en.md), [Equus zebra](Equidae/Equus/Equus_zebra/page.en.md), [Ceratotherium simum](Rhinocerotidae/Dicerotinae/Ceratotherium/Ceratotherium_simum/page.en.md), [Dicerorhinus sumatrensis](Rhinocerotidae/Rhinocerotinae/Dicerorhinus/Dicerorhinus_sumatrensis/page.en.md). Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
+This batch offers 10 historical life-history accounts under Perissodactyla. Start with Equus kiang, Equus grevyi, Equus zebra, Ceratotherium simum, Dicerorhinus sumatrensis. Navigation follows pinned COL26.8. The record count covers this batch’s authored same-name entries rather than every accepted species in the group.
 
 ## Distinguish averages from records {#s-ea6c805bfe}
 Gestation is recorded in 10 accounts, female age at first reproduction in 8 accounts, and maximum lifespan in 9 accounts. First reproduction is distinct from first birth and sexual maturity; maximum lifespan is distinct from average lifespan. Traits can come from different source conditions. Species with missing fields still need other sources, and name association does not resolve historical concept changes.

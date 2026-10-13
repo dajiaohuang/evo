@@ -1,18 +1,49 @@
-## Which fossil records this name represents {#s-59f7f27342}
-Savannasaurus elliottorum is accepted in the fixed PBDB dinosaur working roster, with database parent Savannasaurus. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+## What this record set contains {#s-59f7f27342}
+Savannasaurus elliottorum is listed in the PBDB snapshot under taxon txn:347242. This archived guide contains 3 selected occurrence rows, linked to 3 distinct PBDB collection IDs and 2 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Begin with named collections and strata {#s-b917a65c3a}
-Collection Elliot Site (QM L1333/AODL 001) (Queensland), region code AU, stratum name Winton; database age bracket 100.5–89.8 Ma, early interval Late Cenomanian and late interval Early Turonian. Collection Ho-Hum site, Belmont Station (AODL 0082) (Queensland), region code AU, stratum name Winton; database age bracket 100.5–89.8 Ma, early interval Middle Cenomanian and late interval Early Turonian. Collection AODL 0137, Elderslie Station (Queensland), region code AU, stratum name Winton; database age bracket 100.5–89.8 Ma, early interval Cenomanian and late interval Early Turonian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+## Named localities and collection records {#s-b917a65c3a}
+The archived guide contains 3 occurrence rows; all are listed below. Each occ: identifier names an occurrence record, while col: identifies its linked collection record.
 
-## Age bounds of these records {#s-25bd198a8f}
-Selected occurrences have an outer age envelope of 100.5–89.8 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+- Occurrence occ:1145035; PBDB collection col:62553. Locality cnm=Elliot Site (QM L1333/AODL 001); place fields cc2=AU, stp=Queensland. Recorded age bounds: eag 100.5 Ma; lag 89.8 Ma; PBDB interval fields oei=Late Cenomanian, oli=Early Turonian. Stratigraphic fields sfm=Winton. Recorded attribution Beeston et al. 2024; PBDB reference ref:88408.
 
-## Read preservation setting separately from living habitat {#s-5ac3ff4e77}
-Elliot Site (QM L1333/AODL 001) has collection-environment label fine channel fill; collection preservation-mode label body. Ho-Hum site, Belmont Station (AODL 0082) has collection-environment label "floodplain"; collection preservation-mode label body,concretion. AODL 0137, Elderslie Station has collection-environment label fluvial-lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+pollen zone inferred from nearby localities
 
-## Follow collection records back to references {#s-a321832525}
-Elliot Site (QM L1333/AODL 001) carries database reference attribution Beeston et al. (2024), identifier ref:88408. Ho-Hum site, Belmont Station (AODL 0082) carries database reference attribution Poropat et al. (2016), identifier ref:60643. AODL 0137, Elderslie Station carries database reference attribution Beeston et al. (2024), identifier ref:88408. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Tucker et al. 2013 and Tucker et al. 2016 detrital zircon analysis suggest a maximum depositional age of 94–92Ma for the Winton Formation. The underlying upper Mackunda Formation had a maximum depositional age of 104–102Ma, suggesting that the base of the Winton Formation could be no older than Latest Albian.
 
-## Evidence limits {#s-6ed70a8ed6}
-This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 3538-item dinosaur working roster, retain the current same name and a complete parent chain to the recorded Dinosauria storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+on a sheep station ca. 70 km NE of Winton; in the "Elliot/Mary sector" of the "Elliot Site"
+
+- Occurrence occ:1346460; PBDB collection col:153781. Locality cnm=Ho-Hum site, Belmont Station (AODL 0082); place fields cc2=AU, stp=Queensland. Recorded age bounds: eag 100.5 Ma; lag 89.8 Ma; PBDB interval fields oei=Middle Cenomanian, oli=Early Turonian. Stratigraphic fields sfm=Winton. Recorded attribution Poropat et al. 2016; PBDB reference ref:60643.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+Tucker et al. 2013 and Tucker et al. 2016 detrital zircon analysis suggest a maximum depositional age of 94–92Ma for the Winton Formation. The underlying upper Mackunda Formation had a maximum depositional age of 104–102Ma, suggesting that the base of the Winton Formation could be no older than Latest Albian.
+
+Archived PBDB field ggc (source-language text; not translated or interpreted):
+Ho-Hum site, Belmont Station, near Winton
+
+- Occurrence occ:1654700; PBDB collection col:234751. Locality cnm=AODL 0137, Elderslie Station; place fields cc2=AU, stp=Queensland. Recorded age bounds: eag 100.5 Ma; lag 89.8 Ma; PBDB interval fields oei=Cenomanian, oli=Early Turonian. Stratigraphic fields sfm=Winton. Recorded attribution Beeston et al. 2024; PBDB reference ref:88408.
+
+Archived PBDB field scm (source-language text; not translated or interpreted):
+upper Winton Formation
+
+## Age bounds on the recorded occurrences {#s-25bd198a8f}
+Across these selected PBDB rows, the largest recorded eag=100.5 Ma in occ:1145035; the smallest recorded lag=89.8 Ma in occ:1145035. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-5ac3ff4e77}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:1145035: PBDB taxon-name field tna=Savannasaurus elliottorum; abundance fields abv=1, abu=specimens; PBDB locality-coordinate fields lng=143.089172, lat=-22.348333; paleocoordinate/model fields pm1=gplates, pln=143.59, pla=-61.4.
+- occ:1346460: PBDB original-identification field idn=Savannasaurus elliottorum n. gen. n. sp.; PBDB taxon-name field tna=Savannasaurus elliottorum; material note ocm=AODF 660 - holotype; "Wade"; abundance fields abv=1, abu=individuals; PBDB locality-coordinate fields lng=143.089172, lat=-22.348333; paleocoordinate/model fields pm1=gplates, pln=141.74, pla=-61.73.
+- occ:1654700: PBDB taxon-name field tna=Savannasaurus elliottorum; material note ocm=AODF 2306; PBDB locality-coordinate fields lng=142.471939, lat=-22.290556; paleocoordinate/model fields pm1=gplates, pln=140.56, pla=-61.6.
+
+## References attached to each record {#s-a321832525}
+The archived guide links the rows to 2 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:1145035: Recorded attribution Beeston et al. 2024; PBDB reference ref:88408.
+- occ:1346460: Recorded attribution Poropat et al. 2016; PBDB reference ref:60643.
+- occ:1654700: Recorded attribution Beeston et al. 2024; PBDB reference ref:88408.
+
+## What these records can show {#s-6ed70a8ed6}
+This is a guide to 3 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

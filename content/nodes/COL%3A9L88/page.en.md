@@ -1,17 +1,17 @@
-## The name and this data account {#s-d8d544e30d}
-Acrocephalus sorghophilus is accepted in COL26.8 within Acrocephalidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 7 measured individuals, 6 with a complete morphological set; usable sample sizes may differ among traits.
+## Row-reported mean and sample coverage {#s-d8d544e30d}
+The AVONET v7 row for Acrocephalus sorghophilus (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 9.7 mm. The row records 7 measured individuals, 6 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-2fab278c66}
-Recorded mean beak measurements are 9.7 mm from the anterior nostril edge to the tip, 3.4 mm in width and 3.6 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+## Beak measurements at defined landmarks {#s-2fab278c66}
+AVONET records culmen length (bill tip to skull base) 14.9 mm; beak length (nostril front edge to tip) 9.7 mm; beak width at the nostril front edge 3.4 mm; beak depth at the nostril front edge 3.6 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-8322f31b2f}
-Mean unflattened wing length from the carpal joint to the longest primary is 65.5 mm; mean tarsus length is 22.4 mm. Compiled mean mass is 8.2 g, with source category Updated_literature. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+## Wing and body measures use separate sources {#s-8322f31b2f}
+AVONET records unflattened wing length 65.5 mm; tarsus length 22.4 mm; distance from first secondary tip to longest primary tip 15.4 mm; length to first secondary tip 50.1 mm; hand-wing index 23.6; tail length 55.8 mm; species-average body mass 8.2 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Updated_literature), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-0c42995c98}
-The dataset assigns habitat Wetland, trophic niche Invertivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+## Recorded habitat and feeding categories {#s-0c42995c98}
+AVONET classifies Acrocephalus sorghophilus as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Invertivore (source threshold at least 60% from terrestrial invertebrates); trophic level Carnivore; primary lifestyle Insessorial. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-7ab309874e}
-The migration field classifies this record as migratory. The source does not record breeding and resident latitude endpoints. No distribution extent, current survival or conservation status is inferred from their absence. Geography and morphological measurements come from different compilation steps.
+## The migration label has a limited scope {#s-7ab309874e}
+Migration code 3 classifies the record as migratory. Historical breeding and resident maps span latitude endpoints NA° to NA°. The mapped range area is NA km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
 ## Evidence limits {#s-592ba5f32f}
 This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.

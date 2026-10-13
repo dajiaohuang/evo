@@ -1,4 +1,6 @@
-## 从已有历史条目开始 {#s-7e9965e3fe}
+## 记录分类与直接上级关系 {#s-7e9965e3fe}
+COL26.8 将 Odocoileini 记录为族；其直接上级记录为 Capreolinae。
+
 Odocoileini 的本地 PanTHERIA 路径有 10 条可用记录。可从 Blastocerus dichotomus、Hippocamelus antisensis、Hippocamelus bisulcus、Mazama chunyi 或 Mazama rufina 开始。各页保留原始 MSW05 名称、各字段对应的材料条件和缺失项。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
 
 ## 比较体型与生活史 {#s-26ed1d5b09}
@@ -22,14 +24,14 @@ Odocoileini 的本地 PanTHERIA 路径有 10 条可用记录。可从 Blastoceru
 
 另一条生态路径仅包括名称和科相符、且恰有一个可用生态字段组的唯一历史条目。它同样不是完整后代目录，也不会把后代食物、估算权重或活动模式转成群体性状。半定量换算、历史分类及 ABC 字段可能借用同属资料等局限仍需按记录看待；完整物种专论仍待完成。
 
-## 从已有历史条目开始 {#s-78e23608b9}
-本地 PanTHERIA 路径有一条可用记录：[Pudu mephistophiles](Pudu/Pudu_mephistophiles/page.zh.md)。该页保留原始 MSW05 名称、各字段对应的材料条件和缺失项。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
+## 记录分类与成员材料 {#s-78e23608b9}
+本地 PanTHERIA 路径有一条可用记录：Pudu mephistophiles。该页保留原始 MSW05 名称、各字段对应的材料条件和缺失项。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
 
 ## 这组历史数据的边界 {#s-f87acd4636}
 本指南只涵盖本批至少有一个焦点字段、名称与科相符且具有一对一历史对应的条目，并未覆盖所有接受种。数值汇总自历史条目，不代表个体极值；来源条件可能不同。这些记录不能确定当前物种概念、分布或保护状况。
 
 ## 沿生活史资料阅读 {#s-c8f60d9ebd}
-本批 Odocoileini 有 10 条历史生活史记录。可阅读 [Blastocerus dichotomus](Blastocerus/Blastocerus_dichotomus/page.zh.md)、[Hippocamelus bisulcus](Hippocamelus/Hippocamelus_bisulcus/page.zh.md)、[Hippocamelus antisensis](Hippocamelus/Hippocamelus_antisensis/page.zh.md)、[Mazama rufina](Mazama/Mazama_rufina/page.zh.md) 或 [Odocoileus hemionus](Odocoileus/Odocoileus_hemionus/page.zh.md)。分类导航沿用固定 COL26.8。此数量涵盖本批撰写的同名条目，不代表该群全部接受种。
+本批 Odocoileini 有 10 条历史生活史记录。可阅读 Blastocerus dichotomus、Hippocamelus bisulcus、Hippocamelus antisensis、Mazama rufina 或 Odocoileus hemionus。此数量涵盖本批撰写的同名条目，不代表该群全部接受种。
 
 ## 先区分平均值与纪录 {#s-bb3efc42e8}
 妊娠期见于 9 条记录，雌性首次繁殖年龄见于 5 条，最长寿命见于 5 条。首次繁殖不同于首次出生和性成熟；最长寿命也不同于平均寿命。字段可能来自不同材料条件。缺失的物种字段需查阅其他来源，名称相同不能解决历史分类变更。

@@ -1,29 +1,29 @@
-## The name and this data account {#s-f5cb136068}
-Tachybaptus novaehollandiae is accepted in COL26.8 within Podicipedidae. AVONET v7 records it under the HBW–BirdLife 2020 name. The selected record includes 6 measured individuals, but only 1 has a complete set of morphological measurements; individual traits may therefore have different sample sizes.
+## Row-reported mean and sample coverage {#s-f5cb136068}
+The AVONET v7 row for Tachybaptus novaehollandiae (HBW–BirdLife 5.0) reports mean beak length (nostril front edge to tip) 11.6 mm. The row records 6 measured individuals, 1 with a complete morphometric set; it does not report a trait-specific sample size, so these row-level counts do not identify how many individuals contributed to this mean. The source flag Inference=NO means the selected biometric traits were not inferred from relatives; mass, if present, has a separate source. The historical HBW–BirdLife 5.0 name does not establish equivalence with later COL26.8 species limits.
 
-## Measured beak dimensions {#s-84d4c67986}
-The compiled beak means are 11.6 mm from the front edge of the nostril to the tip, 4.7 mm wide and 6.4 mm deep at that edge. Length, width and depth are separate measurements taken at standardized landmarks; none is an identification threshold.
+## Beak measurements at defined landmarks {#s-84d4c67986}
+AVONET records culmen length (bill tip to skull base) 23 mm; beak length (nostril front edge to tip) 11.6 mm; beak width at the nostril front edge 4.7 mm; beak depth at the nostril front edge 6.4 mm. These are species-level summaries, not measurements of every bird.
 
-## Wing, tarsus and mass {#s-57d260f5c8}
-Mean unflattened wing length, measured from the carpal joint to the tip of the longest primary feather, is 102 mm; mean tarsus length is 34.7 mm. The separate compiled species mean for mass is 219 g, attributed to Dunning. The six morphological specimens are not necessarily the individuals represented by that mass estimate.
+## Wing and body measures use separate sources {#s-57d260f5c8}
+AVONET records unflattened wing length 102 mm; tarsus length 34.7 mm; distance from first secondary tip to longest primary tip 32.2 mm; length to first secondary tip 69.8 mm; hand-wing index 31.5; tail length 26.7 mm; species-average body mass 219 g. These are species-level summaries, not measurements of every bird. Body mass is a separate species average (source category Dunning), not a mass assigned to each morphometric specimen.
 
-## Habitat, feeding and lifestyle {#s-4c8dd655c5}
-AVONET assigns the habitat category Wetland, the trophic niche Aquatic predator and the primary lifestyle Aquatic. These broad labels support cross-species comparison; they do not mean that the bird uses only wetlands or eats only aquatic prey.
+## Recorded habitat and feeding categories {#s-4c8dd655c5}
+AVONET classifies Tachybaptus novaehollandiae as habitat Wetland (freshwater lakes, marshes or swamps); trophic niche Aquatic predator; trophic level Carnivore; primary lifestyle Aquatic. These broad source categories do not imply exclusive habitat or diet.
 
-## Movement and geographical summary {#s-cb23ec0881}
-AVONET classifies the record as sedentary. Its historical breeding and resident maps extend from -44.83° to 4.55° latitude. Those endpoints do not describe all non-breeding movements or current occupancy, and the map summary comes from a different compilation step than the morphology measurements.
+## The migration label has a limited scope {#s-cb23ec0881}
+Migration code 1 classifies the record as sedentary. Historical breeding and resident maps span latitude endpoints -44.83° to 4.55°. The mapped range area is 3147780.83 km²; the source distinguishes it from extent of occurrence. These fields do not identify a current locality or provide a complete account of non-breeding movements.
 
-## Read this historical record through food and foraging position {#s-d6452f3a12}
-Tachybaptus novaehollandiae is accepted in pinned COL26.8 within Podicipedidae. EltonTraits 1.0 contains a historical record with the same name and family; the following sections summarize its diet and feeding-position fields. Its taxonomy predates the current catalogue, so the name match alone cannot resolve later splits or synonym disputes.
+## Scope of the historical trait entry {#s-d6452f3a12}
+EltonTraits 1.0 has a same-name, same-family record for Tachybaptus novaehollandiae covering diet weights and foraging-stratum weights. Detailed values and their separate source labels follow; the underlying literature has not been individually reviewed. This is a historical same-name, same-family row; it does not resolve later COL26.8 splits, lumps or synonymy.
 
-## Relative weights of food categories {#s-29cfbf3463}
-EltonTraits assigns 70% of the food weight to fish and 30% to invertebrates. Diet code A indicates high compiler confidence in the source and diet information. These weights standardize literature descriptions; they are not direct measurements of diet, and a zero for another category would not prove it is never eaten.
+## Relative weights across food categories {#s-29cfbf3463}
+EltonTraits 1.0 assigns relative diet weights of invertebrates 30%; fish 70%. Its dominant five-category label is VertFishScav. Code A marks high confidence in the source and diet information. These weights standardize literature descriptions; they are not measured stomach contents, intake or energy.
 
-## Foraging strata differ from whole-day activity {#s-720b45c251}
-The archive marks the foraging-stratum record as species-level: 70% is assigned below the water surface and 30% on or just below it. These weights describe relative use of feeding positions, not nest sites, all habitat use or a full-day activity budget. The categories follow the source’s definitions and do not indicate elevation, flight height or habitat area.
+## Foraging positions are not a time budget {#s-720b45c251}
+EltonTraits 1.0 records relative foraging-stratum weights of on or just below the water surface 70%; around the water surface 30%. ForStrat-SpecLevel=1 marks species-level data. They describe feeding positions, not whole-day time budgets, nesting heights or habitat area.
 
-## Trace each field group to its source labels {#s-dfea586655}
-Both selected field groups cite Ref_1, the Handbook of the Birds of the World volume 1 entry recorded by EltonTraits. References attach to field groups, and their labels document provenance rather than independent observations. The underlying book entry has not been independently reviewed here.
+## Sources and field limits {#s-dfea586655}
+EltonTraits 1.0 turns historical literature descriptions into standardized weights; the underlying publications have not been individually reviewed. Field groups carry separate source labels: diet: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona; foraging: Handbook of the Birds of the World vol. 1.  Del Hoyo J., Elliott A., Sargatal J. & Christie D.A. (1992-2011). Lynx Edicions, Barcelona. Historical names do not settle later taxonomic splits or synonymy.
 
 ## Evidence limits {#s-eed1686fc8}
 AVONET v7 reports species averages from its listed samples, not individual ranges or identification diagnoses. The 219 g mass value comes from a separate Dunning source and must not inherit the six-specimen morphology count. Habitat, feeding and migration are broad categories, while latitude endpoints describe historical breeding and resident maps only. The historical name association does not prove equivalence to every later species concept. Reproduction, current populations and conservation status require other sources.

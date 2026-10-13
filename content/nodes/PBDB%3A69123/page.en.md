@@ -1,19 +1,41 @@
 ## Which fossil records this name represents {#s-0b1b5d3529}
 Plesiocetopsis hupschii is accepted in the fixed PBDB mammalia working roster, with database parent Plesiocetopsis. This guide uses 5 eligible species-level occurrence records from 5 collections and 4 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts. In 5 records, the original identification or combination is connected to the database accepted name. Original strings are retained; recombination does not become a new independent discovery.
 
-## Begin with named collections and strata {#s-9ebba5a00b}
-Collection Saint-Nicolas (Oost-Vlaanderen), region code BE; database age bracket 5.333–2.58 Ma, early interval Pliocene. Collection Deurne (Fort 1), Deurne Sand (Antwerpen), region code BE, stratum name Diest; database age bracket 11.63–7.246 Ma, early interval Tortonian. Collection Anvers, Berchem Fm., Antwerp Sands, region code BE, stratum name Berchem; database age bracket 15.98–11.63 Ma, early interval Langhian and late interval Serravallian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+PBDB occurrence record excerpt:
+Plesiocetopsis hupschii is listed in the PBDB snapshot under taxon txn:69123. This archived guide contains 5 selected occurrence rows, linked to 5 distinct PBDB collection IDs and 4 distinct PBDB reference IDs. An occurrence row and a collection record are different units; neither count is a specimen or individual count. The reading question here is concrete: which recorded localities, age bounds, material notes, and citations are attached to these rows?
 
-## Age bounds of these records {#s-157d9f1368}
-Selected occurrences have an outer age envelope of 15.98–2.58 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
-One record supplying the older envelope bound is Anvers, Berchem Fm., Antwerp Sands, occurrence occ:622635 (15.98–11.63 Ma); one supplying the younger bound is Saint-Nicolas, occurrence occ:545726 (5.333–2.58 Ma). These are collection-age bounds, not endpoints of species survival.
+## Named localities and collection records {#s-9ebba5a00b}
+The archived guide contains 5 occurrence rows. This page highlights up to three: rows carrying the outer recorded eag/lag values, followed by one additional source-response row when available. The complete source rows remain preserved in the archive; the displayed records are not a complete listing.
 
-## Read preservation setting separately from living habitat {#s-894e4c04a2}
-Saint-Nicolas has collection-environment label marine indet.; collection preservation-mode label body. Deurne (Fort 1), Deurne Sand has collection-environment label lagoonal; collection preservation-mode label body,original phosphate. Anvers, Berchem Fm., Antwerp Sands has collection-environment label open shallow subtidal; collection preservation-mode label body,original phosphate. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+- Occurrence occ:622635; PBDB collection col:59123. Locality cnm=Anvers, Berchem Fm., Antwerp Sands; place fields cc2=BE. Recorded age bounds: eag 15.98 Ma; lag 11.63 Ma; PBDB interval fields oei=Langhian, oli=Serravallian. Stratigraphic fields sfm=Berchem. Recorded attribution Misonne 1958; PBDB reference ref:19106.
 
-## Follow collection records back to references {#s-5969915b84}
-Saint-Nicolas carries database reference attribution Van Beneden (1872), identifier ref:12326. Deurne (Fort 1), Deurne Sand carries database reference attribution Misonne (1958), identifier ref:19106. Anvers, Berchem Fm., Antwerp Sands carries database reference attribution Misonne (1958), identifier ref:19106. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+Archived PBDB field scm (source-language text; not translated or interpreted):
+age after Louwye et al. 2000, p. 387.
+
+- Occurrence occ:545726; PBDB collection col:57138. Locality cnm=Saint-Nicolas; place fields cc2=BE, stp=Oost-Vlaanderen. Recorded age bounds: eag 5.333 Ma; lag 2.58 Ma; PBDB interval fields oei=Pliocene. Recorded attribution Van Beneden 1872; PBDB reference ref:12326.
+
+- Occurrence occ:622556; PBDB collection col:66960. Locality cnm=Deurne (Fort 1), Deurne Sand; place fields cc2=BE, stp=Antwerpen. Recorded age bounds: eag 11.63 Ma; lag 7.246 Ma; PBDB interval fields oei=Tortonian. Stratigraphic fields sfm=Diest. Recorded attribution Misonne 1958; PBDB reference ref:19106.
+
+## Age bounds on the recorded occurrences {#s-157d9f1368}
+Across these selected PBDB rows, the largest recorded eag=15.98 Ma in occ:622635; the smallest recorded lag=2.58 Ma in occ:545726. These values are age bounds on named database records, not a continuous record between them and not dates of the species' origin, extinction, or lifespan. Each row keeps its own eag and lag values above.
+
+## Material and coordinate fields {#s-894e4c04a2}
+The page keeps occurrence IDs, collection IDs, and material notes distinct. A PBDB collection ID is not an individual specimen ID. Where the source row supplies them, its identification, material, abundance, and coordinate/model fields are transcribed below without turning a collection-level note into a claim about every fossil.
+
+- occ:622635: PBDB original-identification field idn=Plesiocetus hupschii; PBDB taxon-name field tna=Plesiocetopsis hupschii; PBDB locality-coordinate fields lng=4.433333, lat=51.213333; paleocoordinate/model fields pm1=gplates, pln=6.74, pla=48.73.
+- occ:545726: PBDB original-identification field idn=Cetotherium hupschii; PBDB taxon-name field tna=Plesiocetopsis hupschii; PBDB locality-coordinate fields lng=5.538056, lat=50.630554; paleocoordinate/model fields pm1=gplates, pln=6.16, pla=49.95.
+- occ:622556: PBDB original-identification field idn=Plesiocetus hupschi; PBDB taxon-name field tna=Plesiocetopsis hupschii; PBDB locality-coordinate fields lng=4.461667, lat=51.215279; paleocoordinate/model fields pm1=gplates, pln=5.94, pla=49.66.
+
+## References attached to each record {#s-5969915b84}
+The archived guide links the rows to 4 distinct PBDB reference IDs using the external ref: namespace. The highlighted records retain their own database author/year and reference fields; these attributions are not a completed literature review.
+
+- occ:622635: Recorded attribution Misonne 1958; PBDB reference ref:19106.
+- occ:545726: Recorded attribution Van Beneden 1872; PBDB reference ref:12326.
+- occ:622556: Recorded attribution Misonne 1958; PBDB reference ref:19106.
 
 ## Evidence limits {#s-2adc55668d}
 This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+
+PBDB occurrence record limitations:
+This is a guide to 5 selected PBDB occurrence rows in a snapshot dated 2026-10-02, not a species monograph. A locality and an age interval describe their database records; they do not establish a complete geographic range, continuous presence through time, ecology, behavior, or population size. Collection IDs, occurrence IDs, specimen notes, and any reported abundance units remain separate. Locality-coordinate fields and paleocoordinate/model fields are retained as distinct source fields. The listed reference attributions have not been treated as a full-text review.
 

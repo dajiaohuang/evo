@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-c1c56d26ec}
+## 记录分类与直接上级关系 {#s-c1c56d26ec}
+COL26.8 将 Heremites 记录为属；其直接上级记录为 Mabuyinae。
+
 Heremites 的本批 ReptTraits 阅读路径包含 3 条同名同科、有逐性状出处的物种资料，可从 Heremites auratus、Heremites septemtaeniatus、Heremites vittatus 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-a76fb34e85}

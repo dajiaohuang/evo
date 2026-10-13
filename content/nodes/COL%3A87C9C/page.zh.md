@@ -1,4 +1,6 @@
-## 从有性状记录的物种开始 {#s-a4fe1a30a6}
+## 记录分类与直接上级关系 {#s-a4fe1a30a6}
+COL26.8 将 Psammophiidae 记录为科；其直接上级记录为 Alethinophidia。
+
 Psammophiidae 的本批 ReptTraits 阅读路径包含 35 条同名同科、有逐性状出处的物种资料，可从 Dipsina multimaculata、Hemirhagerrhis hildebrandtii、Hemirhagerrhis kelleri、Hemirhagerrhis nototaenia、Hemirhagerrhis viperina 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 比较前先看测量定义 {#s-598b41c348}
@@ -10,8 +12,8 @@ Psammophiidae 的本批 ReptTraits 阅读路径包含 35 条同名同科、有�
 ## 部分后代条目的引用缺口 {#s-c8e7f1f843}
 这条 ReptTraits 阅读路径中有 1 个已写物种条目的部分字段需要核实引用范围。所涉字段已从确定性状正文中撤下，物种页记录具体字段与引用标签；路径数量仅计资料页面，不计性状完整完成。
 
-## 从有性状记录的物种开始 {#s-de4c455556}
-Psammophiidae 的本批 ReptTraits 阅读路径包含 17 条同名同科、有逐性状出处的物种资料，可从 [Kladirostratus acutus](Kladirostratus/Kladirostratus_acutus/page.zh.md)、[Kladirostratus togoensis](Kladirostratus/Kladirostratus_togoensis/page.zh.md)、[Mimophis mahfalensis](Mimophis/Mimophis_mahfalensis/page.zh.md)、[Psammophis afroccidentalis](Psammophis/Psammophis_afroccidentalis/page.zh.md)、[Psammophis angolensis](Psammophis/Psammophis_angolensis/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+## 记录分类与成员材料 {#s-de4c455556}
+Psammophiidae 的本批 ReptTraits 阅读路径包含 17 条同名同科、有逐性状出处的物种资料，可从 Kladirostratus acutus、Kladirostratus togoensis、Mimophis mahfalensis、Psammophis afroccidentalis、Psammophis angolensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
 
 ## 按现有字段选择比较材料 {#s-ac5ed79803}
 本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。

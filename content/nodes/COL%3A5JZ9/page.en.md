@@ -1,4 +1,6 @@
-## What do the historical life-history records cover? {#s-4ebb6acf12}
+## Recorded classification and direct parent {#s-4ebb6acf12}
+COL26.8 records Madromys at genus rank, with Murinae as its direct parent.
+
 The pinned COL26.8 classification places *Madromys* in the mouse family Muridae. One historical life-history entry is linked to the genus, for *Madromys blanfordi*. Three fields each have one record: adult body mass, young per litter or eggs per clutch, and the age when young begin relying on food other than their mother’s milk. These counts describe the records available here, not every currently accepted species in the genus.
 
 ## What do the feeding and activity entries mean? {#s-5d37f2221c}

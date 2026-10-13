@@ -1,4 +1,6 @@
-## Choose comparison pages by life-history fields {#s-9834025ba3}
+## Recorded classification and direct parent {#s-9834025ba3}
+COL26.8 records Psiloscops at genus rank, with Striginae as its direct parent.
+
 The Psiloscops route links to one historical life-history account; begin with Psiloscops flammeolus. The more frequently represented fields are adult body mass (one entry), female maturity field (defined by the source as age at first conception) (one entry), offspring per litter or eggs per clutch (one entry), mass at birth or hatching (one entry). These counts describe records on this route, not every accepted descendant. Check each field’s event, unit, and source before comparing values.
 
 ## Life-history evidence limits {#s-51cde7a763}
